@@ -1,0 +1,2468 @@
+﻿{
+  "modulo": "Mod. Específico: Sector Pesquero",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Presentación",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Hasta ahora en los módulos anteriores has visto todo lo relacionado con la Higiene y Seguridad Alimentaria de forma amplia, pero de forma genérica. En este Módulo vas a poder ampliar la información vista anteriormente pero <b>enfocada</b> exclusivamente al <b>Sector de la Pesca</b>, desde las alteraciones más comunes que sufren estos productos hasta los peligros más específicos."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/pezPresentacion.jpg"
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Productos pesqueros",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "bounceInRight",
+
+          "texto": "Los productos pesqueros se caracterizan por la gran <b>variedad y diversidad</b> de productos y especies que los constituyen. Esta diversificación ha seguido aumentando debido a la liberación de los mercados y al desarrollo de nuevas tecnologías de conservación y elaboración de los alimentos, alcanzando la práctica totalidad de especies comercializadas en todo el mundo."
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInLeft",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Dentro de los productos pesqueros se pueden distinguir:",
+              "contenido": [
+                {
+                  "punto": "<b>Pescados</b>"
+                },
+                {
+                  "punto": "<b>Marisco</b> (a los crustáceos y moluscos con concha se les suele incluir dentro del término marisco):",
+                  "contenido": [
+                    {
+                      "punto": "<b>Crustáceos</b> (gambas, cigalas, langostinos...)"
+                    },
+                    {
+                      "punto": "<b>Moluscos</b>:",
+                      "contenido": [
+                        {
+                          "punto": "Con concha: almejas, mejillones, ostras..."
+                        },
+                        {
+                          "punto": "Sin concha:  calamares, pulpos..."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/paella.jpg"
+            }
+
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "El Pescado",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInDown",
+          "texto": "El pescado es un alimento <b>básico y fundamental</b> en nuestra alimentación, constituyendo uno de los pilares fundamentales en la dieta equilibrada (cuyo modelo más conocido es la dieta mediterránea), protectora de nuestra salud y bienestar. El hábitat o entorno en que se desarrollan las especies condiciona su <b>sabor, textura y propiedades</b> y puesto que es el <b>agua</b> el medio en el que se desenvuelven, desarrollan y reproducen, éste será el medio que determinará los dos grandes grupos en los que podemos dividirlos:"
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "lista",
+              "subclase": "numeros",
+              "contenido": [
+                {
+                  "punto": "Pescados de agua <b>dulce</b>: Son aquellos que proceden de <b>ríos, arroyos y lagos</b>. En términos generales, se considera a estos pescados más “sosos” y en algunos casos incorporan, además, el sabor propio del entorno en que han vivido. Desde el punto de vista de consumo, son minoría."
+                },
+                {
+                  "punto": "Pescados de agua <b>salada</b>: Son los que proceden del mar, medio más rico en nutrientes, lo que en general les confiere un  sabor más potente (“a mar”). Desde el punto de vista de consumo, son mayoría."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/pescadoPlata.jpg",
+              "ancho": 400
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "animacion": "fadeInUp",
+          "subclase": "exclamacion",
+          "texto": "Hay algunas especies, como el <b>salmón</b> y la <b>anguila</b>, que comparten su vida en ambos medios."
+        }
+      ]
+    },
+    {
+      "titulo": "El Pescado (Cont.)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "flipInX",
+          "texto": "Desde el punto de vista <b>nutricional</b>, el pescado tiene una composición parecida a la de la carne, si bien existen marcadas diferencias, como es la composición de las <b>grasas</b>, con una proporción mucho menor de grasas saturadas (grasas “malas”) que la carne. La composición nutritiva y el valor energético difieren según especie e incluso dentro de una misma especie pueden variar según otros <b>factores</b> como son la edad de la pieza, el hábitat donde vive, la temperatura del agua, la alimentación recibida, la época de captura, estación del año, etc."
+        },
+        {
+          "clase": "texto",
+          "subclase": "centro",
+          "animacion": "flipInX",
+          "texto": "<b>Composición química del pescado<b/>"
+        },
+        {
+          "clase": "tabla",
+          "subclase": "centro",
+          "animacion": "flipInX",
+          "filaTitulos": [
+            { "titulo": "Componente" },
+            { "titulo": "Se muestran valores medios aproximados, ya que depende de múltiples factores: especie, edad, medio en el que vive, alimentación, época del año..." }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                { "texto": "Agua" },
+                { "texto": "60-80%" }
+
+              ]
+            },
+            {
+              "fila": [
+                { "texto": "Proteínas" },
+                { "texto": "16-25% " }
+              ]
+            },
+            {
+              "fila": [
+                { "texto": "Grasas" },
+                { "texto": "Variable: 0,1% hasta 15% " }
+              ]
+            },
+            {
+              "fila": [
+                { "texto": "Vitaminas" },
+                { "texto": "Vitaminas del grupo B (B1, B2, B3 y B12) Vitamina A y Vitamina D se encuentran principalmente en pescados grasos" }
+              ]
+            },
+            {
+              "fila": [
+                { "texto": "Minerales " },
+                { "texto": "Fósforo, Potasio, Sodio, Calcio, Magnesio, Hierro y  Yodo (los pescados de agua marina son más ricos en sodio y yodo que los de agua dulce)" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Composición química",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "animacion": "lightSpeedIn",
+          "imagen": "img/modPes/molecula.svg",
+          "ancho": 300
+        },
+        {
+          "clase": "acordeon",
+          "animacion": "lightSpeedIn",
+          "contenido": [
+            {
+              "titulo": "Agua",
+              "texto": "Es el <b>principal</b> componente y es inversamente proporcional al contenido <b>graso</b> (cuando aumenta uno, disminuye el otro). En los pescados magros la proporción de agua se encuentra entre el 75-80% y en los pescados grasos puede llegar a valores inferiores al 75% (depende de la especie y de la época del año)."
+            },
+            {
+              "titulo": "Proteínas",
+              "texto": "Las proteínas del pescado y marisco son de alto valor biológico, es decir, son proteínas <b>fácilmente asimilables</b> por nuestro organismo y nos aportan todos los aminoácidos esenciales (los que deben ser suministrados por la dieta ya que el cuerpo humano no es capaz de producir o lo hace pero no en cantidad suficiente). El tipo de proteínas del pescado es lo que determina su textura o consistencia, su digestibilidad, su conservación y los cambios de sabor y color que se suceden en el pescado desde su pesca hasta su llegada al consumidor final.<br><br>La carne de pescado contiene menos proporción de una proteína llamada <b>colágeno</b> (confiere firmeza y dureza) por lo que resulta más tierna y más fácil de digerir que la carne o el marisco (ambos con mayor proporción de colágeno). Además el colágeno del pescado se convierte más fácilmente en gelatina con el calentamiento."
+            },
+            {
+              "titulo": "Grasas",
+              "texto": "Van a ser responsables del <b>aporte</b> calórico del pescado ya que los hidratos de carbono no son representativos desde un punto de vista nutricional (suponen menos del 1%). El contenido en grasa del pescado es muy <b>variable</b>. Según la cantidad de grasa se establece una clasificación del pescado en:<ul><li>Pescado <b>blanco o magro</b>: contenido en grasa inferior al 3%. La mayoría tiene la carne blanca.</li><li>Pescado <b>semigraso</b>: valores comprendidos entre el 3% y el 5 %. Realmente no existen pescados semigrasos como tales, sino que dependiendo de diversos factores, un pescado azul o blanco se convierte en semigraso por pérdida o ganancia de materia grasa de su cuerpo</li><li>Pescado <b>graso</b>: valores superiores al 5%. La cantidad de grasa influye en la coloración, así que gran parte de los pescados de esta categoría tienen coloración externa azul (posiblemente este sea el motivo de que también se llame pescado azul).</li></ul>El <b>contenido</b> en grasa varía mucho entre una especie y otra, e incluso dentro de la misma especie también cambia según diversos factores, como pueden ser:<ul><li><b>Alimentación</b>: tanto su disponibilidad como las características de la misma.</li><li><b>Hábitat</b> o entorno en el que viven: los pescados de agua dulce suelen ser menos grasos que los de agua marina. Aparte, también influye la temperatura del agua (la grasa evita la congelación, por lo que peces de aguas frías tendrán más grasa).</li><li><b>Ciclo de vida</b>: la grasa en el pez actúa como reserva de energía, por lo que acumulan grasa antes del desove. Por otro lado el pescado blanco encuentra cerca su alimento, por lo que no necesita desplazarse y no necesita acumular grasa. El pescado azul hace grandes viajes y por eso debe acumular grasa (cuanto mayor sea el desplazamiento mayor será el depósito de grasa que tenga que acumular).</li></ul>Hay que hacer mención especial al tipo de grasa de los pescados (principalmente del pescado azul) que se diferencia de la de otros alimentos de origen animal por su abundante contenido en ácidos grasos poliinsaturados (entre los que destacan el <b>Omega 3</b> y el <b>Omega 6</b>) y monoinsaturados (“grasas buenas”) y en menor proporción los ácidos grasos saturados (“grasas malas”). Los ácidos grasos Omega 3 están relacionados con la prevención y tratamiento de las enfermedades cardiovasculares así como de los factores que pueden desencadenarlas (colesterol y/o triglicéridos elevados en sangre)."
+            },
+            {
+              "titulo": "Vitaminas",
+              "texto": "Destacan las vitaminas del <b>grupo B</b> (B1, B2, B3 y B12). También es significativo el aporte de las Vitaminas A y D y, aunque en menor proporción, la Vitamina E  (éstas últimas principalmente se encuentran almacenadas en el hígado). Las vitaminas A, D y E son vitaminas <b>liposolubles</b>, es decir se almacenan en los tejidos grasos (principalmente hígado) y por eso su contenido es más significativo en los pescados grasos."
+            },
+            {
+              "titulo": "Minerales",
+              "texto": "El pescado aporta cantidad importante de minerales, entre los que destacan el <b>fósforo, potasio, sodio, magnesio, hierro y yodo</b>, entre otros, aunque muy variable según se trate de pescado de agua dulce o de mar y si se considera solamente el músculo o también la piel y las espinas (en cuyo caso tiene importancia el aporte de calcio). El pescado marino es más rico en sodio, yodo y cloro que el de agua dulce."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "El marisco",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "rotateInUpRight",
+          "contenido": [
+
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/marisco.jpg"
+            },
+            {
+              "clase": "lista",
+              "titulo": "Los <b>mariscos</b> son aquellos animales invertebrados comestibles que tienen en el agua su medio normal de vida. Normalmente se consumen moluscos y crustáceos. En general, la composición química de los mariscos es similar a la de los pescados magros.",
+              "contenido": [
+                {
+                  "punto": "El <b>agua</b> es el componente mayoritario, siendo su composición de un 75-80%."
+                },
+                {
+                  "punto": "En los moluscos el porcentaje de <b>proteína</b> oscila entre el 10-20%; en los crustáceos es superior, del orden del 16-25%."
+                },
+                {
+                  "punto": "El contenido en <b>grasa</b> en el marisco es bajo, constituyendo de un 0,5 a un 2% de la fracción comestible en moluscos y entre el 2-5% en crustáceos y, al igual que en el pescado, también abundan los ácidos grasos insaturados como el Omega3. Hay que destacar que <b>algunos</b> crustáceos y moluscos sin concha contienen un porcentaje nada despreciable de <b>colesterol</b>, sin embargo debido a la concentración de ácidos grasos insaturados y su escaso contenido en ácidos grasos saturados, la capacidad de aumentar el nivel de colesterol sanguíneo es muy inferior a la de otros alimentos."
+                },
+                {
+                  "punto": "Al igual que en los pescados, la presencia de <b>hidratos de carbono</b> no es importante, si bien algunos moluscos con concha (ostras, mejillones) tienen cantidades significativas."
+                },
+                {
+                  "punto": "En cuanto al contenido de <b>minerales</b> es destacable el aporte de <b>hierro</b> de almejas, chirlas, berberechos, ostras y mejillones."
+                },
+                {
+                  "punto": "Las vitaminas predominantes son las del <b>grupo B</b>, y no son muy significativas las vitaminas A, D y E."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Alteraciones: Físico-químicas",
+      "fondo": "img/modPes/pecesPiscina.jpg",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "animacion": "slideInLeft",
+              "subclase": "recuadro",
+              "texto": "Pescados y mariscos son muy <b>perecederos</b> (especialmente estos últimos). Esto es debido a su composición, contenido alto en agua y pH, el pescado reúne todas las características idóneas para la multiplicación de los microorganismos, y por dicho motivo es uno de los alimentos más perecederos y más susceptible a la alteración, más incluso que la carne. Las <b>alteraciones</b> del pescado se deben por un lado a su propia composición y a la interacción con factores físicos (luz, temperatura...) o factores químicos (oxidación, acidificación...) o microbiológicos (bacterias alterantes)."
+            },
+            {
+              "clase": "lista",
+              "animacion": "slideInRight",
+              "subclase": "recuadro",
+              "titulo": "Las alteraciones más frecuentes (sin tener en cuenta las causadas por microorganismos) son:",
+              "contenido": [
+                {
+                  "punto": "<b>Rancidez oxidativa</b>. Consiste en la oxidación de las <b>grasas</b> al exponerlas al <b>oxígeno</b> del aire. La consecuencia es la producción de un olor, aspecto y sabor desagradables. Este proceso se acelera con las altas temperaturas, la luz y determinadas sales. Hay que tener en cuenta que las grasas <b>insaturadas</b> (consideradas más beneficiosas para la salud) se oxidan y se vuelven rancias con mayor facilidad que las <b>saturadas</b> (consideradas menos beneficiosas), por ese motivo el pescado azul se degrada más rápidamente que el pescado blanco."
+                },
+                {
+                  "punto": "<b>Quemadura del frío</b>. Si durante el almacenamiento en refrigeración (o congelación) la humedad del entorno es baja (ambientes <b>secos</b>) los alimentos ceden su agua para equilibrar el ambiente y combatir la sequedad lo que provoca una pérdida de humedad en algunas zonas y se produce la quemadura del frío."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "titulo": "Alteraciones: Microorganismos",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "zoomIn",
+          "texto": "En cuanto a las alteraciones producidas por <b>microorganismos</b>, hay que tener en cuenta que la flora bacteriana de los pescados recién capturados depende del <b>hábitat</b> de captura (es decir, dependerá de la contaminación del agua de ese entorno) y que los pescados capturados en aguas muy frías contienen menor número de microorganismos que aquellos capturados en aguas más cálidas.<br><br>Muchos de estos microorganismos son bacterias <b>resistentes</b> al frío (psicrófilas) cuya temperatura óptima de crecimiento es de 15ºC, pero que son capaces de desarrollarse lentamente a temperaturas de refrigeración, por lo que se produce un inicio temprano de la descomposición."
+        },
+        {
+
+          "clase": "tabs",
+          "animacion": "zoomIn",
+          "contenido": [
+            {
+              "titulo": "Alteración",
+
+              "texto": "La alteración del pescado por la acción de los microorganismos dependerá de la <b>zona</b> en la que éstos se encuentren (superficies externas como son la piel y las agallas o en la cavidad abdominal si se trata de pescado entero, o en la superficie del músculo o en la parte profunda si se presenta en cortes o rodajas -o si es pescado entero pero presenta perforaciones, lesiones o desgarros) del <b>tipo</b> de microorganismo (microorganismos del hábitat de procedencia o debidos a contaminaciones posteriores tras la captura) y de la <b>cantidad</b> inicial."
+            },
+            {
+
+
+              "titulo": "Efectos",
+              "texto": "Los principales <b>efectos</b> que se pueden apreciar en la alteración del pescado son:<ul><li><b>Mucosidad</b> exterior. Es una alteración que se manifiesta con una especie de limo o mucosidad en la superficie del pescado, normalmente de color blanquecino.</li><li><b>Coloraciones o brillos anormales</b>. Bacterias, hongos y levaduras pueden colonizar el pescado originando manchas de diversas tonalidades según de qué microorganismo se trate (azul-verdosas, amarillentas, rosado o rojos, blanco, negruzco…).</li><li>Olores y sabores <b>desagradables</b> (compuestos amoniacales).</li><li>Alteración en la <b>firmeza</b> de la carne del pescado.</li><li>Putrefacción</li></ul>",
+              "imagen": "img/modPes/pescado_malo.jpg",
+              "ancho": 300
+                }
+             
+            
+          ]
+        },
+        {
+          "clase": "icono",
+          "animacion": "zoomIn",
+
+          "subclase": "exclamacion",
+          "texto": "Todos estos efectos provocan el <b>rechazo</b> del producto, por lo que no deberían ser causa de <b>enfermedad alimentaria</b>."
+        }
+      ]
+    },
+    {
+      "titulo": "Frescura del pescado",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "jello",
+          "texto": "La <b>calidad</b> del pescado viene condicionada desde el momento de la captura por diversos factores que se inician en el propio hábitat del pez, pasando por la forma de captura empleada y la habilidad de los pescadores (lesiones durante la captura, desgarros en piel y carne...), la calidad en el transporte y almacenamiento (continuidad de la cadena de frío, contaminaciones...) Las características de <b>frescura</b> de los pescados son más evidentes en los <b>ojos</b> y en las <b>agallas</b> o branquias. De forma general las características que se aprecian a simple vista son:"
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "La <b>piel</b> debe ser brillante, de aspecto húmedo y con los colores vivos, sin decoloración. Hay clara diferencia entre la superficie dorsal y ventral."
+                },
+                {
+                  "punto": "La <b>mucosidad</b> de la piel debe ser acuosa y transparente. La excesiva presencia de sustancia mucosa en la superficie implicará una mala conservación."
+                },
+                {
+                  "punto": "Las <b>escamas</b> han de estar bien adheridas y ser difíciles de desprender."
+                },
+                {
+                  "punto": "Los <b>ojos</b> deben ser convexos (abombados) con las pupilas negras o azuladas y brillantes y la córnea transparente. Ojos hundidos o córneas opacas o blanquecinas implican falta de frescura."
+                }
+              ]
+            },
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Las <b>branquias</b> o agallas deben presentar un color vivo sin mucosidad."
+                },
+                {
+                  "punto": "El <b>peritoneo</b> (membrana que envuelve la cavidad  abdominal) en el pescado eviscerado será liso, brillante y difícil de separara de la carne."
+                },
+                {
+                  "punto": "La <b>carne</b> debe ser firme, elástica y con la superficie lisa. La carne y el cuerpo fácilmente deformables indican falta de frescura."
+                },
+                {
+                  "punto": "El <b>olor</b> de las branquias y de la cavidad abdominal será a algas marinas, excepto en algunos peces planos que será a aceite fresco, pimienta o con olor a tierra. Según pasa el tiempo, el olor se vuelve más amoniacal."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "animacion": "jello",
+          "imagen": "img/modPes/frescuraPescado.png",
+          "ancho": 800
+        }
+      ]
+    },
+    {
+      "titulo": "Grado de frescura",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "bounce",
+          "texto": "Las características de cada pescado son diferentes, por ello, el estudio para identificar el grado de frescura debe hacerse en comparación con otro de la misma especie."
+        },
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Desliza el ratón sobre los recuadros para obtener más información."
+        },
+        {
+          "clase": "mapaImagen",         
+          "animacion": "fadeInRight",
+          "imagen": "img/modPes/pezZonas.jpg",
+          "ancho": 900,
+          "id": "pezComponentes",
+          "mapa": [
+            {
+              "forma": "rect",
+              "xIni": 100,
+              "yIni": 120,
+              "xFin": 160,
+              "yFin": 170,
+              "texto": "Ojos: deben ser esféricos, salientes en la mayor parte, transparentes y de córnea limpia.",
+              "titulo": "Ojos"
+            },
+            {
+              "forma": "rect",
+              "xIni": 180,
+              "yIni": 200,
+              "xFin": 255,
+              "yFin": 260,
+              "texto": "Agallas: deben de ser de color vivo y limpio, rojo vivo en la mayor parte de las especies y rosas en otras. Suaves y resbaladizas al tacto.",
+              "titulo":  "Agallas"
+            },
+            {
+              "forma": "rect",
+              "xIni": 340,
+              "yIni": 80,
+              "xFin": 405,
+              "yFin": 170,
+              "texto": "Piel o escamas: La piel es resbaladiza, suarve, brillante y limpia, se separa de la carne con dificultad. Las escamas deben ser abundantes y difíciles de retirar en algunas especies; en otras, las escamas flojas se quitan con facilidad. Los recién pescados son muy resbaladizos debido a las materias viscosas que producen.",
+              "titulo":  "Piel o escamas"
+            },
+            {
+              "forma": "rect",
+              "xIni": 320,
+              "yIni": 280,
+              "xFin": 485,
+              "yFin": 345,
+              "texto": "Cavidad abdominal: la telilla interna que la cubre debe ser brillante, limpia, suave y se retirará con dificultad.",
+              "titulo": "Cavidad abdominal"
+            },
+            {
+              "forma": "rect",
+              "xIni": 500,
+              "yIni": 85,
+              "xFin": 615,
+              "yFin": 150,
+              "texto": "Espina central: la telilla interna que la cubre debe ser brillante, limpia, suave y se retirará con dificultad.",
+              "titulo": "Espina central"
+            },
+            {
+              "forma": "rect",
+              "xIni": 450,
+              "yIni": 190,
+              "xFin": 570,
+              "yFin": 260,
+              "titulo": "Carne",
+              "texto": "Carne: Debe ser firme y consistente. Su color tiene características diferentes según la especie."
+              
+            },
+            {
+              "forma": "rect",
+              "xIni": 710,
+              "yIni": 80,
+              "xFin": 765,
+              "yFin": 125,
+              "titulo": "Olor",
+              "texto": "Olor: Tiene que oler a humedad limpia, a mar o agua dulce, según la clase."
+            }
+
+          ]
+        },
+        {
+          "clase": "tabla",
+                    "animacion": "fadeInLeft",
+          "filaTitulos": [
+            {
+              "titulo": "OJOS"
+            },
+            {
+              "titulo": "Forma"
+            },
+            {
+              "titulo": "Córnea"
+            },
+            {
+              "titulo": "Pupila"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "MUY FRESCO"
+                },
+                {
+                  "texto": "Convexa"
+                },
+                {
+                  "texto": "Transparente"
+                },
+                {
+                  "texto": "Negra, brillante"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "FRESCO"
+                },
+                {
+                  "texto": "Ligeramente aplastada"
+                },
+                {
+                  "texto": "Ligeramente opaca"
+                },
+                {
+                  "texto": "Negra marchita"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "POCO FRESCO"
+                },
+                {
+                  "texto": "Aplastada o plana"
+                },
+                {
+                  "texto": "Opaca"
+                },
+                {
+                  "texto": "Opaca"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "MAL ESTADO"
+                },
+                {
+                  "texto": "Cóncava (en el centro)"
+                },
+                {
+                  "texto": "Lechosa"
+                },
+                {
+                  "texto": "Gris"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "AGALLAS"
+            },
+            {
+              "titulo": "Color"
+            },
+            {
+              "titulo": "Mucus"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "MUY FRESCO"
+                },
+                {
+                  "texto": "Brillante"
+                },
+                {
+                  "texto": "Sin mucus"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "FRESCO"
+                },
+                {
+                  "texto": "Menos coloreado"
+                },
+                {
+                  "texto": "Se observa mucus claro"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "POCO FRESCO"
+                },
+                {
+                  "texto": "Decolorándose"
+                },
+                {
+                  "texto": "Opaco"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "MAL ESTADO"
+                },
+                {
+                  "texto": "Amarillento"
+                },
+                {
+                  "texto": "Lechoso"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "PIEL O ESCAMAS"
+            },
+            {
+              "titulo": "Color de la piel"
+            },
+            {
+              "titulo": "Mucus en la piel"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "MUY FRESCO"
+                },
+                {
+                  "texto": "Viva y tornasolada"
+                },
+                {
+                  "texto": "Acuoso, transparente"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "FRESCO"
+                },
+                {
+                  "texto": "Viva, pero sin lustre "
+                },
+                {
+                  "texto": "Ligeramente turbio"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "POCO FRESCO"
+                },
+                {
+                  "texto": "Marchita, decolorándose  "
+                },
+                {
+                  "texto": "Lechoso"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "MAL ESTADO"
+                },
+                {
+                  "texto": "Marchita"
+                },
+                {
+                  "texto": "Opaco"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "CAVIDAD ABDOMINAL"
+            },
+            {
+              "titulo": "Corte de la carne"
+            },
+            {
+              "titulo": "Órganos y sangre"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "MUY FRESCO"
+                },
+                {
+                  "texto": "Azulada, lisa y brillante "
+                },
+                {
+                  "texto": "Rojo brillante"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "FRESCO"
+                },
+                {
+                  "texto": "Aterciopelada, apagada"
+                },
+                {
+                  "texto": "Órganos rojo mate"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "POCO FRESCO"
+                },
+                {
+                  "texto": "Ligeramente opaca"
+                },
+                {
+                  "texto": "Rojo pálido"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "MAL ESTADO"
+                },
+                {
+                  "texto": "Opaca"
+                },
+                {
+                  "texto": "Tonos marrones"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "ESPINA CENTRAL"
+            },
+            {
+              "titulo": "Espina vertebral"
+            },
+            {
+              "titulo": "Color a su largo"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "MUY FRESCO"
+                },
+                {
+                  "texto": "Se rompe al separarla"
+                },
+                {
+                  "texto": "Sin coloración"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "FRESCO"
+                },
+                {
+                  "texto": "Adherente"
+                },
+                {
+                  "texto": "Ligeramente rosado"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "POCO FRESCO"
+                },
+                {
+                  "texto": "Poco adherente"
+                },
+                {
+                  "texto": "Rosado"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "MAL ESTADO"
+                },
+                {
+                  "texto": "No adherente"
+                },
+                {
+                  "texto": "Rojo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "CARNE"
+            },
+            {
+              "titulo": "Al tacto"
+            },
+            {
+              "titulo": "Superficie"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "MUY FRESCO"
+                },
+                {
+                  "texto": "Firme y elástica"
+                },
+                {
+                  "texto": "Lisa"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "FRESCO"
+                },
+                {
+                  "texto": "Elasticidad disminuida"
+                },
+                {
+                  "texto": "Cerosa"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "POCO FRESCO"
+                },
+                {
+                  "texto": "Ligeramente blanda"
+                },
+                {
+                  "texto": "Cerosa y marchita"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "MAL ESTADO"
+                },
+                {
+                  "texto": "Blanda"
+                },
+                {
+                  "texto": "Granulosa"
+                }
+              ]
+            }
+          ]
+        },
+                        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": ""
+            },
+            {
+              "titulo": "Olor"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "MUY FRESCO"
+                },
+                {
+                  "texto": "Alga marina"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "FRESCO"
+                },
+                {
+                  "texto": "Ni alga ni malo"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "POCO FRESCO"
+                },
+                {
+                  "texto": "Algo agrio"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "MAL ESTADO"
+                },
+                {
+                  "texto": "Agrio"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Frescura del marisco",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "bounceInDown",
+          "texto": "Cada grupo de <b>marisco</b> tiene unas características fáciles de apreciar y aunque hay que tener en cuenta muchos factores para determinar la frescura, ya que dependerá de la <b>especie</b>, se pueden hacer las siguientes indicaciones:"
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInUp",
+          "contenido": [
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Los crustáceos que se venden <b>vivos</b> suelen tener la capacidad para caminar fuera del agua. Por tanto, deben <b>moverse</b> instintivamente cuando se agarran."
+                },
+                {
+                  "punto": "Los refrigerados como gambas y langostinos, deben tener cabeza <b>translúcida</b> y un caparazón <b>suave</b> al tacto. Los ojos serán negros y brillantes."
+
+                },
+                {
+                  "punto": "Deben desprender un <b>olor</b> agradable."
+                },
+                {
+                  "punto": "Las piezas deben estar <b>intactas</b> (no deben tener desprendimientos de cola, patas o cabeza)."
+                },
+                {
+                  "punto": "El <b>caparazón</b> debe estar duro, brillante y de color uniforme, sin manchas."
+                },
+                {
+                  "punto": "Los moluscos <b>con concha</b> deben estar <b>vivos</b>, tener las valvas firmemente cerradas y en el caso de que estén semiabiertas, deben cerrarse al golpearlas ligeramente. Cuanta más agua tengan en su interior, mayor será la frescura. Han de pesar y no tener sonido a hueco."
+                },
+                {
+                  "punto": "Los moluscos <b>sin concha</b> (pulpo, calamares, sepia) tienen la carne <b>blanca nacarada</b>, firme y brillante, húmeda, suave y resbaladiza. Además la piel está muy adherida a la carne a la que envuelve."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/calamar.jpg"
+            }
+
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Etapas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+                    "animacion": "jello",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/barcoPesquero.jpg"
+            },        {
+          "clase": "texto",
+          "texto": "Los procedimientos de <b>manipulación</b> del pescado fresco, abarcan todas aquellas operaciones cuyo objetivo es mantener la <b>seguridad</b> del alimento y las características de calidad, desde la captura del pescado hasta su consumo. Pescados y mariscos pueden utilizarse como <b>materia prima</b> para industrias procesadoras o directamente para ser vendidos en pescaderías al consumidor. En cualquier caso, las bases de prevención se basan en utilizar sistemas para salvaguardar la seguridad del alimento con el seguimiento de la metodología de <b>análisis de peligros y puntos críticos de control</b> (APPCC) o guías sectoriales adaptadas y con el diseño higiénico de equipos e instalaciones, el control adecuado de tiempo y temperatura durante el procesado, el control de la limpieza y desinfección, así como con las buenas prácticas de manipulación."
+        }
+          ]
+        },
+
+        {
+          "clase": "lista",
+          "animacion": "jello",
+          "subclase": "numeros",
+          "titulo": "Sin entrar, de momento, en mayores detalles, podríamos resumir las etapas de las <b>industrias pesqueras</b> que elaboran o transforman los productos de la pesca en:",
+          "contenido": [
+            {
+              "punto": "<b>Recepción</b> y <b>almacenamiento</b> de materias primas (industrias y pescaderías)."
+            },
+            {
+              "punto": "<b>Exposición</b> para la venta (solamente pescaderías)."
+            },
+            {
+              "punto": "<b>Acondicionamiento</b> (industrias y pescaderías)."
+            },
+            {
+              "punto": "<b>Elaboración/Procesado</b> (solamente industrias)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminación",
+      "fondo": "img/modPes/kois.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "jello",
+          "texto": "Aunque cada una de dichas etapas tendrá unos peligros asociados <b>específicos</b>, vamos a diferenciar <b>dos</b> grandes bloques:"
+        },
+        {
+          "clase": "lista",
+          "subclase": "recuadro",
+          "animacion": "jello",
+          "titulo": "Un primer bloque en el cual se produce la contaminación de pescados y mariscos, que vamos a mencionar para ser conscientes de que ya partimos de un producto con un cierto grado de contaminación y esto nos ha de condicionar para ser lo más rigurosos posibles en las manipulaciones que realicemos posteriormente para no incrementar la misma y, sobre todo, para evitar la multiplicación microbiológica.",
+          "contenido": [
+            {
+              "punto": "<b>Contaminación de origen</b>: debida al <b>hábitat o entorno</b> donde viven los animales o contaminación sufrida durante la captura."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "subclase": "recuadro",
+          "animacion": "jello",
+          "titulo": "Un segundo bloque en el cual se podrán producir nuevas contaminaciones a lo que se suma el peligro de <b>multiplicación bacteriana</b>:",
+          "contenido": [
+            {
+              "punto": "Peligros asociados al <b>almacenamiento y transporte</b>."
+            },
+            {
+              "punto": "Peligros asociados a <b>manipulaciones posteriores</b> (tanto en industrias de elaboración de derivados de la pesca o industrias conserveras o en pescaderías)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminación de origen",
+      "contenido": [
+        {
+          "clase": "tabs",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Contaminación de origen",
+              "texto": "La <b>contaminación de origen</b> es aquella que ya viene en el alimento, y en el caso de pescados y mariscos, cuando se alimentan inevitablemente ingieren agua junto con el alimento y, por tanto, también aquellos <b>microorganismos, toxinas o compuestos</b> que se encuentran en dilución y/o en suspensión en ella. Esto hace que cualquier elemento que se encuentre formando parte del <b>ambiente</b> en que viven, entre en contacto y, en algún caso, se integre en los tejidos, órganos y sistemas de peces y mariscos. Los contaminantes de origen  pueden ser fisicos, químicos o biológicos."
+            },
+            {
+              "titulo": "Físicos",
+              "texto": "Por ejemplo, restos de <b>arena</b> o <b>piedras</b> en el interior de moluscos con concha, presencia de anzuelos en el pescado...",
+              "imagen": "img/modPes/anzuelo.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Químicos",
+              "texto": "<ul><li>Tóxicos <b>naturales</b> inherentes a la especie (el más conocido es el pez globo, cuya toxina es mortal).</li><li><b>Biotoxinas</b> originadas por mala manipulación o conservación (intoxicación histamínica o escombroide).</li><li>Biotoxinas presentes en el <b>medio marino</b> donde vive y se desarrolla el animal (marea roja).</li><li><b>Metales pesados</b> (mercurio, cadmio, plomo, arsénico...).</li><li><b>Hidrocarburos.</b></li><li><b>Residuos</b> de plaguicidas. Antibióticos.</li></ul>",
+              "imagen": "img/modPes/petroleo.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Biológicos",
+              "texto": "<ul>Microorganismos<li>Bacterias</li><li>Parásitos</li><li>Virus</li></ul>",
+              "imagen": "img/modPes/contaminacionBiologica.jpg",
+              "ancho": 300
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "subclase": "ajustarAncho",
+          "animacion": "fadeInLeft",
+          "imagen": "img/modPes/mar.svg"
+        }
+      ]
+    },
+    {
+      "titulo": "Intoxicación",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroEstrecho",
+          "animacion": "flipInX",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Contaminación <b>química</b> originada por mala manipulación y mala conservación: Intoxicación por <b>histamina</b> o intoxicación por <b>escómbridos</b>.<br><br>La histamina es un compuesto presente de forma natural en el organismo, y que puede ser liberado en reacciones alérgicas. Sin embargo, la intoxicación por histamina puede originarse en pescados que presentan <b>alta concentración</b> de un aminoácido (llamado histidina) debido a la acción de las bacterias que lo transforman en histamina. Siempre es debido a una mala manipulación de los alimentos y sobre todo a una <b>mala conservación</b> de los pescados (falta de refrigeración o congelación precoz del pescado con lo que se permite la multiplicación bacteriana)."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/atun.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Una vez formada, la histamina es resistente incluso a temperaturas de esterilización. En la mayoría de los casos, los cuadros clínicos son <b>poco graves</b> y remiten a las pocas horas. Los síntomas aparecen entre varios minutos a pocas horas tras la ingesta del alimento y pueden ser erupciones en la piel,  urticarias, problemas digestivos (náuseas, vómitos, diarrea, dolor abdominal) o circulatorios (hipertensión, edemas, palpitaciones). Los síntomas más <b>graves</b> pueden manifestarse como un episodio alérgico con calambres, sofocos y trastornos respiratorios. La legislación establece la obligatoriedad de mantener los productos de la pesca a temperaturas cercanas a los <b>0ºC</b> durante toda la cadena alimentaria, para evitar la formación de histamina."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "animacion": "flipInX",
+          "subclase": "exclamacion picos",
+          "texto": "Se denomina intoxicación por escómbridos o <b>escombroidosis</b>  porque la familia de peces más frecuentemente involucrada es la de los escómbridos (caballa, atún ,bonito) aunque también puede ser causada por sardinas, arenques, pez espada y boquerones."
+        }
+      ]
+    },
+    {
+      "titulo": "Biotoxinas",
+      "fondo": "img/modPes/algaRoja.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "lightSpeedIn",
+          "texto": "Las <b>biotoxinas marinas</b> son responsables de un número importante de enfermedades asociadas a productos pesqueros (moluscos bivalvos, peces y mariscos). Se originan por un crecimiento explosivo de algas pertenecientes a una o más especies tóxicas dando lugar a concentraciones que pueden incluso colorear la superficie del mar (como por ejemplo el fenómeno de \"marea roja\"). Estas <b>algas unicelulares</b> son ingeridas por los animales acuáticos (y especialmente por los moluscos bivalvos, que se alimentan por filtración) y las toxinas se concentran en sus <b>tejidos</b>. Cuando el hombre consume estos alimentos tóxicos manifiesta un cuadro de intoxicación cuya <b>gravedad</b> dependerá de la <b<cantidad</b> y <b>tipo de toxina</b> ingerida.<br><br>Algunas de estas biotoxinas <b>resisten</b> las <b>temperaturas de cocción</b> (e incluso la depuración) por lo que sólo con el control de la presencia de estos compuestos en el agua por parte tanto de las <b>empresas</b> marisqueras como de las autoridades sanitarias, podremos garantizar la inocuidad de estos mariscos."
+        }
+      ]
+    },
+    {
+      "titulo": "Metales pesados",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "animacion": "rotateInDownRight",
+              "texto": "Muchos metales son esenciales para el correcto funcionamiento de nuestro organismo y tanto su ausencia como su exceso pueden provocar problemas de salud (hierro, magnesio, calcio…). Sin embargo, hay otros metales que no tienen función alguna en nuestro organismo pero pueden ser <b>perjudiciales</b> para la salud, como los <b>metales pesados</b>. Al estar presentes en el medio ambiente, ya sea de forma <b>natural</b>, ya sea por la acción del hombre, es muy difícil evitar que los alimentos estén libres de ellos.<br><br>Los organismos vivos pueden absorber estos compuestos y <b>acumularlos</b> en sus tejidos, y al ser consumidos, pasan al hombre. Casi todos los pescados y mariscos contienen <b>rastros</b> de metales pesados, como son: plomo, estaño, cadmio y especialmente el mercurio.<br><br>El <b>mercurio</b> llega al pescado a través de su alimentación, y se va concentrando a lo largo de toda la cadena alimentaria de tal forma que los últimos eslabones de esta cadena, que son los peces más depredadores (los más <b>grandes</b>) son los que acumulan mayor cantidad de mercurio en sus tejidos grasos (pez espada, atún, tiburón…) y por tanto, presentan mayor toxicidad.<br><br>El <b>efecto</b> de estos metales sobre la salud del consumidor, entre otras muchas:<ul><li>Afecciones de hígado y riñón</li><li>Cefaleas y pérdidas de memoria y de equilibrio</li><li>Efectos cancerígenos</li></ul>"
+            },
+            {
+              "clase": "imagen",
+              "animacion": "rotateInUpRight",
+              "imagen": "img/modPes/metalesPesados.svg"
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías que…</b> en el cuento de Alicia en el País de las Maravillas, uno de los personajes es el Sombrerero Loco y que en esas épocas realmente existía una enfermedad llamada enfermedad del sombrerero loco, causada por el <b>mercurio</b>? La explicación reside en que los sombreros eran una prenda fundamental y el mercurio se utilizaba para transformar las pieles de animales en fieltro y así evitar que se pudrieran. Como los talleres eran generalmente muy pequeños y mal ventilados se producía el envenenamiento del sombrerero.",
+          "imagen": "img/modPes/sombrerero.png",
+          "ancho": 200
+        }
+
+      ]
+    },
+    {
+      "titulo": "Contaminantes químicos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInDown",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "El pescado puede presentar otros <b>contaminantes químicos</b> como son plaguicidas y antibióticos. Los <b>plaguicidas</b> (nombre dado a todo producto químico utilizado para destruir las plagas o controlarlas) pueden alcanzar el medio donde viven los peces y contaminarlo de forma <b>indirecta</b> (por ejemplo por el uso de plaguicidas utilizados en la agricultura que pueden verse arrastrados hasta ríos y mares) o de forma <b>directa</b> (lavado de equipos, envases, descarga de residuos...).<br><br><b>Antibióticos</b> y plaguicidas también se utilizan en los criaderos (piscifactorías) para impedir y tratar enfermedades <b>bacterianas</b> en las especies que se cultivan y, al igual que en otros sectores de la producción animal, las autoridades veterinarias y los piscicultores son los <b>responsables</b> del empleo de antibióticos, siendo necesario respetar los plazos de supresión."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/antibiotico.jpg"
+            }
+
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "animacion": "slideInUp",
+          "texto": "<b>Plazo de supresión</b> es el tiempo necesario mínimo de espera antes de poder comercializar el pescado, tras haber sido tratado con un producto medicamentoso. Este periodo viene determinado en el registro de dicho producto, para asegurar la ausencia de trazas o valores por debajo del <b>Límite Máximo de Residuo</b> (LMR) en los alimentos de origen animal."
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminantes biológicos: Microorganismos",
+      "fondo": "img/modPes/algaVerde.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "zoomIn",
+          "subclase": "recuadro",
+          "texto": "Los <b>microorganismos</b> se encuentran en todas las superficies externas (piel y branquias) así como en intestinos de peces vivos y recién capturados. La cantidad y tipo de microorganismos dependerá del <b>medio ambiente</b> donde se capturan. Así peces de aguas frías y limpias contienen menor número de microorganismos, mientras que en aguas cálidas el número es ligeramente superior. Pescados capturados en aguas contaminadas presentan número elevados de bacterias.<br><br>El <b>músculo</b> de un pez sano o de un pescado recién capturado es <b>estéril</b> (el sistema inmunológico del pez evita que las bacterias crezcan en el músculo). Cuando el pez muere, el sistema inmunológico queda inactivo y las bacterias proliferan libremente, invadiendo el músculo desde la piel y desde el intestino (algunos microorganismos atraviesan las paredes del intestino y llegan a los tejidos internos). Muchas de estas bacterias están acostumbradas a <b>temperaturas bajas</b>, por lo que se reproducen incluso a temperaturas de frío, de ahí que el pescado sea un alimento fácilmente alterable."
+
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminantes biológicos: Bacterias",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "jello",
+          "texto": "Vamos a destacar aquellos <b>microorganismos patógenos</b> más importantes presentes en el medio hídrico en el que viven peces y mariscos, entre los que se incluyen bacterias, virus y parásitos."
+        },
+        {
+          "clase": "acordeonSub",
+          "contenido": [
+            {
+              "titulo": "Bacterias del Género Vibrio",
+              "contenido": [
+                                {
+                  "titulo": "Características generales",
+                  "texto": "Son bacterias propias del agua y especialmente de ambientes marinos, pudiendo llegar a ser en los estuarios (zona donde se mezcla agua marina con agua dulce) los microorganismos predominantes. Son muy sensibles a la desecación, al frío y a las altas temperaturas, por lo que los brotes tienen lugar tras el consumo de pescados o mariscos crudos o insuficientemente cocinados, aumentando el número de casos debidos a la moda actual de consumo de pescado crudo.<br><br>También se han originado brotes debidos a contaminación cruzada entre pescado crudo y alimentos ya cocinados o ensaladas. A diferencia de otras bacterias patógenas, son bacterias que en refrigeración o congelación pueden disminuir notablemente su número o incluso, desaparecer, dependiendo del tiempo de conservación. Las especie de Vibrio más frecuentes en intoxicaciones alimentarias son:"
+                },
+                {
+                  "titulo": "Vibrio cholerae",
+                  "texto": "Causante del <b>cólera</b>, enfermedad diarreica aguda que puede llegar a ser mortal si no se trata y de importancia en países en desarrollo. Debe existir control en aquellos productos que se declaren de riesgo importados de otros países."
+                },
+                {
+                  "titulo": "Vibrio parahaemolyticus",
+                  "texto": "Causante de <b>gastroenteritis</b> (diarrea, dolor abdominal, vómitos, fiebre, dolor de cabeza y escalofríos)."
+                },
+                {
+                  "titulo": "Vibrio vulnificus",
+                  "texto": "Es un microorganismo capaz de atravesar la barrera intestinal, pasando al torrente sanguíneo y de ahí al hígado, donde produce una <b>infección</b> muy severa."
+                }
+              ]
+            },
+            {
+              "titulo": "Clostridium botulinum",
+              "texto": "Esta bacteria ya la hemos definido en el módulo común del curso, y aquí solamente vamos a indicar que las esporas de <i>Clostridium botulinum</i> se encuentran con frecuencia en los <b>sedimentos marinos</b> o lacustres y los peces pueden contaminarse en su hábitat a partir de estos sedimentos.<br><br>Si la conservación del pescado no es adecuada, pueden darse situaciones de <b>anaerobiosis</b> (ausencia de oxígeno) en las que las esporas germinan y producen la toxina botulínica, que como hemos visto se encuentra entre las sustancias más tóxicas conocidas. Generalmente los brotes se asocian al consumo de pescados <b>crudos o semicrudos</b>, conservas caseras de pescado o pescados ahumados sin garantías sanitarias."
+            },
+            {
+              "titulo": "Patógenos fecales",
+              "texto": "Si peces y mariscos viven en un medio contaminado por <b>aguas fecales</b>, pueden presentar patógenos fecales como bacterias (Salmonella o Shigella, por ejemplo) o <b>virus</b> (virus Norwalk o el virus de la Hepatitis A, por ejemplo) procedentes del hombre y animales. Esta presencia resulta más común en especies de <b>agua dulce</b> que en especies marinas."
+            },
+            {
+              "titulo": "Parásitos",
+              "texto": "El pescado puede presentar numerosos parásitos. Muchos de ellos no producen efecto sobre los humanos pero confieren al pescado un aspecto <b>desagradable</b> que los hace inapropiados para su venta. Pero hay unos pocos que sí pueden provocar daño a las personas. Dentro de estos últimos vamos a destacar al <b>anisakis</b>, causante de la enfermedad denominadas anisakiosis o anisakidosis.<br><br>La presencia de larvas de anisakis está descrita en numerosas especies de pescado y cefalópodos (mayormente calamar y sepia). Las formas adultas de este parásito habitan el estómago de mamíferos marinos y los huevos son expulsados por las heces de estos mamíferos. Estos huevos maduran en el mar hasta formar una larva que queda libre en el agua y que puede ser ingerida por pequeños crustáceos del plancton. Estos crustáceos, a su vez, pueden ser devorados por peces marinos y cefalópodos, en los que la larva del anisakis puede migrar desde el intestino a los tejidos, creciendo hasta alcanzar 2-3 centímetros (siendo, por tanto, <b>visibles</b> al ojo humano, aunque pueden pasar desapercibidas).  Por depredación, pueden existir varios pasos de un pez o cefalópodo a otro, pero el ciclo se completa cuando éstos peces o cefalópodos alcanzan de nuevo el estómago de los mamíferos marinos.<br><br>El hombre se convierte en huésped accidental cuando ingiere crudos o insuficientemente cocinados determinados tipos de productos del mar (o acuicultura marina) que albergan estas larvas. En el hombre <b>no son capaces de desarrollarse</b> (y lo normal es que terminen muriendo) pero pueden causar múltiples trastornos digestivos (dolores abdominales, náuseas, vómitos, diarrea, o incluso úlceras)  o reacciones alérgicas."
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Anisakis",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "animacion": "bounce",
+          "texto": "España es el <b>segundo</b> país del mundo con mayor número de intoxicaciones por anisakis, solo superado por <b>Japón</b>."
+
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounce",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "animacion": "bounce",
+              "imagen": "img/modPes/muestraAnisakis.png",
+              "ancho": 500
+            },
+            {
+              "clase": "texto",
+              "texto": "Hay que recordar que los parásitos <b>no</b> se multiplican en los alimentos ni producen toxinas, pero son muy <b>resistentes</b> a las temperaturas de refrigeración, aunque sensibles a tratamientos térmicos y a la congelación.<br><br>Por este motivo, aquellos productos de la pesca que se vayan a consumir <b>crudos</b> o prácticamente crudos (ahumados, salazones, o tratamientos insuficientes para matar el parásito…) han de congelarse durante, al menos, 24 horas, a una temperatura igual o inferior a <b>-20ºC</b> (o -35ºC durante 15 horas).<br><br>Esto no es necesario si estos productos de la pesca han sido o van a someterse a un tratamiento térmico que mate al parásito (mínimo de <b>60ºC</b> en el centro de pieza, aproximadamente 10 minutos). Tampoco si hay datos epidemiológicos disponibles que demuestren la <b>ausencia de parásitos</b> en la zona de captura o zona de cultivo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Transmisión del Anisakis",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "lightSpeedIn",
+          "texto": "Esta es la cadena de transmisión del Anisakis."
+        },
+        {
+          "clase": "imagen",
+                    "animacion": "lightSpeedIn",
+          "imagen": "img/modPes/cadenaAnisakis.svg",
+          "ancho": 1000
+        }
+      ]
+    },
+    {
+      "titulo": "Control captura",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "swing",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/barcas.jpg"
+            },
+            {
+              "clase": "lista",
+              "titulo": "Hay que tener en cuenta que durante la captura deben <b>controlarse</b> unos puntos fundamentales:",
+              "contenido": [
+                {
+                  "punto": "Control y monitorización de las <b>áreas de pesca</b> para evitar presencia de algas tóxicas y contaminación fecal."
+                },
+                {
+                  "punto": "El aporte de contaminación microbiológica del pescado debido al uso de <b>instalaciones o utensilios</b> en condiciones higiénicas deficientes."
+                },
+                {
+                  "punto": "El <b>daño físico</b> que sufra el pescado (magulladuras, aplastamientos, cortes…) que provocarán que los tejidos internos sean ahora accesibles (y por tanto vulnerables)."
+                },
+                {
+                  "punto": "Los <b>productos</b> de la pesca, excepto los que se conserven vivos, deberán someterse a un proceso de refrigeración <b>lo antes posible</b>, o desembarcarse lo antes posible si no es posible refrigerarlos. Esto se debe a que desde el mismo momento en que el pez muere, comienzan a producirse rápidamente cambios que afectan a su <b>calidad y seguridad</b>, y la temperatura es el parámetro fundamental (ya que de ella depende la actividad de los enzimas y de los microorganismos)."
+                }
+              ]
+            }
+
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Medidas preventivas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInRight",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Con el fin de <b>minimizar</b> la contaminación de origen, algunas medidas preventivas a tener en cuenta son:",
+              "contenido": [
+                {
+                  "punto": "Faenar en zonas de <b>calidad de agua</b> satisfactoria."
+                },
+                {
+                  "punto": "Realizar prácticas de <b>captura y faenado</b> correctas:",
+                  "contenido": [
+                    {
+                      "punto": "<b>Evitar</b> aplastamientos, golpes, trasvases bruscos, rozaduras, etc."
+                    },
+                    {
+                      "punto": "No <b>sobrecargar</b> los contenedores."
+                    },
+                    {
+                      "punto": "<b>Manipulación</b> mínima y rápida evitando tiempos de espera."
+                    }
+                  ]
+                },
+                {
+                  "punto": "<b>Barcos/buques</b> en los que se puedan mantener las condiciones de higiene y temperaturas adecuadas:",
+                  "contenido": [
+                    {
+                      "punto": "Mantenimiento adecuado de la <b>temperatura</b> de conservación."
+                    },
+                    {
+                      "punto": "Control de <b>plagas</b>."
+                    },
+                    {
+                      "punto": "<b>Limpieza y desinfección</b> correctas tanto de instalaciones como de utensilios."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/mundoTierra.jpg"
+            }
+            
+
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Medidas preventivas II",
+      "contenido": [
+
+        {
+          "clase": "listaObjetos",
+                    "animacion": "bounceInUp",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/zamburinia.jpg"
+            },
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "<b>Moluscos bivalvos</b> (y especialmente aquellos que pueden comerse crudos y vivos como almejas y ostras) deben someterse a un proceso de <b>depuración</b> mediante el cual se eliminan de su aparato digestivo agentes que puedan ser causa de enfermedad de transmisión alimentaria. La depuración se reconoce por el obligado etiquetado de estos mariscos."
+                },
+                {
+                  "punto": "Los <b>mariscos</b>, al igual que el resto de los productos de la pesca, tienen que estar sometidos permanentemente a una <b>temperatura máxima de 7º C</b>, con lo que se evitan riesgos que pueden poner en peligro la salud de los consumidores y cuyos orígenes son la degradación de los tejidos que componen su cuerpo y la casi paralización de la multiplicación de gérmenes que pudieran existir.",
+                  "contenido": [
+                    {
+                      "punto": "<b>Conservar</b> el pescado siempre a temperaturas cercanas a 0ºC para minimizar el desarrollo bacteriano."
+                    },
+                    {
+                      "punto": "Mantenimiento correcto de los <b>sistemas de frío</b>."
+                    },
+                    {
+                      "punto": "Si se utiliza <b>hielo</b>, éste debe estar producido a partir de agua potable y debe estar limpio y renovarse."
+                    }
+                  ]
+                }
+              ]
+            }
+
+          ]
+        }
+
+      ]
+    },
+
+    {
+      "titulo": "Medidas preventivas III",
+      "contenido": [
+           {
+          "clase": "listaObjetos",
+          "animacion": "bounceInLeft",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/etiqueta.png",
+              "ancho": 500
+            },
+            {
+              "clase": "lista",
+              "titulo": "Todos estos productos deben ir acompañados de una <b>etiqueta, cartel o tablilla</b> que indique, entre otras cosas:",
+              "contenido": [
+                {
+                  "punto": "Denominación <b>comercial</b> de la especie."
+                },
+                {
+                  "punto": "Nombre <b>científico</b> de la especie: el uso de nombres locales o comunes crea generalmente confusión, dado que la misma especie puede tener diferentes nombres en distintas regiones, o por el contrario, el mismo nombre puede estar asignado a diferentes especies, a veces con propiedades tecnológicas diferentes. Por lo tanto, el nombre científico debe ser dado como punto de referencia."
+                },
+                {
+                  "punto": "<b>Zona</b> de captura o de cría."
+                },
+                {
+                  "punto": "<b>Método</b> de producción."
+                },
+                {
+                  "punto": "Indicación de si el producto ha sido <b>descongelado</b> (excepto productos que se venden congelados)."
+                },
+                {
+                  "punto": "<b>Arte de pesca</b> utilizado en la captura."
+                },
+                {
+                  "punto": "<b>Ingredientes o coadyuvantes</b> tecnológicos presentes en los alimentos que causen alergias o intolerancias alimentarias (por ejemplo los sulfitos que se añaden como conservantes en gambas, langostinos, etc.)."
+                },
+                {
+                  "punto": "Algunas personas son <b>alérgicas</b> al pescado, marisco y/o moluscos, pero no es necesario indicarlo porque se reconoce por el propio nombre."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Almacenamiento y transporte",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInDown",
+          "texto": "El <b>transporte</b> posibilita que los alimentos lleguen a su destino desde el lugar donde se producen, pero si no se toman medidas apropiadas de control durante el transporte, los alimentos pueden <b>contaminarse</b> o llegar a su destino en condiciones peligrosas e inapropiadas para su consumo. Para evitar esto, se debe contar con sistemas de transporte adecuados de tal forma que los alimentos se mantengan seguros e idóneos para el consumo hasta el momento de la entrega.<br><br>Es requisito <b>imprescindible</b> que los barcos, buques, vehículos o contenedores de transporte estén diseñados y construidos de forma que permitan una limpieza y desinfección adecuadas, y que mantengan los productos alimenticios a <b>temperatura adecuada</b> y de forma que se pueda controlar dicha temperatura.<br><br>Pescados y mariscos son productos muy <b>delicados</b> para conservar en estado refrigerado y su manipulación, desde la pesca o cultivo hasta la venta al consumidor, requiere un cuidado muy esmerado para evitar su deterioro. El almacenamiento  y el transporte deben hacerse siempre en perfectas condiciones de <b>higiene</b> y, por supuesto, sin romper en ningún momento la cadena de frío."
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInUp",
+          "contenido": [
+
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/barcoFaenero.jpg"
+            },
+
+            {
+              "clase": "lista",
+              "subclase": "numeros",
+              "titulo": "Deben ser de aplicación las siguientes <b>pautas</b>:",
+              "contenido": [
+                {
+                  "punto": "Evitar que los productos estén en contacto directo con el <b>suelo</b>."
+                },
+                {
+                  "punto": "No almacenar pescados junto con otros productos y nunca junto a <b>sustancias peligrosas</b> como detergentes, desinfectantes, insecticidas o raticidas, etc."
+                },
+                {
+                  "punto": "Nunca se rebasará la <b>capacidad</b> de almacenamiento. Se deberá permitir la circulación del aire frío."
+                },
+                {
+                  "punto": "Son productos <b>muy perecederos</b> incluso en refrigeración, por lo que es importante no superar los tiempos de almacenamiento recomendados."
+                },
+                {
+                  "punto": "Aplicar un programa de <b>limpieza y desinfección</b> del transporte así como de cámaras y locales."
+                },
+                {
+                  "punto": "Aplicar un plan de <b>mantenimiento</b> tanto del transporte como de las instalaciones como de los sistemas de frío."
+                },
+                {
+                  "punto": "Vigilar la <b>temperatura</b> de las cámaras."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "El frío",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "flipInX",
+          "texto": "El <b>frío</b> se utiliza para almacenar gran cantidad de alimentos crudos, cocinados y congelados. La conservación en frío puede realizarse a temperatura de <b>refrigeración</b> o a temperatura de <b>congelación</b>. La calidad del pescado, en cuanto a seguridad y tiempo de vida útil en almacenamiento, está fuertemente influenciada por la contaminación y crecimiento de microorganismos y por su composición. Por eso es importante mantener los productos de la pesca a temperaturas de frío para minimizar la actividad enzimática y la multiplicación bacteriana. Algunos productos se venden <b>vivos</b> (ostras, almejas, centollos, nécoras…) lo que asegura su frescura, pero su transporte y conservación se realizará también a bajas temperaturas."
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "flipInX",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "El frío <b>no destruye</b> los microorganismos, solamente disminuye (refrigeración) o detiene (congelación) su crecimiento. En este punto cabe indicar que el mantenimiento del pescado en congelación durante cierto periodo de tiempo puede destruir algunos parásitos. En cuanto el pescado vuelva a encontrarse a temperaturas adecuadas, los microorganismos existentes pueden multiplicarse. En el caso de conservación <b>refrigerada</b>, las temperaturas han de ser próximas a la fusión del hielo <b>(0ºC)</b>, y así se conserva el pescado por un periodo breve de tiempo. En el caso de conservación en <b>congelación</b>, la temperatura normal será de <b>-18ºC</b> (18 ºC bajo cero).  La congelación es uno de los métodos más adecuados para la conservación de los alimentos a largo plazo, ya que mantiene perfectamente sus condiciones organolépticas y nutritivas."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/sepia.jpg"
+            }
+          ]
+        },
+
+        {
+          "clase": "icono",
+          "animacion": "flipInX",
+          "subclase": "exclamacion",
+          "texto": "¡Las temperaturas de refrigeración y congelación tienen que <b>vigilarse y controlarse</b> regularmente! En caso de detectar anomalías o mal funcionamiento de los equipos de frío debe actuarse <b>inmediatamente</b>."
+        }
+      ]
+    },
+    {
+      "titulo": "Peligros",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "lightSpeedIn",
+          "texto": "Los <b>peligros</b> que pueden aparecer en el almacenamiento y/o transporte son los siguientes:"
+        },
+        {
+          "clase": "tabs",
+          "animacion": "lightSpeedIn",
+          "contenido": [
+            {
+              "titulo": "Químico",
+              "texto": "Contaminación química por <b>almacenar o transportar</b> productos químicos (por ejemplo de higiene y desinfección) junto al pescado."
+            },
+            {
+              "titulo": "Mantenimiento",
+              "texto": "Contaminación debida a condiciones de mantenimiento (óxidos, pinturas, sistemas de iluminación sin protección…), de control de plagas (roedores, insectos) o de higiene inadecuadas."
+            },
+            {
+              "titulo": "Cruzada",
+              "texto": "<ul><li>Por almacenar pescados junto a <b>otros productos</b> crudos de diferente origen (carnes, vegetales...) o con productos semielaborados o terminados.</li><li>Por almacenar juntos pescados o mariscos con diferente origen.</li><li>Por condiciones deficientes de higiene y desinfección de los locales / equipos o cámaras frigoríficas.</li></ul>"
+            },
+            {
+              "titulo": "Microorganismos",
+              "texto": "Puede ocurrir por temperaturas <b>inadecuadas</b> para el transporte o la conservación del producto o por <b>exceso</b> de tiempo del producto en almacenamiento que implique rebasar las fechas de consumo."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "animacion": "lightSpeedIn",
+          "texto": "¿Cómo <b>minimizar o evitar</b> los peligros mencionados?"
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "lightSpeedIn",
+          "contenido": [
+            {
+              "clase": "lista",
+              "subclase": "anillas",
+              "contenido": [
+                {
+                  "punto": "Pescados y mariscos se ordenarán en base a su naturaleza, respetando su modo de conservación, evitando en todo momento la contaminación cruzada."
+                },
+                {
+                  "punto": "Nunca se depositarán directamente sobre el suelo los alimentos (aunque estén debidamente envasados y embalados)."
+                },
+                {
+                  "punto": "Adoptar unos planes de mantenimiento, control de plagas e higiene y desinfección efectivos."
+                },
+                {
+                  "punto": "No sobrecargar los equipos de frío (siempre se debe facilitar la circulación del aire frío)."
+                },
+                {
+                  "punto": "Establecer una adecuada rotación de productos."
+                }
+              ]
+            },
+            {
+              "clase": "lista",
+              "subclase": "anillas",
+              "contenido": [
+                {
+                  "punto": "Respetar las fechas de consumo."
+                },
+                {
+                  "punto": "Las etiquetas, envases y envoltorios deben ser perfectamente legibles y encontrarse en buen estado de conservación."
+                },
+                {
+                  "punto": "Si los alimentos se van a introducir en recipientes del propio establecimiento, éstos deben ser aptos para uso alimentario y en adecuadas condiciones de higiene y conservación."
+                },
+                {
+                  "punto": "Nunca se romperá la cadena de frío."
+                },
+                {
+                  "punto": "Vigilar las temperaturas de las cámaras."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Humedad",
+      "fondo": "img/modPes/hojas.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "slideInUp",
+          "texto": "Aparte de temperatura y tiempo, hay un factor muy importante a tener en cuenta, que es la <b>humedad</b>, ya que si está por <b>debajo</b> de la recomendada se producen desecaciones y pérdidas de peso (en congelación pueden producirse quemaduras por frío en el alimento) y si está por <b>encima</b> aparece el riesgo de contaminación por mohos."
+        }
+      ]
+    },
+
+    {
+      "titulo": "Manipulaciones posteriores",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "zoomInLeft",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Pescados y mariscos constituyen la materia prima para distintos tipos de industrias del sector pesquero; así hay industrias elaboradoras que acondicionan dichos productos para obtener productos <b>congelados</b>, productos <b>salados</b> o <b>conservas</b> y otras, como las pescaderías que se dedican a la venta de productos <b>frescos</b> al cliente.<br><br>Si el acondicionamiento de pescados y mariscos va a servir para que éstos sean la materia prima con la que se elaboren otros productos de la pesca, hemos de tener en cuenta que cada <b>producto elaborado</b> tendrá su diagrama de flujo particular, con sus peligros y medidas preventivas específicas para cada etapa."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/pececitos.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Diagrama de flujo del pescado",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "texto": "A grandes rasgos podríamos definir un diagrama de flujo del pescado desde su <b>origen</b> hasta el consumidor <b>final</b> según las siguientes etapas:"
+        },
+        {
+          "clase": "diagrama",
+          "cajas": [
+            {
+              "id": 1,
+              "forma": "rect",
+              "texto": "Producción Primaria: Pesca o Cultivo en piscifactoría",
+              "ancho": 300,
+              "alto": 60,
+              "x": 400,
+              "y": 1,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 1
+            },
+            {
+              "id": 2,
+              "forma": "rect",
+              "texto": "Almacenamiento y Transporte",
+              "ancho": 300,
+              "alto": 60,
+              "x": 400,
+              "y": 100,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 3
+            },
+            {
+              "id": 3,
+              "forma": "rect",
+              "texto": "Pescadería",
+              "ancho": 300,
+              "alto": 60,
+              "x": 1,
+              "y": 200,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 5
+            },
+            {
+              "id": 4,
+              "forma": "rect",
+              "texto": "Recepción",
+              "ancho": 300,
+              "alto": 60,
+              "x": 1,
+              "y": 300,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 7
+            },
+            {
+              "id": 5,
+              "forma": "rect",
+              "texto": "Almacenamiento",
+              "ancho": 300,
+              "alto": 60,
+              "x": 1,
+              "y": 400,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 9
+            },
+            {
+              "id": 6,
+              "forma": "rect",
+              "texto": "Manipulación y Venta",
+              "ancho": 300,
+              "alto": 60,
+              "x": 1,
+              "y": 500,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 11
+            },
+            {
+              "id": 7,
+              "forma": "rect",
+              "texto": "Industria pesquera",
+              "ancho": 300,
+              "alto": 60,
+              "x": 800,
+              "y": 200,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 13
+            },
+            {
+              "id": 8,
+              "forma": "rect",
+              "texto": "Recepción",
+              "ancho": 300,
+              "alto": 60,
+              "x": 800,
+              "y": 300,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 15
+            },
+            {
+              "id": 9,
+              "forma": "rect",
+              "texto": "Almacenamiento",
+              "ancho": 300,
+              "alto": 60,
+              "x": 800,
+              "y": 400,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 17
+            },
+            {
+              "id": 10,
+              "forma": "rect",
+              "texto": "Acondicionamiento / Procesado",
+              "ancho": 300,
+              "alto": 60,
+              "x": 800,
+              "y": 500,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 19
+            },
+            {
+              "id": 11,
+              "forma": "rect",
+              "texto": "Envasado",
+              "ancho": 300,
+              "alto": 60,
+              "x": 800,
+              "y": 600,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 21
+            },
+            {
+              "id": 11,
+              "forma": "rect",
+              "texto": "Almacenamiento  / Distribución",
+              "ancho": 300,
+              "alto": 60,
+              "x": 800,
+              "y": 700,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 23
+            }
+          ],
+          "enlaces": [
+            {
+              "origen": 1,
+              "destino": 2,
+              "color": "#65acb0",
+              "orden": 2
+            },
+            {
+              "origen": 2,
+              "destino": 3,
+              "color": "#65acb0",
+              "orden": 4
+            },
+            {
+              "origen": 3,
+              "destino": 4,
+              "color": "#65acb0",
+              "orden": 6
+            },
+            {
+              "origen": 4,
+              "destino": 5,
+              "color": "#65acb0",
+              "orden": 8
+            },
+            {
+              "origen": 5,
+              "destino": 6,
+              "color": "#65acb0",
+              "orden": 10
+            },
+            {
+              "origen": 2,
+              "destino": 7,
+              "color": "#65acb0",
+              "orden": 12
+            },
+            {
+              "origen": 7,
+              "destino": 8,
+              "color": "#65acb0",
+              "orden": 14
+            },
+            {
+              "origen": 8,
+              "destino": 9,
+              "color": "#65acb0",
+              "orden": 16
+            },
+            {
+              "origen": 9,
+              "destino": 10,
+              "color": "#65acb0",
+              "orden": 18
+            },
+            {
+              "origen": 10,
+              "destino": 11,
+              "color": "#65acb0",
+              "orden": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Recepción de materias primas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "bounceInLeft",
+          "texto": "El <b>control</b> que se debe realizar de las materias primas con las que vamos a trabajar es fundamental para garantizar la <b>calidad e inocuidad</b> del producto final que vamos a elaborar o a fabricar. Por dicho motivo debemos asegurarnos que los productos lleguen en <b>perfectas condiciones</b> y reúnan todas las garantías, desde el producto que vamos a utilizar como materia prima hasta  los envases y embalajes destinados a nuestro producto final, pasando por todas aquellas otras materias primas (incluyendo aditivos y especias) que utilicemos."
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/pecesCaja.jpg"
+            },
+            {
+              "clase": "lista",
+              "titulo": "Debemos <b>controlar</b>, entre otros puntos:",
+              "contenido": [
+                {
+                  "punto": "<b>Comprobar el origen</b>. Solamente se aceptarán pescados y mariscos que ofrezcan una garantía sanitaria reconocida (procedentes de lonjas, moluscos provistos de etiquetas que garanticen haber pasado el proceso de depuración en establecimientos autorizados y/o análisis que aseguren que no contienen toxinas ni gérmenes)."
+                },
+                {
+                  "punto": "El estado higiénico de los <b>vehículos</b> en los que se nos suministran las materias primas."
+                },
+                {
+                  "punto": "El <b>estado</b> en el que se transportan las materias primas (correctamente protegidas y estibadas durante el transporte)"
+                },
+                {
+                  "punto": "Que se cumplan los requisitos de <b>higiene</b> característicos al tipo de materia prima o las pactadas con el proveedor."
+                },
+                {
+                  "punto": "Que la <b>temperatura</b> a la que nos llegan los productos sea la adecuada al producto."
+                },
+                {
+                  "punto": "La descarga de toda materia prima que necesite <b>condiciones de frío</b> para su conservación se realizará en el menor tiempo posible para que se introduzcan lo antes posible en las cámaras de refrigeración o congelación según su necesidad."
+                }
+              ]
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Almacenamiento",
+      "fondo": "img/modPes/almacenamiento.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "rubberBand",
+          "subclase": "recuadro",
+          "texto": "Una vez recepcionadas las materias primas, la siguiente etapa será la de <b>almacenamiento</b>, en la que es fundamental respetar los modos de conservación de cada materia prima. Se prestará especial atención a <b>no romper la cadena de frío</b> de aquellos productos, como los pescados o mariscos, que se tengan que almacenar en refrigeración o congelación. Ya hemos visto anteriormente los principales peligros de esta etapa."
+        }
+      ]
+    },
+    {
+      "titulo": "Exposición",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+                        "animacion": "fadeInDown",
+          "contenido": [
+                        {
+              "clase": "imagen",
+              "imagen": "img/modPes/cigalas.jpg",
+              "ancho": 400
+            },
+            {
+              "clase": "texto",
+              "texto": "En la pescadería se ha de <b>colocar y tratar</b> la mercancía de forma que conserve todas sus cualidades, garantizando que llegue al consumidor en las mejores condiciones de salubridad. Para ello:"
+            }
+          ]
+        },
+
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInUp",
+          "contenido": [
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Se debe mantener el pescado en un <b>ambiente fresco</b>, conservarlo en cámara frigorífica y exponer únicamente las <b>cantidades necesarias</b>. Para mantener las bajas temperaturas del pescado expuesto debe utilizarse hielo en óptimas condiciones sanitarias. Hay que ir añadiendo hielo a medida que se vaya fundiendo. "
+                },
+                {
+                  "punto": "Los expositores estarán <b>inclinados</b> para imposibilitar que los pescados y mariscos se bañen en el agua de deshielo que puede ser altamente contaminante."
+                },
+                {
+                  "punto": "Se debe clasificar y ordenar la mercancía por <b>especies</b>, indicando en las <b>etiquetas</b> los datos obligatorios. Aunque no son aconsejables, si se utilizan adornos, éstos deben estar limpios y desinfectados. Se debe evitar la exposición sobre vegetales y hortalizas crudas."
+                },
+                {
+                  "punto": "Se debe evitar una <b>manipulación excesiva</b> del producto."
+                }
+              ]
+            },
+            {
+              "clase": "lista",
+              "contenido": [
+
+                {
+                  "punto": "No se pincharán los <b>portaprecios</b> directamente sobre la mercancía."
+                },
+                {
+                  "punto": "Los <b>residuos</b> (vísceras, pescados no válidos, escamas, sangre...) deben ser convenientemente eliminados."
+                },
+                {
+                  "punto": "Todas las superficies de manipulación y utensilios deben mantenerse en buen estado y en estado correcto de <b>limpieza y desinfección</b>."
+                },
+                {
+                  "punto": "Las herramientas de corte deben estar bien <b>afilados y limpiarse a menudo</b>, especialmente tras la evisceración."
+                },
+                {
+                  "punto": "Los <b>materiales</b> en contacto con el alimento (papel, bandejas, etc.) deben ser aptos para productos alimentarios."
+                },
+                {
+                  "punto": "Si se utilizan guantes, es recomendable que <b>no sean de látex</b>, ya que este material puede pasar a los alimentos y causar reacciones alérgicas en el consumidor."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Peligros exposición",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "flipInX",
+          "texto": "¿Qué peligros pueden aparecer durante la <b>exposición para la venta</b>?"
+        },
+        {
+          "clase": "listaObjetos",
+                    "animacion": "flipInX",
+          "contenido": [
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Contaminación de las piezas. Alguno ejemplos representativos pueden ser:",
+                  "contenido": [
+                    {
+                      "punto": "Contaminación <b>cruzada</b>: principalmente a través de superficies, equipos, etc.  y principalmente herramientas de corte y manos del manipulador."
+                    },
+                    {
+                      "punto": "Contaminación aportada por el <b>agua de deshielo</b>."
+                    },
+                    {
+                      "punto": "Contaminación aportada por <b>limpieza y desinfección deficientes</b>  de equipos, utensilios y superficies."
+                    },
+                    {
+                      "punto": "Contaminación aportada por <b>higiene deficiente</b> del personal manipulador o prácticas no higiénicas (masticar chicle, fumar, toser o estornudar encima de los alimentos...)."
+                    },
+                    {
+                      "punto": "Contaminación a través de <b>insectos, roedores o animales domésticos</b>."
+                    },
+                    {
+                      "punto": "Contaminación aportada por el <b>agua de consumo</b> (si esta se encuentra contaminada), tanto para uso en cualquier operación de limpieza como si existe pulverización sobre el pescado para evitar su desecación."
+                    },
+                    {
+                      "punto": "Contaminación aportada por el uso de <b>hielo</b> no elaborado con agua potable."
+                    },
+                    {
+                      "punto": "Contaminación química con <b>productos de limpieza</b>, desinfección o restos de los mismos en equipos, superficies, utensilios..."
+                    },
+                    {
+                      "punto": "Contaminación <b>ambiental</b> (polvo, suciedad, etc.)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/exposicion.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+                    "animacion": "flipInX",
+          "contenido": [
+            {
+              "punto": "Multiplicación de los microorganismos. Como ejemplos podríamos citar:",
+              "contenido": [
+                {
+                  "punto": "Tiempo excesivo en exposición y/o a temperaturas inadecuadas que permitan el desarrollo de los microorganismos."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "titulo": "Acondicionamiento",
+      "fondo": "img/modPes/sardinas.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "lightSpeedIn",
+          "texto": "El pescado se acondiciona, bien para su <b>venta directa</b> al consumidor o bien como <b>materia prima</b> para la elaboración de distintos derivados de la pesca (conservas por ejemplo). Las operaciones de acondicionamiento pueden incluir procesos de descabezado, eviscerado, troceado, pelado, lavado, descongelación...<br><br>Toda manipulación a la que se sometan pescados y mariscos deberá estar <b>organizada</b> de tal manera que se impida o reduzca al mínimo cualquier tipo de contaminación y/o la multiplicación biológica, desde la etapa de acondicionamiento hasta la venta del producto final."
+        }
+      ]
+    },
+    {
+      "titulo": "Peligros acondicionamiento",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInDown",
+          "texto": "¿Qué <b>peligros</b> pueden aparecer durante el acondicionamiento de pescados y mariscos?"
+        },
+        {
+
+
+          "clase": "tabs",
+          "animacion": "slideInUp",
+          "contenido": [
+            {
+              "titulo": "Contaminación",
+              "texto": "<ul><b>Contaminación de las piezas</b>. Alguno ejemplos representativos pueden ser:<li><b>Contaminación cruzada</b>: hemos visto que el pescado puede tener cierta contaminación de origen, por lo que toda superficie, equipo, utensilio y/o manos del manipulador que entren en contacto con él, se verán contaminados. Si posteriormente utilizamos esas superficies, equipos, manos, etc. sin haber sido previamente limpiadas y desinfectadas, servirán como vehículo para contaminar cualquier otra pieza o producto que manipulemos.</li><li><En las operaciones de <b>troceado</b> se exponen zonas del alimento que antes no podían alcanzar los microorganismos./li><li>Contaminación aportada por <b>limpieza y desinfección deficientes</b> de equipos, utensilios y superficies.</li><li>Contaminación aportada por <b>higiene deficiente</b> del personal manipulador.</li><li>Contaminación a través de <b>insectos, roedores o animales domésticos</b>.</li><li>Contaminación aportada por el <b>agua</b> de consumo (si esta se encuentra contaminada).</li><li>Contaminación química con <b>productos de limpieza</b>, desinfección o restos de los mismos en equipos, superficies, utensilios...</li><li>Contaminación <b>ambiental</b>.</li></ul> "
+            },
+            {
+              "titulo": "Multiplicación",
+              "texto": "<ul>Multiplicación de los <b>microorganismos</b>. Como ejemplos podríamos citar:<li><b>Tiempo excesivo</b> durante el acondicionamiento.</li><li>Prácticas incorrectas de <b>elaboración</b>:<ul><li>Dejar <b>descongelar una parte</b> de la pieza que es la que se va a utilizar y volver a congelar la parte que no utilizaremos.</li><li><b>Descongelación</b> realizada de manera <b>incorrecta</b>.</li><li>Mantener el pescado innecesariamente <b>fuera</b> de las cámaras  de frío.</li></ul></li></ul>",
+              "imagen": "img/modPes/sardinas2.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Medidas preventivas",
+              "texto": "<ul>Para evitar la contaminación hemos de adoptar una serie de medidas <b>preventivas</b> como pueden ser:<li>Los <b>utensilios</b> usados se limpiarán y desinfectarán adecuadamente, especialmente después del eviscerado, antes de utilizarlos en otros pescados y jamás se depositarán sobre el suelo.</li><li>Los <b>filos</b> de cuchillos siempre estarán limpios y en perfecto estado.</li><li>Utilización de <b>agua potable</b> en perfectas condiciones higiénico-sanitarias.</li><li>Los desperdicios se depositarán en <b>lugares específicos</b> destinados para ello (en cubos de accionamiento no manual con tapa, por ejemplo)</li><li>Evitar el <b>acceso</b> de insectos, roedores o animales.</li><li>Todas las operaciones de limpieza y desinfección de superficies y útiles de trabajo se realizarán <b>aparte</b> (o en momentos distintos de la preparación).</li><li>Se prestará <b>especial atención</b> a los utensilios, recipientes, ropa, superficies y equipos así como manos (o guantes en su caso) del manipulador para evitar contaminaciones cruzadas.</li><li>Todos los objetos y utensilios que vayan a entrar en contacto con el pescado, además de estar autorizados para uso alimentario, deberán estar construidos con <b>materiales inalterables</b> y presentarán un alto grado de higiene y mantenimiento, para evitar su contaminación.</li></ul>",
+              "imagen": "img/modPes/pezLeon.jpg",
+              "ancho": 275
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Peligro manipulaciones",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "zoomIn",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Con el fin de evitar la multiplicación de los <b>microorganismos</b>, los pescados y mariscos se manipularán en <b>frío</b>. No se mantendrán fuera de las cámaras de frío innecesariamente. Las operaciones se realizarán lo antes posible, evitando <b>acumular</b> las materias primas en las zonas de trabajo, guardándose en las cámaras o exponiendo en el mostrador el género que ya esté listo para almacenar o presentar.<br><br>La <b>descongelación</b>, en caso de ser necesaria para el proceso productivo, es un proceso delicado que influye en el mantenimiento de las cualidades del alimento y no se debe realizar a temperatura ambiente ni sumergiendo el producto en agua. Lo adecuado es descongelar el producto a temperaturas de <b>refrigeración</b> porque a estas temperaturas se evita la multiplicación de los microorganismos que la pieza congelada pudiera tener. ¿Por qué se debe hacer así? Si lo descongelamos <b>sumergiéndolo en agua</b> favorecemos la multiplicación de los microorganismos ya que mientras que la superficie de la pieza está descongelada el centro aún permanecerá congelado, con el peligro de la proliferación bacteriana en la superficie, y además provocamos <b>pérdidas nutritivas</b>. Los productos descongelados deben tratarse lo antes posible."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/pulpo.jpg"
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Peligros elaboración",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInDown",
+          "contenido": [
+
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/calamarCocinado.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "En la <b>elaboración</b>, las materias primas se someten a diversas <b>operaciones</b> necesarias para obtener el producto final. Todas estas operaciones deben realizarse bajo <b>estrictas medidas higiénicas</b> con el fin de evitar contaminaciones adicionales que puedan afectar la salud del consumidor. Los principales peligros serán la <b>contaminación</b> (física, química y biológica) y la <b>multiplicación microbiológica</b>. Habrá que tener especial control en aquella etapa (o etapas) en las cuales se pueda <b>eliminar o reducir</b> a un nivel aceptable la contaminación anterior del alimento, controlando muy especialmente aquellos parámetros que aseguren dicha eliminación (por ejemplo la <b>temperatura</b> alcanzada y el <b>tiempo</b> que se mantiene dicha temperatura en aquellos productos que sufren un tratamiento térmico)."
+            }
+          ]
+        }
+       
+      ]
+    },
+    {
+      "titulo": "Peligros elaboración II",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInUp",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Además de los <b>peligros</b> que hemos destacado en el acondicionamiento del pescado, de manera muy general, ahora podemos añadir también:",
+              "contenido": [
+                {
+                  "punto": "Contaminación <b>química</b> por exceso de aditivos (o por uso de aditivos no autorizados): siempre se deben utilizar aditivos autorizados y en las dosis recomendadas (algunos pueden resultar tóxicos si se excede de la dosis)."
+                },
+                {
+                  "punto": "Contaminación aportada por <b>envases y embalajes</b> (incorrectamente almacenados o que no sean aptos para uso alimentario)."
+                },
+                {
+                  "punto": "Adquiere una enorme importancia la <b>contaminación cruzada</b> de productos semielaborados o ya finalizados."
+                },
+                {
+                  "punto": "Multiplicación de microorganismos por <b>tiempos excesivos</b> durante los procesos de elaboración."
+                },
+                {
+                  "punto": "Prácticas <b>incorrectas</b> de fabricación:",
+                  "contenido": [
+                    {
+                      "punto": "Dejar restos de alimentos en la <b>maquinaria</b>, permitiendo que en ellos se desarrollen microorganismos y luego utilizar dicha maquinaria con nueva materia prima, a la que vamos a aportar una gran carga microbiológica."
+                    },
+                    {
+                      "punto": "No controlar los parámetros de <b>temperatura</b> alcanzada y <b>tiempo</b> en etapas de tratamientos térmicos (con lo cual no aseguraremos la inocuidad del alimento). Si se aplican métodos de calor para esterilizar o pasteurizar, comprobar siempre que la temperatura alcanzada y el tiempo de duración del proceso son correctos (mínimo <b>65ºC</b> en el centro de las piezas)."
+                    }
+                  ]
+                },
+                {
+                  "punto": "<b>Envasado</b> deficiente o incorrecto (lo que puede conllevar una posterior contaminación del producto). "
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/elaboracion.jpg"
+            }
+          ]
+        }
+      ]
+    },
+                {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "¿Basándose en el contenido graso, qué es más perecedero el pescado azul o el pescado blanco?",
+              "respuestas": [
+                {
+                  "opcion": "El azul.",
+                  "correcto": true,
+                  "feedback": "El pescado azul contiene mayor cantidad de ácidos grasos insaturados. La grasa insaturada se oxida con mayor facilidad, por lo que los pescados azules son más perecederos que los pescados blancos."
+                },
+                {
+                  "opcion": "El blanco.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Los dos por igual.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ninguno.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "En la alteración del pescado producida por microorganismos influye:",
+              "respuestas": [
+                {
+                  "opcion": "El lugar donde se captura el pez.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "La zona del pescado donde se encuentren los microorganismos.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "La cantidad inicial de microorganismos.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Todas las respuestas son correctas.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Un pescado fresco...",
+              "respuestas": [
+                {
+                  "opcion": "Nunca podrá causar una enfermedad de origen alimentario.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Puede causar una enfermedad de origen alimentario.",
+                  "correcto": true,
+                  "feedback": "Aunque esté fresco, puede traer contaminación de origen capaz de provocar una enfermedad de origen alimentario. Además hay personas alérgicas al pescado."
+                }
+              ]
+            },
+            {
+              "texto": "El mercurio es un metal pesado que se va acumulando en los eslabones de la cadena trófica (alimentaria) de tal forma que:",
+              "respuestas": [
+                {
+                  "opcion": "Los peces más grandes depredan a los más pequeños y por tanto tienen mayor cantidad de mercurio.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Los peces más grandes depredan a los más pequeños y por tanto tienen menor cantidad de mercurio.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "El nivel de mercurio es el mismo en los peces grandes que en los pequeños.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Los peces más pequeños no acumulan mercurio, sólo los grandes.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "En relación con el Anisakis, si el pescado se va a utilizar para una preparación que no incluye tratamiento térmico (sushi, salmueras, vinagre…) habrá que:",
+              "respuestas": [
+                {
+                  "opcion": "Congelar previamente el pescado.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Que eliminamos los microorganismos pero no la suciedad.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Que permanece la suciedad y los microorganismos.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Que eliminamos la suciedad pero no los microorganismos, por lo que tenemos un foco de contaminación asegurado.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Señala la respuesta correcta:",
+              "respuestas": [
+                {
+                  "opcion": "El anisakis produce toxinas en el alimento.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "El anisakis se multiplica en el alimento.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "El anisakis se muere si refrigeramos el pescado durante 48 horas a temperaturas de 4ºC.",
+                  "correcto": false
+                },
+                                {
+                  "opcion": "El anisakis se muere si congelamos el pescado durante 24 horas a temperaturas de -20ºC.",
+                  "correcto": true,
+                  "feedback": "Hay que recordar que el anisakis es capaz de sobrevivir en los productos conservados en vinagre durante ¡dos meses!"
+                }
+              ]
+            },
+            {
+              "texto": "Cuando un pescado azul es causa de una intoxicación por histamina, implica:",
+              "respuestas": [
+                {
+                  "opcion": "Una higiene deficiente.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Una conservación a temperaturas elevadas.",
+                  "correcto": true,
+                  "feedback": "Si las bacterias que transforman el aminoácido histidina a histamina se encuentran activas, es porque la temperatura a la que se encuentran es elevada, lo que a su vez implica que el pescado se encuentra a temperaturas inadecuadas de conservación."
+                },              
+                {
+                  "opcion": "Un tratamiento térmico inadecuado.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Una manipulación poco higiénica.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "La principal medida para evitar riesgos en el consumo de moluscos bivalvos que se pueden consumir crudos, como mejillones, ostras y almejas es:",
+              "respuestas": [
+                {
+                  "opcion": "Consumir productos procedentes de establecimientos autorizados y sometidos a depuración.",
+                  "correcto": true,
+                  "feedback": "Solo se deben aceptar productos que ofrezcan una garantía sanitaria reconocida. Por eso deben proceder de establecimientos autorizados y se debe garantizar que han pasado el proceso de depuración (proceso que permite la eliminación o reducción a límites aceptables de los posibles contaminantes que hubieran adquirido durante su cultivo)."
+                },
+                {
+                  "opcion": "Consumir cantidades pequeñas.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Congelarlos previamente a temperaturas de -20ºC y durante, al menos, 24 horas.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Informar al consumidor del riesgo que existe al consumir crudo este tipo de producto.",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInLeft",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/salmon.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Con este módulo se <b>cierra</b> la formación de manipuladores  de alimentos. Esperamos que lo hayas encontrado <b>instructivo</b> a la par que entretenido. Cualquier sugerencia o mejora que te parezca oportuna para mejorar el curso será bienvenida. ¡Acuérdate de cumplimentar el cuestionario del curso para que podamos <b>evaluar</b> todo lo que has aprendido! ¡Muchas gracias!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta pronto!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+
+

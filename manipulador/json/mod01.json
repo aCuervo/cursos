@@ -1,0 +1,1144 @@
+﻿{
+  "modulo": "Mod. I: Introducción",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod1/M1manoIzq.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Te damos la bienvenida al curso de Manipulador de Alimentos, que estás a punto de realizar. Con este curso no pretendemos decirte qué es lo que tienes o qué es lo que no tienes que hacer cuando manipulas alimentos. Lo que buscamos es que <b>conozcas</b> y <b>razones</b> los motivos de por qué se hacen o se prohíben ciertas acciones mientras se manipulan alimentos y las <b>consecuencias</b> que de éstas se deriven.<br><br>Tampoco se pretende que memorices los nombres de los microorganismos (o los síntomas de las enfermedades que producen), pero sí que <b>sepas</b> que están ahí, casi al acecho, y que pueden causar enfermedades (algunas muy graves o incluso mortales) y lo más importante es que <b>aprendas</b> cómo evitar su llegada al alimento y cómo combatirlos."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod1/M1manoDcha.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Objetivo del curso",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInDown",
+          "texto": "El verdadero objetivo del curso es que seas <b>consciente</b> de tu importancia en la preservación de la higiene de los alimentos, ya que el  manipulador de alimentos puede ser la <b>causa</b> de enfermedades de transmisión alimentaria debidas al: <br><b>“No lo sabía”</b><br><b>“No me importa”</b>"
+        },
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "En este Primer Módulo, introductorio al curso de <b>Manipulador de Alimentos</b>, vas a descubrir que uno de los pilares fundamentales para combatir las enfermedades de transmisión alimentaria es la <b>formación</b> (“no lo sabía”).<br><br>A ésta hay que añadirle otro factor importante que es la <b>concienciación</b> de los manipuladores (“no me importa”)."
+        },
+        {
+          "clase": "texto",
+          "subclase": "centro",
+          "animacion": "slideInUp",
+          "texto": "<span class='h2'>¡Vamos allá!</span>"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/comunes/separadorHierba.svg"
+        }
+      ]
+    },
+    {
+      "titulo": "Seguridad alimentaria",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "animacion": "rotateInDownRight",
+          "texto": "<b>Definición:</b><br>La <b>Seguridad Alimentaria</b> es el conjunto de medidas que garantizan que los alimentos que consumimos sean inocuos y conserven sus propiedades nutritivas."
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "zoomIn",
+          "contenido": [
+            {
+              "clase": "lista",
+              "subclase": "numeros",
+              "titulo": "Cuando se manifiesta una enfermedad debida al consumo de alimentos o bebidas, en los estudios que realiza la autoridad sanitaria se pone de manifiesto el papel, <b>directo o indirecto</b>, del manipulador de alimentos y su responsabilidad ante la aparición de dicho brote.<br><br>Así, entre los principales factores que contribuyen a la aparición de brotes destacan, en este orden:",
+              "contenido": [
+                {
+                  "punto": "Las manipulaciones poco higiénicas o prácticas incorrectas de manipulación."
+                },
+                {
+                  "punto": "Casos acaecidos como consecuencia de una limpieza y desinfección deficiente."
+                },
+                {
+                  "punto": "Casos debidos a una conservación incorrecta de los alimentos."
+                }
+              ]
+            },
+
+            {
+              "clase": "imagen",
+              "imagen": "img/mod1/M1higosFresas.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Formación",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "zoomIn",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod1/M1guantesPlastico.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Como vemos, el papel del manipulador de alimentos es <b>fundamental</b>. Por dicho motivo se publicaron leyes y normas para adoptar medidas que previnieran la aparición de enfermedades de origen alimentaria.<br>La primera medida adoptada fue realizar <b>exámenes médicos</b> a los manipuladores.<br>El resultado demostró la poca utilidad de esta medida porque los resultados favorables podían dar una peligrosa sensación de seguridad y una relajación de los <b>hábitos higiénicos</b> de los manipuladores que se consideraban sanos.<br><br>Puesto que el examen médico no resultó ser eficaz, se buscaron otras medidas y se confirmó que <b>educar</b> a los manipuladores en higiene de los alimentos resultó ser la medida más eficaz en la prevención de enfermedades transmitidas por alimentos."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "animacion": "rotateInUpLeft",
+          "texto": "Surgió así el <b>carnet de manipulador de alimentos</b>, que inicialmente entregaba la Autoridad Sanitaria cuando se superaban los cursos que impartían. Posteriormente la Autoridad Sanitaria delegó en empresas que debían estar acreditadas la impartición de los cursos y la entrega del carnet."
+        }
+      ]
+    },
+    {
+      "titulo": "Normativa actual",
+      "fondo": "img/mod1/M1cepilloManos.jpg",
+      "contenido": [
+
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "animacion": "swing",
+          "texto": "La normativa actual (<b>Real Decreto 109/2010</b> y <b>Reglamento 852/2004</b>) especifica lo siguiente: \"Los operadores de las empresas alimentarias han de garantizar la supervisión y la instrucción o formación de los manipuladores de productos alimenticios en cuestiones de higiente alimentaria de acuerdo con su actividad laboral.\" <br>Por tanto, deja de ser obligatorio el carnet de manipulador (es decir, ya no existe el antiguo carnet de manipulador y no hay modelo oficial normalizado), pero <b>no los conocimientos sobre seguridad alimentaria necesarios</b>, así como su adecuación y renovación.<br><br>Los certificados emitidos y entregados por las empresas de formación a los alumnos serán por tanto un modelo libre, tendrán validez en todo el territorio nacional y acreditarán que ese alumno ha recibido formación como manipulador de alimentos."
+        },
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "subclase": "recuadro",
+          "texto": "<b>Recuerda</b>:<br>La formación y las prácticas y hábitos higiénicos adecuados son la manera más eficaz de prevenir las enfermedades de transmisión alimentaria."
+        }
+      ]
+    },
+    {
+      "titulo": "Responsabilidad",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroEstrecho",
+          "animacion": "lightSpeedIn",
+          "contenido": [
+
+            {
+              "clase": "texto",
+              "texto": "En los últimos años se viene produciendo un cambio radical en el enfoque de la formación de los manipuladores motivado, principalmente, por los propios consumidores, que cada vez están más interesados en una <b>dieta sana y equilibrada</b>, y <b>no</b> toleran los riesgos para la salud asociados al consumo de alimentos, buscando el <b>riesgo cero</b> (aún a sabiendas que esto es imposible de garantizar)."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/comunes/separadorArbol.svg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Por esto surge la necesidad de <b>concienciar</b> a los manipuladores de su importancia en la preservación de la higiene de los alimentos a lo largo de toda la cadena alimentaria, evitando la aparición de <b>enfermedades</b> relacionadas con el consumo de alimentos.<br><br>Las empresas del sector agroalimentario tienen ante sí la <b>responsabilidad</b> de ofrecer alimentos sanos y seguros, lo que depende, en gran medida, de la <b>profesionalidad</b> de sus manipuladores."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+                  "animacion": "lightSpeedIn",
+          "texto": "Todas las personas tienen derecho a esperar que los alimentos que comen sean inocuos y aptos para el consumo"
+        }
+      ]
+    },
+    {
+      "titulo": "La cadena alimentaria",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "bounceInDown",
+          "texto": "La <b>cadena alimentaria</b> es el conjunto de etapas por las que pasan los alimentos desde su producción (en el campo o en el mar) hasta que llegan al consumidor. Debido a que la cadena alimentaria es <b>larga y compleja</b>, es fácil que los alimentos se contaminen a lo largo de ella, perdiendo parte de sus propiedades nutritivas o llegando a constituir un peligro para la salud. Para garantizar la seguridad alimentaria, todas estas etapas deben realizarse en las máximas condiciones de higiene. Una correcta higiene general y personal del personal que manipula los alimentos así como su formación higiénico-sanitaria al respecto constituye uno de los <b>pilares básicos</b> sobre los que se asienta la higiene y seguridad de los alimentos."
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "anchoMitad",
+              "imagen": "img/mod1/cadenaUno.svg"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod1/cadenaPaso1.svg"
+            },
+            {
+              "clase": "texto",
+              "texto": "La producción primaria es el primer eslabón de la cadena: cría, producción o cultivo de los productos de la tierra, ganadería, pesca, caza... La producción primaria proporciona \"la materia prima\" de la cadena. "
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInLeft",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "anchoMitad",
+              "imagen": "img/mod1/cadenaDos.svg"
+            },
+            {
+              "clase": "texto",
+              "texto": "La industria alimentaria se encarga de la preparación o elaboración de los alimentos utilizando la materia prima que llega desde la producción primaria."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod1/cadenaPaso2.svg"
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "anchoMitad",
+              "imagen": "img/mod1/cadenaTres.svg"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod1/cadenaPaso3.svg",
+              "ancho": 400
+            },
+            {
+              "clase": "texto",
+              "texto": "Durante el proceso de comercialización y venta los productos preparados en la industria se ofrecen al consumidor en tiendas, supermercados, hipermercados y otros establecimientos similares."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInLeft",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "anchoMitad",
+              "imagen": "img/mod1/cadenaCuatro.svg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Los consumidores constituyen el último eslabón de la cadena alimentaria. Sobre ellos recaen importantes responsabilidades para garantizar la seguridad de los alimentos."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod1/cadenaPaso4.svg",
+              "ancho": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Consecuencias",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "texto": "Es importante señalar también las <b>consecuencias</b> que un fallo en la manipulación de alimentos puede tener en la empresa, que pueden ir desde la pérdida de confianza de los consumidores hacia los productos que se elaboran, hasta el cierre de la empresa, pasando por las sanciones que puedan imponer las denuncias de particulares o la propia administración."
+        },
+
+        {
+          "clase": "diagrama",
+          "retardo": 20000,
+          "cajas": [
+            {
+              "id": 1,
+              "forma": "rect",
+              "texto": "Pérdida de la reputación de la empresa",
+              "ancho": 650,
+              "alto": 60,
+              "x": 1,
+              "y": 1,
+              "relleno": "#FFB74D",
+              "borde": "#F57F17",
+              "anchoBorde": 3,
+              "orden": 1
+            },
+            {
+              "id": 2,
+              "forma": "rect",
+              "texto": "Pago de indemnizaciones",
+              "ancho": 300,
+              "alto": 60,
+              "x": 680,
+              "y": 1,
+              "relleno": "#FFB74D",
+              "borde": "#F57F17",
+              "anchoBorde": 3,
+              "orden": 16
+            },
+            {
+              "id": 3,
+              "forma": "rect",
+              "texto": "Multas y costes legales",
+              "ancho": 300,
+              "alto": 60,
+              "x": 1000,
+              "y": 1,
+              "relleno": "#FFB74D",
+              "borde": "#F57F17",
+              "anchoBorde": 3,
+              "orden": 19
+            },
+            {
+              "id": 4,
+              "forma": "rect",
+              "texto": "<span class='h5 estrecho'>Pérdida de clientes<br>Quejas de clientes<br>Dificultad para captar nuevos clientes<br>Devolución de artículos</span>",
+              "ancho": 320,
+              "alto": 125,
+              "x": 335,
+              "y": 100,
+              "relleno": "#FFE0B2",
+              "borde": "#F57F17",
+              "anchoBorde": 1,
+              "orden": 3
+            },
+            {
+              "id": 5,
+              "forma": "rect",
+              "texto": "<span class='h5'>¿Hubo fallecimientos?</span>",
+              "ancho": 250,
+              "alto": 40,
+              "x": 720,
+              "y": 250,
+              "borde": "#F57F17",
+              "anchoBorde": 2,
+              "dashArray": "5,5",
+              "orden": 18
+            },
+            {
+              "id": 6,
+              "forma": "rect",
+              "texto": "<span class='h5 estrecho'>Búsqueda de responsables<br>¿Encarcelamiento?</span>",
+              "ancho": 300,
+              "alto": 60,
+              "x": 1000,
+              "y": 250,
+              "borde": "#F57F17",
+              "anchoBorde": 2,
+              "dashArray": "5,5",
+              "orden": 21
+            },
+            {
+              "id": 7,
+              "forma": "rect",
+              "texto": "<span class='h5'>Pérdida de la moral en el personal</span>",
+              "ancho": 300,
+              "alto": 40,
+              "x": 1,
+              "y": 100,
+              "relleno": "#FFE0B2",
+              "borde": "#F57F17",
+              "anchoBorde": 1,
+              "orden": 9
+            },
+            {
+              "id": 8,
+              "forma": "rect",
+              "texto": "<span class='h5'>Menor motivación en el trabajo<br>Peor rendimiento de la plantilla<br>Mayor movilidad de la plantilla</span>",
+              "ancho": 300,
+              "alto": 100,
+              "x": 1,
+              "y": 180,
+              "relleno": "#FFE0B2",
+              "borde": "#F57F17",
+              "anchoBorde": 1,
+              "orden": 11
+            },
+            {
+              "id": 9,
+              "forma": "rect",
+              "texto": "<span class='h5'>Disminución de las ventas</span>",
+              "ancho": 320,
+              "alto": 40,
+              "x": 335,
+              "y": 270,
+              "relleno": "#FFE0B2",
+              "borde": "#F57F17",
+              "anchoBorde": 1,
+              "orden": 5
+            },
+            {
+              "id": 10,
+              "forma": "rect",
+              "texto": "Disminución de beneficios",
+              "ancho": 650,
+              "alto": 40,
+              "x": 1,
+              "y": 380,
+              "relleno": "#FFB74D",
+              "borde": "#F57F17",
+              "anchoBorde": 3,
+              "orden": 7
+            },
+            {
+              "id": 11,
+              "forma": "rect",
+              "texto": "Cuantiosas pérdidas económicas",
+              "ancho": 1350,
+              "alto": 60,
+              "x": 1,
+              "y": 450,
+              "relleno": "#ef9a9a",
+              "borde": "#b71c1c",
+              "anchoBorde": 3,
+              "orden": 25
+            },
+            {
+              "id": 12,
+              "forma": "rect",
+              "texto": "Cierre del negocio",
+              "ancho": 1350,
+              "alto": 60,
+              "x": 1,
+              "y": 560,
+              "relleno": "#ef9a9a",
+              "borde": "#b71c1c",
+              "anchoBorde": 3,
+              "orden": 27
+            },
+            {
+              "id": 13,
+              "forma": "rect",
+              "texto": "<span class='h5'>Pérdida de empleo</span>",
+              "ancho": 500,
+              "alto": 40,
+              "x": 430,
+              "y": 670,
+              "borde": "#b71c1c",
+              "anchoBorde": 3,
+              "orden": 29
+            },
+            {
+              "id": 14,
+              "forma": "rect",
+              "texto": "<span class='h5'>Dificultad para encontrar otro trabajo en la industria alimentaria</span>",
+              "ancho": 500,
+              "alto": 40,
+              "x": 430,
+              "y": 760,
+              "borde": "#b71c1c",
+              "anchoBorde": 3,
+              "dashArray": "5,5",
+              "orden": 31
+            },
+            {
+              "id": 15,
+              "forma": "rect",
+              "texto": "<span class='h6 estrecho'>Menores salarios/primas</span>",
+              "ancho": 170,
+              "alto": 40,
+              "x": 1,
+              "y": 310,
+              "borde": "#F57F17",
+              "anchoBorde": 1,
+              "orden": 14
+            }
+
+          ],
+          "enlaces": [
+            {
+              "origen": 1,
+              "destino": 4,
+              "color": "#F57F17",
+              "orden": 2
+            },
+            {
+              "origen": 2,
+              "destino": 5,
+              "color": "#F57F17",
+              "orden": 17
+            },
+            {
+              "origen": 3,
+              "destino": 6,
+              "color": "#F57F17",
+              "orden": 20
+            },
+            {
+              "origen": 1,
+              "destino": 7,
+              "color": "#F57F17",
+              "orden": 8
+            },
+            {
+              "origen": 7,
+              "destino": 8,
+              "color": "#F57F17",
+              "orden": 10
+            },
+            {
+              "origen": 4,
+              "destino": 9,
+              "color": "#F57F17",
+              "orden": 4
+            },
+            {
+              "origen": 8,
+              "destino": 10,
+              "color": "#F57F17",
+              "orden": 12
+            },
+            {
+              "origen": 9,
+              "destino": 10,
+              "color": "#F57F17",
+              "orden": 6
+            },
+            {
+              "origen": 5,
+              "destino": 11,
+              "color": "#F57F17",
+              "orden": 23
+            },
+            {
+              "origen": 6,
+              "destino": 11,
+              "color": "#F57F17",
+              "orden": 22
+            },
+            {
+              "origen": 10,
+              "destino": 11,
+              "color": "#F57F17",
+              "orden": 24
+            },
+            {
+              "origen": 11,
+              "destino": 12,
+              "color": "#b71c1c",
+              "orden": 26
+            },
+            {
+              "origen": 12,
+              "destino": 13,
+              "color": "#b71c1c",
+              "orden": 28
+            },
+            {
+              "origen": 13,
+              "destino": 14,
+              "color": "#b71c1c",
+              "orden": 30
+            },
+            {
+              "origen": 10,
+              "destino": 15,
+              "color": "#F57F17",
+              "orden": 13
+            },
+            {
+              "origen": 15,
+              "destino": 8,
+              "color": "#F57F17",
+              "orden": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Beneficios",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "texto": "Por el contrario, los beneficios de una buena práctica higiénica:"
+        },
+        {
+          "clase": "diagrama",
+          "cajas": [
+            {
+              "id": 1,
+              "forma": "rect",
+              "texto": "Buena reputación de la empresa",
+              "ancho": 1300,
+              "alto": 40,
+              "x": 1,
+              "y": 1,
+              "relleno": "#B3E5FC",
+              "borde": "#1E88E5",
+              "anchoBorde": 3,
+              "orden": 1
+            },
+            {
+              "id": 2,
+              "forma": "rect",
+              "texto": "<span class='h5'>Clientes satisfechos</span>",
+              "ancho": 250,
+              "alto": 40,
+              "x": 1,
+              "y": 75,
+              "relleno": "#E1F5FE",
+              "borde": "#1E88E5",
+              "anchoBorde": 1,
+              "orden": 3
+            },
+            {
+              "id": 3,
+              "forma": "rect",
+              "texto": "<span class='h5'>Publicidad positiva</span>",
+              "ancho": 250,
+              "alto": 40,
+              "x": 1,
+              "y": 150,
+              "relleno": "#E1F5FE",
+              "borde": "#1E88E5",
+              "anchoBorde": 1,
+              "orden": 5
+            },
+            {
+              "id": 4,
+              "forma": "rect",
+              "texto": "<span class='h5'>Aumento de clientes<br>Facilidad para captar clientes<br>Mayor demanda de artículos</span>",
+              "ancho": 250,
+              "alto": 100,
+              "x": 1,
+              "y": 250,
+              "relleno": "#E1F5FE",
+              "borde": "#1E88E5",
+              "anchoBorde": 1,
+              "orden": 7
+            },
+            {
+              "id": 5,
+              "forma": "rect",
+              "texto": "<span class='h5'>Aumento de las ventas</span>",
+              "ancho": 200,
+              "alto": 40,
+              "x": 300,
+              "y": 310,
+              "relleno": "#E1F5FE",
+              "borde": "#1E88E5",
+              "anchoBorde": 1,
+              "orden": 9
+            },
+            {
+              "id": 6,
+              "forma": "rect",
+              "texto": "Aumento de beneficios",
+              "ancho": 1300,
+              "alto": 40,
+              "x": 1,
+              "y": 480,
+              "relleno": "#C8E6C9",
+              "borde": "#4CAF50",
+              "anchoBorde": 3,
+              "orden": 25
+            },
+            {
+              "id": 7,
+              "forma": "rect",
+              "texto": "<span class='h5 estrecho'>Mayores salarios y primas</span>",
+              "ancho": 160,
+              "alto": 70,
+              "x": 317,
+              "y": 190,
+              "borde": "#B39DDB",
+              "anchoBorde": 1,
+              "orden": 21
+            },
+            {
+              "id": 8,
+              "forma": "rect",
+              "texto": "<span class='h5 estrecho'>Mayor motivación en el trabajo<br>Mejor rendimiento de la plantilla<br>Menor movilidad de plantilla<br>Ambiente de trabajo más seguro y agradable</span>",
+              "ancho": 330,
+              "alto": 200,
+              "x": 550,
+              "y": 160,
+              "relleno": "#B2EBF2",
+              "borde": "#1E88E5",
+              "anchoBorde": 1,
+              "orden": 13
+            },
+            {
+              "id": 9,
+              "forma": "rect",
+              "texto": "<span class='h5 estrecho'>Mayor autoestima del personal</span>",
+              "ancho": 330,
+              "alto": 40,
+              "x": 550,
+              "y": 75,
+              "relleno": "#B2EBF2",
+              "borde": "#1E88E5",
+              "anchoBorde": 1,
+              "orden": 11
+            },
+            {
+              "id": 10,
+              "forma": "rect",
+              "texto": "<span class='h5 estrecho'>Adecuación a la Ley</span>",
+              "ancho": 350,
+              "alto": 40,
+              "x": 950,
+              "y": 100,
+              "borde": "#B2EBF2",
+              "anchoBorde": 3,
+              "dashArray": "5,5",
+              "orden": 15
+            },
+            {
+              "id": 11,
+              "forma": "rect",
+              "texto": "<span class='h5 estrecho'>Satisfacción de las Autoridades Sanitarias</span>",
+              "ancho": 350,
+              "alto": 70,
+              "x": 950,
+              "y": 190,
+              "borde": "#B2EBF2",
+              "anchoBorde": 3,
+              "dashArray": "5,5",
+              "orden": 17
+            },
+            {
+              "id": 12,
+              "forma": "rect",
+              "texto": "<span class='h5 estrecho'>Menor estrés al cumplir con los requisitos de Sanidad.<br>(La vigilancia demasiado estrecha del Inspector de Sanidad puede llegar a ser estresante)</span>",
+              "ancho": 350,
+              "alto": 150,
+              "x": 950,
+              "y": 300,
+              "borde": "#B2EBF2",
+              "anchoBorde": 3,
+              "dashArray": "5,5",
+              "orden": 19
+            },
+            {
+              "id": 13,
+              "forma": "rect",
+              "texto": "Ganancia económica",
+              "ancho": 1300,
+              "alto": 40,
+              "x": 1,
+              "y": 570,
+              "relleno": "#C8E6C9",
+              "borde": "#4CAF50",
+              "anchoBorde": 3,
+              "orden": 27
+
+            },
+            {
+              "id": 14,
+              "forma": "rect",
+              "texto": "<span class='h4'>Posible ampliación del negocio</span>",
+              "ancho": 300,
+              "alto": 50,
+              "x": 500,
+              "y": 660,
+              "borde": "#4CAF50",
+              "anchoBorde": 3,
+              "orden": 29
+            },
+            {
+              "id": 15,
+              "forma": "rect",
+              "texto": "<span class='h4'>Nuevos puestos de trabajo<br>Ascensos</span>",
+              "ancho": 300,
+              "alto": 100,
+              "x": 500,
+              "y": 745,
+              "borde": "#4CAF50",
+              "anchoBorde": 3,
+              "orden": 31
+            }
+          ],
+          "enlaces": [
+            {
+              "origen": 1,
+              "destino": 2,
+              "color": "#1E88E5",
+              "orden": 2
+            },
+            {
+              "origen": 1,
+              "destino": 9,
+              "color": "#1E88E5",
+              "orden": 10
+            },
+            {
+              "origen": 2,
+              "destino": 3,
+              "color": "#1E88E5",
+              "orden": 4
+            },
+            {
+              "origen": 3,
+              "destino": 4,
+              "color": "#1E88E5",
+              "orden": 6
+            },
+            {
+              "origen": 4,
+              "destino": 5,
+              "color": "#1E88E5",
+              "orden": 8
+            },
+            {
+              "origen": 5,
+              "destino": 7,
+              "color": "#1E88E5",
+              "orden": 20
+            },
+            {
+              "origen": 5,
+              "destino": 6,
+              "color": "#1E88E5",
+              "orden": 24
+            },
+
+            {
+              "origen": 7,
+              "destino": 8,
+              "color": "#1E88E5",
+              "orden": 22
+            },
+            {
+              "origen": 9,
+              "destino": 8,
+              "color": "#1E88E5",
+              "orden": 12
+            },
+            {
+              "origen": 8,
+              "destino": 10,
+              "color": "#1E88E5",
+              "orden": 14
+            },
+            {
+              "origen": 8,
+              "destino": 5,
+              "color": "#1E88E5",
+              "orden": 23
+            },
+            {
+              "origen": 10,
+              "destino": 11,
+              "color": "#1E88E5",
+              "orden": 16
+            },
+            {
+              "origen": 11,
+              "destino": 12,
+              "color": "#1E88E5",
+              "orden": 18
+            },
+            {
+              "origen": 6,
+              "destino": 13,
+              "color": "#4CAF50",
+              "orden": 26
+            },
+            {
+              "origen": 13,
+              "destino": 14,
+              "color": "#4CAF50",
+              "orden": 28
+            },
+            {
+              "origen": 14,
+              "destino": 15,
+              "color": "#4CAF50",
+              "orden": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Principio de Seguridad Alimentaria",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInDown",
+          "texto": "La legislación alimentaria está encaminada a asegurar un nivel elevado de <b>protección</b> de la vida y la salud de las personas, teniendo en cuenta el <b>bienestar</b> de los animales, los aspectos fitosanitarios y el medio ambiente. Todo ello bajo el enfoque integrado «de la granja/del campo a la mesa» que es considerado actualmente un principio general de la política de seguridad alimentaria de la UE."
+        },
+        {
+          "clase": "imagen",
+          "animacion": "rotateInUpRight",
+          "imagen": "img/mod1/cadenaGranjaMesa.svg",
+          "ancho": 800
+        }
+      ]
+    },
+    {
+      "titulo": "Evolución del Principio",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInDown",
+          "texto": "La creciente sensibilización del consumidor respecto a la seguridad alimentaria ha provocado un mayor nivel de <b>exigencia</b> y, por tanto, un desplazamiento de la importancia de los agentes que intervienen en la cadena hacia la mesa. <br><br>Se ha pasado de consumir lo que se producía a que sean cada vez más los consumidores quienes deciden qué se produce, cómo se produce y cómo se comercializa. En definitiva, se <b>invierte el ciclo</b>, que ahora aparece como de la mesa a la granja/al campo."
+        },
+        {
+          "clase": "imagen",
+          "animacion": "rotateInUpRight",
+          "imagen": "img/mod1/cadenaMesaGranja.svg",
+          "ancho": 800
+        }
+      ]
+    },
+    {
+      "titulo": "Ciclo final",
+      "contenido": [
+
+        {
+          "clase": "texto",
+          "animacion": "slideInDown",
+          "texto": "Este sería el <b>resultado final</b> de la combinación de los ciclos anteriores:"
+        },
+        {
+          "clase": "imagen",
+          "animacion": "fadeInUp",
+          "imagen": "img/mod1/cadenaAlimentaria.svg",
+          "ancho": 800
+        }
+      ]
+    },
+    {
+      "titulo": "Trazabilidad",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "rubberBand",
+          "texto": "Aparece así la necesidad de <b>trazabilidad</b> o <b>rastreabilidad</b> de los alimentos.<br><br>La Trazabilidad es un sistema que permite conocer todos los <b>datos esenciales</b> (de calidad y seguridad alimentaria) de un producto alimentario: se identifica el producto y sus materias primas, la forma en que se ha manipulado, el lugar del que procede y el lugar al que se destina así como los controles y procesos a los que se ha sometido."
+        },
+        {
+          "clase": "lista",
+          "subclase": "cuadrado",
+          "animacion": "rubberBand",
+          "titulo": "Con la trazabilidad se consigue, además de evitar fraudes:",
+          "contenido": [
+            {
+              "punto": "El aumento de la <b>seguridad</b> alimentaria en la producción primaria"
+            },
+            {
+              "punto": "Que el consumidor obtenga toda la <b>información</b> necesaria del producto"
+            },
+            {
+              "punto": "Una <b>gestión</b> rápida y fácil sobre cualquier posible riesgo alimentario"
+            }
+          ]
+        },
+        {
+          "clase": "tabs",
+          "animacion": "lightSpeedIn",
+          "contenido": [
+            {
+              "titulo": "Hacia atrás",
+              "texto": "<b>Trazabilidad hacia atrás:</b> proporciona la información sobre el origen del alimento (de dónde procede, qué se ha hecho con él y cómo se ha hecho)."
+            },
+            {
+              "titulo": "De proceso",
+              "texto": "<b>Trazabilidad de proceso:</b> informa sobre los cambios a los que se somete el alimento. Proporciona la información sobre qué se hace con él (si se divide, cambia o mezcla con otros productos), qué se elabora con él, cómo, cuándo y,  por último, la identificación de lo que se elabora."
+            },
+            {
+              "titulo": "Hacia delante",
+              "texto": "<b>Trazabilidad hacia adelante:</b> informa del destino del producto (a quién se le entrega, qué se entrega y cuándo se entrega)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "En la aparición de una enfermedad de transmisión alimentaria, el manipulador puede tener un papel:",
+              "respuestas": [
+                {
+                  "opcion": "Directo.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Indirecto.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "El manipulador siempre es el responsable.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Directo o indirecto.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Actualmente el carnet de manipulador:",
+              "respuestas": [
+                {
+                  "opcion": "No existe.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Sigue existiendo y se debe renovar cada 4 años.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Los certificados emitidos en este curso:",
+              "respuestas": [
+                {
+                  "opcion": "Tienen validez en toda España.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Solamente tienen validez en la Comunidad Autónoma donde se realiza la formación.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Señala qué consecuencia de las siguientes tendría lugar en caso de aparición de enfermedad alimentaria:",
+              "respuestas": [
+                {
+                  "opcion": "Pérdida de reputación de la empresa.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Pago de indemnizaciones.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Multas y Costes legales.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Todas las opciones son correctas.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "En la cadena alimentaria, el primer eslabón es:",
+              "respuestas": [
+                {
+                  "opcion": "La producción primaria.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "La industria alimentaria donde se preparan los alimentos.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "La comercialización y la venta.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Los consumidores.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "¿Qué significa la frase \"de la mesa a la granja\" o \"de la mesa al campo\"?",
+              "respuestas": [
+                {
+                  "opcion": "Que los alimentos que no se consumen se reciclan como piensos/fertilizantes en granjas o cultivos.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Que la preocupación de los consumidores por su salud y bienestar así como por el bienestar animal decide la forma en la que se han de producir y comercializar los alimentos.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Que si un alimento no cumple con los requisitos exigidos, se puede devolver a su lugar de origen.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "La Trazabilidad de un producto alimentario:",
+              "respuestas": [
+                {
+                  "opcion": "Permite identificar las materias primas con las que está elaborado.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Permite conocer la forma en la que se ha manipulado y procesado.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Permite conocer el lugar del que procede y al que se destina.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Todas las opciones son correctas.",
+                  "correcto": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En este módulo has visto qué es la seguridad alimentaria, la concienciación del consumidor, así como el papel importantísimo que tiene el manipulador de alimentos sobre la misma.<br><br>Has conocido los <b>beneficios</b> que confiere la realización de unas buenas prácticas higiénicas y también el lado contrario, las <b>consecuencias</b> que provoca la aparición de una intoxicación alimentaria, no solamente sobre la salud de los consumidores, sino en la empresa involucrada y sus trabajadores.<br><br>En el Módulo siguiente vas a descubrir qué es la <b>contaminación de los alimentos</b>, cómo se clasifican los contaminantes y la diferencia respecto a la alteración de los alimentos."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod1/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

@@ -1,0 +1,1504 @@
+﻿{
+  "modulo": "Mod. Específico: Hostelería y Restauración",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modRes/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Hasta ahora en los módulos anteriores has visto todo lo relacionado con la Higiene y Seguridad Alimentaria de forma amplia, pero de forma genérica. En este Módulo vas a poder ampliar la información vista anteriormente pero <b>enfocada</b> exclusivamente al <b>Sector de Restauración</b>, con los peligros que pueden aparecer desde la recepción de los alimentos crudos hasta el momento de servir la comida preparada, junto con las medidas preventivas más básicas para prevenirlos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Introducción",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "flash",
+          "titulo": "En el sector de Hostelería-Restauración ocurren <b>gran parte</b> de las intoxicaciones alimentarias. Esto se debe a la gran cantidad de productos que se elaboran, alguno de ellos de gran <b>complejidad</b> en cuanto a su manipulación. El sector de Hostelería-Restauración comprende establecimientos muy variados entre los que se pueden diferenciar:",
+          "contenido": [
+            {
+              "punto": "Establecimientos dedicados al servicio de bebidas y algunos alimentos poco elaborados, como puedan ser bares, cafeterías, etc."
+            },
+            {
+              "punto": "Restaurantes"
+            },
+            {
+              "punto": "Comedores colectivos"
+            },
+            {
+              "punto": "Empresas de catering"
+            },
+            {
+              "punto": "Establecimientos de temporada (ferias, exposiciones...)"
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+		  "animacion": "fadeInRight",
+          "subclase": "definicion",
+          "texto": "<b>Colectividad:</b> conjunto de consumidores con unas características similares que demandan un servicio de comidas preparadas, tales como escuelas, empresas, hospitales, residencias de ancianos, guarderías, medios de transporte..."
+        }
+      ]
+    },
+    {
+      "titulo": "Etapas",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "bounce",
+          "texto": "Aunque todos estos establecimientos sean muy <b>diversos</b>, a la hora de elaborar los productos, podríamos <b>resumir</b> todos sus procesos en:"
+        },
+        {
+          "clase": "diagrama",
+          "cajas": [
+            {
+              "id": 1,
+              "forma": "rect",
+              "texto": "Recepción",
+              "ancho": 300,
+              "alto": 60,
+              "x": 400,
+              "y": 1,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 1
+            },
+            {
+              "id": 2,
+              "forma": "rect",
+              "texto": "Almacenamiento",
+              "ancho": 300,
+              "alto": 60,
+              "x": 400,
+              "y": 100,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 3
+            },
+            {
+              "id": 3,
+              "forma": "rect",
+              "texto": "Preparación",
+              "ancho": 300,
+              "alto": 60,
+              "x": 400,
+              "y": 200,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 5
+            },
+            {
+              "id": 4,
+              "forma": "rect",
+              "texto": "Cocinado",
+              "ancho": 300,
+              "alto": 60,
+              "x": 400,
+              "y": 300,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 7
+            },
+            {
+              "id": 5,
+              "forma": "rect",
+              "texto": "Emplatado (Servicio de comidas)",
+              "ancho": 300,
+              "alto": 60,
+              "x": 600,
+              "y": 400,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 9
+            },
+            {
+              "id": 6,
+              "forma": "rect",
+              "texto": "Conservación y mantenimiento de alimentos preparados",
+              "ancho": 300,
+              "alto": 60,
+              "x": 200,
+              "y": 400,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 11
+            }
+          ],
+          "enlaces": [
+            {
+              "origen": 1,
+              "destino": 2,
+              "color": "#65acb0",
+              "orden": 2
+            },
+            {
+              "origen": 2,
+              "destino": 3,
+              "color": "#65acb0",
+              "orden": 4
+            },
+            {
+              "origen": 3,
+              "destino": 4,
+              "color": "#65acb0",
+              "orden": 6
+            },
+            {
+              "origen": 4,
+              "destino": 5,
+              "color": "#65acb0",
+              "orden": 8
+            },
+            {
+              "origen": 4,
+              "destino": 6,
+              "color": "#65acb0",
+              "orden": 10
+            },
+            {
+              "origen": 6,
+              "destino": 5,
+              "color": "#65acb0",
+              "orden": 12
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Etapa 1: Recepción de M.P.",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "shake",
+          "texto": "<b>Recepción de materias primas</b>:<br>El <b>control</b> que se debe realizar de las materias primas con las que vamos a trabajar es <b>fundamental</b> para garantizar la calidad e inocuidad de los alimentos que vamos a elaborar o a fabricar. Por dicho motivo debemos <b>asegurarnos</b> que los productos lleguen en perfectas condiciones y reúnan todas las garantías. ¿Cómo controlamos esto?"
+        },
+        {
+          "clase": "texto",
+		  "animacion": "pulse",
+          "texto": "Por tanto, en esta etapa hemos de realizar un <b>control visual</b> de las condiciones de recepción de los alimentos, especialmente:<br><br><b>Temperatura</b> de recepción:"
+        },
+        {
+          "clase": "tabla",
+		  "animacion": "rubberBand",
+          "subclase": "centro",
+          "filaTitulos": [
+            {
+              "titulo": "Producto alimenticio"
+            },
+            {
+              "titulo": "Temperatura de recepción"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "Comida envasada fría"
+                },
+                {
+                  "texto": "Máx. 8ºC"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Comidas calientes"
+                },
+                {
+                  "texto": "Mín. 65ºC"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Lácteos"
+                },
+                {
+                  "texto": "Máx. 4ºC"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Ovoproductos"
+                },
+                {
+                  "texto": "Máx. 4ºC"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Embutidos cocidos"
+                },
+                {
+                  "texto": "Entre 0 - 5ºC"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Pescados"
+                },
+                {
+                  "texto": "Máx. 2ºC"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Carne picada"
+                },
+                {
+                  "texto": "Máx. 3ºC"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Pollo, aves y conejo"
+                },
+                {
+                  "texto": "Máx. 4ºC"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Carne fresca"
+                },
+                {
+                  "texto": "Máx. 7ºC"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Congelados"
+                },
+                {
+                  "texto": "Máx. -18ºC"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Control en recepción",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Además de la temperatura, tendremos en cuenta los siguientes puntos:"
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "swing",
+          "subclase": "flex-start",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+			  "animacion": "fadeInUp",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "Alimentos <b>envasados</b>",
+                  "contenido": [
+                    {
+                      "punto": "Limpios, secos y con precintos sin romper."
+                    },
+                    {
+                      "punto": "Etiquetado correcto"
+                    },
+                    {
+                      "punto": "Deben mostrar su fecha de caducidad o consumo preferente perfectamente legible."
+                    },
+                    {
+                      "punto": "Las conservas no deben rezumar, presentar abolladuras, abombamiento u oxidación."
+                    }
+                  ]
+                },
+                {
+                  "clase": "imagen",
+				  "animacion": "fadeInRight",
+                  "imagen": "img/modRes/caja.jpg",
+                  "ancho": 400
+                }
+
+              ]
+            },
+
+            {
+              "clase": "lista",
+			  "animacion": "jello",
+              "titulo": "Alimentos <b>no envasados</b>",
+              "contenido": [
+                {
+                  "punto": "Aspecto, olor, color y textura características del producto"
+                },
+                {
+                  "punto": "Las carnes deben presentar características propias de frescura (aspecto jugoso, consistencia firme, color rojizo,…) sin golpes."
+                },
+                {
+                  "punto": "El pescado debe tener aspecto de “vivo” con ojos brillantes, consistencia firme, agallas de color rojo intenso, sin parásitos ni golpes. El marisco fresco deberá estar vivo."
+                },
+                {
+                  "punto": "Los huevos deben tener la cáscara entera, limpia y sin defectos. Cada uno deberá estar perfectamente etiquetado."
+                },
+                {
+                  "punto": "Leche y productos lácteos. Procedentes de leches higienizadas."
+                },
+                {
+
+                  "punto": "Frutas y verduras estarán limpias, libres de parásitos y sin zonas de podredumbre o enmohecimiento."
+                }
+              ]
+            }
+
+          ]
+
+        }
+
+      ]
+    },
+    {
+      "titulo": "Materias Primas: Condiciones",
+      "contenido": [
+        {
+          "clase": "tabla",
+		  "animacion": "tada",
+          "filaTitulos": [
+            {
+              "titulo": "Producto"
+            },
+            {
+              "titulo": "Aceptable"
+            },
+            {
+              "titulo": "No aceptable"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "Carne"
+                },
+                {
+                  "clase": "lista",
+				  "animacion": "wobble",
+                  "contenido": [
+                    {
+                      "punto": "Color rojo brillante, rojo o rosa pálido, según sea de ternera, cordero o cerdo, respectivamente"
+                    },
+                    {
+                      "punto": "Grasa blanca o amarillenta"
+                    },
+                    {
+                      "punto": "Textura firme y elástica"
+                    },
+                    {
+                      "punto": "Olor característico"
+                    }
+                  ]
+                },
+                {
+                  "clase": "listaObjetos",
+				  "animacion": "bounceIn",
+                  "contenido": [
+                    {
+                      "clase": "lista",
+                      "subclase": "cuadrado",
+                      "contenido": [
+                        {
+                          "punto": "Color verdoso o marrón oscuro"
+                        },
+                        {
+                          "punto": "Olor rancio"
+                        }
+                      ]
+                    },
+                    {
+                      "clase": "imagen",
+                      "imagen": "img/modRes/carnePocha.svg",
+                      "ancho": 125
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Aves"
+                },
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "Color y olor característicos"
+                    },
+                    {
+                      "punto": "Textura firme"
+                    }
+                  ]
+                },
+                {
+                  "clase": "lista",
+                  "subclase": "cuadrado",
+                  "contenido": [
+                    {
+                      "punto": "Color verdoso o marrón amoratado"
+                    },
+                    {
+                      "punto": "Textura blanda y pegajosa bajo las alas"
+                    },
+                    {
+                      "punto": "Olor anormal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Pescado"
+                },
+                {
+                  "clase": "lista",
+				  "animacion": "bounceInRight",
+                  "contenido": [
+                    {
+                      "punto": "Agallas húmedas de color rojo brillante. Ojos saltones, limpios, transparentes y brillantes"
+                    },
+                    {
+                      "punto": "Carne firme"
+                    },
+                    {
+                      "punto": "Libre de parásitos (Anisakis)"
+                    },
+                    {
+                      "punto": "Olor característico"
+                    }
+                  ]
+                },
+                {
+                  "clase": "listaObjetos",
+				  "animacion": "fadeInDown",
+                  "contenido": [
+                    {
+                      "clase": "lista",
+                      "subclase": "cuadrado",
+                      "contenido": [
+                        {
+                          "punto": "Agallas secas, de color verde o gris."
+                        },
+                        {
+                          "punto": "Ojos hundidos y opacos con los bordes rojos"
+                        },
+                        {
+                          "punto": "Carne fláccida"
+                        },
+                        {
+                          "punto": "Olor agrio o a amoníaco"
+                        }
+
+                      ]
+                    },
+                    {
+                      "clase": "imagen",
+                      "imagen": "img/modRes/pescadoPocho.svg",
+                      "ancho": 200
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Moluscos (mejillones, ostras, almejas...)"
+                },
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "Color y olor característicos"
+                    },
+                    {
+                      "punto": "Textura firme"
+                    }
+                  ]
+                },
+                {
+                  "clase": "lista",
+				  "animacion": "flash",
+                  "subclase": "cuadrado",
+                  "contenido": [
+                    {
+                      "punto": "Olor agrio a amoníaco"
+                    },
+                    {
+                      "punto": "Textura viscosa y apariencia opaca"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Crustáceos (cigalas, gambas, nécoras)"
+                },
+                {
+                  "clase": "lista",
+				  "animacion": "lightSpeedIn",
+                  "contenido": [
+                    {
+                      "punto": "Color característico y olor a marisco"
+                    },
+                    {
+                      "punto": "Textura firme"
+                    }
+                  ]
+                },
+                {
+                  "clase": "lista",
+                  "subclase": "cuadrado",
+                  "contenido": [
+                    {
+                      "punto": "Textura fláccida"
+                    },
+                    {
+                      "punto": "Color opaco, con manchas oscuras entre las articulaciones"
+                    },
+                    {
+                      "punto": "Pérdida de tensión en las articulaciones"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Leche y productos lácteos"
+                },
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "Limpios y con el sello oval en la etiqueta"
+                    }
+                  ]
+                },
+                {
+                  "clase": "lista",
+                  "subclase": "cuadrado",
+                  "contenido": [
+                    {
+                      "punto": "Sin etiquetar, manchados o con colores anormales"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Huevos"
+                },
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "Limpios y con la cáscara entera"
+                    }
+                  ]
+                },
+                {
+                  "clase": "lista",
+                  "subclase": "cuadrado",
+                  "contenido": [
+                    {
+                      "punto": "Con la cáscara rota o resquebrajada, manchados o con la fecha de caducidad vencida"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Vegetales y hortalizas"
+                },
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "Limpios, con coloración y textura diferentes"
+                    }
+                  ]
+                },
+                {
+                  "clase": "listaObjetos",
+                  "contenido": [
+
+                    {
+                      "clase": "lista",
+                      "subclase": "cuadrado",
+                      "contenido": [
+                        {
+                          "punto": "Con mohos, parásitos, coloraciones extrañas, magulladuras o mal olor"
+                        }
+                      ]
+                    },
+                    {
+                      "clase": "imagen",
+                      "imagen": "img/modRes/manzanaPocha.svg",
+                      "ancho": 100
+                    }
+
+                  ]
+                }
+
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "Se debe conservar toda la documentación comercial que identifique al proveedor de las materias primas."
+        }
+      ]
+    },
+    {
+      "titulo": "Peligros y medidas preventivas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "¿Por qué hacemos este control? Para evitar los peligros que pueden aparecer en la etapa de recepción de materias primas, que son:"
+        },
+        {
+          "clase": "lista",
+		  "animacion": "rotateInDownLeft",
+          "contenido": [
+            {
+              "punto": "<b>Contaminación</b> de los alimentos, por ejemplo:",
+              "contenido": [
+                {
+                  "punto": "Los vehículos en los que se transportan no reúnen unas adecuadas condiciones de higiene."
+                },
+                {
+                  "punto": "Las operaciones de descarga no se realizan de manera que se evite la contaminación de los alimentos."
+                },
+                {
+                  "punto": "Los alimentos vienen con gran contaminación de origen debido a deficiencias de higiene del proveedor."
+                }
+              ]
+            },
+            {
+              "punto": "<b>Multiplicación</b> de los microorganismos presentes en los alimentos, por ejemplo:",
+              "contenido": [
+                {
+                  "punto": "Temperaturas no adecuadas durante el transporte."
+                },
+                {
+                  "punto": "Tiempo de descarga excesivo."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Así, entre las maneras de <b>evitar o minimizar</b> que aparezcan estos peligros tenemos:"
+        },
+        {
+          "clase": "tabs",
+		  "animacion": "zoomInUp",
+          "contenido": [
+            {
+              "titulo": "Transporte",
+              "texto": "Serán vehículos <b>homologados</b> cuyo uso sea <b>exclusivo</b> para el transporte de alimentos, o en caso de compartir con otros productos no alimenticios será necesaria una separación efectiva de los productos.<br>Los alimentos estarán debidamente <b>protegidos y estibados</b> durante el transporte.<br>El vehículo presentará unas condiciones de <b>limpieza</b> adecuadas.<br>La <b>temperatura</b> de conservación será la adecuada a los alimentos transportados."
+            },
+            {
+              "titulo": "Proveedores",
+              "texto": "Todos los alimentos y materias primas deben comprarse a proveedores autorizados que dispongan de autorización sanitaria vigente y nunca a proveedores clandestinos que no estén controlados por la autoridad sanitaria y vendrán acompañados de facturas o albaranes que indiquen su procedencia."
+            },
+            {
+              "titulo": "Cadena de frío",
+              "texto": "En aquellos productos que se mantengan refrigerados o congelados, no se  interrumpirá la cadena de frío. No obstante, se permitirán períodos limitados no sometidos al control de temperatura por necesidades prácticas de manipulación durante la preparación, transporte, almacenamiento, presentación y entrega de los productos alimenticios, siempre que ello no suponga un riesgo para la salud."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Etapa 2: Almacenamiento",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Una vez recepcionadas las materias primas, la siguiente etapa será la de <b>almacenamiento</b>, en la que es fundamental respetar los modos de conservación del alimento. Se prestará especial atención a <b>no romper la cadena de frío</b> de aquellos productos que se tengan que almacenar en refrigeración o congelación."
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "flipInX",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Condiciones <b>generales</b> para el almacenamiento:",
+              "contenido": [
+                {
+                  "punto": "Todos los productos han de almacenarse ordenados en <b>estanterías o sobre palets</b>, evitando que estén en contacto directo con el suelo."
+                },
+                {
+                  "punto": "Los productos estarán ordenados por <b>categorías</b>, y se protegerán y ordenarán de manera que se minimicen los riesgos de contaminación."
+                },
+                {
+                  "punto": "Se tendrá en cuenta la <b>rotación</b> de productos, de tal forma que los productos que primero entren en nuestro almacén sean los primeros que deben salir (Sistema F. I. F. O. -> “First In, First Out”). De esta forma se garantiza que no se superen las fechas de caducidad y la frescura de los alimentos."
+                },
+                {
+                  "punto": "Nunca se almacenarán productos alimenticios junto a <b>sustancias peligrosas</b> como detergentes, desinfectantes, insecticidas o raticidas, etc."
+                },
+                {
+                  "punto": "El almacén <b>no</b> debe utilizarse para <b>otros fines</b> que no sean específicamente de almacenamiento (vestuario, botiquín, etc.)"
+                },
+                {
+                  "punto": "Nunca se rebasará la <b>capacidad</b> de almacenamiento. Se deberá permitir la <b>circulación</b> del aire frío."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modRes/almacen.jpg"
+            }
+
+          ]
+        }
+
+
+      ]
+    },
+    {
+      "titulo": "Peligros",
+      "fondo": "img/modRes/estanteriaLatas.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "shake",
+          "subclase": "recuadro",
+          "texto": "¿Qué <b>peligros</b> pueden aparecer en esta etapa?<br><br><b>Contaminación de los alimentos</b>: <br>Algunos ejemplos pueden ser:<br>Contaminación química por almacenar productos químicos (por ejemplo de higiene y desinfección) junto alimentos.<br>Contaminación debida a condiciones de mantenimiento (óxidos, pinturas, sistemas de iluminación sin protección…), de control de plagas (roedores, insectos) o de higiene inadecuadas.<br><br><b>Contaminación cruzada de los alimentos</b>:<br>Por almacenar alimentos crudos con comidas preparadas.<br>Por almacenar juntos productos de diferente origen (carnes, pescados, frutas, etc…). <br>Por condiciones deficientes de higiene y desinfección de los locales / equipos o cámaras frigoríficas.<br><br> <b>Multiplicación de los microorganismos</b>.<br>Algunos ejemplos  representativos pueden ser:<br> Temperaturas inadecuadas para la conservación del alimento.<br>Exceso de tiempo del producto en almacenamiento que implique rebasar las fechas de consumo."
+
+        }
+
+      ]
+    },
+    {
+      "titulo": "Medidas preventivas",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "slideInUp",
+          "subclase": "anillas",
+          "titulo": "¿Cómo <b>minimizar</b> o evitar los peligros mencionados?",
+          "contenido": [
+            {
+              "punto": "Los alimentos se ordenarán por <b>categorías</b>, en base a su naturaleza, respetando su modo de conservación, evitando en todo momento la contaminación cruzada. Lo ideal sería disponer de equipos frigoríficos <b>independientes</b> para cada grupo de alimentos:",
+              "contenido": [
+                {
+                  "punto": "Frutas y verduras"
+                },
+                {
+                  "punto": "Carnes y productos cárnicos frescos"
+                },
+                {
+                  "punto": "Pescados y mariscos"
+                },
+                {
+                  "punto": "Productos listos para consumo (fiambres, lácteos, etc.)"
+                },
+                {
+                  "punto": "Comidas preparadas"
+                }
+              ]
+            },
+            {
+              "punto": "Nunca se depositarán directamente sobre el <b>suelo</b> los alimentos (aunque estén debidamente envasados y embalados)."
+            },
+            {
+              "punto": "Adoptar unos <b>planes de mantenimiento</b>, control de plagas e higiene y desinfección efectivos."
+            },
+            {
+              "punto": "No sobrecargar los equipos de frío (siempre se debe facilitar la <b>circulación</b> del aire frío)."
+            },
+            {
+              "punto": "Establecer una adecuada <b>rotación</b> de productos (sistema FIFO)."
+            },
+            {
+              "punto": "Respetar las <b>fechas de consumo</b> (fechas de caducidad o fechas de consumo preferente)."
+            },
+            {
+              "punto": "Las etiquetas, envases y envoltorios deben ser perfectamente <b>legibles</b> y encontrarse en buen estado de conservación."
+            },
+            {
+              "punto": "Si los alimentos se van a introducir en recipientes del propio establecimiento, éstos deben ser <b>aptos</b> para uso alimentario y en adecuadas condiciones de higiene y conservación."
+            },
+            {
+              "punto": "En aquellos productos que se mantengan refrigerados o congelados, no se  interrumpirá la <b>cadena de frío</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Tipos de almacenamiento",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "El <b>almacenamiento</b> puede realizarse:"
+        },
+        {
+          "clase": "acordeonSub",
+		  "animacion": "flash",
+          "contenido": [
+            {
+              "titulo": "A temperatura ambiente",
+              "texto": "Solamente aquellos productos alimenticios no perecederos, es decir, aquellos productos cuya vida útil es larga y no precisan condiciones especiales de conservación. Dentro de estos alimentos se incluyen: conservas, legumbres secas, patatas, aceites, envases de leche UHT cerrados, pastas, etc.<br><br>Los locales destinados a tal fin han de ser frescos, secos y bien ventilados y protegidos de insectos y roedores."
+            },
+            {
+              "titulo": "A Temperatura Controlada de frío",
+              "contenido": [
+                {
+                  "titulo": "Frío",
+                  "texto": "El frío se utiliza para almacenar gran cantidad de alimentos crudos, cocinados y congelados. La conservación en frío puede realizarse a temperatura de refrigeración o a temperatura de congelación.<br><br>El frío <b>no destruye</b> los microorganismos, solamente disminuye (refrigeración) o detiene (congelación) su crecimiento – en este punto cabe indicar que el mantenimiento de los alimentos en congelación durante cierto periodo de tiempo puede destruir algunos parásitos- En cuanto el alimento vuelva a encontrarse a temperaturas adecuadas, los microorganismos existentes pueden multiplicarse."
+                },
+                {
+                  "titulo": "Refrigeración ",
+                  "texto": "Permite conservar los alimentos perecederos (carnes, pescados, huevos, frutas y verduras) por un periodo breve de tiempo y, si bien cada alimento tiene una temperatura óptima de conservación, las temperaturas óptimas en líneas generales se encuentran comprendidas entre 0ºC y +5ºC."
+                },
+                {
+                  "titulo": "Congelación",
+                  "texto": "Es uno de los métodos más adecuados para la conservación de los alimentos a largo plazo, ya que mantiene perfectamente sus condiciones organolépticas y nutritivas. La temperatura normal de congelación es de -18ºC (18ºC bajo cero)."
+                }
+
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+		  "animacion": "fadeInRight",
+          "texto": "¡Las temperaturas de refrigeración y congelación tienen que vigilarse y controlarse <b>regularmente</b>! En caso de detectar anomalías o mal funcionamiento de los equipos de frío debe actuarse inmediatamente."
+        }
+      ]
+    },
+    {
+      "titulo": "A tener en cuenta...",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "Factores importantes a tener en cuenta durante el almacenamiento:"
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "rotateInLeft",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "<b>Temperatura</b>: Un almacenamiento a temperatura incorrecta puede permitir la multiplicación de microorganismos alterantes y/o patógenos."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modRes/termometro.jpg",
+              "ancho": 350
+            }
+
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInUp",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modRes/reloj.jpg",
+              "ancho": 350
+            },
+            {
+              "clase": "texto",
+              "texto": "<b>Tiempo</b>: Un almacenamiento durante tiempos excesivos puede permitir la multiplicación de microorganismos (¡incluso a temperatura de refrigeración!)"
+            }
+
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInDown",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "<b>Humedad</b>: Aparte de temperatura y tiempo, es un factor muy importante a tener en cuenta, ya que si está por debajo de la recomendada se producen desecaciones y pérdidas de peso (en congelación pueden producirse quemaduras por frío en el alimento) y si está por encima aparece el riesgo de contaminación por mohos."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modRes/humedad.jpg",
+              "ancho": 350
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Etapa 3: Preparación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En esta etapa las materias primas se someten a diversas <b>operaciones</b> antes de su cocinado o preparación final. Estas operaciones, entre otras, pueden comprender la limpieza, descongelación, evisceración, troceado, picado, etc.<br><br>Todas estas operaciones deben realizarse bajo estrictas medidas higiénicas con el fin de evitar contaminaciones adicionales que puedan afectar la salud del consumidor. ¿Qué <b>peligros</b> pueden aparecer en esta etapa?"
+        },
+        {
+          "clase": "tabs",
+		  "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "Contaminación",
+              "texto": "<b>Contaminación</b> de los alimentos. Algunos ejemplos representativos pueden ser:",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "Contaminación <b>cruzada</b> de los alimentos: las carnes, pescados, vegetales sin limpiar y en general, cualquier alimento crudo, puede transferir microorganismos a las superficies de trabajo, equipos, utensilios, ropas y manos del personal con las que entren en contacto. Los alimentos cocinados (que estarían libres de microorganismos) pueden contaminarse si contactan directamente con estos alimentos crudos o indirectamente a través de esas superficies, equipos, utensilios, ropas o manos del personal que no hubieran sido limpiadas y desinfectadas adecuadamente (contaminación cruzada). "
+                    },
+                    {
+                      "punto": "En las operaciones de <b>troceado y picado</b> se exponen zonas del alimento que antes no podían alcanzar los microorganismos."
+                    },
+                    {
+                      "punto": "Contaminación aportada por <b>higiene deficiente</b> del personal manipulador."
+                    },
+                    {
+                      "punto": "Contaminación a través de <b>insectos, roedores o animales domésticos</b>."
+                    },
+                    {
+                      "punto": "Contaminación aportada por el <b>agua</b> de consumo (si esta se encuentra contaminada)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Multiplicación",
+              "texto": "<b>Multiplicación</b> de los microorganismos. Como ejemplos podríamos citar:",
+              "contenido": [
+                {
+                  "clase": "lista",
+				  "animacion": "shake",
+                  "contenido": [
+                    {
+                      "punto": "Tiempo <b>excesivo</b> durante la preparación de alimentos."
+                    },
+                    {
+                      "punto": "Prácticas incorrectas de elaboración:",
+                      "contenido": [
+                        {
+                          "punto": "Dejar <b>descongelar</b> una parte del alimento que es la que se va a utilizar y volver a congelar la parte que no utilizaremos."
+                        },
+                        {
+                          "punto": "Descongelación total del alimento realizada de manera <b>incorrecta</b>."
+                        },
+                        {
+                          "punto": "En alimentos que necesitan <b>frío</b> utilizar una parte pero mantener la parte que no se va a utilizar innecesariamente fuera de las cámaras  de frío o cercanas a fuentes de calor."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Evitar la contaminación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Para evitar la contaminación cruzada hemos de adoptar una serie de medidas preventivas como pueden ser:<br>Dependiendo de la dimensión de la cocina:"
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInLeft",
+          "subclase": "flex-start",
+          "contenido": [
+            {
+              "clase": "lista",
+              "subclase": "sinPuntos",
+              "titulo": "Deberá existir una separación <b>espacial</b> (diversos locales, zonas o secciones) por ejemplo:",
+              "contenido": [
+
+                {
+                  "punto": "Zona o local para realizar operaciones de limpieza y desinfección de útiles"
+                },
+                {
+                  "punto": "Zona  o local de preparación de carnes"
+                },
+                {
+                  "punto": "Zona o local de preparación de pescados"
+                },
+                {
+                  "punto": "Zona o local de preparación de vegetales"
+                },
+                {
+                  "punto": "Zona de productos intermedios"
+                },
+                {
+                  "punto": "Zona de productos terminados"
+                },
+                {
+                  "clase": "icono",
+                  "subclase": "exclamacion",
+                  "texto": "En restauración uno de los puntos más importantes es evitar la <b>contaminación cruzada</b>."
+                }
+              ]
+            },
+            {
+              "clase": "listaObjetos",
+			  "animacion": "flash",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "O bien una <b>separación temporal</b> (primero realizar unas operaciones y luego otras) para manipular materias primas crudas y productos semielaborados o productos terminados."
+                },
+                {
+                  "clase": "imagen",
+                  "imagen": "img/modRes/desorden.jpg"
+                }
+              ]
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Evitar la contaminación 2",
+      "contenido": [
+        {
+			"clase": "lista",
+			"animacion": "bounceInUp",          
+			"contenido": [
+            {
+              "punto": "Los locales  deben disponer de <b>lavamanos</b> de accionamiento no manual."
+            },
+            {
+              "punto": "Utilización de <b>agua potable</b> en perfectas condiciones higiénico-sanitarias."
+            },
+            {
+              "punto": "Los desperdicios se depositarán en lugares específicos destinados para ello (en cubos de accionamiento <b>no manual</b> con tapa, por ejemplo)."
+            },
+            {
+              "punto": "Evitar el <b>acceso</b> de insectos, roedores o animales."
+            },
+            {
+              "punto": "Todas las operaciones de limpieza y desinfección de superficies y útiles de trabajo se realizarán <b>aparte</b> (o en momentos distintos de la preparación)."
+            },
+            {
+              "punto": "Se prestará <b>especial atención</b> a los utensilios, recipientes, ropa, superficies y equipos así como manos (o guantes en su caso) del manipulador para evitar contaminaciones cruzadas:",
+              "contenido": [
+                {
+                  "punto": "Quienes manipulen materias primas crudas deben lavarse bien las manos antes de manipular alimentos cocinados."
+                },
+                {
+                  "punto": "Se cambiará la ropa o el delantal."
+                },
+                {
+                  "punto": "Todo equipo, superficie y útiles de trabajo empleados para manipular materias primas debe ser limpiado y desinfectado cuidadosamente tras su utilización."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+		  "animacion": "pulse",
+          "subclase": "exclamacion",
+          "texto": "Frutas y verduras frescas deben <b>lavarse cuidadosamente</b> con abundante agua potable antes de cortarlas o pelarlas. En ocasiones es recomendable desinfectarlas mediante un producto autorizado (en la concentración que recomiende dicho producto).<br><b>¿Por qué se debe hacer?</b> Porque fruta y verdura pueden llevar microorganismos presentes en el agua y en la tierra de cultivo, que eliminaremos mediante un lavado y desinfección adecuados."
+        }
+
+      ]
+    },
+    {
+      "titulo": "Evitar la multiplicación",
+      "fondo": "img/modRes/zamburinas.jpg",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "tada",
+          "subclase": "recuadro sinPuntos",
+          "contenido": [
+            {
+              "punto": "Con el fin de evitar la multiplicación de los microorganismos que pudieran estar presentes en los alimentos, se evitará que los alimentos permanezcan más tiempo del necesario en su preparación y se realizarán unas <b>prácticas correctas de elaboración</b>, especialmente durante la descongelación."
+            },
+            {
+              "punto": "En la preparación de <b>carnes y pescados crudos</b> se pondrá especial cuidado en mantenerlos fuera de la zona de peligro de temperaturas, por lo que se procederá cuanto antes a su cocinado o mantenimiento en frío."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Descongelación",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "rotateInDownLeft",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modRes/carneCongelada.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "La <b>descongelación</b> es un proceso delicado que influye en el mantenimiento de las cualidades del alimento.<br><br>No se debe realizar a temperatura ambiente ni sumergiendo el producto en agua. Lo adecuado es descongelar el alimento en la parte <b>menos fría</b> de la nevera o en el microondas) o incluso bajo chorro continuo de agua fría (otra opción, si el alimento o el tratamiento culinario lo permite sería cocinarlo de forma directa sin descongelar. En este último caso se deberá incrementar el tiempo de cocinado para conseguir una correcta cocción y como <b>medida de seguridad</b> para evitar la supervivencia de gérmenes patógenos o parásitos vivos. Los productos descongelados deben tratarse lo antes posible.<br><br>"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>¿Por qué se debe hacer así?</b><br>Porque la descongelación a temperaturas de refrigeración <b>evita</b> la multiplicación de los microorganismos que el producto congelado pudiera tener. Si lo descongelamos sumergiéndolo en agua favorecemos la multiplicación de los microorganismos ya que mientras que la superficie del alimento está descongelada el centro aún permanecerá congelado, con el peligro de la proliferación bacteriana en la superficie, y además provocamos pérdidas nutritivas. Si el producto no está completamente descongelado puede ser causa de que no se alcance una temperatura en el centro de producto que garantice la destrucción de los microorganismos que pueda haber en el mismo.<br><br>Hay que tener en cuenta que el <b>líquido</b> que sueltan los alimentos al descongelarse puede contener microorganismos que podrán contaminar otros alimentos."
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "Ningún alimento congelado, una vez descongelado, debe <b>volver</b> a ser congelado, a no ser que se haya cocinado antes."
+        }
+      ]
+    },
+    {
+      "titulo": "Etapa 4: Cocinado",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "flash",
+          "texto": "El <b>cocinado o procesado</b> de los alimentos debe realizarse de manera que por un lado se mantenga su máximo valor nutritivo y por otro se asegure su inocuidad desde un punto de  vista sanitario."
+        },
+        {
+          "clase": "tabs",
+		  "animacion": "fadeInDown",
+          "contenido": [
+            {
+              "titulo": "Peligros",
+              "imagen": "img/modRes/salchichas.jpg",
+              "ancho": 300,
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "¿Qué <b>peligros</b> pueden aparecer en esta etapa?:",
+                  "contenido": [
+                    {
+                      "punto": "La supervivencia de microorganismos patógenos. En esta etapa es fundamental <b>destruir</b> los microorganismos, ya que ninguna etapa posterior eliminará los microorganismos supervivientes."
+                    },
+                    {
+                      "punto": "La formación de compuestos químicos no deseados, por ejemplo: zonas quemadas en los alimentos, aceites de fritura utilizados demasiadas veces..."
+                    }
+                  ]
+                }
+
+              ]
+            },
+            {
+              "titulo": "Medidas preventivas",
+              "imagen": "img/modRes/freidora.jpg",
+              "ancho": 300,
+              "contenido": [
+                {
+                  "clase": "lista",
+				  "animacion": "shake",
+                  "titulo": "¿Cómo <b>minimizar o evitar</b> los peligros mencionados? Aunque cada método de cocinado utiliza unas temperaturas y tiempos distintos, siempre debemos asegurarnos de que:",
+                  "contenido": [
+                    {
+                      "punto": "La temperatura en el <b>centro</b> del alimento ha de alcanzar, al menos, <b>70ºC</b> (en caso de dudas se puede utilizar un termómetro adecuado para medirla), y se debe mantener el tiempo suficiente para eliminar o reducir a niveles aceptables toda la contaminación biológica que el alimento pudiera contener (al menos deberían ser <b>dos minutos</b>)."
+                    },
+                    {
+                      "punto": "Estos dos parámetros (temperatura y tiempo) son fundamentales para asegurar la destrucción de los microorganismos patógenos."
+                    },
+                    {
+                      "punto": "Se debe comprobar que los equipos (hornos, freidoras...) alcanzan las temperaturas para las que están programados."
+                    },
+                    {
+                      "punto": "Los <b>aceites y grasas</b> utilizadas para freír, no deben superar los 180ºC  y deben cambiarse con regularidad para que no se originen compuestos químicos tóxicos."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Etapa 5.1: Conservación y mantenimiento",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "wobble",
+          "texto": "Los platos preparados que no se vayan a consumir inmediatamente deben conservarse refrigerados o congelados o bien, mantenerlos en caliente hasta su consumo."
+        },
+        {
+          "clase": "acordeon",
+		  "animacion": "fadeInDown",
+          "contenido": [
+            {
+              "titulo": "¿Cómo se deben enfriar los productos cocinados?",
+              "texto": "Si los productos no se van a consumir de forma inmediata se deberán enfriar lo más rápido posible. Para ello, es mejor introducirlos en recipientes limpios de pequeño tamaño (cuanto menor sea el tamaño más rápido será el enfriamiento) y someterlos a enfriamiento rápido, pudiendo utilizar para ello equipos específicos como es el abatidor de temperaturas.<br><br>Posteriormente mantenerlos refrigerados a temperaturas entre 1ºC  y 4ºC  hasta su posterior recalentamiento o consumo final. (Si se fueran a congelar, se deberán utilizar aparatos que permitan una congelación rápida y se mantendrá a temperatura igual o inferior a -18ºC ).<br><br>Todo producto que después de su preparación o elaboración se conservará hasta su consumo, debe estar perfectamente identificado, mediante un etiquetado que permita conocer en todo momento de qué producto se trata, cuándo ha sido preparado y almacenado y cuál es su fecha de consumo entre otros datos.",
+              "imagen": "img/modRes/frio.png",
+              "ancho": 200
+            },
+            {
+              "titulo": "¿Cómo se deben mantener en caliente los productos cocinados?",
+              "texto": "Si los productos se tienen que mantener calientes hasta el momento de su consumo, hay que asegurarse que la temperatura en el centro del alimento sea, como mínimo, de 65ºC. Para ello se suelen utilizar equipos adecuados como son las mesas calientes o termos apropiados.",
+              "imagen": "img/modRes/calientaplatos.jpg",
+              "ancho": 300
+            },
+            {
+              "titulo": "¿Y si hay que recalentar un plato preparado?",
+              "texto": "El recalentamiento de los platos preparados debe hacerse de forma que se alcance rápidamente una temperatura de 70ºC  en el centro del producto. Los alimentos recalentados deben consumirse lo antes posible y un alimento recalentado no debe volverse a refrigerar o congelar. <br><br>¿Por qué se debe hacer así? Porque si mantenemos durante largos periodos de tiempo los alimentos cocinados a temperaturas dentro de la zona de peligro (entre 5ºC  y 65ºC), las  bacterias que pudieran haber sobrevivido al cocinado (¡ojo! Recuerda las formas de resistencia o esporas mencionadas en el Módulo III) pueden multiplicarse durante todo este tiempo que el alimento no permanece en frío.",
+              "imagen": "img/modRes/recalentar.jpg",
+              "ancho": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Muestras testigo",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modRes/salmon.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "En determinados casos, las autoridades competentes pueden exigir que se recojan muestras representativas de los productos que se elaboran. Son las llamadas <b>muestras testigo</b>.<br><br> En función del riesgo que presente el establecimiento, según el tipo de elaboración que realice, su sistema de autocontrol y el público al que van destinadas las comidas preparadas, la Administración podrá exigir a los establecimientos que dispongan de comidas testigo, que representen las diferentes <b>comidas preparadas</b> servidas a los consumidores diariamente, y que posibiliten la realización de los estudios epidemiológicos que, en su caso, sean necesarios.<br><br> Estos platos testigo estarán claramente identificados y fechados, conservados adecuadamente (refrigeración o congelación) durante el plazo que determine la autoridad competente (por ejemplo: mínimo de 72 horas) y la cantidad corresponderá a una ración individual. <br><br>Estas muestras sirven para <b>comprobar</b> la calidad higiénica del producto en caso de que ocurriese alguna anomalía durante su consumo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Peligros y medidas preventivas",
+      "fondo": "img/modRes/cocina.jpg",
+      "contenido": [
+        {
+          "clase": "tabs",
+		  "animacion": "bounceInDown",
+          "contenido": [
+            {
+              "titulo": "Peligros",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "¿Qué <b>peligros</b> pueden aparecer en esta etapa?",
+                  "contenido": [
+                    {
+                      "punto": "<b>Contaminación</b> de los alimentos (especialmente por contaminación cruzada)."
+                    },
+                    {
+                      "punto": "<b>Multiplicación</b> de los microorganismos supervivientes o por germinación de las esporas o formas de resistencia ."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Medidas preventivas",
+              "contenido": [
+                {
+                  "clase": "lista",
+				  "animacion": "pulse",
+                  "titulo": "¿Cómo <b>minimizar</b> o evitar los peligros mencionados?",
+                  "contenido": [
+                    {
+                      "punto": "Mantener en condiciones <b>higiénicas </b>adecuadas todos los equipos y recipientes utilizados en esta etapa."
+                    },
+                    {
+                      "punto": "Evitar la contaminación <b>cruzada</b>:",
+                      "contenido": [
+                        {
+                          "punto": "Evitar contacto de productos crudos o semielaborados con productos finales en todo momento."
+                        },
+                        {
+                          "punto": "Prestar especial atención a los utensilios, superficies y equipos que se hayan utilizado para productos crudos."
+                        },
+                        {
+                          "punto": "Atención al estado de higiene de las manos y del personal manipulador."
+                        },
+                        {
+                          "punto": "Manipular los alimentos ya preparados lo menos posible."
+                        }
+                      ]
+                    },
+                    {
+                      "punto": "Si los productos se van a mantener en caliente hasta su servicio, garantizar que se encuentran a <b>temperaturas</b> iguales o superiores a 65ºC en el centro del alimento."
+                    },
+                    {
+                      "punto": "Si los productos se van a conservar en frío, realizar dicho enfriamiento lo más <b>rápido</b> posible."
+                    },
+                    {
+                      "punto": "En el recalentamiento debe asegurarse que se alcance en el <b>centro del alimento</b> una temperatura igual o superior a los 70ºC. Se desecharán los sobrantes de comidas recalentadas."
+                    }
+                  ]
+                }
+              ]
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Etapa 5.2: Emplatado y servicio",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "fadeInLeft",
+          "texto": "El <b>emplatado y servicio</b> es el último paso antes de llegar al consumidor. Aunque los productos en este punto, hayan sido elaborados en condiciones higiénicas ideales, aún pueden convertirse en un peligro para la salud de los consumidores."
+        },
+        {
+          "clase": "tabs",
+		  "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "Peligros",
+              "imagen": "img/modRes/emplatado.jpg",
+              "ancho": 350,
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "¿Qué <b>peligros</b> pueden aparecer en esta etapa? <b>Contaminación</b> de los alimentos. Alguno de los ejemplos más representativos pueden ser:",
+                  "contenido": [
+                    {
+                      "punto": "Contaminaciones debidas al personal <b>manipulador</b> (condiciones poco higiénicas, tos, estornudos...)"
+                    },
+                    {
+                      "punto": "Contaminación por <b>superficies o útiles</b> en condiciones higiénicas deficientes."
+                    },
+                    {
+                      "punto": "Contaminación <b>cruzada</b> con materias primas crudas."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Medidas preventivas",
+              "imagen": "img/modRes/almejas.jpg",
+			  "animacion": "bounceIn",
+              "ancho": 250,
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "¿Cómo <b>minimizar</b> o evitar los peligros mencionados?",
+                  "contenido": [
+                    {
+                      "punto": "Mantener en condiciones <b>higiénicas</b> adecuadas todos los equipos y recipientes utilizados en esta etapa."
+                    },
+                    {
+                      "punto": "El personal debe <b>lavarse</b> las manos antes de realizar las operaciones con estos alimentos."
+                    },
+                    {
+                      "punto": "Si se exponen comidas o tapas en mostradores, deben encontrarse protegidas mediante <b>vitrinas</b> que las aíslen del público."
+                    },
+                    {
+                      "punto": "Los ingredientes que forman parte de las ensaladas de <b>consumo en frío</b> deben encontrarse fríos antes de mezclarlos y adicionarles las salsas."
+                    }
+                  ]
+                }
+
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "La aparición de peligros biológicos (no así los físicos ni los químicos) en esta etapa no tiene por qué representar un grave riesgo a la salud de los consumidores porque faltará uno de los factores clave en el desarrollo de microorganismos: el <b>tiempo</b>."
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInLeft",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modRes/despedida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Con este módulo se <b>cierra</b> la formación de manipuladores  de alimentos. Esperamos que lo hayas encontrado <b>instructivo</b> a la par que entretenido. Cualquier sugerencia o mejora que te parezca oportuna para mejorar el curso será bienvenida. ¡Acuérdate de cumplimentar el cuestionario del curso para que podamos <b>evaluar</b> todo lo que has aprendido! ¡Muchas gracias!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta pronto!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

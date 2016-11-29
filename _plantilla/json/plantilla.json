@@ -1,0 +1,179 @@
+﻿{
+  "modulo": "",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": ""
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

@@ -1,0 +1,962 @@
+﻿{
+  "modulo": "Mod. 3: Contaminación biológica",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Introducción",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/M3mesaCena.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "En el módulo anterior has visto cuáles son los tipos de contaminación que pueden afectar a los alimentos y cuáles pueden ser las fuentes de contaminación.<br><br>En este módulo vamos a centrarnos en la Contaminación Biológica de los alimentos porque es la causa más común de enfermedades de transmisión alimentaria.<br><br>Vamos a conocer los tipos de contaminantes biológicos más importantes que afectan a la <b>seguridad alimentaria</b> y aquellos factores que favorecen el crecimiento de los microorganismos en el alimento, transformándolo en un alimento peligroso. "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Microorganismos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInDown",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "La contaminación biológica consiste en la incorporación no intencionada de microorganismos vivos y es la <b>principal</b> causa de las enfermedades contraídas por ingestión de alimentos"
+            },
+            {
+              "clase": "texto",
+              "texto": "Los <b>microorganismos</b> son seres muy pequeños, que solamente podemos observar con la ayuda del del microscopio. Los <b>virus</b> son tan pequeños que solamente podemos verlos mediante el microscopio electrónico."
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "animacion": "bounce",
+          "imagen": "img/mod3/tamanios.svg",
+          "ancho": 800
+        },
+        {
+          "clase": "texto",
+          "animacion": "bounce",
+          "texto": "Para hacernos una idea, el tamaño sería equivalente a:"
+        },
+        {
+          "clase": "tabla",
+          "animacion": "slideInUp",
+          "subclase": "sinBordes centro",
+          "filaTitulos": [
+            { "titulo": "Virus" },
+            { "titulo": "Bacteria" },
+            { "titulo": "Célula" }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                { "imagen": "img/mod3/M3manipuladorPelotaTennis.png", "ancho": 25},
+                { "imagen": "img/mod3/M3manipuladorMediaCancha.png", "ancho": 200 },
+                { "imagen": "img/mod3/M3manipuladorEstadio.png", "ancho": 200}
+              ]
+            },
+            {
+              "fila": [
+                { "texto": "Pelota de tenis" },
+                { "texto": "Media cancha de tenis" },
+                { "texto": "Estadio de Fútbol" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminantes biológicos",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "Los agentes biológicos contaminantes se clasifican en:"
+        },
+        {
+          "clase": "tabla",
+          "animacion": "slideInRight",
+          "subclase": "sinBordes",
+          "filaTitulos": [
+            {
+              "titulo": "Bacterias"
+            },
+            {
+              "titulo": "Hongos: Mohos y Levaduras"
+            },
+            {
+              "titulo": "Parásitos"
+            },
+            {
+              "titulo": "Virus"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "imagen": "img/mod3/M3bacteria.jpg",
+                  "ancho": 275
+
+                },
+                {
+                  "imagen": "img/mod3/M3hongo.png",
+                  "ancho": 275
+                },
+                {
+                  "imagen": "img/mod3/M3parasito.png",
+                  "ancho": 275
+                },
+                {
+                  "imagen": "img/mod3/M3virus.png",
+                  "ancho": 275
+                }
+              ]
+            }
+          ]
+        },
+                {
+          "clase": "icono",
+          "animacion": "fadeInUp",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías que...</b> las bacterias son los seres vivos más antiguos de la tierra?"
+        }
+      ]
+    },
+    {
+      "titulo": "Bacterias",
+      "fondo": "img/mod3/M3bacteriaColi.jpg",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "animacion": "flipInY",
+          "texto": "Las bacterias son el grupo de microorganismos más importante dentro de las enfermedades transmitidas por los alimentos.<br><b>Bacterias:</b> Son organismos invisibles al ojo humano y son unicelulares (es decir, de una sola célula) y forma variable. Las bacterias son los <b>principales</b> agentes causantes de la contaminación de los productos alimenticios. Miden micras, que es la milésima parte de un milímetro. Se las puede encontrar <b>en todas partes</b>: en el agua, en el aire, en el suelo y en la superficie e interior de personas y animales."
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "flipInY",
+          "texto": "<b>¿Sabias que...</b><br>...debido a la enorme supervivencia y adaptabilidad que tienen las bacterias, se utilizan para limpiar los derrames de petróleo en el mar?"
+        }
+      ]
+    },
+    {
+      "titulo": "Clasificación",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "flex-start",
+          "animacion": "bounceInRight",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Existen muchos tipos de bacterias. Podemos clasificarlas en:<br><br><b>Beneficiosas</b>: intervienen en la producción de quesos, yogures, vinagre, etc. Además hay bacterias \"buenas\" que nos ayudan a digerir y absorber nutrientes o sintetizar ciertas vitaminas y aminoácidos que de otra manera no podríamos obtener. Además al estar ellas presentes, evitan el crecimiento de microorganismos patógenos."
+                },
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod3/M3quesoLeche.jpg"
+                }
+              ]
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "<b>Perjudiciales</b>: podemos distinguir dos grupos:<br><br>Alterantes: provocan la alteración de los alimentos (putrefacción de carnes, la leche se corta...)"
+                },
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod3/M3Uvaspochas.jpg",
+                  "ancho": 300
+                },
+                {
+                  "clase": "texto",
+                  "texto": "Patógenas: Son las bacterias capaces de producir enfermedades en el ser humano."
+                },
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod3/placaPetri.jpg",
+                  "ancho": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías que...</b><br>...las bacterias lácticas al fermentar la leche van formando un ácido que, además de producir un alimento diferente (queso, yogur, mantequilla...) hacen que éste no sea adecuando para el desarrollo de otros microorganismos - entre ellos los patógenos que nos causan enfermedades?"
+        }
+      ]
+    },
+        {
+      "titulo": "Fuentes de contaminación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInLeft",
+          "texto": "<b>Fuentes</b> de Contaminación Bacteriana"
+        },
+        {
+          "clase": "acordeon",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "El hombre",
+              "texto": "El hombre es <b>portador</b> de bacterias alterantes y patógenas en el pelo, boca, nariz e intestinos.",
+              "imagen": "img/mod3/M3peloBocaNariz.jpg",
+              "ancho": 300
+            },
+            {
+              "titulo": "Alimentos crudos",
+              "texto": "Todos los alimentos crudos son vehículos de contaminación, especialmente las carnes, pescados, mariscos y leche fresca. La <b>tierra</b> contiene bacterias nocivas y ha de tenerse gran cuidado en el almacenamiento, manipulación y lavado de las hortalizas crudas para evitar la contaminación procedente del <b>suelo</b>.",
+              "imagen": "img/mod3/M3carneCruda.jpg",
+              "ancho": 250
+            },
+            {
+              "titulo": "Insectos y roedores",
+              "texto": "Muchos insectos, y especialmente las <b>moscas</b>, tienen cuerpos peludos que recogen y diseminan las bacterias nocivas. Las moscas se asientan sobre las heces e ingieren grandes cantidades de bacterias y las transportan a los alimentos contaminándolos. Los <b>roedores</b>, tanto ratas como ratones, transportan microorganismos como Salmonella, y contaminan a los alimentos por medio de heces, orina, pelo, al roer los envases, etc...",
+              "imagen": "img/mod3/M3rata.jpg",
+              "ancho": 250
+            },
+            {
+              "titulo": "Animales y pájaros",
+              "texto": "El <b>pelo y la pluma</b> de los pájaros y animales domésticos y salvajes contiene gran número de bacterias perjudiciales. Incluso los animales de compañía más limpios hospedan grandes cantidades de bacterias peligrosas.",
+              "imagen": "img/mod3/M3paloma.jpg",
+              "ancho": 250
+            },
+            {
+              "titulo": "Polvo",
+              "texto": "Siempre hay partículas de <b>polvo</b> en la atmósfera que transportan grandes cantidades de microorganismos perjudiciales. Todos los alimentos deben <b>cubrirse</b> bien para evitar que el polvo se asiente sobre ellos y los contamine.",
+              "imagen": "img/mod3/M3polvo.jpg",
+              "ancho": 250
+            },
+            {
+              "titulo": "Desperdicios y basuras",
+              "texto": "Los manipuladores deben <b>lavarse las manos</b> después de manipular desperdicios y basuras. Deben evitar contaminar su indumentaria de protección para no transportar bacterias a la zona de manipulación.",
+              "imagen": "img/mod3/M3basura.jpg",
+              "ancho": 250
+            },
+            {
+              "titulo": "El agua",
+              "texto": "Ha de tenerse en cuenta siempre que el agua que utilicemos ha de ser <b>agua potable</b>.",
+              "imagen": "img/mod3/M3agua.jpg",
+              "ancho": 250
+            },
+            {
+              "titulo": "Otros",
+              "texto": "Utensilios, equipos, herramientas, superficies de manipulación contaminadas.",
+              "imagen": "img/mod3/M3tablaCortar.jpg",
+              "ancho": 250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Esporas y toxinas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "rubberBand",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "La mayoría de las bacterias <b>mueren</b> en condiciones ambientales que no les son óptimas, pero existe un grupo que es capaz de crear una forma de resistencia llamada <b>espora</b>, que es una cubierta protectora que crea la bacteria a su alrededor y de este modo puede soportar condiciones muy desfavorables (incluso temperaturas superiores a <b>100ºC</b>) y cuando las condiciones son favorables de nuevo, reinician su actividad con normalidad."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/espora.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Algunas bacterias son capaces durante su crecimiento de crear sustancias venenosas llamadas <b>toxinas</b>, algunas de las cuales resisten temperaturas muy elevadas (son las llamadas toxinas termorresistentes)."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "animacion": "rubberBand",
+          "texto": "Las bacterias se multiplican (reproducen) por una simple división en dos de modo que si las condiciones ambientales y de temperatura son favorables, esta división ocurre cada 20 ó 30 minutos."
+        },
+            {
+              "clase": "imagen",
+              "animacion": "rubberBand",
+              "imagen": "img/mod3/M3manipuladorBacterias.gif",
+              "ancho": 300
+            }
+      ]
+    },
+    {
+      "titulo": "Factores de crecimiento",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "lightSpeedIn",
+          "contenido": [
+            {
+              "clase": "icono",
+              "subclase": "exclamacion",
+              "texto": "Las bacterias, como seres vivos que son, tienen una serie de <b>necesidades</b> para crecer y desarrollarse: temperatura, humedad, alimento y tiempo. También influyen en su multiplicación: acidez, condiciones de oxígeno y presencia de sustancias antimicrobianas."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "animacion": "zoomIn",
+          "subclase": "sinPadding",
+          "titulo": "<b>Temperatura</b>:",
+          "contenido": [
+
+            {
+              "punto": "Las bacterias responsables de las toxiinfecciones alimentarias crecen de forma óptima a la temperatura del cuerpo humano (36-37 °C)."
+            },
+            {
+              "punto": "Son capaces de desarrollarse en el intervalo de temperaturas comprendido entre los 5 y los 65ºC, si bien su actividad disminuye a medida que las temperaturas se alejan de los valores óptimos."
+            },
+            {
+              "punto": "La temperatura ideal para el desarrollo de los microorganismos varía según el tipo de bacteria. No obstante podemos establecer de forma general, lo siguiente:"
+            }
+
+
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInUp",
+          "contenido": [
+            {
+              "clase": "lista",
+              "subclase": "cuadrado sinPadding",
+              "contenido": [
+                {
+                  "punto": "Temperaturas <b>inferiores a 0ºC</b> (temperaturas de congelación): las bacterias no pueden multiplicarse, pero NO mueren."
+                },
+                {
+                  "punto": "Temperaturas <b>entre 0 y 5ºC</b> (temperaturas de refrigeración): las bacterias se multiplican muy lentamente."
+                },
+                {
+                  "punto": "Temperaturas entre <b>5 y 65ºC</b>: temperaturas óptimas de multiplicación bacteriana. La temperatura a la cual la velocidad de multiplicación de las bacterias es de 37ºC (temperatura del cuerpo humano)."
+                },
+                {
+                  "punto": "Temperaturas <b>superiores a 65ºC</b>: la mayoría de las bacterias se deterioran, y a partir de 70ºC (temperaturas de cocinado), comienzan a morir. Cuanto mayor es la temperatura, menor es el tiempo necesario para destruirlas."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/rangoTemperatura.svg",
+              "ancho": 200
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "Estos son los rangos de temperatura importantes que hemos de conocer en la manipulación de alimentos, pero como curiosidad, <b>¿sabías que</b> hasta no hace mucho tiempo se pensaba que en ciertos lugares con condiciones muy extremas de temperatura no existía vida, pero se encontraron ciertos microorganismos llamados por dicho motivo <b>extremófilos</b>?"
+        }
+      ]
+    },
+        {
+      "titulo": "Factores: Temperatura",
+      "fondo": "img/mod3/M3Hielo.jpg",
+      "contenido": [
+        {
+          "clase": "icono",
+          "animacion": "flipInX",
+          "subclase": "exclamacion",
+          "texto": "Hay que tener en cuenta que el frío <b>no</b> mata a las bacterias. A temperaturas inferiores a 5ºC, en general no mueren pero se desarrollan muy <b>lentamente</b>. Por dicho motivo los alimentos deben conservarse a baja temperatura."
+        },
+        {
+
+          "clase": "icono",
+          "animacion": "flipInX",
+          "subclase": "exclamacion",
+          "texto": "A temperaturas mayores de <b>100ºC</b>, la mayoría de las bacterias mueren (solo sobrevivirían aquellas capaces de crear la forma de resistencia – espora - mencionada anteriormente)."
+        },
+                {
+          "clase": "icono",
+          "animacion": "flipInX",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías que...</b><br>... hay un grupo de bacterias a las que les gusta vivir en ambientes <b>fríos</b>, próximos al punto de congelación del agua (se llaman <b>psicrófilos</b>) y que intervienen en la alteración de los alimentos aunque estos se mantengan en refrigeración?"
+        }
+      ]
+    },
+    {
+      "titulo": "Zona de peligro",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "texto": "<b>Importante:</b> Como norma general, para controlar y prevenir el desarrollo microbiano, los alimentos deben mantenerse o bien por debajo de los 5ºC, o bien por encima de los 65ºC."
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/temperatura.svg",
+              "ancho": 350
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+
+                  "clase": "icono",
+                  "subclase": "exclamacion",
+                  "texto": "La mayoría de las bacterias patógenas para el hombre tiene su <b>temperatura ideal</b> de crecimiento en 37ºC, aunque la mayoría pueden multiplicarse entre los 5 y los 65ºC. Este intervalo de temperatura se llama <b>Zona de Peligro</b>."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "Puede que no te haya llamado la atención la existencia de microorganismos <b>extremófilos</b>, pero ¿sabías que uno de ellos es un microorganismo llamado <i>Thermophilus aquaticus</i> puede vivir en las aguas termales entre <b>50-80º</b>?<br>Si te parece una proeza vivir a 50-80ºC, ¿sabías que hay otro microorganismo extremófilo llamado <i>Pyrococcus furiosus</i> que tiene su temperatura óptima de crecimiento a <b>100ºC</b>?"
+        }
+      ]
+    },
+    {
+      "titulo": "Factores: Humedad",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInDown",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "<b>Humedad</b><br>El agua es un elemento indispensable para la vida, por lo que la <b>ausencia</b> de humedad <b>dificulta</b> el desarrollo de los microorganismos. Por tanto, cuanta mayor sea la humedad de un alimento, más fácil es que se desarrollen en él las bacterias, y por el contrario, la desecación dificulta el desarrollo bacteriano. Por este motivo, si eliminamos el agua de un alimento, ya sea parcial o totalmente, lo que hacemos es dificultar o impedir el desarrollo de los gérmenes (¡¡pero no los mata!!)."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/cascada.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Factores: Nutrientes",    
+      "contenido": [
+        {
+          "clase": "texto",         
+           "animacion": "fadeInDown",
+          "texto": "<b>Nutrientes</b><br>Además del contenido en agua, para el desarrollo de las bacterias en un alimento influye enormemente la <b>composición</b> del mismo. Las bacterias prefieren alimentos con un alto contenido en proteínas y sustancias nutritivas, como la carne y productos cárnicos cocinados, salsas, cremas, huevos y ovoproductos o productos lácteos. Estos alimentos ricos en proteínas y sustancias nutritivas y agua son los denominados <b>alimentos de alto riesgo</b>. Los alimentos con gran concentración de azúcar, sales, ácidos u otros conservantes no permiten el crecimiento bacteriano y serían por tanto <b>alimentos de bajo riesgo</b>."
+        },
+        {
+          "clase": "imagen",
+          "subclase": "ajustarAncho",
+          "animacion": "fadeInUp",
+          "imagen": "img/mod3/nutrientes.svg"
+        }
+      ]
+    },
+    {
+      "titulo": "Factores: Acidez",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "flipInX",
+          "texto": "<b>Influencia de la acidez (pH)</b><br>La acidez se mide a través del pH. El pH es un parámetro que mide la acidez en una escala que va de 0 a 14. Así el intervalo comprendido entre 0 y 7 se llama <b>ácido</b>; si está comprendido entre 7 y 14 se llama <b>básico</b> o alcalino y el pH 7 se llama pH <b>neutro</b>. El pH determina qué clase de microorganismo y qué tipo de alteración se puede dar en el alimento. A pH ácido los organismos que mejor crecen son <b>mohos y levaduras</b>; mientras que carnes y pescados, al ser menos ácidos son medios más favorables para el crecimiento de las <b>bacterias</b>. Cuanto más bajo es el pH de un alimento (es decir, cuanto más ácido es el alimento), mayor dificultad tienen las bacterias para desarrollarse. Por este motivo, para conservar algunos alimentos se les añaden productos como el vinagre o el limón. Este es el caso de los encurtidos o determinados productos escabechados o aliñados. En general, a mayor acidez o mayor basicidad (es decir, los extremos de la escala) mayor es la dificultad de los microorganismos para crecer."
+        },
+        {
+          "clase": "icono",
+          "animacion": "flipInX",
+          "subclase": "sabiasQue",
+          "texto": "Y sí, también hay organismos <b>extremófilos</b> que viven en los rangos extremos de pH  (acidófilos y alcalófilos)"
+        },
+        {
+          "clase": "imagen",
+          "animacion": "flipInY",
+          "imagen": "img/mod3/acidez.svg",
+          "ancho": 800
+        }
+      ]
+    },
+    {
+      "titulo": "Factores: Oxígeno",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "animacion": "slideInUp",
+              "imagen": "img/mod3/aerobias.svg",
+              "ancho": 300
+            },
+            {
+              "clase": "texto",
+              "animacion": "slideInDown",
+              "texto": "<b>Condiciones de Oxígeno</b><br>Las condiciones de presencia o carencia de oxígeno determinan la presencia y grado de las alteraciones de determinados microorganismos. Algunos microorganismos necesitan el oxígeno para vivir (son los microorganismos aerobios). Otros microorganismos requieren para poder reproducirse medios carentes de oxígeno (son los microorganismos anaerobios). Un ejemplo de éstos son los <i>Clostridium</i>."
+            },
+            {
+              "clase": "imagen",
+              "animacion": "slideInUp",
+              "imagen": "img/mod3/anaerobias.svg",
+              "ancho": 250
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Factores: Antimicrobianos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+                        "animacion": "slideInUp",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/miel.jpg"
+            },
+            {
+              "clase": "lista",
+              "titulo": "<b>Presencia de sustancias antimicrobianas</b><br>Existen algunos alimentos que poseen de forma natural unos compuestos que tienen propiedades antimicrobianas. Estas sustancias están en <b>pequeñas</b> cantidades presentes en los alimentos y son muy <b>limitadas</b>, por lo que su importancia es pequeña.",
+              "contenido": [
+                {
+                  "punto": "Ácidos orgánicos en <b>frutas y verduras</b>."
+                },
+                {
+                  "punto": "Determinadas proteínas de la <b>clara del huevo</b>."
+                },
+                {
+                  "punto": "Antibióticos en <b>leche y miel</b>."
+                }
+              ]
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Factores: Tiempo",
+      "fondo": "img/mod3/reloj.png",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "animacion": "zoomInLeft",
+              "texto": "Las bacterias habitualmente se reproducen de forma que una de ellas se <b>divide</b> en otras dos. Cuando las condiciones son óptimas la velocidad de reproducción puede llegar a ser muy alta. En <b>doce horas</b> una bacteria puede dar lugar a 15 millones de ellas."
+            },
+            {
+              "clase": "imagen",
+              "subclase": "recuadro",
+              "animacion": "zoomInRight",
+              "imagen": "img/mod3/crecimiento.svg",
+              "ancho": 400
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Mohos y levaduras",
+      "fondo": "img/mod3/M3Moho.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "fadeInRight",
+          "texto": "Los <b>hongos</b> se clasifican en <b>mohos y levaduras</b>. Mohos y levaduras son microorganismos utilizados desde la antigüedad para la elaboración de determinados alimentos y bebidas, como por ejemplo quesos (cabrales, roquefort...) vino, cerveza, pan, etc. Sin embargo, no todas las levaduras y mohos son beneficiosos."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "fadeInLeft",
+          "texto": "Aunque las <b>levaduras</b> no están involucradas en casos de enfermedades de transmisión alimentaria importantes, sí que pueden provocar <b>alteraciones</b> en el alimento que lo deterioren (fermentaciones), y se presenten por tanto unas características organolépticas <b>no deseadas</b> (mal color, olor, aspecto, etc.) que nos provoca el rechazo de ese alimento."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "fadeInRight",
+          "texto": "Si bien las <b>levaduras</b> son seres unicelulares <b>invisibles</b> al ojo humano, en el caso de los <b>hongos</b>, en cambio, su presencia les delata en el aspecto visual, ya que se <b>aprecia</b> el temido moho. Muchos mohos al crecer en el alimento, liberan en éste unas sustancias químicas que son tóxicas, denominadas <b>micotoxinas</b> que son las que provocan la enfermedad. Son moléculas muy pequeñas que pueden difundirse por todo el alimento, por lo que la simple eliminación del moho no evita la micotoxina. Como además son muy resistentes a la temperatura los tratamientos térmicos no resultan efectivos. Son frecuentes en cereales o frutos secos, sobre todo, si han estado almacenados en condiciones de humedad y temperatura inadecuadas."
+        }
+      ]
+    },
+    {
+      "titulo": "Virus",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "flipInX",
+          "contenido": [
+
+            {
+              "clase": "texto",
+              "texto": "Otros microorganismos causantes de enfermedades transmitidas a través de los alimentos son los <b>virus</b>. Son microorganismos muy pequeños que no contienen sistemas propios que les permitan ser autónomos, es decir, necesitan células vivas para mantenerse con vida, por lo que <b>no pueden multiplicarse en los alimentos</b>. Estos sólo actúan como vehículo para que el virus llegue al ser humano y se reproduzca."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/M3virus2.png"
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "animacion": "flipInX",
+          "texto": "<b>Virus</b>: del latín “virus” – Toxina o veneno – Son organismos que pueden causar infecciones y solamente se reproducen en las células de otros organismos (necesitan el metabolismo de la célula). Fuera del huésped están inactivos. Son de tamaño <b>muy</b> pequeño (0,02-0,009 μm)."
+        }
+      ]
+    },
+    {
+      "titulo": "Propagación de virus",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "rotateInDownRight",
+          "texto": "¿Cómo se <b>propagan</b> los virus transmitidos por los alimentos?<br><br>Los seres vivos eliminan los virus a través de sus heces, deshaciéndose de gran cantidad de partículas víricas de cada vez. Estas partículas van directas al <b>agua</b> (el primer y más importante vehículo de diseminación). Hay que tener en cuenta que los virus, al contrario que las bacterias, no tienen capacidad de multiplicarse en los alimentos, por lo que su presencia en los alimentos se debe a la contaminación de los mismos. Esta contaminación puede ser debida a:"
+        },
+        {
+          "clase": "tabs",
+          "animacion": "lightSpeedIn",
+          "contenido": [
+            {
+              "titulo": "Agua",
+              "texto": "Contaminación de alimentos por contacto con <b>aguas</b> contaminadas."
+            },
+            {
+              "titulo": "Personas",
+              "texto": "Contaminación de alimentos por <b>personas</b> infectadas que manipulan alimentos, como consecuencia de prácticas poco higiénicas."
+            },
+            {
+              "titulo": "Animales",
+              "texto": "Contacto de alimentos con <b>animales</b> infectados o heces de animales infectados."
+            },
+            {
+              "titulo": "Productos",
+              "texto": "Consumo de <b>productos de origen animal</b> contaminados con virus (por ejemplo, carne, pescado, etc.) Un ejemplo claro serían los moluscos como las almejas o mejillones que son animales que se alimentan por filtración del agua en la que viven, acumulando los virus en su interior, y cuando el ser humano los ingiere se infecta con dichos virus si no se destruyeron en su procesado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Parásitos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Un <b>parásito</b> es un organismo que sobrevive a expensas de otro organismo vivo, generalmente más complejo (llamado huésped), alimentándose de sus nutrientes y sin ofrecer ningún beneficio a cambio. El <b>tamaño</b> de los parásitos es variable, desde una simple célula microscópica diminuta hasta larvas o gusanos visibles al ojo humano. Suelen entrar en el organismo a través de la boca por consumo de alimentos o aguas contaminadas, por malas prácticas higiénicas al poner en contacto la boca con heces de animales o personas infectadas o por insectos (cucarachas, moscas...)<br><br>Al igual que sucede con los virus, los parásitos <b>no se multiplican en los alimentos</b>, por lo que su presencia en los mismos se debe a la contaminación, en la mayoría de los casos, por unos malos hábitos de higiene. La contaminación por parásitos puede aparecer en cualquier momento de la cadena alimentaria, desde la <b>contaminación de origen</b> (la materia prima ya es portadora del parásito), durante los procesos de <b>elaboración</b> y manipulación o en manos del consumidor final."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/M3parasito.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "De los siguientes organismos, ¿cuál es visible a simple vista?",
+              "respuestas": [
+                {
+                  "opcion": "Virus.",
+                  "correcto": false,
+                  "feedback": "Es el más pequeño de todos. Son tres milésimas del tamaño de una bacteria (entre 20 y 300 nm) --> 1 nm = 0,000000001 m."
+                },
+                {
+                  "opcion": "Bacteria.",
+                  "correcto": false,
+                  "feedback": "Es el de tamaño intermedio (entre 0,5 y 5 µm) --> 1µm = 0,000001 m."
+                },
+                {
+                  "opcion": "Parásito.",
+                  "correcto": true,
+                  "feedback": "Aunque hay parásitos unicelulares poco mayores que las bacterias, muchos de ellos son visibles a simple vista."
+                }
+              ]
+            },
+            {
+              "texto": "Respecto a las levaduras, es FALSO que:",
+              "respuestas": [
+                {
+                  "opcion": "Pueden ser causa de enfermedad de transmisión alimentaria.",
+                  "correcto": true,
+                  "feedback": "Las levaduras no provocan enfermedades asociadas a los alimentos."
+                },
+                {
+                  "opcion": "Pueden ser causa de alteración de los alimentos.",
+                  "correcto": false,
+                  "feedback": "Las levaduras pueden alterar los alimentos (fermentaciones)."
+                },
+                {
+                  "opcion": "Pueden ser beneficiosas.",
+                  "correcto": false,
+                  "feedback": "Las levaduras que se utilizan para la elaboración del pan, cerveza, vino..."
+                }
+              ]
+            },
+            {
+              "texto": "Respecto a las bacterias:",
+              "respuestas": [
+                {
+                  "opcion": "Todas son perjudiciales.",
+                  "correcto": false,
+                  "feedback": "No es correcto. Muchas bacterias nos ayudan en nuestro metabolismo. También las hay imprescindibles en los procesos para la obtención de vino, queso, yogures, etc."
+                },
+                {
+                  "opcion": "Pueden verse a simple vista.",
+                  "correcto": false,
+                  "feedback": "No es correcto. Para observarlas hay que recurrir al microscopio."
+                },
+                {
+                  "opcion": "Se mueren con el frío.",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                },
+                {
+                  "opcion": "Se reproducen rapidísimamente en el alimento si las condiciones son adecuadas.",
+                  "correcto": true,
+                  "feedback": "Correcto. Una bacteria se divide en 2 cada 20 minutos (aprox.) si las condiciones son adecuadas."
+                }
+              ]
+            },
+            {
+              "texto": "Respecto a las esporas bacterianas:",
+              "respuestas": [
+                {
+                  "opcion": "Un espora es una forma de resistencia que permite sobrevivir a la bacteria ante condiciones adversas.",
+                  "correcto": true,
+                  "feedback": "Correcto. Utilizando un símil, podríamos decir que la espora viene a ser un búnker donde se encierra la bacteria para sobrevivir ante condiciones desfavorables (bombardeo)."
+                },
+                {
+                  "opcion": "Absolutamente todas las bacterias son capaces de formar esporas.",
+                  "correcto": false,
+                  "feedback": "Incorrecto. Es una capacidad que poseen solamente un pequeño número de bacterias."
+                },
+                {
+                  "opcion": "Las esporas se originan cuando las bacterias se reproducen.",
+                  "correcto": false,
+                  "feedback": "Incorrecto. Cuando las bacterias se reproducen las condiciones son favorables, por lo que no se forman esporas."
+                },
+                {
+                  "opcion": "Las esporas se destruyen a temperaturas de 100ºC.",
+                  "correcto": false,
+                  "feedback": "Incorrecto. De hecho las bacterias capaces de formar esporas (esporuladas) son capaces de aguantar 100ºC y más grados durante un periodo de tiempo."
+                }
+              ]
+            },
+            {
+              "texto": "En el cuerpo humano, la zona que alberga mayor cantidad de bacterias es:",
+              "respuestas": [
+                {
+                  "opcion": "La piel.",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                },
+                {
+                  "opcion": "La boca.",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                },
+                {
+                  "opcion": "El intestino.",
+                  "correcto": true,
+                  "feedback": "Correcto."
+                },
+                {
+                  "opcion": "La nariz.",
+                  "correcto": "",
+                  "feedback": "No es correcto."
+                }
+              ]
+            },
+            {
+              "texto": "Cuando decimos que una bacteria es patógena, queremos decir que:",
+              "respuestas": [
+                {
+                  "opcion": "Es capaz de provocar enfermedades al ser humano.",
+                  "correcto": true,
+                  "feedback": "Correcto. Es la definición de patógeno."
+                },
+                {
+                  "opcion": "Es capaz de multiplicarse en el alimento.",
+                  "correcto": false,
+                  "feedback": "Cualquier bacteria puede desarrollarse en los alimentos, independientemente de si es  o no patógena."
+                },
+                {
+                  "opcion": "Es capaz de alterar los alimentos.",
+                  "correcto": false,
+                  "feedback": "Habitualmente las bacterias patógenas no suelen alterar los alimentos."
+                },
+                {
+                  "opcion": "Es beneficiosa para el ser humano.",
+                  "correcto": false,
+                  "feedback": "Incorrecto."
+                }
+              ]
+            },
+            {
+              "texto": "¿Cuál es la temperatura <b>ideal</b> para la multiplicación de las bacterias <b>patógenas</b>?",
+              "respuestas": [
+                {
+                  "opcion": "10ºC.",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                },
+                {
+                  "opcion": "20ºC.",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                },
+                {
+                  "opcion": "37ºC.",
+                  "correcto": true,
+                  "feedback": "Es la temperatura del cuerpo humano y, por tanto, la óptima para el crecimiento de los patógenos."
+                },
+                {
+                  "opcion": "65ºC",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                }
+              ]
+            },
+            {
+              "texto": "Los virus:",
+              "respuestas": [
+                {
+                  "opcion": "Al igual que las bacterias, son capaces de multiplicarse en el alimento, ya que él encuentran todos los nutrientes necesarios.",
+                  "correcto": false,
+                  "feedback": "Incorrecto. Los virus necesitan células vivas para poder multiplicarse."
+                },
+                {
+                  "opcion": "No se multiplican en los alimentos.",
+                  "correcto": true,
+                  "feedback": "Correcto."
+                },
+                {
+                  "opcion": "Solo pueden contaminar los alimentos si se utiliza agua no potable",
+                  "correcto": false,
+                  "feedback": "Incorrecto. Aunque el agua es el medio más habitual de contaminación, también lo son los manipuladores, insectos, animales..."
+                },
+                {
+                  "opcion": "Una vez presentes en el alimento o bebida, son indestructibles",
+                  "correcto": false,
+                  "feedback": "Incorrecto. Las temperaturas elevadas destruyen los virus."
+                }
+              ]
+            },
+            {
+              "texto": "Los parásitos:",
+              "respuestas": [
+                {
+                  "opcion": "No se multiplican en los alimentos.",
+                  "correcto": true,
+                  "feedback": "Correcto"
+                },
+                {
+                  "opcion": "Establecen con el huésped una relación de mutuo beneficio.",
+                  "correcto": false,
+                  "feedback": "Incorrecto. Un parásito solamente se beneficia él, perjudicando - sin causar la muerte - al huésped."
+                },
+                {
+                  "opcion": "Se multiplican en el alimento si se dan las condiciones de nutrientes, temperatura y tiempo adecuados.",
+                  "correcto": false,
+                  "feedback": "Incorrecto. No se multiplican en los alimentos."
+                },
+                {
+                  "opcion": "Son todos invisibles al ojo humano.",
+                  "correcto": false,
+                  "feedback": "Incorrecto. Los protozoos son los parásitos más pequeños y son invisibles al ojo humano, pero existen parásitos, como las tenias que pueden llegar a medir ¡hasta más de 10 metros!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "lightSpeedIn",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En este módulo has conocido los grandes grupos de <b>contaminantes biológicos</b> de los alimentos: bacterias, hongos, parásitos y virus.<br><br>Se ha hecho más hincapié en las <b>bacterias</b>, al ser los contaminantes más importantes dentro de las enfermedades alimentarias. También has descubierto que no todas las bacterias son perjudiciales, sino que muchas de ellas nos ayudan en nuestro organismo o nos sirven para elaborar otros productos alimenticios (yogures, quesos, vinagre...).<br><br>Por último, has aprendido qué <b>factores</b> son los más importantes para la multiplicación de las bacterias y de esta forma, al saber cómo podemos limitar esos factores, sabemos limitar esa multiplicación bacteriana."
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "imagen": "img/mod3/M3despedida.jpg"
+            }
+          ]
+
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta pronto!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+  
+
+
+      
+    
+  
+
+

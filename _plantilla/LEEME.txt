@@ -1,0 +1,22 @@
+Para generar un nuevo curso: 
+	- Copiar esta carpeta y renombrarla.
+
+	- Editar imsmanifest.xml; 
+		- Reemplazar "XXX Nombre carpeta" por el nombre de la carpeta del curso
+		- Reemplazar indexXX.html por el número del módulo
+		
+	- Editar plantilla.json
+		- Cambiar el nombre y las referencias de las imágenes
+	
+	- Editar indexXX.html
+		- Renombrar con el número del módulo
+		- Editar el nombre del módulo correspondiente (utilizando el mismo nombre que el .json)
+	
+	- Sustituir las imágenes "carga.svg", "definicion.svg", "portada.svg", "contraportada.svg", "sabiasQue" por las correspondientes al módulo
+	
+	- Crear las carpetas de imágenes correspondientes a los módulos
+		
+	- Editar y rellenar js/externo.js con los css, js e imágenes que se van a utilizar, poniendo en el case del switch el nombre del módulo
+		
+Para cambiar el color principal
+	- Editar css/colores.css y reemplazar el color anotado en la segunda línea

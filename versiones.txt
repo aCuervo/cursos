@@ -1,0 +1,252 @@
+// Números de versión - Cambios
+// *0.0.1
+// - Pequeños cambios que no afectan a la funcionalidad del programa
+// - Comprobación de nulos, cambios en la lógica interna
+// *0.1.0
+// - Añadidos respecto a la versión anterior
+// - Nuevos objetos, nuevos atributos en objetos ya existentes, nuevas clases
+// *1.0.0
+// - Cambios incompatibles con versiones anteriores, es necesario revisar los JSONs
+// - Cambios en la estructura de un objeto (nombres de atributos, obligatoriedad)
+// - Cambios en la nomenclatura de las clases y/o subclases
+
+
+//      V2.1
+// * 23/02/2016
+// - Agregar tabla horizontal y vertical
+// - Agregar acordeón horizontal
+// - Agregar cuadro de texto, "¿Sabías qué...?"
+// - Agregar fondo de diapositiva
+// * 24/02/2016
+//      V2.2
+// - Agregar ancho de imagen en texto con imagen al lado
+// - Agregar slider
+// - Agregar imágenes en círculo
+// * 25/02/2016
+// - Cambios en denominación de items del JSON
+// - Limpieza de código 
+// * 26/02/2016
+// - Añadida lista con sub listas
+// - Eliminado tabs1 y limpieza
+// * 29/02/2016
+//      V2.3
+// - Creación de funciones para el switch
+// * 01/03/2016
+// - Agregar pestañas dobles (derecha e izquierda)
+// - Añadido bootstrap
+// * 02/03/2016
+//      V2.4
+// - Agregar adornos a los lados del sco
+// - Agregar círculos en semicírculo
+// * 03/03/2016
+//      V2.5
+//  - Agregar portada
+//  - Agregar contraportada
+// * 04/03/2016
+//      V2.5.1
+//  - Cambio colores
+//      V2.6
+// * 07/03/2016
+//  - Añadidas preguntas de respuesta múltiple (radio)
+//  - Añadida función para randomizar una lista de elementos
+//      V2.7
+// * 08/03/2016
+//  - Diferentes jsones para cada módulo.
+//  - Añadidas preguntas desplegables
+// * 09/03/2016
+//  - Añadido juego palabras cruzadas
+//  - Añadido juego sopa de letras
+//      V2.8
+//  - El módulo se marca como aprobado (estatus: passed) cuando se ha visitado la última página del SCORM
+//  *10/03/2016
+//      V2.9
+//  - Cambiados el SCO y el APIWrapper para que registren el tiempo total de sesión
+//  *15/03/2016
+//      V3.0
+//  - Cambio a etiquetas header y footer
+//  - Cambio de disposición de header y footer
+//  - Añadidas sublistas a textoLista (desordenadas)
+//  *17/03/2016
+//      V3.1
+//  - Añadida lista de imágenes en fila
+//  - Añadida lista de elementos (texto, imágen) que se colocan
+//  - Añadido enlace en logo a página principal mavi
+//  *18/03/2016
+//      V3.2
+//  - Añadido mapa imágenes
+//  *21/03/2016
+//      V3.3
+//  - Añadida lista en mapa imágenes cuyos elementos se tachan cuando los visito en la imagen
+//  *07/04/2016
+//      V3.4
+//  - Añadido campo "animacion" en el json para los elementos. 
+//  - El fondo ya no necesita alto, se ajusta al alto de la ventana.
+//  *08/04/2016
+//      V3.5
+//  - Se marca el sco actual en el que se esté en el índice
+//  - La pestaña actual queda más grande, parpadea y se queda en blanco. Las demás, más pequeñas y en color.
+//  *14/04/2016
+//      v3.6
+//  - Cambios de colores
+//  - La lista de objetos hace innecesarios los adornos y los objetos "textoDchaImgIzq" y textoIzqImgDcha"
+//  - Mejoras en objetos (pestañas, acordeonSub, tablas)
+//  *18/04/2016
+//      v4.0
+//  - Cambio en la descripción del JSON
+//  - Arreglo de código, merges y limpiezas
+//  - Reorganización de las imágenes
+//  *25/04/2016
+//      v4.1
+//  - Elementos de tipo sortable, draggable y droppable
+//  *27/04/2016
+//      v4.2
+//  - Añadida barra de carga y precarga de imágenes según variable en 'datosImagenes.js'.
+//  - Añadidas variables globales para el nombre del módulo y el nombre del array.
+//  *28/04/2016
+//      v4.3
+//  - Añadidos eventos de teclado para navegar por los scoes
+//  *03/05/2016
+//      v4.4
+//  - Añadida carga de js y de css.
+//  - Archivo con variables de carga, renombrado a 'externo.js'
+//  - Reestructuración de las carpetas interiores
+//  - Añadido espacio de nombres (nombre de la carpeta principal)
+//  *04/05/2016
+//      v4.5
+//  - Añadir elemento diagrama. 
+// *07/06/2016
+//      v4.6       
+//  - Unificación de listas.
+//  - Eliminación de recuadros específicos para sabías que, definición.
+// *15/06/2016
+//      v4.7    
+//  - Creación de botón para solucionar el ejercicio de listas ordenadas
+//      v5.0
+//  - Limpieza de código. El objeto pasa a llamarse 'CURSO' y solo contiene variables. Se sacan los métodos del objeto y pasan a ser funciones.
+// *16/06/2016
+//      v5.1
+//  - Creación de botones para las soluciones de los ejercicios de panadería (cajas droppables y cuadro características)
+//  - Por defecto, las imágenes tienen 100% de ancho y alto si no se especifica ancho
+// *17/06/2016
+//      v5.2    
+//  - Primero se lee el json y luego se leen scoActual y scoUltimo. Comprobación de que scoActual no sea mayor que la longitud del CURSO
+//  - Incluidos colspan y rowspan en la tabla
+// *21/06/2016
+//      v5.3
+//  - Comprobaciones de longitud de los arrays de precarga
+// *22/06/2016
+//      v5.4
+//  - Añadido mensaje al final del módulo para informar de como salir del CURSO
+// *24/06/2016
+//      v5.5
+//  - Código para redimensionar el player del scorm de la plataforma moodle.
+// *27/06/2016
+//      v5.6
+//  - Añadida subclase para mapaImagen. Posible con lista o sin lista de elementos contenidos en el mapa.
+// *28/06/2016
+//      v5.7
+//  - Añadido ejercicio tipo autoevalArrastrar, para colocar objetos dentro de otros.
+// *30/06/2016
+//      v5.8
+//  - Mejora de pestañas verticales (jquery)
+//  *04/07/2016
+//      v5.9
+//  - Se inicializa el objeto principal (CURSO) con el módulo que se vaya a utilizar.
+//  *05/07/2016
+//      v5.10
+//  - Se retocan elementos y se limpia el código.
+//  *08/07/2016
+//      v5.11
+//  - Incluidos objetos dentro de tabs, acordeón e icono circular.
+//  - Subclase para dividir lista en dos columnas.
+//  *11/07/2016
+//      v5.12
+//  - Incluido atributo opcional "pie" para las imágenes.
+//  - Cambio en la estructura de carpetas para separar más fácilmente los cursos
+//  - Se pueden incluir imágenes en listas
+//  13/07/2016
+//      v5.13
+//  - Se pueden incluir objetos en listas
+//  *05/09/2016
+//      v6.0
+//  - El css se divide en dos/tres, uno para las cosas generales, otro para los colores y otro para especificidades.
+//  *06/09/2016   
+//      v6.1
+//  - Se revisan los ejercicios autoevalArrastrar y autoevalTabla
+// *23/09/2016
+//      v6.2
+//  - Creación de función "cargarTexto". Las subclases "anillas" y "anillasV" se componen de dos capas. En una se añaden las anillas y en la otra el texto.
+//  *26/09/2016
+//      v6.3
+//  - La subclase "bannerPicos" pasa a llamarse "picos"
+//  - Tabla unida por defecto, creada subclase "separada" para cuando se quieren huecos entre columnas
+//  *27/09/2016
+//      v6.4
+//  - Sólo se utilizan ULs. Solo OL cuando las librerías lo requieran (slider de bootstrap)
+//  - En la autoevaluación del JSON ya no es necesario encerrar "true" y "false" entre comillas.
+//  - Texto de los botones en negrita.
+//  - Margen para la barra de carga
+//  - Colores invertidos para títulos de pestañas y acordeones
+// *28/09/2016
+//      v7.0
+//  - Se eliminan las imágenes de las flechas de arriba y abajo del índice que se sustituyen por svg incrustado en el javascript.
+//  - Se eliminan los bordes del índice y se pone el fondo gris.
+//  - Se eliminan las imágenes de las flechas de anterior y siguiente del footer que se sustituyen por svg incrustado en el javascript.
+// - Se eliminan las flechas de anterior y siguiente del sliderB que se sustituyen por svg incrustado en el javascript.
+//  - Se elimina el fondoCelo.svg y se recrea el aspecto mediante css.
+//  - Las anillas son una clase común y otra específica para las verticales (ya no existe anillasV).
+//  - Se elimina el fondoBanner.svg y se recrea mediante css
+//  - Se elimina el fondoCeloDoble
+//  *29/09/2016
+//      v7.0.1
+//  - Se implementa subtítulo e imagen para "tabs", "tabsB"
+//  - Se incluye en el diagrama un atributo para el retardo de los cuadros.
+//  - Cada objeto de círculos solo activa sus textos aunque estén en la misma página.
+//  *30/09/2016
+//      v7.1.0
+//  - Se cambian las flechas y la lógica del índice
+//  - Se eliminan las variables para el índice
+//  *03/10/2016
+//      v7.1.1
+//  - Se introducen las media queries
+//  - El fondo se reajusta
+//  - Se pueden incluir imágenes en las preguntas de autoevaluación
+//  - Se sustituyen las subclases "exclamacionBlanca" y "picos" por "exclamacion blanca" y "exclamacion picos"
+//  - Se sustituye "tabsB" por ".tabs .bs.derecha" y ".tabs .bs.izquierda"
+//  *04/10/2016
+//      v7.1.2
+//  - La imagen de solución de "autoevalArrastrar" es opcional
+//  - El juego de palabras cruzadas se lee del JSON. Ajustes del objeto. Se sacan los colores.
+//  - La sopa de letras se lee del JSON. Se sacan los colores.
+//  *05/10/2016
+//      v7.2
+//  - Se genera el índice de manera diferente
+//  - Las subclases ya no se pasan como parámetro, se comprueba si existe la necesita una lógica propia
+//  *06/10/2016
+//      V7.2.1
+//  - La anilla se genera en svg
+//  - Se crean funciones para cargar los svg de los textos y listas
+//  - Se introducen los tooltips en el json para las imágenes mapa
+//  - Se cambia el acordeón horizontal
+//  - Se crea un acordeón sólo para imágenes
+//  *07/10/2016
+//      v7.2.2
+//  - Cambios y limpieza del código
+//  *10/10/2016
+//  - Cambios y limpieza del código
+//  *11/10/2016
+//      v7.2.3    
+//  - Cambios y limpieza del código
+//  - Se añade la clase 'ajustarAncho' para las imágenes. Hace que se ajusten al ancho de la ventana.
+//  *5/11/2016
+//      v7.2.4
+//  - Se añade css para ver el borde de la barra de carga.
+//  *6/11/2016
+//      v7.2.5
+//  - Se añade css temporal para que no se monten los botones del juego palabras cruzadas.
+//	*24/11/2016
+//		v7.2.6
+//	- Se cambia el overflow de las diapositivas con fondo para que muestren scroll.
+//  *28/11/2016
+//		v7.2.7
+//	- Se encierran las preguntas del test de autoevaluación en un div para que las imágenes se ajusten bien
