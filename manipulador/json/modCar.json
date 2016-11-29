@@ -1140,8 +1140,6 @@
         }
       ]
     },
-    
-
     {
       "titulo": "Recepción de materias primas",
       "contenido": [
@@ -1198,68 +1196,77 @@
           "clase": "texto",
           "animacion": "fadeInUp",
           "texto": "La descarga de toda materia prima que necesite condiciones de frío para su conservación se realizará en el <b>menor tiempo posible</b> para que se introduzcan lo antes posible en las cámaras de refrigeración o congelación según su necesidad."
-        }
-
-      ]
-    },
-
-
-
-
-
-
-
-    {
-      "titulo": "Recepción de materias primas",
-      "contenido": [
-        {
-          "clase": "texto",
-          "animacion": "fadeInDown",
-          "texto": "El <b>control</b> que se debe realizar de las materias primas con las que vamos a trabajar es fundamental para garantizar la calidad e <b>inocuidad</b> del producto final que vamos a elaborar o a fabricar.<br><br>Por dicho motivo debemos asegurarnos que los productos lleguen en perfectas condiciones y reúnan todas las <b>garantías</b>, desde las carnes que vamos a utilizar como materia prima hasta  los envases y embalajes destinados a nuestro producto final, pasando por todas aquellas otras materias primas (incluyendo aditivos y especias) que utilicemos."
         },
         {
-          "clase": "lista",
-          "animacion": "fadeInUp",
-          "titulo": "Debemos controlar, entre otros puntos:",
-          "contenido": [
-            {
-              "punto": "Comprobar el <b>origen</b> de las carnes. Solamente se aceptarán carnes procedentes de matadero o establecimientos autorizados. "
-            },
-            {
-              "punto": "Comprobar <b>sellos y etiquetas</b>."
-            },
-            {
-              "punto": "El estado higiénico de los <b>vehículos</b> en los que se nos suministran las materias primas."
-            },
-            {
-              "punto": "El estado en el que se <b>transportan</b> las materias primas (correctamente protegidas y estibadas durante el transporte)."
-            },
-            {
-              "punto": "Que se cumplan los requisitos de <b>higiene</b> característicos al tipo de materia prima o las pactadas con el proveedor."
-            },
-            {
-              "punto": "Que la <b>temperatura</b> a la que nos llegan los productos sea la adecuada al producto."
-            },
-            {
-              "punto": "La descarga de toda materia prima que necesite condiciones de frío para su conservación se realizará en el <b>menor tiempo posible</b> para que se introduzcan lo antes posible en las cámaras de refrigeración o congelación según su necesidad."
-            }
-          ]
+          "clase": "texto",
+          "animacion": "flash",
+          "texto": "<br>Una vez recepcionadas las materias primas, la siguiente etapa será la de <b>almacenamiento</b>, en la que es fundamental respetar los modos de conservación de cada materia prima. Se prestará especial atención a <b>no romper la cadena de frío</b> de aquellos productos, como las carnes, que se tengan que almacenar en refrigeración o congelación.<br><br>En esta etapa los principales peligros ya los hemos visto anteriormente."
         }
-
       ]
     },
     {
-      "titulo": "Almacenamiento",
+      "titulo": "Acondicionamiento: Peligros",
       "contenido": [
         {
           "clase": "texto",
-          "fondo": "img/modCar/sco2intro.jpg",
-          "animacion": "flash",
-          "texto": "Una vez recepcionadas las materias primas, la siguiente etapa será la de <b>almacenamiento</b>, en la que es fundamental respetar los modos de conservación de cada materia prima. Se prestará especial atención a <b>no romper la cadena de frío</b> de aquellos productos, como las carnes, que se tengan que almacenar en refrigeración o congelación.<br><br>En esta etapa los principales peligros ya los hemos visto anteriormente."
+          "texto": "Toda operación a la que se someta la carne deberá estar organizada de tal manera que se <b>impida o reduzca</b> al mínimo cualquier tipo de contaminación y/o la multiplicación biológica, desde la etapa de acondicionamiento hasta la venta del producto final.<br><br>La carne se acondiciona, bien para su <b>venta directa</b> al consumidor o bien como materia prima para la elaboración de distintos derivados cárnicos. Las operaciones de acondicionamiento de la carne puede incluir procesos de despiece, deshuesado, troceado, picado, descongelación...<br><br>¿Qué <b>peligros</b> pueden aparecer durante el acondicionamiento de las carnes?"
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "Contaminación de las <b>piezas</b> de carne",
+              "texto": "<ul><li>Contaminación <b>cruzada</b>: hemos visto que la carne tiene cierta contaminación de origen, por lo que toda superficie, equipo, utensilio y/o manos del manipulador que entre en contacto con ella, se verán contaminados. Si posteriormente utilizamos esas superficies, equipos, manos, etc. sin haber sido previamente limpiadas y desinfectadas, servirán como vehículo para <b>contaminar</b> cualquier otra pieza de carne o producto que manipulemos.</li><li>En las operaciones de <b>troceado</b> y <b>picado</b> se exponen zonas del alimento que antes no podían alcanzar los microorganismos.</li><li>Contaminación aportada por <b>limpieza y desinfección</b> deficientes de equipos, utensilios y superficies.</li><li>Contaminación aportada por <b>higiene deficiente</b> del personal manipulador.</li><li>Contaminación a través de <b>insectos, roedores o animales domésticos</b>.</li><li>Contaminación aportada por el <b>agua</b> de consumo (si esta se encuentra contaminada).</li><li>Contaminación <b>química</b> con productos de limpieza, desinfección o restos de los mismos en equipos, superficies, utensilios…</li><li>Contaminación <b>ambiental</b>.</li></ul>"
+            },
+            {
+              "titulo": "Multiplicación de los <b>microorganismos</b> presentes en las piezas de carne",
+              "texto": "<ul><li><b>Tiempo</b> excesivo durante el acondicionamiento de la carne.</li><li>Prácticas incorrectas de <b>elaboración</b>:</li><ul><li>Dejar <b>descongelar una parte</b> de la pieza de carne que es la que se va a utilizar y volver a congelar la parte que no utilizaremos.</li><li>Descongelación de la pieza de carne realizada de manera <b>incorrecta</b></li><li>Mantener piezas de carne innecesariamente fuera de las <b>cámaras  de frío</b></li></ul></ul>"
+            }
+          ]
+        },
+        {
+          "titulo": "¿Cómo <b>minimizar o evitar</b> los peligros mencionados?",
+          "texto": "<ul><li>Las carnes se ordenarán en base a su naturaleza, respetando su modo de conservación, evitando en todo momento la contaminación cruzada.</li><li>Nunca se depositarán directamente sobre el suelo los alimentos (aunque estén debidamente envasados y embalados).</li><li>Adoptar unos planes de mantenimiento, control de plagas e higiene y desinfección efectivos.</li><li>No sobrecargar los equipos de frío (siempre se debe facilitar la circulación del aire frío).</li><li>Establecer una adecuada rotación de productos.</li><li>Respetar las fechas de consumo.</li><li>Las etiquetas, envases y envoltorios deben ser perfectamente legibles y encontrarse en buen estado de conservación.</li><li>Si los alimentos se van a introducir en recipientes del propio establecimiento, éstos deben ser aptos para uso alimentario y en adecuadas condiciones de higiene y conservación.</li><li>Nunca se romperá la cadena de frío.</li><li>Vigilar las temperaturas de las cámaras.</li></ul>"
         }
-
       ]
     },
+    {
+      "titulo": "Acondicionamiento: Medidas preventivas",
+      "contenido": [
+        {
+          {
+            "clase": "texto",
+            "texto": "¿Cómo minimizar o evitar los peligros mencionados?"
+          },
+          {
+            "clase": "tabs",
+            "contenido": [
+              {
+                "titulo": "Para evitar la contaminación",
+                "texto": "<ul><li>Los utensilios usados se limpiarán y desinfectarán adecuadamente antes de utilizarlos en otras carnes y jamás se depositarán en el suelo.</li><li>Los filos de cuchillos siempre estarán limpios y en perfecto estado.</li><li>Utilización de agua potable en perfectas condiciones higiénico-sanitarias.</li><li>Los desperdicios se depositarán en lugares específicos destinados para ello (en cubos de accionamiento no manual con tapa, por ejemplo).</li><li>Evitar el acceso de insectos, roedores o animales.</li><li>Todas las operaciones de limpieza y desinfección de superficies y útiles de trabajo se realizarán aparte (o en momentos distintos de la preparación).</li><li>Se prestará especial atención a los utensilios, recipientes, ropa, superficies y equipos así como manos (o guantes en su caso) del manipulador para evitar contaminaciones cruzadas.</li><li>Todos los objetos y utensilios que vayan a entrar en contacto con la carne y derivados cárnicos, además de estar autorizados para uso alimentario, deberán estar construidos en materiales inalterables y presentarán un alto grado de higiene y mantenimiento, para evitar su contaminación. En cuanto a la madera, es un material conflictivo, ya que es un material poroso, que acumula humedad y frecuentemente presenta grietas y cortes en los que se acumulan restos de alimentos, lo que favorece el desarrollo de microorganismos, lo que supone un elevado riesgo sanitario. No se podrá utilizar madera en útiles de trabajo destinados a la manipulación de productos cárnicos no envasados, a excepción de lo autorizado para tajos y siempre que sean de madera endurecida, resistentes y en perfecto estado, cuya superficie de mantendrá en perfecto estado de limpieza y desinfección, que en este caso es fundamental.</li></ul>"
+              },
+              {
+                "titulo": "Para evitar la multiplicación de microorganismos",
+                "texto": "<ul><li>La carne se manipulará en frío.</li><li>No se mantendrán piezas de carne fuera de las cámaras de frío innecesariamente. Las operaciones se realizarán lo antes posible, evitando acumular las materias primas en las zonas de trabajo, guardándose en las cámaras o exponiendo en el mostrador el género que ya esté listo para almacenar o presentar.</li><li>La Descongelación, en caso de ser necesaria para el proceso productivo, es un proceso delicado que influye en el mantenimiento de las cualidades del alimento y no se debe realizar a temperatura ambiente ni sumergiendo el producto en agua. Lo adecuado es descongelar la carne a temperaturas de refrigeración porque a estas temperaturas se evita la multiplicación de los microorganismos que la carne congelada pudiera tener.</li><li>¿Por qué se debe hacer así? Si lo descongelamos sumergiéndolo en agua favorecemos la multiplicación de los microorganismos ya que mientras que la superficie de la pieza está descongelada el centro aún permanecerá congelado, con el peligro de  la proliferación bacteriana en la superficie, y además provocamos pérdidas nutritivas. Los productos descongelados deben tratarse lo antes posible.</li></ul>"
+              }
+            ]
+          }
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
       "titulo": "Exposición",
       "contenido": [
@@ -1314,71 +1321,9 @@
         }
       ]
     },
-    {
-      "titulo": "Acondicionamiento",
-      "contenido": [
-        {
-          "clase": "texto",
-          "animacion": "bounceInUp",
-          "texto": "Toda operación a la que se someta la carne deberá estar organizada de tal manera que se <b>impida o reduzca</b> al mínimo cualquier tipo de contaminación y/o la multiplicación biológica, desde la etapa de acondicionamiento hasta la venta del producto final.<br><br>La carne se acondiciona, bien para su <b>venta directa</b> al consumidor o bien como materia prima para la elaboración de distintos derivados cárnicos. Las operaciones de acondicionamiento de la carne puede incluir procesos de despiece, deshuesado, troceado, picado, descongelación...<br><br>¿Qué <b>peligros</b> pueden aparecer durante el acondicionamiento de las carnes?"
-        },
-        {
-          "clase": "lista",
-          "animacion": "fadeInLeft",
-          "titulo": "Contaminación de las <b>piezas</b> de carne. Alguno ejemplos representativos pueden ser:",
-          "contenido": [
-            {
-              "punto": "Contaminación <b>cruzada</b>: hemos visto que la carne tiene cierta contaminación de origen, por lo que toda superficie, equipo, utensilio y/o manos del manipulador que entre en contacto con ella, se verán contaminados. Si posteriormente utilizamos esas superficies, equipos, manos, etc. sin haber sido previamente limpiadas y desinfectadas, servirán como vehículo para <b>contaminar</b> cualquier otra pieza de carne o producto que manipulemos."
-            },
-            {
-              "punto": "En las operaciones de <b>troceado</b> y <b>picado</b> se exponen zonas del alimento que antes no podían alcanzar los microorganismos."
-            },
-            {
-              "punto": "Contaminación aportada por <b>limpieza y desinfección</b> deficientes de equipos, utensilios y superficies."
-            },
-            {
-              "punto": "Contaminación aportada por <b>higiene deficiente</b> del personal manipulador."
-            },
-            {
-              "punto": "Contaminación a través de <b>insectos, roedores o animales domésticos</b>."
-            },
-            {
-              "punto": "Contaminación aportada por el <b>agua</b> de consumo (si esta se encuentra contaminada)."
-            },
-            {
-              "punto": "Contaminación <b>química</b> con productos de limpieza, desinfección o restos de los mismos en equipos, superficies, utensilios…"
-            },
-            {
-              "punto": "Contaminación <b>ambiental</b>."
-            }
-          ]
-        },
-        {
-          "clase": "lista",
-          "animacion": "rotateInDown",
-          "titulo": "Multiplicación de los <b>microorganismos</b>. Como ejemplos podríamos citar:",
-          "contenido": [
-            {
-              "punto": "<b>Tiempo</b> excesivo durante el acondicionamiento de la carne."
-            },
-            {
-              "punto": "Prácticas incorrectas de <b>elaboración</b>:",
-              "contenido": [
-                {
-                  "punto": "Dejar <b>descongelar una parte</b> de la pieza de carne que es la que se va a utilizar y volver a congelar la parte que no utilizaremos."
-                },
-                {
-                  "punto": "Descongelación de la pieza de carne realizada de manera <b>incorrecta</b>."
-                },
-                {
-                  "punto": "Mantener piezas de carne innecesariamente fuera de las <b>cámaras  de frío</b>."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
+
+
+
     {
       "titulo": "Minimizar o evitar",
       "contenido": [
