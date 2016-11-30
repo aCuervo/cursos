@@ -705,10 +705,6 @@
         }
       ]
     },
-
-
-
-
     {
       "titulo": "Ejercicio",
       "contenido": [
@@ -733,7 +729,7 @@
           "clase": "texto",
           "texto": "¿Serías capaz de identificar, en cada caso, cuál es el alimento seguro, cuál el contaminado y cuál el alterado?"
         },
-   {
+        {
           "clase": "autoevalPreguntas",
           "animacion": "bounceInUp",
           "preguntas": [
@@ -743,165 +739,240 @@
               "ancho": 50,
               "respuestas": [
                 {
-                  "opcion": "Químico.",
-                  "correcto": false,
-                  "feedback": "No es correcto."
-                },
-                {
-                  "opcion": "Biológico.",
-                  "correcto": false,
-                  "feedback": "No es correcto."
-                },
-                {
-                  "opcion": "Físico y Biológico.",
-                  "correcto": false,
-                  "feedback": "No es correcto."
-                },
-                {
-                  "opcion": "Físico.",
+                  "opcion": "Alterado",
                   "correcto": true,
-                  "feedback": "Correcto. Al no estar utilizada, no contendría organismos biológicos."
+                  "feedback": "Correcto"
+                },
+                {
+                  "opcion": "Contaminado",
+                  "correcto": false,
+                  "feedback": "No es correcto"
+                },
+                {
+                  "opcion": "Seguro",
+                  "correcto": false,
+                  "feedback": "No es correcto"
+                },
+                {
+                  "opcion": "No se puede saber",
+                  "correcto": false,
+                  "feedback": "No es correcto"
                 }
               ]
             },
             {
-              "texto": "Una tirita utilizada sería un contaminante:",
+              "texto": "Este pescado está:",
+              "imagen": "img/mod2/pescadoBien.svg",
+              "ancho": 50,
               "respuestas": [
                 {
-                  "opcion": "Químico.",
+                  "opcion": "Alterado",
                   "correcto": false,
-                  "feedback": "No es correcto."
+                  "feedback": "No es correcto"
                 },
                 {
-                  "opcion": "Biológico.",
+                  "opcion": "Contaminado",
                   "correcto": false,
-                  "feedback": "No es la respuesta más acertada."
+                  "feedback": "No es correcto"
                 },
                 {
-                  "opcion": "Físico y Biológico.",
+                  "opcion": "Seguro",
+                  "correcto": false,
+                  "feedback": "No es correcto"
+                },
+                {
+                  "opcion": "No se puede saber",
                   "correcto": true,
-                  "feedback": "Correcto. Por un lado sería un material extraño al alimento y por otro aportaría contaminación biológica."
-                },
-                {
-                  "opcion": "Físico.",
-                  "correcto": false,
-                  "feedback": "No es la respuesta más acertada."
+                  "feedback": "Correcto"
                 }
               ]
             },
             {
-              "texto": "De las causas siguientes, ¿cuál sería una alteración?",
+              "texto": "Este pescado está:",
+              "imagen": "img/mod2/pescadoBien.svg",
+              "ancho": 50,
               "respuestas": [
                 {
-                  "opcion": "Presencia de hueso astillado en un trozo de carne.",
+                  "opcion": "Alterado",
                   "correcto": false,
-                  "feedback": "No es correcto. Sería un contaminante físico."
+                  "feedback": "No es correcto"
                 },
                 {
-                  "opcion": "Presencia de una zona machacada en una fruta.",
+                  "opcion": "Contaminado",
+                  "correcto": false,
+                  "feedback": "No es correcto"
+                },
+                {
+                  "opcion": "Seguro",
+                  "correcto": false,
+                  "feedback": "No es correcto"
+                },
+                {
+                  "opcion": "No se puede saber",
                   "correcto": true,
-                  "feedback": "Correcto."
-                },
-                {
-                  "opcion": "Presencia de tierra en una patata.",
-                  "correcto": false,
-                  "feedback": "No es correcto. Sería un contaminante físico."
-                },
-                {
-                  "opcion": "Presencia de un anzuelo en un pescado.",
-                  "correcto": false,
-                  "feedback": "No es correcto. Sería un contaminante físico."
+                  "feedback": "Correcto"
                 }
               ]
             },
             {
-              "texto": "¿Cuál sería un ejemplo de contaminación química?",
+              "texto": "Este fruta es un alimento:",
+              "imagen": "img/mod2/manzanaPocha.svg",
+              "ancho": 50,
               "respuestas": [
                 {
-                  "opcion": "Presencia de zonas carbonizadas en carne de barbacoa.",
+                  "opcion": "Alterado",
                   "correcto": true,
-                  "feedback": "Correcto. La formación de sustancias químicas durante el procesado es otra forma de contaminación química."
+                  "feedback": "Correcto"
                 },
                 {
-                  "opcion": "Presencia de astillas o madera.",
+                  "opcion": "Contaminado",
                   "correcto": false,
-                  "feedback": "No es correcto. Sería un contaminante físico."
+                  "feedback": "No es correcto"
                 },
                 {
-                  "opcion": "Presencia de parásitos en el alimento.",
+                  "opcion": "Seguro",
                   "correcto": false,
-                  "feedback": "No es correcto. Sería un contaminante biológico."
+                  "feedback": "No es correcto"
                 },
                 {
-                  "opcion": "Ninguno de los anteriores.",
-                  "correcto": true,
-                  "feedback": "No es correcto."
-                }
-              ]
-
-            },
-            {
-              "texto": "¿Pueden constituir los botones del uniforme del trabajador de alimentos un peligro por contaminación física?",
-              "respuestas": [
-                {
-                  "opcion": "Sí.",
-                  "correcto": true,
-                  "feedback": "Cualquier objeto que se pueda desprender del uniforme de trabajo puede llegar a constituir un contaminante físico."
-                },
-                {
-                  "opcion": "No.",
+                  "opcion": "No se puede saber",
                   "correcto": false,
-                  "feedback": "Única y exclusivamente sería correcta esta respuesta si los botones no se pudieran desprender, bajo ninguna circunstancia, del uniforme."
+                  "feedback": "No es correcto"
                 }
               ]
             },
             {
-              "texto": "El sudor sería un contaminante de tipo...",
+              "texto": "Este fruta es un alimento:",
+              "imagen": "img/mod2/manzanaBien.svg",
+              "ancho": 50,
               "respuestas": [
                 {
-                  "opcion": "Físico.",
+                  "opcion": "Alterado",
                   "correcto": false,
-                  "feedback": "No es correcto."
+                  "feedback": "No es correcto"
                 },
                 {
-                  "opcion": "Químico.",
+                  "opcion": "Contaminado",
                   "correcto": false,
-                  "feedback": "No es correcto."
+                  "feedback": "No es correcto"
                 },
                 {
-                  "opcion": "Biológico.",
+                  "opcion": "Seguro",
+                  "correcto": false,
+                  "feedback": "No es correcto"
+                },
+                {
+                  "opcion": "No se puede saber",
                   "correcto": true,
-                  "feedback": "Correcto. Arrastraría bacterias consigo, lo que constituiría contaminación biológica."
-                },
-                {
-                  "opcion": "Físico y Químico.",
-                  "correcto": false,
-                  "feedback": "No es correcto."
+                  "feedback": "Correcto"
                 }
               ]
             },
             {
-              "texto": "Mediante prácticas incorrectas de elaboración, limpieza o almacenamiento, entre otras, podemos pasar contaminantes a un  alimento que inicialmente no los tenía. Esto se denomina:",
+              "texto": "Este fruta es un alimento:",
+              "imagen": "img/mod2/manzanaBien.svg",
+              "ancho": 50,
               "respuestas": [
                 {
-                  "opcion": "Contaminación cruzada.",
+                  "opcion": "Alterado",
+                  "correcto": false,
+                  "feedback": "No es correcto"
+                },
+                {
+                  "opcion": "Contaminado",
+                  "correcto": false,
+                  "feedback": "No es correcto"
+                },
+                {
+                  "opcion": "Seguro",
+                  "correcto": false,
+                  "feedback": "No es correcto"
+                },
+                {
+                  "opcion": "No se puede saber",
                   "correcto": true,
-                  "feedback": "Correcto."
+                  "feedback": "Correcto"
+                }
+              ]
+            },
+            {
+              "texto": "Este carne es un alimento:",
+              "imagen": "img/mod2/carnePocha.svg",
+              "ancho": 50,
+              "respuestas": [
+                {
+                  "opcion": "Alterado",
+                  "correcto": true,
+                  "feedback": "Correcto"
                 },
                 {
-                  "opcion": "Contaminación directa.",
+                  "opcion": "Contaminado",
                   "correcto": false,
-                  "feedback": "Es una manera de contaminación cruzada."
+                  "feedback": "No es correcto"
                 },
                 {
-                  "opcion": "Contaminación indirecta.",
+                  "opcion": "Seguro",
                   "correcto": false,
-                  "feedback": "Es una manera de contaminación cruzada."
+                  "feedback": "No es correcto"
                 },
                 {
-                  "opcion": "Contaminación por contacto.",
+                  "opcion": "No se puede saber",
                   "correcto": false,
-                  "feedback": "Es una manera de contaminación cruzada."
+                  "feedback": "No es correcto"
+                }
+              ]
+            },
+            {
+              "texto": "Este carne es un alimento:",
+              "imagen": "img/mod2/carneBien.svg",
+              "ancho": 50,
+              "respuestas": [
+                {
+                  "opcion": "Alterado",
+                  "correcto": false,
+                  "feedback": "No es correcto"
+                },
+                {
+                  "opcion": "Contaminado",
+                  "correcto": false,
+                  "feedback": "No es correcto"
+                },
+                {
+                  "opcion": "Seguro",
+                  "correcto": false,
+                  "feedback": "No es correcto"
+                },
+                {
+                  "opcion": "No se puede saber",
+                  "correcto": true,
+                  "feedback": "Correcto"
+                }
+              ]
+            },
+            {
+              "texto": "Este carne es un alimento:",
+              "imagen": "img/mod2/carneBien.svg",
+              "ancho": 50,
+              "respuestas": [
+                {
+                  "opcion": "Alterado",
+                  "correcto": false,
+                  "feedback": "No es correcto"
+                },
+                {
+                  "opcion": "Contaminado",
+                  "correcto": false,
+                  "feedback": "No es correcto"
+                },
+                {
+                  "opcion": "Seguro",
+                  "correcto": false,
+                  "feedback": "No es correcto"
+                },
+                {
+                  "opcion": "No se puede saber",
+                  "correcto": true,
+                  "feedback": "Correcto"
                 }
               ]
             }
@@ -909,13 +980,6 @@
         }
       ]
     },
-
-
-
-
-
-
-
     {
       "titulo": "Autoevaluación",
       "contenido": [
@@ -1033,7 +1097,6 @@
                   "feedback": "No es correcto."
                 }
               ]
-
             },
             {
               "texto": "¿Pueden constituir los botones del uniforme del trabajador de alimentos un peligro por contaminación física?",
