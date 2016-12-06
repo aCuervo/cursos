@@ -1,0 +1,906 @@
+﻿{
+  "modulo": "Mod. 6: Eslingas de acero",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod06/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "En el módulo anterior aprendimos lo necesario sobre eslingas textiles, en el actual hablaremos de las de cable de acero, y dejaremos para uno posterior las de cadena."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Eslingas de cable de acero",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Según la <a href='http://www.insht.es/InshtWeb/Contenidos/Documentacion/FichasTecnicas/NTP/Ficheros/201a300/ntp_221.pdf' about='_blank'>NTP 221</a> sobre eslingas de cables de acero, la flexibilidad para que pueda adaptarse a la carga a elevar y la resistencia tanto a la carga por tracción como al aplastamiento son dos de las características fundamentales a tener en cuenta en la selección de cables para eslingas. En la manipulación de las cargas con frecuencia se interponen, entre éstas y el aparato o mecanismo utilizado, unos medios auxiliares que sirven para embragarlas con objeto de facilitar la elevación o traslado de las mismas, al tiempo que hacen más segura esta operación.<br><br>Estos medios auxiliares son conocidos con el nombre de eslingas. Su rotura o deficiente utilización puede ocasionar accidentes graves e incluso mortales por atrapamiento de personas por la carga desprendida. Es necesario, por tanto, emplear eslingas adecuadas en perfecto estado y utilizarlas correctamente. Ello conlleva una formación al respecto de los trabajadores que efectúan las operaciones de eslingado y transporte mecánico de cargas. Su fabricación comienza con el desbobinado y desenrollado del cable, operaciones éstas que se habrán de cuidar al máximo ya que la realización incorrecta de las mismas puede llevar a una pérdida de torsión del cable o bien a la formación de dobleces, \"cocas\". En ambos casos los efectos son desastrosos para el cable. Las eslingas de cables de acero proporcionan un sistema muy versátil y seguro como sistema de conexión entre las cargas y los sistemas de elevación, siempre que se utilicen de forma correcta.<br><br>La flexibilidad para que pueda adaptarse a la carga a elevar y la resistencia tanto a la carga por tracción como al aplastamiento son dos de las características fundamentales a tener en cuenta en la selección de cables para eslingas. Su rotura o deficiente utilización puede ocasionar accidentes graves e incluso mortales por atrapamiento de personas por la carga desprendida. Es necesario, por tanto, emplear eslingas adecuadas en perfecto estado y utilizarlas correctamente. Así pues, los trabajadores, que efectúan las operaciones de eslingado y transporte de cargas suspendidas, deben estar debidamente formados. En general el cable de acero utilizado en la confección de eslingas deberán ser conforme a los requisitos establecidos en las Normas UNE-EN 13414 y UNE-EN 12385 y los requisitos de seguridad establecidos en la Nota Técnica de Prevención NTP-155 “Cables de acero”."
+        }
+
+      ]
+    },
+    {
+      "titulo": "DEFINICIONES",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "texto": "<b>ESLINGA DE CABLE DE ACERO PARA APLICACIONES GENERALES DE ELEVACIÓN</b>: Conjunto constituido por uno o varios ramales individuales o por una eslinga sin fin, destinado a una variedad de operaciones de elevación, y no diseñado para una operación específica de elevación."
+        },
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "texto": "<b>ACCESORIO DE EXTREMO</b>: Eslabón o anilla, conjunto de eslabones o anillas, gancho u otro dispositivo  permanentemente unido al extremo superior o inferior de una eslinga, que se utiliza para unir la eslinga a la carga o al equipo de elevación."
+        },
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "texto": "<b>ESLABÓN MAESTRO</b>: También  llamado anilla, es el eslabón que forma el terminal de extremo superior de una eslinga, mediante el cual la eslinga se cuelga del gancho de una grúa o de otro equipo de elevación. "
+        },
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "texto": "<b>CARGA MÁXIMA DE TRABAJO O UTILIZACIÓN (W.L.L./C.M.U.)</b>:  Masa máxima que se permite levantar con una eslinga en servicio normal. "
+        },
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "texto": "<b>COEFICIENTE DE SEGURIDAD</b>: Es la relación aritmética entre la Carga de Rotura y la C.M.U"
+        },
+        {
+          "clase": "texto",
+          "texto": "Existen dos construcciones de eslingas de cable de acero: eslingas de uno o varios ramales y eslingas sin fin."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod06/EslingaSimpleAcero.jpg",
+              "pie":"Eslinga simple con ojales flexibles"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod06/Eslinga2Acero.jpg",
+              "pie": "Eslinga de dos ramales"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod06/Eslinga3Acero.jpg",
+              "pie": "Eslinga de tres ramales"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod06/Eslinga4Acero.jpg",
+              "pie": "Eslinga de cuatro ramales"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod06/EslingaSinFinAcero.jpg",
+              "pie":  "Eslinga sin fin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "CAPACIDAD DE CARGA Y DESCARGa",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En la capacidad de carga de una eslinga interviene el cable propiamente dicho, los otros elementos de que pueda estar constituida, como anillos, grilletes, ganchos, etc., y, asimismo, el tipo de terminal.<br><br>Se tendrá también en cuenta un coeficiente de seguridad que, para cables, la Ordenanza General de Seguridad e Higiene en el Trabajo determina que no será inferior a seis y según la norma DIN 655 sobre \"cables metálicos para grúas, ascensores, polipastos y fines análogos\", será de 6 a 9."
+        },
+        {
+          "clase": "lista",
+          "titulo": "En el caso de las eslingas se pueden considerar los siguientes coeficientes: ",
+          "contenido": [
+            {
+              "punto": "Para eslingas con un solo ramal. K= 9. "
+            },
+            {
+              "punto": "Para eslingas con dos ramales. K= 8. "
+            },
+            {
+              "punto": "Para eslingas con tres ramales. K= 7. "
+            },
+            {
+              "punto": "Para eslingas con más de tres ramales. K= 6. "
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "UTILIZACIÓN DE LA ESLINGA",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Son numerosas las normas que se deberán seguir en la utilización de las eslingas. Señalaremos las siguientes:",
+          "contenido": [
+            {
+              "punto": "La seguridad en la utilización de una eslinga comienza con la elección de ésta, que deberá ser adecuada a la carga y a los esfuerzos que ha de soportar. "
+            },
+            {
+              "punto": "En ningún caso deberá superarse la carga de trabajo de la eslinga, debiéndose conocer, por tanto, el peso de las cargas a elevar. Para cuando se desconozca, el peso de una carga se podrá calcular multiplicando su volumen por la densidad del material de que está compuesta. A efectos prácticos conviene recordar las siguientes densidades relativas:",
+              "contenido": [
+                {
+                  "punto": "Madera: 0,8. "
+                },
+                {
+                  "punto": "Piedra y hormigón: 2,5. "
+                },
+                {
+                  "punto": "Acero, hierro, fundición: 8. "
+                }
+              ]
+            },
+            {
+              "punto": "En caso de duda, el peso de la carga se deberá estimar por exceso. "
+            },
+            {
+              "punto": "En caso de elevación de cargas con eslingas en las que trabajen los ramales inclinados, se deberá verificar la carga efectiva que van a soportar. "
+            },
+            {
+              "punto": "Al considerar el ángulo de los ramales para determinar la carga máxima admitida por las eslingas, debe tomarse el ángulo mayor. "
+            },
+            {
+              "punto": "Es recomendable que el ángulo entre ramales no sobrepase los 90º y en ningún caso deberá sobrepasar los 120º, debiéndose evitar para ello las eslingas cortas. "
+            },
+            {
+              "punto": "Cuando se utilice una eslinga de tres o cuatro ramales, el ángulo mayor que es preciso tener en cuenta es el formado por los ramales opuestos en diagonal. "
+            },
+            {
+              "punto": "La carga de maniobra de una eslinga de cuatro ramales debe ser calculada partiendo del supuesto de que el peso total de la carga es sustentado por: ",
+              "contenido": [
+                {
+                  "punto": "Tres ramales, si la carga es flexible. "
+                },
+                {
+                  "punto": "Dos ramales, si la carga es rígida. "
+                }
+              ]
+            },
+            {
+              "punto": "En la carga a elevar, los enganches o puntos de fijación de la eslinga no permitirán el deslizamiento de ésta, debiéndose emplear, de ser necesario, distanciadores, etc. Al mismo tiempo los citados puntos deberán encontrarse convenientemente dispuestos en relación al centro de gravedad. "
+            },
+            {
+              "punto": "En la elevación de piezas de gran longitud es conveniente el empleo de pórticos."
+            },
+            {
+              "punto": "Los cables de las eslingas no deberán trabajar formando ángulos agudos, debiéndose equipar con guardacabos adecuados."
+            },
+            {
+              "punto": "Las eslingas no se apoyarán nunca sobre aristas vivas, para lo cual deberán intercalarse cantoneras o escuadras de protección."
+            },
+            {
+              "imagen": "img/mod06/cantonera1.png",
+              "ancho": 300
+            },
+            {
+              "imagen": "img/mod06/cantonera2.png",
+              "ancho": 300
+            },
+                        {
+              "imagen": "img/mod06/cantonera3.jpg",
+              "ancho": 300
+            },
+            {
+              "punto": "Los ramales de dos eslingas distintas no deberán cruzarse, es decir, no montarán unos sobre otros, sobre el gancho de elevación, ya que uno de los cables estaría comprimido por el otro pudiendo, incluso, llegar a romperse."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod06/gancho.jpg",
+              "subclase": "paraCambiar",
+              "ancho": 300
+            },
+            {
+              "punto": "Antes de la elevación completa de la carga, se deberá tensar suavemente la eslinga y elevar aquélla no más de 10 cm. para verificar su amarre y equilibrio. Mientras se tensan las eslingas no se deberán tocar la carga ni las propias eslingas. "
+            },
+            {
+              "punto": "Cuando haya de moverse una eslinga, aflojarla lo suficiente para desplazarla sin que roce contra la carga. "
+            },
+            {
+              "punto": "Nunca se tratará de desplazar una eslinga situándose bajo la carga. "
+            },
+            {
+              "punto": "Nunca deberá permitirse que el cable gire respecto a su eje. "
+            },
+            {
+              "punto": "En caso de empalmarse eslingas, deberá tenerse en cuenta que la carga a elevar viene limitada por la menos resistente. "
+            },
+            {
+              "punto": "La eslinga no deberá estar expuesta a radiaciones térmicas importantes ni alcanzar una temperatura superior a los 60 ºC. Si la eslinga está constituida exclusivamente por cable de acero, la temperatura que no debería alcanzarse sería de 80º."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "RIESGOS",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Los principales riesgos que se detectan del uso de estos accesorios son:",
+          "contenido": [
+            {
+              "punto": "Utilizar las eslingas con un canto vivo si utilizar las protecciones correspondientes (cantoneras)"
+            },
+            {
+              "punto": "Mal estrobado o eslingado de la carga"
+            },
+            {
+              "punto": "Eslingas en mal estado"
+            },
+            {
+              "punto": "Uso de eslingas en ambientes o aplicaciones peligrosas (altas temperaturas, p.e.)"
+            },
+            {
+              "punto": "Resistencia insuficiente para la carga a elevar…"
+            },
+            {
+              "punto": "Procedimiento de elevación y/descenso de la carga inadecuado, próximo a objetos que puedan interferir en su recorrido, etc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "ALMACENAMIENTO, MANTENIMIENTO Y SUSTITUCIÓN",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Las eslingas se almacenarán en lugar seco, bien ventilado y libre de atmósferas corrosivas o polvorientas. No estarán en contacto directo con el suelo, suspendiéndolas de soportes de madera con perfil redondeado o depositándolas sobre estacas o paletas. No exponer las eslingas al rigor del sol o al efecto de temperaturas elevadas. A fin de evitar roturas imprevistas, es necesario inspeccionar periódicamente el estado de todos los elementos que constituyen la eslinga. La frecuencia de las inspecciones estará en relación con el empleo de las eslingas y la severidad de las condiciones de servicio. Como norma general se inspeccionarán diariamente por el personal que las utilicen y trimestralmente como máximo por personal especializado. Las eslingas se deben engrasar con una frecuencia que dependerá de las condiciones de trabajo, pudiéndose determinar a través de las inspecciones. "
+        },
+        {
+          "clase": "lista",
+          "titulo": "Para el engrase deberán seguirse las instrucciones del fabricante, poniendo especial cuidado para que el alma del cable recupere la grasa perdida. Como norma general, para que la lubricación sea eficaz, se tendrá en cuenta:",
+          "contenido": [
+            {
+              "punto": "Limpiar previamente el cable mediante cepillo o con aire comprimido, siendo aconsejable la utilización de un disolvente para eliminar los restos de grasa vieja. "
+            },
+            {
+              "punto": "Utilizar el lubricante adecuado. "
+            },
+            {
+              "punto": "Engrasar el cable a fondo."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Aunque una eslinga trabaje en condiciones óptimas, llega un momento en que sus componentes se han debilitado, siendo necesario retirarla del servicio y sustituirla por otra nueva."
+        },
+        {
+          "clase": "texto",
+          "texto": "El agotamiento de un cable se puede determinar de acuerdo con el número de alambres rotos que según la O.G.S.H.T. es de más del 10% de los mismos contados a lo largo de dos tramos del cableado, separados entre sí por una distancia inferior a ocho veces su diámetro. "
+        },
+        {
+          "clase": "lista",
+          "titulo": "También se considerará un cable agotado: ",
+          "contenido": [
+            {
+              "punto": "Por rotura de un cordón. "
+            },
+            {
+              "punto": "Cuando la pérdida de sección de un cordón del cable, debido a rotura de sus alambres visibles en un paso de cableado, alcance el 40% de la sección total del cordón. "
+            },
+            {
+              "punto": "Cuando la disminución de diámetro del cable en un punto cualquiera del mismo alcance el 10% en los cables de cordones o el 3% los cables cerrados. "
+            },
+            {
+              "punto": "Cuando la pérdida de sección efectiva, por rotura de alambres visibles, en dos pasos de cableado alcance el 20% de la sección total. "
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Además de los criterios señalados para la sustitución de un cable, también deberá retirarse si presenta algún otro defecto considerado como grave, como por ejemplo aplastamiento, formación de nudos, cocas, etc."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod06/defecto.jpg",
+          "ancho": 300
+        },
+        {
+          "clase": "lista",
+          "titulo": "Asimismo, una eslinga se desechará cuando presente deficiencias graves en los accesorios y terminales, tales como: ",
+          "contenido": [
+            {
+              "punto": "Puntos de picadura u oxidación avanzada. "
+            },
+            {
+              "punto": "Puntos de picadura u oxidación avanzada. "
+            },
+            {
+              "punto": "Zonas aplanadas debido al desgaste. "
+            },
+            {
+              "punto": "Grietas. "
+            },
+            {
+              "punto": "Deslizamiento del cable respecto a los terminales."
+            },
+            {
+              "punto": "Tuercas aflojadas."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Vemos en las siguientes imágenes ejemplos de deformaciones susceptibles de retirada:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod06/deformacion1.png",
+              "subclase": "paraCambiar",
+              "ancho": 500
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod06/deformacion2.png",
+              "subclase": "paraCambiar",
+              "ancho": 500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Formas de eslingado",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Una de las principales características de este tipo de eslinga, es la formación de los ojales o gazas."
+        },
+        {
+          "clase": "imagen",
+          "subclase": "ajustarAncho",
+          "imagen": "img/mod06/fijaciones.jpg"
+
+        },
+        {
+          "clase": "texto",
+          "texto": "A continuación se muestra una guía para el cálculo de capacidad de carga de eslingas en función del diámetro del cable y forma de eslingado de la carga:"
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            
+                {
+                  "titulo": "Tablas de cargas de elevación en kg. (coef. seg.: 5)",
+                  "colspan": 5
+                }
+              
+            
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "Ø mm"
+                },
+                {
+                  "texto": "Tipo directo"
+                },
+                {
+                  "texto": "En cesto"
+                },
+                {
+                  "texto": "Con ángulo hasta 45º"
+                },
+                {
+                  "texto": "Sin fin doble"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "40"
+                },
+                {
+                  "texto": "21000"
+                },
+                {
+                  "texto": "42000"
+                },
+                {
+                  "texto": "29400"
+                },
+                {
+                  "texto": "84000"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "42"
+                },
+                {
+                  "texto": "23000"
+                },
+                {
+                  "texto": "46000"
+                },
+                {
+                  "texto": "32200"
+                },
+                {
+                  "texto": "92000"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "44"
+                },
+                {
+                  "texto": "25000"
+                },
+                {
+                  "texto": "50000"
+                },
+                {
+                  "texto": "35000"
+                },
+                {
+                  "texto": "100000"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "48"
+                },
+                {
+                  "texto": "30000"
+                },
+                {
+                  "texto": "60000"
+                },
+                {
+                  "texto": "42000"
+                },
+                {
+                  "texto": "120000"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "50"
+                },
+                {
+                  "texto": "33000"
+                },
+                {
+                  "texto": "66000"
+                },
+                {
+                  "texto": "46200"
+                },
+                {
+                  "texto": "132000"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "55"
+                },
+                {
+                  "texto": "40000"
+                },
+                {
+                  "texto": "80000"
+                },
+                {
+                  "texto": "56000"
+                },
+                {
+                  "texto": "160000"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "60"
+                },
+                {
+                  "texto": "47000"
+                },
+                {
+                  "texto": "94000"
+                },
+                {
+                  "texto": "65800"
+                },
+                {
+                  "texto": "188000"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "62"
+                },
+                {
+                  "texto": "51000"
+                },
+                {
+                  "texto": "102000"
+                },
+                {
+                  "texto": "71400"
+                },
+                {
+                  "texto": "204000"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "66"
+                },
+                {
+                  "texto": "55000"
+                },
+                {
+                  "texto": "110000"
+                },
+                {
+                  "texto": "77000"
+                },
+                {
+                  "texto": "220000"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "70"
+                },
+                {
+                  "texto": "64000"
+                },
+                {
+                  "texto": "128000"
+                },
+                {
+                  "texto": "89600"
+                },
+                {
+                  "texto": "256000"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "74"
+                },
+                {
+                  "texto": "72000"
+                },
+                {
+                  "texto": "144000"
+                },
+                {
+                  "texto": "100800"
+                },
+                {
+                  "texto": "288000"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "80"
+                },
+                {
+                  "texto": "85000"
+                },
+                {
+                  "texto": "170000"
+                },
+                {
+                  "texto": "119000"
+                },
+                {
+                  "texto": "340000"
+                }
+              ]
+            },
+             {
+              "fila": [
+                {
+                  "texto": "90"
+                },
+                {
+                  "texto": "100000"
+                },
+                {
+                  "texto": "200000"
+                },
+                {
+                  "texto": "140000"
+                },
+                {
+                  "texto": "400000"
+                }
+              ]
+            }
+          ]
+        }        
+      ]
+    },
+    {
+      "titulo": "IDENTIFICACIÓN",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": " Cada eslinga deberá ir marcada de forma legible y duradera. Para eslingas simples, la identificación puede estar grabada en el casquillo o con una chapa identificativa. En los casos de eslingas de dos o más ramales, la información vendrá detallada en la chapa y deberá contener:",
+              "contenido": [
+                {
+                  "punto": "Marca del fabricante de la eslinga"
+                },
+                {
+                  "punto": "Números o letras que identifiquen la eslinga con el certificado correspondiente"
+                },
+                {
+                  "punto": "Carga máxima de utilización (CMU)"
+                },
+                {
+                  "punto": "Marcado CE"
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod06/identificacion.png"
+            }
+          ]
+        }
+
+
+      ]
+    },
+    {
+      "titulo": "INSPECCIÓN",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Es fundamental realizar inspecciones periódicas sobre el estado de todos los elementos que conforman la eslinga. Así el personal que las utilice deberá inspeccionarlas diariamente. "
+        },
+        {
+          "clase": "lista",
+          "titulo": "Aunque una eslinga trabaje en condiciones óptimas, llega un momento en que sus componentes se han debilitado, siendo necesario retirarla del servicio y sustituirla por otra nueva. Las eslingas se deben retirar si se dan algunas de las condiciones siguientes:",
+          "contenido": [
+            {
+              "punto": "La información relativa a la identificación de la eslinga (chapa o placa) es ilegible."
+            },
+            {
+              "punto": "Daños en los accesorios de extremo"
+            },
+            {
+              "punto": "Desgaste, deformación y/o fisuras en los accesorios, falta del pestillo en el gancho o desperfectos en el cierre de los ganchos."
+            },
+            {
+              "punto": "Daños en las terminaciones del cable. Desgaste de deformación o fisuras en los casquillos o trenzado deshecho"
+            },
+            {
+              "punto": "Alambres rotos aleatoriamente. 6 alambres exteriores rotos aleatoriamente en una longitud de 6 x d (d es el diámetro del cable en mm) pero no más de 14 alambres exteriores rotos en una longitud de 30 x d"
+            },
+            {
+              "punto": "Alambres rotos concentrados. 3 exteriores en un mismo cordón"
+            },
+            {
+              "punto": "Deformaciones del cable, como pueden ser cocas, aplastamientos, nidos, alma que sobresale, o cualquier otro daño que altere la estructura del cable"
+            },
+            {
+              "punto": "Desgaste del cable. Disminución de un 10% del diámetro "
+            },
+            {
+              "punto": "Desgaste del cable. Disminución de un 10% del diámetro "
+            },
+            {
+              "punto": "Daños por calor. Se detectan por la decoloración de los alambres. "
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "CHECK LIST recomendado en NTP 866 para revisión de eslingas de cable."
+        },
+        {
+          "clase": "imagen",
+          "subclase": "paraCambiar",
+          "imagen": "img/mod06/checklist.png",
+          "ancho": 800
+        }
+
+      ]
+    },
+        {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "Cuando se utiliza una eslinga de 3 o 4 ramales:",
+              "respuestas": [
+                {
+                  "opcion": "El ángulo mayor a tener en cuenta es el formado por los ramales opuestos en diagonal",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Es recomendable que el ángulo entre ramales no supere los 90º, y en ningún caso deberá sobrepasar 120º",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas respuestas son correctas",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "En elevación de piezas de gran longitud:",
+              "respuestas": [
+                {
+                  "opcion": "Se recomienda ahorcar las eslingas",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Es conveniente el uso de pórticos",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Es indiferente mientras la eslinga aguante el peso de la carga",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Los ramales de dos eslingas diferentes, nunca han de cruzarse sobre el gancho, ya que esto puede provocar la rotura del cable que queda en la posición inferior.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero ",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Se ha de retirar una eslinga por:",
+              "respuestas": [
+                {
+                  "opcion": "Rotura de un cordón",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Aparición de cocas",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Sobre las eslingas de cable de acero como:",
+              "respuestas": [
+                {
+                  "opcion": "Son un conjunto constituido por uno o varios ramales individuales o por una eslinga sin fin, destinado a una variedad de operaciones de elevación, y no diseñado para una operación específica de elevación. ",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Tienen un código de colores específico para que su elección adecuada sea más fácil",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son incorrectas",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "La forma de eslingado de la figura se denomina:",
+              "imagen": "img/mod06/ahorcado.png",
+              "respuestas": [
+                {
+                  "opcion": "En cesto",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ahorcado",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Doble nudo corredizo",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },  
+       
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Ya conocemos dos tipos de eslingas, las textiles y de cable de acero, solo nos quedan las de cadena, de las que hablaremos en el siguiente modulo."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod06/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

@@ -1,0 +1,1677 @@
+﻿{
+  "modulo": "Mod. IV.1: Categorías Referenciadas de Pan",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Conocimiento de Producto",
+      "subclase": "pattern",
+      "fondo": "img/comunes/portada.svg",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "animacion": "slideInRight",
+          "imagen": "img/m4.1/portadaImg.svg"
+
+        }
+      ]
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "animacion": "fadeInLeft",
+              "texto": "Te damos la bienvenida al <b>cuarto</b> de los módulos del curso de \"Conocimiento de Producto: Sección de Panadería\".<br><br>Con los módulos anteriores has descubierto por qué los productos de la sección de panadería son <b>únicos</b> y <b>diferentes</b>, y lo fundamental que resulta saber detectar de forma exacta las necesidades planteadas por nuestros clientes.<br><br>También nos hemos aproximado a la clasificación de los productos bajo el punto de vista del <b>cliente</b>, y a las pautas más adecuadas a la hora de recomendar nuestros productos. En el módulo actual, vamos a conocer las categorías más destacables de los <b>productos de pan</b> de la sección de panadería, categorías que podrás encontrar detallada e individualmente en el listado de productos que tenemos preparado para ti."
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "imagen": "img/m4.1/campo.jpg",
+              "ancho": 490
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Objetivos",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "rubberBand",
+          "texto": "Con el curso de \"Conocimiento de Producto: Sección de Panadería\" pretendemos facilitar algunas claves con el <b>objetivo</b> de convertirte en un profesional experto en la venta de productos de panadería. Siguiendo sus pautas, lograrás ajustar cada producto que vendas a las necesidades y preferencias del cliente, alcanzando el objetivo final de tu trabajo: <b>que el cliente vuelva</b>."
+        },
+        {
+          "clase": "lista",
+          "subclase": "objetivos",
+          "animacion": "bounce",
+          "titulo": "Objetivos a conseguir con este Módulo:",
+          "contenido": [
+            {
+              "punto": "Objetivos Principales:",
+              "contenido": [
+                {
+                  "punto": "Aprender las características principales de los productos de Pan."
+                },
+                {
+                  "punto": "Conocer los ingredientes principales con los que se elabora cada grupo de productos."
+                }
+              ]
+            },
+            {
+              "punto": "Objetivo Secundario:",
+              "contenido": [
+                {
+                  "punto": "Asociar los productos dentro de las categorías y características que le corresponden."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "animacion": "rubberBand",
+          "imagen": "img/comunes/madalena.svg",
+          "ancho": 200
+        }
+      ]
+    },
+    {
+      "titulo": "Categorías referenciadas. Definiciones",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "De forma general, estas son las características que vamos a ver en todos los productos de la sección panadería."
+        },
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre cada pestaña para ver una explicación."
+        },
+        {
+          "clase": "tabsB",
+          "subclase": "izquierda",
+          "animacion": "rotateInDownLeft",
+          "contenido": [
+            {
+              "titulo": "Sabor",
+              "texto": "El <b>Sabor</b> es la característica que nos permite la clasificación del producto en: Pan, Dulce o Salado, siempre orientado de cara al cliente."
+            },
+            {
+              "titulo": "Conservación",
+              "texto": "La <b>Conservación</b> nos proporciona información sobre los principios de conservación y vida útil del producto."
+            },
+            {
+              "titulo": "Relleno",
+              "texto": "El <b>Relleno</b> nos detalla si el producto lleva o no relleno, y en caso afirmativo en qué consiste."
+            },
+            {
+              "titulo": "Tipo de Masa",
+              "texto": "El <b>Tipo de Masa</b>, tal y como su propio nombre indica, se refiere al tipo de masa con el que se elabora el producto (pan, hojaldre, bollería, masa de batido)."
+            },
+            {
+              "titulo": "Decoración",
+              "texto": "La categoría <b>Decoración</b> nos aporta información sobre las posibles operativas que admite el producto con el fin de mejorar su sabor o estética."
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "animacion": "tada",
+          "imagen": "img/comunes/rodillo.png",
+          "ancho": 200
+        },
+        {
+          "clase": "tabsB",
+          "subclase": "derecha",
+          "animacion": "rotateInUpRight",
+          "contenido": [
+            {
+              "titulo": "Tamaño",
+              "texto": "Hablamos de <b>Tamaño</b> en el caso de los productos dulces y salados o <b>Formato</b> en el caso de los productos de pan. Esta característica orienta sobre cómo de grande o de pequeño es el producto."
+            },
+            {
+              "titulo": "Corteza-Miga",
+              "texto": "<b>Corteza-Miga</b> es una característica particular de los productos de Pan, y nos aporta información a destacar de alguna de estas dos cualidades."
+            },
+            {
+              "titulo": "Salud",
+              "texto": "La <b>Salud</b> es una característica particular de los productos de pan y salados, y se refiere a posibles beneficios de salud en los productos de panadería. Nos puede facilitar información del público para el que puede ser adecuado (ejemplo: productos sin sal adecuados para dietas bajas en sal o personas con hipertensión)."
+            },
+            {
+              "titulo": "Ingredientes",
+              "texto": "Los <b>Ingredientes</b> nos dan una aproximación a la composición básica del producto, con los componentes destacables del mismo."
+            },
+            {
+              "titulo": "Precio",
+              "texto": "El <b>Precio</b> es el precio de venta al público. En todos los casos se muestra por unidad de producto. En el caso de productos cuyo formato de venta habitual sea en pack de varias unidades, además del precio unitario, se muestra el precio de cada pack."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Cuadro de categorías referenciadas",
+      "contenido": [
+
+        {
+          "clase": "texto",
+          "animacion": "fadeInLeftBig",
+          "texto": "En el siguiente cuadro se resumen las características que vas a encontrar en cada grupo de productos de la sección de panadería:"
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "zoomIn",
+          "subclase": "centroAncho",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/comunes/espiga.svg",
+              "ancho": 200
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "PRODUCTOS DE PAN"
+                },
+                {
+                  "titulo": "PRODUCTOS DULCES"
+                },
+                {
+                  "titulo": "PRODUCTOS SALADOS"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Sabor"
+                    },
+                    {
+                      "texto": "Sabor"
+                    },
+                    {
+                      "texto": "Sabor"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Formato"
+                    },
+                    {
+                      "texto": "Tamaño"
+                    },
+                    {
+                      "texto": "Tamaño"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Conservación"
+                    },
+                    {
+                      "texto": "Conservación"
+                    },
+                    {
+                      "texto": "Conservación"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Corteza-miga"
+                    },
+                    {
+                      "texto": "Relleno"
+                    },
+                    {
+                      "texto": "Relleno"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Salud"
+                    },
+                    {
+                      "texto": "Tipo de masa"
+                    },
+                    {
+                      "texto": "Salud"
+                    }
+                  ]
+
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Tipo de masa"
+                    },
+                    {
+                      "texto": "Ingredientes"
+                    },
+                    {
+                      "texto": "Tipo de masa"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Ingredientes"
+                    },
+                    {
+                      "texto": "Decoración"
+                    },
+                    {
+                      "texto": "Ingredientes"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Precio"
+                    },
+                    {
+                      "texto": "Precio"
+                    },
+                    {
+                      "texto": "Precio"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "subclase": "invertirV",
+              "imagen": "img/comunes/espiga.svg",
+              "ancho": 200
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Categorías referenciadas para productos de Pan",
+      "fondo": "img/m4.1/fondoDulce.svg",
+      "subclase": "pattern",
+      "contenido": [
+        {
+          "clase": "acordeon",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "FORMATO",
+              "texto": "El Formato es una característica basada en el tamaño de los productos de pan."
+            },
+            {
+              "titulo": "CONSERVACIÓN Y TIPO DE MASA",
+              "texto": "La Conservación nos proporciona información sobre los principios de conservación y vida útil del producto."
+            },
+            {
+              "titulo": "CORTEZA-MIGA",
+              "texto": "Las características de algunos panes, se manifiestan de manera especial, en la forma y textura de su corteza y miga, estas características se pueden percibir por su aspecto físico, pero también por la textura al degustarlos."
+            },
+            {
+              "titulo": "SALUD",
+              "texto": "Los productos de Pan tienen una serie de propiedades a destacar, relacionadas con la salud que detallaremos en próximas diapositivas."
+            },
+            {
+              "titulo": "INGREDIENTES",
+              "texto": "Los Ingredientes nos dan una aproximación a la composición básica del producto, con los componentes destacables del mismo."
+            },
+            {
+              "titulo": "DECORACIÓN",
+              "texto": "Aunque no sea lo habitual, también podrás encontrar algún producto de Pan que se decora con el objetivo de aportar un sabor complementario y/o mejorando la estética del producto."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Formato de Pan",
+      "fondo": "img/m4.1/fondoDulce.svg",
+      "subclase": "pattern",
+      "contenido": [
+        {
+          "clase": "acordeonSub",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "FORMATO",
+              "texto": "El FORMATO es una característica basada en el tamaño de los productos de pan.<br>Podemos diferenciar entre 5 grupos: ",
+              "contenido": [
+                {
+                  "titulo": "Grande",
+                  "texto": "Cuando el tamaño del producto sea tal que esté enfocado al consumo de varias personas, lo incluimos dentro del grupo de formato: Grande. En este apartado solamente se incluyen pocas referencias puntuales, como pueden ser: Rosca Artesana, Pan Bregado o la Hogaza."
+                },
+                {
+                  "titulo": "Medio",
+                  "texto": "Panes cuyo tamaño sea próximo al ½, los incluimos como de Formato: ½. Es el mayor dentro de los formatos más habituales. Es un formato enfocado al consumo por varias personas o, en su caso, a varios consumos dado su volumen."
+                },
+                {
+                  "titulo": "Cuarto",
+                  "texto": "Panes cuyo tamaño sea próximo al ¼, los incluimos como de formato: ¼. Es un formato más pequeño, normalmente enfocado al consumo por varias personas, o incluso para una sola persona."
+                },
+                {
+                  "titulo": "Bollo",
+                  "texto": "Panes cuyo tamaño sea Bollo, diremos que son Formato: Bollo. Suele ir asociado a un consumo limitado o para una sola persona."
+                },
+                {
+                  "titulo": "Bollo pequeño",
+                  "texto": "Panes cuya forma sea Bollo, pero de menor tamaño que éste, diremos que son Formato: Bollo pequeño. Este formato está orientado a un consumo pequeño y unitario y más bien para degustación del pan."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Conservación y masa de Pan",
+      "fondo": "img/m4.1/fondoDulce.svg",
+      "subclase": "pattern",
+      "contenido": [
+        {
+          "clase": "acordeonSub",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "CONSERVACIÓN Y TIPO DE MASA",
+              "contenido": [
+                {
+                  "titulo": "Conservación",
+                  "texto": "Todos los productos de Pan, por lo general, se conservan bajo la misma indicación: <b>conservación normal</b>, a temperatura ambiente en su propio envase cerrado."
+                },
+                {
+                  "titulo": "Tipo de masa",
+                  "texto": "Todos los productos de Pan se incluyen dentro del Tipo de Masa genérico: <b>Pan</b>."
+                },
+                {
+                  "titulo": "Panes Especiales",
+                  "texto": "Barra Gallega, Pan Abuela, Pan de Fibra, Fabiola, Pan de Maíz, Pan Multicereal, etc."
+                },
+                {
+                  "titulo": "Panes Precocidos",
+                  "texto": "Son productos cuya cocción ha sido interrumpida antes de llegar a su finalización, siendo sometida posteriormente a un proceso de congelación o cualquier otro proceso de conservación autorizado."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Corteza y miga de Pan",
+      "fondo": "img/m4.1/fondoDulce.svg",
+      "subclase": "pattern",
+      "contenido": [
+        {
+          "clase": "acordeonSub",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "CORTEZA Y MIGA",
+              "contenido": [
+                {
+                  "titulo": "Con Miga",
+                  "texto": "Barra de ½, Barra de ¼, Ración, Piragua, etc. Son algunos ejemplos de panes con miga."
+                },
+                {
+                  "titulo": "Corteza Dura y Miga Alveolada",
+                  "texto": "Barra Gallega, Chapata, Hogaza, Pan de Maíz son ejemplos de este tipo de corteza-miga."
+                },
+                {
+                  "titulo": "Miga Apretada",
+                  "texto": "Pan de Molde."
+                },
+                {
+                  "titulo": "Miga muy Blanca y Apretada",
+                  "texto": "Fabiola, Pan Bregado, Rosca Bregada."
+                },
+                {
+                  "titulo": "Mucha Miga y Corteza Rústica",
+                  "texto": "Pan de la Abuela."
+                },
+                {
+                  "titulo": "Mucha Miga y No Muy Cocido",
+                  "texto": "Pan Hamburguesa, Bollo de Leche, Coletas, Rosca de Pan, Heidi."
+                },
+                {
+                  "titulo": "Poca Miga",
+                  "texto": "Baguettes, Pan de Fibra, Barras Integrales, Pan Sin Miga, Espigas..."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Salud gracias al Pan",
+      "fondo": "img/m4.1/fondoDulce.svg",
+      "subclase": "pattern",
+      "contenido": [
+        {
+          "clase": "acordeonSub",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "SALUD",
+              "contenido": [
+                {
+                  "titulo": "Digestivos",
+                  "imagen": "img/m4.1/digestivo.svg",
+                  "texto": "Son productos que por sus características e ingredientes favorecen la digestión y contribuyen a mejorar el tránsito intestinal, evitando el estreñimiento. Entre los productos con esta propiedad destaca el Pan de Fibra. "
+
+                },
+                {
+                  "titulo": "Nutritivos",
+                  "imagen": "img/m4.1/nutritivo.svg",
+                  "texto": "El pan es una fuente de hidratos de carbono fundamental en nuestra alimentación siendo una de las bases de la nutrición. La mayoría de los productos de pan pertenecen a esta categoría."
+
+                },
+                {
+                  "titulo": "Ecológico",
+                  "imagen": "img/m4.1/eco.svg",
+                  "texto": "Los productos ecológicos son mejores para la salud y el medio ambiente porque en su elaboración se excluyen los productos químicos y los organismos modificados genéticamente. A este grupo pertenece el Pan Ecológico, que es un pan elaborado a mano para evitar cualquier tipo de contaminación con otras harinas no ecológicas."
+
+                },
+                {
+                  "titulo": "Cardiovasculares",
+                  "imagen": "img/m4.1/cardiovascular.svg",
+                  "texto": "En este grupo se incluyen panes que incorporan un alto porcentaje de ácidos Omega 3 que ayudan a la regulación del Colesterol y Triglicéridos lo que contribuye a regular la presión arterial y, por tanto, favorece la disminución del riesgo de enfermedades cardiovasculares. Como ejemplos podemos citar: Pan Multicereal y las Barritas de Pan Multicereal. Aunque también podríamos incluir en este grupo los Panes Sin Sal, ya que son productos recomendables para personas que padecen hipertensión, a éstos vamos a incluirlos dentro del grupo siguiente (Dieta) porque son panes apropiados para aquellas personas a las que, por motivos de salud, se les ha aconsejado una dieta con muy poca sal."
+
+                },
+                {
+                  "titulo": "Dieta",
+                  "imagen": "img/m4.1/dieta.svg",
+                  "texto": "Incluimos en este apartado a todos los panes sin sal, tal y como hemos explicado en el punto anterior y aquellos panes en cuya elaboración se utiliza como ingrediente harinas integrales: Barras Integrales, Baguettes Integrales, Ración Integral, Mini Baguette Integral..."
+
+                }
+              ]
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Ingredientes del Pan",
+      "fondo": "img/m4.1/fondoDulce.svg",
+      "subclase": "pattern",
+      "contenido": [
+        {
+          "clase": "acordeonSub",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "INGREDIENTES",
+              "contenido": [
+                {
+                  "titulo": "Harinas",
+
+                  "texto": "Fundamentalmente todos los productos de pan se componen de harina de trigo, levadura y agua, pero en algunos productos más específicos podemos encontrar otros tipos de harina, como pueden ser: ",
+                  "contenido": [
+                    {
+                      "titulo": "Harina de malta",
+
+                      "texto": "Pan de la abuela, pan multicereal, piragua, pan moreno."
+
+                    },
+                    {
+                      "titulo": "Harina de trigo ecológico",
+
+                      "texto": "Pan ecológico."
+
+                    },
+                    {
+                      "titulo": "Harina integral de trigo",
+
+                      "texto": "Barras integrales, baguettes integrales y la ración integral."
+
+                    },
+                    {
+                      "titulo": "Harina de centeno",
+
+                      "texto": "Pan multicereal, pan moreno y pan de soja."
+
+                    },
+                    {
+                      "titulo": "Harina de fibra",
+
+                      "texto": "Pan de fibra."
+
+                    },
+                    {
+                      "titulo": "Harina de maíz",
+
+                      "texto": "Boroñinos, pan de maíz."
+
+                    },
+                    {
+                      "titulo": "Harina de trigo duro",
+
+                      "texto": "Baguette artesana Alimerka."
+
+                    },
+                    {
+                      "titulo": "Harina integral de centeno",
+                      "texto": "Chapata, mini chapata, chapata bocata, chapata baguette..."
+
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Otros ingredientes",
+
+                  "texto": "Y hay que tener en cuenta que hay panes que incorporan ingredientes no habituales, que les confieren un sabor o características especiales:",
+                  "contenido": [
+                    {
+                      "titulo": "Leche en polvo / Leche ",
+
+                      "texto": "Pan hamburguesa, pan de molde."
+
+                    },
+                    {
+                      "titulo": "Margarina",
+
+                      "texto": "Fabiola, pan hamburguesa, bollo de leche."
+
+                    },
+                    {
+                      "titulo": "Semillas de linaza",
+
+                      "texto": "Pan de fibra."
+                    },
+                    {
+                      "titulo": "Ajonjolí",
+
+                      "texto": "Pan de hamburguesa."
+
+                    },
+                    {
+                      "titulo": "Copos de avena",
+
+                      "texto": "Pan multicereal, pan moreno, pan de soja."
+
+                    },
+                    {
+                      "titulo": "Copos de trigo",
+
+                      "texto": "Pan multicereal, pan moreno."
+
+                    },
+                    {
+                      "titulo": "Soja troceada",
+
+                      "texto": "Pan de soja, barritas de pan de soja."
+
+                    },
+                    {
+                      "titulo": "Pipas de girasol",
+
+                      "texto": "Pan multicereal, pan moreno, pan de maíz."
+
+                    },
+                    {
+                      "titulo": "Miel",
+
+                      "texto": "Pan moreno o barritas de pan moreno. "
+
+                    },
+                    {
+                      "titulo": "Pasas y nueces",
+
+                      "texto": "Pan de pasas y nueces, bollito de pasas y nueces."
+
+                    },
+                    {
+                      "titulo": "Sal marina ecológica",
+
+                      "texto": "Pan ecológico."
+
+                    },
+                    {
+                      "titulo": "Verduras",
+
+                      "texto": "Pan de fibra. "
+
+                    },
+                    {
+                      "titulo": "Azúcar",
+
+                      "texto": "Pan de molde."
+
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Decoración del Pan",
+      "fondo": "img/m4.1/fondoDulce.svg",
+      "subclase": "pattern",
+      "contenido": [
+        {
+          "clase": "acordeonSub",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "DECORACIÓN",
+              "contenido": [
+                {
+                  "titulo": "Harina",
+                  "texto": "Con la harina se consigue dar un efecto más rústico al producto. Consiste en espolvorear harina previamente al horneado de la pieza. Entre los panes que llevan esta decoración podemos citar: Barras sin Miga, Pan de la Abuela, Espigas, Heidi."
+                },
+                {
+                  "titulo": "Copos de Avena o Ajonjolí.",
+                  "texto": "Es el caso de la Rosca Bregada que puede llevar alguna de estas dos opciones de decoración."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Recuerda!",
+      "fondo": "img/m4.1/desayuno_cama.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "anillas",
+          "animacion": "rollIn",
+          "texto": "<b>Recuerda:</b> Confía en el producto que has preparado, lo has cocinado tú, es un buen producto, y tienes que sentirte orgullosa de venderlo y de que le guste a los clientes. Has de estar segura de que estas dando lo mejor a tus clientes."
+        }
+      ]
+    },
+
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Arrastra cada producto a una categoría de tal manera que no quede ninguna vacía."
+        },
+        {
+          "clase": "autoevalArrastrar",
+          "contenedores": [
+            {
+              "clase": "caja",
+              "texto": "Formato: Grande",
+              "data_id": 1
+            },
+            {
+              "clase": "caja",
+              "texto": "Corteza-Miga: Mucha miga y no muy cocido",
+              "data_id": 2
+            },
+            {
+              "clase": "caja",
+              "texto": "Salud: Cardiovascular",
+              "data_id": 3
+            },
+            {
+              "clase": "caja",
+              "texto": "Ingredientes: Harina integral de trigo",
+              "data_id": 4
+            },
+            {
+              "clase": "caja",
+              "texto": "Decoración: Harina",
+              "data_id": 5
+            },
+            {
+              "clase": "caja",
+              "texto": "Formato: Bollo pequeño",
+              "data_id": 6
+            },
+            {
+              "clase": "caja",
+              "texto": "Corteza-Miga: Mucha miga y corteza rústica",
+              "data_id": 7
+            },
+            {
+              "clase": "caja",
+              "texto": "Salud: Ecológico",
+              "data_id": 8
+            },
+            {
+              "clase": "caja",
+              "texto": "Ingredientes: Miel",
+              "data_id": 9
+            },
+            {
+              "clase": "caja",
+              "texto": "Decoración: Ajonjolí",
+              "data_id": 10
+            }
+          ],
+          "contenidos": [
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.1/autoeval/pan01.png",
+              "data_caja": 5
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.1/autoeval/pan02.png",
+              "data_caja": 3
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.1/autoeval/pan03.png",
+              "data_caja": 1
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.1/autoeval/pan04.png",
+              "data_caja": 4
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.1/autoeval/pan05.png",
+              "data_caja": 2
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.1/autoeval/pan06.png",
+              "data_caja": 7
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.1/autoeval/pan07.png",
+              "data_caja": 6
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.1/autoeval/pan08.png",
+              "data_caja": 8
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.1/autoeval/pan09.png",
+              "data_caja": 9
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.1/autoeval/pan10.png",
+              "data_caja": 10
+            }
+          ],
+          "solucion": "img/m4.1/autoeval/solucion.png"
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación 2",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.1/autoeval2/pan01.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "SALUD"
+                },
+                {
+                  "titulo": "FORMATO"
+                },
+                {
+                  "titulo": "INGREDIENTES"
+                },
+                {
+                  "titulo": "CORTEZA"
+                },
+                {
+                  "titulo": "MIGA"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Nutritivo"
+                    },
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Harina de trigo"
+                    },
+                    {
+                      "texto": "Corteza dura"
+                    },
+                    {
+                      "texto": "Mucha miga"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Cardiovascular"
+                    },
+                    {
+                      "texto": "Bollo pequeño"
+                    },
+                    {
+                      "texto": "Harina de maíz"
+                    },
+                    {
+                      "texto": "Corteza rústica"
+                    },
+                    {
+                      "texto": "Poca miga"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Dieta"
+                    },
+                    {
+                      "texto": "Bollo"
+                    },
+                    {
+                      "texto": "Harina de centeno"
+                    },
+                    {
+                      "texto": "Decorada con Harina"
+                    },
+                    {
+                      "texto": "Con miga"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Ecológico"
+                    },
+                    {
+                      "texto": "Medio"
+                    },
+                    {
+                      "texto": "Harina de malta"
+                    },
+                    {
+                      "texto": "Decorada con copos de avena"
+                    },
+                    {
+                      "texto": "Miga alveolada"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Digestivo"
+                    },
+                    {
+                      "texto": "Cuarto"
+                    },
+                    {
+                      "texto": "Harina integral"
+                    },
+                    {
+                      "texto": "Decorada con ajonjolí"
+                    },
+                    {
+                      "texto": "Miga apretada"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 0 ],
+                [ 1, 3 ],
+                [ 2, 0 ],
+                [ 2, 3 ],
+                [ 3, 1 ],
+                [ 4, 0 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación 3",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.1/autoeval2/pan02.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "SALUD"
+                },
+                {
+                  "titulo": "FORMATO"
+                },
+                {
+                  "titulo": "INGREDIENTES"
+                },
+                {
+                  "titulo": "CORTEZA"
+                },
+                {
+                  "titulo": "MIGA"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Nutritivo"
+                    },
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Harina de trigo"
+                    },
+                    {
+                      "texto": "Corteza dura"
+                    },
+                    {
+                      "texto": "Mucha miga"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Cardiovascular"
+                    },
+                    {
+                      "texto": "Bollo pequeño"
+                    },
+                    {
+                      "texto": "Harina de maíz"
+                    },
+                    {
+                      "texto": "Corteza rústica"
+                    },
+                    {
+                      "texto": "Poca miga"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Dieta"
+                    },
+                    {
+                      "texto": "Bollo"
+                    },
+                    {
+                      "texto": "Harina de centeno"
+                    },
+                    {
+                      "texto": "Decorada con Harina"
+                    },
+                    {
+                      "texto": "Con miga"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Ecológico"
+                    },
+                    {
+                      "texto": "Medio"
+                    },
+                    {
+                      "texto": "Harina de malta"
+                    },
+                    {
+                      "texto": "Decorada con copos de avena"
+                    },
+                    {
+                      "texto": "Miga alveolada"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Digestivo"
+                    },
+                    {
+                      "texto": "Cuarto"
+                    },
+                    {
+                      "texto": "Harina integral"
+                    },
+                    {
+                      "texto": "Decorada con ajonjolí"
+                    },
+                    {
+                      "texto": "Miga apretada"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 0 ],
+                [ 1, 0 ],
+                [ 2, 0 ],
+                [ 3, 5 ],
+                [ 4, 5 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación 4",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.1/autoeval2/pan03.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "SALUD"
+                },
+                {
+                  "titulo": "FORMATO"
+                },
+                {
+                  "titulo": "INGREDIENTES"
+                },
+                {
+                  "titulo": "CORTEZA"
+                },
+                {
+                  "titulo": "MIGA"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Nutritivo"
+                    },
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Harina de trigo"
+                    },
+                    {
+                      "texto": "Corteza dura"
+                    },
+                    {
+                      "texto": "Mucha miga"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Cardiovascular"
+                    },
+                    {
+                      "texto": "Bollo pequeño"
+                    },
+                    {
+                      "texto": "Harina de maíz"
+                    },
+                    {
+                      "texto": "Corteza rústica"
+                    },
+                    {
+                      "texto": "Poca miga"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Dieta"
+                    },
+                    {
+                      "texto": "Bollo"
+                    },
+                    {
+                      "texto": "Harina de centeno"
+                    },
+                    {
+                      "texto": "Decorada con Harina"
+                    },
+                    {
+                      "texto": "Con miga"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Ecológico"
+                    },
+                    {
+                      "texto": "Medio"
+                    },
+                    {
+                      "texto": "Harina de malta"
+                    },
+                    {
+                      "texto": "Decorada con copos de avena"
+                    },
+                    {
+                      "texto": "Miga alveolada"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Digestivo"
+                    },
+                    {
+                      "texto": "Cuarto"
+                    },
+                    {
+                      "texto": "Harina integral"
+                    },
+                    {
+                      "texto": "Decorada con ajonjolí"
+                    },
+                    {
+                      "texto": "Miga apretada"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 0 ],
+                [ 1, 4 ],
+                [ 2, 0 ],
+                [ 3, 5 ],
+                [ 4, 4 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación 5",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.1/autoeval2/pan04.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "SALUD"
+                },
+                {
+                  "titulo": "FORMATO"
+                },
+                {
+                  "titulo": "INGREDIENTES"
+                },
+                {
+                  "titulo": "CORTEZA"
+                },
+                {
+                  "titulo": "MIGA"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Nutritivo"
+                    },
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Harina de trigo"
+                    },
+                    {
+                      "texto": "Corteza dura"
+                    },
+                    {
+                      "texto": "Mucha miga"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Cardiovascular"
+                    },
+                    {
+                      "texto": "Bollo pequeño"
+                    },
+                    {
+                      "texto": "Harina de maíz"
+                    },
+                    {
+                      "texto": "Corteza rústica"
+                    },
+                    {
+                      "texto": "Poca miga"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Dieta"
+                    },
+                    {
+                      "texto": "Bollo"
+                    },
+                    {
+                      "texto": "Harina de centeno"
+                    },
+                    {
+                      "texto": "Decorada con Harina"
+                    },
+                    {
+                      "texto": "Con miga"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Ecológico"
+                    },
+                    {
+                      "texto": "Medio"
+                    },
+                    {
+                      "texto": "Harina de malta"
+                    },
+                    {
+                      "texto": "Decorada con copos de avena"
+                    },
+                    {
+                      "texto": "Miga alveolada"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Digestivo"
+                    },
+                    {
+                      "texto": "Cuarto"
+                    },
+                    {
+                      "texto": "Harina integral"
+                    },
+                    {
+                      "texto": "Decorada con ajonjolí"
+                    },
+                    {
+                      "texto": "Miga apretada"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 0 ],
+                [ 1, 3 ],
+                [ 2, 0 ],
+                [ 3, 5 ],
+                [ 4, 2 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación 6",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.1/autoeval2/pan05.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "SALUD"
+                },
+                {
+                  "titulo": "FORMATO"
+                },
+                {
+                  "titulo": "INGREDIENTES"
+                },
+                {
+                  "titulo": "CORTEZA"
+                },
+                {
+                  "titulo": "MIGA"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Nutritivo"
+                    },
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Harina de trigo"
+                    },
+                    {
+                      "texto": "Corteza dura"
+                    },
+                    {
+                      "texto": "Mucha miga"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Cardiovascular"
+                    },
+                    {
+                      "texto": "Bollo pequeño"
+                    },
+                    {
+                      "texto": "Harina de maíz"
+                    },
+                    {
+                      "texto": "Corteza rústica"
+                    },
+                    {
+                      "texto": "Poca miga"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Dieta"
+                    },
+                    {
+                      "texto": "Bollo"
+                    },
+                    {
+                      "texto": "Harina de centeno"
+                    },
+                    {
+                      "texto": "Decorada con Harina"
+                    },
+                    {
+                      "texto": "Con miga"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Ecológico"
+                    },
+                    {
+                      "texto": "Medio"
+                    },
+                    {
+                      "texto": "Harina de malta"
+                    },
+                    {
+                      "texto": "Decorada con copos de avena"
+                    },
+                    {
+                      "texto": "Miga alveolada"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Digestivo"
+                    },
+                    {
+                      "texto": "Cuarto"
+                    },
+                    {
+                      "texto": "Harina integral"
+                    },
+                    {
+                      "texto": "Decorada con ajonjolí"
+                    },
+                    {
+                      "texto": "Miga apretada"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "Harina de fibra"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 4 ],
+                [ 1, 2 ],
+                [ 2, 0 ],
+                [ 2, 5 ],
+                [ 3, 5 ],
+                [ 4, 1 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Aprendizaje",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En este módulo has podido identificar cuáles son las <b>categorías</b> más significativas de cara al cliente para los productos de pan de la sección de panadería.<br><br>Has descubierto cuáles son los <b>formatos</b> en los que se agrupan los productos de pan, los tamaños y <b>tipos de masa</b> más habituales y los <b>ingredientes</b> más básicos de su composición, así como otras categorías."
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarDcha",
+              "imagen": "img/m4.1/ventaPan.png",
+              "ancho": 500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Final del módulo",
+      "fondo": "img/comunes/contraportada.jpg",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "animacion": "slideInRight",
+          "imagen": "img/comunes/contraportadaImg.svg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,599 @@
+﻿{
+  "modulo": "Mod. 3: El manejo del puente grúa",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod03/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Hemos hablado ya de las características tanto de la máquina como de la persona que ha de manejarla. Vamos a entrar ahora en el manejo del puente grúa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "LA UTILIZACIÓN DE LOS APARATOS DE ELEVACIÓN Y LAS NORMAS DE SEGURIDAD",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "bounce",
+          "texto": "Incluso antes de comenzar la maniobra, es indispensable conocer, la carga, el lugar en que está posicionada, e inspeccionar el lugar destinado a su colocación, así como el camino que seguiremos en la maniobra. Resulta fundamental elegir el accesorio de izado adecuado tanto a la forma como al peso de la carga."
+        },
+        {
+          "clase": "lista",
+		  "animacion": "fadeInRight",
+          "subclase": "numeros",
+          "titulo": "Normas fundamentales para manipular un puente grúa:",
+          "contenido": [
+            {
+              "punto": "Antes de elevar la carga debe realizar una pequeña elevación para poder comprobar la estabilidad de la carga. En el caso de que la carga no este estabilizada debe realizar un descenso y realizar un eslingado para asegurar la carga."
+            },
+            {
+              "punto": "Debe elevar la carga siempre alineada con la carga para evitar balanceos."
+            },
+            {
+              "punto": "El operario deberá acompañar la carga para un mayor control de las distancias y posibles golpes contra obstáculos en la trayectoria de la carga."
+            },
+            {
+              "punto": "No colocarse en ningún momento debajo de la carga, ni pasarla por encima de trabajadores. La carga siempre tiene que ir por delante del operador de la grúa.  La carga siempre tiene que ir por delante del operador de la grúa."
+            },
+            {
+              "punto": "La colocación de las cadenas, eslingas, pulpos deben colocarse con un perfecto amarre de la carga. Tarea de responsabilidad y compromiso del operario de la grúa."
+            },
+            {
+              "punto": "Para operaciones de transporte, elevación y manipulación de la carga que sean complejas debido al volumen, en la que se necesite el empleo de dos puentes grúas se deberá seguir minuciosamente un plan y contar con un encargado de señales. Este caso se puede dar en carga y descarga de camiones, manipulación de vigas, etc."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+		  "animacion": "fadeInLeft",
+          "contenido": [
+            {
+              "punto": "El operario jamás perderá de vista la carga durante la maniobra, pero deberá controlar también el entorno, por si surgiera cualquier imprevisto."
+            },
+            {
+              "punto": "La colocación correcta de los elementos de elevación, cadenas, gancho, etc, debe colocarse con sumo cuidado, asegurando un perfecto amarre y estabilidad."
+            },
+            {
+              "punto": "La maniobra no se iniciará hasta que se haya realizado la siguiente comprobación: Antes de elevar la carga, una vez se encuentre estrobada, se realizará una pequeña elevación, unos 10cm, con el objeto de comprobar su estabilidad, y en caso que la carga esté inclinada, proceder al descenso y nuevo eslingado."
+            },
+            {
+              "punto": "La carga, se elevará siempre con el carro y el puente alineados sobre la misma, tanto horizontal como verticalmente. De este modo, se evitarán balanceos. "
+            },
+            {
+              "punto": "Para que el desplazamiento sea una maniobra se prohíbe explícitamente el tiro oblícuo."
+            },
+            {
+              "punto": "El operador, salvo en el caso de manejo desde la cabina, acompañará siempre la carga, para un mayor control de las distancias y el control de la trayectoria, evitando de este modo situaciones de riesgo."
+            },
+            {
+              "punto": "Se prohíbe expresamente colocarse bajo cargas suspendidas, asi como su trasporte por encima de trabajadores."
+            },
+            {
+              "punto": "La carga irá siempre por delante del operador."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "MANEJO DEL MOVIMIENTO DEL RECORRIDO DEL PUENTE",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "jello",
+          "contenido": [
+            {
+              "punto": "Antes de usar el puente en la grúa, el operador debe asegurarse de que el gancho esté lo suficientemente alto como para salvar cualquier obstáculo."
+            },
+            {
+              "punto": "Antes de que una carga sea manipulada con la grúa, el puente debe colocarse en posición, de modo que esté directamente sobre la carga. "
+            },
+            {
+              "punto": "Ponga en marcha el puente lentamente y llévelo gradualmente a la velocidad deseada."
+            },
+                        {
+              "punto": "Al acercarse al lugar donde se desea detener el puente, reduzca la velocidad de éste."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "MANEJO DEL MOVIMIENTO DEL CARRO ANTES DE MANIPULAR UNA CARGA",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "shake",
+          "contenido": [
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "El polipasto se debe colocar directamente sobre la carga que se va a manipular. "
+                },
+                {
+                  "punto": "Cuando se quita el huelgo de las eslingas, si el polipasto no está directamente sobre la carga, llévelo a que quede directamente sobre la carga antes de continuar con el izamiento. "
+                },
+                {
+                  "punto": "No centrar el polipasto sobre la carga puede hacer que ésta se balancee al levantarla. Siempre inicie el movimiento del carro lentamente y reduzca gradualmente la velocidad del carro."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod03/gruaPolipasto.jpg"
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "MANEJO DEL MOVIMIENTO DEL POLIPASTO O GANCHO PRINCIPAL",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "shake",
+          "texto": "Consulte las instrucciones de operación del equipo de elevación (polipasto)."
+        },
+        {
+          "clase": "imagen",
+		  "animacion": "tada",
+          "imagen": "img/mod03/polipastos.jpg",
+          "ancho": 600
+        }
+
+      ]
+    },
+    {
+      "titulo": "SUGERENCIAS GENERALES",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "rubberBand",
+          "contenido": [
+            {
+              "punto": "Conozca su grúa "
+            },            {
+              "punto": "Los operadores de grúas deben estar familiarizados con las partes principales de una grúa y tener un conocimiento profundo de las funciones de control y movimientos de la grúa. Se debe exigir al operador de la grúa que conozca la ubicación y el funcionamiento correcto de los principales medios conductores de desconexión de toda la alimentación a los accesorios de la grúa. "
+            },            {
+              "punto": "Responsabilidad "
+            },            {
+              "punto": "Cada operador de grúa debe ser considerado directamente responsable de la operación segura de la grúa."
+            },            {
+              "punto": "Siempre que exista cualquier duda en cuanto a la SEGURIDAD, el operador de la grúa debe detenerla y negarse a manejar cargas hasta que: (1) se haya garantizado la seguridad o (2) el operador haya recibido la orden de seguir adelante por parte del supervisor, quien entonces asumirá toda la responsabilidad por la SEGURIDAD del izamiento. "
+            },            {
+              "punto": "No permita que NADIE viaje en el gancho o en la carga. "
+            }
+
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "INSPECCIÓN",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "bounceIn",
+          "texto": "Pruebe el movimiento de la grúa y cualquier accesorio de la grúa al empezar cada turno. Siempre que el operador encuentre que algo está mal o en apariencia mal, el problema debe ser reportado inmediatamente al supervisor adecuado y se deben adoptar las medidas correctivas correspondientes. "
+        }
+
+      ]
+    },
+    {
+      "titulo": "SUGERENCIAS DE OPERACIÓN",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "fadeInDownBig",
+          "contenido": [
+            {
+              "punto": "Una medida de un buen operador de grúa es la suavidad de la operación de ésta."
+            },
+            {
+              "punto": "Un buen operador de grúa debe conocer y seguir estas sugerencias probadas para el manejo seguro y eficiente de la grúa. ",
+              "contenido": [
+                            {
+              "punto": "La grúa se debe mover con suavidad y gradualmente para evitar movimientos bruscos y sacudidas de la carga. "
+
+            },            {
+              "punto": "Debe eliminarse la holgura de la eslinga y las cuerdas de izamiento antes de que se levante la carga. "
+
+            },            {
+              "punto": "Centre la grúa sobre la carga antes de accionar el polipasto para evitar que se balancee la carga al comenzar el izamiento. "
+
+            },            {
+              "punto": "Las cargas no deberán ser balanceadas por la grúa para que lleguen a zonas que no estén debajo de ella. "
+
+            },            {
+              "punto": "Las cuerdas de izamiento de la grúa deben mantenerse verticales. Las grúas no se deben utilizar para tirar lateralmente de nada. "
+
+            },            {
+              "punto": "Asegúrese de que todos en la zona cercana estén apartados de la carga y conscientes de que se está moviendo una carga."
+
+            },            {
+              "punto": "No haga levantamientos más allá de la capacidad de carga nominal de la grúa, las cadenas de eslinga, las eslingas de cuerda, etc. "
+
+            },            {
+              "punto": "Asegúrese de que, antes de mover la carga, las eslingas de carga, las cadenas de carga u otros dispositivos de elevación estén completamente asentados en la silla del gancho, con el seguro del gancho cerrado (si está equipado con seguro)."
+
+            },            {
+              "punto": "Revise para asegurarse de que la carga o el bloque inferior estén lo bastante elevados como para salvar todos los obstáculos al mover la pluma o el carro."
+
+            },            {
+              "punto": "En ningún momento debe dejarse una carga suspendida de la grúa, a menos que el operador tenga el botón con la alimentación encendida y bajo esta condición mantenga la carga lo más cerca posible del suelo para reducir al mínimo la posibilidad de una lesión si la carga llegara a caer. Cuando la grúa esté sosteniendo una carga, el operador de la grúa debe permanecer junto al botón."
+
+            },            {
+              "punto": "No levante cargas con los ganchos de eslinga colgando sueltos. Si no se necesitan todos los ganchos de eslinga, deben estar correctamente guardados o se debe usar otra eslinga. "
+
+            },            {
+              "punto": "Todas las eslingas o cables deben ser quitados de los ganchos de grúa cuando no estén usándose (los cables colgando o ganchos colgados de los anillos de la eslinga pueden enganchar inadvertidamente a otros objetos cuando la grúa está en movimiento). "
+
+            },            {
+              "punto": "Los operadores no deberán hacer pasar las cargas o bloques inferiores vacíos por encima del personal. Debe tenerse un especial cuidado adicional al:",
+              "contenido": [
+                {
+                  "punto": "Usar dispositivos de imán o de vacío. "
+                },
+                {
+                  "punto": "Cargas o partes de cargas que se sostienen magnéticamente podrían caer. Una falla en la alimentación de los imanes o de los dispositivos de vacío puede dar como resultado la caída de la carga. "
+                },
+                                {
+                  "punto": "Se debe tener una precaución adicional al manipular metal fundido cerca del personal. "
+                }
+              ]
+
+            },            {
+              "punto": "Siempre que el operador deje la grúa, debe seguirse el siguiente procedimiento: ",
+              "contenido": [
+                {
+                  "punto": "Levante todos los ganchos a una posición intermedia. "
+                },
+                {
+                  "punto": "Detenga la grúa en un lugar designado aprobado. "
+                },
+                {
+                  "punto": "Coloque todos los controles en posición de apagado (“off”)."
+                },
+                {
+                  "punto": "Abra el interruptor principal a la posición de apagado (“off”). "
+                },
+                {
+                  "punto": "Haga un control visual antes de salir de la grúa. "
+                }
+              ]
+
+            },            {
+              "punto": "En caso de emergencia o durante una inspección, reparación, limpieza o lubricación, debe exhibirse un letrero o señal de advertencia (GRUA FUERA DE SERVICIO) y el interruptor principal debe bloquearse en posición de apagado (“off”). Esto se debe hacer ya sea que el trabajo esté siendo realizado por el operador de la grúa o por otra persona.  "
+
+            },            {
+              "punto": "El contacto con los topes de rotación o los topes de final del carro debe hacerse con extrema precaución. El operador debe hacerlo con especial cuidado por la seguridad de las personas por debajo de la grúa, y sólo después de asegurarse de que todas las personas de las otras grúas estén conscientes de lo que se está haciendo. "
+
+            }
+              ]
+
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "PROCEDIMIENTOS DE ARRANQUE Y PARADA. INICIO Y FINALIZACIÓN DE LA JORNADA DE TRABAJO",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "fadeInRightBig",
+          "titulo": "<b>Antes de comenzar</b> la jornada de trabajo, se debe:",
+          "contenido": [
+            {
+              "punto": "Comprobar que no existen sobre la grúa piezas sueltas u objetos que pudieran caerse."
+            },
+            {
+              "punto": "Asegurarse de que todos los interruptores de mando estén en posición \"cero\", antes de conectar el interruptor general. De no ser así, podría ponerse en marcha algún movimiento de la grúa, con graves consecuencias en muchos casos."
+            },
+            {
+              "punto": "Realizar un frenado de prueba de todos los movimientos de la grúa."
+            },
+            {
+              "punto": "Comprobar el buen funcionamiento de todos los dispositivos de seguridad como topes, finales de carrera, realizando muy lentamente las maniobras de prueba."
+            },
+            {
+              "punto": "Comprobar el estado de los cables y los ganchos."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Cualquier anomalía en el funcionamiento de la grúa, debe ser puesta en conocimiento del superior más inmediato.<br><br>Si se presentan defectos o anomalías que pusieran en peligro la seguridad de la grúa, deberá interrumpirse el trabajo de la misma. Está prohibido <b>modificar</b> o <b>anular</b> cualquiera de los dispositivos de seguridad con que está dotada la grúa."
+        },
+        {
+          "clase": "lista",
+		  "animacion": "fadeInUp",
+          "titulo": "<b>Al finalizar</b> la jornada de trabajo, se debe:",
+          "contenido": [
+            {
+              "punto": "Dejar la máquina sin carga."
+            },
+            {
+              "punto": "Estacionar el puente en la zona prevista para ello, habitualmente será en un extremo de la instalación."
+            },
+            {
+              "punto": "El gancho estará en posición elevada, para evitar golpes indeseados."
+            },
+            {
+              "punto": "Las eslingas y resto de accesorios estarán colocadas en su lugar."
+            },
+                        {
+              "punto": "Se entregara el radiomando, caso de haberlo a quien proceda, o en su defecto se dejará en el lugar habilitado para ello. Lo mismo si la máquina tiene alguna llave de bloqueo, cabina o similar."
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "MANIOBRAS PROHIBIDAS O PELIGROSAS",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "jello",
+          "contenido": [
+            {
+              "punto": "Nunca se tirará oblicuamente de la carga, el gancho ha de colocarse siempre sobre la vertical del objeto a izar."
+            },
+                        {
+              "punto": "No se debe intentar arrancar objetos anclados en el suelo utilizando un puente grúa."
+            },            {
+              "punto": "El paso con carga sobre personas está totalmente prohibido."
+            },            {
+              "punto": "El puente grúa nunca se utilizará para la elevación de personas."
+            },            {
+              "punto": "Utilizar el balanceo propio del puente para llegar a una zona fuera del radio de acción está totalmente prohibido."
+            },            {
+              "punto": "Nunca operar con un puente grúa que esté fuera de servicio, puede haber algún trabajador realizando tareas de mantenimiento, por ejemplo."
+            },            {
+              "punto": "Nunca se abandonará la máquina dejando una carga suspendida, por pequeña que sea."
+            },            {
+              "punto": "Caso de operaciones con gran complejidad y elevado riesgo, como el caso de cargas excesivamente voluminosas, que se hayan de realizar utilizando simultáneamente dos puentes grúa, se deberá seguir un plan establecido de manera específica, habiendo sido <b>evaluada la tarea con anterioridad</b>, por quien proceda en cada caso, contándose con un <b>señalista</b>, que será encargado tanto de dirigir la maniobra completa como de dar la orden de inicio y finalización de la misma."
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "CONSIGNAS PROPIAS AL TRABAJO DEL APARATO Y/O AL LUGAR DONDE ES UTILIZADO. VERIFICACIONES DIARIAS",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "bounce",
+          "titulo": "Las <b>revisiones diarias</b> que debe de realizar el operador antes de iniciar su jornada de trabajo o antes de la puesta en servicio de la grúa consisten en:",
+          "contenido": [
+            {
+              "punto": "Revisión visual y de funcionamiento de los mecanismos de seguridad: limitadores de carrera, frenos, dispositivos de seguridad y de parada de emergencia. "
+            },
+            {
+              "punto": "Revisión visual de los aspectos más aparentes de la grúa y de elementos sometidos a esfuerzo. "
+            }
+          ]
+
+        },
+        {
+          "clase": "imagen",
+		  "animacion": "flash",
+          "subclase": "paraCambiar",
+          "imagen": "img/mod03/modelo.png",
+          "ancho": 600
+        },
+        {
+          "clase": "texto",
+		  "animacion": "pulse",
+          "texto": "Las eslingas y resto de accesorios utilizados serán revisadas visualmente en el momento de su elección para la maniobra, si no están acorde a las necesidades, se desecharán, dando parte al mando directo."
+        }
+
+      ]
+    },
+    {
+      "titulo": "MANUAL DE INSTRUCCIONES DEL EQUIPO A UTILIZAR, DATOS TÉCNICOS, CAPACIDAD NOMINAL, DISPOSITIVOS DE SEGURIDAD, ETC.",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "fadeInLeft",
+          "texto": "Cada máquina, y accesorio tendrá su manual de instrucciones. Dichos manuales deberán estar a disposición del trabajador para cualquier consulta. El trabajador será conocedor de los datos aportados por el manual de instrucciones del fabricante antes del manejo del aparato."
+        },
+        {
+          "clase": "lista",
+		  "animacion": "tada",
+          "titulo": "Respecto al uso de un aparato concreto, el conductor debe conocer la documentación que le acompañará y que según UNE 59-105-76 estará compuesta por:",
+          "contenido": [
+            {
+              "punto": "El manual de uso."
+            },
+            {
+              "punto": "Las normas de conducción del aparato."
+            },
+            {
+              "punto": "El mantenimiento del mismo (en lo que a él ataña)."
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "CONOCIMIENTO Y MANEJO DE EQUIPOS DE RADIO PARA LA COMUNICACIÓN (EN SU CASO)",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "wobble",
+          "texto": "En caso de necesitar comunicación a distancia mediante radio, teléfono o similar, se pactará código de comunicación que deberá ser conocido por ambas partes. Las indicaciones deberán cortas e inequívocas. Se recomienda tener al alcance siempre una batería de repuesto. Las personas que utilicen el equipo han de ser conocedores del mismo."
+        }
+      ]
+    },
+        {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "A la hora de elevar la carga:",
+              "respuestas": [
+                {
+                  "opcion": "Se hará siempre en vertical para evitar balanceos",
+                  "correcto": true
+                },
+                {
+                  "opcion": "El eslingador se quedará lo más próximo a la carga, si fuera posible bajo ella durante el izado, para comprobar su estabilidad",
+                  "correcto": false
+                },
+                {
+                  "opcion": "El izado se realizará en un único movimiento, que será lo más veloz posible y combinará elevación y traslación",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Se realizará un frenado de prueba de todos los movimientos de la grúa:",
+              "respuestas": [
+                {
+                  "opcion": "Antes de comenzar los trabajos",
+                  "correcto": true
+                },
+                {
+                  "opcion": "En cualquier momento durante la maniobra",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Al finalizar el turno",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "No queremos golpes indeseados, ni ningún tipo de accidente, por ello:",
+              "respuestas": [
+                {
+                  "opcion": "El gancho de la grúa estará en posición elevada al estacionar la máquina",
+                  "correcto": false
+                },
+                {
+                  "opcion": "La grúa no se dejará nunca abandonada con una carga suspendida",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Está prohibido pasar con carga sobre personas, y también utilizar el puente grúa para la elevación de personal",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero ",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "La revisión diaria incluirá:",
+              "respuestas": [
+                {
+                  "opcion": "La comprobación de los mecanismos de seguridad: finales de carrera, frenos y parada de emergencia",
+                  "correcto": false
+                },
+                {
+                  "opcion": "La inspección visual de gancho, pestillo de seguridad, cables y cadenas",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "A diario se revisará:",
+              "respuestas": [
+                {
+                  "opcion": "Exclusivamente el estado de la máquina",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Las eslingas que vayamos a utilizar en la maniobra programada",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas",
+                  "correcto": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },  
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Aquí hemos visto el manejo de la grúa. No obstante, dedicaremos un módulo posterior al manual de operaciones en exclusiva, donde veremos que hacer antes, durante y en la finalización de los trabajos. En el próximo módulo hablaremos de las características de la carga y los accesorios de elevación."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod03/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

@@ -1,0 +1,326 @@
+﻿{
+  "modulo": "Mod. 9: Rescates",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod09/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Todo trabajo en altura implica un riesgo, motivo por el que es una buena idea, tener previstos medios de rescate, para el caso de que ocurra un accidente."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Rescates",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Siempre debemos contemplar la posibilidad de que ocurra un accidente, en cuyo caso el operario puede llegar a estar en situaciones comprometidas para su vida, por diversas causas:  ",
+          "contenido": [
+            {
+              "punto": "Zonas alejadas de centros urbanos. "
+            },
+            {
+              "punto": "Situarse cerca de peligros (alta tensión, zonas de altas temperaturas, maquinaria en movimiento, etc.)."
+            },
+            {
+              "punto": "Gravedad a nivel medico (hemorragias masivas).  "
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "La rápida respuesta por parte de sus compañeros es vital para no agravar el estado del accidentado. Por ello además de realizar la evaluación de riesgos de una actividad, deberá existir un “plan de emergencia”, para poder tener una respuesta clara, rápida y segura a la hora de asistir al accidentado. La formación adecuada en dichas técnicas y conocimientos en materia de primeros auxilios es fundamental."
+        }
+
+      ]
+    },
+    {
+      "titulo": "Generalidades",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Existe una gran variedad de situaciones que pueden llevarnos a la necesidad de realizar un rescate de una persona en altura. Partimos de la hipótesis de una persona suspendida de un arnés y anclada a un sistema de conexión que en este momento le está sujetando después de haber detenido una caída."
+        },
+        {
+          "clase": "lista",
+          "titulo": "Lo primero que se ha de tener en cuenta es la secuencia conocida como PAS, consistente en:",
+          "contenido": [
+            {
+              "punto": "Proteger el lugar. En esta fase se debe dotar de la suficiente seguridad al entorno para que el accidente no se agrave. Por ejemplo, si la caída se ha producido por una descarga eléctrica puede ser necesario en primer lugar cortar la tensión. Aunque el fin sea realizar un salvamento, la seguridad del rescatador se debe anteponer incluso a la del herido. Si el rescatador se accidenta, además de las consecuencias que tiene para él, la situación se agravaría."
+            },
+            {
+              "punto": "Avisar. Para ello se debe tener claro a quién y cómo. Siempre, el  aviso se debe hacer antes que cualquier intento de socorro, especialmente si la víctima está inconsciente."
+            },
+            {
+              "punto": "Socorrer. En tercer lugar y siempre que se tengan medios, conocimientos y práctica suficiente, se pueden iniciar las tareas de rescate. Prestando especial atención a la fase de socorrer, siempre se debe valorar la posibilidad de llegar hasta el herido a través de medios que pueden facilitar el rescate, como puede ser el uso de plataformas elevadoras móviles de personas. Las máquinas elevadoras de carga no están permitidas para elevar personas, sin embargo, en caso de necesidad grave, se puede sopesar su uso con las debidas medidas de precaución. Ojo, sopesar, no utilizar directamente."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "En muchos casos, se deben utilizar sistemas ligeros para evacuar a la víctima, como pueden ser dispositivos que utilizan cuerda o cable para ascender o descender a la víctima hasta una posición segura."
+        },
+        {
+          "clase": "lista",
+          "titulo": "Si se deben utilizar estos sistemas “ligeros”, el rescate se puede dividir en los siguientes pasos generales:",
+          "contenido": [
+            {
+              "punto": "Conectar al herido una cuerda o cable. Esta cuerda o cable pasará a través de, o bien un aparato denominado descensor que permitirá bajar a la víctima a una velocidad controlada, o de un dispositivo de rescate por elevación que permitirá subir a la víctima.",
+              "contenido": [
+                {
+                  "punto": "En el caso de utilizar un descensor, lo habitual es que si no se hace una operación sobre él, como puede ser apretar una palanca, el dispositivo detendrá automáticamente la bajada. Los dispositivos de descenso que no cumplen esta función están pensados para la autoevacuación (rescate de un accidentado sin participación de rescatador) o como escape de un lugar en altura."
+                },
+                {
+                  "punto": "En el caso del rescate por elevación, al dejar de realizar la operación de ascenso –habitualmente girar una manivela-, el herido quedará suspendido a la altura alcanzada."
+                }
+              ]
+            },
+            {
+              "punto": "Desconectar al accidentado del sistema inicial del que estaba colgando en caso de que sea necesario."
+            },
+            {
+              "punto": "Descenderlo o subirlo de una forma segura."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "¿Cómo colocar la cuerda de rescate al accidentado?<br>La primera fase del rescate consiste en colocar al herido una cuerda o cable que pasará a través de un descensor o de un equipo de elevación, aparato que regulará la velocidad de bajada o que permitirá ascender al accidentado. Puede estar colocado de antemano, aunque no es lo habitual. Por ejemplo, si el sistema anticaídas tiene incorporado un sistema para realizar el rescate una vez detenida la caída. Si el rescatador debe aproximarse a la posición del accidentado, debe extremar las precauciones para mantener su propia seguridad. Si el herido está inconsciente y en el descenso o ascenso debe pasar por espacios pequeños, es más recomendable anclarle la cuerda en el anclaje dorsal de su arnés, ya que el accidentado tendrá una posición más “recogida” que si se utiliza el anclaje ventral e incluso el esternal. Si no existe este problema, lo más efectivo suele ser anclar la cuerda de rescate al herido en el mismo punto en que tiene el sistema que le está sujetando, así se facilita la desconexión de este sistema. Si no se puede llegar al herido, existen pértigas de rescate para poder anclarle la cuerda a distancia. En el caso de que cuelgue de una cuerda, se pueden utilizar bloqueadores sobre la misma cuerda de la que está suspendido. Estos aparatos “muerden” la cuerda que le sujeta, de manera que no es necesario llegar hasta el accidentado para pasar su peso a la cuerda de rescate. La cuerda o cable de rescate debe ir unida a un sistema que facilite el descenso del herido a una velocidad razonable (descensor) o al aparato que permite el ascenso."
+        },
+        {
+          "clase": "texto",
+          "texto": "¿Cómo desconectar al accidentado del sistema anticaídas del que cuelga?<br>Ocurre que en algunos casos, es necesario desconectar al herido de su sistema inicial para poder realizar a la evacuación. Para pasar el peso del herido del sistema del que ha quedado suspendido a la cuerda que pasa por el descensor o el equipo de elevación existen varios métodos. Cortar la cuerda del accidentado una vez que se le ha conectado la cuerda de rescate no es aconsejable, debido a las posibilidades de equivocación. Este criterio está avalado la norma UNE-EN 363: que en su punto 4.2.5 dice: “El sistema de salvamento debería ensamblarse de forma que no sea necesario cortar las líneas para efectuar el salvamento”. Para no cortar la cuerda, algunos descensores llevan un sistema que se acciona a través de palancas o un volante y permite elevar ligeramente al herido para liberarle del sistema que le sujeta inicialmente."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod09/descensor.jpg"
+        },
+        {
+          "clase": "texto",
+          "texto": "En los descensores que no tienen este sistema, se suele utilizar un sistema de poleas y cuerda llamado polipasto, aprovechando habitualmente el sistema de frenado automático del descensor."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod09/frenadoAutomatico.jpg"
+        },
+        {
+          "clase": "texto",
+          "texto": "¿Y el ascenso/descenso del accidentado?<br>Los sistemas de descenso suelen regular de forma automática la velocidad. Se debe vigilar, continuamente, el descenso del herido, especialmente si esta inconsciente para impedir que se golpee o enganche. Algunos evacuadores por descenso permiten que desciendan dos personas a la vez. Esta opción puede ser muy interesante para que un rescatador baje con el herido, o en los casos de autoevacuación en los que se utiliza el descensor como sistema de escape de un lugar en altura. En el caso de rescate por ascenso, se debe vigilar especialmente los posibles enganchones o atrapamientos del accidentado durante el izado, especialmente si está inconsciente, ya que el sistema de elevación puede hacer mucha fuerza y dañar a un accidentado al que se le enganche, por ejemplo, una extremidad durante el ascenso. En ambos casos, existen situaciones en las que no se pueden hacer rescates verticales y se deben hacer en horizontal o diagonal. Existen diversas técnicas para este tipo de rescates, como es la utilización de una cuerda guía. Veremos a continuación algunos procedimientos de rescate."
+        }
+
+      ]
+    },
+    {
+      "titulo": "Método directo vertical",
+      "contenido": [
+        {
+          "clase": "lista",
+          "subclase": "numeros",
+          "titulo": "Este método es el más rápido de realizar, ya que los pasos a seguir son menos elaborados que en otras técnicas.   ",
+          "contenido": [
+            {
+              "punto": "Verificar la gravedad en la que se encuentra el operario (lesiones, si ha perdido la consciencia). "
+            },
+
+            {
+              "punto": "Acercarse a él por medio de las técnicas que tengamos más a mano o las que valoremos más convenientes para después seguir realizando el rescate (rápel, etc). Siempre es conveniente tener un tendido de cuerda para una más rápida evacuación. "
+            },
+            {
+              "punto": "Con nuestros cabos de anclaje nos unimos al accidentado, colocando dichos cabos en las anillas del arnés que consideremos más apropiadas para la comodidad tanto del accidentado como nuestra, y para evitar empeorar las lesiones que pueda tener. A veces es conveniente colocar un cabo en la anilla de la espalda y otra en la anilla central delantera, para que se le pueda bajar verticalmente y evitar la colisión de los pies con las estructuras."
+            },
+            {
+              "punto": "Una vez unidos nos aseguramos que los cabos de anclaje estén tensos de tal manera que notemos el peso del accidentado. "
+            },
+            {
+              "punto": "Posteriormente desenganchamos al accidentado y si fuese necesario cortaremos los elementos a los que está enganchado para que de esta manera su peso se traslade a nuestro arnés y sistema de descenso. "
+            },
+            {
+              "punto": "Descenderemos al accidentado hasta la base de la zona de trabajo siempre con el máximo cuidado y atención."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Método indirecto vertical",
+      "contenido": [
+        {
+          "clase": "lista",
+          "subclase": "numeros",
+          "contenido": [
+            {
+              "punto": "Verificamos el estado del accidentado, como se encuentra, las lesiones y el estado de las mismas, y si fuera necesario aplicar los conocimientos de primeros auxilios. "
+            },
+            {
+              "punto": "Nos acercaremos al accidentado por el método adecuado. "
+            },
+            {
+              "punto": "Montaremos las cuerdas de rescate con el sistema de doble anclaje. Puede estar acompañado desde su inicio con un sistema de polipasto si fuera necesario elevar al accidentado para liberarlo de su sistema de seguridad (si está colgando en el vacío)."
+            },
+            {
+              "punto": "Ataremos al accidentado de las anillas de  seguridad del arnés. Verificar que las cuerdas llegan hasta el suelo."
+            },
+            {
+              "punto": "Situaremos al accidentado en la vertical y le desengancharemos del sistema de seguridad al que este sujeto. "
+            },
+            {
+              "punto": "Lo descenderemos hasta la base de la zona de trabajo con cuidado y si fuese necesario con la ayuda de un tercer operario desde el suelo y una cuerda auxiliar que lo ira separando de la estructura."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Resumen",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Ante una emergencia, lo primordial es conocer la regla PAS:"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod09/pas.jpg"
+        },
+        {
+          "clase": "lista",
+          "titulo": "Pasos generales del rescate en altura:",
+          "contenido": [
+            {
+              "punto": "Conectar al herido una cuerda o cable que pasará a través de un descensor que permitirá bajar a la víctima a una velocidad controlada, o de un dispositivo de rescate por elevación que permitirá subir a la víctima. "
+            },
+            {
+              "punto": "Desconectar al accidentado del sistema inicial del que estaba colgando en caso de que sea necesario."
+            },
+            {
+              "punto": "Descenderlo o subirlo de una forma segura."
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "¿Qué significa la A de la regla PAS?",
+              "respuestas": [
+                {
+                  "opcion": "Aisla",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Avisa",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Ayuda",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "A la hora de proceder a un rescate, es primordial garantizar la seguridad del rescatador.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Durante los rescates, en general se siguen los siguientes pasos:<ul class='numeros'><li>Conectar al accidentado a una cuerda.</li><li>Subirlo o bajarlo de forma segura</li><li>Desconectarlo del sistema del que quedó colgado al caer.</li></ul>¿Cuál es el orden correcto de la secuencia?",
+              "respuestas": [
+                {
+                  "opcion": "1-2-3",
+                  "correcto": false
+                },
+                {
+                  "opcion": "3-2-1",
+                  "correcto": false
+                },
+                {
+                  "opcion": "1-3-2",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "La diferencia entre los métodos  de rescate directo e indirecto es que el primero, el accidentado y el rescatador  se trasladan al mismo tiempo, mientras que en el segundo se traslada en primer lugar al accidentado.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": " Ya hemos prácticamente terminado la materia de este curso. Esperamos que te haya resultado productivo. El siguiente módulo es un compendio de temas que creemos es necesario recordar."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod09/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}

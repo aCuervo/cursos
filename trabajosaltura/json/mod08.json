@@ -1,0 +1,631 @@
+﻿{
+  "modulo": "Mod. 8: Trabajos sobre cubiertas y tejados",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod08/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Además del uso de escaleras y andamios que ya hemos visto con anterioridad, uno de los trabajos más habituales en altura es aquel que se realiza sobre tejados, y es a esto, entre otros trabajos, a lo que nos dedicaremos en este módulo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Tipos de cubiertas",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Las clasificaremos por un lado en función de la inclinación:",
+          "contenido": [
+            {
+              "punto": "Horizontales "
+            },
+            {
+              "punto": "Inclinadas"
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "Y por otra en función de la construcción:",
+          "contenido": [
+            {
+              "punto": "Con claraboya"
+            },
+            {
+              "punto": "Diferente distancia entre cerchados, etc."
+            }
+          ]
+        },
+        {
+          "clase": "acordeon",
+          "contenido": [
+            {
+              "titulo": "CUBIERTAS PLANAS HORIZONTALES (AZOTEAS)",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Pueden ser transitables o no, dependiendo de la resistencia de los materiales en la zona de tránsito."
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "POSIBLES ANCLAJES:",
+                  "contenido": [
+                    {
+                      "punto": "Elementos estructurales: vigas y forjados. Se debe comprobar su estado. "
+                    },
+                    {
+                      "punto": "Realizando una revisión previa, se pueden utilizar: ",
+                      "contenido": [
+                        {
+                          "punto": "Barandillas y balaustradas."
+                        },
+                        {
+                          "punto": "Petos y antepechos de fábrica. "
+                        },
+                        {
+                          "punto": "Chimeneas y salidas de ventilación. "
+                        },
+                        {
+                          "punto": "Antenas y mástiles. "
+                        }
+                      ]
+                    },
+                    {
+                      "punto": "Nunca utilizar elementos de evacuación de aguas pluviales o fecales.  "
+                    }
+                  ]
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "Accesos:",
+                  "contenido": [
+                    {
+                      "punto": "Ventanas; Tener cuidado con la posible existencia de vidrios rotos. "
+                    },
+                    {
+                      "punto": "Claraboyas y lucernarios: Los pequeños, normalmente de una pieza, se desmontan.  "
+                    }
+                  ]
+
+                }
+              ]
+            },
+            {
+              "titulo": "CUBIERTAS INCLINADAS (TEJADOS POR PIEZAS)",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "POSIBLES ANCLAJES:",
+                  "contenido": [
+                    {
+                      "punto": "Elementos estructurales tales como pares, cerchas y correas."
+                    },
+                    {
+                      "punto": "Previa comprobación: vigas, forjados, petos de fábrica, antepechos, antenas, mástiles y chimeneas."
+                    },
+                    {
+                      "punto": "Nunca en elementos de evacuación de aguas pluviales, fecales o en los ganchos de aleros."
+                    }
+                  ]
+                },
+                {
+                  "clase": "lista",
+                  "subclase": "letras",
+                  "titulo": "TIPOS DE CUBIERTAS INCLINADAS CLASIFICADAS POR MATERIALES:",
+                  "contenido": [
+                    {
+                      "punto": "Cubiertas de pizarra: Se trata de una de las cubiertas más peligrosas debidas a la inclinación con que se construyen, a la fragilidad y el sistema de sujeción del material.  "
+                    },
+                    {
+                      "punto": "Cubiertas de materiales cerámicos: Existen de diferentes tipos: teja árabe, teja plana, teja greca, teja romana, etc. Son cubiertas generalmente de menor inclinación, pero no por ello menos peligrosas. Para transitar por ellas, utilizaremos preferentemente la cumbrera, avanzando con un pie por cada lado de ésta. Tanto los aleros de la cubierta, como la cumbrera y en ocasiones otras líneas de tejas, van sujetas con mortero, lo que las hace más resistentes. Pueden resultar especialmente peligrosas cuando están cubiertas de musgos y se encuentra húmedo."
+                    },
+                    {
+                      "punto": "Cubiertas de fibrocemento: Habituales  en cubiertas de locales industriales y agrícolas. El fibrocemento se vuelve frágil con el tiempo. Nuevas absorben humedad, para luego endurecerse y aumentar la impermeabilidad, pero volviéndose más quebradizas. Para transitar por ellas utilizaremos pasarelas de circulación diseñadas para trabajos sobre este tipo de cubiertas."
+                    },
+                    {
+                      "punto": "Cubiertas de vidrio; Utilizadas para conseguir mayor iluminación en lugares como escaleras de edificios, oficinas, grandes superficies, etc.  Se trata de cubiertas muy frágiles."
+                    },
+                    {
+                      "punto": "Cubiertas metálicas; Pueden ser tejados de láminas flexibles de plomo, cobre, zinc o chapa de acero. Estas últimas las encontraremos generalmente en locales industriales y agrícolas. Independientemente del perfil, las planchas metálicas soportan bien el tránsito, no obstante, avanzaremos por encima de las líneas de tornillos de fijación, que nos indican que debajo están las correas. Las de tipo “Sándwich” formadas por dos chapas unidas por una espuma aislante son más resistentes que las simples."
+                    }
+                  ]
+                },
+                {
+                  "clase": "texto",
+                  "texto": "El trabajo en planos inclinados (cubiertas, taludes, etc.) no está contemplado íntegramente por las normas EN. Los fabricantes han desarrollado diversas soluciones, pero elegir la correcta en cada momento no es sencillo y es necesario un examen por parte de alguien experto de la situación."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Riesgos existentes durante el trabajo en cubiertas. Medidas a adoptar",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Riesgo de caída de personas a distinto nivel: Se colocarán de elementos de protección colectiva tales como redes o barandillas, y en caso de necesidad se utilizarán equipos de protección individual."
+        },
+        {
+          "clase": "texto",
+          "texto": "Caídas de altura a través de lucernarios o claraboyas y otras pequeñas aberturas cubiertas de material ligero: Para los lucernarios es conveniente proteger sus lados accesibles mediante barandillas de suficiente resistencia de forma que se distingan del resto de la cubierta en caso estar cubiertas de nieve o polvo. Otra forma de protección, es cubrirlos con emparrillados metálicos de una resistencia adecuada. Para reforzar la seguridad se pueden colocar carteles de prohibición que indiquen “no sentarse, pisar o saltar”. A continuación, un listado no exhaustivo de los riesgos que pueden aparecer en estos casos y posibles soluciones. Dada la similitud de la situación, se incluyen, además, los trabajos en planos horizontales con peligro de caída por el borde o perimetral o caída por hundimiento."
+        },
+        {
+          "clase": "lista",
+          "titulo": "En el trabajo en plano inclinado se pueden diferenciar los siguientes riesgos:",
+          "contenido": [
+            {
+              "punto": "Caída perimetral o de borde: se puede dar también en planos horizontales en los que no existe protección circundante, como cubiertas planas sin barandillas o con petos excesivamente bajos. En una cubierta, se puede diferenciar dos riesgos de caída perimetral o de borde:",
+              "contenido": [
+                {
+                  "punto": "Caída por el frente del tejado."
+                },
+                {
+                  "punto": "Caída por el lateral"
+                }
+              ]
+            },
+            {
+              "punto": "Caída por hundimiento de la cubierta. Se puede presentar en cubiertas ligeras o por la presencia de traslúcidos. Se excluyen de las recomendaciones las cubiertas en estado ruinoso que necesitan una actuación de gran envergadura."
+            },
+            {
+              "punto": "Caída por deslizamiento. En estas situaciones puede aumentar la velocidad de la caída y terminar en una caída perimetral o continuar un deslizamiento hasta el suelo."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Tipos de dispositivos de anclaje a utilizar: Los dispositivos de anclaje donde se unirá el sistema de conexión se pueden dividir, para esta situación, en dos tipos: con punto de anclaje móvil o anclaje en punto fijo. Como dispositivo con punto de anclaje móvil se puede utilizar una línea de anclaje flexible horizontal  -que puede ser fija o temporal- o una línea de anclaje rígida horizontal."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod08/lineaAnclaje.jpg"
+        },
+        {
+          "clase": "texto",
+          "texto": "En ambos casos se puede describir de forma muy simplificada como un cable, cuerda o perfil, habitualmente situado en el caballete de la cubierta o en la zona alta del plano inclinado, donde se conecta el sistema de conexión entre el arnés del usuario y la línea. El punto de unión entre la conexión y la línea se puede desplazar a lo largo de ésta. Como punto de anclaje fijo se pueden utilizar soportes o cualquier otro punto que no permita desplazar la unión del elemento de conexión con el anclaje. Los puntos fijos están situados en una posición y no pueden variar esta situación."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod07/anclajeFijo.jpg"
+        },
+        {
+          "clase": "lista",
+          "titulo": "Sistemas de conexión: Se elegirán en función del trabajo a realizar. Los más habituales son:",
+          "contenido": [
+            {
+              "punto": "Retráctil: En trabajos llevados a cabo en planos inclinados, el retráctil tiene la ventaja de que el usuario no tiene que manipularlo mientras transita por la cubierta y, además, reduce la distancia de caída, ya que siempre tiene desenrollada la mínima cuerda activa. Como desventajas:",
+              "contenido": [
+                {
+                  "punto": "Puede llegar a permitir la caída si se debe trabajar justo en el borde de la cubierta, puesto que no bloquea de continuo. "
+                },
+                {
+                  "punto": "Si se necesitan retráctiles muy largos, su peso es considerable (un retráctil de cable de 15 m puede pesar 6 kg). Este peso impedirá el correcto desplazamiento sobre el cable de una la línea de anclaje horizontal, haciendo que no quede perpendicular el sistema de conexión al borde. Lo cual es peligroso porque el trabajador puede avanzar sin ser consciente que el retráctil no corre por la línea."
+                }
+              ]
+            },
+            {
+              "punto": "Puede ser válido el retráctil si pesa poco  si se acompaña al lado del cable empujándolo con la mano o se utiliza en un punto de anclaje fijo. Si el dispositivo de anclaje es un raíl, éste suele estar muy cerca de las tejas en una cubierta y el retráctil podría no avanzar por reposar en el suelo."
+            },
+            {
+              "punto": "Equipo de amarre: Sólo es válido en el caso de trabajos en retención sin posibilidad de caída. Su uso puede permitirse en cubiertas con pendiente moderada para evitar el deslizamiento."
+            },
+            {
+              "punto": "Componentes de amarre de sujeción: Su uso en cubiertas es igual que para equipos de amarre, excepto en que no se pueden completar con un absorbedor."
+            },
+            {
+              "punto": "Absorbedor de energía: Si la posición de la línea de anclaje o de los anclajes fijos es muy baja y se pueden producidas caídas de factor alto (por ejemplo, líneas de anclaje paralelas al borde de una cubierta pero muy cercanas a él, al no poder quedar la línea detrás de un trabajador que se encuentra en el borde, aún ajustando el equipo de amarre se puede producir una caída). Para esta situación se puede emplear un absorbedor con equipo de amarre –pueden estar los dos integrados, pero su longitud máxima no puede pasar de 2 m- o un retráctil que permita trabajar en horizontal o con factor 2 (se debe prestar atención a que la carcasa del retráctil no quede haciendo palanca en el borde al parar la caída)."
+            },
+            {
+              "punto": "Dispositivo deslizante sobre línea de anclaje flexible. Variantes",
+              "contenido": [
+                {
+                  "punto": "Si el usuario se debe separar mucho de la línea de anclaje horizontal o del punto de anclaje, incluso utilizando los reenvíos descritos en el apartado anterior, estos dispositivos deslizantes pueden ser la mejor opción. "
+                },
+                {
+                  "punto": "Para que el trabajador se aleje del punto de anclaje basta con guiar la cuerda para que pase por el dispositivo deslizante, moviéndose preferentemente en la línea de máxima pendiente. Si la cuerda es larga, puede llevarla recogida en un mochila e irla sacando poco a poco. Es imprescindible que la cuerda tenga nudo de tope."
+                },
+                {
+                  "punto": "Para acercarse al punto de anclaje, normalmente el trabajador deberá ayudar a que la cuerda pase por el dispositivo. Esto se puede evitar si el movimiento se realiza sólo en la línea de máxima pendiente y la cuerda, o tiene un contrapeso, o está sujeta en el punto más alejado. "
+                },
+                {
+                  "imagen": "img/mod08/contrapeso.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Posibles problemas: En caso de hundimiento, la fuerza de choque puede ser mayor que en el uso habitual de este sistema, ya que la caída puede ser mayor que si fuera vertical (ver fig 7.4.4-14). Este punto queda muy matizado por la existencia de rozamiento en el borde del hundimiento y porque el factor de caída suele ser muy bajo. En el caso de que se produzca una caída por deslizamiento, puede que el sistema no llegue a frenar hasta que no se produzca la caída por el borde, ya que algunos dispositivos para que frenen necesitan cierta velocidad. Hay fabricantes que indican que su dispositivo funciona en esta situación, pero no señalan pendientes mínimas de uso, y si lo hicieran, dependería de la rugosidad del plano inclinado. Para esta situación, hay dispositivos que tienen una posición de bloqueo."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod08/posicionBloqueo.jpg"
+        },
+        {
+          "clase": "texto",
+          "texto": "Caída de objetos sobre personas o instalaciones. La zona bajo cubierta se balizará y cerrará el paso a personas ajenas a la obra. Se debe utilizar casco de seguridad."
+        },
+        {
+          "clase": "texto",
+          "texto": "Contactos eléctricos: Para prevenir el riesgo de contacto eléctrico con cables accesibles desde la cubierta, no se deben efectuar trabajos en las proximidades de conductores o elementos bajo tensión, desnudos o sin protección, salvo que estén desconectados de la fuente de energía. Si a pesar de ello se deben realizar trabajos, los cables se desviarán o se protegerán mediante fundas aislantes o apantallamiento. Para el caso de líneas de alta tensión se seguirá lo dispuesto en el vigente reglamento de líneas eléctricas aéreas de alta tensión."
+        }
+      ]
+    },
+    {
+      "titulo": "Otras circunstancias a tener en cuenta",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Organización de los trabajos: Antes de efectuar cualquier trabajo sobre una cubierta., la empresa responsable de las obras deberá realizar un estudio previo de la misma que según las condiciones de la misma (tipo, pendiente, medidas de protección existentes, etc.) Diseñar el sistema de trabajo, medios de acceso seguro, equipos de protección personal necesarios y forma de usarlos, etc."
+        },
+        {
+          "clase": "texto",
+          "texto": "Inclemencias del tiempo: No se deben realizar trabajos si las condiciones atmosféricas, sobre todo el viento, así lo desaconsejan. Como regla general no se trabajará si llueve, nieva o si la velocidad del viento es superior a los 50 km/h, debiéndose retirar cualquier material o herramienta que pueda caer desde la cubierta. Los trabajadores deberán poseer ropa especial para trabajos con condiciones atmosféricas desfavorables."
+        }
+      ]
+    },
+    {
+      "titulo": "Trabajos en torres y antenas",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Tipos de antenas:",
+          "contenido": [
+            {
+              "punto": "Por tamaño",
+              "contenido": [
+                {
+                  "punto": "Grandes antenas (repetidores en montes)."
+                },
+                {
+                  "punto": "Medianas  y pequeñas (antenas sobre edificios)."
+                }
+              ]
+            },
+            {
+              "punto": "Por estructura",
+              "contenido": [
+                {
+                  "punto": "Estructura de celosía (autoportante y arriostrada) "
+                },
+                {
+                  "punto": "Monopolo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "En las antenas y torres, así como en las grúas, el acceso no suele ser muy difícil dada su estructura de trama. Las antenas de gran tamaño, normalmente en el suelo, y las de tamaño medio, sobre torres o edificios, suelen estar dotadas de una escalera de servicio. "
+        },
+        {
+          "clase": "lista",
+          "titulo": "Las torres y antenas pueden presentar diferentes problemas:",
+          "contenido": [
+            {
+              "punto": "Ausencia de equipos de protección colectiva. "
+            },
+            {
+              "punto": "Equipos de protección colectiva preinstalados, pero incompatibles con el material del trabajador o no conformes a las normas. "
+            },
+            {
+              "punto": "Estructura y equipos obsoletos, sin mantenimiento adecuado o deteriorados. "
+            },
+            {
+              "punto": "Equipo de protección colectiva inutilizado, debido a las inclemencias del tiempo. "
+            },
+            {
+              "punto": "Trabajo en condiciones atmosféricas desfavorables y peligrosas (tormentas eléctricas, fuerte viento, hielo, calor, etc.). "
+            },
+            {
+              "punto": "Sobresaturación de elementos instalados, el trabajo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Colocacion de linea de vida",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "La instalación de las líneas de vida temporales se realizara en el momento de comenzar el trabajo. Los puntos de anclaje deberán ser apropiados al tipo de línea a instalar y la línea se asegurará a dos puntos diferentes de la estructura. El segundo punto siempre por encina del primero para evitar generar nuevos factores de caída. En su parte inferior se colocará un pequeño peso para que los sistemas de seguridad deslicen correctamente. No se ata la parte inferior de la línea de vida ya que servirá como medio de evacuación en caso de emergencia. Solamente se fijara al suelo una vez finalizada la jornada y si se deja instalada para el día siguiente. De esta manera la cuerda no quedará enganchada, por la acción del viento, fuera de nuestro alcance. El acceso puede estar ya preparado mediante escalera de gato con línea fija o bien portátil, de esta forma siempre se está asegurado a un punto superior. Estas líneas de vida pueden servir también como sistema de izado y rescate. Otro método de trabajo es la instalación en un punto superior a nuestra zona de trabajo de un retractil o sistema de posicionamiento automático. Permite un cambio de posicionamiento rápido a cualquier punto de la estructura (respetando sus ángulos de trabajo), y en caso de tener que trabajar con las manos libres utilizaríamos un cabo de anclaje normal o de posicionamiento regulable. Caso de no existir en una escalera línea de vida, se accederá por ella utilizando un doble cabo con absorbedor y mosquetones de gran apertura, el amarre será siempre por encima de la cintura y nunca deberán estar sueltos los dos cabos al mismo tiempo. Otra forma de hacer un ascenso seguro es mediante una pértiga y línea de vida vertical."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod08/pertiga.jpg"
+        },
+        {
+          "clase": "texto",
+          "texto": "Y también mediante técnicas de escalada. Básicamente se usa la técnica de progresión utilizada en escalada deportiva. Mientras un trabajador asegura, su compañero va progresando dejando seguros intermedios a medida que avanza. El seguro intermedio debe resistir como mínimo 15kn. La cuerda utilizada siempre tiene que ser dinámica, los seguros intermedios serán cintas cosidas homologadas según la une-en-795 clase b con mosquetones de seguridad. El compañero asegurara con un sistema estático de detención, el i`d o el gri-gri por ejemplo. Se tendrá especial cuidado en los primeros largos; el primer punto de anclaje se instalara a 2 m, el segundo a 1 m del primero, el tercero a 1 m del segundo y los sucesivos a 2 m aproximadamente. Esto se deberá realizar  de este modo para evitar golpear contra el suelo en caso de caer en los primeros metros de ascensión. El posicionamiento mediante cabo regulable, se usa normalmente para posicionarnos en la zona de trabajo. El material adicional será un cabo de anclaje regulable. Los más prácticos son los que se regulan rápidamente por medio de un sistema manual (grillon, manustop, etc.) Y tienen una funda protectora para su mejor conservación. Se utilizan sobre los anclajes laterales del cinturón del arnés y regulando rápidamente su longitud y permitirá trabajar en la posición más cómoda. Se deberá usar conjuntamente con un sistema anticaídas con absorbedor de energía anclado a otro punto de la estructura."
+        }
+      ]
+    },
+    {
+      "titulo": "Trabajos en taludes",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Los taludes son superficies exteriores, sometidas a inclemencias del tiempo que pueden modificar su estructura, y por tanto, su seguridad (desprendimientos, superficies húmedas, etc.). "
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "Taludes de plano inclinado moderado",
+              "texto": "Estos son taludes que por su inclinación, son zonas con un moderado riesgo de desprendimiento o resbalón, o porque puedan existir cambios de desnivel bruscos, conllevan un peligro relativo y hacen que las medidas a tomar sean las mínimas. La inclinación de estos tipos de taludes va desde el plano horizontal hasta aproximadamente 30º o 45º, dependiendo del tipo de superficie. En estos taludes los operarios pueden realizar sus funciones posando sus pies en la superficie y guardando el equilibrio por ellos mismos. La instalación de un sistema de seguridad se realizará de forma preventiva y no se deberá estar colgado o suspendido directamente de él. Se instalarán sistemas de línea de vida  temporal, verticales al talud y sujeta bien a anclajes fijos o a líneas de vida horizontales (fijas o temporales)."
+            },
+            {
+              "titulo": "Taludes de verticales",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Estos son taludes en los que los operarios que trabajen en ellos deberán estar en constante suspensión del sistema de seguridad. Por esta razón los sistemas de seguridad estarán duplicados como en el caso de los trabajos de suspensión continua (con doble sistema de cuerda y doble sistema de anclajes para cada cuerda). Los taludes que entran en esta categoría son los que tengan una inclinación que va desde los 40º, 45º hasta los 90º o zonas de más inclinación 120º, 130º,  llamadas extraplomos. Los sistemas de anclaje en taludes tienen unas características propias al encontrarse en exteriores, por lo que podemos encontrar tanto elementos humanos como elementos naturales."
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "Entre los elementos humanos:",
+                  "contenido": [
+                    {
+                      "punto": "Muros de contención"
+                    },
+                    {
+                      "punto": "Barandillas"
+                    },
+                    {
+                      "punto": "Mástiles metálicos y de madera"
+                    },
+                    {
+                      "punto": "Anclajes homologados, etc. "
+                    }
+                  ]
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "Entre los elementos naturales tendremos:",
+                  "contenido": [
+                    {
+                      "punto": "Árboles "
+                    },
+                    {
+                      "punto": "Rocas de distintos materiales (areniscas, calizas, etc.), "
+                    },
+                    {
+                      "punto": "Taludes (con sus distintas variantes), etc. "
+                    }
+                  ]
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "El principio básico que tendremos que seguir a la hora de anclar los sistemas de seguridad a una superficie será la siguiente:",
+                  "contenido": [
+                    {
+                      "punto": "La más sólida. "
+                    },
+                    {
+                      "punto": "La que este más sobredimensionada. "
+                    },
+                    {
+                      "punto": "La que podamos instalar elementos homologados. "
+                    },
+                    {
+                      "punto": "La que nos transmita más confianza."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Resumen",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Nunca se debe pisar directamente sobre una cubierta ligera. Para ello deben instalarse pasarelas de circulación, que reparten las cargas y garantizan la resistencia del conjunto, al estar apoyadas sobre elementos resistentes de la cubierta. Si el acceso es frecuente debemos plantearnos la posibilidad de que las pasarelas de circulación puedan dejarse permanentemente sobre ella. El arnés asociado a algún dispositivo anticaída puede amarrarse directamente a un punto de anclaje o a una línea de vida unida a dos puntos sólidos de manera que el trabajador pueda desplazarse por la cubierta. No deben dejarse directamente sobre la cubierta objetos, herramientas o materiales para evitar su caída, tanto por deslizamiento sobre la misma, como por rotura de la cubierta. Si las condiciones climatológicas lo desaconsejan, deben suspenderse los trabajos. No se deben realizar trabajos si las condiciones atmosféricas son adversas. Como regla general no se trabajará si llueve o si la velocidad del viento es superior o igual a los 50 km/h, debiéndose retirar cualquier material o herramienta que pueda caer. Nunca deben realizarse en solitario los trabajos. En las cubiertas de fibrocemento, al contener amianto, los trabajos se realizarán conforme a las normas recogidas en el plan específico de trabajo. Para prevenir el riesgo de contacto eléctrico con cables accesibles desde la cubierta, no se deben efectuar trabajos en las proximidades de conductores o elementos bajo tensión, desnudos o sin protección, salvo que estén desconectados de la fuente de energía. Si a pesar de ello se deben realizar trabajos los cables se desviarán o se protegerán mediante funda aislante o apantallamiento. Para el caso de líneas de alta tensión se seguirá lo dispuesto en el vigente reglamento de líneas eléctricas aéreas de alta tensión."
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "Para anclarnos en una azotea, podemos utilizar:",
+              "respuestas": [
+                {
+                  "opcion": "Vigas, chimeneas y antenas",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Canalones",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Solo es necesario anclarse en cubiertas inclinadas.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "En los lucernarios, además de colocar carteles de prohibición de pisar, es conveniente:",
+              "respuestas": [
+                {
+                  "opcion": "Proteger sus lados accesibles mediante barandillas de suficiente resistencia.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Cubrirlos con emparrillados metálicos de una resistencia adecuada.  ",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "El riesgo de caída en altura en un tejado puede darse por diferentes motivos, entre ellos:",
+              "respuestas": [
+                {
+                  "opcion": "Caída perimetral ",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Hundimiento de cubierta",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "En cuanto al riesgo de caída de objetos:",
+              "respuestas": [
+                {
+                  "opcion": "No es necesario el uso de casco de seguridad.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Se ha de balizar la zona bajo los trabajos, y cerrar el paso a personal ajeno a la obra",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Se utilizará protección auditiva",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "En torres y antenas, no se debe atar la parte inferior de la línea de vida, ¿por qué?",
+              "respuestas": [
+                {
+                  "opcion": "Porque lleva tiempo y no es necesario.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Porque se utiliza como posible medio de evacuación en caso de emergencia.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Es falso, si se debe mantener fija.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Si no existe en la escalera de acceso línea de vida:",
+              "respuestas": [
+                {
+                  "opcion": "Se accederá con doble cabo con absorbedor y mosquetón de gran apertura.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Se utilizará una pértiga y línea de vida vertical",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Si necesitamos utilizar un doble cabo, nunca deberán estar ambos cabos sueltos al mismo tiempo, y además, el amarre será:",
+              "respuestas": [
+                {
+                  "opcion": "Siempre por encima de la cabeza",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Siempre por encima de la cintura.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Lo correcto es que sea a la altura de la cintura.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "En los taludes de inclinación moderada, se instalarán sistemas de línea de vida  temporal, verticales al talud y sujeta bien a anclajes fijos o a líneas de vida horizontales (fijas o temporales).",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Ya hemos visto lo relativo a trabajos en altura, pero queda pendiente un tema importante, que trataremos en el siguiente módulo. ¿Qué ocurre si pese a todas las protecciones sucede un accidente? El siguiente módulo está dedicado a los rescates."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod08/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}

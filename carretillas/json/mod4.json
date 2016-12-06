@@ -1,0 +1,1806 @@
+﻿{
+  "modulo": "Mod. 4: Uso de carretillas",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/carretilla.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Hasta ahora hemos hablado de la definición y tipos de máquinas. También nos hemos adentrado en la prevención de riesgos laborales y las condiciones de los lugares de trabajo. En este módulo entraremos de lleno en el <b>uso de la carretilla elevadora</b>. Como primera información importante diremos que:<ul><li>Para que una carretilla pueda circular por vías públicas ha de estar matriculada y poseer un seguro de circulación como cualquier otro vehículo a motor.</li><li>Asimismo, su conductor habrá de estar en posesión, como mínimo, del carné de conducir tipo B.</li></ul>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Operaciones carretilla térmica",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "fadeInUp",
+          "texto": "Una de las primeras cosas que debemos hacer al llegar a la carretilla es comprobar si tiene <b>combustible</b> para poder funcionar. En este campo, no es muy diferente a un automóvil. Veamos lo que hay que hacer, en función del tipo de energía que mueva nuestra máquina."
+        },
+        {
+          "clase": "texto",
+		  "animacion": "fadeInDown",
+          "texto": "Si conduce una carretilla elevadora <b>térmica</b>:"
+        },
+        {
+          "clase": "acordeon",
+		  "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Llave de arranque",
+              "texto": "En una carretilla LPG (gas), el motor no puede funcionar con la <b>llave de arranque</b> desconectada (posición off). Y aunque en las carretillas diesel el motor pueda funcionar con la llave de arranque desconectada (posición of) esta operación no se debe realizar nunca. La batería estará aislada del alternador y no se podrá recargar, dañando al alternador. Si su carretilla lleva luces de aviso (warning) se pueden encender cuando gira la llave de arranque. Si esto ocurre, y todo es correcto, se apagarán tan pronto como el motor empiece a funcionar. Si permanecen encendidas, recuerde que las luces de aviso significan algo serio."
+            },
+            {
+              "titulo": "Calentadores",
+              "texto": "La mayoría de motores Diesel tienen calentadores para ayudar el encendido en frío. Coloque la llave en la <b>posición de calentamiento</b> únicamente durante el tiempo recomendado (normalmente entre 20 y 30 segundos). Entonces ponga en marcha el motor. Si no se pone en marcha en 10 segundos; pare, descargaría la batería. Espere medio minuto aproximadamente y pruebe otra vez."
+            },
+            {
+              "titulo": "Exceso de combustible en el encendido",
+              "texto": "Su carretilla puede tener un exceso de combustible en el sistema de arranque (el equivalente diesel al estrangulador en un motor de gasolina). Antes de hacer girar el motor, presione el <b>pedal acelerador</b> totalmente (o según el libro de instrucciones) y déjelo presionado hasta que el motor funcione. En el caso improbable de que no arranque después de un par de tentativas, espere y pruebemás tarde."
+            },
+            {
+              "titulo": "¡Vigile el combustible!",
+              "texto": "Es increíblemente fácil quedarse sin combustible en medio de una elevación, o en el camino. Compruebe el depósito y <b>llénelo</b> cada mañana. Así no se encontrará en esa situación. No haga funcionar la carretilla con el combustible sucio que queda en el fondo del depósito. No tendrá que sangrar el sistema después y evitará causar daños en la bomba de inyección del combustible."
+            },
+            {
+              "titulo": "Evite ambientes fríos",
+              "texto": "Evite dejar su carretilla durante la noche al <b>aire libre</b>. Cuando más cálido sea el ambiente más larga será la vida de su batería (y el motor arrancará más fácilmente). Cada 1º C bajo 27º C reduce la capacidad de la batería en un 1%. Por lo tanto en una mañana de helada su batería puede estar a un 25% por debajo de su capacidad normal. Después de arrancar la carretilla, haga funcionar el sistema de elevación dos o tres veces, calentará el aceite hidráulico que trabajará mucho mejor."
+            },
+            {
+              "titulo": "Luces de aviso (Warning)",
+              "texto": "La mayoría de las carretillas actuales tienen <b>luces</b> en vez de manómetros. En vez de leer e interpretar un manómetro, Ud. puede olvidarlo todo excepto el trabajo que está realizando, hasta que una luz llame su atención. Los sensores de aviso (warning) están diseñados para hacer las cosas sencillas. Cuando se encienda una luz de aviso Ud. deberá actuar. Si la luz de presión del motor se enciende mientras el motor está funcionando, ¡pare! Probablemente el problema es un filtro obstruido o bajo nivel de aceite. Los dos son fáciles de solucionar. Cuando un motor funciona sin aceite es más difícil solucionar el problema. Si lleva montada una luz de combustible y se enciende, diríjase inmediatamente al lugar de suministro de combustible transportable. Evite hacer funcionar el motor con combustible sucio o que entre aire en el sistema de suministro de combustible. Si se enciende la luz de temperatura del motor, no pare el motor. Marche <b>en vacío</b> para hacer circular una mayor corriente de aire refrigerado en el motor a través del radiador, hasta que la luz se apague. Entonces pare el motor y que el servicio técnico arregle la avería (si la luz permanece encendida probablemente el nivel de refrigeración es bajo debido a los escapes). Si se enciende la luz indicadora de carga de la batería mientras está trabajando, diríjase a mantenimiento sin parar el motor. La batería no ha estado cargando y si para el motor donde está, puede que no pueda volver a ponerlo en marcha. Algunas carretillas tienen una luz de aviso del filtro del aire, esta luz se enciende cuando el elemento filtrante está demasiado sucio para proporcionar la cantidad de aire adecuada al motor. En este momento diríjase inmediatamente al <b>taller</b> para reemplazarlo. Otras carretillas pueden tener un dispositivo de aviso cerca del filtro de admisión. Compruébelo cada día al comenzar la jornada de trabajo."
+            },
+            {
+              "titulo": "Calentamiento",
+              "texto": "En tiempo frío haga funcionar el motor a <b>poca velocidad</b> durante unos minutos antes de empezar a trabajar con la carretilla. Esto permite que todas las piezas del motor alcancen una temperatura mínima de trabajo. En los siguientes 10 a 15 minutos, trabaje a tres cuartos de la velocidad del motor."
+            },
+            {
+              "titulo": "Refrigeración",
+              "texto": "Cuando acabe el trabajo deje el motor en marcha <b>en vacío</b> durante tres minutos como mínimo antes de pararlo. La lubricación del aceite y la refrigeración del agua hacen que desaparezca el calor de las cámaras de combustión."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Comprobaciones carretilla térmica",
+      "contenido": [
+        {
+          "clase": "texto",
+			"animacion": "flash",		  
+          "texto": "Siete comprobaciones de rutina para mantener su carretilla en buenas condiciones."
+        },
+        {
+          "clase": "lista",
+		  "animacion": "fadeInLeft",
+          "subclase": "numeros",
+          "titulo": "Si recuerda estos siete sencillos puntos de comprobación diariamente, estará cuidando bien de su carretilla:",
+          "contenido": [
+            {
+              "punto": "Compruebe el combustible y llénelo."
+            },
+            {
+              "punto": "Compruebe el radiador y llénelo."
+            },
+            {
+              "punto": "Compruebe el aceite del motor."
+            },
+            {
+              "punto": "Compruebe el indicador depurador del aire y/o depósito de residuos."
+            },
+            {
+              "punto": "Compruebe el nivel del aceite hidráulico."
+            },
+            {
+              "punto": "Compruebe los neumáticos y las tuercas de las ruedas."
+            },
+            {
+              "punto": "Compruebe los tubos flexibles hidráulicos del mástil."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+		  "animacion": "shake",
+          "texto": "En todo tipo de carretillas <b>térmicas</b>:"
+        },
+        {
+          "clase": "tabs",
+		  "animacion": "tada",
+          "contenido": [
+            {
+              "titulo": "Semanalmente",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "Compruebe la presión y desgaste de los neumáticos."
+                    },
+                    {
+                      "punto": "Compruebe las tuercas de rueda (apretado) y examine las llantas."
+                    },
+                    {
+                      "punto": "Limpie los bajos de la carretilla."
+                    },
+                    {
+                      "punto": "Compruebe el nivel del líquido de frenos."
+                    },
+                    {
+                      "punto": "Compruebe el nivel electrolítico de la batería."
+                    },
+                    {
+                      "punto": "Compruebe los pasadores de seguridad en mástil y soportes de cilindro."
+                    }
+                  ]
+                }
+
+              ]
+            },
+            {
+              "titulo": "Siempre que cambie el aceite",
+              "contenido": [
+                {
+                  "clase": "lista",
+				  "animacion": "jello",
+                  "contenido": [
+                    {
+                      "punto": "Cambie el filtro del aceite."
+
+                    },
+                    {
+                      "punto": "Algunos filtros poseen válvulas de descarga de polvo, vacíela además de limpiar el filtro sacándolo y golpeándolo ligeramente en el suelo, o con el uso cuidadoso de aire."
+                    },
+                    {
+                      "punto": "Antes de reponer el filtro de aire póngalo a la luz y compruebe que no tenga poros o grietas."
+                    },
+                    {
+                      "punto": "No utilizar un filtro de aire si está dañado, ni si ha sido limpiado más de dos veces."
+                    },
+                    {
+                      "punto": "Compruebe también las juntas de estanqueidad del filtro de aire y las abrazaderas de los tubos flexibles."
+                    },
+                    {
+                      "punto": "Si el filtro de aire del motor tiene indicador de vacío, compruébelo y si es necesario cámbielo."
+                    },
+                    {
+                      "punto": "No haga funcionar el motor nunca sin el elemento del filtro del aire, o con la más pequeña fuga entre filtro y motor."
+                    },
+                    {
+                      "punto": "Limpie cuidadosamente el radiador, la presión de las mangueras de aire puede dañar las aletas y el núcleo."
+                    },
+                    {
+                      "punto": "Compruebe y ajuste las correas."
+                    },
+                    {
+                      "punto": "Carretillas LPG (gas): renueve el interruptor del filtro de válvula de cierre."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Cada 1000 horas",
+              "contenido": [
+                {
+                  "clase": "lista",
+				  "animacion": "bounceIn",
+                  "contenido": [
+
+                    {
+                      "punto": "Cambie los filtros de los sistemas de elevación y dirección hidráulica."
+                    },
+                    {
+                      "punto": "Cambie el filtro de purga del depósito hidráulico."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Comprobaciones carretilla eléctrica",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "wobble",
+          "texto": "Si conduce una carretilla <b>electrónica</b> tiene menos de que preocuparse que el conductor de una carretilla térmica. Pero los pocos puntos que necesitan atención son muy importantes."
+        },
+        {
+          "clase": "tabs",
+		  "animacion": "swing",
+          "contenido": [
+            {
+              "titulo": "Compruebe la carga de la batería",
+              "texto": "Antes de cada turno de trabajo, compruebe (o que alguien compruebe) la <b>carga de la batería</b>. Debería haber un libro de instrucciones de la batería en la zona de carga de baterías, que le indicase lo que desea saber. El nivel de los <b>electrólitos</b> debe ser normalmente de 6 mm aproximadamente por encima de los elementos. Si las comprobaciones no dan los resultados esperados vuelva a comprobarlo con alguien del servicio de mantenimiento antes de empezar a trabajar."
+            },
+            {
+              "titulo": "Batería descargada",
+              "texto": "La descarga total de la batería de tracción no es bueno, además puede dañar los motores. Aunque estén diseñados para sufrir descargas importantes, no llegue a la <b>descarga total</b>. En el mejor de los casos acabaría con la carretilla bloqueando un pasillo. En el peor de los casos acabaría prematuramente con la vida de la batería. Preste siempre atención al indicador de descarga de su batería y evite que se agote. Al 20% de capacidad debe empezar a pensar en recargarla o en cambiarla por otra. Si tiene una carretilla nueva, puede tener incluso una parada automática en la elevación. Este sistema simplemente detiene cualquier intento de elevación de la carga (lo cual requiere mayor potencia que cualquier otra operación). Sin embargo podrá descender la carga, mover la carretilla, ya sea para quitar la carga o para volver a los postes de carga. Cuando la operación se detenga, no piense que es una <b>avería</b>. Abandone la carga y diríjase hacia el cargador de baterías, todavía tiene la suficiente potencia. Recuerde: la detención es un elemento de protección de emergencia."
+            },
+            {
+              "titulo": "El momento de una revisión",
+              "texto": "Puede tener la suerte de tener una carretilla que indique el desgaste de las <b>escobillas</b> del motor eléctrico, motor de tracción y motor de bomba hidráulica. Estas luces le <b>avisarán</b> con una antelación de hasta tres turnos de trabajo. Pero es cuestión suya el avisar de esto. Llevará tiempo obtener y montar las nuevas escobillas. Y aunque sea posible manejar la carretilla con las escobillas desgastadas, esto causará daños importantes en el motor."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+		  "animacion": "pulse",
+          "titulo": "<b>Siete</b> simples comprobaciones para mantener su carretilla en buenas condiciones. En una carretilla electrónica, las comprobaciones <b>diarias</b> son simples (no tiene un motor del que preocuparse). Repase estas siete comprobaciones y estará realizando su parte para mantener su carretilla en condiciones.",
+          "contenido": [
+            {
+              "punto": "Compruebe la carga de la batería"
+            },
+            {
+              "punto": "Compruebe el estado de los electrólitos de la batería en un par de elementos como muestreo."
+            },
+            {
+              "punto": "Compruebe el nivel del aceite hidráulico"
+            },
+            {
+              "punto": "Compruebe las tuercas de rueda y neumáticos"
+            },
+            {
+              "punto": "Compruebe todas las tuberías hidráulicas del mástil"
+            },
+            {
+              "punto": "Asegúrese de que los frenos funcionan correctamente y que el nivel de líquido de frenos es correcto."
+            },
+            {
+              "punto": "Siempre antes de dejar la carretilla ponga el freno de estacionamiento. Si deja la carretilla parada durante períodos largos o al final del turno de trabajo, conecte el punto hombre muerto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Cargas",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "flash",
+          "texto": "Necesitamos conocer una serie de <b>conceptos</b> para el uso correcto de nuestra carretilla, asociados con la carga, en este apartado hablaremos sobre ello."
+        },
+        {
+          "clase": "texto",
+		  "animacion": "shake",
+          "texto": "La <b>estabilidad o equilibrio</b> de la carretilla está condicionada por la posición del centro de gravedad, el cual varía en función de la diversidad de trabajos y los distintos volúmenes que se manejan. El equilibrio de una carretilla se mantendrá siempre que se cumpla la ecuación:"
+        },
+        {
+          "clase": "imagen",
+		  "animacion": "flipInX",
+          "imagen": "img/mod4/ecuacion.svg",
+          "ancho": 500
+        },
+        {
+          "clase": "texto",
+		  "animacion": "swing",
+          "texto": "En posición estática, la máquina está en equilibrio.<br><br>F: Peso de la carga<br>FM: Peso de la máquina y contrapesos<br>I: Brazo de palanca de la carga<br>L: Brazo de palanca del peso de la carretilla"
+        },
+        {
+          "clase": "texto",
+		  "animacion": "flash",
+          "texto": "Los valores de la carretilla son fijos por lo que el <b>peso</b> de la carga y su distancia al eje que pasa por las ruedas delanteras son las variables que deberán conocerse previamente a la ejecución de los movimientos, para asegurar el equilibrio. Para ello, existe una relación entre <b>capacidad nominal</b> y <b>distancia</b> del centro de gravedad al talón (extremo interior) de la horquilla."
+        },
+        {
+          "clase": "tabla",
+		  "animacion": "rollIn",
+          "filaTitulos": [
+            {
+              "titulo": "Capacidad nominal"
+            },
+            {
+              "titulo": "Distancia del c.d.g. a talón de la horquilla"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "< 1000 kg."
+                },
+                {
+                  "texto": "0,4 m."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "1000 + 5000 kg."
+                },
+                {
+                  "texto": "0,5 m."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "5000 + 10000 Kg"
+                },
+                {
+                  "texto": "0,6 m."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Situación de la carga",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "swing",
+          "texto": "<b>Complementar</b> con el uso de contenedores, paletas con la carga flejada,  o recubierta de film, etc. que impidan la caída total o parcial de las cargas transportadas."
+        },
+        {
+          "clase": "texto",
+		  "animacion": "shake",
+          "texto": "La carretilla <b>contrapesada</b> con la carga en voladizo, mantiene un equilibrio longitudinal que corresponde al de una palanca de primer género. Su fulcro corresponde al centro del eje delantero y los dos brazos de la palanca, de distinta longitud soportan por un lado la carga y por otro el peso propio de la máquina que equilibra al primero."
+        },
+        {
+          "clase": "imagen",
+		  "animacion": "flash",
+          "imagen": "img/mod4/colocacion.svg",
+          "ancho": 600
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "bounceInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En el caso de la carretilla <b>retráctil</b>, esta situación solamente se da en las operaciones de retirada y depósito de la carga, pero el principio también es aplicable aunque su diseño y aplicaciones sean distintas a la contrapesada, ya que durante el transporte mantiene la carga entre los brazos portantes. En ambos casos la estabilidad transversal de la carretilla, constituye un factor muy importante ya que determina su <b>momento de vuelco lateral</b> con o sin carga, hecho que puede ocasionar accidentes graves o mortales. De ello se deduce que la estabilidad de la carretilla depende en todo momento de que la resultante de las fuerzas que pasan por el centro de gravedad del conjunto se proyecte dentro del triángulo de sustentación descrito por los extremos del eje delantero y el punto sobre el cual oscila el centro del eje posterior.<br><br>Esta posición se ve afectada por <b>múltiples factores</b> como son, el peso y dimensiones de la carga, su posición sobre la horquilla, la posición del mástil, velocidad de desplazamiento, giros, etc. Todas las carretillas deben disponer de una <b>placa</b> con un gráfico que indique las cargas nominales admisibles para las distintas alturas y distancias desde el centro de gravedad de la carga hasta el tablero portahorquilla o el talón de la horquilla."
+
+            },
+            {
+              "clase": "texto",
+              "texto": "En las carretillas de <b>brazo inclinable y telescópico</b> (manipuladores telescópicos), la carga admisible también varía en función del alcance del brazo y del ángulo que forme respecto a la horizontal. Antes de aplicar implementos a la carretilla, es muy importante recordar que éstos representan un peso añadido en la zona de voladizo y que al desplazar la carga hacia delante varían la situación del centro de gravedad del conjunto, por lo que necesariamente, para garantizar la seguridad del conjunto, debe reducirse la capacidad de carga a manejar y la relación con la altura a que se eleve la misma respecto a las características originales referidas a la utilización de la horquilla. Estas características varían con cada tipo de implemento utilizado. En estos casos deben solicitarse al <b>fabricante</b> de la máquina o del equipo los <b>gráficos de carga</b> correspondiente a las condiciones reales de utilización."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Estabilidad",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "zoomInUp",
+          "texto": "El <b>vuelco lateral</b> se produce con más facilidad en una carretilla elevadora que en un automóvil. Esto es debido a que el eje de dirección (eje trasero) de la carretilla se encuentra unido al chasis sólo por su parte central, formando con las ruedas delanteras un triángulo imaginario: <b>el triángulo de estabilidad</b>. Así, la carretilla elevadora se comporta como si tuviese dos ruedas delanteras y sólo una rueda trasera. El <b>centro de gravedad</b> es un punto que se comporta como si todo el peso de la carga estuviera en él."
+        },
+        {
+          "clase": "icono",
+		  "animacion": "fadeInLeft",
+          "subclase": "exclamacion picos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "<b>Pero, ¡atención!:</b>",
+              "contenido": [
+                {
+                  "punto": "En los objetos compuestos por materiales muy diferentes, el centro de gravedad puede encontrarse en un lugar aparentemente extraño (muy distante del centro geométrico)"
+                },
+                {
+                  "punto": "En el transporte de líquidos, el centro de gravedad varía con el movimiento; es lo que se conoce como <b>«efecto ola»</b>."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Como se puede ver en la imagen siguiente, el centro de gravedad, se desplaza hacia las uñas, cuanto mayor es la carga transportada."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod4/estabilidad.svg",
+          "ancho": 500
+        },
+        {
+          "clase": "texto",
+		  "animacion": "rubberBand",
+          "texto": "La <b>pérdida de estabilidad</b>: La carretilla elevadora pierde su estabilidad cuando la carga es muy larga o excesivamente pesada."
+        },
+        {
+          "clase": "lista",
+		  "animacion": "swing",
+          "subclase": "dosColumnas",
+          "titulo": "<b>Factores</b> que influyen en la estabilidad:",
+          "contenido": [
+            {
+              "punto": "<b>Posición de las cargas</b>: es importante ajustar la carga al talón de las horquillas, para que la distancia desde éste al centro de gravedad de la carga sea la menor posible. Posición del mástil: durante la circulación de la carretilla, tanto con carga como en vacío, será siempre replegado e inclinado hacia atrás."
+            },
+            {
+              "punto": "<b>Altura de la carga</b>: la altura adecuada de las horquillas sobre el suelo es de 15 a 20 cm. Así será más difícil que la carretilla vuelque."
+            },
+            {
+              "punto": "<b>Sobrecarga</b>: si la carga pesa demasiado, la carretilla elevadora puede volcar. Si tiene que mover una gran carga, es mejor formar con ella varios lotes para moverlos por separado."
+            },
+            {
+              "punto": "<b>Inclinación del suelo</b>: el riesgo de vuelco es mayor cuando el suelo está muy inclinado. La pendiente máxima no debe superar el 10%."
+            },
+            {
+              "punto": "<b>Características del suelo</b>: es más seguro trabajar sobre suelos lisos, planos, limpios; resistentes al peso y a los movimientos de aceleración y frenada de la carretilla."
+            },
+            {
+              "punto": "<b>Posición de las cargas en rampas</b>: para no volcar, la carga debe estar siempre mirando a la parte superior de la rampa, tanto si sube como si baja."
+            },
+            {
+              "punto": "<b>Diferencias bruscas de velocidad</b>: los frenazos, aceleraciones y deceleraciones aumentan el riesgo de vuelco."
+            },
+            {
+              "punto": "<b>Cambios en la dirección</b>: los giros bruscos de la carretilla pueden hacer que ésta vuelque."
+            },
+            {
+              "punto": "<b>Movimientos de la carretilla en rampas</b>: hay riesgo de vuelco lateral si se circula transversalmente o se realizan giros, y sólo se podrá bajar hacia delante si la carga es estable y el ángulo de inclinación del mástil hacia atrás es mayor que la pendiente de la rampa."
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Tipos",
+      "contenido": [
+        {
+          "clase": "tabs",
+		  "animacion": "fadeInDown",
+          "contenido": [
+            {
+              "titulo": "Estabilidad estática",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "El equilibrio de todo tipo de carretilla resultará estable siempre e que la resultante de las fuerzas  componentes  del  conjunto  que  actúa  en  el  Centro  de  Gravedad  permanezca  dentro de la proyección de los ejes de nuestra máquina."
+                },
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod4/estabilidadEstatica.svg",
+                  "ancho": 700
+                }
+              ]
+            },
+            {
+              "titulo": "Estabilidad longitudinal",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "El  comportamiento  de  esta  máquina es  similar  a  un  columpio,  pero  mucho  más  complejo, debido a los movimientos propios de la máquina, ya que además de elevar un  peso  tiene  que  desplazarlo  con  las  consiguientes  paradas  y  arrancadas,  situaciones  que  como vimos anteriormente pueden desequilibrar el conjunto al aparecer nuevas fuerzas."
+                },
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod4/estabilidadLongitudinal.svg",
+                  "ancho": 600
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Centro de la carga",
+      "contenido": [
+        {
+          "clase": "icono",
+		  "animacion": "flash",
+          "subclase": "definicion",
+          "texto": "<b>Centro de carga:</b> En  las  carretillas  elevadoras  se  denomina  Centro  de  Carga  a  la  distancia  que  existe  en  proyección ortogonal entre el C.G. de la carga y los talones de las horquillas. El equilibrio estable de la máquina y su carga permanecerá, hasta el caso límite en que la  resultante  pase  por  el  mismo  eje  motriz,  por  supuesto  sin  considerar  maniobras  o  frenazos bruscos que alteren la situación. En el momento que la resultante pase exactamente por el eje motriz, estaremos ante un  caso límite de estabilidad-inestabilidad, ya que cualquier mínimo esfuerzo provocará el vuelco,  haciéndose  necesario  considerar  que,  al  estar  estas  máquinas  en  movimiento,  necesariamente aparece una nueva fuerza que puede dar lugar a efectos negativos. Hablamos  por  supuesto  de  la fuerza  de  la  inercia, que  aparece  en  todo  cuerpo  en  movimiento,  favoreciendo  que  siga  desplazándose  cuando  tratamos  de  detenerlo.  Esta  fuerza no aparece con equilibrios estáticos."
+        },
+        {
+          "clase": "icono",
+		  "animacion": "tada",
+          "subclase": "definicion",
+          "texto": "<b>Brazo de palanca:</b> La  característica  de  carga  de  una  carretilla  elevadora  viene  definida  por  su  brazo  de  palanca."
+        },
+        {
+          "clase": "icono",
+		  "animacion": "flash",
+          "subclase": "definicion",
+          "texto": "<b>Eje de apoyo:</b> La capacidad de la máquina está definida por el producto de una carga y su distancia  desde el centro de gravedad hasta el eje de apoyo. En una carretilla el punto de apoyo es el contacto de las ruedas delanteras con el suelo y  el eje de apoyo es precisamente aquel que pasa por las ruedas motrices  y  que coincide  precisamente con el eje de vuelco de la máquina en el sentido longitudinal."
+        }
+      ]
+    },
+    {
+      "titulo": "Momento de la carga",
+      "contenido": [
+
+        {
+          "clase": "texto",
+		  "animacion": "flash",
+          "texto": "Los fabricantes de estas máquinas, cuando fijan su capacidad, ya han tomado un <b>margen de seguridad</b> según los límites de carga y  distancias. El respeto a estos límites nos evitará situaciones de riesgo."
+        },
+        {
+          "clase": "imagen",
+		  "animacion": "bounce",
+          "imagen": "img/mod4/momento.svg",
+          "ancho": 500
+        },
+        {
+          "clase": "lista",
+		  "animacion": "flash",
+          "titulo": "De la observación de la referida figura pueden sacarse varias conclusiones:",
+          "contenido": [
+            {
+              "punto": "De la expresión <b>P x a = W x b</b>  se deduce que la igualdad variará en el momento en que uno cualquiera de los factores varíe, a pesar de mantenerse el otro. De  esta  manera  si  mantenemos <b>W = peso de la carga constante</b> cualquier variación en su posición que aumente la distancia b (debido por ejemplo a la elevación de las horquillas o  a la inclinación del mástil) a la que establece la igualdad, tenderá a volcar por cabeceo de la máquina. Igualmente ocurrirá si la carga W es superior a la establecida para el equilibrio, como se ve al aplicar en la fórmula de la igualdad."
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+		  "animacion": "swing",
+          "imagen": "img/mod4/estabilidadAltura.svg",
+          "ancho": 600
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "De  las  igualdades  que  determinan  el  equilibrio  estable  de  la  máquina,  se  puede obtener  otra  nueva  conclusión:  que  una  carretilla  nos  puede  transportar  perfectamente un peso W, pero ese mismo peso con un <b>formato diferente</b> que varía la distancia de su centro de gravedad, puede provocar el <b>cabeceo</b> o <b>vuelco</b> de la máquina."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Transporte",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "shake",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "Las formas más <b>usuales</b> de transporte son:",
+                  "contenido": [
+                    {
+                      "punto": "El transporte con cargas <b>apoyadas</b> (soportadas por las horquillas);"
+                    },
+                    {
+                      "punto": "El transporte con cargas <b>paletizadas</b> (sobre un palét y sujetas a éste)."
+                    }
+                  ]
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "Para que el sistema carga-carretilla sea estable, hay que tener en cuenta el <b>diagrama de cargas</b> de la placa de la carretilla elevadora. Las cargas paletizadas son más estables, pero la estabilidad de estas cargas depende de:",
+                  "contenido": [
+                    {
+                      "punto": "El <b>diseño</b> del palét, adecuado a la carga que sobre él se coloca."
+                    },
+                    {
+                      "punto": "El <b>tamaño</b> del palét, nunca menor a la carga"
+                    },
+                    {
+                      "punto": "La <b>resistencia</b> del palét: la carga máxima no debe superar los 700 kg."
+                    },
+                    {
+                      "punto": "La <b>integridad</b> del palét"
+                    },
+                    {
+                      "punto": "La <b>adecuada</b> sujeción y colocación sobre el palét"
+                    },
+                    {
+                      "punto": "La <b>altura del apilamiento</b>: la menor posible, nunca debe impedir la visibilidad del conductor"
+                    },
+                    {
+                      "punto": "La <b>altura de la carga</b> sobre el palét, nunca superior a 1,5 m."
+                    },
+                    {
+                      "punto": "La <b>posición</b> sobre las horquillas: el palét debe estar centrado, pegado a su talón y sujeto por lugares resistentes."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/palletCarretilla.jpg"
+            }
+          ]
+
+        }
+
+      ]
+    },
+    {
+      "titulo": "Equilibrios",
+      "fondo": "img/mod4/almacen.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "fadeInUp",
+          "subclase": "recuadro",
+          "texto": "La carretilla contrapesada con la carga en <b>voladizo</b>, mantiene un equilibrio longitudinal que corresponde al de una palanca de primer género. Su fulcro corresponde al centro del eje delantero y los dos brazos de la palanca, de distinta longitud soportan por un lado la carga y por otro el peso propio de la máquina que equilibra al primero. En el caso de la carretilla retráctil, esta situación solamente se da en las operaciones de retirada y depósito de la carga, pero el principio también es aplicable aunque su diseño y aplicaciones sean distintas a la contrapesada, ya que durante el transporte mantiene la carga entre los brazos portantes.<br><br>En ambos casos la <b>estabilidad transversal</b> de la carretilla, constituye un factor muy importante ya que determina su momento de vuelco lateral con o sin carga, hecho que puede ocasionar accidentes graves o mortales. De ello se deduce que la estabilidad de la carretilla depende en todo momento de que la resultante de las fuerzas que pasan por el centro de gravedad del conjunto se proyecte dentro del triángulo de sustentación descrito por los extremos del eje delantero y el punto sobre el cual oscila el centro del eje posterior. Esta posición se ve afectada por múltiples factores como son, el peso y dimensiones de la carga, su posición sobre la horquilla, la posición del mástil, velocidad de desplazamiento, giros, etc. "
+        }
+
+      ]
+    },
+    {
+      "titulo": "Placa de cargas nominales",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInLeft",
+          "contenido": [
+            {
+          "clase": "texto",
+          "texto": "Todas las carretillas deben disponer de una <b>placa</b> con un gráfico que indique las <b>cargas nominales</b> admisibles para las distintas alturas y distancias desde el centro de gravedad de la carga hasta el tablero portahorquillas o el talón de la horquilla. En las carretillas de brazo inclinable y telescópico (manipuladores telescópicos), la carga admisible también varía en función del alcance del brazo y del ángulo que forme respecto a la horizontal.<br>Antes de aplicar implementos a la carretilla, es muy importante recordar que éstos representan un <b>peso añadido</b> en la zona de voladizo y que al desplazar la carga hacia delante varían la situación del centro de gravedad del conjunto, por lo que necesariamente, para garantizar la seguridad del conjunto, debe reducirse la capacidad de carga a manejar y la relación con la altura a que se eleve la misma respecto a las características originales referidas a la utilización de la horquilla.<br>Estas características varían con cada tipo de implemento utilizado. En estos casos deben solicitarse al fabricante de la máquina o del equipo los <b>gráficos de carga</b> correspondiente a las condiciones reales de utilización. En el diagrama de cargas vamos a poder calcular la capacidad residual de nuestra máquina dependiendo del centro de gravedad de la carga, de la altura a la que la elevemos y de los implementos que monte."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod4/diagramaCargas.jpg"      
+        }
+
+          ]
+        }
+        
+      ]
+    },
+    {
+      "titulo": "Movimiento",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "flash",
+          "texto": "A continuación detallaremos las operaciones de carga y descarga más comunes."
+        },
+        {
+          "clase": "texto",
+		  "animacion": "shake",
+          "texto": "<b>Movimiento</b>: El movimiento de la carretilla, el movimiento de la carga y el movimiento del mástil son movimientos que siempre deben hacerse de forma <b>individual y consecutiva</b>, nunca al mismo tiempo. Los movimientos se realizarán a velocidad adecuada, incluso con la carretilla parada en caso de necesidad."
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "pulse",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/derrape.jpg",
+              "ancho": 400
+            },
+            {
+              "clase": "texto",
+              "texto": "<b>Exceso de velocidad</b><br>El exceso de velocidad, sobre todo en giros, provocará el vuelco lateral de la carretilla elevadora con el consiguiente riesgo para el operador de quedar atrapado debajo. "
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Carga",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "flash",
+          "texto": "<span class='h3'>Para <b>recoger</b> una carga:</span>"
+        },
+        {
+          "clase": "tabla",
+		  "animacion": "fadeInLeft",
+          "filaTitulos": [
+            {
+              "titulo": "Instrucción"
+            },
+            {
+              "titulo": "Realización"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "Acercarse, de forma perpendicular y centrada, hasta 30 cm del palét."
+                },
+                {
+                  "imagen": "img/mod4/recogerCarga1.svg"
+                }
+
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Poner el mástil vertical e introducir las horquillas hasta el talón."
+                },
+                {
+                  "imagen": "img/mod4/recogerCarga2.svg"
+                }
+
+              ]
+            },
+            {
+              "fila": [
+
+                {
+                  "texto": "Levantar la carga unos centímetros e inclinar el mástil hacia atrás."
+                },
+                {
+                  "imagen": "img/mod4/recogerCarga3.svg"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Antes de retroceder, mirar hacia atrás por encima de ambos hombros, observando la carga al mismo tiempo."
+                },
+                {
+                  "imagen": "img/mod4/recogerCarga4.svg"
+                }
+
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Girar y circular hacia delante."
+                },
+                {
+                  "imagen": "img/mod4/recogerCarga5.svg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Descarga",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "flash",
+          "texto": "<span class='h3'>Para <b>depositar</b> una carga:</span>"
+        },
+        {
+          "clase": "tabla",
+		  "animacion": "fadeInDown",
+          "filaTitulos": [
+            {
+              "titulo": "Instrucción"
+            },
+            {
+              "titulo": "Realización"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "Acercarse de forma perpendicular y centrada, hasta 30 cm del lugar en el que se va a depositar la carga."
+                },
+                {
+                  "imagen": "img/mod4/depositarCarga1.svg"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Poner el mástil vertical."
+                },
+                {
+                  "imagen": "img/mod4/depositarCarga2.svg"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Descender la carga al suelo, y bajar las horquillas unos centímetros más para desprenderlas del palét."
+                },
+                {
+                  "imagen": "img/mod4/depositarCarga3.svg"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Mirar hacia atrás antes de retroceder, comprobando que las horquillas salen con facilidad."
+                },
+                {
+                  "imagen": "img/mod4/depositarCarga4.svg"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Cuando las puntas de las horquillas están a unos 30 cm de la carga, inclinar el mástil hacia atrás y girar para conducir de frente."
+                },
+                {
+                  "imagen": "img/mod4/depositarCarga5.svg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Transporte",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Durante el <b>transporte</b> de las cargas, hemos de ser cuidadosos y tener en cuenta las siguientes obligaciones."
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "bounceInUp",
+          "contenido": [
+
+
+            {
+              "clase": "texto",
+              "texto": "Para evitar el vuelco lateral, llevar el mástil <b>retraído</b> hacia atrás y las horquillas bajas, a no más de 15 cm del suelo."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/cargaSiNo.svg"
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "bounceInDown",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Al circular sobre rampas, hacerlo <b>despacio</b>, sin realizar giros, <b>en línea recta</b> y siguiendo su pendiente máxima. Con la carretilla cargada, bajar siempre las pendientes marcha atrás."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/cargaCuesta.svg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+		  "animacion": "flash",
+          "texto": "Para transportar cargas, es importante que las <b>horquillas</b> de la carretilla elevadora tengan una posición correcta. Circular con la carga levantada puede provocar:<ul><li><b>Vuelco</b> hacia delante o lateral de la carretilla con posible daño para el conductor</li><li><b>Golpes</b> contra puertas, tuberías, instalaciones eléctricas, de climatización, etc. con daños materiales.</li></ul>"
+        }
+
+
+      ]
+    },
+    {
+      "titulo": "Accesorios",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "shake",
+          "texto": "Existen diversos accesorios de elevación, y se efectuará su elección <b>en función de la carga</b> a trasladar, a continuación pueden verse algunos ejemplos de los múltiples que hay en el mercado."
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/accesoriosElevacion1.jpg",
+              "ancho": 300
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/accesoriosElevacion2.jpg",
+              "ancho": 300
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/accesoriosElevacion3.jpg",
+              "ancho": 300
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/accesoriosElevacion4.jpg",
+              "ancho": 300
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+		  "animacion": "flash",
+          "subclase": "exclamacion",
+          "texto": "Cuando se utilice la carretilla con <b>implementos</b>, es imprescindible verificar previamente el diagrama de cargas en la máquina para evitar riesgos de accidente por perdida de estabilidad."          
+        },
+        {
+          "clase": "texto",
+		  "animacion": "shake",
+          "texto": "Antes de montar un <b>accesorio</b> en la carretilla, se comprobarán las instrucciones de montaje por si es necesario despresurizar el sistema hidráulico auxiliar para fijar dicha conexión de forma segura.<br><br>En cuanto al <b>criterio de visibilidad</b>, es claro e idéntico al caso de no llevar ningún implemento. Siempre se  mirará en el sentido de circulación, con lo que caso de impedir la carga la visibilidad, se circulará marcha atrás."
+        }
+      ]
+    },
+    {
+      "titulo": "Cargas redondas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInUp",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/cargaRedonda1.jpg",
+              "ancho": 300
+            },
+                    {
+          "clase": "texto",
+          "texto": "<b>Cargas redondas</b>: las cargas redondas, como los bidones, se pueden transportar con carretillas elevadoras dotadas de unos accesorios especiales, por ejemplo, una pinza mecánica integral o mediante contenedores especiales para bidones."
+        },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/cargaRedonda2.jpg",
+              "ancho": 400
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInDown",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/bastidor1.jpg",
+              "ancho": 250
+            },
+            {
+              "clase": "texto",
+              "texto": "Para recoger estas cargas, se utilizará la <b>pinza mecánica integral</b>, que está formada por <b>un bastidor</b>(dos barras de acero paralelas entre sí para la inserción de las horquillas)."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/bastidor2.jpg",
+              "ancho": 250
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "flash",
+          "contenido": [
+                    {
+                      "clase": "texto",
+                      "subclase": "derecha",
+          "texto": "Y una serie de <b>cabezas de sujeción</b>."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod4/cabezasSujecion.jpg",
+          "ancho": 300
+        }
+
+          ]
+          
+        }
+      ]
+    },
+    {
+      "titulo": "Cargas oscilantes",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInRight",
+          "contenido": [
+                    {
+          "clase": "texto",
+          "texto": "Se prestará especial atención a las <b>cargas líquidas</b>, dado que se centro de gravedad varía debido a la oscilación de la carga durante su manipulación y traslado, lo que se denomina efecto ola. Su traslado se efectuará, en la medida de lo posible, mediante <b>contendores especiales</b>."
+        },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/cargaOscilante1.jpeg",
+              "ancho": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Elevación de personas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "flash",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/pictograma1.png",
+              "ancho": 300
+            },
+            {
+              "clase": "texto",
+              "texto": "Por norma general, la carretilla elevadora es una máquina <b>unipersonal</b>, es decir, está prohibido su uso por más de una persona, lo que quiere decir que está tanto prohibido el que haya más de una persona en la cabina, como sobre las uñas de la carretilla."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/cargaPersona1.png",
+              "ancho": 300
+            }
+
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "shake",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Existen no obstante, <b>implementos específicos</b>, para la elevación de personas. Dichos implementos deberán tener el correspondiente certificado de conformidad del fabricante e instrucciones de uso."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/accesoriosElevacion3.jpg",
+              "ancho": 200
+            },
+            {
+              "clase": "texto",
+              "texto": "Para poder utilizarlos, se habrá llevado a cabo previamente una <b>evaluación exahustiva</b> de la tarea a realizar, y se habrá concluido que es la forma menos peligrosa de llevar a cabo el trabajo. Para la elevación de personas, existen en principio medios más adecuados, como los andamios y las plataformas elevadoras de personas."
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Legislación",
+      "fondo": "img/mod4/estructuras.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "bounceInDown",
+          "subclase": "recuadro",
+          "texto": "Según la <a href='http://www.insht.es/inshtweb/Contenidos/Documentacion/NTP/NTP/Ficheros/926a937/955w.pdf' target='_blank'>NTP 955</a>: <span class='italic'>\"Los equipos de trabajo diseñados específicamente para la manutención de cargas, no están concebidos para la elevación de personas, aunque sus mecanismos para la elevación y transporte de cargas son en general robustos y fiables. En este sentido los equipos de elevación de cargas carecen de los sistemas adecuados que en función del nivel de riesgo deberían exigirse para cuando transportan personas. Por otro lado, en los equipos específicos para elevar personas los coeficientes de seguridad de los diferentes mecanismos son netamente superiores.\"</span><br><br>El objetivo de esta NTP es dar a conocer principalmente, en que circunstancias <b>excepcionales</b> se podrán utilizar plataformas o cestas acopladas a equipos de elevación de cargas, descripción de los equipos y plataformas utilizadas y normas de utilización segura. Todo ello con el fin de facilitar la interpretación y la más correcta aplicación de las disposiciones emanadas del <b>RD. 1215/1997</b> en relación con este tema. <span class='italic'>\"La elevación de trabajadores sólo estará permitida mediante equipos de trabajo y accesorios previstos a tal efecto. No obstante, cuando con carácter excepcional hayan de utilizarse para tal fin equipos de trabajo no previstos para ello, deberán tomarse las medidas pertinentes para garantizar la seguridad de los trabajadores y disponer de una vigilancia adecuada. Durante la permanencia de trabajadores en equipos de trabajo destinados a levantar cargas el puesto de mando deberá estar ocupado permanentemente. Los trabajadores elevados deberán disponer de un medio de comunicación seguro y deberá estar prevista su evacuación en caso de peligro.\"</span>"
+        }
+      ]
+    },
+    {
+      "titulo": "Pautas NTP",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "lightSpeedIn",
+          "texto": "Esta aplicación es excepcional, y según el <b>RD.1215/1997</b>, solo se podrá materializar si a su vez el equipo de trabajo no presenta esta operación como contraindicada por el fabricante en su uso previsto, como se indica en el <b>Anexo II, apartado 1, punto 3</b>. Así pues, el citado real decreto <b>prohíbe</b> con carácter general la elevación de personas con equipos de trabajo diseñados para elevar cargas, si bien admite con carácter excepcional su uso, siempre que para ello se tomen medidas encaminadas a garantizar la seguridad de los trabajadores implicados en la operación y ésta se realice bajo vigilancia. En esta NTP se propone concretar tales aspectos, fijando pautas para su ejecución."
+        },
+        {
+          "clase": "acordeon",
+          "contenido": [
+            {
+              "titulo": "Necesidad de recurso preventivo",
+              "texto": "La necesidad de presencia de recurso preventivo en determinadas actividades se recoge en el artículo 32 bis de la Ley 31/1995 y se desarrolla y concreta en el artículo 22 bis del RD. 39/1997 con sus respectivas modificaciones. Dada la finalidad que persigue la presencia del recurso preventivo (artículo 22 bis punto 4 del RD 39/1997); consideramos que esta figura, en los supuestos en que tal presencia sea preceptiva, debería aunar y asumir todos aquellos aspectos de supervisión y vigilancia de la correcta ejecución de la operación que se citan a lo largo de la NTP."
+            },
+            {
+              "titulo": "Comprobaciones",
+              "texto": "De acuerdo con el artículo 4 del RD. 1215/1997, los equipos de trabajo cuya seguridad dependa de sus condiciones de instalación se sometan a una comprobación inicial, tras su instalación y antes de la puesta en marcha por primera vez, y a una nueva comprobación después de cada montaje en un nuevo lugar o emplazamiento, con el objeto de asegurar la correcta instalación y el buen funcionamiento de los equipos. Igualmente deben comprobarse después de realizar cualquier transformación, (como es el caso del acoplamiento de una plataforma o cesta de trabajo a un equipo previsto para elevar cargas), que puedan afectar a las condiciones de seguridad del conjunto. En cumplimiento de lo dispuesto en el citado artículo, las comprobaciones serán realizadas por personal competente, deberán documentarse y estar a disposición de la autoridad laboral y los resultados conservarse durante toda la vida útil del equipo."
+            },
+            {
+              "titulo": "Evaluación de riesgos",
+              "texto": "La NTP, dice: <span class='italic'>\"Los equipos de trabajo sólo podrán utilizarse de forma o en operaciones o en condiciones no consideradas por el fabricante si previamente se ha realizado una evaluación de riesgos que ello conllevaría y se han tomado las medidas pertinentes para su eliminación o control.\"</span> Es en esta evaluación en la que se debería justificar la necesidad del trabajo en altura, qué equipo se considera el más idóneo y el porqué del uso de un equipo no previsto para elevar personas. Además se decidirá el tipo de habitáculo y se describirán las medidas complementarias que se van a aplicar en la operación. Las medidas pertinentes engloban la adopción de medidas preventivas, procedimientos de trabajo y la supervisión por persona competente."
+            },
+            {
+              "titulo": "Utilización para elevación de personas en supuestos de excepcionalidad",
+              "texto": "Los párrafos segundo y tercero del punto 1 b) del apartado 3 del Anexo II del R D.1215/1997, establecen las condiciones que se deben cumplir cuando, <b>excepcionalmente</b>, se tengan que utilizar para la elevación de personas equipos de trabajo no previstos para esta función. Es la <b>Autoridad Laboral</b> competente quien tiene la facultad de definir y/o autorizar o no dicho uso excepcional, concretando cuales son los supuestos para tal autorización en aplicación de la disposición final segunda del RD 1215/97. En ningún caso el fabricante de dichos equipos está autorizado para ello."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Excepciones",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInUp",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "En principio, <b>no</b> pueden considerarse como <b>excepcionales</b> operaciones rutinarias, repetitivas o previsibles, tales como:",
+              "contenido": [
+                {
+                  "punto": "Elevación de personas de un nivel a otro."
+                },
+                {
+                  "punto": "Reparación de alumbrado público o privado."
+                },
+                {
+                  "punto": "Acceso a zonas de almacenamiento para preparación de pedidos."
+                },
+                {
+                  "punto": "Manutención manual de materiales en altura."
+                },
+                {
+                  "punto": "Operaciones de instalación, montaje o desmontaje en altura."
+                },
+                {
+                  "punto": "Otros trabajos en altura, incluso de tipo ocasional, para limpieza, mantenimiento, etc."
+                }
+              ]
+            },
+            {
+              "clase": "texto",
+              "texto": "Sin embargo, podrían considerarse situaciones <b>excepcionales</b> y, por lo tanto, no rutinarias, ni repetitivas, aquellas en las que sea técnicamente imposible utilizar equipos para la elevación de personas o en las que los <b>riesgos derivados</b> del entorno en el que se realiza el trabajo o de la necesidad de utilizar medios auxiliares a bordo del habitáculo de las máquinas para elevar personas, son <b>mayores</b> que los que se derivarían de la utilización de las máquinas para la elevación de cargas, acondicionadas para elevar personas.<br><br>Asimismo, serían situaciones excepcionales las de <b>emergencia</b>, debidas, por ejemplo, a la necesidad de evacuar personas o de realizar una reparación inmediata para evitar un posible accidente o daños materiales irreparables. En todas estas situaciones, siempre será más seguro utilizar una plataforma o jaula diseñada para esta función, siguiendo un procedimiento de trabajo específico previamente establecido y supervisado por una persona competente, que utilizar otros medios improvisados (por ejemplo de pie sobre las horquillas de la carretilla o en un palé amarrado a las horquillas), cuya utilización conlleva siempre un riesgo alto de caída de altura."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+		  "animacion": "flash",
+          "subclase": "exclamacion",
+          "texto": "En tales situaciones excepcionales, además de cumplir los restantes requisitos indicados en el <b>Real Decreto 1215/1997</b>, antes de realizar el trabajo será necesaria una <b>evaluación previa de los riesgos</b> y la adopción de las adecuadas medidas preventivas, conforme al artículo 16 de la Ley de Prevención de Riesgos Laborales, el artículo 4.2 del Reglamento de Servicios de Prevención (RD. 39/1997) y el Anexo II, apartado 1, punto 3 del RD. 1215/1997."
+        }      
+      ]
+    },
+    {
+      "titulo": "Estacionamiento máquina",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "slideInUp",
+          "titulo": "Ha llegado la hora de finalizar la dura jornada laboral, ¿Cómo hemos de proceder? Al <b>finalizar</b> los trabajos con la máquina, realiza las siguientes acciones:",
+          "contenido": [
+            {
+              "punto": "Activar el <b>freno</b> de estacionamiento."
+            },
+            {
+              "punto": "Colocar la <b>palanca de cambios</b> en posición neutra."
+            },
+            {
+              "punto": "Las <b>horquillas</b> en su posición más baja, inclinadas hacia adelante."
+            },
+            {
+              "punto": "Parar el <b>motor</b> de tracción."
+            },
+            {
+              "punto": "Se <b>protegerá</b> la carretilla contra usos indebidos; la llave de contacto estará en posesión únicamente del carretillero autorizado que la retirara al abandonar el vehículo."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "slideInDown",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "No se abandonará, en ningún caso, la carretilla mientras el motor permanezca en funcionamiento. La carretilla se estacionará sobre una superficie firme y nivelada, donde no estorbe el paso a otros vehículos o personas y donde esté protegida de las inclemencias del tiempo."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/aparcamiento.svg",
+              "ancho": 600
+            }
+
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "flash",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Caso de estacionar en pendiente, se colocarán <b>calzos</b> en las ruedas. Se procurará estacionar siempre en vacío, y se colocarán las <b>uñas</b> de tal manera que apoyen sus extremos en el suelo, para lo que posiblemente haya que inclinar el mástil. Si es necesario se calzarán las uñas. Todos los mandos y palancas deberán estar en posición <b>neutra</b>, se accionará el <b>freno de estacionamiento</b> y se parara el motor. Por último se retirará la llave del contacto y se llevará al lugar habilitado al efecto. Es importante no estacionar nunca en una <b>salida de emergencia</b>, ante armarios eléctricos ni extintores antiincendios."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/aparcamiento2.jpg",
+              "ancho": 300
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "shake",
+          "contenido": [
+                    {
+          "clase": "texto",
+          "texto": "Nunca dejar el vehículo con la <b>carga elevada</b>, ni lo aparcado en lugares donde pueda entorpecer la circulación o ser golpeado por otros equipos móviles (puentes-grua, polipastos, etc.)."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod4/cargaLevantada.jpg",
+          "ancho": 300
+        }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Procedimientos",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "fadeInRight",
+          "texto": "Actuación en caso de accidente. En cualquier accidente, reaccione siempre de forma rápida pero con calma."
+        },
+        {
+          "clase": "acordeon",
+          "contenido": [
+            {
+              "titulo": "Heridas",
+              "contenido": [
+                {
+                  "clase": "lista",
+				  "animacion": "fadeInLeft",
+                  "contenido": [
+                    {
+                      "punto": "Evitar tocar la herida."
+                    },
+                    {
+                      "punto": "No usar pomadas."
+                    },
+                    {
+                      "punto": "Lavar con agua y jabón."
+                    },
+                    {
+                      "punto": "Tapar con una gasa estéril."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Electrocuciones",
+              "contenido": [
+                {
+                  "clase": "lista",
+				  "animacion": "fadeInDown",
+                  "contenido": [
+                    {
+                      "punto": "Apartar a la víctima de la corriente eléctrica, utilizando elementos no conductores (palos o cuerdas no húmedos)."
+                    },
+                    {
+                      "punto": "Trasladar a un centro médico."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Quemaduras por ácido sulfúrico",
+              "contenido": [
+                {
+                  "clase": "lista",
+				  "animacion": "fadeInUp",
+                  "contenido": [
+                    {
+                      "punto": "No usar pomadas."
+                    },
+                    {
+                      "punto": "Lavar con abundante agua jabonosa o agua bicarbonatada la zona."
+                    },
+                    {
+                      "punto": "Quitar ropa, anillos, etc., manchados de ácidos."
+                    },
+                    {
+                      "punto": "Cubrir con una gasa estéril."
+                    },
+                    {
+                      "punto": "Trasladar a un centro médico."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Hemorragias",
+              "contenido": [
+                {
+                  "clase": "lista",
+				  "animacion": "flash",
+                  "contenido": [
+                    {
+                      "punto": "Comprimir con gasas o paños limpios el lugar que sangra."
+                    },
+                    {
+                      "punto": "Si continúa sangrando, añadir más gasa encima de la anterior y hacer más compresión."
+                    },
+                    {
+                      "punto": "Apretar con los dedos encima de la arteria sangrante."
+                    },
+                    {
+                      "punto": "Trasladar a un centro médico."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "En caso de vuelco lateral...",
+              "contenido": [
+                {
+                  "clase": "lista",
+				  "animacion": "lightSpeedIn",
+                  "contenido": [
+                    {
+                      "punto": "No intentar nunca saltar (la máquina le aplastará)."
+                    },
+                    {
+                      "punto": "Agarrarse al pórtico por la parte que va a quedar en la parte superior."
+                    },
+                    {
+                      "punto": "Presionar con las piernas el cuerpo contra el asiento."
+                    },
+                    {
+                      "punto": "Apoyar firmemente los pies contra el suelo."
+                    },
+                    {
+                      "punto": "Inclinarse hacia delante y en sentido contrario al del vuelco."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "En caso de vuelco frontal...",
+              "contenido": [
+                {
+                  "clase": "lista",
+				  "animacion": "zoomInUp",
+                  "contenido": [
+                    {
+                      "punto": "No saltar nunca de la carretilla."
+                    },
+                    {
+                      "punto": "Sujetarse firmemente al volante."
+                    },
+                    {
+                      "punto": "Presionar el cuerpo contra el asiento."
+                    },
+                    {
+                      "punto": "Apoyar bien los pies contra el suelo."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Manual de instrucciones I",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "flash",
+          "titulo": "El <b>fabricante</b> con cada máquina deberá proporcionar un manual en el idioma del país en que se utilizará el equipo. Antes de iniciar el trabajo, el conductor debe conocer las normas del fabricante para saber:",
+          "contenido": [
+            {
+              "punto": "Cómo se usan los mandos."
+            },
+            {
+              "punto": "Qué medidas de seguridad debe tomar."
+            },
+            {
+              "punto": "Qué quieren decir los indicadores y los pilotos."
+            },
+            {
+              "punto": "Cuál es la carga máxima."
+            },
+            {
+              "punto": "Por dónde puede circular la carretilla, según su peso y tamaño."
+            },
+            {
+              "punto": "Si se trata de una carretilla eléctrica, cuánto tiempo puede funcionar sin recargar las baterías."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "El fabricante debe entregar obligatoriamente con cada máquina un manual de instrucciones \"original\" y, en el momento de su entrada en servicio, una <b>traducción</b> en la lengua oficial del país de utilización del equipo. El manual debe incluir toda la información precisa para la correcta y segura utilización de la máquina, contener obligatoriamente los <b>requisitos</b> de los apartados 1.7.4, 3.6.3, 4.4.1 y 4.4.2 del RD. 1435/92, así como todas las normas, instrucciones, consejos de seguridad, utilización y mantenimiento, todos ellos indicados de forma clara y que no ofrezca dudas sobre su interpretación. Los apartados que se mencionan en el párrafo anterior son los siguientes:"
+        },
+        {
+          "clase": "lista",
+		  "animacion": "swing",
+          "contenido": [
+            {
+              "punto": "Cada máquina llevará un <b>manual de instrucciones</b> en el que se indique, como mínimo, lo siguiente:",
+              "contenido": [
+                {
+                  "punto": "El recordatorio de las indicaciones establecidas para el marcado (véase 1.7.3), completadas, en su caso, por las indicaciones que permitan facilitar el mantenimiento (por ejemplo dirección del importador, de los reparadores, etc.)."
+                },
+                {
+                  "punto": "Las condiciones previstas de utilización, con arreglo al punto 1. 1.2.c)."
+                },
+                {
+                  "punto": "El o los puestos de trabajo que puedan ocupar los operadores."
+                },
+                {
+                  "punto": "Las instrucciones para que puedan efectuarse sin riesgo."
+                },
+                {
+                  "punto": "La puesta en servicio."
+                },
+                {
+                  "punto": "La utilización."
+                },
+                {
+                  "punto": "La manutención, con la indicación de la masa de la máquina y sus diversos elementos cuando, de forma regular, deban transportarse por separado."
+                },
+                {
+                  "punto": "La instalación."
+                },
+                {
+                  "punto": "El montaje."
+                },
+                {
+                  "punto": "El reglaje."
+                },
+                {
+                  "punto": "El mantenimiento (conservación y reparación); si fuera necesario, las características básicas de las herramientas que puedan acoplarse a la máquina."
+                },
+                {
+                  "punto": "En su caso, instrucciones de aprendizaje. Si fuere necesario. En el manual se advertirán las contraindicaciones de uso."
+                }
+              ]
+            },
+            {
+              "punto": "El fabricante, o su representante legalmente establecido en la Comunidad, elaborará el manual de instrucciones, que estará redactado en una de las <b>lenguas</b> del país de utilización. Y, preferentemente, irá acompañado del mismo manual redactado en otra lengua de la Comunidad. Por ejemplo, la del país de establecimiento del fabricante o de su representante. No obstante el manual de mantenimiento destinado a la utilización de personal especializado que dependa del fabricante o de su representante, podrá redactarse en una sola lengua comunitaria."
+            },
+            {
+              "punto": "El manual de instrucciones incluirá los <b>planos y esquemas</b> necesarios para poner en servicio, conservar, inspeccionar, comprobar el buen funcionamiento y, si fuera necesario, reparar la máquina y cualquier otra instrucción pertinente, en particular, en materia de seguridad."
+            },
+            {
+              "punto": "En cuanto a los aspectos de seguridad, la reseña comercial que sirva de presentación de la máquina no deberá contradecirse con las instrucciones; mencionará las informaciones relativas a la emisión de ruido aéreo a que hace referencia el punto f) a continuación y para las máquinas portátiles y/o guiadas a mano, las informaciones relativas a las vibraciones a que hace referencia el punto 2.2."
+            },
+            {
+              "punto": "En el manual de instrucciones se ofrecerán si fuera necesario, las prescripciones relativas a la <b>instalación y al montaje</b> dirigidas a reducir el ruido y las vibraciones producidas (por ejemplo. Utilización de amortiguadores, tipo y masa de la fundación, etc.). "
+            },
+            {
+              "punto": "En el manual de instrucciones se darán las siguientes indicaciones sobre el <b>ruido aéreo</b> emitido por la máquina (valor real o valor calculado partiendo de la medición efectuada en una máquina idéntica):",
+              "contenido": [
+                {
+                  "punto": "El nivel de presión acústica continuo equivalente ponderado A en los puestos de trabajo, cuando supere los <b>70 db (A)</b>; si este nivel fuera inferior o igual a 70 db (A), deberá mencionarse."
+                },
+                {
+                  "punto": "El valor máximo de la presión acústica instantánea ponderada C, cuando supere los <b>63 Pa</b> (130 db con relación a 20 upa)."
+                },
+                {
+                  "punto": "El nivel de potencia acústica emitido por la máquina, si el nivel de presión acústica continuo equivalente ponderado A supera, en los puestos de trabajo, los <b>85 db (A)</b>."
+                }
+              ]
+            },
+            {
+              "punto": "Cuando la máquina sea de <b>muy grandes dimensiones</b> la indicación del nivel de potencia acústica podrá sustituirse por la indicación de los niveles de presión acústica continuos equivalentes en lugares especificados en torno a la máquina. Cuando no se apliquen las normas armonizadas, los datos acústicos se medirán utilizando el código de medición más apropiado, adaptado a la máquina. El fabricante indicará las condiciones de funcionamiento de la máquina durante la medición, así como qué métodos se han utilizado para ésta. Cuando el o los puestos de trabajo no estén definidos, o no puedan definirse, la medición del nivel de presión acústica se efectuará a <b>1 metro</b> de la superficie de la máquina y a una altura de <b>1,60 metros</b> por encima del suelo o de la plataforma de acceso. Se indicará la posición y el valor de la presión acústica máxima."
+            },
+            {
+              "punto": "Si el fabricante ha proyectado la utilización de la máquina en <b>atmósfera explosiva</b>, en el manual de instrucciones se proporcionarán todas las indicaciones necesarias. "
+            },
+            {
+              "punto": "En el caso de las máquinas que también puedan destinarse a su utilización por parte de usuarios no profesionales, la redacción y la presentación del manual de instrucciones, además de cumplir las demás exigencias básicas antes mencionadas, tendrán en cuenta el <b>nivel de formación general</b> y la perspicacia que, dentro de lo razonable, pueda esperarse de dichos usuarios."
+            }
+          ]
+        }       
+      ]
+    },
+    {
+      "titulo": "Manual de instrucciones II",
+      "contenido": [
+{
+          "clase": "texto",
+		  "animacion": "pulse",
+          "texto": "Esta documentación debe permanecer siempre en buen estado y con una <b>copia</b> de la misma ubicada en el compartimiento de la máquina, habilitado a tal fin, para permitir su consulta e información ante cualquier incidencia."
+        },
+        {
+          "clase": "lista",
+		  "animacion": "flash",
+          "titulo": "El manual de instrucciones deberá incluir, junto con las indicaciones mínimas previstas en el punto 1.7.4., las indicaciones siguientes:",
+          "contenido": [
+            {
+              "punto": "Sobre las <b>vibraciones</b> generadas por la máquina, bien el valor real, bien un valor establecido a partir de la medida efectuada en una máquina idéntica:",
+              "contenido": [
+                {
+                  "punto": "El valor cuadrático medio ponderado en frecuencia de la aceleración a la que se vean expuestos los <b>miembros superiores</b>, cuando exceda de 2.5 m/s2 ; cuando la aceleración no exceda de 2.5 m/s2 se deberá mencionar este particular."
+                },
+                {
+                  "punto": "El valor cuadrático medio ponderado en frecuencia de la aceleración a la que se vea expuesto el <b>cuerpo</b> (en pie o asiento), cuando exceda de 0.5 m/s2; cuando la aceleración no exceda de 0.5 m/s2, se deberá mencionar este particular."
+                }
+              ]
+            },
+            {
+              "punto": "Cuando no se apliquen las normas armonizadas, los datos relativos a las vibraciones deberán medirse utilizando el <b>código de medición</b> más apropiado que se adapte a la máquina. El fabricante indicará las condiciones de funcionamiento de la máquina durante las mediciones y los métodos utilizados para dichas mediciones; "
+            },
+            {
+              "punto": "En el caso de máquinas que permitan varios usos en función del equipo que se les incorpore, el fabricante de la máquina de base, a la cual puedan fijarse <b>equipos intercambiables</b>, y el fabricante de los equipos intercambiables deberán dar la información necesaria para permitir que el montaje y la utilización se hagan con seguridad."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+		  "animacion": "rotateInDownLeft",
+          "titulo": "<b>Accesorios de elevación</b>: Cada accesorio de elevación o cada partida de accesorios de elevación comercialmente indivisible, llevará un manual de instrucciones que incluirá, como mínimo, las indicaciones siguientes:",
+          "contenido": [
+            {
+              "punto": "Las condiciones normales de uso"
+            },
+            {
+              "punto": "Las instrucciones de uso, montaje y mantenimiento."
+            },
+            {
+              "punto": "Los límites de empleo, sobre todo, de los accesorios que no puedan satisfacer los requisitos del punto 4.1.2.6.e). El punto 4.1.2.6.e) dice lo siguiente: <span class='italic'>\"Los órganos de prensión deberán diseñarse y fabricarse de forma que las cargas no puedan caer repentinamente.\"</span>"
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+		  "animacion": "flash",
+          "titulo": "<b>Máquinas</b>: Como complemento al punto 1.7.4., en el manual de instrucciones el fabricante incluirá las <b>indicaciones relativas</b>:",
+          "contenido": [
+            {
+              "punto": "A las <b>características técnicas</b> y, en particular:",
+              "contenido": [
+                {
+                  "punto": "Cuando proceda, un repaso del <b>cuadro de cargas</b> definidas en el punto 4.3.3.ii). "
+                },
+                {
+                  "punto": "Las reacciones en los <b>apoyos</b> o en los <b>cierres</b> y las características de las vías"
+                },
+                {
+                  "punto": "Si procede, la definición y los medios de instalación de los <b>lastres</b>."
+                }
+              ]
+            },
+            {
+              "punto": "Al contenido del <b>libro de control</b> de la máquina, si no viniera con la máquina"
+            },
+            {
+              "punto": "A los <b>consejos de utilización</b>, en particular para conseguir que el operario tenga una visión directa óptima de la carga."
+            },
+            {
+              "punto": "A las instrucciones necesarias para efectuar las <b>pruebas</b> antes de la primera puesta en servicio de las máquinas que no hubiesen sido montadas en fábrica con arreglo a su configuración de utilización."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "EPIs",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "jello",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Hay que tener en cuenta que además de los <b>EPI recomendados</b> a continuación se habrán de tener en cuenta los necesarios según la instalación en que se trabaje, los cuales vendrán dados en función de los riesgos evaluados, y el  trabajador deberá haber sido informado de ellos.<br><br>Además en muchos casos, el operador no se ocupará del manejo de la carretilla  de manera exclusiva durante toda su jornada, si no que la <b>alternará</b> con otras tareas. Dichas  tareas pueden requerir otros equipos de protección individual diferentes a los recomendados para el puesto del que se trata en este manual. Como <b>mínimo</b>, el operador de carretilla llevará los siguientes EPI:"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/epis.jpeg",
+              "ancho": 400
+            }
+
+          ]
+        },
+
+
+
+        {
+          "clase": "acordeon",
+		  "animacion": "swing",
+          "contenido": [
+            {
+              "titulo": "Ropa de trabajo",
+              "texto": "Mono de mangas, amplio que no moleste la conducción adaptado a las condiciones climáticas. Evitar bolsillos exteriores, presillas u otras partes susceptibles de engancharse a los mandos. Para trabajos a la intemperie se dispondrá de trajes especiales para condiciones climatológicas adversas."
+            },
+            {
+              "titulo": "Guantes de seguridad",
+              "texto": "Resistentes y flexibles para no molestar la conducción."
+            },
+            {
+              "titulo": "Calzado de seguridad",
+              "texto": "De seguridad con punteras reforzadas y con suelas antide:slizantes, cuando además el operario en su puesto de trabajo debe actuar en operaciones de manutención manual."
+            },
+            {
+              "titulo": "Protección ocular",
+              "texto": "En todos los lugares con riesgo de proyecciones de partículas."
+            },
+            {
+              "titulo": "Protección auditiva",
+              "texto": "Si se circula con frecuencia por zonas con un nivel de ruido superior al permitido, será obligatorio el uso de tapones o auriculares. En este caso se deberá estar más atento si cabe a la conducción, principalmente en zonas de paso de peatones."
+            },
+            {
+              "titulo": "Casco",
+              "texto": "Aconsejable llevar casco de seguridad."
+            },
+            {
+              "titulo": "Cinturón lumbo-abdominal",
+              "texto": "Conveniente para jornadas de trabajo largas y zonas de circulación poco uniformes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "Los equipos de protección individual aconsejados para el conductor de una carretilla son:",
+              "respuestas": [
+                {
+                  "opcion": "Casco, gafas, guantes, ropa de trabajo y calzado de seguridad.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Protección auditiva y cinturón lumbo-abdominal en según que casos.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "El manual de instrucciones del fabricante:",
+              "respuestas": [
+                {
+                  "opcion": "Debemos leerlo antes de manejar la máquina por primera vez, con lo que nos lo deberían facilitar.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Puede estar en cualquier idioma.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "No importa, nadie lo lee.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "En caso de vuelco lateral...",
+              "respuestas": [
+                {
+                  "opcion": "No intentar nunca saltar porque la máquina te aplastará.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Hay que saltar, si no la máquina te aplasta.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "El vuelco lateral es muy raro.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Al estacionar la máquina",
+              "respuestas": [
+                {
+                  "opcion": "Se dejarán las horquillas en la posición más elevada para evitar tropiezos.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Se dejarán las horquillas en la posición más baja e inclinadas hacia delante.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Lo mejor es dejarlas a media altura.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Elevar personas con la carretilla:",
+              "respuestas": [
+                {
+                  "opcion": "Está totalmente prohibido.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Es posible de manera excepcional, utilizando un accesorio o jaula especial, y además se habrá realizado previamente una evaluación de riesgos, además habrá en todo momento un recurso preventivo.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Está permitido solo en casos de limpieza, mantenimiento y reparación de alumbrado.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "La secuencia para recoger una carga es: Acercarse perpendicularmente y de manera centrada, hasta unos 30 cm del palé, poner el mástil en vertical e introducir las horquillas hasta el talón, levantar la carga unos cm e inclinar el mástil hacia atrás, mirar por encima de hombros o los retrovisores, para comprobar que no viene nadie, girar y circular, marcha adelante si la carga no nos impide la visibilidad o marcha atrás si nos la impide.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Falso.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "¿Qué factores influyen en la estabilidad?",
+              "respuestas": [
+                {
+                  "opcion": "La posición y altura de la carga.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Los cambios bruscos de velocidad y de dirección.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas.",
+                  "correcto": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Hemos estado viendo el entorno adecuado para la utilización de las carretillas, en función de las exigencias de la <b>ley</b>. Entre otras cosas la importancia que tiene que la zona de trabajo esté limpia y ordenada para evitar accidentes indeseados. En el próximo módulo comenzaremos con el <b>manejo</b> de nuestra máquina."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/despedida.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

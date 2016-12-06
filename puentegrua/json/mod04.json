@@ -1,0 +1,1491 @@
+﻿{
+  "modulo": "Mod. 4: La carga",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "En este módulo hablaremos de la carga y los accesorios de elevación. Las eslingas, por lo importante y extenso, serán tratadas en módulos específicos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "CARGAS: EVALUACIÓN, CENTRO DE GRAVEDAD, EQUILIBRADO, INFLUENCIA DEL VIENTO",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "wobble",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "La ejecución segura de una maniobra exige el CONOCIMIENTO del peso de la carga, por lo que, de no ser previamente conocido, deberá obtenerse una aproximación por exceso, cubicándola y aplicándole un peso específico, por ejemplo, la masa de carga de una cuba de 500l para hormigón:<br><br>Densidad del hormigón = 2.5 kg/l<br><br>Masa de la carga = densidad x volumen = 2.5 x 500 = 1250 kg.<br><br>El <b>centro de gravedad</b> de la carga se deberá alinear con la  vertical del gancho, evitando así tiros oblicuos que están totalmente prohibidos. Asimismo el centro de gravedad deberá quedar bajo. En grúas puente o de pórtico sitas en exteriores, se dispondrá de bulones parar trincado y avisador anemométrico con indicador de límite de viento. A se respetarán escrupulosamente las recomendaciones del fabricante."
+            },
+            {
+              "clase": "imagen",
+              "subclase": "paraCambiar",
+              "imagen": "img/mod04/centroGravedad.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "OPERACIONES DE MANIPULACIÓN MÁS USUALES",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "bounceInDown",
+          "titulo": "INSTRUCCIONES GENERALES DE OPERACIÓN <br><br>Como reglas generales, deben respetarse las siguientes:",
+          "contenido": [
+            {
+              "punto": "Antes de conectar la grúa a la red eléctrica, se comprobará que todos los mandos estén desactivados, en punto muerto o que no existan botoneras enclavadas. "
+            },
+            {
+              "punto": "Antes de elevar una carga se sujetará la misma al elemento de elevación mediante eslingas apropiadas. "
+            },
+            {
+              "punto": "Cuando se utilicen elementos especiales de elevación, se asegurará antes de tomar la carga el correcto funcionamiento de los mismos. "
+            },
+            {
+              "punto": "Las operaciones con cargas utilizando gancho de elevación, se realizarán en cuatro tiempos: ",
+              "contenido": [
+                {
+                  "punto": "Eslingado de la carga. "
+                },
+                {
+                  "punto": "Tensado de las eslingas sin llegar a levantar la carga, para comprobar su fijación. "
+                },
+                {
+                  "punto": "Ligera elevación de la carga para comprobar su equilibrado y verificación de que no se excede la carga máxima permitida. "
+                },
+                {
+                  "punto": "Elevación definitiva de la carga para su traslado. "
+                }
+              ]
+            },
+            {
+              "punto": "Está completamente prohibido el transporte de personas con la grúa, hecho en el que insiste la NTP 737. "
+            },
+            {
+              "punto": "Está prohibido el paso de cargas sobre personas. "
+            },
+            {
+              "punto": "Todos los desplazamientos se realizarán a velocidad lenta y a una altura suficiente que permita garantiza que la carga no incida sobre las maquinas u objetos del área. "
+            },
+            {
+              "punto": "Está prohibido elevar o intentar elevar elementos anclados. "
+            },
+            {
+              "punto": "No se elevarán ni arrastrarán cargas, tirando de las mismas lateralmente. "
+            },
+            {
+              "punto": "No se elevarán ni arrastrarán cargas, tirando de las mismas lateralmente. "
+            },
+            {
+              "punto": "No se dejarán nunca las cargas suspendidas, ni durante cortas paradas de la actividad."
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "MANIPULACIÓN DE CARGAS CON VARIOS APARATOS",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Caso de operaciones con gran complejidad y elevado riesgo, como el caso de cargas excesivamente voluminosas, que se hayan de realizar utilizando simultáneamente dos máquinas de elevación de material, se deberá seguir un plan establecido de manera específica, habiendo sido <b>evaluada la tarea con anterioridad</b>, de manera específica y por quien proceda en cada caso, contándose con un señálista, que será encargado tanto de dirigir la maniobra completa como de dar la orden de inicio y finalización de la misma. Todas las operaciones de levantamiento deberán estar correctamente planificadas, vigiladas adecuadamente y efectuadas con miras a proteger la seguridad de los trabajadores En particular, cuando dos o más equipos de trabajo para la elevación de cargas no guiadas deban elevar simultáneamente una carga, deberá elaborarse y aplicarse un <b>procedimiento</b> con el fin de garantizar una buena coordinación de los operadores."
+        },
+        {
+          "clase": "lista",
+		  "animacion": "bounceInUp",
+          "titulo": "Los factores a considerar pueden ser tales como:",
+          "contenido": [
+            {
+              "punto": "Carga a elevar. (P. ej: dos grúas cada una debe ser capaz como mínimo para el 75 % )"
+            },
+            {
+              "punto": "La masa, forma, c.d.g, puntos de prensión"
+            },
+            {
+              "punto": "Punto de inicio y punto final"
+            },
+            {
+              "punto": "Frecuencia de utilización del equipo"
+            },
+            {
+              "punto": "Frecuencia de utilización del equipo"
+            },
+            {
+              "punto": "Condiciones ambientales"
+            },
+            {
+              "punto": "Personal disponible"
+            },
+            {
+              "punto": "Recorrido de las cargas"
+            },
+            {
+              "punto": "Lugares de depósito de las cargas"
+            }
+
+          ]
+        },
+        {
+          "clase": "lista",
+		  "animacion": "fadeInLeft"
+          "titulo": "La planificación debe tener en cuenta riesgos tales como:",
+          "contenido": [
+            {
+              "punto": "Líneas eléctricas aéreas "
+            },
+            {
+              "punto": "Presencia de trabajadores próximos "
+            },
+            {
+              "punto": "Presencia de estructuras próximas "
+            },
+            {
+              "punto": "Otras operaciones de elevación cercanas "
+            },
+            {
+              "punto": "Presencia de zanjas y excavaciones o servicios subterráneos "
+            },
+            {
+              "punto": "Presencia de otros equipos de trabajo "
+            },
+            {
+              "punto": "Presencia de vehículos en las cercanías"
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+		  "animacion": "bounceInRight",
+          "subclase": "exclamacion",
+          "texto": "Este tipo de operaciones han de estar supervisadas adecuadamente."
+        }
+      ]
+    },
+    {
+      "titulo": "LAS ESLINGAS: TIPOS, MATERIALES, SEGURIDAD, UTILIZACIÓN, CONSERVACIÓN Y SUSTITUCIÓN",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "El eslingado, según nos dice la <a href='http://www.insht.es/InshtWeb/Contenidos/Documentacion/FichasTecnicas/NTP/Ficheros/821a921/841%20web.pdf' target='_blank'>NTP 841</a> es  una operación importante de la manutención de las cargas aisladas. Consiste en realizar la unión entre una carga y un equipo de elevación. Aunque la tendencia está en la búsqueda y la utilización de material de manutención que reduzca considerablemente el tiempo de manutención, un número muy elevado de cargas continúan siendo manipuladas, desplazadas y cargadas utilizando un sistema de eslingado.<br><br>El eslingador debe colocar un dispositivo de unión entre la carga y el equipo de elevación. Esta operación será decisiva para la seguridad de la manutención y del usuario. Es importante pues que el eslingador realice la <b>elección correcta</b> del dispositivo de unión (eslinga) y lo utilice correctamente. La cuidadosa elección de los accesorios y equipos auxiliares de elevación, de acuerdo a sus características y en función de los esfuerzos a que van a estar sometidos, responde a reglas precisas que es imprescindible conocer y observar, si quieren evitarse riesgos graves.<br><br>El empleo en buenas condiciones de los elementos auxiliares, su verificación y mantenimiento, deben ser materia de constante atención por parte de los usuarios. <b>Elección correcta y cuidadoso mantenimiento</b>, son por tanto dos factores básicos para evitar accidentes trabajando con los accesorios y equipos auxiliares de elevación. A continuación se muestran los más relevantes y su forma de uso correcta. Daremos a continuación una serie de definiciones necesarias para entender el tema."
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Eslingado</b>: operación que consiste en utilizar un elemento de unión entre una carga y un equipo de elevación. El dispositivo de unión está constituido por una o varias eslingas textiles, según las necesidades de la carga a elevar. "
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Accesorios de elevación</b>: componentes o equipos que no son parte integrante de la máquina de elevación y situados entre la máquina y la carga, o sobre la propia carga, para permitir la prensión de la carga. Las eslingas son accesorios de elevación. "
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Eslingas textiles</b>: accesorios de elevación flexibles, formados por un componente de cinta tejida plana y cosida, o por un núcleo de hilos industriales de alta tenacidad completamente recubierto por un por un tejido tubular, y que se utilizan para unir las cargas al gancho de una grúa u otro equipo de elevación. "
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Accesorios de eslingado</b> (componentes de las eslingas): accesorios de elevación que sirven para la fabricación o la utilización de una eslinga, como son los grilletes, ganchos corvados, anillas, argollas, etc"
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Eslinga reutilizable</b>: eslingas destinadas a operaciones de elevación para uso general, que pueden utilizarse tantas veces como su vida útil lo permita. La vida útil de la eslinga reutilizable depende de su mantenimiento y condiciones de utilización. Cuando el estado de deterioro no permita su uso con total seguridad para una nueva operación de elevación obligará a rechazar la eslinga y retirarla del uso. "
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Eslinga no reutilizable</b> (también denominada de “un solo uso”): eslinga diseñada para un solo viaje en un modo específico de utilización, colocada en posición alrededor de la carga en el punto de partida y que permanece junto con la carga hasta que ésta llega a su destino final. Después de retirar la eslinga de la carga en su destino final, la eslinga de un solo uso ya no puede ser reutilizada para posteriores servicios de elevación. "
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Eslinga simple</b>: eslinga de un solo ramal."
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Eslinga de varios ramales</b>: eslingas de 2, 3 ó 4 ramales. Los diferentes ramales están unidos en un extremo a una anilla para asegurar su correcta disposición y extensión para prender la carga a elevar. "
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Longitud de trabajo útil</b>: longitud acabada real de la eslinga, desde punto de apoyo a punto de apoyo. "
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Carga máxima de utilización</b>(CMU): masa o carga máxima para la que está diseñada la eslinga para la elevación directa. "
+        },
+        {
+          "clase": "tabla",
+		  "animacion": "swing",
+          "subclase": "centro",
+          "filaTitulos": [
+            {
+              "titulo": "Carga máxima de utilización (C.M.U. en toneladas)",
+              "colspan": 11
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "",
+                  "colspan": 2
+                },
+                {
+                  "texto": "Elevación directa"
+                },
+                {
+                  "texto": "Elevación estrangulada"
+                },
+                {
+                  "texto": "Eslingado en cesto",
+                  "colspan": 3
+                },
+                {
+                  "texto": "Eslinga de 2 ramales",
+                   "colspan": 2
+                },
+                {
+                  "texto": "Eslinga de 3 y 4 ramales",
+                   "colspan": 2
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "",
+                  "colspan": 2
+                },
+                {
+                  "imagen": "img/mod04/elevacionDirecta.svg"
+                },
+                {
+                  "imagen": "img/mod04/elevacionEstran.svg"
+                },
+                {
+                  "imagen": "img/mod04/eslingadoCestoPar.svg"
+                },
+                {
+                  "imagen": "img/mod04/eslingadoCesto.svg",
+                   "colspan": 2
+                },
+                {
+                  "imagen": "img/mod04/eslinga2Ram.svg",
+                   "colspan": 2
+                },
+                {
+                  "imagen": "img/mod04/eslinga34Ram.svg",
+                   "colspan": 2
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "",
+                  "colspan": 2
+                },
+                {
+                  "texto": ""
+                },
+                {
+                  "texto": ""
+                },
+                {
+                  "texto": "Paralelo"
+                },
+                {
+                  "texto": "ß = 0º a 45º" 
+
+                },
+                {
+                  "texto": "ß = 46º a 60º"
+
+                },
+                {
+                  "texto": "ß = 0º a 45º" 
+
+                },
+                {
+                  "texto": "ß = 46º a 60º"
+
+                },
+                {
+                  "texto": "ß = 0º a 45º"
+                },
+                {
+                  "texto": "ß = 46º a 60º"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "C.M.U."
+                },
+                {
+                  "texto": "Color de la eslinga"
+                },
+                {
+                  "texto": "M=1"
+                },
+                {
+                  "texto": "M=0.8"
+                },
+                {
+                  "texto": "M=2"
+                },
+                {
+                  "texto": "M=1.4"
+                },
+                {
+                  "texto": "M=1"
+                },
+                {
+                  "texto": "M=1.4"
+                },
+                {
+                  "texto": "M=1"
+                },
+                {
+                  "texto": "M=2.1"
+                },
+                {
+                  "texto": "M=1.5"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "1.0"
+                },
+                {
+                  "texto": "Violeta"
+                },
+                {
+                  "texto": "1.0"
+                },
+                {
+                  "texto": "0.8"
+                },
+                {
+                  "texto": "2"
+                },
+                {
+                  "texto": "1.4"
+                },
+                {
+                  "texto": "1.0"
+                },
+                {
+                  "texto": "1.4"
+                },
+                {
+                  "texto": "1.0"
+                },
+                {
+                  "texto": "2.1"
+                },
+                {
+                  "texto": "1.5"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "2.0"
+                },
+                {
+                  "texto": "Verde"
+                },
+                {
+                  "texto": "2.0"
+                },
+                {
+                  "texto": "1.6"
+                },
+                {
+                  "texto": "4"
+                },
+                {
+                  "texto": "2.8"
+                },
+                {
+                  "texto": "2.0"
+                },
+                {
+                  "texto": "2.8"
+                },
+                {
+                  "texto": "2.0"
+                },
+                {
+                  "texto": "4.2"
+                },
+                {
+                  "texto": "3.0"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "3.0"
+                },
+                {
+                  "texto": "Amarillo"
+                },
+                {
+                  "texto": "3.0"
+                },
+                {
+                  "texto": "2.4"
+                },
+                {
+                  "texto": "6"
+                },
+                {
+                  "texto": "4.2"
+                },
+                {
+                  "texto": "3.0"
+                },
+                {
+                  "texto": "4.2"
+                },
+                {
+                  "texto": "3.0"
+                },
+                {
+                  "texto": "6.3"
+                },
+                {
+                  "texto": "4.5"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "4.0"
+                },
+                {
+                  "texto": "Gris"
+                },
+                {
+                  "texto": "4.0"
+                },
+                {
+                  "texto": "3.2"
+                },
+                {
+                  "texto": "8"
+                },
+                {
+                  "texto": "5.6"
+                },
+                {
+                  "texto": "4.0"
+                },
+                {
+                  "texto": "5.6"
+                },
+                {
+                  "texto": "4.0"
+                },
+                {
+                  "texto": "8.4"
+                },
+                {
+                  "texto": "6.0"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "5.0"
+                },
+                {
+                  "texto": "Rojo"
+                },
+                {
+                  "texto": "5.0"
+                },
+                {
+                  "texto": "4.0"
+                },
+                {
+                  "texto": "10.0"
+                },
+                {
+                  "texto": "7.0"
+                },
+                {
+                  "texto": "5.0"
+                },
+                {
+                  "texto": "7.0"
+                },
+                {
+                  "texto": "5.0"
+                },
+                {
+                  "texto": "10.5"
+                },
+                {
+                  "texto": "7.5"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "6.0"
+                },
+                {
+                  "texto": "Marrón"
+                },
+                {
+                  "texto": "6.0"
+                },
+                {
+                  "texto": "4.8"
+                },
+                {
+                  "texto": "12"
+                },
+                {
+                  "texto": "8.4"
+                },
+                {
+                  "texto": "6.0"
+                },
+                {
+                  "texto": "8.4"
+                },
+                {
+                  "texto": "6.0"
+                },
+                {
+                  "texto": "12.6"
+                },
+                {
+                  "texto": "9.0"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "8.0"
+                },
+                {
+                  "texto": "Azul"
+                },
+                {
+                  "texto": "8.0"
+                },
+                {
+                  "texto": "6.4"
+                },
+                {
+                  "texto": "16"
+                },
+                {
+                  "texto": "11.2"
+                },
+                {
+                  "texto": "8.0"
+                },
+                {
+                  "texto": "11.2"
+                },
+                {
+                  "texto": "8.0"
+                },
+                {
+                  "texto": "16.8"
+                },
+                {
+                  "texto": "12.0"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "10.0"
+                },
+                {
+                  "texto": "Anaranjado"
+                },
+                {
+                  "texto": "10.0"
+                },
+                {
+                  "texto": "8.0"
+                },
+                {
+                  "texto": "20"
+                },
+                {
+                  "texto": "14.0"
+                },
+                {
+                  "texto": "10.0"
+                },
+                {
+                  "texto": "14.0"
+                },
+                {
+                  "texto": "10.0"
+                },
+                {
+                  "texto": "21.0"
+                },
+                {
+                  "texto": "15.0"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "más de 10.0"
+                },
+                {
+                  "texto": "Anaranjado",
+                  "colspan": 10
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "M = Factor de forma para carga simétrica",
+                  "colspan": 11
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Factor de forma de eslingado</b>(M): factor de corrección que se aplica a la carga máxima de utilización (CMU) de una eslinga simple, teniendo en cuenta la forma de eslingado (ángulos del ramal, estrangulado). "
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Coeficiente de utilización</b>: relación aritmética entre la carga mínima de rotura garantizada por el fabricante y la carga máxima de utilización marcada sobre la eslinga. "
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Tipos de eslingas</b>: las eslingas pueden ser de cintas tejidas planas o tubulares, como podemos ver en la siguiente figura sacada de la NTP 841."
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "shake",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/eslingaPlanaSinFin.jpg",
+              "pie": "Eslinga plana sin fin"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/eslingaPlanaGaza.jpg",
+              "pie": "Eslinga plana con gazas"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/eslingaTubularSinFin.jpg",
+              "pie": "Eslinga tubular sin fin"
+            },
+                        {
+              "clase": "imagen",
+              "imagen": "img/mod04/eslingaTubularGaza.jpg",
+              "pie": "Eslinga tubular con gazas"
+            }
+          ]
+        }        
+      ]
+    },
+    {
+      "titulo": "Eslingas",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "rotateInDownRight",
+          "titulo": "Las eslingas son accesorios de elevación, que en función de sus características pueden ser:",
+          "contenido": [
+            {
+              "punto": "Textiles"
+            },
+            {
+              "punto": "De cadena"
+            },
+            {
+              "punto": "De cable"
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+		  "animacion": "slideInUp",
+          "titulo": "El principal riesgo asociado al empleo de eslingas es la caída de la carga sobre personas u objetos, siendo algunos de los motivos más comunes para que este riesgo se materialice, los siguientes:",
+          "contenido": [
+            {
+              "punto": "Mal eslingado de la carga."
+            },
+            {
+              "punto": "Uso de eslingas en mal estado o deterioradas."
+            },
+            {
+              "punto": "Elección incorrecta de la eslinga debido a la forma o peso de la carga."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Pero además de estos riesgos existen otros debidos a la incorrecta manipulación de eslingas en función de su tipo.<br><br>En posteriores módulos se definirán las diferentes eslingas, los riesgos específicos de su uso y modos seguros de utilización."
+        }
+      ]
+    },
+    {
+      "titulo": "Cáncamos",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Son accesorios que permiten realizar determinadas operaciones de elevación, que no pueden ser elevados directamente eslingados. Estos accesorios, que pueden ser ﬁjos o giratorios, deben seleccionarse considerando unos ángulos de elevación determinados en los procesos de trabajo."
+        },
+        {
+          "clase": "lista",
+		  "animacion": "lightSpeedIn",
+          "titulo": "Otros aspectos a tener en cuenta en su selección son:",
+          "contenido": [
+            {
+              "punto": "La forma de trabajo del cáncamo. Distribución de esfuerzos."
+            },
+            {
+              "punto": "El entorno de la temperatura de trabajo."
+            },
+            {
+              "punto": "El tipo de engrasado. "
+            }
+
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInRight",
+          "subclase": "centroAncho",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/cancamo1.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Los cáncamos giratorios permiten trabajar con ángulos superiores a 45˚ sin riesgo a desenroscarse. Asimismo, la superficie de la base debe ser uniforme para permitir una distribución homogénea de las cargas al soporte y el material de anclaje que soportará los esfuerzos solicitados."
+            }
+
+          ]
+        },
+        {
+          "clase": "lista",
+		  "animacion": "fadeInRight",
+          "titulo": "Puede ser necesario realizar puntos de amarre con cáncamos, que deberán entonces combinar dos características: ",
+          "contenido": [
+            {
+              "punto": "Rotación para permitir giros de 360˚."
+            },
+            {
+              "punto": "Suspensión que mantenga el cáncamo en cualquier posición del ángulo de diseño (por ejemplo, 180˚ de recorrido mediante un muelle fijador interno)."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "En cuanto a la temperatura de trabajo, debe tenerse en cuenta que los cáncamos están diseñados para trabajar entre -20˚C y + 200˚ C."
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "swing",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "También existen los cáncamos para soldar, que son anillos destinados a ser soldados en la carga, con el fin de elevarla."
+            },
+            {
+              "clase": "imagen",
+              "subclase": "paraCambiar",
+              "imagen": "img/mod04/cancamoSoldar.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "OREJA DE ELEVACIÓN (OREJETA)",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "bounceIn",
+          "texto": "Placa de acero perforada destinada a ser soldada a la carga, con el fin de elevarla."
+        },
+        {
+          "clase": "imagen",
+		  "animacion": "rubberBand",
+          "subclase": "paraCambiar",
+          "imagen": "img/mod04/orejeta.png",
+          "ancho": 400
+        }
+      ]
+    },
+    {
+      "titulo": "GRILLETES",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "swing",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "paraCambiar",
+              "imagen": "img/mod04/grilleteRecto.png",
+              "pie": "Grillete Recto"
+            },
+            {
+              "clase": "texto",
+              "texto": "Son equipos destinados a ser empleados de forma directa o conjuntamente con otros accesorios de elevación. En función de su forma, se distinguen dos tipos de grilletes: <b>recto</b> o de <b>lira</b>."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/grilleteLira.png",
+              "ancho": 250,
+              "pie": "Grillete Lira"
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+		  "animacion": "bounceInUp",
+          "titulo": "Dependiendo del pasador se pueden distinguir: ",
+          "contenido": [
+            {
+              "punto": "Tipo W- pasador roscado con un agujero en uno de sus extremos aplastado, que se atornilla en una de las cabezas del cuerpo. "
+            },
+            {
+              "punto": "Tipo X- pasador tipo tornillo con cabeza y tuerca hexagonales, y pasador de aletas. "
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "La carga máxima de utilización viene indicada en el cuerpo del grillete, acompañada de las letras WLL que indican la capacidad de carga."
+        },
+        {
+          "clase": "lista",
+		  "animacion": "fadeInLeft",
+          "titulo": "Cada grillete debe venir identificado con:",
+          "contenido": [
+            {
+              "punto": "La Carga de utilización en toneladas. "
+            },
+            {
+              "punto": "El número de la clase del grillete (clase 6). "
+            },
+            {
+              "punto": "El Nombre, símbolo o marca del fabricante."
+            },
+            {
+              "punto": "El Código de trazabilidad. "
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+		  "animacion": "bounceInRight",
+          "titulo": "Además del marcado, el proveedor debe facilitar un certiﬁcado con la siguiente información:",
+          "contenido": [
+            {
+              "punto": "Nombre, dirección del fabricante o de su distribuidor autorizado, así como la fecha de extensión del certiﬁcado."
+            },
+            {
+              "punto": "Conformidad con la norma EN 13889. "
+            },
+            {
+              "punto": "Código de trazabilidad. "
+            },
+            {
+              "punto": "Descripción del grillete. "
+            },
+            {
+              "punto": "Descripción del grillete. "
+            },
+            {
+              "punto": "Carga máxima de utilización en Tm."
+            }
+          ]
+        },
+        {
+          "clase": "lista",		  
+			"animacion": "bounceInDown",
+          "titulo": "Para la adquisición segura de estos equipos, se deberán observar los siguientes parámetros: ",
+          "contenido": [
+            {
+              "punto": "Temperatura de trabajo "
+            },
+            {
+              "punto": "Productos químicos presentes en el entorno laboral. "
+            },
+            {
+              "punto": "Forma de sujeción, en caso de ser acopladas con varias eslingas, solo se podrán usar los grilletes de tipo lira. "
+            },
+            {
+              "punto": "Presencia de vibraciones. Para estos casos se recomienda que dispongan de pasadores de seguridad para evitar desenganches. "
+            }
+
+          ]
+        },
+        {
+          "clase": "lista",
+		  "animacion": "fadeInLeft",
+          "titulo": "Por otro lado, se debe disponer de instrucciones de utilización con los siguientes apartados: ",
+          "contenido": [
+            {
+              "punto": "Limitaciones de uso. "
+            },
+            {
+              "punto": "Sustitución de pasadores perdidos o dañados. "
+            },
+            {
+              "punto": "Inspección del grillete antes de su uso."
+            },
+            {
+              "punto": "Evitar las aplicaciones en los que la carga es inestable. "
+            },
+            {
+              "punto": "Alineación correcta del grillete con la línea de carga. "
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "La normativa no permite tratamientos de galvanizado ni procedimientos similares, si estos no son controlados por el fabricante."
+        }
+      ]
+    },
+    {
+      "titulo": "Equipos amovibles de elevación de cargas",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "rotateInDownLeft",
+          "texto": "Además de accesorios de elevación como son las eslingas, también existen otros tipos de equipos auxiliares de elevación, para complementar a la grúa, los denominados amovibles regidos por las normas <b>UNE 13155</b>.<br><br>Este apartado comprende aquellos equipos que se pueden unir directamente al equipo de elevación. Se incluyen, entre otros, las horquillas de elevación, las pinzas, los Ganchos C, las vigas de suspensión, los electroimanes y las ventosas de vacío."
+        },
+        {
+          "clase": "lista",
+		  "animacion": "rotateInDownRight",
+          "subclase": "cuadrado",
+          "titulo": "Según la Norma EN 13155, estos útiles mantienen unos requisitos generales de seguridad comunes:",
+          "contenido": [
+            {
+              "punto": "Deben diseñarse para soportar una carga estática igual a tres veces la carga máxima de utilización sin soltarla, incluso aunque se produzca una deformación permanente."
+            },
+            {
+              "punto": "Soportarán una carga de dos veces la carga máxima de utilización sin deformación permanente. "
+            },
+            {
+              "punto": "Los accesorios previstos para estar inclinados se deben diseñar para un ángulo superior, por lo menos en 6˚ al ángulo máximo de trabajo. "
+            },
+            {
+              "punto": "Si pueden ser guiados manualmente, deberán estar equipados con empuñaduras para no lesionarse los dedos. No se requieren empuñaduras si el diseño ofrece posibilidades de prensión equivalentes."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "Cabe decir, que estos equipos son muy específicos y siempre y cuando se disponga de ellos y sean adecuados a la carga a elevar, se utilizarán éstos y no eslingas."
+        },
+        {
+          "clase": "lista",
+		  "animacion": "bounceInRight",
+          "titulo": "El Marcado de los Equipos amovibles de elevación de carga debe contener la siguiente información: ",
+          "contenido": [
+            {
+              "punto": "Identiﬁcación del fabricante. "
+            },
+            {
+              "punto": "Marcado CE. "
+            },
+            {
+              "punto": "Modelo. "
+            },
+            {
+              "punto": "Número de serie. "
+            },
+            {
+              "punto": "Peso del accesorio sin carga cuando se exceda el 5% de la carga máxima de trabajo del equipo o si supera los 50 Kg. "
+            },
+            {
+              "punto": "Año de fabricación. "
+            },
+            {
+              "punto": "Carga máxima en Tm. o Kg."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+		  "animacion": "slideInLeft",
+          "titulo": "Los equipos amovibles deberán ser acompañados de certiﬁcado de conformidad con la norma EN 13155 y el manual de instrucciones que incluirá al menos, la información siguiente:",
+          "contenido": [
+            {
+              "punto": "Breve descripción del útil de elevación."
+            },
+            {
+              "punto": "Carga máxima de trabajo. "
+            },
+            {
+              "punto": "Carga máxima de trabajo. "
+            },
+            {
+              "punto": "Características de la carga incluyendo el rendimiento y el número de partes que pueden manejarse al mismo tiempo. "
+            },
+            {
+              "punto": "Determinación de la gama de funcionamiento. "
+            },
+            {
+              "punto": "Instrucciones para la operación y utilización. "
+            },
+            {
+              "punto": "Montaje acoplamiento/desacoplamiento y ajuste del equipo sobre la grúa. "
+            },
+            {
+              "punto": "Manejo y almacenamiento del equipo. "
+            },
+            {
+              "punto": "Estabilidad cuando sea aplicable. "
+            },
+            {
+              "punto": "Gama de temperaturas de utilización del útil de elevación. "
+            }
+          ]
+        },
+        {
+          "clase": "acordeon",
+		  "animacion": "tada",
+          "contenido": [
+            {
+              "titulo": "Accesorio en C",
+              "texto": "Sistema contrapesado para la elevación y transporte de bobinas metálicas laminadas, papel y cuerpos cilíndricos huecos.<br>Por ejemplo para el transporte y elevación de grandes bobinas metálicas, rollos de alambrón, y todo tipo de cuerpos cilíndricos redondos huecos como prefabricados de hormigón para canalizaciones.",
+              "imagen": "img/mod04/accesorioC.png",
+              "ancho": 275
+            },
+            {
+              "titulo": "Pinza mecánica",
+              "texto": "Útil diseñado para el manejo de cargas de forma prensil, mediante el apriete sobre una parte específica.",
+              "imagen": "img/mod04/accesorioPinza.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Viga de suspensión",
+              "texto": "Son útiles de elevación de distintas longitudes, formas y configuraciones, que permiten la elevación de la carga en equilibrio estable suspendiéndola de varios puntos.<br>El enganche superior puede ser mediante anilla central fija o regulable,  o  por juego de eslingas.<br>Pueden fabricarse en distintos formatos en función de la carga a elevar, ya sean estas vigas simples longitudinales, estructuras más complejas en forma de H, estructuras en forma de aspa.<br>Los puntos de anclaje pueden ser ganchos colgantes simples o dobles.",
+              "imagen": "img/mod04/accesorioViga.png",
+              "ancho": 275
+            },
+            {
+              "titulo": "Horquilla de elevación",
+              "texto": "Útil diseñado para elevar cargas paletizadas o similares. Por ejemplo traslados de ladrillo ",
+              "imagen": "img/mod04/accesorioHorquilla.jpg",
+              "ancho": 175
+            },
+            {
+              "titulo": "Electroimanes",
+              "texto": "Con un campo magnético que produce fuerza suficiente para la prensión, retención y manejo de cargas con propiedades ferromagnéticas. Ejemplo: movimiento de recortes. La naturaleza de la carga a trasportar con un electroimán: el material tiene que ser ferromagnético, con una superficie plana y limpia y con un espesor adecuado. El acero a desplazar debe de tener bajo contenido de carbono, de lo contrario, si fuera aleado habría que efectuar las reducciones apropiadas.<br><br><ul>Factores de reducción<li>acero aleado = 0,8; </li><li>acero de bajo contenido en carbono = 0,7; </li><li>hierro fundido = 0,45.</li></ul>",
+              "imagen": "img/mod04/accesorioElectroiman.jpg",
+              "ancho": 275
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "El peso del accesorio de elevación sumado al de la carga, no debe superar la capacidad máxima del puente grúa."
+        },
+        {
+          "clase": "texto",
+          "texto": "Estos equipos también estarán sujetos a inspecciones periódicas, en las que en caso de detectar algún tipo de deformación, rotura, mal funcionamiento, etc, deberá ser retirado de forma inmediata."
+        },
+        {
+          "clase": "lista",
+		  "animacion": "fadeInRight",
+          "titulo": "Los <b>accesorios de elevación</b>, serán seleccionados en función de:",
+          "contenido": [
+            {
+              "punto": "La carga que se manipula"
+            },
+            {
+              "punto": "Los puntos de presión y dispositivos de enganche"
+            },
+            {
+              "punto": "Las condiciones atmosféricas"
+            },
+            {
+              "punto": "Modalidad y configuración del amarre."
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Otros equipos",
+      "contenido": [
+        {
+          "clase": "acordeon",
+		  "animacion": "flipInY",
+          "subclase": "paraCambiar",
+          "contenido": [
+            {
+              "titulo": "Red de carga / red de elevación",
+              "texto": "Red empleada para la elevación de bultos de tamaño pequeño/medio, agrupados. "
+            },
+            {
+              "titulo": "Saca reutilizable",
+              "texto": "Costal muy grande (conocido como big bag), específicamente destinado a la elevación de material a granel o de escombros y que no se utiliza para empaquetado, almacenamiento o transporte. Los hay reutilizables y de un solo uso.",
+              "imagen": "img/mod04/saca.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Cuchara de colada",
+              "texto": "Recipiente basculante con mecanismo de basculación de accionamiento manual o motorizado, destinado a contener, transportar y descargar el material fundido con maquinaria de elevación. Este tipo de equipo se contempla en la norma EN 1247 “Maquinaria para fundición. Requisitos de seguridad para cucharas de colada, equipos de colada, máquinas de fundición centrífugas, máquinas de fundición con solidificación continua y semicontinua”.",
+              "imagen": "img/mod04/colada.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Cubeta para hormigón",
+              "texto": "Recipiente que se cuelga de una grúa para transportar y distribuir hormigón en una obra de construcción. ",
+              "imagen": "img/mod04/cubeta.png",
+              "subclase": "paraCambiar",
+              "ancho": 275
+            },
+            {
+              "titulo": "Carretilla manual elevable (carro chino)",
+              "texto": "Carretilla con cáncamos destinada al transporte y aplicación de hormigón y mortero en una obra de construcción.",
+              "imagen": "img/mod04/carretillaManual.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Cubeta para escombros",
+              "texto": "Recipiente específicamente destinado a transportar escombros en una obra de construcción con una grúa y descargarlos sin desengancharlo de la grúa. ",
+              "imagen": "img/mod04/escombros.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Contenedor",
+              "texto": "Recipiente provisto de cáncamos para la operación de elevación, utilizado para el transporte y el almacenamiento de productos. Tal como se ha indicado en el apartado sobre cáncamos, si los cáncamos acoplados al contenedor se comercializan por separado, éstos son accesorios de elevación. ",
+              "imagen": "img/mod04/contenedor.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Contenedor para material a granel",
+              "texto": "Contenedor utilizado, por ejemplo, para recoger desperdicios en un lugar y después subirlo a un vehículo y transportarlo a otro lugar donde se descarga",
+              "imagen": "img/mod04/contenedorGranel.png",
+              "ancho": 275
+            },
+            {
+              "titulo": "Contenedor Iso",
+              "texto": " Recipiente de carga para el transporte aéreo, marítimo o terrestre, que dispone, en cada una de sus esquinas, de alojamientos para los accesorios de elevación indicados en el apartado sobre accesorios para contenedores.",
+              "imagen": "img/mod04/contenedorIso.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Palet para carretillas de manutención",
+              "texto": "Armazón para la manutención de cargas especialmente diseñado para facilitar, por su parte inferior, la entrada de las horquillas de las carretillas de manutención.",
+              "imagen": "img/mod04/paletCarretilla.jpg",
+              "ancho": 275
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "USOS ESPECÍFICOS",
+      "contenido": [
+        {
+          "clase": "tabs",
+		  "animacion": "lightSpeedIn",
+          "subclase": "paraCambiar",
+          "contenido": [
+            {
+              "titulo": "Electroimanes",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Los electroimanes funcionan mediante el paso de una corriente por las bobinas internas, cuando este paso de corriente se interrumpe, el electroimán deja de imantar. El electroimán necesita para su funcionamiento una fuente de alimentación o unidad de control de corriente continua que le suministre las tensiones adecuadas para la imantación y para el proceso de desimantación (si fuera necesario). En caso de montar el electroimán en una máquina que ya lleve el control, asegurarse que suministre la tensión adecuada (corriente continua) al electroimán y que tenga potencia suficiente (ver la placa de características eléctricas sujeta a un lado del electroimán).<br><br>Cuando el electroimán se queda sin suministro eléctrico (Paro del equipo, fallo de alimentación, rotura del cable…..) deja de imantar, quedando la pieza solo sujeta mediante el magnetismo remanente."
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "Modo de empleo:",
+                  "contenido": [
+                    {
+                      "punto": "Las superficies de contacto, del electroimán y de las piezas, deben tener un contacto óptimo y estar limpias. "
+                    },
+                    {
+                      "punto": "Disponga la pieza centrada respecto al electroimán y abarcando la mayor superficie posible."
+                    },
+                    {
+                      "punto": "Para imantar, activar la fuente de alimentación (DC) siguiendo las instrucciones del fabricante."
+                    },
+                    {
+                      "punto": "Asegúrese de la buena sujeción de las piezas antes de trabajar, comprobando con algún accesorio no metálico (tipo palo) que no se muevan, nunca con la mano."
+                    }
+
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Elevación de bidones",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Caso especial es el de elevación de bidones, referido en la NTP 297."
+                },
+                {
+                  "clase": "tabs",
+				  "animacion": "fadeInLeft",
+                  "subclase": "paraCambiar",
+                  "contenido": [
+                    {
+                      "titulo": "Sistemas sencillos",
+                      "texto": "Son equipos auxiliares para ser colgados de grúas o polipastos. Sirven para elevar verticalmente bidones metálicos en buques, camiones abiertos, cintas de rodillos, superficie de almacenaje, etc.",
+                      "imagen": "img/mod04/sistemaSencillo.png",
+                      "subclase": "paraCambiar",
+                      "ancho": 700
+                    },
+                    {
+                      "titulo": "Sistemas múltiples",
+                      "texto": "Se ilustran dos sistemas de elevación de bidones. El primero (a) está compuesto de un marco de acero colgado de una eslinga de cuatro ramales y provista de una serie de cadenas con garras de sujeción correspondientes a la cantidad de bidones a elevar simultáneamente, pudiendo llegar a 4, 6 y 8 bidones a la vez, siempre en posición vertical. El segundo caso (b) sirve para elevar bidones en posición vertical de 1 a 4.",
+                      "imagen": "img/mod04/sistemaMultiple.png",
+                      "subclase": "paraCambiar",
+                      "ancho": 400
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Guiado manual",
+              "texto": "El guiado manual de cargas es un riesgo que provoca un gran número de accidentes, debido al atrapamiento entre la carga y superficies fijas de la instalación. No se debe acompañar la carga con las manos, se utilizará siempre elementos distanciadores, tipo cuerdas guía o ganchos."
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "¿Cuál de los siguientes no se considera “equipo amovible” de elevación de cargas?",
+              "respuestas": [
+                {
+                  "opcion": "Viga de suspensión o balancín",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Gancho en C",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Eslinga de cadena",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "La carga que puede trasportar un electroimán ha de ser:",
+              "respuestas": [
+                {
+                  "opcion": "De cualquier material",
+                  "correcto": false
+                },
+                {
+                  "opcion": "De material ferromagnético",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Solo se utilizan para el movimiento de chatarras",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Los accesorios de elevación serán seleccionados en función de:",
+              "respuestas": [
+                {
+                  "opcion": "La carga que se manipula, los dispositivos de enganche y el modo de amarre",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Cualquier accesorio de elevación sirve para cualquier carga",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son incorrectas",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Caso de tener un equipo amovible adecuado a una carga determinada:",
+              "respuestas": [
+                {
+                  "opcion": "Se utilizará siempre dicho equipo",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Se utilizarán preferentemente eslingas",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Es indiferente",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "¿Está permitido guiar cargas con las manos?",
+              "respuestas": [
+                {
+                  "opcion": "Sí, es la forma adecuada de hacerlo",
+                  "correcto": false
+                },
+                {
+                  "opcion": "No, se han de utilizar elementos distanciadores como cuerda guía",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Si, pero hay que tener mucho cuidado",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "La carga se colocará con su centro de gravedad alineado con la vertical ",
+              "respuestas": [
+                {
+                  "opcion": "Porque es la manera más fácil y rápida",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Para evitar los tiros oblicuos",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Ambas son incorrectas",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Las maniobras se realizan en 4 tiempos, ¿Cuál es la secuencia correcta?",
+              "respuestas": [
+                {
+                  "opcion": "1-eslingado de la carga<br>2-tensado de eslingas sin llegar a levantar la carga para comprobar fijación<br>3-ligera elevación de la carga para comprobar su estabilidad<br>4-elevación definitiva de la carga",
+                  "correcto": true
+                },
+                {
+                  "opcion": "1-eslingado de la carga<br>2-ligera elevación de la carga para comprobar su estabilidad<br>3-tensado de eslingas sin llegar a levantar la carga para comprobar fijación<br>4-elevación definitiva de la carga",
+                  "correcto": false
+                },
+                {
+                  "opcion": "El orden es indiferente.",
+                  "correcto": false
+                }
+              ]
+            },
+                        {
+              "texto": "Caso de tener que utilizar simultáneamente dos máquinas de elevación de cargas en la misma maniobra:",
+              "respuestas": [
+                {
+                  "opcion": "Forma parte del trabajo habitual, no requiere consideraciones especiales",
+                  "correcto": false
+                },
+                {
+                  "opcion": "La tarea se habrá evaluado previamente y se informará a los trabajadores implicados del procedimiento de trabajo adecuado",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Nunca se pueden utilizar dos puentes grúa de manera simultánea",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }, 
+
+{
+  "titulo": "Despedida",
+  "contenido": [
+    {
+      "clase": "listaObjetos",
+      "animacion": "fadeInRight",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Aquí hemos ido conociendo la importancia de la carga y los elementos de estrobado.<br><br>Sobre las eslingas hablaremos en los próximos tres módulos, dedicando uno a cada uno de los tipos de eslinga, ya que es tan importante como conocer la máquina, saber que estrobo hemos de elegir. "
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/despedida.jpg"
+        }
+      ]
+    }
+  ]
+}, {
+  "titulo": "¡Hasta luego!",
+  "fondo": "img/comunes/contraportada.svg",
+  "subclase": "portada"
+} ] }

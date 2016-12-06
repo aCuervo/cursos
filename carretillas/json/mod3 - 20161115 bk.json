@@ -1,0 +1,744 @@
+﻿{
+  "modulo": "Mod. 3: Entorno de trabajo",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En el segundo módulo nos ocupamos de los riesgos y su prevención, en este  tercero, hablaremos del <b>entorno</b>. Veremos cómo han de ser, según la ley, los lugares de trabajo."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/bienvenida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Definición",
+      "fondo": "img/mod3/madera.jpg",
+      "contenido": [
+        {
+          "clase": "icono",
+		  "animacion": "fadeInLeft",
+          "subclase": "definicion",
+          "texto": "<b>Lugares de trabajo</b>: Los entornos donde se lleva a cabo la <b>actividad</b> deben atenerse a lo establecido en el Real Decreto 486/1997, de 14 de Abril, sobre condiciones mínimas de seguridad y salud aplicables a los lugares de trabajo. La carretilla debe <b>adaptarse</b> a los locales en los que va a trabajar y a su vez el diseño de los ámbitos donde deba moverse la carretilla se ajustará a las características de dichos ingenios. Concretamente en la actividad de operador carretillero se deberán cuidar especialmente los apartados que veremos en las páginas siguientes."
+        }
+      ]
+    },
+    {
+      "titulo": "Orden, limpieza y mantenimiento",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInUp",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/limpieza.jpg"
+            },
+            {
+              "clase": "lista",
+              "subclase": "numeros",
+              "contenido": [
+                {
+                  "punto": "Las <b>zonas de paso, salidas y vías de circulación</b> de los lugares de trabajo y, en especial, las salidas y vías de circulación previstas para la evacuación en casos de emergencia, deberán permanecer <b>libres de obstáculos</b> de forma que sea posible utilizarlas sin dificultades en todo momento."
+                },
+                {
+                  "punto": "Los <b>lugares de trabajo</b>, incluidos los locales de servicio, y sus respectivos equipos e instalaciones, se <b>limpiarán</b> periódicamente y siempre que sea necesario para mantenerlos en todo momento en condiciones higiénicas adecuadas. A tal fin, las características de los suelos, techos y paredes serán tales que permitan dicha limpieza y mantenimiento. Se eliminarán con rapidez los desperdicios, las manchas de grasa, los residuos de sustancias peligrosas y demás productos residuales que puedan originar accidentes o contaminar el ambiente de trabajo."
+                },
+                {
+                  "punto": "Las <b>operaciones de limpieza</b> no deberán constituir por si mismas una fuente de riesgo para los trabajadores que las efectúen o para terceros, realizándose a tal fin en los momentos, de la forma y con los medios más adecuados."
+                },
+                {
+                  "punto": "Los lugares de trabajo y, en particular, sus instalaciones, deberán ser objeto de un <b>mantenimiento periódico</b>, de forma que sus condiciones de funcionamiento satisfagan siempre las especificaciones del proyecto, subsanándose con rapidez las deficiencias que puedan afectar a la seguridad y salud de los trabajadores. Si se utiliza una instalación de <b>ventilación</b>, deberá mantenerse en buen estado de funcionamiento y un sistema de control deberá indicar toda avería siempre que sea necesario para la salud de los trabajadores. En el caso de las instalaciones de protección, el mantenimiento deberá incluir el control de su funcionamiento."
+                }
+              ]
+            }
+          ]
+        }
+
+
+      ]
+    },
+    {
+      "titulo": "Firmes y suelos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInDown",
+          "contenido": [
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Los <b>suelos</b> de los lugares de trabajo deben ser fijos, estables y no resbaladizos, sin irregularidades ni pendientes peligrosas."
+                },
+                {
+                  "punto": "Los <b>pasillos</b> de circulación de estos vehículos deben estar debidamente delimitados y libres de objetos."
+                },
+                {
+                  "punto": "El <b>factor</b> más importante a considerar en un suelo para la circulación de carretillas son las <b>irregularidades</b>, clasificando a los suelos en:",
+                  "contenido": [
+                    {
+                      "punto": "Suelos <b>Normales</b> = Irregularidad de +5 mm. en distancias de 2 m."
+                    },
+                    {
+                      "punto": "Suelos <b>Muy Buenos</b> = Irregularidad de +3 mm. en distancias de 2 m."
+                    },
+                    {
+                      "punto": "Suelos <b>Superlisos</b> = Irregularidad de +1,5 mm. en distancias de 2 m. y cumpliendo otros requisitos de diferencia máxima permisible de niveles entre las ruedas traseras y delanteras de la carretilla cuando se desplaza en un pasillo"
+                    }
+                  ]
+                },
+                {
+                  "punto": "Los suelos deben ser <b>resistentes</b> al paso de las carretillas en el caso de máxima carga y antiderrapantes de acuerdo con el tipo de rueda o llanta utilizada. "
+                },
+                {
+                  "punto": "Deberán <b>eliminarse</b> cualquier tipo de agujeros, salientes o cualquier otro obstáculo en zonas de circulación de carretillas."
+                },
+                {
+                  "punto": "Si la pendiente es superior a la <b>inclinación máxima</b> de la horquilla se obligará al empresario a señalizar la inclinación y al operario a circular marcha atrás."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+			  "animacion": "pulse",
+              "imagen": "img/mod3/suelo.jpg"
+            }
+
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Compatibilidad",
+      "fondo": "img/mod3/compatibilidad.jpg",
+      "contenido": [
+        {
+          "clase": "icono",
+		  "animacion": "shake",
+          "subclase": "exclamacion",
+          "texto": "Se debe utilizar una carretilla compatible con el <b>local</b> donde debe operar. Así en función de si debe trabajar al aire libre, en locales cubiertos pero bien ventilados o en locales cerrados de ventilación limitada, se elegirá la <b>fuerza motriz</b> de la máquina y depuradores de <b>gases</b> de escape. Además según lo mismo, la carretilla deberá estar provista de <b>iluminación</b> propia a no ser que sólo trabaje en locales al aire libre y en horas diurnas. Es necesario prever un lugar para guardar las carretillas así como para efectuar labores de mantenimiento."
+        }
+      ]
+    },
+    {
+      "titulo": "Vías de circulación",
+      "fondo": "img/mod3/pasillo.jpg",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "flash",
+          "subclase": "recuadro",
+          "contenido": [
+            {
+              "punto": "Las <b>vías de circulación</b> de los lugares de trabajo, tanto las situadas en el exterior de los edificios y locales como en el interior de los mismos, incluidas las puertas, pasillos, escaleras, escalas fijas, rampas y muelles de carga, deberán poder utilizarse conforme a su <b>uso previsto</b>, de forma fácil y con total seguridad para los peatones o vehículos que circulen por ellas y para el personal que trabaje en sus proximidades."
+            },
+            {
+              "punto": "A efectos de lo dispuesto en el apartado anterior, el <b>número, situación, dimensiones y condiciones</b> constructivas de las vías de circulación de personas o de materiales deberán <b>adecuarse</b> al número potencial de usuarios y a las características de la actividad y del lugar de trabajo. En el caso de los muelles y rampas de carga deberá tenerse especialmente en cuenta la dimensión de las cargas transportadas."
+            },
+            {
+              "punto": "La <b>anchura mínima</b> de las puertas exteriores y de los pasillos será de 80 centímetros y 1 metro, respectivamente."
+            },
+            {
+              "punto": "La <b>anchura de las vías</b> por las que puedan circular medios de transporte y peatones deberá permitir su paso simultáneo con una separación de seguridad suficiente."
+            },
+            {
+              "punto": "Las <b>vías de circulación</b> destinadas a vehículos deberán pasar a una distancia suficiente de las puertas, portones, zonas de circulación de peatones, pasillos y escaleras."
+            },
+            {
+              "punto": "Los <b>muelles de carga</b> deberán tener al menos una salida, o una en cada extremo cuando tengan gran longitud y sea técnicamente posible."
+            },
+            {
+              "punto": "Siempre que sea necesario para garantizar la <b>seguridad</b> de los trabajadores, el trazado de las vías de circulación deberá estar claramente señalizado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Pasillos de circulación",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "tada",
+          "contenido": [
+
+            {
+              "clase": "texto",
+              "texto": "<b>Pasillos de circulación</b>: El diseño de los pasillos de circulación debe cumplir las siguientes normas: La anchura de los pasillos no debe ser inferior en sentido único a la anchura del vehículo o a la de la carga incrementada en 1 metro de forma permanente, no debe ser inferior a dos veces la anchura de los vehículos o cargas incrementado en 1,20 metros."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/distancias.svg"
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Iluminación y ruido",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/iluminacion.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Los <b>niveles de iluminación</b> serán distintos según las necesidades y el tipo de trabajo a desarrollar. En el caso de los operadores de carretillas, donde la necesidad de distinción de detalles es importante debido a la colocación y recogida de cargas a alturas considerables, este aspecto es poco atendido. Cuando la iluminación de la zona de trabajo es inferior a <b>32lux</b> Debe preverse una iluminación auxiliar sobre la carretilla, como es el caso de contenedores o camiones de gran longitud de caja cerrada. Ningún tipo de modo de iluminación debe producir <b>deslumbramientos</b> a los conductores ni un excesivo <b>contraste</b> entre zonas iluminadas y de sombra."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInLeft",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "<b>Ruido</b>: El Real Decreto 1316/1989, de 27 de Octubre, establece que el <b>empresario</b> deberá evaluar la exposición de los trabajadores al ruido, con el objeto de determinar si se <b>superan</b> los límites establecidos en esta norma. La exposición a un elevado nivel sonoro induce a errores de maniobra y a fatiga provocando una pérdida de rendimiento y falta de seguridad. El <b>nivel máximo</b> a soportar medido en dB, es de 90 dB, a razón de 8 horas diarias, aunque se recomienda no sobrepasar los 85 dB. Según la norma alemana DIN 45635 debe disponerse de medios de protección que deberán usarse al pasar de 85 a 90 dB."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/ruido.jpg"
+
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Puertas y portones",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "swing",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/porton.jpg"
+            },
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Las <b>puertas transparentes</b> deberán tener una señalización a la altura de la vista."
+                },
+                {
+                  "punto": "Las <b>superficies transparentes</b> o translúcidas de las puertas y portones que no sean de material de seguridad deberán protegerse contra la rotura cuando ésta pueda suponer un peligro para los trabajadores."
+                },
+                {
+                  "punto": "Las puertas y portones de <b>vaivén</b> deberán ser transparentes o tener partes transparentes que permitan la visibilidad de la zona a la que se accede."
+                },
+                {
+                  "punto": "Las puertas <b>correderas</b> deberán ir provistas de un sistema de seguridad que les impida salirse de los carriles y caer."
+                },
+                {
+                  "punto": "Las puertas y portones que se abran <b>hacia arriba</b> estarán dotados de un sistema de seguridad que impida su caída."
+                },
+                {
+                  "punto": "Las puertas y portones <b>mecánicos</b> deberán funcionar sin riesgo para los trabajadores. Tendrán dispositivos de parada de emergencia de fácil identificación y acceso, y podrán abrirse de forma manual, salvo si se abren automáticamente en caso de avería del sistema de emergencia."
+                },
+                {
+                  "punto": "Las puertas de <b>acceso a las escaleras</b> no se abrirán directamente sobre sus escalones sino sobre descansos de anchura al menos igual a la de aquéllos."
+                },
+                {
+                  "punto": "Los <b>portones</b> destinados básicamente a la circulación de vehículos deberán poder ser utilizados por los peatones sin riesgos para su seguridad, o bien deberán disponer en su proximidad inmediata de puertas destinadas a tal fin, expeditas y claramente señalizadas."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+		  "animacion": "fadeInRight",
+          "subclase": "exclamacion",
+          "texto": "El paso por puertas y zonas demasiado estrechas:<ul><li>Un mínimo de <b>50 cm libres</b> entre puntos extremos, laterales y superior y los objetos fijos del lugar de trabajo.</li><li>Señalizar con <b>franjas negras y amarillas</b> inclinadas 45º las zonas estrechas.</li></ul>"
+        }
+      ]
+    },
+    {
+      "titulo": "Rampas y escaleras fijas o de servicio",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInUp",
+          "contenido": [
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Los <b>pavimentos</b> de las rampas, escaleras y plataformas de trabajo serán de materiales no resbaladizos o dispondrán de elementos antideslizantes."
+                },
+                {
+                  "punto": "En las escaleras o plataformas con pavimentos perforados la <b>abertura máxima</b> de los intersticios será de 8 milímetros."
+                },
+                {
+                  "punto": "Las rampas tendrán una <b>pendiente máxima</b> del 12% cuando su longitud sea menor que 3 metros, del 10% cuando su longitud sea menor que 10 metros o del 8% en el resto de los casos."
+                },
+                {
+                  "punto": "Las <b>escaleras</b> tendrán una <b>anchura mínima</b> de 1 metro, excepto en las de servicio, que será de 55 centímetros."
+                },
+                {
+                  "punto": "Los <b>peldaños</b> de una escalera tendrán las mismas dimensiones. Se prohíben las escaleras de caracol excepto si son de servicio."
+                },
+                {
+                  "punto": "Los <b>escalones</b> de las escaleras que no sean de servicio tendrán una huella comprendida entre 23 y 36 centímetros, y una contrahuella entre 13 y 20 centímetros. Los escalones de las escaleras de servicio tendrán una huella mínima de 15 centímetros y una contrahuella máxima de 25 centímetros."
+                },
+                {
+                  "punto": "La <b>altura máxima</b> entre los descansos de las escaleras será de 3,7 metros. La profundidad de los descansos intermedios, medida en dirección a la escalera, no será menor que la mitad de la anchura de ésta, ni de 1 metro. El <b>espacio libre vertical</b> desde los peldaños no será inferior a 2,2 metros."
+                },
+                {
+                  "punto": "Las <b>escaleras mecánicas y cintas rodantes</b> deberán tener las condiciones de funcionamiento y dispositivos necesarios para garantizar la seguridad de los trabajadores que las utilicen. Sus dispositivos de parada de emergencia serán fácilmente identificables y accesibles."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/escaleras.jpg"
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Condiciones de protección contra incendios",
+      "fondo": "img/mod3/fuego.jpg",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "flash",
+          "subclase": "recuadro",
+          "contenido": [
+            {
+              "punto": "Los lugares de trabajo deberán ajustarse a lo dispuesto en la normativa que resulte de aplicación sobre condiciones de <b>protección contra incendios</b>. En todo caso, y a salvo de disposiciones específicas de la normativa citada, dichos lugares deberán satisfacer las condiciones que se señalan en los siguientes puntos de este apartado."
+            },
+            {
+              "punto": "Según las <b>dimensiones y el uso de los edificios</b>, los equipos, las características físicas y químicas de las sustancias existentes, así como el número máximo de personas que puedan estar presentes, los lugares de trabajo deberán estar equipados con dispositivos adecuados para combatir los incendios y, si fuere necesario, con detectores contra incendios y sistemas de alarma."
+            },
+            {
+              "punto": "Los <b>dispositivos no automáticos</b> de lucha contra los incendios deberán ser de fácil acceso y manipulación. Dichos dispositivos deberán señalizarse conforme a lo dispuesto en el Real Decreto 485/1997, de 14 de abril, sobre disposiciones mínimas de señalización de seguridad y salud en el trabajo. Dicha señalización deberá fijarse en los lugares adecuados y ser duradera."
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Muelles de carga",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "shake",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/muelle.jpg"
+
+            },
+            {
+              "clase": "lista",
+			  "animacion": "flash",
+              "titulo": "Los trabajos en los muelles de carga",
+              "contenido": [
+                {
+                  "punto": "<b>Mirar</b> antes de iniciar cualquier movimiento para no caer al vacío."
+                },
+                {
+                  "punto": "Saber a qué <b>distancia</b> del muelle se está en cada momento."
+                },
+                {
+                  "punto": "Tomar el <b>control</b> de las operaciones de carga y descarga."
+                },
+                {
+                  "punto": "<b>Inmovilizar</b> los remolques hasta terminar las operaciones de carga y descarga:",
+                  "contenido": [
+                    {
+                      "punto": "A través de <b>sistemas mecánicos</b>."
+                    },
+                    {
+                      "punto": "Mediante el uso de <b>calzos especiales</b> para inmovilizar camiones, en ambos lados de las ruedas, y sujetos al suelo mediante cadenas para evitar su robo o extravío."
+                    }
+                  ]
+                },
+                {
+                  "punto": "Establecer un <b>sistema de comunicación</b> claro con los camioneros (deben saber cuándo pueden retirar un camión)."
+                },
+                {
+                  "punto": "Asegurarse de que la <b>rampa de carga</b> sea resistente y esté limpia y bien sujeta."
+                },
+                {
+                  "punto": "Procurar que la rampa de carga tenga <b>poca pendiente</b>."
+                },
+                {
+                  "punto": "Asegurarse de que la rampa de carga tiene una <b>anchura suficiente</b> para que la carretilla pueda entrar y salir en línea recta."
+                },
+                {
+                  "punto": "Si se utilizan <b>niveladores permanentes</b>, comprobar que tienen tope de seguridad y rodapiés."
+                },
+                {
+                  "punto": "Comprobar que los <b>bordes laterales</b> de la rampa de carga están elevados, para que el conductor sienta cuándo está tocando el borde con las ruedas."
+                }
+              ]
+            }
+          ]
+        }
+
+
+      ]
+    },
+    {
+      "titulo": "Montacargas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "wobble",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "El uso del <b>montacargas</b>:",
+              "contenido": [
+                {
+                  "punto": "Comprobar que está <b>diseñado</b> para el peso de la carretilla elevadora cargada y autorizado para el uso de personas."
+                },
+                {
+                  "punto": "Dadas sus dimensiones, circular <b>despacio y en línea recta</b>."
+                },
+                {
+                  "punto": "Una vez en su interior, <b>apagar el motor</b> y colocar el freno de mano, y no bajar de la carretilla si no es imprescindible."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/montacargas.jpg",
+			  "animacion": "fadeInUp",
+              "ancho": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Cruces",
+      "fondo": "img/mod3/vias.jpg",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "tada",
+          "subclase": "recuadro",
+          "titulo": "Cruce de cables tendidos sobre el área de trabajo:",
+          "contenido": [
+            {
+              "punto": "No pasar por <b>encima</b> de un cable tendido si está sin proteger, o protegerlo con algún elemento rígido firmemente sujeto al suelo."
+            },
+            {
+              "punto": "<b>Señalar</b> los cables tendidos y <b>avisar</b> a los demás conductores."
+            },
+            {
+              "punto": "Cruzar <b>perpendicularmente</b> al cable y a velocidad muy lenta para evitar el vuelco de la carretilla."
+            },
+            {
+              "punto": "Si es una <b>vía de ferrocarril</b>, comprobar que la vía está libre."
+            },
+            {
+              "punto": "Aproximarse perpendicularmente, <b>reducir</b> la velocidad, y hacer que las ruedas delanteras crucen al mismo tiempo."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+		  "animacion": "fadeInUp",
+          "subclase": "recuadro",
+          "titulo": "Cruce de <b>vías y resaltes</b>:",
+          "contenido": [
+            {
+              "punto": "Si es una vía de <b>ferrocarril</b>, comprobar que la vía está libre."
+            },
+            {
+              "punto": "Aproximarse perpendicularmente, reducir la velocidad, y hacer que las <b>ruedas delanteras</b> crucen al mismo tiempo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Conductores",
+      "fondo": "img/mod3/manual.jpg",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "pulse",
+          "subclase": "recuadro",
+          "titulo": "<b>Manual de seguridad</b> para conductores de carretillas elevadoras FREMAP.",
+          "contenido": [
+            {
+              "punto": "Los peatones siempre tienen preferencia:",
+              "contenido": [
+                {
+                  "punto": "<b>Primero</b>. Avisar de su proximidad tocando el claxon."
+                },
+                {
+                  "punto": "<b>Segundo</b>. Asegurarse de que se está a más de 1 m del peatón."
+                }
+              ]
+            },
+            {
+              "punto": "Al circular detrás de otra carretilla, mantener una <b>distancia de seguridad</b> de 3 veces la longitud de su carretilla."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Tipos de estanterías",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "bounceIn",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Dada la importancia de los sistemas de almacenaje en el trabajo de carretillero, vamos a dedicarle un apartado específico. En el mercado existen diversos tipos de almacenaje, cada empresa deberá realizar un estudio para definir cuál es el más adecuado a sus necesidades."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/tiposAlmacenaje.jpg",
+              "ancho": 400
+            }
+          ]
+        },
+        {
+          "clase": "acordeon",
+		  "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Paletización convencional",
+              "texto": "Estanterías metálicas diseñadas para el almacenaje de productos paletizados con gran variedad de referencias. La distribución de este tipo de almacenes está condicionada a las características de las carretillas o medios de elevación y a la altura del almacén.",
+              "imagen": "img/mod3/paletConvencional.jpg",
+              "ancho": 300
+
+            },
+            {
+              "titulo": "Paletización compacta o drive-in",
+              "texto": "La paletización compacta o paletización drive-in consigue aprovechar el espacio real gracias a la eliminación del pasillo entre estanterías. Las estanterías compactas se utilizan para almacenar productos homogéneos y que no necesiten gran rotación. En las estanterías drive-in las paletas son cargadas sobre raíles laterales mediante carretillas frontales.",
+              "imagen": "img/mod3/paletCompacto.jpg",
+              "ancho": 300
+
+            },
+            {
+              "titulo": "Almacén autoportante",
+              "texto": "Un sistema autoportante integra la estantería como estructura soporte de toda la edificación. Cualquiera de los sistemas de almacenaje (convencional, compacto, dinámico, etc.) Es susceptible de convertirse en autoportante añadiendo los elementos apropiados para soporte de cerramientos de fachadas y cubierta y de todas las demás instalaciones y accesorios que la edificación requiere para su correcto funcionamiento.",
+              "imagen": "img/mod3/autoportante.jpg",
+              "ancho": 300
+
+            },
+            {
+              "titulo": "Picking",
+              "texto": "Las estanterías para picking están destinadas a aquellos almacenes donde la mercancía es almacenada y retirada de las estanterías, bien de forma manual, o a través de carretillas específicas para picking. La disposición de pasillos en altura y escaleras de acceso es una de las opciones para aprovechar el espacio disponible.",
+              "imagen": "img/mod3/picking.jpg",
+              "ancho": 300
+            },
+            {
+              "titulo": "Cantilever",
+              "texto": "Las estanterías cantilever están ideadas para el almacenamiento de cargas largas, pesadas y voluminosas. Este sistema puede ser sencillo o doble y regulable según la necesidad de almacenamiento.",
+              "imagen": "img/mod3/cantilever.jpg",
+              "ancho": 300
+            },
+            {
+              "titulo": "Pasillos elevados",
+              "texto": "Sistema de almacenaje manual que proporciona un óptimo aprovechamiento de la altura y del espacio del almacén. Este sistema de estanterías metálicas proporciona diferentes niveles de pasillos transitables de carga en altura a los que se accede mediante escaleras.",
+              "imagen": "img/mod3/pasilloElevado.jpg",
+              "ancho": 300
+
+            },
+            {
+              "titulo": "Push-back",
+              "texto": "La paletización push back es un sistema diseñado para el almacenaje por acumulación de productos paletizados con necesidades medias de rotación. En las estanterías push back los palets se apoyan sobre unos carros que se desplazan por empuje.",
+              "imagen": "img/mod3/pushback.jpg",
+              "ancho": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "La carretilla debe adaptarse a los locales en los que va a trabajar y a su vez el diseño de los ámbitos donde deba moverse la carretilla se ajustará a las características de dichos ingenios.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero .",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Falso.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "¿Cuál de las siguientes afirmaciones no es correcta?",
+              "respuestas": [
+                {
+                  "opcion": "Las operaciones de limpieza no deberán constituir por si mismas una fuente de riesgo para los trabajadores que las efectúen o para terceros, realizándose a tal fin en los momentos, de la forma y con los medios más adecuados.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Las zonas de paso, salidas y vías de circulación de los lugares de trabajo y, en especial, las salidas y vías de circulación previstas para la evacuación en casos de emergencia, son zonas adecuadas para depositar cargas.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Las zonas de paso, salidas y vías de circulación de los lugares de trabajo y, en especial, las salidas y vías de circulación previstas para la evacuación en casos de emergencia, son zonas adecuadas para depositar cargas.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Hablando de suelos:",
+              "respuestas": [
+                {
+                  "opcion": "Los suelos de los lugares de trabajo deben ser fijos, estables y no resbaladizos, sin irregularidades ni pendientes peligrosas.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Los pasillos de circulación de estos vehículos deben estar debidamente delimitados y libres de objetos.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Siempre que sea necesario para garantizar la seguridad de los trabajadores, el trazado de las vías de circulación deberá estar claramente señalizado.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Falso.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "En los pasillos de circulación, para las carretillas:",
+              "respuestas": [
+                {
+                  "opcion": "La anchura de los pasillos no debe ser inferior en sentido único a la anchura del vehículo o a la de la carga incrementada en 1 metro de forma permanente.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Y no debe ser inferior a dos veces la anchura de los vehículos o cargas incrementado en 2,20 metros.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "No hay medida mínima establecida.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "¿Qué afirmación es correcta?",
+              "respuestas": [
+                {
+                  "opcion": "La carretilla siempre tiene preferencia de paso.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Si no hay señal que indique lo contrario, los peatones siempre tienen preferencia.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "La preferencia la tiene quien llega antes.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Al circular tras otro vehículo, la distancia de seguridad será de:",
+              "respuestas": [
+                {
+                  "opcion": "2.5 metros.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "3 metros.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "1.5 metros.",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod3/despedida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Hemos estado viendo el entorno adecuado para la utilización de las carretillas, en función de las exigencias de la ley. Entre otras cosas la importancia que tiene que la zona de trabajo esté <b>limpia y ordenada</b> para evitar accidentes indeseados. En el próximo módulo comenzaremos con el <b>manejo</b> de nuestra máquina."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

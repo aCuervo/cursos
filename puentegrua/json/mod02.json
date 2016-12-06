@@ -1,0 +1,488 @@
+﻿{
+  "modulo": "Mod. 2: Operario",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "En el primer módulo conocimos las características del puente grúa, y los tipos de máquina con que nos podemos encontrar. Veremos en este segundo módulo, las aptitudes y responsabilidades de <b>gruista y señalista</b>. Conoceremos también el <b>código</b> de señales que se emplean en las maniobras de puente  grúa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "EL OPERADOR",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Comenzaremos con la definición de las diversas personas implicadas en la maniobra de un puente grúa, según la <a href='http://www.insht.es/InshtWeb/Contenidos/Documentacion/FichasTecnicas/NTP/Ficheros/701a750/ntp_737.pdf' target='_blank'> NTP 737</a>. No todas serán necesarias en cada movimiento a efectuar."
+        },
+        {
+          "clase": "lista",
+		  "animacion": "fadeInUpBig",
+          "contenido": [
+            {
+              "punto": "<b>Jefe de maniobra</b>: persona responsable del equipo de maniobra, que es el que prepara, amarra, estroba, apila, emplaza y transporta las cargas."
+            },
+            {
+              "punto": "<b>Operador o grúista</b>: persona responsable de la conducción del puente grúa, bajo las instrucciones del señalista, si este existe. "
+            },
+            {
+              "punto": "<b>Encargado de señales (ayudante de maniobra)</b>: persona que guía al operador, en las grúas dotadas de cabina que lo requieran, para que pueda realizar de forma segura los movimientos en carga o en vacío. Puede ser el propio jefe de maniobra. "
+            },
+            {
+              "punto": "<b>Personal del área de trabajo</b>: personal del almacén, área de influencia de la grúa o que deba circular periódica o esporádicamente por la misma."
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "APTITUDES Y RESPONSABILIDADES DEL OPERADOR. FUNCIÓN DENTRO DEL EQUIPO DE MANUTENCIÓN.",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "bounceInLeft",
+          "titulo": "El operador del puente grúa es responsable del uso correcto del equipo, según la ley 31/95 de PRL, en su artículo 29, que dice:",
+          "contenido": [
+            {
+              "punto": "Corresponde a cada trabajador velar, según sus posibilidades y mediante el cumplimiento de las medidas de prevención que en cada caso sean adoptadas, por su propia seguridad y salud en el trabajo y por la de aquellas otras personas a las que pueda afectar su actividad profesional, a causa de sus actos y omisiones en el trabajo, de conformidad con su formación y las instrucciones del empresario."
+            },
+            {
+              "punto": "Los trabajadores, con arreglo a su formación y siguiendo las instrucciones del empresario, deberán en particular:",
+              "contenido": [
+                {
+                  "punto": "Usar adecuadamente, de acuerdo con su naturaleza y los riesgos previsibles, las máquinas, aparatos, herramientas, sustancias peligrosas, equipos de transporte y, en general, cualesquiera otros medios con los que desarrollen su actividad."
+                },
+                {
+                  "punto": "Utilizar correctamente los medios y equipos de protección facilitados por el empresario, de acuerdo con las instrucciones recibidas de éste."
+                },
+                {
+                  "punto": "No poner fuera de funcionamiento y utilizar correctamente los dispositivos de seguridad existentes o que se instalen en los medios relacionados con su actividad o en los lugares de trabajo en los que ésta tenga lugar."
+                },
+                {
+                  "punto": "Informar de inmediato a su superior jerárquico directo, y a los trabajadores designados para realizar actividades de protección y de prevención o, en su caso, al servicio de prevención, acerca de cualquier situación que, a su juicio, entrañe, por motivos razonables, un riesgo para la seguridad y la salud de los trabajadores."
+                },
+                {
+                  "punto": "Contribuir al cumplimiento de las obligaciones establecidas por la autoridad competente con el fin de proteger la seguridad y la salud de los trabajadores en el trabajo."
+                },
+                {
+                  "punto": "Cooperar con el empresario para que éste pueda garantizar unas condiciones de trabajo que sean seguras y no entrañen riesgos para la seguridad y la salud de los trabajadores."
+                }
+              ]
+            },
+            {
+              "punto": "El incumplimiento por los trabajadores de las obligaciones en materia de prevención de riesgos a que se refieren los apartados anteriores tendrá la consideración de incumplimiento laboral a los efectos previstos en el artículo 58.1 del Estatuto de los Trabajadores o de falta, en su caso, conforme a lo establecido en la correspondiente normativa sobre régimen disciplinario de los funcionarios públicos o del personal estatutario al servicio de las Administraciones públicas. Lo dispuesto en este apartado será igualmente aplicable a los socios de las cooperativas cuya actividad consista en la prestación de su trabajo, con las precisiones que se establezcan en sus Reglamentos de Régimen Interno.”"
+            }
+          ]
+
+
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "bounceIn",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/operario.svg",
+              "ancho": 200
+            },
+            {
+              "clase": "texto",
+              "texto": "Habitualmente, se manipulan los materiales sobre áreas de trabajo donde hay personal. Por tanto, es importante que el operador de la grúa esté capacitado en el uso de la grúa y que entienda las graves consecuencias de una operación poco cuidadosa.<br><br>No se pretende que estas sugerencias tengan prioridad sobre las normas y reglamentos vigentes de seguridad de la planta o las regulaciones de OSHA. Sin embargo, un estudio exhaustivo de la siguiente información deberá proporcionar una mejor comprensión de la operación segura y permitir un mayor margen de seguridad para las personas y maquinaria en la planta."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+		  "animacion": "wobble",
+          "texto": "Éstas son sugerencias para uso del operador de la grúa. Es responsabilidad del empresario alertar al personal de todas las normas y códigos, estatales y locales, y asegurarse de que los operadores estén debidamente capacitados.<br><br>Para que la operación de la grúa sea segura y eficiente, se requiere de habilidad: el ejercicio del máximo cuidado y buen juicio, estado de alerta y concentración, además de una estricta adherencia a reglas y prácticas de seguridad probadas según se establece en las normas de seguridad de ANSI y OSHA aplicables y vigentes."
+        },
+        {
+          "clase": "lista",
+		  "animacion": "fadeInRight",
+          "titulo": "En la práctica general, no se debería autorizar a nadie para que opere una grúa de cualquier tipo:",
+          "contenido": [
+            {
+              "punto": "Si no puede hablar el idioma adecuado o leer y entender las instrucciones impresas."
+            },
+            {
+              "punto": "Si no tiene la edad legal para operar este tipo de equipos."
+            },
+            {
+              "punto": "Cuyo oído o la vista estén afectados (a menos que estén convenientemente corregidos con buena percepción de la profundidad)."
+            },
+            {
+              "punto": "Si puede estar sufriendo del corazón u otras enfermedades que puedan interferir con el desempeño seguro del operador. "
+            },
+            {
+              "punto": "A menos que el operador haya leído y estudiado cuidadosamente este manual de operación. "
+            },
+            {
+              "punto": "A menos que el operador haya sido correctamente capacitado. "
+            },
+            {
+              "punto": "A menos que el operador haya demostrado su capacitación mediante la operación en la práctica. "
+            },
+            {
+              "punto": "A menos que el operador esté familiarizado con los equipos de enganche y las prácticas de seguridad en dichos equipos. "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "APTITUDES Y CONOCIMIENTOS PREVIOS",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "fadeInLeft",
+          "contenido": [
+            {
+              "punto": "Edad mínima 18 años. "
+            },
+            {
+              "punto": "Capacidad para la comprensión de las instrucciones verbales, escritas y la simbología empleada para la circulación de las grúas. "
+            },
+            {
+              "punto": "Buena percepción y capacidad para transformar las señales percibidas en actuaciones correctas. "
+            },
+            {
+              "punto": "Plena capacidad física, psíquica y sensorial, constatada mediante examen médico, con certificado de aptitud para los requerimientos de la tarea."
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "CONDICIONES FÍSICAS",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "fadeInDown",
+          "titulo": "Condiciones físicas",
+          "contenido": [
+            {
+              "punto": "Agudeza visual suficiente, campo de visión lateral, visión espacial, buen oído, buena movilidad de pies y brazos. "
+            },
+            {
+              "punto": "Inexistencia de enfermedades, o de incapacidades contraindicadas para este trabajo. "
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "CONDICIONES PSÍQUICAS",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "fadeInUp",
+          "titulo": "Condiciones psíquicas",
+          "contenido": [
+            {
+              "punto": "Responsabilidad, fiabilidad, precaución y consideración para los demás."
+            },
+            {
+              "punto": "Emotividad."
+            },
+            {
+              "punto": "Equilibrio mental. "
+            },
+            {
+              "punto": "Sentido de la responsabilidad."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Operador de grúa",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "texto": "<b>Operador de grúa</b>: Su función es la de manejar la máquina, ser conocedor de la misma y sus características. "
+        },
+        {
+          "clase": "lista",
+		  "animacion": "bounceInRight",
+          "titulo": "A continuación se pueden ver una serie de recomendaciones:",
+          "contenido": [
+            {
+              "punto": "El traslado de las cargas, se realizará en la medida de lo posible, por los pasillos o espacios señalizados al efecto, haciendo funcionar la señal sonora, para conocimiento del personal."
+            },
+            {
+              "punto": "Cuando la grúa funciona en vacío, elevar el gancho lo más posible, para evitar dañar a personas u objetos."
+            },
+            {
+              "punto": "Cuando la grúa funciona en vacío, elevar el gancho lo más posible, para evitar dañar a personas u objetos."
+            },
+            {
+              "punto": "Al finalizar la jornada, y en caso de vientos fuertes, aparcar la grúa y trincarlas en lugar adecuado, con el gancho recogido. "
+            },
+            {
+              "punto": "Cualquier anomalía observada en la máquina, que pueda afectar a su funcionamiento, se ha de comunicar al mando a la mayor brevedad, paralizado la maquina en su caso."
+            },
+            {
+              "punto": "Caso de avería de la grúa, se dejará ésta fuera de servicio,  y es primordial, en este caso, colocar un cartel de FUERA DE SERVICIO, en lugar visible, para evitar su uso por otra persona, asimismo no está de más, si el mando es por radiocontrol, entregarlo al mando, para su custodia hasta la nueva puesta en servicio de la máquina."
+            },
+            {
+              "punto": "El operador debe conocer perfectamente el código de señales empleado por el señalista."
+            },
+            {
+              "punto": "Caso que la carga a izar, se aproxime al máximo teórico de la grúa,  en un primer movimiento nunca se elevará más allá de un metro, a fin de comprobar que los frenos responden."
+            },
+            {
+              "punto": "Cuando la carga no sea estable o se observe mal estrobada, se arriará de inmediato para proceder a su corrección."
+            },
+            {
+              "punto": "Durante el uso de electroimanes, se extremarán las precauciones. Recordar la expresa prohibición de utilizarlos para el traslado de recipientes y botellas de gases a presión."
+            },
+            {
+              "punto": "Las maniobras combinadas, deberán estar evaluadas mediante estudio técnico, y ser dirigidas por personal especializado."
+            },
+            {
+              "punto": "Si no se tiene un óptimo dominio visual de la zona de maniobra, requerir la ayuda de cuantos compañeros sea necesario para efectuar el traslado adecuado de la carga."
+            },
+            {
+              "punto": "Al abandonar la grúa al finalizar la tarea o el turno, dejarla siempre con los mandos e interruptores desconectados."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "APTITUDES Y RESPONSABILIDADES DEL SEÑALISTA",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "jello",
+          "titulo": "El encargado de señales debe poseer unas condiciones personales (físicas, psíquicas y sensoriales) que garanticen el correcto desempeño de las tareas y exigencias de su puesto y, especialmente: ",
+          "contenido": [
+            {
+              "punto": "Capacidad para la comprensión de las instrucciones verbales, escritas y la simbología empleada para la maniobra de las grúas. "
+            },
+            {
+              "punto": "Buena percepción, en especial la capacidad para transformar las señales percibidas en actuaciones razonables. "
+            },
+            {
+              "punto": "Agudeza visual suficiente, campo de visión lateral, visión espacial. "
+            },
+            {
+              "punto": "Capacidad auditiva que le permita la correcta audición de las comunicaciones verbales así como de la señalización acústica del equipo. "
+            },
+            {
+              "punto": "Buena movilidad y coordinación en los movimientos de los brazos. "
+            },
+            {
+              "punto": "Inexistencia de enfermedades, o incapacidades contraindicadas para este trabajo. "
+            },
+            {
+              "punto": "Responsabilidad, fiabilidad, precaución y consideración para los demás. "
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "shake",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "paraCambiar",
+              "imagen": "img/mod02/señalista.png"
+            },
+            {
+              "clase": "texto",
+              "texto": "Para la acreditación y autorización de actuación como “encargado de señales, éste deberá demostrar un nivel de conocimientos teórico-práctico de los gestos codificados a realizar y un buen nivel de compenetración y coordinación con el operador de la grúa. Asimismo deberá conocer los distintos tipos de maniobra posibles de la grúa, así como sus limitaciones."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+		  "animacion": "lightSpeedIn",
+          "titulo": "En cumplimiento de las exigencias del RD 485/97 y a fin de que el encargado de señales sea fácilmente reconocido por el operador, deberá llevar uno o varios elementos de identificación de entre los que cita el propio RD 485/97. Asimismo deberá actualizarse la formación en los siguientes casos:",
+          "contenido": [
+            {
+              "punto": "Cuando el operario haya dejado durante un periodo de tiempo considerable (superior a 1 año) su actividad de encargado de señales. "
+            },
+            {
+              "punto": "Cuando cambie el gruísta. "
+            },
+            {
+              "punto": "Siempre que existan modificaciones en la grúa, proceso de trabajo, mejoras técnicas importantes o aplicación de nuevos accesorios o equipos."
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "CÓDIGOS DE SEÑALIZACIÓN DE MANIOBRAS.",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInDown",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "<b>Comunicaciones para la operación de grúas</b>: Cuando esté establecido en la empresa o por las características del área sea aconsejable que en las maniobras de la grúa deba intervenir un señalista, la comunicación gestual entre éste y el operador se realizará mediante una serie de ademanes concretos que viene establecidos en el Anexo VI del RD 485/1997 - Señalización de Seguridad y Salud en el Trabajo o bien, si se utiliza un sistema de radioteléfono, mediante frases cortas perfectamente ensayadas y conocidas por el señalista y el operador."
+            },
+            {
+              "clase": "imagen",
+              "subclase": "paraCambiar",
+              "imagen": "img/mod02/comunicaciones.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "¿Quién puede utilizar el puente grúa?",
+              "respuestas": [
+                {
+                  "opcion": "Cualquier trabajador mayor de edad.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Cualquier trabajador mayor de edad, que haya recibido la formación oportuna y además haya sido autorizado para ello por la empresa.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Cualquier trabajador mayor de edad y que haya recibido la formación oportuna.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Si la grúa funciona en vacío, el gancho:",
+              "respuestas": [
+                {
+                  "opcion": "Se llevará a  1m del suelo.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "En realidad no importa a que altura se lleve.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Se moverá en su posición más elevada.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Si encontramos en el puente grúa un cartel de FUERA DE SERVICIO:",
+              "respuestas": [
+                {
+                  "opcion": "No se usa bajo ningún concepto.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Retiramos el cartel y la utilizamos.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Para ejercer de señalista:",
+              "respuestas": [
+                {
+                  "opcion": "Hay que conocer el código estándar.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Con los gestos habituales está permitido",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Se dirige la maniobra a gritos.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Caso de avería de la grúa, se dejará ésta fuera de servicio: ",
+              "respuestas": [
+                {
+                  "opcion": "Avisamos al mando y dejamos la grúa",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Colocamos un cartel de FUERA DE SERVICIO, en lugar visible, para evitar su uso por otra persona, y avisamos al mando",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Lo dejamos tal como está, no podemos hacer nada.",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },     
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Hemos visto, que no cualquier persona puede ser gruista, se necesitan una serie de requerimientos, algunos de ellos médicos para poder ejercer como tal.<br><br>Por supuesto también necesitaremos la formación adecuada y en ello estamos. En el tercer módulo nos centraremos en el manejo de nuestra máquina."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

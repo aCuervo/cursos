@@ -1,0 +1,1296 @@
+﻿{
+  "modulo": "Mod. IV.3: Categorías Referenciadas de Salado",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Conocimiento de Producto",
+      "subclase": "pattern",
+      "fondo": "img/comunes/portada.svg",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "animacion": "slideInRight",
+          "imagen": "img/m4.3/portadaImg.svg"
+
+        }
+      ]
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "animacion": "fadeInLeft",
+              "texto": "Te damos la bienvenida al <b>cuarto</b> de los módulos del curso de \"Conocimiento de Producto: Sección de Panadería\".<br><br>Con los módulos anteriores has descubierto por qué los productos de la sección de panadería son <b>únicos</b> y <b>diferentes</b>, y lo fundamental que resulta saber detectar de forma exacta las necesidades planteadas por nuestros clientes.<br><br>También nos hemos aproximado a la clasificación de los productos bajo el punto de vista del <b>cliente</b>, y a las pautas más adecuadas a la hora de recomendar nuestros productos. En el módulo actual, vamos a conocer las categorías más destacables de los grupos de <b>productos salados</b> de la sección de panadería, categorías que podrás encontrar detallada e individualmente en el listado de productos que tenemos preparado para ti."
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "animacion": "fadeInRight",
+              "imagen": "img/m4.3/campo.jpg",
+              "ancho": 490
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Objetivos",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "rubberBand",
+          "texto": "Con el curso de \"Conocimiento de Producto: Sección de Panadería\" pretendemos facilitar algunas claves con el <b>objetivo</b> de convertirte en un profesional experto en la venta de productos de panadería. Siguiendo sus pautas, lograrás ajustar cada producto que vendas a las necesidades y preferencias del cliente, alcanzando el objetivo final de tu trabajo: <b>que el cliente vuelva</b>."
+        },
+        {
+          "clase": "lista",
+          "subclase": "objetivos",
+          "animacion": "bounce",
+          "titulo": "Objetivos a conseguir con este Módulo:",
+          "contenido": [
+            {
+              "punto": "Objetivos Principales:",
+              "contenido": [
+                {
+                  "punto": "Aprender las características principales de los productos Salados."
+                },
+                {
+                  "punto": "Conocer los ingredientes principales con los que se elabora cada grupo de productos."
+                }
+              ]
+            },
+            {
+              "punto": "Objetivo Secundario:",
+              "contenido": [
+                {
+                  "punto": "Asociar los productos dentro de las categorías y características que le corresponden."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "animacion": "rubberBand",
+          "imagen": "img/comunes/madalena.svg",
+          "ancho": 200
+        }
+      ]
+    },
+    {
+      "titulo": "Categorías referenciadas. Definiciones",
+      "contenido": [
+                {
+          "clase": "texto",
+          "texto": "De forma general, estas son las características que vamos a ver en todos los productos de la sección panadería."
+        },
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre cada pestaña para ver una explicación."
+        },
+        {
+          "clase": "tabsB",
+          "subclase": "izquierda",
+          "animacion": "rotateInDownLeft",
+          "contenido": [
+            {
+              "titulo": "Sabor",
+              "texto": "El <b>Sabor</b> es la característica que nos permite la clasificación del producto en: Pan, Dulce o Salado, siempre orientado de cara al cliente."
+            },
+            {
+              "titulo": "Conservación",
+              "texto": "La <b>Conservación</b> nos proporciona información sobre los principios de conservación y vida útil del producto."
+            },
+            {
+              "titulo": "Relleno",
+              "texto": "El <b>Relleno</b> nos detalla si el producto lleva o no relleno, y en caso afirmativo en qué consiste."
+            },
+            {
+              "titulo": "Tipo de Masa",
+              "texto": "El <b>Tipo de Masa</b>, tal y como su propio nombre indica, se refiere al tipo de masa con el que se elabora el producto (pan, hojaldre, bollería, masa de batido)."
+            },
+            {
+              "titulo": "Decoración",
+              "texto": "La categoría <b>Decoración</b> nos aporta información sobre las posibles operativas que admite el producto con el fin de mejorar su sabor o estética."
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "animacion": "tada",
+          "imagen": "img/comunes/rodillo.png",
+          "ancho": 200
+        },
+        {
+          "clase": "tabsB",
+          "subclase": "derecha",
+          "animacion": "rotateInUpRight",
+          "contenido": [
+            {
+              "titulo": "Tamaño",
+              "texto": "Hablamos de <b>Tamaño</b> en el caso de los productos dulces y salados o <b>Formato</b> en el caso de los productos de pan. Esta característica orienta sobre cómo de grande o de pequeño es el producto."
+            },
+            {
+              "titulo": "Corteza-Miga",
+              "texto": "<b>Corteza-Miga</b> es una característica particular de los productos de Pan, y nos aporta información a destacar de alguna de estas dos cualidades."
+            },
+            {
+              "titulo": "Salud",
+              "texto": "La <b>Salud</b> es una característica particular de los productos de pan y salados, y se refiere a posibles beneficios de salud en los productos de panadería. Nos puede facilitar información del público para el que puede ser adecuado (ejemplo: productos sin sal adecuados para dietas bajas en sal o personas con hipertensión)."
+            },
+            {
+              "titulo": "Ingredientes",
+              "texto": "Los <b>Ingredientes</b> nos dan una aproximación a la composición básica del producto, con los componentes destacables del mismo."
+            },
+            {
+              "titulo": "Precio",
+              "texto": "El <b>Precio</b> es el precio de venta al público. En todos los casos se muestra por unidad de producto. En el caso de productos cuyo formato de venta habitual sea en pack de varias unidades, además del precio unitario, se muestra el precio de cada pack."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Cuadro de categorías referenciadas",
+      "contenido": [
+
+        {
+          "clase": "texto",
+          "animacion": "fadeInLeftBig",
+          "texto": "En el siguiente cuadro se resumen las características que vas a encontrar en cada grupo de productos de la sección de panadería:"
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "zoomIn",
+          "subclase": "centroAncho",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/comunes/espiga.svg",
+              "ancho": 200
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "PRODUCTOS DE PAN"
+                },
+                {
+                  "titulo": "PRODUCTOS DULCES"
+                },
+                {
+                  "titulo": "PRODUCTOS SALADOS"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Sabor"
+                    },
+                    {
+                      "texto": "Sabor"
+                    },
+                    {
+                      "texto": "Sabor"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Formato"
+                    },
+                    {
+                      "texto": "Tamaño"
+                    },
+                    {
+                      "texto": "Tamaño"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Conservación"
+                    },
+                    {
+                      "texto": "Conservación"
+                    },
+                    {
+                      "texto": "Conservación"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Corteza-miga"
+                    },
+                    {
+                      "texto": "Relleno"
+                    },
+                    {
+                      "texto": "Relleno"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Salud"
+                    },
+                    {
+                      "texto": "Tipo de masa"
+                    },
+                    {
+                      "texto": "Salud"
+                    }
+                  ]
+
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Tipo de masa"
+                    },
+                    {
+                      "texto": "Ingredientes"
+                    },
+                    {
+                      "texto": "Tipo de masa"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Ingredientes"
+                    },
+                    {
+                      "texto": "Decoración"
+                    },
+                    {
+                      "texto": "Ingredientes"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Precio"
+                    },
+                    {
+                      "texto": "Precio"
+                    },
+                    {
+                      "texto": "Precio"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "subclase": "invertirV",
+              "imagen": "img/comunes/espiga.svg",
+              "ancho": 200
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Categorías referenciadas para productos Salados",
+      "fondo": "img/m4.3/patternFondo.svg",
+      "subclase": "pattern",
+      "contenido": [
+        {
+          "clase": "acordeonSub",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "TAMAÑO",
+              "texto": "Al igual que en los Productos Dulces, es una categoría basada en el tamaño del producto, y aquí también tenemos una gran variedad de tamaños."
+
+            },
+            {
+              "titulo": "CONSERVACIÓN Y TIPO DE MASA",
+              "texto": "La Conservación nos proporciona información sobre los principios de conservación y vida útil del producto. El Tipo de Masa, tal y como su propio nombre indica, se refiere al tipo de masa con el que se elabora el producto.<br>Además has de tener en cuenta que debido a la gran variedad de tipos de masa que constituyen la categoría de Salados, podrás encontrar artículos con características de: Decoración, Corteza-Miga o ser productos Precocidos, pero éstos son casos excepcionales."
+
+            },
+            {
+              "titulo": "RELLENO",
+              "texto": "Todos los productos Salados incorporan a la masa algún elemento nuevo como relleno, lo que confiere un sabor específico a la masa según el relleno aplicado. A diferencia de los productos Dulces, en los productos Salados el relleno ya vendrá incluido por defecto en el artículo. Aunque el relleno de los productos Salados puede estar constituido por un único producto (como por ejemplo el Chorizo en el caso de los Bollos con chorizo), lo habitual es que esté compuesto por dos (jamón york y queso; atún y tomate) o más ingredientes, formando una preparación compleja (por ejemplo: Empanadas)."
+
+            },
+            {
+              "titulo": "SALUD",
+              "texto": "Los productos Salados, en relación con la salud, pertenecen todos a la categoría de productos Nutritivos.<br>Es decir, son productos que poseen sustancias o elementos necesarios para nutrirnos o alimentarnos."
+            },
+            {
+              "titulo": "INGREDIENTES",
+
+              "texto": "Sin entrar en la complejidad de ingredientes que pueden constituir el relleno de los productos Salados, los ingredientes principales dependerán del Tipo de Masa con el que esté elaborada la masa a rellenar."
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Tamaño de productos salados",
+      "fondo": "img/m4.3/patternFondo.svg",
+      "subclase": "pattern",
+      "contenido": [
+        {
+          "clase": "acordeonSub",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "TAMAÑO",
+              "contenido": [
+                {
+                  "titulo": "Grande",
+                  "texto": "En general son productos que hay que cortar y partir y están pensados para el consumo de varias personas. En este grupo incluimos las Empanadas: Empanada 1100 Atún o Carne, Empanada Artesana de Pollo y Champiñones, Empanada Hojaldre 600gr Atún..."
+
+                },
+                {
+                  "titulo": "Bollo",
+                  "texto": "De menor tamaño tenemos la categoría formada por productos de tamaño Bollo (productos derivados del tipo de masa Pan). Algunos ejemplos de este tamaño son: Bollo con Chorizo precocido, Bollo mediano, Bocata Frankfurt, Boroñinos..."
+
+                },
+                {
+                  "titulo": "Pieza",
+                  "texto": "Productos derivados de otros tipos de masa, que están más orientados para el consumo individual. Algunos ejemplos: Empanadilla de Atún, Napolitana de Jamón York y Queso, Porciones de Empanada..."
+                },
+                {
+                  "titulo": "Mini, o Bollo pequeño",
+                  "texto": "Al igual que en el caso de los productos Dulces, son una versión reducida de la pieza original de la que toman el nombre y permiten degustar y compartir el producto en pequeñas dosis, sin tener que cortarlo ni manipularlo y también es habitual que el producto se venda en packs de varias unidades. El ejemplo más representativo son los Saladitos."
+
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Conservación, tipo de masa y salud de productos salados",
+      "fondo": "img/m4.3/patternFondo.svg",
+      "subclase": "pattern",
+      "contenido": [
+        {
+          "clase": "acordeonSub",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "CONSERVACIÓN",
+              "texto": "Todos los productos Salados se conservan de la misma manera, a temperatura ambiente en su propio envase cerrados. Respecto a su vida útil, de modo general podemos indicar que son productos bastante estables, especialmente las empanadas, con mejor aguante en el tiempo que los productos de pan y los productos dulces."
+            },
+            {
+              "titulo": "SALUD",
+              "imagen": "img/m4.3/nutritivo.svg",
+              "texto": "Los productos Salados, en relación con la salud, pertenecen todos a la categoría de productos Nutritivos.<br>Es decir, son productos que poseen sustancias o elementos necesarios para nutrirnos o alimentarnos."
+            },
+            {
+              "titulo": "TIPO DE MASA",
+              "contenido": [
+                {
+                  "titulo": "Pan",
+                  "texto": "Algunos ejemplos son: chapapizza de jamón, bollos con chorizo, pincho Frankfurt."
+
+                },
+                {
+                  "titulo": "Empanada Gallega",
+
+                  "texto": "Algunos ejemplos son: empanada 1100 atún, empanada 1100 carne, empanada artesana de pollo y champiñones."
+
+                },
+                {
+                  "titulo": "Bollería",
+
+                  "texto": "Algunos ejemplos son: saladitos variados, napolitana de atún, croissant mini york queso."
+
+                },
+                {
+                  "titulo": "Hojaldre",
+
+                  "texto": "Algunos ejemplos son: empanadilla de atún, empanadilla de bacon y queso, empanadilla de carne."
+
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Rellenos de productos salados",
+      "fondo": "img/m4.3/patternFondo.svg",
+      "subclase": "pattern",
+      "contenido": [
+        {
+          "clase": "acordeonSub",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "RELLENO",
+              "contenido": [
+                {
+                  "titulo": "Atún y tomate",
+                  "texto": "El tomate aparece como Salsa de Tomate. Los productos que ofrecen este tipo de relleno son las Empanadas y Empanadillas de Atún y el Saladito de Atún."
+                },
+                {
+                  "titulo": "York y queso:",
+                  "texto": "Es el caso de la Napolitana de Jamón York y Queso, Croissant Mini York Queso, el Saladito de Jamón York y Queso, Empanada de Hojaldre 600 g. J. York y Queso. También es el caso de la Chapa Pizza de Jamón que además lleva Salsa de Tomate."
+                },
+                {
+                  "titulo": "Chorizo",
+                  "texto": "Es el producto de relleno de las diferentes variedades de Bollos Preñaos (Bollo con Chorizo, Bollo Chorizo Pincho, Boroñinos, etc...)"
+                },
+                {
+                  "titulo": "Carne",
+                  "texto": "El ingrediente principal de las Empanadas de Carne (Empanada 1100 de Carne y Porciones de ésta y la Empanadilla de carne) es la carne de cerdo."
+                },
+                {
+                  "titulo": "Salchicha Frankfurt",
+                  "texto": "Este relleno lo presentan dos productos: el Bocata Frankfurt y el Pincho Frankfurt."
+
+                },
+                {
+                  "titulo": "Queso azul",
+                  "texto": "Este relleno es característico del Croissant Mini Queso Azul."
+
+                },
+                {
+                  "titulo": "Bacon",
+                  "texto": "Junto con el chorizo forma el relleno del Bollo Chorizo-Bacon y con Queso es el relleno de la Empanadilla de Bacon-Queso."
+
+                },
+                {
+                  "titulo": "Pollo y champiñones",
+                  "texto": "Ingredientes del relleno de la Empanada Artesana de Pollo y Champiñones y la Porción de dicha empanada."
+                }
+              ]
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Ingredientes de los productos salados",
+      "fondo": "img/m4.3/patternFondo.svg",
+      "subclase": "pattern",
+      "contenido": [
+        {
+          "clase": "acordeonSub",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "INGREDIENTES",
+              "contenido": [
+                {
+                  "titulo": "Masa Tipo Pan",
+                  "texto": "Productos cuyo tipo de masa es Pan fundamentalmente se componen de: harina de trigo, margarina y levadura. Algunas excepciones pueden ser la utilización de harina integral de centeno (Chapa Pizza de Jamón) o Harina de Maíz (Boroñinos)."
+                },
+                {
+                  "titulo": "Masa Tipo Empanada Gallega",
+                  "texto": "Productos cuyo tipo de masa es Empanada Gallega fundamentalmente se componen de: harina de trigo, aceite vegetal, azúcar y leche en polvo."
+                },
+                {
+                  "titulo": "Masa Tipo Bollería",
+                  "texto": "Productos cuyo tipo de masa es Bollería fundamentalmente se componen de: harina de trigo, margarina, levadura y azúcar. Una excepción es el Mini Croissant Queso Azul que incorpora Mantequilla como ingrediente."
+                },
+                {
+                  "titulo": "Masa Tipo Hojaldre",
+                  "texto": "Productos cuyo tipo de masa es Hojaldre fundamentalmente se componen de: harina de trigo y margarina."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Recuerda!",
+      "fondo": "img/m4.3/desayuno_cama.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "anillas",
+          "animacion": "rollIn",
+          "texto": "<b>Recuerda:</b> Confía en el producto que has preparado, lo has cocinado tú, es un buen producto, y tienes que sentirte orgullosa de venderlo y de que le guste a los clientes. Has de estar segura de que estas dando lo mejor a tus clientes."
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Arrastra cada producto a una categoría de tal manera que no quede ninguna vacía."
+        },
+        {
+          "clase": "autoevalArrastrar",          
+          "contenedores": [
+            {
+              "clase": "caja",
+              "texto": "Tamaño: Grande",
+              "data_id": 1
+            },
+            {
+              "clase": "caja",
+              "texto": "Tipo de Masa: Hojaldre",
+              "data_id": 2
+            },
+            {
+              "clase": "caja",
+              "texto": "Relleno: Queso azul",
+              "data_id": 3
+            },
+            {
+              "clase": "caja",
+              "texto": "Ingredientes: Harina integral de centeno",
+              "data_id": 4
+            },
+            {
+              "clase": "caja",
+              "texto": "Relleno: Jamón York y Queso",
+              "data_id": 5
+            },
+            {
+              "clase": "caja",
+              "texto": "Tamaño: Mini",
+              "data_id": 6
+            },
+            {
+              "clase": "caja",
+              "texto": "Relleno: Salchicha Frankfurt",
+              "data_id": 7
+            },
+            {
+              "clase": "caja",
+              "texto": "Relleno: Pollo y Champiñones",
+              "data_id": 8
+            },
+            {
+              "clase": "caja",
+              "texto": "Tipo de Masa: Empanada gallega",
+              "data_id": 9
+            },
+            {
+              "clase": "caja",
+              "texto": "Tamaño: Bollo",
+              "data_id": 10
+            }
+
+          ],
+          "contenidos": [
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado01.png",
+              "data_caja": 3
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado02.png",
+              "data_caja": 5
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado03.png",
+              "data_caja": 8
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado04.png",
+              "data_caja": 7
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado05.png",
+              "data_caja": 10
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado06.png",
+              "data_caja": 4
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado07.png",
+              "data_caja": 9
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado08.png",
+              "data_caja": 2
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado09.png",
+              "data_caja": 6
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado10.png",
+              "data_caja": 1
+            }
+
+          ],
+          "solucion": "img/m4.3/autoeval/solucion.png"
+        }          
+      ]
+    },
+        {
+      "titulo": "Autoevaluación 2",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.3/autoeval2/salado01.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "TAMAÑO"
+                },
+                {
+                  "titulo": "TIPO DE MASA"
+                },
+                {
+                  "titulo": "RELLENO"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Hojaldre"
+                    },
+                    {
+                      "texto": "Atún"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo"
+                    },
+                    {
+                      "texto": "Bollería"
+                    },
+                    {
+                      "texto": "Jamón York"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mini"
+                    },
+                    {
+                      "texto": "Pan"
+                    },
+                    {
+                      "texto": "Carne"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Pieza"
+                    },
+                    {
+                      "texto": "Empanada Gallega"
+                    },
+                    {
+                      "texto": "Pollo"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo pequeño"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "Chorizo"
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 3 ],
+                [ 1, 2 ],
+                [ 2, 1 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación 3",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.3/autoeval2/salado02.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "TAMAÑO"
+                },
+                {
+                  "titulo": "TIPO DE MASA"
+                },
+                {
+                  "titulo": "RELLENO"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Hojaldre"
+                    },
+                    {
+                      "texto": "Atún"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo"
+                    },
+                    {
+                      "texto": "Bollería"
+                    },
+                    {
+                      "texto": "Jamón York"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mini"
+                    },
+                    {
+                      "texto": "Pan"
+                    },
+                    {
+                      "texto": "Carne"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Pieza"
+                    },
+                    {
+                      "texto": "Empanada Gallega"
+                    },
+                    {
+                      "texto": "Pollo"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo pequeño"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "Chorizo"
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 4 ],
+                [ 1, 2 ],
+                [ 2, 4 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación 4",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+                    "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.3/autoeval2/salado03.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "TAMAÑO"
+                },
+                {
+                  "titulo": "TIPO DE MASA"
+                },
+                {
+                  "titulo": "RELLENO"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Hojaldre"
+                    },
+                    {
+                      "texto": "Atún"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo"
+                    },
+                    {
+                      "texto": "Bollería"
+                    },
+                    {
+                      "texto": "Jamón York"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mini"
+                    },
+                    {
+                      "texto": "Pan"
+                    },
+                    {
+                      "texto": "Carne"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Pieza"
+                    },
+                    {
+                      "texto": "Empanada Gallega"
+                    },
+                    {
+                      "texto": "Pollo"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo pequeño"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "Chorizo"
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 2 ],
+                [ 1, 1 ],
+                [ 2, 1 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación 5",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+                    "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.3/autoeval2/salado04.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "TAMAÑO"
+                },
+                {
+                  "titulo": "TIPO DE MASA"
+                },
+                {
+                  "titulo": "RELLENO"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Hojaldre"
+                    },
+                    {
+                      "texto": "Atún"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo"
+                    },
+                    {
+                      "texto": "Bollería"
+                    },
+                    {
+                      "texto": "Jamón York"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mini"
+                    },
+                    {
+                      "texto": "Pan"
+                    },
+                    {
+                      "texto": "Carne"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Pieza"
+                    },
+                    {
+                      "texto": "Empanada Gallega"
+                    },
+                    {
+                      "texto": "Pollo"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo pequeño"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "Chorizo"
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 3 ],
+                [ 1, 3 ],
+                [ 2, 0 ]
+              ]
+            }
+          ]
+        }        
+      ]
+    },
+                    {
+      "titulo": "Autoevaluación 6",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.3/autoeval2/salado05.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "TAMAÑO"
+                },
+                {
+                  "titulo": "TIPO DE MASA"
+                },
+                {
+                  "titulo": "RELLENO"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Hojaldre"
+                    },
+                    {
+                      "texto": "Atún"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo"
+                    },
+                    {
+                      "texto": "Bollería"
+                    },
+                    {
+                      "texto": "Jamón York"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mini"
+                    },
+                    {
+                      "texto": "Pan"
+                    },
+                    {
+                      "texto": "Carne"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Pieza"
+                    },
+                    {
+                      "texto": "Empanada Gallega"
+                    },
+                    {
+                      "texto": "Pollo"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo pequeño"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "Chorizo"
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 0 ],
+                [ 1, 3 ],
+                [ 2, 3 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "titulo": "Autoevaluación 7",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha y arrastra con el ratón para marcar una palabra."
+        },
+        {
+          "clase": "juegoSopaLetras",
+          "pistas": [
+            {
+              "palabra": "salados",
+              "definicion": "Grupo de productos entre los que se encuentra la empanada"
+            },
+            {
+              "palabra": "trigo",
+              "definicion": "El cereal del que proviene la harina más utilizada en los panes"
+            },
+            {
+              "palabra": "conservacion",
+              "definicion": "Categoría que indica la mejor manera de guardar el producto"
+            },
+            {
+              "palabra": "decoracion",
+              "definicion": "Sirve para mejorar la estética  o el sabor del producto"
+            },
+            {
+              "palabra": "precio",
+              "definicion": "Indica cuánto cuesta un producto"
+            },
+            {
+              "palabra": "digestivos",
+              "definicion": "Grupo de productos que favorecen la digestión"
+            },
+            {
+              "palabra": "nuez",
+              "definicion": "Fruto seco con el que se elabora el relleno de la Casadiella"
+            },
+            {
+              "palabra": "confitada",
+              "definicion": "Tipo de fruta que se utiliza para decoración, por ejemplo, del Roscón de Reyes"
+            },
+            {
+              "palabra": "nata",
+              "definicion": "Derivado de la leche que se emplea como relleno principal de muchos productos"
+            },
+            {
+              "palabra": "horno",
+              "definicion": "Máquina donde se hornea el pan"
+            },
+            {
+              "palabra": "levadura",
+              "definicion": "Provoca la fermentación del pan"
+            },
+            {
+              "palabra": "chorizo",
+              "definicion": "Es el relleno de los bollos 'preñaos'"
+            },
+            {
+              "palabra": "hojaldre",
+              "definicion": "Tipo de masa que tiene muchas capas superpuestas"
+            },
+            {
+              "palabra": "glaseado",
+              "definicion": "Capa visible hecha con azúcar glass y agua utilizada para decorar"
+            },
+            {
+              "palabra": "pastelera",
+              "definicion": "Se dice de la crema con la que se rellenan muchos productos dulces"
+            }
+          ]
+        }
+      ]
+    },    
+    {
+      "titulo": "Aprendizaje",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En este módulo has podido identificar cuáles son las <b>categorías</b> más significativas de cara al cliente para cada grupo de productos de la sección de panadería.<br><br>Has descubierto cuáles son los <b>formatos</b> en los que se agrupan, los tamaños y <b>tipos de masa</b> más habituales de los productos salados, las principales operativas de <b>relleno</b> y los <b>ingredientes</b> más básicos de su composición, así como otras categorías.<br><br>Con este módulo hemos llegado al final del curso de \"Conocimiento de Producto: Sección de Panadería\". Esperamos haber sido de ayuda para que pudieras dar el primer paso en el camino de convertirte en un <b>profesional experto</b> en la venta de productos de panadería.<br><br>¡Te esperamos con nuestros siguientes cursos para seguir caminando juntos!<br><br>¡Gracias!"
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarDcha",
+              "imagen": "img/m4.3/ventaPan.png",
+              "ancho": 500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Final del módulo",
+      "fondo": "img/comunes/contraportada.jpg",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "animacion": "slideInRight",
+          "imagen": "img/comunes/contraportadaImg.svg"
+        }
+      ]
+    }
+  ]
+} 
+

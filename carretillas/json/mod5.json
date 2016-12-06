@@ -1,0 +1,610 @@
+﻿{
+  "modulo": "Mod. 5: Comprobaciones y mantenimiento",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+        {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod5/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Ya hemos aprendido como utilizar nuestra carretilla en las funciones diarias habituales, además de otras muchas cosas. Este módulo final, estará centrado en las <b>comprobaciones</b> diarias a realizar y en el <b>mantenimiento</b> de la máquina."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Recuerda: Comprobaciones",
+      "fondo": "img/mod5/pallets.jpg",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInRight",
+          "subclase": "recuadro",
+          "contenido": [
+             {
+              "clase": "lista",
+
+          "subclase": "numeros",
+          "titulo": "Si recuerda estos siete sencillos puntos de comprobación diariamente, estará cuidando bien de su carretilla:",
+          "contenido": [
+            {
+              "punto": "Compruebe el <b>combustible</b> y llénelo"
+            },
+            {
+              "punto": "Compruebe el <b>radiador</b> y llénelo"
+            },
+            {
+              "punto": "Compruebe el <b>aceite</b> del motor"
+            },
+            {
+              "punto": "Compruebe el indicador <b>depurador</b> del aire y/o depósito de residuos"
+            },
+            {
+              "punto": "Compruebe el <b>nivel</b> del aceite hidráulico"
+            },
+            {
+              "punto": "Compruebe los <b>neumáticos</b> y las tuercas de las ruedas"
+            },
+            {
+              "punto": "Compruebe los <b>tubos</b> flexibles hidráulicos del mástil"
+            }
+          ]
+
+        },
+        {
+          "clase": "lista",
+          "titulo": "En una <b>carretilla electrónica</b>, las comprobaciones diarias son simples (no tiene un motor del que preocuparse).",
+          "contenido": [
+            {
+              "punto": "Compruebe la <b>carga</b> de la batería"
+            },
+            {
+              "punto": "Compruebe el estado de los <b>electrólitos</b> de la batería en un par de elementos como muestreo."
+            },
+            {
+              "punto": "Compruebe el nivel del <b>aceite</b> hidráulico"
+            },
+            {
+              "punto": "Compruebe las <b>tuercas</b> de rueda y neumáticos"
+            },
+            {
+              "punto": "Compruebe todas las <b>tuberías</b> hidráulicas del mástil"
+            },
+            {
+              "punto": "Asegúrese de que los <b>frenos</b> funcionan correctamente y que el nivel de líquido de frenos es correcto."
+            },
+            {
+              "punto": "Siempre antes de dejar la carretilla ponga el <b>freno</b> de estacionamiento. Si deja la carretilla parada durante períodos largos o al final del turno de trabajo, conecte el punto hombre muerto"
+            }
+          ]
+        }
+
+          ]
+        }
+       
+      ]
+    },
+    {
+      "titulo": "Control diario",
+      "contenido": [
+        {
+          "clase": "acordeon",
+		   "animacion": "fadeInDown",
+          "contenido": [
+            {
+              "titulo": "¿Por qué una comprobación diaria?",
+              "texto": "Porque para hacer un trabajo con calidad y seguridad la carretilla debe funcionar correctamente."
+            },
+            {
+              "titulo": "¿Quién la realiza?",
+              "texto": "El conductor es el responsable de comprobar todos los días la carretilla elevadora, tomando en su caso, notas de sus observaciones en el documento que la empresa le proporcionará para ello."
+            },
+            {
+              "titulo": "¿Cuándo hacer la revisión diaria?",
+              "texto": "<ul><li>Al comenzar el turno de trabajo.</li><li>Después de los descansos, si se estima que alguien la ha podido utilizar.</li><li>Después de la utilización por una persona que no pertenece al equipo habitual.</li><li>Cuando, al comenzar a trabajar con ella, se observa algo extraño en su funcionamiento.</li></ul>"
+            },
+            {
+              "titulo": "¿Qué elementos se revisan?",
+              "texto": "Niveles <ul><li>La carga de las baterías o el nivel del depósito de combustible.</li><li>El agua de refrigeración del motor, si es una carretilla térmica.</li></ul>"
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+		   "animacion": "fadeInUp",
+          "imagen": "img/mod5/operarios.svg",
+          "ancho": 800
+        }
+      ]
+    },
+    {
+      "titulo": "Funcionamiento en vacío",
+      "contenido": [
+        {
+          "clase": "lista",
+		   "animacion": "fadeInLeft",
+          "subclase": "dosColumnas",
+          "titulo": "<b>Funcionamiento en vacío</b>:",
+          "contenido": [
+            {
+              "punto": "El buen estado de los <b>frenos</b>."
+            },
+            {
+              "punto": "La <b>ausencia</b> de aceite hidráulico bajo la carretilla."
+            },
+            {
+              "punto": "El funcionamiento suave del <b>acelerador</b>."
+            },
+            {
+              "punto": "La eficacia del <b>freno</b> de mano."
+            },
+            {
+              "punto": "El buen estado de las <b>cadenas</b> de sujeción."
+            },
+            {
+              "punto": "El <b>aceite motor</b> y el <b>aceite hidráulico</b>."
+            },
+            {
+              "punto": "El movimiento suave del <b>volante</b>, comprobando la holgura."
+            },
+            {
+              "punto": "El desgaste de las <b>ruedas</b>."
+            },
+            {
+              "punto": "La integridad y simetría de las <b>horquillas</b> respecto al eje."
+            },
+            {
+              "punto": "El estado del <b>tablero</b> portahorquillas y de los elementos mecánicos del mástil."
+            },
+            {
+              "punto": "El funcionamiento suave y el movimiento constante de cada <b>circuito hidráulico</b> (hasta su máxima extensión en ambos sentidos) y de sus elementos mecánicos."
+            },
+            {
+              "punto": "El funcionamiento de la <b>luz</b> intermitente y de la <b>sirena</b> de marcha atrás."
+            },
+            {
+              "punto": "El correcto funcionamiento del pulsador de <b>hombre muerto</b>, si la carretilla lo lleva."
+            },
+            {
+              "punto": "El <b>claxon</b>."
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+		  "animacion": "fadeInRightBig",
+          "imagen": "img/mod5/carretilla.svg",
+          "ancho": 300
+        }
+
+      ]
+    },
+    {
+      "titulo": "Anomalías",
+      "contenido": [
+        {
+          "clase": "lista",
+		   "animacion": "flash",
+          "titulo": "Anomalías más frecuentes que se pueden encontrar en esta revisión:",
+          "contenido": [
+            {
+              "punto": "<b>Goteos o fugas</b> de aceite, combustible u otros fluidos."
+            },
+            {
+              "punto": "Deterioro del <b>aislamiento</b> eléctrico de las mangueras."
+            },
+            {
+              "punto": "Alteración de las terminales de las <b>baterías</b>."
+            },
+            {
+              "punto": "Pérdida de <b>aire</b> en ruedas con neumáticos hinchables."
+            },
+            {
+              "punto": "Desgaste de las <b>ruedas</b>."
+            },
+            {
+              "punto": "Deformación de las <b>horquillas</b>."
+            },
+            {
+              "punto": "Alteración de la <b>simetría</b> de las horquillas respecto al eje."
+            },
+            {
+              "punto": "Deterioro físico del <b>tablero porta-horquillas</b> y de los elementos mecánicos del mástil."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+		  "animacion": "shake",
+          "subclase": "exclamacion",
+          "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Si la máquina presenta alguna anomalía",
+          "contenido": [
+            {
+              "punto": "<b>No utilizarla</b>"
+            },
+            {
+              "punto": "Repararla si se está autorizado para ello; si no, comunicarlo a la persona responsable."
+            }
+          ]
+        }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Mantenimientos",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Una carretilla elevadora es dos cosas. Es un <b>vehículo</b>, cuyos beneficios se obtienen del mismo tipo de cuidados que se prestan a cualquier otro vehículo; cuidados a su fuente de energía, transmisión, dirección, sistema de frenado, etc. Pero una carretilla elevadora es también una máquina compleja y potente, con componentes y sistemas que no se encuentran en ningún otro tipo de máquina. El <b>sistema de elevación y descenso</b> de una carretilla está expuesto a todo tipo de situaciones. El cuidado de estas partes de la carretilla no es pesado, pero requiere un tipo de atención diferente al que se daría a un vehículo de carretera."
+        },
+        {
+          "clase": "icono",
+		   "animacion": "fadeInRight",
+          "subclase": "definicion",
+          "texto": "<b>Mantenimiento preventivo sistemático</b>: es el conjunto de programas de intervenciones o cambios de algunos componentes o piezas según intervalos predeterminados de tiempo o espacios regulares, aunque no se hayan producido incidencias, para reducir la probabilidad de avería o pérdida de prestaciones de la máquina. La frecuencia de realización lo determinan la información que el fabricante debe haber suministrado al respecto en el Manual de Instrucciones y, siempre en cualquier caso, la experiencia anterior de la propia empresa ligada a las condiciones de trabajo o de uso de la carretilla. Este mantenimiento es \"aceptable\" preventivamente hablando."
+        },
+        {
+          "clase": "icono",
+		   "animacion": "lightSpeedIn",
+          "subclase": "definicion",
+          "texto": "<b>Mantenimiento predictivo</b>: es el mantenimiento basado en el conocimiento del estado de un equipo, elemento o componente por medición periódica o continua de algún parámetro significativo, cuya alteración permite ser correlacionado con la probabilidad de fallo o avería en el futuro próximo. La intervención de mantenimiento se condiciona a la detección precoz de los síntomas de la avería. Preventivamente es \"aceptable\" tan solo cuando la fiabilidad de los parámetros de referencia es alta y su medición ofrece garantías."
+        },
+        {
+          "clase": "icono",
+		   "animacion": "slideInLeft",
+          "subclase": "definicion",
+          "texto": "<b>Mantenimiento de oportunidad</b>: es la actuación basada en criterios de oportunidad diferentes a los anteriores y habitualmente aprovechando la realización de los anteriores. Preventivamente es \"aceptable\" si la reparación o sustitución se ejecuta con antelación a que se cumpla el tiempo prefijado para realizar el mantenimiento sistemático de la pieza o mecanismo de que se trate."
+        }
+      ]
+    },
+    {
+      "titulo": "Mantenimiento preventivo",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Los mantenimientos preventivos en los equipos de <b>manutención</b>, tienen como principal objetivo adelantarse a cualquier anomalía del equipo que pudiera suponer una situación de inseguridad para su conductor. Los mantenimientos preventivos mediante la <b>inspección</b> del equipo de trabajo, permiten la detección de posibles averías, verificación de instalaciones y comprobación de partes mecánicas. Se deben realizar inspecciones <b>exhaustivas periódicamente</b>."
+        },
+        {
+          "clase": "listaObjetos",
+		   "animacion": "rollIn",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Como <b>principio básico</b> se deberán seguir las normas dictadas por el constructor según las reglas siguientes:",
+              "contenido": [
+                {
+                  "punto": "El mantenimiento deberán realizarlo únicamente <b>personal cualificado y autorizado</b>."
+                },
+                {
+                  "punto": "Se revisarán <b>periódicamente</b> los frenos, dirección, avisadores, iluminación, reguladores, válvulas de descarga del circuito de elevación y mecanismos de inclinación y elevación."
+                },
+                {
+                  "punto": "Asimismo se hará lo propio con los sistemas hidráulicos, en especial lo concerniente a <b>fugas</b> interiores o exteriores."
+                },
+                {
+                  "punto": "Se revisarán periódicamente los <b>protectores y dispositivos</b> de seguridad."
+                },
+                {
+                  "punto": "Las baterías,  motores, controles, interruptores fin de carrera, dispositivos de protección, cables, conexiones y sobre todo el buen estado de aislamiento de la <b>instalación eléctrica</b> deben ser inspeccionados periódicamente."
+                },
+                {
+                  "punto": "Los <b>neumáticos</b> deberán verificarse para descubrir cualquier indicio de deterioro de los flancos y de las llantas."
+                },
+                {
+                  "punto": "Deberá mantenerse la <b>presión</b> descrita por el fabricante."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod5/cambioLlantas.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Obligatoriedad",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		   "animacion": "rotateInDownLeft",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "¿Es obligatorio un diario de mantenimiento en carretillas elevadoras? Según la <b>Nota Técnica de Prevención</b> (en adelante NTP) nº 715 > Carretillas elevadoras automotoras III > Mantenimiento y utilización: <span class='italic'>“Si bien el RD 1215/1997 no concreta que equipos deben disponer de él, nuestra opinión es que estas máquinas móviles deberían tener un diario de mantenimiento”</span> y lo apoyamos en los siguientes criterios: ",
+              "contenido": [
+                {
+                  "punto": "Sólo el <b>registro documental</b> de las tareas de mantenimiento permitirá verificar y garantizar que no se producen desviaciones, ni en los plazos, ni en el contenido de lo previsto. "
+                },
+                {
+                  "punto": "En aplicación de la exigencia de <span class='italic'>\"comprobaciones periódicas\"</span> y de la documentación escrita de los resultados de las mismas de los arts. 4.2 y 4.4, 1er párrafo del RD 1215/1997, estas máquinas móviles deberían tener un <b>diario de mantenimiento</b> y, como dice el propio artículo, <span class='italic'>\"conservarse durante toda la vida útil de los equipos\"</span>."
+                },
+                {
+                  "punto": "Un libro de mantenimiento que recopile los <b>registros periódicos</b> proporcionará información para una futura planificación e informará al personal responsable del mantenimiento, sea de la propia empresa o externo, de las actuaciones previas realizadas."
+                }
+
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod5/libreta.svg",
+              "ancho": 500
+            }
+
+          ]
+        },
+        
+        {
+          "clase": "texto",
+          "texto": "Al respecto resta recordar que el RD 1215/1997 en su Anexo 11.1.15 exige que: <span class='italic'>\"cuando un equipo de trabajo deba disponer de un diario de mantenimiento, éste permanecerá <b>actualizado</b>.\"</span>."
+        }
+
+      ]
+    },
+    {
+      "titulo": "Revisión diaria",
+      "contenido": [
+        {
+          "clase": "texto",
+		   "animacion": "fadeInDown",
+          "texto": "Con independencia del tipo de mantenimiento que se realice y que será el más acorde a las características de la carretilla, a las características de trabajo, a las características del entorno y lugar de trabajo, etc; se debe realizar adicionalmente lo que podríamos denominar un \"mantenimiento de uso\" o \"<b>revisión diaria</b>\" que consistirá en que el propio operario realice un conjunto de comprobaciones, generalmente visuales y breves, que se efectúan diariamente o antes de cada turno de trabajo, para comprobar el buen estado funcional de la carretilla. Para ser <b>aceptable</b>, hablando en términos preventivos, debería quedar <b>constancia escrita</b> de la realización de tales comprobaciones y para ello se debería diseñar e implantar un cuestionario con las comprobaciones mínimas a realizar en el que constara la fecha o turno de realización y la firma de la persona que realiza las comprobaciones.<br><br>Serían de aplicación:"
+        },
+        {
+          "clase": "listaObjetos",
+		   "animacion": "bounce",
+                        "subclase": "centroEstrecho",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "<b>Real Decreto 1215/1997</b> Articulo 3 Apartado 5: <span class='italic'>\"El empresario adoptará las medidas necesarias para que, mediante un mantenimiento adecuado, los equipos de trabajo se conserven durante todo el tiempo de utilización en unas condiciones tales que garanticen totalmente la seguridad y salud de los trabajadores durante la utilización de tales equipos de trabajo. Dicho mantenimiento se realizará teniendo en cuenta las instrucciones del fabricante, las características de los equipos, sus condiciones de utilización y cualquier otra circunstancia normal o excepcional que pueda influir en su deterioro o desajuste. Las operaciones de mantenimiento, reparación o transformación de los equipos de trabajo cuya realización suponga un riesgo específico para los trabajadores sólo podrán ser encomendadas al personal especialmente capacitado para ello.\"</span>."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod5/boe.svg",
+              "ancho": 400
+            },
+            {
+              "clase": "texto",
+              "texto": "<b>Real Decreto 1389/1997</b> Punto 3 parte A de su Anexo obliga a establecer <span class='italic'>\"un plan adecuado que deberá prever la inspección sistemática, el mantenimiento y, en su caso, la comprobación de los equipos e instalaciones mecánicos y eléctricos. El mantenimiento, la inspección y la comprobación de cualquiera de las partes de las instalaciones o equipos, deberá realizarse por personal competente. Deberán elaborarse y archivarse adecuadamente fichas de inspección y comprobación\". Además \"deberá mantenerse siempre listo para su utilización un material de seguridad adecuado y en buen estado de funcionamiento. El mantenimiento deberá realizarse teniendo en cuenta las actividades que se ejerzan\"</span>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Resumiendo",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		   "animacion": "rubberBand",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
+              "imagen": "img/mod5/exclamacion.svg",
+              "ancho": 100
+            },
+            {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "El mantenimiento preventivo es <b>indispensable</b> para el buen funcionamiento de las carretillas de manutención."
+            },
+            {
+              "punto": "El mantenimiento deberán realizarlo únicamente <b>personal cualificado</b>."
+            },
+            {
+              "punto": "Se revisarán <b>periódicamente</b> los frenos, dirección, avisadores, iluminación, reguladores, válvulas de descarga del circuito de elevación y mecanismos de inclinación y elevación."
+            },
+            {
+              "punto": "Asimismo se hará lo propio con los <b>sistemas hidráulicos</b>, en especial lo concerniente a fugas interiores o exteriores."
+            },
+            {
+              "punto": "Se revisarán periódicamente los <b>protectores y dispositivos</b> de seguridad."
+            },
+            {
+              "punto": "Las baterías, motores, controles, interruptores fin de carrera, dispositivos de protección, cables, conexiones y sobre todo el buen estado de aislamiento de la instalación eléctrica deben ser inspeccionados periódicamente."
+            },
+            {
+              "punto": "Los <b>neumáticos</b> deberán verificarse para descubrir cualquier indicio de deterioro de los flancos y de las llantas."
+            },
+            {
+              "punto": "Deberá mantenerse la <b>presión</b> descrita por el fabricante."
+            }
+          ]
+        }
+          ]
+
+        }
+        
+      ]
+    },    
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "Si hablamos de una carretilla con motor térmico, cuál de las siguientes sentencias es correcta:",
+              "respuestas": [
+                {
+                  "opcion": "Compruebe el combustible y llénelo.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Compruebe el estado de los electrólitos de la batería en un par de elementos como muestreo.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ninguna de las anteriores.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "El mantenimiento preventivo es el conjunto de programas de intervenciones o cambios de algunos componentes o piezas según intervalos predeterminados de tiempo o espacios regulares, aunque no se hayan producido incidencias, para reducir la probabilidad de avería o pérdida de prestaciones de la máquina.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Falso.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Alguna de las anomalías más frecuentes que podemos encontrar en una revisión diaria son:",
+              "respuestas": [
+                {
+                  "opcion": "Goteos o fugas de aceite, combustible u otros fluidos y/o pérdida de presión en las ruedas.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Alteración de la simetría de las horquillas respecto al eje..",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "El mantenimiento:",
+              "respuestas": [
+                {
+                  "opcion": "Cualquiera que haya leído el manual del fabricante está capacitado.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ha de realizarlo únicamente personal formado.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Cualquier persona con la formación como carretillero.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "¿Es obligatorio un diario de mantenimiento de la carretilla elevadora?",
+              "respuestas": [
+                {
+                  "opcion": "El RD 1215/1997 sobre máquinas dice claramente que no.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "La NTP 715 sobre carretillas dice que sí, es obligatorio.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Si bien el RD 1215/1997 no concreta que equipos deben disponer de él, en la NTP 715 la opinión es que estas máquinas móviles deberían tener un diario de mantenimiento",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "¿Cuándo se realiza la inspección diaria?",
+              "respuestas": [
+                {
+                  "opcion": "Al comenzar el turno de trabajo y después de los descansos, si se estima que otro compañero la ha podido utilizar.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Después de la utilización por una persona que no pertenece al equipo habitual y se repetirá si, al comenzar a trabajar con ella, se observa algo extraño en su funcionamiento.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Si la máquina presenta alguna anomalía:",
+              "respuestas": [
+                {
+                  "opcion": "NO UTILIZARLA y poner un cartel de fuera de servicio, inmediatamente comunicarlo a la persona responsable.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Repararla uno mismo.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Seguir utilizándola, no parece importante.",
+                  "correcto": false
+                }
+              ]
+            }      
+          ]
+        }
+      ]
+    },
+        {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Ya hemos terminado el curso sobre carretilla elevadora, esperamos que realmente te encuentres capacitado para utilizarla de manera segura. Nosotros estamos convencidos de que si has prestado la suficiente atención, es así, ahora solo requieres la confianza que da la <b>práctica</b>. Estás a un paso de obtener el certificado de formación  en carretilla elevadora, ya solo te queda realizar el examen final. Desde ese momento y en cuanto tu empresa te autorice a utilizarla, serás un “operador de carretilla elevadora”. Enhorabuena."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod5/despedida.jpg"
+
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+
+
+
+
+  
+

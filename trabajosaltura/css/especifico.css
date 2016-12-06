@@ -1,0 +1,27 @@
+#divIndiceLista .scoCompletado a {
+    background: url("../img/comunes/tick_menu.svg") no-repeat scroll 97% 50%;
+    background-size: 25px 18px;
+}
+.icono.sabiasQue .divFondo {
+    background-image: url('../img/comunes/sabiasQue.svg');
+    background-size: auto 80px;
+    background-position: 50% 8px;
+}
+.icono.definicion .divFondo{
+    background-image: url('../img/comunes/definicion.svg');
+    background-size: auto 50px;
+    background-position: 50% 25px;
+}
+.icono.exclamacion .divFondo{
+    background-image: url('../img/comunes/exclamacion.svg');
+    background-size: auto 80px;
+    background-position: 50% 8px;
+}
+.icono.exclamacion.blanca .divFondo, 
+.icono.exclamacion.picos .divFondo {
+    background-image: url('../img/comunes/exclamacionBlanca.svg');
+}
+/* HACK - Hacer algo con las preguntas de autoevaluación, si la imagen es muy grande, flota a la izquierda de la siguiente pregunta */
+.divFormulario img:first-of-type{
+    float:none !important;
+}

@@ -1,0 +1,655 @@
+﻿{
+  "modulo": "Mod. I: El puente grúa",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Este curso está destinado a darnos a conocer los puentes grúa, que están presentes en la mayor parte de las instalaciones industriales. Comenzaremos con una aproximación a la máquina, para ello deberemos conocer algunas definiciones, y los tipos que existen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "LA TECNOLOGÍA DE LOS APARATOS DE ELEVACIÓN",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "bounce",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Los <b>puentes grúa</b> son máquinas destinadas a la elevación y transporte de materiales y cargas varias, en desplazamientos verticales y horizontales en el interior y exterior, generalmente intervienen tanto en almacenamiento como durante el proceso de fabricación. Constan de <b>una o dos vigas móviles</b> sobre carriles, apoyadas en columnas, a lo largo de dos paredes opuestas. Normalmente están compuestos de una doble estructura rematada en dos testeros automotores sincronizados, dotados de ruedas de doble pestaña para su encarrilamiento. A diferencia de las <b>grúas pórtico</b>, los raíles de desplazamiento están en el mismo plano horizontal que el carro, y su altura, determinará la altura máxima operativa de la máquina."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/partes.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "MOVIMIENTOS DEL PUENTE GRUA",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "bounceInDown",
+          "titulo": "Los puentes grúa realizan <b>tres</b> movimientos:",
+          "contenido": [
+            {
+              "punto": "<b>Traslación del puente</b>: en dirección longitudinal a la nave."
+            },
+            {
+              "punto": "<b>Orientación del carro</b>: Traslado del carro a lo largo del puente."
+            },
+            {
+              "punto": "<b>Elevación-descenso</b>: la carga se sube o baja mediante el gancho."
+            }
+
+          ]
+        }
+
+      ]
+    },   
+    {
+      "titulo": "VELOCIDADES DE TRASLACIÓN",
+      "contenido": [
+                {
+          "clase": "icono",
+		  "animacion": "fadeInDownBig",
+          "subclase": "definicion",
+          "texto": "<b>Velocidades de traslación</b>: Es importante que exista una relación correcta entre la velocidad de traslación final y los valores de deceleración y aceleración correspondiente. Para garantizar un buen funcionamiento el tiempo de traslación será de un 85% de la marcha total."
+        }
+
+      ]
+    },
+    {
+      "titulo": "MOTORES DE ACCIONAMIENTO",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "flipInX",
+          "texto": "<b>Motores de accionamiento</b>. Según el uso del puente grúa los motores que se utilizan son:"
+        },
+        {
+          "clase": "tabs",
+		  "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Motores de corriente continua",
+              "texto": "Son equipos de mucho costo, muy delicados y equipos que necesitaran mucho mantenimiento. Algunos de los motores que se utilizan son: motor en shunt, en serie y compound. Ya están prácticamente en desususo."
+
+            },
+            {
+              "titulo": "Motores en corriente alterna",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "Con los motores siguientes:",
+                  "contenido": [
+                    {
+                      "punto": "<b>Motor asíncrono de rotor bobinado</b>: es el más utilizado; la regulación de la velocidad se efectúa por resistencias robóticas, y a medida que se va eliminando las resistencias aumenta la velocidad del motor. Estas máquinas son en general bastante antiguas."
+                    },
+                    {
+                      "punto": "<b>Motor de rotor en cortocircuito</b>: basado en el principio de rotor deslizante, se consigue la regulación de la velocidad en función de la frecuencia de la red a partir de un convertidor, primero a corriente continua y después a alterna con la frecuencia regulada. Son los más montados en la actualidad y  se controlan mediante variadores."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "TIPOS DE PUENTES GRÚA",
+      "contenido": [
+        {
+          "clase": "acordeon",
+		  "animacion": "slideInRight",
+          "contenido": [
+            {
+              "titulo": "Grúa",
+              "texto": "Máquina de funcionamiento discontinuo destinada a elevar y distribuir las cargas suspendidas de un gancho o de cualquier otro accesorio de prensión. "
+            },
+            {
+              "titulo": "Grúa puente",
+              "texto": "Grúa que consta de un elemento portador formado por una o dos vigas móviles, apoyadas o suspendidas, sobre las que se desplaza el carro con los mecanismos elevadores.",
+              "imagen": "img/mod01/gruaPuente.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Grúa pórtico",
+              "texto": "Grúa cuyo elemento portador se apoya sobre un camino de rodadura por medio de patas de apoyo. Se diferencia de la grúa puente en que los raíles de desplazamiento están en un plano horizontal muy inferior al del carro (normalmente apoyados en el suelo)",
+              "imagen": "img/mod01/gruaPortico.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Grúa semipórtico",
+              "texto": "Grúa cuyo elemento portador se apoya sobre un camino de rodadura, directamente en un lado y por medio de patas de apoyo en el otro. Se diferencia de la grúa puente y de la grúa pórtico en que uno de los raíles de desplazamiento está aproximadamente en el mismo plano horizontal que el carro, y el otro raíl de desplazamiento está en otro plano horizontal muy inferior al del carro (normalmente apoyado en el suelo).",
+              "imagen": "img/mod01/gruaSemiportico.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Grúa ménsula",
+              "texto": "Grúa fijada a un muro, o susceptible de desplazarse a lo largo de un camino de rodadura aéreo fijado a un muro o a una estructura de obra. Se diferencia de la grúa puente en que los raíles de desplazamiento están en un mismo plano vertical.",
+              "imagen": "img/mod01/gruaMensula.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Grúa de brazo giratorio (o de palomilla)",
+              "texto": "Grúa capaz de girar sobre una columna fijada por su base a la fundación, o fijada a una columna giratoria sobre un soporte empotrado.",
+              "imagen": "img/mod01/gruaPalomilla.jpg",
+              "ancho": 275
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "PUESTOS DE OPERACIÓN",
+      "contenido": [
+        {
+          "clase": "icono",
+		  "animacion": "fadeInUp",
+          "subclase": "definicion",
+          "texto": "Se entiende por puesto de operación el lugar desde el que el operador manejando los órganos de control opera la grúa. Las grandes grúas generalmente se operan desde cabinas situadas en la estructura de la misma con distintas disposiciones (Fig. 1), y en el resto se operan desde el suelo, mediante botonera o telemando. "
+        },
+        {
+          "clase": "imagen",		  
+			"animacion": "shake",
+          "subclase": "paraCambiar",
+          "imagen": "img/mod01/cabina.png",
+          "ancho": 500,
+          "pie": "Fig. 1: Ejemplos de emplazamiento de cabinas"
+        },
+        {
+          "clase": "texto",
+          "texto": "Las cabinas montadas en el centro del puente, se suelen utilizar en puentes de gran luz, con la idea de conseguir una buena visibilidad para el conductor. Las cabinas desplazables a lo largo del puente, se suelen utilizar para el movimiento de material muy voluminoso."
+        }
+
+      ]
+    },
+    {
+      "titulo": "OPERACIÓN DESDE CABINAS",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "wobble",
+          "texto": "La cabina es el habitáculo del operador, desde donde puede comandar los movimientos de la grúa, ya sea directamente o ayudado por el señalista."
+        },
+        {
+          "clase": "lista",
+		  "animacion": "shake",
+          "titulo": "Las cabinas tienen para la seguridad del operador y de la manipulación de cargas, las siguientes ventajas:",
+          "contenido": [
+            {
+              "punto": "Facilitan al operador una buena visibilidad de la zona de maniobra de la grúa. "
+            },
+            {
+              "punto": "Protegen al operador del entorno industrial (ruido, vapores, radiaciones, etc.), si están debidamente equipadas. "
+            },
+            {
+              "punto": "Resguardan al operador de las condiciones de intemperie cuando son de exterior. "
+            },
+                        {
+              "punto": "Mejoran las condiciones del lugar de trabajo en operación continua."
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "CONDICIONES DE ACCESO A LAS CABINAS",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "shake",
+          "texto": "El acceso a las cabinas debe realizarse en las mejores condiciones posibles de seguridad para el operador. Las escalas fijas de acceso a las cabinas tendrán una anchura mínima de 40 cm. con una distancia entre peldaños de 30 cm. y separadas de la pared posterior 16 cm. como mínimo.<br><br>La barandilla o lateral de la escala se prolongará 1 metro por encima del último peldaño y para escalas de altura superior a 4 metros dispondrán de protección circundante. Si se emplean escalas fijas para alturas mayores de 9 metros se instalaran plataformas de descanso cada 9 metros o fracción.<br><br>Las cabinas y sus accesos se mantendrán limpios y exentos de grasas, combustibles, polvo, etc. En caso de parada accidental, el operador debe poder abandonar la cabina de forma segura.<br><br>Está prohibida la utilización en la cabina de sistemas de calefacción por incandescencia o combustión. Las cabinas deben disponer de un sistema de ventilación adecuado.<br><br>Cuando se trabaje en zonas sometidas a alta o baja temperatura, las cabinas dispondrán de un equipo adecuado de aire acondicionado, que estará dotado de filtros apropiados para trabajos en atmósferas contaminadas o susceptibles de estarlo.<br><br>En el interior de la cabina existirá un extintor adecuado. Los cristales se mantendrán siempre limpios, para lo cual se limpiaran regularmente. Esta operación debe poder efectuarse sin riesgo para el operador."
+        }
+
+      ]
+    },
+    {
+      "titulo": "OPERACIÓN DESDE EL SUELO",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "El mando de las operaciones de la grúa, se realiza generalmente mediante una botonera colgante de la misma o mediante telemando, que es el sistema más frecuente en la actualidad. También existen, en algunos casos, paneles de control emplazados en un lugar fijo de la nave, pero solo son aplicables a situaciones muy puntuales. En las operaciones con mando de botonera, la velocidad normal de desplazamiento horizontal de la grúa, debe ser compatible con la del operador en el entorno en que este se mueve; si el mando es de una velocidad, la traslación a pie del operador no debe superar 1 m/s (60m/min), y si el mando tiene más de una velocidad, sin que la corta supere 0,75 m/s (45m/min.), se admite que la larga puede superar 1 m/s (UNE 13557:2004)."
+        }
+
+      ]
+    },
+    {
+      "titulo": "MODALIDADES DE BOTONERA COLGANTE",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "rubberBand",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "La botonera, tendrá claramente diferenciados los mandos, y serán sensitivos, deteniéndose automáticamente al dejar de ser presionados."
+            },
+            {
+              "clase": "imagen",
+              "subclase": "paraCambiar",
+              "imagen": "img/mod01/botonera.jpeg",
+              "ancho": 300
+            }
+          ]
+        },
+        {
+          "clase": "tabs",
+		  "animacion": "rubberBand",
+          "subclase": "paraCambiar",
+          "contenido": [
+            {
+              "titulo": "Botonera desplazable",
+              "texto": "Botonera desplazable a lo largo del puente: Permite guiar la carga manualmente y permite asimismo mantener una distancia de seguridad entre el operador y la carga. Se recomienda para velocidades máximas de traslación de 63m/min.",
+              "imagen": "img/mod01/botoneraDesplazable.png",
+              "ancho": 275
+            },
+            {
+              "titulo": "Botonera suspendida del puente",
+              "texto": "Botonera suspendida de un punto fijo del puente: Solo utilizable en puentes grúa de luz reducida, tampoco se utilizará en velocidades de traslación superiores a 63 m/min.",
+              "imagen": "img/mod01/botoneraSuspendidaPuente.png",
+              "ancho": 275
+            },
+            {
+              "titulo": "Botonera suspendida del carro",
+              "texto": "El conductor está próximo a la carga y puede guiarla manualmente. Es adecuado para trabajos de mantenimiento y montaje, por ejemplo.",
+              "imagen": "img/mod01/botoneraSuspendidaCarro.png",
+              "ancho": 275
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "MODALIDAD POR TELEMANDO",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": " Actualmente la utilización de estos dispositivos sé está imponiendo por su seguridad y fiabilidad y su uso es muy aconsejable, siempre que el sistema de radio no pueda ser interferido por otros emisores que puedan existir en el lugar de trabajo. Este sistema será el utilizado en los casos en que el conductor no deba acompañar a la carga, por ejemplo en centrales nucleares o instalaciones de depuración de aguas"
+        },
+        {
+          "clase": "tabla",
+		  "animacion": "fadeInLeftBig",
+          "filaTitulos": [
+            {
+              "titulo": "Disposiciones legales"
+            },
+            {
+              "titulo": "Normas aplicables"
+            },
+            {
+              "titulo": "Medidas de seguridad básicas"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "Manual de usuario Debe incorporar las informaciones y las advertencias para una instalación correcta, un empleo correcto, mantenimiento ordinario en el tiempo y las aplicaciones permitidas y no permitidas."
+                },
+                {
+                  "texto": "Directiva de Maquinas (Anexo I, 1.7.5)"
+                },
+                {
+                  "texto": "Particularmente importante es describir las operaciones que se deben efectuar durante la vida del equipo."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Transmisión serie La trama (telegrama) debe enviarse repetidamente durante el funcionamiento."
+                },
+                {
+                  "texto": "EN 13557 Anexo C.4.1"
+                },
+                {
+                  "texto": "Principio de transmisión continua."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Características de Seguridad de la trama. El sistema debe suministrar una transmisión segura a una distancia <i>hamming</i> del número total de bits en una trama dividida por 20 y al menos 4, u otros medios que aseguren un nivel igual de fiabilidad, de manera que la probabilidad de paso de una trama errónea sea inferior a 10exp-8."
+                },
+                {
+                  "texto": "EN 13557 Anexo C4.2 EN 60204-32 Art. 9.2.7.4"
+                },
+                {
+                  "texto": ""
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Limitación de control Se debe declarar y garantizar que el mando inalámbrico tenga un código único y no repetible en el conexionado radio-eléctrico y que no responda a mandos diferentes de los enviados por la relativa unidad emisora."
+                },
+                {
+                  "texto": "EN 60204-32 Art. 9.2.7.2"
+                },
+                {
+                  "texto": ""
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Parada \"STOP\" 1 El mando de control del operador debe incluir un accionamiento separado y claramente identificado para activar una función de parada de la máquina de elevación."
+                },
+                {
+                  "texto": "EN 60204-32 Art. 9.2.5.4.2 y 10.7.1"
+                },
+                {
+                  "texto": "No puede ser llamada parada de emergencia."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Parada \"STOP\" 2 La parte del sistema de control sin cables para realizar la función de \"parada\", es una parte relacionada con la seguridad del sistema de control de la grúa, como se define en el apartado 3.1 de la norma EN 954-1:1996. Esta parte del sistema de control sin cables debe diseñarse como categoría 3 o más alta, para cumplimiento de la seguridad como se define en el apartado 6.2.4 de la norma EN 954- 1:1996. Una categoría más alta debe especificarse en la norma europea apropiada para el tipo particular de grúa si la aplicación lo requiere."
+                },
+                {
+                  "texto": "EN 13557 Anexo C3.1 EN 954-1"
+                },
+                {
+                  "texto": "Requiere de un hardware redundante con vigilancia mutua, en el receptor y emisor, con doble contacto en el paro (categoría autocertificada)."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Parada \"STOP\" 3 El sistema de mando debe iniciar una parada de todos los movimientos de la grúa si no ha recibido una trama correcta en 0,5s. Para aquellas aplicaciones donde 0,5s es demasiado corto, este valor puede ampliarse hasta un máximo de 2s. Es preciso comprobar, en la utilización prevista de la grúa, que este aumento de la duración no da lugar a un riesgo suplementario. El tiempo de respuesta, en mandos de control sin cable, para el comando de Stop, desde que se acciona dicho comando en el mando hasta que se ejecuta el comando, no debe exceder los 550 ms."
+                },
+                {
+                  "texto": "EN 60204-32 Art. 9.2.7.3 EN 13557 Anexo C3.2"
+                },
+                {
+                  "texto": "Tiempo de respuesta máxima permitida. Un valor correcto es de 100ms."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Limitación del mando El receptor no debe expedir órdenes de funcionamiento del sistema de mandos salvo si recibe tramas que contengan la dirección y la instrucción correcta."
+                },
+                {
+                  "texto": "EN 13557 Anexo C2.2"
+                },
+                {
+                  "texto": ""
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Mandos de control alimentados con baterías Una variación en el nivel de la batería no debe causar una situación de peligro. Si una o varias maniobras peligrosas se controlan utilizando un mando alimentado por baterías, el mando debe advertir al operador mediante una clara señal de advertencia, cuando el nivel de la batería excede de unos límites especificados. Bajo estas circunstancias el mando de control debe seguir operativo por un tiempo suficiente, para poder permitir colocar la carga y la máquina en una posición no peligrosa. Nota: Un tiempo de 10 minutos se considera normalmente aceptable."
+                },
+                {
+                  "texto": "EN 60204-32 Art. 9.2.7.6"
+                },
+                {
+                  "texto": ""
+                }
+              ]
+            },
+                        {
+              "fila": [
+                {
+                  "texto": "Clase de receptor El receptor debe ser clase 1 Selectividad a canal adyacente: Espaciado del canal (12,5KHz <=25KHz):>= - 44dBm Espaciado del canal >25KHz: >= -10dBm"
+                },
+                {
+                  "texto": "EN 300 220-1 V21.1 (2005-04)"
+                },
+                {
+                  "texto": "Esto podría no ser requerido con la tecnología LBT"
+                }
+              ]
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "LOS DISPOSITIVOS DE SEGURIDAD: PRINCIPIOS DE FUNCIONAMIENTO Y CONTROLES",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "flipInX",
+          "subclase": "cuadrado",
+          "contenido": [
+            {
+              "punto": "<b>Limitadores de carga</b>: Dispositivo que impide el manejo de cargas que excedan de los límites establecidos por la carga nominal del puente grúa.",
+              "contenido": [
+                {
+                  "punto": "<b>Limitador de carga Electrónico</b>: Limitador de carga de alta precisión y seguridad, que evita accidentes y protege de averías por sobrecarga de puentes-grúa y polipastos. Es aplicable también a ascensores, montacargas, sistemas para tensión de cables y en general a cualquier equipo o instalación donde se someta un cable metálico a tracción y se desee limitar la tensión máxima. Mejora la precisión y fiabilidad de la alternativa tradicional de limitación por carga de motor."
+                },
+                {
+                  "punto": "<b>Limitador de carga Tensiométrico</b>: Ha sido diseñado para prevenir las sobrecargas que habitualmente se producen en los aparatos de elevación, como grúas, puente grúa, montacargas, elevadores, etc. Su misión es evitar roturas de cables, ganchos, ruedas, deformación de vigas y raíles y en general todos los accidentes derivados de cargar por encima de los límites."
+                }
+              ]
+            },
+            {
+              "punto": "<b>Sistema de anti-colisión</b>: Dispositivo que evita la colisión entre dos puentes grúas. Dispositivo que enclava el puente grúa evitando el desplazamiento una vez situada en una posición de paro o reposo. Suelen ser finales de carrera."
+            },
+            {
+              "punto": "<b>Limitador de aflojamiento del cable</b>: Dispositivo que evita el riesgo que pueda surgir por un aflojamiento de cable."
+            },
+            {
+              "punto": "<b>Limitador de altura de elevación inferior y superior</b>: Dispositivo que impide en todo momento que el accesorio de presión de carga descienda o se eleve de forma que pueda golpear la estructura de la grúa o pueda pasar el límite inferior y superior que se tenga establecido. Suelen ser finales de carrera."
+            },
+            {
+              "punto": "<b>Limitador de translación o de giro</b>: Dispositivo que nos indica todo movimiento, que supere los límites establecidos."
+            },
+            {
+              "punto": "<b>Pestillos de seguridad</b>: Dispositivo mecánico que impide que la carga se desenganche involuntariamente de los elementos de sujeción de carga."
+            },
+            {
+              "punto": "<b>Señal acústica</b>: Elemento que nos indica mediante una señalización sonora el funcionamiento del puente grúa. Es importante principalmente si en el área de trabajo, existe personal no habitual de la instalación."
+            },
+            {
+              "punto": "<b>Señal luminosa</b>: Elemento que nos indica mediante una señalización luminosa el funcionamiento del puente grúa."
+            },
+            {
+              "punto": "<b>Paro de emergencia</b>: Dispositivo que se acciona manualmente, asegurándonos la inmediata desconexión de todos los elementos motores del puente grúa e impide su puesta en marcha intempestiva al estar desenclavado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+                {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "¿Cuál de las siguientes afirmaciones es correcta?",
+              "respuestas": [
+                {
+                  "opcion": "No es necesario leer el manual de instrucciones del puente grúa, todos funcionan igual",
+                  "correcto": false
+                },
+                {
+                  "opcion": "No es necesario colocar el gancho en la vertical de la carga",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ninguna de las anteriores es correcta.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Entre las funciones del puente grúa está la siguiente:",
+              "respuestas": [
+                {
+                  "opcion": "Izar cargas en vertical y trasladarlas.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Realizar el arrastre de cargas.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Elevar personas para realizar reparaciones.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Los puentes grúa se pueden operar desde:",
+              "respuestas": [
+                {
+                  "opcion": "Cabina y botonera.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Radiomando",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Todas son correctas",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Una de las ventajas de la cabina es que:",
+              "respuestas": [
+                {
+                  "opcion": "El operador no está visible.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "El operador está resguardado del entorno (ruido, polvo…)",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Ninguna es correcta.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Los movimientos que puede efectuar un puente  grúa son:",
+              "respuestas": [
+                {
+                  "opcion": "Traslación del puente, orientación de carro y elevación-descenso de gancho.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Elevación de horquilla, inclinación de mástil.",
+                  "correcto": false
+                },
+                {
+                  "opción": "Ninguna es correcta",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Las grúas tipo ménsula son un tipo de puente grúa:",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Falso.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "El limitador de carga:",
+              "respuestas": [
+                {
+                  "opcion": "Enclava el puente grúa evitando el desplazamiento una vez situada en una posición de paro o reposo",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Impide el manejo de cargas que excedan de los límites establecidos por la carga nominal del puente grúa.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Evita el riesgo que pueda surgir por un aflojamiento de cable.",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },    
+     
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En este módulo hemos <b>presentado</b> el puente grúa, en el siguiente módulo nos centraremos en el operador o gruista y el resto de trabajadores que interaccionan en las maniobras de esta máquina."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod1/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

@@ -1,0 +1,505 @@
+﻿{
+  "modulo": "Mod. 1: Introducción",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Este curso está destinado a dar a conocer los trabajos en altura.<br><br>¿A qué llamamos trabajo en altura?<br>Se habla de altura en el trabajo, como regla general, cuando trabajamos a una distancia igual o superior a 2 metros hasta el suelo, o bien a 3,5 m desde el suelo hasta punto de operación. A partir de esa altura, si no existe protección colectiva, es obligatorio el uso de los EPI´S contra caídas de altura. El concepto de trabajo de altura no solo hace referencia a la utilización de un medio auxiliar para alcanzar la altura de 2 metros (escaleras, andamios, …), sino también al  lugar de trabajo aunque éste sea un plano parte de un elemento estructural del edificio (cubiertas, tejados, huecos en el suelo...)<br><br> Cuando nos referimos al riesgo del trabajo en altura, no solo hablamos del riesgo de caída del trabajador a distinto nivel, sino también a la caída de objetos a distinto nivel. Es decir, hablamos de riesgo en altura cuando el trabajador está en una situación de exposición al riesgo de caer (él o sus herramientas) a una cota inferior de la que marca la posición de sus pies."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Introducción",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Trataremos en primer lugar la necesidad de una evaluación de riesgos laborales aplicada al entorno de trabajo y la tarea a realizar. Cada lugar de trabajo y cada tarea son únicos en su género, de modo que las sugerencias y recomendaciones que aquí se presentan no eximen de la obligación de proceder a una evaluación rigurosa de los riesgos antes de elegir un método de trabajo concreto.<br><br>Existe una relación directa entre la existencia de diferentes alturas en el lugar de trabajo y el riesgo de caída. Cuando se llevan a cabo trabajos temporales en altura, el trabajador está generalmente expuesto a este riesgo: al acceder al puesto o lugar de trabajo (con o sin equipos o materiales); al realizar los trabajos."
+        },
+        {
+          "clase": "lista",
+          "titulo": "El empresario es responsable de la salud y la seguridad de los trabajadores  y debería plantearse las siguientes preguntas:",
+          "contenido": [
+            {
+              "punto": "¿Es posible realizar los trabajos a nivel del suelo? (ejemplo: bajar una araña de luces de una sala de conciertos para proceder a su reparación); "
+            },
+            {
+              "punto": "¿Es posible colocar una plataforma de trabajo cerca de la zona de trabajo de modo que la diferencia de niveles sea menos pronunciada? (ejemplo: utilización de gatos para elevar la superficie de trabajo a la altura del trabajo que se vaya a realizar en un sitio de carga y descarga de camiones)."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "Antes de proceder a cualquier operación que requiera la realización de trabajos temporales en altura, no olvide plantearse las siguientes preguntas:",
+          "contenido": [
+            {
+              "punto": "¿Es posible evitar la realización de trabajos en altura?"
+            },
+            {
+              "punto": "¿Es posible evitar los riesgos de caída desde una altura?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Evaluar los riesgos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Si no puede eliminarse la diferencia de alturas, conviene determinar de forma precisa los siguientes aspectos: ",
+              "contenido": [
+                {
+                  "punto": "Naturaleza del puesto de trabajo (emplazamiento, maquinaria, equipos, materiales, entorno, etc.)"
+                },
+                {
+                  "punto": "Fuente del riesgo (altura a la que se realizan los trabajos, proximidad de un vacío o vano, otros trabajos realizados en las cercanías, etc.)"
+                },
+                {
+                  "punto": "Actividad del trabajador (tarea, duración, frecuencia, postura, etc.)"
+                },
+                {
+                  "punto": "Características del trabajador (competencia, experiencia, edad, aptitudes físicas, ausencia de vértigo, etc.)."
+                }
+
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/descansando.jpg"
+            }
+
+          ]
+        }
+
+      ]
+    },
+
+    {
+      "titulo": "Combatir los riesgos en su origen",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": " Si no es posible evitar la realización de trabajos en altura, se debe reducir por todos los medios posibles la distancia potencial de caída (véase el artículo 6 de la Directiva marco 89/391/CEE).<br><br><b>¿Es posible prevenirlo?</b><br><br>De no ser así, ¿es posible instalar dispositivos anticaídas (barandillas o barreras) lo más cerca posible de las zonas de trabajo? <br><br>En caso de que sea preciso utilizar dispositivos anticaídas (p. ej. arneses de seguridad o técnicas de acceso y posicionamiento con cuerdas) ¿es posible organizar el trabajo de modo que se reduzca al mínimo la distancia potencial de caída (uso de tensores, elección de los puntos de anclaje, etc.)?"
+        }
+      ]
+    },
+    {
+      "titulo": "Adaptar el trabajo a la persona",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": " El empresario debe «adaptar el trabajo a la persona, en particular en lo que respecta a la concepción de los puestos de trabajo, así como a la elección de los equipos de trabajo y los métodos de trabajo y de producción, , en particular, atenuando en lo posible el trabajo monótono y el trabajo repetitivo y a reducir los efectos de los mismos en la salud.» [artículo 6, apartado 2, letra d), de la Directiva 89/391/CEE, relativa a la aplicación de medidas para promover la mejora de la seguridad y de la salud de los trabajadores en el trabajo (la llamada «Directiva marco»)]."
+        }
+      ]
+    },
+    {
+      "titulo": "IDENTIFICAR LOS RIESGOS",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Se trata de detectar los riesgos que podrían ocasionar lesiones dadas las condiciones del lugar de trabajo."
+        },
+        {
+          "clase": "lista",
+          "titulo": "Un listado no exhaustivo de riesgos o situaciones peligrosas que pueden darse en casi cualquier tarea:",
+          "contenido": [
+            {
+              "punto": "Resbalones (p. ej. suelos o escaleras en mal estado)."
+            },
+            {
+              "punto": "Incendios (p. ej. materiales inflamables)."
+            },
+            {
+              "punto": "Productos químicos (p. ej. ácido de batería)."
+            },
+            {
+              "punto": "Piezas móviles de maquinaria (p. ej. cuchillas)."
+            },
+            {
+              "punto": "Trabajos en altura (p. ej. en áticos)."
+            },
+            {
+              "punto": "Vehículos (p. ej. carretillas elevadoras)."
+            },
+            {
+              "punto": "Electricidad (p. ej. cableado deficiente)."
+            },
+            {
+              "punto": "Manipulación manual de cargas."
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¿QUIÉN PODRÍA RESULTAR LESIONADO?",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Se trata de clasificar al personal por grupos según las tareas que realizan, por ejemplo personal de oficina, personal de mantenimiento, personal directivo, trabajadores de otras empresas que comparten su lugar de trabajo con sus trabajadores, trabajadores, personal de limpieza, público. Es conveniente prestar especial atención a las categorías específicas de trabajadores, por ejemplo: personas con discapacidad, jóvenes trabajadores, embarazadas y madres lactantes, personal con poca experiencia y personal en prácticas, trabajadores aislados, trabajadores autónomos, cualquier trabajador que pudiera considerarse vulnerable, trabajadores que no comprenden la lengua local. Es preciso asimismo tomar en consideración a las personas ajenas a la empresa que pudieran estar presentes en el lugar de trabajo ocasionalmente (p. ej. visitantes)."
+        }
+      ]
+    },
+    {
+      "titulo": "¿ES PRECISO TOMAR OTRAS MEDIDAS PARA MANTENER LOS RIESGOS BAJO CONTROL?",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Por lo que respecta a los riesgos evaluados, y suponiendo que las precauciones que ya se han tomado:",
+          "contenido": [
+            {
+              "punto": "¿Cumplen las normas impuestas por una disposición legal?"
+            },
+            {
+              "punto": "¿Se ajustan a una norma sectorial reconocida?"
+            },
+            {
+              "punto": "¿Representan un ejemplo de buena práctica?"
+            },
+            {
+              "punto": "¿Eliminan los riesgos?"
+            },
+            {
+              "punto": "¿Reducen al mínimo los riesgos?"
+            },
+            {
+              "punto": "¿Se ha facilitado información suficiente y una formación adecuada? ¿sistemas o procedimientos apropiados?"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Si la respuesta a estas preguntas es SI, puede considerarse que los riesgos están bajo control. Con todo, es preciso indicar las precauciones que ha tomado (para ello se efectúan los procedimientos, a normas internas de la empresa, etc.).<br><br>En caso de que el riesgo no esté bajo control, habrá que indicar qué otras medidas tiene previsto adoptar («lista de acciones»)."
+        }
+      ]
+    },
+    {
+      "titulo": "RIESGOS Y DIVERSIDAD DE TRABAJOS",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Dada la diversidad de tareas en que están implicados los trabajos en altura, procederemos a hablar de riesgos y medidas preventivas, ya que serán muy dispares, en función de los mismos y en módulos diferenciados, según utilicemos escaleras de mano, andamios, etc."
+        }
+      ]
+    },
+    {
+      "titulo": "NORMATIVA APLICABLE",
+      "contenido": [
+        {
+          "clase": "lista",
+          "subclase": "numeros",
+          "titulo": "El RD 486/1997 sobre Disposiciones mínimas de seguridad y salud en los lugares de trabajo, en su anexo I “condiciones generales de seguridad en los lugares de trabajo” dice en el punto 3, sobre “suelos, aberturas y desniveles, y barandillas”:",
+          "contenido": [
+            {
+              "punto": "Los suelos de los locales de trabajo deberán ser fijos, estables y no resbaladizos, sin irregularidades ni pendientes peligrosas."
+            },
+            {
+              "punto": "Las aberturas o desniveles que supongan un riesgo de caída de personas se protegerán mediante barandillas u otros sistemas de protección de seguridad equivalente, que podrán tener partes móviles cuando sea necesario disponer de acceso a la abertura. Deberán protegerse, en particular:",
+              "contenido": [
+                {
+                  "punto": "Las aberturas en los suelos."
+                },
+                {
+                  "punto": "Las aberturas en paredes o tabiques, siempre que su situación y dimensiones suponga riesgo de caída de personas, y las plataformas, muelles o estructuras similares. La protección no será obligatoria, sin embargo, si la altura de caída es inferior a 2 metros."
+                },
+                {
+                  "punto": "Los lados abiertos de las escaleras y rampas de más de 60 centímetros de altura. Los lados cerrados tendrán un pasamanos a una altura mínima de 90 centímetros, si la anchura de la escalera es mayor de 1,2 metros; si es menor, pero ambos lados son cerrados, al menos uno de los dos llevará pasamanos."
+                }
+              ]
+            },
+            {
+              "punto": "Las barandillas serán de materiales rígidos, tendrán una altura mínima de 90 centímetros y dispondrán de una protección que impida el paso o deslizamiento por debajo de las mismas o la caída de objetos sobre personas."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "El mismo RD 486/1997 y en el mismo anexo I, en su punto 9 sobre escaleras de mano dice que estas deberán ajustarse a lo establecido en su normativa específica, lo que nos lleva al RD 2177/2004 , que modifica al RD 1215/1997 y establece las disposiciones mínimas de seguridad y salud para la utilización de los equipos de trabajo.<br><br>Este RD 2177/2004, en su anexo sobre “disposiciones relativas a la utilización de los equipos de trabajo para la realización de trabajos temporales en altura, específica sobre uso de andamios y escaleras de mano, asi como de uso de  técnicas de acceso y posicionamiento mediante cuerdas.<br><br>Resulta obvio que este Real Decreto dará las pautas para ésta formación."
+        },
+        {
+          "clase": "lista",
+          "subclase": "numeros",
+          "titulo": "Respecto a las escaleras de mano:",
+          "contenido": [
+            {
+              "punto": "Las escaleras de mano se colocarán de forma que su estabilidad durante su utilización esté asegurada. Los puntos de apoyo de las escaleras de mano deberán asentarse sólidamente sobre un soporte de dimensión adecuada y estable, resistente e inmóvil, de forma que los travesaños queden en posición horizontal. Las escaleras suspendidas se fijarán de forma segura y, excepto las de cuerda, de manera que no puedan desplazarse y se eviten los movimientos de balanceo."
+            },
+            {
+              "punto": "Se impedirá el deslizamiento de los pies de las escaleras de mano durante su utilización ya sea mediante la fijación de la parte superior o inferior de los largueros, ya sea mediante cualquier dispositivo antideslizante o cualquier otra solución de eficacia equivalente. Las escaleras de mano para fines de acceso deberán tener la longitud necesaria para sobresalir al menos un metro del plano de trabajo al que se accede. Las escaleras compuestas de varios elementos adaptables o extensibles deberán utilizarse de forma que la inmovilización recíproca de los distintos elementos esté asegurada. Las escaleras con ruedas deberán haberse inmovilizado antes de acceder a ellas. Las escaleras de mano simples se colocarán, en la medida de lo posible, formando un ángulo aproximado de 75 grados con la horizontal."
+            },
+            {
+              "punto": "El ascenso, el descenso y los trabajos desde escaleras se efectuarán de frente a éstas. Las escaleras de mano deberán utilizarse de forma que los trabajadores puedan tener en todo momento un punto de apoyo y de sujeción seguros. Los trabajos a más de 3,5 metros de altura, desde el punto de operación al suelo, que requieran movimientos o esfuerzos peligrosos para la estabilidad del trabajador, sólo se efectuarán si se utiliza un equipo de protección individual anticaídas o se adoptan otras medidas de protección alternativas. El transporte a mano de una carga por una escalera de mano se hará de modo que ello no impida una sujeción segura. Se prohíbe el transporte y manipulación de cargas por o desde escaleras de mano cuando por su peso o dimensiones puedan comprometer la seguridad del trabajador. Las escaleras de mano no se utilizarán por dos o más personas simultáneamente."
+            },
+            {
+              "punto": "No se emplearán escaleras de mano y, en particular, escaleras de más de cinco metros de longitud, sobre cuya resistencia no se tengan garantías. Queda prohibido el uso de escaleras de mano de construcción improvisada."
+            },
+            {
+              "punto": "Las escaleras de mano se revisarán periódicamente. Se prohíbe la utilización de escaleras de madera pintadas, por la dificultad que ello supone para la detección de sus posibles defectos."
+            }
+
+          ]
+        },
+        {
+          "clase": "lista",
+          "subclase": "numeros",
+          "titulo": "Y con respecto a <b>los andamios</b>:",
+          "contenido": [
+            {
+              "punto": "Los andamios deberán proyectarse, montarse y mantenerse convenientemente de manera que se evite que se desplomen o se desplacen accidentalmente. Las plataformas de trabajo, las pasarelas y las escaleras de los andamios deberán construirse, dimensionarse, protegerse y utilizarse de forma que se evite que las personas caigan o estén expuestas a caídas de objetos. A tal efecto, sus medidas se ajustarán al número de trabajadores que vayan a utilizarlos."
+            },
+            {
+              "punto": "Cuando no se disponga de la nota de cálculo del andamio elegido, o cuando las configuraciones estructurales previstas no estén contempladas en ella, deberá efectuarse un cálculo de resistencia y estabilidad, a menos que el andamio esté montado según una configuración tipo generalmente reconocida."
+            },
+            {
+              "punto": "En función de la complejidad del andamio elegido, deberá elaborarse un plan de montaje, de utilización y de desmontaje. Este plan y el cálculo a que se refiere el apartado anterior deberán ser realizados por una persona con una formación universitaria que lo habilite para la realización de estas actividades. Este plan podrá adoptar la forma de un plan de aplicación generalizada, completado con elementos correspondientes a los detalles específicos del andamio de que se trate.",
+              "contenido": [
+                {
+                  "punto": "Plataformas suspendidas de nivel variable (de accionamiento manual o motorizadas), instaladas temporalmente sobre un edificio o una estructura para tareas específicas, y plataformas elevadoras sobre mástil."
+                },
+                {
+                  "punto": "Andamios constituidos con elementos prefabricados apoyados sobre terreno natural, soleras de hormigón, forjados, voladizos u otros elementos cuya altura, desde el nivel inferior de apoyo hasta la coronación de la andamiada, exceda de seis metros o dispongan de elementos horizontales que salven vuelos y distancias superiores entre apoyos de más de ocho metros. Se exceptúan los andamios de caballetes o borriquetas."
+                },
+                {
+                  "punto": "Andamios instalados en el exterior, sobre azoteas, cúpulas, tejados o estructuras superiores cuya distancia entre el nivel de apoyo y el nivel del terreno o del suelo exceda de 24 metros de altura."
+                },
+                {
+                  "punto": "Torres de acceso y torres de trabajo móviles en los que los trabajos se efectúen a más de seis metros de altura desde el punto de operación hasta el suelo."
+                }
+              ]
+            },
+            {
+              "punto": "Sin embargo, cuando se trate de andamios que, a pesar de estar incluidos entre los anteriormente citados, dispongan del marcado “CE”, por serles de aplicación una normativa específica en materia de comercialización, el citado plan podrá ser sustituido por las instrucciones específicas del fabricante, proveedor o suministrador, sobre el montaje, la utilización y el desmontaje de los equipos, salvo que estas operaciones se realicen de forma o en condiciones o circunstancias no previstas en dichas instrucciones."
+            },
+            {
+              "punto": "Los elementos de apoyo de un andamio deberán estar protegidos contra el riesgo de deslizamiento, ya sea mediante sujeción en la superficie de apoyo, ya sea mediante un dispositivo antideslizante, o bien mediante cualquier otra solución de eficacia equivalente, y la superficie portante deberá tener una capacidad suficiente. Se deberá garantizar la estabilidad del andamio. Deberá impedirse mediante dispositivos adecuados el desplazamiento inesperado de los andamios móviles durante los trabajos en altura."
+            },
+            {
+              "punto": "Las dimensiones, la forma y la disposición de las plataformas de un andamio deberán ser apropiadas para el tipo de trabajo que se va a realizar, ser adecuadas a las cargas que hayan de soportar y permitir que se trabaje y circule en ellas con seguridad. Las plataformas de los andamios se montarán de tal forma que sus componentes no se desplacen en una utilización normal de ellos. No deberá existir ningún vacío peligroso entre los componentes de las plataformas y los dispositivos verticales de protección colectiva contra caídas."
+            },
+            {
+              "punto": "Cuando algunas partes de un andamio no estén listas para su utilización, en particular durante el montaje, el desmontaje o las transformaciones, dichas partes deberán contar con señales de advertencia de peligro general, con arreglo al Real Decreto 485/1997, de 14 de abril, sobre señalización de seguridad y salud en el centro de trabajo, y delimitadas convenientemente mediante elementos físicos que impidan el acceso a la zona de peligro."
+            },
+            {
+              "punto": "Los andamios sólo podrán ser montados, desmontados o modificados sustancialmente bajo la dirección de una persona con una formación universitaria o profesional que lo habilite para ello, y por trabajadores que hayan recibido una formación adecuada y específica para las operaciones previstas, que les permita enfrentarse a riesgos específicos de conformidad con las disposiciones del artículo 5, destinada en particular a:",
+              "contenido": [
+                {
+                  "punto": "La comprensión del plan de montaje, desmontaje o transformación del andamio de que se trate."
+                },
+                {
+                  "punto": "La seguridad durante el montaje, el desmontaje o la transformación del andamio de que se trate."
+                },
+                {
+                  "punto": "Las medidas de prevención de riesgos de caída de personas o de objetos."
+                },
+                {
+                  "punto": "Las medidas de seguridad en caso de cambio de las condiciones meteorológicas que pudiesen afectar negativamente a la seguridad del andamio de que se trate."
+                },
+                {
+                  "punto": "Las condiciones de carga admisible."
+                },
+                {
+                  "punto": "Cualquier otro riesgo que entrañen las mencionadas operaciones de montaje, desmontaje y transformación."
+                }
+              ]
+            },
+            {
+              "punto": "Tanto los trabajadores afectados como la persona que supervise dispondrán del plan de montaje y desmontaje mencionado en el apartado 4.3.3, incluyendo cualquier instrucción que pudiera contener. Cuando, de conformidad con el apartado 4.3.3, no sea necesaria la elaboración de un plan de montaje, utilización y desmontaje, las operaciones previstas en este apartado podrán también ser dirigidas por una persona que disponga de una experiencia certificada por el empresario en esta materia de más de dos años y cuente con la formación preventiva correspondiente, como mínimo, a las funciones de nivel básico, conforme a lo previsto en el apartado 1 del artículo 35 del Reglamento de los Servicios de Prevención, aprobado por el Real Decreto 39/1997, de 17 de enero."
+            },
+            {
+              "punto": "Los andamios deberán ser inspeccionados por una persona con una formación universitaria o profesional que lo habilite para ello:",
+              "contenido": [
+                {
+                  "punto": "Antes de su puesta en servicio."
+                },
+                {
+                  "punto": "A continuación, periódicamente."
+                },
+                {
+                  "punto": "Tras cualquier modificación, período de no utilización, exposición a la intemperie, sacudidas sísmicas, o cualquier otra circunstancia que hubiera podido afectar a su resistencia o a su estabilidad."
+                }
+              ]
+            },
+            {
+              "punto": "Cuando, de conformidad con el apartado 4.3.3, no sea necesaria la elaboración de un plan de montaje, utilización y desmontaje, las operaciones previstas en este apartado podrán también ser dirigidas por una persona que disponga de una experiencia certificada por el empresario en esta materia de más de dos años y cuente con la formación preventiva correspondiente, como mínimo, a las funciones de nivel básico, conforme a lo previsto en el apartado 1 del artículo 35 del Reglamento de los Servicios de Prevención, aprobado por el Real Decreto 39/1997, de 17 de enero."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "El RD 1627/1997 sobre obras de construcción, en su anexo IV, parte C, también legisla sobre las caídas en altura.<br><br>El RD 773/1997 y el RD 1407/1992 sobre equipos de protección individual, aplicarían en cuanto a los EPI adecuados a la tarea.<br><br>Asimismo el RD 1801/2003 sobre seguridad general de los productos, en su artículo 3, Evaluación de la seguridad de un producto sería de aplicación.<br><br>Del mismo modo, aplicarían las siguientes normas UNE:<br><br>UNE-EN 1263-1 y 2 :2004 sobre Redes de Seguridad<br><br>UNE 81652:2013 sobre redes de seguridad bajo forjado<br><br>UNE-EN 13374:2013 sobre sistemas provisionales de protección de borde<br><br>UNE-EN 12810 1 y 2:2005 sobre andamios de fachada<br><br>UNE-EN 12811:2005 sobre andamios<br><br>UNE-EN 1004:2006 sobre torres de acceso y torres de trabajo móviles.<br><br>UNE-EN 795:2012 sobre EPI contra caídas, dispositivos de anclaje.<br><br>UNE-EN 353-1:2014 sobre dispositivos anticaídas deslizantes sobre línea de anclaje rígida.<br><br>En cuanto a las Notas Técnicas de Prevención del Instituto Nacional de Seguridad e Higiene en el Trabajo, tenemos:<br><br>NTP 774 “Sistemas anticaídas. Componentes y elementos”<br><br>NTP 809 “Descripción y elección de dispositivos de anlaje”<br><br>NTP 843 “Dispositivos de anclaje de clase C”<br><br>El instituto Nacional de Seguridad e Higiene en el Trabajo, también ha publicado una <a href='http://www.insht.es/InshtWeb/Contenidos/Documentacion/TextosOnline/Guias/Guias_Orientativas_EPI/Ficheros/caidas_de_altura.pdf' target='_blank'>Guía orientativa para la selección y utilización de EPI contra caídas en altura.</a>"
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "¿En general, cuándo hablamos de trabajo en altura?",
+              "respuestas": [
+                {
+                  "opcion": "Cuando nuestra cabeza está 2 metros por encima del suelo",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Cuando nuestros pies están 2 metros por encima del suelo",
+                  "correcto": true
+                },
+                {
+                  "opcion": "En cualquier momento que no estemos pisando el suelo.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Si tenemos que realizar un trabajo en altura, entre otros aspectos que hay que tener en cuenta?",
+              "respuestas": [
+                {
+                  "opcion": "La naturaleza del trabajo y su duración",
+                  "correcto": false
+                },
+                {
+                  "opcion": "La altura a que se ha de realizar el trabajo",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "¿Por qué es necesario realizar una evaluación de riesgos para los trabajos en altura?",
+              "respuestas": [
+                {
+                  "opcion": "La ley no obliga a evaluar los trabajos en altura",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Porque cada tarea es única y existe relación directa entre la altura y el riesgo de caída",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Si el trabajador tiene un arnés y sabe ponérselo, no es necesario realizar al evaluación de riesgos.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "En los trabajos en altura",
+              "respuestas": [
+                {
+                  "opcion": "Preferiblemente se optará por los medios de protección colectiva, tipo andamios y barandillas.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Preferiblemente se utilizarán equipos de protección individual (equipos anticaídas).",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Será el empresario el que decida que utilizar.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "El RD 2177/2044 hablando de escaleras de mano refiere: ",
+              "respuestas": [
+                {
+                  "opcion": "El ascenso, el descenso en escaleras se efectuarán de espalda a éstas.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Se permite el uso de escaleras de mano de fabricación improvisada siempre y cuando sean de madera.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Se prohíbe la utilización de escaleras de madera pintadas, por la dificultad que ello supone para la detección de sus posibles defectos.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "El RD 2177/2044 hablando de andamios refiere:",
+              "respuestas": [
+                {
+                  "opcion": "Los andamios podrán ser montados, desmontados o modificados sustancialmente bajo la dirección de aquel trabajador a quien el empresario capacite, independientemente de su formación",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Cuando algunas partes de un andamio no estén listas para su utilización, en particular durante el montaje, el desmontaje o las transformaciones, dichas partes deberán contar con señales de advertencia de peligro general, con arreglo al Real Decreto 485/1997, de 14 de abril, sobre señalización de seguridad y salud en el centro de trabajo, y delimitadas convenientemente mediante elementos físicos que impidan el acceso a la zona de peligro.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Es necesario inspeccionar un andamio únicamente antes de su puesta en servicio",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En este módulo hemos visto una pequeña introducción a los trabajos en altura y hemos hablado de la importancia de la prevención de riesgos laborales. En el segundo módulo, nos adentraremos en los conceptos necesarios para tratar los trabajos en altura."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod1/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

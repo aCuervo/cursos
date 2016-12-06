@@ -1,0 +1,381 @@
+﻿{
+  "modulo": "Mod. I: Introducción",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Conocimiento de Producto",
+      "subclase": "pattern",
+      "fondo": "img/comunes/portada.svg",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "animacion": "slideInRight",
+          "imagen": "img/m1/portadaImg.svg"
+        }
+      ]
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInUp",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Te damos la <b>bienvenida</b> al contenido de \"Conocimiento de Producto: Sección de Panadería\". Con este contenido inicial a la Sección de Panadería, lograremos dar el <b>primer paso</b> para que consigas convertirte en un Profesional Experto en la venta de Productos de Panadería.<br><br>Como verás, hemos dividido el contenido en <b>cuatro</b> partes diferenciadas o módulos para que te resulte sencillo de realizar.</p><ul class='lista'>Los cuatro módulos en los que está dividido el contenido son:<br><li>Módulo <b>I</b>. Introducción.</li><li>Módulo <b>II</b>. Detectar necesidades.</li><li>Módulo <b>III</b>. Conocer el surtido y recomendar productos.</li><li>Módulo <b>IV</b>. Categorías referenciadas para cada producto.</li></ul><p>En este primer Módulo, introductorio a la Sección Panadería, descubrirás por qué los Productos de esta Sección son <b>únicos y diferentes</b> a los de las restantes Secciones."
+            },
+
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "imagen": "img/m1/cafeManos.jpg",
+              "ancho": 500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Objetivos",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Con el presente contenido pretendemos facilitar algunas claves con el <b>objetivo</b> de convertirte en un profesional experto en la venta de productos de panadería. Siguiendo sus pautas, lograrás ajustar cada producto que vendas a las necesidades y preferencias del cliente, alcanzando el objetivo final de tu trabajo: <b>que el cliente vuelva.</b>"
+        },
+        {
+          "clase": "lista",
+          "subclase": "objetivos",
+          "animacion": "fadeIn",
+          "titulo": "Objetivos a conseguir con este Módulo:",
+          "contenido": [
+            {
+              "punto": "Objetivo Principal:",
+              "contenido": [
+                {
+                  "punto": "Conocer qué hace a los productos de la Sección de Panadería diferentes a los del resto de Secciones."
+                }
+              ]
+            },
+            {
+              "punto": "Objetivo Secundario:",
+              "contenido": [
+                {
+                  "punto": "Saber cómo ayudar a nuestros clientes a elegir el producto que mejor se adapte a sus exigencias."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "animacion": "rubberBand",
+          "imagen": "img/comunes/madalena.svg",
+          "ancho": 200
+        }
+      ]
+    },
+    {
+      "titulo": "Características de los productos de Panadería",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInDown",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "celo",
+              "texto": "Todos nuestros productos son importantes, en la medida en que responden y logran cubrir necesidades de los clientes. La <b>necesidad básica</b> que cubre el producto de nuestra sección, al igual que muchos otros productos de la tienda, es el de la <b>alimentación</b>.<br><br><h2>¿Entonces, por qué decimos que los productos de la Sección Panadería son <b>únicos</b> si los comparamos con los productos que tenemos en las otras secciones de la tienda?<h2>"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/m1/madalenaAdorno.svg",
+              "ancho": 300
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion picos",
+          "animacion": "fadeInUp",
+          "texto": "Son únicos porque los productos de la sección de panadería, tienen una característica específica y diferencial: son todos productos terminados, <b>listos para consumo</b>, lo que supone regalar a nuestros clientes, el <b>tiempo</b> que suelen utilizar en cocinar o preparar alimentos. El no tener que realizar ningún tipo de elaboración para consumirlos, es una <b/>ventaja</b> respecto a otros productos de otras secciones de la tienda."
+        }
+      ]
+    },
+    {
+      "titulo": "Recuerda",
+      "fondo": "img/m1/fondoT5.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "anillas",
+          "animacion": "shake",
+          "texto": "UNA CARACTERÍSTICA IMPORTANTE QUE DIFERENCIA LOS PRODUCTOS DE LA SECCIÓN DE PANADERÍA DEL RESTO DE PRODUCTOS DE OTRAS SECCIONES, ES QUE SON PRODUCTOS <b>TERMINADOS</b> Y <b>LISTOS</b> PARA SU CONSUMO."
+        }
+      ]
+    },
+    {
+      "titulo": "Característica de los productos de Panadería II",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "celo",
+              "animacion": "bounceInLeft",
+              "texto": "Y además de ser productos terminados, que podemos consumir de inmediato, el producto se entrega en una bolsa o paquete cerrado, y dado su tamaño, en muchos casos, es un producto <b>fácil de transportar</b>.<br><br>No necesitamos estar en casa para consumirlo, podemos llevarlo a cualquier sitio con nosotros.<br><br>Nos ofrece <b>libertad</b> y <b>movilidad</b>.<br><br>Es una solución para nuestra alimentación <b>rápida</b> y <b>sencilla</b>."
+            },
+            {
+              "clase": "imagen",
+              "ancho": 300,
+              "subclase": "rotar90",
+              "imagen": "img/comunes/rodillo.png"
+              
+            },
+            {
+              "clase": "texto",
+              "subclase": "celo",
+              "animacion": "bounceInRight",
+              "texto": "Has de tener en cuenta, que los clientes no tienen por qué conocer nuestro surtido, y por lo tanto no buscarán un producto en concreto, sino que <b>buscarán cubrir una necesidad</b>.<br><br><span class='h2'>Nosotros estamos ahí para guiarles y ayudarles, puesto que somos expertos</span>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¿Cómo ayudar a los clientes?",
+      "fondo": "img/m1/fondo2.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "banner",
+          "animacion": "flipInX",      
+          "texto": "<span class='h2'>Entonces... ¿Cómo puedo ayudar a los clientes?</span>"
+        },
+        {
+          "clase": "tabs",
+          "animacion": "rotateInDownLeft",
+          "contenido": [
+            {
+              "titulo": "Descubriendo",
+              "texto": "Lo primero y más importante que tendrás que hacer es descubrir qué necesidades tiene el cliente.<br>¿Para qué?<br>Para luego poder recomendar el producto más adecuado. Según el tiempo de interacción del que dispongamos, debemos asegurarnos de que <b>cada cliente está satisfecho</b> con el producto, participando en la compra con él, dejando que lleve el tiempo de la interacción e intentando ajustar lo máximo el producto a sus necesidades y gustos."
+            },
+            {
+              "titulo": "Implicando al cliente",
+              "texto": "Lo siguiente que necesitarás será implicar al cliente en la compra.<br>En muchas ocasiones el cliente tiene claro el producto que quiere y necesita y lo pide directamente. Aun así es importante tener en cuenta que debemos <b>intentar personalizar</b> la venta ajustando al máximo el servicio (preguntando el grado de cocción, enseñando el producto para su aprobación...). Por muy rápida que sea la interacción con el cliente, es importante <b>darle opciones</b> para que elija, para que se implique en la compra que realiza.<br>Siempre hemos de dedicar a cada cliente el <b>tiempo y la atención adecuados</b>. Para ello, vamos a facilitarte algunas de las claves a resolver, cuestiones, en ocasiones, muy básicas, referentes a cantidades y tipologías de producto, y cuestiones más ajustadas y concretas, como las <b>propiedades</b> que tiene el producto o su <b>composición</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "La misión del experto en panadería",
+      "fondo": "img/m1/bizcochoAbeto.jpg",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "exclamacion picos",
+          "animacion": "shake",
+          "texto": "Tu labor como <b>experto</b> en los productos de panadería, es encontrar el producto concreto que <b>encaje</b> con ese cliente, y tendrá éxito en la medida en que personalices cada atención, y el resultado respecto al producto y al servicio que entregues sean <b>únicos y exclusivos</b>."
+        }
+      ]
+    },
+
+    {
+      "titulo": "Conocer las necesidades del cliente",
+      "fondo": "img/m1/fondoEstrella.svg",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "lightSpeedIn",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "celo2",
+              "texto": "Con el manejo del arte de la conversación, serás capaz de <b>resolver las cuestiones</b> planteadas por el cliente con las respuestas adecuadas. Así conseguirás saber cuál es la necesidad del cliente"
+            },
+            {
+              "clase": "texto",
+              "subclase": "celo2",
+              "texto": "Una vez que conozcas la necesidad del cliente, has de seleccionar el <b>producto que más se adecúe</b> a la misma, y para eso debes conocer al detalle las características y cualidades de las más de <b>230</b> referencias de las que disponemos en la sección (está a tu disposición una clasificación y categorización exhaustiva del surtido que te ayudará, y que vas a terminar manejando con soltura)."
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "animacion": "zoomIn",
+          "imagen": "img/m1/DetectarConocerRecomendar.svg",
+          "ancho": 1000
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora. Recuerda que, tras la lectura del módulo, has de contestar el cuestionario correspondiente disponible en la página principal del contenido."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "¿El objetivo final de tu trabajo como profesional experto en la venta de productos de panadería es?",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "Que el cliente vuelva.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Cubrir las necesidades que tiene el cliente con los productos de la Sección.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Elaborar los productos justos para la venta del día, sin que sobren al finalizar la jornada.",
+                  "correcto": false
+                },
+                {
+                  "opcion": " Tener todos los productos que puede demandar el cliente listos para la venta.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "¿Por qué decimos que los productos de la Sección de Panadería son diferentes a los del resto de Secciones?",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "Porque son productos que se pueden consumir directamente, sin necesidad de elaboraciones posteriores.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Porque son más apetitosos que los del resto de secciones.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Porque los elaboramos nosotros de la manera más adecuada para hacerlo.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Porque son productos pequeños y fáciles de transportar.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "¿Qué entiendes que es el tiempo de interacción con el cliente?",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "El tiempo que es necesario para escuchar y atender correctamente al cliente.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "El tiempo que transcurre desde que llega el cliente a la sección hasta que se marcha.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "El tiempo que demanda un cliente para que le escuche.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "El tiempo que transcurre desde que llega el cliente a la sección hasta que lo atiendo.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Tu labor como profesional experto en la venta de productos de panadería, ¿es?",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "Encontrar el producto concreto que satisfaga las necesidades del cliente.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Encontrar el cliente que más se ajuste a nuestros productos.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Vender muchos productos de la sección.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Convencer al cliente del producto que necesita.",
+                  "correcto": false
+                }
+              ]
+
+            },
+            {
+              "texto": "Señala la respuesta correcta. Saber cuál es la necesidad del cliente se consigue...:",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "Conociendo todas las características de los productos que tenemos en nuestra sección.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Conversando con el cliente y resolviendo adecuadamente las preguntas que éste nos plantee.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Informando al cliente sobre todos y cada uno de los productos que tenemos en nuestra sección.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Recomendando al cliente el producto que  queramos vender.",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Aprendizaje",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInUp",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
+              "ancho":  500,
+              "imagen": "img/m1/bolloLenia.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "En este primer Módulo has descubierto qué hace que los productos de esta Sección sean <b>únicos y diferentes</b> a los de las restantes Secciones.<br><br>También has podido entrever la importancia que tiene <b>implicar</b> al cliente en la compra, para conseguir que éste se encuentre satisfecho.<br><br>En el módulo siguiente vas a descubrir cómo <b>escuchando</b> al cliente y manejando el <b>arte de la conversación</b> haciendo las preguntas acertadas en el momento adecuado, sabrás interpretar correctamente la información dada por el cliente y así podrás dar solución a todas las dudas que a éste le puedan surgir."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Fin del módulo",
+      "fondo": "img/comunes/contraportada.jpg",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "animacion": "slideInRight",
+          "imagen": "img/comunes/contraportadaImg.svg"
+        }
+      ]
+    }
+  ]
+}
+

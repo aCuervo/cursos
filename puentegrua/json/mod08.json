@@ -1,0 +1,259 @@
+﻿{
+  "modulo": "Mod. 8: Mantenimiento y averías",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod08/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "NOCIONES DE MANTENIMIENTO Y DETECCIÓN DE AVERÍAS",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "El mantenimiento de una grúa consiste en el conjunto de comprobaciones, actuaciones, sustituciones y ajustes que se realizan para que la misma mantenga un nivel de seguridad aceptable y como mínimo acorde con el prescrito en el marco normativo que le sea aplicable.<br><br> El <a href='http://www.insht.es/portal/site/Insht/menuitem.1f1a3bc79ab34c578c2e8884060961ca/?vgnextoid=5f644344952d5110VgnVCM100000dc0ca8c0RCRD&vgnextchannel=1d19bf04b6a03110VgnVCM100000dc0ca8c0RCRD&tab=tabConsultaCompleta' target='_blank'>RD 1215/1997</a> artículo 3.5, ( ) obliga al empresario a adoptar las medidas necesarias para que, mediante un mantenimiento adecuado, los equipos de trabajo se conserven durante todo el tiempo de utilización en unas condiciones que garanticen la seguridad y la salud de los trabajadores al utilizar dichos equipos de trabajo.<br><br>Dicho mantenimiento se realizará teniendo en cuenta las instrucciones del fabricante o en su defecto, las características de estos equipos, sus condiciones de utilización y cualquier otra circunstancia normal o excepcional que pueda influir en su deterioro o desajuste. Las operaciones de mantenimiento, transformación o reparación de equipos de trabajo, cuya realización suponga un riesgo específico para los trabajadores sólo podrán ser encomendadas a personal especialmente capacitado.<br><br>Los propietarios o usuarios de las grúas e instalaciones deben garantizar la seguridad de los operarios que realicen intervenciones (revisiones, reparaciones, etc.) en las mismas. Los riesgos y medidas de seguridad, derivados de dichas intervenciones quedarán registrados en su evaluación de riesgos laborales, reflejando en el mismo los accesos previstos y medidas de seguridad para dicho trabajo (plataformas elevadoras, andamios, escaleras, líneas de vida verticales y horizontales, etc.)"
+        }
+
+      ]
+    },
+    {
+      "titulo": "TIPOS DE MANTENIMIENTO",
+      "contenido": [
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "EL MANTENIMIENTO PREVENTIVO ",
+              "texto": "Consiste en realizar ciertas reparaciones o cambios de componentes o piezas, según intervalos de tiempo, o según determinados criterios, prefijados para reducir la probabilidad de avería o pérdida de rendimiento de la grúa. Siempre se planifica. El mantenimiento preventivo puede ser programado o predictivo, este último cuando está condicionado a la detección precoz de los síntomas de la avería. El mantenimiento programado es \"aceptable\" preventivamente hablando, mientras que el predictivo es \"aceptable\" tan solo cuando la fiabilidad de los parámetros de referencia es alta y su medición ofrece garantías."
+            },
+            {
+              "titulo": "EL MANTENIMIENTO CORRECTIVO",
+              "texto": "Es el efectuado a una grúa cuando la avería ya se ha producido, restituyéndole a su condición admisible de utilización. Preventivamente hablando \"no es aceptable\", si bien se cita para completar el tratamiento del mantenimiento."
+            }
+          ]
+        }
+
+
+      ]
+    },
+    {
+      "titulo": "LOS CONTROLES REGULARES Y CONTROLES DIARIOS",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Dentro del mantenimiento preventivo se distinguen:"
+        },
+        {
+          "clase": "acordeon",
+          "subclase": "paraCambiar",
+          "contenido": [
+            {
+              "titulo": "Revisiones diarias",
+
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "Las revisiones y comprobaciones previas constituyen el mantenimiento más inmediato y consisten en las REVISIONES DIARIAS que debe de realizar el operador antes de iniciar su jornada de trabajo o antes de la puesta en servicio de la grúa y consistente en: ",
+                  "contenido": [
+                    {
+                      "punto": "Revisión visual y de funcionamiento de los mecanismos de seguridad: limitadores de carrera, frenos, dispositivos de seguridad y de parada de emergencia. "
+                    },
+                    {
+                      "punto": "Revisión visual de los aspectos más aparentes de la grúa y de elementos sometidos a esfuerzo. "
+                    },
+                    {
+                      "clase": "imagen",
+                      "subclase": "paraCambiar",
+                      "imagen": "img/mod08/revisiones.png",
+                      "ancho": 600
+                    },
+                    {
+                      "punto": "Si el operador detectara alguna anomalía, debe de ponerla inmediatamente en conocimiento del técnico responsable."
+                    }
+
+                  ]
+                }
+
+              ]
+            },
+            {
+              "titulo": "Revisiones periódicas",
+              "texto": "El RD 1215/1997, artículo 4.2, obliga al empresario a adoptar \"las medidas necesarias para que aquellos equipos de trabajo sometidos a influencias susceptibles de ocasionar deterioros que puedan generar situaciones peligrosas, estén sujetos a comprobaciones y, en su caso, pruebas de carácter periódico, con objeto de asegurar el cumplimiento de las disposiciones de seguridad y de salud, y de remediar a tiempo dichos deterioros. Igualmente, se deberán realizar comprobaciones adicionales de tales equipos cada vez que se produzcan acontecimientos excepcionales, tales como transformaciones, accidentes, fenómenos naturales o falta prolongada de uso, que puedan tener consecuencias perjudiciales para la seguridad\".<br><b<r>Así mismo, el RD 1215/1997, artículo 4.3, dice que \"Las comprobaciones serán efectuadas por personal competente\"; y en el artículo 4.4, dice que \"Los resultados de las comprobaciones deberán documentarse y estar a disposición de la autoridad laboral. Dichos resultados deberán conservarse durante toda la vida útil de los equipos\". La periodicidad de las revisiones y comprobaciones, dependerán de las condiciones de utilización del aparato, y como indican la norma UNE 58132-5:1994 y la norma UNE 58144-1:1997; será al menos de una vez al año. Las comprobaciones mínimas que se deben de realizar en las revisiones periódicas se detallan en la norma UNE 58144-1:1997."
+            },
+            {
+              "titulo": "Revisiones generales",
+              "texto": "En las revisiones generales, tal como indica la norma UNE 58919:1995. \"Numerosos elementos de la cadena cinemática de un aparato de elevación de serie no son visibles y por consiguiente no pueden verificarse regularmente con ocasión de los controles prescritos. Por ello, apenas se pueden detectar una rotura o una avería incipiente. A lo largo del tiempo, cuando el potencial teórico de utilización D, para el cual el mecanismo ha sido dimensionado se ha consumado, un peligro puede aparecer con una probabilidad creciente\". Así pues, el potencial de utilización teórico D, en horas de vida para el que ha sido diseñada la máquina, permite determinar, comparándolo con las solicitaciones reales del aparato S en horas, los Periodos de Funcionamiento Seguro, PFS para cada mecanismo de elevación de la grúa.<br><br>Para que una grúa se encuentre en un periodo de funcionamiento seguro, debe cumplirse:<br><br>PFS = S/D <=1 Cuando se alcance o supere la utilización teórica de servicio D, es decir cuando S/D ≥ 1, se debe de realizar una revisión general para poder seguir utilizando el aparato. Esta revisión general debe efectuarse no más tarde de los 10 años desde la primera puesta en servicio de la grúa y posteriormente, a los 10 años, como máximo, después de cada revisión general. El fabricante o la empresa que realiza la revisión general, debe determinar el valor de la utilización teórica D y la nueva fecha límite para la siguiente revisión general. Para profundizar en aspectos relacionados con esta revisión se deberá consultar la norma UNE citada"
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "INFORMES SOBRE DEFECTOS DE FUNCIONAMIENTO",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<b>Mantenimiento correctivo</b> El mantenimiento correctivo está motivado por las averías o por la rotura de elementos de una máquina y la calidad de su ejecución puede afectar a la seguridad del funcionamiento del aparato reparado. La reparación de averías -mantenimiento correctivo cuando comporte la sustitución o reparación de elementos o componentes del equipo de cuyo correcto funcionamiento dependa la seguridad, debería ser realizada por el propio fabricante o por una empresa conservadora autorizada; empleando siempre piezas o recambios originales o admitidos expresamente por el fabricante de la grúa. Debería inscribirse el tipo de reparación en el \"Diario de mantenimiento\". La NTP 737 facilita un modelo de diario de mantenimiento."
+        }
+      ]
+    },
+    {
+      "titulo": "COMPORTAMIENTO A SEGUIR EN CASO DE AVERÍA O CORTE DE ENERGÍA",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Caso que algún equipo de trabajo para la elevación de cargas no guiadas no pueda mantener las cargas en caso de avería parcial o total por falta de la alimentación de energía, deberán adoptarse medidas apropiadas para evitar que los trabajadores se expongan a los riesgos correspondientes. Las cargas suspendidas no deberán quedar sin vigilancia, salvo si es imposible el acceso a la zona de peligro y si la carga se ha colgado con toda seguridad y se mantiene de forma completamente segura. Este es el único caso en que podría mantenerse una carga suspendida, y se señalizará la zona mediante balizado y prohibición de paso."
+        }
+
+      ]
+    },
+        {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "El mantenimiento de una grúa consiste en el conjunto de comprobaciones, actuaciones, sustituciones y ajustes que se realizan para que la misma mantenga un nivel de seguridad aceptable y como mínimo acorde con el prescrito en el marco normativo que le sea aplicable. ",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero ",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Dentro del mantenimiento preventivo se distinguen:",
+              "respuestas": [
+                {
+                  "opcion": "Las revisiones y comprobaciones previas",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Las revisiones periódicas  y generales",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas respuestas son correctas",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Sobre el mantenimiento correctivo",
+              "respuestas": [
+                {
+                  "opcion": "Está motivado por las averías o por la rotura de elementos de una máquina y la calidad de su ejecución puede afectar a la seguridad del funcionamiento del aparato reparado. ",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Consiste en realizar ciertas reparaciones o cambios de componentes o piezas, según intervalos de tiempo, o según determinados criterios, prefijados para reducir la probabilidad de avería o pérdida de rendimiento de la grúa. ",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Siempre se planifica.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "En caso que el puente grúa sufra una avería o corte de energía que no permita hacer descender la carga:",
+              "respuestas": [
+                {
+                  "opcion": "Las cargas suspendidas no deberán quedar sin vigilancia, salvo si es imposible el acceso a la zona de peligro",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Se procederá a señalizar la zona en que está la carga colocando además un cartel o señal prohibiendo el paso.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "¿Quién debe realizar las revisiones generales?",
+              "respuestas": [
+                {
+                  "opcion": "El gruista",
+                  "correcto": false
+                },
+                {
+                  "opcion": "El fabricante o empresa autorizada al efecto",
+                  "correcto": true
+                },                {
+                  "opcion": "Mantenimiento",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },  
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En el siguiente módulo, daremos una serie de indicaciones recopiladas en lo que habitualmente se denomina manual de operación."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod08/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

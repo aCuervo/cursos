@@ -1,0 +1,487 @@
+﻿{
+  "modulo": "Mod. 2: Caídas y protección",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              
+              "imagen": "img/mod02/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "En este segundo módulo, hablaremos del concepto de caída en altura. Veremos algunas definiciones y conceptos importantes para entender el tema que nos ocupa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Definiciones",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "texto": "SÍNDROME DE COMPRESIÓN<br><br>Se trata de un  conjunto de síntomas que aparecen cuando una persona está colgada durante  un periodo largo de tiempo de un arnés. Las cintas del mismo actúan como  torniquete impidiendo total o parcialmente el paso de sangre con oxígeno a las  extremidades.<br><br>Si una persona queda suspendida inmóvil en un arnés, la presión de este  puede contribuir a un flujo sanguíneo insuficiente en algunas partes del cuerpo  generándose toxinas. Cuando la sangre vuelve al torrente sanguíneo y a  órganos vitales como los riñones, se produce un fallo renal, con posibilidad de  posterior fallo cardiaco o un fallo cardiaco directo debidos a las toxinas."
+        },
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "texto": "FACTOR DE CAÍDA: El término factor de caída es uno de los más utilizados al hablar de EPI para trabajo en altura. En ocasiones, de forma errónea, se utiliza dicho término cuando se trabaja con un absorbedor o un retráctil, puesto que lo correcto es emplearlo cuando se produce una caída y se detiene con un tipo de cuerda específica que puede absorber energía, gracias a que actúa de manera parecida a un muelle, se estira y frena la caída de manera dinámica.<br><br>Cuanta más cantidad de cuerda colabore en la detención de la caída, mayor capacidad de amortiguación tendrá, ya que se dispondrá de un “muelle más largo” para parar la caída. Sirve para determinar la gravedad de una caída.<br><br>Se calcula dividiendo la altura de la caída entre la longitud de la cuerda o cinta  del sistema de sujeción disponible para repartir la fuerza de choque de la caída.<br><br>Se calcula mediante la siguiente ecuación:<br><br>Factor de caída = Altura de la caída / Longitud de la cuerda o cinta del sistema <br><br>Cuando en un trabajo nos encontramos con un factor de caída alto,  seleccionaremos el mejor mecanismo para reducirlo como pueden ser los  cabos de anclaje con absorbedores de energía."
+        },
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "texto": "EFECTO PÉNDULO<br><br>Cuando se trabaja alejado del punto de anclaje, la posible caída no se  desarrolla de manera vertical sino que tendrá una trayectoria curva,  describiendo un péndulo donde el punto de giro será el anclaje de amarre. Por tanto tendremos que vigilar los posibles  obstáculos que se encuentren en nuestra trayectoria de  caída y no sólo en nuestra  vertical.<br><br>Más claramente, el efecto Péndulo o Pendular es aquel que se produce cuando un operario equipado con su arnés y su sistema de conexión, conectado a un punto de anclaje o línea de vida sufre una caída lateral y su consiguiente oscilación incontrolada.<br><br>Este efecto péndulo suele ocurrir cerca de las esquinas de la cubierta y sobre todo en líneas medianeras.<br><br>Este hecho puede tener efectos muy graves ya sea por el golpeo del cuerpo contra algún elemento saliente de la estructura, (balcones, terrazas…)  por golpeo al suelo al no tener bien calculada la distancia mínima de seguridad o por la rotura de la cuerda del sistema anti caídas debidos al roce de ésta contra los vértices de la estructura."
+        },
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "texto": "DISTANCIA LIBRE DE CAÍDA<br><br>Al producirse una caída  y ponerse en acción los diferentes sistemas de  seguridad que estamos utilizando (cuerdas anudadas, cabos de anclaje con absorbedores ...) se produce generalmente un despliegue de éstos que se traduce en una elongación del sistema general.<br><br>Cuando planifiquemos un trabajo en altura tendremos que tener en cuenta este alargamiento para evitar golpear contra el suelo.<br><br>La distancia libre de caída es la altura mínima que debe tener un sistema para evitar llegar al suelo en caso de un accidente."
+        },
+
+        {
+          "clase": "texto",
+          "texto": "CAIDA LIBRE. FUERZA DE CHOQUE<br><br>Cuando un trabajador se encuentra en una situación con riesgo de caída y está provisto de un sistema de seguridad que detendría la caída en caso de producirse, se dice que está en situación de “caída libre”.<br><br>La parada de la caída se debe hacer de forma progresiva, de manera que las fuerzas que reciba el cuerpo del trabajador no le causen lesiones. La caída se produce, pero el sistema de seguridad la detiene.<br><br>Pongamos como ejemplo un vehículo para verlo más claramente. Hay dos formas de detener el coche, la primera es tan simple como poner un muro delante. El vehículo se detendrá pero la fuerza de frenado es tan alta que las consecuencias son tremendas. Sin embargo, si la detención se hace frenando suavemente, la parada será progresiva."
+        },
+        {
+          "clase": "lista",
+          "titulo": "Para conseguir una parada progresiva en la detención de una caída se utilizan diferentes sistemas como son:",
+          "contenido": [
+            {
+              "punto": "Absorbedores de energía, normalmente compuestos por cintas cosidas sobre sí mismas cuyas costuras se van rompiendo ante una fuerza alta."
+            },
+            {
+              "punto": "Cuerdas que son capaces de estirarse de manera que actúan como un muelle."
+            },
+            {
+              "punto": "Otros sistemas, ideados por los fabricantes para este fin, como pueden ser fibras elásticas, piezas que se deforman, etc."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Su forma de actuar consiste en absorber la energía que adquiere el cuerpo en la caída. Para ello, utiliza una fuerza de frenado progresiva durante un determinado tiempo sobre la masa del cuerpo que está cayendo. Esto produce una deceleración del cuerpo hasta conseguir detenerlo.<br><br>En la siguiente imagen se muestran las diferentes fases de una caída y cómo funciona un sistema de seguridad, en este caso, con un sistema anticaídas con absorbedor de energía."
+        },
+        {
+          "clase": "imagen",
+          
+          "imagen": "img/mod02/caidalibre.jpg"
+        },
+        {
+          "clase": "texto",
+          "texto": "Para para frenar la caída de una persona que está trabajando en altura, la fuerza de frenado que se le debe aplicar dependerá de la distancia de la caída y de la distancia durante la que actúa el frenado. Si, además, los dos parámetros anteriores son iguales, dependerá de la masa de la persona que cae. A esto se añade que la fuerza no tiene porqué ser constante durante la deceleración, pudiendo producirse picos de fuerza."
+        },
+        {
+          "clase": "texto",
+          "texto": "Se llama FUERZA DE CHOQUE a la máxima fuerza de frenado que recibe la persona cuando el sistema de seguridad detiene la caída. Si la fuerza de choque que recibe una persona mientras cae es demasiado alta, podría sufrir lesiones. Por ello, esta fuerza se debe limitar. En Europa, las normas EN exigen una fuerza máxima de 600 daN[1] Actualmente, los elementos diseñados para detener caídas deben superar unas pruebas por las cuales se demuestre que la fuerza de choque que generan no supera ese valor. Sin embargo, como se ha comentado anteriormente, esa fuerza dependerá de la altura de caída, la distancia de frenado y de la masa del trabajador. Este tipo de pruebas se hacen dejando caer una masa de 100 kg de forma que el elemento probado participa en la detención de su caída.<br><br>La distancia de caída que permite el sistema de seguridad hasta que frena la caída y la distancia durante la que actúa la fuerza de frenado dependen, principalmente, de la longitud del sistema de conexión y del alargamiento del absorbedor.<br><br>Cuando se dice que un elemento, dispositivo, sistema, subsistema o componente es “anticaídas” significa que está diseñado para detener una caída, y así viene reflejado en la norma EN 363 (sistemas anticaídas).<br><br>El nombre puede inducir a error, ya que se puede pensar que un sistema “anticaídas” debería evitar la caída. Sin embargo se trata de  un dispositivo diseñado para parar una caída.<br><br>Esta es una de las preguntas más habituales que se plantean al constatar que las pruebas contempladas por las normas EN se hacen con masas de 100 kg. Es importante el material por la absorción de energía de ese material."
+        },
+        {
+          "clase": "texto",
+          "texto": "¿Y si pesas más de 100kg?<br><br>La norma EN 361 de arneses anticaídas y la EN 355 de absorbedores de energía hacen sus pruebas con una masa de 100 kg.<br><br>Únicamente, las normas EN 341 (dispositivos de descenso), EN 12841 (dispositivos de regulación de cuerda para trabajos verticales) y EN 813 (arneses de asiento) permiten certificar equipos para más de 100 kg de masa.<br><br>Se realizan dos clases de pruebas: un ensayo de resistencia para probar que el arnés detiene la caída sin romperse y un ensayo de comportamiento que comprueba que los elementos del arnés absorben la energía suficiente para que el usuario que sufre la caída no reciba una fuerza de choque superior a 600 daN y lo mantenga “boca arriba”.<br><br>Los elementos utilizados para fabricar los arneses y los absorbedores tienen una resistencia estática superior a 1500 daN, por lo tanto, aún utilizándolos una persona de 200 kg tendríamos un gran factor de seguridad. También los puntos de anclaje requieren una resistencia mínima de 1000 daN.<br><br>Ante esta situación, algunos fabricantes han probado sus absorbedores con pesos mayores para indicarnos su idoneidad con personas de más peso.<br><br>Conocedores de este problema, diversos países europeos han expresado su posición de cambiar las normas para poder probar diferentes pesos.<br><br>Sin embargo, hay que tener en cuenta:<br><br>La fuerza de choque producida por una persona en una caída no es la misma que la que se registra en la prueba de frenar un cilindro metálico, ya que el cuerpo humano absorbe energía por la deformación de órganos interiores.<br><br>NO SE CONOCE NINGÚN ACCIDENTE POR EXCESO DE PESO.<br><br>Los dispositivos de anclaje están sobredimensionados (los de clase A soportan un mínimo de 1000 daN).<br><br>Lo difícil es tomar una decisión cuando estamos ante un trabajador de 120 kg. Todo indica que puede utilizar el absorbedor de energía, pero no nos acompaña la prueba de la norma."
+        }
+      ]
+    },
+    {
+      "titulo": "EQUIPOS DE PROTECCION INDIVIDUAL (EPI)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Dos tipos, de sujección y retención."
+        }
+      ]
+    },
+    {
+      "titulo": "SUJECIÓN",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "La finalidad de un EPI que se emplea en trabajo en altura no siempre es detener una caída. En algunos casos es necesario dotar al trabajador de un sistema que le permita posicionarse en el lugar de trabajo, bien sea por comodidad (para tener las dos manos libres) o porque no existe ninguna superficie dónde pueda sujetarse por sí mismo.<br><br>En el caso de que el trabajador no tenga otro punto de apoyo que una cuerda (o similar), es decir, que sólo esté sujeto por este elemento, se estará hablando de “trabajos verticales”.<br><br>Si, por el contrario, el trabajador tiene los pies también apoyados en una estructura (a veces la frontera entre una y otra posibilidad no es sencilla), se tratará de trabajos en altura, en general.<br><br>Un elemento diseñado para sujeción no tiene por qué tener propiedades dinámicas –capacidad para absorber la energía de una caída-, sino estáticas, es decir, que tengan una resistencia suficiente para sujetar al usuario en su lugar de trabajo.<br><br>Sería un grave error, por tanto, utilizar un sistema de sujeción para detener una caída (anticaídas), ya que pueden ocurrir dos situaciones con consecuencias importantes:<br><br>Que algún componente de la cadena de seguridad (anclaje, sistema de conexión, etc.) se rompa y el trabajador caiga.<br><br>Que dichos componentes soporten la tensión de la caída y que las fuerzas transmitidas al trabajador sean excesivamente altas.<br><br>En la mayoría de los casos en los que se utiliza un sistema de sujeción es necesario añadir un sistema anticaídas. En principio, cuando se piensa en utilizar un sistema para disminuir el riesgo de caída, se debe considerar la idea de llevar siempre estos dos sistemas: sujeción y anticaídas.<br><br>Por ejemplo, el trabajador que está en un poste y se sujeta por la “cuerda” reseñada anteriormente necesitaría también un sistema anticaídas.<br><br>Puede ocurrir que la sujeción la proporciona la misma estructura: un trabajador que está colocando una barandilla en el borde de un forjado está sujeto por el mismo forjado, pero necesitaría un sistema anticaídas hasta que coloque la barandilla.<br><br>Es posible prescindir del sistema anticaídas siempre que el sistema de sujeción evite totalmente la caída.<br><br>Al igual que la palabra “anticaídas” alude a un sistema diseñado para detener una caída, cuando se habla indistintamente de sistemas anticaídas o de sujeción se utiliza el término “contra caídas” (ver UNE-EN 363)."
+        },
+        {
+          "clase": "imagen",
+          
+          "imagen": "img/mod02/sujecion.jpg"
+        }
+      ]
+    },
+    {
+      "titulo": "RETENCIÓN",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Si el sistema de seguridad que utiliza el trabajador es un elemento que limita la zona a la que puede acceder, no permitiéndole llegar al lugar de peligro en el que puede aparecer la caída, se dice que se está trabajando en retención.<br><br>Un operario trabaja en retención cuando, por ejemplo,  ejecuta sus tareas en un forjado plano de 5 m con protección lateral y está provisto de un retráctil de 2 m de longitud: el retráctil no permitirá llegar al borde del frente del forjado ni aún en caso de distracción del trabajador.<br><br>En este caso, no es necesario utilizar elementos dinámicos, ya que no es posible que se produzca una caída y, además, se cuenta con la mencionada “doble seguridad”: la sujeción la proporciona el forjado y el retráctil evita la caída.<br><br>De todas las soluciones para disminuir el riesgo de caída a distinto nivel cuando se debe utilizar un EPI, ésta es la mejor solución: la caída no se produce, y las cargas transmitidas a los distintos elementos serán mucho menores.<br><br>¿Se puede trabajar en retención utilizando un cinturón de sujeción en vez de un arnés anticaídas?<br><br>Sí se puede trabajar con el cinturón solamente, ya que la caída en ningún caso se va a llegar a producir. De hecho, algunos arneses llevan un anclaje en la parte posterior del cinturón para este fin.<br><br>Sin embargo, el trabajador no debe confundir el uso del cinturón en retención (uso aceptable) con el uso del cinturón para detener una caída (uso totalmente inaceptable)."
+        },
+        {
+          "clase": "imagen",
+          
+          "imagen": "img/mod02/retencion.jpg"
+        },
+        {
+          "clase": "lista",
+          "titulo": "En caso de que no se pueda evitar la caída (se estaría en el caso de “caída libre”) se intentará que, de producirse ésta, sea lo más pequeña posible y con consecuencias mínimas. Para lograr esto se debe:",
+          "contenido": [
+            {
+              "punto": "Conseguir un punto de anclaje suficientemente alto."
+            },
+            {
+              "punto": "Una longitud del sistema de conexión lo más corto posible siendo compatible con la labor a realizar."
+            },
+            {
+              "punto": "Evitar los péndulos."
+            }
+
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Es un error bastante común elegir mal el punto de anclaje, este siempre que sea posible deberá estar colocado por encima de la cabeza del trabajador."
+            },
+            {
+              "clase": "imagen",
+              
+              "imagen": "img/mod02/puntoanclaje.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              
+              "imagen": "img/mod02/combado.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "La cuerda tiene un combado excesivo."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "El punto de anclaje está bajo. Aquí existe la posibilidad del efecto péndulo."
+            },
+            {
+              "clase": "imagen",
+              
+              "imagen": "img/mod02/pendulo.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Factor de caída",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "El término factor de caída es uno de los más utilizados al hablar de EPI para trabajo en altura. En ocasiones, de forma errónea, se utiliza dicho término cuando se trabaja con un absorbedor o un retráctil, puesto que lo correcto es emplearlo cuando se produce una caída y se detiene con un tipo de cuerda específica que puede absorber energía, gracias a que actúa de manera parecida a un muelle, se estira y frena la caída de manera dinámica.<br><br>Cuanta más cantidad de cuerda colabore en la detención de la caída, mayor capacidad de amortiguación tendrá, ya que se dispondrá de un “muelle más largo” para parar la caída.<br><br>El valor del factor de caída varía desde cero hasta cualquier valor, aunque lo habitual es que no sea mayor de 2."
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "Factor 2",
+              "texto": "En este caso, la altura de la caída es el doble de la longitud de la cuerda que la detiene. Sería el caso en el que, por ejemplo, el trabajador dispone de una cuerda de 1 m que se une al arnés y la fija en un punto de anclaje 1 m por debajo.<br><br>Si se produce una caída será de 2 m y la longitud de cuerda de 1 m por lo tanto el factor de caída es 2. Una caída de 2m con este factor de caída genera una fuerza de choque mayor que una caída de 2 m con un factor de caída menor. Una caída de factor 2 es muy grave, puede generar una fuerza de choque muy alta incluso con distancias de caída relativamente pequeñas. Las cuerdas para trabajo no están diseñadas normalmente para ser compatibles con este tipo de caídas."
+            },
+            {
+              "titulo": "Factor 1",
+              "texto": "Es una situación en la que el trabajador dispone de una cuerda que se coloca en el arnés y la ancla a la misma altura que la tiene en el arnés, por lo que la distancia de la caída es igual a la longitud de la cuerda.<br><br>Suponiendo que la cuerda es, por ejemplo, de 1 m, la altura de la caída será de 1 m, por lo tanto el factor de caída será 1, con una fuerza de choque mucho menor que en el caso anterior."
+            },
+            {
+              "titulo": "Factor 0",
+              "texto": "Si el trabajador tiene la cuerda anclada por encima de él de manera que no le permite la caída, la altura de la caída será 0 y sea cual sea la longitud de la cuerda el factor de caída será 0."
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          
+          "imagen": "img/mod02/factores.jpg"
+        },
+        {
+          "clase": "texto",
+          "texto": "Si se comparan dos caídas iguales (de la misma distancia y con la misma masa) con distinto factor de caída (0, 1 o 2) producen fuerzas de choque distintas.<br><br>Cuanto menor es el factor de caída menor será la fuerza de choque, ya que la misma caída será detenida por más cuerda.<br><br>Por ello, SE DEBE PROCURAR EL MENOR FACTOR DE CAÍDA POSIBLE Y ELEGIR UN PUNTO DE ANCLAJE ALTO, siempre que sea técnicamente viable, esté bien diseñado y no existan otras circunstancias que no aconsejen utilizarlo como pueden ser movimiento de máquinas cerca del punto, etc. Por ejemplo, en ocasiones, se coloca un perfil vertical recibido al suelo para elevar el punto de anclaje y, sin embargo, esta situación puede generar un efecto palanca en la base del perfil.<br><br>Por otro lado, además de escoger un punto de anclaje alto, se debe prestar atención a la longitud del sistema de conexión. Eligiendo un mismo punto de anclaje, si el elemento de conexión es excesivamente largo la caída será mayor que si se utiliza un elemento más corto (aun cuando el factor de caída se pueda mantener, algo que ocurre cuando éste es 1 y se alarga o se acorta el sistema de conexión). Por lo tanto, EL ELEMENTO DE UNIÓN DEBE SER LO MÁS CORTO POSIBLE siempre que permita desarrollar el trabajo."
+        }
+
+      ]
+    },
+    {
+      "titulo": "PRINCIPALES ERRORES AL UTILIZAR EL CONCEPTO DE FACTOR DE CAÍDA",
+      "contenido": [
+        {
+          "clase": "lista",
+          "subclase": "numeros",
+          "titulo": "Es habitual encontrarse con los siguientes errores al manejar este concepto:",
+          "contenido": [
+            {
+              "punto": "Creer que dos caídas de distinta longitud con el mismo factor de caída producen fuerzas de choque iguales. Esto no ocurre así utilizando cuerdas semiestáticas (cuerdas con capacidad de absorción de energía y bajo coeficiente de alargamiento) mientras que las cuerdas dinámicas se aproximan más en ciertas condiciones a esta conducta.<br><br>Por lo tanto, en cuerdas semiestáticas el principal responsable de la fuerza de choque no es el factor de caída. La fuerza de choque está más relacionada con la altura de la caída e incluso con otros factores como la terminación hecha con nudos[3] que del factor de caída.<br><br>La verdadera información que nos da el factor de caída es que dos caídas de la misma altura, con la misma masa y detenidas con el mismo tipo de cuerda tendrán fuerzas de choque distintas en función del factor de caída. A mayor factor de caída, mayor fuerza de choque."
+            },
+            {
+              "punto": "Emplear el término de factor de caída cuando se trata de elementos que no son cuerdas, tales como absorbedores o retráctiles.<br><br>El concepto de factor de caída no puede estar asociado a un absorbedor (como el ya comentado por descosido de cinta), ya que no aumenta su absorción si lo unimos a un elemento de amarre más largo. Sin embargo, puede leerse en diversos documentos que los absorbedores habitualmente están “diseñados para soportar caídas de factor 2”.<br><br>Por ejemplo: un absorbedor unido a un elemento de amarre de 1,5 m puede soportar una caída anclándolo en vertical por debajo del trabajador a una distancia de 1,5 m (factor de caída 2) y es capaz de parar la caída con una fuerza de choque menor de 600 daN. Si el punto de anclaje disponible está 3 m por debajo del trabajador, no se puede unir otro elemento de amarre para llegar hasta él, ya que la distancia de caída ahora sería de 6 m y el absorbedor está diseñado para parar 3 m Sin embargo, se seguiría manteniendo un factor de caída 2, pero el dispositivo no aumenta su absorción, ya que el absorbedor es el mismo y no aumenta su efectividad al aumentar la distancia de caída. Sólo con las cuerdas semiestáticas y dinámicas, al aumentar la distancia de caída, aumenta la absorción.<br><br>Sin embargo, a pesar de no estar bien usado el término, si el fabricante indica que un absorbedor puede detener caídas de factor 2 se sabe que es posible emplearlo en vertical por debajo del usuario y con la longitud que permita el fabricante.<br><br>De hecho, los absorbedores indicados para detener este tipo de caídas son los que de acuerdo con la norma EN 355 son los elementos indicados para detener este tipo de caídas."
+            },
+            {
+              "punto": "Afirmar que el factor de caída no puede exceder de 2.<br><br>Existen situaciones, si bien poco habituales, en las que el factor de caída puede ser muy alto. El siguiente caso lo demuestra, dejando a un lado la discusión sobre resistencias y prestando atención sólo a lo relacionado con el factor de caída:<br><br>Un trabajador situado sobre una plataforma de un andamio de marco y anclado al puntal del nivel inferior que está por debajo de él. Se ancla al puntal con un conector que rodea el puntal de forma que puede deslizar por él. El sistema de conexión tiene una longitud de 2 m y la distancia entre la parte alta del puntal y la barandilla es de 1 m En caso de caída, además de los 4 m de caída que se darían si el mosquetón estuviera fijo, hay que sumarle 1 m en el que el mosquetón desliza por el puntal hasta chocar con la barandilla. Aparte del mal uso del mosquetón y suponiendo que éste aguanta, la distancia de caída sería de 5 m y el elemento de unión mide 2 m, por lo tanto el factor de caída es de 2,5. Ningún elemento de trabajo puede soportar esta caída sin provocar lesiones muy graves al usuario o graves daños al material asociado al sistema de seguridad."
+            },
+            {
+              "punto": "Hablar de factor de caída en una caída pendular.<br><br>Realmente se debe emplear el valor del factor de caída en las caídas verticales en las que toda la absorción de energía se debe a la cuerda y no cuando persiste una velocidad después de la caída como ocurre en una caída pendular."
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          
+          "imagen": "img/mod02/errorAnclaje.jpg"
+        }
+      ]
+    },
+    {
+      "titulo": "ESPACIO LIBRE DE CAÍDA",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Cuando se produzca una caída, es necesario que debajo de la persona haya un espacio libre suficiente para que el sistema de seguridad pueda detenerla sin que el trabajador colisione antes con algún obstáculo o con el suelo.<br><br>Otros nombres utilizados para este concepto son: distancia libre de caída, distancia libre o el término proveniente del francés, tirante de aire.<br><br>Cuando un fabricante indica en sus instrucciones esta distancia, puede referirse a la que existe desde los pies del usuario o desde el punto anclaje al que está unido el sistema de conexión. Por ello, se debe prestar atención a este detalle."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "El espacio libre de caída es la suma de las siguientes distancias:",
+              "contenido": [
+                {
+                  "punto": "<b>La distancia de caída libre (L1):</b> espacio recorrido por la persona desde el momento en que cae hasta que comienza a aparecer la fuerza de frenado. En una caída de factor 2, esta distancia será la longitud del sistema de conexión calculada a partir del punto de anclaje (con el uso de un retráctil en ese factor, la distancia es menor ya que al empezar a caer, el retráctil recogerá algo de cinta). Con factor 1 será la mitad de la longitud del sistema de conexión y con factor 0 esta distancia será 0."
+                },
+                {
+                  "punto": "<b>La distancia de frenado (L2):</b> espacio que recorre el trabajador mientras el dispositivo está frenando la caída. No se debe confundir con la distancia total necesaria."
+                },
+                {
+                  "punto": "<b>La longitud existente desde el elemento de enganche del arnés hasta los pies del usuario (L3).</b> Se toma como media 1,50 m."
+                },
+                {
+                  "punto": "<b>La distancia de seguridad: (L4)</b> se suele tomar 1 m. La distancia de seguridad se toma por posibles variaciones no tenidas en cuenta en las longitudes anteriores, por ejemplo estiramientos del arnés al para la caída o que el usuario sea más alto de la media."
+                },
+                {
+                  "punto": "Las instrucciones de un sistema de conexión anticaídas (absorbedor, retráctil…) deben indicar el dato de la distancia libre total que, como se ha indicado, es la suma de las distancias anteriores."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              
+              "imagen": "img/mod02/distancias.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "TODO EL SISTEMA ANTICAÍDAS DEBE ESTAR COMPUESTO POR DISPOSITIVOS COMPATIBLES ENTRE SÍ PARA QUE CUMPLAN SU FUNCIÓN. ESTE SISTEMA FORMA UNA “CADENA DE SEGURIDAD” EN LA QUE TODOS LOS ELEMENTOS DEBEN FUNCIONAR CORRECTAMENTE. EL FALLO DE UNO SOLO DE LOS ELEMENTOS HACE QUE EL SISTEMA NO CUMPLA SU COMETIDO."
+        }
+      ]
+    },
+    {
+      "titulo": "Resumen",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "¿POR QUÉ NECESITO UN ANCLAJE SEGURO?<br><br>Factor 0: El punto de anclaje está instalado por encima del usuario.<br><br>Factor 1: El punto de anclaje está instalado a la altura del anclaje de nuestro arnés.<br><br>Factor 2: El punto de anclaje está instalado a nuestros pies, o por debajo del usuario."
+            },
+            {
+              "clase": "imagen",
+              
+              "imagen": "img/mod02/factores2.jpg"
+            }
+
+          ]
+        },
+        {
+          "clase": "lista",
+          "subclase": "cuadrado",
+          "titulo": "RECUERDA QUE…",
+          "contenido": [
+            {
+              "punto": "Es muy importante que tu punto de anclaje tenga un factor lo más bajo posible, lo ideal es un «factor 0». Cuanto más alto es el factor mayor es la longitud de caída."
+            },
+            {
+              "punto": "La fuerza del impacto varía considerablemente dependiendo del peso del usuario, mayor peso mayor impacto."
+            },
+            {
+              "punto": "Los sistemas anticaídas están diseñados para absorber la energía cinética producida por la fuerza del impacto “fuerza de frenado”, utiliza siempre un sistema anticaídas. Estos disponen de absorbedor de energía, éste limitará el impacto en el arnés y el anclaje, a una fuerza no superior a 6 KN."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "EFECTO PENDULO: El efecto Péndulo se produce cuando un operario equipado con su arnés y su sistema de conexión, conectado a un punto de anclaje o línea de vida sufre una caída lateral y su consiguiente oscilación incontrolada. Este efecto péndulo suele ocurrir cerca de las esquinas de la cubierta y sobre todo en líneas medianeras."
+        },
+        {
+          "clase": "imagen",
+          
+          "imagen": "img/mod02/efectoPendulo.jpg"
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "El síndrome de compresión, aparece cuando una persona está colgada de un arnés un periodo largo de tiempo. La causa es que la cintas actúan como torniquete impidiendo el paso total o parcial de sangre a las extremidades.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "¿Podemos hablar de factor de caída en absorbedores y retractiles?",
+              "respuestas": [
+                {
+                  "opcion": "Si",
+                  "correcto": false
+                },
+                {
+                  "opcion": "No, solo cuando se utilizan determinadas cuerdas",
+                  "correcto": true
+                },
+                {
+                  "opcion": "En retractiles no,  pero si en absorbedores",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "El efecto péndulo se produce cuando un operario equipado con su arnés y su sistema de conexión, conectado a un punto de anclaje o línea de vida sufre una caída lateral y su consiguiente oscilación incontrolada.",
+              "respuestas": [
+                {
+                  "opcion": "Suele ocurrir cerca de las esquinas de la cubierta y sobre todo en líneas medianeras.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Sus efectos son muy graves ya sea por el golpe del cuerpo contra algún elemento saliente de la estructura o contra el suelo.a",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas respuestas son correctas",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Llamamos equipo anticaídas a:",
+              "respuestas": [
+                {
+                  "opcion": "Un dispositivo diseñado para evitar una caída.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Un dispositivo diseñado para parar una caída.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Un sistema de sujeción:",
+              "respuestas": [
+                {
+                  "opcion": "Permite al trabajador posicionarse en el lugar de trabajo, bien sea por comodidad (para tener las dos manos libres) o porque no existe ninguna superficie dónde pueda sujetarse por sí mismo.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Cuando algunas partes de un andamio no estén listas para su utilización, en particular durante el montaje, el desmontaje o las transformaciones, dichas partes deberán contar con señales de advertencia de peligro general, con arreglo al Real Decreto 485/1997, de 14 de abril, sobre señalización de seguridad y salud en el centro de trabajo, y delimitadas convenientemente mediante elementos físicos que impidan el acceso a la zona de peligro.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Es un dispositivo contra caídas, pero no anticaídas.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "¿Se puede trabajar en retención utilizando un cinturón de sujeción en vez de un arnés anticaídas?",
+              "respuestas": [
+                {
+                  "opcion": "Sí se puede trabajar con el cinturón solamente, ya que la caída en ningún caso se va a llegar a producir. De hecho, algunos arneses llevan un anclaje en la parte posterior del cinturón para este fin.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "No, no es posible ",
+                  "correcto": false
+                }
+              ]
+            }            
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En el próximo módulo, trataremos de manera específica los cinturones y arneses, es decir el EPI por excelencia cuando  se trata de trabajos en altura."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}

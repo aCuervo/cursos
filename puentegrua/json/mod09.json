@@ -1,0 +1,275 @@
+﻿{
+  "modulo": "Mod. 9: Manual de operaciones",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod09/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Este módulo reúne las normas básicas para el manejo de la grúa, dividiéndolas en un antes, durante y después. Pretende ser un resumen, para en cualquier momento acceder a él y recordar temas importantes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "ANTES DE LA PUESTA EN MARCHA DE LA GRÚA",
+      "contenido": [
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Se comprobara que los mandos de la máquina estén a cero y en el interruptor general no haya ninguna indicación que  refiera que se están realizando trabajos en el puente grúa, dado que podría estar efectuándose alguna reparación o tarea de mantenimiento."
+            },{
+              "punto": "Se comprobará el estado de la batería en caso de utilizar radiomando."
+            },{
+              "punto": "Revisar el estado del puente y los accesorios de elevación."
+            },{
+              "punto": "Funcionamiento de la bocina y luminoso."
+            },{
+              "punto": "Comprobación de los frenos y finales de carrera."
+            },{
+              "punto": "Verificación de la existencia y buen estado del pestillo del gancho."
+            },{
+              "punto": "Se realizará un ensayo en vacío de los tres movimientos del puente  (traslación, dirección y elevación)."
+            },{
+              "punto": "El operador será conocedor de las características de la carga a izar, principalmente el peso."
+            },{
+              "punto": "Elegirá los accesorios de izado más adecuados a la forma, tamaño y peso de la carga."
+            },{
+              "punto": "Verificará el lugar donde la ha de depositar y recorrerá el camino previamente, para prever cualquier obstáculo que pudiera encontrar durante la maniobra."
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "titulo": "DURANTE LA MANIPULACIÓN DE LA GRÚA Y SUS CARGAS",
+      "contenido": [
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "El gancho, que se habrá trasladado en su posición más alta, se posicionará sobre la carga, siempre de manera vertical al centro de gravedad."
+            },
+            {
+              "punto": "Antes de comenzar la maniobra, se comprobará la estabilidad de la carga, para ello, se procederá a elevarla unos cm sobre el suelo, si la estabilidad y eslingado son adecuados se procederá a continuar con la maniobra."
+            },
+            {
+              "punto": "La maniobra de izado, se realizará suavemente y siempre en vertical. Caso que esto no fuera posible, el mando deberá dirigir la operación responsabilizándose de tomar las medidas adecuadas."
+            },
+            {
+              "punto": "Si el puente hace un extraño o se observa cualquier resistencia anormal, se procederá a descender la carga, y realizar las comprobaciones oportunas."
+            },
+            {
+              "punto": "La carga deberá estar equilibrada, y provista de cuerdas guía o similar, para evitar tener que efectuar cualquier tipo de corrección con las manos."
+            },
+            {
+              "punto": "La carga deberá trasladarse a una distancia de unos 40cm del objeto más cercano, sea el suelo o un obstáculo en la trayectoria."
+            },
+            {
+              "punto": "Antes de comenzar la traslación, se debe hacer sonar la bocina."
+            },
+            {
+              "punto": "Si algún miembro del personal, no se ha colocado en lugar seguro tras oir la señal sonora, se le evacuará de la zona de tránsito."
+            },
+            {
+              "punto": "Se evitarán todo tipo de movimientos bruscos, tanto arranque como parada."
+            },
+            {
+              "punto": "Los movimientos en vacío, se realizarán siempre con el gancho situado en su máxima elevación y con carga, a la menor altura posible, que asegure librar los obstáculos (por ejemplo 40cm)."
+            },
+            {
+              "punto": "La cuerda guía acompañará a la carga desde el momento del eslingado."
+            },
+            {
+              "punto": "A la hora de posicionar la carga en su lugar de destino, se procederá a parar el balanceo, para ello acompañaremos suavemente la carga en la dirección del balanceo."
+            },
+            {
+              "punto": "A la hora de posicionar la carga en su lugar de destino, se procederá a parar el balanceo, para ello acompañaremos suavemente la carga en la dirección del balanceo."
+            },
+            {
+              "punto": "La eslinga se retirará del gancho, antes de proceder a su elevación. No se debe dejar los accesorios colgados del gancho."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "FINALIZACIÓN DE LOS TRABAJOS",
+      "contenido": [
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Una vez finalizada la tarea, el puente grúa se estacionará en el lugar habilitado para ello, generalmente en un extremo de la instalación, con el gancho siempre en su posición más alta."
+            },
+            {
+              "punto": "Jamás se abandonará con una carga suspendida, sea cual sea la altura."
+            },
+            {
+              "punto": "Caso de utilizar un mando radiocontrol, éste se depositará en el lugar correspondiente, dicho lugar será conocido por el resto de personal autorizado para el uso de la máquina."
+            },
+            {
+              "punto": "El material de izado nunca deberá abandonarse sobre el gancho o en el suelo, existirá un lugar habilitado para su depósito."
+            },
+            {
+              "punto": "Si al finalizar el trabajo, se observa cualquier anomalía tanto en la máquina como en los accesorios de izado, se deberá comunicar siempre al mando directo y proceder a su retirada."
+            },
+            {
+              "punto": "Se recomienda si hay un único puente grúa, estacionarlo al finalizar el turno en distintas zonas de los raíles."
+            },
+            {
+              "punto": "Los mandos estarán a cero."
+            }
+          ]
+        }
+
+      ]
+
+    },  
+        {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "El manual de operaciones del puente grúa constará de indicaciones previas a la puesta en marcha, durante la utilización y sobre la finalización de los trabajos.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero ",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Al finalizar el trabajo:",
+              "respuestas": [
+                {
+                  "opcion": "El puente grúa se estacionará donde se haya realizado la última maniobra",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Si se ha observado alguna anomalía, se comunicará al mando directo, caso que no se haya hecho con anterioridad.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Ambas son correctas",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Durante los trabajos:",
+              "respuestas": [
+                {
+                  "opcion": "Los movimientos en vacío se realizarán con el gancho elevado",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Las traslaciones con carga se harán a la mayor altura posible.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son incorrectas",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Antes de la puesta en marcha:",
+              "respuestas": [
+                {
+                  "opcion": "Verificará el lugar donde se ha de depositar la carga y se recorrerá el camino previamente, para prever cualquier obstáculo que pudiera encontrar durante la maniobra.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Se comprobará entre otras cosas las señales acústicas y luminosas",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "El gancho de la  grúa:",
+              "respuestas": [
+                {
+                  "opcion": "Debe llevar pestillo de seguridad y estar en buen estado.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "No es necesario, con que lo lleven los ganchos de las cadenas ya vale.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Tiene que ser de color naranja.",
+                  "correcto": false
+                }
+              ]
+            }            
+          ]
+        }
+      ]
+    },  
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "El próximo módulo tratará sobre la Prevención de Riesgos Laborales en la empresa, y de manera específica del puente grúa. Es el último módulo como tal, aunque tendremos otro posterior a modo de resumen, en el que recordaremos datos importantes."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod09/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

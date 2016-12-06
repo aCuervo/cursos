@@ -1,0 +1,543 @@
+﻿{
+  "modulo": "Mod. III: Conocer y Recomendar",
+  "imagenEncabezado":  "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Conocimiento de Producto",
+      "subclase": "pattern",
+      "fondo": "img/comunes/portada.svg",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "animacion": "slideInRight",
+          "imagen": "img/m3/portadaImg.svg"
+        }
+      ]
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounce",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Te damos la bienvenida al <b>tercero</b> de los módulos del curso de \"Conocimiento de Producto: Sección de Panadería\".<br><br>Con los módulos anteriores, has descubierto por qué los productos de la sección de panadería son <b>únicos</b> y <b>diferentes</b>, y lo fundamental que resulta saber detectar de forma exacta las necesidades planteadas por nuestros clientes.<br><br>En este módulo se hará una <b>aproximación</b> a los grandes grupos en los que vamos a clasificar la sección de panadería así como a las pautas generales para <b>recomendar</b> el producto."
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
+              "imagen": "img/m3/pan2.jpg"
+
+            }
+          ]
+        }
+      
+    
+      ]
+    },
+    {
+      "titulo": "Objetivos",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "Con el curso de \"Conocimiento de Producto: Sección Panadería\" pretendemos facilitar algunas claves con el <b>objetivo</b> de convertirte en un profesional experto en la venta de productos de panadería. Siguiendo sus pautas, lograrás ajustar cada producto que vendas a las necesidades y preferencias del cliente, alcanzando el objetivo final de tu trabajo: <b>que el cliente vuelva</b>."
+        },
+        {
+          "clase": "lista",
+          "subclase": "objetivos",
+          "titulo": "Objetivos a conseguir con este Módulo:",
+          "animacion": "slideInLeft",
+          "contenido": [
+            {
+              "punto": "Objetivo Principal:",
+              "contenido": [
+                {
+                  "punto": "Conocer en qué grupos dividimos los productos de la Sección de cara al cliente."
+                },
+                {
+                  "punto": "Saber aplicar las fórmulas adecuadas para recomendar el producto a nuestros clientes."
+                }
+              ]
+            },
+            {
+              "punto": "Objetivo Secundario:",
+              "contenido": [
+                {
+                  "punto": "Reconocer los tipos de masas principales con los que se elaboran los productos de la Sección y sus características principales."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "animacion": "rubberBand",
+          "imagen": "img/comunes/madalena.svg",
+          "ancho": 200
+        }
+      ]
+    },
+    {
+      "titulo": "Conocer el Surtido",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho",
+          "animacion": "rotateIn",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Por <b>surtido</b> vamos a entender el conjunto de productos o referencias que ofrecemos a la venta en la Sección de Panadería a nuestros clientes y que es la clave para satisfacerles en sus necesidades."
+            },
+
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "imagen": "img/m3/saladitos.jpg",
+              "ancho": 600
+            },
+            {
+              "clase": "texto",
+              "texto": "Este conocimiento del surtido lo vamos a desarrollar, no desde la información técnica del producto, sino desde la <b>desde la perspectiva del cliente</b>.<br><br>La información técnica de cada producto la puedes ampliar, si lo necesitas, en las <b>fichas técnicas</b>, que la empresa pone a tu disposición, donde podrás encontrar de forma <b>más exhaustiva</b> toda la información de cada uno de ellos: operativa, alérgenos, composición, elaboración, formatos, etc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Clasificación de productos de la Sección",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "animacion": "slideInDown",
+              "texto": "<b>Clasificación de Productos.</b> Para nuestros clientes, tenemos tres grandes variedades de productos a las que pueden optar: <b>Productos de pan</b>, <b>productos dulces</b> y <b>productos salados</b>.<br><br><span class='h2'>¿Por qué esta clasificación?</span><br>Porque, como hemos visto antes, vamos a utilizar una clasificación funcional muy sencilla que hemos enfocado al cliente y que está orientada <b>al sabor</b> del producto. <br>Así, la distinción entre productos <b>dulces</b> y <b>salados</b> se basa en la categoría de sabor de los productos. En el caso del <b>pan</b>, en la utilización culinaria.<br><br>El consumo de este tipo de productos es muy puntual: en el desayuno, en el café de media mañana, como postre, para merendar, después de cenar o mientras vemos la televisión.<br><br>En las diapositivas siguientes, te mostraremos ejemplos de los productos de cada categoría."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/m3/ilovemuffins.jpg",
+              "ancho": 600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Ejemplos de Productos de Pan",
+      "contenido": [
+        {
+          "clase": "slider",
+          "animacion": "tada",
+          "contenido": [
+            {
+              "imagen": "img/m3/sliderPan/barraMedio.jpg",
+              "thumb": "img/m3/sliderPan/thumbnails/barraMedio.jpg",
+              "titulo": "Barra de medio"
+            },
+            {
+              "imagen": "img/m3/sliderPan/miniChapata.jpg",
+              "thumb": "img/m3/sliderPan/thumbnails/miniChapata.jpg",
+              "titulo": "Mini chapata"
+            },
+            {
+              "imagen": "img/m3/sliderPan/roscaPan.jpg",
+              "thumb": "img/m3/sliderPan/thumbnails/roscaPan.jpg",
+              "titulo": "Rosca de pan"
+            },
+            {
+              "imagen": "img/m3/sliderPan/panMoreno.jpg",
+              "thumb": "img/m3/sliderPan/thumbnails/panMoreno.jpg",
+              "titulo": "Pan moreno"
+            },
+            {
+              "imagen": "img/m3/sliderPan/roscaBregada.jpg",
+              "thumb": "img/m3/sliderPan/thumbnails/roscaBregada.jpg",
+              "titulo": "Rosca bregada"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "titulo": "Ejemplos de Productos Dulces",
+      "contenido": [
+        {
+          "clase": "slider",
+                    "animacion": "tada",
+          "contenido": [
+            {
+              "imagen": "img/m3/sliderDulce/bizcochoChoco.jpg",
+              "thumb": "img/m3/sliderDulce/thumbnails/bizcochoChoco.jpg",
+              "titulo": "Bizcocho de chocolate"
+            },
+            {
+              "imagen": "img/m3/sliderDulce/croissantChoco.jpg",
+              "thumb": "img/m3/sliderDulce/thumbnails/croissantChoco.jpg",
+              "titulo": "Croissant de chocolate"
+            },
+            {
+              "imagen": "img/m3/sliderDulce/magdalenas.jpg",
+              "thumb": "img/m3/sliderDulce/thumbnails/magdalenas.jpg",
+              "titulo": "Magdalenas"
+            },
+            {
+              "imagen": "img/m3/sliderDulce/pastelNata.jpg",
+              "thumb": "img/m3/sliderDulce/thumbnails/pastelNata.jpg",
+              "titulo": "Pastel de nata"
+            },
+            {
+              "imagen": "img/m3/sliderDulce/xuxoChoco.jpg",
+              "thumb": "img/m3/sliderDulce/thumbnails/xuxoChoco.jpg",
+              "titulo": "Mini Xuxos de chocolate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Ejemplos de Productos Salados",
+      "contenido": [
+        {
+          "clase": "slider",
+                    "animacion": "tada",
+          "contenido": [
+            {
+              "imagen": "img/m3/sliderSalado/bocataFrankfurt.jpg",
+              "thumb": "img/m3/sliderSalado/thumbnails/bocataFrankfurt.jpg",
+              "titulo": "Bocata Frankfurt"
+            },
+            {
+              "imagen": "img/m3/sliderSalado/chapapizza.jpg",
+              "thumb": "img/m3/sliderSalado/thumbnails/chapapizza.jpg",
+              "titulo": "Chapapizza"
+            },
+            {
+              "imagen": "img/m3/sliderSalado/empanadaAtun.jpg",
+              "thumb": "img/m3/sliderSalado/thumbnails/empanadaAtun.jpg",
+              "titulo": "Empanada de atún"
+            },
+            {
+              "imagen": "img/m3/sliderSalado/empanadillaBQ.jpg",
+              "thumb": "img/m3/sliderSalado/thumbnails/empanadillaBQ.jpg",
+              "titulo": "Empanadillas de bacon y queso"
+            },
+            {
+              "imagen": "img/m3/sliderSalado/saladitoAtun.jpg",
+              "thumb": "img/m3/sliderSalado/thumbnails/saladitoAtun.jpg",
+              "titulo": "Saladitos de atún"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Tipos de Masas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "bounceInDown",
+          "texto": "Antes de pasar a ver la definición y características de los productos vamos a hacer un breve recordatorio de los tipos de masa:"
+        },
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre el nombre de cada una de ellas para ver sus características."
+        },
+        {
+          "clase": "acordeon",
+          "animacion": "shake",
+          "contenido": [
+            {
+              "titulo": "Masa tipo PAN",
+              "texto": "Es una masa compuesta principalmente por harina de trigo, sal, agua y levadura (responsable de la fermentación del pan). En algunos panes se utiliza otro tipo de harina diferente a la de trigo para la elaboración de panes específicos.",
+              "imagen": "img/m3/pan.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Masa tipo BOLLERÍA",
+              "texto": "Es una masa blanda y suave, en cuya composición intervienen la harina de trigo, margarina, azúcar y levadura. La levadura es fundamental en el proceso de fermentación que se lleva a cabo para la elaboración del producto, ya que es responsable de que el producto \"hinche\" consiguiendo así la textura blanda y suave deseada. En algunos productos especiales, con objeto de mejorar su sabor, en lugar de margarina se utiliza la mantequilla. Este puede ser el caso, por ejemplo, de las variedades de croissant de mantequilla.",
+              "imagen": "img/m3/bolleria.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Masa tipo HOJALDRE",
+              "texto": "Es una masa crujiente y un poco más dura que la masa habitual de bollería, en la que se pueden diferenciar las diferentes capas, que se resquebrajan al probarla. Para conseguir esta textura crujiente en capas, se prepara una masa en forma de lámina sobre la que se extiende la grasa que se vaya a utilizar. Esta lámina se dobla sobre sí misma varias veces, consiguiendo así múltiples hojas delgadas superpuestas. Básicamente se compone de harina de trigo, margarina y azúcar. ",
+              "imagen": "img/m3/hojaldre.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Masa tipo BATIDO",
+              "texto": "Tiene la peculiaridad de ser una masa sometida a batido, lo que provoca que el aire quede retenido en la masa, dando como resultado una masa de gran volumen, tierna y suave, pero más compacta que la masa de bollería. La masa se compone casi siempre de: harina de trigo, aceite vegetal, huevo e impulsor.",
+              "imagen": "img/m3/masa_batido.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Otras masas",
+              "texto": "Masa sucré: se trata de una masa de sabor muy dulce, suave y compacta.<br>Masa de tarta<br>Masa de frixuelo: con un concepto de masa diferente."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Productos",
+      "fondo": "img/m3/panes.jpg",
+      "contenido": [
+        {
+          "clase": "tabs",
+          "animacion": "lightSpeedIn",
+          "contenido": [
+            {
+              "titulo": "Productos de Pan",
+              "texto": "Se considera aquel tipo de producto elaborado con masa pan, que no incluye ningún otro ingrediente básico fundamental añadido, a excepción de algunas variedades de pan como por ejemplo: Pan de pasas y nueces.<br><br><b>Consumo:</b> tradicionalmente se suele utilizar para acompañar otro tipo de comida.<br><br><b>Tipos de Masa:</b> fundamentalmente todos los productos de pan se componen de harina de trigo, levadura y agua. Para la elaboración de algunos panes específicos además de esas harinas de trigo se emplean otro tipo de harinas (integrales o no refinadas, harinas de centeno, malta, etc.)."
+            },
+            {
+              "titulo": "Productos Dulces",
+              "texto": "Aquellos que tienen una masa de composición dulce, como es el caso de la bollería, o que lleva algún tipo de añadido dulce en su elaboración: crema, manzana, nata, chocolate, cabello de ángel o azúcar.<br><br><b>Consumo:</b> se pueden dar infinidad de consumos, aunque es un tipo de producto que se suele asociar a un tipo de alimentación más complementaria, como en postres, cierre de comida, y desayunos o meriendas.<br><br><b>Tipos de masas:</b> dentro del sabor dulce, se trabajan principalmente los tipos de masas como bollería, hojaldre y masa de batido. También incluye otras masas con menos presencia en la sección como puede ser: masa sucré, masa tipo pan, masas de tartas y frixuelos."
+            },
+            {
+              "titulo": "Productos Salados",
+              "texto": "Aquellos que llevan algún tipo de relleno que se pueda considerar salado: bacon, chorizo, pollo, atún, tomate, carne, jamón york, queso, cebolla frita, queso...<br><br><b>Consumo:</b> los productos Salados se utilizan como base fundamental de una comida o parte de la misma o como acompañamiento en los casos de tamaños o cantidades pequeñas.<br><br><b>Tipos de Masa:</b> dentro del sabor salado, se trabajan principalmente los tipos de masas: bollería, hojaldre, masa de pan y empanada gallega."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "animacion": "slideInUp",
+          "texto": "Todas estas masas tienen como principal ingrediente la harina de trigo."
+        }
+      ]
+    },
+    {
+      "titulo": "Recomendar productos",
+      "fondo": "img/m3/saladitos.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "banner",
+          "animacion": "slideInDown",
+          "texto": "A la hora de recomendar productos nos comunicamos e interaccionamos con el cliente. Desde la perspectiva del producto, tenemos que tener en cuenta una serie de cuestiones a la hora de comunicarnos con el cliente: "
+        },
+        {
+          "clase": "acordeonHorizontal",
+          "animacion": "zoomIn",
+          "contenido": [
+            {
+              "titulo": "Destacando  <img src='img/m3/ok.png'/>",
+              "subtitulo": "<img src='img/m3/ok_orig.png' width='100px'/><br><b>DESTACANDO</b>",
+              "texto": "Los atributos positivos de los productos que tenemos:<br>Por su sabor<br>Dulce<br>Recién hecho<br>Fresco<br>Rico"
+            },
+            {
+              "titulo": "Resaltando  <img src='img/m3/ok.png' />",
+              "subtitulo": "<img src='img/m3/ok_orig.png' width='100px' /><br><b>RESALTANDO</b>",
+              "texto": "Aquellas soluciones que nuestros productos dan a los clientes:<br>Sirven para resolver una comida.<br>Evitan la necesidad de cocinar.<br>Son productos apetecibles que podemos regalar a otras personas."
+            },
+            {
+              "titulo": "Ofreciendo  <img src='img/m3/ok.png' />",
+              "subtitulo": "<img src='img/m3/ok_orig.png' width='100px' /><br><b>OFRECIENDO</b>",
+              "texto": "Todas las ventajas del surtido a los clientes y explicitarlas utilizando las palabras adecuadas:<br>Novedad<br>Exclusivo<br>Oferta<br>Promoción"
+            },
+            {
+              "titulo": "Dando la razón  <img src='img/m3/ok.png' />",
+              "subtitulo": "<img src='img/m3/ok_orig.png' width='100px' /><br><b>DANDO LA RAZÓN</b>",
+              "texto": "No le lleves la contraria cuando quiera un producto, dáselo y busca motivos extra a los que te exponga para darle la razón en su elección."
+            },
+            {
+              "titulo": "Comparaciones negativas  <img src='img/m3/ko.png' />",
+              "subtitulo": "<img src='img/m3/ko_orig.png' width='100px' /><br><b>COMPARACIONES NEGATIVAS</b>",
+              "texto": "No debemos realizar comparaciones negativas con otros productos que tengamos: \"es más saludable que...\" siempre resaltando individualmente cada uno."
+            },
+            {
+              "titulo": "La palabra NO  <img src='img/m3/ko.png' />",
+              "subtitulo": "<img src='img/m3/ko_orig.png' width='100px' /><br><b>NO DEBEMOS UTILIZAR LA PALABRA \"NO\"</b>",
+              "texto": "Debemos eliminarla de nuestro vocabulario cuando estamos en el punto de venta."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "juegoPalabrasCruzadas",
+          "titulo": "Surtido y Recomendar productos",
+          "descripcion": "Repasa los elementos m&aacute;s importantes.<br><span class='h4 importante'>NO utilices acentos</span>",
+          "ancho": 21, 
+          "alto": 21,
+          "pistas": [
+            {
+              "palabra": "POSITIVOS",
+              "definicion": "De este tipo son los atributos que debemos destacar de nuestros productos",
+              "direccion": "H",
+              "posX": 11,
+              "posY":0
+            },            {
+              "palabra": "IMPULSOR",
+              "definicion": "Se utiliza, en lugar de levadura, para 'impulsar' a la masa a hincharse",
+              "direccion": "H",
+              "posX": 6,
+              "posY":3
+            },            {
+              "palabra": "BATIDO",
+              "definicion": "Tipo de masa sometida a un proceso que provoca que incorpore aire para quedar esponjosa",
+              "direccion": "H",
+              "posX": 0,
+              "posY":4
+            },            {
+              "palabra": "INTEGRAL",
+              "definicion": "Otra manera más común de denominar la harina que no es refinada",
+              "direccion": "H",
+              "posX": 2,
+              "posY":6
+            },            {
+              "palabra": "AIRE",
+              "definicion": "Lo que se queda retenido en forma de pequeñas burbujas en las masas sometidas a batido",
+              "direccion": "H",
+              "posX": 16,
+              "posY":6
+            },            {
+              "palabra": "MARGARINA",
+              "definicion": "Materia grasa utilizada como ingrediente habitual de las masas dulces",
+              "direccion": "H",
+              "posX": 7,
+              "posY":8
+            },            {
+              "palabra": "BOLLERIA",
+              "definicion": "Aquellos productos dulces que no son de masa de hojaldre ni de batido",
+              "direccion": "H",
+              "posX": 8,
+              "posY":10
+            },            {
+              "palabra": "MANTEQUILLA",
+              "definicion": "Materia grasa derivada de la leche usada en lugar de la margarina",
+              "direccion": "H",
+              "posX": 9,
+              "posY":12
+            },            {
+              "palabra": "TRIGO",
+              "definicion": "Con la harina de este cereal se elaboran la mayoría de los panes",
+              "direccion": "H",
+              "posX": 16,
+              "posY":14
+            },            {
+              "palabra": "NEGATIVAS",
+              "definicion": "Tipo de comparaciones que no se deben realizar con los productos",
+              "direccion": "H",
+              "posX": 7,
+              "posY":15
+            },            {
+              "palabra": "DULCES",
+              "definicion": "Productos que no son ni Salados ni Pan",
+              "direccion": "H",
+              "posX": 9,
+              "posY":20
+            },            {
+              "palabra": "SUCRE",
+              "definicion": "Masa muy dulce, suave y compacta",
+              "direccion": "V",
+              "posX": 13,
+              "posY":0
+            },            {
+              "palabra": "EMPANADA",
+              "definicion": "Producto con relleno salado pensado para compartir entre varias personas",
+              "direccion": "V",
+              "posX": 8,
+              "posY":1
+            },            {
+              "palabra": "CLIENTE",
+              "definicion": "Es la persona que queremos fidelizar para que vuelva",
+              "direccion": "V",
+              "posX": 3,
+              "posY":2
+            },            {
+              "palabra": "PAN",
+              "definicion": "Grupo de productos que habitualmente sirven para acompañar otras comidas",
+              "direccion": "V",
+              "posX": 16,
+              "posY":5
+            },            {
+              "palabra": "LEVADURA",
+              "definicion": "Microorganismo responsable de la fermentación del pan",
+              "direccion": "V",
+              "posX": 19,
+              "posY":5
+            },            {
+              "palabra": "FERMENTACION",
+              "definicion": "Proceso durante el cual la levadura provoca que la masa se hinche",
+              "direccion": "V",
+              "posX": 12,
+              "posY":6
+            },            {
+              "palabra": "HOJALDRE",
+              "definicion": "Tipo de masa muy crujiente consistente en varias capas superpuestas",
+              "direccion": "V",
+              "posX": 17,
+              "posY":8
+            },            {
+              "palabra": "SABOR",
+              "definicion": "Es en lo que nos basamos para clasificar los productos de cara al cliente",
+              "direccion": "V",
+              "posX": 10,
+              "posY":14
+            },            {
+              "palabra": "SALADOS",
+              "definicion": "Grupo de productos que incorporan relleno de sabor salado",
+              "direccion": "V",
+              "posX": 14,
+              "posY":14
+            },            {
+              "palabra": "NO",
+              "definicion": "Palabra que debemos olvidar cuando nos encontremos en el punto de venta",
+              "direccion": "V",
+              "posX": 7,
+              "posY":15
+            }
+          ]
+        }
+      ]
+    },    
+    {
+      "titulo": "Aprendizaje",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "animacion": "rotateInDownLeft",
+              "imagen": "img/m3/coffeeandcro.jpg",
+                "ancho": 700
+
+            },
+            {
+              "clase": "texto",
+              "animacion": "rotateInDownRight",
+              "texto": "En este módulo hemos hecho una <b>aproximación</b> a los grandes grupos de productos en los que dividimos la sección de panadería, siempre bajo el punto de vista del cliente.<br><br>Has descubierto los principales tipos de <b>masas</b> con los que se trabaja en la sección, así como las características más generales de cada una de ellas.<br><br>También has visto unas pautas generales a cumplir a la hora de <b>recomendar</b> productos.<br><br>En el siguiente módulo, vas a ver cuáles son las <b>categorías</b> más destacables de cada uno de los grupos de productos y una breve descripción de las mismas."
+
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Final del módulo",
+      "fondo": "img/comunes/contraportada.jpg",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "animacion": "slideInRight",
+          "imagen": "img/comunes/contraportadaImg.svg"
+        }
+      ]
+    }
+  ]
+}

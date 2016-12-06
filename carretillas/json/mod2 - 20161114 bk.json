@@ -1,0 +1,995 @@
+﻿{
+  "modulo": "Mod. 2: PRL generales y específicos",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Ahora ya conocemos un poco sobre la <b>máquina</b> que utilizaremos, pero hay unos cuantos conceptos que es preciso conocer sobre la <b>prevención</b> de riesgos laborales. La prevención de riesgos laborales (PRL) es la disciplina que busca promover la seguridad y salud de los trabajadores mediante la identificación, evaluación y control de los <b>peligros y riesgos</b> asociados a un entorno laboral, además de fomentar el desarrollo de actividades y medidas necesarias para prevenir los riesgos derivados del trabajo."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod2/bienvenida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Conceptos básicos",
+      "contenido": [
+        {
+          "clase": "icono",
+		  "animacion": "fadeInLeft",
+          "subclase": "definicion",
+          "texto": "<b>El trabajo:</b> Es una actividad social organizada, en la que intervienen personas, materiales, energía, tecnología.... mediante la que se alcanzan unos objetivos y se satisfacen unas necesidades. El progreso tecnológico y social ha mejorado la calidad de vida y las condiciones en las que se realiza el trabajo, eliminando o reduciendo los problemas laborales.<br><br>Unos problemas siguen manteniéndose; otros se han incrementado y han surgido algunos nuevos, que es preciso identificar, evaluar y controlar. Los problemas relacionados con la salud de los trabajadores adquieren primacía en el campo laboral."
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "flash",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "anillas",
+              "texto": "<b>La salud:</b>La Organización Mundial de la Salud la define como: El estado de bienestar físico, mental y social completo y no meramente la ausencia de daño o enfermedad. Comprende una triple dimensión de la salud física, mental y social y la importancia de lograr que estén en equilibrio en cada persona."
+            },
+            {
+              "clase": "texto",
+              "subclase": "anillas",
+              "texto": "<b>Riesgo laboral:</b> Posibilidad de que un trabajador sufra un determinado daño derivado del trabajo"
+            }
+
+          ]
+        },
+        {
+          "clase": "icono",
+		  "animacion": "pulse",
+          "subclase": "definicion",
+          "texto": "<b>El trabajo y la salud:</b> El trabajo y la salud están interrelacionados. El trabajo en sí está en un proceso de cambio permanente. Las empresas se caracterizan por la competitividad, para lograr la eficacia y asegurar la supervivencia. La salud de los trabajadores está relacionada con los procesos de cambio, con la evolución de la empresa, con los procesos de trabajo... y también pueden cambiar las condiciones de seguridad y salud de los trabajadores. En los procesos de cambio, además de la productividad y de la calidad, hay que considerar también la mejora de las condiciones de trabajo, prestando atención a los factores organizativos y psicosociales, cuyas consecuencias pasan más desapercibidas que las de los accidentes de trabajo y las enfermedades profesionales. <br><br>Inherentes al proceso productivo están los elementos que pueden influir en el desarrollo del trabajo y en el trabajador. Los elementos que influyen negativamente y relacionados con la seguridad y la salud de los trabajadores son los \"riesgos laborales\"."
+        }
+
+      ]
+    },
+    {
+      "titulo": "Conceptos II",
+      "fondo": "img/mod2/salud.jpg",
+      "contenido": [
+        {
+          "clase": "icono",
+		  "animacion": "swing",
+          "subclase": "definicion",
+          "texto": "<b>Salud laboral</b>: Según la O.M.S. (Organización Mundial de la Salud), <b>Salud Laboral</b> es la disciplina que se ocupa de que el trabajador por cuenta ajena mantenga adecuada salud física, psíquica y social dentro de su puesto de trabajo. La salud física o salud orgánica que tiene la persona como resultado del funcionamiento correcto del conjunto de sus células, tejidos, órganos y sistemas biológicos. La salud psíquica, que presupone un equilibrio intelectual y emocional. La salud social o bienestar de la persona en sus relaciones sociales."
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "bounceInUp",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "celo",
+              "texto": "<b>Daños derivados del trabajo:</b> Enfermedades, patologías o lesiones sufridas con motivo u ocasión del trabajo."
+            },
+            {
+              "clase": "texto",
+              "subclase": "celo",
+              "texto": "<b>Prevención:</b> Conjunto de actividades o medidas adoptadas prevista en todas las fases de actividad de la empresa con el fin de evitar o disminuir los riesgos derivados del trabajo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Importante",
+      "contenido": [
+
+        {
+          "clase": "texto",
+		  "animacion": "wobble",
+          "texto": "La realización de un trabajo produce <b>modificaciones</b> en el lugar donde se realiza, que repercuten sobre el trabajador. Las modificaciones pueden ser mecánicas, físicas, químicas, biológicas, psicológicas, sociales... y la actividad preventiva consistirá en <b>analizar y evaluar</b> cada una de esas modificaciones para determinar sus efectos sobre la salud y definir las medidas preventivas adecuadas."
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "tada",
+          "contenido": [
+            {
+              "clase": "icono",
+              "subclase": "exclamacion picos",
+              "texto": "En el trabajo:<ul><li>Evitar o disminuir los aspectos negativos, como los riesgos.</li><li>Evaluar los que no se puedan evitar.</li><li>Combatir los riesgos en su origen.</li><li>Promover y potenciar los aspectos positivos, como las posibilidades de desarrollo profesional, personal y social de los trabajadores</li></ul>"
+            },
+            {
+              "clase": "lista",
+              "subclase": "recuadro",
+              "titulo": "Consecuencias de los riesgos",
+              "contenido": [
+                {
+                  "punto": "Accidentes de trabajo."
+                },
+                {
+                  "punto": "Enfermedades profesionales."
+                },
+                {
+                  "punto": "Otros daños para la salud."
+                }
+              ]
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Accidentes de trabajo",
+      "contenido": [
+        {
+          "clase": "icono",
+		  "animacion": "rubberBand",
+          "subclase": "definicion",
+          "texto": "Se puede definir el <b>accidente de trabajo</b> como el suceso brusco, inesperado y normalmente evitable, que puede causar lesiones corporales con disminución o anulación de la integridad física de las personas. La Ley General de la Seguridad Social, en su artículo 115, define el accidente como la lesión corporal que el trabajador sufre con ocasión o por consecuencia del trabajo que ejecuta por cuenta ajena. Estadísticamente, y basándonos en la conocida <b>Pirámide de Heinrich</b>, sea cual fuere el tipo de empresa, se demuestra que de cada 330 situaciones de peligro, en las que se actúa de forma incorrecta, se producen:<ul><li>1 lesión grave o accidente mortal.</li><li>29 accidentes con lesiones leves.</li><li>300  accidentes sin lesión (incidentes)</li><br>La lucha contra los accidentes de trabajo es el <b>primer paso</b> de la actividad preventiva. Legalmente, accidente de trabajo es: \"Toda lesión corporal que el trabajador sufra con ocasión o a consecuencia de trabajo que ejecuta por cuenta ajena\""
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInLeft",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Comprende:",
+              "contenido": [
+                {
+                  "punto": "Las lesiones que se producen en el <b>centro</b> de trabajo."
+                },
+                {
+                  "punto": "Las producidas entre el trayecto habitual entre el centro de trabajo y el domicilio del trabajador. Estos se llaman accidentes <b><i>In Itínere</i></b>."
+                }
+              ]
+            },
+            {
+              "clase": "lista",
+              "titulo": "Desde el punto de vista técnico-preventivo, <b>accidente de trabajo es</b>: Todo suceso anormal no querido ni deseado que se presenta de una forma brusca e inesperada.",
+              "contenido": [
+                {
+                  "punto": "Normalmente es evitable."
+                },
+                {
+                  "punto": "Interrumpe la normal continuidad del trabajo."
+                },
+                {
+                  "punto": "Puede causar lesiones a las personas."
+                }
+              ]
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Causas",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "flash",
+          "texto": "Los accidentes tienen causas naturales y explicables. Si no se descubren y controlan las causas, los accidentes volverán a producirse. Se localizan <b>tres causas básicas</b>:"
+        },
+        {
+          "clase": "tabs",
+		  "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Técnicas",
+              "texto": "Son los fallos de las <b>máquinas y equipos</b>, así como las causas originadas en las operaciones mal diseñadas para la seguridad, etc. Estas causas son relativamente fáciles de conocer y de controlar. Se descubre dónde está el error dañino y se aplica una medida técnica para corregirlo o reducirlo."
+            },
+            {
+              "titulo": "Humanas",
+              "texto": "Son aquellos actos de los <b>trabajadores</b> que por falta de información, formación, atención e interés, producen directamente efectos dañinos."
+            },
+            {
+              "titulo": "Técnicas y humanas",
+              "texto": "Responden a la <b>combinación</b> de los dos anteriores. Es decir, la existencia de un error técnico más un acto de imprudencia o el fallo técnico unido al desconocimiento del trabajador."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+		  "animacion": "bounce",
+          "subclase": "definicion",
+          "texto": "La <b>seguridad en el trabajo</b> es el conjunto de técnicas y procedimientos que tienen por objeto eliminar d disminuir el riesgo de que se produzcan los accidentes de trabajo."
+        }
+      ]
+    },
+    {
+      "titulo": "Consecuencias",
+      "contenido": [
+
+        {
+          "clase": "icono",
+		  "animacion": "bounce",
+          "subclase": "definicion",
+          "texto": "<b>Enfermedad profesional</b>: Según el Art. 116 de la <a href='http://www.seg-social.es/Internet_1/Normativa/095093' target='_blank'>Ley General de la Seguridad Social</a> es \"toda aquella contraída a consecuencia del trabajo ejecutado por cuenta ajena, en la actividades que se especifiquen en el cuadro que se aprueba por las disposiciones de aplicación y desarrollo de la ley, y que esté provocada por la acción de los elementos o sustancias que en dicho cuadro se indique para toda enfermedad profesional.\" Desde el punto de vista técnico preventivo se habla de enfermedad derivada del trabajo entendida como “aquel deterioro lento y paulatino de la salud del trabajador, producido por una exposición crónica a situaciones adversas, sean estas producidas por el ambiente en que se desarrolla el trabajo o por la forma en que éste está organizado”"
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInUp",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "<b>Factores</b> que determinan la enfermedad profesional:",
+              "contenido": [
+                {
+                  "punto": "<b>Tiempo</b> de exposición."
+                },
+                {
+                  "punto": "Características <b>personales</b> del trabajador."
+                },
+                {
+                  "punto": "Concentración o intensidad del <b>contaminante</b>."
+                },
+                {
+                  "punto": "Presencia <b>simultánea</b> de varios contaminantes."
+                }
+              ]
+            },
+            {
+              "clase": "texto",
+              "subclase": "banner",
+              "texto": "La <b>higiene industrial</b> es la técnica que previene la aparición de enfermedades profesionales, estudiando, valorando y modificando el medio ambiente físico, químico o biológico del trabajo."
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Prevención",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInDown",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "<b>¿En qué consiste la prevención de riesgos laborales?</b><br><br>La Prevención de Riesgos Laborales consiste en un conjunto de <b>actividades</b> que se realizan en la empresa con la finalidad de descubrir anticipadamente los riesgos que se producen en cualquier trabajo. Esta anticipación permite que se puedan planificar y adoptar una serie de medidas preventivas que evitarán que se produzca un accidente laboral.<br><br>La <b>PRL</b> se basa en estas ideas: Un accidente laboral no es un suceso inevitable, algo que suceda irremediablemente, por casualidad o “porque tenía que pasar”. Un accidente laboral es la manifestación de que algo no ha ido bien en el desarrollo de una tarea, de que ha habido un <b>fallo</b>. Si la tarea está bien estudiada de antemano, sabiendo cómo hay que hacerla y qué medios hay que emplear, también se podrán <b>prever los riesgos</b> que puedan aparecer.<br><br>Por lo tanto, cuanto mejor estudiada esté una tarea, más fácil será evitar que se produzcan “fallos” (accidentes) durante la misma. La legislación actual se basa en el <b>derecho</b> de los trabajadores a un trabajo en condiciones de seguridad y salud, lo que implica a su vez un <b>deber</b> del empresario para conseguir esa protección."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod2/prevencion.jpg"
+            }
+
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Herramientas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "animacion": "swing",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "La prevención de riesgos laborales tiene por objeto <b>eliminar o reducir</b> los riesgos derivados de las condiciones de trabajo o sus consecuencias.<br><br>Se entiende por <b>riesgo laboral</b> la <b>posibilidad</b> de que un trabajador sufra un determinado daño derivado del trabajo. Se consideran daños derivados del trabajo las enfermedades, patologías y lesiones sufridas con motivo  u ocasión del <b>trabajo</b>. No todos los riesgos producen los mismos daños y cuando se desencadenan pueden producir:",
+              "contenido": [
+                {
+                  "punto": "Accidentes de Trabajo"
+                },
+                {
+                  "punto": "Enfermedades Profesionales"
+                },
+                {
+                  "punto": "Malestar y enfermedad en la persona como fatiga, estrés estados depresivos, etc."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod2/accidente.jpg"
+            },
+
+            {
+              "clase": "lista",
+              "titulo": "Las <b>técnicas preventivas</b> son <b>actuaciones y medidas</b> que se deben llevar a cabo en todas las actividades de empresa, para eliminar o reducir los riesgos o disminuir sus consecuencias en caso de que estos se desataran. Si de la evaluación de riesgos se deduce la necesidad de adoptar medidas preventivas, se deberá:",
+              "contenido": [
+                {
+                  "punto": "Eliminar o reducir el riesgo, mediante medidas de prevención en el origen, organizativas, de protección colectiva, de protección individual o de formación e información a los trabajadores."
+                },
+                {
+                  "punto": "Controlar periódicamente las condiciones, la organización y los métodos de trabajo y el estado de salud de los trabajadores."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Herramientas II",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "pulse",
+          "titulo": "De acuerdo con el artículo 33 de la <a href='http://www.insht.es/portal/site/Insht/menuitem.1f1a3bc79ab34c578c2e8884060961ca/?vgnextoid=771be9369a3d3110VgnVCM100000dc0ca8c0RCRD&vgnextchannel=75164a7f8a651110VgnVCM100000dc0ca8c0RCRD' target='_blank'>Ley de Prevención de Riesgos laborales</a>, el empresario deberá <b>consultar</b> a los representantes de los trabajadores o a los propios trabajadores en ausencia de representantes, acerca del <b>procedimiento</b> de evaluación a utilizar en la empresa o centro de trabajo.<br><br>En cualquier caso, si existiera normativa específica de aplicación, el procedimiento de evaluación deberá ajustarse a las condiciones concretas establecidas en la misma.",
+          "subclase": "letras",
+          "contenido": [
+            {
+              "punto": "Las condiciones de trabajo existentes o previstas"
+            },
+            {
+              "punto": "La posibilidad de que el trabajador que lo ocupe sea especialmente sensible, por sus características personales o estado biológico conocido, a alguna de dichas condiciones."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInDown",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Se estudian las <b>condiciones</b> de un puesto de trabajo: lugar, maquinaria, productos empleados, etc. Se <b>identifican</b> los peligros a los que se expone el trabajador por trabajar en esas condiciones. Puede que haya peligros que puedan ser eliminados fácilmente en esta fase; el resto, tendrán que ser evaluados. Según el tiempo a que esté expuesto a cada uno de esos peligros y la gravedad de los daños que puedan causar, se intenta medir el <b>riesgo</b> a que está sometido el trabajador."
+            },
+            {
+              "clase": "texto",
+              "texto": "Con esto, se obtiene una lista de riesgos que puede ordenarse por su mayor o menor gravedad. Finalmente, se propondrán unas <b>medidas preventivas</b> para eliminar o reducir los riesgos de ese puesto de trabajo. Tras esta primera fase en la que se detectan y miden los riesgos, la empresa deberá planificar cómo ir adoptando progresivamente las medidas que los técnicos especialistas en PRL han propuesto."
+            }
+          ]
+        }
+
+
+      ]
+    },
+    {
+      "titulo": "Organización en la empresa",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "flash",
+          "texto": "La legislación de PRL permite que las <b>empresas</b> organicen la PRL de diversas formas (llamadas “modalidades de organización preventiva” ). En empresas muy pequeñas y de escasos riesgos, el propio empresario puede llevar a cabo las actividades de PRL. Sin embargo, esto no es lo habitual: lo más frecuente es que estas actividades tengan que ser encargadas a <b>técnicos especialistas</b> en PRL, con la debida formación.<br><br>Estos técnicos especialistas pueden ser <b>trabajadores de la propia empresa</b> a los cuales el empresario les ha proporcionado la formación necesaria y les ha designado (“trabajadores designados” ) para que se encarguen de las actividades preventivas, o bien el empresario puede contratar esas actividades con un <b>Servicio de Prevención Ajeno</b> (SPA). Los SPA son las entidades especializadas, privadas, que han recibido una acreditación del Departamento de Empleo para poder actuar como tales."
+        },
+        {
+          "clase": "icono",
+		  "animacion": "bounceInDown",
+          "subclase": "exclamacion",
+          "texto": "<b>Recuerde:</b> Si Vd. es un trabajador, su empresa le debe entregar información acerca de los riesgos y medidas preventivas correspondientes a su puesto de trabajo."
+        }
+      ]
+    },
+    {
+      "titulo": "Riesgos para el conductor",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "swing",
+          "texto": "Aquí se hablará de los riesgos específicos del uso de la máquina, pero <b>recuerde</b>, Ud. estará sometido igualmente a los riesgos específicos de la instalación en la que trabaje, deberá conocerlos y asimismo las medidas preventivas para eliminarlos o minimizarlos."
+        },
+        {
+          "clase": "texto",
+		  "animacion": "tada",
+          "texto": "<span class='h3'>Riesgos para el conductor:</span>"
+        },
+        {
+          "clase": "tabla",
+		  "animacion": "fadeInUp",
+          "subclase": "unida",
+          "filaTitulos": [
+            {
+              "titulo": "Riesgos"
+            },
+            {
+              "titulo": "Medidas preventivas"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "Vuelco lateral de la carretilla",
+                  "colspan": 2,
+                  "imagen": "img/mod2/vuelcoLateral.jpg",
+                  "ancho": 200
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<ul><li>Al realizar giros.</li><li>A causa de los suelos.</li><li>Otros: carga descentrada, rotura de la paleta, maniobras peligrosas...</li></ul>"
+                },
+                {
+                  "texto": "<ul><li>Evitar giros rápidos y cerrados.</li><li>En suelos irregulares, reducir la velocidad, dividir la carga, sujetar el volante con firmeza y extremar la atención.</li></ul>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Vuelco frontal de la carretilla",
+                  "colspan": 2,
+                  "imagen": "img/mod2/vuelcoFrontal.png",
+                  "ancho": 200
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<ul><li>Por llevar la carga elevada, y/o el mástil inclinado hacia delante o extendido.</li><li>Al realizar maniobras bruscas (frenar repentinamente al avanzar o acelerar bruscamente en marcha atrás).</li><li>Por frenar o pisar suelo no totalmente horizontal con sobrecarga de carretilla.</li><li>Por desprenderse o por rotura de la rampa de carga del camiones.</li><li>A causa de suelos desiguales, choques contra bordillos o caer en una zanja.</li></ul>"
+                },
+                {
+                  "texto": "<ul><li>Favorecer la estabilidad de la carga.</li><li>Evitar maniobras bruscas.</li><li>No sobrecargar la carretilla.</li><li>No circular por rampas cuya pendiente exceda el 10 %.</li></ul>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Lesiones por caída de la carga: Si cae la carga por el exceso de peso para el pórtico protector, o al romperse envases o contenedores y caer el contenido sobre el conductor u otros operarios.",
+                  "colspan": 2,
+                  "imagen": "img/mod2/caidaCarga.png",
+                  "ancho": 200
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<b>Carga:</b><ul><li>Mal apilamiento.</li><li>Mal sujeta.</li><li>Muy alta y con poca base (inestable).</li><li>Sobre pallet en mal estado o inadecuado.</li></ul><b>La circulación sobre rampas:</b><ul><li>Circulación transversal.</li><li>Inclinación excesiva de la rampa.</li></ul><b>El suelo</b><ul><li>paso por baches o resaltes.</li><li>La falta de visibilidad</li><li>La lluvia.</li><li>Materiales de protección no transparentes sobre la carretilla.</li></ul>"
+                },
+                {
+                  "texto": "<b>Carga:</b><ul><li>Utilizar contenedores adecuados.</li><li>Fijar correctamente la carga paletizada.</li><li>Comprobar que las paletas son adecuadas y están en buen estado.</li></ul><b>Visibilidad:</b><ul><li>Emplear elementos que protejan de la lluvia.</li><li>Comprobar que no existen elementos protectores que impidan la visibilidad.</li></ul><b>Rampas:</b><ul><li>En las rampas: circular despacio, perpendicularmente y en línea recta, siguiendo la pendiente máxima. Con la carga siempre hacia arriba.</li><li>Recordad: la pendiente máxima de una rampa no debe superar el 10%.</li></ul><b>Suelo:</b><ul><li>Aplicar las medidas preventivas al trabajar sobre suelos irregulares.</li>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Atrapamiento de las manos o la ropa en la carretilla",
+                  "colspan": 2,
+                  "imagen": "img/mod2/atrapamiento.jpg",
+                  "ancho": 200
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "El atrapamiento puede ocurrir cuando se manipulan los elementos mecánicos o hidráulicos de la carretilla."
+                },
+                {
+                  "texto": "<ul><li>Manipular los elementos mecánicos e hidráulicos sólo si se está formado y autorizado para ello.</li><li>Desconectar y parar el motor de la carretilla antes de su reparación.</li><li>Comprobar que los elementos de acumulación de presión están descargados: parar la bomba de alimentación, vaciar los cilindros, en ambos sentidos del movimiento, y el acumulador de presión.</li></ul>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Choque contra objetos fijos",
+                  "colspan": 2
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<ul><li>Falta de atención</li><li>Fallo de los frenos</li><li>Cálculo equivocado de distancias</li><li>Exceso de velocidad</li><li>Falta de visibilidad (exceso de altura de la carga)</li>"
+                },
+                {
+                  "texto": "<ul><li>No distraerse ni confiarse.</li><li>Realizar siempre la revisión diaria previa al trabajo.</li><li>Ir a una velocidad adecuada a la tarea.</li><li>Circular marcha atrás cuando la carga impida ver el camino.</li><li>Si no hay visibilidad para maniobrar, pedir ayuda a un operario que conozca el trabajo</li></ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Riesgos para los peatones:",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "slideInUp",
+          "texto": "<span class='h3'>Riesgos para los peatones</span>"
+        },
+        {
+          "clase": "tabla",
+		  "animacion": "tada",
+          "subclase": "unida",
+          "filaTitulos": [
+            {
+              "titulo": "Riesgos"
+            },
+            {
+              "titulo": "Medidas preventivas"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "Atropellos: pueden generar golpe, aplastamiento o ensartamiento si se llevan las uñas levantadas",
+                  "colspan": 2,
+                  "imagenes": "img/mod2/atropello.png"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Uso incorrecto de la carretilla elevadora por el conductor:<ul><li>No está atento a los peatones</li><li>Realiza maniobras o giros bruscos imprevistos</li><li>Inicia las maniobras sin antes mirar</li><li>No toma medidas ante la falta de visibilidad.</li><li>Por distracción del peatón.</li>"
+                },
+                {
+                  "texto": "Recuerde: los peatones siempre tienen preferencia, salvo que la normativa interna de la instalación lo especifique.<ul><li>Avisar de su proximidad tocando el claxon.</li><li>Asegurarse de que se está a más de un metro de cualquier persona que circule o se encuentre en su puesto de trabajo.</li>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Aplastamiento por caída de la carga",
+                  "colspan": 2,
+                  "imagen": "img/mod2/aplastamientoCarga.jpg",
+                  "ancho": 200
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Cuando, en proximidad de peatones, la carga pierde estabilidad por:<ul><li>Circular a velocidad excesiva</li><li>Realizar giros excesivamente cerrados</li><li>Llevar la carga elevada o descentrada</li><li>Llevar el mástil adelantado</li><li>Deficiente valoración de las condiciones peligrosas de la zona de trabajo.</li></ul>"
+                },
+                {
+                  "texto": "<ul><li>Organizar correctamente el trabajo.</li><li>Asegurarse que el espacio es suficiente para maniobrar.</li><li>Ejecutar los trabajos con cuidado y sin prisa.</li></ul>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Aplastamiento contra objetos fijos",
+                  "colspan": 2
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<ul><li>Por trabajar en lugares no suficientemente amplios.</li><li>Porque el conductor no ha visto al peatón.</li><li>Porque el peatón se sitúa cerca de la carretilla y junto a elementos fijos.</li><li>Cuando el conductor no tiene tiempo de reaccionar.</li><li>Cuando, circulando marcha atrás, el conductor no mira previamente.</li><li>Cuando, circulando marcha atrás, la sirena de advertencia no funciona.</li><li>Por trabajar en lugares sin la señalización adecuada.</li><li>Por transportar peatones en la carretilla elevadora.</li><li>Cuando, durante el trabajo, los frenos fallan.</li><li>Cuando, con la carretilla parada o estacionada, el freno de mano no funciona correctamente.</li></ul>"
+                },
+                {
+                  "texto": "Cómo se debe actuar ante la presencia de peatones en la zona de trabajo:<ul><li>Se debe avisar tocando el claxon.</li><li>Debe asegurarse de que está a mínimo un metro del peatón.</li><li> Mantener siempre la atención en la tarea.</li><li> Comprobar el correcto funcionamiento del claxon y la sirena de advertencia antes de iniciar el trabajo.</li><li>Señalización correcta de la zona de trabajo de acuerdo a las recomendaciones existentes.</li><li>No transportar peatones en la carretilla elevadora.</li><li>Asegurarse de que los frenos funcionan correctamente.</li></ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Riesgos físicos",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "pulse",
+          "texto": "<span class='h3'>Riesgos físicos:</span>"
+        },
+
+        {
+          "clase": "tabla",
+		  "animacion": "shake",
+          "subclase": "unida",
+          "filaTitulos": [
+            {
+              "titulo": "Riesgos"
+            },
+            {
+              "titulo": "Medidas preventivas"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "Riesgos de la carga de combustible",
+                  "colspan": 2
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Se puede producir una explosión debido a la presencia de vapores inflamables a causa de la electricidad estática, o presencia de focos de calor."
+                },
+                {
+                  "texto": "<b>Antes</b><ul><li>Apagar el motor.</li><li>Asegurarse que luces y sirenas no tienen suministro eléctrico.</li><li>Desconectar la batería.</li><li>Evitar la proximidad de operaciones que pudieran generar un foco de calor.</li><li>Comprobar que no hay cables tendidos por la zona de trasvase.</li></ul><b>Durante</b><ul><li>Puesta a tierra del sistema: asegurar la puesta a tierra de la carretilla. La pinza debe situarse sobre un elemento metálico de la estructura de la carretilla que permita.</li><li>Llenado del depósito: evitar derrames colocando la manguera en la boca de llenado antes de abrir la válvula.</li><li>Posición correcta de la bandeja para la recogida del goteo (bajo la manguera).</li></ul><b>Después</b><ul><li>Cierre correcto del depósito de carburante.</li><li>Colocación adecuada de la manguera.</li><li>Suelo y carretilla libres de restos de carburante.</li><li>Recogida del equipo:<ul><li>Cerrar la válvula.</li><li>Retirar la manguera.</li><li>Cerrar la boca de carga.</li><li>Desconectar la pinza de puesta a tierra.</li></ul></li></ul>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Riesgos de carga de las baterías",
+                  "colspan": 2
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<ul><li>Las baterías contienen ácido sulfúrico y agua destilada: al rellenar con agua, se pueden producir derrames y salpicaduras.</li><li>En las baterías se forman gases que, al desprenderse a través de los tapones abiertos, pueden formar una atmósfera explosiva.</li><li>Por debajo del 30% de carga, la batería de las carretillas eléctricas se deterioran y los sistemas pueden fallar.</li></ul>"
+                },
+                {
+                  "texto": "<b>Antes</b><ul><li>Apagar motor, luces y sirenas.</li><li>Comprobar que el área de carga sea adecuado. (Ventilada. Con un suelo no conductor. Limpia y seca.Alejada de actividades con riesgo de incendio o explosión.Con cubetas para la recogida de posibles fugas de ácido. Señalizada: carteles de Riesgo eléctrico y de Prohibido fumar. Con extintor de CO2 y sistema lavaojos.)</li><li>Evitar la proximidad de operaciones que pudieran producir calor.</li></ul><b>Durante</b><ul><li>Comprobar que no se llevan objetos metálicos.</li><li>Comprobar que se lleva el equipo de protección individual prescrito.</li><li>Asegurarse de que el cofre de la carretilla esté siempre abierto.</li><li>Comprobar que no hay objetos metálicos sobre la batería o en contacto con sus terminales o cables.</li><li>Mantener la intensidad de carga recomendada por el fabricante.</li></ul><b>Después</b><ul><li>Correcta carga de las baterías.</li><li>Colocación adecuada de la manguera de conexión.</li></ul>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Riesgos en la sustitución de la botella de GPL",
+                  "colspan": 2
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Se puede producir una explosión debido a la presencia de gases inflamables a causa de la electricidad estática, o de la presencia de focos de calor."
+                },
+                {
+                  "texto": "<b>Antes</b><ul><li>Comprobar que la ventilación es adecuada.</li><li>Apagar el motor.</li><li>Comprobar que luces y sirenas no tienen suministro eléctrico.</li><li>Evitar la proximidad de operaciones que pudieran generar calor.</li><li>Asegurarse de la ausencia de cables tendidos por la zona de operación.</li></ul><b>Durante</b><ul><li>Puesta a tierra del sistema: primero, la puesta a tierra de la carretilla. La pinza debe situarse sobre un elemento metálico de la estructura de la carretilla.</li><li>Retirada de la botella vacía: comprobar que la válvula de la botella y la válvula de alimentación de la carretilla están cerradas.</li><li>Colocación de una botella llena: comprobar el correcto apoyo y sujeción de la botella, y la conexión del latiguillo flexible.</li><li>Recogida del equipo.</li></ul><b>Después</b><ul><li>Mediante agua jabonosa, comprobar que no haya fugas en las válvulas, el latiguillo y sus conexiones.</li></ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Ley de prevención",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "rubberBand",
+          "texto": "Hasta hace unos años en nuestro país nada se había legislado en cuanto a las características constructivas de las carretillas elevadoras, lo que traía como consecuencia que en el mercado existiera una <b>gran variedad</b> de ellas dependiendo de las exigencias de construcción del país de origen. Tampoco exigían características especiales al conductor carretillero, si se exceptúa lo legislado en trabajos de menores de dieciocho años y trabajos de mujeres, aspectos recogidos en el <a href='http://www.insht.es/InshtWeb/Contenidos/Normativa/TextosLegales/Decretos/26_1957/PDFs/decretode26dejuliode1957porelqueseregulanlostrabajosp.pdf' target='_blank'>Decreto de 26 de julio de 1957</a>, B.O.E. de 26 de agosto del mismo año. Esta situación provocaba que para todo lo relacionado con la carretilla elevadora, se observara lo recomendado por el centro de <b>Información de la manutención</b> con sede en París, centro que se dirige más a la formación del carretillero en sí que a la propia máquina. La incorporación de España a la Comunidad Económica Europea, actualmente Unión Europea, ha traído como consecuencia la incorporación por parte de nuestro país de todas las Directivas adoptadas por este ente Supranacional. Resultado de este hecho ha sido la aparición en la <b>legislación española</b> de diversa normativa, que regule las condiciones de seguridad que deben reunir las carretillas elevadoras."
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInDown",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "La <b>ley de prevención de riesgos laborales</b>",
+              "contenido": [
+                {
+                  "punto": "Transpone al derecho español la Directiva \"MARCO\" que contiene la normativa básica de la política de prevención comunitaria."
+                },
+                {
+                  "punto": "Establece el marco jurídico para desarrollar los requisitos de seguridad y de salud en el trabajo que marcan las directivas comunitarias."
+                },
+                {
+                  "punto": "Prevé que el desarrollo de los aspectos concretos de la Seguridad y de la Salud en el trabajo se realice por medio de reglamentos."
+                }
+              ]
+            },
+            {
+              "clase": "lista",
+              "titulo": "El <b>reglamento de los servicios de prevención</b> determina:",
+              "contenido": [
+                {
+                  "punto": "Los procedimientos de evaluación de los riesgos para la salud de los trabajadores."
+                },
+                {
+                  "punto": "Las modalidades de organización, funcionamiento y control de los Servicios de Prevención."
+                },
+                {
+                  "punto": "Las capacidades y aptitudes que deben reunir dichos servicios y los trabajadores designados para realizar actividades preventivas."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Reglamentaciones",
+      "contenido": [
+        {
+          "clase": "tabs",
+		  "animacion": "fadeInUp",
+          "contenido": [
+            {
+              "titulo": "Técnicas",
+              "texto": "Reglamentaciones técnicas específicas derivadas de la ley: Según la L.P.R.L. el Gobierno regulará \"los <b>requisitos mínimos</b> que deben reunir las condiciones de trabajo para la protección de la seguridad y la salud de los trabajadores\"(art. 6.a). Reglamentaciones técnicas más importantes.<ul><li><a href='http://www.insht.es/portal/site/Insht/menuitem.1f1a3bc79ab34c578c2e8884060961ca/?vgnextoid=e0b917815b2d5110VgnVCM100000dc0ca8c0RCRD&vgnextchannel=ff3cc6b33a9f1110VgnVCM100000dc0ca8c0RCRD&tab=tabConsultaCompleta' target='_blank'>Lugares de trabajo</a>: establece las condiciones mínimas de seguridad y salud que deben reunir los lugares de trabajo.</li><li><a href='http://www.insht.es/portal/site/Insht/menuitem.1f1a3bc79ab34c578c2e8884060961ca/?vgnextoid=5f644344952d5110VgnVCM100000dc0ca8c0RCRD&vgnextchannel=1d19bf04b6a03110VgnVCM100000dc0ca8c0RCRD&tab=tabConsultaCompleta' target='_blank'>Equipos de trabajo:</a> regula las disposiciones mínimas de seguridad y  salud para la utilización de los equipos de trabajo, empleados por los  trabajadores (máquinas, aparatos, instrumentos).</li><li><a href='http://www.insht.es/portal/site/Insht/menuitem.1f1a3bc79ab34c578c2e8884060961ca/?vgnextoid=7e154344952d5110VgnVCM100000dc0ca8c0RCRD&vgnextchannel=ff3cc6b33a9f1110VgnVCM100000dc0ca8c0RCRD&tab=tabConsultaCompleta' target='_blank'>Equipos de Protección Individual (E.P.I.):</a> Recoge las disposiciones  generales que han de cumplir estos equipos.</li></ul>"
+            },
+            {
+              "titulo": "Otras",
+              "texto": "<b>Otras disposiciones</b>: Existen, además gran número de disposiciones relacionadas directa o indirectamente con la prevención de riesgos:<ul><li>Obligatoriedad de incluir un estudio de seguridad e higiene en el trabajo en los proyectos de edificación y obras públicas.</li><li>Protección de los trabajadores frente a:<ul><li>Riesgos químicos</li><li>Riesgos físicos</li><li>Determinadas sustancias o agentes cancerígenos.</li></ul><li>En el texto refundido de la Ley General de la Seguridad Social se definen los conceptos de accidente de trabajo y de enfermedad profesional y se tratan las prestaciones y situaciones a las que dan lugar dichas contingencias.</li><li>En el Cuadro de Enfermedades Profesionales figura la lista de elementos o sustancias y actividades reconocidas por el sistema de la Seguridad Social como causantes de enfermedades profesionales.</li><li>La Ley General de Sanidad regula la actuación sanitaria en el ámbito de la salud laboral.</li><li>Los Convenios Colectivos pueden establecer disposiciones más favorables para el ejercicio de los derechos de información, consulta y participación de los trabajadores en la Prevención de Riesgos Laborales.</li></ul>"
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "Los <b>derechos y los deberes básicos</b> que afectan a los trabajadores y al empresario están contenidos en:<ul><li>La Constitución Española.</li><li>El Estatuto de los Trabajadores.</li><li>La Ley de Prevención de Riesgos Laborales.</li></ul>"
+        }
+      ]
+    },
+    {
+      "titulo": "Directivas",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "fadeInRight",
+          "texto": "Además de toda la legislación laboral aplicable con carácter general, las carretillas elevadoras están incluidas y por tanto deben cumplir con las <b>Directivas de Seguridad en Máquinas</b> refundidas en la 98/37/CE, que a nivel de la legislación interna española se contemplan en los RD 1435/1992 y RD 56/1995. Ello comporta que todas las unidades puestas en el mercado o puestas en servicio con <b>posterioridad</b> a 1/1/1996 deben llevar bien visible el marcado CE, e ir acompañadas de una declaración CE de conformidad con los requisitos esenciales de seguridad y salud elaborada por el fabricante y el Manual de Instrucciones \"original\" y, en el momento de su entrada en servicio, una traducción en español. <br><br>En aplicación del RD 1215/1997 sobre equipos de trabajo, todas las carretillas elevadoras que en la fecha de entrada en vigor de este Real Decreto estuvieran a disposición de los trabajadores en la empresa o centro de trabajo y que hubiesen sido puestas en servicio con anterioridad al 10.6.89, habrán debido <b>adecuarse</b> a las disposiciones mínimas contenidas en el Anexo I y ser utilizadas conforme a las disposiciones del Anexo II del citado Real Decreto (las carretillas comercializadas entre el 10.6.89 y el 1.7.95 -opcionalmente hasta el 1.1.96 - deben cumplir la ITC MIE AEM-3. Véase Anexo A de la Guía Técnica para la Evaluación y la Prevención de los Riesgos relativa a la Utilización de los Equipos de Trabajo). Para ampliar información sobre los requisitos técnicos de seguridad aplicables a estas máquinas, es recomendable la consulta de las <b>normas europeas</b> armonizadas referidas a las mismas. En estas normas se recogen los requisitos técnicos cuyo cumplimiento por parte del fabricante le ofrece presunción de conformidad a la Directiva 98/37/CE.<br><br>Por otra parte, de acuerdo con el RD 212/2002, las carretillas elevadoras que trabajan a la <b>intemperie</b> también deben llevar en lugar visible el <b>etiquetado</b> de nivel sonoro con indicación del nivel acústico garantizado de la máquina en el entorno. Si la carretilla debe circular por vías públicas (o que tengan la consideración de públicas), deberá cumplir con las exigencias de la legislación en materia de Tráfico y Seguridad Vial."
+        },
+        {
+          "clase": "lista",
+		  "animacion": "fadeInLeft",
+          "contenido": [
+            {
+              "punto": "<b>Directiva 98/37/CE</b> relativa a la aproximación de las legislaciones de los Estados miembros sobre máquinas. Transpuesta a la legislación española a través de los RD 1435/1992 y RD 56/1995."
+            },
+            {
+              "punto": "<b>Directiva 89/655/CEE</b> relativa a las disposiciones mínimas de seguridad y salud para la utilización por los trabajadores en el trabajo de los equipos de trabajo. Modificada por la Directiva 95/63/CE. Transpuesta a la legislación española a través del RD 1215/1997."
+            },
+            {
+              "punto": "<b>Directiva 94/9/CE</b> relativa a los aparatos y sistemas de protección para uso en atmósferas potencialmente explosivas (ATEX). Transpuesta a la legislación española a través del RD 400/1996."
+            },
+            {
+              "punto": "<b>Directiva 1999/92/CE</b> relativa a las disposiciones mínimas para la mejora de la protección de la salud y la seguridad de los trabajadores expuestos a los riesgos derivados de atmósferas explosivas. Transpuesta a la legislación española a través del RD 681/2003."
+            }
+          ]
+
+        }
+      ]
+    },
+    {
+      "titulo": "Normas",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "pulse",
+          "texto": "Asimismo aplican las siguientes normas:"
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "swing",
+          "subclase": "flex-start",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<b>Norma UNE-EN 1175-1:1998</b> Seguridad de las carretillas de manutención. Requisitos eléctricos. Parte 1: Requisitos generales para carretillas alimentadas por acumuladores eléctricos."
+            },
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<b>Norma UNE-EN 1175-2:1998</b> Seguridad de las carretillas de manutención. Requisitos eléctricos. Parte 2: Requisitos generales para carretillas equipadas con motor térmico."
+            },
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<b>Norma UNE-EN 1175-3:1998</b> Seguridad de las carretillas de manutención. Requisitos eléctricos. Parte 3: Requisitos particulares de los sistemas de transmisión eléctrica de las carretillas equipadas con motor térmico."
+            },
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<b>Norma UNE-EN 1459:2000</b> Seguridad de las carretillas de manutención. Carretillas autopropulsadas de alcance variable."
+            },
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<b>Norma UNE-EN 1525:1998</b> Seguridad de las carretillas de manutención. Carretillas sin operador y sus sistemas."
+            },
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<b>Norma UNE-EN 1526:1998</b> Seguridad de las carretillas industriales. Requisitos adicionales para las funciones automáticas en las carretillas."
+            },
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<b>Norma UNE-EN 1551:2000</b> Seguridad de las carretillas de manutención. Carretillas autopropulsadas de capacidad superior a 10.000 Kg"
+            },
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<b>Norma UNE-EN 1726-1:2000</b> Seguridad de las carretillas industriales. Carretillas autopropulsadas de capacidad hasta 10.000 Kg inclusive y tractores industriales con un esfuerzo de tracción al gancho hasta 20.000 N inclusive. Parte 1: Requisitos generales."
+            },
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<b>Norma UNE-EN 1726-2:2001</b> Seguridad de las carretillas de manutención. Carretillas autopropulsadas de capacidad hasta 10.000 Kg inclusive y tractores con un esfuerzo de tracción al gancho hasta 20 000 N inclusive. Parte 2: Requisitos adicionales para carretilla con puesto de operador elevable y carretillas diseñadas específicamente para desplazarse con la carga en posición elevada."
+            },
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<b>Norma UNE-EN 1755:2000</b> Seguridad de las carretillas de manutención. Funcionamiento en atmósferas potencialmente explosivas. Utilización en ambientes con gases, vapores, nieblas y polvos inflamables."
+            },
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<b>Norma UNE 58-408-1991</b> Carretillas de Manutención -Terminología."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "Según la Organización Mundial de la Salud, la salud se define como:",
+              "respuestas": [
+                {
+                  "opcion": "El estado de bienestar físico, mental y social completo y no meramente la ausencia de daño o enfermedad. ",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Comprende una triple dimensión de la salud física, mental y social y la importancia de lograr que estén en equilibrio en cada persona. ",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Entre los principios generales de la acción preventiva figuran los siguientes:",
+              "respuestas": [
+                {
+                  "opcion": "Evitar los riesgos, evaluar los que no se puedan evitar y adaptar el trabajo a la persona, así como la elección de equipos y métodos de trabajo.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Adoptar medidas que antepongan la protección individual a la colectiva.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Los accidentes llamados in itínere, ¿se consideran accidentes de trabajo?",
+              "respuestas": [
+                {
+                  "opcion": "Sí",
+                  "correcto": true
+                },
+                {
+                  "opcion": "No, son accidentes de coche normales.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "No, porque no ocurren dentro del lugar de trabajo.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "La ergonomía tiene que ver con:",
+              "respuestas": [
+                {
+                  "opcion": "Tiempo de exposición y la concentración o intensidad del contaminante.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Presencia simultánea de varios contaminantes.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son incorrectas.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Entre los riesgos específicos del carretillero figuran:",
+              "respuestas": [
+                {
+                  "opcion": "El atropello.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "El vuelco de la carretilla.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Aplastamiento entre la carretilla y un objeto fijo.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Una de las principales causas de atropello con carretilla es:",
+              "respuestas": [
+                {
+                  "opcion": "Llevar la carga descentrada.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Circular marcha adelante cuando la carga nos impide la visibilidad.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "La lluvia.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Para minimizar el riesgo vuelco:",
+              "respuestas": [
+                {
+                  "opcion": "Se realizarán los giros a la mayor velocidad posible.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "No se circulara por rampas de pendiente mayor al 10%.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Se descenderá siempre con la carga hacia delante.",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod2/despedida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "En este segundo módulo hemos entrado en el mundo de la <b>prevención</b> de riesgos laborales en general y más específicamente de la máquina que nos ocupa.<br><br>Recordad que además estaréis expuestos al resto de riesgos de la instalación en la que trabajéis, como ruido, polvo, etc… En el próximo módulo hablaremos del <b>entorno de trabajo</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

@@ -1,0 +1,243 @@
+/*
+
+	CWORD JavaScript Crossword Engine
+
+	Copyright (C) 2007-2010 Pavel Simakov
+	http://www.softwaresecretweapons.com/jspwiki/cword
+
+	This library is free software; you can redistribute it and/or
+	modify it under the terms of the GNU Lesser General Public
+	License as published by the Free Software Foundation; either
+	version 2.1 of the License, or (at your option) any later version.
+
+	This library is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+	Lesser General Public License for more details.
+
+	You should have received a copy of the GNU Lesser General Public
+	License along with this library; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+
+*/
+
+.oyPuzzleCell a:focus, .oyPuzzleCell a:hover{
+    color:#212121 !important;
+    cursor: pointer;
+}
+
+.oyPuzzleCell {	
+	background-color: #FFFFFF;
+} 
+.oygState{
+    height: 1em;
+}
+.oyPuzzle {
+	padding: 8px;
+	border-collapse: collapse;	
+} 				
+.oyPuzzleFooter{
+    height: 3em;
+	padding: 8px; 
+	text-align: center;		
+	line-height: 1.4;
+}
+.ousStateOk {
+	text-align: left;		
+	font-size: smaller;
+	color: #008000;
+}
+.ousStateBusy {
+	text-align: left;		
+	font-size: smaller;
+	color: #0000FF;
+}
+.ousStateError {
+	text-align: left;		
+	font-size: smaller;
+	color: #FF0000;
+}		
+.oyHeader{
+	padding: 8px;
+	color: #212121;
+    text-align: center;
+    border-bottom: 1px solid #212121;
+}
+.oyHeaderTitle{
+	font-size: 125%; 
+	font-weight: bold;
+}
+.oyHeaderDesc{
+	font-weight: normal;
+	font-size: 70%;
+}	
+.oyFooter{ 
+	padding: 1px;
+	font-size: 70%;
+}
+.oyFrame {
+	border-collapse: collapse;		
+}	
+.oyCopyright{
+	font-size: 60%;
+}
+.oyOuterFrame {
+	padding: 12px;
+	border: solid 1px #212121;
+}
+A.oysTextLink{
+	color: #727272;
+	text-decoration: none;
+}
+A.oysTextLink:hover{
+	color: #808080;
+	text-decoration: underline;
+}
+.oyMenuAction {		
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #212121; 
+	background-color: #fffde7;
+	font-size: smaller;
+	border: solid 1px #ffa000;	
+} 
+.oyMenuActionDis {		
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #212121; 
+	background-color: #727272;
+	font-size: smaller;
+	border: solid 1px #808080;	
+} 	
+.oyMenuActionNone{
+	padding-left: 4px;
+	padding-right: 4px; 
+	color: #000000; 
+	font-size: smaller;
+}
+A.oyMenuAction {
+	text-decoration: none;
+}	
+A.oyMenuActionDis {
+	text-decoration: none;
+}		
+A.oyMenuAction:hover {
+    color:#727272;
+	border: solid 1px #808080;	
+}	
+.oyListCell { 
+}	
+.oyListCellDot {
+	background-color: #FFFFFF;
+	color: #212121;	
+    display:none;
+}
+.oyPanelDiv {			
+	padding: 1em;
+	text-align: center;
+	font-weight: bold;
+}	
+.oyPanelDivHidden {
+	width: 2px;
+	background-color: #FFFFFF;
+}	
+.oyList {
+	cursor: pointer;
+	font-size: 70%;
+	width: 100%;		
+} 	
+
+.oyListSpacer{
+	background-color: #FBC02D;
+	height: 1px; 
+}	
+.oyListNormal {
+	padding: 2px;
+	color: #727272;
+}	 
+.oyListSel {
+	padding: 2px;
+	color: #212121;
+	background-color: #FFF9C4;
+}		 
+.oyCellInput {     
+	border: none;	
+	background-color: transparent;
+	font-size: 18px;
+	font-family: Courier New; 				
+	font-weight: bold;
+	text-align: center;				
+	width: 23px; 
+	height: 23px;
+}	 	 	
+.oyCellEmpty {
+	border: solid 1px #212121;	
+	background-color: #212121;
+	
+	font-size: 18px;
+	font-family: Courier New; 				
+	font-weight: bold;
+	text-align: center;		
+	
+	width: 23px;
+	height: 23px;
+}	
+.oyCellFull{ 
+	border: solid 1px #212121;	
+	background-color: #FFFFFF;
+	
+	font-size: 18px;
+	font-family: Courier New; 				
+	font-weight: bold;
+	text-align: center;				
+	width: 23px; 
+	height: 23px;
+}		
+.oyCellRevealed {
+	border: solid 1px #212121;	
+	background-color: #ffcdd2;
+	
+	font-size: 18px;
+	font-family: Courier New; 				
+	font-weight: bold;
+	text-align: center;				
+	
+	width: 23px; 
+	height: 23px;
+}		
+.oyCellGuessed {  
+	border: solid 1px #212121;	
+	background-color: #c5e1a5;
+	
+	font-size: 18px;
+	font-family: Courier New; 				
+	font-weight: bold;
+	text-align: center;				
+	
+	width: 23px; 
+	height: 23px;
+}	 
+.oyCellFocused {  
+	border: solid 1px #212121;	
+	background-color: #FFFFBB;
+	
+	font-size: 18px;
+	font-family: Courier New; 				
+	font-weight: bold;
+	text-align: center;				
+	
+	width: 23px; 
+	height: 23px;
+}	 	
+.oyCellActive {  
+	border: solid 1px #212121;	
+	background-color: #FBC02D;
+	
+	font-size: 18px;
+	font-family: Courier New; 				
+	font-weight: bold;
+	text-align: center;				
+	
+	width: 23px; 
+	height: 23px;
+} 	 	

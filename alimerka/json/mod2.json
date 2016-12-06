@@ -1,0 +1,387 @@
+﻿{
+  "modulo": "Mod. II: Detectar necesidades",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Conocimiento de Producto",
+      "subclase": "pattern",
+      "fondo": "img/comunes/portada.svg",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "animacion": "slideInRight",
+          "imagen": "img/m2/portadaImg.svg"
+
+        }
+      ]
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "zoomIn",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
+              "imagen": "img/m2/trigo.jpg",
+              "ancho": 400
+            },
+            {
+              "clase": "texto",
+              "texto": "Te damos la bienvenida al <b>segundo</b> de los Módulos del curso de \"Conocimiento de Producto: Sección de Panadería\".<br><br>Ya has visto en el módulo anterior, introductorio a la sección de panadería, por qué los productos de esta sección son <b>únicos</b> y <b>diferentes</b>, y también te habrás dado cuenta de lo fundamental que va a resultar saber detectar las necesidades del cliente y de su implicación en la compra.<br><br>En este segundo módulo, detección de necesidades, descubrirás la importancia que tiene, por un lado, <b>escuchar</b> lo que el cliente nos dice, y por otro, saber <b>formular</b> las preguntas adecuadas para que de forma inequívoca sepas detectar cuál es la necesidad del cliente."
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Objetivos",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "Con el curso de \"Conocimiento de Producto: Sección Panadería\" pretendemos facilitar algunas claves con el <b>objetivo</b> de convertirte en un profesional experto en la venta de productos de panadería. Siguiendo sus pautas, lograrás ajustar cada producto que vendas a las necesidades y preferencias del cliente, alcanzando el objetivo final de tu trabajo: <b>que el cliente vuelva</b>."
+        },
+        {
+          "clase": "lista",
+          "subclase": "objetivos",
+          "titulo": "Objetivos a conseguir con este Módulo:",
+          "animacion": "slideInLeft",
+          "contenido": [
+            {
+              "punto": "Objetivo Principal:",
+              "contenido": [
+                {
+                  "punto": "Conocer la necesidad que está transmitiendo el cliente."
+                }
+              ]
+            },
+            {
+              "punto": "Objetivo Secundario:",
+              "contenido": [
+                {
+                  "punto": "Saber plantear las preguntas adecuadas para detectar dicha necesidad."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "animacion": "rubberBand",
+          "imagen": "img/comunes/madalena.svg",
+          "ancho": 200
+        }
+      ]
+    },
+    {
+      "titulo": "Detectar Necesidades",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "rotateInDownRight",
+          "texto": "<b>Todo cliente</b>, tanto el habitual como el que viene por primera vez a nuestra sección, tiene una <b>necesidad que satisfacer</b> con nuestros productos y tu misión es saber detectar la misma. Es decir:"
+        },
+        {
+          "clase": "texto",
+          "animacion": "flipInX",
+          "subclase": "centro",
+          "texto": "<span class='h2'>Cada cliente, tiene una <b>necesidad</b> que debemos traducir en un <b>producto</b>.</span>"
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion picos",
+          "texto": "Para determinar qué producto encaja para un cliente, debemos <b>plantearnos cuestiones</b> que nos ayuden a determinar qué tipo de producto quiere."
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "flipInY",                  
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/m2/salero1.svg",
+              "ancho": 250
+
+            },
+            {
+              "clase": "texto",
+              "subclase": "celo",
+              "texto": "Estas cuestiones no se darán siempre en orden:<br>A veces un cliente <b>decide</b> que quiere algo salado, en otras ocasiones <b>buscará</b> productos cómodos para ir a la playa, la mayoría de las veces <b>optará</b> por productos que va a comer en su casa, y en algunos casos se <b>acercará</b> por curiosidad a la vitrina."
+            },
+
+            {
+              "clase": "imagen",
+              "imagen": "img/m2/salero2.svg",
+              "ancho": 250
+            }
+          ]
+        }
+      ]
+    },
+    		    {
+      "titulo": "Toma de contacto",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "animacion": "slideInDown",
+              "texto": "En la siguiente diapositiva vas a encontrarte una serie de <b>cuestiones</b> de referencia. En todo caso, se pueden plantear muchos interrogantes, a las que tendrás que dar respuesta con tu habilidad como profesional de la panadería.<br>Los ejemplos mostrados son <b>ejemplos básicos y generales</b> de cuestiones que debemos sopesar, pero tú puedes (y debes) añadir más."
+            },
+            {
+              "clase": "imagen",
+              "animacion": "rotateIn",
+              "imagen": "img/m2/amasar.jpg",
+              "ancho": 300
+            },
+            {
+              "clase": "icono",
+              "subclase": "exclamacion picos pequenio",
+              "animacion": "slideInUp",
+              "texto": "Como toma de contacto, primero debemos ofrecer nuestros servicios al cliente con una fórmula adecuada:<br> <b><span class='h3 centro'>\"¿en qué puedo ayudarle?\"</span></b><br> Entonces pasaremos a las cuestiones a plantear.",
+              "icono": "img/comunes/iconoAviso.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Preguntas de referencia",
+      "fondo": "img/m2/croissants.jpg",
+      "contenido": [
+        {
+          "clase": "tabs",
+          "animacion": "lightSpeedIn",
+          "contenido": [
+            {
+              "titulo": "¿Cuál...",
+              "texto": "<b>...es el tipo de producto que desea?</b><br>Para contestar a esta pregunta vamos a utilizar una clasificación funcional muy sencilla enfocada al cliente, orientada al sabor o uso que el cliente va a realizar del producto. Según esta clasificación podemos diferenciar entonces entre productos: Dulces / Salados / Productos de Pan.<br><br><b>...es la masa o cuál es el ingrediente preferido?</b><br>De esta forma podemos ir ajustando el tipo de masa, ingredientes, relleno o decoración del producto, a los gustos del consumidor.<br><br><b>... es la característica buscada en la preparación del producto?</b><br>Esta pregunta nos orienta a la preferencia concreta en cuanto a horneado y preparación del producto elegido para recomendar aquellas piezas que tengamos que más le encajen al cliente.<br><br><b>... es la composición del producto que más le gusta a nuestro cliente (ejemplo: tipo de harina) o qué relleno y/o decoración lleva?</b><br>Con esta pregunta pretendemos conocer las preferencias del cliente respecto a la decoración o al relleno o la composición del producto que más le guste a nuestro cliente."
+            },
+            {
+              "titulo": "¿Cuánto...",
+              "texto": "<b>...consumo se va a realizar de ese producto, o para cuántas personas va a ser?</b><br>El objetivo de esta pregunta será aportarnos información sobre el número de personas que consumirán el producto, y cuantas veces pretenden consumirlo. De esta forma podremos indicar un formato/tamaño de producto adecuado o una cantidad de productos que se amolde a las necesidades del cliente.<br><br><b>...dinero quiere gastar el cliente o a qué calidad de producto se orienta?</b><br>En algunos casos, puede ser el propio presupuesto del cliente el que marque el producto que más encaja a sus necesidades. En función de la cantidad de dinero de la que dispone, ajustaremos la calidad del producto.<br><br><b>...tiempo va a transcurrir antes del consumo del producto?</b><br>En este caso, queremos saber cuándo va a consumir el cliente el producto, para poder recomendarle el producto más adecuado según su vida útil y para explicarle la mejor manera de conservarlo."
+            },
+            {
+              "titulo": "¿Qué...",
+              "texto": "<b>...evento o fecha especial se aproxima o en qué zona se consume el producto</b><br>En algunos casos se impone algún tipo de consumo cultural: por la zona, por la festividad, por un evento especial... En todos estos casos podemos encontrar eventos asociados.<br><br><b>...otros alimentos van a acompañar ese producto (hamburguesa, bocadillo, café...)?</b><br>Muchos productos acompañan tradicionalmente a otros alimentos, o pueden haber sido pensados para acompañar comidas.<br><br><b>...propiedades añadidas pueden atraer al cliente respecto al producto: sin sal, ecológico, integral...?</b><br>Saber si el cliente tiene preferencia por algún tipo de cualidad específica del pan, por cuestiones de salud, valores, interés...<br><br><b>...le ha parecido ese producto que ha probado?</b><br>En muchos casos, algunos clientes ya han tenido experiencias con los productos que les hemos vendido, y es fundamental conocerlas preguntándoles por ellas."
+            },
+            {
+              "titulo": "O también...",
+              "texto": "<b>¿Dónde se va a consumir ese producto?</b><br>Es importante conocer el lugar en el que se va a consumir para saber si es un producto adecuado para su transporte y consumo en ese sitio o espacio.<br><br><b>¿Para qué comida o con que finalidad se va a consumir ese producto?</b><br>Postre, acompañamiento, desayunos...<br><br><b>¿Estaría el cliente dispuesto a probar algo nuevo?</b><br>De esta forma pretendemos averiguar si es un cliente orientado a conocer nuevos productos o a la experiencia de probarlos."
+            }
+          ]
+        }
+      ]
+    },    
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Arrastra las frases del diálogo para ordenarlas correctamente. A la izquierda están las líneas de un supuesto diálogo que mantienes con el cliente (líneas de la derecha)."
+        },
+        {
+          "clase": "listaObjetos",
+          "subclase": "flex-start",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "subclase": "bordeAlimerka",
+                  "texto": "<span class='h1'>TÚ</span>"
+                },
+                {
+                  "clase": "lista",
+                  "subclase": "sortable alimerka",
+                  "contenido": [
+                    {
+                      "punto": "Buenos días. ¿En qué puedo ayudarle?",
+                      "data_orden": 1
+                    },
+                    {
+                      "punto": "¿Cuántos van a ser en total?",
+                      "data_orden": 2
+                    },
+                    {
+                      "punto": "¿Todo el mismo pan o prefieren tener varios tipos?",
+                      "data_orden": 3
+                    },
+                    {
+                      "punto": "Entonces, le recomiendo este tipo de pan, que por sus características es ideal tanto para tía Enriqueta como para su marido. ¿Le parece bien la cantidad?",
+                      "data_orden": 4
+                    },
+                    {
+                      "punto": "Para las cinco personas restantes, ¿algún pan especial: pan con cereales, con fibra...?",
+                      "data_orden": 5
+                    },
+                    {
+                      "punto": "Puede llevar algún formato grande: hogaza, rosca artesana...",
+                      "data_orden": 6
+                    },
+                    {
+                      "punto": "Entonces, ¿querría raciones para los bocadillos?",
+                      "data_orden": 7
+                    },
+                    {
+                      "punto": "Entendido. Y, ¿cómo le gusta el grado de cocción: más bien muy cocido o más bien poco cocido?",
+                      "data_orden": 8
+                    },
+                    {
+                      "punto": "En ese caso, ¿le parece bien estas barras de pan, y así de cocidas?",
+                      "data_orden": 9
+                    },
+                    {
+                      "punto": "Por supuesto. ¿Pensaba en algo concreto?",
+                      "data_orden": 10
+                    },
+                    {
+                      "punto": "En estas fechas todo el mundo lleva el Roscón de Reyes. ¿Le parece bien?",
+                      "data_orden": 11
+                    },
+                    {
+                      "punto": "No hay problema, estos de aquí están rellenos de nata, crema o chocolate.",
+                      "data_orden": 12
+                    },
+                    {
+                      "punto": "Si le gusta la nata tenemos este producto nuevo. ¿Le gustaría probarlo?",
+                      "data_orden": 13
+                    },
+                    {
+                      "punto": "Ya me dirá qué le ha parecido. ¿Desea alguna otra cosa?",
+                      "data_orden": 14
+                    },
+                    {
+                      "punto": "Pues aquí tiene. Muchas gracias. Que pase un buen día.",
+                      "data_orden": 15
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "subclase": "bordeCliente",
+                  "texto": "<span class='h1'>EL CLIENTE</span>"
+                },
+                {
+                  "clase": "lista",
+                  "subclase": "sortable cliente",
+                  "contenido": [
+                    {
+                      "punto": "Hola, buenos días. Vamos a tener invitados y necesito comprar pan.",
+                      "data_orden": 1
+                    },
+                    {
+                      "punto": "En total vamos a ser… unodotrecuatcincoseis… ¡siete!",
+                      "data_orden": 2
+                    },
+                    {
+                      "punto": "Lo cierto es que tía Enriqueta siempre está a dieta y, al igual que su marido, tiene problemas de hipertensión. Además los dos comen muy poco pan.",
+                      "data_orden": 3
+                    },
+                    {
+                      "punto": "Sí. Para ellos dos será más que suficiente.",
+                      "data_orden": 4
+                    },
+                    {
+                      "punto": "...Oh! No, no… no hace falta que sea especial, pero no sé qué cantidad sería la adecuada.",
+                      "data_orden": 5
+                    },
+                    {
+                      "punto": "...es que también haremos algún bocadillo para los niños y ese formato no me servirá.",
+                      "data_orden": 6
+                    },
+                    {
+                      "punto": "No, prefiero que todo sea barras de pan y así cortamos la cantidad ajustada para cada uno.",
+                      "data_orden": 7
+                    },
+                    {
+                      "punto": "A mí me gusta que la corteza esté bien crujiente. Pero los niños lo prefieren no muy cocido.",
+                      "data_orden": 8
+                    },
+                    {
+                      "punto": "¡Sí, así creo que es perfecto! ¡Ay! ¡Se me olvidaba! ¡Tengo que llevar también el postre!",
+                      "data_orden": 9
+                    },
+                    {
+                      "punto": "Pues, no sé qué llevar...",
+                      "data_orden":10
+                    },
+                    {
+                      "punto": "Es buena idea, pero me gustaría que tuviera relleno.",
+                      "data_orden": 11
+                    },
+                    {
+                      "punto": "¡Genial! Me quedaré uno relleno de nata.",
+                      "data_orden": 12
+                    },
+                    {
+                      "punto": "Realmente la nata le gusta  a tía Enriqueta (es que su dieta siempre ha sido muy “especial”). Tiene muy buena pinta. Voy a llevarlo para ella, sí.",
+                      "data_orden": 13
+                    },
+                    {
+                      "punto": "No, no, gracias. Por hoy ya es suficiente.",
+                      "data_orden": 14
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "boton",
+          "subclase": "resolver",
+          "texto": "Resolver"
+        }
+      ]
+    },
+    {
+      "titulo": "Aprendizaje",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRightBig",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En este módulo se han mostrado unos <b>ejemplos</b> básicos y generales sobre el tipo de <b>preguntas</b> que pueden surgir para la detección de necesidades de nuestro cliente.<br><br>Has visto que preguntamos para informarnos, porque a través de las preguntas podemos obtener toda la <b>información</b> necesaria que el cliente quiera darnos, y que esta información se consigue haciendo las preguntas <b>adecuadas</b> en los momentos <b>oportunos</b>. De esta manera es posible saber detectar, de forma inequívoca, cuál es la necesidad que el cliente quiere satisfacer con nuestros productos.<br><br>Ahora que ya tienes la información aportada por el cliente, y con la ayuda que encontrarás en los módulos siguientes, serás capaz de <b>traducirla</b> en un producto de la sección.<br><br>En el próximo módulo, verás qué <b>criterios</b> se toman para clasificar los productos de la sección de panadería en tres grandes grupos, cuáles son, y cuáles son sus características más generales. "
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "imagen": "img/m2/dulcesPaleta.png",
+              "ancho": 500
+            }
+          ]
+        }
+      
+      ]
+    },
+    {
+      "titulo": "Final del módulo",
+      "fondo": "img/comunes/contraportada.jpg",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "animacion": "slideInRight",
+          "imagen": "img/comunes/contraportadaImg.svg"
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,647 @@
+﻿{
+  "modulo": "Mod. 5: Eslingas textiles",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Nos referiremos en este módulo de manera exclusiva a las eslingas textiles,  y en módulos posteriores a las de cable y cadena.<br><br>El buen estado de las eslingas es tan necesario como el de la propia máquina, ya que una eslinga defectuosa o un mal uso de ella puede provocar el desplome de la carga."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Introducción",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Son accesorios de elevación flexible, formadas por cintas tejidas de alta tenacidad.Las eslingas textiles son accesorios de elevación flexibles, formados por una cinta plana cosida o por  hilos industriales de alta tenacidad recubiertos por un tejido tubular. Las eslingas se colocan entre la carga y el gancho del aparato de elevación permitiendo realizar la operación de prensión. "
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/eslingas.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Con el fin de realizar una selección correcta de la eslinga, es fundamental conocer el número de ellas que se van a utilizar de forma simultánea en la manipulación de una carga. Uno de los requisitos de seguridad esenciales es conocer el material, esto se debe a que en función del tipo de fibra que componga la eslinga, ésta tendrá propiedades mecánicas y comportamientos diferentes según la exposición al calor o a productos químicos."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Para conocer el material del que están hechas, basta con mirar su etiqueta identificativa.<br><br><b>Resistencia al calor:</b><br>Poliéster y poliamida: -40ºC a 100ºC<br>Polipopileno: -40ºC a 80ºC"
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "Color de la etiqueta"
+                },
+                {
+                  "titulo": "Material textil de la eslinga"
+                }
+              ],
+              "filaContenido": 
+              [
+                {
+                  "fila": [
+                    {
+                      "texto": "Verde"
+                    },
+                    {
+                      "texto": "Poliamida"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Azul"
+                    },
+                    {
+                      "texto": "Poliéster"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Marrón"
+                    },
+                    {
+                      "texto": "Polipropileno"
+                    }
+                  ]
+                }
+              ]
+            }            
+          ]
+        }
+        ,
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Para una correcta elección, también será fundamental conocer la <b>carga máxima útil</b> (CMU). Además su código de colores, permitirá una elección a priori más rápida y sencilla"
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "Color"
+                },
+                {
+                  "titulo": "C.M.U. correspondiente"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Violeta"
+                    },
+                    {
+                      "texto": "1000 kg"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Verde"
+                    },
+                    {
+                      "texto": "2000 kg"
+                    }
+                  ]
+
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Amarillo"
+                    },
+                    {
+                      "texto": "3000 kg"
+                    }
+                  ]
+
+                },
+                                {
+                  "fila": [
+                    {
+                      "texto": "Gris"
+                    },
+                    {
+                      "texto": "4000 kg"
+                    }
+                  ]
+
+                },                {
+                  "fila": [
+                    {
+                      "texto": "Rojo"
+                    },
+                    {
+                      "texto": "5000 kg"
+                    }
+                  ]
+
+                },                {
+                  "fila": [
+                    {
+                      "texto": "Marrón"
+                    },
+                    {
+                      "texto": "6000 kg"
+                    }
+                  ]
+
+                },                {
+                  "fila": [
+                    {
+                      "texto": "Azul"
+                    },
+                    {
+                      "texto": "8000 kg"
+                    }
+                  ]
+
+                },                {
+                  "fila": [
+                    {
+                      "texto": "Anaranjado"
+                    },
+                    {
+                      "texto": "10000 kg"
+                    }
+                  ]
+
+                },                {
+                  "fila": [
+                    {
+                      "texto": "Anaranjado"
+                    },
+                    {
+                      "texto": "Más de 10000 kg"
+                    }
+                  ]
+
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "En cualquier caso, la etiqueta identificativa cosida a la eslinga, ofrece toda la información necesaria para su correcta elección y uso:"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod05/etiqueta.svg",
+          "ancho": 800
+        },
+        {
+          "clase": "lista",
+          "titulo": "Las normas de utilización segura de las eslingas dependen de cada caso en concreto. No obstante, es importante que en la elección de los útiles de elevación se considere que éstos tengan la capacidad adecuada para el trabajo a realizar. En este sentido, para que la carga sea estable deben cumplirse dos condiciones básicas: ",
+          "contenido": [
+            {
+              "punto": "El gancho que sostiene las eslingas durante la operación de elevación, debe estar en la vertical del centro de gravedad de la carga durante toda la maniobra de elevación y manipulación de la carga, para que ésta se mantenga equilibrada y estable en todo momento."
+            },
+            {
+              "punto": "Los puntos de sujeción de las eslingas con la carga deben encontrarse por encima del centro de gravedad de la carga para evitar el vuelco de ésta al quedar suspendida."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "En el siguiente apartado, se fijan unas normas básicas en función del método de  eslingado elegido."
+        }                        
+      ]
+    },
+    {
+      "titulo": "Métodos de eslingado",
+      "contenido": [
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "Tipo"
+            },
+            {
+              "titulo": "Explicacion"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "imagen": "img/mod05/vertical.svg",
+                  "ancho": 300
+                },
+                {
+                  "texto": "Elevación directa: En este método, el peso total de la carga es soportado por una sola eslinga, por consiguiente, el peso a izar puede igualar la carga máxima de utilización (CMU) de la eslinga."
+                }
+              ]
+            },            {
+              "fila": [
+                {
+                  "imagen": "img/mod05/estrangulada.svg",
+                  "ancho": 300
+                },
+                {
+                  "texto": "Eslingado estrangulado: Este método produce un estrangulamiento de la carga al pasar la misma por dentro de sí misma. Se usa para izar bultos sueltos, como piezas tubulares."
+                }
+              ]
+            },            {
+              "fila": [
+                {
+                  "imagen": "img/mod05/cesta.svg",
+                  "ancho": 300
+                },
+                {
+                  "texto": "Elevación en cesto: Se eleva la carga envolviendo la eslinga alrededor de ésta en forma de U y afianzando ambos extremos de la eslinga en el gancho (también en un grillete o argolla). Este método no se debe usar para cargas difíciles de equilibrar, ya que ésta podría resbalarse fuera de la eslinga."
+                }
+              ]
+            },            {
+              "fila": [
+                {
+                  "imagen": "img/mod05/dosEslingas.svg",
+                  "ancho": 300
+                },
+                {
+                  "texto": "Eslingado con dos ramales: Se compone de dos eslingas ahorcadas de forma simple a la carga y separadas una de otra. Esto hace a la carga más estable. No proporciona un contacto completo con la carga, por lo que no debe usarse para izar bultos sueltos.<br><br>Con un pulpo de dos ramales y una carga no simétrica, el gancho de la grúa se debe posicionar sobre el centro de gravedad de la pieza y será necesario usar eslingas de diferente longitud para elevar la carga nivelada."
+                }
+              ]
+            },            {
+              "fila": [
+                {
+                  "imagen": "img/mod05/tresEslingas.svg",
+                  "ancho": 300
+                },
+                {
+                  "texto": "Eslingado con tres y cuatro ramales (pulpo de eslingas)  Con un pulpo de tres ramales, si los puntos de enganche no se espacian uniformemente y los ramales no tienen igual longitud, la distribución de la carga producirá una sobrecarga en dos de los ramales, manteniendo a una de ellas infrautilizada. Por ello, ante cargas desequilibradas se debe considerar que la carga es soportada sólo por dos de los ramales.En un pulpo de cuatro ramales, no es raro que solo trabajen tres o incluso solo dos soportando todo el peso, mientras las demás sólo sujetan la carga e impiden que se incline. En estos casos el cálculo de las eslingas se debería hacer de tal forma que tres ramales puedan soportar la totalidad de la carga."
+                }
+              ]
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Puntos básicos a considerar en el uso de esligas textiles",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "subclase": "paraCambiar",
+          "imagen": "img/mod05/comprobaciones.jpg",
+          "ancho": 800
+        },
+        {
+          "clase": "texto",
+          "texto": "Criterio para la retirada de eslingas textiles."
+        },
+        {
+          "clase": "imagen",
+          "subclase": "paraCambiar",
+          "imagen": "img/mod05/retirada1.png",
+          "ancho": 300
+        },
+        {
+          "clase": "imagen",
+          "subclase": "paraCambiar",
+          "imagen": "img/mod05/retirada2.png",
+          "ancho": 300
+        }
+      ]
+    },
+    {
+      "titulo": "Control y verificación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Las eslingas textiles deberán examinarse antes de cada puesta en servicio, para cerciorarse de que no existen cortes transversales o longitudinales, abrasión en los bordes, deficiencias en las costuras, daños en los anillos u ojales, etc. Los efectos de los daños en la superficie de las bandas textiles, son variables, pero siempre son causa de la disminución de la resistencia a la tracción.<br><br>Un ataque químico es detectable, porque las fibras de la superficie de la banda textil se sueltan por simple frotamiento.<br><br>Una eslinga con cortes en los bordes debe ser retirada de servicio inmediatamente. Del mismo modo, las costuras no deben presentar deterioro alguno."
+        }
+
+      ]
+    },
+    {
+      "titulo": "Almacenamiento",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Las condiciones de almacenamiento constituyen un aspecto clave cuando se trabaja con eslingas textiles, resultando imprescindible cumplir las siguientes condiciones: ",
+          "contenido": [
+            {
+              "punto": "Se almacenarán en lugar seco y ventilado, sin exposición a radiación solar directa."
+            },
+            {
+              "punto": "La temperatura en la zona  de almacenaje será inferior a 60 grados."
+            },
+            {
+              "punto": "Se apoyarán en soportes adecuados, sin aristas vivas y evitando el contacto con el suelo."
+            },
+            {
+              "punto": "En su transporte, irán en cajas y no colocadas sobre los bastidores del vehículo, expuestas al sol."
+            },
+            {
+              "punto": "Se acopiarán en áreas de trabajo alejadas de zonas de exposición a soldadura u otras fuentes de emisión de radiaciones ultravioleta. "
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/perchero.jpg",
+              "ancho": 400
+            },
+                    {
+          "clase": "texto",
+          "texto": "Existen eslingas “de un solo uso”, también denominadas “eslingas no reutilizables”, diseñadas para sujetar la carga transportada en un vehículo en un solo viaje, no pudiendo ser utilizada posteriormente para operaciones de elevación, ni para transportes sucesivos. Este tipo de eslingas debe llevar en la etiqueta la frase de “no reutilizable” o de “un solo uso”. Para recoger las eslingas suelen utilizarse colgadores o accesorios tipo perchero."
+        }
+          ]
+
+        }
+
+
+      ]
+    },
+    {
+      "titulo": "RIESGOS Y FACTORES DE RIESGO:",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "El principal riesgo asociado al empleo de eslingas es la CAÍDA DE LA CARGA sobre personas y/u objetos debida al: ",
+          "contenido": [
+            {
+              "punto": "Mal eslingado de la carga. "
+            },
+            {
+              "punto": "Utilizar eslingas en mal estado o deterioradas. "
+            },
+            {
+              "punto": "Utilizar eslingas en mal estado o deterioradas. "
+            },
+            {
+              "punto": "Utilizar la eslinga dispuesta sobre cantos vivos en la carga sin la correspondiente protección anti-corte para la eslinga. "
+            },
+            {
+              "punto": "Utilizar eslingas de anchura insuficiente para la carga a prender. "
+            },
+            {
+              "punto": "Utilización de eslingas en ambientes o aplicaciones no  adecuados (productos químicos, altas temperaturas, etc.). "
+            },
+            {
+              "punto": "Utilización de accesorios de eslingado (ganchos, grilletes,…) inadecuados o de una capacidad de carga insuficiente para la carga a elevar. "
+            },
+            {
+              "punto": "Procedimiento de elevación y descenso de la carga inadecuado, próximo a objetos que puedan interferir en su recorrido, movimientos bruscos de la carga, etc. "
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "MEDIDAS PREVENTIVAS:",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Las medidas de prevención y protección se desarrollan exponiendo los requisitos de seguridad que deben reunir las eslingas textiles, criterios de selección correcta de la/s eslingas necesarias para la maniobra prevista, normas de utilización segura mediante el manejo correcto por parte del operario/s del conjunto formado por el equipo de elevación, los accesorios y las eslingas, identificación y carga máxima de utilización. Además se dan requisitos de almacenamiento e inspección. "
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Requisitos de seguridad</b>: Los requisitos de seguridad fundamentales se refieren al material de las eslingas y al valor del coeficiente de utilización, también denominado factor de seguridad."
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "Materiales de las eslingas ",
+              "texto": "Los materiales textiles de carga (cinta textil de la eslinga ó núcleo de la eslinga tubular) deben ser íntegramente confeccionados con hilos industriales a partir de las siguientes materias en forma de multifilamentos de alta tenacidad y no inferiores a 60 cN/tex son:<ul><li>Poliamida (PA)</li><li>Poliéster (PES)</li><li>Polipropileno (PP)</li></ul> Estas diferentes fibras tienen propiedades mecánicas diferentes así como comportamientos diferentes según la exposición al calor o a los productos químicos."
+            },
+            {
+              "titulo": "Coeficiente de utilización",
+              "texto": "El coeficiente de utilización es el valor indicador de la seguridad de la maniobra de elevación de una carga mediante una o varias eslingas textiles, y su valor varía según se trate de eslingas reutilizables o de eslingas no reutilizables. Para las eslingas reutilizables, el coeficiente de utilización será como mínimo 7. El valor del coeficiente de utilización para las eslingas no reutilizables será 5 ó 7, según su forma de utilización. Dado que las eslingas no reutilizables son eslingas diseñadas para una carga y maniobra de elevación específicas definidas por el usuario, procede diseñar eslingas con un coeficiente de utilización igual a 5, ya que en estos casos son conocidos todos los parámetros de la maniobra de elevación. (Elevación vertical, estrangulamiento o en paralelo). Por otro lado, para el resto de las formas de uso está indicado un coeficiente de utilización de 7."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "Con carácter previo a la selección de una determinada eslinga es conveniente tener en cuenta que la eslinga se usa única y exclusivamente para la elevación y traslación de la carga de un lugar a otro, y en cualquier caso no se debe utilizar como elemento de trincaje. Para seleccionar el tipo de eslinga se deberán tener en cuenta el peso total de la carga, la forma de sujetar ésta y el ambiente en el que va a trabajar la eslinga.",
+          "contenido": [
+            {
+              "punto": "<b>Peso total de la carga a elevar y/o manipular</b>: Teniendo en cuenta el peso total de la carga debemos elegir la o las eslingas que nos garanticen una C.M.U. como mínimo igual a dicho peso. A título orientativo el peso de una carga se puede calcular multiplicando el volumen  por la densidad del material de que está compuesta. A efectos prácticos conviene recordar las siguientes densidades relativas: ",
+              "contenido": [
+                {
+                  "punto": "Madera: 800 kg/m 3 (0,80 gr/cm3)  "
+                },
+                {
+                  "punto": "Piedra y hormigón: 2.350 kg/m 3 (2,35 gr/cm3). "
+                },
+                {
+                  "punto": "Acero, hierro, fundición: 7.850 kg/m 3 (7,85 gr/cm3). "
+                },
+                {
+                  "punto": "En caso de duda calcular el peso por exceso y tener  en cuenta si los ramales de las eslingas van a trabajar inclinados. "
+                }
+              ]
+            },
+            {
+              "punto": "<b>Forma de sujetar la carga con la eslinga</b>: Es muy importante la forma de sujetar la carga pues de pendiendo de ésta varía la C.M.U. de la eslinga. En la  etiqueta de las eslingas se indica su carga máxima de utilización según la forma de sujetar y prender la carga durante la maniobra de elevación. La forma de sujetar la carga dependerá del tipo carga o naturaleza de ésta a elevar y/o manipular (tubos, ma quinaria, cajas, cargas paletizadas...). "
+            },
+            {
+              "punto": "<b>Ambiente en el que tiene que trabajar la eslinga</b>: Según las condiciones de temperatura y productos químicos del ambiente en que tiene que trabajar la eslinga, se debe tener en cuenta el material textil de que está fabricada la eslinga para escoger y determinar la eslinga más adecuada en cada caso. Además es necesario tener también en cuenta el tiempo de exposición de la eslingas a unas determinadas condiciones de temperatura y productos químicos durante la elevación de la carga. En aplicaciones específicas es conveniente consultar con el fabricante de la eslinga."
+            }
+
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "La NTP 841, nos ofrece la siguiente guía de selección:"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod05/guiaSeleccion.jpg",
+          "ancho": 700
+        }
+
+      ]
+    },  
+        {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "El color en una eslinga textil:",
+              "respuestas": [
+                {
+                  "opcion": "Alegra la zona de trabajo",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Indica la carga máxima útil de la eslinga",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Depende de cada fabricante",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "El eslingado en forma de U:",
+              "respuestas": [
+                {
+                  "opcion": "Reduce la CMU en un 50%",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Aumenta la CMU en un 100%",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Aumenta la CMU en un 50%",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Se retirara una eslinga textil, en caso de:",
+              "respuestas": [
+                {
+                  "opcion": "Cortes y/o nudos",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Costura y/o etiqueta rotas",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Las anteriores son ciertas",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Al finalizar el trabajo:",
+              "respuestas": [
+                {
+                  "opcion": "Las eslingas quedarán colgadas del gacho",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Se dejarán en el suelo al sol",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Se colocarán en su lugar de almacenaje, habitualmente un colgador.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Se revisan las eslingas de manera visual:",
+              "respuestas": [
+                {
+                  "opcion": "Semanalmente",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Siempre antes de cada uso",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Mensualmente",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Hablando en general, con un eslingado en “U”:",
+              "respuestas": [
+                {
+                  "opcion": "La eslinga solo puede soportar la mitad de su CMU",
+                  "correcto": false
+                },
+                {
+                  "opcion": "El doble de su CMU",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Nunca se puede sobrepasar la CMU, independientemente de la forma de eslingado",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },  
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Este módulo lo hemos dedicado a las eslingas textiles, el siguiente veremos las eslingas de cable de acero."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

@@ -1,0 +1,883 @@
+{
+  "modulo": "Nuestros cursos",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "fondo": "img/muestra/portada.svg",
+      "subclase": "portada",
+      "titulo": "Portada"
+    },
+    {
+      "titulo": "Quiénes somos",
+      "fondo": "img/muestra/frankfurt.svg",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "animacion": "slideInRight",
+          "texto": "<center><b>Las cosas que nos hacen únicos.</b></center>"
+        },
+        {
+          "clase": "acordeon",
+          "animacion": "rollIn",
+          "contenido": [
+            {
+              "titulo": "Centros de trabajo",
+              "texto": "<br><br><br>Nuestros centros de trabajo se hayan situados en Barakaldo (Euskadi), donde está nuestra sede, y en el Parque Científico y Tecnológico de Gijón (Asturias), donde tenemos nuestro Centro I+D+i.<br>",
+              "imagen": "img/muestra/edificioMavi3.svg",
+              "ancho": 350
+            },
+            {
+              "titulo": "Profesionales",
+              "texto": "<br><br><br><p>Contamos con un amplio equipo de trabajadores especializados y con gran experiencia que además de conocimientos saben entusiasmar a su público al transmitirlos, impactándoles positivamente y facilitando el aprendizaje.</p><br>",
+              "imagen": "img/muestra/teamwork.svg",
+              "ancho": 350
+            },
+            {
+              "titulo": "Clientes",
+              "texto": "<br><br><p>Grandes empresas, pymes y particulares avalan nuestras acciones formativas.<br><br>Muchas se han convertido en colaboradoras de nuestros proyectos.</p>",
+              "imagen": "img/muestra/grafica_green.svg",
+              "ancho": 350
+            },
+            {
+              "titulo": "Certificaciones",
+              "imagen": "img/muestra/sepe.svg",
+              "texto": "<br><br><p>Estamos acreditados por el SEPE (Servicio Público Estatal de Empleo) y OSALAN (Instituto Vasco de Seguridad y Salud Laborales) para impartir diferentes certificados de profesionalidad y PRL básico.</p><br>",
+              "imagen": "img/muestra/osalan.png",
+              "ancho": 350
+            },
+            {
+              "titulo": "Responsabilidad Social Corporativa",
+
+              "clase": "texto",
+              "texto": "<br><p>Dentro de nuestra Responsabilidad Social Corporativa apoyamos a jugadoras y afición, patrocinando al Club de Balonmano</p><br><a href='http://www.bmlacalzada.com' target='_blank' style='color:#7986cb'>Mavi Nuevas Tecnologías La Calzada</a><br><br>Actualmente en la División de Honor Femenina.",
+
+              "imagen": "img/muestra/balonmano.svg",
+              "ancho": 350
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Servicios que ofrecemos",
+      "fondo": "img/muestra/skyscraper.svg",
+      "contenido": [
+        {
+          "clase": "lista",
+          "animacion": "fadeInUp",
+          "contenido": [
+            {
+              "punto": "<b>Diagnosis de Necesidades de Formación</b>, determinando la desviación entre el perfil deseable para un puesto de trabajo concreto y el perfil real de la persona que lo desempeña. Consta de dos fases:",
+              "contenido": [
+                {
+                  "punto": "Evaluación de necesidades y recursos"
+                },
+                {
+                  "punto": "Programación formativa"
+                }
+              ]
+            },
+            {
+              "punto": "<b>Elaboración y desarrollo de proyectos formativos</b> en diferentes modalidades de impartición (presencial, teleformación y mixta)."
+            },
+            {
+              "punto": "<b>Formación para el empleo</b><br>Actualizando competencias y conocimientos laborales, capacitamos a nuestros alumnos para un mejor desempeño profesional. Hay dos tipos:",
+              "contenido": [
+                {
+                  "punto": "Formación bonificada, programada por las empresas."
+                },
+                {
+                  "punto": "Formación subvencionada, ofertas formativas de la administración pública para trabajadores, tanto en activo como en situación de desempleo."
+                }
+              ]
+            },
+            {
+              "punto": "<b>Obtención  de certificados de profesionalidad</b>, mediante formación no financiada con fondos públicos. "
+            },
+            {
+              "punto": "<b>Intermediación y orientación laboral</b>, promoviendo y facilitando la inserción profesional de personas en situación de desempleo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Proyectos formativos",
+
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "slideInRight",
+          "texto": "<center><b>Personalizamos</b> nuestras acciones formativas a medida de cada cliente.</center>"
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInLeft",
+          "contenido": [
+            {
+              "clase": "lista",
+              "subclase": "objetivos",
+              "contenido": [
+                {
+                  "punto": "Análisis",
+                  "contenido": [
+                    {
+                      "punto": "Cada persona tiene distintas necesidades formativas, cada puesto de trabajo diferentes competencias clave."
+                    }
+                  ]
+                },
+                {
+                  "punto": "Planificación",
+                  "contenido": [
+                    {
+                      "punto": "Un itinerario formativo óptimo que adapte contenidos y objetivos a las necesidades de cada persona y organización."
+                    }
+                  ]
+                },
+                {
+                  "punto": "Financiación",
+                  "contenido": [
+                    {
+                      "punto": "Examinando posibles vías de financiación de distintas administraciones para que la formación suponga un menor coste."
+                    }
+                  ]
+                },
+                {
+                  "punto": "Impartición",
+                  "contenido": [
+                    {
+                      "punto": "Ejecutando una formación de calidad en la modalidad más adecuada (presencial, teleformación o semipresencial)."
+                    }
+                  ]
+                },
+                {
+                  "punto": "Evaluación",
+                  "contenido": [
+                    {
+                      "punto": "Evaluando el proceso formativo, sus resultados y el grado de satisfacción en alumnos, formadores y clientes."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+
+
+    {
+      "titulo": "Ventajas de la teleformación",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "animacion": "slideInRight",
+          "texto": "<center>Sitúa el ratón sobre cada icono para conocer los <b>beneficios del e-learning</b></center>"
+        },
+        {
+          "clase": "circulo",
+          "subclase": "semi",
+          "contenido": [
+            {
+              "imagen": "http://lorempixel.com/200/200/animals",
+              "titulo": "Ahorro responsable",
+              "texto": "Sin gastos de desplazamiento, fomentando el ahorro en papel y materiales didácticos, y permitiéndote tomar el aperitivo en casa."
+            },
+            {
+              "imagen": "http://lorempixel.com/200/200/animals",
+              "titulo": "Siempre al día",
+              "texto": "Contenidos editables, permitiendo actualizarlos durante el transcurso de la acción formativa o a petición de los participantes."
+            },
+            {
+              "imagen": "http://lorempixel.com/200/200/animals",
+              "titulo": "Tutorías constantes",
+              "texto": "Seguimiento personalizado e interactivo fomentando la participación a través de foros y chats, y asentando tus conocimientos mediante autoevaluaciones."
+            },
+            {
+              "imagen": "http://lorempixel.com/200/200/animals",
+              "titulo": "Sin horarios",
+              "texto": "Adaptable a los horarios de la vida diaria. Solo necesitas un dispositivo conectado a internet para realizar las actividades en el momento más conveniente."
+            },
+            {
+              "imagen": "http://lorempixel.com/200/200/animals",
+              "titulo": "Sin barreras",
+              "texto": "Accesible desde cualquier lugar y para cualquier persona, beneficiando especialmente aquellas con alguna minusvalía o discapacidad."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Formacion",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "anillas",
+          "texto": "<center>Nuestra oferta formativa comprende diferentes areas. Aqui te presentamos algunos de nuestros cursos:</center><br>"
+        },
+        {
+          "clase": "tabs",
+          "animacion": "jello",
+          "subclase": "izquierda",
+          "contenido": [
+            {
+              "titulo": "Cursos adaptables",
+              "subtitulo": "Cursos adaptables",
+              "texto": "<br><b>El curso que necesitas</b><br><br>Nuestros cursos son personalizables, flexibilizando duración y contenidos a impartir, resaltando y profundizando en los aspectos que más te interesen y adaptándolos a las necesidades de tu empresa.",
+              "imagen": "img/muestra/alfarero.svg",
+              "ancho": 500
+            },
+            {
+              "titulo": "Prevencion de riesgos laborales",
+              "subtitulo": "Prevencion de riesgos laborales",
+              "texto": "<br>La Prevención de Riesgos Laborales consiste en un conjunto de actividades que se realizan en la empresa con la finalidad de descubrir anticipadamente los riesgos que se producen en cualquier trabajo.",
+              "imagen": "img/muestra/symbols_riesgos.svg",
+              "ancho": 500
+            },
+            {
+              "titulo": "Manipulación de alimentos",
+              "subtitulo": "Manipulación de alimentos",
+              "texto": "<br>Hoy en día es necesario acreditar que el trabajador ha recibido la formación obligatoria para las tareas de manipulación de alimentos en industria y hostelería.",
+              "imagen": "img/muestra/cooking.svg",
+              "ancho": 500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Adaptabilidad",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "subclase": "recuadro",
+          "texto": "Estas son algunas de las razones por las que nuestros cursos tienen tanto exito:"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/muestra/separador.svg"
+        },
+        {
+          "clase": "lista",
+          "animacion": "pulse",
+          "subclase": "objetivos",
+          "contenido": [
+            {
+              "punto": "Realizados por profesionales altamente cualificados."
+            },
+            {
+              "punto": "Flexibilidad en duracion y contenido."
+            },
+            {
+              "punto": "Adaptables a las necesidades de tu empresa."
+            },
+            {
+              "punto": "Posibilidad de <b>contenidos audiovisuales</b> ilustrativos."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<center><video width='400' controls><source src='vid/Lafuente.mp4' type='video/mp4'>Your browser does not support HTML5 video.</video></center>"
+        }
+      ]
+    },
+
+    {
+      "titulo": "Interactividad",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Además de contenido teórico, nuestros cursos también incluyen actividades complementarias:",
+          "contenido": [
+            {
+              "punto": "Ejercicios de autoevaluación."
+            },
+            {
+              "punto": "Controles parciales periódicos."
+            },
+            {
+              "punto": "Exámenes finales."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "texto": "Arrastra cada producto al lugar más adecuado"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "autoevalArrastrar",
+              "contenedores": [
+                {
+                  "clase": "imagen",
+                  "subclase": "droppable",
+                  "imagen": "img/muestra/armario.svg",
+                  "ancho": 200,
+                  "data_id": 1,
+                  "pie": "Armario"
+                },
+                {
+                  "clase": "imagen",
+                  "subclase": "droppable",
+                  "imagen": "img/muestra/congelador.svg",
+                  "ancho": 200,
+                  "data_id": 2,
+                  "pie": "Congelador"
+                },
+                {
+                  "clase": "imagen",
+                  "subclase": "droppable",
+                  "imagen": "img/muestra/nevera.svg",
+                  "ancho": 200,
+                  "data_id": 4,
+                  "pie": "Nevera"
+                }
+              ],
+              "contenidos": [
+                {
+                  "clase": "imagen",
+                  "subclase": "draggable",
+                  "imagen": "img/muestra/anchoas.svg",
+                  "ancho": 100,
+                  "data_caja": 4
+                },
+                {
+                  "clase": "imagen",
+                  "subclase": "draggable",
+                  "imagen": "img/muestra/helado.svg",
+                  "ancho": 30,
+                  "data_caja": 2
+                },
+                {
+                  "clase": "imagen",
+                  "subclase": "draggable",
+                  "imagen": "img/muestra/limpiacristales.svg",
+                  "ancho": 25,
+                  "data_caja": 1
+                }
+              ],
+              "solucion": "img/muestra/solucion.png"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "titulo": "Plataforma Moodle",
+      "contenido": [
+        {
+          "clase": "sliderB",
+          "animacion": "fadeInDown",
+          "contenido": [
+            {
+              "titulo": "",
+              "texto": "Conéctate en cualquier momento, desde cualquier lugar.",
+              "imagen": "img/muestra/moodle1.svg",
+              "ancho": 900
+            },
+            {
+              "titulo": "",
+              "texto": "Accede desde cualquier dispositivo (pc, tablet, móvil...).",
+              "imagen": "img/muestra/moodle2.svg",
+              "ancho": 900
+            },
+            {
+              "titulo": "",
+              "texto": "Profesores</b> expertos <b>tutorizan</b> las clases y responden preguntas en los <b>foros</b> de cada curso.",
+              "imagen": "img/muestra/moodle3.svg",
+              "ancho": 900
+            },
+            {
+              "titulo": "",
+              "texto": "Un <b>dinamizador</b> se encarga de supervisar la marcha general de los cursos y <b>animar</b> a los estudiantes a cumplir sus objetivos",
+              "imagen": "img/muestra/moodle4.svg",
+              "ancho": 900
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<center>Nuestros cursos utilizan una plataforma <b>Moodle</b> parametrizada para ofrecerte el mejor servicio posible.<br><br>Moodle es resultado del esfuerzo colaborativo de uno de los equipos de código abierto más grande del mundo.<br>A todos ellos, gracias.<br><a href='https://moodle.org/?lang=es' target='_blank' style='color:#7986cb'><br>Aprende más de moodle aquí</a></center>"
+        }
+      ]
+    },
+
+    {
+      "titulo": "Y mucho más",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "<center>En Mavi creamos cursos <b>a petición de nuestros clientes</b>, solo tienes que consultar con nuestros técnicos.<br>Ellos te informarán.</center>"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "imagen": "img/muestra/fotografia.jpg",
+              "ancho": 250
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
+              "imagen": "img/muestra/soldadura.jpg",
+              "ancho": 250
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "imagen": "img/muestra/electricidad.jpg",
+              "ancho": 250
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
+              "imagen": "img/muestra/buceo.jpg",
+              "ancho": 250
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "imagen": "img/muestra/jardineria.jpg",
+              "ancho": 250
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
+              "imagen": "img/muestra/astronauta.jpg",
+              "ancho": 250
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "animacion": "rubberBand",
+          "subclase": "recuadro",
+          "texto": "<center>A continuación te mostramos un extracto de nuestro curso de <b>Manipulación de alimentos</b></center>"
+        }
+      ]
+    },
+
+    {
+      "titulo": "<img src='img/muestra/iconoManipulador.svg' class='imgIndice'/> Curso: Manipulación de alimentos",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "texto": "Es importante señalar también las <b>consecuencias</b> que un fallo en la manipulación de alimentos puede tener en la empresa, que pueden ir desde la pérdida de confianza de los consumidores hacia los productos que se elaboran, hasta el cierre de la empresa, pasando por las sanciones que puedan imponer las denuncias de particulares o la propia administración."
+        },
+        {
+          "clase": "diagrama",
+          "retardo": 15000,
+          "cajas": [
+            {
+              "id": 1,
+              "forma": "rect",
+              "texto": "Pérdida de la reputación de la empresa",
+              "ancho": 650,
+              "alto": 60,
+              "x": 1,
+              "y": 1,
+              "relleno": "#FFB74D",
+              "borde": "#F57F17",
+              "anchoBorde": 3,
+              "orden": 1
+            },
+            {
+              "id": 2,
+              "forma": "rect",
+              "texto": "Pago de indemnizaciones",
+              "ancho": 300,
+              "alto": 60,
+              "x": 680,
+              "y": 1,
+              "relleno": "#FFB74D",
+              "borde": "#F57F17",
+              "anchoBorde": 3,
+              "orden": 16
+            },
+            {
+              "id": 3,
+              "forma": "rect",
+              "texto": "Multas y costes legales",
+              "ancho": 300,
+              "alto": 60,
+              "x": 1000,
+              "y": 1,
+              "relleno": "#FFB74D",
+              "borde": "#F57F17",
+              "anchoBorde": 3,
+              "orden": 19
+            },
+            {
+              "id": 4,
+              "forma": "rect",
+              "texto": "<span class='h5 estrecho'>Pérdida de clientes<br>Quejas de clientes<br>Dificultad para captar nuevos clientes<br>Devolución de artículos</span>",
+              "ancho": 320,
+              "alto": 125,
+              "x": 335,
+              "y": 100,
+              "relleno": "#FFE0B2",
+              "borde": "#F57F17",
+              "anchoBorde": 1,
+              "orden": 3
+            },
+            {
+              "id": 5,
+              "forma": "rect",
+              "texto": "<span class='h5'>¿Hubo fallecimientos?</span>",
+              "ancho": 250,
+              "alto": 40,
+              "x": 720,
+              "y": 250,
+              "borde": "#F57F17",
+              "anchoBorde": 2,
+              "dashArray": "5,5",
+              "orden": 18
+            },
+            {
+              "id": 6,
+              "forma": "rect",
+              "texto": "<span class='h5 estrecho'>Búsqueda de responsables<br>¿Encarcelamiento?</span>",
+              "ancho": 300,
+              "alto": 60,
+              "x": 1000,
+              "y": 250,
+              "borde": "#F57F17",
+              "anchoBorde": 2,
+              "dashArray": "5,5",
+              "orden": 21
+            },
+            {
+              "id": 7,
+              "forma": "rect",
+              "texto": "<span class='h5'>Pérdida de la moral en el personal</span>",
+              "ancho": 300,
+              "alto": 40,
+              "x": 1,
+              "y": 100,
+              "relleno": "#FFE0B2",
+              "borde": "#F57F17",
+              "anchoBorde": 1,
+              "orden": 9
+            },
+            {
+              "id": 8,
+              "forma": "rect",
+              "texto": "<span class='h5'>Menor motivación en el trabajo<br>Peor rendimiento de la plantilla<br>Mayor movilidad de la plantilla</span>",
+              "ancho": 300,
+              "alto": 100,
+              "x": 1,
+              "y": 180,
+              "relleno": "#FFE0B2",
+              "borde": "#F57F17",
+              "anchoBorde": 1,
+              "orden": 11
+            },
+            {
+              "id": 9,
+              "forma": "rect",
+              "texto": "<span class='h5'>Disminución de las ventas</span>",
+              "ancho": 320,
+              "alto": 40,
+              "x": 335,
+              "y": 270,
+              "relleno": "#FFE0B2",
+              "borde": "#F57F17",
+              "anchoBorde": 1,
+              "orden": 5
+            },
+            {
+              "id": 10,
+              "forma": "rect",
+              "texto": "Disminución de beneficios",
+              "ancho": 650,
+              "alto": 40,
+              "x": 1,
+              "y": 380,
+              "relleno": "#FFB74D",
+              "borde": "#F57F17",
+              "anchoBorde": 3,
+              "orden": 7
+            },
+            {
+              "id": 11,
+              "forma": "rect",
+              "texto": "Cuantiosas pérdidas económicas",
+              "ancho": 1350,
+              "alto": 60,
+              "x": 1,
+              "y": 450,
+              "relleno": "#ef9a9a",
+              "borde": "#b71c1c",
+              "anchoBorde": 3,
+              "orden": 25
+            },
+            {
+              "id": 12,
+              "forma": "rect",
+              "texto": "Cierre del negocio",
+              "ancho": 1350,
+              "alto": 60,
+              "x": 1,
+              "y": 560,
+              "relleno": "#ef9a9a",
+              "borde": "#b71c1c",
+              "anchoBorde": 3,
+              "orden": 27
+            },
+            {
+              "id": 13,
+              "forma": "rect",
+              "texto": "<span class='h5'>Pérdida de empleo</span>",
+              "ancho": 500,
+              "alto": 40,
+              "x": 430,
+              "y": 670,
+              "borde": "#b71c1c",
+              "anchoBorde": 3,
+              "orden": 29
+            },
+            {
+              "id": 14,
+              "forma": "rect",
+              "texto": "<span class='h5'>Dificultad para encontrar otro trabajo en la industria alimentaria</span>",
+              "ancho": 500,
+              "alto": 40,
+              "x": 430,
+              "y": 760,
+              "borde": "#b71c1c",
+              "anchoBorde": 3,
+              "dashArray": "5,5",
+              "orden": 31
+            },
+            {
+              "id": 15,
+              "forma": "rect",
+              "texto": "<span class='h6 estrecho'>Menores salarios/primas</span>",
+              "ancho": 170,
+              "alto": 40,
+              "x": 1,
+              "y": 310,
+              "borde": "#F57F17",
+              "anchoBorde": 1,
+              "orden": 14
+            }
+          ],
+          "enlaces": [
+            {
+              "origen": 1,
+              "destino": 4,
+              "color": "#F57F17",
+              "orden": 2
+            },
+            {
+              "origen": 2,
+              "destino": 5,
+              "color": "#F57F17",
+              "orden": 17
+            },
+            {
+              "origen": 3,
+              "destino": 6,
+              "color": "#F57F17",
+              "orden": 20
+            },
+            {
+              "origen": 1,
+              "destino": 7,
+              "color": "#F57F17",
+              "orden": 8
+            },
+            {
+              "origen": 7,
+              "destino": 8,
+              "color": "#F57F17",
+              "orden": 10
+            },
+            {
+              "origen": 4,
+              "destino": 9,
+              "color": "#F57F17",
+              "orden": 4
+            },
+            {
+              "origen": 8,
+              "destino": 10,
+              "color": "#F57F17",
+              "orden": 12
+            },
+            {
+              "origen": 9,
+              "destino": 10,
+              "color": "#F57F17",
+              "orden": 6
+            },
+            {
+              "origen": 5,
+              "destino": 11,
+              "color": "#F57F17",
+              "orden": 23
+            },
+            {
+              "origen": 6,
+              "destino": 11,
+              "color": "#F57F17",
+              "orden": 22
+            },
+            {
+              "origen": 10,
+              "destino": 11,
+              "color": "#F57F17",
+              "orden": 24
+            },
+            {
+              "origen": 11,
+              "destino": 12,
+              "color": "#b71c1c",
+              "orden": 26
+            },
+            {
+              "origen": 12,
+              "destino": 13,
+              "color": "#b71c1c",
+              "orden": 28
+            },
+            {
+              "origen": 13,
+              "destino": 14,
+              "color": "#b71c1c",
+              "orden": 30
+            },
+            {
+              "origen": 10,
+              "destino": 15,
+              "color": "#F57F17",
+              "orden": 13
+            },
+            {
+              "origen": 15,
+              "destino": 8,
+              "color": "#F57F17",
+              "orden": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "<img src='img/muestra/iconoManipulador.svg' class='imgIndice'/> Curso: Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "Los certificados emitidos en este curso:",
+              "respuestas": [
+                {
+                  "opcion": "Tienen validez en toda España.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Solamente tienen validez en la Comunidad Autónoma donde se realiza la formación.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Señala qué consecuencia de las siguientes tendría lugar en caso de aparición de enfermedad alimentaria:",
+              "respuestas": [
+                {
+                  "opcion": "Pérdida de reputación de la empresa.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Pago de indemnizaciones.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Multas y Costes legales.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Todas las opciones son correctas.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "La Trazabilidad de un producto alimentario:",
+              "respuestas": [
+                {
+                  "opcion": "Permite identificar las materias primas con las que está elaborado.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Permite conocer la forma en la que se ha manipulado y procesado.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Permite conocer el lugar del que procede y al que se destina.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Todas las opciones son correctas.",
+                  "correcto": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "En resumen",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "<br><br>En esta presentación te hemos tratado de transmitir la importancia de la formación y las ventajas de la modalidad telemática de la misma.<br><br>Además, los <b>beneficios</b> que confiere una buena formación se extienden desde el primer momento a lo largo de toda la estructura empresarial, desde los trabajadores hasta el cliente final. <br><br>Te animamos a que consultes en <a href='http://www.mavint.es' target='_blank' style='color:#7986cb'>nuestra página web</a> el catálogo completo de los cursos disponibles, así como otros en proceso de desarrollo. <br> <br>¡Seguro que <b>te interesa</b> más de uno!"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/muestra/despedida.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta pronto!",
+      "subclase": "portada",
+      "fondo": "img/muestra/contraportada.svg"
+    }
+  ]
+}

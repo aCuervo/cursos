@@ -1,0 +1,970 @@
+﻿{
+  "modulo": "Mod. 4: Elementos de amarre",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "En el módulo 3 estudiamos los arneses, ahora veremos algunos de los elementos de amarre que se le añaden para conformar un equipo anticaídas o bien de retención."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "CUERDAS",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "La norma EN 354:2011 Equipos de amarre los define como un elemento de conexión flexible de un sistema de protección individual contra caídas, con al menos 2 terminales, con o sin dispositivo regulador de longitud.<br><br>Se trata de un elemento flexible textil, de cable o cadena con dos terminales a los que se puede unir o ya están unidos dos conectores. De acuerdo con esta norma, los equipos de amarre se utilizan como elementos de conexión en sistemas de retención, sujeción, acceso mediante cuerda, sistemas anticaídas y sistemas de salvamento."
+        },
+        {
+          "clase": "lista",
+          "titulo": "A continuación se destacan algunos de estos usos que se han considerado más interesantes para el propósito de este texto se puede utilizar como:",
+          "contenido": [
+            {
+              "punto": "<b>Elemento de conexión de un sistema anticaídas</b>: Los elementos que cumplen esta norma, en principio, no pueden parar una caída a menos que se unan a un absorbedor de energía compatible con ellos. Este punto es de suma importancia: los elementos de amarre, salvo otra indicación expresa del fabricante no pueden detener caídas por sí solos sin absorbedor, esta situación sería de máximo peligro."
+            },
+            {
+              "punto": "<b>Elemento de sujeción</b>: Esta posible forma de utilizarlos se incluye en la versión de la norma de 2011, no así en la de 2002."
+            },
+            {
+              "punto": "<b>Elemento de retención</b>: También este uso se nombra en la versión de la norma 2011 y no en la de 2002"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Los usos o los fines de los equipos de amarre son los siguientes:"
+        },
+        {
+          "clase": "acordeon",
+          "contenido": [
+            {
+              "titulo": "Elemento de conexión de un sistema anticaídas",
+              "texto": "IMPORTANTE:  Los elementos de amarre, salvo indicación expresa del fabricante, no pueden detener caídas por sí solos sin absorbedor. Éste elemento sí se puede emplear como anticaídas cuando se une a un absorbedor de energía. En este caso, la longitud total del sistema ha de ser menor de 2 m. Ambos componentes deben ser compatibles y el fabricante del absorbedor indicará a qué tipos de elementos de conexión se puede unir.<br><br>Al unir un equipo de amarre a otro dispositivo hay que asegurarse que el fabricante lo permite, ya que ocurre que dicho equipo no es compatible con muchos dispositivos como ocurre normalmente con, por ejemplo, la línea de anclaje flexible o rígida. ",
+              "imagen": "img/mod04/amarre.jpg"
+            },
+            {
+              "titulo": "Elemento de conexión de sujeción",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Hasta la publicación de la versión de 2011 de la norma EN 354, no se contemplaba esta función. Los componentes de amarre de sujeción y los equipos de amarre son tan parecidos que en la mayoría de los casos es imposible distinguirlos sin comprobar en la etiqueta la norma que cumplen (y, de hecho, muchos cumplen las dos normas)."
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "Algunas de las diferencias técnicas son las siguientes:",
+                  "contenido": [
+                    {
+                      "punto": "Un componente de sujeción no se debe utilizar con el objetivo de parar una caída, ni siquiera con absorbedor."
+                    },
+                    {
+                      "punto": "Un equipo de amarre, técnicamente, se podría utilizar para sujeción, pero no es aconsejable hacerlo a menos que el fabricante lo autorice específicamente. Puede haber casos de trabajos especiales en los que su uso esté justificado. Por ejemplo, es más fácil encontrar equipos de amarre resistentes al calor que componentes de amarre de sujeción con esta cualidad."
+                    }
+                  ]
+                }
+              ]             
+            },
+                        {
+              "titulo": "Elemento de retención",
+              "texto": "Al igual que con su función de sujeción, hasta la versión de 2011 de la norma no se tenía en cuenta esta posibilidad. Sin embargo, muchos fabricantes ya la tenían en cuenta en sus instrucciones, en las que incluían frases como “este equipo está destinado a impedir la caída”. Los requerimientos para un equipo de retención son muy inferiores a las de un componente de un sistema anticaídas, por lo tanto, su uso como elemento de retención en circunstancias normales es técnicamente válido."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "TIPOS DE ELEMENTOS DE AMARRE",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Según la materia prima:",
+          "contenido": [
+            {
+              "punto": "Equipos de amarre textiles. Están fabricados principalmente poliamida y en menor medida poliéster, constituyendo cuerdas o cintas. En función de cómo esté confeccionado el componente de amarre, se puede dividir en:",
+              "contenido": [
+                {
+                  "punto": "Cuerda torcida. Formada normalmente por tres cordones entrelazados entre sí, suelen tener un diámetro de superior a las cuerdas compuestas de camisa y alma y son más rígidas, pero no lo suficiente como para ayudar a rodear un soporte muy grande. Últimamente, se están utilizando más las cuerdas tipo kernmantle."
+                },
+                {
+                  "punto": "Cuerda kernmantle. Formada por camisa y alma, suele tener un diámetro máximo de 12 mm, es más suave al tacto que las anteriores y más flexible."
+                },
+                {
+                  "punto": "Cinta plana, indicada especialmente para trabajos en estructuras de gran abrasión."
+                }
+              ]
+            },
+            {
+              "punto": "Una ventaja de los equipos de cuerda sobre los de cinta está en el rescate. Si un herido ha caído y se ha desplegado el absorbedor, puede que el rescatador no llegue a colocarle una cuerda para el rescate. Sin embargo, si el equipo de amarre es de cuerda, se puede unir la cuerda de rescate al amarre a través de un bloqueador, aparato relativamente común."
+            },
+            {
+              "punto": "Equipos de amarre de sujeción metálicos y mixtos. Están especialmente diseñados para trabajos con herramientas cortantes o de soldadura, pueden ser de cable o de cadena. Los de cadena son difíciles de encontrar siendo los de cable más comunes."
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "REVISIÓN POR PARTE DEL USUARIO",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Se trata de  las mismas pautas que para los componentes de amarre de sujeción. La revisión por parte del usuario se debe hacer en función de las instrucciones del fabricante, pero se pueden dar unas pautas generales:",
+          "contenido": [
+            {
+              "punto": "Las partes metálicas no deben estar dobladas, con señales de óxido ni con fisuras."
+            },
+            {
+              "punto": "Los conectores deben cerrar automáticamente y abrirse sin dificultad."
+            },
+            {
+              "punto": "Las cintas no deben tener cortes laterales."
+            },
+            {
+              "punto": "Para comprobar que las cuerdas se encuentran en un estado adecuado, se deben doblar y visualizar que éstas tienen una forma redondeada. Asimismo, se ha de verificar que no tienen fibras rotas "
+            },
+            {
+              "punto": "Las cuerdas torcidas se deben abrir girándolas en sentido contrario a su rotación natural para comprobar que por dentro están en buen estado"
+            },
+            {
+              "punto": "Si tienen nudos, se debe revisar su estado y si el nudo está cerrado por un plástico termorretráctil, el nudo no debe estar demasiado holgado dentro."
+            },
+            {
+              "punto": "Se deben revisar también las costuras."
+            },
+            {
+              "punto": "Si son equipos de amarre de cable, se revisan en toda su longitud con guantes. No pueden presentar óxido ni estar doblados. Un solo hilo roto indica que hay que desecharlo."
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Resumen elementos de amarre",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Uso: detener caídas si se le agrega un absorbedor. Mantener al trabajador en la situación de sujeción o retención. No utilizarlos como anticaídas sin absorbedor.<br><br>Tipos: cuerda torcida, cuerda kernmantle, cinta, cable, cadena<br><br>Regulación: pueden no tenerla, con hebilla o por leva y por excéntrica.<br><br>Norma armonizada: sí, UNE-EN 354 Equipos de protección individual contra caídas. Equipos de amarre.<br><br>Tallas: sí, existen diferentes longitudes.<br><br>Caducidad: sí, está definida por el fabricante.<br><br>Peso máximo de usuario: en Europa no se define, se prueban con 1500 daN.<br><br>Precauciones: no es un elemento de enganche más del arnés. No se debe usar indiscriminadamente para anclarse a cualquier dispositivo."
+        }
+
+      ]
+    },
+    {
+      "titulo": "CONECTORES",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Un conector (o mosquetón) es un dispositivo diseñado para unir componentes de un sistema contra caídas. La norma armonizada bajo la que se pueden certificar es la UNE-EN 362 Conectores. Esta norma define una serie de elementos de los conectores que en algunos textos han tenido una interpretación equivocada."
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "CIERRE",
+              "texto": "Es la parte móvil que permite la apertura y cierre del conector. Será automático cuando para abrirlo y mantenerlo abierto se tenga que ejercer una fuerza y, cuando esa fuerza no exista, el conector vuelve automáticamente a la posición de cerrado. En la actualidad, casi todos los conectores de trabajo son de cierre automático, excepto los conocidos como maillones (tipo Q).",
+              "imagen": "img/mod04/maillon.jpg"
+            },
+            {
+              "titulo": "BLOQUEO DEL CIERRE",
+              "texto": "Es un mecanismo que, cuando está en su posición, evita que se abra inadvertidamente el cierre. Se dice que el bloqueo es automático cuando, en el momento que el conector se cierra, se activa el bloqueo de manera automática. El bloqueo será manual si, una vez cerrado el conector, se debe realizar otra operación manual para bloquearlo (por ejemplo, el bloqueo de rosca). No se debe confundir cierre automático o manual con bloqueo automático o manual.",
+              "imagen": "img/mod04/bloqueoCierre.jpg"
+            },
+            {
+              "titulo": "Eje mayor",
+              "texto": "Es la longitud mayor del interior del conector. Normalmente, el conector tiene más resistencia en este eje."
+            },
+            {
+              "titulo": "Eje menor",
+              "texto": "Es la longitud menor del interior del conector y en donde, habitualmente, el conector tendrá menor resistencia."
+            },
+            {
+              "titulo": "Casquillo",
+              "texto": "Es la pieza situada sobre el cierre que proporciona el bloqueo. Los conectores tipo T y A no lo suelen llevar (en éstos, el bloqueo funciona con otros sistemas).",
+              "imagen": "img/mod04/casquillo.jpg"
+            },
+            {
+              "titulo": "GANCHO DEL CIERRE",
+              "texto": "Es la unión del cierre al cuerpo del conector (distinto del eje)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Materiales de fabricación",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Los materiales más utilizados en la fabricación de conectores son el acero galvanizado y el aluminio mezclado con pequeñas cantidades de zinc, magnesio y cobre (zicral).",
+          "contenido": [
+            {
+              "punto": "Los conectores de acero son más pesados, pero resisten mejor la abrasión, el desgaste y los golpes. Su terminación galvanizada (recubrimiento para evitar la oxidación) se puede perder por golpes u otras causas. En situaciones de alta humedad continua no suele ser suficiente la capa de galvanizado que lleva el conector y es fácil que lleguen a oxidarse."
+            },
+            {
+              "imagen": "img/mod04/conectorAcero.jpg"
+            },
+            {
+              "punto": "Los conectores de aluminio son más ligeros, cualidad que se debe tener muy en cuenta para proporcionar la suficiente comodidad al usuario. También resisten mejor la oxidación. Sin embargo, son más débiles ante el desgaste y los golpes. Pueden tener una terminación anodizada (oxidación controlada) que crea una capa de protección al óxido sobre el conector."
+            },
+            {
+              "punto": "También existen conectores fabricados en materiales especiales como acero inoxidable"
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Los conectores de aluminio y de acero se pueden degradar en función del ambiente que les rodea. Así si se encuentra a la intemperie en un ambiente marítimo puede presentar signos de corrosión. Con una corrosión avanzada, el conector se puede llegar a deshacer simplemente pasando la mano."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/conectorDegradado.jpg"
+            }
+
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "El elegir un conector de uno u otro material dependerá, entre otros factores, de:",
+          "contenido": [
+            {
+              "punto": "La compatibilidad con los equipos que se van a utilizar. Si este dato es importante en un equipo, el fabricante indicará qué tipo de conector se debe usar. Normalmente, no es aconsejable utilizar una pieza de aluminio con un conector de acero, ya que el acero irá desgastando al aluminio."
+            },
+            {
+              "punto": "El medio ambiente que le rodee. Hay que prestar especial atención en las obras que se realicen en un entorno industrial, ya que existe la posibilidad de presencia de sustancias corrosivas debido a los procesos químicos desarrollados en determinadas plantas industriales."
+            },
+            {
+              "punto": "La comodidad del trabajador."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "titulo": "Clasificación de conectores",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "A diferencia de los conectores deportivos, los empleados en el trabajo deben requerir dos acciones manuales diferentes deliberadas para abrir el cierre, a excepción de los de tipo Q, los cuales deben tener, al menos, cuatro vueltas de tuerca. Existen diversos tipos de clasificaciones, aquí vamos a ver dos de ellas."
+        },
+        {
+          "clase": "acordeon",
+          "contenido": [
+            {
+              "titulo": "CLASIFICACIÓN SEGÚN LA NORMA UNE-EN 362:",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "Conector básico (clase B): conector de cierre automático, (el cierre se activa automáticamente, el bloqueo no tiene por qué hacerlo). Son los más usados."
+                    },
+                    {
+                      "imagen": "img/mod04/conectorBasico.jpg"
+                    },
+                    {
+                      "punto": "Conector de rosca (clase Q): son los llamados popularmente maillones. Es un conector que se cierra mediante un cierre de rosca. Este cierre, una vez roscado soporta parte de la carga. Sólo se deben utilizar en conexiones permanentes o de larga duración. No todos tienen la norma como conectores, es recomendable usar los que cumplen esta norma y disponen de CE para los fines aquí desarrollados. No se debe confundir el cierre de rosca, que son los conectores de clase Q, con el bloqueo de rosca, que lo suelen llevar conectores de clase B o M "
+                    },
+                    {
+                      "imagen": "img/mod04/conectorRosca.jpg"
+                    },
+                    {
+                      "punto": "Conector multiuso (clase M): conector básico (clase B) o de rosca (clase Q) en el que su eje menor soporta un mínimo de 15 kN (1500 daN). Lo habitual en los conectores de clase B es oscilar entre 7kN y 13 kN."
+                    },
+                    {
+                      "punto": "Conector de terminación (clase T): tiene un cierre automático diseñado de forma que siempre carga en una posición determinada. Se utilizan como terminaciones de muchos componentes."
+                    },
+                    {
+                      "imagen": "img/mod04/conectorTerminacion.jpg"
+                    },
+                    {
+                      "punto": "Conector de anclaje (clase A): conector diseñado especialmente para engancharlo directamente a un tipo específico de anclaje como cáncamos, vigas etc. Si bien esta definición es muy amplia, se refiere a los conectores utilizados principalmente con un elemento estructural final (viga, tubo…)."
+                    },
+                    {
+                      "imagen": "img/mod04/conectorAnclaje.jpg"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "CLASIFICACIÓN SEGÚN EL SISTEMA DE BLOQUEO",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "El bloqueo del cierre es el mecanismo que, cuando está en su posición, evita la apertura inadvertida del cierre. Excepto los conectores tipo Q, que no tienen bloqueo diferenciado del cierre y que requieren un mínimo de cuatro vueltas para cerrarlo, el resto de conectores deben llevar bloqueo del cierre. Los sistemas de bloqueo más habituales son:",
+                  "contenido": [
+                    {
+                      "punto": "Bloqueo por rosca. La operación que se debe realizar es dar vueltas al casquillo "
+                    },
+                    {
+                      "punto": "Bloqueo automático por giro de 90º. Para desbloquear este tipo de mosquetones se debe girar el casquillo 90º y a continuación abrir el cierre."
+                    },
+                    {
+                      "punto": "Bloqueo automático por giro de 90º más bloqueo manual por bayoneta. Consiste en un conector como el del caso anterior con la cualidad de que, una vez cerrado y bloqueado de forma automática, se puede deslizar el casquillo manualmente en la misma dirección del eje mayor. Esta operación es opcional dependiendo, por ejemplo, de si se va a poner y quitar muchas veces el conector o se va a dejar fijo."
+                    },
+                    {
+                      "punto": "Bloqueo de dos movimientos (llamados conectores de tres movimientos al contar en ellos la apertura del cierre). Son conectores como los anteriores pero el segundo bloqueo es automático."
+                    },
+                    {
+                      "punto": "Bloqueo automático por tope. Es el sistema más utilizado en los conectores tipo T y A. Para desbloquearlo, se debe empujar una pletina con la eminencia tenar de la mano (zona de la palma de la mano a continuación del dedo pulgar) y a continuación se abre el cierre con los dedos "
+                    },
+                    {
+                      "imagen": "img/mod04/bloqueoAutomatico.jpg"
+                    },
+                    {
+                      "punto": "Existen muchas variantes en el mercado de estos sistemas, especialmente en los llamados conectores de tres movimientos (pulsar un botón antes de girar el casquillo, incluso sistemas magnéticos…). La elección de uno u otro sistema dependerá en gran medida del número de veces que se tenga que abrir el conector. Algunos conectores de bloqueo manual llevan un testigo que indica que no está bloqueado."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "ROTURA DE CONECTOR",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Una de las causas de rotura de un conector se debe a la resistencia del bloqueo del cierre ante una fuerza que intenta abrir el cierre, por ejemplo por el golpe del cierre contra el borde de un forjado."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/roturaConector.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Pero la principal causa de rotura de un conector es que haga palanca con un borde. Existen conectores para usos especiales que pueden trabajar haciendo palanca, por ejemplo los desarrollados para anclarlos en los puntales verticales de los andamios."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/roturaConector2.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "Los usos incorrectos más habituales son:",
+          "contenido": [
+            {
+              "punto": "Anclar el conector en un lugar que hace palanca."
+            },
+            {
+              "imagen": "img/mod04/incorrectoPalanca.jpg"
+            },
+            {
+              "punto": "Poner el conector a una altura que se puede golpear con un borde."
+            },
+            {
+              "imagen": "img/mod04/incorrectoBorde.jpg"
+            },
+            {
+              "punto": "Rodear un elemento estructural con una cuerda o una cinta con conector y “estrangularlo”. De esta manera el conector trabaja haciendo palanca y, además, se multiplican las fuerzas sobre él como si fuera una polea. Sin embargo, existen dispositivos de anclaje diseñados de forma que el fabricante permite este uso. Como es habitual, las instrucciones del fabricante prevalecen sobre los criterios generales."
+            },
+            {
+              "punto": "No cerrar el bloqueo manual de un conector que, además de disminuir su resistencia, puede hacer que se produzca una abertura accidental."
+            },
+            {
+              "imagen": "img/mod04/incorrectoBloqueo.jpg"
+            },
+            {
+              "punto": "Unir dos conectores consecutivamente. Si bien hay casos en los que podría ser correcto, se pueden producir golpes entre conectores y fuerzas por rotación para lo que no están preparados los conectores. Por esto, es habitual utilizar elementos textiles que minimizan este riesgo al absorber las rotaciones."
+            },
+            {
+              "punto": "Colocar el conector de forma que se produzcan fuerzas en el eje menor. Algunos equipos llevan sistemas para evitar esta situación, como gomas que direccionan los conectores."
+            },
+            {
+              "imagen": "img/mod04/incorrectoEjeMenor.jpg"
+            },
+            {
+              "punto": "No colocar bien los componentes que se unen con el conector."
+            },
+            {
+              "imagen": "img/mod04/incorrectoConector.jpg"
+            },
+            {
+              "punto": "Poner conectores en taladros o alojamientos en los que no cabe o se posiciona mal. Un error común es utilizar un conector tipo A grande en la roseta de un andamio multidireccional. Además de tener certeza sobre la resistencia de la roseta, el conector debe colocarse bien posicionado de forma que haga la fuerza en su eje mayor y en la posición en la que es más resistente. Aun así, no es recomendable utilizarlo porque dependiendo de la dirección de la fuerza el conector puede trabajar haciendo palanca."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/muyDesfavorable.jpg",
+              "pie": "Conector trabajando en posición muy desfavorable"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/desfavorable.jpg",
+              "pie": "Conector trabajando en posición desfavorable"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/conectorBien.jpg",
+              "pie": "Conector trabajando bien siempre que la fuerza no sea lateral"
+            }
+          ]
+        },
+                {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/conectorBien2.jpg",
+              "pie": "Conector trabajando bien siempre que la fuerza no sea lateral"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/conectorPalanca.jpg",
+              "pie": "Conector haciendo palanca"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/rodearRoseta.jpg",
+              "pie": "La mejor opción es rodear la roseta con una cinta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "REVISION CONECTORES",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Antes del uso de debe revisar: ",
+          "contenido": [
+            {
+              "punto": "Aspecto del conector, ausencia de óxido, corrosión o sustancias adheridas que dificulten su uso."
+            },            {
+              "punto": "Funcionamiento del cierre automático. Siempre se debe cerrar automáticamente (excepto en la clase Q) atención al acople del gancho con el cuerpo del conector, si no engancha perfectamente se debe retirar."
+            },            {
+              "punto": "Funcionamiento del bloqueo."
+            },            {
+              "punto": "Ausencia de grietas (especialmente en el eje del cierre y la zona de enganche entre el cuerpo del conector y el cierre)."
+            },            {
+              "punto": "Ausencia de golpes y deformaciones."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "RESUMEN CONECTORES",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Conector: pieza metálica utilizada para unir componentes. Pueden tener cierre automático o manual, y bloqueo automático o manual.<br><br>Materiales de fabricación: pueden ser de acero o aluminio, los primeros pesan más pero resisten mejor la abrasión y los golpes. Los segundos son más ligeros pero más delicados. Ambos tienen la misma resistencia mínima a la tracción.<br><br>Soportan más fuerza en el eje mayor, se debe evitar que trabajen en el eje menor.<br><br>Deben tener un sistema de bloqueo y el trabajador debe utilizarlo, la resistencia de un conector abierto se reduce drásticamente.<br><br>El conector no debe trabajar haciendo palanca.<br><br>Para trabajos en los que se debe abrir y cerrar muchas veces el conector es aconsejable utilizar un conector clase T con bloqueo automático.<br><br>Norma armonizada: sí, UNE-EN 362 Equipos de protección individual contra caídas de altura. Conectores.<br><br>Caducidad: si el fabricante no indica lo contrario, no tienen caducidad exclusivamente por el tiempo.<br><br>Usos especiales: se pueden encontrar conectores de acero inoxidable y de uso para atmósferas explosivas pero formando parte de un componente con absorbedor de energía. También se fabrican todo tipo de conectores para anclarlos en dispositivos concretos o en estructuras."
+        }
+
+      ]
+    },
+    {
+      "titulo": "RETRACTILES",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Una de las cosas que buscamos al detener una caída es que ésta sea lo más corta posible. Los elementos regulables manualmente ayudan a conseguirlo, al ajustar la longitud del sistema de conexión; pero si la regulación es automática, el sistema es más cómodo y efectivo. Hablamos de un retráctil, el cual, en muchos casos, es el dispositivo que menos distancia de frenado necesita. Actualmente se tiende a sustituir el uso del sistema formado por el equipo de amarre y absorbedor por pequeños retráctiles, capaces (algunos de ellos) de ser efectivos aunque estén anclados a la altura de los pies del usuario.<br><br>Suelen tener en algunos casos un peso bastante elevado y, suelen ser frágiles, estropeándose con el uso constante y la suciedad. Además, cada modelo tiene unas limitaciones de uso particulares, como distancias de parada distintas, exigencias para uso en horizontal, etc.<br><br>Los retráctiles se pueden certificar cumpliendo las exigencias de la norma UNE-EN 360 Dispositivos anticaídas retráctiles. La norma UNE-EN 360 define al retráctil como un dispositivo anticaídas que dispone de una función de bloqueo automático y de un mecanismo automático de tensión y retroceso del elemento de amarre. El propio dispositivo puede integrar un medio de disipación de energía o bien incorporar un absorbedor de energía en el elemento de amarre retráctil. El elemento de amarre retráctil (el elemento que físicamente se enrolla) puede ser una cinta, un cable o una cuerda. Al hablar de dispositivo se puede referir a todo el conjunto o al mecanismo rígido que hace que se enrolle, incluidas las tapas."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/retractil.jpg"
+        },
+        {
+          "clase": "texto",
+          "texto": "Según la norma, la absorción de energía se puede hacer en el interior del dispositivo o bien lo puede llevar el elemento de unión que se enrolla. El bloqueo se activa al recibir un fuerte tirón. Suelen llevar un conector al final del equipo de amarre y otro unido al dispositivo. Es recomendable que el conector que está unido al dispositivo un elemento antigiro. También puede disponer de este elemento el conector del equipo de amarre."
+        },
+        {
+          "clase": "lista",
+          "titulo": "El uso del retráctil se puede dividir en tres posibles escenarios: ",
+          "contenido": [
+            {
+              "punto": "Vertical anclado por encima del usuario: Es la situación más habitual en un retráctil, en muchos de estos accesorios, es la opción permitida por el fabricante. En el momento en que comienza la caída, el retráctil empieza a desplegarse y en función de la velocidad, se bloqueara. Las distancia libre o de frenado necesaria por debajo de los pies del usuario varía en cada modelo, pero suele estar entre 2 y 3 metros. Al elegir un punto de anclaje para el dispositivo se deberá vigilar que éste no quede forzado contra ninguna estructura. Lo ideal es que quede colgado del conector superior y se pueda mover para posicionarse en la misma dirección del cable o cinta, lo que permitirá que trabaje mejor apartándose de la vertical en vez de quedarse fijo (en este aspecto influye el peso del retráctil), es decir, que el dispositivo pueda trabajar de forma inclinada si así lo requiere la posición del trabajador."
+            },
+            {
+              "imagen": "img/mod04/verticalEncima.jpg"
+            },
+            {
+              "punto": "Vertical anclado a la altura de los pies del usuario: Sólo unos pocos retráctiles en el mercado son capaces de soportar este tipo de caídas. Se trata de retráctiles pequeños y, en ningún caso, está permitido anclarlos por debajo de los pies. Suelen llevar un absorbedor que actúa por descosido integrado en el equipo de amarre. En este caso, es muy habitual colocar el dispositivo en el arnés en vez del equipo de amarre, ya que aquél suele ser pequeño. Si se coloca así y el absorbedor está en el equipo de amarre, no se debe utilizar con la posibilidad de caída sobre un borde."
+            },
+            {
+              "imagen": "img/mod04/verticalPies.jpg"
+            },
+            {
+              "punto": "Uso en horizontal: Este escenario no se debe confundir con el caso anterior. En esta ocasión, el retráctil se encuentra anclado en el mismo plano horizontal sobre el que transita el usuario y se puede producir una caída en el perímetro de ese plano. Se trata del caso, por ejemplo, de un trabajador que está colocando la protección de borde de un forjado y está empleando un retráctil anclado  al mismo forjado. Es especialmente importante en este escenario evitar la caída pendular, ya que este tipo de caídas agudiza el riesgo de rotura del equipo de amarre al rozar con el borde. Algunos fabricantes indican el ángulo máximo que puede formar el elemento de amarre con la línea perpendicular al borde que pasa por el punto de anclaje fijo donde está el dispositivo suele estar entre 20º y 30º. Si se va a utilizar un retráctil en horizontal, se debe comprobar en las instrucciones varios puntos de especial importancia, entre ellos:",
+              "contenido": [
+                {
+                  "punto": "Que el fabricante permite su uso horizontal."
+                },
+                {
+                  "punto": "Si se deben tomar medidas especiales (por ejemplo, proteger el borde o unir el equipo de amarre del retráctil a otro equipo determinado por el fabricante). Es habitual, en este sentido, que para los retráctiles de cable el fabricante obligue a utilizar un equipo de amarre específico de cinta para que sea éste el que reciba el impacto contra el borde. A veces, es más resistente la cinta que el cable en esta situación particular."
+                },
+                {
+                  "punto": "La longitud de la distancia libre de caída, que será mayor (alrededor de 4 metros) que en el caso de uso en vertical con factor 0."
+                }
+              ]
+            },
+            {
+              "punto": "No obstante, hay que apuntar que, en este tipo de uso, si no hay péndulo, es difícil que se produzca la caída, ya que el dispositivo suele bloquear con gran celeridad. Una variante de uso en horizontal sería utilizarlo en retención si el borde está a más distancia que la longitud del retráctil. En este caso, no es necesario que el retráctil esté especialmente diseñado para uso en horizontal"
+            },
+            {
+              "imagen": "img/mod04/horizontal.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "A veces, el retráctil está situado lejos del usuario, como es el caso de la protección en el ascenso por una escalera. En estos casos, el equipo de amarre no debe estar desplegado permanentemente porque perdería tensión el elemento recuperador. Para solventar esta situación, se suele  poner una cuerda fina que llega hasta el pie de la escalera. El usuario, con la ayuda del cordino, desenrolla el equipo y se lo conecta en el arnés. Otras veces se soluciona el problema con el uso de pértigas (tubos telescópicos con un gancho en su extremo). En el mercado existen dispositivos eléctricos que colocados al lado del retráctil lo pueden desplegar, evitando el tener cordinos hasta el suelo. En la siguiente imagen vemos un cordino que se acopla al enrollador retráctil."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/codino.jpg"
+        },
+        {
+          "clase": "texto",
+          "texto": "En cualquier caso, es importantísimo que no se suelte de golpe el equipo de amarre, ya que el enrollado rápido puede dar lugar a roturas del dispositivo. No se debe utilizar el retráctil para prevenir el hundimiento lento que se puede producir trabajando encima de ciertos materiales como arena almacenada o barro blando ya que, si no se alcanza la velocidad suficiente, el retráctil no se bloqueará. En el caso de que el retráctil deba estar permanentemente a la intemperie, es importante que, a la hora de elegir el tipo más adecuado, se tenga en cuenta este hecho. Algunos fabricantes indican de manera explícita que su equipo no se puede dejar a la intemperie. Otros fabricantes, sin embargo, lo autorizan señalando que es necesario realizar alguna operación especial (por ejemplo, engrasar el cable). Y, por último, algunos retráctiles están especialmente diseñados para entornos desfavorables como, por ejemplo, los equipos de amarre de cable y mecanismo interior inoxidable. Es importante mencionar que en el caso de que en las instrucciones no quede claro, no es recomendable dejarlos a la intemperie."
+        },
+        {
+          "clase": "lista",
+          "titulo": "En el caso de trabajos en entornos específicos, es relativamente sencillo encontrar retráctiles para atmósferas explosivas, aunque también podemos encontrar en el mercado los siguientes:",
+          "contenido": [
+            {
+              "punto": "Dispositivos especiales adecuados para cuando se debe hacer un uso muy continuado de él, donde hay un continuo desplegado y recuperación del equipo de amarre."
+            },
+            {
+              "punto": "Retráctil especial, que lleva incorporado un sistema de rescate por ascenso, también llamado recuperador. Estos dispositivos incorporan una función por la que, utilizando una manivela, se puede ascender a un accidentado. También se conocen con el nombre de rescatadores."
+            },
+            {
+              "punto": "Retráctiles que se diferencian de otros porque ayudan al rescate. Momentos después de detener una caída, comienza un descenso lento hasta el suelo. Para utilizarlos, se debe tener muy claro que se puede descender de este modo al herido, puesto que éste no podrá detener el descenso una vez que haya comenzado. Éstos se conocen también como autorescatadores, y son utilizados entre otros casos, en los trabajos en recintos considerados como espacios confinados."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "El uso de dos retráctiles a la vez es una técnica recomendada en la NTP 448 Trabajo sobre cubiertas de materiales ligeros. La principal virtud de que el usuario esté conectado a dos retráctiles a la vez, situados ambos a cierta distancia, es evitar o disminuir péndulos, tanto en un solo borde como en bordes no alineados. Es muy importante, antes de optar por esta solución, tener en cuenta los siguientes puntos:",
+          "contenido": [
+            {
+              "punto": "La detención de una caída por dos retráctiles que funcionan de manera simultánea puede ser muy estática al actuar dos sistemas de absorción de energía a la vez. Además, este uso no está contemplado por los fabricantes. Ante este hecho, también es cierto que es difícil que actúen los dos a la vez y que, dependiendo de la posición de los retráctiles con respecto a la caída, se puede conseguir que uno soporte más fuerza que otro."
+            },
+            {
+              "punto": "En las situaciones en las que los dos retráctiles repartan la fuerza de frenado, cuanto mayor sea el ángulo entre los dos equipos de amarre, mayor es la fuerza que recibirán los retráctiles. Esta situación – la misma que aparecerá en la utilización de los dobles ganchos y de las líneas de anclaje flexibles horizontales- debe ser estudiada en cada caso. El reparto de fuerzas se hace de la siguiente forma:"
+            },
+            {
+              "imagen": "img/mod04/fuerzas.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "REVISIÓN RETRÁCTILES",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Antes de su utilización, el usuario debería realizar una serie de comprobaciones, entre otras:",
+          "contenido": [
+            {
+              "punto": "El aspecto exterior del dispositivo (posibles puntos de corrosión, etc.)."
+            },
+            {
+              "punto": "Verificar que la función de bloqueo está operativa, dando un tirón del cable o la cinta. En algunos casos es difícil evaluar si frena lo suficientemente rápido. Algunos fabricantes recomiendan que, en caso de duda, se pruebe con 15 kg."
+            },
+            {
+              "punto": "El estado del cable o la cinta. Si el cable tiene un solo hilo roto, no se debe utilizar. Cuando el equipo de amarre es una cinta es más difícil de evaluar, aunque, por supuesto, cualquier corte lateral obliga a su retirada. La unión entre el elemento de amarre y el conector es una zona punto especialmente delicada que se debe revisar en profundidad. Algunos retráctiles de cable llevan una pieza de goma que recubre el cable en este lugar. Si se da esta situación, es necesario apartar esta pieza para comprobar el estado del cable."
+            },
+            {
+              "punto": "El perfecto funcionamiento de la recogida y desplegado del equipo de amarre."
+            },
+            {
+              "punto": "El estado de los conectores."
+            },
+            {
+              "punto": "Si el retráctil dispone de testigo de caída y éste informa que se ha producido una caída no se debe utilizar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "RESUMEN RETRACTILES",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Uso: detener una caída o evitarla regulando automáticamente la longitud de equipo de amarre disponible.<br><br>Tipos: según su uso, pueden estar diseñados únicamente para colocarlos por encima del usuario, para “factor 2”, para uso en plano horizontal y para uso en plano inclinado.<br><br>Según el material del equipo de amarre pueden ser de cable o de cinta.<br><br>Norma armonizada: sí, UNE-EN 360.<br><br>Tallas: sí, tiene diferentes longitudes.<br><br>Caducidad: sí, definida por el fabricante, normalmente 10 años.<br><br>Peso máximo de usuario: en Europa no se define, se prueban con 100 kg, pero hay fabricantes que lo autorizan hasta 140 kg.<br><br>Precauciones: tener en cuenta las limitaciones del modelo elegido y su adecuación con la situación particular de uso.<br><br>Trabajos especiales: existen dispositivos para trabajo en atmósfera explosiva, para su exposición continuada a la intemperie y para un alto número de ciclos diarios de desplegado y plegado del cable o cinta. También los hay con recuperador para rescate y de descenso automático después de una caída."
+        }
+      ]
+    },
+    {
+      "titulo": "ABSORBEDORES DE ENERGÍA",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Cualquier sistema anticaídas debe ser capaz de disminuir la fuerza de frenado hasta valores tolerables. Una de las formas de conseguirlo, es intercalando en el sistema un absorbedor de energía. Este elemento o componente se encarga de disipar la energía de la caída.<br><br>Los absorbedores de energía se pueden certificar cumpliendo las exigencias de la norma UNE-EN 355 Absorbedores de energía."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/absorbedor.jpg"
+        },
+        {
+          "clase": "texto",
+          "texto": "La norma UNE-EN 355 los define como un componente o elemento de un sistema anticaídas diseñado para disipar la energía cinética desarrollada durante la caída desde una altura determinada.<br><br>El absorbedor de energía se suele utilizar junto a un equipo de amarre, bien unidos directamente de fábrica y que, para separarlos, se debería romper o utilizar una herramienta especial; o unidos por el usuario, por ejemplo, a través de un conector. Lo más recomendable es utilizar el primer sistema, ya que evita errores de compatibilidad o la posibilidad de no utilizar el absorbedor."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/absorbedor2.jpg"
+        },
+        {
+          "clase": "texto",
+          "texto": "La norma UNE-EN 355 obliga a realizar un ensayo dinámico con los absorbedores. Para ello, se les coloca una cadena de manera que los conectores, más la cadena, más el absorbedor tenga 2m.<br><br>Si es un absorbedor con elemento de amarre integrado y mide menos de 2m se le complementa con una cadena. A continuación, se le une un peso de 100 kg y se le somete a una caída elevándolo los dos metros que permite el sistema de conexión. La caída será como mínimo de 4 m.<br><br>La fuerza de frenado no debe superar los 600 daN.<br><br>Un absorbedor de energía que haya pasado la norma está preparado para frenar una caída del doble de la distancia del sistema de conexión (si fuera una cuerda se hablaría de factor 2). Sin embargo, esto habrá que comprobarlo SIEMPRE con las instrucciones del fabricante, ya que éste, aunque haya pasado las pruebas, puede limitar su uso a condiciones más favorables (por ejemplo, no utilizarlo uniéndolo a un anclaje fijo que esté por debajo del elemento de enganche del arnés).<br><br>Los absorbedores de energía por separado no deben formar parte de un sistema de conexión de más de 2 metros. (Incluso de menos longitud si lo indica el fabricante).<br><br>De forma meramente orientativa, se pueden establecer las siguientes distancias de caída en función de la longitud del conjunto equipo de amarre, absorbedor y conectores.<br><br>El cálculo de la distancia libre se realiza sumando las diferentes longitudes, teniendo en cuenta que, de acuerdo con la norma, el absorbedor tiene una longitud máxima de 1,75 m.<br><br>L2 se refiere a la distancia real que se despliega el absorbedor, no la máxima permitida, por esa razón el resultado de la distancia libre de caída es menor que se realiza el sumatorio de todas las longitudes:"
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "LONGITUD DEL SISTEMA (m)"
+            },
+            {
+              "titulo": "DISTANCIA DE CAÍDA LIBRE NECESARIA (m)"
+            }
+          ],
+          "filaContenidos": [
+            {
+              "fila": [
+                {
+                  "texto": "2"
+                },
+                {
+                  "texto": "Entre 6 y 6.5"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "1.5"
+                },
+                {
+                  "texto": "5"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "1.15"
+                },
+                {
+                  "texto": "4.35"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "Para elegir la distancia idónea para un trabajo particular se tendrá en cuenta:",
+          "contenido": [
+            {
+              "punto": "La distancia libre existente."
+            },
+            {
+              "punto": "El trabajo que se debe realizar."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "Si no existe suficiente distancia libre se pueden aplicar, entre otras, estas soluciones:",
+          "contenido": [
+            {
+              "punto": "Elevar el punto de anclaje. Con esto, además de aumentar la distancia libre, se consigue que, en caso de caída, se despliegue menos el absorbedor al ser la caída o el factor de caída (o ambos) de menor longitud."
+            },
+            { "punto": "Disminuir la longitud del dispositivo utilizando uno más corto." },
+            {
+              "punto": "Elegir en el mercado un dispositivo que requiera poca distancia de frenado. No todos los absorbedores requieren la misma distancia."
+            },
+            {
+              "punto": "Utilizar un retráctil (ver apartado 5.7), que requiere menor distancia de frenado, u otro sistema que consiga reducir esta distancia (como ya se indicó en el punto 5.5.2, empieza a haber en el mercado algunos equipos de amarre que permiten ciertas caídas)."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "Las CAÍDAS CON PÉNDULO deben ser evitadas por dos causas:",
+          "contenido": [
+            {
+              "punto": "Posibilidad de impactar con un obstáculo distinto del suelo."
+            },
+            {
+              "punto": "Incrementar las posibilidades de rotura del equipo si se cae sobre un borde."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Aunque tiene el beneficio de que una caída totalmente libre de obstáculos con péndulo las fuerzas de frenado son menores, lo aconsejable en la mayoría de los casos es evitarlas. Para ello, se debe colocar el punto de anclaje fijo en la vertical del elemento de enganche del arnés. Una situación peligrosa se produce cuando al detener la caída un dispositivo de este tipo para la caída, el ELEMENTO DE AMARRE APOYA SOBRE UN BORDE. Esta situación es más peligrosa si además se produce un péndulo."
+        },
+        {
+          "clase": "lista",
+          "titulo": "Ante esta situación se pueden adoptar, entre otras las siguientes medidas:",
+          "contenido": [
+            {
+              "punto": "Colocar el punto de anclaje en un lugar que evite la caída sobre arista y los péndulos."
+            },
+            {
+              "punto": "Utilizar equipos de amarre textiles reforzados para las aristas (fáciles de encontrar en el mercado), de cable o con alma metálica, proteger el equipo de amarre con un protector anticorte o proteger el borde para que sea menos abrasivo."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "La longitud del equipo de amarre que trabaja con el absorbedor debe ser lo mínima posible para que el trabajador pueda realizar su labor con comodidad. Un componente largo puede tener consecuencias negativas ya que se puede enredar en extremidades e incluso en el cuello. Esta situación puede provocar en si misma una caída o causar daños al trabajador en la detención de la misma. Para evitarlo, el trabajador debe colocar bien el equipo, lo que ocasiona un riesgo añadido."
+        },
+        {
+          "clase": "lista",
+          "titulo": "Por otra parte, si el componente es largo, la caída será mayor con todas las consecuencias que de ello se derivan. Por esto es aconsejable:",
+          "contenido": [
+            {
+              "punto": "Elegir la medida mínima necesaria en función del trabajo que se realice y teniendo en cuenta el espacio libre de caída disponible."
+            },
+            {
+              "punto": "Si se realizan trabajos distintos, es útil un equipo de amarre regulable."
+            },
+            {
+              "punto": "Puede ser una buena opción utilizar retráctiles "
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Al elegir utilizar el elemento de enganche dorsal o esternal, se debería evaluar si esto influye en la longitud necesaria."
+        },
+        {
+          "clase": "lista",
+          "titulo": "TRABAJOS ESPECIALES<br>Al igual que en apartados anteriores, se pueden encontrar en el mercado absorbedores para trabajos especiales, como los que se mencionan a continuación:",
+          "contenido": [
+            {
+              "punto": "Absorbedores de energía para soldadores o trabajos en caliente. "
+            },
+            {
+              "punto":"Absorbedores con equipo de amarre para trabajo con herramientas cortantes. Se pueden utilizar protectores anticorte.  Aun siendo complicados de encontrar existen absorbedores con equipos de amarre integrados metálicos. También se puede unir un absorbedor a un equipo de amarre con alma metálica. El absorbedor en sí no estará protegido, por lo que se utilizará preferentemente en la espalda."
+            },
+            {
+              "punto": "Absorbedores con equipo de amarre para atmósferas atex y dieléctricos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "REVISIÓN POR EL USUARIO",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Además de lo indicado para los equipos de amarre, se debe observar que no han empezado a desplegarse, comprobando las costuras que se han podido romper y viendo que están dentro del rango de utilización si tiene testigo el absorbedor. Si lleva plástico protector debe estar entero. Un punto delicado es la zona de roce entre el plástico protector y la cinta o cuerda del equipo de amarre."
+        }
+
+      ]
+    },
+    {
+      "titulo": "RESUMEN ABSORBEDORES",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Uso: absorber la energía cinética de una caída. Habitualmente se unen a un equipo de amarre o lo tienen incorporado. Suelen funcionar por descosido.<br><br>Tipos: aislados, con equipo de amarre incorporado, con equipo de amarre doble e incorporados a otros equipos.<br><br>Regulación: el elemento de amarre que se incorpore la puede tener.<br><br>Norma armonizada: sí, UNE-EN 355 Equipos de protección individual contra caídas de altura. Absorbedores de energía.<br><br>Tallas: sí, existen diferentes longitudes.<br><br>Caducidad: sí, está definida por el fabricante.<br><br>Peso máximo de usuario: en Europa no se define, se prueban con 100 kg.<br><br>Precauciones: principalmente se debe tener en cuenta la distancia de frenado, relacionada con la posición del punto de anclaje y la longitud del dispositivo, y los posibles roces con aristas en una caída.<br><br>Trabajos especiales: existen dispositivos para trabajo en caliente, atmósfera explosiva y dieléctricos."
+        }
+      ]
+    },  
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "La norma UNE-EN 360 define al retráctil como un dispositivo anticaídas que dispone de una función de bloqueo automático y de un mecanismo automático de tensión y retroceso del elemento de amarre. El propio dispositivo puede integrar un medio de disipación de energía o bien incorporar un absorbedor de energía en el elemento de amarre retráctil.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Un dispositivo retráctil puede utilizarse:",
+              "respuestas": [
+                {
+                  "opcion": "Vertical anclado por encima del usuario.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Vertical a la altura de los pies o en horizontal.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "La NTP 448 sobre trabajos en altura prohibe el uso de dos retractiles en los trabajos sobre cubiertas de materiales ligeros como la uralita.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "En cuanto a los absorbedores de energía:",
+              "respuestas": [
+                {
+                  "opcion": "El absorbedor de energía utiliza junto a un equipo de amarre, unidos directamente de fábrica o unidos por el usuario, por ejemplo, a través de un conector. ",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Lo más recomendable es utilizar el primer sistema, ya que evita errores de compatibilidad o la posibilidad de no utilizar el absorbedor.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "En el mercado de absorbedores podemos encontrar:",
+              "respuestas": [
+                {
+                  "opcion": "Específicos para soldadura, atex, etc",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Todos son válidos en cualquier tipo de trabajo.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "En trabajos de soldadura está prohibido el uso de absorbedores.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "La revisión por parte del usuario  de las cuerdas, se debe hacer en función de las instrucciones del fabricante, pero se pueden dar unas pautas generales:",
+              "respuestas": [
+                {
+                  "opcion": "Las partes metálicas no deben estar dobladas, con señales de óxido ni con fisuras y los conectores deben cerrar automáticamente y abrirse sin dificultad.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Las cintas no deben tener cortes laterales.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Los conectores de aluminio:",
+              "respuestas": [
+                {
+                  "opcion": "Los conectores de aluminio son más ligeros y resisten mejor la oxidación. ",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Son más fuertes ante el desgaste y los golpes. ",
+                  "correcto": false
+                },
+                {
+                  "opcion": "No se les puede anodizar para crear una capa de protección al óxido sobre el conector.",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Hasta ahora hemos visto en cuanto a los sistemas anticaídas, los arneses, elementos de amarre y conectores. En el próximo módulo, hablaremos en profundidad de las líneas de vida."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

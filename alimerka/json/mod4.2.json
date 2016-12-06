@@ -1,0 +1,1623 @@
+﻿{
+  "modulo": "Mod. IV.2: Categorías Referenciadas de Dulces",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Conocimiento de Producto",
+      "subclase": "pattern",
+      "fondo": "img/comunes/portada.svg",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "animacion": "slideInRight",
+          "imagen": "img/m4.2/portadaImg.svg"
+
+        }
+      ]
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "animacion": "fadeInLeft",
+              "texto": "Te damos la bienvenida al <b>cuarto</b> de los módulos del curso de \"Conocimiento de Producto: Sección de Panadería\".<br><br>Con los módulos anteriores has descubierto por qué los productos de la sección de panadería son <b>únicos</b> y <b>diferentes</b>, y lo fundamental que resulta saber detectar de forma exacta las necesidades planteadas por nuestros clientes.<br><br>También nos hemos aproximado a la clasificación de los productos bajo el punto de vista del <b>cliente</b>, y a las pautas más adecuadas a la hora de recomendar nuestros productos. En el módulo actual, vamos a conocer las categorías más destacables de los grupos de <b>productos dulces</b> de la sección de panadería, categorías que podrás encontrar detallada e individualmente en el listado de productos que tenemos preparado para ti."
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "animacion": "fadeInRight",
+              "imagen": "img/m4.2/campo.jpg",
+              "ancho": 490
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Objetivos",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "rubberBand",
+          "texto": "Con el curso de \"Conocimiento de Producto: Sección de Panadería\" pretendemos facilitar algunas claves con el <b>objetivo</b> de convertirte en un profesional experto en la venta de productos de panadería. Siguiendo sus pautas, lograrás ajustar cada producto que vendas a las necesidades y preferencias del cliente, alcanzando el objetivo final de tu trabajo: <b>que el cliente vuelva</b>."
+        },
+        {
+          "clase": "lista",
+          "subclase": "objetivos",
+          "animacion": "bounce",
+          "titulo": "Objetivos a conseguir con este Módulo:",
+          "contenido": [
+            {
+              "punto": "Objetivos Principales:",
+              "contenido": [
+                {
+                  "punto": "Aprender las características principales de los productos Dulces."
+                },
+                {
+                  "punto": "Conocer los ingredientes principales con los que se elabora cada grupo de productos."
+                }
+              ]
+            },
+            {
+              "punto": "Objetivo Secundario:",
+              "contenido": [
+                {
+                  "punto": "Asociar los productos dentro de las categorías y características que le corresponden."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "animacion": "rubberBand",
+          "imagen": "img/comunes/madalena.svg",
+          "ancho": 200
+        }
+      ]
+    },
+    {
+      "titulo": "Categorías referenciadas. Definiciones",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "De forma general, estas son las características que vamos a ver en todos los productos de la sección panadería."
+        },
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre cada pestaña para ver una explicación."
+        },
+        {
+          "clase": "tabsB",
+          "subclase": "izquierda",
+          "animacion": "rotateInDownLeft",
+          "contenido": [
+            {
+              "titulo": "Sabor",
+              "texto": "El <b>Sabor</b> es la característica que nos permite la clasificación del producto en: Pan, Dulce o Salado, siempre orientado de cara al cliente."
+            },
+            {
+              "titulo": "Conservación",
+              "texto": "La <b>Conservación</b> nos proporciona información sobre los principios de conservación y vida útil del producto."
+            },
+            {
+              "titulo": "Relleno",
+              "texto": "El <b>Relleno</b> nos detalla si el producto lleva o no relleno, y en caso afirmativo en qué consiste."
+            },
+            {
+              "titulo": "Tipo de Masa",
+              "texto": "El <b>Tipo de Masa</b>, tal y como su propio nombre indica, se refiere al tipo de masa con el que se elabora el producto (pan, hojaldre, bollería, masa de batido)."
+            },
+            {
+              "titulo": "Decoración",
+              "texto": "La categoría <b>Decoración</b> nos aporta información sobre las posibles operativas que admite el producto con el fin de mejorar su sabor o estética."
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "animacion": "tada",
+          "imagen": "img/comunes/rodillo.png",
+          "ancho": 200
+        },
+        {
+          "clase": "tabsB",
+          "subclase": "derecha",
+          "animacion": "rotateInUpRight",
+          "contenido": [
+            {
+              "titulo": "Tamaño",
+              "texto": "Hablamos de <b>Tamaño</b> en el caso de los productos dulces y salados o <b>Formato</b> en el caso de los productos de pan. Esta característica orienta sobre cómo de grande o de pequeño es el producto."
+            },
+            {
+              "titulo": "Corteza-Miga",
+              "texto": "<b>Corteza-Miga</b> es una característica particular de los productos de Pan, y nos aporta información a destacar de alguna de estas dos cualidades."
+            },
+            {
+              "titulo": "Salud",
+              "texto": "La <b>Salud</b> es una característica particular de los productos de pan y salados, y se refiere a posibles beneficios de salud en los productos de panadería. Nos puede facilitar información del público para el que puede ser adecuado (ejemplo: productos sin sal adecuados para dietas bajas en sal o personas con hipertensión)."
+            },
+            {
+              "titulo": "Ingredientes",
+              "texto": "Los <b>Ingredientes</b> nos dan una aproximación a la composición básica del producto, con los componentes destacables del mismo."
+            },
+            {
+              "titulo": "Precio",
+              "texto": "El <b>Precio</b> es el precio de venta al público. En todos los casos se muestra por unidad de producto. En el caso de productos cuyo formato de venta habitual sea en pack de varias unidades, además del precio unitario, se muestra el precio de cada pack."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Cuadro de categorías referenciadas",
+      "contenido": [
+
+        {
+          "clase": "texto",
+          "animacion": "fadeInLeftBig",
+          "texto": "En el siguiente cuadro se resumen las características que vas a encontrar en cada grupo de productos de la sección de panadería:"
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "zoomIn",
+          "subclase": "centroAncho",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/comunes/espiga.svg",
+              "ancho": 200
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "PRODUCTOS DE PAN"
+                },
+                {
+                  "titulo": "PRODUCTOS DULCES"
+                },
+                {
+                  "titulo": "PRODUCTOS SALADOS"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Sabor"
+                    },
+                    {
+                      "texto": "Sabor"
+                    },
+                    {
+                      "texto": "Sabor"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Formato"
+                    },
+                    {
+                      "texto": "Tamaño"
+                    },
+                    {
+                      "texto": "Tamaño"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Conservación"
+                    },
+                    {
+                      "texto": "Conservación"
+                    },
+                    {
+                      "texto": "Conservación"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Corteza-miga"
+                    },
+                    {
+                      "texto": "Relleno"
+                    },
+                    {
+                      "texto": "Relleno"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Salud"
+                    },
+                    {
+                      "texto": "Tipo de masa"
+                    },
+                    {
+                      "texto": "Salud"
+                    }
+                  ]
+
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Tipo de masa"
+                    },
+                    {
+                      "texto": "Ingredientes"
+                    },
+                    {
+                      "texto": "Tipo de masa"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Ingredientes"
+                    },
+                    {
+                      "texto": "Decoración"
+                    },
+                    {
+                      "texto": "Ingredientes"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Precio"
+                    },
+                    {
+                      "texto": "Precio"
+                    },
+                    {
+                      "texto": "Precio"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "subclase": "invertirV",
+              "imagen": "img/comunes/espiga.svg",
+              "ancho": 200
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Categorías referenciadas para productos Dulces",
+      "fondo": "img/m4.2/desayuno.svg",
+      "subclase": "pattern",
+      "contenido": [
+        {
+          "clase": "acordeonSub",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "TAMAÑO",
+
+              "texto": "Es una categoría que nos informa sobre cómo de grande o de pequeño es el producto. En los productos dulces existe una gran variedad de tamaños."
+
+            },
+            {
+              "titulo": "TIPO DE MASA",
+
+              "texto": "Dentro de los productos clasificados como de Sabor Dulce, se trabajan varios tipos de masas, siendo los principales el hojaldre, la masa de batido y la bollería. La característica básica de todas ellas es que el ingrediente fundamental es la harina de trigo."
+
+            },
+            {
+              "titulo": "CONSERVACIÓN",
+
+              "texto": "La Conservación nos proporciona información sobre los principios de conservación y vida útil del producto. De las tres grandes variedades de masa del grupo de productos Dulces, el Hojaldre y la Masa de Batido se conservan  mejor en el tiempo que la Bollería."
+
+            },
+            {
+              "titulo": "INGREDIENTES",
+
+              "texto": "Dentro de los productos de clasificación Dulce, los ingredientes principales dependerán del Tipo de Masa."
+
+            },
+            {
+              "titulo": "RELLENO",
+
+              "texto": "El Relleno nos detalla si el producto lleva o no relleno, y en caso afirmativo en qué consiste."
+
+            },
+            {
+              "titulo": "DECORACIÓN",
+
+              "texto": "La categoría Decoración nos aporta información sobre las posibles operativas que admite el producto con el fin de mejorar su sabor o estética."
+
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Tamaño de dulces",
+      "fondo": "img/m4.2/desayuno.svg",
+      "subclase": "pattern",
+      "contenido": [
+        {
+          "clase": "acordeonSub",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "TAMAÑO",
+              "contenido": [
+                {
+                  "titulo": "Grande",
+
+                  "texto": "En general son productos que hay que cortar y partir y están pensados para el consumo de varias personas. Es el caso de los Roscones de Reyes y de la Tarta de Queso."
+
+                },
+                {
+                  "titulo": "Medio",
+
+                  "texto": "Están orientados también para el consumo de más de una persona o en varias ocasiones. En este grupo tenemos los Mini Roscones y los Bizcochos."
+
+                },
+                {
+                  "titulo": "Pieza",
+
+                  "texto": "Es muy variado. Está formado por productos orientados a un consumo individual (en principio sería una unidad por persona). Como ejemplos representativos de este tamaño podemos citar el Suizo o el Croissant."
+
+                },
+                {
+                  "titulo": "Mini",
+
+                  "texto": "Consiste en una versión reducida de la pieza y que permite degustar y compartir el producto en pequeñas dosis, sin tener que cortarlo y manipularlo. En este caso, muchas veces el producto se vende en packs de varias unidades. Como ejemplos representativos tenemos los Mini Croissant o las Palmeritas."
+
+                }
+              ]
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Tipos de masa de dulces",
+      "fondo": "img/m4.2/desayuno.svg",
+      "subclase": "pattern",
+      "contenido": [
+        {
+          "clase": "acordeonSub",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "TIPOS DE MASAS",
+              "contenido": [
+                {
+                  "titulo": "Bollería",
+
+                  "texto": "Es una masa blanda y suave."
+
+                },
+                {
+                  "titulo": "Hojaldre",
+
+                  "texto": "Es una masa crujiente y un poco más dura que la masa habitual de bollería."
+
+                },
+                {
+                  "titulo": "Masa de Batido",
+
+                  "texto": "Es una masa sometida a batido."
+
+                },
+                {
+                  "titulo": "Otras",
+
+                  "texto": "Sucré, frixuelo, tarta, pan..."
+
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Ingredientes de dulces",
+      "fondo": "img/m4.2/desayuno.svg",
+      "subclase": "pattern",
+      "contenido": [
+        {
+          "clase": "acordeonSub",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "INGREDIENTES",
+              "contenido": [
+                {
+                  "titulo": "Masa Tipo Bollería",
+
+                  "texto": "Los productos cuyo tipo de masa es Bollería fundamentalmente se componen de: harina de trigo, margarina, levadura y azúcar."
+
+                },
+                {
+                  "titulo": "Masa Tipo Hojaldre",
+
+                  "texto": "Los productos cuyo tipo de masa es Hojaldre fundamentalmente se componen de: harina de trigo, margarina y azúcar."
+
+                },
+                {
+                  "titulo": "Masa de Batido",
+
+                  "texto": "Los productos cuyo tipo de masa es Masa de Batido fundamentalmente se componen de: harina de trigo, aceite vegetal, huevo e impulsor."
+
+                },
+                {
+                  "titulo": "Otros",
+
+                  "texto": "También hemos de tener en cuenta que hay productos que incorporan ingredientes no habituales a los que confieren un sabor o características especiales.",
+                  "contenido": [
+                    {
+                      "titulo": "Harina integral de trigo",
+
+                      "texto": "Solamente aparece en las Magdalenas Integrales."
+
+                    },
+                    {
+                      "titulo": "Mantequilla",
+
+                      "texto": "Es el caso del Croissant Mantequilla, Mini Croissant Mantequilla y Mini Roscas de Mantequilla."
+
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Conservación, relleno y decoración de dulces",
+      "fondo": "img/m4.2/desayuno.svg",
+      "subclase": "pattern",
+      "contenido": [
+        {
+          "clase": "acordeonSub",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "CONSERVACIÓN",
+
+              "texto": "De forma genérica, todos los productos dulces son de Conservación Normal, mantenidos a temperatura ambiente en su propio envase, y cerrados.<br>No obstante, hay que tener en cuenta que aquellos productos que llevan rellenos de crema, nata, manzana o mousse de chocolate se deben conservar en refrigeración para evitar la alteración del relleno. Estas condiciones de conservación han de tenerse en cuenta cuando el cliente quiera transportar los productos."
+
+            },
+            {
+              "titulo": "RELLENO",
+
+              "texto": "Con objeto de mejorar el producto o crear más variedad del mismo, algunos productos Dulces incorporan a la masa algún elemento nuevo como relleno, lo que confiere un sabor específico a la masa según el relleno introducido. Algunas veces el relleno ya viene incluido en el producto por defecto (por ejemplo: Herradura de Cabello, Abanico, Napolitana de Chocolate...) pero la mayoría de las ocasiones será la propia panadera la que rellene el producto durante la elaboración. En estos casos, el producto incluye en su denominación el nombre del relleno (Por ejemplo: Croissant París - Croissant París Relleno de Nata; Ensaimada - Ensaimada Rellena de Crema). En las próximas diapositivas, mostraremos ejemplos de rellenos dulces."
+
+            },
+            {
+              "titulo": "DECORACIÓN",
+
+              "texto": "La Decoración abarca todas las operativas que tienen como finalidad mejorar el sabor o estética de un artículo, mediante la adición de nuevos componentes al producto base. Es un proceso que hay que cuidar al máximo en la elaboración de las piezas, ya que va a ser determinante a la hora de que los clientes se decidan a efectuar la compra de nuestros productos. En las próximas diapositivas, mostraremos ejemplos de decoración dulce."
+
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Relleno dulce",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "pulse",
+          "texto": "Estos son algunos de los rellenos más habituales:"
+        },
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pasa el ratón sobre las imágenes para ver la información de cada una de ellas."
+        },
+        {
+          "clase": "circulo",
+          "subclase": "semi",
+          "animacion": "fadeInUp",
+          "contenido": [
+            {
+              "titulo": "Nuez",
+              "texto": "Es un relleno que habitualmente el producto incluye por defecto, como en el caso de la Casadiella de Nuez.",
+              "imagen": "img/m4.2/rellenosDulce/nuez.jpg"
+            },
+            {
+              "titulo": "Manzana",
+              "texto": "El relleno de manzana se añade a productos como: Hojaldres (por ejemplo: Hojaldre relleno de manzana; Hojaldre de Manzana), Magdalenas (Magdalenas con Manzana) o Tartas (Tarta de Manzana).",
+              "imagen": "img/m4.2/rellenosDulce/manzana.jpg"
+            },
+            {
+              "titulo": "Cabello de Ángel",
+              "texto": "Este relleno lo incluyen por defecto productos de hojaldre como las Herraduras de Cabello, Abanicos, Espigas de Cabello y Mini Espigas de Cabello.",
+              "imagen": "img/m4.2/rellenosDulce/cabelloAngel.jpg"
+            },
+            {
+              "titulo": "Chocolate",
+              "texto": "Es un relleno que habitualmente el producto incluye por defecto (Napolitana de Chocolate, Caña de Chocolate).",
+              "imagen": "img/m4.2/rellenosDulce/chocolate.jpg"
+            },
+            {
+              "titulo": "Nata",
+              "texto": "Es otro de los rellenos principales. Al igual que en los rellenos de Mousse de chocolate o Crema Pastelera, los productos a los que incorporamos nata, pasan a denominarse añadiendo \"Relleno de Nata\" al nombre del producto. Algunos ejemplos: Brazo de Gitano relleno de nata, Ensaimada Rellena de Nata, Reinas rellenas de Nata, etc...",
+              "imagen": "img/m4.2/rellenosDulce/nata.jpg"
+            },
+            {
+              "titulo": "Crema Pastelera",
+              "texto": "Es otro de los rellenos básicos. Como en el caso anterior, los productos a los que se incorpore este relleno se denominarán con la expresión: \"Relleno de Crema\". Algunos ejemplos: Pepito Relleno de Crema, Palmera Rellena de Crema, Mini Bombas rellenas de Crema, etc...",
+              "imagen": "img/m4.2/rellenosDulce/cremaPastelera.jpg"
+            },
+            {
+              "titulo": "Mousse de Chocolate",
+              "texto": "Es uno de los rellenos fundamentales, junto con la Crema Pastelera y la Nata. De aplicación en numerosos productos cuya denominación incluirá entonces la expresión: \"Relleno de Chocolate\". Algunos ejemplos: Palmera rellena de chocolate, Croissant París relleno de Chocolate, Frixuelo relleno de chocolate, etc...",
+              "imagen": "img/m4.2/rellenosDulce/mousseChocolate.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Decoración dulce",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "pulse",
+          "texto": "Estas son algunas de las decoraciones más habituales:"
+        },
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pasa el ratón sobre las imágenes para ver la información de cada una de ellas."
+        },
+        {
+          "clase": "circulo",
+          "subclase": "horizontal",
+          "animacion": "fadeInUp",
+          "contenido": [
+            {
+              "titulo": "<b>ABRILLANTADO</b>",
+              "texto": "Consiste en aplicar mediante una brocha el líquido abrillantador al producto. Esta decoración puede ser previa o posterior al horneado de la pieza. Son muchos los artículos que admiten esta decoración: Croisssants, Herraduras y Espigas de cabello, Mují, Frixuelos, Bizcochos...",
+              "imagen": "img/m4.2/decoracionDulce/abrillantado.jpg"
+            },
+            {
+              "titulo": "<b>AZÚCAR</b>",
+              "texto": "Consiste en añadir azúcar a la pieza a decorar. Esta decoración puede ser previa o posterior al horneado (si es anterior al horneado primeramente debemos fijar el azúcar). Entre los distintos productos que admiten esta decoración destacan: Suizos, Croissants y Magdalenas.",
+              "imagen": "img/m4.2/decoracionDulce/azucar.jpg"
+            },
+            {
+              "titulo": "<b>AZÚCAR GLASS</b>",
+              "texto": " Consiste en espolvorear azúcar glass sobre la pieza o parte de la misma a decorar. Esta decoración es posterior al horneado de la pieza.",
+              "imagen": "img/m4.2/decoracionDulce/azucarGlass.jpg"
+            },
+            {
+              "titulo": "<b>GLASEADO</b>",
+              "texto": "Consiste en preparar una mezcla homogénea de azúcar glass y agua, que aplicada al producto, permita ver en éste una capa visible de glaseado. Es un proceso que se realiza siempre posteriormente al horneado de la pieza. Algunos productos en los que se aplica este proceso son: Palmera Glaseada, Reinas rellenas de Nata, etc.",
+              "imagen": "img/m4.2/decoracionDulce/glaseado.jpg"
+            },
+            {
+              "titulo": "<b>CHOCOLATE</b>",
+              "texto": "Podemos o bien chocolatear directamente la superficie de la pieza introduciendo la zona a decorar a modo de baño (por ejemplo: Hojaldres de chocolate, Palmera de Chocolate, Palmerita de chocolate...) o bien mediante el uso de una manga que rellenaremos con la cantidad que vayamos a necesitar para la decoración (Napolitanas de chocolate, Mini Bombas, Croissants, etc.). Es un proceso posterior al horneado de la pieza.",
+              "imagen": "img/m4.2/decoracionDulce/chocolate.jpg"
+            },
+            {
+              "titulo": "<b>CREMA</b>",
+              "texto": "Consiste en la aplicación de crema mediante una manga o con espátula roja sobre el artículo a decorar. Este proceso de decoración puede ser anterior o posterior al proceso de horneado de la pieza. Es una decoración característica del Brazo de Gitano, en el que generamos una película que oculta la base y sobre la cual podemos aplicar otras decoraciones (fruta confitada, chocolate, etc...)",
+              "imagen": "img/m4.2/decoracionDulce/crema.jpg"
+            },
+            {
+              "titulo": "<b>FRUTA CONFITADA</b>",
+              "texto": "Consiste en la colocación de la fruta confitada o partes de la misma sobre la pieza a decorar. Esta decoración puede ser anterior o posterior al proceso de horneado de la pieza. Algunos ejemplos de decoración con fruta confitada podemos encontrarlos en: Brazo de Gitano, Lenguas de Gato, Roscón de Reyes, Mují, etc.",
+              "imagen": "img/m4.2/decoracionDulce/frutaConfitada.jpg"
+            },
+            {
+              "titulo": "<b>GRANILLO DE ALMENDRA</b>",
+              "texto": "Consiste en la dispersión del granillo de almendra sobre la superficie del producto a decorar. Esta decoración es siempre anterior al horneado de la pieza. Podemos encontrar esta decoración en multitud de artículos: Napolitanas de Chocolate, Croissants, Bizcochos, Lazos y Lacitos, Hojaldres, etc.",
+              "imagen": "img/m4.2/decoracionDulce/granilloAlmendra.jpg"
+            },
+            {
+              "titulo": "<b>GRANILLO DE CHOCOLATE</b>",
+              "texto": "Consiste en cubrir partes de la pieza a decorar con el granillo de chocolate. Previamente se pinta la pieza con brillo para que se fije el granillo. Esta decoración es posterior al horneado de la pieza. Entre los productos que se pueden decorar con este procedimiento tenemos: Roscón de Reyes, Napolitana de Chocolate, Caña de Chocolate, Croissant París Relleno de Chocolate, etc...",
+              "imagen": "img/m4.2/decoracionDulce/granilloChocolate.jpg"
+            },
+            {
+              "titulo": "<b>PINTADO O DORADO</b>",
+              "texto": "Consiste en aplicar el dorador sobre la pieza a decorar. Es un proceso previo al horneado. Algunos ejemplos de productos con esta decoración son: Mini Bombas, Milhojas, Mini Ensaimadas, etc...",
+              "imagen": "img/m4.2/decoracionDulce/dorado.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Recuerda!",
+      "fondo": "img/m4.2/desayuno_cama.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "anillas",
+          "animacion": "rollIn",
+          "texto": "<b>Recuerda:</b> Confía en el producto que has preparado, lo has cocinado tú, es un buen producto, y tienes que sentirte orgullosa de venderlo y de que le guste a los clientes. Has de estar segura de que estas dando lo mejor a tus clientes."
+        }
+      ]
+    },
+
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Arrastra cada producto a una categoría de tal manera que no quede ninguna vacía."
+        },
+        {
+          "clase": "autoevalArrastrar",
+          "contenedores": [
+            {
+              "clase": "caja",
+              "texto": "Tamaño: Grande",
+              "data_id": 1
+            },
+            {
+              "clase": "caja",
+              "texto": "Tipo de Masa: Hojaldre",
+              "data_id": 2
+            },
+            {
+              "clase": "caja",
+              "texto": "Relleno: Cabello de ángel",
+              "data_id": 3
+            },
+            {
+              "clase": "caja",
+              "texto": "Decoración: Chocolate",
+              "data_id": 5
+            },
+            {
+              "clase": "caja",
+              "texto": "Conservación: En frío",
+              "data_id": 6
+            },
+            {
+              "clase": "caja",
+              "texto": "Tamaño: Mini",
+              "data_id": 7
+            },
+            {
+              "clase": "caja",
+              "texto": "Tipo de Masa: Masa de batido",
+              "data_id": 8
+            },
+            {
+              "clase": "caja",
+              "texto": "Relleno: Nuez",
+              "data_id": 9
+            },
+            {
+              "clase": "caja",
+              "texto": "Tipo de Masa: Sucré",
+              "data_id": 10
+            },
+            {
+              "clase": "caja",
+              "texto": "Decoración: Azúcar Glass",
+              "data_id": 11
+            }
+          ],
+          "contenidos": [
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.2/autoeval/dulces01.png",
+              "data_caja": 8
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.2/autoeval/dulces03.png",
+              "data_caja": 9
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.2/autoeval/dulces04.png",
+              "data_caja": 11
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.2/autoeval/dulces05.png",
+              "data_caja": 7
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.2/autoeval/dulces06.png",
+              "data_caja": 10
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.2/autoeval/dulces07.png",
+              "data_caja": 5
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.2/autoeval/dulces08.png",
+              "data_caja": 6
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.2/autoeval/dulces09.png",
+              "data_caja": 3
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.2/autoeval/dulces10.png",
+              "data_caja": 1
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.2/autoeval/dulces11.png",
+              "data_caja": 2
+            }
+          ],
+          "solucion": "img/m4.2/autoeval/solucion.png"
+        }        
+      ]
+    },
+    {
+      "titulo": "Autoevaluación 2",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.2/autoeval2/dulces01.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "TAMAÑO"
+                },
+                {
+                  "titulo": "TIPO DE MASA"
+                },
+                {
+                  "titulo": "RELLENO"
+                },
+                {
+                  "titulo": "DECORACIÓN"
+                },
+                {
+                  "titulo": "CONSERVACIÓN"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Hojaldre"
+                    },
+                    {
+                      "texto": "Manzana"
+                    },
+                    {
+                      "texto": "Fruta Confitada"
+                    },
+                    {
+                      "texto": "Temperatura ambiente"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mediano"
+                    },
+                    {
+                      "texto": "Bollería"
+                    },
+                    {
+                      "texto": "Nata"
+                    },
+                    {
+                      "texto": "Chocolate"
+                    },
+                    {
+                      "texto": "Frío"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mini"
+                    },
+                    {
+                      "texto": "Sucre"
+                    },
+                    {
+                      "texto": "Mousse de chocolate"
+                    },
+                    {
+                      "texto": "Azúcar"
+                    },
+                    {
+                      "texto": "--"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Pieza"
+                    },
+                    {
+                      "texto": "Masa de batido"
+                    },
+                    {
+                      "texto": "Crema pastelera"
+                    },
+                    {
+                      "texto": "Granillo de chocolate"
+                    },
+                    {
+                      "texto": ""
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "Tarta"
+                    },
+                    {
+                      "texto": "Cabello de ángel"
+                    },
+                    {
+                      "texto": "Granillo de Almendra"
+                    },
+                    {
+                      "texto": ""
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": ""
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": ""
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 2 ],
+                [ 1, 2 ],
+                [ 2, 3 ],
+                [ 3, 2 ],
+                [ 4, 1 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación 3",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.2/autoeval2/dulces02.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "TAMAÑO"
+                },
+                {
+                  "titulo": "TIPO DE MASA"
+                },
+                {
+                  "titulo": "RELLENO"
+                },
+                {
+                  "titulo": "DECORACIÓN"
+                },
+                {
+                  "titulo": "CONSERVACIÓN"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Hojaldre"
+                    },
+                    {
+                      "texto": "Manzana"
+                    },
+                    {
+                      "texto": "Fruta Confitada"
+                    },
+                    {
+                      "texto": "Temperatura ambiente"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mediano "
+                    },
+                    {
+                      "texto": "Bollería"
+                    },
+                    {
+                      "texto": "Nata"
+                    },
+                    {
+                      "texto": "Chocolate"
+                    },
+                    {
+                      "texto": "Frío"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mini"
+                    },
+                    {
+                      "texto": "Sucré"
+                    },
+                    {
+                      "texto": "Mousse de chocolate"
+                    },
+                    {
+                      "texto": "Azúcar glass"
+                    },
+                    {
+                      "texto": "--"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Pieza"
+                    },
+                    {
+                      "texto": "Masa de batido"
+                    },
+                    {
+                      "texto": "Crema pastelera"
+                    },
+                    {
+                      "texto": "Granillo de chocolate"
+                    },
+                    {
+                      "texto": ""
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "Tarta"
+                    },
+                    {
+                      "texto": "Cabello de ángel"
+                    },
+                    {
+                      "texto": "Granillo de Almendra"
+                    },
+                    {
+                      "texto": ""
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": ""
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": ""
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 3 ],
+                [ 1, 0 ],
+                [ 2, 5 ],
+                [ 3, 1 ],
+                [ 3, 4 ],
+                [ 4, 0 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación 4",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.2/autoeval2/dulces03.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "TAMAÑO"
+                },
+                {
+                  "titulo": "TIPO DE MASA"
+                },
+                {
+                  "titulo": "RELLENO"
+                },
+                {
+                  "titulo": "DECORACIÓN"
+                },
+                {
+                  "titulo": "CONSERVACIÓN"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Hojaldre"
+                    },
+                    {
+                      "texto": "Manzana"
+                    },
+                    {
+                      "texto": "Fruta Confitada"
+                    },
+                    {
+                      "texto": "Temperatura ambiente"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mediano "
+                    },
+                    {
+                      "texto": "Bollería"
+                    },
+                    {
+                      "texto": "Nata"
+                    },
+                    {
+                      "texto": "Chocolate"
+                    },
+                    {
+                      "texto": "Frío"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mini"
+                    },
+                    {
+                      "texto": "Sucré"
+                    },
+                    {
+                      "texto": "Chocolate"
+                    },
+                    {
+                      "texto": "Azúcar glass"
+                    },
+                    {
+                      "texto": "--"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Pieza"
+                    },
+                    {
+                      "texto": "Masa de batido"
+                    },
+                    {
+                      "texto": "Crema pastelera"
+                    },
+                    {
+                      "texto": "Granillo de chocolate"
+                    },
+                    {
+                      "texto": ""
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": ""
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": ""
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 3 ],
+                [ 1, 1 ],
+                [ 2, 2 ],
+                [ 3, 1 ],
+                [ 4, 0 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación 5",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.2/autoeval2/dulces04.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "TAMAÑO"
+                },
+                {
+                  "titulo": "TIPO DE MASA"
+                },
+                {
+                  "titulo": "RELLENO"
+                },
+                {
+                  "titulo": "DECORACIÓN"
+                },
+                {
+                  "titulo": "CONSERVACIÓN"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Hojaldre"
+                    },
+                    {
+                      "texto": "Manzana"
+                    },
+                    {
+                      "texto": "Glaseado"
+                    },
+                    {
+                      "texto": "Temperatura ambiente"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mediano "
+                    },
+                    {
+                      "texto": "Bollería"
+                    },
+                    {
+                      "texto": "Nata"
+                    },
+                    {
+                      "texto": "Chocolate"
+                    },
+                    {
+                      "texto": "Frío"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mini"
+                    },
+                    {
+                      "texto": "Sucré"
+                    },
+                    {
+                      "texto": "Mousse de chocolate"
+                    },
+                    {
+                      "texto": "Azúcar glass"
+                    },
+                    {
+                      "texto": "--"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Pieza"
+                    },
+                    {
+                      "texto": "Masa de batido"
+                    },
+                    {
+                      "texto": "Crema pastelera"
+                    },
+                    {
+                      "texto": "Granillo de chocolate"
+                    },
+                    {
+                      "texto": ""
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "Tarta"
+                    },
+                    {
+                      "texto": "Cabello de ángel"
+                    },
+                    {
+                      "texto": "Harina"
+                    },
+                    {
+                      "texto": ""
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": ""
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": ""
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 1 ],
+                [ 1, 3 ],
+                [ 2, 5 ],
+                [ 3, 2 ],
+                [ 4, 0 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación 6",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.2/autoeval2/dulces05.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "TAMAÑO"
+                },
+                {
+                  "titulo": "TIPO DE MASA"
+                },
+                {
+                  "titulo": "RELLENO"
+                },
+                {
+                  "titulo": "DECORACIÓN"
+                },
+                {
+                  "titulo": "CONSERVACIÓN"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Hojaldre"
+                    },
+                    {
+                      "texto": "Manzana"
+                    },
+                    {
+                      "texto": "Glaseado"
+                    },
+                    {
+                      "texto": "Temperatura ambiente"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mediano "
+                    },
+                    {
+                      "texto": "Bollería"
+                    },
+                    {
+                      "texto": "Nata"
+                    },
+                    {
+                      "texto": "Fruta confitada"
+                    },
+                    {
+                      "texto": "Frío"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mini"
+                    },
+                    {
+                      "texto": "Sucré"
+                    },
+                    {
+                      "texto": "Chocolate"
+                    },
+                    {
+                      "texto": "Azúcar glass"
+                    },
+                    {
+                      "texto": "--"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Pieza"
+                    },
+                    {
+                      "texto": "Masa de batido"
+                    },
+                    {
+                      "texto": "Crema pastelera"
+                    },
+                    {
+                      "texto": "Granillo de chocolate"
+                    },
+                    {
+                      "texto": ""
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "Tarta"
+                    },
+                    {
+                      "texto": "Cabello de ángel"
+                    },
+                    {
+                      "texto": "Harina"
+                    },
+                    {
+                      "texto": ""
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": ""
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": ""
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 3 ],
+                [ 1, 1 ],
+                [ 2, 1 ],
+                [ 3, 2 ],
+                [ 4, 1 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Aprendizaje",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En este módulo has podido identificar cuáles son las <b>categorías</b> más significativas de cara al cliente para los productos dulces de la sección de panadería.<br><br>Has descubierto cuáles son los <b>formatos</b> en los que se agrupan, los tamaños y <b>tipos de masa</b> más habituales, las principales operativas de <b>relleno</b> y <b>decoración</b> y los <b>ingredientes</b> más básicos de su composición, así como otras categorías."
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarDcha",
+              "imagen": "img/m4.2/ventaPan.png",
+              "ancho": 500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Final del módulo",
+      "fondo": "img/comunes/contraportada.jpg",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "animacion": "slideInRight",
+          "imagen": "img/comunes/contraportadaImg.svg"
+        }
+      ]
+    }
+  ]
+}

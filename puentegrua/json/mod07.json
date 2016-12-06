@@ -1,0 +1,562 @@
+﻿{
+  "modulo": "Mod. 7: Eslingas de cadena",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod07/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Hemos hablado anteriormente de la carga y los accesorios necesarios para el estrobado. Hablaremos en este módulo de las eslingas de cadena, que ya es el último tipo de eslinga."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Introducción",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "La información sobre este tipo de cadena viene referida en la <a href='http://www.insht.es/InshtWeb/Contenidos/Documentacion/FichasTecnicas/NTP/Ficheros/856a890/861w.pdf' target='_blank'>NTP 861</a>. Una eslinga de cadena es un conjunto constituido por cadena o cadenas unidas a unos accesorios adecuados en los extremos superior o inferior capaces, de acuerdo a los requerimientos de la norma UNE-EN 818-1, para amarrar cargas del gancho de una grúa o de otro aparato de elevación."
+        },
+        {
+          "clase": "lista",
+          "titulo": "En relación con las eslingas de cadena son relevantes las siguientes definiciones:",
+          "contenido": [
+            {
+              "punto": "<b>Accesorio de extremo</b>: Eslabón o anilla, conjunto de eslabones o anillas, gancho u otro dispositivo permanentemente unido al extremo superior o inferior de una eslinga, que se utiliza para unir la eslinga a la carga o al aparato de elevación. "
+            },            {
+              "punto": "<b>Eslabón maestro</b>: También llamado anilla, es el eslabón que forma el terminal de extremo superior de una eslinga, mediante el cual la eslinga se cuelga del gancho de una grúa o de otro aparato de elevación. "
+            },            {
+              "punto": "<b>Dimensión nominal de una eslinga</b>. Dimensión no minal de la cadena utilizada para la fabricación de la eslinga, expresada en mm. "
+            },            {
+              "punto": "<b>Clase nominal de una eslinga</b>. También llamado gra do de la cadena. Hace referencia a la calidad del acero de la cadena empleada en la confección de la eslinga. La Norma UNE-EN 818-4 hace referencia a cadena no calibrada de clase 8 (Grado 80), que corresponde a cadena de acero con tensión media a la carga de rotura mínima de 800 N/mm2. Existen cadenas de clase superiores, concretamente de Grado 100 y Grado 120. "
+            },            {
+              "punto": "<b>Carga Máxima de Trabajo o Utilización</b> (W.L.L. / C.M.U): Masa máxima que se permite levantar con una eslinga en servicio normal. "
+            },            {
+              "punto": "<b>Coeficiente de seguridad</b>: Es la relación aritmética entre la carga de rotura y la C.M.U"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "TIPOS DE ESLINGA DE CADENA",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Las eslingas serán de construcción y tamaño apropia dos para las operaciones en que se hayan de emplear. Existen dos construcciones de eslingas de cadena: eslingas de uno o varios ramales y eslingas sin fin."
+        },
+        {
+          "clase": "imagen",
+          "subclase": "paraCambiar",
+          "imagen": "img/mod07/tipos.png"
+        }
+
+      ]
+    },
+    {
+      "titulo": "RIESGOS Y FACTORES DE RIESGO",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "El principal riesgo asociado a la utilización de eslingas de cadena en los procesos de elevación de cargas es la caída de la carga sobre personas y/u objetos debido a:",
+          "contenido": [
+            {
+              "punto": "Mal estrobado o eslingado de la carga. "
+            },
+            {
+              "punto": "Utilizar la eslinga para elevar cargas con un canto vivo sin utilizar las protecciones correspondientes. "
+            },
+            {
+              "punto": "Eslingas en mal estado. "
+            },
+            {
+              "punto": "Utilizar eslingas de anchura insuficiente para la carga a transportar. "
+            },
+            {
+              "punto": "Utilización de eslingas en ambientes o aplicaciones peligrosas (productos químicos, altas temperaturas, etc.). "
+            },
+            {
+              "punto": "Resistencia insuficiente de la eslinga para la carga a elevar. "
+            },
+            {
+              "punto": "Utilización de un accesorio de elevación inadecuado o de una capacidad de carga insuficiente para la carga a elevar. "
+            },
+            {
+              "punto": "Procedimiento de elevación y/descenso de la carga inadecuado, próximo a objetos que puedan interferir en su recorrido, etc."
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "MEDIDAS DE PREVENCIÓN Y PROTECCIÓN",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Las medidas de prevención y protección se concretan mediante la descripción de las características de las eslingas de cadena, normas de utilización segura, el marcaje, requisitos de almacenamiento, mantenimiento y normas de sustitución de las eslingas de cadena."
+        },
+        {
+          "clase": "acordeon",
+          "contenido": [
+            {
+              "titulo": "Accesorios de extremo",
+              "texto": "La unión entre el canal de la eslinga y el medio de elevación se lleva a cabo por medio de anillas, grilletes o ganchos de acero. En las eslingas de dos ramales se utiliza como medio de unión un eslabón maestro (anilla simple). En las de tres o cuatro ramales, se utiliza como medio de unión una anilla triple, como se ve a continuación:",
+              "imagen": "img/mod07/extremo.jpg",
+              "ancho": 175
+            },
+            {
+              "titulo": "Anillas",
+              "texto": "Las anillas de acuerdo con la Norma UNE-EN 1677-4, deben estar dimensionadas en función de las cargas que habrán de soportar. Las anillas pueden tener dos formas: de lados paralelos y en forma de pera. Para anillas de lados paralelos, la longitud y anchura mínimas en función de la C.M.U.",
+              "imagen": "img/mod07/cmuAnilla.png",
+              "ancho":400
+            },
+            {
+              "titulo": "Grilletes",
+              "texto": "Los grilletes podrán ser rectos o de lira e igualmente se dimensionarán según la carga de trabajo a aplicar. Para las aplicaciones de elevación los grilletes deberán ser conformes a la norma UNE-EN 13889."
+            },
+            {
+              "titulo": "Ganchos de elevación",
+              "texto": "Los ganchos de elevación se elegirán en función de la carga y de los tipos de esfuerzo que tienen que transmitir. Estarán equipados con pestillo u otro dispositivo de seguridad para evitar que la carga pueda desprenderse y cumplirán con lo especificado en las normas UNE-EN 1677-2 y UNE-EN 1677-3. Los ganchos de elevación deberán ir provistos de pestillos o dispositivos de seguridad para evitar que la carga pueda desprenderse.<br><b<r>En el caso que sea necesario prescindir de un pestillo de seguridad, se ha de justificar la medida a través de un Procedimiento de Trabajo, ya que se considera que se va a reducir otros riesgos a los que pudiera estar expuesto el trabajador, como por ejemplo el de caída en altura, quemadura o atrapamiento.",
+              "imagen": "img/mod07/gancho.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Hammerlocks (eslabón de conexión)",
+              "texto": "Es un dispositivo de unión mecánica entre la anilla o accesorios y la cadena. También llamado eslabón de conexión.",
+              "imagen": "img/mod07/hammerlock.jpg",
+              "ancho": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Capacidad de carga",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": " En la capacidad de carga de una eslinga intervienen la cadena propiamente dicha y los accesorios que lo complementan tales como anillas, grilletes y ganchos. El coeficiente de seguridad para las eslingas de cadena es 4. La Carga Máxima de Trabajo (C.M.U.) de cualquier eslabón maestro (anilla) debe ser al menos igual a la C.M.U. de la eslinga. La C.M.U. de los accesorios del extremo inferior de la eslinga debe ser al menos igual a la del ramal al cual está unido."
+        }
+
+      ]
+    },
+    {
+      "titulo": "NORMAS DE UTILIZACIÓN SEGURA",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Para trabajar con eslingas de cable de acero, se deberán seguir una serie de normas en su utilización: ",
+          "contenido": [
+            {
+              "punto": "Deben ser usadas sólo por las personas que hayan recibido formación adecuada. "
+            },
+            {
+              "punto": "Antes de la primera utilización se debe asegurar que: ",
+              "contenido": [
+                {
+                  "punto": "La eslinga es conforme a las especificaciones solicitadas. "
+                },
+                {
+                  "punto": "La eslinga dispone de certificado. "
+                },
+                {
+                  "punto": "El marcado es el correcto. "
+                },
+                {
+                  "punto": "Las características de la eslinga son las adecuadas para el uso previsto. "
+                }
+              ]
+            }
+
+
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "La seguridad en la utilización de una eslinga comienza con la elección de ésta, que deberá ser adecuada a la carga y a los esfuerzos que debe soportar.",
+          "contenido": [
+            {
+              "punto": "En ningún caso deberá superarse la C.M.U. de la eslinga, debiéndose conocer, por tanto, el peso de las cargas a elevar. Para cuando se desconozca, el peso:",
+              "contenido": [
+                {
+                  "punto": "Madera: 800 kg/m<sup>3</sup> (0.80 gr./cm<sup>3</sup>)."
+                },
+                {
+                  "punto": "Piedra y hormigón: 2.350 kg./m<sup>3</sup> (2.35 gr./cm<sup>3</sup>). "
+                },
+                {
+                  "punto": "Acero, hierro, fundición: 7.850 kg./m<sup>3</sup> (7.85 gr./ cm<sup>3</sup>). "
+                }
+              ]
+            },
+            {
+              "punto": "En caso de duda, el peso de la carga se deberá estimar por exceso. "
+            },
+            {
+              "punto": "Se deben evitar las aceleraciones o desaceleraciones bruscas en la elevación de cargas. "
+            },
+            {
+              "punto": "En caso de elevación de cargas con eslingas en las que trabajen los ramales inclinados, se deberá verificar la carga efectiva que van a soportar. "
+            },
+            {
+              "punto": "Al considerar el ángulo de los ramales para determinar la C.M.U. por las eslingas, debe tenerse en cuenta el ángulo mayor. "
+            },
+            {
+              "punto": "Una eslinga no debe trabajar en ángulos mayores de 60° respecto a la vertical (120° entre ramales). "
+            },
+            {
+              "punto": "En la carga a elevar, se deben elegir puntos de fijación que no permitan un desplazamiento de la carga o un deslizamiento de las eslingas. En todo caso, se debe buscar que el centro de gravedad (c.d.g.) de la carga esté lo más cerca posible de la vertical de elevación. "
+            },
+            {
+              "punto": "La carga debe permanecer en equilibrio estable, utilizando si es necesario un balancín de carga que la equilibre y reduzca el ángulo que formarían las eslingas si no se usara. Las eslingas no se apoyarán nunca sobre aristas vi vas, para lo cual deberán intercalarse cantoneras o escuadras de protección. "
+            },
+            {
+              "punto": "Antes de la elevación completa de la carga, se deberá tensar suavemente la eslinga y elevar aquélla no más de 10 cm. para verificar su amarre y equilibrio. Mientras se tensan las eslingas no se deberán tocar la carga ni las propias eslingas. "
+            },
+            {
+              "punto": "Se tomarán en todo momento medidas de precaución como las siguientes: aflojar una eslinga lo suficiente como para desplazarla de forma que no se arrastre sobre la carga, no elevar la carga de forma brusca, y fijarse en la posición de los pestillos de seguridad, de forma que nunca reciban el esfuerzo de la carga al elevar. "
+            },
+            {
+              "punto": "No se deben realizar nudos en las cadenas. "
+            },
+            {
+              "punto": "No se debe exponer las eslingas de cadena a lejías, ácidos o cualquier otro producto corrosivo. "
+            },
+            {
+              "punto": "Nunca se tratará de desplazar una eslinga situándose bajo la carga. "
+            },
+            {
+              "punto": "En caso de empalmarse eslingas, deberá tenerse en cuenta que la carga a elevar viene limitada por la menos resistente."
+            },
+            {
+              "punto": "Si se observa cualquier anomalía, la eslinga se retirará del uso para ser revisada en profundidad y poder decidir si la anomalía reviste gravedad o no. "
+            },
+            {
+              "punto": "Las eslingas de cadena se pueden utilizar de forma segura dentro de unos rangos de temperatura determinados. ",
+              "contenido": [
+                {
+                  "punto": "Rango de – 40°C a 200°C la carga de utilización será el 100% de la C.M.U. "
+                },
+                {
+                  "punto": "Entre los 200°C y los 300°C la carga de utilización será un 90% de la C.M.U. "
+                },
+                {
+                  "punto": "Entre los 300°C y los 400°C la carga de utilización será del 75% de la C.M.U. "
+                },
+                {
+                  "punto": "No está permitido el uso a temperaturas menores de – 40°C y mayores de 400°C "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "Se puede fijar la carga a los ramales de una eslinga de diversas maneras:",
+          "contenido": [
+            {
+              "punto": "Ahorcado o de nudo corredizo: un ramal se pasa por debajo o a través de la carga y el accesorio de extremo inferior se vuelve a enganchar a la carga. Cuando se utiliza de esta forma, la carga de utilización no debe sobrepasar 0.8 x C.M.U. marcada en la eslinga."
+
+            },
+            {
+              "imagen": "img/mod07/nudoAhorcado.png",
+              "ancho": 100
+            },
+            {
+              "punto": "En cesto: la eslinga pasa a través de la carga o la rodea. Podemos tener dos situaciones diferentes:"
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod07/fijacion.jpg",
+          "ancho": 800
+        }
+
+      ]
+    },
+    {
+      "titulo": "IDENTIFICACIÓN DE LA ESLINGA DE CADENA",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Las cadenas vendrán identificadas mediante una chapa, la cual deberá incluir la siguiente información:",
+          "contenido": [
+            {
+              "punto": "Marca del fabricante de la eslinga. "
+            },
+            {
+              "punto": "Números o letras que identifiquen la eslinga con el certificado correspondiente. "
+            },
+            {
+              "punto": "La Carga Máxima de Utilización (C.M.U.) "
+            },
+            {
+              "punto": "La Carga Máxima de Utilización (C.M.U.) "
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Además, si la eslinga es de dos o más ramales, a la información anterior se le añade la Carga Máxima de Utilización y los ángulos de aplicación de las cargas."
+        },
+        {
+          "clase": "imagen",
+          "subclase": "paraCambiar",
+          "imagen": "img/mod07/plaquitas.png",
+          "ancho": 800
+        }
+
+      ]
+    },
+    {
+      "titulo": "ALMACENAMIENTO",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Las eslingas se almacenarán en lugar seco, bien ventilado y libre de atmósferas corrosivas o polvorientas. No estarán en contacto directo con el suelo, suspendiéndolas de soportes de madera con perfil redondeado o depositándolas sobre estacas o paletas."
+        }
+      ]
+    },
+    {
+      "titulo": "INSPECCIONES Y RETIRADA EN SU CASO",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Al igual que ocurre con el resto de eslingas, las inspecciones periódicas de las eslingas de cadena son parte fundamental para el desarrollo seguro de las tareas a realizar con estos accesorios. A fin de evitar roturas imprevistas, es necesario inspeccionar periódicamente el estado de todos los elementos que constituyen la eslinga. La frecuencia de las inspecciones estará en relación con el empleo de las eslingas y la severidad de las condiciones de servicio."
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "LAS ESLINGAS SE INSPECCIONARÁN DIARIAMENTE POR EL PERSONAL QUE LAS UTILICE."
+        },
+        {
+          "clase": "texto",
+          "texto": "Además se debería realizar una inspección en profundidad al menos cada 12 meses, aunque puede ser necesario acortar el tiempo según el trabajo que realiza la eslinga. Se deberán mantener registros de las inspecciones."
+        },
+        {
+          "clase": "imagen",
+          "subclase": "paraCambiar",
+          "imagen": "img/mod07/informe.png",
+          "ancho": 800
+        },
+        {
+          "clase": "lista",
+          "titulo": "Las eslingas de cadena deberán retirarse al detectar las siguientes condiciones:",
+          "contenido": [
+            {
+              "punto": "La información relativa a la identificación de la eslinga (chapa o placa) es ilegible."
+            },
+            {
+              "punto": "Daños en los accesorios de extremo"
+            },
+            {
+              "punto": "Desgaste, deformación y/o fisuras en los accesorios, falta del pestillo en el gancho o desperfectos en el cierre de los ganchos."
+            },
+            {
+              "clase": "imagen",
+              "subclase": "paraCambiar",
+              "imagen": "img/mod07/desgasteGancho.png",
+              "ancho": 400
+            },
+            {
+              "punto": "Deformaciones de eslabones (desgastes, dobleces, mellas, estiramientos importantes…)"
+            },
+            {
+              "imagen": "img/mod07/desgasteEslabones.svg",
+              "ancho": 1000
+            },
+            {
+              "punto": "Corrosión avanzada. La corrosión superficial es improbable que afecte a la resistencia de la cadena."
+            },
+            {
+              "punto": "Daños debidos al calor, que se pone en evidencia por la decoloración del acero."
+            },
+            {
+              "punto": "Incremento de un 5% de la longitud del eslabón."
+            }
+          ]
+        }
+      ]
+    }, 
+        {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "Hablando de ganchos:",
+              "respuestas": [
+                {
+                  "opcion": "Es necesario que el gancho principal de la grúa lleve pestillo de seguridad",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Los ganchos de las cadenas han de tener pestillo de seguridad",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Antes de la elevación completa de la carga, se debe proceder al tensado y elevación de la misma, unos 10cm, con el fin de comprobar su estabilidad.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Si dos ramales de cadenas de la misma eslinga tienen distinta longitud:",
+              "respuestas": [
+                {
+                  "opcion": "Podemos trabajar con ella tal como está",
+                  "correcto": false
+                },
+                {
+                  "opcion": "La retiramos y avisamos a nuestro mando directo",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Acortamos el ramal más largo, o bien añadimos eslabones al más corto para dejarlas iguales",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Las eslingas de cadena han de tener visible:",
+              "respuestas": [
+                {
+                  "opcion": "La marca del fabricante y su número de serie",
+                  "correcto": false
+                },
+                {
+                  "opcion": "La carga máxima de utilización y el marcado CE",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Las eslingas se inspeccionarán:",
+              "respuestas": [
+                {
+                  "opcion": "Semanalmente",
+                  "correcto": false
+                },
+                {
+                  "opcion": "A diario por el personal que las utilice.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Mensualmente",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "¿Cuándo se considera un eslabón deteriorado?",
+              "respuestas": [
+                {
+                  "opcion": "Si está doblado o mellado",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Si está desgastado o estirado",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas respuestas son correctas",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Antes de la primera utilización el trabajador se debe asegurar que: ",
+              "respuestas": [
+                {
+                  "opcion": "La eslinga es conforme a las especificaciones solicitadas y dispone de certificado. ",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Es adecuada a la carga que vamos a mover",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ambas son correctas.",
+                  "correcto": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },  
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Hemos terminado con el capítulo de las eslingas, en el próximo hablaremos del mantenimiento y averías que puede tener nuestro puente grúa."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod07/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+
