@@ -550,20 +550,14 @@ function cargarObjeto(div, elemento) {
             case "caja":
                 crearCaja(divParrafo, elemento);
                 break;
-                // Botón, la subclase indicará el tipo
-                // TODO: ELIMINAR DE AQUÍ LOS BOTONES, CREARLOS EN LOS EJERCICIOS
-                /*case "boton":
-                    crearBoton(divParrafo, elemento, elemento.subclase);
-                    break;*/
-                // TODO: DEPRECAR? - Solo vale para los ejercicios de autoevaluacion de alimerka. En algún sitio se usa, pero no sé dónde
-                // Capa vacía, el texto se creará en tiempo de ejecución. (WTF?? por qué aquí lo de feedback? :/ Mejor .texto.feedback?)
-                //case "feedback":
-                //divParrafo.classList.add('oculto');
-                //break;
                 // Diagrama con flechas
             case "diagrama":
                 CURSO.diagrama = cargarDiagrama(divParrafo, elemento);
                 break;
+                // Imagen SVG con tooltips
+            case "imagenSVG":
+                cargarSVG(divParrafo, elemento);
+                break;                
             default:
                 console.log("Objeto no encontrado: " + elemento.clase);
         }
@@ -1290,21 +1284,15 @@ function crearAutoevalPreguntas(div, elemento){
     // Recorrer las preguntas
     $.each(elemento.preguntas, function (indiceI, elementoUl) {
         divPregunta = document.createElement("DIV");
-        //divPregunta.className = "divPregunta";
         var h2Pregunta = document.createElement("H2");
         h2Pregunta.innerHTML = elementoUl.texto;
-        //formPregunta.appendChild(h2Pregunta);
         divPregunta.appendChild(h2Pregunta);
 
         if (elementoUl.imagen) {
             var imgPregunta = document.createElement("IMG");
             imgPregunta.src = elementoUl.imagen;
-            //formPregunta.appendChild(imgPregunta);
             divPregunta.appendChild(imgPregunta);
         }
-
-        //var divRespuestas = document.createElement("DIV");
-        //divRespuestas.className = "divRespuestas";
         var ulRespuestas = document.createElement("UL");   
         var liRespuesta = null;
         var inputRespuesta = null;
@@ -1337,10 +1325,9 @@ function crearAutoevalPreguntas(div, elemento){
 
             ulRespuestas.appendChild(liRespuesta);
             
-            //formPregunta.appendChild(ulRespuestas);
             divPregunta.appendChild(ulRespuestas);
         });
-        //divPregunta.appendChild(divRespuestas);
+ 
         formPregunta.appendChild(divPregunta);
 
         // Las respuestas se ordenan aleatoriamente
@@ -1664,6 +1651,24 @@ function cargarDiagrama(div, elemento) {
         celdas.push(link);    
     }
     return celdas;
+}
+// Cargar una imagen con tooltips. (SNAPSVG)
+function cargarSVG(div, elemento) {
+    // La imagen se carga utilizando la librería snapsvg
+    var svg = Snap(div);
+    var svgImagen = Snap.load(elemento.imagen, function (data) {
+        svg.append(data);
+        // Agregar los tooltips de las zonas
+        /*if (elemento.nodos) {
+            $.each(elemento.nodos, function (indice, nodo) {
+                var gSvg = $(".mapa svg g").find("#" + nodo.id);
+                var titleNodo = document.createElement("TITLE");
+                titleNodo.innerHTML = nodo.texto;
+                // Se ponen al principio del grupo
+                gSvg.prepend(titleNodo);
+            });
+        }*/
+    });
 }
 /* NAVEGACIÓN */
 // Crear la capa de navegación, botones anterior y siguiente. Copyright.

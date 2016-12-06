@@ -14,7 +14,10 @@
             "js/bootstrap/bootstrap.min.js"
         ]);
             break;
-        case "modPes":
+        case "modPes": arrayFinal = arrayComun.concat([
+            "js/snapsvg/snap.svg-min.js"
+        ]);
+            break;
         case "modCar":
         case "modRes":
             arrayFinal = arrayComun.concat([
@@ -380,8 +383,8 @@ function getArrayImagenes(modulo) {
             "img/modPes/pescadoPlata.jpg",
             "img/modPes/petroleo.jpg",
             "img/modPes/pezLeon.jpg",
-            "img/modPes/pezPresentacion.jpg",
-            "img/modPes/pezZonas.jpg",
+            "img/modPes/pezPuzzle.svg",
+            "img/modPes/pezPresentacion.jpg",            
             "img/modPes/pulpo.jpg",
             "img/modPes/salmon.jpg",
             "img/modPes/sardinas.jpg",

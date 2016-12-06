@@ -1769,7 +1769,7 @@ left:0;
     }
 
 /*** Imagen con mapa ***/
-.mapaImagen {
+/*.mapaImagen {
     margin: 0.5em 0;
     text-align: center;
 }
@@ -1778,35 +1778,36 @@ left:0;
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }
+    }*/
+
 
 /*** Tooltip ***/
 /* Tooltip container */
-.tooltip {
+/*.tooltip {
     position: relative;
     display: inline-block;
-}
+}*/
 
     /* Tooltip text */
-    .tooltip .tooltipText {
+   /* .tooltip .tooltipText {
         visibility: hidden;
         width: 120px;
         text-align: center;
         padding: 5px 0;
         border-radius: 6px;
-        /* Position the tooltip text */
+    
         position: absolute;
         z-index: 1;
         bottom: 125%;
         left: 50%;
         margin-left: -60px;
-        /* Fade in tooltip */
+ 
         opacity: 0;
         transition: opacity 1s;
-    }
+    }*/
 
         /* Tooltip arrow */
-        .tooltip .tooltipText::after {
+    /*  .tooltip .tooltipText::after {
             content: "";
             position: absolute;
             top: 100%;
@@ -1814,14 +1815,20 @@ left:0;
             margin-left: -5px;
             border-width: 5px;
             border-style: solid;
-        }
+        }*/
 
     /* Show the tooltip text when you mouse over the tooltip container */
-    .tooltip:hover .tooltipText {
+   /* .tooltip:hover .tooltipText {
         visibility: visible;
         opacity: 1;
         z-index: 3;
-    }
+    }*/
+
+/**** Mapa SVG ****/
+.imagenSVG{
+    text-align:center;
+}
+.imagenSVG svg > g > rect{opacity:0.3;}
 
 /*******MEDIA QUERIES **********/
 /* Pantalla normal, resolución > 800px*/
