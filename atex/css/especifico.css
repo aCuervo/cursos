@@ -1,4 +1,4 @@
-#divIndiceLista .scoCompletado a {
+#divIndice .scoCompletado a {
     background: url("../img/comunes/tick_menu.svg") no-repeat scroll 97% 50%;
     background-size: 25px 18px;
 }
@@ -13,21 +13,22 @@
     background-position: 50% 25px;
 }
 .icono.exclamacion .divFondo{
-    background-image: url('../img/comunes/exclamacion.svg');
+    background-image: url('../img/comunes/aviso.svg');
     background-size: auto 80px;
     background-position: 50% 8px;
 }
 .icono.exclamacion.blanca .divFondo, 
 .icono.exclamacion.picos .divFondo {
-    background-image: url('../img/comunes/exclamacionBlanca.svg');
-}
-.listaObjetos.columna.amarillo{background-color:#fcfbc4; padding-bottom:1em !important}
-.listaObjetos.columna.rojo{background-color:#fcc4c4; padding-bottom:1em !important}
-.imgIndice{margin-right: 0.2em; vertical-align:middle;}
-#autoevalTabla .subevalTabla {
-    padding: 10px;
-    margin: 20px;
+    background-image: url('../img/comunes/avisoBlanco.svg');
 }
 
-
-
+.json{
+    border: 1px dotted #212121;
+    flex: 0 1 auto !important;
+    margin-right: 1em !important;
+    padding: 0.5em !important;
+    font-size: 12pt !important;
+    background-color:#fff;
+    line-height:100%;
+    font-family:Consolas;
+}

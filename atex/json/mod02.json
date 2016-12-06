@@ -1,0 +1,516 @@
+﻿{
+  "modulo": "",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": ""
+            }
+          ]
+        }
+      ]
+    },
+	{
+		"titulo": "Definiciones",
+		"contenido": [
+			{
+				"clase": "lista",
+				"titulo": "<b>DEFINICIONES ATEX</b>",
+				"contenido": [
+					{
+						"punto": "<b>Polvo</b><p>Pequeñas partículas sólidas presentes en la atmósfera, que se depositan por su propio peso, pero que pueden permanecer en suspensión en el aire un cierto tiempo.</p>"
+					},
+					{
+						"punto": "<b>Polvo conductor:</b><p>Polvo con resistividad eléctrica igual o menor que 103 m.</p>"
+					},
+					{
+						"punto": "<b>Polvo combustible</b><p>Polvo que se puede quemar o poner en incandescencia y que podría formar mezclas explosivas con el aire, a temperaturas normales y a presión atmosférica. (El polvo de carbón se considerará  en todo caso polvo combustible). </p>"
+					},
+					{
+						"punto": "<b>Sustancia inflamable</b><p>Es una sustancia que es auto inflamable o es capaz de producir un gas, vapor o niebla inflamables. </p>"
+						
+					},
+					{
+						"punto": "<b>Líquido inflamable</b><p>Líquido capaz de producir un vapor inflamable en todas las condiciones de operación previsibles. </p>"
+						
+					},
+					{
+						"punto": "<b>Gas o vapor inflamable</b><p>Gas o vapor, que mezclado con el aire en ciertas proporciones, formará una atmósfera de gas explosiva. </p>"
+						
+					},
+					{
+						"punto": "<b>Trabajo en caliente</b><p>Trabajo en el que se generan chispas, llamas abiertas, arcos eléctricos o cualquier otra posible fuente de ignición. </p>"
+					},
+					{
+						"punto": "<b>Fuente de ignición</b><p>Energía capaz de iniciar el proceso de combustión de un material inflamable en estado sólido, líquido o gaseoso. </p>"
+					},
+					{
+						"punto": "<b>Atmósfera explosiva</b><p>Se entenderá por atmósfera explosiva la mezcla con el aire, en condiciones atmosféricas, de sustancias inflamables en forma de gases, vapores, nieblas o polvos, en la que, tras una ignición, la combustión se propaga a la totalidad de la mezcla no quemada. </p>"
+					},
+					{
+						"punto": "<b>Área de riesgo</b><p>: se entenderá por Área de Riesgo, aquélla en la que pueda formarse atmósferas explosivas en cantidades tales que resulte necesaria la adopción de precauciones especiales para proteger la seguridad y la salud de los trabajadores afectados. </p>"
+					},
+					{
+						"punto": "<b>Consideraciones sobre zonas de riesgo</b><p>Las sustancias inflamables o combustibles se considerarán sustancias capaces de formar atmósferas explosivas, (es el caso del polvo de carbón, hidrógeno, fuel-oil). Las capas, depósitos y acumulaciones de polvo inflamable deben considerarse como cualquier otra fuente capaz de formar atmósferas explosivas. Se consideran áreas que no presentan riesgos aquéllas en las que no cabe esperar la formación de atmósferas explosivas en cantidades tales que resulte necesaria la adopción de precauciones especiales. </p>"
+					}					
+				]
+			}
+		]
+	},
+	{
+		"titulo": "Parámetros característicos",
+		"contenido": [
+			{
+				"clase": "lista",
+				"titulo": "<b>PARÁMETROS CARACTERÍSTICOS</b>",
+				"contenido": [
+					{
+						"punto": "<b>Rango de explosividad</b><p>Pequeñas partículas sólidas presentes en la atmósfera, que se depositan por su propio peso, pero que pueden permanecer en suspensión en el aire un cierto tiempo.</p>"
+					},
+					{
+						"punto": "<b>Límite inferior de explosividad (LIE)</b><p>Es la concentración mínima de gases, vapores o nieblas inflamables en aire por debajo de la cual, la mezcla no es explosiva.</p>"
+					},
+					{
+						"punto": "<b>Límite superior de explosividad (LSE)</b><p>Es la concentración máxima de gases, vapores o nieblas inflamables en aire por arriba de la cual, la mezcla no es explosiva.</p>"
+					},
+					{
+						"punto": "<b>Temperatura de inflamación o de autoignición</b><p>A esta temperatura la mezcla entra en combustión espontánea. No precisa una fuente de energía externa para que se produzca la ignición.</p>"
+						
+					},
+					{
+						"punto": "<b>Temperatura máxima superficial</b><p>Temperatura máxima que puede alcanzar un material sin convertirse en un foco de ignición para a atmósfera que lo roda.</p>"
+						
+					},
+					{
+						"punto": "<b>Energía mínima de inflamación</b><p>Es la energía que debemos aportar a una atmósfera explosiva para que se produzca la ignición.</p>"
+						
+					}						
+				]
+			}
+		]
+	},
+	{
+		"titulo": "Parámetros específicos",
+		"contenido": [
+			{
+				"clase": "lista",
+				"titulo": "<b>PARÁMETROS ESPECÍFICOS DEBIDOS A LA PRESENCIA DE POLVO COMBUSTIBLE</b>",
+				"contenido": [
+					{
+						"punto": "<b>Concentración mínima de explosión</b><p>Equivale al límite inferior de explosividad de los gases.</p>"
+					},
+					{
+						"punto": "<b>Temperatura mínima de ignición a nube (TIN)</b><p>Equivale al punto de destello.</p>"
+					},
+					{
+						"punto": "<b>Temperatura mínima de ignición en capa (TIC)</b><p>Equivale a la temperatura máxima superficial.</p>"
+					},
+					{
+						"punto": "<b>Energía mínima de ignición (EMI)</b><p>Equivale a la energía mínima de inflamación.</p>"
+						
+					},
+					{
+						"punto": "<b>Concentración máxima de oxígeno permitida para prevenir la ignición.  </b><p>Es la máxima concentración de oxígeno a la que no se produce explosión del polvo combustible.</p>"
+						
+					},
+					{
+						"punto": "<b>Presión máxima de explosión</b><p>Máxima presión que se alcanza durante la explosión</p>"
+					},
+					{
+						"punto": "<b>Gradiente máximo de presión</b><p>Velocidad de crecimiento de la presión. Nos da idea de la virulencia de la explosión</p>"
+					}							
+				]
+			}
+		]
+	},
+	{
+		"titulo": "Límites de inflamabilidad",
+		"contenido": [
+			{
+				"clase": "listaObjetos",
+				"animacion": "fadeInRight",
+				"contenido": [
+					{
+						"clase": "imagen",
+						"animacion": "fadeInRight",
+						"imagen": "img/mod02/zona_riesgo_explosion.png"
+					},
+					{
+					  "clase": "texto",
+					  "animacion": "fadeInRight",
+					  "texto": "La mayor parte de gases, vapores y nubes de polvo inflamables son susceptibles de explotar si se inflaman bajo ciertas condiciones.<br><b>MEZCLA DEL COMBUSTIBLE-COMBURENTE</b><p>Cada sustancia, ya esté en forma de gas, vapor, niebla o polvo, tiene un rango de concentración en el aire dentro del cual la mezcla sustancia inflamable-aire tiene propiedades explosivas, pero, si la concentración es inferior o superior a los extremos (límites) que definen su rango de explosividad, no se produciría la explosión aunque el grado de dispersión fuese propicio.</p><p>El rango de explosividad de las sustancias inflamables se obtiene a partir de un ensayo normalizado en condiciones definidas de presión y temperatura, por tanto será propio para cada mezcla de sustancia inflamable con el aire.<br>Además, el valor obtenido varía sensiblemente con la temperatura4 y la presión y según las condiciones de ensayo, fuentes de inflamación, dimensiones del recipiente, etc.<br>Estos datos se suelen encontrar en las fichas de datos de seguridad bajo la denominación de LIE (límite inferior de explosividad) y LSE (límite superior de explosividad). Vienen dados en forma de porcentaje en volumen y/o en masa por unidad de volumen.<br>Para el caso de nube de polvo, el rango de concentración explosiva dependerá además de la granulometría. Normalmente en el lugar de trabajo no se presentará una mezcla homogénea de polvo-aire formando atmósfera explosiva, por tanto, los valores del rango de concentraciones límite explosivas para polvos deberían usarse solamente como referencia.<br>LIE Es el LÍMITE INFERIOR DEL INTERVALO DE CONCENTRACIONES DE LA SUSTANCIA EN EL AIRE, para el que la mezcla es explosiva.<br>LSE (vol%): Es el LÍMITE SUPERIOR DEL INTERVALO DE CONCENTRACIONES DE LA SUSTANCIA EN EL AIRE, para el que la mezcla deje de ser explosiva.</p>"
+					}
+				]
+			}
+		]
+	},	
+	{
+		"titulo": "Fuentes de ignición",
+		"contenido": [
+			{
+				"clase": "lista",
+				"titulo": "Según la norma europea <b>EN 1127-1</b> se distinguen trece fuentes de ignición:",
+				"contenido": [
+					{
+						"punto": "<b>Superficies calientes</b>",
+						"contenido": [
+							{
+								"punto": "Superficies calientes fácilmente reconocibles: calentadores eléctricos, radiadores, cabinas de secad o, tuberías de vapor, material fundido, procesos en caliente..."
+							},
+							{
+								"punto": "Otras: piezas de maquinaria, frenos y embragues a fricción (tanto de vehículos como de unidades de proceso), bujías y cojinetes dañados, materiales humeantes, soldaduras recientes..."
+							}
+						]
+					},
+					{
+						"punto": "<b>Llamas y gases calientes</b>",
+						"contenido": [
+							{
+								"punto": "Llamas desnudas: sopletes de soldadura, calentadores, encendedores... "
+							},
+							{
+								"punto": "Gases de combustión: motores de combustión interna, vehículos..."
+							}
+						]
+					},
+					{
+						"punto": "<b>Chispas de origen mecánico</b>",
+						"contenido": [
+							{
+								"punto": "Al golpear herramientas metálicas entre sí, con otros metales, con hormigón..."
+							},
+							{
+								"punto": "Choques en los que están implicados metales ligeros (como aluminio y magnesio) y sus aleaciones."
+							}
+						]
+					},
+					{
+						"punto": "<b>Arcos y chispas eléctricas</b>",
+						"contenido": [							
+								{
+									"punto": "Motores y equipos eléctricos en malas condiciones."
+								},
+								{
+									"punto": "Apagado y encendido de circuitos."
+								}							
+						]
+					},
+					{
+						"punto": "<b>Corrientes eléctricas parásitas, protección contra la corrosión catódica</b>",
+						"contenido": [
+							{
+								"punto": "Fallos en instalaciones eléctricas."
+							},
+							{
+								"punto": "Corrientes de retorno en instalaciones generadoras de potencia, como trenes  eléctricos y grandes instalaciones la corrosión catódica de soldadura."
+							},
+							{
+								"punto": "Efectos de inducción (cerca de instalaciones eléctricas con corrientes elevadas o transmisiones de radiofrecuencia elevadas)."
+							}
+						]
+					},					
+					{
+						"punto": "<b>Electricidad estática</b><p>Circulación de fluido por una tubería, transmisiones de correas, transporte neumático de materiales pulverulentos...</p>"
+						
+					},				
+					{
+						"punto": "<b>Rayo</b>",
+						"contenido": [
+							{
+								"punto": "Descarga de rayos"
+							},
+							{
+								"punto": "Corrientes transitorias asociadas a la descarga del rayo que originan calentamientos, descargas y chispas."
+							},
+							{
+								"punto": "Tormentas con ausencia de rayos: pueden inducir tensiones importantes en aparatos y equipos de protección."
+							}
+						]
+					},
+					{
+						"punto": "<b>Campos electromagnéticos comprendidos en una gama de 9 KHz. a 300 GHz</b><p>Todos los sistemas que producen y utilizan energías eléctricas de alta frecuencia o sistemas de alta frecuencia o sistemas de radiofrecuencia (emisores de radio, generadores RF médicos o industriales para calentamiento, secado, endurecimiento, soldeo, oxicorte...).</p>"
+						
+					},
+					{
+						"punto": "<b>Radiación electromecánica comprendidas en una gama de 300 GHz a 3 x 10 16 Hz o longitudes de onda 1000 μm a 0,1 μm (rango del espectro óptico)</b>",
+						"contenido": [
+							{
+								"punto": "Radiación entre el infrarrojo y el ultravioleta cuando se concentra. "
+							},
+							{
+								"punto": "Convergencia de la radiación solar."
+							},
+							{
+								"punto": "Tormentas con ausencia de rayos: pueden inducir tensiones importantes en aparatos y equipos de protección."
+							}
+						]
+					},
+					{
+						"punto": "<b>Radiaciones ionizantes</b><p>Son fuentes de radiación X y gamma. Medidores de espesores, contadores de partículas y gammagrafías.</p>"
+					},
+										{
+						"punto": "<b>Ultrasonidos</b><p>La absorción de ultrasonidos puede provocar el calentamiento local.</p>",
+						"contenido": [
+							{
+								"punto": "Medidores de caudal."
+							},
+							{
+								"punto": "En líquidos sometidos a ultrasonidos se forman cavidades que al colapsar producen altas temperaturas."
+							}
+						]
+					},
+					{
+						"punto": "<b>Compresión adiabática, ondas de choque, gases circulantes</b><p>La compresión adiabática tiene lugar sin intercambio de calor con el exterior, elevando la temperatura.</p>",
+						"contenido": [
+							{
+								"punto": "Escapes de gas a través de orificios y en la apertura rápida de grifos y la subsiguiente compresión, como, por ejemplo, en un manorreductor cerrad o, válvula cerrada o soplete obturado."
+							}
+						]
+					},
+										{
+						"punto": "<b>Radiaciones químicas</b><p>Reacciones exotérmicas, incluyendo la autoignición de polvos.</p>",
+						"contenido": [
+							{
+								"punto": "Reacción de sustancias en función de sus propiedades."
+							}
+						]
+					}
+				]
+			}		
+		]		
+	},
+	{
+		"titulo": "Resumen: Definiciones",
+		"contenido": [
+			{
+				"clase": "lista",
+				"animacion": "fadeInRight",
+				"titulo": "<b>RESUMEN</b>",
+				"contenido": [
+					{
+						"punto": "<b>Polvo combustible</b><p>Polvo que se puede quemar o poner en incandescencia y que podría formar mezclas explosivas con el aire, a temperaturas normales y a presión atmosférica. (El polvo de carbón se considerará  en todo caso polvo combustible). </p>"
+					},
+					{
+						"punto": "<b>Sustancia inflamable</b><p>Es una sustancia que es auto inflamable o es capaz de producir un gas, vapor o niebla inflamables. </p>"
+						
+					},
+					{
+						"punto": "<b>Trabajo en caliente</b><p>Trabajo en el que se generan chispas, llamas abiertas, arcos eléctricos o cualquier otra posible fuente de ignición. </p>"
+					},
+					{
+						"punto": "<b>Fuente de ignición</b><p>Energía capaz de iniciar el proceso de combustión de un material inflamable en estado sólido, líquido o gaseoso. </p>"
+					},
+					{
+						"punto": "<b>Atmósfera explosiva</b><p>Se entenderá por atmósfera explosiva la mezcla con el aire, en condiciones atmosféricas, de sustancias inflamables en forma de gases, vapores, nieblas o polvos, en la que, tras una ignición, la combustión se propaga a la totalidad de la mezcla no quemada. </p>"
+					},
+					{
+						"punto": "<b>Mezcla del combustible-comburente</b><p>Cada sustancia, ya esté en forma de gas, vapor, niebla o polvo, tiene un rango de concentración en el aire dentro del cual la mezcla sustancia inflamable-aire tiene propiedades explosivas, pero, si la concentración es inferior o superior a los extremos (límites) que definen su rango de explosividad, no se produciría la explosión aunque el grado de dispersión fuese propicio.</p>"
+					},
+					{
+						"punto": "<b>Área de riesgo</b><p>Se entenderá por Área de Riesgo, aquélla en la que pueda formarse atmósferas explosivas en cantidades tales que resulte necesaria la adopción de precauciones especiales para proteger la seguridad y la salud de los trabajadores afectados. </p>"
+					}					
+				]
+			}
+		]
+	},
+	{
+		"titulo": "Resumen: Fuentes de ignición",
+		"contenido": [
+			{
+				"clase": "imagen",
+				"animacion": "fadeInRight",
+				"imagen": "img/mod02/zona_riesgo_explosion.png"
+			},
+			{
+				"clase": "lista",
+				"titulo": "Según la norma europea <b>EN 1127-1</b> se distinguen trece fuentes de ignición:",
+				"contenido": [
+					{
+						"punto": "Superficies calientes"
+					},
+					{
+						"punto": "Llamas y gases calientes"
+					},
+					{
+						"punto": "Chispas de origen mecánico"
+					},
+					{
+						"punto": "Arcos y chispas eléctricas"
+					},
+					{
+						"punto": "Corrientes eléctricas parásitas, protección contra la corrosión catódica"
+					},					
+					{
+						"punto": "Electricidad estática"						
+					},				
+					{
+						"punto": "Rayo"				
+					},
+					{
+						"punto": "Campos electromagnéticos comprendidos en una gama de 9 KHz. a 300 GHz"
+					},
+					{
+						"punto": "Radiación electromecánica comprendidas en una gama de 300 GHz a 3 x 10 16 Hz o longitudes de onda 1000 μm a 0,1 μm (rango del espectro óptico)"
+					},
+					{
+						"punto": "Radiaciones ionizantes"
+					},
+					{
+						"punto": "Ultrasonidos"
+					},
+					{
+						"punto": "Compresión adiabática, ondas de choque, gases circulantes"
+					},
+					{
+						"punto": "Radiaciones químicas y exotérmicas, incluyendo la autoignición de polvos"
+					}
+				]
+			}		
+		]		
+	},
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "Se denomina trabajo en caliente a:",
+              "respuestas": [
+                {
+                  "opcion": "Aquel en el que las condiciones de temperatura son incómodas para el trabajador.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Aquel en el que se generan chispas, llamas abiertas, arcos eléctricos o cualquier otra posible fuente de ignición.",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Ninguna es correcta",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "La zona con riesgo de explosión se sitúa:",
+              "respuestas": [
+                {
+                  "opcion": "Bajo el límite inferior de explosividad y por encima del límite superior de explosividad",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Siempre que se supere el límite inferior de explosividad, no hay un máximo.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Entre ambos límites, por debajo del inferior y por encima del superior no existe riesgo de explosión.",
+                  "correcto": "true"
+                }
+              ]
+            },
+            {
+              "texto": "Para que se produzca una explosión es preciso que coincidan una atmósfera explosiva potencialmente peligrosa y una fuente de ignición efectiva.",
+              "respuestas": [
+                {
+                  "opcion": "Es correcto, se han de dar ambas circunstancias.",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Con que exista la atmósfera explosiva ya es suficiente para producir la explosión.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Si hay una fuente de ignición activa la explosión sucederá.",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "La definición de fuente de ignición es:",
+              "respuestas": [
+                {
+                  "opcion": "Sustancia autoinflamable o capaz de producir un gas, vapor o niebla inflamables. ",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Energía capaz de iniciar el proceso de combustión de un material inflamable en estado sólido, líquido o gaseoso.",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "La mezcla con el aire, en condiciones atmosféricas, de sustancias inflamables en forma de gases, vapores, nieblas o polvos, en la que, tras una ignición, la combustión se propaga a la totalidad de la mezcla no quemada. ",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "Superficies calientes, arcos y chispas eléctricas o mecánicas, la electricidad estática y rayos son consideradas fuentes de ignición.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": "false"
+                }
+              ]
+            }            
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": ""
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

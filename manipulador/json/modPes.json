@@ -394,78 +394,11 @@
           "texto": "Desliza el ratón sobre los recuadros para obtener más información."
         },
         {
-          "clase": "mapaImagen",         
+          "clase": "imagen",         
           "animacion": "fadeInRight",
-          "imagen": "img/modPes/pezZonas.jpg",
-          "ancho": 900,
-          "id": "pezComponentes",
-          "mapa": [
-            {
-              "forma": "rect",
-              "xIni": 100,
-              "yIni": 120,
-              "xFin": 160,
-              "yFin": 170,
-              "texto": "Ojos: deben ser esféricos, salientes en la mayor parte, transparentes y de córnea limpia.",
-              "titulo": "Ojos"
-            },
-            {
-              "forma": "rect",
-              "xIni": 180,
-              "yIni": 200,
-              "xFin": 255,
-              "yFin": 260,
-              "texto": "Agallas: deben de ser de color vivo y limpio, rojo vivo en la mayor parte de las especies y rosas en otras. Suaves y resbaladizas al tacto.",
-              "titulo":  "Agallas"
-            },
-            {
-              "forma": "rect",
-              "xIni": 340,
-              "yIni": 80,
-              "xFin": 405,
-              "yFin": 170,
-              "texto": "Piel o escamas: La piel es resbaladiza, suarve, brillante y limpia, se separa de la carne con dificultad. Las escamas deben ser abundantes y difíciles de retirar en algunas especies; en otras, las escamas flojas se quitan con facilidad. Los recién pescados son muy resbaladizos debido a las materias viscosas que producen.",
-              "titulo":  "Piel o escamas"
-            },
-            {
-              "forma": "rect",
-              "xIni": 320,
-              "yIni": 280,
-              "xFin": 485,
-              "yFin": 345,
-              "texto": "Cavidad abdominal: la telilla interna que la cubre debe ser brillante, limpia, suave y se retirará con dificultad.",
-              "titulo": "Cavidad abdominal"
-            },
-            {
-              "forma": "rect",
-              "xIni": 500,
-              "yIni": 85,
-              "xFin": 615,
-              "yFin": 150,
-              "texto": "Espina central: la telilla interna que la cubre debe ser brillante, limpia, suave y se retirará con dificultad.",
-              "titulo": "Espina central"
-            },
-            {
-              "forma": "rect",
-              "xIni": 450,
-              "yIni": 190,
-              "xFin": 570,
-              "yFin": 260,
-              "titulo": "Carne",
-              "texto": "Carne: Debe ser firme y consistente. Su color tiene características diferentes según la especie."
-              
-            },
-            {
-              "forma": "rect",
-              "xIni": 710,
-              "yIni": 80,
-              "xFin": 765,
-              "yFin": 125,
-              "titulo": "Olor",
-              "texto": "Olor: Tiene que oler a humedad limpia, a mar o agua dulce, según la clase."
-            }
+          "imagen": "img/modPes/pezPuzzle.svg"
+          
 
-          ]
         },
         {
           "clase": "tabla",

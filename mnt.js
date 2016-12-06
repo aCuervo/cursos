@@ -1290,6 +1290,7 @@ function crearAutoevalPreguntas(div, elemento){
     // Recorrer las preguntas
     $.each(elemento.preguntas, function (indiceI, elementoUl) {
         divPregunta = document.createElement("DIV");
+        //divPregunta.className = "divPregunta";
         var h2Pregunta = document.createElement("H2");
         h2Pregunta.innerHTML = elementoUl.texto;
         //formPregunta.appendChild(h2Pregunta);
@@ -1302,6 +1303,8 @@ function crearAutoevalPreguntas(div, elemento){
             divPregunta.appendChild(imgPregunta);
         }
 
+        //var divRespuestas = document.createElement("DIV");
+        //divRespuestas.className = "divRespuestas";
         var ulRespuestas = document.createElement("UL");   
         var liRespuesta = null;
         var inputRespuesta = null;
@@ -1337,6 +1340,7 @@ function crearAutoevalPreguntas(div, elemento){
             //formPregunta.appendChild(ulRespuestas);
             divPregunta.appendChild(ulRespuestas);
         });
+        //divPregunta.appendChild(divRespuestas);
         formPregunta.appendChild(divPregunta);
 
         // Las respuestas se ordenan aleatoriamente

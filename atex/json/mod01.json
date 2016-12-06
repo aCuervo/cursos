@@ -1,0 +1,631 @@
+﻿{
+  "modulo": "",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Introducción",
+      "contenido": [
+	    {
+              "clase": "texto",
+              "texto": "<p>Se entiende por ATMÓSFERA EXPLOSIVA  toda mezcla, en condiciones atmosféricas, de aire y sustancias inflamables en forma de gas, vapor o polvo en la que, tras la ignición, se propaga la mezcla no quemada.</p><br>Se distinguen dos tipos de ATEX:"
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+		  "texto": "Se entiende por ATMÓSFERA EXPLOSIVA  toda mezcla, en condiciones atmosféricas, de aire y sustancias inflamables en forma de gas, vapor o polvo en la que, tras la ignición, se propaga la mezcla no quemada.",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/bienvenida.jpg"
+            },
+			{
+				"clase": "lista",
+				"contenido": [
+					{
+					  "punto": "<b>Atmósferas de gas explosivas:</b> mezcla de una sustancia inflamable en estado de gas o de vapor con el aire, en la que, en caso de ignición, la combustión se propaga a toda la mezcla no quemada."
+					},
+					{
+					  "punto": "<b>Atmósfera con polvo explosivo:</b> mezcla de aire, en condiciones atmosféricas, con sustancias inflamables bajo la forma de polvo o fibras, en la que, en caso de ignición, la combustión se propaga al resto de la mezcla no quemada."
+					}
+				]
+			}
+          ]
+        },
+    	{
+			"clase": "texto",
+			"texto": "<p>No se incluye en la definición de ATEX el riesgo de explosión de sustancias inestables, tales como los explosivos, material pirotécnico y peróxidos orgánicos o cuando las mezclas explosivas están sometidas a condiciones no consideradas como atmosféricas normales, como es el caso de mezclas sometidas a presión.</p><br><p>Para que se dé una atmósfera potencialmente explosiva se requiere la combinación de la mezcla de una sustancia inflamable o combustible con un oxidante a una concentración determinada, y una fuente de ignición. El riesgo se hace mayor y más complicado cuando nos encontramos en un espacio confinado y con trabajos de manipulación de esas sustancias en muy diversas industrias y procesos productivos.</p>"
+		}
+	  ]
+    },
+	{
+		"titulo": "Industrias con zonas ATEX",
+		"contenido": [
+			{
+				"clase": "texto",
+				"texto": "Se detallan en este apartado, de manera no exhaustiva, las principales industrias con riesgo de sufrir explosiones e incendios en sus instalaciones. Todas ellas tendrán zonas clasificadas, de acuerdo con lo explicado en la Clasificación de zonas ATEX."
+			},
+			{
+			   "clase": "lista",
+			   "contenido": [
+					{
+						"punto": "<b>Industria química</b><p>En la industria química se transforman y emplean gases, líquidos y sólidos inflamables en multitud de procesos. En estos procesos pueden formarse mezclas explosivas.</p>",
+						"contenido": [	
+							{
+								"punto": "Plantas de producción y manipulación de azufre."
+							},
+							{
+								"punto": "Zonas de trabajo, manipulación y almacenamiento."
+							},
+							{
+								"punto": "Lugares donde se trasvasen líquidos volátiles inflamables de un recipiente a otro."
+							},
+							{
+								"punto": "Locales con depósitos de líquidos inflamables abiertos o que se puedan abrir."
+							},
+							{
+								"punto": "Salas de bombas o compresores para gases o líquidos inflamables."
+							},
+							{
+								"punto": "Instalaciones donde se produzcan, manipulen, almacenen o consuman gases inflamables."
+							}							
+						]
+					},
+					{
+						"punto": "<b>Vertederos</b><p>En los vertederos pueden formarse gases inflamables. Para evitar que éstos escapen de manera incontrolada y puedan llegar a encenderse, se requieren importantes medidas técnicas. En túneles mal ventilados, sótanos, etc. pueden acumularse gases inflamables de fuentes diversas. Los residuos sólidos urbanos generan polvo explosivo.</p>"
+					},
+					{
+						"punto": "<b>Centrales eléctricas</b><p>Con el transporte, la molienda y el secado de carbones troceados, no explosivos por su tamaño, se generan polvos de carbón que sí pueden formar mezclas explosivas polvo/aire. Las biomasas y otros combustibles sólidos son explosivos. La refrigeración con H2 de los alternadores implica riesgo de explosión.</p>"
+					},
+					{
+						"punto": "<b>Empresas de tratamiento de aguas residuales</b><p>Los gases de digestión generados en el tratamiento de aguas residuales en depuradoras pueden formar mezclas explosivas gas/aire. Los lodos secos también son explosivos.</p>"
+						
+					},
+					{
+						"punto": "<b>Compañías de suministro de gas</b><p>En caso de escapes de gas natural por fugas o similar pueden formarse mezclas explosivas gas/aire.</p>"
+					},
+					{
+						"punto": "<b>Industria de trabajo de la madera</b><p>En el trabajo de piezas de madera se generan polvos de madera que pueden formar mezclas explosivas polvo/aire en filtros o en silos.</p>"
+					},
+										{
+						"punto": "<b>Talleres de pintura y esmaltado</b><p>La neblina de pulverización que se forma en el esmaltado de superficies con pistolas de pintura en cabinas de lacado, al igual que los vapores de disolventes liberados, puede provocar una atmósfera explosiva en contacto con el aire. Los pigmentos pulverulentos pueden ser muy explosivos.</p>"
+					},
+										{
+						"punto": "<b>Fabricación de piezas de metales ligeros y talleres de carpintería metálica</b><p>En la fabricación de piezas de moldeo metálicas, su tratamiento de superficie (amolado) puede genera polvos metálicos explosivos, sobre todo en el caso de los metales ligeros (Aluminio, Titanio, Magnesio, etc.).<br>Estos polvos metálicos pueden provocar riesgos de explosión en separadores y otras operaciones.</p>"
+					},
+										{
+						"punto": "<b>Instalaciones agropecuarias</b><p>En algunas explotaciones agrícolas se utilizan instalaciones de generación de biogás. En caso de fugas, pueden formarse mezclas explosivas biogás/aire. Las deshidratadoras de forraje, descascarilladoras de almendra y otras instalaciones similares generan atmósferas explosivas.</p>"
+					},
+										{
+						"punto": "<b>Reparación de vehículos</b><p>Normalmente las cantidades de productos inflamables son reducidas y el confinamiento y la ventilación hacen innecesaria la clasificación. No obstante, con carácter general, debe analizarse la posibilidad de formación de atmósferas explosivas si existen cantidades importantes de materias inflamables.</p>"
+					},
+										{
+						"punto": "<b>Lavanderías y tintorerías</b><p>Zonas de lavanderías y tintorerías con líquidos inflamables</p>"
+					},
+					{
+						"punto": "<b>Industria alimentaria</b><p>El transporte y almacenamiento de harinas, granos y derivados pueden generar polvos explosivos. Si éstos se aspiran y separan en filtros, puede aparecer una atmósfera explosiva en el filtro.</p>",
+						"contenido": [	
+							{
+								"punto": "Locales de extracción de grasas y aceites que utilicen disolventes inflamables."
+							},
+							{
+								"punto": "Secaderos de material con disolventes inflamables."
+							},
+							{
+								"punto": "Zonas de trabajo, manipulación y almacenamiento."
+							},
+							{
+								"punto": "Entre los polvos combustibles tenemos la harina y derivados, el almidón, el azúcar, el cacao, la leche y el huevo en polvo, las especias, etc."
+							},
+							{
+								"punto": "Fábricas de harina panificable."
+							},
+							{
+								"punto": "Fabricación de pan y productos de panadería."
+							}							
+						]
+					},
+					{
+						"punto": "<b>Industria farmacéutica</b><p>En la producción farmacéutica a menudo se emplean alcoholes como disolventes. También pueden utilizarse substancias sólidas activas y auxiliares explosivas, por ejemplo lactosa, vitaminas, paracetamol, etc.</p>"
+					},
+					{
+						"punto": "<b>Refinerías</b><p>Los hidrocarburos manejados en las refinerías son todos ellos inflamables y, según su punto de inflamación, pueden provocar atmósferas explosivas incluso a temperatura ambiente. El entorno de los equipos de transformación petrolífera casi siempre se considera zona con riesgo de explosión.</p>"
+					},
+					{
+						"punto": "<b>Industrias de reciclado de residuos</b><p>El tratamiento de residuos reciclables puede entrañar riesgos de explosión por envases no vaciados por completo de su contenido de gases o líquidos inflamables o por polvos de papel o materias plásticas. </p>"
+					},
+					{
+						"punto": "<b>Industria textil y afines</b>",
+						"contenido": [	
+							{
+								"punto": "Almacenes y muelles de expedición (sacos o contenedores)"
+							},
+							{
+								"punto": "Zonas de tratamiento de textiles, como algodón."
+							},
+							{
+								"punto": "Plantas de fabricación y procesado de fibras."
+							},
+							{
+								"punto": "Plantas desmotadoras de algodón."
+							},
+							{
+								"punto": "Plantas de procesado de lino."
+							},
+							{
+								"punto": "Talleres de confección."
+							}							
+						]
+					},
+					{
+						"punto": "<b>Locales de utilización de productos químicos inflamables</b>",
+						"contenido": [	
+							{
+								"punto": "Lugares donde se trasvasen líquidos volátiles inflamables de un recipiente a otro."
+							},
+							{
+								"punto": "Locales con depósitos de líquidos inflamables abiertos o que se puedan abrir."
+							},
+							{
+								"punto": "Salas de bombas o compresores para gases o líquidos inflamables."
+							},
+							{
+								"punto": "Instalaciones donde manipulen, almacenen o consuman gases inflamables."
+							}												
+						]
+					},
+					{
+						"punto": "<b>Industrias agrarias</b>",
+						"contenido": [	
+							{
+								"punto": "Fabricación de piensos compuestos."
+							},
+							{
+								"punto": "Elaboración de correctores vitamínico-minerales."
+							},
+							{
+								"punto": "Silos para almacenamiento de cereales. Entre los polvos combustibles tenemos los cereales, granos y derivados, almidón y heno."
+							},
+							{
+								"punto": "Secadero de cereales y deshidratadoras de alfalfa."
+							}
+						]
+					},
+					{
+						"punto": "<b>Industrias forestales y afines</b>",
+						"contenido": [	
+							{
+								"punto": "Aserraderos de madera."
+							},
+							{
+								"punto": "Fabricación de papel y celulosa."
+							},
+							{
+								"punto": "Zonas de trabajo, manipulación y almacenamiento."
+							}						
+						]
+					}	
+				]
+			},
+			{
+				"clase": "texto",
+				"texto": "A la vista de la diversidad de actividades en las que el riesgo ATEX está presente, y de sus perjudiciales consecuencias que se pueden traducir en daños personales, incendios y destrucción de plantas, pérdida de equipos, paradas de producción con pérdida de ventas y cuota de mercado, pérdida de imagen corporativa, etc., se hace necesaria una divulgación continua de los procedimientos para la correcta implantación de la acción preventiva recogida en la legislación."
+			}
+		]
+	},
+	{
+		"titulo": "NORMATIVA DE APLICACIÓN  RD 681/2003",
+		"contenido": [
+			{
+				"clase": "texto",
+				"texto": "<p>La <b>Ley 31/1995</b> de Prevención de Riesgos Laborales determina el cuerpo básico de garantías y responsabilidades para una adecuada protección de la salud de los trabajadores en el lugar de trabajo, dejando al desarrollo de normas reglamentarias la fijación de las medidas mínimas para la adecuada protección (Art. 43 Ley 31/1995 LPRL).</p>"
+			},
+			{
+				"clase": "texto",
+				"texto": "<p><b>Real Decreto 400/1996</b> relativo a los aparatos y sistemas de protección para uso en atmósferas potencialmente explosivas [Trasposición de la Directiva 94/9/CE (ATEX-100).El R.D 400/1996 (ATEX-100) establece los requisitos esenciales de seguridad para equipos y sistemas, los diferentes módulos de calidad y los sistemas de certificación “CE”. Es un R.D básicamente de exigencias para los fabricantes de equipos y sistemas de protección para uso en Atmósferas Explosivas, estableciendo una clasificación de equipos en grupos y categorías.</p><br>Ámbito de aplicación:<br>"
+			},
+			{
+				"clase": "lista",
+				"contenido": [	
+					{
+						"punto": "De obligado cumplimiento a partir del 1 de julio de 2003."
+					},
+					{
+						"punto": "Aplicable a APARATOS Y SISTEMAS DE PROTECCIÓN para su uso en atmósferas explosivas:<br>“Máquinas, materiales, otros dispositivos, entradas de cables, conductores y órganos de control e instrumentación” empleados en la “producción, transporte, almacenaje, medición, regulación, conservación y transformación” de sustancias que puedan desencadenar una explosión."
+					}						
+				]
+			},
+			{
+				"clase": "texto",
+				"texto": "Exclusiones:"
+			},
+			{
+				"clase": "lista",
+				"contenido": [	
+					{
+						"punto": "Dispositivos médicos para uso en entorno sanitario."
+					},
+					{
+						"punto": "Cuando el peligro de explosión se deba exclusivamente a la presencia de sustancias explosivas y químicas inestables."
+					},
+					{
+						"punto": "Equipos destinados a uso en entornos domésticos y no comerciales."
+					},
+					{
+						"punto": "Los equipos de protección individual."
+					},
+					{
+						"punto": "Los navíos y marítimos y las unidades móviles “offshore” así como sus equipos a bordo."
+					},
+					{
+						"punto": "Los medios de transporte (excepto los destinados al uso en una atmósfera potencialmente explosiva)"
+					},
+					{
+						"punto": "Los destinados a la fabricación de armamento y equipamiento militar."
+					}				
+				]
+			},
+			{
+				"clase": "texto",
+				"texto": "A destacar:"
+			},
+			{
+				"clase": "lista",
+				"contenido": [	
+					{
+						"punto": "A partir del 30/06/2003 no se permitirá la comercialización y puesta en servicio de aparatos y/o sistemas conforme a la reglamentación anterior. (Estamos en 2010 con lo que hace 7 años que se aplica la prohibición)."
+					},
+					{
+						"punto": "Es aplicable a todo tipo de equipos capaces de ser fuente de ignición (p. ej. equipos mecánicos etc.)"
+					},
+					{
+						"punto": "Clasificación de equipos en grupos y categorías, para zonas con riesgo de explosión (novedad en protección para polvos combustibles)"
+					}				
+				]
+			},
+			{
+				"clase": "texto",
+				"texto": "<p><b>Real Decreto 681/2003</b> sobre protección de la salud y seguridad de los trabajadores expuestos a los riesgos derivados de la presencia de atmósferas explosivas en el lugar de trabajo [Trasposición de la Directiva 99/92/CE (ATEX-137)]</p><p>El RD 681/2003 es un Decreto específico dentro del marco de la Directiva 89/391/CEE, ó Ley de Prevención de Riesgos Laborales.</p><p>Configura el documento de Protección contra Explosiones de forma coherente con los documentos de Riesgos Laborales y de Planificación de la Actividad Preventiva.</p>"
+			},
+			{
+				"clase": "texto",
+				"texto": "<p>El Campo de aplicación coincide prácticamente con el RD 400/1996.</p><p>En su Anexo I recoge la clasificación de las áreas en las que pueden formarse atmósferas explosivas (zonas 0,1,2  relativas a gases, y zonas 0,21,22 relativas a polvo).</p><br>En su Anexo II, parte A, establece:<br>"
+			},
+			{
+				"clase": "lista",
+				"contenido": [	
+					{
+						"punto": "Medidas Organizativas (formación de los trabajadores, instrucciones por escrito y permisos de trabajo)."
+					},
+					{
+						"punto": "Establece Medidas de protección contra explosiones."
+					},
+					{
+						"punto": "En las instalaciones existentes la utilización o no de los equipos, aparatos y sistemas de protección, estará en función de lo establecido en el Documento de protección contra explosiones o en la verificación por personas “competentes”"
+					}				
+				]
+			},
+			{
+				"clase": "texto",
+				"texto": "<p>En su parte B, establece los criterios para la elección de los aparatos y sistemas de protección según Categorías del R.D 400/1996:</p>"
+			},
+			{
+				"clase": "lista",
+				"contenido": [	
+					{
+						"punto": "APARATOS DE LA CATEGORÍA 1 para Zonas 0 o 20"
+					},
+					{
+						"punto": "APARATOS DE LA CATEGORÍA 1 o 2 para Zonas 1 o 21"
+					},
+					{
+						"punto": "APARATOS DE LA CATEGORÍA 1, 2 o 3 para Zonas 2 o 22"
+					}				
+				]
+			},
+			{
+				"clase": "texto",
+				"texto": "<p>Existe una guía sobre atmósferas explosivas en el lugar de trabajo, editada por el Instituto Nacional de Seguridad e Higiene en el Trabajo, que desarrolla este RD, podéis verla pulsando <a href='http://www.insht.es/InshtWeb/Contenidos/Normativa/GuiasTecnicas/Ficheros/ATM%C3%93SFERAS%20EXPLOSIVAS.pdf'>en este enlace.</a></p>"
+			}
+		]
+	},
+	{
+		"titulo": "OBLIGACIÓN DEL EMPRESARIO",
+		"contenido": [
+			{
+				"clase": "texto",
+				"animacion": "flash",
+				"texto": "El empresario deberá tomar diferentes medidas de carácter técnico u organizativo, siempre de acuerdo con los principios básicos que deben inspirar la acción preventiva, que se combinarán o completarán, cuando sea necesario, con medidas contra la propagación de las explosiones. De carácter específico son la obligación de evaluar los riesgos de explosión y la de coordinar, cuando en un mismo lugar de trabajo se encuentren trabajadores de varias empresas, además de la obligación de elaborar un documento de protección contra explosiones y de clasificar en zonas las áreas en las que puedan formarse atmósferas explosivas."
+			},
+			{
+              "clase": "imagen",
+              "imagen": "img/mod01/diagrama.png"
+            },
+			{
+				"clase": "texto",
+				"texto": "<p>El empresario tendrá que evaluar los riesgos específicos derivados de las atmósferas explosivas, teniendo en cuenta, al menos:</p>"
+			},
+			{
+				"clase": "lista",
+				"contenido": [	
+					{
+						"punto": "La probabilidad de formación y la duración de atmósferas explosivas."
+					},
+					{
+						"punto": "La probabilidad de la presencia y activación de focos de ignición, incluidas las descargas electrostáticas."
+					},
+					{
+						"punto": "Las instalaciones, las sustancias empleadas, los procesos industriales y sus posibles interacciones."
+					},
+					{
+						"punto": "Las proporciones de los efectos previsibles."
+					}				
+				]
+			}
+		]
+	},	
+	{
+		"titulo": "RESUMEN",
+		"contenido": [
+			{
+				"clase": "texto",
+				"texto": "<p>Se entiende por ATMÓSFERA EXPLOSIVA  toda mezcla, en condiciones atmosféricas, de iare y sustancias inflamables en forma de gas, vapor o polvo en la que, tras la ignición, se propaga la mezcla no quemada.</p><br>Se distinguen dos tipos de atmósferas ATEX:"
+			},
+			{
+				"clase": "lista",
+				"contenido": [
+					{
+						"punto": "Atmósferas de gas explosivas."
+					},
+					{
+						"punto": "Atmósfera con polvo explosivo."
+					}
+				]
+			},
+			{
+				"clase": "texto",
+				"texto": "<p>Algunas de las principales industrias con zonas de atmósfera ATEX son:</p>"
+			},
+			{
+				"clase": "lista",
+				"contenido": [
+					{
+						"punto": "Industria química"
+					},
+					{
+						"punto": "Vertederos"
+					},
+					{
+						"punto": "Centrales eléctricas"
+					},
+					{
+						"punto": "Empresas de tratamiento de aguas residuales"
+					},
+					{
+						"punto": "Compañías de suministro de gas"
+					},
+					{
+						"punto": "Industria de trabajo de la madera"
+					},
+					{
+						"punto": "Talleres de pintura y esmaltado"
+					},
+					{
+						"punto": "Fabricación de piezas de metales ligeros y talleres de carpintería metálica"
+					},
+					{
+						"punto": "Instalaciones agropecuarias"
+					},
+					{
+						"punto": "Reparación de vehículos"
+					},
+					{
+						"punto": "Lavanderías y tintorerías"
+					},
+					{
+						"punto": "Industria alimentaria"
+					},
+					{
+						"punto": "Industria farmacéutica"
+					},
+					{
+						"punto": "Refinerías"
+					},
+					{
+						"punto": "Industrias de reciclado de residuos"
+					},
+					{
+						"punto": "Industria textil y afines"
+					},
+					{
+						"punto": "Locales de utilización de productos químicos inflamables"
+					},
+					{
+						"punto": "Industrias forestales y afines"
+					}
+				]
+			},
+			{
+				"clase": "texto",
+				"texto": "<p>Las principales normas en el caso ATEX son:</p>"
+			},
+			{
+				"clase": "lista",
+				"contenido": [
+					{
+						"punto": "La <b>Ley 31/1995</b> de Prevención de Riesgos Laborales determina el cuerpo básico de garantías y responsabilidades para una adecuada protección de la salud de los trabajadores en el lugar de trabajo, dejando al desarrollo de normas reglamentarias la fijación de las medidas mínimas para la adecuada protección (Art. 43 Ley 31/1995 LPRL)"
+					},
+					{
+						"punto": "<b>Real Decreto 400/1996</b> relativo a los aparatos y sistemas de protección para uso en atmósferas potencialmente explosivas [Trasposición de la Directiva 94/9/CE (ATEX-100. Que establece los requisitos esenciales de seguridad para equipos y sistemas, los diferentes módulos de calidad y los sistemas de certificación “CE”. Es un R.D básicamente de exigencias para los fabricantes de equipos y sistemas de protección para uso en Atmósferas Explosivas, estableciendo una clasificación de equipos en grupos y categorías."
+					},
+					{
+						"punto": "<b>Real Decreto 681/2003</b> sobre protección de la salud y seguridad de los trabajadores expuestos a los riesgos derivados de la presencia de atmósferas explosivas en el lugar de trabajo [Trasposición de la Directiva 99/92/CE (ATEX-137)]"
+					}
+				]
+			}			
+		]
+	},
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "Las atmósferas ATEX pueden ser:",
+              "respuestas": [
+                {
+                  "opcion": "Atmósferas de gas explosivas",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Atmosferas con polvo explosivo",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Existen ambas",
+                  "correcto": "true"
+                }
+              ]
+            },
+            {
+              "texto": "¿Se incluye en la definición de ATEX el riesgo de explosión de material pirotécnico?",
+              "respuestas": [
+                {
+                  "opcion": "Sí.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "No.",
+                  "correcto": "true"
+                }
+              ]
+            },
+            {
+              "texto": "Está claro que una refinería es una industria con zona ATEX, pero y un almacenamiento en un silo de harina, lo es?",
+              "respuestas": [
+                {
+                  "opcion": "No, la harina es inocua",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Sí, la harina genera atmósfera con polvo explosivo",
+                  "correcto": "true"
+                }
+              ]
+            },
+            {
+              "texto": "La ley 31/1995 ¿es de aplicación en el caso de atmosferas explosivas?",
+              "respuestas": [
+                {
+                  "opcion": "Si, es la ley general de prevención de riesgos laborales, y por ello aplica en todo caso.",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "No, es demasiado general y no tiene aplicación en este caso.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Sólo aplica el RD 400/1996.",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "El RD 681/2003 establece entre otras cosas:",
+              "respuestas": [
+                {
+                  "opcion": "Medidas organizativas y de protección contra explosiones.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Los criterios para la elección de los aparatos y sistemas de protección",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Ambas son correctas.",
+                  "correcto": "true"
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": ""
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

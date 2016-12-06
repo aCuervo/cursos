@@ -1,0 +1,312 @@
+﻿{
+  "modulo": "",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Clasificación de zonas",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "Los lugares con zonas ATEX, suelen denominarse <b>emplazamientos</b>"
+        },
+        {
+          "clase": "tabs",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "LUGARES CON PRESENCIA DE GASES O VAPORES INFLAMABLES",
+              "subtitulo": "Presencia de gases o vapores inflamables",
+              "texto": "<p>Donde es posible la formación, en cualquier momento, de atmósferas explosivas como en zonas de trasvase de líquidos explosivos, cabinas de pintura, almacenes de disolventes, etc.</p><br>Se subdividen en función de la probabilidad de presencia de atmósfera explosiva:<br><ul><li><b>Zona 0</b>: presencia permanente o durante largos periodos de tiempo.</li><li><b>Zona 1</b>: susceptible de formarse en condiciones normales de trabajo.</li><li><b>Zona 2</b>: presencia poco probable y por cortos periodos.</li></ul><br><b>Principios de seguridad</b> a considerar:<br><ul><li>Las zonas de riesgo de explosión serán lo más reducidas posible.</li><li>La presencia de equipos eléctricos se minimizará y serán de protección acorde a la zona.</li></ul>"
+            },
+            {
+              "titulo": "LUGARES CON PRESENCIA DE POLVO COMBUSTIBLE",
+              "subtitulo": "Presencia de polvo combustible",
+              "texto": "<p>Como ejemplo podemos citar silos de cereales, molinos, plantas de tratamiento de carbón, plantas de fertilizantes, etc.</p><br>Dentro de esta clase se distingue:<br><ul><li><b>Zona 20</b>: Aquella en la que hay o puede haber polvo combustible durante las operaciones normales de funcionamiento, puesta en marcha o limpieza, en cantidad suficiente para producir una atmósfera explosiva. Ejemplo: en molinos pulverizadores.</li><li><b>Zona 21:</b> Aquella en la que la nube o capa de polvo es susceptible de formarse en condiciones normales de trabajo.</li><li><b>Zona 22:</b> presencia poco probable y por cortos periodos.</li></ul><br><b>Principios de seguridad</b> a considerar:<br><ul><li>Se evitará en lo posible la ventilación y con ello el levantamiento de polvo.</li><li>Mantenimiento de limpieza y recogida del polvo generado de forma periódica.</li><li>Los equipos eléctricos estarán protegidos contra la entrada de polvo en el grado requerido:<ul><li>IP5x. Protección contra la entrada perjudicial de polvo.</li><li>IP6x. Protección total contra la entrada de polvo.</li></ul></li><li>Las temperaturas superficiales máximas de trabajo de los equipos se limitará a 2/3 de la TIN o a 745ºC menos de la TIC para capas de 3 mm. Si son superiores se deberá disminuir dicha temperatura.</li></ul>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Clases de emplazamientos",
+      "contenido": [
+        {
+
+
+
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "Emplazamientos clase I"
+            },
+            {
+              "titulo": "Emplazamientos clase II"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "Aquellos en los que los riesgos derivados de atmósferas explosivas están propiciados por  la posible presencia de <b>líquidos o gases inflamables</b>."
+                },
+                {
+                  "texto": "Aquellos en los que los riesgos derivados de atmósferas explosivas están propiciados por  la posible presencia de <b>polvos combustibles</b>."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<b>Zona 0:</b><br>Área de trabajo en la que una atmósfera explosiva consistente en una mezcla con aire de sustancias inflamables en forma de gas, vapor o niebla está presente de modo permanente, o por un período de tiempo prolongado, o con frecuencia."
+                },
+                {
+                  "texto": "<b>Zona 20:</b><br>Área de trabajo en la que una atmósfera explosiva en forma de nube de polvo combustible en el aire está presente de forma permanente, o por un período de tiempo prolongado, o con frecuencia."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<b>Zona 1:</b><br>Área de trabajo en la que es probable, en condiciones normales de explotación, la formación ocasional de una atmósfera explosiva consistente en una mezcla con aire de sustancias inflamables en forma de gas, vapor o niebla."
+                },
+                {
+                  "texto": "<b>Zona 21:</b><br>Área de trabajo en la que es probable la formación ocasional, en condiciones normales de explotación, de una atmósfera explosiva en forma de nube de polvo combustible en el aire."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<b>Zona 2:</b><br>Área de trabajo en la que no es probable, en condiciones normales de explotación, la formación de una atmósfera explosiva consistente en una mezcla con aire de sustancias inflamables en forma de gas, vapor o niebla o en la que, en caso de formarse, dicha atmósfera explosiva sólo permanece durante breves períodos de tiempo."
+                },
+                {
+                  "texto": "<b>Zona 22:</b><br>Área de trabajo en la que no es probable, en condiciones normales de explotación, la formación de una atmósfera explosiva en forma de nube de polvo combustible en el aire o en la que, en caso de formarse, dicha atmósfera explosiva sólo permanece durante un breve período de tiempo."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "titulo": "Documento DOPEX",
+      "contenido": [
+
+
+
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "El <b>documento de protección contra explosiones</b> (DOPEX) es una recopilación de las actuaciones preventivas realizadas por la empresa que tiene por objeto reflejar el conjunto de medidas adoptadas para garantizar la seguridad y salud de los trabajadores frente al riesgo de explosión."
+        },
+        {
+          "clase": "texto",
+          "texto": "Es obligación del empresario evaluar los riesgos y adoptar las medidas preventivas y de protección precisas para evitar daños a los trabajadores. Concretamente El Real Decreto 681/2003 exige la evaluación de los riesgos de explosión en su artículo 4, la clasificación de zonas de acuerdo con el anexo I y la adopción de las medidas oportunas indicadas en el anexo II.<br>A continuación se analizan los aspectos específicos que debe reflejar el DOPEX:"
+        },
+        {
+          "clase": "lista",
+          "subclase": "letras",
+          "contenido": [
+            {
+              "punto": "Que se han determinado y evaluado los riesgos de explosión: la evaluación del riesgo de explosión responde a la obligación general de evaluación de riesgos presentes en el lugar de trabajo. Se obliga específicamente a realizar la evaluación del riesgo de explosión. Dicha evaluación podría estar ya incluida en la evaluación general de riesgos realizada por el empresario en cumplimiento de la LPRL."
+            },
+            {
+              "punto": "Que se tomarán las medidas adecuadas para lograr los objetivos de este Real Decreto: el principal objetivo del presente Real Decreto es garantizar la seguridad y salud de los trabajadores expuestos al riesgo de explosión, por tanto, en este punto, se indicarán las medidas preventivas y de protección adoptadas para minimizar los riesgos de explosión que no hayan podido ser evitados. Estas medidas preventivas también podrían estar ya incluidas en la planificación de la actividad preventiva general de la empresa. Si fuese éste el caso, el DOPEX podría hacer referencia a ellas sin necesidad de duplicar la información."
+            },
+            {
+              "punto": "Las áreas que han sido clasificadas en zonas de conformidad con el anexo I: se remite al cumplimiento del artículo 7 y del anexo I de este Real Decreto. Este requisito es una novedad en el campo preventivo. Hasta el momento no era obligatorio ninguna actuación preventiva que obligase a clasificar en zonas el lugar de trabajo y recogerlo en un documento. Es obligatorio identificar los lugares de trabajo donde se pueden formar atmósferas explosivas y clasificar estas áreas en zonas, según la naturaleza de la sustancia que la provoque (gas, vapor, niebla o polvo), y en función de la frecuencia y duración de la atmósfera explosiva según indica el anexo I. El RD 842/2002, REBT, en su ITC-BT 29, define el mismo concepto de clasificación de zonas para evitar el riesgo de explosión por fuentes de ignición de origen eléctrico. Dicha clasificación, aunque puede servir de orientación, no exime de las obligaciones del RD 681/2003 que abarca el riesgo de explosión sea cual sea la sustancia que lo origine y la fuente de ignición que pueda iniciar la inflamación de la atmósfera explosiva. Por tanto, pueden existir en la empresa áreas peligrosas por la presencia de atmósferas explosivas y fuentes de ignición, que no sean de origen eléctrico y que no hayan sido clasificadas según el REBT."
+            },
+            {
+              "punto": "Las áreas en que se aplicarán los requisitos mínimos establecidos en el anexo II: el anexo II detalla las disposiciones mínimas destinadas a mejorar la seguridad y la protección de la salud de los trabajadores potencialmente expuestos a atmósferas explosivas. Puede no ser necesario aplicar todas las medidas indicadas pero sirven de referencia al empresario a la hora de seleccionar las medidas preventivas adecuadas a su situación particular. Estas medidas preventivas ya podrían haber sido consideradas formando parte de la planificación general de prevención de la empresa. En ese caso, al igual que en puntos anteriores, no tendría que repetirse en el DOPEX y podrían simplemente estar referenciadas."
+            },
+            {
+              "punto": "Que el lugar y los equipos de trabajo, incluidos los sistemas de alerta, están diseñados y se utilizan y mantienen teniendo debidamente en cuenta la seguridad."
+            },
+            {
+              "punto": "Que se han adoptado las medidas necesarias, de conformidad con el Real Decreto 1215/1997, para que los equipos de trabajo se utilicen en condiciones seguras: estos dos aspectos hacen referencia a condiciones generales de seguridad."
+            }
+          ]
+        }
+
+
+
+          ]
+        },
+
+
+        {
+          "titulo": "Autoevaluación",
+          "contenido": [
+            {
+              "clase": "texto",
+              "animacion": "swing",
+              "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+            },
+            {
+              "clase": "texto",
+              "animacion": "flash",
+              "subclase": "instruccion",
+              "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+            },
+            {
+              "clase": "autoevalPreguntas",
+              "animacion": "bounceInUp",
+              "preguntas": [
+                {
+                  "texto": "",
+                  "respuestas": [
+                    {
+                      "opcion": "",
+                      "correcto": ""
+                    },
+                    {
+                      "opcion": "",
+                      "correcto": ""
+                    },
+                    {
+                      "opcion": "",
+                      "correcto": ""
+                    }
+                  ]
+                },
+                {
+                  "texto": "",
+                  "respuestas": [
+                    {
+                      "opcion": "",
+                      "correcto": ""
+                    },
+                    {
+                      "opcion": "",
+                      "correcto": ""
+                    },
+                    {
+                      "opcion": "",
+                      "correcto": ""
+                    }
+                  ]
+                },
+                {
+                  "texto": "",
+                  "respuestas": [
+                    {
+                      "opcion": "",
+                      "correcto": ""
+                    },
+                    {
+                      "opcion": "",
+                      "correcto": ""
+                    },
+                    {
+                      "opcion": "",
+                      "correcto": ""
+                    }
+                  ]
+                },
+                {
+                  "texto": "",
+                  "respuestas": [
+                    {
+                      "opcion": "",
+                      "correcto": ""
+                    },
+                    {
+                      "opcion": "",
+                      "correcto": ""
+                    },
+                    {
+                      "opcion": "",
+                      "correcto": ""
+                    }
+                  ]
+                },
+                {
+                  "texto": "",
+                  "respuestas": [
+                    {
+                      "opcion": "",
+                      "correcto": ""
+                    },
+                    {
+                      "opcion": "",
+                      "correcto": ""
+                    },
+                    {
+                      "opcion": "",
+                      "correcto": ""
+                    }
+                  ]
+                },
+                {
+                  "texto": "",
+                  "respuestas": [
+                    {
+                      "opcion": "",
+                      "correcto": ""
+                    },
+                    {
+                      "opcion": "",
+                      "correcto": ""
+                    },
+                    {
+                      "opcion": "",
+                      "correcto": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "Despedida",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "animacion": "fadeInRight",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": ""
+                },
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod01/despedida.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "¡Hasta luego!",
+          "fondo": "img/comunes/contraportada.svg",
+          "subclase": "portada"
+        }
+      ]
+    }
