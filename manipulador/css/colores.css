@@ -143,7 +143,7 @@ footer .footerFlecha path{fill:#fff;}
 .sliderB .carousel-control svg path{fill:#65ACB0; stroke:#212121;}
 /* AUTOEVALUACIÓN TEST */
 #formAutoeval h2::before{background: #fff none repeat scroll 0 0; border: 0.3em solid #65ACB0;}
-#formAutoeval #divResultados{background-color: #fff; border: 4px solid #65ACB0;}
+#formAutoeval #divResultados, #formAutoeval #divFeedback{background-color: #fff; border: 4px solid #65ACB0;}
 #formAutoeval .feedback{border: 3px solid #65ACB0;}
 /* AUTOEVALUACIÓN ARRASTRAR */
 .autoevalArrastrar .contenedores .caja{border-color:#65ACB0; background-color:#fff;}

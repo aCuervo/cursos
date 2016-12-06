@@ -1340,6 +1340,13 @@ function crearAutoevalPreguntas(div, elemento){
     divResultados.id = "divResultados";
     divResultados.style.display = "none";
 
+    if (elemento.feedback) {
+        var divFeedback = document.createElement("DIV");
+        divFeedback.id = "divFeedback";
+        divFeedback.innerHTML = elemento.feedback;
+        divFeedback.style.display = "none";
+    }
+
     // Botón para corregir el ejercicio
     var divBotonera = document.createElement("DIV");
     divBotonera.className = "botonera";
@@ -1382,6 +1389,9 @@ function crearAutoevalPreguntas(div, elemento){
     // Botón para resolver el ejercicio
     var botonResolver = document.createElement("BUTTON");
     botonResolver.onclick = function () {
+
+        $("#divFeedback").show();
+
         var forms = $("#formAutoeval > form");
         $.each(forms, function (i, form) {
             $(form).find('input').each(function (j, res) {
@@ -1404,6 +1414,9 @@ function crearAutoevalPreguntas(div, elemento){
     divBotonera.appendChild(botonResolver);
 
     divFormulario.appendChild(divResultados);
+    if (divFeedback) {
+        divFormulario.appendChild(divFeedback);
+    }
     divFormulario.appendChild(divBotonera)
     div.appendChild(divFormulario);
 }
