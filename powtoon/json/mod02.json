@@ -1,0 +1,394 @@
+﻿{
+  "modulo": "POWTOON",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "PORTADA",
+      "fondo": "img/mod02/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "POWTOON",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Herramienta para hacer presentaciones on line con una interfaz intuitiva, con mucho diseño y divertida.<br><br>Nos permite hacer presentaciones en formato animación, creadas a partir de viñetas o slides.<br><br>Hay dos tipos de presentaciones, usando SLIDESHOW (se pueden hacer pausas cuando hacemos una presentación delante de una audiencia) o MOVIE (cuando queremos crear un vídeo sin pausas).<br><br>Tiene una gran variedad de tipografías, fondos, modalidades de transición entre una viñeta y otra, etc., esto hace de Powtoon una herramienta perfecta para la creación de presentaciones."
+            },
+            {
+              "clase": "lista",
+              "titulo": "PowToon es un programa en línea de diseño de presentaciones, que permite:",
+              "contenido": [
+                {
+                  "punto": "Crear videos animados en base al encadenamiento de diapositivas."
+                },
+                {
+                  "punto": "Insertar texto e imágenes."
+                },
+                {
+                  "punto": "Animar los elementos que aparecen en la presentación."
+                },
+                {
+                  "punto": "Incluir música, sonido o una grabación propia."
+                },
+                {
+                  "punto": "Seleccionar entre una gran variedad de personajes, tipografías, fondos, modalidades de animación;..."
+                },
+                {
+                  "punto": "Guardar las presentaciones en el formato que permite ir avanzando entre diapositivas o exportarlas a Youtube o Vimeo como video."
+                },
+                {
+                  "punto": "Compartir las presentaciones en redes sociales o enviarlas por mail."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/02.intro.png",
+          "ancho": 500
+        }
+      ]
+    },
+    {
+      "titulo": "INICIO DE SESIÓN",
+      "contenido": [
+        {
+          "clase": "lista",
+          "animacion": "fadeInRight",
+          "titulo": "Entramos en la página <b>www.powtoon.es</b> y nos registramos como usuario haciendo clic en 'Comienza ya' y elegimos la opción deseada:",
+          "contenido": [
+            {
+              "punto": "Con Google+"
+            },
+            {
+              "punto": "Con LinkedIn"
+            },
+            {
+              "punto": "Con Facebook"
+            },
+            {
+              "punto": "O creando una cuenta en Powtoon (cumplimentando un breve formulario)"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Luego hacemos clic en 'Login'."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/01.inicio_sesion.png",
+              "ancho": 500
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/17.educadores.png",
+              "ancho": 500
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<p>Si entras en WWW.POWTOON/EDU podrás acceder al Powtoon para maestros y estudiantes, hay un trial de dos días para probarlo antes de pagar.<br><br>Hay slides y diseños exclusivos para éste tipo de perﬁles, para hacer sus clases, presentaciones de trabajos, etc.</p>"
+        }
+      ]
+    },
+    {
+      "titulo": "PÁGINA DE INICIO",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Nos lleva a la página de inicio, arriba a la derecha hay un menú (crear, mis Powtoons, precios, tutoriales, el blog y tu nombre de usuario). Haciendo scroll hacia abajo todo tipo de información y ejemplos de como usar Powtoon y para qué sirve.<br><br>Al ingresar, encontrarás un panel en donde se irán guardando tus proyectos. Para comenzar uno nuevo, le daremos al botón START NOW o CREATE en el menú"
+            },
+            {
+              "clase": "lista",
+              "animacion": "fadeInRight",
+              "contenido": [
+                {
+                  "punto": "Selecciona una plantilla para crear tu video, puedes recorrer entre las categorías que te ofrece Powtoon. Para asegurarte que sean gratuitas, selecciona entre las opciones que no tengan aviso de “Business” (Negocios) o “Pro”"
+                },
+                {
+                  "punto": "Una vez seleccionada la plantilla, haz clic en “Continue”). Tardará un poco en cargarse tu panel para editarlo."
+                }
+
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/02.intro.jpg",
+          "ancho": 750
+        }
+      ]
+    },
+    {
+      "titulo": "BARRA DE HERRAMIENTAS",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/12.look_estilo.png",
+          "ancho": 750
+        },
+        {
+          "clase": "lista",
+          "titulo": "En el editor encontrarás diversas barras de herramientas:",
+          "contenido": [
+            {
+              "punto": "En el <b>margen izquierdo</b> tendrás una columna con tu serie de diapositivas. Haz clic en “+ Add Slide” (Añadir diapositiva) para ir sumando nuevas.<br>También encontrarás el botón “Play” para ir probando cómo va quedando tu video"
+            },
+            {
+              "punto": "En el <b>margen derecho</b> encontrarás los elementos para agregar a tu diapositiva:",
+              "contenido": [
+                {
+                  "punto": "En 'Layouts', encontrarás diferentes diseños de viñetas."
+                },
+                {
+                  "punto": "En 'Background' tendrás opciones para cambiar el fondo de las diapositivas."
+                },
+                {
+                  "punto": "Desde 'Text' puedes agregar texto."
+                },
+                {
+                  "punto": "En 'Library' encontrarás personajes (puedes cambiarles la postura) y objetos."
+                },
+                {
+                  "punto": "En 'Objects' encontrarás cuadros de diálogo y formas. Líneas, ﬂecha y botones."
+                },
+                {
+                  "punto": "'Graphs', aquí encontrarás todo tipo de gráﬁcos editables. Dinámicos y planos."
+                },
+                {
+                  "punto": "Seleccionando 'Sound' podrás incorporar sonido, por ejemplo utilizando las canciones que te ofrece Powtoon."
+                },
+                {
+                  "punto": "Seleccionando 'Image' podrás subir imágenes desde tu computadora haciendo clic en 'Upload ﬁles' (Subir archivos)."
+                }
+              ]
+            },
+            {
+              "punto": "Cada uno de estos elementos, aparecerá en determinado momento de tu diapositiva (y por lo tanto de tu video). Para elegir el periodo en el cual aparecerá el elemento debes utilizar la barra en el <b>margen inferior</b>.",
+              "contenido": [
+                {
+                  "punto": "Cada diapositiva cuenta con 20 segundos. Al colocar un elemento, debemos seleccionar el tiempo que deseamos que aparezca."
+                },
+                {
+                  "punto": "El elemento también puede aparecer durante los 20 segundos y a lo largo de varias diapositivas."
+                },
+                {
+                  "punto": "La ﬂecha roja nos indica en qué momento de la diapositiva estamos trabajando."
+                }
+              ]
+            },
+            {
+              "punto": "En el <b>margen superior</b> encontrarás opciones para cambiar el título, guardar tu presentación ('Save'), deshacer y rehacer, obtener una vista previa y exportar (en este último caso se abrirán más opciones: publicar, compartir en diversas redes, descargar en diversos formatos, subir a Youtube y otros sitios de videos)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "LOOKS",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/03.looks.PNg",
+          "ancho": 800
+        },
+        {
+          "clase": "texto",
+          "subclase": "dosColumnas",
+          "texto": "<br>Si elegimos crear nuestro vídeo con un look, antes de empezar tenemos que elegir el estilo que queremos usar.<br>Hay cinco opciones. Después tendremos que elegir los slides para cada vídeo.<br><br>Cada look tiene un estilo, profesional, dibujo a mano, infografía, comic o corporativo). Cada uno tiene su estilo y sus recursos serán personalizados en cada uno de ellos."
+        }
+      ]
+    },
+    {
+      "titulo": "PLANTILLAS PREDISEÑADAS I",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "La segunda forma de hacer nuestro vídeo es con una plantilla prediseñada.<br><br>Las viñetas o slides aparecen con contenido que se puede personalizar o dejar el diseño predeﬁnido.<br><br>También se puede crear un video en blanco eligiendo 'Blank Template'.<br><br>"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/04.predisens.png",
+          "ancho": 900
+        }
+      ]
+    },
+    {
+      "titulo": "PLANTILLAS PREDISEÑADAS II",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Se puede elegir la plantilla por categorías, dependiendo del uso al que vayamos a destinar el vídeo (venta de un producto, promoción de tu empresa, etc.).<br><br>Hay tres opciones work, education y personal. Las categorías cambiarán dependiendo de nuestra elección, aunque hay muchas que son comunes<br><br>"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/05.predisens.png",
+          "ancho": 900
+        }
+      ]
+    },
+    {
+      "titulo": "PLANTILLAS PREDISEÑADAS III",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En las plantillas prediseñadas poniendo el puntero en cada una de ellas, aparecen dos botones, uno para ver una vista previa de la misma y otro para usar la plantilla.<br><br>Iremos viendo la opción que mas se ajuste a nuestras necesidades, normalmente ajustamos el contenido al diseño existente, aunque también se puede hacer al revés, creando un diseño desde cero (entonces elegiremos Blank Template)<br><br>"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/06.predisens.png",
+          "ancho": 900
+        }
+      ]
+    },
+    {
+      "titulo": "CREACIÓN DE LOOKS",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Por defecto sea cual sea el look que eligamos, nos sale la estructura básica.<br><br>Hay un desplegable pinchando sobre el triángulo para cambiar la estructura.<br><br>Pincharemos sobre el primer slide para que aparezcan las plantillas a elegir en la parte de abajo.<br><br>"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/07.looks_eleccion.png",
+          "ancho": 900
+        }
+      ]
+    },
+    {
+      "titulo": "CREACIÓN DE LOOKS II",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Pondremos el puntero encima de cada plantilla (aparecen en la parte de abajo), nos saldrá un botón para usarla si es la que elegimos (use). Así sucesivamente con el resto de slides.<br><br>No olvidéis que se puede cambiar la estructura o añadirle a la misma mas slide para personalizarlo. Esto se hace poniendo el puntero entre slide y slide, saldrá un + y un texto que pone añadir slide.<br><br>"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/08.look_use.png",
+          "ancho": 900
+        }
+      ]
+    },
+    {
+      "titulo": "CREACIÓN DE LOOKS III",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Cuando terminas de elegir la plantilla para todos los slides hay que dar al botón de continuar para personalizar nuestro vídeo. Se encuentra en el botón azul arriba a la derecha.<br><br>"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/09.look_continua.png",
+          "ancho": 900
+        }
+      ]
+    },
+    {
+      "titulo": "CREACIÓN DE LOOKS IV",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "A la izquierda nos saldrán todos los slides, pincharemos uno por uno para personalizar o cambiar elementos.<br><br>Debajo de cada slide aparece una línea de tiempo con todos los elementos que componen el diseño. Se podrá personalizar pinchando en cada uno de ellos.<br><br>Por defecto nos sale en la esquina de la derecha la imagen de una chica sonriendo, tendremos que pinchar encima para que se abran los estilos.<br><br>Para ver los resultados se puede poner el video entero (play abajo a la izquierda) o cada slide por separado (play entre corchetes).<br><br>"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/look_inicio.jpg",
+          "ancho": 900
+        }
+      ]
+    },
+    {
+      "titulo": "CREACIÓN DE LOOKS V",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Al dar en el icono de la chica sonriendo se abre una columna a la derecha<br><br>"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/11.look_timeline.png",
+          "ancho": 900
+        }
+      ]
+    },
+    {
+      "titulo": "CREACIÓN DE LOOKS VI",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En la esquina superior de la parte derecha de la pantalla hay un icono con una ﬂecha, que al pinchar encima nos mostrará diferentes estilos (los hay gratuitos, pro y business), podemos cargar el estilo directamente (sale un botón que se llama “use this style”) o previsualizar el estilo para ver si nos interesan los recursos del mismo, hay que darle a un ojo que sale a la izquierda del botón. Aparecerá  una ventana donde nos muestra cada video, así podremos ver si es lo que necesitamos sin tener que cargarlo<br><br>"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/12.look_estilo.png",
+          "ancho": 900
+        }
+      ]
+    },
+    {
+      "titulo": "CREACIÓN DE LOOKS VII",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Una vez elegido el estilo aparecerá una columna a la derecha de nuestra pantalla con todos los elementos a utilizar. Hay diferentes grupos dependiendo del recurso  (Layouts o plantillas, text, library, objets, graphs, sound, images).<br><br>Al pinchar en cada una de ellas aparecerá una columna a su izquierda con todos los elementos (gratuitos y de pago). Cada grupo se organiza por tipo de recurso en bloques, en muchos de ellos aparece un botón “more” para cargar mas opciones o un texto que pone “Search all styles” donde te cargará los recursos de pago.<br><br>"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/13.look_estilocargado.png",
+          "ancho": 900
+        }
+      ]
+    },
+    {
+      "titulo": "CANDADO",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Según la plantilla o recurso que utilicemos nos aparecerá un candado, eso signiﬁca que no podemos utilizarlo en la versión gratuita ya que sólo está disponible en la de pago (pro o business).<br><brA la hora de exportar nos dirá que estamos utilizando caracteres PREMIUM (con candado, de pago). Tendremos que reemplazarlos si queremos seguir con la cuenta gratuita o hacer una cuenta PRO o BUSINESS, tanto para descargar el video como para compartirlo en Redes Sociales.<br><br>"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/14.candado.png",
+          "ancho": 900
+        }
+      ]
+    },
+    {
+      "titulo": "OPCIONES DE CADA RECURSO",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/15.opcionesswap.png",
+          "ancho": 700
+        },
+        {
+          "clase": "texto",
+          "texto": "Dentro de nuestro slide podemos seleccionar cada elemento. A su izquierda aparecerán varios iconos para cambiar sus características o reemplazarlo por otro en la columna de recursos de la derecha.<br><br>Se podrá cambiar el tipo de animación (icono persona corriendo), cambiar el elemento por otro de la columna derecha (SWAP), te abrirá el grupo correspondiente dependiendo del tipo de elemento que quieras cambiar (Layouts o plantillas, text, library, objets, graphs, sound, images). Se puede voltear horizontalmente y cambiar el color<br><br>"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/16.eleccioncaracter.png",
+          "ancho": 700
+        }
+      ]
+    },
+    {
+      "titulo": "CONTRAPORTADA",
+      "fondo": "img/mod02/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}

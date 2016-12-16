@@ -1,0 +1,93 @@
+/**
+* Wordfind.js 0.0.1
+* (c) 2012 Bill, BunKat LLC.
+* Wordfind is freely distributable under the MIT license.
+* For all details and documentation:
+*     http://github.com/bunkat/wordfind
+*/
+
+.juegoSopaLetras p {
+  margin: 1em;
+}
+
+/**
+* Styles for the puzzle
+*/
+.juegoSopaLetras #puzzle {
+  border-width: 1px;
+  border-style:solid;
+  padding: 1em;
+  float: left;
+  margin: 30px 20px;
+  min-width: 400px;
+  min-height: 400px;
+}
+
+.juegoSopaLetras #puzzle div {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* style for each square in the puzzle */
+.juegoSopaLetras #puzzle .puzzleSquare {
+  height: 30px;
+  width: 30px;
+  text-transform: uppercase;
+  border: 0;
+  font: 1em sans-serif;
+}
+
+.juegoSopaLetras button::-moz-focus-inner {
+  border: 0;
+}
+
+.juegoSopaLetras #puzzle .selected,.juegoSopaLetras #puzzle .found,.juegoSopaLetras #puzzle .solved  {
+  transition: all .3s ease-out;  
+}
+
+/* indicates that all words have been found */
+.juegoSopaLetras #puzzle .complete {
+
+}
+
+/**
+* Styles for the word list
+*/
+.juegoSopaLetras #words {
+    padding: 1em;
+  /*padding-top: 20px;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+  width: 300px;*/ 
+}
+
+.juegoSopaLetras #words ul {
+    counter-reset: li; 
+    list-style: none;
+    *list-style: decimal; /* Keep using default numbering for IE6/7 */
+    padding-left: 30px;
+}
+
+.juegoSopaLetras #words li {
+  padding: 0.1em 0;
+}
+
+.juegoSopaLetras #words li:before{
+    content: counter(li) ". ";
+    counter-increment: li;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* indicates that the word has been found */
+.juegoSopaLetras #words .wordFound {
+  text-decoration: line-through;
+  transition: all .3s ease-out;  
+}
