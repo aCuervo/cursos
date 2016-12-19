@@ -8,16 +8,38 @@
       "subclase": "portada"
     },
     {
-      "titulo": "INICIO DE SESIÓN",
+      "titulo": "INICIANDO SESIÓN",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Canva es una de mis herramientas favoritas de diseño gráﬁco cuando se busca una creación rápida sin renunciar al acabado profesional, sólo recomendada a personas que no sean diseñadoras pero que no quieran renunciar al diseño.<BR><BR>Entramos en la página www.canva.es y nos registramos.<BR>Crearte una cuenta en Canva es gratis y muy sencillo. Puedes acceder vinculando tu cuenta de Facebook/Google o puedes entrar con un correo y contraseña.<BR><BR>Como consejo te diré que si accedes por Facebook, podrás usar las fotos que tengas en el perﬁl para tus creaciones.<br><br>"
+          "animacion": "flash",
+          "subclase": "recuadro",
+          "texto": "<center>Una de las herramientas favoritas de diseño gráﬁco cuando se busca una creación rápida con un acabado profesional.<br><b>Canva</b> está recomendada para personas que, sin ser diseñadoras, no quieran renunciar al diseño.</center>"
+        },
+        {
+          "clase": "lista",
+          "animacion": "rubberBand",
+          "titulo": "Entramos en www.canva.es y nos registramos. Crear una cuenta en Canva es gratis y muy sencillo. Sólo tienes que elegir entre:",
+          "contenido": [
+            {
+              "punto": "Acceder introduciendo un correo electrónico y una contraseña."
+            },
+            {
+              "punto": "Acceder vinculando tu cuenta de facebook o google."
+            }
+          ]
         },
         {
           "clase": "imagen",
+          "animacion": "shake",
           "imagen": "img/mod01/01.png",
-          "ancho": 900
+          "ancho": 600
+        },
+        {
+          "clase": "icono",
+          "animacion": "swing",
+          "subclase": "sabiasQue",
+          "texto": "Si accedes por Facebook podrás usar las fotos que tengas en el perﬁl para tus creaciones."
         }
       ]
     },
@@ -26,64 +48,39 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Después de la presentación inicial de 23 segundos con las funciones principales, tendrás acceso a tu perﬁl en Canva y te podrás poner manos a la obra con tus diseños.<br>"
+          "animacion": "bounceIn",
+          "texto": "Tras la presentación inicial de 23 segundos de las funciones principales, tendrás acceso a tu perﬁl en Canva y te podrás poner manos a la obra con tus diseños.<br><br>"
         },
         {
           "clase": "lista",
-          "titulo": "El plan <b>GRATUITO</b> incluye:",
+          "animacion": "bounceInDown",
+          "titulo": "<br><center>El plan <b>GRATUITO</b> incluye:</center>",
           "contenido": [
             {
-              "punto": "Opción a dos carpetas para organizar los diseños."
+              "punto": "Dos carpetas donde organizar tus diseños."
             },
             {
-              "punto": "Diseños colaborativos: hasta 10 miembros por equipo."
+              "punto": "Diseños colaborativos con un equipo de hasta 10 miembros."
             },
             {
-              "punto": "1 GB de almacenamiento para fotos y diseños terminados."
+              "punto": "1 GB de almacenamiento para guardar tus fotos y diseños terminados."
             },
             {
               "punto": "Acceso a más de 8.000 plantillas."
             },
             {
-              "punto": "Opción de subir tus propias imágenes."
+              "punto": "La opción de subir tus propias imágenes."
             },
             {
-              "punto": "Puedes comprar fotos, si quieres, por 1$ cada una."
+              "punto": "También puedes comprar fotos, si quieres, por 1$ cada una.<br><br>"
             }
           ]
         },
         {
-          "clase": "lista",
-          "titulo": "<br>Luego tienes el plan de pago por 12.95$/mes o el especial para empresas que estará disponible próximamente. Ahora puedes solicitar una prueba de 30 días gratis, por si tienes interés.<br><br>La versión de <b>PAGO</b> incluye:",
-          "contenido": [
-            {
-              "punto": "Carpetas ilimitadas para sus diseños."
-            },
-            {
-              "punto": "Opción a guardar imágenes con fondo transparente."
-            },
-            {
-              "punto": "Invitar a un máximo de 50 miembros al equipo."
-            },
-            {
-              "punto": "Almacenamiento ilimitado de fotos y activos."
-            },
-            {
-              "punto": "Opción a cambiar el tamaño de sus diseños una vez creados."
-            },
-            {
-              "punto": "Puedes subir fuentes personalizadas."
-            },
-            {
-              "punto": "Puedes guardar un conjunto de paletas de colores."
-            },
-            {
-              "punto": "Sistema de búsqueda de fotos mejorado."
-            },
-            {
-              "punto": "Plataforma de ayuda y apoyo de diseñadores."
-            }
-          ]
+          "clase": "icono",
+          "animacion": "flipInY",
+          "subclase": "definicion",
+          "texto": "<b>El plato estrella: plantillas con tamaños social media</b><br>¿De qué tamaño tiene que ser una imagen en twitter, y en facebook, y para Google plus?<br>Duda resuelta. Canva te lo pone fácil con plantillas predeﬁnidas que tienen los tamaños más comunes para compartir imágenes, banners y portadas en tus redes sociales. Seleccionas lo que necesitas y te pones a trabajar en un pis pas."
         }
       ]
     },
@@ -91,12 +88,54 @@
       "titulo": "...O CONTENIDO PREMIUM?",
       "contenido": [
         {
-          "clase": "texto",
-          "texto": "<b>Entonces, ¿cuál elijo? ¿merece la pena pagar</b><br><br>Si tienes dudas entre un plan u otro, mi consejo es que pienses sobre el uso que le vas a dar. Si lo usas por trabajo o todos los días, quizá te compensa, pero si no, la opción gratis está muy bien. No es muy caro pero piensa si te sale rentable. Te aconsejo probar primero con el gratis y si te gusta, cambiar al de pago.<br><br>Con el plan gratis  y con un poco de ingenio puedes diseñar prácticamente sin límites. Además, puedes combinar con Photoshop u otra herramientas online gratuitas como Picmonkey o Piktochart para tener acceso a más efectos y recursos."
+          "clase": "icono",
+          "animacion": "bounceIn",
+          "subclase": "exclamacion",
+          "texto": "Si te interesa puedes solicitar una prueba gratuita de 30 días para experimentar con la versión de pago."
         },
         {
           "clase": "texto",
-          "texto": "<b>Su plato estrella: las plantillas con tamaños social media</b><br><br>¿De qué tamaño tiene que ser una imagen en twitter, y en facebook, y para Google plus? Duda resuelta. Canva te lo pone fácil con plantillas predeﬁnidas que tienen los tamaños más comunes para compartir imágenes, banners y portadas en tus redes sociales. Seleccionas lo que necesitas y te pones a trabajar en un pis pas."
+          "animacion": "bounceIn",
+          "texto": "El plan de pago cuesta 12.95$/mes. Próximamente también tendrán disponible un plan especial para empresas."
+        },
+        {
+          "clase": "lista",
+          "animacion": "fadeInDown",
+          "titulo": "<center>La versión de <b>PAGO</b> incluye:</center>",
+          "contenido": [
+            {
+              "punto": "Carpetas ilimitadas donde organizar los diseños."
+            },
+            {
+              "punto": "La opción de guardar imágenes con fondo transparente."
+            },
+            {
+              "punto": "Invitar a un máximo de 50 miembros al equipo."
+            },
+            {
+              "punto": "Almacenamiento ilimitado de fotos y archivos."
+            },
+            {
+              "punto": "Poder cambiar el tamaño de tus diseños una vez creados."
+            },
+            {
+              "punto": "Subir fuentes personalizadas."
+            },
+            {
+              "punto": "Guardar un conjunto de paletas de colores."
+            },
+            {
+              "punto": "Un sistema de búsqueda de fotos mejorado."
+            },
+            {
+              "punto": "Una plataforma de ayuda y apoyo de diseñadores."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "texto": "<b>¿Cuál elijo? ¿Merece la pena pagar?</b><br><br>Si tienes dudas entre un plan u otro, mi consejo es que pienses el uso que le vas a dar. Si lo usas por trabajo o todos los días, quizá te compensa, pero si no, la opción gratis está muy bien. Aunque no es muy caro piensa si te sale rentable. Te aconsejo probar primero el plan gratis y si te gusta, cambiar al de pago.<br><br>Con el plan gratis  y un poco de ingenio puedes diseñar prácticamente sin límites. Además, puedes combinar con Photoshop u otra herramientas online gratuitas como Picmonkey o Piktochart para tener acceso a más efectos y recursos."
         }
       ]
     },
@@ -105,12 +144,14 @@
       "contenido": [
         {
           "clase": "texto",
+          "animacion": "fadeInLeft",
           "texto": "Ya estamos preparados para empezar a diseñar, crear un diseño desde una plantilla o desde cero con un tamaño personalizado.<br><br>"
         },
         {
           "clase": "imagen",
+          "animacion": "fadeInRight",
           "imagen": "img/mod01/02.png",
-          "ancho": 900
+          "ancho": 800
         }
       ]
     },
@@ -119,6 +160,7 @@
       "contenido": [
         {
           "clase": "lista",
+          "animacion": "flash",
           "titulo": "<br>Existen 8 categorías de plantillas disponibles:",
           "contenido": [
             {
@@ -149,41 +191,43 @@
         },
         {
           "clase": "texto",
+          "animacion": "fadeInLeft",
           "texto": "Canva actualizó algunos apartados del panel de trabajo y añadió nuevas plantillas entre las que destacan las dedicadas a <b>banners para anuncios</b> con 5 tamaños diferentes."
         },
         {
           "clase": "imagen",
+          "animacion": "fadeInDown",
           "imagen": "img/mod01/03.png",
-          "ancho": 900
+          "ancho": 800
         }
       ]
     },
+
     {
       "titulo": "INTERFAZ SENCILLA E INTUITIVA",
       "contenido": [
         {
-          "clase": "slider",
+          "clase": "listaObjetos",
+          "animacion": "slideInLeft",
           "contenido": [
             {
-              "titulo": "Botones",
-              "imagen": "img/mod01/04.png"
+              "clase": "imagen",
+              "animacion": "slideInUp",
+              "imagen": "img/mod01/04.png",
+              "ancho": 500
             },
             {
-              "titulo": "Título",
-              "imagen": "img/mod01/11.png"
-            },
-            {
-              "titulo": "Colores",
-              "imagen": "img/mod01/12.png"
-            },
-            {
-              "titulo": "Iconos",
-              "imagen": "img/mod01/15.png"
+              "clase": "imagen",
+              "animacion": "slideInDown",
+              "imagen": "img/mod01/11.png",
+              "ancho": 500
             }
           ]
         },
+
         {
           "clase": "acordeon",
+          "animacion": "slideInRight",
           "contenido": [
             {
               "titulo": "SEARCH",
@@ -216,6 +260,24 @@
               "ancho": 100
             }
           ]
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "flipInX",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "animacion": "flash",
+              "imagen": "img/mod01/12.png",
+              "ancho": 500
+            },
+            {
+              "clase": "imagen",
+              "animacion": "pulse",
+              "imagen": "img/mod01/15.png",
+              "ancho": 500
+            }
+          ]
         }
       ]
     },
@@ -224,6 +286,7 @@
       "contenido": [
         {
           "clase": "lista",
+          "animacion": "rubberBand",
           "contenido": [
             {
               "punto": "<b>Alineación/Rotación</b><br>También tienes la opción de seleccionar un icono o texto y situarlo directamente a la izquierda, en el centro o a la derecha del panel. Otra de las cosas buenas que tiene Canva es que incorpora guías de espacio que te dirán si todo está centrado. Al seleccionar cada elemanto sale un tirador en la parte de abajo que te permite rotarlo."
@@ -240,18 +303,12 @@
           ]
         },
         {
-          "clase": "slider",
-          "contenido": [
-            {
-              "titulo": "Más Botones",
-              "imagen": "img/mod01/07.png"
-            },
-            {
-              "titulo": "Y Más Botones",
-              "imagen": "img/mod01/08.png"
-            }
-          ]
+          "clase": "imagen",
+          "animacion": "zoomInLeft",
+          "imagen": "img/mod01/07.png",
+          "ancho": 800
         }
+
       ]
     },
     {
@@ -259,28 +316,29 @@
       "contenido": [
         {
           "clase": "lista",
+          "animacion": "rotateInDownRight",
           "contenido": [
             {
               "punto": "<b>Filtros</b><br>Se parecen bastante a los ﬁltros de Instagram y te pueden dar mucho juego a la hora de crear diferentes efector de color a las imágenes. Prueba diferentes modalidades hasta dar con la que más te guste. También puedes calibrar el brillo y el contraste. Además si despliegas la pequeña pestaña de “opciones avanzadas” podrás aumentar o disminuir efectos más avanzados como de color, enfoque, calidez o márgenes.<BR><br>Las fotografías permiten también aplicar ﬁltros para oscurecer, aclarar o añadir efectos.<BR><br>"
             },
             {
-              "punto": "<b>Elementos</b><br>Fotos gratis, cuadrículas, marcos, formas, líneas, ilustraciones, iconos, gráﬁcos, Yo♥Canva. Todos ellos con sus características editables (color, transparencia...).<br><br>Para añadir un elemento al diseño (del tipo que sea), hay que hacer clic sobre él. Se colocará en el centro del lienzo, en la capa superior (es decir, encima de todo lo que hubiera ya insertado). Al moverlo, se mostrarán líneas discontinuas que nos ayudan a alinear el elemento respecto al lienzo y al resto de componentes del diseño. Los elementos también pueden girarse, haciendo clic sobre ellos y girando el ratón, y moverse entre las distintas capas para superponerlos (próximo y anterior).<br><br>Para eliminar un elemento hay que pinchar sobre él para seleccionarlo, y hacer clic en el icono del cubo de basura, o en el botón suprimir del teclado.<br><br>El tipo de modiﬁcaciones que podemos hacer con un objeto depende del tipo que sea (texto, forma, imagen…). Para aplicar cualquier modiﬁcación primero hay que seleccionar el elemento, haciendo clic sobre él. Algunas opciones aparecen directamente, y otras al hacer clic sobre el desplegable de la derecha del todo de las opciones de modiﬁcación. Prácticamente todo es modiﬁcable: colores, tamaños, posición, fuentes, alineaciones, transparencias.<br><br>"
-            }
-          ]
-        },
-        {
-          "clase": "slider",
-          "contenido": [
-            {
-              "titulo": "Filtros",
-              "imagen": "img/mod01/filtros.jpeg"
+              "clase": "imagen",
+              "animacion": "rubberBand",
+              "imagen": "img/mod01/filtros.jpeg",
+              "ancho": 500
             },
             {
-              "titulo": "Elementos",
-              "imagen": "img/mod01/10.png"
+              "punto": "<b>Elementos</b><br>Fotos gratis, cuadrículas, marcos, formas, líneas, ilustraciones, iconos, gráﬁcos, Yo♥Canva. Todos ellos con sus características editables (color, transparencia...).<br><br>Para añadir un elemento al diseño (del tipo que sea), hay que hacer clic sobre él. Se colocará en el centro del lienzo, en la capa superior (es decir, encima de todo lo que hubiera ya insertado). Al moverlo, se mostrarán líneas discontinuas que nos ayudan a alinear el elemento respecto al lienzo y al resto de componentes del diseño. Los elementos también pueden girarse, haciendo clic sobre ellos y girando el ratón, y moverse entre las distintas capas para superponerlos (próximo y anterior).<br><br>Para eliminar un elemento hay que pinchar sobre él para seleccionarlo, y hacer clic en el icono del cubo de basura, o en el botón suprimir del teclado.<br><br>El tipo de modiﬁcaciones que podemos hacer con un objeto depende del tipo que sea (texto, forma, imagen…). Para aplicar cualquier modiﬁcación primero hay que seleccionar el elemento, haciendo clic sobre él. Algunas opciones aparecen directamente, y otras al hacer clic sobre el desplegable de la derecha del todo de las opciones de modiﬁcación. Prácticamente todo es modiﬁcable: colores, tamaños, posición, fuentes, alineaciones, transparencias.<br><br>"
+            },
+            {
+              "clase": "imagen",
+              "animacion": "zoomInLeft",
+              "imagen": "img/mod01/10.png",
+              "ancho": 500
             }
           ]
         }
+
       ]
     },
     {
@@ -288,15 +346,18 @@
       "contenido": [
         {
           "clase": "imagen",
+          "animacion": "zoomInRight",
           "imagen": "img/mod01/13.png",
           "ancho": 600
         },
         {
           "clase": "texto",
+          "animacion": "jello",
           "texto": "Desde aquí puedes subir aquellos elementos gráﬁcos creados por ti o descargados de otros sitios (recuerda, siempre libres de derechos) que no pertenecen a la herramienta Canva y que pueden ayudarte a realizar diseños mucho más personalizados."
         },
         {
           "clase": "imagen",
+          "animacion": "pulse",
           "imagen": "img/mod01/14.png",
           "ancho": 600
         }
@@ -307,10 +368,12 @@
       "contenido": [
         {
           "clase": "texto",
+          "animacion": "flash",
           "texto": "Una vez ﬁnalizado el diseño, existen diferentes formas de compartirlo: todas las opciones se encuentran en la parte superior, a continuación del nombre."
         },
         {
           "clase": "lista",
+          "animacion": "rotateInDownRight",
           "contenido": [
             {
               "punto": "<b>Botón Compartir:</b><br>La opción compartir ofrece el enlace para compartir la imagen. En equipos, ingresando direcciones de correo electrónico o en Redes Sociales. Debajo de esta opción, hay un check que se puede marcar si se quiere que los usuarios la puedan 'editar' si tienen cuenta de Canva.<br>",
@@ -320,6 +383,7 @@
                   "contenido": [
                     {
                       "clase": "imagen",
+                      "animacion": "zoomInLeft",
                       "imagen": "img/mod01/22.png",
                       "ancho": 500
                     }
@@ -330,6 +394,7 @@
                   "contenido": [
                     {
                       "clase": "imagen",
+                      "animacion": "bounceInUp",
                       "imagen": "img/mod01/23.png",
                       "ancho": 500
                     }
@@ -342,6 +407,7 @@
               "contenido": [
                 {
                   "clase": "imagen",
+                  "animacion": "fadeInDown",
                   "imagen": "img/mod01/24.png",
                   "ancho": 500
                 }
@@ -356,6 +422,7 @@
       "contenido": [
         {
           "clase": "lista",
+          "animacion": "fadeInLeftBig",
           "titulo": "Recuerda, en tu plan gratuito y de pago cambia el número de integrantes a tu equipo:",
           "contenido": [
             {
@@ -368,6 +435,7 @@
         },
         {
           "clase": "imagen",
+          "animacion": "jello",
           "imagen": "img/mod01/18.png",
           "ancho": 800
         }
@@ -378,24 +446,29 @@
       "contenido": [
         {
           "clase": "listaObjetos",
+          "animacion": "rollIn",
           "contenido": [
             {
               "clase": "texto",
+              "animacion": "pulse",
               "texto": "<b>Transparencia</b><br>Esta función te permite graduar el grado de transparencia de la imagen o texto que selecciones. Es cuestión de ir probando para ver qué efecto consigues difuminando el fondo o alguna imagen que no necesita tanto protagonismo."
             },
             {
               "clase": "texto",
+              "animacion": "shake",
               "texto": "<b>insertar link en la imagen</b><br>Selecciona el candado y haz clic sobre “enlace” para insertar una url personalizada cualquier elemento del dibujo. Muy útil para insertar links en nombres propios, en tu curriculum, en páginas web o correos electrónicos."
             }
           ]
         },
         {
           "clase": "imagen",
+          "animacion": "flash",
           "imagen": "img/mod01/19.png",
           "ancho": 500
         },
         {
           "clase": "imagen",
+          "animacion": "wobble",
           "imagen": "img/mod01/20.png",
           "ancho": 500
         }
@@ -406,16 +479,19 @@
       "contenido": [
         {
           "clase": "texto",
+          "animacion": "flipInY",
           "subclase": "dosColumnas",
           "texto": "Mientras se está diseñando, los elementos de pago se muestran con una marca de agua (el texto canva y un patrón rayado). Una vez terminado el diseño, al publicar la imagen, es cuando el sistema detecta si se han utilizado uno o varios servicios de pago y solicitará el cobro. Una vez pagado, eliminará las marcas de agua en la visualización y permite descargar la imagen como habitualmente. Es importante saber que sólo se dispone de 24 horas para poder acceder de nuevo a un diseño, modiﬁcarlo y descargarlo con las modiﬁcaciones sin necesidad de volver a pagar."
         },
         {
           "clase": "imagen",
+          "animacion": "fadeInRight",
           "imagen": "img/mod01/05.png",
           "ancho": 500
         },
         {
           "clase": "imagen",
+          "animacion": "rotateInUpLeft",
           "imagen": "img/mod01/06.png",
           "ancho": 500
         }
@@ -426,13 +502,16 @@
       "contenido": [
         {
           "clase": "listaObjetos",
+          "animacion": "rotateInUpRight",
           "contenido": [
             {
               "clase": "texto",
+              "animacion": "pulse",
               "texto": "<b>PICMONKEY</b><br>PicMonkey es conocido por la facilidad que presenta para editar y mejorar fotografías, también tienen una aplicación para diseñar lo que quieras, la cual se puede conseguir yendo a la web principal y presionando “design” en la parte de arriba. Una vez ahí se puede agregar una imagen para libre uso y cambiarle colores y tamaño, aplicar efectos, mejorar las pieles (si las hay), añadir textos, mensajes, marcos."
             },
             {
               "clase": "texto",
+              "animacion": "shake",
               "texto": "<b>RECITE THIS</b><br>Para convertir un cita en diseño. Lo único que tienes que hacer en ReciteThis es escribir la frase que quieras, elegir un diseño que te guste del carrusel que hay en la parte de abajo y ﬁnalmente presionar 'create'.<br><br><b>TINY PNG</b><br>Programa excepcional con el que bajar la calidad de las fotos y optimizarlas para web"
             }
           ]
@@ -443,11 +522,13 @@
 
             {
               "clase": "imagen",
+              "animacion": "flash",
               "imagen": "img/mod01/25.png",
               "ancho": 500
             },
             {
               "clase": "imagen",
+              "animacion": "bounceIn",
               "imagen": "img/mod01/26.png",
               "ancho": 500
             }
