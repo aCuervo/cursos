@@ -153,160 +153,488 @@
             }
           ]
         }
+      ]
+    },
 
-
-
-          ]
-        },
-
-
+    {
+      "titulo": "DOPEX II",
+      "contenido": [
         {
-          "titulo": "Autoevaluación",
-          "contenido": [
-            {
-              "clase": "texto",
-              "animacion": "swing",
-              "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
-            },
-            {
-              "clase": "texto",
-              "animacion": "flash",
-              "subclase": "instruccion",
-              "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
-            },
-            {
-              "clase": "autoevalPreguntas",
-              "animacion": "bounceInUp",
-              "preguntas": [
-                {
-                  "texto": "",
-                  "respuestas": [
-                    {
-                      "opcion": "",
-                      "correcto": ""
-                    },
-                    {
-                      "opcion": "",
-                      "correcto": ""
-                    },
-                    {
-                      "opcion": "",
-                      "correcto": ""
-                    }
-                  ]
-                },
-                {
-                  "texto": "",
-                  "respuestas": [
-                    {
-                      "opcion": "",
-                      "correcto": ""
-                    },
-                    {
-                      "opcion": "",
-                      "correcto": ""
-                    },
-                    {
-                      "opcion": "",
-                      "correcto": ""
-                    }
-                  ]
-                },
-                {
-                  "texto": "",
-                  "respuestas": [
-                    {
-                      "opcion": "",
-                      "correcto": ""
-                    },
-                    {
-                      "opcion": "",
-                      "correcto": ""
-                    },
-                    {
-                      "opcion": "",
-                      "correcto": ""
-                    }
-                  ]
-                },
-                {
-                  "texto": "",
-                  "respuestas": [
-                    {
-                      "opcion": "",
-                      "correcto": ""
-                    },
-                    {
-                      "opcion": "",
-                      "correcto": ""
-                    },
-                    {
-                      "opcion": "",
-                      "correcto": ""
-                    }
-                  ]
-                },
-                {
-                  "texto": "",
-                  "respuestas": [
-                    {
-                      "opcion": "",
-                      "correcto": ""
-                    },
-                    {
-                      "opcion": "",
-                      "correcto": ""
-                    },
-                    {
-                      "opcion": "",
-                      "correcto": ""
-                    }
-                  ]
-                },
-                {
-                  "texto": "",
-                  "respuestas": [
-                    {
-                      "opcion": "",
-                      "correcto": ""
-                    },
-                    {
-                      "opcion": "",
-                      "correcto": ""
-                    },
-                    {
-                      "opcion": "",
-                      "correcto": ""
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titulo": "Despedida",
-          "contenido": [
-            {
-              "clase": "listaObjetos",
-              "animacion": "fadeInRight",
-              "contenido": [
-                {
-                  "clase": "texto",
-                  "texto": ""
-                },
-                {
-                  "clase": "imagen",
-                  "imagen": "img/mod01/despedida.jpg"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titulo": "¡Hasta luego!",
-          "fondo": "img/comunes/contraportada.svg",
-          "subclase": "portada"
+          "clase": "texto",
+          "texto": "Junto con todas las medidas de prevención y protección frente al riesgo de explosión, se debe garantizar la seguridad general de los lugares de trabajo (RD 486/1997) y la seguridad en la utilización de los equipos (RD 1215/1997) mediante la aplicación de medidas específicas así como de un sistema de mantenimiento y revisiones adecuado. El RD 1215/1997 establece en el punto 11 apartado 1 “Condiciones generales de utilización de los equipos de trabajo” que en ambientes especiales, caso de las atmósferas explosivas, no se emplearán equipos de trabajo que en dicho entorno supongan un peligro para la seguridad de los trabajadores. Esta aseveración supone que los equipos no deben limitarse sólo a cumplir una serie de criterios en cuanto a su fiabilidad constructiva, sino que deben ser adecuados para ser utilizados específicamente en las zonas clasificadas por riesgo de explosión. Las medidas aplicadas así como los criterios seguidos, para garantizar la seguridad de los equipos no sometidos a legislación específica (RD 400/1996), deberán estar expresamente detallados en el DOPEX. Además, como parte de la evaluación de riesgos, en el documento de protección contra explosiones, y siempre que no figure en otra documentación de la empresa a la que se pueda hacer referencia, deberá reflejar también: - La metodología de evaluación del riesgo por atmósferas explosivas. - La planificación de puesta en marcha de las medidas preventivas. - La validación de dichas medidas en cuanto a eficacia, posibles riesgos residuales... - El contenido y planificación de la formación que deben recibir los trabajadores involucrados. - El seguimiento y revisión periódica de la evaluación realizada, así como de las medidas preventivas adoptadas, de acuerdo con posibles modificaciones de actividad, reformas del lugar de trabajo, incorporación de nuevos trabajadores, evolución de la tecnología... - Los procedimientos de trabajo a aplicar para realizar determinadas actividades en las zonas clasificadas. - Las actividades que requerirán permisos de trabajo antes de acometerse, en las zonas clasificadas. - Identificación de los trabajos o tareas ligadas a actividades de riesgo especial que den lugar a la presencia de los recursos preventivos. El DOPEX debe adaptarse a las condiciones operativas existentes en cada caso y, como parte de la documentación preventiva de la empresa, debe cumplir los requisitos generales exigidos por la legislación preventiva en cuanto a su realización, su mantenimiento y revisión, la consulta y participación de los trabajadores…"
         }
       ]
+    },
+    {
+      "titulo": "DOPEX III: Preguntas frecuentes",
+      "contenido": [
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "<b>¿Cuándo debe realizarse el documento de protección contra explosiones?</b><br><br>Siempre que existan sustancias inflamables en la empresa en forma de gas, vapor, niebla o polvo y puedan mezclarse con el aire en cantidades peligrosas existe riesgo de explosión y por tanto es necesario que dicho riesgo sea evaluado y controlado.<br><br>El DOPEX se elaborará antes de que comience el trabajo y se revisará siempre que se realicen modificaciones, ampliaciones o transformaciones importantes en el lugar de trabajo, en los equipos de trabajo o en la organización del trabajo."
+            },
+            {
+              "punto": "<b>¿Qué exclusiones existen?</b><br><br>Quedan excluidas del alcance del Documento de Protección Contra Explosiones las sustancias inestables como explosivos y sustancias pirotécnicas o cuando la mezcla explosiva se encuentra fuera de condiciones atmosféricas.<br><br>Es importante tener en cuenta que, aunque el proceso se realice en el interior de un equipo en condiciones distintas de las atmosféricas (y quede fuera de ATEX), si es posible que se produzcan fugas, éstas si quedarán dentro del ámbito de aplicación. Por ejemplo, en el interior de un depósito de gas licuado almacenado a condiciones distintas de las atmosféricas no existe atmósfera explosiva pero, si se produce una fuga de gas, ésta sí se considera atmósfera explosiva."
+            },
+            {
+              "punto": "<b>¿Qué debe contener el Documento de Protección Contra Explosiones?</b><br><br>Por parte del Gobierno de Navarra, se ha editado una guía muy completa sobre este documento, que tomaremos como guía para este apartado en concreto.<br><br>El R.D. 681/2003, establece en el artículo 8 que el contenido del Documento de Protección Contra Explosiones debe reflejar lo siguiente:",
+              "contenido": [
+                {
+                  "punto": "Que se han determinado y evaluado los Riesgos de Explosión."
+                },
+                {
+                  "punto": "Que se tomarán las medidas adecuadas para lograr los objetivos de éste Real Decreto."
+                },
+                {
+                  "punto": "Que las áreas han sido clasificadas en zonas según el Anexo I de éste Real Decreto."
+                },
+                {
+                  "punto": "Las áreas en que se aplicarán los requisitos mínimos establecidos en el Anexo II."
+                },
+                {
+                  "punto": "Que el lugar y los equipos de trabajo, incluidos los sistemas de alerta, están diseñados y se utilizan y mantienen, teniendo debidamente en cuenta la seguridad."
+                },
+                {
+                  "punto": "Que se han adoptado las medidas necesarias, de conformidad con el R.D. 1215/1997, para que los equipos de trabajo se utilicen en condiciones seguras."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Modelo DOPEX",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "imagen": "img/mod03/Modelodopex.png"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Descripción del lugar de trabajo y de los sectores de actividad",
+              "contenido": [
+                {
+                  "punto": "Se describen los sectores de actividad en los que existe peligro de atmósfera explosiva."
+                },
+                {
+                  "punto": "La descripción puede incluir, por ejemplo:",
+                  "contenido": [
+                    {
+                      "punto": "Nombre de la empresa"
+                    },
+                    {
+                      "punto": "Tipo de instalación."
+                    },
+                    {
+                      "punto": "denominación del edificio o del local"
+                    },
+                    {
+                      "punto": "responsables de la empresa"
+                    },
+                    {
+                      "punto": "número de trabajadores"
+                    }
+                  ]
+                },
+                {
+                  "punto": "Las particularidades constructivas y geográficas pueden documentarse visualmente, por ejemplo, mediante:",
+                  "contenido": [
+                    {
+                      "punto": "planos de situación"
+                    },
+                    {
+                      "punto": "planos de instalaciones."
+                    }
+                  ]
+                },
+                {
+                  "punto": "Deben incluirse las salidas de emergencia y las vías de evacuación."
+                }
+              ]
+            },
+            {
+              "punto": "Descripción de los procesos y/o actividades",
+              "contenido": [
+                {
+                  "punto": "Los procesos correspondientes deben describirse con un texto breve acompañado, en su caso, de un diagrama del proceso."
+                },
+                {
+                  "punto": "Esta descripción debe incluir todos los datos importantes para la protección contra explosiones:",
+                  "contenido": [
+                    {
+                      "punto": "descripción de los pasos de trabajo, incluidos el arranque y la parada"
+                    },
+                    {
+                      "punto": "resumen de los datos de diseño y funcionamiento (p. ej. temperatura, presión, volumen, rendimiento, frecuencia de giro, carburante)"
+                    },
+                    {
+                      "punto": "tipo y envergadura de los trabajos de limpieza, en su caso"
+                    },
+                    {
+                      "punto": "datos sobre la ventilación del local, si procede"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "punto": "Descripción de las sustancias utilizadas / parámetros de seguridad ",
+              "contenido": [
+                {
+                  "punto": "Se trata de describir, en particular: ",
+                  "contenido": [
+                    {
+                      "punto": "qué sustancias provocan la formación de una atmósfera explosiva "
+                    },
+                    {
+                      "punto": "en qué condiciones del procedimiento se produce ésta "
+                    }
+                  ]
+                },
+                {
+                  "punto": "Resulta útil incluir una lista de los parámetros de seguridad pertinentes para la protección contra explosiones."
+                }
+              ]
+            },
+            {
+              "punto": "Presentación de los resultados de la evaluación de riesgos ",
+              "contenido": [
+                {
+                  "punto": "Debe describirse dónde puede aparecer una atmósfera explosiva."
+                },
+                {
+                  "punto": "Puede establecerse una distinción entre el interior de partes de instalaciones y el entorno."
+                },
+                {
+                  "punto": "Debe tenerse en cuenta: ",
+                  "contenido": [
+                    {
+                      "punto": "el funcionamiento normal "
+                    },
+                    {
+                      "punto": "la puesta en marcha/parada o la limpieza "
+                    },
+                    {
+                      "punto": "las disfunciones "
+                    }
+                  ]
+                },
+                {
+                  "punto": "Cuando haya cambios en los procedimientos o productos, se incluirá el modo de proceder"
+                },
+                {
+                  "punto": "Las zonas de riesgo pueden presentarse tanto mediante texto como gráficamente mediante un plano de zonas. "
+                },
+                {
+                  "punto": "Se exponen los riesgos de explosión."
+                },
+                {
+                  "punto": "Se describe el modo de proceder aplicado en la determinación de los riesgos de explosión."
+                }
+              ]
+            },
+            {
+              "punto": "Medidas de protección adoptadas para la protección contra explosiones ",
+
+
+
+              "contenido": [
+                {
+                  "punto": "Se presentarán las medidas que se imponen para la protección contra explosiones."
+                },
+                {
+                  "punto": "Debe mencionarse explícitamente el principio de protección perseguido, por ejemplo “prevención de fuentes de ignición efectivas”, etc."
+                },
+                {
+                  "punto": "Puede resultar de interés una división en medidas técnicas y organizativas. ",
+                  "contenido": [
+                    {
+                      "punto": "Medidas técnicas ",
+                      "contenido": [
+                        {
+                          "punto": "<b>Prevención</b><br>Dado que el enfoque de la protección de la instalación se basa, total o parcialmente, en medidas preventivas para evitar una atmósfera explosiva o las fuentes de ignición, es necesaria una descripción detallada de la aplicación de estas medidas."
+                        },
+                        {
+                          "punto": "<b>Construcción</b><br>Dado que la instalación se protegerá mediante la construcción resistente a la explosión, debe describirse la naturaleza, el modo de funcionamiento y la ubicación de esta medida. "
+                        }
+                      ]
+                    },
+                    {
+                      "punto": "Medidas organizativas",
+                      "contenido": [
+                        {
+                          "punto": "Las medidas de protección organizativas también se describen en el documento de protección contra explosiones."
+                        },
+                        {
+                          "punto": "Se debe reflejar:",
+                          "contenido": [
+                            {
+                              "punto": "Qué instrucciones de servicio existen para un puesto de trabajo o una actividad "
+                            },
+                            {
+                              "punto": "Cómo se asegura la cualificación de los trabajadores. "
+                            },
+                            {
+                              "punto": "Contenido y frecuencia de la formación (y quién ha participado). "
+                            },
+                            {
+                              "punto": "Cómo se regula la utilización de equipos de trabajo móviles en las áreas de riesgo. "
+                            },
+                            {
+                              "punto": "Cómo se asegura que los trabajadores sólo vistan ropa protectora adecuada. "
+                            },
+                            {
+                              "punto": "Si existe un sistema de permiso para trabajar y cómo está organizado. "
+                            },
+                            {
+                              "punto": "Cómo están organizados los trabajos de mantenimiento, control y comprobación. "
+                            },
+                            {
+                              "punto": "Cómo están señalizadas las áreas de riesgo. "
+                            }
+                          ]
+                        },
+                        {
+                          "punto": "Si existen formularios correspondientes a estos puntos, se pueden incluir como modelo en el documento de protección contra explosiones."
+                        },
+                        {
+                          "punto": "También debe adjuntarse al documento una lista de los equipos de trabajo móviles autorizados para funcionar en atmósferas explosivas."
+                        },
+                        {
+                          "punto": "El nivel de detalle dependerá del tipo y de la envergadura de la operación, así como del grado de riesgo que ésta entraña."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "punto": "Realización de las medidas de protección contra explosiones ",
+              "contenido": [
+                {
+                  "punto": "Debe reflejar quién es la persona responsable o encargada de la aplicación de determinadas medidas (también para la elaboración o actualización del documento). "
+                },
+                {
+                  "punto": "Debe indicar en qué momento es preciso aplicar las medidas y cómo se controla su eficacia."
+                }
+              ]
+            },
+            {
+              "punto": "Coordinación de las medidas de protección contra explosiones",
+              "contenido": [
+                {
+                  "punto": "Cuando en un mismo lugar de trabajo ejerzan su actividad empresarios de varias empresas, cada empresario será responsable de los ámbitos sometidos a su control. "
+                },
+                {
+                  "punto": "El empresario responsable del lugar de trabajo será quien coordine la realización de las medidas de protección contra explosiones, e incluirá en su documento de protección contra explosiones información más detallada sobre las medidas y las modalidades de realización de esta coordinación."
+                }
+              ]
+            },
+            {
+              "punto": "Contenidos del Anexo del documento de protección contra explosiones",
+              "contenido": [
+                {
+                  "punto": "certificaciones examen CE tipo "
+                },
+                {
+                  "punto": "declaraciones de conformidad “CE” de fabricantes "
+                },
+                {
+                  "punto": "fichas de datos de seguridad "
+                },
+                {
+                  "punto": "instrucciones de funcionamiento de aparatos "
+                },
+                {
+                  "punto": "combustibles o equipos técnicos "
+                },
+                {
+                  "punto": "los planes de mantenimiento pertinentes a efectos de la protección contra explosiones"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "APARATOS ELÉCTRICOS: CLASIFICACIÓN",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Los equipos destinados a trabajos en estos tipos de atmósferas se agrupan según:"
+        },
+        {
+          "punto": "Aparatos  Grupo I: Para trabajos en minas o en las instalaciones exteriores donde se puedan producir atmósferas explosivas.",
+          "contenido": [
+            {
+              "punto": "o	Categoría M 1: Nivel de protección muy alto."
+            }
+          ]
+        },
+        {
+          "punto": "Aparatos Grupo II: Destinados al uso en otros lugares en los que puede haber peligro de formación de atmósferas explosivas."
+        }
+      ]
+    },
+        {
+      "titulo": "APARATOS ELÉCTRICOS: PREVENCIÓN",
+      "contenido": [
+
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": ""
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
     }
+  ]
+}
