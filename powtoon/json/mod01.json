@@ -498,11 +498,11 @@
       ]
     },
     {
-      "titulo": "COMPLEMENTOS A CANVA",
+      "titulo": "RECURSOS",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "<center><b>PICMONKEY, TYNIPNG, RECITETHIS Y MÁS</b></center>"
+          "texto": "<center><b>HERRAMIENTAS</b></center>"
         },
         {
           "clase": "listaObjetos",
@@ -545,7 +545,8 @@
             {
               "clase": "texto",
               "animacion": "pulse",
-              "texto": "<b><a href='http://www.recite.com' target='_blank' style='color:#7986cb'>RECITETHIS</a></b><br>Para convertir un cita en diseño. Lo único que tienes que hacer en ReciteThis es escribir la frase que quieras, elegir un diseño que te guste del carrusel que hay en la parte de abajo y ﬁnalmente presionar 'create'."
+              "texto": "<b><a href='http://www.recite.com' target='_blank' style='color:#7986cb'>RECITETHIS</a></b><br>Aplicación web gratuita para crear y compartir imágenes con texto. Crear una espectacular imagen con el texto que quieras incluirle es una tarea muy sencilla con esta herramienta web que ni siquiera precisa de registro.<br>CARACTERÍSTICAS<br>Aplicación web totalmente gratuita.<br>No es necesario registro.<br>Crea originales imágenes con tus textos que llamarán la atención.<br>Muy fácil de utilizar, directamente desde tu navegador.<br>Puedes elegir entre una gran cantidad de plantillas para crear tu imagen.<br>Cuando termines puedes compartir la imagen a través de las Redes Sociales o Internet, también es posible descargarla.<br><b>¿Cómo utilizar Recite?</b><br>Entras en la web, escribes el texto que quieres que aparezca en la imagen y eliges alguna de las plantillas disponibles. Puedes ir probando como se ve tu texto en las distintas plantillas. Cuando decidas la que más te gusta descárgala o compártela con el mundo por medio de un enlace o usando los botones sociales del sitio."
+
             },
             {
               "animacion": "bounceIn",
@@ -556,57 +557,60 @@
         },
         {
           "clase": "texto",
-          "animacion": "shake",
-          "texto": "<B><center>OTROS</B><BR>Puede que te interesen estos enlaces:</center><br>"
+          "texto": "<B><center>FOTOS</center></B><br>En estos enlaces encontrarás multitud de imágenes e ideas para tus fotos:<br>"
+        },
+
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+
+            {
+              "clase": "texto",
+              "texto": "<br><center><a href='http://magdeleine.co/' target='_blank' style='color:#7986cb'>Magdeleine</a></center><br>"
+            },
+            {
+              "clase": "texto",
+              "texto": "<br><center><a href='http://nos.twnsnd.co/' target='_blank' style='color:#7986cb'>Nos.twnsnd</a></center><br>"
+            },
+            {
+              "clase": "texto",
+              "texto": "<br><center><a href=' http://albumarium.com' target='_blank' style='color:#7986cb'>Albumarium</a></center><br>"
+            },
+            {
+              "clase": "texto",
+              "texto": "<br><center><a href='http://deathtothestockphoto.com' target='_blank' style='color:#7986cb'>Deathtothestockphoto</a></center><br>"
+            },
+            {
+              "clase": "texto",
+              "texto": "<br><center><a href='https://wellcomeimages.org/' target='_blank' style='color:#7986cb'>Wellcomeimages</a></center><br>"
+
+            },
+
+            {
+              "clase": "texto",
+              "texto": "<br><center><a href='http://www.lifeofpix.com' target='_blank' style='color:#7986cb'>Lifeofpix</a></center><br>"
+            },
+            {
+              "clase": "texto",
+              "texto": "<br><center><a href='http://gratisography.com' target='_blank' style='color:#7986cb'>Gratisography</a></center><br>"
+            },
+            {
+              "clase": "texto",
+              "texto": "<br><center><a href='http://finda.photo/' target='_blank' style='color:#7986cb'>Findaphoto</a></center><br>"
+            },
+            {
+              "clase": "texto",
+              "texto": "<br><center><a href='http://www.resplashed.com' target='_blank' style='color:#7986cb'>Replashed</a></center><br>"
+            },
+            {
+              "clase": "texto",
+              "texto": "<br><center><a href='https://unsplash.com' target='_blank' style='color:#7986cb'>Unsplash</a></center><br>"
+            }
+          ]
         },
         {
           "clase": "texto",
-          "texto": "<br><center><a href='http://magdeleine.co/' target='_blank' style='color:#7986cb'>Magdeleine</a></center><br>"
-        },
-        {
-          "clase": "texto",
-          "texto": "<br><center><a href='http://nos.twnsnd.co/' target='_blank' style='color:#7986cb'>Nos.twnsnd</a></center><br>"
-        },
-        {
-          "clase": "texto",
-          "texto": "<br><center><a href=' http://albumarium.com' target='_blank' style='color:#7986cb'>Albumarium</a></center><br>"
-        },
-        {
-          "clase": "texto",
-          "texto": "<br><center><a href='http://deathtothestockphoto.com' target='_blank' style='color:#7986cb'>Deathtothestockphoto</a></center><br>"
-        },
-        {
-          "clase": "texto",
-          "texto": "<br><center><a href='https://wellcomeimages.org/' target='_blank' style='color:#7986cb'>Wellcomeimages</a></center><br>"
-        },
-        {
-          "clase": "texto",
-          "texto": "<br><center><a href='http://www.lifeofpix.com' target='_blank' style='color:#7986cb'>Lifeofpix</a></center><br>"
-        },
-        {
-          "clase": "texto",
-          "texto": "<br><center><a href='http://gratisography.com' target='_blank' style='color:#7986cb'>Gratisography</a></center><br>"
-        },
-        {
-          "clase": "texto",
-          "texto": "<br><center><a href='http://finda.photo/' target='_blank' style='color:#7986cb'>Findaphoto</a></center><br>"
-        },
-        {
-          "clase": "texto",
-          "texto": "<br><center><a href='http://www.resplashed.com' target='_blank' style='color:#7986cb'>Replashed</a></center><br>"
-        },
-        {
-          "clase": "texto",
-          "texto": "<br><center><a href='https://unsplash.com' target='_blank' style='color:#7986cb'>Unsplash</a></center><br>"
-        }
-      ]
-    },
-    {
-      "titulo": "VIDEO/LOOPS",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Puede que los siguientes enlaces te interesen también"
+          "texto": "<B><center>VIDEO</center></B><br>Aquí tienes a tu disposición multitud de videos.<br>"
         },
         {
           "clase": "texto",
@@ -634,10 +638,10 @@
         },
         {
           "clase": "texto",
-          "texto": "<br><center><a href='https://videos.pexels.com/' target='_blank' style='color:#7986cb'>Videos.pexels</a></center><br>Este banco de imágenes ahora ofrece vídeos de corta duración sobre distintos temas, en forma gratis y también para usar en proyectos personales y comerciales.<br><br>Los vídeos están organizados en las siguientes categorías: Ciudad, Naturaleza, Hojas, Sol, Comida, Industria, Cielo, Rocas, Automóviles, Ríos, Tecnología, Calles, Montañas, Timelapses, Agua, Árboles, Noche, Bebidas, Mockup, Borrosos, Animales y Personas. También en su página de inicio, muestran los últimos vídeos subidos al servicio.<br><br>Lo único negativo es que no ofrece un buscador. Si están buscando por un vídeo en particular tendrán que entrar en alguna de las categorías y explorar para ver si encuentran lo que necesitan."
+          "texto": "<br><center><a href='https://videos.pexels.com/' target='_blank' style='color:#7986cb'>Videos.pexels</a></center><br>Este banco de imágenes ahora ofrece vídeos de corta duración sobre distintos temas, en forma gratis y también para usar en proyectos personales y comerciales.<br>Los vídeos están organizados en las siguientes categorías: Ciudad, Naturaleza, Hojas, Sol, Comida, Industria, Cielo, Rocas, Automóviles, Ríos, Tecnología, Calles, Montañas, Timelapses, Agua, Árboles, Noche, Bebidas, Mockup, Borrosos, Animales y Personas. También en su página de inicio, muestran los últimos vídeos subidos al servicio.<br>Lo único negativo es que no ofrece un buscador. Si están buscando por un vídeo en particular tendrán que entrar en alguna de las categorías y explorar para ver si encuentran lo que necesitan."
         }
       ]
-    },
+    },    
     {
       "titulo": "CONTRAPORTADA",
       "fondo": "img/mod01/contra.svg",
