@@ -501,38 +501,140 @@
       "titulo": "COMPLEMENTOS A CANVA",
       "contenido": [
         {
+          "clase": "texto",
+          "texto": "<center><b>PICMONKEY, TYNIPNG, RECITETHIS Y MÁS</b></center>"
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "rotateInUpRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "animacion": "shake",
+              "texto": "<b><a href='https://www.picmonkey.com/' target='_blank' style='color:#7986cb'>PICMONKEY</a></b><br>PicMonkey es conocido por la facilidad que presenta para editar y mejorar fotografías, también tienen una aplicación para diseñar lo que quieras, la cual se puede conseguir yendo a la web principal y presionando “design” en la parte de arriba. Una vez ahí se puede agregar una imagen para libre uso y cambiarle colores y tamaño, aplicar efectos, mejorar las pieles (si las hay), añadir textos, mensajes, marcos."
+            },
+            {
+              "clase": "imagen",
+              "animacion": "flash",
+              "imagen": "img/mod01/25.png"
+
+            }
+          ]
+        },
+        {
           "clase": "listaObjetos",
           "animacion": "rotateInUpRight",
           "contenido": [
             {
               "clase": "texto",
               "animacion": "pulse",
-              "texto": "<b>PICMONKEY</b><br>PicMonkey es conocido por la facilidad que presenta para editar y mejorar fotografías, también tienen una aplicación para diseñar lo que quieras, la cual se puede conseguir yendo a la web principal y presionando “design” en la parte de arriba. Una vez ahí se puede agregar una imagen para libre uso y cambiarle colores y tamaño, aplicar efectos, mejorar las pieles (si las hay), añadir textos, mensajes, marcos."
+              "texto": "<b><a href='https://tinypng.com/' target='_blank' style='color:#7986cb'>TINYPNG</a></b><br>Programa excepcional con el que bajar la calidad de las fotos y optimizarlas para web."
             },
             {
-              "clase": "texto",
-              "animacion": "shake",
-              "texto": "<b>RECITE THIS</b><br>Para convertir un cita en diseño. Lo único que tienes que hacer en ReciteThis es escribir la frase que quieras, elegir un diseño que te guste del carrusel que hay en la parte de abajo y ﬁnalmente presionar 'create'.<br><br><b>TINY PNG</b><br>Programa excepcional con el que bajar la calidad de las fotos y optimizarlas para web"
+              "clase": "imagen",
+              "animacion": "flash",
+              "imagen": "img/mod01/26.png"
+
             }
           ]
         },
         {
+          "animacion": "rotateInUpRight",
           "clase": "listaObjetos",
           "contenido": [
-
             {
-              "clase": "imagen",
-              "animacion": "flash",
-              "imagen": "img/mod01/25.png",
-              "ancho": 500
+              "clase": "texto",
+              "animacion": "pulse",
+              "texto": "<b><a href='http://www.recite.com' target='_blank' style='color:#7986cb'>RECITETHIS</a></b><br>Para convertir un cita en diseño. Lo único que tienes que hacer en ReciteThis es escribir la frase que quieras, elegir un diseño que te guste del carrusel que hay en la parte de abajo y ﬁnalmente presionar 'create'."
             },
             {
-              "clase": "imagen",
               "animacion": "bounceIn",
-              "imagen": "img/mod01/26.png",
-              "ancho": 500
+              "clase": "imagen",
+              "imagen": "img/mod01/27.png"
             }
           ]
+        },
+        {
+          "clase": "texto",
+          "animacion": "shake",
+          "texto": "<B><center>OTROS</B><BR>Puede que te interesen estos enlaces:</center><br>"
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><center><a href='http://magdeleine.co/' target='_blank' style='color:#7986cb'>Magdeleine</a></center><br>"
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><center><a href='http://nos.twnsnd.co/' target='_blank' style='color:#7986cb'>Nos.twnsnd</a></center><br>"
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><center><a href=' http://albumarium.com' target='_blank' style='color:#7986cb'>Albumarium</a></center><br>"
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><center><a href='http://deathtothestockphoto.com' target='_blank' style='color:#7986cb'>Deathtothestockphoto</a></center><br>"
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><center><a href='https://wellcomeimages.org/' target='_blank' style='color:#7986cb'>Wellcomeimages</a></center><br>"
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><center><a href='http://www.lifeofpix.com' target='_blank' style='color:#7986cb'>Lifeofpix</a></center><br>"
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><center><a href='http://gratisography.com' target='_blank' style='color:#7986cb'>Gratisography</a></center><br>"
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><center><a href='http://finda.photo/' target='_blank' style='color:#7986cb'>Findaphoto</a></center><br>"
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><center><a href='http://www.resplashed.com' target='_blank' style='color:#7986cb'>Replashed</a></center><br>"
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><center><a href='https://unsplash.com' target='_blank' style='color:#7986cb'>Unsplash</a></center><br>"
+        }
+      ]
+    },
+    {
+      "titulo": "VIDEO/LOOPS",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Puede que los siguientes enlaces te interesen también"
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><center><a href='http://www.coverr.co/' target='_blank' style='color:#7986cb'>Coverr</a></center><br>Este sitio ofrece hermosos vídeos con licencia Creative Commons 1.0, para utilizar en sitios web. Cada Lunes incorporan 7 nuevos vídeos, los cuales están organizados en 8 categorías. Además ofrecen el código (HTML, CSS y Javascript) para incluir el vídeo en los sitios web."
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><center><a href='http://www.lifeofvids.com/' target='_blank' style='color:#7986cb'>Life of Vids</a></center><br>Clips de vídeos y loops sin derechos de autor y sin restricciones, en alta resolución los cuales se pueden descargar libremente. Los vídeos son creados por la agencia de publicidad Leeroy de Canadá y otras agencias asociadas."
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><center><a href='https://www.videezy.com/' target='_blank' style='color:#7986cb'>Videezy</a></center><br>Este sitio es una comunidad de profesionales y principiantes para compartir y descargar clips de vídeos y b-roll de alta definición en forma totalmente gratis para usar en cualquier proyecto. Todos los vídeos tienen licencia Creative Commons."
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><center><a href='http://www.stockfootageforfree.com/' target='_blank' style='color:#7986cb'>Stock Footage for Free</a></center><br>Todos los videos se pueden utilizar para cualquier proyecto personal o comercial. Las especificaciones de los vídeos son las siguientes: Size: 1920 x 1080 pixels (16:9), Codec: QuickTime Photo-JPEG, high quality y Frame rate: 29.97."
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><center><a href='http://www.wedistill.io/' target='_blank' style='color:#7986cb'>Distill</a></center><br>Colección currada de vídeos para uso profesional y personal. Cada 10 días incorporan 10 nuevos vídeos."
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><center><a href=' https://www.videvo.net/' target='_blank' style='color:#7986cb'>Videvo</a></center><br>Este sitio ofrece más de 2700 clips de vídeo en forma totalmente gratuita. Una colección que a medida que pasa el tiempo sigue creciendo, ya que siguen incorporando nuevos clips todas las semanas. Solo debes de abrir una cuenta gratuita y listo, ya puedes comenzar a descargar los vídeos. Todos los clips están organizados en las siguientes categorías: Animales, Comida y Bebidas, Deportes, Efectos Especiales, Espacio, Industria, Medicina, Música, Naturaleza, Personas y Producción."
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><center><a href='https://videos.pexels.com/' target='_blank' style='color:#7986cb'>Videos.pexels</a></center><br>Este banco de imágenes ahora ofrece vídeos de corta duración sobre distintos temas, en forma gratis y también para usar en proyectos personales y comerciales.<br><br>Los vídeos están organizados en las siguientes categorías: Ciudad, Naturaleza, Hojas, Sol, Comida, Industria, Cielo, Rocas, Automóviles, Ríos, Tecnología, Calles, Montañas, Timelapses, Agua, Árboles, Noche, Bebidas, Mockup, Borrosos, Animales y Personas. También en su página de inicio, muestran los últimos vídeos subidos al servicio.<br><br>Lo único negativo es que no ofrece un buscador. Si están buscando por un vídeo en particular tendrán que entrar en alguna de las categorías y explorar para ver si encuentran lo que necesitan."
         }
       ]
     },

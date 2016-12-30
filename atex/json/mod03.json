@@ -161,7 +161,41 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Junto con todas las medidas de prevención y protección frente al riesgo de explosión, se debe garantizar la seguridad general de los lugares de trabajo (RD 486/1997) y la seguridad en la utilización de los equipos (RD 1215/1997) mediante la aplicación de medidas específicas así como de un sistema de mantenimiento y revisiones adecuado. El RD 1215/1997 establece en el punto 11 apartado 1 “Condiciones generales de utilización de los equipos de trabajo” que en ambientes especiales, caso de las atmósferas explosivas, no se emplearán equipos de trabajo que en dicho entorno supongan un peligro para la seguridad de los trabajadores. Esta aseveración supone que los equipos no deben limitarse sólo a cumplir una serie de criterios en cuanto a su fiabilidad constructiva, sino que deben ser adecuados para ser utilizados específicamente en las zonas clasificadas por riesgo de explosión. Las medidas aplicadas así como los criterios seguidos, para garantizar la seguridad de los equipos no sometidos a legislación específica (RD 400/1996), deberán estar expresamente detallados en el DOPEX. Además, como parte de la evaluación de riesgos, en el documento de protección contra explosiones, y siempre que no figure en otra documentación de la empresa a la que se pueda hacer referencia, deberá reflejar también: - La metodología de evaluación del riesgo por atmósferas explosivas. - La planificación de puesta en marcha de las medidas preventivas. - La validación de dichas medidas en cuanto a eficacia, posibles riesgos residuales... - El contenido y planificación de la formación que deben recibir los trabajadores involucrados. - El seguimiento y revisión periódica de la evaluación realizada, así como de las medidas preventivas adoptadas, de acuerdo con posibles modificaciones de actividad, reformas del lugar de trabajo, incorporación de nuevos trabajadores, evolución de la tecnología... - Los procedimientos de trabajo a aplicar para realizar determinadas actividades en las zonas clasificadas. - Las actividades que requerirán permisos de trabajo antes de acometerse, en las zonas clasificadas. - Identificación de los trabajos o tareas ligadas a actividades de riesgo especial que den lugar a la presencia de los recursos preventivos. El DOPEX debe adaptarse a las condiciones operativas existentes en cada caso y, como parte de la documentación preventiva de la empresa, debe cumplir los requisitos generales exigidos por la legislación preventiva en cuanto a su realización, su mantenimiento y revisión, la consulta y participación de los trabajadores…"
+          "texto": "Junto con todas las medidas de prevención y protección frente al riesgo de explosión, se debe garantizar la seguridad general de los lugares de trabajo (RD 486/1997) y la seguridad en la utilización de los equipos (RD 1215/1997) mediante la aplicación de medidas específicas así como de un sistema de mantenimiento y revisiones adecuado. El RD 1215/1997 establece en el punto 11 apartado 1 “Condiciones generales de utilización de los equipos de trabajo” que en ambientes especiales, caso de las atmósferas explosivas, no se emplearán equipos de trabajo que en dicho entorno supongan un peligro para la seguridad de los trabajadores. Esta aseveración supone que los equipos no deben limitarse sólo a cumplir una serie de criterios en cuanto a su fiabilidad constructiva, sino que deben ser adecuados para ser utilizados específicamente en las zonas clasificadas por riesgo de explosión. Las medidas aplicadas así como los criterios seguidos, para garantizar la seguridad de los equipos no sometidos a legislación específica (RD 400/1996), deberán estar expresamente detallados en el DOPEX. Además, como parte de la evaluación de riesgos, en el documento de protección contra explosiones, y siempre que no figure en otra documentación de la empresa a la que se pueda hacer referencia, deberá reflejar también:<br>"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "La metodología de evaluación del riesgo por atmósferas explosivas."
+            },
+            {
+              "punto": "La planificación de puesta en marcha de las medidas preventivas."
+            },
+            {
+              "punto": "La validación de dichas medidas en cuanto a eficacia, posibles riesgos residuales..."
+            },
+            {
+              "punto": "El contenido y planificación de la formación que deben recibir los trabajadores involucrados."
+            },
+            {
+              "punto": "El seguimiento y revisión periódica de la evaluación realizada, así como de las medidas preventivas adoptadas, de acuerdo con posibles modificaciones de actividad, reformas del lugar de trabajo, incorporación de nuevos trabajadores, evolución de la tecnología..."
+            },
+            {
+              "punto": "Los procedimientos de trabajo a aplicar para realizar determinadas actividades en las zonas clasificadas."
+            },
+            {
+              "punto": "Las actividades que requerirán permisos de trabajo antes de acometerse, en las zonas clasificadas."
+            },
+            {
+              "punto": "Identificación de los trabajos o tareas ligadas a actividades de riesgo especial que den lugar a la presencia de los recursos preventivos."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "El <b<DOPEX</b> debe adaptarse a las condiciones operativas existentes en cada caso. Como parte de la documentación preventiva de la empresa, debe cumplir los requisitos generales exigidos por la legislación preventiva en cuanto a su realización, su mantenimiento, revisión, y la consulta y participación de los trabajadores"
         }
       ]
     },
@@ -339,9 +373,6 @@
             },
             {
               "punto": "Medidas de protección adoptadas para la protección contra explosiones ",
-
-
-
               "contenido": [
                 {
                   "punto": "Se presentarán las medidas que se imponen para la protección contra explosiones."
@@ -462,6 +493,7 @@
         }
       ]
     },
+
     {
       "titulo": "APARATOS ELÉCTRICOS: CLASIFICACIÓN",
       "contenido": [
@@ -470,22 +502,343 @@
           "texto": "Los equipos destinados a trabajos en estos tipos de atmósferas se agrupan según:"
         },
         {
-          "punto": "Aparatos  Grupo I: Para trabajos en minas o en las instalaciones exteriores donde se puedan producir atmósferas explosivas.",
+          "clase": "lista",
           "contenido": [
             {
-              "punto": "o	Categoría M 1: Nivel de protección muy alto."
+              "punto": "Aparatos  Grupo I: Para trabajos en minas o en las instalaciones exteriores donde se puedan producir atmósferas explosivas.",
+              "contenido": [
+                {
+                  "punto": "Categoría M1: Nivel de protección muy alto."
+                },
+                {
+                  "punto": "Categoría M2: Nivel de protección alto.<br><br>"
+                }
+              ]
+            },
+            {
+              "punto": "Aparatos Grupo II: Destinados al uso en otros lugares en los que puede haber peligro de formación de atmósferas explosivas.",
+              "contenido": [
+                {
+                  "punto": "Categoría 1: Nivel de protección muy alto. Aun fallando un medio de protección, existe otro que sigue manteniendo el nivel de protección."
+                },
+                {
+                  "punto": "Categoría 2: Nivel de protección alto."
+                },
+                {
+                  "punto": "Categoría 3: Nivel de protección normal.<br><br>"
+                }
+              ]
             }
           ]
         },
         {
-          "punto": "Aparatos Grupo II: Destinados al uso en otros lugares en los que puede haber peligro de formación de atmósferas explosivas."
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "Categoría del equipo"
+            },
+            {
+              "titulo": "Zonas en que se admite"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>Categoría 1</center>"
+                },
+                {
+                  "texto": "<center>0, 1 y 2</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Categoría 2</center>"
+                },
+                {
+                  "texto": "<center>1 y 2</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Categoría 3</center>"
+                },
+                {
+                  "texto": "<center>2</center>"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
-        {
+    {
       "titulo": "APARATOS ELÉCTRICOS: PREVENCIÓN",
       "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "<b>EQUIPOS ELÉCTRICOS APTOS PARA ZONAS EXPLOSIVAS</b><br><br>Un equipo eléctrico solo será apto para zonas explosivas, si está construido con arreglo a uno de los siguientes modos de protección:",
+          "contenido": [
+            {
+              "punto": "<b>d</b> = Envolvente antideflagrante.<br>El equipo eléctrico está encerrado en el interior de una envolvente capaz de resistir la explosión y de no transmitir la inflamación al ambiente circundante, ni por sus juntas de unión, ni por otras comunicaciones."
+            },
+            {
+              "punto": "<b>e</b> = Seguridad aumentada.<br>Se basa en asegurar la no formación de arcos, chispas o sobrecalentamientos en aparatos, tomando: un coeficiente de seguridad elevado, bornes especiales inaflojables, aislantes de alta calidad y con un IP54 mínimo."
+            },
+            {
+              "punto": "<b>i</b> = Seguridad intrínseca.<br>Un aparato o circuito es intrínsecamente seguro cuando no sea capaz de producir chispas o efectos térmicos suficientes para provocar la inflamación de una atmósfera de gas determinada. Está indicado para instrumentación, ya que consiste en diseñar circuitos en baja tensión y reducir la intensidad tomando, además, en consideración los posibles defectos que puedan producirse y los almacenamientos de energía en condensadores, cables e inductancias."
+            },
+            {
+              "punto": "<b>p</b> = Sobrepresión interna.<br>Las máquinas o materiales eléctricos están provistos de una envolvente o instalados en una sala en la que se impide la entrada de los gases o vapores inflamables, manteniendo en su interior aire o un gas no inflamable, a una presión superior a la atmosférica exterior."
+            },
+            {
+              "punto": "<b>o</b> = Inmersión en aceite.<br>Se realiza de manera que no puedan inflamarse los gases o vapores inflamables que se hallen por encima del nivel de aceite y en el exterior de la envolvente."
+            },
+            {
+              "punto": "<b>q</b> = Aislante pulverulento.<br>Las partes bajo tensión del material eléctrico están completamente sumergidas en una masa de aislante pulverulento."
+            },
+            {
+              "punto": "<b>m</b> = Encapsulado.<br>Los elementos a proteger están encerrados en una resina, de tal manera que una atmósfera explosiva no pueda ser inflamada ni por chispas, ni por contacto partes calientes internas al encapsulado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Clasificación según el INSHT",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Tomando como fuente trabajos realizados por el INSHT, extraemos la siguiente información:<br><br>Si hablamos de equipos certificados, según el RD 400/1996:"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod03/Equiposgases.png"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod03/Equipospolvos.png"
+        },
+        {
+          "clase": "texto",
+          "texto": "Si tenemos equipos no certificados, es decir, anteriores a 30/06/2003:"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod03/EquiposNC.png"
+        }
+      ]
+    },
+    {
+      "titulo": "RESUMEN",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<center><b>CLASIFICACIÓN DE ZONAS</b></center>"
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "<b>EMPLAZAMIENTOS CLASE I</b><br>Presencia de gases o líquidos inflamables"
+            },
+            {
+              "titulo": "<b>EMPLAZAMIENTOS CLASE II</b><br>Presencia de polvo combustible"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "<b>Zona 0</b>: Presencia permanente o durante largos periodos de tiempo."
+                    },
+                    {
+                      "punto": "<b>Zona 1</b>: Susceptible de formarse en condiciones normales de trabajo."
+                    },
+                    {
+                      "punto": "<b>Zona 2</b>: Presencia poco probable y por cortos periodos."
+                    }
+                  ]
+                },
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "<b>Zona 20</b>: Es aquella en la que hay o puede haber polvo combustible durante las operaciones normales de funcionamiento, puesta en marcha o limpieza, en cantidad suficiente para producir una atmósfera explosiva. Ejemplo: en molinos pulverizadores."
+                    },
+                    {
+                      "punto": "<b>Zona 21</b>: Es aquella en la que la nube o capa de polvo es susceptible de formarse en condiciones normales de trabajo."
+                    },
+                    {
+                      "punto": "<b>Zona 22</b>: Presencia poco probable y por cortos periodos."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "clase": "lista",
+                  "titulo": "<b>Principios de seguridad</b> a considerar:",
+                  "contenido": [
+                    {
+                      "punto": "Las zonas de riesgo de explosión serán lo más reducidas posible."
+                    },
+                    {
+                      "punto": "La presencia de equipos eléctricos se minimizará y serán de protección acorde a la zona."
+                    }
+                  ]
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "<b>Principios de seguridad</b> a considerar:",
+                  "contenido": [
+                    {
+                      "punto": "Se evitará en lo posible la ventilación y con ello el levantamiento de polvo."
+                    },
+                    {
+                      "punto": "Mantenimiento de limpieza y recogida del polvo generado de forma periódica."
+                    },
+                    {
+                      "punto": "Los equipos eléctricos estarán protegidos contra la entrada de polvo en el grado requerido."
+                    },
+                    {
+                      "punto": "Las temperaturas superficiales máximas de trabajo de los equipos se limitará a 2/3 de la TIN o a 745ºC menos de la TIC para capas de 3 mm. Si son superiores se deberá disminuir dicha temperatura."
+                    }
+                  ]
+                }
+              ]
 
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<center><b>EMPLAZAMIENTOS</b></center>"
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "CLASE I"
+            },
+            {
+              "titulo": "CLASE II"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "clase": "texto",
+                  "texto": "Aquellos en los que los riesgos derivados de atmósferas explosivas están propiciados por  la posible presencia de líquidos o gases inflamables.  Pueden contener  por tanto zonas 0, 1 y 2."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "Aquellos en los que los riesgos derivados de atmósferas explosivas están propiciados por  la posible presencia de polvos combustibles. Pueden contener  por tanto zonas 20, 21 y 22."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><b><center>DOPEX</center><br>Documento de protección contra explosiones:</b> Recopilación de las actuaciones preventivas realizadas por la empresa que tiene por objeto reflejar el conjunto de medidas adoptadas para garantizar la seguridad y salud de los trabajadores frente al riesgo de explosión.<br><br>Se elaborará antes de que comience el trabajo y se revisará siempre que se realicen modificaciones, ampliaciones o transformaciones importantes en el lugar de trabajo, en los equipos de trabajo o en la organización del trabajo."
+        },
+        {
+          "clase": "lista",
+          "titulo": "El R.D. 681/2003, establece en el artículo 8 que el contenido del Documento de Protección Contra Explosiones debe reflejar lo siguiente: ",
+          "contenido": [
+            {
+              "punto": "Que se han determinado y evaluado los Riesgos de Explosión. "
+            },
+            {
+              "punto": "Que se tomarán las medidas adecuadas para lograr los objetivos de éste Real Decreto. "
+            },
+            {
+              "punto": "Que las áreas han sido clasificadas en zonas según el Anexo I de éste Real Decreto."
+            },
+            {
+              "punto": "Las áreas en que se aplicarán los requisitos mínimos establecidos en el Anexo II. "
+            },
+            {
+              "punto": "Que el lugar y los equipos de trabajo, incluidos los sistemas de alerta, están diseñados y se utilizan y mantienen, teniendo debidamente en cuenta la seguridad. "
+            },
+            {
+              "punto": "Que se han adoptado las medidas necesarias, de conformidad con el R.D. 1215/1997, para que los equipos de trabajo se utilicen en condiciones seguras.<br>"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b><center>EQUIPOS ELÉCTRICOS</center></b>"
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>CLASIFICACIÓN</b>",
+          "contenido": [
+            {
+              "punto": "Aparatos  Grupo I: Para trabajos en minas o en las instalaciones exteriores donde se puedan producir atmósferas explosivas.",
+              "contenido": [
+                {
+                  "punto": "Categoría M1: Nivel de protección muy alto."
+                },
+                {
+                  "punto": "Categoría M2: Nivel de protección alto.<br><br>"
+                }
+              ]
+            },
+            {
+              "punto": "Aparatos Grupo II: Destinados al uso en otros lugares en los que puede haber peligro de formación de atmósferas explosivas.",
+              "contenido": [
+                {
+                  "punto": "Categoría 1: Nivel de protección muy alto. Aun fallando un medio de protección, existe otro que sigue manteniendo el nivel de protección."
+                },
+                {
+                  "punto": "Categoría 2: Nivel de protección alto."
+                },
+                {
+                  "punto": "Categoría 3: Nivel de protección normal.<br><br>"
+                }
+              ]
+            }
+          ]
+        },
+         {
+          "clase": "lista",
+          "titulo": "<b>APTITUD PARA ZONAS EXPLOSIVAS</b><br>Un equipo eléctrico solo será apto para zonas explosivas, si está construido con arreglo a uno de los siguientes modos de protección:",
+          "contenido": [
+            {
+              "punto": "<b>d</b> = Envolvente antideflagrante."
+            },
+            {
+              "punto": "<b>e</b> = Seguridad aumentada."
+            },
+            {
+              "punto": "<b>i</b> = Seguridad intrínseca."
+            },
+            {
+              "punto": "<b>p</b> = Sobrepresión interna."
+            },
+            {
+              "punto": "<b>o</b> = Inmersión en aceite."
+            },
+            {
+              "punto": "<b>q</b> = Aislante pulverulento."
+            },
+            {
+              "punto": "<b>m</b> = Encapsulado."
+            }
+          ]
+        }
       ]
     },
     {
