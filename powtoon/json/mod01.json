@@ -559,7 +559,46 @@
           "clase": "texto",
           "texto": "<B><center>FOTOS</center></B><br>En estos enlaces encontrarás multitud de imágenes e ideas para tus fotos:<br>"
         },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/replashed.png",
+              "pie": "<br><center><a href='http://www.resplashed.com' target='_blank' style='color:#7986cb'>Replashed</a></center><br>",
+              "ancho": 300
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/unsplash.png",
+              "pie": "<br><center><a href='https://unsplash.com' target='_blank' style='color:#7986cb'>Unsplash</a></center><br>",
+              "ancho": 300
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "<br><center><a href='https://wellcomeimages.org/' target='_blank' style='color:#7986cb'>Wellcomeimages</a></center><br>"
 
+            },
+
+            {
+              "clase": "texto",
+              "texto": "<br><center><a href='http://www.lifeofpix.com' target='_blank' style='color:#7986cb'>Lifeofpix</a></center><br>"
+            },
+            {
+              "clase": "texto",
+              "texto": "<br><center><a href='http://gratisography.com' target='_blank' style='color:#7986cb'>Gratisography</a></center><br>"
+            },
+            {
+              "clase": "texto",
+              "texto": "<br><center><a href='http://finda.photo/' target='_blank' style='color:#7986cb'>Findaphoto</a></center><br>"
+            }
+          ]
+        },
         {
           "clase": "listaObjetos",
           "contenido": [
@@ -579,32 +618,6 @@
             {
               "clase": "texto",
               "texto": "<br><center><a href='http://deathtothestockphoto.com' target='_blank' style='color:#7986cb'>Deathtothestockphoto</a></center><br>"
-            },
-            {
-              "clase": "texto",
-              "texto": "<br><center><a href='https://wellcomeimages.org/' target='_blank' style='color:#7986cb'>Wellcomeimages</a></center><br>"
-
-            },
-
-            {
-              "clase": "texto",
-              "texto": "<br><center><a href='http://www.lifeofpix.com' target='_blank' style='color:#7986cb'>Lifeofpix</a></center><br>"
-            },
-            {
-              "clase": "texto",
-              "texto": "<br><center><a href='http://gratisography.com' target='_blank' style='color:#7986cb'>Gratisography</a></center><br>"
-            },
-            {
-              "clase": "texto",
-              "texto": "<br><center><a href='http://finda.photo/' target='_blank' style='color:#7986cb'>Findaphoto</a></center><br>"
-            },
-            {
-              "clase": "texto",
-              "texto": "<br><center><a href='http://www.resplashed.com' target='_blank' style='color:#7986cb'>Replashed</a></center><br>"
-            },
-            {
-              "clase": "texto",
-              "texto": "<br><center><a href='https://unsplash.com' target='_blank' style='color:#7986cb'>Unsplash</a></center><br>"
             }
           ]
         },
@@ -614,34 +627,61 @@
         },
         {
           "clase": "texto",
-          "texto": "<br><center><a href='http://www.coverr.co/' target='_blank' style='color:#7986cb'>Coverr</a></center><br>Este sitio ofrece hermosos vídeos con licencia Creative Commons 1.0, para utilizar en sitios web. Cada Lunes incorporan 7 nuevos vídeos, los cuales están organizados en 8 categorías. Además ofrecen el código (HTML, CSS y Javascript) para incluir el vídeo en los sitios web."
+          "texto": "<br><a href='http://www.coverr.co/' target='_blank' style='color:#7986cb'>Coverr</a><br>Este sitio ofrece hermosos vídeos con licencia Creative Commons 1.0, para utilizar en sitios web. Cada Lunes incorporan 7 nuevos vídeos, los cuales están organizados en 8 categorías. Además ofrecen el código (HTML, CSS y Javascript) para incluir el vídeo en los sitios web."
         },
         {
           "clase": "texto",
-          "texto": "<br><center><a href='http://www.lifeofvids.com/' target='_blank' style='color:#7986cb'>Life of Vids</a></center><br>Clips de vídeos y loops sin derechos de autor y sin restricciones, en alta resolución los cuales se pueden descargar libremente. Los vídeos son creados por la agencia de publicidad Leeroy de Canadá y otras agencias asociadas."
+          "texto": "<br><a href='http://www.lifeofvids.com/' target='_blank' style='color:#7986cb'>Life of Vids</a><br>Clips de vídeos y loops sin derechos de autor y sin restricciones, en alta resolución los cuales se pueden descargar libremente. Los vídeos son creados por la agencia de publicidad Leeroy de Canadá y otras agencias asociadas."
         },
         {
           "clase": "texto",
-          "texto": "<br><center><a href='https://www.videezy.com/' target='_blank' style='color:#7986cb'>Videezy</a></center><br>Este sitio es una comunidad de profesionales y principiantes para compartir y descargar clips de vídeos y b-roll de alta definición en forma totalmente gratis para usar en cualquier proyecto. Todos los vídeos tienen licencia Creative Commons."
+          "texto": "<br><a href='https://www.videezy.com/' target='_blank' style='color:#7986cb'>Videezy</a><br>Este sitio es una comunidad de profesionales y principiantes para compartir y descargar clips de vídeos y b-roll de alta definición en forma totalmente gratis para usar en cualquier proyecto. Todos los vídeos tienen licencia Creative Commons."
         },
         {
           "clase": "texto",
-          "texto": "<br><center><a href='http://www.stockfootageforfree.com/' target='_blank' style='color:#7986cb'>Stock Footage for Free</a></center><br>Todos los videos se pueden utilizar para cualquier proyecto personal o comercial. Las especificaciones de los vídeos son las siguientes: Size: 1920 x 1080 pixels (16:9), Codec: QuickTime Photo-JPEG, high quality y Frame rate: 29.97."
+          "texto": "<br><a href='http://www.stockfootageforfree.com/' target='_blank' style='color:#7986cb'>Stock Footage for Free</a><br>Todos los videos se pueden utilizar para cualquier proyecto personal o comercial. Las especificaciones de los vídeos son las siguientes: Size: 1920 x 1080 pixels (16:9), Codec: QuickTime Photo-JPEG, high quality y Frame rate: 29.97."
         },
         {
           "clase": "texto",
-          "texto": "<br><center><a href='http://www.wedistill.io/' target='_blank' style='color:#7986cb'>Distill</a></center><br>Colección currada de vídeos para uso profesional y personal. Cada 10 días incorporan 10 nuevos vídeos."
+          "texto": "<br><a href='http://www.wedistill.io/' target='_blank' style='color:#7986cb'>Distill</a><br>Colección currada de vídeos para uso profesional y personal. Cada 10 días incorporan 10 nuevos vídeos."
         },
         {
           "clase": "texto",
-          "texto": "<br><center><a href=' https://www.videvo.net/' target='_blank' style='color:#7986cb'>Videvo</a></center><br>Este sitio ofrece más de 2700 clips de vídeo en forma totalmente gratuita. Una colección que a medida que pasa el tiempo sigue creciendo, ya que siguen incorporando nuevos clips todas las semanas. Solo debes de abrir una cuenta gratuita y listo, ya puedes comenzar a descargar los vídeos. Todos los clips están organizados en las siguientes categorías: Animales, Comida y Bebidas, Deportes, Efectos Especiales, Espacio, Industria, Medicina, Música, Naturaleza, Personas y Producción."
+          "texto": "<br><a href=' https://www.videvo.net/' target='_blank' style='color:#7986cb'>Videvo</a><br>Este sitio ofrece más de 2700 clips de vídeo en forma totalmente gratuita. Una colección que a medida que pasa el tiempo sigue creciendo, ya que siguen incorporando nuevos clips todas las semanas. Solo debes de abrir una cuenta gratuita y listo, ya puedes comenzar a descargar los vídeos. Todos los clips están organizados en las siguientes categorías: Animales, Comida y Bebidas, Deportes, Efectos Especiales, Espacio, Industria, Medicina, Música, Naturaleza, Personas y Producción."
         },
         {
           "clase": "texto",
-          "texto": "<br><center><a href='https://videos.pexels.com/' target='_blank' style='color:#7986cb'>Videos.pexels</a></center><br>Este banco de imágenes ahora ofrece vídeos de corta duración sobre distintos temas, en forma gratis y también para usar en proyectos personales y comerciales.<br>Los vídeos están organizados en las siguientes categorías: Ciudad, Naturaleza, Hojas, Sol, Comida, Industria, Cielo, Rocas, Automóviles, Ríos, Tecnología, Calles, Montañas, Timelapses, Agua, Árboles, Noche, Bebidas, Mockup, Borrosos, Animales y Personas. También en su página de inicio, muestran los últimos vídeos subidos al servicio.<br>Lo único negativo es que no ofrece un buscador. Si están buscando por un vídeo en particular tendrán que entrar en alguna de las categorías y explorar para ver si encuentran lo que necesitan."
+          "texto": "<br><a href='https://videos.pexels.com/' target='_blank' style='color:#7986cb'>Videos.pexels</a><br>Este banco de imágenes ahora ofrece vídeos de corta duración sobre distintos temas, en forma gratis y también para usar en proyectos personales y comerciales.<br>Los vídeos están organizados en las siguientes categorías: Ciudad, Naturaleza, Hojas, Sol, Comida, Industria, Cielo, Rocas, Automóviles, Ríos, Tecnología, Calles, Montañas, Timelapses, Agua, Árboles, Noche, Bebidas, Mockup, Borrosos, Animales y Personas. También en su página de inicio, muestran los últimos vídeos subidos al servicio.<br>Lo único negativo es que no ofrece un buscador. Si están buscando por un vídeo en particular tendrán que entrar en alguna de las categorías y explorar para ver si encuentran lo que necesitan."
+        },
+        {
+          "clase": "texto",
+          "texto": "<B><center>PRESENTACIONES</center></B><br>Con estos recursos podrás hacer estupendas presentaciones.<br>"
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><a href='http://www.slideshare.net/' target='_blank' style='color:#7986cb'>SlideShare</a><br>Una de las herramientas más populares que, manteniendo las premisas tradicionales de las presentaciones con diapositivas, permite guardarlas y compartirlas online, además de incrustarlas en webs y blogs."
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><a href='http://photopeach.com/' target='_blank' style='color:#7986cb'>Photopeach</a><br>PhotoPeach. Herramienta para crear presentaciones de imágenes, con transiciones, a las que se puede añadir música y texto sobreimpreso. En su web hay presentaciones ordenadas por categorías que pueden dar buenas ideas."
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><a href='https://prezi.com/' target='_blank' style='color:#7986cb'>Prezi</a><br>Muy utilizada, permite crear exposiciones dinámicas y muy atractivas, en las que se puede ir pasando de unos elementos a otros, mediante zooms y movimientos por un entorno interactivo. <a href='https://www.youtube.com/watch?v=sXgqHqNal4o' target='_blank' style='color:#7986cb'>Este tutorial</a> explica cómo usar Prezi."
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><a href='https://animoto.com/' target='_blank' style='color:#7986cb'>Animoto</a><br>Otra opción muy buena"
+        },
+        {
+          "clase": "texto",
+          "texto": "<br><a href='https://es.padlet.com/' target='_blank' style='color:#7986cb'>Padlet</a><br>Una forma muy visual de presentar, como un gran muro o corcho virtual donde colocar textos, archivos o enlaces. Es una alternativa al más conocido <a href='http://edu.glogster.com/?ref=com' target='_blank' style='color:#7986cb'>Glogster</a>, pero añade un componente colaborativo interesante: además del autor del mural, otros pueden añadir comentarios y completarlo."
         }
       ]
-    },    
+    },
+
+
+
     {
       "titulo": "CONTRAPORTADA",
       "fondo": "img/mod01/contra.svg",

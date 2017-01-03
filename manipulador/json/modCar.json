@@ -13,6 +13,7 @@
       "contenido": [
         {
           "clase": "texto",
+          "animacion": "fadeInLeft",
           "subclase": "recuadro",
           "texto": "<p>Hasta ahora en los módulos anteriores has visto todo lo relacionado con la Higiene y Seguridad Alimentaria de forma amplia, pero genérica.</p><br><p>En este Módulo vas a poder ampliar la información vista anteriormente pero enfocada exclusivamente al Sector Cárnico, desde las alteraciones más comunes que sufren estos productos hasta los peligros más específicos, como pueden ser ciertos agentes patógenos.</p>"
         }
@@ -41,7 +42,7 @@
             {
               "titulo": "Carne Picada",
               "texto": "<br>Es la carne <b>deshuesada</b> que ha sido sometida a una operación de <b>picado</b> en trozos y que contiene menos de 1% de sal.",
-              "imagen": "img/modCar/sco3p2.jpg",
+              "imagen": "img/modCar/sco3p2.png",
               "ancho": 200
             },
             {
@@ -72,7 +73,7 @@
         {
           "clase": "texto",
           "animacion": "tada",
-          "texto": "La carne es el resultado de la <b>transformación</b> del músculo como consecuencia de ciertos cambios bioquímicos que se suceden en el mismo cuando finaliza el sacrificio del animal, por tanto la carne está compuesta principalmente de músculo, pero la pueden componer más elementos como son las grasas, los huesos, nervios, vasos sanguíneos, tendones y aponeurosis (telilla o membrana que rodea los músculos). El <b>músculo</b> está compuesto por fibras musculares, que son cadenas de <b>proteínas</b>, y cada proteína está constituida por aminoácidos. Tanto la carne como sus productos cárnicos son ricos en agua, proteínas, vitaminas y elementos minerales."
+          "texto": "La carne es el resultado de la <b>transformación</b> del músculo como consecuencia de ciertos cambios bioquímicos que se suceden en el mismo cuando finaliza el sacrificio del animal, por tanto la carne está compuesta principalmente de músculo, pero la pueden componer más elementos como son las grasas, los huesos, nervios, vasos sanguíneos, tendones y aponeurosis (telilla o membrana que rodea los músculos).<br><br>El <b>músculo</b> está compuesto por fibras musculares, que son cadenas de <b>proteínas</b>, y cada proteína está constituida por aminoácidos. Tanto la carne como sus productos cárnicos son ricos en agua, proteínas, vitaminas y elementos minerales."
         },
         {
           "clase": "texto",
@@ -284,9 +285,96 @@
         }
       ]
     },
+
+
+
+    {
+      "titulo": "Alteración",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "texto": "<p>Debido a su <b>composición</b>, contenido alto en agua y pH, la carne reúne todas las características idóneas para la multiplicación de los <b>microorganismos</b>, y por dicho motivo es uno de los alimentos más <b>perecederos</b> y más susceptible a la alteración. Las alteraciones de la carne se deben por un lado a su propia composición y a la interacción con factores físicos (luz, temperatura...),  químicos (oxidación, acidificación...) o microbiológicos (bacterias alterantes).</p><br>Alteraciones <b>NO causadas por microorganismos</b>:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabs",
+              "subclase": "vertical",
+              "animacion": "fadeInRight",
+              "contenido": [
+                {
+                  "titulo": "Rancidez oxidativa",
+                  "texto": "Consiste en la oxidación de las <b>grasas</b> al exponerlas al oxígeno del aire. La consecuencia es la producción de un olor, aspecto y sabor desagradables. Este proceso se acelera con las altas temperaturas, la luz y determinadas sales. Hay que tener en cuenta que las grasas insaturadas (consideradas más beneficiosas para la salud) son más susceptibles de ser oxidadas que las saturadas (consideradas menos beneficiosas)."
+                },
+                {
+                  "titulo": "Quemadura del frío",
+                  "texto": "Si durante el almacenamiento en refrigeración (o congelación) la <b>humedad</b> del entorno es baja (ambientes secos) los alimentos ceden su agua para equilibrar el ambiente y combatir la sequedad lo que provoca una pérdida de humedad en algunas zonas y se produce la quemadura del frío."
+                },
+                {
+                  "titulo": "Deshidratación",
+                  "texto": "Da un aspecto <b>seco, viejo</b> y de textura basta. Normalmente se limita a la superficie. Se produce por temperaturas inadecuadas (altas) o humedades bajas."
+                },
+                {
+                  "titulo": "Goteo",
+                  "texto": "Se produce pérdida de agua por descongelación de los productos que han sido congelados de forma lenta o en congeladores poco potentes. Hay carnes como la de cerdo que tienden a acumular agua y que tras su descongelación, tendrán un goteo más intenso."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Alteraciones <b>causadas por microorganismos</b><br>(dependen de la <b>zona</b> en la que éstos se encuentren, en la superficie o en la parte profunda y también del <b>tipo</b> de microorganismo):"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabs",
+              "subclase": "vertical",
+              "animacion": "fadeInRight",
+              "contenido": [
+                {
+                  "titulo": "Mucosidad exterior",
+                  "texto": "Es una alteración que se manifiesta con una especie de limo o mucosidad en la superficie de la carne, normalmente de color blanquecino."
+                },
+                {
+                  "titulo": "Coloraciones o brillos anormales",
+                  "texto": "Bacterias, hongos y levaduras pueden colonizar la carne originando manchas de diversas tonalidades según de qué microorganismo se trate (azul-verdosas, amarillentas, rosado o rojos, blanco, negruzco...)."
+                },
+                {
+                  "titulo": "Otros",
+                  "texto": "<b>Olores y sabores</b> desagradables.<br><b>Alteración</b> en la firmeza de la carne.<br><b>Putrefacción</b>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/modCar/sco6.jpg",
+          "ancho": 200
+        },
+        {
+          "clase": "icono",
+          "animacion": "pulse",
+          "subclase": "exclamacion",
+          "texto": "Todos estos efectos provocan el rechazo del producto, por lo que <b>no</b> deberían ser causa de <b>enfermedad alimentaria</b>."
+        }
+      ]
+    },
+
+
+
+
+
+
     {
       "titulo": "Bienestar animal",
-      "fondo": "img/modCar/scoBienestar.jpg",
+      "fondo": "img/modCar/scoBienestar.png",
       "contenido": [
         {
           "clase": "texto",
@@ -588,6 +676,7 @@
           "contenido": [
             {
               "clase": "lista",
+              "subclase": "celo",
               "animacion": "jello",
               "titulo": "<p>Un primer bloque en el cual se produce la contaminación de la carne y que englobaremos como <b>contaminación de origen</b>, que vamos a mencionar para ser conscientes de que ya partimos de un producto con un cierto grado de contaminación y esto nos ha de condicionar para ser lo más <b>rigurosos</b> posibles en las manipulaciones que realicemos posteriormente para no incrementar la misma y, sobre todo, para evitar la multiplicación microbiológica.</p>",
               "subclase": "numeros",
@@ -635,6 +724,18 @@
         }
       ]
     },
+     {
+      "titulo": "Contaminación de origen: Explotación ganadera I",
+      "fondo": "img/modCar/sco13.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "fadeInRight",
+          "texto": "La <b>contaminación de origen</b> es aquella que ya viene en el alimento. En el caso de la carne vamos a considerar como contaminación de origen aquella que se produce durante la <b>producción primaria</b>, es decir, durante la cría de animales hasta el momento del sacrificio y faenado.<br><br>El incremento de la demanda de carne ha llevado a un aumento de la <b>producción</b> basado en nuevos métodos de cría intensiva del ganado. Aunque las instalaciones deben de ser adaptadas y confortables para los animales, siempre existe el riesgo de que se desencadenen enfermedades en los animales, fácilmente <b>transmisibles</b> entre ellos debido al propio sistema intensivo de cría.<br><br>Para conseguir un producto final más seguro es fundamental la higiene en la <b>explotación ganadera</b>, teniendo muy en cuenta la higiene de animales (incluyendo protocolos de vacunación y desparasitación), de instalaciones (planes de limpieza y desinfección y plan de control de plagas, ventilación, vacío sanitario…) así como la higiene del personal (indumentaria adecuada exclusiva para las instalaciones, buenas prácticas ganaderas…)"
+        }
+      ]
+    },
     {
       "titulo": "Contaminación de origen: Explotación ganadera II",
       "contenido": [
@@ -675,7 +776,7 @@
         {
           "clase": "lista",
           "animacion": "rubberBand",
-          "titulo": "<center>Las <b>medidas de control</b> más importantes para evitar la contaminación de la carne en esta etapa son:",
+          "titulo": "Las <b>medidas de control</b> más importantes para evitar la contaminación de la carne en esta etapa son:",
           "contenido": [
             {
               "punto": "Campañas de <b>saneamiento</b> ganadero y programas zoosanitarios."
@@ -690,15 +791,15 @@
               "punto": "<b>Control</b> de los piensos"
             },
             {
-              "punto": "Aplicación de <b>medicamentos</b> bajo estricto control <b>veterinario</b> y respeto de los plazos de supresión.</center><br>"
+              "punto": "Aplicación de <b>medicamentos</b> bajo estricto control <b>veterinario</b> y respeto de los plazos de supresión.<br>"
             }
 
           ]
         },
         {
           "clase": "imagen",
-          "imagen": "img/modCar/sco13.jpg",
-          "ancho": 300
+          "imagen": "img/modCar/syringe.jpg",
+          "ancho": 400
         },
         {
           "clase": "icono",
@@ -751,13 +852,18 @@
     {
       "titulo": "Matadero",
       "contenido": [
-        {
+                   {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "El matadero es un importante <b>filtro sanitario</b> para garantizar la salud del consumidor. Todo animal o lote de animales que se envíe al matadero deberá estar <b>identificado</b> de forma que pueda conocerse su origen."
+            },
+         {
           "clase": "listaObjetos",
           "contenido": [
             {
               "clase": "texto",
               "animacion": "flash",
-              "texto": "El matadero es un importante <b>filtro sanitario</b> para garantizar la salud del consumidor. Todo animal o lote de animales que se envíe al matadero deberá estar <b>identificado</b> de forma que pueda conocerse su origen. <br><br>La <b>inspección veterinaria</b> oficial debe controlar en todo momento las condiciones de trabajo, así como todas las canales de los animales y sus vísceras. Todos los tejidos o canales que entrañen riesgos o presenten alguna lesión, parásitos o cualquier tipo de anormalidad, se <b>retirarán</b> de la línea y se impedirá su comercialización. <br><br>En ocasiones será necesario realizar <b>análisis complementarios</b> (como en las “vacas locas”, residuos de medicamentos...)"
+              "texto": "La <b>inspección veterinaria</b> oficial debe controlar en todo momento las condiciones de trabajo, así como todas las canales de los animales y sus vísceras. Todos los tejidos o canales que entrañen riesgos o presenten alguna lesión, parásitos o cualquier tipo de anormalidad, se <b>retirarán</b> de la línea y se impedirá su comercialización. <br><br>En ocasiones será necesario realizar <b>análisis complementarios</b> (como en las “vacas locas”, residuos de medicamentos...)"
             },
             {
               "clase": "imagen",
@@ -1233,7 +1339,6 @@
         }
       ]
     },
-
     {
       "titulo": "Acondicionamiento: Medidas preventivas",
       "contenido": [
@@ -1368,9 +1473,6 @@
         }
       ]
     },
-
-
-
     {
       "titulo": "Elaboración",
       "contenido": [
