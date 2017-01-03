@@ -169,6 +169,7 @@
         {
           "clase": "acordeon",
           "animacion": "flipInX",
+          "ancho": "75",
           "contenido": [
             {
               "titulo": "Agua",
@@ -286,73 +287,88 @@
       ]
     },
 
-
-
     {
       "titulo": "Alteración",
       "contenido": [
         {
           "clase": "texto",
           "animacion": "flash",
-          "texto": "<p>Debido a su <b>composición</b>, contenido alto en agua y pH, la carne reúne todas las características idóneas para la multiplicación de los <b>microorganismos</b>, y por dicho motivo es uno de los alimentos más <b>perecederos</b> y más susceptible a la alteración. Las alteraciones de la carne se deben por un lado a su propia composición y a la interacción con factores físicos (luz, temperatura...),  químicos (oxidación, acidificación...) o microbiológicos (bacterias alterantes).</p><br>Alteraciones <b>NO causadas por microorganismos</b>:"
+          "texto": "Debido a su <b>composición</b>, contenido alto en agua y pH, la carne reúne todas las características idóneas para la multiplicación de los <b>microorganismos</b>, y por dicho motivo es uno de los alimentos más <b>perecederos</b> y más susceptible a la alteración. Las alteraciones de la carne se deben por un lado a su propia composición y a la interacción con factores físicos (luz, temperatura...),  químicos (oxidación, acidificación...) o microbiológicos (bacterias alterantes)."
         },
         {
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "tabs",
-              "subclase": "vertical",
-              "animacion": "fadeInRight",
+              "clase": "listaObjetos",
+              "subclase": "columna",
               "contenido": [
                 {
-                  "titulo": "Rancidez oxidativa",
-                  "texto": "Consiste en la oxidación de las <b>grasas</b> al exponerlas al oxígeno del aire. La consecuencia es la producción de un olor, aspecto y sabor desagradables. Este proceso se acelera con las altas temperaturas, la luz y determinadas sales. Hay que tener en cuenta que las grasas insaturadas (consideradas más beneficiosas para la salud) son más susceptibles de ser oxidadas que las saturadas (consideradas menos beneficiosas)."
+                  "clase": "texto",
+                  "texto": "Alteraciones <b>NO causadas por microorganismos</b>:"
                 },
                 {
-                  "titulo": "Quemadura del frío",
-                  "texto": "Si durante el almacenamiento en refrigeración (o congelación) la <b>humedad</b> del entorno es baja (ambientes secos) los alimentos ceden su agua para equilibrar el ambiente y combatir la sequedad lo que provoca una pérdida de humedad en algunas zonas y se produce la quemadura del frío."
-                },
-                {
-                  "titulo": "Deshidratación",
-                  "texto": "Da un aspecto <b>seco, viejo</b> y de textura basta. Normalmente se limita a la superficie. Se produce por temperaturas inadecuadas (altas) o humedades bajas."
-                },
-                {
-                  "titulo": "Goteo",
-                  "texto": "Se produce pérdida de agua por descongelación de los productos que han sido congelados de forma lenta o en congeladores poco potentes. Hay carnes como la de cerdo que tienden a acumular agua y que tras su descongelación, tendrán un goteo más intenso."
+                  "clase": "tabs",
+                  "subclase": "vertical",
+                  "animacion": "fadeInRight",
+                  "contenido": [
+                    {
+                      "titulo": "Rancidez oxidativa",
+                      "texto": "Consiste en la oxidación de las <b>grasas</b> al exponerlas al oxígeno del aire. La consecuencia es la producción de un olor, aspecto y sabor desagradables. Este proceso se acelera con las altas temperaturas, la luz y determinadas sales. Hay que tener en cuenta que las grasas insaturadas (consideradas más beneficiosas para la salud) son más susceptibles de ser oxidadas que las saturadas (consideradas menos beneficiosas)."
+                    },
+                    {
+                      "titulo": "Quemadura del frío",
+                      "texto": "Si durante el almacenamiento en refrigeración (o congelación) la <b>humedad</b> del entorno es baja (ambientes secos) los alimentos ceden su agua para equilibrar el ambiente y combatir la sequedad lo que provoca una pérdida de humedad en algunas zonas y se produce la quemadura del frío."
+                    },
+                    {
+                      "titulo": "Deshidratación",
+                      "texto": "Da un aspecto <b>seco, viejo</b> y de textura basta. Normalmente se limita a la superficie. Se produce por temperaturas inadecuadas (altas) o humedades bajas."
+                    },
+                    {
+                      "titulo": "Goteo",
+                      "texto": "Se produce pérdida de agua por descongelación de los productos que han sido congelados de forma lenta o en congeladores poco potentes. Hay carnes como la de cerdo que tienden a acumular agua y que tras su descongelación, tendrán un goteo más intenso."
+                    }
+                  ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "animacion": "swing",
-          "texto": "Alteraciones <b>causadas por microorganismos</b><br>(dependen de la <b>zona</b> en la que éstos se encuentren, en la superficie o en la parte profunda y también del <b>tipo</b> de microorganismo):"
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
+            },
             {
-              "clase": "tabs",
-              "subclase": "vertical",
-              "animacion": "fadeInRight",
+              "clase": "listaObjetos",
+              "subclase": "columna",
               "contenido": [
                 {
-                  "titulo": "Mucosidad exterior",
-                  "texto": "Es una alteración que se manifiesta con una especie de limo o mucosidad en la superficie de la carne, normalmente de color blanquecino."
+                  "clase": "texto",
+                  "animacion": "swing",
+                  "texto": "Alteraciones <b>causadas por microorganismos</b><br>(dependen de la <b>zona</b> en la que éstos se encuentren, en la superficie o en la parte profunda y también del <b>tipo</b> de microorganismo):"
                 },
                 {
-                  "titulo": "Coloraciones o brillos anormales",
-                  "texto": "Bacterias, hongos y levaduras pueden colonizar la carne originando manchas de diversas tonalidades según de qué microorganismo se trate (azul-verdosas, amarillentas, rosado o rojos, blanco, negruzco...)."
-                },
-                {
-                  "titulo": "Otros",
-                  "texto": "<b>Olores y sabores</b> desagradables.<br><b>Alteración</b> en la firmeza de la carne.<br><b>Putrefacción</b>"
+                  "clase": "tabs",           
+                  "subclase": "vertical",    
+                  "animacion": "fadeInRight",
+                  "contenido": [
+                    {
+                      "titulo": "Mucosidad exterior",
+                      "texto": "Es una alteración que se manifiesta con una especie de limo o mucosidad en la superficie de la carne, normalmente de color blanquecino."
+                    },
+                    {
+                      "titulo": "Coloraciones o brillos anormales",
+                      "texto": "Bacterias, hongos y levaduras pueden colonizar la carne originando manchas de diversas tonalidades según de qué microorganismo se trate (azul-verdosas, amarillentas, rosado o rojos, blanco, negruzco...)."
+                    },
+                    {
+                      "titulo": "Otros",
+                      "texto": "<b>Olores y sabores</b> desagradables.<br><b>Alteración</b> en la firmeza de la carne.<br><b>Putrefacción</b>"
+                    }
+                  ]
                 }
               ]
             }
+
           ]
         },
+
+
+
+
+
         {
           "clase": "imagen",
           "imagen": "img/modCar/sco6.jpg",
@@ -366,11 +382,6 @@
         }
       ]
     },
-
-
-
-
-
 
     {
       "titulo": "Bienestar animal",

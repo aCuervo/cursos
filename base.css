@@ -204,7 +204,7 @@ min-height: 50%;
         height: 100%;
         /*overflow:hidden;*/
         overflow:auto;
-        padding-bottom:0em;
+        padding-bottom:0;
     }
 
         #divTextos.fondo.pattern {
@@ -291,19 +291,6 @@ min-height: 50%;
 #navIndice #divIndiceLista #ulIndiceLista li.scoActivo a:before {
     font-size: 16pt;
 }
-
-/* Específico para manipulador de alimentos
-#navIndice #divIndiceLista #ulIndiceLista li img {
-    width: 25px;
-    height: 25px;
-    vertical-align: middle;
-}
-
-#navIndice #divIndiceLista #ulIndiceLista li img.llama {
-    width: 25px;
-    height: 37px;
-    vertical-align: middle;
-}*/
 
 #navIndice #divIndiceFlechas {
     position: relative;
@@ -562,6 +549,7 @@ footer {
     border: 1px solid transparent; /*Fix para que los márgenes no colapsen */
 }
 
+    .lista .
     .lista.recuadro {
         padding: 1em;
     }
@@ -659,18 +647,7 @@ footer {
         .lista.sortable ul > li:hover{
             cursor:grab;
         }
-    /* Específico alimerka */
-    /*.lista.sortable.cliente ul{
-    background-color: #B3E5FC;
-}
-.lista.sortable.cliente ul > li {
-    background-color: #FFFFFF;
-    border: 3px solid #01579B;
-    margin: 1em 0;
-} 
-.lista.sortable.cliente .placeholder {
-    border: 3px dashed #01579B !important;
-}*/
+   
 
     /* Lista de objetivos */
     .lista.objetivos {
@@ -754,7 +731,7 @@ footer {
         margin-right: 1em;
     }
 
-    .tabs .ui-tabs-panel > p {
+    .tabs:not(.vertical) .ui-tabs-panel > p {
         padding: 0;
     }
 
@@ -767,26 +744,32 @@ footer {
     }
 
 /* Texto Tabs Vertical (CSS en jquery.structure y jquery.theme)*/
-.ui-tabs-vertical {
+.tabs.vertical{
     display: table;
     padding: 0;
 }
 
-    .ui-tabs-vertical ul.ui-tabs-nav {
+.tabs.vertical{
+    padding:0;
+}
+    .tabs.vertical .ui-tabs-panel{
+        padding-left:1em;
+    }
+    .tabs.vertical ul.ui-tabs-nav {
         display: table-cell;
         vertical-align: top;
         padding-right: 0 !important;
     }
 
-        .ui-tabs-vertical ul.ui-tabs-nav li {
+        .tabs.vertical ul.ui-tabs-nav li {
             margin: 0.2em 0;
         }
 
-    .ui-tabs-vertical .ui-tabs-nav {
+    .tabs.vertical .ui-tabs-nav {
         float: left;
     }
 
-        .ui-tabs-vertical .ui-tabs-nav li {
+       .tabs.vertical .ui-tabs-nav li {
             clear: left;
             width: 100%;
             border-bottom-width: 1px !important;
@@ -794,21 +777,21 @@ footer {
             margin: 0 -1px .2em 0;
         }
 
-            .ui-tabs-vertical .ui-tabs-nav li a {
+            .tabs.vertical .ui-tabs-nav li a {
                 display: block;
             }
 
-            .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+            .tabs.vertical .ui-tabs-nav li.ui-tabs-active {
                 padding-bottom: 0;
                 border-right-width: 1px;
             }
 
-    .ui-tabs-vertical .ui-tabs-panel {
+    .tabs.vertical .ui-tabs-panel {
         padding: 1em;
         display: table-cell;
     }
 
-    .ui-tabs-vertical .ui-tabs-nav .ui-state-default {
+    .tabs.vertical .ui-tabs-nav .ui-state-default {
         top: 0 !important;
     }
 

@@ -852,7 +852,10 @@ function cargarTabsLado(div, elemento) {
     div.appendChild(divWrapper);
 }
 // Cargar acordeón (JQUERY)
-function cargarAcordeon(div, elemento){
+function cargarAcordeon(div, elemento) {
+    if (elemento.ancho) {
+        div.style.width = elemento.ancho + "%";
+    }
     $.each(elemento.contenido, function (indice, elemento) {
         var divTab = document.createElement("DIV");
 
@@ -1851,7 +1854,7 @@ function inicializarAlto() {
     var alturaPantalla = $(window).height() - $("header").outerHeight(true) - $("footer").outerHeight(true);
         // Solo si tiene fondo
         if (CURSO.json.contenido[CURSO.scoActual].fondo) {
-            $("#divTextos").height(alturaPantalla);
+           $("#divTextos").height(alturaPantalla);
         }
     $("#navIndice").height(alturaPantalla);    
 }
