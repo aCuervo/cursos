@@ -271,6 +271,7 @@
         },
         {
           "clase": "acordeon",
+          "ancho": "80",
           "contenido": [
             {
               "titulo": "¿Cómo identificar qué sustancias pueden originar una atmósfera explosiva potencialmente peligrosa?",
@@ -289,6 +290,147 @@
         {
           "clase": "imagen",
           "imagen": "img/mod04/tablacumplimentar.png"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "<b>Número</b> de la sustancia identificada."
+            },
+            {
+              "punto": "<b>Nombre</b> de la sustancia identificada."
+            },
+            {
+              "punto": "<b>Composición</b> química de la sustancia."
+            },
+            {
+              "punto": "<b>Punto de inflamabilidad o destello</b>: La temperatura más baja del líquido a la que, bajo ciertas condiciones normalizadas, el líquido desprende vapores en cantidad tal que puede originar la formación de una mezcla vapor/aire inflamable."
+            },
+            {
+              "punto": "<b>LIE (kg/m3 )</b>: Es el límite inferior del intervalo de concentraciones de la sustancia en el aire, para el que la mezcla es explosiva en kg/m3."
+            },
+            {
+              "punto": "<b>LIE (vol%)</b>: Es el límite inferior del intervalo de concentraciones de la sustancia en el aire, para el que la mezcla es explosiva en % en volumen."
+            },
+            {
+              "punto": "<b>Tensión de vapor a 20ºC</b>: Presión existente cuando un sólido o líquido está en equilibrio con su propio vapor. Es función de la sustancia y de la temperatura."
+            },
+            {
+              "punto": "<b>Punto de ebullición</b>: Es la temperatura de un líquido hirviendo a una presión ambiente de 101,3kPa"
+            },
+            {
+              "punto": "<b>Densidad relativa del gas o vapor con respecto al aire</b>: Relación entre la densidad de un gas o de un vapor y la densidad del aire en las mismas condiciones de presión y temperatura. La densidad relativa del gas afecta a la extensión de la atmósfera explosiva, dado que si el gas es más ligero que el aire tiende a elevarse, y si es más pesado tenderá a acumularse en el suelo."
+            },
+            {
+              "punto": "<b>Temperatura de ignición</b>: Temperatura más baja de una superficie caliente a la cual, bajo las condiciones especificadas, se produce la ignición de una sustancia inflamable en forma de una mezcla de gas o vapor con el aire."
+            },
+            {
+              "punto": "<b>Grupo y clase de temperatura</b>: Clasificación de material eléctrico para atmósferas explosivas fundadas sobre su temperatura máxima de superficie."
+            },
+            {
+              "punto": "<b>Grupo de material</b>: Parámetro que marca la sensibilidad de la sustancia a la iniciación de la explosión por arco eléctrico o por llama. Clasificándose en subgrupos. Esta clasificación se aplica a los aparatos del Grupo II, destinados a ser utilizados en atmósferas explosivas de gas o vapor.",
+              "contenido": [
+                {
+                  "punto": "Subgrupo IIA 0,8 < CMI 0,9 < IEMS ref. Metano EMI=250"
+                },
+                {
+                  "punto": "Subgrupo IIB 0,45 < CMI < 0,8 0,5 < IEMS < 0,9 ref. Etileno EMI=96 "
+                },
+                {
+                  "punto": "Subgrupo IIC CMI < 0,45 IEMS < 0,5 ref. Hidrógeno EMI=20"
+                }
+              ]
+            },
+            {
+              "punto": "<b>Clase de temperatura</b>: Parámetro que marca la sensibilidad de la sustancia a la iniciación de la explosión por contacto con una superficie caliente. De esta manera los equipos se clasifican en Clases Térmicas"
+            }
+          ]
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "Clase de Temperatura"
+            },
+            {
+              "titulo": "Temperatura Superficial Máxima"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>T1</center>"
+                },
+                {
+                  "texto": "<center>450ºC</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>T2</center>"
+                },
+                {
+                  "texto": "<center>300ºC</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>T3</center>"
+                },
+                {
+                  "texto": "<center>200ºC</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>T4</center>"
+                },
+                {
+                  "texto": "<center>135ºC</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>T5</center>"
+                },
+                {
+                  "texto": "<center>100ºC</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>T6</center>"
+                },
+                {
+                  "texto": "<center>85ºC</center>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "EVALUACIÓN DE RIESGOS (SISTEMA/METODOLOGÍA EMPLEADOS Y PRESENTACIÓN DE RESULTADOS)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Para que se produzca una explosión es preciso que se forme una atmósfera explosiva potencialmente peligrosa y que se produzca su ignición mediante una fuente efectiva.<br><br>Una vez identificado quién puede dar lugar a una atmósfera explosiva potencialmente peligrosa (qué sustancias inflamables y/o combustible), se deben definir los lugares dónde es posible que se formen dichas atmósferas ATEX (mediante la clasificación de los emplazamientos peligrosos), cuándo es posible que se produzca la explosión (identificación y análisis de todas las posibles fuentes de ignición, material eléctrico – mecánico), cómo (determinación de la probabilidad de activación de las fuentes de ignición) y qué ocurrirá (valoración del riesgo)."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/evalRiesgos.png"
         }
       ]
     },
