@@ -567,6 +567,10 @@ function cargarObjeto(div, elemento) {
 // Cargar un texto en un párrafo.
 function cargarTexto(div, elemento) {
     if (elemento.texto) {
+        //F. Pongo un ancho para los textos similar al del acordeón
+        if (elemento.ancho) {
+            div.style.width = elemento.ancho + "%";
+        }
         // Si alguna de las subclases existe en ese párrafo
         if (div.classList.contains('anillas')) {
             var divCabecera = document.createElement('DIV');            

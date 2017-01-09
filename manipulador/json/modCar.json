@@ -13,6 +13,7 @@
       "contenido": [
         {
           "clase": "texto",
+          "ancho": "60",
           "animacion": "fadeInLeft",
           "subclase": "recuadro",
           "texto": "<p>Hasta ahora en los módulos anteriores has visto todo lo relacionado con la Higiene y Seguridad Alimentaria de forma amplia, pero genérica.</p><br><p>En este Módulo vas a poder ampliar la información vista anteriormente pero enfocada exclusivamente al Sector Cárnico, desde las alteraciones más comunes que sufren estos productos hasta los peligros más específicos, como pueden ser ciertos agentes patógenos.</p>"
@@ -210,82 +211,6 @@
         }
       ]
     },
-    {
-      "titulo": "Alteración",
-      "contenido": [
-        {
-          "clase": "texto",
-          "animacion": "flash",
-          "texto": "<p>Debido a su <b>composición</b>, contenido alto en agua y pH, la carne reúne todas las características idóneas para la multiplicación de los <b>microorganismos</b>, y por dicho motivo es uno de los alimentos más <b>perecederos</b> y más susceptible a la alteración. Las alteraciones de la carne se deben por un lado a su propia composición y a la interacción con factores físicos (luz, temperatura...),  químicos (oxidación, acidificación...) o microbiológicos (bacterias alterantes).</p><br>Las <b>alteraciones</b> más frecuentes (sin tener en cuenta las causadas por microorganismos) son:"
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "tabs",
-              "animacion": "fadeInRight",
-              "contenido": [
-                {
-                  "titulo": "Rancidez oxidativa",
-                  "texto": "Consiste en la oxidación de las <b>grasas</b> al exponerlas al oxígeno del aire. La consecuencia es la producción de un olor, aspecto y sabor desagradables. Este proceso se acelera con las altas temperaturas, la luz y determinadas sales. Hay que tener en cuenta que las grasas insaturadas (consideradas más beneficiosas para la salud) son más susceptibles de ser oxidadas que las saturadas (consideradas menos beneficiosas)."
-                },
-                {
-                  "titulo": "Quemadura del frío",
-                  "texto": "Si durante el almacenamiento en refrigeración (o congelación) la <b>humedad</b> del entorno es baja (ambientes secos) los alimentos ceden su agua para equilibrar el ambiente y combatir la sequedad lo que provoca una pérdida de humedad en algunas zonas y se produce la quemadura del frío."
-                },
-                {
-                  "titulo": "Deshidratación",
-                  "texto": "Da un aspecto <b>seco, viejo</b> y de textura basta. Normalmente se limita a la superficie. Se produce por temperaturas inadecuadas (altas) o humedades bajas."
-                },
-                {
-                  "titulo": "Goteo",
-                  "texto": "Se produce pérdida de agua por descongelación de los productos que han sido congelados de forma lenta o en congeladores poco potentes. Hay carnes como la de cerdo que tienden a acumular agua y que tras su descongelación, tendrán un goteo más intenso."
-                }
-              ]
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/modCar/sco6.jpg",
-              "ancho": 200
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "animacion": "swing",
-          "texto": "La alteración de las carnes por la acción de los microorganismos dependerá de la <b>zona</b> en la que éstos se encuentren, en la superficie o en la parte profunda y también del <b>tipo</b> de microorganismo. Los principales efectos que se pueden apreciar son:"
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "tabs",
-              "animacion": "fadeInRight",
-              "contenido": [
-                {
-                  "titulo": "Mucosidad exterior",
-                  "texto": "Es una alteración que se manifiesta con una especie de limo o mucosidad en la superficie de la carne, normalmente de color blanquecino."
-                },
-                {
-                  "titulo": "Coloraciones o brillos anormales",
-                  "texto": "Bacterias, hongos y levaduras pueden colonizar la carne originando manchas de diversas tonalidades según de qué microorganismo se trate (azul-verdosas, amarillentas, rosado o rojos, blanco, negruzco...)."
-                },
-                {
-                  "titulo": "Otros",
-                  "texto": "<b>Olores y sabores</b> desagradables.<br><b>Alteración</b> en la firmeza de la carne.<br><b>Putrefacción</b>"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "icono",
-          "animacion": "pulse",
-          "subclase": "exclamacion",
-          "texto": "Todos estos efectos provocan el rechazo del producto, por lo que <b>no</b> deberían ser causa de <b>enfermedad alimentaria</b>."
-        }
-      ]
-    },
 
     {
       "titulo": "Alteración",
@@ -341,8 +266,8 @@
                   "texto": "Alteraciones <b>causadas por microorganismos</b><br>(dependen de la <b>zona</b> en la que éstos se encuentren, en la superficie o en la parte profunda y también del <b>tipo</b> de microorganismo):"
                 },
                 {
-                  "clase": "tabs",           
-                  "subclase": "vertical",    
+                  "clase": "tabs",
+                  "subclase": "vertical",
                   "animacion": "fadeInRight",
                   "contenido": [
                     {
@@ -364,11 +289,6 @@
 
           ]
         },
-
-
-
-
-
         {
           "clase": "imagen",
           "imagen": "img/modCar/sco6.jpg",
@@ -390,6 +310,7 @@
         {
           "clase": "texto",
           "subclase": "recuadro",
+          "ancho": "70",
           "animacion": "flash",
           "texto": "Existe actualmente una preocupación cada vez mayor que no se limita a la <b>calidad</b> y la <b>seguridad</b> alimentaria de la carne como alimento, sino que engloba todas las manipulaciones y procesos desde el nacimiento del animal en la explotación ganadera hasta el instante en que llega a la persona consumidora, procesos en los que juega un papel muy importante el <b>sistema de cría</b> y las condiciones higiénicas, sanitarias y de <b>bienestar animal</b> presentes en el proceso productivo."
         }
@@ -689,8 +610,7 @@
               "clase": "lista",
               "subclase": "celo",
               "animacion": "jello",
-              "titulo": "<p>Un primer bloque en el cual se produce la contaminación de la carne y que englobaremos como <b>contaminación de origen</b>, que vamos a mencionar para ser conscientes de que ya partimos de un producto con un cierto grado de contaminación y esto nos ha de condicionar para ser lo más <b>rigurosos</b> posibles en las manipulaciones que realicemos posteriormente para no incrementar la misma y, sobre todo, para evitar la multiplicación microbiológica.</p>",
-              "subclase": "numeros",
+              "titulo": "Un primer bloque en el cual se produce la contaminación de la carne y que englobaremos como <b>contaminación de origen</b>, que vamos a mencionar para ser conscientes de que ya partimos de un producto con un cierto grado de contaminación y esto nos ha de condicionar para ser lo más <b>rigurosos</b> posibles en las manipulaciones que realicemos posteriormente para no incrementar la misma y, sobre todo, para evitar la multiplicación microbiológica.",
               "contenido": [
                 {
                   "punto": "Contaminación en la explotación ganadera."
@@ -705,9 +625,9 @@
             },
             {
               "clase": "lista",
+              "subclase": "celo",
               "animacion": "shake",
               "titulo": "Un segundo bloque en el cual se podrán producir <b>nuevas contaminaciones</b> a lo que se suma el peligro de multiplicación bacteriana:",
-              "subclase": "numeros",
               "contenido": [
                 {
                   "punto": "Peligros asociados al <b>almacenamiento</b> de carnes."
@@ -726,24 +646,28 @@
     },
     {
       "titulo": "Contaminación de origen: Explotación ganadera I",
-      "fondo": "img/modCar/sco11fondob.svg",
-      "contenido": [
-        {
-          "clase": "texto",
-          "animacion": "fadeInRight",
-          "texto": "La <b>contaminación de origen</b> es aquella que ya viene en el alimento. En el caso de la carne vamos a considerar como contaminación de origen aquella que se produce durante la <b>producción primaria</b>, es decir, durante la cría de animales hasta el momento del sacrificio y faenado.<br><br>El incremento de la demanda de carne ha llevado a un aumento de la <b>producción</b> basado en nuevos métodos de cría intensiva del ganado. Aunque las instalaciones deben de ser adaptadas y confortables para los animales, siempre existe el riesgo de que se desencadenen enfermedades en los animales, fácilmente <b>transmisibles</b> entre ellos debido al propio sistema intensivo de cría.<br><br>Para conseguir un producto final más seguro es fundamental la higiene en la <b>explotación ganadera</b>, teniendo muy en cuenta la higiene de animales (incluyendo protocolos de vacunación y desparasitación), de instalaciones (planes de limpieza y desinfección y plan de control de plagas, ventilación, vacío sanitario…) así como la higiene del personal (indumentaria adecuada exclusiva para las instalaciones, buenas prácticas ganaderas…)"
-        }
-      ]
-    },
-     {
-      "titulo": "Contaminación de origen: Explotación ganadera I",
       "fondo": "img/modCar/sco13.jpg",
       "contenido": [
         {
           "clase": "texto",
+          "ancho": "70",
           "subclase": "recuadro",
           "animacion": "fadeInRight",
-          "texto": "La <b>contaminación de origen</b> es aquella que ya viene en el alimento. En el caso de la carne vamos a considerar como contaminación de origen aquella que se produce durante la <b>producción primaria</b>, es decir, durante la cría de animales hasta el momento del sacrificio y faenado.<br><br>El incremento de la demanda de carne ha llevado a un aumento de la <b>producción</b> basado en nuevos métodos de cría intensiva del ganado. Aunque las instalaciones deben de ser adaptadas y confortables para los animales, siempre existe el riesgo de que se desencadenen enfermedades en los animales, fácilmente <b>transmisibles</b> entre ellos debido al propio sistema intensivo de cría.<br><br>Para conseguir un producto final más seguro es fundamental la higiene en la <b>explotación ganadera</b>, teniendo muy en cuenta la higiene de animales (incluyendo protocolos de vacunación y desparasitación), de instalaciones (planes de limpieza y desinfección y plan de control de plagas, ventilación, vacío sanitario…) así como la higiene del personal (indumentaria adecuada exclusiva para las instalaciones, buenas prácticas ganaderas…)"
+          "texto": "La <b>contaminación de origen</b> es aquella que ya viene en el alimento. En el caso de la carne vamos a considerar como contaminación de origen aquella que se produce durante la <b>producción primaria</b>, es decir, durante la cría de animales hasta el momento del sacrificio y faenado."
+        },
+        {
+          "clase": "texto",
+          "ancho": "80",
+          "subclase": "recuadro",
+          "animacion": "rubberBand",
+          "texto": "El incremento de la demanda de carne ha llevado a un aumento de la <b>producción</b> basado en nuevos métodos de cría intensiva del ganado. Aunque las instalaciones deben de ser adaptadas y confortables para los animales, siempre existe el riesgo de que se desencadenen enfermedades en los animales, fácilmente <b>transmisibles</b> entre ellos debido al propio sistema intensivo de cría."
+        },
+        {
+          "clase": "texto",
+          "ancho": "90",
+          "subclase": "recuadro",
+          "animacion": "fadeInLeft",
+          "texto": "Para conseguir un producto final más seguro es fundamental la higiene en la <b>explotación ganadera</b>, teniendo muy en cuenta la higiene de animales (incluyendo protocolos de vacunación y desparasitación), de instalaciones (planes de limpieza y desinfección y plan de control de plagas, ventilación, vacío sanitario…) así como la higiene del personal (indumentaria adecuada exclusiva para las instalaciones, buenas prácticas ganaderas…)"
         }
       ]
     },
@@ -863,36 +787,45 @@
     {
       "titulo": "Matadero",
       "contenido": [
-                   {
-              "clase": "texto",
-              "subclase": "recuadro",
-              "texto": "El matadero es un importante <b>filtro sanitario</b> para garantizar la salud del consumidor. Todo animal o lote de animales que se envíe al matadero deberá estar <b>identificado</b> de forma que pueda conocerse su origen."
-            },
-         {
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "El matadero es un importante <b>filtro sanitario</b> para garantizar la salud del consumidor. Todo animal o lote de animales que se envíe al matadero deberá estar <b>identificado</b> de forma que pueda conocerse su origen."
+        },
+        {
           "clase": "listaObjetos",
           "contenido": [
             {
               "clase": "texto",
               "animacion": "flash",
-              "texto": "La <b>inspección veterinaria</b> oficial debe controlar en todo momento las condiciones de trabajo, así como todas las canales de los animales y sus vísceras. Todos los tejidos o canales que entrañen riesgos o presenten alguna lesión, parásitos o cualquier tipo de anormalidad, se <b>retirarán</b> de la línea y se impedirá su comercialización. <br><br>En ocasiones será necesario realizar <b>análisis complementarios</b> (como en las “vacas locas”, residuos de medicamentos...)"
+              "texto": "La <b>inspección veterinaria</b> oficial debe controlar en todo momento las condiciones de trabajo, así como todas las canales de los animales y sus vísceras. Todos los tejidos o canales que entrañen riesgos o presenten alguna lesión, parásitos o cualquier tipo de anormalidad, se <b>retirarán</b> de la línea y se impedirá su comercialización."
             },
             {
               "clase": "imagen",
               "imagen": "img/modCar/sco14oreja.jpg",
-              "ancho": 250
+              "ancho": 300
             }
           ]
         },
         {
-          "clase": "imagen",
-          "imagen": "img/modCar/sco14micro.jpg",
-          "ancho": 300
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "animacion": "flash",
+              "texto": "En ocasiones será necesario realizar <b>análisis complementarios</b> (como en las “vacas locas”, residuos de medicamentos...)"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modCar/sco14micro.jpg",
+              "ancho": 300
+            }
+          ]
         }
       ]
     },
     {
       "titulo": "Sacrificio y faenado",
-
       "contenido": [
         {
           "clase": "texto",
@@ -916,21 +849,23 @@
           ]
         },
         {
-          "clase": "lista",
-          "animacion": "fadeInUp",
-          "titulo": "¿Cómo minimizar o evitar los peligros mencionados?",
+          "clase": "texto",
+          "texto": "¿Cómo minimizar o evitar los peligros mencionados?"
+        },
+        {
+          "clase": "tabs",
           "contenido": [
             {
-              "punto": "Controlando el agua que se utiliza para limpieza de canales, utensilios y locales."
+              "titulo": "Limpieza",
+              "texto": "Controlando el agua que se utiliza para limpieza de canales, utensilios y locales."
             },
             {
-              "punto": "Utilizando cuchillos de uso exclusivo para la etapa de desollado."
+              "titulo": "Utensilios",
+              "texto": "Utilizando cuchillos de uso exclusivo para la etapa de desollado."
             },
             {
-              "punto": "La evisceración se realizará lo antes posible y se impedirá que se derrame el contenido del tubo digestivo sobre la canal."
-            },
-            {
-              "punto": "En general, mediante buenas prácticas higiénicas y de fabricación durante toda la etapa."
+              "titulo": "Otros",
+              "texto": "La evisceración se realizará lo antes posible y se impedirá que se derrame el contenido del tubo digestivo sobre la canal.<br><br>En general, mediante buenas prácticas higiénicas y de fabricación durante toda la etapa."
             }
           ]
         }
@@ -950,12 +885,17 @@
             {
               "clase": "imagen",
               "imagen": "img/modCar/sco16i.jpg",
-              "ancho": 300
+              "ancho": 250
             },
             {
               "clase": "texto",
               "animacion": "pulse",
               "texto": "Es fundamental que la tasa de gérmenes en la superficie de las piezas sea muy baja y esto se consigue realizando las operaciones de sacrificio en las debidas condiciones higiénicas mediante un descenso rápido de la temperatura superficial de la carne; las ventajas de un sacrificio limpio se anulan si el enfriamiento de la carne es lento, ya que las pocas bacterias presentes se multiplicarán con las altas temperaturas de la superficie de la carne. Durante el almacenamiento se produce la maduración de la carne lo que implica un aumento progresivo de la terneza y desarrollo de los sabores."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modCar/sco16d.jpg",
+              "ancho": 250
             }
           ]
         },
@@ -983,13 +923,14 @@
       "contenido": [
         {
           "clase": "texto",
+          "subclase": "recuadro",
           "animacion": "ratateInUpRight",
           "texto": "El almacenamiento de las carnes crudas, ya sea en el matadero, en la industria o en la carnicería, debe hacerse siempre en <b>perfectas condiciones de higiene</b> y, por supuesto, sin romper en ningún momento la <b>cadena de frío</b>."
         },
         {
           "clase": "lista",
+          "subclase": "recuadro",
           "animacion": "flipInX",
-          "subclase": "numeros",
           "titulo": "Deben ser de aplicación las siguientes <b>pautas de almacenamiento</b>:",
           "contenido": [
             {
@@ -1144,8 +1085,8 @@
               "texto": "<ul><li>Contaminación <b>química</b> por almacenar productos químicos (por ejemplo de higiene y desinfección) junto a la carne.</li><li>Contaminación debida a condiciones de <b>mantenimiento</b> (óxidos, pinturas, sistemas de iluminación sin protección…), de <b>control de plagas</b> (roedores, insectos)  o de higiene inadecuadas.</li><li>Contaminación <b>cruzada</b> de los alimentos:<ul><li>Por almacenar carnes crudas con productos curados, semielaborados o terminados.</li><li>Por almacenar juntas carnes de diferente origen (bovino, porcino, aves…)</li><li>Por condiciones deficientes de higiene y desinfección de los locales / equipos o cámaras frigoríficas.</li></ul></ul>"
             },
             {
-              "titulo": "Microorganismos",
-              "texto": "<ul><li><b>Temperaturas</b> inadecuadas para la conservación del producto.</li><li>Exceso de tiempo del producto en almacenamiento que implique rebasar las fechas de consumo.</li></ul>"
+              "titulo": "Multiplicación",
+              "texto": "Si las condiciones de almacenamiento no son adecuadas, puede producirse la multiplicación de los microorganismos presentes en el producto, debido a:<br><ul><li><b>Temperaturas</b> inadecuadas para la conservación del producto.</li><li>Exceso de tiempo del producto en almacenamiento que implique rebasar las fechas de consumo.</li></ul>"
             },
             {
               "titulo": "¿Cómo <b>minimizar o evitar</b> los peligros mencionados?",
@@ -1166,7 +1107,7 @@
         {
           "clase": "texto",
           "animacion": "pulse",
-          "texto": "El <b>transporte</b> posibilita que los alimentos lleguen a su destino desde el lugar donde se producen, pero si no se toman medidas apropiadas de control durante el transporte, los alimentos pueden contaminarse o llegar a su destino en condiciones <b>peligrosas</b> e inapropiadas para su consumo. Para evitar esto, se debe contar con sistemas de transporte adecuados de tal forma que los alimentos se mantengan seguros e idóneos para el consumo hasta el momento de la entrega. Es requisito imprescindible que los vehículos o contenedores de transporte estén diseñados y construidos de forma que permitan una <b>limpieza y desinfección adecuadas</b>, y que mantengan los productos alimenticios a <b>temperatura</b> adecuada y de forma que se pueda controlar dicha temperatura."
+          "texto": "El <b>transporte</b> posibilita que los alimentos lleguen a su destino desde el lugar donde se producen, pero si no se toman medidas apropiadas de control durante el transporte, los alimentos pueden contaminarse o llegar a su destino en condiciones <b>peligrosas</b> e inapropiadas para su consumo. Para evitar esto, se debe contar con sistemas de transporte adecuados de tal forma que los alimentos se mantengan seguros e idóneos para el consumo hasta el momento de la entrega."
         },
         {
           "clase": "listaObjetos",
@@ -1197,6 +1138,11 @@
               ]
             }
           ]
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "Es requisito imprescindible que los vehículos o contenedores de transporte estén diseñados y construidos de forma que permitan una <b>limpieza y desinfección adecuadas</b>, y que mantengan los productos alimenticios a <b>temperatura</b> adecuada y de forma que se pueda controlar dicha temperatura."
         }
       ]
     },
@@ -1214,25 +1160,20 @@
             {
               "clase": "texto",
               "animacion": "swing",
-              "texto": "Las carnes frescas pueden utilizarse como <b>materia prima</b> para industrias procesadoras o directamente para ser vendidas en carnicerías al consumidor. En cualquier caso, las bases de prevención se basan en utilizar sistemas para salvaguardar la seguridad del alimento con el seguimiento de la metodología del análisis de peligros y puntos críticos de control (APPCC) o guías sectoriales adaptadas y con el diseño higiénico de equipos e instalaciones, el control adecuado de tiempo y temperatura durante el procesado, el control de la limpieza y desinfección, así como con las buenas prácticas de manipulación.<br><br>La carne es la materia prima para distintos tipos de industrias cárnicas; así hay industrias elaboradoras que acondicionan la carne para obtener otro tipo de productos cárnicos frescos, productos cocidos, productos curados o conservas y otras, como las carnicerías que se dedican a la venta de productos frescos al cliente."
+              "texto": "Las carnes frescas pueden utilizarse como <b>materia prima</b> para industrias procesadoras o directamente para ser vendidas en carnicerías al consumidor. Las bases de prevención se basan en utilizar la metodología del análisis de peligros y puntos críticos de control (APPCC) o guías sectoriales adaptadas.<br><br>Si el acondicionamiento de la carne va a servir para que ésta sea la materia prima con la que se elaboren otros productos cárnicos, hemos de tener en cuenta que cada producto cárnico tendrá su diagrama de flujo particular, con sus peligros y medidas preventivas específicas para cada etapa."
             },
             {
               "clase": "imagen",
-              "imagen": "img/modCar/scoManip.jpg",
+              "imagen": "img/modCar/scoManip.png",
               "ancho": 600
             }
           ]
         },
         {
-          "clase": "texto",
-          "animacion": "swing",
-          "texto": "Si el acondicionamiento de la carne va a servir para que ésta sea la materia prima con la que se elaboren otros productos cárnicos, hemos de tener en cuenta que cada producto cárnico tendrá su diagrama de flujo particular, con sus peligros y medidas preventivas específicas para cada etapa."
-        },
-        {
           "clase": "lista",
           "animacion": "jello",
           "subclase": "numeros",
-          "titulo": "Sin entrar en mayores detalles, podríamos resumir el diagrama de flujo de las industrias cárnicas que elaboran o transforman productos cárnicos en tres grandes etapas:",
+          "titulo": "Sin entrar en mayores detalles, podríamos resumir el diagrama de flujo de las industrias cárnicas que elaboran o transforman productos cárnicos en las siguientes etapas:",
           "contenido": [
             {
               "punto": "Recepción de materias primas."
@@ -1331,13 +1272,13 @@
           "clase": "tabs",
           "contenido": [
             {
-              "titulo": "Contaminación de las <b>piezas</b> de carne",
+              "titulo": "<b>Contaminación</b> de las piezas de carne",
               "texto": "<ul><li>Contaminación <b>cruzada</b>: hemos visto que la carne tiene cierta contaminación de origen, por lo que toda superficie, equipo, utensilio y/o manos del manipulador que entre en contacto con ella, se verán contaminados. Si posteriormente utilizamos esas superficies, equipos, manos, etc. sin haber sido previamente limpiadas y desinfectadas, servirán como vehículo para <b>contaminar</b> cualquier otra pieza de carne o producto que manipulemos.</li><li>En las operaciones de <b>troceado</b> y <b>picado</b> se exponen zonas del alimento que antes no podían alcanzar los microorganismos.</li><li>Contaminación aportada por <b>limpieza y desinfección</b> deficientes de equipos, utensilios y superficies.</li><li>Contaminación aportada por <b>higiene deficiente</b> del personal manipulador.</li><li>Contaminación a través de <b>insectos, roedores o animales domésticos</b>.</li><li>Contaminación aportada por el <b>agua</b> de consumo (si esta se encuentra contaminada).</li><li>Contaminación <b>química</b> con productos de limpieza, desinfección o restos de los mismos en equipos, superficies, utensilios…</li><li>Contaminación <b>ambiental</b>.</li></ul>",
               "imagen": "img/modCar/scoAcondicionamientop1.jpg",
               "ancho": 300
             },
             {
-              "titulo": "Multiplicación de los <b>microorganismos</b> presentes en las piezas de carne",
+              "titulo": "<b>Multiplicación</b> de los microorganismos presentes en las piezas de carne",
               "texto": "<ul><li><b>Tiempo</b> excesivo durante el acondicionamiento de la carne.</li><li>Prácticas incorrectas de <b>elaboración</b>:</li><ul><li>Dejar <b>descongelar una parte</b> de la pieza de carne que es la que se va a utilizar y volver a congelar la parte que no utilizaremos.</li><li>Descongelación de la pieza de carne realizada de manera <b>incorrecta</b></li><li>Mantener piezas de carne innecesariamente fuera de las <b>cámaras  de frío</b></li></ul></ul>",
               "imagen": "img/modCar/scoAcondicionamientop2.jpg",
               "ancho": 300
@@ -1390,25 +1331,13 @@
           "clase": "texto",
           "subclase": "recuadro",
           "animacion": "flash",
-          "texto": "Mantener la carne a temperaturas de frío, conservarla en cámara frigorífica y exponer únicamente las cantidad necesaria, utilizando vitrinas refrigeradas para su exposición y a la temperatura requerida según su naturaleza."
+          "texto": "<ul><li>Mantener la carne a temperaturas de frío, conservarla en cámara frigorífica y exponer únicamente las cantidad necesaria, utilizando vitrinas refrigeradas para su exposición y a la temperatura requerida según su naturaleza.<li>Evitar la incidencia de luz solar sobre todo tipo de productos, usando una iluminación adecuada que no altere el color de las materias primas y evitando la exposición directa de carne a luz intensa, por problemas de oxidación de grasas."
         },
         {
           "clase": "texto",
           "subclase": "recuadro",
           "animacion": "flash",
-          "texto": "Evitar la incidencia de luz solar sobre todo tipo de productos, usando una iluminación adecuada que no altere el color de las materias primas y evitando la exposición directa de carne a luz intensa, por problemas de oxidación de grasas."
-        },
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "animacion": "flash",
-          "texto": "No sobrecargar las vitrinas para no aumentar la temperatura. Las piezas deben colocarse permitiendo la circulación de aire frío entre ellas."
-        },
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "animacion": "flash",
-          "texto": "Clasificar y ordenar mercancías según origen (vacuno, porcino, ave, ovino, productos semielaborados, elaborados…), indicando en etiquetas los datos obligatorios. Aunque no aconsejables, si se usan adornos deberán estar limpios y desinfectados, evitando la exposición sobre vegetales y hortalizas crudas."
+          "texto": "<li>No sobrecargar las vitrinas para no aumentar la temperatura. Las piezas deben colocarse permitiendo la circulación de aire frío entre ellas.<li>Clasificar y ordenar mercancías según origen (vacuno, porcino, ave, ovino, productos semielaborados, elaborados…), indicando en etiquetas los datos obligatorios. Aunque no aconsejables, si se usan adornos deberán estar limpios y desinfectados, evitando la exposición sobre vegetales y hortalizas crudas.</ul>"
         }
       ]
     },
@@ -1417,70 +1346,21 @@
       "fondo": "img/modCar/scoExposicion2fondo.jpg",
       "contenido": [
         {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "animacion": "flash",
-          "texto": "No se pincharán los portaprecios directamente sobre la mercancía."
-        },
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "animacion": "flash",
-          "texto": "La carne picada no envasada debe comercializarse en el día y no admite adición de aditivo alguno."
-        },
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "animacion": "flash",
-          "texto": "Los preparados cárnicos se presentarán en expositores independientes o debidamente separados de los otros productos."
-        },
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "animacion": "flash",
-          "texto": "Los productos sin envasar que no requieran frío para su conservación deberán exponerse igualmente protegidos y aislados."
-        },
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "animacion": "flash",
-          "texto": "Se debe evitar una manipulación excesiva del producto. Además se evitará el contacto o manipulación de los productos por parte del público, salvo conservas o productos envasados."
-        }
-      ]
-    },
-    {
-      "titulo": "Exposición III",
-      "fondo": "img/modCar/scoExposicion3fondo.jpg",
-      "contenido": [
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "animacion": "flash",
-          "texto": "Los residuos (vísceras, huesos, tendones, grasas…) deben ser convenientemente eliminados."
-        },
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "animacion": "flash",
-          "texto": "Todas las superficies de manipulación y utensilios deben mantenerse en buen estado y en estado correcto de limpieza y desinfección."
-        },
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "animacion": "flash",
-          "texto": "Las herramientas de corte deben estar bien afiladas y limpiarse a menudo, y no se deben usar utensilios comunes para la preparación de carnes de distinto origen (especialmente carne de aves)."
-        },
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "animacion": "flash",
-          "texto": "Los materiales en contacto con el alimento (papel, bandejas, etc.) deben ser aptos para productos alimentarios."
-        },
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "animacion": "flash",
-          "texto": "Independientemente del guante de malla protector, si se utilizan guantes, es recomendable que no sean de látex, ya que este material puede pasar a los alimentos y causar reacciones alérgicas en el consumidor."
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "animacion": "flash",
+              "texto": "<ul><li>No se pincharán los portaprecios directamente sobre la mercancía.</li><li>La carne picada no envasada debe comercializarse en el día y no admite adición de aditivo alguno.</li><li>Los preparados cárnicos se presentarán en expositores independientes o debidamente separados de los otros productos.</li><li>Los productos sin envasar que no requieran frío para su conservación deberán exponerse igualmente protegidos y aislados.</li><li>Se debe evitar una manipulación excesiva del producto. Además se evitará el contacto o manipulación de los productos por parte del público, salvo conservas o productos envasados.</li>"
+            },
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "animacion": "flash",
+              "texto": "<li>Los residuos (vísceras, huesos, tendones, grasas…) deben ser convenientemente eliminados.</li><li>Todas las superficies de manipulación y utensilios deben mantenerse en buen estado y en estado correcto de limpieza y desinfección.</li><li>Las herramientas de corte deben estar bien afiladas y limpiarse a menudo, y no se deben usar utensilios comunes para la preparación de carnes de distinto origen (especialmente carne de aves).</li><li>Los materiales en contacto con el alimento (papel, bandejas, etc.) deben ser aptos para productos alimentarios.</li><li>Independientemente del guante de malla protector, si se utilizan guantes, es recomendable que no sean de látex, ya que este material puede pasar a los alimentos y causar reacciones alérgicas en el consumidor.</li></ul>"
+            }
+          ]
         }
       ]
     },
@@ -1509,7 +1389,7 @@
             },
             {
               "titulo": "Especial atención",
-              "texto": "Habrá que tener especial control en aquella etapa (o etapas) en las cuales se pueda eliminar o reducir a un nivel aceptable la contaminación anterior del alimento, controlando muy especialmente aquellos parámetros que aseguren dicha eliminación (por ejemplo la temperatura alcanzada y el tiempo que se mantiene dicha temperatura en aquellos productos que sufren un tratamiento térmico).",
+              "texto": "<br>Habrá que tener especial control en aquella etapa (o etapas) en las cuales se pueda eliminar o reducir a un nivel aceptable la contaminación anterior del alimento, controlando muy especialmente aquellos parámetros que aseguren dicha eliminación (por ejemplo la temperatura alcanzada y el tiempo que se mantiene dicha temperatura en aquellos productos que sufren un tratamiento térmico).",
               "imagen": "img/modCar/scoElaboracionp3.jpg",
               "ancho": 300
             }

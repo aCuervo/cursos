@@ -1,0 +1,444 @@
+﻿{
+  "modulo": "Módulo IV: Anexo",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "GUÍA PARA LA ELABORACIÓN DE DOCUMENTOS DE PROTECCION CONTRA EXPLOSIONES",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Este anexo es un resumen de la 'Guía para la elaboración de documentos de protección contra explosiones' elaborada por la Confederación de Empresarios de Navarra, ya que consideramos esta guía muy completa.<br>Podemos encontrarla en su totalidad en <a href='http://www.navarra.es/NR/rdonlyres/CE41E39E-E35D-45C6-9C65-21230A5655BF/174388/GuiaDocsProteccionContraExplosiones.pdf' target='_blank' style='color:#7986cb'>este enlace</a><br><br>Con el fin de dar respuesta a todos los puntos anteriores se puede estructurar el Documento de Protección Contra Explosiones de la siguiente manera:"
+        },
+        {
+          "clase": "lista",
+          "subclase": "numeros",
+          "contenido": [
+            {
+              "punto": "Introducción."
+            },
+            {
+              "punto": "Descripción del lugar de trabajo y de los sectores de actividad."
+            },
+            {
+              "punto": "Descripción de los procesos y/o actividades y diagrama de proceso."
+            },
+            {
+              "punto": "Descripción de las substancias utilizadas y sus parámetros de explosividad."
+            },
+            {
+              "punto": "Presentación de los resultados de la evaluación de riesgos."
+            },
+            {
+              "punto": "Medidas de protección adoptadas o a adoptar para la protección contra explosiones (técnicas y organizativas)."
+            },
+            {
+              "punto": "Planificación, realización y coordinación de las medidas de protección contra explosiones. "
+            },
+            {
+              "punto": "ANEXO."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "INTRODUCCIÓN",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<b>Identificación de la empresa</b> (razón social)<br>En este apartado deben aparecer los datos de identificación de la empresa propietaria del Documento de Protección Contra Explosiones:"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Denominación de la actividad."
+            },
+            {
+              "punto": "Razón social."
+            },
+            {
+              "punto": "Situación de la empresa: dirección, localidad, provincia, Código Postal"
+            },
+            {
+              "punto": "Datos de contacto: teléfono, fax, correo electrónico"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Objeto del DPCE</b><br>En este apartado se indicará el objetivo del Documento y su justificación.<br>Se deberá de justificar la realización de este Documento según el Art. 8 del Real Decreto 681/2003, de 12 de junio, sobre la protección de la salud y la seguridad de los trabajadores expuestos a los riesgos derivados de atmósferas explosivas en el lugar de trabajo, así como establecer como objetivo las disposiciones mínimas para la protección de la salud y seguridad de los trabajadores que pudieran verse expuestos a riesgos derivados de atmósferas explosivas en el lugar de trabajo.<br><br>Ejemplo:<br><br>El objeto del presente DOPEX es dar cumplimiento al Artículo 8 del R.D. 681/2003, en aquellas instalaciones susceptibles de tener riesgo de formación de atmósferas explosivas.<br>Es obligación del empresario que se realice y mantenga actualizado un Documento de protección contra explosiones, en el cual:<br>"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Se determinan y evalúan los riesgos de explosión derivada de una atmósfera explosiva, para ello se determinan:",
+              "contenido": [
+                {
+                  "punto": "La probabilidad de formación y la duración de atmósferas explosivas."
+                },
+                {
+                  "punto": "La probabilidad de la presencia y activación de fuentes de ignición."
+                },
+                {
+                  "punto": "Las instalaciones, las sustancias empleadas y los procesos industriales."
+                },
+                {
+                  "punto": "Las proporciones de los efectos previsibles."
+                }
+              ]
+            },
+            {
+              "punto": "Se determinan las medidas adoptadas para garantizar el cumplimiento de los objetivos del R.D. 681/2003."
+            },
+            {
+              "punto": "Se clasifican las áreas en las que pueden formarse atmósferas explosivas en zonas, de conformidad con el Anexo I del R.D 681/2003."
+            },
+            {
+              "punto": "Se definen las áreas en las que será de aplicación los requisitos mínimos establecidos en el Anexo II del R.D. 681/2003."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Este documento presenta las medidas de protección adoptadas para prevenir, mitigar y proteger contra las explosiones, incidiendo sobre los anteriores factores para minimizar su posible coexistencia.<br>Las medidas adoptadas siempre darán prioridad a evitar la formación de atmósferas explosivas. Si ello no fuera posible, se adoptarán medidas adicionales encaminadas a:"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Evitar la ignición de las atmósferas explosivas."
+            },
+            {
+              "punto": "Atenuar los efectos de una eventual explosión."
+            },
+            {
+              "punto": "Aplicar sistemas de control de procesos."
+            },
+            {
+              "punto": "Implantar sistemas organizativos para la protección contra explosiones."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Referencias legales y normativa asociada</b><br>Las normativas de referencia y aplicación en la elaboración de Documentos de Protección Contra Explosiones, son al menos:"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales."
+            },
+            {
+              "punto": "R.D. 681/2003 sobre la protección de la salud y la seguridad de los trabajadores expuestos a los riesgos derivados de atmósferas explosivas en el lugar de trabajo."
+            },
+            {
+              "punto": "R.D. 400/1999 relativa a Aparatos y sistemas de protección para uso en atmósferas potencialmente explosivas."
+            },
+            {
+              "punto": "ITC BT 29, prescripciones particulares para las instalaciones eléctricas de los locales con riesgo de incendio o explosión."
+            },
+            {
+              "punto": "Guía técnica para la evaluación y prevención de los riesgos derivados de atmósferas explosivas en el lugar de trabajo. R.D. 681/2006, de 12 de junio."
+            },
+            {
+              "punto": "UNE-EN-60079-10:2004 Material eléctrico para atmósferas de gas explosivas. Parte 10. Clasificación de emplazamientos peligrosos."
+            },
+            {
+              "punto": "UNE 202007:2006 IN Guía de aplicación de la Norma UNE-EN 60079-10. Material eléctrico para atmósferas de gas explosivas. Clasificación de emplazamientos peligrosos."
+            },
+            {
+              "punto": "UNE EN 1127-1:2008 Atmósferas explosivas. Prevención y protección contra la explosión. Parte 1: Conceptos básicos y metodología."
+            },
+            {
+              "punto": "UNE-EN 61241-0 Material eléctrico para uso en presencia de polvo inflamable. Parte 0: Requisitos generales. (IEC 61241-0:2004, modificada+Corrigendum 1:2005)."
+            },
+            {
+              "punto": "UNE-EN 61241-10 Material eléctrico para uso en presencia de polvo combustible. Parte 10: Clasificación de emplazamientos en donde están o pueden estar presentes polvos combustibles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "DESCRIPCIÓN DE LA EMPRESA Y DE LOS SECTORES DE ACTIVIDAD",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "<b>DATOS DE LA EMPRESA</b><br>En este apartado debe aparecer:",
+          "contenido": [
+            {
+              "punto": "Breve descripción de la actividad de la empresa."
+            },
+            {
+              "punto": "Ubicación exacta (plano de situación) y dirección postal."
+            },
+            {
+              "punto": "Datos del responsable principal: Nombre y apellidos, NIF y los datos necesarios para su localización."
+            },
+            {
+              "punto": "Número de trabajadores y organigrama de la empresa."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>CARACTERÍSTICAS CONSTRUCTIVAS Y GEOGRÁFICAS</b><br>En este apartado se deben incluir:",
+          "contenido": [
+            {
+              "punto": "Descripción de las instalaciones incluyendo la superficie de la parcela, número y superficie de las construcciones, tipo de construcción."
+            },
+            {
+              "punto": "Plano de medios de evacuación en el que se incluyen salidas de emergencia y vías de evacuación."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "DESCRIPCIÓN DE LOS PROCESOS Y/O ACTIVIDADES Y DIAGRAMA DE PROCESO",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "En este apartado deben aparecer los siguientes datos:",
+          "contenido": [
+            {
+              "punto": "Descripción de las instalaciones."
+            },
+            {
+              "punto": "Diagrama de flujo."
+            },
+            {
+              "punto": "Esquema de ubicación de instalaciones."
+            },
+            {
+              "punto": "Equipos característicos."
+            },
+            {
+              "punto": "Descripción del proceso industrial."
+            },
+            {
+              "punto": "Descripción de las etapas de proceso (arranque, parada)."
+            },
+            {
+              "punto": "Datos de diseño y funcionamiento (temperatura, presión, volumen, frecuencia de giro, rendimiento, carburante,…)."
+            },
+            {
+              "punto": "Trabajos de limpieza: tipo (aspiración, barrido…), envergadura (total o parcial) y frecuencia (diaria, semanal…)."
+            },
+            {
+              "punto": "Datos sobre el sistema de ventilación del local (natural y/o forzada)."
+            },
+            {
+              "punto": "Posibles anomalías."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "DESCRIPCIÓN DE LAS SUSTANCIAS UTILIZADAS Y SUS PARÁMETROS DE EXPLOSIVIDAD",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En este apartado se debe realizar un análisis para determinar las distintas sustancias que originan o pueden originar mediante reacciones químicas previsibles, gases, nieblas, vapores o polvos inflamables, una atmósfera explosiva potencialmente peligrosa (y por tanto a una clasificación de zonas y posterior evaluación de riesgos).<br>Estas sustancias pueden ser tanto materias primas como productos intermedios, finales o subproductos anexos al proceso productivo."
+        },
+        {
+          "clase": "acordeon",
+          "contenido": [
+            {
+              "titulo": "¿Cómo identificar qué sustancias pueden originar una atmósfera explosiva potencialmente peligrosa?",
+              "texto": "Las sustancias susceptibles de formar una atmósfera explosiva potencialmente peligrosa son sustancias inflamables y/o combustibles.<br>Para que se pueda formar una atmósfera explosiva por gases, vapores o nieblas, es preciso que la sustancia potencialmente peligrosa se encuentre por encima de su punto de inflamabilidad. En el caso de polvo, por encima de la temperatura mínima de inflamación en nube (TMIn) o la temperatura mínima de inflamación en capa (TMIc)."
+            },
+            {
+              "titulo": "¿Cómo puedo identificar sustancias inflamables y/o combustibles?",
+              "texto": "Se puede identificar las sustancias inflamables a través de:<br><ul><li>Fichas de Datos de Seguridad (FDS) que debe entregar el proveedor o fabricante de la sustancia.</li><li>Bases de datos de reconocido prestigio.</li></ul>"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Una vez identificadas las sustancias que pueden generar una atmósfera explosiva potencialmente peligrosa se cumplimentará la siguiente tabla con las características de los gases o vapores identificados (Norma UNE 60079-10:2004 Lista y características de sustancias inflamables)."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/tablacumplimentar.png"
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": ""
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
