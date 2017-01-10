@@ -549,12 +549,12 @@ footer {
     border: 1px solid transparent; /*Fix para que los márgenes no colapsen */
 }
 
-    .lista .
+    .lista,
     .lista.recuadro {
         padding: 1em;
     }
 
-    .lista li.sinPunto /*, .lista li .imagen*/ {
+    .lista li.sinPunto , .lista li .imagen {
         list-style-type: none;
     }
 

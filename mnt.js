@@ -566,6 +566,9 @@ function cargarObjeto(div, elemento) {
 }
 // Cargar un texto en un párrafo.
 function cargarTexto(div, elemento) {
+    if (elemento.opacidad) {
+        div.style.backgroundColor = "rgba(255, 255, 255," + elemento.opacidad + ")";
+    }
     if (elemento.texto) {
         //F. Pongo un ancho para los textos similar al del acordeón
         if (elemento.ancho) {

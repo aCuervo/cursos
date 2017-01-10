@@ -309,6 +309,7 @@
         {
           "clase": "texto",
           "subclase": "recuadro",
+          "opacidad": 0.7,
           "ancho": "70",
           "animacion": "fadeInRight",
           "texto": "Existe actualmente una preocupación cada vez mayor que no se limita a la <b>calidad</b> y la <b>seguridad</b> alimentaria de la carne como alimento, sino que engloba todas las manipulaciones y procesos desde el nacimiento del animal en la explotación ganadera hasta el instante en que llega a la persona consumidora, procesos en los que juega un papel muy importante el <b>sistema de cría</b> y las condiciones higiénicas, sanitarias y de <b>bienestar animal</b> presentes en el proceso productivo."
@@ -620,9 +621,10 @@
                 {
                   "punto": "Contaminación durante el sacrificio y faenado."
                 },
-
                 {
-                  "imagen": "img/modCar/vaquita.svg"
+                  "clase": "imagen",
+                  "imagen": "img/modCar/vaquita.svg",
+                  "ancho": 200
                 }
               ]
             },
@@ -642,7 +644,9 @@
                   "punto": "Peligros asociados a manipulaciones posteriores (<b>acondicionamiento</b> de carnes o <b>elaboración</b> de productos cárnicos en industrias cárnicas o en carnicerías)."
                 },
                 {
-                  "imagen": "img/modCar/establo.svg"
+                  "clase": "imagen",
+                  "imagen": "img/modCar/establo.svg",
+                  "ancho": 200
                 }
               ]
             }
