@@ -435,6 +435,377 @@
       ]
     },
     {
+      "titulo": "CLASIFICACIÓN DE EMPLAZAMIENTOS PELIGROSOS",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Se considera que todas las sustancias inflamables y/o combustibles son capaces de formar atmósferas explosivas a no ser que el análisis de sus propiedades físicas y químicas demuestre lo contrario.<br><br><b>¿Cuándo se puede formar una atmósfera explosiva?</b><br><br>Para que se forme una atmósfera explosiva potencialmente peligrosa es preciso que la sustancia inflamable y/o combustible, en forma de gas, vapor, niebla o polvo se mezcle con el aire.<br><br>Esto ocurre cuando la sustancia peligrosa se libera al ambiente de trabajo bien por una fuga o bien en el interior de almacenamientos o equipos que se encuentran en condiciones atmosféricas y con aire en su interior.<br><br><b>¿Dónde se puede formar una atmósfera explosiva potencialmente peligrosa?</b><br><br>Se puede formar una atmósfera explosiva potencialmente peligrosa en un emplazamiento peligroso.<br>Emplazamiento peligroso es un emplazamiento en el que hay o puede haber presente una atmósfera explosiva por presencia de gas o polvo, en cantidad suficiente como para requerir precauciones especiales en la construcción, instalación y utilización de aparatos.<br>Fuente de escape (FE) es un punto o una parte de la instalación desde la cual puede ser emitida a la atmósfera una sustancia inflamable y/o combustible de tal forma que se pueda originar una atmósfera explosiva.<br>En el caso de polvo es preciso tener en cuenta que, una fuente pequeña o difusa con el tiempo es capaz de producir una capa de polvo potencialmente peligrosa.<br>Normalmente las fugas se presentan en actividades operativas, de carga, de transporte y de mantenimiento.<br>Es importante considerar como posibles fuentes de escape las aberturas entre emplazamientos.<br>A continuación se muestra una tabla con los diferentes tipos de escape en función del fluido emitido y la velocidad a la que se produce el escape:"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/modalidadEscape.png"
+        },
+        {
+          "clase": "texto",
+          "texto": "Si un equipo no contiene sustancias inflamables ni combustibles, no origina a su alrededor zona alguna. Lo mismo ocurre si al no existir fuentes de escape la sustancia inflamable y/o combustible no puede fugar a la atmósfera.<br>Las situaciones catastróficas (rotura de una tubería soldada o de las paredes de un depósito) quedan fuera del ámbito de aplicación del Documento de Protección Contra Explosiones."
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>¿Cómo se pueden clasificar los escapes?</b><br><br>La Norma UNE 60079-10 establece tres grados de escape: continuo, primario y secundario, en relación con la probabilidad que tenga de producirse y por tanto de presencia de atmósfera explosiva de volumen no despreciable alrededor de la Fuente de Escape.",
+          "contenido": [
+            {
+              "punto": "<b>Grado de escape continuo:</b><br>Escape continuo o que se produce durante largos periodos. "
+            },
+            {
+              "punto": "<b>Grado de escape primario:</b><br>Escape que se produce periódicamente u ocasionalmente durante el funcionamiento normal."
+            },
+            {
+              "punto": "<b>Grado de escape secundario:</b><br>Escape que no está previsto durante el funcionamiento normal y que si se produce es probable que ocurra infrecuentemente y durante breves periodos."
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/gradosEscape.png"
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>IDENTIFICACIÓN DE EMPLAZAMIENTOS PELIGROSOS</b><br>Se debe realizar un análisis exhaustivo de de cada parte del proceso productivo en los que intervienen sustancias inflamables y/o combustibles que puedan formar atmósferas explosivas potencialmente peligrosas, así como de las distintas situaciones (puesta en marcha / paro funcionamiento normal, operaciones de limpieza, almacenamiento…) y definir las posibles fuentes de escape en cada situación.<br><b>Clasificación de emplazamientos peligrosos para GASES</b><br>Una vez identificados los emplazamientos peligrosos se propone como modelo  la siguiente lista de fuentes de escape (Norma UNE 60079-10:2004). Se recomienda elaborar una tabla independiente por cada zona o proceso objeto de estudio."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/tablaClasificacionGases.png"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Nº de la fuente de escape identificada."
+            },
+            {
+              "punto": "Descripción de la fuente de escape."
+            },
+            {
+              "punto": "Localización de la fuente de escape."
+            },
+            {
+              "punto": "Grado de escape. Continuo, primario o secundario."
+            },
+            {
+              "punto": "Referencia. Indica el número de la sustancia identificada en la tabla elaborada anteriormente de 'identificación de las características de explosividad de las sustancias'."
+            },
+            {
+              "punto": "Temperatura y presión de operación. La clasificación de emplazamientos con peligro de explosión está condicionada a las características ambientales (temperatura y presión); se necesita por tanto identificar, donde proceda, las diferentes condiciones ambientales que puedan estar presentes en el lugar objeto de estudio, entendiendo por ambiente a una parte del espacio en la cual existen condiciones de ventilación unívocamente definibles."
+            },
+            {
+              "punto": "Estado físico en el que se encuentra la sustancia:",
+              "contenido": [
+                {
+                  "punto": "G: Gas."
+                },
+                {
+                  "punto": "L: Líquido."
+                },
+                {
+                  "punto": "GL: Gas licuado."
+                },
+                {
+                  "punto": "S: Sólido."
+                }
+              ]
+            },
+            {
+              "punto": "Ventilación – Tipo: La ventilación es el movimiento del aire y su renovación por aire fresco originado por el viento, por el gradiente de temperatura (N: Natural) o por medios artificiales (A: Artificial).",
+              "contenido": [
+                {
+                  "punto": "Ventilación – Grado: El grado de ventilación es indicativo de la cantidad de aire de ventilación que accede a la Fuente de Escape en relación con la cantidad de sustancia inflamable emitida al ambiente; esta relación puede ser tal que atenúe en gran medida la presencia de atmósfera explosiva y reduzca o no el tiempo de persistencia de la misma al cesar el escape. Se clasifica en 3 niveles:",
+                  "contenido": [
+                    {
+                      "punto": "Ventilación Alta (VA): Capaz de reducir casi instantáneamente la concentración en la fuente de escape por debajo del Límite Inferior de Explosividad (LIE)."
+                    },
+                    {
+                      "punto": "Ventilación Media (VM): Capaz de controlar la dispersión, manteniendo una situación estable, con una concentración inferior al Límite Inferior de Explosividad (LIE) más allá de la zona confinada, mientras el escape se está produciendo. Cuando el escape cesa, la atmósfera explosiva no persiste durante mucho tiempo."
+                    },
+                    {
+                      "punto": "Ventilación Baja (VB): No puede controlar la concentración durante el escape o cuando éste ha cesado es incapaz de evitar la permanencia de la atmósfera explosiva durante bastante tiempo."
+                    }
+                  ]
+                },
+                {
+                  "punto": "Ventilación – Disponibilidad: Expresa el nivel de disponibilidad del grado de ventilación considerado. Se clasifica en 3 niveles:",
+                  "contenido": [
+                    {
+                      "punto": "Muy Buena: La ventilación se mantiene de forma prácticamente continua. Una ventilación muy buena requiere que en caso de avería arranque automáticamente un sistema alternativo de ventilación o bien que se adopten medidas para evitar el escape (parada automática del proceso)."
+                    },
+                    {
+                      "punto": "Buena: La ventilación se mantiene en operación normal de forma prácticamente continua, pudiendo presentarse cortes poco frecuentes y de corta duración. "
+                    },
+                    {
+                      "punto": "Mediocre: La ventilación no puede catalogarse de disponibilidad Muy Buena o Buena."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "punto": "Tipo de zona: Los emplazamientos peligrosos se clasifican en zonas en función de la frecuencia y duración de la atmósfera explosiva.",
+              "contenido": [
+                {
+                  "imagen": "img/mod04/clasificacionZonas.png"
+                },
+                {
+                  "imagen": "img/mod04/influenciaVentilacion.png"
+                }
+              ]
+            },
+            {
+              "punto": "Extensión de la zona: Se puede determinar la extensión de la zona clasificada de 3 maneras diferentes:",
+              "contenido": [
+                {
+                  "punto": "De forma experimental (Guía técnica para la evaluación y prevención de los riesgos derivados de atmósferas explosivas en el lugar de trabajo. R.D. 681/2006, de 12 de junio)<br>Consiste en realizar mediciones de la concentración de la sustancia inflamable potencialmente peligrosa en el ambiente.<br>Solamente es útil en zonas 1 originadas por operaciones concretas que se puedan reproducir, en este caso la extensión de la zona se consideraría desde la Fuente de Escape hasta que el resultado de las mediciones quede como criterio de seguridad por debajo del 25% del Límite Inferior de Explosividad de la sustancia en estudio (UNE 1127-1).<br>En el caso de zonas 0 que habitualmente están confinadas se clasifica todo el interior del equipo por lo que no es preciso medir y en el caso de zonas 2, no es posible medir ya que se trata de situaciones que no es probable que se den en condiciones normales con lo que no es probable se trate de condiciones reproducibles."
+                },
+                {
+                  "punto": "Mediante la aplicación de normativa específica.<br>Bien mediante legislación de referencia o bien mediante normas de reconocido prestigio. Por ejemplo:",
+                  "contenido": [
+                    {
+                      "punto": "Clasificación de zonas en estaciones de servicio según: MI-IP-04 'Instalaciones fijas para distribución al por menor de carburantes y combustibles petrolíferos en instalaciones de venta al público'"
+                    },
+                    {
+                      "punto": "Clasificación zonas en cabinas de pintura según: UNE-EN 13355:2005 'Instalaciones de recubrimiento. Cabinas combinadas. Requisitos de seguridad.'"
+                    },
+                    {
+                      "punto": "Clasificación de zonas en máquinas de limpieza que emplean líquidos de limpieza inflamables según: UNE-EN 12921-3:2005 'Máquinas para la limpieza superficial y pretratamiento de piezas industriales que utilizan líquidos o vapores. Parte 3: Seguridad de las máquinas que utilizan líquidos de limpieza inflamables.'"
+                    }
+                  ]
+                },
+                {
+                  "punto": "<b>Mediante cálculos teóricos.</b><br>En la Norma UNE-EN-60079-10:2004 Material eléctrico para atmósferas de gas explosivas. Parte 10. Clasificación de emplazamientos peligrosos y su Guía de aplicación UNE 202007:2006 IN, se describen los cálculos teóricos necesarios para determinar la extensión de las zonas clasificadas y el grado de ventilación.<br>Los parámetros que se utilizan para determinar la extensión de zonas son los siguientes:<br>",
+                  "contenido": [
+                    {
+                      "punto": "Qvmin (caudal mínimo teórico de ventilación necesario para diluir un escape dado de una sustancia inflamable hasta una concentración por debajo del LIE) que es función de la máxima tasa de escape para el gas, el LIE (Límite Inferior de Explosividad), la Temperatura ambiente y un factor de corrección de seguridad en función del grado de escape."
+                    },
+                    {
+                      "punto": "Vz el volumen peligroso teóricamente calculado a partir del parámetro anterior y las características de ventilación del emplazamiento (factor de ventilación y renovaciones/hora del emplazamiento)."
+                    },
+                    {
+                      "punto": "Tiempo de permanencia de la atmósfera explosiva potencialmente peligrosa, tp Para definir la forma de la zona clasificada se emplean fórmulas de mecánica de fluidos que vienen recogidas en dicha guía."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "punto": "Referencia. Indica el número del emplazamiento peligroso clasificado."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Clasificación de emplazamientos peligrosos para POLVOS</b>"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/clasificacionZonasPolvos.png"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Nº de la fuente de escape identificada."
+            },
+            {
+              "punto": "Descripción de la fuente de escape."
+            },
+            {
+              "punto": "Localización de la fuente de escape."
+            },
+            {
+              "punto": "Grado de escape. Continuo, primario o secundario.",
+              "imagen": "img/mod04/gradosEscapePolvos.png"
+            },
+            {
+              "punto": "Referencia. Indica el número de la sustancia identificada en la tabla elaborada en el capítulo anterior de 'identificación de las características de explosividad de las sustancias.'"
+            },
+            {
+              "punto": "Aspiración - ventilación: La ventilación es el movimiento del aire y su renovación por aire fresco originado por el viento. La aspiración (ventilación para la extracción de polvo combustible) supone la eliminación de polvo del ambiente puede ser localizada o general de la sala."
+            },
+            {
+              "punto": "Tipo de zona: Los emplazamientos peligrosos se clasifican en zonas en función de la frecuencia y duración de la atmósfera explosiva.",
+              "imagen": "img/mod04/clasificacionZonasPolvo.png",
+              "punto": "Normalmente la presencia continua de una nube de polvo genera una zona 20, un escape de grado primario genera una zona 21 y, un escape de grado secundario genera una zona 22. La presencia y duración de acumulaciones de polvo puede modificar la probabilidad de formación de atmósferas explosivas en función de las operaciones de mantenimiento y limpieza. Se pueden considerar tres niveles de actuación:<br>",
+              "imagen": "img/mod04/mantenimiento.png"
+            },
+            {
+              "punto": "Extensión de la zona: Se define como la distancia, en todas direcciones, desde el borde de una fuente de escape de polvo hasta el punto en donde el riesgo asociado a esta zona está considerado como inexistente.<br>Se puede determinar la extensión de la zona clasificada de 3 maneras diferentes:",
+              "contenido": [
+                {
+                  "punto": "De forma experimental, por observación del volumen de la nube de polvo (Guía técnica para la evaluación y prevención de los riesgos derivados de atmósferas explosivas en el lugar de trabajo. R.D. 681/2006, de 12 de junio). La extensión de la zona clasificada se determina por observación del volumen de la nube pulverulenta, teniendo en cuenta que la extensión de la zona clasificada abarcará también toda el área que ocupen las capas de polvo depositadas. Este método, al igual que ocurre en atmósferas explosivas generadas por gases o vapores, solamente es aplicable en caso de que las nubes y/o capas de polvo estén presentes siempre o sea reproducible el posible escape (escapes continuos o primarios)."
+                },
+                {
+                  "punto": "Según la Norma UNE 61241-10. La extensión de las zonas, aunque depende también de parámetros relativos al polvo (cantidad, caudal, granulometría, contenido en humedad…), debería ser de pequeña extensión. Es suficiente considerar una distancia de 1m alrededor de la fuente de escape."
+                },
+                {
+                  "punto": "Mediante cálculos teóricos (CEI 31-56 Costruzioni per atmosfere esplosive per la presenza di polveri combustibili. guida all´applicazione della norma CEI en 61241-10 (CEI 31-66) 'classificazione delle aree dove sono o possono essere presenti polveri esplosive').<br>Los parámetros que utiliza para determinar la extensión de zonas son los siguientes:",
+                  "contenido": [
+                    {
+                      "punto": "Presión interna del sistema de contención del polvo."
+                    },
+                    {
+                      "punto": "Altura de la fuente de emisión."
+                    },
+                    {
+                      "punto": "Caudal de emisión."
+                    },
+                    {
+                      "punto": "Humedad del polvo combustible."
+                    },
+                    {
+                      "punto": "Tipo de ambiente (cerrado o abierto)."
+                    },
+                    {
+                      "punto": "Velocidad de sedimentación del polvo."
+                    },
+                    {
+                      "punto": "Velocidad del aire."
+                    },
+                    {
+                      "punto": "Tamaño medio de las partículas."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "punto": "Referencia. Indica el número del emplazamiento peligroso clasificado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "IDENTIFICACIÓN Y ANÁLISIS DE TODAS LAS POSIBLES FUENTES DE IGNICIÓN",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Para que se produzca una explosión es preciso que coincidan una atmósfera explosiva potencialmente peligrosa (caracterizadas en el apartado anterior) y una fuente de ignición efectiva.<br>Se debe comparar la capacidad de la fuente de ignición para producir la ignición con las propiedades de ignición de la sustancia inflamable y/o combustible:"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Energía Mínima de Ignición (EMI)."
+            },
+            {
+              "punto": "Temperatura Mínima de Ignición en capa (TMIc)."
+            },
+            {
+              "punto": "Temperatura Mínima de Ignición en nube (TMIn)."
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/tipoFuenteIgnicion.png"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/condicionesAparicion12.png"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/condicionesAparicion34.png"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/condicionesAparicion56.png"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/condicionesAparicion78.png"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/condicionesAparicion910.png"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/condicionesAparicion1112.png"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/condicionesAparicion13.png"
+        }
+      ]
+    },
+
+    {
+      "titulo": "CRITERIOS ESPECÍFICOS PARA LA EVALUACIÓN DEL MATERIAL ELÉCTRICO / MECÁNICO",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Los equipos eléctricos y no eléctricos que se instalan en lugares donde se puede formar una atmósfera explosiva potencialmente peligrosa, zonas clasificadas, deben cumplir unos requisitos, obtener una certificación y ser marcados conforme a las disposiciones dictadas por el R.D. 400/1996.<br>Los equipos y sistemas de protección para atmósferas explosivas, se clasifican según diferentes criterios. Estas clasificaciones, al ir marcadas sobre los materiales, permiten una indicación más clara al usuario para su empleo seguro."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/marcadoEquipos.png"
+        },
+
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "<b>Marcado de conformidad con el R.D. 400/1996</b>(Aparatos y Sistemas de Protección para Uso en Atmósferas Potencialmente Explosivas)",
+              "contenido": [
+                {
+                  "punto": "<b>Nº Org. Not (XXXX):</b> Número de cuatro dígitos identificativo del organismo notificado de control que intervenga en la fase de control de la fabricación."
+                },
+                {
+                  "punto": "<b>Grupo:</b> Grupo al que pertenece el equipo:",
+                  "contenido": [
+                    {
+                      "punto": "Grupo I: Formado por aquellos destinados a trabajos subterráneos en las minas y en las partes de sus instalaciones de superficie, en las que puede haber peligro debido al grisú y/o polvo combustible."
+                    },
+                    {
+                      "punto": "Grupo II: Compuesto por aquellos destinados al uso en otros lugares en los que puede haber peligro de formación de atmósferas explosivas."
+                    }
+                  ]
+                },
+                {
+                  "punto": "<b>Categoría (1, 2 o 3):</b>Clasificación en función de la probabilidad de que los equipos aporten una fuente de energía que desencadene la explosión:<br>",
+                  "imagen": "img/mod04/equiposGrupo2.png"
+                },
+                {
+                  "punto": "<b>Símbolo de uso (G, D o G/D):</b>",
+                  "contenido": [
+                    {
+                      "punto": "G: Equipos para utilizar en atmósferas explosivas debidas a gases, vapores o nieblas."
+                    },
+                    {
+                      "punto": "D: Equipos para utilizar en atmósferas explosivas debidas a la presencia de polvo."
+                    },
+                    {
+                      "punto": "G/D: Equipos para utilizar en atmósferas explosivas debidas bien a gases, vapores o nieblas o bien, a la presencia de polvo. Esto no garantiza que se puedan emplear en atmósferas híbridas (gases y polvo presentes simultáneamente), lo que requiere una verificación específica."
+                    },
+                    {
+                      "punto": ""
+                    }
+                  ]
+                }
+              ]
+            }
+            {
+              "punto": "marcado no normativo"
+            }
+          ]
+        }
+
+
+      ]
+    },
+
+
+
+    {
       "titulo": "Autoevaluación",
       "contenido": [
         {
