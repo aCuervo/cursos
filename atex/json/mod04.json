@@ -754,7 +754,7 @@
           "clase": "lista",
           "contenido": [
             {
-              "punto": "<b>Marcado de conformidad con el R.D. 400/1996</b>(Aparatos y Sistemas de Protección para Uso en Atmósferas Potencialmente Explosivas)",
+              "punto": "<b>Marcado de conformidad con el R.D. 400/1996</b> (Aparatos y Sistemas de Protección para Uso en Atmósferas Potencialmente Explosivas)",
               "contenido": [
                 {
                   "punto": "<b>Nº Org. Not (XXXX):</b> Número de cuatro dígitos identificativo del organismo notificado de control que intervenga en la fase de control de la fabricación."
@@ -771,7 +771,10 @@
                   ]
                 },
                 {
-                  "punto": "<b>Categoría (1, 2 o 3):</b>Clasificación en función de la probabilidad de que los equipos aporten una fuente de energía que desencadene la explosión:<br>",
+                  "punto": "<b>Categoría (1, 2 o 3):</b>Clasificación en función de la probabilidad de que los equipos aporten una fuente de energía que desencadene la explosión:<br>"
+                },
+                {
+                  "clase": "imagen",
                   "imagen": "img/mod04/equiposGrupo2.png"
                 },
                 {
@@ -785,21 +788,126 @@
                     },
                     {
                       "punto": "G/D: Equipos para utilizar en atmósferas explosivas debidas bien a gases, vapores o nieblas o bien, a la presencia de polvo. Esto no garantiza que se puedan emplear en atmósferas híbridas (gases y polvo presentes simultáneamente), lo que requiere una verificación específica."
-                    },
-                    {
-                      "punto": ""
                     }
                   ]
                 }
               ]
-            }
+            },
             {
-              "punto": "marcado no normativo"
+              "punto": "<b>Marcado normativo, complementario del anterior y orientado a permitir una utilización segura del equipo.</b><br>Se pueden distinguir dos tipos de marcado normativo en función del tipo de equipos (eléctricos o no eléctricos) que se describen a continuación:",
+              "contenido": [
+                {
+                  "punto": "Marcado de equipos eléctricos",
+                  "contenido": [
+                    {
+                      "punto": "Marcado especial de temperatura de servicio: Si la temperatura ambiente prevista no está en el rango comprendido entre -20 ºC y +40 ºC el equipo deberá estar marcado para trabajar en el rango de temperatura correspondiente."
+                    },
+                    {
+                      "punto": "Símbolos asociados al número de certificado:",
+                      "contenido": [
+                        {
+                          "punto": "X o U X: Material certificado sometido a condiciones especiales de fabricación o uso."
+                        },
+                        {
+                          "punto": "U: Material certificado es un componente."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod04/ejemplosMarcado.png"
+                },
+                {
+                  "punto": "División de equipos no eléctricos:"
+                },
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod04/marcadoEquiposNE.png"
+                }
+              ]
             }
           ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>¿Qué equipos puedo emplear en zonas clasificadas?</b><br>Según el anexo II del R.D. 681/2003:<br>La instalación, los aparatos, los sistemas de protección y sus correspondientes dispositivos de conexión sólo se pondrán en funcionamiento si el documento de protección contra explosiones indica que pueden usarse con seguridad en una atmósfera explosiva.<br>Si el equipo es posterior al 30 de junio de 2003, debe ir marcado de conformidad con el R.D. 400/1996 por lo que:<br>"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/marcadoDirectiva.png"
+        },
+        {
+          "clase": "texto",
+          "texto": "En el caso de equipos anteriores al 30 de junio de 2003, hay que considerar el modo de protección empleado en la construcción del equipo."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/eleccionEquipos.png"
         }
+      ]
+    },
+    {
+      "titulo": "DETERMINACIÓN DE LA PROBABILIDAD DE ACTIVACIÓN DE FUENTES DE IGNICIÓN",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Una vez identificadas cuales de las 13 posibles fuentes de ignición pueden estar presentes de manera efectiva en la zona clasificada, es preciso estimar la probabilidad de activación de dichas fuentes:",
+          "contenido": [
+            {
+              "punto": "Frecuente (F): la activación de la fuente de ignición es permanente o sucede con mucha frecuencia. Los equipos instalados en la zona clasificada son convencionales (sin protección)."
+            },
+            {
+              "punto": "Probable (P): la activación de la fuente de ignición se produce normalmente. Equipos de categoría o modo de protección no suficiente para la zona clasificada en la que se encuentran."
+            },
+            {
+              "punto": "Ocasional (O): la activación de la fuente de ignición se produce algunas veces. Equipos de categoría o modo de protección adecuados para la zona clasificada en la que se encuentran pero sin el mantenimiento adecuado (posible fuente de ignición por mal funcionamiento del equipo)."
+            },
+            {
+              "punto": "Remota (R): es muy raro, aunque posible que se produzca la activación de la fuente de ignición. Equipos de categoría o modo de protección adecuados para la zona clasificada en la que se encuentran y con el mantenimiento adecuado (posible fuente de ignición por mal funcionamiento raro del equipo)."
+            },
+            {
+              "punto": "Improbable (I): no se espera que se produzca la activación de la fuente de ignición. El riesgo de existencia y activación de focos de ignición en las zonas clasificadas está controlado."
+            }
+          ]
+        },
+        {
+          "titulo": "VALORACIÓN DEL RIESGO, EN FUNCIÓN DE LA PROBABILIDAD Y LAS CONSECUENCIAS",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "La probabilidad de explosión es función de las dos probabilidades de las que procede:",
+              "contenido" [
+                {
+                  "punto": "Probabilidad de presencia de atmósferas explosivas."
+                },
+                {
+                  "punto": "Probabilidad de presencia de fuentes de ignición efectivas."
+                }
+              ]
+            },
+                        {
+              "clase": "lista",
+              "titulo": "La frecuencia de ocurrencia de ambos sucesos vendrá determinado por:",
+              "contenido" [
+                {
+                  "punto": ""
+                },
+                {
+                  "punto": ""
+                },
+                                {
+                  "punto": ""
+                },
+                                {
+                  "punto": ""
+                }
+              ]
+            }
 
-
+          ]
+        }
       ]
     },
 
