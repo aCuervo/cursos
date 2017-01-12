@@ -365,7 +365,6 @@ function getArrayImagenes(modulo) {
 "img/modCar/sco5aco4.jpg",
 "img/modCar/sco5aco5.png",
 "img/modCar/sco5fondo.jpg",
-"img/modCar/sco6.jpg",
 "img/modCar/sco11fondo.png",
 "img/modCar/sco11fondob.svg",
 "img/modCar/sco12p1.jpg",

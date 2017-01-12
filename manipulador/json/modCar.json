@@ -28,7 +28,7 @@
           "clase": "icono",
           "animacion": "fadeInRight",
           "subclase": "definicion",
-          "texto": "La definición de <b>carne</b> es toda parte apta para el consumo humano, incluidos  los  despojos,  obtenidos  en  establecimientos autorizados, provenientes de: animales domésticos de las especies bovina, porcina, ovina,  caprina, solípedos, gallinas, pavos, pintadas, patos, ocas y conejos; mamíferos  terrestres  y  aves  silvestres  reproducidos, criados y sacrificados en cautividad, caza silvestre y reses de lidia procedentes de espectáculos taurinos."
+          "texto": "<b>Definición:<br>Carne.</b> Toda parte apta para el consumo humano, incluidos  los  despojos,  obtenidos  en  establecimientos autorizados, provenientes de: animales domésticos de las especies bovina, porcina, ovina,  caprina, solípedos, gallinas, pavos, pintadas, patos, ocas y conejos; mamíferos  terrestres  y  aves  silvestres  reproducidos, criados y sacrificados en cautividad, caza silvestre y reses de lidia procedentes de espectáculos taurinos."
         },
         {
           "clase": "tabs",
@@ -168,6 +168,11 @@
       "fondo": "img/modCar/sco5fondo.jpg",
       "contenido": [
         {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "Abre los siguientes desplegables para obtener información más detallada."
+        },
+        {
           "clase": "acordeon",
           "animacion": "fadeInRight",
           "ancho": "75",
@@ -211,7 +216,6 @@
         }
       ]
     },
-
     {
       "titulo": "Alteración",
       "contenido": [
@@ -221,88 +225,64 @@
           "texto": "Debido a su <b>composición</b>, contenido alto en agua y pH, la carne reúne todas las características idóneas para la multiplicación de los <b>microorganismos</b>, y por dicho motivo es uno de los alimentos más <b>perecederos</b> y más susceptible a la alteración. Las alteraciones de la carne se deben por un lado a su propia composición y a la interacción con factores físicos (luz, temperatura...),  químicos (oxidación, acidificación...) o microbiológicos (bacterias alterantes)."
         },
         {
-          "clase": "listaObjetos",
+          "clase": "texto",
+          "texto": "Alteraciones <b>NO causadas por microorganismos</b>:"
+        },
+        {
+          "clase": "tabs",
+          "subclase": "vertical",
+          "animacion": "fadeInRight",
           "contenido": [
             {
-              "clase": "listaObjetos",
-              "subclase": "columna",
-              "contenido": [
-                {
-                  "clase": "texto",
-                  "texto": "Alteraciones <b>NO causadas por microorganismos</b>:"
-                },
-                {
-                  "clase": "tabs",
-                  "subclase": "vertical",
-                  "animacion": "fadeInRight",
-                  "contenido": [
-                    {
-                      "titulo": "Rancidez oxidativa",
-                      "texto": "Consiste en la oxidación de las <b>grasas</b> al exponerlas al oxígeno del aire. La consecuencia es la producción de un olor, aspecto y sabor desagradables. Este proceso se acelera con las altas temperaturas, la luz y determinadas sales. Hay que tener en cuenta que las grasas insaturadas (consideradas más beneficiosas para la salud) son más susceptibles de ser oxidadas que las saturadas (consideradas menos beneficiosas)."
-                    },
-                    {
-                      "titulo": "Quemadura del frío",
-                      "texto": "Si durante el almacenamiento en refrigeración (o congelación) la <b>humedad</b> del entorno es baja (ambientes secos) los alimentos ceden su agua para equilibrar el ambiente y combatir la sequedad lo que provoca una pérdida de humedad en algunas zonas y se produce la quemadura del frío."
-                    },
-                    {
-                      "titulo": "Deshidratación",
-                      "texto": "Da un aspecto <b>seco, viejo</b> y de textura basta. Normalmente se limita a la superficie. Se produce por temperaturas inadecuadas (altas) o humedades bajas."
-                    },
-                    {
-                      "titulo": "Goteo",
-                      "texto": "Se produce pérdida de agua por descongelación de los productos que han sido congelados de forma lenta o en congeladores poco potentes. Hay carnes como la de cerdo que tienden a acumular agua y que tras su descongelación, tendrán un goteo más intenso."
-                    }
-                  ]
-                }
-              ]
+              "titulo": "Rancidez oxidativa",
+              "texto": "Consiste en la oxidación de las <b>grasas</b> al exponerlas al oxígeno del aire. La consecuencia es la producción de un olor, aspecto y sabor desagradables. Este proceso se acelera con las altas temperaturas, la luz y determinadas sales. Hay que tener en cuenta que las grasas insaturadas (consideradas más beneficiosas para la salud) son más susceptibles de ser oxidadas que las saturadas (consideradas menos beneficiosas)."
             },
             {
-              "clase": "listaObjetos",
-              "subclase": "columna",
-              "contenido": [
-                {
-                  "clase": "texto",
-                  "animacion": "fadeInRight",
-                  "texto": "Alteraciones <b>causadas por microorganismos</b><br>(dependen de la <b>zona</b> en la que éstos se encuentren, en la superficie o en la parte profunda y también del <b>tipo</b> de microorganismo):"
-                },
-                {
-                  "clase": "tabs",
-                  "subclase": "vertical",
-                  "animacion": "fadeInRight",
-                  "contenido": [
-                    {
-                      "titulo": "Mucosidad exterior",
-                      "texto": "Es una alteración que se manifiesta con una especie de limo o mucosidad en la superficie de la carne, normalmente de color blanquecino."
-                    },
-                    {
-                      "titulo": "Coloraciones o brillos anormales",
-                      "texto": "Bacterias, hongos y levaduras pueden colonizar la carne originando manchas de diversas tonalidades según de qué microorganismo se trate (azul-verdosas, amarillentas, rosado o rojos, blanco, negruzco...)."
-                    },
-                    {
-                      "titulo": "Otros",
-                      "texto": "<b>Olores y sabores</b> desagradables.<br><b>Alteración</b> en la firmeza de la carne.<br><b>Putrefacción</b>"
-                    }
-                  ]
-                }
-              ]
+              "titulo": "Quemadura del frío",
+              "texto": "Si durante el almacenamiento en refrigeración (o congelación) la <b>humedad</b> del entorno es baja (ambientes secos) los alimentos ceden su agua para equilibrar el ambiente y combatir la sequedad lo que provoca una pérdida de humedad en algunas zonas y se produce la quemadura del frío."
+            },
+            {
+              "titulo": "Deshidratación",
+              "texto": "Da un aspecto <b>seco, viejo</b> y de textura basta. Normalmente se limita a la superficie. Se produce por temperaturas inadecuadas (altas) o humedades bajas."
+            },
+            {
+              "titulo": "Goteo",
+              "texto": "Se produce pérdida de agua por descongelación de los productos que han sido congelados de forma lenta o en congeladores poco potentes. Hay carnes como la de cerdo que tienden a acumular agua y que tras su descongelación, tendrán un goteo más intenso."
             }
-
           ]
         },
         {
-          "clase": "imagen",
-          "imagen": "img/modCar/sco6.jpg",
-          "ancho": 200
+          "clase": "texto",
+          "animacion": "fadeInRight",
+          "texto": "Alteraciones <b>causadas por microorganismos</b><br>(dependen de la <b>zona</b> en la que éstos se encuentren, en la superficie o en la parte profunda y también del <b>tipo</b> de microorganismo):"
         },
         {
+          "clase": "tabs",
+          "subclase": "vertical",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Mucosidad exterior",
+              "texto": "Es una alteración que se manifiesta con una especie de limo o mucosidad en la superficie de la carne, normalmente de color blanquecino."
+            },
+            {
+              "titulo": "Coloraciones o brillos anormales",
+              "texto": "Bacterias, hongos y levaduras pueden colonizar la carne originando manchas de diversas tonalidades según de qué microorganismo se trate (azul-verdosas, amarillentas, rosado o rojos, blanco, negruzco...)."
+            },
+            {
+              "titulo": "Otros",
+              "texto": "<b>Olores y sabores</b> desagradables.<br><b>Alteración</b> en la firmeza de la carne.<br><b>Putrefacción</b>"
+            }
+          ]
+        },
+                {
           "clase": "icono",
           "animacion": "fadeInRight",
           "subclase": "exclamacion",
-          "texto": "Todos estos efectos provocan el rechazo del producto, por lo que <b>no</b> deberían ser causa de <b>enfermedad alimentaria</b>."
+          "texto": "Todas estas alteraciones provocan el rechazo del producto, por lo que <b>no</b> deberían ser causa de <b>enfermedad alimentaria</b>."
         }
       ]
     },
-
     {
       "titulo": "Bienestar animal",
       "fondo": "img/modCar/scoBienestar.png",
@@ -602,7 +582,7 @@
         {
           "clase": "texto",
           "animacion": "fadeInRight",
-          "texto": "Aunque cada una de dichas etapas tendrá unos peligros asociados <b>específicos</b>, vamos a diferenciar dos grandes bloques:<br><br>"
+          "texto": "Aunque cada una de dichas etapas tendrá unos peligros asociados <b>específicos</b>, vamos a diferenciar dos grandes bloques:"
         },
         {
           "clase": "listaObjetos",
@@ -610,8 +590,9 @@
             {
               "clase": "lista",
               "subclase": "celo",
+              "imgPunto": "img/modCar/vaquita32.svg",
               "animacion": "fadeInRight",
-              "titulo": "Un primer bloque en el cual se produce la contaminación de la carne y que englobaremos como <b>contaminación de origen</b>, que vamos a mencionar para ser conscientes de que ya partimos de un producto con un cierto grado de contaminación y esto nos ha de condicionar para ser lo más <b>rigurosos</b> posibles en las manipulaciones que realicemos posteriormente para no incrementar la misma y, sobre todo, para evitar la multiplicación microbiológica.",
+              "titulo": "Un primer bloque en el cual se produce la contaminación de la carne y que englobaremos como <b>contaminación de origen</b>, que vamos a mencionar para ser conscientes de que ya partimos de un producto con un cierto grado de contaminación y esto nos ha de condicionar para ser lo más <b>rigurosos</b> posibles en las manipulaciones que realicemos posteriormente para no incrementar la misma y, sobre todo, para evitar la multiplicación microbiológica:",
               "contenido": [
                 {
                   "punto": "Contaminación en la explotación ganadera."
@@ -621,17 +602,13 @@
                 },
                 {
                   "punto": "Contaminación durante el sacrificio y faenado."
-                },
-                {
-                  "clase": "imagen",
-                  "imagen": "img/modCar/vaquita.svg",
-                  "ancho": 200
                 }
               ]
             },
             {
               "clase": "lista",
               "subclase": "celo",
+              "imgPunto": "img/modCar/establo25.svg",
               "animacion": "fadeInRight",
               "titulo": "Un segundo bloque en el cual se podrán producir <b>nuevas contaminaciones</b> a lo que se suma el peligro de multiplicación bacteriana:",
               "contenido": [
@@ -643,13 +620,23 @@
                 },
                 {
                   "punto": "Peligros asociados a manipulaciones posteriores (<b>acondicionamiento</b> de carnes o <b>elaboración</b> de productos cárnicos en industrias cárnicas o en carnicerías)."
-                },
-                {
-                  "clase": "imagen",
-                  "imagen": "img/modCar/establo.svg",
-                  "ancho": 200
                 }
               ]
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modCar/vaquita.svg",
+              "ancho": 200
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modCar/establo.svg",
+              "ancho": 200
             }
           ]
         }
@@ -1180,7 +1167,7 @@
             },
             {
               "clase": "imagen",
-              "imagen": "img/modCar/scoManip.png",
+              "imagen": "img/modCar/scoManip2.png",
               "ancho": 600
             }
           ]
@@ -1189,7 +1176,7 @@
           "clase": "lista",
           "animacion": "fadeInRight",
           "subclase": "numeros",
-          "titulo": "Sin entrar en mayores detalles, podríamos resumir el diagrama de flujo de las industrias cárnicas que elaboran o transforman productos cárnicos en las siguientes etapas:",
+          "titulo": "Sin entrar en mayores detalles, podríamos resumir el diagrama de flujo de las industrias cárnicas que elaboran o transforman productos cárnicos en las siguientes <b>6</b> etapas:",
           "contenido": [
             {
               "punto": "Recepción de materias primas."
@@ -1292,7 +1279,7 @@
               "titulo": "<b>Contaminación</b> de las piezas de carne",
               "texto": "<ul><li>Contaminación <b>cruzada</b>: hemos visto que la carne tiene cierta contaminación de origen, por lo que toda superficie, equipo, utensilio y/o manos del manipulador que entre en contacto con ella, se verán contaminados. Si posteriormente utilizamos esas superficies, equipos, manos, etc. sin haber sido previamente limpiadas y desinfectadas, servirán como vehículo para <b>contaminar</b> cualquier otra pieza de carne o producto que manipulemos.</li><li>En las operaciones de <b>troceado</b> y <b>picado</b> se exponen zonas del alimento que antes no podían alcanzar los microorganismos.</li><li>Contaminación aportada por <b>limpieza y desinfección</b> deficientes de equipos, utensilios y superficies.</li><li>Contaminación aportada por <b>higiene deficiente</b> del personal manipulador.</li><li>Contaminación a través de <b>insectos, roedores o animales domésticos</b>.</li><li>Contaminación aportada por el <b>agua</b> de consumo (si esta se encuentra contaminada).</li><li>Contaminación <b>química</b> con productos de limpieza, desinfección o restos de los mismos en equipos, superficies, utensilios…</li><li>Contaminación <b>ambiental</b>.</li></ul>",
               "imagen": "img/modCar/scoAcondicionamientop1.jpg",
-              "ancho": 300
+              "ancho": 200
             },
             {
               "titulo": "<b>Multiplicación</b> de los microorganismos presentes en las piezas de carne",
@@ -1372,14 +1359,14 @@
             {
               "clase": "texto",
               "subclase": "recuadro",
-              "opacidad": 0.7,
+              "opacidad": 0.8,
               "animacion": "fadeInRight",
               "texto": "<ul><li>No se pincharán los portaprecios directamente sobre la mercancía.</li><li>La carne picada no envasada debe comercializarse en el día y no admite adición de aditivo alguno.</li><li>Los preparados cárnicos se presentarán en expositores independientes o debidamente separados de los otros productos.</li><li>Los productos sin envasar que no requieran frío para su conservación deberán exponerse igualmente protegidos y aislados.</li><li>Se debe evitar una manipulación excesiva del producto. Además se evitará el contacto o manipulación de los productos por parte del público, salvo conservas o productos envasados.</li>"
             },
             {
               "clase": "texto",
               "subclase": "recuadro",
-              "opacidad": 0.7,
+              "opacidad": 0.8,
               "animacion": "fadeInRight",
               "texto": "<li>Los residuos (vísceras, huesos, tendones, grasas…) deben ser convenientemente eliminados.</li><li>Todas las superficies de manipulación y utensilios deben mantenerse en buen estado y en estado correcto de limpieza y desinfección.</li><li>Las herramientas de corte deben estar bien afiladas y limpiarse a menudo, y no se deben usar utensilios comunes para la preparación de carnes de distinto origen (especialmente carne de aves).</li><li>Los materiales en contacto con el alimento (papel, bandejas, etc.) deben ser aptos para productos alimentarios.</li><li>Independientemente del guante de malla protector, si se utilizan guantes, es recomendable que no sean de látex, ya que este material puede pasar a los alimentos y causar reacciones alérgicas en el consumidor.</li></ul>"
             }
