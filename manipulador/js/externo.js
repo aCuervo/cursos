@@ -9,7 +9,7 @@
             "js/jointJS/backbone-min.js",
             "js/jointJS/joint.min.js"
         ]);
-            break;            
+            break;
         case "mod02": arrayFinal = arrayComun.concat([
             "js/bootstrap/bootstrap.min.js"
         ]);
@@ -18,13 +18,14 @@
             "js/snapsvg/snap.svg-min.js"
         ]);
             break;
+        case "modFrut":
         case "modCar":
         case "modRes":
             arrayFinal = arrayComun.concat([
             "js/jointJS/lodash.min.js",
             "js/jointJS/backbone-min.js",
             "js/jointJS/joint.min.js"
-        ]);
+            ]);
             break;
         default: arrayFinal = arrayComun;
     }
@@ -50,6 +51,7 @@ function getArrayCSS(modulo) {
             "css/bootstrap/bootstrap.min.css"
             ]);
             break;
+        case "modFrut":
         case "modCar":
         case "modPes":
         case "modRes":
@@ -65,7 +67,7 @@ function getArrayImagenes(modulo) {
     var arrayComun = [
         "img/comunes/carga.svg",
         "img/comunes/sabiasQue.svg",
-        "img/comunes/contraportada.svg",      
+        "img/comunes/contraportada.svg",
         "img/comunes/exclamacion.svg",
         "img/comunes/exclamacionBlanca.svg",
         "img/comunes/logo.svg",
@@ -78,7 +80,7 @@ function getArrayImagenes(modulo) {
     ];
     var arrayFinal = null;
     switch (modulo) {
-        case "mod01":      
+        case "mod01":
             arrayFinal = arrayComun.concat([
             "img/mod1/cadenaAlimentaria.svg",
             "img/mod1/cadenaCuatro.svg",
@@ -105,6 +107,7 @@ function getArrayImagenes(modulo) {
             "img/mod2/adoquines.jpg",
             "img/mod2/atomo.jpg",
             "img/mod2/avispas.jpg",
+            "img/mod2/basura.svg",
             "img/mod2/contaminacionCruzada.svg",
             "img/mod2/contaminacionCruzada2.svg",
             "img/mod2/estornudo.jpg",
@@ -288,7 +291,7 @@ function getArrayImagenes(modulo) {
             "img/mod6/autoeval/solucion.png",
             ]);
             break;
-        case "mod07":arrayFinal = arrayComun.concat([
+        case "mod07": arrayFinal = arrayComun.concat([
             "img/mod7/APPCC1.svg",
             "img/mod7/APPCC2.svg",
             "img/mod7/APPCC3.svg",
@@ -319,7 +322,7 @@ function getArrayImagenes(modulo) {
             "img/mod7/M7ratita.jpg",
             "img/mod7/M7veneno.jpg",
             "img/mod7/mosquitera.jpg"
-            ]);
+        ]);
             break;
         case "modRes": arrayFinal = arrayComun.concat([
             "img/modRes/almacen.jpg",
@@ -347,7 +350,34 @@ function getArrayImagenes(modulo) {
             "img/modRes/termometro.jpg",
             "img/modRes/vitrina.jpg",
             "img/modRes/zamburinas.jpg"
-            ]);
+        ]);
+            break;
+        case "modFrut": arrayFinal = arrayComun.concat([
+"img/modFru/frutanaranja.jpg",
+"img/modFru/frutas.jpg",
+"img/modFru/frutaverde.jpg",
+"img/modFru/graficoMaduracion.png",
+"img/modFru/graficoNoclimaterico.png",
+"img/modFru/kiwi.jpg",
+"img/modFru/manzanaCorte.png",
+"img/modFru/manzanas1.jpg",
+"img/modFru/manzanas2.jpg",
+"img/modFru/manzanas3.jpg",
+"img/modFru/mediaCebolla.jpg",
+"img/modFru/mediaManzana.jpg",
+"img/modFru/mediaNaranja.jpg",
+"img/modFru/moras.jpg",
+"img/modFru/patatanegra.png",
+"img/modFru/pilaManzanas.jpg",
+"img/modFru/uvitas.jpg",
+"img/modFru/verduras.jpg",
+"img/modFru/caracol.jpg",
+"img/modFru/manzanaFea.jpg",
+"img/modFru/diagrama.png",
+"img/modFru/fresas.jpg",
+"img/modFru/contaminacionq.png",
+"img/modFru/zanahorias.jpg"
+        ]);
             break;
         case "modCar": arrayFinal = arrayComun.concat([
 "img/modCar/establo.svg",
@@ -388,7 +418,7 @@ function getArrayImagenes(modulo) {
 "img/modCar/scoElaboracionp3.jpg",
 "img/modCar/scoExposicion2fondo.jpg",
 "img/modCar/scoExposicionfondo.jpg",
-"img/modCar/scoManip.png",
+"img/modCar/scoManip2.png",
 "img/modCar/scoRecepcion.jpg",
 "img/modCar/scoSacrificio.jpg",
 "img/modCar/scoTransporte.jpg",
@@ -431,7 +461,7 @@ function getArrayImagenes(modulo) {
             "img/modPes/petroleo.jpg",
             "img/modPes/pezLeon.jpg",
             "img/modPes/pezPuzzle.svg",
-            "img/modPes/pezPresentacion.jpg",            
+            "img/modPes/pezPresentacion.jpg",
             "img/modPes/pulpo.jpg",
             "img/modPes/salmon.jpg",
             "img/modPes/sardinas.jpg",
@@ -439,7 +469,7 @@ function getArrayImagenes(modulo) {
             "img/modPes/sepia.jpg",
             "img/modPes/sombrerero.png",
             "img/modPes/zamburinia.jpg"
-            ]);
+        ]);
             break;
         default: arrayFinal = arrayComun;
     }
@@ -448,4 +478,3 @@ function getArrayImagenes(modulo) {
 
 
 
-       

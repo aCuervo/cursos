@@ -737,7 +737,6 @@
         }
       ]
     },
-
     {
       "titulo": "CRITERIOS ESPECÍFICOS PARA LA EVALUACIÓN DEL MATERIAL ELÉCTRICO / MECÁNICO",
       "contenido": [
@@ -871,37 +870,390 @@
               "punto": "Improbable (I): no se espera que se produzca la activación de la fuente de ignición. El riesgo de existencia y activación de focos de ignición en las zonas clasificadas está controlado."
             }
           ]
-        },
+        }
+      ]
+    },
+
+    {
+      "titulo": "VALORACIÓN DEL RIESGO, EN FUNCIÓN DE LA PROBABILIDAD Y LAS CONSECUENCIAS",
+      "contenido": [
         {
-          "titulo": "VALORACIÓN DEL RIESGO, EN FUNCIÓN DE LA PROBABILIDAD Y LAS CONSECUENCIAS",
+          "clase": "lista",
+          "titulo": "La <b>probabilidad</b> de explosión es función de las dos probabilidades de las que procede:",
           "contenido": [
             {
-              "clase": "lista",
-              "titulo": "La probabilidad de explosión es función de las dos probabilidades de las que procede:",
-              "contenido" [
+              "punto": "Probabilidad de presencia de atmósferas explosivas."
+            },
+            {
+              "punto": "Probabilidad de presencia de fuentes de ignición efectivas."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "La frecuencia de ocurrencia de ambos sucesos vendrá determinada por:",
+          "contenido": [
+            {
+              "punto": "Frecuente (F): Ocurre continuamente."
+            },
+            {
+              "punto": "Probable (P): Ocurre varias veces en la vida del sistema."
+            },
+            {
+              "punto": "Remota (R): Improbable, pero podría ocurrir en la vida del sistema."
+            },
+            {
+              "punto": "Improbable (I): Es muy improbable, por lo que puede que no se produzca nunca."
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/presenciaAtex.png"
+        },
+        {
+          "clase": "texto",
+          "texto": "La severidad se expresa en niveles definidos en términos de daños a la salud de las personas o de daños a los sistemas. Estos niveles son:"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/defSucesos.png"
+        },
+        {
+          "clase": "texto",
+          "texto": "Una vez realizada la evaluación de ambos factores, con la ayuda de la siguiente tabla se estima el riesgo de explosión mediante la técnica de reducción de riesgos:"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/consecuencias.png"
+        },
+        {
+          "clase": "texto",
+          "texto": "Así se define cada riesgo de manera que quedan establecidos los niveles de acción y temporización de las actuaciones adecuadas.<br<br><br>Esta correspondencia se muestra en la tabla siguiente donde junto a cada asignación del nivel de riesgo aparecen los tipos de acciones que requieren junto con sus periodos de implantación."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/temporizacion.png"
+        }
+      ]
+    },
+    {
+      "titulo": "MEDIDAS TÉCNICAS ADOPTADAS O A ADOPTAR PARA LA PROTECCIÓN CONTRA EXPLOSIONES",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Las medidas adoptadas siempre darán prioridad a evitar o limitar la formación de atmósferas explosivas bien, intentando evitar la presencia de sustancias inflamables y, si esto no es posible evitando la mezcla de las sustancias inflamables con el aire.<br><br>En caso de no ser viable ninguna de las dos opciones anteriores, existe la posibilidad de que se forme una atmósfera explosiva potencialmente peligrosa y las medidas preventivas irán dirigidas a evitar la ignición de la atmósfera explosiva limitando la presencia de posibles fuentes de ignición efectivas.<br><br>Sólo como último recurso, en caso de no ser posible evitar la presencia de fuentes de ignición efectivas en zonas donde es posible la formación de atmósferas explosivas potencialmente peligrosas, además de las medidas preventivas, se tendrán en cuenta las medidas de protección contra explosiones."
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>MEDIDAS PREVENTIVAS PARA IMPEDIR LA FORMACIÓN DE ATEX</b><br><br>Las medidas que se pueden realizar para prevenir la formación de una atmósfera explosiva potencialmente peligrosa son:",
+          "contenido": [
+            {
+              "punto": "Sustitución de las sustancias inflamables."
+            },
+            {
+              "punto": "Limitación de la concentración."
+            },
+            {
+              "punto": "Inertización."
+            },
+            {
+              "punto": "Aislamiento y cerramiento de las fuentes de escape."
+            },
+            {
+              "punto": "Medidas para eliminar los depósitos de polvo."
+            },
+            {
+              "punto": "Utilización de aparatos detectores de gas."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>MEDIDAS PREVENTIVAS PARA EVITAR LA IGNICIÓN DE ATEX</b>"
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "TIPO DE FUENTE DE IGNICIÓN",
+              "colspan": "2"
+            },
+            {
+              "titulo": "MEDIDAS PREVENTIVAS"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
                 {
-                  "punto": "Probabilidad de presencia de atmósferas explosivas."
+                  "texto": "1"
                 },
                 {
-                  "punto": "Probabilidad de presencia de fuentes de ignición efectivas."
+                  "texto": "Superficies calientes"
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "La temperatura superficial máxima admitida, dependiendo del tipo de zona, se determinará con respecto a la temperatura mínima de ignición de dicho gas o vapor.",
+                  "contenido": [
+                    {
+                      "punto": "Zona 0 (equipos de categoría 1): Temperatura superficial máxima admitida inferior al 80% de la TMI."
+                    },
+                    {
+                      "punto": "Zona 1 (equipos de categoría 2): Temperatura superficial máxima admitida inferior a la TMI. (Inferior al 80% de la TMI si no se puede evitar que el gas o vapor se pueda calentar hasta la temperatura superficial."
+                    },
+                    {
+                      "punto": "Zona 2 (equipos de categoría 3): Temperatura superficial máxima admitida inferior a la TMI."
+                    }
+                  ]
                 }
               ]
             },
+            {
+              "fila": [
+                {
+                  "texto": "2"
+                },
+                {
+                  "texto": "Llamas y gases calientes (incluyendo partículas calientes)"
+                },
+                {
+                  "clase": "listaObjetos",
+                  "subclase": "columna",
+                  "contenido": [
+                    {
+                      "clase": "lista",
+                      "titulo": "Solo se deben autorizar llamas desnudas en las siguientes condiciones:",
+                      "contenido": [
                         {
-              "clase": "lista",
-              "titulo": "La frecuencia de ocurrencia de ambos sucesos vendrá determinado por:",
-              "contenido" [
+                          "punto": "Zona 0: No se admiten llamas desnudas, ni gases provenientes de llamas, ni otros gases calientes."
+                        },
+                        {
+                          "punto": "Zonas 1 y 2: Solo se admiten dispositivos con llamas si las llamas están confinadas y no se superan las temperaturas indicadas en el punto 1: Superficies calientes. Además la envolvente debe ser suficientemente resistente para que no se produzca la propagación de la llama en el emplazamiento peligroso. Solo se pueden introducir gases calientes si se garantiza que no se alcanzará la temperatura mínima de ignición de la sustancia peligrosa."
+                        }
+                      ]
+                    },
+                    {
+                      "clase": "texto",
+                      "texto": "En el caso de ser preciso realizar trabajos de corte y soldadura en las zonas clasificadas se debe contar con un sistema de permisos de trabajo."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fila": [
                 {
-                  "punto": ""
+                  "texto": "3"
                 },
                 {
-                  "punto": ""
+                  "texto": "Chispas de origen mecánico"
                 },
-                                {
-                  "punto": ""
+                {
+                  "clase": "listaObjetos",
+                  "subclase": "columna",
+                  "contenido": [
+                    {
+                      "clase": "lista",
+                      "titulo": "Se debe evitar en las zonas clasificadas el uso de equipos que puedan producir chispas de origen mecánico por fricción, choque o abrasión capaces de provocar la ignición de la atmósfera explosiva. En cuanto al uso de herramientas portátiles: ",
+                      "contenido": [
+                        {
+                          "punto": "Zona 0: No se permite el uso de ninguna herramienta que pueda producir chispas."
+                        },
+                        {
+                          "punto": "Zonas 1y 2: Se pueden emplear herramientas que durante su utilización sólo pueden producir chispas aisladas como destornilladores o llaves."
+                        }
+                      ]
+                    },
+                    {
+                      "clase": "texto",
+                      "texto": "Solo se pueden emplear herramientas de acero y/o portátiles que durante su utilización en trabajos de corte o molienda, generan un haz de chispas, si se garantiza que no existe ninguna atmósfera explosiva en el momento del uso.<br>El uso de herramienta portátil en zonas clasificadas estará sometido a un sistema de permisos de trabajo."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "4"
                 },
-                                {
-                  "punto": ""
+                {
+                  "texto": "Material eléctrico, arcos y chispas eléctricas"
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "Empleo de material eléctrico adecuado para la zona clasificada:",
+                  "contenido": [
+                    {
+                      "punto": "Zona 0: Equipos de categoría 1G."
+                    },
+                    {
+                      "punto": "Zona 1: Equipos de categorías 1G y 2G."
+                    },
+                    {
+                      "punto": "Zona 2: Equipos de categorías 1G, 2G y 3G."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "5"
+                },
+                {
+                  "texto": "Corrientes eléctricas parásitas, protección contra la corrosión catódica"
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "Si se han detectado peligros debidos a corrientes eléctricas parásitas y/o la protección contra la corrosión catódica, se deben adoptar medidas de protección especiales para los sistemas con protección contra la corrosión catódica por inyección de corriente.",
+                  "contenido": [
+                    {
+                      "punto": "Zona 0: Debe aplicarse equipotencialidad a todas las partes conductoras de la instalación. "
+                    },
+                    {
+                      "punto": "Zona 1: Igual que para zona 0, salvo que se permite no aplicar las medidas especiales de equipotencialidad a las partes conductoras del sistema que no son adyacentes a las instalaciones eléctricas cuando ya existe un sistema de equipotencialidad formado por las redes de canalizaciones o sistemas completos de puesta a tierra. "
+                    },
+                    {
+                      "punto": "Zona 2: No es preciso aplicar la equipotencialidad salvo que se produzcan frecuentemente arcos o chispas debidos a corrientes parásitas."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "6"
+                },
+                {
+                  "texto": "Electricidad estática"
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "Para evitar la generación y/o acumulación de cargas electrostáticas la clave está en propiciar la disipación de las cargas:",
+                  "contenido": [
+                    {
+                      "punto": "Uso de ropa y calzado de protección antiestática."
+                    },
+                    {
+                      "punto": "Puesta a tierra y conexión equipotencial de todas las superficies conductoras de manera que la resistencia de tierra del conjunto no supere el valor de 1 MΩ."
+                    },
+                    {
+                      "punto": "Aumento de la conductividad de materiales. Bien por aumento de la humedad relativa del aire hasta valores no inferiores al 60% o por tratamiento superficial al agregar productos antiestáticos a las pinturas."
+                    },
+                    {
+                      "punto": "Empleo de ionizadores de aire para aumentar la conductividad del aire y que éste sea capaz de disipar las cargas electrostáticas que se puedan generar."
+                    },
+                    {
+                      "punto": "Empleo de materiales o productos antiestáticos como plásticos y cintas de material impregnado de partículas conductoras para embalajes, adhesivos, bolsas, brochas y pinceles para operaciones de limpieza, mobiliario antiestático, etc."
+                    },
+                    {
+                      "punto": "Reducción de la velocidad relativa entre superficies en rozamiento: cuanto menor sea la velocidad relativa entre dos superficies, el calentamiento por rozamiento será menor y, por tanto, también se reducirá la excitación atómica de los materiales y su capacidad de cesión o admisión de carga electrostática."
+                    },
+                    {
+                      "punto": "Control de la velocidad de paso de materiales por conductos, cintas, etc.: se puede controlar el ritmo de generación de electricidad estática limitando la velocidad de paso de materiales en el proceso productivo."
+                    },
+                    {
+                      "punto": "Utilización de suelos de material disipador (no aislante)."
+                    },
+                    {
+                      "punto": "Instalación de medios conductores de descargas electrostáticas para personas."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "7"
+                },
+                {
+                  "texto": "Rayo"
+                },
+                {
+                  "texto": "Las instalaciones deben estar protegidas mediante medidas apropiadas de protección contra el rayo. Estas medidas no deben perjudicar a las medidas de protección contra la corrosión catódica."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "8"
+                },
+                {
+                  "texto": "Ondas electromagnéticas de radiofrecuencia (RF), de 104Hz a 3x1012Hz"
+                },
+                {
+                  "texto": "Como medida de seguridad se debe mantener una distancia de seguridad, en todas las direcciones, entre las partes radiantes más próximas y la antena receptora. Evitar el uso de teléfonos móviles en zonas clasificadas."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "9"
+                },
+                {
+                  "texto": "Ondas electromagnéticas de 3x1011Hz a 3x1015Hz"
+                },
+                {
+                  "texto": "No se deben permitir los dispositivos que puedan provocar la ignición debido a absorción por resonancia. Se puede emplear el material eléctrico adecuado según el punto 4 en que, además la energía de radiación pulsatoria o flujo de energía de la radiación continua sea suficientemente bajo para no provocar la ignición una atmósfera explosiva en el exterior de la envolvente, o bien que dicha envolvente no permita la penetración de la atmósfera explosiva."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "10"
+                },
+                {
+                  "texto": "Radiación ionizante"
+                },
+                {
+                  "texto": "Se puede emplear el material eléctrico adecuado según el punto 4 en que, además la energía de radiación pulsatoria o flujo de energía de la radiación continua sea suficientemente bajo para no provocar la ignición una atmósfera explosiva en el exterior de la envolvente, o bien que dicha envolvente no permita la penetración de la atmósfera explosiva."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "11"
+                },
+                {
+                  "texto": "Ultrasonidos"
+                },
+                {
+                  "texto": "No se deben permitir ondas ultrasónicas con una frecuencia superior a 10MHz, salvo que esté demostrado que no existe riesgo de ignición por absorción debida a una resonancia molecular. Para ondas de frecuencia hasta 10MHz, sólo se deben permitir las ondas ultrasónicas si está garantizada la seguridad del procedimiento de trabajo. La densidad de potencia del campo acústico no debe sobrepasar 1mW/mm2 a menos que esté probado que no existe riesgo de ignición."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "12"
+                },
+                {
+                  "texto": "Compresión adiabática y ondas de choque"
+                },
+                {
+                  "texto": "Se deben evitar los procesos que pueden dar lugar a compresiones o a ondas de choque capaces de provocar la ignición. Esto se puede conseguir si, las correderas y válvulas entre secciones del sistema entre las que existe una diferencia de presión elevada, sólo se pueden abrir lentamente."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "13"
+                },
+                {
+                  "texto": "Reacciones exotérmicas, incluyendo la autoignición de polvos"
+                },
+                {
+                  "texto": "En la medida de lo posible se deben evitar las sustancias con tendencia a la autoignición. Las reacciones exotérmicas pueden actuar como una fuente de ignición cuando la velocidad a la que se genera el calor desprendido de la reacción es mayor que la velocidad de disipación del mismo. De ahí la importancia de un sobredimensionado de la capacidad de refrigeración de equipos que puedan originar esta fuente de ignición."
                 }
               ]
             }
@@ -912,126 +1264,547 @@
     },
 
 
-
     {
-      "titulo": "Autoevaluación",
+      "titulo": "MEDIDAS PREVENTIVAS PARA EVITAR LA IGNICIÓN DE ATMÓSFERAS EXPLOSIVAS GENERADAS POR POLVOS",
       "contenido": [
         {
           "clase": "texto",
-          "animacion": "swing",
-          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+          "texto": "<b>MEDIDAS PREVENTIVAS PARA EVITAR LA IGNICIÓN DE ATMÓSFERAS EXPLOSIVAS GENERADAS POR POLVOS</b>"
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "TIPO DE FUENTE DE IGNICIÓN",
+              "colspan": "2"
+            },
+            {
+              "titulo": "MEDIDAS PREVENTIVAS"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "1"
+                },
+                {
+                  "texto": "Superficies calientes"
+                },
+                {
+                  "clase": "texto",
+                  "texto": "Seleccionar equipos cuya temperatura superficial máxima sea inferior a 2/3 TMIn para nubes y a TMIc – 75 para capas."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "2"
+                },
+                {
+                  "texto": "Llamas y gases calientes (incluyendo partículas calientes)"
+                },
+                {
+                  "clase": "texto",
+                  "texto": "Solo se deben autorizar llamas desnudas en las siguientes condiciones:<br>Zona 20: No se admiten llamas desnudas, ni gases provenientes de llamas, ni otros gases calientes.<br>Zonas 21 y 22: Solo se admiten dispositivos con llamas si las llamas están confinadas y no se superan las temperaturas indicadas en el punto 1: Superficies calientes. Además la envolvente debe ser suficientemente resistente para que no se produzca la propagación de la llama en el emplazamiento peligroso. Solo se pueden introducir gases calientes si se garantiza que no se inflamará el polvo depositado.<br>Es necesario controlar la circulación de vehículos para evitar la coexistencia de dichos gases con atmósferas explosivas así como la posibilidad de que accedan a otras áreas a través de rejillas o huecos comunicantes. En el tubo de escape de motores de combustión, aparte de los gases calientes, también pueden salir partículas incandescentes y llamaradas o fogonazos, fuentes potentes de ignición. Se pueden instalar protecciones del tipo apagallamas.<br>En el caso de ser preciso realizar trabajos de corte y soldadura en las zonas clasificadas se debe contar con un sistema de permisos de trabajo."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "3"
+                },
+                {
+                  "texto": "Chispas de origen mecánico"
+                },
+                {
+                  "clase": "listaObjetos",
+                  "subclase": "columna",
+                  "contenido": [
+                    {
+                      "clase": "lista",
+                      "titulo": "Se debe evitar en las zonas clasificadas el uso de equipos que puedan producir chispas de origen mecánico por fricción, choque o abrasión capaces de provocar la ignición de la atmósfera explosiva. En cuanto al uso de herramientas portátiles:",
+                      "contenido": [
+                        {
+                          "punto": "Zona 20: No se permite el uso de ninguna herramienta que pueda producir chispas."
+                        },
+                        {
+                          "punto": "Zonas 21 y 22: Se pueden emplear herramientas que durante su utilización sólo pueden producir chispas aisladas como destornilladores o llaves."
+                        }
+                      ]
+                    },
+                    {
+                      "clase": "texto",
+                      "texto": "Solo se pueden emplear herramientas de acero y/o portátiles que durante su utilización en trabajos de corte o molienda, generan un haz de chispas, si se garantiza que no existe ninguna atmósfera explosiva en el momento del uso. El uso de herramienta portátil en zonas clasificadas estará sometido a un sistema de permisos de trabajo."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "4"
+                },
+                {
+                  "texto": "Material eléctrico, arcos y chispas eléctricas"
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "Empleo de material eléctrico adecuado para la zona clasificada:",
+                  "contenido": [
+                    {
+                      "punto": "Zona 0: Equipos de categoría 1D."
+                    },
+                    {
+                      "punto": "Zona 1: Equipos de categorías 1D y 2D."
+                    },
+                    {
+                      "punto": "Zona 2: Equipos de categorías 1D, 2D y 3D."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "5"
+                },
+                {
+                  "texto": "Corrientes eléctricas parásitas, protección contra la corrosión catódica"
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "Si se han detectado peligros debidos a corrientes eléctricas parásitas y/o la protección contra la corrosión catódica, se deben adoptar medidas de protección especiales para los sistemas con protección contra la corrosión catódica por inyección de corriente.",
+                  "contenido": [
+                    {
+                      "punto": "Zonas 20 y 21: Debe aplicarse equipotencialidad a todas las partes conductoras de la instalación. Las canalizaciones de ventilación y de aspiración de depósitos, deben estar en primer lugar integradas en un sistema de equipotencialidad."
+                    },
+                    {
+                      "punto": "Zona 22: No es preciso aplicar la equipotencialidad salvo que se produzcan frecuentemente arcos o chispas debidos a corrientes parásitas."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "6"
+                },
+                {
+                  "texto": "Electricidad estática"
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "Para evitar la generación y/o acumulación de cargas electrostáticas la clave está en propiciar la disipación de las cargas:",
+                  "contenido": [
+                    {
+                      "punto": "Uso de ropa y calzado de protección antiestática."
+                    },
+                    {
+                      "punto": "Puesta a tierra y conexión equipotencial de todas las superficies conductoras de manera que la resistencia de tierra del conjunto no supere el valor de 1 MΩ."
+                    },
+                    {
+                      "punto": "Aumento de la conductividad de materiales. Bien por aumento de la humedad relativa del aire hasta valores no inferiores al 60% o por tratamiento superficial al agregar productos antiestáticos a las pinturas."
+                    },
+                    {
+                      "punto": "Empleo de ionizadores de aire para aumentar la conductividad del aire y que éste sea capaz de disipar las cargas electrostáticas que se puedan generar."
+                    },
+                    {
+                      "punto": "Empleo de materiales o productos antiestáticos como plásticos y cintas de material impregnado de partículas conductoras para embalajes, adhesivos, bolsas, brochas y pinceles para operaciones de limpieza, mobiliario antiestático, etc."
+                    },
+                    {
+                      "punto": "Reducción de la velocidad relativa entre superficies en rozamiento: cuanto menor sea la velocidad relativa entre dos superficies, el calentamiento por rozamiento será menor y, por tanto, también se reducirá la excitación atómica de los materiales y su capacidad de cesión o admisión de carga electrostática."
+                    },
+                    {
+                      "punto": "Control de la velocidad de paso de materiales por conductos, cintas, etc.: se puede controlar el ritmo de generación de electricidad estática limitando la velocidad de paso de materiales en el proceso productivo."
+                    },
+                    {
+                      "punto": "Utilización de suelos de material disipador (no aislante)."
+                    },
+                    {
+                      "punto": "Instalación de medios conductores de descargas electrostáticas para personas."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "7"
+                },
+                {
+                  "texto": "Rayo"
+                },
+                {
+                  "texto": "Las instalaciones deben estar protegidas mediante medidas apropiadas de protección contra el rayo. Estas medidas no deben perjudicar a las medidas de protección contra la corrosión catódica."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "8"
+                },
+                {
+                  "texto": "Ondas electromagnéticas de radiofrecuencia (RF), de 104Hz a 3x1012Hz"
+                },
+                {
+                  "texto": "Como medida de seguridad se debe mantener una distancia de seguridad, en todas las direcciones, entre las partes radiantes más próximas y la antena receptora. Evitar el uso de teléfonos móviles en zonas clasificadas."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "9"
+                },
+                {
+                  "texto": "Ondas electromagnéticas de 3x1011Hz a 3x1015Hz"
+                },
+                {
+                  "texto": "No se deben permitir los dispositivos que puedan provocar la ignición debido a absorción por resonancia. Se puede emplear el material eléctrico adecuado según el punto 4 en que, además la energía de radiación pulsatoria o flujo de energía de la radiación continua sea suficientemente bajo para no provocar la ignición una atmósfera explosiva en el exterior de la envolvente, o bien que dicha envolvente no permita la penetración de la atmósfera explosiva."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "10"
+                },
+                {
+                  "texto": "Radiación ionizante"
+                },
+                {
+                  "texto": "Se puede emplear el material eléctrico adecuado según el punto 4 en que, además la energía de radiación pulsatoria o flujo de energía de la radiación continua sea suficientemente bajo para no provocar la ignición una atmósfera explosiva en el exterior de la envolvente, o bien que dicha envolvente no permita la penetración de la atmósfera explosiva."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "11"
+                },
+                {
+                  "texto": "Ultrasonidos"
+                },
+                {
+                  "texto": "No se deben permitir ondas ultrasónicas con una frecuencia superior a 10MHz, salvo que esté demostrado que no existe riesgo de ignición por absorción debida a una resonancia molecular. Para ondas de frecuencia hasta 10MHz, sólo se deben permitir las ondas ultrasónicas si está garantizada la seguridad del procedimiento de trabajo. La densidad de potencia del campo acústico no debe sobrepasar 1mW/mm2 a menos que esté probado que no existe riesgo de ignición."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "12"
+                },
+                {
+                  "texto": "Compresión adiabática y ondas de choque"
+                },
+                {
+                  "texto": "Se deben evitar los procesos que pueden dar lugar a compresiones o a ondas de choque capaces de provocar la ignición. Esto se puede conseguir si, las correderas y válvulas entre secciones del sistema entre las que existe una diferencia de presión elevada, sólo se pueden abrir lentamente."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "13"
+                },
+                {
+                  "texto": "Reacciones exotérmicas, incluyendo la autoignición de polvos"
+                },
+                {
+                  "texto": "En la medida de lo posible se deben evitar las sustancias con tendencia a la autoignición. Las reacciones exotérmicas pueden actuar como una fuente de ignición cuando la velocidad a la que se genera el calor desprendido de la reacción es mayor que la velocidad de disipación del mismo. De ahí la importancia de un sobredimensionado de la capacidad de refrigeración de equipos que puedan originar esta fuente de ignición."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "MEDIDAS PARA LIMITAR LOS EFECTOS DE LAS EXPLOSIONES",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Los efectos de una explosión dependerán de:",
+          "contenido": [
+            {
+              "punto": "la presión y temperaturas iniciales de la explosión,"
+            },
+            {
+              "punto": "la sobrepresión máxima generada por la deflagración o la detonación,"
+            },
+            {
+              "punto": "la velocidad del crecimiento de la presión (gradiente de presión),"
+            },
+            {
+              "punto": "la fuerza de la onda de presión y su impacto con elementos interpuestos, proyección de objetos…"
+            },
+            {
+              "punto": "la formación de onda calorífica, llamas, sustancias tóxicas…"
+            }
+          ]
         },
         {
           "clase": "texto",
-          "animacion": "flash",
-          "subclase": "instruccion",
-          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+          "texto": "Los sistemas que limiten los efectos de la explosión deben estar diseñados para mitigar o minimizar la explosión, evitando su propagación y/o controlando que la onda de presión no alcance un nivel peligroso.<br><br>La elección y diseño de estos sistemas deberá venir avalado por un estudio específico para cada instalación. En el que se habrán tenido en cuenta los factores característicos de la misma y aquellos que afectan específicamente a la explosión, en su generación y en su capacidad destructiva. Por ello se considera necesario que dichos estudios los realicen especialistas (de la propia empresa o de fuera de la misma), conjuntamente con los fabricantes de los medios de protección a establecer."
         },
         {
-          "clase": "autoevalPreguntas",
-          "animacion": "bounceInUp",
-          "preguntas": [
+          "clase": "lista",
+          "titulo": "Las principales medidas de protección que permiten atenuar los efectos de la explosión son:",
+          "contenido": [
             {
-              "texto": "",
-              "respuestas": [
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                }
-              ]
+              "punto": "Construcciones resistentes a la explosión. En general, estas estructuras tienen una masa importante, para resistir las potenciales cargas derivadas de la onda de presión y la inercia de los elementos proyectados. Otro elemento clave es la ductilidad de los materiales, que les permite absorber gran cantidad de energía con o sin deformación pero sin rotura."
             },
             {
-              "texto": "",
-              "respuestas": [
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                }
-              ]
+              "punto": "Confinamiento de la explosión: equipos resistentes a la explosión. Es una técnica de protección pasiva, que se limita a recipientes de escaso volumen, (de unos pocos metros cúbicos), salvo alguna excepción, ya que es sumamente costoso conseguir recipientes de gran volumen que resistan 10 ó 12 bar."
             },
             {
-              "texto": "",
-              "respuestas": [
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                }
-              ]
+              "punto": "Dispositivos de descarga de la presión de explosión: venteo de la explosión. El planteamiento de este tipo de protección se basa en permitir que la explosión se desarrolle, pero bajo condiciones seguras tanto para el personal como para los equipos e instalaciones."
             },
             {
-              "texto": "",
-              "respuestas": [
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                }
-              ]
+              "punto": "Control de la onda de presión y del frente de llama: equipos supresores de explosiones. Su instalación es especialmente útil en aquellos casos en los que el alivio de explosiones por venteo es impracticable, así como en aquellos otros en los que a la explosión en sí se asocian emisiones de gases, vapores, polvos tóxicos o peligrosos en general para el entorno. Constan de uno o varios detectores de explosiones incipientes, de una unidad de control y de unos extintores presurizados cuyas válvulas son activadas por el sistema sensor (supresores)."
             },
             {
-              "texto": "",
-              "respuestas": [
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                }
-              ]
+              "punto": "Sistemas de control técnico. Sistemas de aislamiento de explosiones: Prevención de la propagación de llamas y de la explosión."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "MEDIDAS DE PROTECCIÓN MEDIANTE EL CONTROL DE PROCESOS",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Se denominan sistemas de control de procesos aquellos equipos destinados a accionar en caso de producirse un suceso un determinado mecanismo.<br><br>Las medidas de protección contra explosiones se pueden mantener, vigilar y accionar mediante dispositivos de seguridad, control y regulación (sistemas de control de procesos, SCP). Pueden utilizarse SCP para:",
+          "contenido": [
+            {
+              "punto": "Prevenir la aparición de atmósferas explosivas potencialmente peligrosas."
             },
             {
-              "texto": "",
-              "respuestas": [
+              "punto": "Evitar fuentes de ignición."
+            },
+            {
+              "punto": "Atenuar los efectos nocivos de una explosión."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "MEDIDAS ORGANIZATIVAS: IMPLANTACIÓN, SEGUIMIENTO Y CONTROL",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "La planificación del mantenimiento y las revisiones periódicas son medidas imprescindibles en la prevención y protección frente al riesgo de explosión, independientemente del tipo de medidas técnicas que se hayan tomado.<br><br>Las principales medidas organizativas se pueden dividir en:",
+          "contenido": [
+            {
+              "punto": "Instrucciones de servicio para los puestos de trabajo."
+            },
+            {
+              "punto": "Cualificación de los trabajadores."
+            },
+            {
+              "punto": "Contenido y frecuencia de la formación."
+            },
+            {
+              "punto": "Regulación de los equipos de trabajo móviles en las áreas de riesgo."
+            },
+            {
+              "punto": "Equipos de protección individuales para los trabajadores."
+            },
+            {
+              "punto": "Sistema de permisos de trabajo y su organización."
+            },
+            {
+              "punto": "Programa de limpieza."
+            },
+            {
+              "punto": "Organización de los trabajos de mantenimiento, control y comprobación."
+            },
+            {
+              "punto": "Señalización de las áreas de riesgo."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>INSTRUCCIONES DE SERVICIO PARA LOS PUESTOS DE TRABAJO</b><br><br>Las instrucciones de servicio son disposiciones y normas de comportamiento vinculantes relacionadas con la actividad y que el empresario da a los trabajadores por escrito. Son elaboradas por el empresario o una persona capacitada por él designada. Los trabajadores deben observar estas instrucciones, que se refieren a un puesto de trabajo o sector de actividad determinado.<br><br><b>CUALIFICACIÓN DE LOS TRABAJADORES</b><br><br>Los trabajadores deben disponer de la cualificación adecuada y suficiente para realizar determinadas actividades que supongan un riesgo para la seguridad y la salud de los mismos. Por ejemplo para realizar trabajos en tensión la cualificación viene descrita en el R.D. 614/2001, de 8 de junio, sobre disposiciones mínimas de protección de la seguridad y salud de los trabajadores frente al riesgo eléctrico."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/cualificacion1.png"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/cualificacion2.png"
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>CONTENIDO Y FRECUENCIA DE LA FORMACIÓN</b><br><br>Todos los trabajadores propios que acceden o pueden acceder a un área clasificada deben recibir información y formación sobre:",
+          "contenido": [
+            {
+              "punto": "Los riesgos de explosión existentes en el lugar de trabajo y de las medidas de protección adoptadas (R.D. 681/2003 sobre la protección de la salud y la seguridad de los trabajadores expuestos a los riesgos derivados de atmósferas explosivas en el lugar de trabajo)."
+            },
+            {
+              "punto": "Debe explicarse cómo y en qué puntos del lugar de trabajo surge el riesgo de explosión."
+            },
+            {
+              "punto": "Medidas de protección contra explosiones y explicar su funcionamiento."
+            },
+            {
+              "punto": "Manipulación correcta de los equipos de trabajo disponibles. Los trabajadores deben ser formados para la ejecución segura de las tareas en áreas de riesgo o proximidad de éstas."
+            },
+            {
+              "punto": "Significado de la señalización de las áreas de riesgo e indicación de los equipos móviles cuya utilización está autorizada en estas áreas."
+            },
+            {
+              "punto": "Equipos de protección personal que deben utilizar durante el trabajo."
+            },
+            {
+              "punto": "Instrucciones de servicio existentes y sistema de permisos."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "La formación de los trabajadores debe realizarse en los momentos siguientes (Directiva 89/391/CEE del Consejo, de 12 de junio de 1989, relativa a la aplicación de medidas para promover la mejora de la seguridad y de la salud de los trabajadores en el trabajo): • Antes de comenzar su actividad (contratación).",
+          "contenido": [
+            {
+              "punto": "Un traslado o modificación de sus tareas."
+            },
+            {
+              "punto": "La introducción o modificación de equipos de trabajo."
+            },
+            {
+              "punto": "La introducción de una nueva tecnología."
+            },
+            {
+              "punto": "Debido a bajas de larga duración."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "La instrucción debe correr a cargo de una persona debidamente capacitada  y debe documentarse por escrito la fecha, el contenido y los participantes en las acciones de instrucción.<br><br><b>REGULACIÓN DE LOS EQUIPOS DE TRABAJO MÓVILES EN LAS ÁREAS DE RIESGO</b><br><br>Se debe disponer de un listado de equipos de trabajo móviles susceptibles de penetrar en las áreas de riesgo, en el que se identifique en qué zonas clasificadas es adecuado su uso. Este listado se puede incluir como anexo en el Documento de Protección Contra Explosiones.<br><br><b>EQUIPOS DE PROTECCIÓN INDIVIDUALES PARA LOS TRABAJADORES</b><br><br>Los EPIs utilizados deben cumplir con una doble finalidad, proteger al trabajador frente a los riesgos derivados de su actividad y para el caso de las áreas clasificadas, la prevención de ignición de una posible atmósfera explosiva generada.<br>El calzado y la ropa que se suministre a los trabajadores expuestos a los riesgos derivados de atmósferas explosivas, para permitir la disipación de las cargas electrostáticas que pudieran generarse, deben estar certificados de acuerdo con el R.D. 1407/1992, de 20 de noviembre.<br><br><b>SISTEMA DE PERMISOS DE TRABAJO Y SU ORGANIZACIÓN</b><br><br>Se debe establecer un sistema de permisos de actividades con fuego, llamas o cualquier otra fuente de ignición, validados por personal designado competente."
+        },
+        {
+          "clase": "lista",
+          "titulo": "Los permisos de trabajo deberán incluir como mínimo:",
+          "contenido": [
+            {
+              "punto": "El lugar exacto de la empresa en que deben realizarse los trabajos."
+            },
+            {
+              "punto": "Indicación clara del trabajo que debe efectuarse."
+            },
+            {
+              "punto": "Indicación de los riesgos."
+            },
+            {
+              "punto": "Precauciones necesarias; la persona que toma las precauciones debe firmar para acreditar su cumplimiento."
+            },
+            {
+              "punto": "Equipos de protección personal necesarios."
+            },
+            {
+              "punto": "Inicio y finalización previsible de los trabajos."
+            },
+            {
+              "punto": "Aceptación, confirmación y comprensión."
+            },
+            {
+              "punto": "Procedimiento de extensión/relevo de turno."
+            },
+            {
+              "punto": "Retorno de la instalación para comprobación y reanudación del servicio."
+            },
+            {
+              "punto": "Cancelación, instalación probada y reanudación del servicio."
+            },
+            {
+              "punto": "Parte de cualquier anomalía detectada durante el trabajo."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Al término de los trabajos se comprueba que sigue manteniéndose o se ha restablecido la seguridad de la instalación. Se informa a todos los participantes sobre la finalización de los trabajos.<br><br>Un modelo de permiso de trabajo sería el siguiente:<br>"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod04/permisoTrabajo.png"
+        },
                 {
-                  "opcion": "",
-                  "correcto": ""
-                },
+          "clase": "texto",
+          "texto": "<b>PROGRAMA DE LIMPIEZA</b><br><br>La limpieza es una de las medidas preventivas básicas para evitar la formación de atmósferas explosivas por polvo y también para evitar sobrecalentamientos de maquinaria, permanencia de derrames…<br><br><b>ORGANIZACIÓN DE LOS TRABAJOS DE MANTENIMIENTO, CONTROL Y COMPROBACIÓN</b><br><br>Antes de empezar un mantenimiento, es preciso informar a todos los participantes y autorizar dichos trabajos a través del sistema de permisos de trabajo. Los trabajos de mantenimiento deben confiarse únicamente a personas capacitadas para ello.<br><b>SEÑALIZACIÓN DE LAS ÁREAS DE RIESGO</b><br><br>Conforme al apartado 3 del artículo 7 del R.D. 681/2003, los accesos a las áreas en las que puedan formarse atmósferas explosivas en cantidades tales que supongan un peligro para la salud y la seguridad de los trabajadores deberán señalizarse, cuando sea necesario, con la señal de advertencia siguiente:"
+        },
                 {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                }
-              ]
+          "clase": "imagen",
+          "imagen": "img/mod04/exRiesgo.jpg"
+        }
+      ]
+    },
+    {
+      "titulo": "PLANIFICACIÓN, REALIZACIÓN Y COORDINACIÓN DE LAS MEDIDAS DE PROTECCIÓN CONTRA EXPLOSIONES",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<b>PLANIFICACIÓN Y REALIZACIÓN</b><br><br>El documento de protección contra explosiones en este punto debe reflejar la planificación de puesta en marcha de las medidas preventivas.<br><br>Además deberá indicar quién es la persona responsable o encargada de la aplicación de las medidas, cuándo es preciso aplicar dichas medidas y cómo se controla su eficacia.<br><br><b>COORDINACIÓN DE ACTIVIDADES</b><br><br>"
+        },
+        {
+          "clase": "lista",
+          "titulo": "El procedimiento de coordinación de actividades empresariales deberá contener:",
+          "contenido": [
+            {
+              "punto": "Las zonas en que existe o se puede formar una atmósfera explosiva. Actividades a realizar y entorno en el que se van a realizar."
+            },
+            {
+              "punto": "Las medidas preventivas y de protección a adoptar cuando se realicen trabajos o se manipulen sustancias capaces de generar una atmósfera explosiva."
+            },
+            {
+              "punto": "Las medidas preventivas y de protección a adoptar si se van a realizar trabajos en caliente o actividades susceptibles de generar fuentes de ignición. "
+            },
+            {
+              "punto": "Los equipos que se deben utilizar y procedimientos de trabajo a cumplir cuando se realicen actividades en zonas clasificadas por riesgo de explosión."
+            },
+            {
+              "punto": "Cuantas otras medidas estén previstas en la evaluación de riesgos."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Esta información se deberá facilitar por escrito, antes del inicio de la actividad y ante cualquier modificación que deba ser tenida en cuenta para garantizar la seguridad y salud de los trabajadores."
+        }
+      ]
+    },
+        {
+      "titulo": "ANEXO",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "El anexo puede contener, por ejemplo:",
+          "contenido": [
+            {
+              "punto": "Fichas de Datos de Seguridad de las sustancias pueden originar una atmósfera explosiva potencialmente peligrosa."
+            },
+            {
+              "punto": "Declaraciones CE de conformidad de equipos situados en las zonas clasificadas y/o equipos portátiles."
+            },
+            {
+              "punto": "Relación de equipos portátiles adecuados para trabajar en zonas clasificadas."
+            },
+                        {
+              "punto": "Otros: Planes de mantenimiento, programas de limpieza…"
             }
           ]
         }
