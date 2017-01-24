@@ -7,62 +7,55 @@
       "fondo": "img/comunes/portada.svg",
       "subclase": "portada"
     },
+
     {
-      "titulo": "Bienvenida",
-      "contenido": [
-        {
-          "clase": "listaObjetos",
-          "animacion": "fadeInRight",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/mod01/bienvenida.jpg"
-            },
-            {
-              "clase": "texto",
-              "texto": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "GUÍA PARA LA ELABORACIÓN DE DOCUMENTOS DE PROTECCION CONTRA EXPLOSIONES",
+      "titulo": "GUÍA PARA ELABORACIÓN DE DOPEX",
+      "fondo": "img/mod04/brewery.jpg",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Este anexo es un resumen de la 'Guía para la elaboración de documentos de protección contra explosiones' elaborada por la Confederación de Empresarios de Navarra, ya que consideramos esta guía muy completa.<br>Podemos encontrarla en su totalidad en <a href='http://www.navarra.es/NR/rdonlyres/CE41E39E-E35D-45C6-9C65-21230A5655BF/174388/GuiaDocsProteccionContraExplosiones.pdf' target='_blank' style='color:#7986cb'>este enlace</a><br><br>Con el fin de dar respuesta a todos los puntos anteriores se puede estructurar el Documento de Protección Contra Explosiones de la siguiente manera:"
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "texto": "Este anexo es un resumen de la 'Guía para la elaboración de documentos de protección contra explosiones' elaborada por la Confederación de Empresarios de Navarra, ya que consideramos esta guía muy completa.<br>Podemos encontrarla en su totalidad en <a href='http://www.navarra.es/NR/rdonlyres/CE41E39E-E35D-45C6-9C65-21230A5655BF/174388/GuiaDocsProteccionContraExplosiones.pdf' target='_blank' style='color:#7986cb'>este enlace</a>."
         },
+
         {
           "clase": "lista",
-          "subclase": "numeros",
-          "contenido": [
-            {
-              "punto": "Introducción."
-            },
-            {
-              "punto": "Descripción del lugar de trabajo y de los sectores de actividad."
-            },
-            {
-              "punto": "Descripción de los procesos y/o actividades y diagrama de proceso."
-            },
-            {
-              "punto": "Descripción de las substancias utilizadas y sus parámetros de explosividad."
-            },
-            {
-              "punto": "Presentación de los resultados de la evaluación de riesgos."
-            },
-            {
-              "punto": "Medidas de protección adoptadas o a adoptar para la protección contra explosiones (técnicas y organizativas)."
-            },
-            {
-              "punto": "Planificación, realización y coordinación de las medidas de protección contra explosiones. "
-            },
-            {
-              "punto": "ANEXO."
-            }
+          "subclase": "recuadro",
+          "animacion": "fadeInRight",
+          "opacidad": 0.8,
+          "titulo": "Con el fin de dar respuesta a todos los puntos anteriores se puede estructurar el Documento de Protección Contra Explosiones de la siguiente manera:<br><br>",
+          "contenido": [            
+                {
+                  "punto": "Introducción."
+                },
+                {
+                  "punto": "Descripción del lugar de trabajo y de los sectores de actividad."
+                },
+                {
+                  "punto": "Descripción de los procesos y/o actividades y diagrama de proceso."
+                },
+                {
+                  "punto": "Descripción de las substancias utilizadas y sus parámetros de explosividad."
+                },
+                {
+                  "punto": "Presentación de los resultados de la evaluación de riesgos."
+                },
+                {
+                  "punto": "Medidas de protección adoptadas o a adoptar para la protección contra explosiones (técnicas y organizativas)."
+                },
+                {
+                  "punto": "Planificación, realización y coordinación de las medidas de protección contra explosiones. "
+                },
+                {
+                  "punto": "ANEXO."
+                }
+              
+            
           ]
         }
+
       ]
     },
     {
@@ -1743,11 +1736,11 @@
           "clase": "imagen",
           "imagen": "img/mod04/permisoTrabajo.png"
         },
-                {
+        {
           "clase": "texto",
           "texto": "<b>PROGRAMA DE LIMPIEZA</b><br><br>La limpieza es una de las medidas preventivas básicas para evitar la formación de atmósferas explosivas por polvo y también para evitar sobrecalentamientos de maquinaria, permanencia de derrames…<br><br><b>ORGANIZACIÓN DE LOS TRABAJOS DE MANTENIMIENTO, CONTROL Y COMPROBACIÓN</b><br><br>Antes de empezar un mantenimiento, es preciso informar a todos los participantes y autorizar dichos trabajos a través del sistema de permisos de trabajo. Los trabajos de mantenimiento deben confiarse únicamente a personas capacitadas para ello.<br><b>SEÑALIZACIÓN DE LAS ÁREAS DE RIESGO</b><br><br>Conforme al apartado 3 del artículo 7 del R.D. 681/2003, los accesos a las áreas en las que puedan formarse atmósferas explosivas en cantidades tales que supongan un peligro para la salud y la seguridad de los trabajadores deberán señalizarse, cuando sea necesario, con la señal de advertencia siguiente:"
         },
-                {
+        {
           "clase": "imagen",
           "imagen": "img/mod04/exRiesgo.jpg"
         }
@@ -1787,7 +1780,7 @@
         }
       ]
     },
-        {
+    {
       "titulo": "ANEXO",
       "contenido": [
         {
@@ -1803,7 +1796,7 @@
             {
               "punto": "Relación de equipos portátiles adecuados para trabajar en zonas clasificadas."
             },
-                        {
+            {
               "punto": "Otros: Planes de mantenimiento, programas de limpieza…"
             }
           ]

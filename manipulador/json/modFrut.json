@@ -15,28 +15,47 @@
           "texto": "Las frutas y verduras están constituidas por todas las partes comestibles de las plantas, ya sean raíces, tallos, hojas, inflorescencias o frutos."
         },
         {
-          "clase": "icono",
-          "subclase": "definicion",
-          "animacion": "fadeInRight",
-          "texto": "<b>Hortalizas:</b><br>Toda planta herbácea que se cultiva y que es adecuada para el consumo, bien cruda o bien cocinada. El término </b>verdura</b> hace referencia a los órganos verdes de dichas plantas, especialmente hojas, tallos, frutos en vaina o flores. El término de <b>legumbres frescas</b> se refiere a los frutos y semillas no maduros de las hortalizas leguminosas."
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "icono",
+              "subclase": "definicion",
+              "animacion": "fadeInRight",
+              "texto": "<b>Hortalizas:</b><br>Toda planta herbácea que se cultiva y que es adecuada para el consumo, bien cruda o bien cocinada. El término </b>verdura</b> hace referencia a los órganos verdes de dichas plantas, especialmente hojas, tallos, frutos en vaina o flores. El término de <b>legumbres frescas</b> se refiere a los frutos y semillas no maduros de las hortalizas leguminosas.",
+              "imagen": ""
+            },
+            {
+              "clase": "icono",
+              "subclase": "definicion",
+              "animacion": "fadeInRight",
+              "texto": "<b>Legumbres:</b><br>Semillas contenidas en las plantas de la familia de las leguminosas.",
+              "imagen": ""
+            }
+          ]
         },
+
+
         {
-          "clase": "icono",
-          "subclase": "definicion",
-          "animacion": "fadeInRight",
-          "texto": "<b>Legumbres:</b><br>Semillas contenidas en las plantas de la familia de las leguminosas."
-        },
-        {
-          "clase": "icono",
-          "subclase": "definicion",
-          "animacion": "fadeInRight",
-          "texto": "<b>Frutas:</b><br>El conjunto de frutos comestibles de ciertas plantas cultivadas o silvestres."
-        },
-        {
-          "clase": "icono",
-          "subclase": "definicion",
-          "animacion": "fadeInRight",
-          "texto": "<b>Setas:</b><br>Son variedades de hongos comestibles, entre los que destacan champiñones, níscalos, boletus, etc."
+          "clase": "listaObjetos",
+          "contenido": [
+
+
+
+            {
+              "clase": "icono",
+              "subclase": "definicion",
+              "animacion": "fadeInRight",
+              "texto": "<b>Frutas:</b><br>El conjunto de frutos comestibles de ciertas plantas cultivadas o silvestres.",
+              "imagen": ""
+            },
+            {
+              "clase": "icono",
+              "subclase": "definicion",
+              "animacion": "fadeInRight",
+              "texto": "<b>Setas:</b><br>Son variedades de hongos comestibles, entre los que destacan champiñones, níscalos, boletus, etc.",
+              "imagen": ""
+            }
+          ]
         }
       ]
     },
