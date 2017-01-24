@@ -21,7 +21,7 @@ var CURSO = {
     inicializar: function(modulo){
         this.modulo = modulo;
     },
-    inicializar: function (modulo, sco) {
+    inicializar: function(modulo, sco) {
         this.modulo = modulo;
         this.scoActual = sco;
         this.scoUltimo = sco;
