@@ -5,14 +5,14 @@
       <imsmd:general>
         <imsmd:identifier>Curso</imsmd:identifier>
         <imsmd:title>
-          <imsmd:langstring xml:lang="es">powtoon</imsmd:langstring>
+          <imsmd:langstring xml:lang="es">Powtoon</imsmd:langstring>
         </imsmd:title>
         <imsmd:catalogentry>
-          <imsmd:catalog>powtoon</imsmd:catalog>
+          <imsmd:catalog>Powtoon</imsmd:catalog>
         </imsmd:catalogentry>
         <imsmd:language>es</imsmd:language>
         <imsmd:description>
-          <imsmd:langstring xml:lang="es">powtoon</imsmd:langstring>
+          <imsmd:langstring xml:lang="es">Powtoon</imsmd:langstring>
         </imsmd:description>
       </imsmd:general>
     </imsmd:lom>
@@ -20,13 +20,13 @@
   <organizations default="MNT">  
 		<organization identifier="CURSOS" structure="hierarchical">
 			<title>Mavi Nuevas Tecnologías </title>
-			<item identifier="powtoon" isvisible="true" identifierref="powtoon" >
-				<title>powtoon</title>			
+			<item identifier="Powtoon" isvisible="true" identifierref="Powtoon" >
+				<title>Powtoon</title>			
 			</item>
 		</organization>
 </organizations>
   <resources>
-    <resource identifier="powtoon" type="webcontent" href="powtoon/index.html">
+    <resource identifier="Powtoon" type="webcontent" href="powtoon/index.html">
     </resource> 
   </resources>
 </manifest>

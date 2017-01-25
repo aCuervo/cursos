@@ -5,14 +5,14 @@
       <imsmd:general>
         <imsmd:identifier>Curso</imsmd:identifier>
         <imsmd:title>
-          <imsmd:langstring xml:lang="es">Carretillas</imsmd:langstring>
+          <imsmd:langstring xml:lang="es">Atex</imsmd:langstring>
         </imsmd:title>
         <imsmd:catalogentry>
-          <imsmd:catalog>Carretillas</imsmd:catalog>
+          <imsmd:catalog>Atex</imsmd:catalog>
         </imsmd:catalogentry>
         <imsmd:language>es</imsmd:language>
         <imsmd:description>
-          <imsmd:langstring xml:lang="es">Carretillas</imsmd:langstring>
+          <imsmd:langstring xml:lang="es">Atex</imsmd:langstring>
         </imsmd:description>
       </imsmd:general>
     </imsmd:lom>
@@ -20,13 +20,13 @@
   <organizations default="MNT">  
 		<organization identifier="CURSOS" structure="hierarchical">
 			<title>Mavi Nuevas Tecnologías </title>
-			<item identifier="CARRETILLAS" isvisible="true" identifierref="CARRETILLAS" >
-				<title>Carretillas</title>			
+			<item identifier="ATEX" isvisible="true" identifierref="ATEX" >
+				<title>Atex</title>			
 			</item>
 		</organization>
 </organizations>
   <resources>
-    <resource identifier="CARRETILLAS" type="webcontent" href="carretillas/index.html">
+    <resource identifier="ATEX" type="webcontent" href="atex/index.html">
     </resource> 
   </resources>
 </manifest>
