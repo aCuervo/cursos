@@ -1,0 +1,758 @@
+﻿{
+  "modulo": "MOD. 10: RIESGOS ASOCIADOS AL USO DE LAS PEMP",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "RIESGOS ASOCIADOS AL USO DE LAS PEMP",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod10/hombreParaguas.png",
+              "animacion": "fadeInUp",
+              "subclase": "paraCambiar",
+              "ancho": 300,
+              "pie": "el muñeco de siempre con un paraguas y lloviendo (protegiéndose de la lluvia)"
+            },
+            {
+              "clase": "texto",
+              "animacion": "fadeInRight",
+              "texto": "En este nuevo módulo trataremos los <b>principales peligros y riesgos asociados al uso de las PEMP</b> y las <b>medidas de prevención y de protección</b> frente a esos riesgos específicos.<br><br>Ten en cuenta que, aunque constructivamente la PEMP es un máquina segura, existen determinados <b>riesgos</b> que <b>dependerán</b> en gran parte del <b>trabajo</b> que se realice y que justifican la <b>necesidad</b> de la <b>evaluación de riesgos previa</b>.<br><br>Hablaremos de ello en este capítulo. Seguro que ya te van sonando muchas cosas de las que aquí veremos. ¡Adelante!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Principales peligros y factores de riesgo",
+      "contenido": [
+        {
+          "clase": "acordeon",
+          "animacion": "rubberBand",
+          "contenido": [
+            {
+              "titulo": "CAÍDA DE PERSONAS DEBIDO A FALLOS DEL EQUIPO, HIDRÁULICOS, MECÁNICOS, POR MAL USO, ETC",
+              "texto": "Las caídas a distinto nivel en las PEMP <b>pueden deberse</b> entre otras situaciones a las siguientes:<br><br><ul><li><b>Basculamiento</b> del conjunto del equipo al estar situado sobre una <b>superficie inclinada o en mal estado</b>, falta de estabilizadores, etc. </li><li><b>Ausencia de barandillas de seguridad</b> en parte o todo el perímetro de la plataforma. </li><li>Efectuar trabajos utilizando <b>elementos auxiliares</b> tipo escalera, banquetas, etc., para <b>ganar altura</b>. </li><li>Trabajar sobre la plataforma sin utilizar los <b>equipos de protección individual</b> debidamente anclados.</li><li><b>Rotura de la plataforma</b> de trabajo por <b>sobrecarga, deterioro o mal uso</b> de la misma.</li><li>Utilizar la PEMP para <b>acceder</b> desde la misma a una instalación o estructura externa. </li><li><b>Trabajar</b> con <b>parte del cuerpo situado fuera de la plataforma</b> de trabajo.</li> <li><b>Subir o bajar</b> utilizando la <b>estructura</b> de elevación.</li><li><b>Efecto catapulta</b> al pasar por encima de un bordillo, etc.</li></ul>",
+              "imagen": "img/mod10/caidas.png",
+              "ancho": 200
+            },
+            {
+              "titulo": "VUELCO DEL EQUIPO",
+              "texto": "El vuelco en las PEMP pueden deberse entre otras situaciones a las siguientes:<br><br><ul><li>Trabajar con el <b>chasis</b> situado sobre una <b>superficie inclinada</b>. </li><li><b>Hundimiento o reblandecimiento</b> de toda o parte de la <b>superficie de apoyo</b> del chasis. </li><li><b>No utilizar placas estabilizadoras</b> o hacerlo de forma incorrecta. </li><li>Apoyar la PEMP total o parcialmente sobre <b>superficies poco resistentes</b>. </li><li><b>Sobrecargar</b> la plataforma de trabajo respecto a su <b>carga nominal</b>. </li><li><b>Efecto péndulo</b> al caer al vacío desde la plataforma de trabajo, llevando el operario una eslinga no ajustable, siendo el punto de giro el punto de anclaje, lo que puede provocar en determinadas circunstancias el vuelco de la PEMP. </li><li><b>No respetar</b> la distancia <b>mínima de seguridad</b> respecto a una <b>zanja</b>. </li><li><b>Usar la PEMP como una grúa</b> para elevar cargas suspendidas. </li><li>Aumentar la superficie de la plataforma de trabajo con <b>estructuras adicionales</b>. </li><li>Utilizar el equipo en <b>condiciones meteorológicas adversas</b> tales como viento, lluvia, tormentas con aparato eléctrico, etc. </li><li><b>Sobrepasar</b> la <b>fuerza máxima lateral admisible</b>, por ejemplo utilizando una manguera de agua a alta presión para limpiar una fachada. </li><li>Sobrepasar el <b>número máximo admisible de personas</b> en la plataforma de trabajo. </li></ul>",
+              "imagen": "img/mod10/vuelcos.png",
+              "ancho": 180
+            },
+            {
+              "titulo": "CAÍDA DE MATERIALES",
+              "texto": "La caída de material o herramientas sobre personas o equipos en las PEMP pueden deberse entre otras situaciones a las siguientes:<br><br><ul><li><b>Vuelco</b> del equipo. </li><li>Plataforma de trabajo <b>sin protecciones perimetrales</b> junto con la existencia de <b>herramientas sueltas o materiales dejados</b> sobre la superficie. </li><li><b>Rotura de la plataforma</b> de trabajo. </li><li><b>Personas</b> situadas <b>en las proximidades</b> de la zona de trabajo o <b>bajo la vertical</b> de la plataforma sin balizar.</li>",
+              "imagen": "img/mod10/caidaDeMaterial.png",
+              "ancho": 350
+            },
+            {
+              "titulo": "GOLPES, CHOQUES O ATRAPAMIENTOS DEL OPERARIO O LA PROPIA PEMP CONTRA OBJETOS FIJOS O MÓVILES",
+              "texto": "Esto puede deberse a:<br><br><ul><li>Realizar <b>movimientos de elevación o pequeños desplazamientos</b> del equipo en <b>proximidades de obstáculos fijos o móviles</b> sin las correspondientes <b>precauciones</b> (por ejemplo: no mirar en el sentido del movimiento del equipo de trabajo, no mantener todos los miembros del cuerpo en el interior de la plataforma, etc.)</li><li><b>No</b> tener en cuenta el <b>estado del terreno</b> por el que se traslada.</li><li><b>Efecto péndulo</b> al caer el operario al vacío utilizando una eslinga no ajustable golpeándose contra obstáculos que se encuentran en la trayectoria de caída o con elementos de la propia PEMP.</li></ul>",
+              "imagen": "img/mod10/golpes.png",
+              "ancho": 450
+            },
+            {
+              "titulo": "CAÍDAS AL MISMO NIVEL",
+              "texto": "Debidas a <b>falta de orden y limpieza en la plataforma</b> de trabajo."
+            },
+            {
+              "titulo": "ATRAPAMIENTO DE EXTREMIDADES",
+              "texto": "<ul><li>Efectuar algún tipo de <b>actuación en la estructura durante la operación de bajada/subida</b> de la misma. </li><li>Situarse entre el <b>chasis y la plataforma durante la operación de bajada/subida</b> de la plataforma de trabajo.</li></ul>",
+              "imagen": "img/mod10/atrapamiento.png",
+              "ancho": 300
+            },
+            {
+              "titulo": "CONTACTOS ELÉCTRICOS",
+              "texto": "Puede deberse a:<br><br><ul><li>Efectuar <b>trabajos en proximidad a líneas eléctricas de AT y/o BT</b> ya sean aéreas o en fachada.</li> <li>Utilizar la PEMP <b>como toma de tierra</b>. </li><li>Utilizar la PEMP en caso de <b>tormentas</b> con <b>aparato eléctrico</b>. </li></ul>",
+              "imagen": "img/mod10/contactoElectrico.png",
+              "ancho": 300
+            },
+            {
+              "titulo": "MOVIMIENTO DE TRASLACIÓN DE LAS PEMP",
+              "texto": "El <b>movimiento</b> de la PEMP al trasladarse puede provocar la <b>caida</b> del operario desde la plataforma o bien el <b>vuelco</b> de la PEMP."
+            },
+            {
+              "titulo": "QUEMADURAS O INTOXICACIONES",
+              "texto": "Debidas a:<br><br><ul><li><b>Cargar las baterías en zonas mal ventiladas</b> con riesgo de explosión por vapor de hidrógeno. </li><li><b>Repostar</b> combustible con el <b>motor en marcha</b>. </li><li>Proyección de líquido hidráulico por <b>rotura de alguna manguera con presión</b>. </li><li><b>Contacto con las partes calientes</b> del motor de combustión.</li><li>Uso de la PEMP con motor de <b>combustión</b> en locales con <b>ventilación insuficiente</b>. </li><li>Utilizar la PEMP en zonas o <b>áreas con riesgo de inflamación, deflagración, explosión o incendio</b>. </li><li><b>Falta de EPI</b> adecuadas en la <b>comprobación o manipulación</b> de las baterías.</li></ul>",
+              "imagen": "img/mod10/intoxicacion.png",
+              "ancho": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Medidas de protección y prevención (I)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInLeft",
+          "texto": "<h2>Características constructivas de seguridad</h2><br>Las <b>medidas de prevención y protección</b> se definen describiendo las <b>características de cada parte</b> de  las plataformas elevadoras móviles de personal (PEMP) y las medidas de protección frente a los riesgos específicos. Según apunta la <a HREF='http://www.insht.es/InshtWeb/Contenidos/Documentacion/NTP/NTP/NTP%201040.pdf' target='_blank'><b>NTP 1040</b></a>, las características constructivas de seguridad están relacionados fundamentalmente con las <b>características de la estructura y estabilidad</b>, los sistemas de <b>accionamiento y dispositivos de seguridad</b> adecuados, la presencia de <b>estabilizadores</b> y de <b>estructuras extensibles</b>."
+        },
+        {
+          "clase": "tabs",
+          "animacion": "wobble",
+          "contenido": [
+            {
+              "titulo": "Cálculos de estructura y estabilidad",
+              "texto": "El <b>fabricante</b> es <b>responsable</b> de los cálculos estructurales, de la evaluación de las cargas y fuerzas individuales en sus posiciones, direcciones y combinaciones produciendo las condiciones más desfavorables de esfuerzo de sus componentes, de los cálculos de estabilidad, de la identificación de las diversas posiciones de la PEMP y de las combinaciones de cargas y fuerzas que, conjuntamente proporcionan unas condiciones de estabilidad mínimas.<br><br>En el <b>manual de instrucciones</b> del fabricante deben indicarse las cargas y fuerzas relativas a la <b>carga nominal</b>, cargas debidas al <b>viento</b> y <b>fuerzas manuales</b> y el operador debe <b>utilizar</b> el equipo <b>dentro de los límites establecidos</b>."
+            },
+            {
+              "titulo": "Chasis y estabilizadores",
+              "texto": "El chasis debe disponer de los siguientes <b>dispositivos de seguridad</b>: <br><br><ul><li>Dispositivo que <b>impida su traslación</b> cuando no esté en posición de transporte. (PEMP con conductor acompañante y las autopropulsadas del tipo 1). </li><li>Dispositivo (por ejemplo, un nivel de burbuja) que <b>indique si la inclinación o pendiente del chasis está dentro de los límites establecidos</b> por el fabricante.  Para las PEMP con estabilizadores accionados mecánicamente este dispositivo debe ser visible desde cada puesto de mando de los estabilizadores. </li></ul><br>Las PEMP del <b>tipo 3</b> deben disponer de una <b>señal sonora audible y óptica</b>, que advierta cuando se alcanzan los <b>límites máximos de inclinación</b> e <b>impedir la traslación</b> en la dirección seleccionada. Las <b>bases de apoyo</b> de los estabilizadores deben estar construidas de forma que puedan <b>adaptarse a suelos</b> que presenten una pendiente o <b>desnivel de por lo menos de 10°</b>."
+            },
+            {
+              "titulo": "Estructuras extensibles",
+              "texto": "Las PEMP deben estar equipadas con <b>dispositivos de control que reduzcan el riesgo de vuelco</b> o de <b>sobrepasar las tensiones admisibles</b>. Distinguimos entre las PEMP del grupo A y las del grupo B para indicar los <b>métodos más aconsejables</b> en cada caso: <br><br><h3><ins>Grupo A</ins>:</h3> <li>Sistema de <b>control de carga</b> y <b>registrador de posición</b>. </li><li><b>Control de posición</b> con <b>criterios de estabilidad y de sobrecarga</b> reforzada.</li><br><br><h3><ins>Grupo B</ins>:</h3> <li>Sistema de <b>control de carga</b> y <b>registrador de posición</b>. </li><li>Sistemas de <b>control de la carga y del momento</b>. </li><li><b>Control de posición</b> con <b>criterios de estabilidad y de sobrecarga</b> reforzada. </li><li>Sistemas de <b>control del momento con criterio de sobrecarga reforzado</b>. </li><br><br>Conviene destacar que <b>los controles</b> de carga y de momento <b>no protegen</b> contra una <b>sobrecarga</b> que sobrepase ampliamente la <b>carga nominal</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Medidas de protección y prevención (II)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "rotateInDownLeft",
+          "texto": "<h2>Sistemas de accionamiento de las estructuras extensibles</h2><br>Los sistemas de accionamiento deben estar concebidos y construidos de forma que impidan todo movimiento intempestivo de la estructura extensible. "
+        },
+        {
+          "clase": "tabla",
+          "animacion": "rotateIn",
+          "filaTitulos": [
+            {
+              "titulo": "Sistemas de accionamiento"
+            },
+            {
+              "titulo": "Características"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "Cables y cadenas"
+                },
+                {
+                  "texto": "Los <b>sistemas de accionamiento por cables</b> constan de un <b>dispositivo</b> o sistema que en caso de un <b>fallo</b> limiten a 0,2 m el <b>movimiento vertical</b> de la plataforma de trabajo con la <b>carga máxima de utilización</b>."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Tornillo"
+                },
+                {
+                  "texto": "La <b>plataforma</b> de trabajo <b>no</b> se debe poder <b>elevar</b> desde su posición de acceso, si la <b>tuerca de seguridad está cargada</b>. <br><br>Los tornillos deben estar equipados en cada uno de sus extremos por dispositivos (por ejemplo, topes mecánicos), que impidan que las tuercas de carga y de seguridad se salgan del tornillo. "
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Piñón y cremallera"
+                },
+                {
+                  "texto": "Deben estar <b>provistos</b> de un <b>dispositivo de seguridad</b> accionado por un <b>limitador de sobrevelocidad</b>. Este dispositivo de seguridad debe llevar progresivamente la plataforma de trabajo con la carga máxima hasta un tope y mantenerla parada, en caso de fallo del mecanismo de elevación. <br><br>Si el <b>dispositivo de seguridad está accionado</b>, el suministro de energía debe <b>cortarse</b> automáticamente."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Medidas de protección y prevención (III)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "rotateInDownLeft",
+          "texto": "<h2>Plataforma de trabajo</h2>"
+        },
+        {
+          "clase": "acordeon",
+          "animacion": "jello",
+          "contenido": [
+            {
+              "titulo": "EQUIPAMIENTO",
+              "texto": "<br><br>La plataforma de trabajo debe estar equipada con <b>barandillas o cualquier otra estructura en todo su perímetro</b> a una <b>altura mínima de 0,90 m</b> y disponer de una <b>protección</b> que impida el paso o deslizamiento por debajo de las mismas o la caída de objetos sobre personas de acuerdo con el Real Decreto 486/1997 sobre lugares de trabajo (Anexo I.A.3.3) y el Real Decreto 1215/1997 sobre equipos de trabajo (Anexo 1.1.6). La norma UNE-EN 280 es más exigente y específica al señalar que la plataforma debe tener una <b>baranda</b> de altura de <b>al menos 1,1 m</b>, un <b>zócalo de al menos 0,15 m</b> de altura y una <b>barandilla intermedia</b> dispuesta <b>a menos de 0,55 m</b> de la baranda superior o del zócalo. En los <b>accesos de la plataforma</b> la <b>altura del zócalo</b> puede reducirse a <b>0,1 m</b>. <br><br>La plataforma debe tener una <b>puerta de acceso</b> o en su defecto elementos movibles que <b>no</b> deben abrirse hacia el <b>exterior</b>.<br><br>Los <b>elementos de protección movibles</b> utilizados para permitir el acceso a la plataforma deben estar construidos para <b>cerrarse y bloquearse automáticamente</b>, o bien disponer de un <b>sistema de bloqueo</b>, de forma que impida todo <b>movimiento de la PEMP</b> mientras no estén <b>cerrados y bloqueados</b>. <b>No</b> debe ser posible su <b>apertura involuntaria</b>. Normalmente el <b>cierre y bloqueo</b> del acceso a la plataforma de trabajo se hace <b>por gravedad</b>, pero también se puede realizar a través de sistema de <b>enclavamiento</b>, de manera de que si la puerta de acceso no está cerrada, la PEMP no funciona.<br><br>El <b>suelo</b>, comprendida la trampilla si dispone de ella, debe ser <b>antideslizante</b> y permitir la <b>salida del agua</b> (por ejemplo, enrejado o metal perforado). Las <b>aberturas</b> deben estar <b>dimensionadas</b> para impedir el paso de una <b>esfera de 15 mm</b> de diámetro.<br><br>Las PEMP del <b>tipo 3</b> deben estar equipadas con un <b>avisador sonoro</b> accionado desde la propia plataforma de trabajo, mientras que las del <b>tipo 2</b> deben estar equipadas con <b>medios de comunicación</b> entre el personal situado sobre la <b>plataforma de trabajo</b> y el conductor del <b>vehículo portador</b>.",
+              "imagen": "img/mod10/plataformaDeTrabajo.png"
+            },
+            {
+              "titulo": "SISTEMAS DE MANDO",
+              "texto": "La plataforma debe tener <b>dos sistemas de mando</b>, un primario y un secundario. El <b>primario</b> debe estar <b>sobre la plataforma</b> y accesible para el operador. Los <b>mandos secundarios</b> deben estar diseñados para sustituir los primarios y deben estar situados para ser <b>accesibles desde el suelo</b>.<br><br>Los sistemas de mando deben estar <b>perfectamente marcados</b> de forma indeleble de fácil comprensión según códigos normalizados. Todos los mandos direccionales deben activarse en la dirección de la función <b>volviendo a la posición de paro</b> o neutra automáticamente cuando se deje de actuar sobre ellos. Los mandos deben estar diseñados de forma que no puedan ser accionados de forma inadvertida o por personal no autorizado (por ej. un interruptor bloqueable).",
+              "imagen": "img/mod10/indicadores.png",
+              "ancho": 300
+            },
+            {
+              "titulo": "SISTEMAS DE SEGURIDAD DE INCLINACIÓN MÁXIMA",
+              "texto": "La <b>inclinación</b> de la plataforma de trabajo <b>no</b> debe variar <b>más de 5º</b> respecto a la horizontal o al plano del chasis durante los movimientos de la estructura extensible o bajo el efecto de las cargas y fuerzas de servicio. <br><br>En caso de <b>fallo</b> del sistema de mantenimiento de la horizontalidad, debe existir un <b>dispositivo de seguridad</b> que mantenga el nivel de la plataforma con una tolerancia suplementaria de 5º. También es aceptable un <b>ajuste manual</b> de la plataforma para una inclinación superior a 5º siempre que la estructura extensible esté parada."
+            },
+            {
+              "titulo": "SISTEMA DE BAJADA AUXILIAR",
+              "texto": "Todas las plataformas de trabajo deben estar equipadas con <b>sistemas auxiliares manuales</b> o con un <b>motor auxiliar de descenso</b> y con un <b>sistema retráctil o de rotación en caso de fallo</b> del sistema primario."
+            },
+            {
+              "titulo": "SISTEMA DE PARO DE EMERGENCIA",
+              "texto": "La plataforma de trabajo debe estar equipada con un sistema de paro de emergencia fácilmente accesible que <b>desactive todos los sistemas de accionamiento</b> de una forma efectiva, conforme a la norma UNE-EN ISO 13850:2008, se permite <b>anular la parada de emergencia y el sistema de sensor de carga</b> para rescatar a un <b>operario atrapado y/o incapacitado</b>, pero tiene que quedar una evidencia clara de que ha sido utilizado o manejado. <br><br>La anulación de las funciones de seguridad solo se permite <b>utilizando un dispositivo de selección de modo</b>, que es <b>independiente del dispositivo de selección de la estación de control</b>. Dicho dispositivo de selección de modo es de seguridad y debe <b>manejarse con mandos de accionamiento mantenido, a baja velocidad, un movimiento cada vez</b> y debe <b>prohibirse</b> su uso sin autorización.",
+              "imagen": "img/mod10/seta.png",
+              "ancho": 300
+            },
+            {
+              "titulo": "SISTEMAS DE ADVERTENCIA",
+              "texto": "La plataforma de trabajo debe estar equipada con una <b>alarma u otro sistema</b> de advertencia que se active <b>automáticamente cuando la base de la plataforma se inclina más de 5º de la inclinación máxima</b> permitida en cualquier dirección."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Medidas de protección y prevención (IV)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<h2>Sistemas de elevación</h2>",
+          "animacion": "rotateInDownLeft"
+        },
+        {
+          "clase": "tabla",
+          "subclase": "separada",
+          "animacion": "rotateInUpRight",
+          "filaTitulos": [
+            {
+              "titulo": "SISTEMAS DE SEGURIDAD"
+            },
+            {
+              "titulo": "SISTEMAS DE PROTECCIÓN"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "Todos los <b>sistemas de conducción hidráulicos y neumáticos</b> así como los <b>componentes peligrosos</b> deben tener una resistencia a la <b>rotura</b> por presión <b>cuatro veces</b> la presión de trabajo para la que han sido diseñados. Para los componentes <b>no peligrosos</b> esta resistencia será <b>dos veces</b> la presión de trabajo. Se consideran <b>componentes peligrosos</b> aquellos que, <b>en caso de fallo</b> o mal funcionamiento, implicaría un <b>descenso</b> libre de la plataforma."
+                },
+                {
+                  "texto": "Cuando la <b>elevación</b> de la plataforma se realice mediante un <b>sistema electromecánico</b>, éste debe estar diseñado para <b>impedir el descenso libre en caso de fallo</b> en el generador o del suministro de energía. <br><br>Cuando la <b>elevación</b> de la plataforma se realice mediante un <b>sistema hidráulico o neumático</b>, el sistema debe estar equipado para prevenir <b>una caída libre</b> en caso de <b>rotura</b> de alguna conducción hidráulica o neumática. <br><br>Los <b>sistemas hidráulicos o neumáticos</b> de los estabilizadores o cualquier otro sistema deben estar <b>diseñados para prevenir su cierre</b> en caso de <b>rotura de alguna conducción</b> hidráulica o neumática."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Dispositivos de seguridad",
+      "fondo": "img/mod10/fondoHidraulico.jpg",
+      "contenido": [
+        {
+          "clase": "tabs",
+          "animacion": "swing",
+          "contenido": [
+            {
+              "titulo": "ELÉCTRICOS",
+              "texto": "Los interruptores de seguridad que actúen como componentes que dan información deben satisfacer la norma <b>UNE-EN 60204-1</b> <i>Seguridad de las máquinas. Equipo eléctrico de las máquinas. Parte 1: Requisitos generales.</i> ",
+              "imagen": "img/mod10/interruptor.png",
+              "ancho": 100
+            },
+            {
+              "titulo": "HIDRÁULICOS Y NEUMÁTICOS",
+              "texto": "Deben estar concebidos e instalados de forma que ofrezcan <b>niveles de seguridad</b> equivalentes a los dispositivos de <b>seguridad eléctricos</b>. Los <b>componentes hidráulicos y neumáticos</b> de estos dispositivos y sistemas que actúen directamente sobre los circuitos de potencia de los sistemas hidráulicos y neumáticos deben estar <b>duplicados</b> si el <b>fallo</b> de un componente puede generar una <b>situación peligrosa</b>. <br><br>Los <b>distribuidores</b> pilotados de estos componentes deben estar concebidos e instalados de forma que <b>mantengan la seguridad en caso de fallo</b> de energía, es decir <b>parar</b> el movimiento correspondiente.",
+              "imagen": "img/mod10/hidraulico.png",
+              "ancho": 200
+            },
+            {
+              "titulo": "MECÁNICOS",
+              "texto": "Deben estar concebidos e instalados de forma que ofrezcan <b>niveles de seguridad equivalentes</b> a los dispositivos de seguridad eléctricos. Esta exigencia se satisface por las varillas, palancas, cables, cadenas, etc., si resisten al menos dos veces la carga a la que son sometidos.",
+              "imagen": "img/mod10/mecanico.png",
+              "ancho": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Simbologia habitual de las PEMP",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "animacion": "rotateIn",
+          "imagen": "img/mod10/simbolos.png"
+        }
+      ]
+    },
+    {
+      "titulo": "Protección frente a riesgos de contacto eléctrico (I)",
+      "contenido": [
+
+        {
+          "clase": "listaObjetos",
+          "subclase": "flex-start centroAncho",
+          "contenido": [
+            {
+              "clase": "texto",
+              "animacion": "bounceInLeft",
+              "texto": "<h3>LÍNEAS ELÉCTRICAS DE ALTO VOLTAJE</h3><br>Para prevenir el riesgo de electrocución se deben aplicar los criterios establecidos en el Real Decreto 614/2001 sobre <b>disposiciones mínimas para la protección de la salud y seguridad de los trabajadores frente al riesgo eléctrico</b>, principalmente respetando unas <b>distancias límite</b>. Dichas distancias pueden verse en la tabla siguiente:"
+            },
+            {
+              "clase": "imagen",
+              "animacion": "rotateIn",
+              "imagen": "img/mod10/distanciasLimite.jpg",
+              "ancho": 600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Protección frente a riesgos de contacto eléctrico (II)",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod10/distanciaAtorreta.png",
+              "ancho": 300,
+              "pie": "La distancia se mide con el brazo extendido",
+              "animacion": "zoomInLeft"
+            },
+            {
+              "clase": "texto",
+              "animacion": "zoomInRight",
+              "texto": "En los <b>trabajos controlados</b> en los que una PEMP ha de pasar bajo una línea eléctrica aérea, se deben <b>colocar barreras y conos de señalización</b> a nivel del suelo, para indicar el camino por el que circulará la máquina. Si no existe esa necesidad, se colocarán <b>barreras modo</b> que permitan mantenerse a una  <b>distancia de seguridad</b> de la misma.<br><br>Muchos accidentes mortales se producen por haber acercado demasiado una parte de la máquina a las <b>líneas eléctricas</b>. La distancia de seguridad <b>mínima</b> será la que existe entre las <b>líneas eléctricas</b> y el <b>brazo de la PEMP</b> completamente extendido. Esta distancia es de <b>15 metros</b> si la línea aérea está montada en torre de acero, y de <b>9 metros</b> si está en un poste de madera, cemento o acero. Estas distancias se miden <b>horizontalmente</b>, proyectadas en el suelo y desde el punto donde se encuentra el punto más cercano de la PEMP y el más cercano para un posible contacto de la torre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Protección frente a riesgos de contacto eléctrico (III)",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "<h3>CONSEJOS:</h3><br>",
+          "animacion": "bounceInDown",
+          "contenido": [
+            {
+              "punto": "Todas las líneas eléctricas han de tratarse como <b>elementos peligrosos</b>, a no ser que la gestora eléctrica las declare inactivas."
+            },
+            {
+              "punto": "Los <b>vientos fuertes</b>, pueden balancear  los tendidos eléctricos <b>reduciendo</b> la distancia de seguridad."
+            },
+            {
+              "punto": "Cada vez que <b>movamos</b> la PEMP debemos volver a <b>comprobar</b> que se mantiene la <b>distancia  de seguridad</b>."
+            },
+            {
+              "punto": "<b>Respetar</b> en todo momento la <b>señalización</b> empleada para delimitar la distancia segura de trabajo."
+            },
+            {
+              "punto": "<b>Nunca</b> elevar ninguna parte de la máquina al desplazarse <b>bajo un tendido eléctrico</b> o entre dos conjuntos de postes."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod10/ok.png",
+              "ancho": 150,
+              "animacion": "bounceInLeft"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod10/dontForget.png",
+              "ancho": 250,
+              "animacion": "bounceInUp"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod10/information.png",
+              "ancho": 150,
+              "animacion": "bounceInRight"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Protección frente a riesgos de contacto eléctrico (IV)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<h3>PROCEDIMIENTOS DE EMERGENCIA EN CASO DE CONTACTO CON LÍNEA ELÉCTRICA ACTIVA</h3>",
+          "animacion": "rotateInDownLeft"
+        },
+        {
+          "clase": "lista",
+          "subclase": "anillas vertical",
+          "animacion": "zoomInUp",
+          "titulo": "Si la PEMP entra en contacto con una línea eléctrica activa, se deben respetar las siguientes <b>precauciones</b> para reducir el riesgo de electrocución:",
+          "contenido": [
+            {
+              "punto": "<b>Permanecer en el interior</b> de la plataforma. <b>Avisar</b> al resto de personal para que se aparte de la máquina y no la  toquen."
+            },
+            {
+              "punto": "<b>Intentar moverla</b> sin ayuda de ningún compañero, hasta que esté <b>alejada de la línea</b> o consiga bajar la plataforma a la altura del suelo."
+            },
+            {
+              "punto": "Si esto <b>no</b> es posible, <b>permanezca</b> dentro de la cesta, y haga que <b>alguien avise</b> de inmediato a la <b>autoridad eléctrica</b> para comunicar el incidente. <b>Espere</b> hasta que le comuniquen que las condiciones son seguras."
+            },
+            {
+              "punto": "No toque la máquina y la tierra al mismo tiempo."
+            },
+            {
+              "punto": "Hasta que no se consiga mover la máquina fuera de la zona de peligro, alguien deberá <b>hacer guardia</b> en las cercanías, para evitar imprudencias."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Resumen (I)",
+      "contenido": [
+        {
+          "clase": "diagrama",
+          "cajas": [
+            {
+              "id": 1,
+              "forma": "rect",
+              "texto": "<h3><font color='white'>PRINCIPALES RIESGOS</font></h3>",
+              "ancho": 800,
+              "alto": 60,
+              "x": 151,
+              "y": 1,
+              "relleno": "#71AA00",
+              "borde": "#71AA00",
+              "anchoBorde": 3,
+              "orden": 1
+            },
+            {
+              "id": 2,
+              "forma": "rect",
+              "texto": "VUELCO DEL EQUIPO",
+              "ancho": 300,
+              "alto": 90,
+              "x": 1,
+              "y": 120,
+              "relleno": "#E0FFA1",
+              "borde": "#E0FFA1",
+              "anchoBorde": 1,
+              "orden": 3
+            },
+            {
+              "id": 3,
+              "forma": "rect",
+              "texto": "CAÍDA DE PERSONAS Y/O MATERIALES A DISTINTO O AL MISMO NIVEL",
+              "ancho": 300,
+              "alto": 90,
+              "x": 200,
+              "y": 240,
+              "relleno": "#E0FFA1",
+              "borde": "#E0FFA1",
+              "anchoBorde": 1,
+              "orden": 5
+            },
+            {
+              "id": 4,
+              "forma": "rect",
+              "texto": "GOLPES, CHOQUES O ATRAPAMIENTOS DE LOS TRABAJADORES",
+              "ancho": 300,
+              "alto": 90,
+              "x": 400,
+              "y": 360,
+              "relleno": "#E0FFA1",
+              "borde": "#E0FFA1",
+              "anchoBorde": 1,
+              "orden": 7
+            },
+            {
+              "id": 5,
+              "forma": "rect",
+              "texto": "QUEMADURAS Y/O INTOXICACIONES",
+              "ancho": 300,
+              "alto": 90,
+              "x": 600,
+              "y": 240,
+              "relleno": "#E0FFA1",
+              "borde": "#E0FFA1",
+              "anchoBorde": 1,
+              "orden": 9
+            },
+            {
+              "id": 6,
+              "forma": "rect",
+              "texto": "CONTACTOS ELÉCTRICOS DIRECTOS O INDIRECTOS",
+              "ancho": 300,
+              "alto": 90,
+              "x": 800,
+              "y": 120,
+              "relleno": "#E0FFA1",
+              "borde": "#E0FFA1",
+              "anchoBorde": 1,
+              "orden": 11
+            }
+          ],
+          "enlaces": [
+            {
+              "origen": 1,
+              "destino": 2,
+              "color": "#666666",
+              "orden": 2
+            },
+            {
+              "origen": 1,
+              "destino": 3,
+              "color": "#666666",
+              "orden": 4
+            },
+            {
+              "origen": 1,
+              "destino": 4,
+              "color": "#666666",
+              "orden": 6
+            },
+            {
+              "origen": 1,
+              "destino": 5,
+              "color": "#666666",
+              "orden": 8
+            },
+            {
+              "origen": 1,
+              "destino": 6,
+              "color": "#666666",
+              "orden": 10
+            }
+          ]
+        }
+      ]
+    },    
+    {
+      "titulo": "Resumen (II)",
+      "contenido": [
+        {
+          "clase": "tabsB",
+          "subclase": "izquierda",
+          "animacion": "flipInX",
+          "contenido": [
+            {
+              "titulo": "Nivel electrónico",
+              "texto": "Consiste en un dispositivo eléctrico, mediante el cual se <b>impide</b> que la plataforma elevadora, en una situación de desnivel, pueda <b>elevar a un operario</b>. "
+            },
+            {
+              "titulo": "Pulsadores obligatorios",
+              "texto": "La máquina estará dotada de dispositivos que <b>impidan</b> que la plataforma se ponga en <b>funcionamiento de manera intempestiva</b>. <br><br>Cada fabricante puede optar por poner un <b>pedal</b> de hombre presente, o un <b>pulsador</b> alojado en el mando de traslación o en el cuadro de mando superior. Es decir, será necesario además de mover el mando, pulsar este botón para que la máquina realice la función. "
+            },
+            {
+              "titulo": "Paradas de emergencia",
+              "texto": "Interrumpen el suministro de las fuentes de alimentación de energía y <b>paran la plataforma</b> lo más rápidamente posible. <br><br>Es <b>obligatorio</b> que la plataforma disponga de <b>dos paradas de emergencia</b>, una en el chasis y otra en la plataforma de trabajo."
+            },
+            {
+              "titulo": "Desbloqueador de frenos para <br>máquinas autopropulsadas",
+              "texto": "El sistema automotriz en estas máquinas puede ser de dos tipos: <br><ul><li><b>Hidromotores hidráulicos</b> que permiten que la máquina se desbloquee y pueda ser movida de donde moleste por estar averiada. </li><li>Mediante un <b>grupo diferencial</b> (o dos, si la máquina es 4x4).</li></ul>"
+            },
+            {
+              "titulo": "Señalizaciones acústicas y <br>luminosas de advertencia",
+              "texto": "Dispondrá de unos avisadores acústicos obligatorios que adviertan de su <b>presencia y funcionamiento</b>, estando la señal acústica en la <b>base de la máquina</b> ya que el aviso de movimiento es para los viandantes. <br><br>En el caso de que la máquina esté trabajando zonas transitadas por vehículos, será necesaria además una <b>señal luminosa rotativa</b> cuando está estacionada en posición de trabajo. "
+            },
+            {
+              "titulo": "Carga nominal",
+              "texto": "La plataforma elevadora deberá contar con una <b>pegatina adhesiva</b> en la cesta, en la que informe de la carga máxima permitida."
+            },
+            {
+              "titulo": "Finales de carrera o micros",
+              "texto": "Son dispositivos alojados en la estructura extensible de la plataforma para <b>limitar diferentes movimientos</b>, tanto de traslación como de elevación, por ejemplo, cuando se trabaja con la plataforma de trabajo elevada, el final de carrera automáticamente limita la traslación a velocidad lenta."
+            },
+            {
+              "titulo": "Bomba manual de bajada <br>de emergencia",
+              "texto": "Dependiendo del fabricante se pueden encontrar diferentes modalidades en cuanto a su ubicación y sistema de descenso.<br><br> La ubicación más frecuente y obligatoria es en la base de la máquina, para facilitar que un operario en tierra pueda <b>bajar a la persona accidentada</b>. Pero también puede encontrarse bajo el cuadro de mandos de la cesta <b>(bomba manual o eléctrica)</b>. "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "Identifica  algunas de las causas de caída a distinto nivel en un PEMP",
+              "respuestas": [
+                {
+                  "opcion": "Usar la PEMP como grúa",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Utilizar la plataforma para subir a alguna superficie en lugar de trabajar desde la cesta",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Repostar con el motor en marcha",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "Los atrapamientos de extremidades pueden deberse a:",
+              "respuestas": [
+                {
+                  "opcion": "Situarse entre chasis y cesta durante la  subida o bajada",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "La falta de orden y limpieza en la superficie de trabajo",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "La parada intempestiva de la máquina",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "Hablando de la estructura extensible, si una PEMP es tipo A, los dispositivos de control de vuelco son:",
+              "respuestas": [
+                {
+                  "opcion": "Sistema de control de carga y registrador de posición",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Control de posición con criterios de estabilidad y sobrecarga reforzada",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Las otras dos respuestas son correctas",
+                  "correcto": "true"
+                }
+              ]
+            },
+            {
+              "texto": "La distancia de seguridad mínima de trabajo a líneas eléctricas es de:",
+              "respuestas": [
+                {
+                  "opcion": "15 m. a alta tensión y 10 m. a baja",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "15 m. a alta tensión y 9 m. a baja ",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Ninguna respuesta es correcta",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "Los elementos de protección movibles utilizados para permitir el acceso a la plataforma deben estar construidos para cerrarse y bloquearse automáticamente, o bien disponer de un sistema de bloqueo, de forma que impida todo movimiento de la PEMP mientras no estén cerrados y bloqueados. ",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero ",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "El chasis debe disponer de los siguientes dispositivos de seguridad: ",
+              "respuestas": [
+                {
+                  "opcion": "Dispositivo que impida su traslación cuando no esté en posición de transporte. ",
+                  "correcto": "false",
+                  "feedback": "La respuesta no está mal, pero no es la que buscamos"
+                },
+                {
+                  "opcion": "Dispositivo (por ejemplo, un nivel de burbuja) que indique si la inclinación o pendiente del chasis está dentro de los límites establecidos por el fabricante.",
+                  "correcto": "false",
+                  "feedback": "La respuesta no está mal, pero no es la que buscamos"
+                },
+                {
+                  "opcion": "Las otras dos son correctas",
+                  "correcto": "true"
+                }
+              ]
+            },
+            {
+              "texto": "¿Cuál de las siguientes afirmaciones <b>NO</b> es correcta?",
+              "respuestas": [
+                {
+                  "opcion": "La máquina estará dotada de dispositivos que impidan que la plataforma se ponga en funcionamiento de manera intempestiva. ",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Es obligatorio que la plataforma disponga de dos paradas de emergencia, una en el chasis y otra en la plataforma de trabajo.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "La plataforma elevadora deberá contar con una pegatina adhesiva situada en el extensible, en la que informe de la carga máxima permitida.",
+                  "correcto": "true"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Ya hemos visto cómo el trabajo con una PEMP genera ciertos <b>riesgos</b> y la forma de <b>prevenirlos y protegernos</b> frente a ellos. En el siguiente módulo, veremos los <b>accidentes</b> más habituales en este tipo de máquina y las <b>medidas preventivas</b> a realizar. <br><br>Que si riesgo, que si accidente ... ¿Demasiadas palabras para expresar lo mismo? ¿Piensas que todo eso es parecido?<br><br¡Pues mira! ¡Te explico! Si yo ando por aquí, que como ves es una zona en obras y poco señalizada, corro el <b>RIESGO</b> de que me caiga encima un ladrillo o de que me clave una punta que han dejado suelta. Pero el <b>ACCIDENTE</b> se producirá solo si <b>me clavo la punta</b> o se me <b>cae encima el ladrillo</b>, y esto acarrea <b>consecuencias negativas</b> para mí o la empresa.<br><br>Por cierto, \"glup\" ... creo que hoy no me tenía que haber puesto las chanclas ..."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod10/hombrePeligros.jpg",
+              "subclase": "paraCambiar",
+              "pie": "El muñeco de siempre en una situación parecida a esta y con chancletas",
+              "ancho": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

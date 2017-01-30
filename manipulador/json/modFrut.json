@@ -8,52 +8,94 @@
       "subclase": "portada"
     },
     {
-      "titulo": "Definiciones",
+      "titulo": "Introducción",
+      "fondo": "img/modFru/greengrocers.jpg",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Las frutas y verduras están constituidas por todas las partes comestibles de las plantas, ya sean raíces, tallos, hojas, inflorescencias o frutos."
+          "subclase": "recuadro",
+          "animacion": "fadeInRight",
+          "texto": "Hasta ahora en los módulos anteriores has visto todo lo relacionado con la Higiene y Seguridad Alimentaria de forma amplia, pero genérica.<br><br>En este Módulo vas a poder ampliar la información vista anteriormente pero enfocada exclusivamente al Sector de las Frutas y Hortalizas, desde las alteraciones más comunes que sufren estos productos hasta los peligros más específicos, como pueden ser ciertos contaminantes químicos."
+        }
+      ]
+    },
+    {
+      "titulo": "Definiciones",
+      "contenido": [
+        {
+          "clase": "icono",
+          "animacion": "fadeInRight",
+          "subclase": "definicion",
+          "texto": "<b>Definiciones:</b><br>A continuación vamos a ver la definición de hortalizas, verduras, legumbres, frutas y setas."
         },
         {
-          "clase": "listaObjetos",
+          "clase": "tabs",
+          "animacion": "fadeInRight",
           "contenido": [
             {
-              "clase": "icono",
-              "subclase": "definicion",
-              "animacion": "fadeInRight",
-              "texto": "<b>Hortalizas:</b><br>Toda planta herbácea que se cultiva y que es adecuada para el consumo, bien cruda o bien cocinada. El término </b>verdura</b> hace referencia a los órganos verdes de dichas plantas, especialmente hojas, tallos, frutos en vaina o flores. El término de <b>legumbres frescas</b> se refiere a los frutos y semillas no maduros de las hortalizas leguminosas.",
-              "imagen": ""
+              "titulo": "Hortalizas",
+              "texto": "Toda planta herbácea que se cultiva y que es adecuada para el consumo, bien cruda o bien cocinada. El término </b>verdura</b> hace referencia a los órganos verdes de dichas plantas, especialmente hojas, tallos, frutos en vaina o flores.",
+              "imagen": "img/modFru/hortalizas.jpg",
+              "ancho": 200
             },
             {
-              "clase": "icono",
-              "subclase": "definicion",
-              "animacion": "fadeInRight",
-              "texto": "<b>Legumbres:</b><br>Semillas contenidas en las plantas de la familia de las leguminosas.",
-              "imagen": ""
+              "titulo": "Legumbres",
+              "texto": "Semillas contenidas en las vainas de las plantas de la familia de las leguminosas. El término legumbres frescas se refiere a los frutos y semillas no maduros de las hortalizas leguminosas.",
+              "imagen": "img/modFru/legumbres.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Frutas",
+              "texto": "El conjunto de frutos comestibles de ciertas plantas cultivadas o silvestres.",
+              "imagen": "img/modFru/fruits.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Setas",
+              "texto": "Son variedades de hongos comestibles, entre los que destacan champiñones, níscalos, boletus, etc.",
+              "imagen": "img/modFru/setas.jpg",
+              "ancho": 200
             }
           ]
         },
-
-
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías que...</b><br>en su origen las variedades de zanahorias tenían diferentes colores púrpura, blanco, amarillo… y que según una tradición el actual color naranja se debe a un cruce de variedades realizado deliberadamente en el siglo XVI en Holanda para homenajear a la Casa Real Holandesa de Orange cuyo emblema era el color naranja?",
+          "imagen": "img/modFru/carrots.jpg",
+          "ancho": 150
+        }
+      ]
+    },
+    {
+      "titulo": "Origen de las frutas y hortalizas",
+      "contenido": [
         {
           "clase": "listaObjetos",
           "contenido": [
-
-
-
             {
-              "clase": "icono",
-              "subclase": "definicion",
-              "animacion": "fadeInRight",
-              "texto": "<b>Frutas:</b><br>El conjunto de frutos comestibles de ciertas plantas cultivadas o silvestres.",
-              "imagen": ""
+              "clase": "imagen",
+              "imagen": "img/modFru/frutas.jpg"
             },
+
             {
-              "clase": "icono",
-              "subclase": "definicion",
-              "animacion": "fadeInRight",
-              "texto": "<b>Setas:</b><br>Son variedades de hongos comestibles, entre los que destacan champiñones, níscalos, boletus, etc.",
-              "imagen": ""
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Los distintos vegetales que consumimos como alimento tienen su origen en los distintos tipos de tejidos vegetales. En la segunda imagen puedes ver el origen de las hortalizas según la parte de la planta que se consume."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "Los frutos (los de sabor dulce reciben el nombre de frutas) se originan a partir de la pared del ovario de la flor (pistilo), la cual por efecto de las hormonas vegetales adopta un grosor y consistencia muy variable, en función del tipo de fruto que se trate."
+                }
+              ]
+            },
+
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/verduras.jpg"
             }
           ]
         }
@@ -78,108 +120,6 @@
       ]
     },
     {
-      "titulo": "Clasificación de las hortalizas",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Las hortalizas se clasifican según el órgano de consumo en:"
-        },
-        {
-          "clase": "tabla",
-          "filaTitulos": [
-            {
-              "titulo": "Órgano"
-            },
-            {
-              "titulo": "Ejemplos"
-            }
-          ],
-          "filaContenido": [
-            {
-              "fila": [
-                {
-                  "texto": "Raíz"
-                },
-                {
-                  "texto": "Nabo, rábano, zanahoria, remolacha."
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "Tubérculo"
-                },
-                {
-                  "texto": "Patata, batata, mandioca o yuca."
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "Bulbo"
-                },
-                {
-                  "texto": "Ajo, cebolla, puerro."
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "Hojas y tallos tiernos"
-                },
-                {
-                  "texto": "Lechuga, perejil, acelga, berro, repollo, espárragos, apio."
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "Inflorescencia"
-                },
-                {
-                  "texto": "Alcachofa, brócoli, coliflor, romanescu."
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "Frutos"
-                },
-                {
-                  "texto": "Pimiento, berenjena, guindilla, tomate."
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "Semilla"
-                },
-                {
-                  "texto": "Haba, guisante, alubia, garbanzo, lenteja."
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "Pepónides"
-                },
-                {
-                  "texto": "Calabaza, pepino, calabacín. También melón y sandía pero que vamos a asignar como Frutas."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "titulo": "Origen de las frutas",
       "contenido": [
         {
@@ -198,94 +138,232 @@
       ]
     },
     {
+      "titulo": "Clasificación de las hortalizas",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "animacion": "slideInRight",
+          "texto": "<center>Sitúa el ratón sobre cada icono para ver la clasificación y algunos ejemplos.</center>"
+        },
+        {
+          "clase": "texto",
+          "texto": "<center><b>HORTALIZAS</b><br>Las hortalizas se clasifican según su órgano de consumo en:</center>"
+        },
+        {
+          "clase": "circulo",
+          "subclase": "semi",
+          "contenido": [
+            {
+              "imagen": "img/modFru/hraiz.jpg",
+              "titulo": "Raíz",
+              "texto": "Nabo, rábano, zanahoria, remolacha."
+            },
+            {
+              "imagen": "img/modFru/htuberculos.jpg",
+              "titulo": "Tubérculo",
+              "texto": "Patata, batata, mandioca o yuca."
+            },
+            {
+              "imagen": "img/modFru/hbulbos.jpg",
+              "titulo": "Bulbo",
+              "texto": "Ajo, cebolla, puerro."
+            },
+            {
+              "imagen": "img/modFru/htallos.jpg",
+              "titulo": "Hojas y tallos tiernos",
+              "texto": "Lechuga, perejil, acelga, berro, repollo, espárragos, apio."
+            },
+            {
+              "imagen": "img/modFru/hinflorescencia.jpg",
+              "titulo": "Inflorescencia",
+              "texto": "Alcachofa, brócoli, coliflor, romanescu."
+            },
+            {
+              "imagen": "img/modFru/hfrutos.jpg",
+              "titulo": "Frutos",
+              "texto": "Pimiento, berenjena, guindilla, tomate."
+            },
+            {
+              "imagen": "img/modFru/hsemillas.jpg",
+              "titulo": "Semilla",
+              "texto": "Haba, guisante, alubia, garbanzo, lenteja."
+            },
+            {
+              "imagen": "img/modFru/hpeponides.jpg",
+              "titulo": "Pepónides",
+              "texto": "Calabaza, pepino, calabacín. También melón y sandía pero que vamos a asignar como Frutas."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "titulo": "Clasificación de las frutas",
       "contenido": [
         {
-          "clase": "texto",
-          "texto": "Las frutas se clasifican en:"
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "animacion": "slideInRight",
+          "texto": "<center>Sitúa el ratón sobre cada icono para ver la clasificación y algunos ejemplos.</center>"
         },
         {
-          "clase": "tabla",
-          "filaTitulos": [
+          "clase": "texto",
+          "texto": "<center><b>FRUTAS</b></center>"
+        },
+        {
+          "clase": "circulo",
+          "subclase": "semi",
+          "contenido": [
             {
-              "titulo": "Tipo"
+              "imagen": "img/modFru/fsecos.jpg",
+              "titulo": "Frutos secos",
+              "texto": "Nuez, avellana, castaña, almendra"
             },
             {
-              "titulo": "Ejemplos"
-            }
-          ],
-          "filaContenido": [
-            {
-              "fila": [
-                {
-                  "texto": "Frutas de hueso"
-                },
-                {
-                  "texto": "Melocotón, nectarina, paraguayo, albaricoque, aguacate, ciruela, cereza."
-                }
-              ]
+              "imagen": "img/modFru/fhueso.jpg",
+              "titulo": "Frutas de hueso",
+              "texto": "Melocotón, nectarina, paraguayo, albaricoque, aguacate, ciruela, cereza."
             },
             {
-              "fila": [
-                {
-                  "texto": "Frutas de pepita"
-                },
-                {
-                  "texto": "Manzana, pera, níspero, membrillo."
-                }
-              ]
+              "imagen": "img/modFru/fpepita.jpg",
+              "titulo": "Frutas de pepita",
+              "texto": "Manzana, pera, níspero, membrillo."
             },
             {
-              "fila": [
-                {
-                  "texto": "Frutas de grano"
-                },
-                {
-                  "texto": "Fresa e higo."
-                }
-              ]
+              "imagen": "img/modFru/fgrano.jpg",
+              "titulo": "Frutas de grano",
+              "texto": "Fresa e higo."
             },
             {
-              "fila": [
-                {
-                  "texto": "Frutas blandas"
-                },
-                {
-                  "texto": "Frambuesa, grosella, mora, zarzamora."
-                }
-              ]
+              "imagen": "img/modFru/fbayas.jpg",
+              "titulo": "Bayas",
+              "texto": "Frambuesa, grosella, mora, zarzamora."
             },
             {
-              "fila": [
-                {
-                  "texto": "Pepónides"
-                },
-                {
-                  "texto": "Melón y sandía."
-                }
-              ]
+              "imagen": "img/modFru/fpeponides.jpg",
+              "titulo": "Pepónides",
+              "texto": "Melón y sandía."
             },
             {
-              "fila": [
-                {
-                  "texto": "Cítricos"
-                },
-                {
-                  "texto": "Limón, naranja, mandarina, lima, pomelo."
-                }
-              ]
+              "imagen": "img/modFru/fcitricos.jpg",
+              "titulo": "Cítricos",
+              "texto": "Limón, naranja, mandarina, lima, pomelo."
             },
             {
-              "fila": [
-                {
-                  "texto": "Frutas tropicales"
-                },
-                {
-                  "texto": "Kiwi, piña, mango, papaya, plátano, chirimoya, coco."
-                }
-              ]
+              "imagen": "img/modFru/ftropical.jpg",
+              "titulo": "Frutas tropicales",
+              "texto": "Kiwi, piña, mango, papaya, plátano, chirimoya, coco."
             }
           ]
+        }
+      ]
+    },
+    {
+      "titulo": "Composición química: Nutrientes",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Las propiedades nutritivas de frutas y hortalizas dependen de la composición química –nutrientes- del producto: vitaminas, minerales y otros compuestos. Esta composición es propia de cada fruta (y a su vez de su variedad) y de cada hortaliza. <br>Entre sus componentes destacan:<br><br>"
+        },
+        {
+          "clase": "acordeonSub",
+          "contenido": [
+            {
+              "titulo": "Agua",
+              "texto": "Es el elemento mayoritario en la composición. Con la excepción de los frutos secos, todas las Frutas y Hortalizas tiene en común un elevado contenido en agua."
+            },
+            {
+              "titulo": "Hidratos de Carbono",
+              "texto": "Las hortalizas son ricas en hidratos de carbono complejos (almidón) mientras que las frutas tienen en mayor cantidad hidratos de carbono sencillos o azúcares (fructosa, glucosa y sacarosa). Por esta razón las hortalizas carecen del sabor dulce propio de las frutas (con la excepción del tomate)."
+            },
+            {
+              "titulo": "Fibra",
+              "texto": "La fibra tiene composición compleja y confiere a las hortalizas rigidez y sensación de fibrosidad. Es la parte de los alimentos vegetales comestibles que no es digerida por nuestro aparato digestivo."
+            },
+            {
+              "titulo": "Vitaminas",
+              "contenido": [
+                {
+                  "titulo": "En general",
+                  "texto": "Son compuestos químicos que el organismo no es capaz de sintetizar (excepto la vitamina D) y son indispensables, en cantidades muy pequeñas, para la vida. Su déficit provoca trastornos y enfermedades, pero también hemos de saber que su exceso puede llegar a provocar problemas muy graves a la salud, aunque cabe reseñar que esto último a través del consumo de alimentos en forma natural es muy difícil. Destacan:"
+                },
+                {
+                  "titulo": "Vitamina A",
+                  "texto": "Participa en la regeneración celular (lo que influye en el crecimiento y desarrollo de los huesos), estimula el sistema inmunitario y mejora la visión. También tiene función antioxidante."
+                },
+                {
+                  "titulo": "Vitaminas del grupo B",
+                  "texto": "Intervienen en la transformación de los alimentos en energía y son responsables de mantener la salud y el funcionamiento correcto de muchos Sistemas del cuerpo humano (Nervioso, Digestivo, Circulatorio, Inmunológico…)."
+                },
+                {
+                  "titulo": "Vitamina C",
+                  "texto": "Imprescindible para la formación de colágeno y en numerosas reacciones del organismo (mantenimiento de cartílagos, huesos y dientes; disminuye los niveles de tensión arterial lo que contribuye a prevenir enfermedades cardiovasculares; ayuda en la asimilación del Hierro; previene o mejora afecciones de la piel, etc…). También tiene función antioxidante."
+                },
+                {
+                  "titulo": "Vitamina E",
+                  "texto": "Es un antioxidante natural. Protege al organismo contra los efectos del envejecimiento."
+                },
+                {
+                  "titulo": "Vitamina K",
+                  "texto": "Se la conoce como la vitamina de la coagulación, porque sin ella la sangre no coagularía."
+                }
+              ]
+            },
+            {
+              "titulo": "Minerales",
+              "texto": "Los minerales son elementos inorgánicos que el organismo necesita para funcionar, y deben ingerirse con los alimentos. Cumplen variedad de funciones: estructura de huesos y dientes, transporte de oxígeno en glóbulos rojos, transmisión de impulsos nerviosos, contracción muscular, respuesta inmunológica, etc. La composición de frutas y hortalizas aporta un gran número de minerales como hierro, potasio, magnesio, fósforo, etc."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías qué...</b><br>Las calorías de la fruta dependen casi exclusivamente de su contenido de hidratos de carbono –su contenido en grasas es casi inapreciable-, a excepción del caso del aguacate y del coco, frutas en las que el contenido graso determina su valor energético (en el aguacate la mayor parte es grasa “saludable”, mientras que en el coco la mayor parte es grasa saturada, “menos saludable”)?"
+        }
+      ]
+    },
+    {
+      "titulo": "Composición química: Colores",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "La composición química va a conferir a cada fruta un aroma y un sabor únicos. Pero también va a influir sobre el propio color que presentan frutas y hortalizas.<br><br>El color que presenten puede darnos una idea de su composición química. Tenemos así:"
+        },
+                {
+          "clase": "sliderB",
+          "contenido": [
+            {
+              "titulo": "Color <b>verde</b>",
+              "texto": "Es el color de la clorofila por lo que es indicativo de riqueza en Magnesio, mineral que participa en el proceso de relajación muscular (por tanto su carencia puede provocar sensación de cansancio sin causa que lo justifique, tensión muscular y calambres). Contienen, además, sustancias que refuerzan el Sistema Inmunológico (defensas) y son una fuente importante de Vitamina C y fibra.<br>En este grupo destacan: brócoli, lima, kiwi, espinacas, guisantes, lechugas, aguacates y uvas verdes, entre otros.",
+              "imagen": "img/modFru/kiwi.jpg",
+              "ancho": 600
+            },
+
+            {
+              "titulo": "Color <b>amarillo/anaranjado</b>",
+              "texto": "Es el color de los carotenos cuya acción antioxidante es muy efectiva, aumentando la protección frente al cáncer, fortalecen la vista (ya que son precursores de la Vitamina A), ayudan a combatir infecciones de la piel y tienen propiedades fotoprotectoras al contrarrestar las alteraciones producidas por los rayos UVA (minimizando o reduciendo la flacidez de la piel y la aparición de arrugas). El Beta-caroteno es altamente beneficioso para el Sistema Respiratorio. Frutas y vegetales de color amarillo o naranja destacan por su contenido en Vitamina C y minerales como el potasio.<br>Dentro de este grupo se encuentran: cítricos, melocotón, calabaza, zanahoria, mango y papaya entre otros.",
+              "imagen": "img/modFru/mediaNaranja.jpg",
+              "ancho": 600
+            },
+            {
+              "titulo": "Color <b>blanco</b>",
+              "texto": "Es el color de los polifenoles, que son compuestos antioxidantes que ayudan a reducir el riesgo de enfermedades cardiovasculares y cáncer. Tienen efectos antibacterianos, antimicóticos y antiinflamatorios  y refuerzan el Sistema Inmunológico.<br>En este grupo destacan: ajos, cebollas, pepinos, setas y frutas de carne blanca como plátanos, peras y manzanas.",
+              "imagen": "img/modFru/mediaCebolla.jpg",
+              "ancho": 600
+            },
+             {
+              "titulo": "Color <b>rojo, morado/azul</b>",
+              "texto": "Al igual que frutas y hortalizas de color naranja, poseen carotenos, de los cuales hemos visto sus efectos beneficiosos, pero además, frutas y hortalizas de color rojo intenso/morado son ricas en flavonoides que son compuestos con propiedades antioxidantes que protegen contra la oxidación de vitaminas, enzimas y hormonas. A estos compuestos se les suma otro de color rojo intenso (licopeno) de idéntico efecto. Todos ellos contribuyen a la salud de la memoria y  son compuestos muy beneficiosos para la salud cardiovascular, ya que ayudan a prevenir la hipertensión por sus propiedades vasodilatadoras y reduciendo la formación de placas de colesterol en las arterias.<br>Se incluyen en este grupo: berenjenas, lombardas, ciruelas, uvas tintas, arándanos, moras, tomates, pimientos rojos, rábanos, fresas, frambuesas, cerezas, etc.",
+              "imagen": "img/modFru/berries.jpg",
+              "ancho": 600
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías qué...</b> fresas y kiwis tienen mayor contenido en vitamina C que las naranjas?"
         }
       ]
     },
@@ -497,137 +575,6 @@
       ]
     },
     {
-      "titulo": "Composición química: Nutrientes",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Las propiedades nutritivas de frutas y hortalizas dependen de la composición química –nutrientes- del producto: vitaminas, minerales y otros compuestos. Esta composición es propia de cada fruta (y a su vez de su variedad) y de cada hortaliza."
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "Las calorías de la fruta dependen casi exclusivamente de su contenido de hidratos de carbono –su contenido en grasas es casi inapreciable - , a excepción del caso del aguacate y del coco, frutas en las que el contenido graso determina su valor energético (en el aguacate la mayor parte es grasa “saludable”, mientras que en el coco la mayor parte es grasa saturada, “menos saludable”)."
-        },
-        {
-          "clase": "lista",
-          "titulo": "Entre los componentes destacan:",
-          "contenido": [
-            {
-              "punto": "<b>Agua:</b> Es el elemento mayoritario en la composición. Con la excepción de los frutos secos, todas las Frutas y Hortalizas tiene en común un elevado contenido en agua."
-            },
-            {
-              "punto": "<b>Hidratos de Carbono:</b> Las hortalizas son ricas en hidratos de carbono complejos (almidón) mientras que las frutas tienen en mayor cantidad hidratos de carbono sencillos o azúcares (fructosa, glucosa y sacarosa). Por esta razón las hortalizas carecen del sabor dulce propio de las frutas (con la excepción del tomate)."
-            },
-            {
-              "punto": "<b>Fibra:</b> La fibra tiene composición compleja y confiere a las hortalizas rigidez y sensación de fibrosidad. Es la parte de los alimentos vegetales comestibles que no es digerida por nuestro aparato digestivo."
-            },
-            {
-              "punto": "<b>Vitaminas</b>: Son compuestos químicos que el organismo no es capaz de sintetizar (excepto la vitamina D) y son indispensables, en cantidades muy pequeñas, para la vida. Su déficit provoca trastornos y enfermedades, pero también hemos de saber que su exceso puede llegar a provocar problemas muy graves a la salud, aunque cabe reseñar que esto último a través del consumo de alimentos en forma natural es muy difícil. Destacan:<br>",
-              "contenido": [
-                {
-                  "punto": "<b>Vitamina A:</b> Participa en la regeneración celular (lo que influye en el crecimiento y desarrollo de los huesos), estimula el sistema inmunitario y mejora la visión. También tiene función antioxidante."
-                },
-                {
-                  "punto": "<b>Vitaminas del Grupo B:</b> Intervienen en la transformación de los alimentos en energía y son responsables de mantener la salud y el funcionamiento correcto de muchos Sistemas del cuerpo humano (Nervioso, Digestivo, Circulatorio, Inmunológico…)."
-                },
-                {
-                  "punto": "<b>Vitamina C:</b> Imprescindible para la formación de colágeno y en numerosas reacciones del organismo (mantenimiento de cartílagos, huesos y dientes; disminuye los niveles de tensión arterial lo que contribuye a prevenir enfermedades cardiovasculares; ayuda en la asimilación del Hierro; previene o mejora afecciones de la piel, etc…). También tiene función antioxidante."
-                },
-                {
-                  "punto": "<b>Vitamina E:</b> Es un antioxidante natural. Protege al organismo contra los efectos del envejecimiento."
-                },
-                {
-                  "punto": "<b>Vitamina K:</b> Se la conoce como la vitamina de la coagulación, porque sin ella la sangre no coagularía."
-                }
-              ]
-            },
-            {
-              "punto": "<b>Minerales:</b> Los minerales son elementos inorgánicos que el organismo necesita para funcionar, y deben ingerirse con los alimentos. Cumplen variedad de funciones: estructura de huesos y dientes, transporte de oxígeno en glóbulos rojos, transmisión de impulsos nerviosos, contracción muscular, respuesta inmunológica, etc. La composición de frutas y hortalizas aporta un gran número de minerales como hierro, potasio, magnesio, fósforo, etc."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Composición química: Colores",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "La composición química va a conferir a cada fruta un aroma y un sabor únicos. Pero también va a influir sobre el propio color que presentan frutas y hortalizas.<br><br>El color que presenten puede darnos una idea de su composición química. Tenemos así:"
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "texto",
-              "texto": "<b>Color Verde:</b> Es el color de la clorofila por lo que es indicativo de riqueza en Magnesio, mineral que participa en el proceso de relajación muscular (por tanto su carencia puede provocar sensación de cansancio sin causa que lo justifique, tensión muscular y calambres). Contienen, además, sustancias que refuerzan el Sistema Inmunológico (defensas) y son una fuente importante de Vitamina C y fibra.<br>En este grupo destacan: brócoli, lima, kiwi, espinacas, guisantes, lechugas, aguacates y uvas verdes, entre otros."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/kiwi.jpg",
-              "ancho": 400
-            }
-          ]
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "texto",
-              "texto": "<b>Color Amarillo/Anaranjado:</b> Es el color de los carotenos cuya acción antioxidante es muy efectiva, aumentando la protección frente al cáncer, fortalecen la vista (ya que son precursores de la Vitamina A), ayudan a combatir infecciones de la piel y tienen propiedades fotoprotectoras al contrarrestar las alteraciones producidas por los rayos UVA (minimizando o reduciendo la flacidez de la piel y la aparición de arrugas). El Beta-caroteno es altamente beneficioso para el Sistema Respiratorio. Frutas y vegetales de color amarillo o naranja destacan por su contenido en Vitamina C y minerales como el potasio.<br>Dentro de este grupo se encuentran: cítricos, melocotón, calabaza, zanahoria, mango y papaya entre otros."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/mediaNaranja.jpg",
-              "ancho": 400
-            }
-          ]
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "texto",
-              "texto": "<b>Color Blanco:</b> Es el color de los polifenoles, que son compuestos antioxidantes que ayudan a reducir el riesgo de enfermedades cardiovasculares y cáncer. Tienen efectos antibacterianos, antimicóticos y antiinflamatorios  y refuerzan el Sistema Inmunológico.<br>En este grupo destacan: ajos, cebollas, pepinos, setas y frutas de carne blanca como plátanos, peras y manzanas."
-            },
-            {
-              "clase": "listaObjetos",
-              "subclase": "columna",
-              "contenido": [
-
-                {
-                  "clase": "imagen",
-                  "imagen": "img/modFru/mediaCebolla.jpg",
-                  "ancho": 300
-                },
-                {
-                  "clase": "imagen",
-                  "imagen": "img/modFru/mediaManzana.jpg",
-                  "ancho": 300
-                }
-
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "texto",
-              "texto": "<b>Colores Rojo, Morado /Azul:</b> Al igual que frutas y hortalizas de color naranja, poseen carotenos, de los cuales hemos visto sus efectos beneficiosos, pero además, frutas y hortalizas de color rojo intenso/morado son ricas en flavonoides que son compuestos con propiedades antioxidantes que protegen contra la oxidación de vitaminas, enzimas y hormonas. A estos compuestos se les suma otro de color rojo intenso (licopeno) de idéntico efecto. Todos ellos contribuyen a la salud de la memoria y  son compuestos muy beneficiosos para la salud cardiovascular, ya que ayudan a prevenir la hipertensión por sus propiedades vasodilatadoras y reduciendo la formación de placas de colesterol en las arterias.<br>Se incluyen en este grupo: berenjenas, lombardas, ciruelas, uvas tintas, arándanos, moras, tomates, pimientos rojos, rábanos, fresas, frambuesas, cerezas, etc."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/moras.jpg",
-              "ancho": 400
-            }
-          ]
-        }
-
-      ]
-    },
-    {
       "titulo": "Alteraciones",
       "contenido": [
         {
@@ -710,14 +657,270 @@
           "texto": "A grandes rasgos podríamos definir un diagrama de flujo de frutas y verduras desde su origen hasta el consumidor final según las siguientes etapas:"
         },
         {
-          "clase": "imagen",
-          "imagen":"img/modFru/diagrama.png"
+          "clase": "diagrama",
+          "retardo": 1,
+          "cajas": [
+            {
+              "id": 1,
+              "forma": "rect",
+              "texto": "Producción Primaria",
+              "ancho": 300,
+              "alto": 60,
+              "x": 400,
+              "y": 1,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 1
+            },
+            {
+              "id": 2,
+              "forma": "rect",
+              "texto": "Recolección",
+              "ancho": 300,
+              "alto": 60,
+              "x": 400,
+              "y": 100,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 3
+            },
+            {
+              "id": 3,
+              "forma": "rect",
+              "texto": "Transporte",
+              "ancho": 300,
+              "alto": 60,
+              "x": 400,
+              "y": 200,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 5
+            },
+            {
+              "id": 4,
+              "forma": "rect",
+              "texto": "Almacenamiento",
+              "ancho": 300,
+              "alto": 60,
+              "x": 400,
+              "y": 300,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 7
+            },
+            {
+              "id": 5,
+              "forma": "rect",
+              "texto": "Frutería",
+              "ancho": 300,
+              "alto": 60,
+              "x": 1,
+              "y": 400,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 9
+            },
+            {
+              "id": 6,
+              "forma": "rect",
+              "texto": "Envasado y Transporte",
+              "ancho": 300,
+              "alto": 60,
+              "x": 1,
+              "y": 500,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 11
+            },
+            {
+              "id": 8,
+              "forma": "rect",
+              "texto": "Exposición y venta",
+              "ancho": 300,
+              "alto": 60,
+              "x": 1,
+              "y": 700,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 13
+            },
+            {
+              "id": 9,
+              "forma": "rect",
+              "texto": "Industria procesadora",
+              "ancho": 300,
+              "alto": 60,
+              "x": 800,
+              "y": 400,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 15
+            },
+            {
+              "id": 10,
+              "forma": "rect",
+              "texto": "Almacenamiento",
+              "ancho": 300,
+              "alto": 60,
+              "x": 800,
+              "y": 500,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 17
+            },
+            {
+              "id": 11,
+              "forma": "rect",
+              "texto": "Acondicionamiento",
+              "ancho": 300,
+              "alto": 60,
+              "x": 800,
+              "y": 600,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 19
+            },
+            {
+              "id": 12,
+              "forma": "rect",
+              "texto": "Procesado",
+              "ancho": 300,
+              "alto": 60,
+              "x": 800,
+              "y": 700,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 21
+            },
+            {
+              "id": 13,
+              "forma": "rect",
+              "texto": "Envasado",
+              "ancho": 300,
+              "alto": 60,
+              "x": 800,
+              "y": 800,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 23
+            },
+            {
+              "id": 14,
+              "forma": "rect",
+              "texto": "Almacenamiento / Distribución",
+              "ancho": 300,
+              "alto": 60,
+              "x": 800,
+              "y": 900,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 25
+            }
+          ],
+          "enlaces": [
+            {
+              "origen": 1,
+              "destino": 2,
+              "color": "#65acb0",
+              "orden": 2
+            },
+            {
+              "origen": 2,
+              "destino": 3,
+              "color": "#65acb0",
+              "orden": 4
+            },
+            {
+              "origen": 3,
+              "destino": 4,
+              "color": "#65acb0",
+              "orden": 6
+            },
+            {
+              "origen": 4,
+              "destino": 5,
+              "color": "#65acb0",
+              "orden": 8
+            },
+            {
+              "origen": 5,
+              "destino": 6,
+              "color": "#65acb0",
+              "orden": 10
+            },
+            {
+              "origen": 6,
+              "destino": 7,
+              "color": "#65acb0",
+              "orden": 12
+            },
+            {
+              "origen": 4,
+              "destino": 8,
+              "color": "#65acb0",
+              "orden": 14
+            },
+            {
+              "origen": 8,
+              "destino": 9,
+              "color": "#65acb0",
+              "orden": 16
+            },
+            {
+              "origen": 9,
+              "destino": 10,
+              "color": "#65acb0",
+              "orden": 18
+            },
+            {
+              "origen": 10,
+              "destino": 11,
+              "color": "#65acb0",
+              "orden": 20
+            },
+            {
+              "origen": 11,
+              "destino": 12,
+              "color": "#65acb0",
+              "orden": 22
+            },
+            {
+              "origen": 12,
+              "destino": 13,
+              "color": "#65acb0",
+              "orden": 24
+            }
+          ]
         }
       ]
     },
-
-
-
+    {
+      "titulo": "Diagrama de flujo IMG",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInRight",
+          "texto": "A grandes rasgos podríamos definir un diagrama de flujo de frutas y verduras desde su origen hasta el consumidor final según las siguientes etapas:"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/modFru/diagrama.png"
+        }
+      ]
+    },
     {
       "titulo": "Producción primaria",
       "contenido": [
@@ -746,7 +949,6 @@
         }
       ]
     },
-
     {
       "titulo": "Contaminación de origen",
       "contenido": [
@@ -974,23 +1176,22 @@
         }
       ]
     },
-
-        {
+    {
       "titulo": "Frutas y hortalizas destinadas a Industria",
-          "contenido": [
-            {
-              "clase": "texto",
-              "texto": "Sin entrar en mayor detalle, las frutas y hortalizas cuyo destino sea la Industria Procesadora serán sometidos a diversas operaciones previas, pasando por una o más etapas de procesado hasta la obtención del producto final: congelados, productos de IV gama o conservas."
-            },
-            {
-              "clase": "texto",
-              "texto": "Entre estas operaciones previas están aquellas destinadas al acondicionamiento, como pueden ser lavado, pelado, troceado, etc.<br><br>En estas etapas de acondicionamiento, frutas y verduras pueden contaminarse debido a una falta de limpieza y desinfección de equipos y utensilios o por manipulaciones poco higiénicas del personal. Además hay que tener en cuenta que el pelado favorece el acceso a los microorganismos y el cortado incrementa el área expuesta."
-            },
-                       {
-              "clase": "texto",
-              "texto": "Posteriormente se realizará un procesado específico según el producto final a conseguir. En cada una de estas etapas existen peligros de contaminación física, química y biológica a los que además se puede añadir la multiplicación microbiológica, por lo que las medidas preventivas estarán enfocadas en la prevención de dicha contaminación y a impedir la multiplicación microbiológica.<br><br>En el caso de las conservas, se someterán a un proceso de eliminación de microorganismos (esterilización)."
-            }
-          ]
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Sin entrar en mayor detalle, las frutas y hortalizas cuyo destino sea la Industria Procesadora serán sometidos a diversas operaciones previas, pasando por una o más etapas de procesado hasta la obtención del producto final: congelados, productos de IV gama o conservas."
+        },
+        {
+          "clase": "texto",
+          "texto": "Entre estas operaciones previas están aquellas destinadas al acondicionamiento, como pueden ser lavado, pelado, troceado, etc.<br><br>En estas etapas de acondicionamiento, frutas y verduras pueden contaminarse debido a una falta de limpieza y desinfección de equipos y utensilios o por manipulaciones poco higiénicas del personal. Además hay que tener en cuenta que el pelado favorece el acceso a los microorganismos y el cortado incrementa el área expuesta."
+        },
+        {
+          "clase": "texto",
+          "texto": "Posteriormente se realizará un procesado específico según el producto final a conseguir. En cada una de estas etapas existen peligros de contaminación física, química y biológica a los que además se puede añadir la multiplicación microbiológica, por lo que las medidas preventivas estarán enfocadas en la prevención de dicha contaminación y a impedir la multiplicación microbiológica.<br><br>En el caso de las conservas, se someterán a un proceso de eliminación de microorganismos (esterilización)."
+        }
+      ]
     },
     {
       "titulo": "IR REPARTIENDO POR EL MÓDULO",
@@ -1023,30 +1224,19 @@
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "texto": "en su origen las variedades de zanahorias tenían diferentes colores púrpura, blanco, amarillo… y que según una tradición el actual color naranja se debe a un cruce de variedades realizado deliberadamente en el siglo XVI en Holanda para homenajear a la Casa Real Holandesa de Orange cuyo emblema era el color naranja?"
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
           "texto": "el coco se llama así porque en portugués coco se llamaba a los fantasmas que asustan a los niños y cuando la expedición de Vasco da Gama llegó a India en 1500, los tripulantes compararon la cáscara y sus tres agujeros con una cabeza con ojos y boca, como las que se usaban para fabricar los fantasmas infantiles?"
-        },
-                {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "Fresas y kiwis tienen mayor contenido en vitamina C que las naranjas?"
         }
       ]
     },
-
     {
       "titulo": "Despedida",
-      "fondo": "img/modCar/scoDespedida.jpg",
+      "fondo": "img/modFru/grapes.jpg",
       "contenido": [
         {
           "clase": "texto",
           "subclase": "recuadro",
           "animacion": "fadeInRight",
-          "texto": "<p>Con este módulo se cierra la formación de manipuladores  de alimentos. Esperamos que lo hayas encontrado instructivo a la par que entretenido.Cualquier sugerencia o mejora que te parezca oportuna para mejorar el curso será bienvenida.</p><br><p>¡Acuérdate de cumplimentar el cuestionario del curso para que podamos evaluar todo lo que has aprendido! ¡Muchas gracias!</p>"
+          "texto": "<p>Con este módulo se cierra la formación de manipuladores  de alimentos. Esperamos que lo hayas encontrado instructivo a la par que entretenido. Cualquier sugerencia o mejora que te parezca oportuna para mejorar el curso será bienvenida.</p><br><p>¡Acuérdate de cumplimentar el cuestionario del curso para que podamos evaluar todo lo que has aprendido! ¡Muchas gracias!</p>"
         }
       ]
     },

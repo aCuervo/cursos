@@ -1,0 +1,402 @@
+﻿{
+  "modulo": "MOD. 8: SEGURIDAD ANTES DE LA PUESTA EN MARCHA",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "SEGURIDAD ANTES DE PONER EN MARCHA EL EQUIPO",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod08/hombreLupa.png",
+              "ancho": 300,
+              "subclase": "paraCambiar",
+              "animacion": "fadeInUp"
+            },
+            {
+              "clase": "texto",
+              "animacion": "fadeInRight",
+              "texto": "¡Aquí nos encontramos de nuevo!<br><br>Quiero recordarte que cada vez que utilices una máquina, e independientemente del mantenimiento habitual que conlleve, deberás <b>realizar</b> una serie de <b>inspecciones rutinarias</b>.<br><br>Como ya te comenté en el capítulo anterior, es importante recordar que pese a que la máquina esté supuestamente en perfecto estado, siempre puede haber ocurrido algún imprevisto. Por eso, debemos revisarla antes de utilizarla teniendo también en cuenta, las condiciones del terreno."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Antes de comenzar: Inspección Exterior",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho flex-start",
+          "contenido": [
+            {
+              "clase": "texto",
+              "animacion": "bounceInLeft",
+              "texto": "<b>Antes de la utilización</b> de cualquier equipo de trabajo se debe comprobar que sus <b>protecciones y condiciones de uso</b> son las <b>adecuadas</b> y que su <b>conexión o puesta en marcha</b> no representa un <b>peligro para terceros</b>. <br><br>Se trata de una inspección muy importante ya que es la <b>inmediatamente anterior al uso</b>. Hablamos de una <b>inspección exterior visual</b>: es una inspección rápida, sencilla, sistemática, no anárquica, que impide que algún elemento quede sin verificar."
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "animacion": "bounceInRight",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "El secreto radica en adoptar una <b>rutina de inicio, final y puntos a verificar</b>. Ello implica:",
+                  "contenido": [
+                    {
+                      "punto": "<b>Comenzar</b> la inspección siempre (sin condiciones) por el <b>mismo sitio</b>, "
+                    },
+                    {
+                      "punto": "Realizarla en el <b>mismo sentido</b> de giro, "
+                    },
+                    {
+                      "punto": "Revisando los <b>mismos puntos</b>,"
+                    },
+                    {
+                      "punto": "<b>Finalizando</b> siempre en el <b>mismo lugar</b>."
+                    }
+                  ]
+                },
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod08/flechas.png",
+                  "ancho": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "animacion": "rubberBand",
+          "subclase": "exclamacion picos",
+          "texto": "Por ello se debe efectuar una <b>inspección diaria</b> antes del uso en cualquier equipo de trabajo. No se debe confundir este tipo de  inspección con las comprobaciones más específicas que de forma periódica se deben efectuar."
+        }
+      ]
+    },
+    {
+      "titulo": "Antes de comenzar: Formulario de Verificación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<h3>Ejemplo de formulario con los elementos exteriores a verificar</h3>",
+          "animacion": "slideInLeft"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod08/formulario.png",
+          "animacion": "rotateIn"
+        }
+      ]
+    },
+    {
+      "titulo": "Inspección previa al uso de las PEMP",
+      "fondo": "img/mod08/fondoJoyas.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "celo",
+          "animacion": "swing",
+          "texto": "Antes de utilizar la plataforma se debe <b>comprobar</b> la PEMP para detectar <b>posibles defectos o fallos</b> que puedan afectar a su seguridad. Cualquier defecto debe ser evaluado por <b>personal cualificado y formado</b> por el <b>fabricante</b> y determinar si constituye un riesgo para la seguridad del equipo. Todos los defectos detectados que puedan <b>afectar a la seguridad deben ser corregidos</b> antes de utilizar el equipo."
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "animacion": "lightSpeedIn",
+          "texto": "<b>IMPORTANTE:</b><br>Durante la inspección no te sitúes debajo del brazo o la plataforma a menos que  su movimiento haya sido bloqueado."
+        }
+      ]
+    },
+    {
+      "titulo": "Inspección previa al uso de las PEMP: Formulario de Verificación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<h3>Ejemplo de formulario propuesto para la verificación de los elementos importantes</h3>",
+          "animacion": "slideInLeft"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod08/formularioPrevioPEMP.png",
+          "animacion": "rotateIn"
+        }
+      ]
+    },
+    {
+      "titulo": "Inspecciones previas a la elevación de la plataforma",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<h3>Ejemplo de formulario para cumplimentar durante la inspección previa a la elevación de la plataforma</h3>",
+          "animacion": "slideInLeft"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod08/formularioElevacion.png",
+          "animacion": "rotateIn"
+        }
+      ]
+    },
+    {
+      "titulo": "Emplazamiento",
+      "fondo": "img/mod08/fondoEscavadora.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "anillas vertical",
+          "animacion": "zoomIn",
+          "texto": "Cuando el trabajo se realice en una <b>zona utilizada por otros vehículos</b> o personal ajeno a la tarea, hay que asegurarse que toda el <b>área de trabajo</b> de la PEMP, está <b>balizada o acordonada</b>.<br><br><b>Bajo ninguna circunstancia</b> se debe permitir que <b>cualquier parte</b> de la PEMP <b>invada un carril de tráfico</b>.<br><br>Si es necesario se señalizará la zona, para el <b>desvío temporal del tráfico</b>."
+        }
+      ]
+    },
+    {
+      "titulo": "Nivelación y estabilidad",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod08/PEMP.jpg",
+              "subclase": "rotarIzq",
+              "animacion": "slideInLeft"
+            },
+            {
+              "clase": "texto",
+              "animacion": "slideInRight",
+              "texto": "Algunas PEMP están equipadas con <b>estabilizadores o gatos</b>, que deberán ser utilizados siempre siguiendo las <b>instrucciones del fabricante</b>.<br><br>Antes de elevar la plataforma, hay que asegurarse que la <b>máquina está nivelada</b> según los límites indicados por el <b>fabricante</b> y que la <b>superficie de apoyo</b> es lo suficientemente <b>firme</b>.<br><br><b>Antes</b> de comenzar el trabajo <b>y periódicamente</b> durante el uso de la máquina, <b>comprobar</b> que cada <b>estabilizador o gato, y las placas de apoyo, apoyan por completo</b> en el suelo.<br><br>Si en cualquier momento el <b>operario</b> se encuentra <b>inseguro</b>, sobre las condiciones del suelo, se debe <b>consultar a la dirección de obra</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Resumen",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Antes del <b>comienzo</b> de los trabajos y por tu propia seguridad, debes realizar las siguientes inspecciones:",
+          "animacion": "rotateInDownLeft"
+        },
+        {
+          "clase": "tabs",
+          "animacion": "shake",
+          "contenido": [
+            {
+              "titulo": "<b>Inspección exterior de la plataforma</b>",
+              "texto": "Para verificar principalmente que <b>no existen golpes</b>, <b>soldaduras</b> en mal estado, y que las <b>conexiones</b> están correctas. Asimismo se mirarán los <b>frenos, batería, neumáticos y motor</b>. Imprescindible comprobar el funcionamiento de todos los mandos, etc."
+            },
+            {
+              "titulo": "<b>Inspección previa al uso</b>",
+              "texto": "Verificamos la <b>presencia del manual</b> en su lugar, de los <b>dispositivos de seguridad</b>, la presencia de los <b>EPI</b> necesarios, etc.<br><br><b>Recordad no situarse bajo el brazo o plataforma de la máquina si no los has bloqueado antes</b>."
+            },
+            {
+              "titulo": "<b>Inspección previa a la elevación</b>",
+              "texto": "Comprobar si existen <b>líneas eléctricas</b> en las inmediaciones, que no se ha excedido la <b>carga nominal de la PEMP</b>, que los <b>estabilizadores</b> están operativos, etc."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "rotateIn",
+          "texto": "<b>¡IMPORTANTE!</b><br>Esto es <b>únicamente un resumen</b>, por lo que <b>no</b> están indicados de forma <b>exhaustiva</b> los puntos a revisar en cada inspección.<br><br>También debemos recordar que <b>antes del comienzo del trabajo</b> y una vez posicionada la máquina se debe <b>señalizar la zona</b> de trabajo, mediante vallado, baliza o similar, en función de las necesidades. "
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Localiza en la siguiente SOPA DE LETRAS los siguientes elementos a comprobar antes de empezar a trabajar con una PEMP::"
+        },
+        {
+          "clase": "juegoSopaLetras",
+          "pistas": [
+            {
+              "palabra": "ESTABILIZADORES",
+              "definicion": "ESTABILIZADORES"
+            },
+            {
+              "palabra": "MANUAL",
+              "definicion": "MANUAL"
+            },
+            {
+              "palabra": "PEGATINAS",
+              "definicion": "PEGATINAS"
+            },
+            {
+              "palabra": "RESIDUOS",
+              "definicion": "RESIDUOS"
+            },
+            {
+              "palabra": "REVISIONES",
+              "definicion": "REVISIONES"
+            },
+            {
+              "palabra": "SISTEMAS",
+              "definicion": "SISTEMAS"
+            }
+          ]
+        }      
+      ]
+    },    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "La inspección exterior de la PEMP se hará comenzando siempre por el mismo sitio, en el mismo sentido de giro, revisando los mismos puntos y finalizando siempre en el mismo lugar.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "En la inspección exterior verificaremos entre otros elementos, la presencia del manual de instrucciones, del EPI anticaídas y del estado de las pegatinas de advertencia.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": "false",
+                  "feedback": "Estos tres elementos se comprobarán en la Inspección Previa al uso de las PEMP"
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": "Verdadero"
+                }
+              ]
+            },
+            {
+              "texto": "Durante las inspecciones no se debe situar una persona bajo el brazo o la plataforma salvo que su movimiento haya sido bloqueado previamente.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "En la inspección previa al uso de la máquina, verificaremos entre otros elementos, el estado de frenos baterías, motores y neumáticos, y comprobaremos el funcionamiento de los sistemas de mando.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": "false",
+                  "feedback": "Estros tres elementos se verificarán en la Inspección Exterior"
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": "true",
+                  "feedback": "Estros tres elementos se verificarán en la Inspección Exterior"
+                }
+              ]
+            },
+            {
+              "texto": "Durante la inspección previa a la elevación de la cesta, se realizarán entre otras las siguientes comprobaciones:  la posible existencia de líneas eléctricas en la vertical, que las cargas están repartidas y si fuera posible en el centro de la plataforma.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "En cuanto a los estabilizadores . . .",
+              "respuestas": [
+                {
+                  "opcion": "Hay que comprobar que cada gato y placa de apoyo, apoyan por completo en el suelo antes de elevar la plataforma.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Durante el trabajo se debe comprobar que los apoyos están completamente sobre el suelo.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Las otras dos respuestas son correctas",
+                  "correcto": "True"
+                }
+              ]
+            },
+            {
+              "texto": "La zona de trabajo de la PEMP no deberá estar balizada o acordonada durante el trabajo, con que esté señalizada es suficiente.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": "false",
+                  "feedback": "Cuando el trabajo se realiza en una zona utilizada por otros vehículos o personal ajeno a la tarea hay que asegurarse que toda el área de trabajo de la PEMP está balizada o acordonada."
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": "true"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En fin, que después de tanta <b>inspección</b>, seguro que podemos estar seguros de que la máquina y todo su <b>entorno</b> están ya preparados para poder utilizarla en condiciones óptimas de seguridad.<br><br>Pero la <b>seguridad</b> no acaba con estas comprobaciones previas, en el próximo capítulo trataremos las normas de <b>seguridad</b> a seguir en los usos habituales de una PEMP."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod08/hombreCasco.png",
+              "ancho": 300,
+              "subclase": "paraCambiar",
+              "pie": "El muñeco de siempre con una casco"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

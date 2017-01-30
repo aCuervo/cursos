@@ -1,0 +1,642 @@
+﻿{
+  "modulo": "MOD. 11: ACCIDENTES HABITUALES",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "ACCIDENTES HABITUALES",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod11/hombreConBotas.jpg",
+              "ancho": 200,
+              "subclase": "paraCambiar",
+              "pie": "El muñeco de siempre, que se le vea bien que lleva botas"
+            },
+            {
+              "clase": "texto",
+              "texto": "Hola amigo, aquí me tienes de nuevo. Sano y salvo. Parece que todo quedó finalmente en un pequeño INCIDENTE sin consecuencias; un mínimo “agujerito” en la suela de la chancla. <br><br>En este módulo veremos los <b>accidentes</b> más <b>habituales</b> que suelen suceder con el uso de las PEMP y las <b>medidas preventivas</b> que tenemos que tomar para que no sucedan. Un tema muy importante así que presta toda tu atención y ... ¡Empezamos!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Accidentes e Incidentes",
+      "fondo": "img/mod11/fondoIncidente.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "celo",
+          "animacion": "jello",
+          "texto": "Recordemos que la mayoría de los <b>accidentes</b> pueden ser <b>evitados</b> si se asumen los <b>incidentes</b> como las <b>alertas</b> que nos permiten controlar los riesgos con antelación.<br><br>Mientras en el <b>accidente</b> hay una <b>lesión orgánica</b>, el <b>incidente</b> es el <b>\"casi\"</b> en donde no se presentó daño a la salud, es como una <b>\"ocurrencia peligrosa\"</b>."
+        }
+      ]
+    },
+    {
+      "titulo": "Accidentes más habituales",
+      "contenido": [
+        {
+          "clase": "acordeon",
+          "animacion": "flipInX",
+          "contenido": [
+            {
+              "titulo": "CAÍDAS DE LA CESTA POR EFECTO CATAPULTA",
+              "texto": "Este tipo de accidente se da en plataformas de <b>brazo telescópico</b> ya que mayor probabilidad a mayor longitud de brazo, y se produce por un movimiento del brazo de la PEMP <b>(\"latigazo\")</b> que puede catapultar al trabajador fuera de la cesta. El brazo <b>sube</b> o <b>baja</b> de forma <b>súbita</b> haciendo que el trabajador <b>pierda los apoyos</b> volteando por la barandilla o directamente salga despedido de la cesta. <br><br>El movimiento se puede deber bien a la <b>colisión</b> de la PEMP con algún objeto u otra máquina, bien a <b>desniveles del terreno</b> por el que se desplaza la PEMP. <br><br>Las <b>consecuencias</b> de ser catapultado fuera de la cesta <b>pueden ser fatales</b> para el trabajador.",
+              "imagen": "img/mod11/efectoCatapulta.jpg",
+              "ancho": 250
+            },
+            {
+              "titulo": "CAÍDA DE OBJETOS DESDE LA CESTA ELEVADA",
+              "texto": "Cuando se maneja un equipo de trabajo se debe tener presente la posibilidad de dañar a otros trabajadores que pueden no tener nada que ver con el trabajo que se realiza con el equipo en cuestión. Por ejemplo, trabajadores o personal ajeno que se encuentran en las inmediaciones de las plataformas elevadoras. <br><br>Si bien es cierto que la cesta debe estar equipada con un <b>rodapié</b> que impida la caída de objetos o herramientas que se encontrasen en el suelo de la cesta, ello <b>no es suficiente</b> en todos los casos. <br><br>Se trata de un tipo de <b>accidente común</b> que <b>afecta a terceros</b>, bien de la empresa, bien de otras empresas concurrentes o personas completamente ajenas a los trabajos como podrían ser los viandantes.",
+              "imagen": "img/mod11/caidaDeObjetos.jpg",
+              "ancho": 250
+            },
+            {
+              "titulo": "CONTACTOS ELÉCTRICOS POR CONTACTO DE LA PEMP CON ELEMENTOS EN TENSIÓN",
+              "texto": "Por norma general este tipo de plataformas <b>tienen continuidad eléctrica</b> entre todos sus elementos de forma que, si algún elemento de la plataforma entra en contacto con una línea eléctrica con tensión, toda la plataforma se encontraría en tensión. Este hecho ocasiona un tipo de accidente por contacto eléctrico que <b>suele tener consecuencias fatales</b>, sucede cuando la cesta o el brazo/tijera entra en contacto con una línea eléctrica, la corriente pasa a los elementos metálicos de la PEMP y al trabajador, que sufrirá lesiones por <b>contacto eléctrico indirecto</b> (contacto con masas puestas en tensión de forma accidental). Aunque menos probable, también puede producirse un <b>contacto directo del trabajador</b> con la línea eléctrica. <br><br>Existen distintos <b>factores</b> que influyen en los <b>efectos</b> que genera la corriente eléctrica (ya se directa o indirectamente) sobre el cuerpo humano, dichos factores son los siguientes: <br><br><ul><li>La intensidad de la corriente eléctrica. </li><li>La duración del contacto eléctrico. </li><li>La resistencia del cuerpo humano </li><li>La tensión aplicada. </li><li>La frecuencia de la corriente eléctrica. </li><li>El recorrido de la corriente eléctrica a través del cuerpo. </li><li>La capacidad de reacción de las personas.</li></ul>",
+              "imagen": "img/mod11/descargaElectrica.jpg",
+              "ancho": 250
+            },
+            {
+              "titulo": "ATROPELLOS",
+              "texto": "Este tipo de accidente es <b>menos común</b> que en operaciones con otro tipo de vehículos, principalmente debido a la <b>baja velocidad</b> de desplazamiento de la PEMP, pero en cualquier caso <b>es posible</b> que durante el desplazamiento de la PEMP puedan ser atropellados trabajadores que se encuentren en su trayectoria. <br><br>Precisamente su baja velocidad puede ocasionar un <b>exceso de confianza</b> en los trabajadores que se encuentren cerca de la máquina y producirse el <b>atropello con las ruedas u orugas</b> de la plataforma produciéndose <b>lesiones en los pies o en las piernas</b> del trabajador atropellado.",
+              "imagen": "img/mod11/atropello.jpg",
+              "ancho": 250
+            },
+            {
+              "titulo": "CAÍDAS POR ENTRAR O SALIR DE LA PLATAFORMA EN POSICIÓN ELEVADA",
+              "texto": "Generalmente, debido a la inexistencia de una planificación en determinadas tareas de mantenimiento o bien por primar criterios productivos frente a preventivos, se ejecutan tareas de <b>mantenimiento, reglaje o reparación</b> mediante el uso de plata­formas elevadoras móviles de personal que llevan al <b>trabajador</b> a la necesidad de <b>abandonar la cesta</b> para realizar el trabajo. Ello conlleva el <b>riesgo de caída de altura</b>.",
+              "imagen": "img/mod11/caida.jpg",
+              "ancho": 250
+            },
+            {
+              "titulo": "DAÑOS DURANTE LA COMPROBACIÓN Y CARGA DE LAS BATERÍAS",
+              "texto": "La comprobación del estado de las baterías es una de las tareas de mantenimiento a realizar de <b>manera previa</b> al uso de las plataformas eléctricas, de igual manera ocurre en las plataformas propulsadas con motor de combustión.<br><br><b>Durante</b> esta tarea se deben tomar las <b>precauciones</b> necesarias para que el trabajador que realiza la operación no resulte <b>dañado</b> por: <ul><li>El <b>ácido</b> de la batería.</li> <li><b>Explosión</b> al generarse una atmósfera potencialmente explosiva. </li><li>Un <b>contacto</b> eléctrico <b>directo</b> con los bornes o <b>indirecto</b> con elementos metálicos puestos accidentalmente en tensión, con cables de alimentación. </li></ul><br><br>La <b>comprobación de la carga</b> debe realizarse con un <b>densímetro</b> o pesa-ácidos o con un <b>multímetro</b> que posea dicha función. El uso del multímetro evitará el riesgo de sufrir daños por contacto con el ácido de la batería. <br><br>La <b>carga de la batería</b> debe realizarse con un <b>cargador adecuado</b> al tipo de batería que pretendamos cargar, preferiblemente cargadores con limitador de carga para evitar la sobrecarga de baterías. Y en lugares <b>bien ventilados</b> para evitar la <b>inhalación</b> de los vapores y la formación de atmósferas potencialmente explosivas. La <b>compuerta</b> del compartimento de batería deberá permanecer <b>abierta</b> durante todo el proceso de carga.",
+              "imagen": "img/mod11/bateria.jpg",
+              "ancho": 250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Prevención de accidentes frecuentes",
+      "contenido": [
+        {
+          "clase": "tabsB",
+          "subclase": "izquierda",
+          "animacion": "bounceInRight",
+          "contenido": [
+            {
+              "titulo": "Vuelco por viento",
+              "texto": "Todos los trabajadores deberían ser conscientes de que una plataforma puede volcar por acción del viento y conocer, por el manual de instrucciones de la PEMP, a qué velocidad de viento deben dejar de trabajar con ella. <br><br>Aunque es posible que las plataformas se equipen con algún tipo de instrumento de medida e indicadores acústicos o luminosos, es recomendable que los trabajadores tengan una idea de qué <b>condiciones de viento</b> existen en el lugar. Para ello podemos utilizar la conocida <b>Escala de Beaufort</b> de la Fuerza de los Vientos que se incluye en algunos manuales de fabricantes de plataformas. <br><br><img src='img/mod11/escalaDeBeaufort.jpg' width=600><br><br>Conocer esta escala y la velocidad máxima del viento permitida por el fabricante para la PEMP que se vaya a usar en ese momento es una medida <b>muy sencilla y práctica</b> para evitar este tipo de accidentes. Un comportamiento seguro implica <b>evitar</b> la colocación de elementos en la estructura o en la cesta que pudieran suponer el <b>incremento de la resistencia</b> al viento del conjunto.  Por tanto, se debe evitar la colocación de carteles u otros elementos que incrementen dicha resistencia.<br><br>La respuesta de IPAF, a la pregunta ¿Cuál es la máxima velocidad del viento permitida para trabajar con una plataforma aérea? es la siguiente:<br>Todas las plataformas, con excepción de las que están diseñadas para trabajo en interior que no pueden trabajar con viento, están diseñadas para aguantar una velocidad de viento hasta un <b>máximo</b> que se <b>debe marcar</b> en la máquina. Operaciones por encima del máximo indicado por el fabricante pueden causar inestabilidad.<br><br>La <b>velocidad del viento</b> generalmente aceptada, y también el máximo en el que un operario puede trabajar cómodamente, es de <b>12,5 m/s</b> (45 km/h).<br><br>La velocidad del viento se puede medir desde la <b>plataforma</b> con un <b>anemómetro</b> de mano, un instrumento mucho más fiable que cualquier otra medición visual (Escala Beaufort). Es muy importante tener en consideración que la velocidad del viento aumenta con la altura y puede ser hasta un 50% superior a una altura de 20 metros comparado con la velocidad en tierra.<br><br>Además se debe tener cuidado al <b>manipular materiales con una superficie grande</b> como paneles que pueden actuar como \"velas\" y afectar gravemente la estabilidad de una PEMP, especialmente en condiciones de viento racheado. Por la misma razón, carteles, letreros y similares no deben aplicarse ni siquiera temporalmente a la plataforma.<br><br>Al trabajar en una <b>zona de edificios altos</b> se puede verificar el así dicho <b>\"efecto embudo\"</b> que causa ráfagas de viento muy fuertes. Otras zonas que pueden tener ráfagas de viento inesperadas son en <b>proximidad de aeronaves</b> en los aeropuertos y <b>vehículos</b> en las autopistas."
+            },
+            {
+              "titulo": "Vuelco por fallos estructurales",
+              "texto": "Como en cualquier otro tipo de máquina, las PEMP no están exentas de sufrir un fallo estructural. Los fallos estructurales no deben producirse si la plataforma se ha diseñado correctamente, si los materiales empleados en su fabricación cumplían los estándares obligatorios, si la ejecución en fábrica de las uniones ha sido correcta y si el mantenimiento periódico y las reparaciones se han efectuado conforme a las indicaciones del fabricante y por personal experimentado. Las <b>consecuencias</b> de un fallo estructural son <b>fatales</b>, así que, aunque la <b>probabilidad</b> de este tipo de accidente sea <b>muy baja</b>, merece especial mención. <br><br>Lo habitual en este tipo de accidente es que el fallo estructural se produzca por una de las siguientes causas:<ul><li>Ausencia de un mantenimiento adecuado.</li><li>Reparaciones erróneas realizadas con piezas de recambio no originales y de mala calidad.</li></ul> <br><br>Partiendo de que el diseño es conforme, así como los materiales y el trabajo en fá­brica, la mejor manera de <b>prevenir</b> este tipo de accidentes es <b>verificar</b> las uniones de la <b>estructura</b> y del <b>chasis</b> de forma regular, así como las de los elementos del sistema hidráulico, incluyendo pasadores, tornillería, etc. e identificando posibles <b>grietas</b>, <b>deformaciones</b> o zonas de <b>oxidación</b>."
+            },
+            {
+              "titulo": "Vuelco por exceso de carga",
+              "texto": "Los equipos de elevación (de cargas o personas) están diseñados para una <b>carga máxima de utilización</b> y, en principio, manteniendo el equipo de forma adecuada conforme a las indicaciones del fabricante, tenemos la seguridad de que no se producirán deformaciones, roturas o desplome si no se supera dicha carga máxima de utilización. <br><br>Si suponemos un <b>diseño correcto</b> del equipo, la siguiente medida es asegurarse de que el <b>operador</b> del equipo conoce los <b>límites de carga</b> de la plataforma en cualquiera de sus posiciones posibles, y los respeta. El operador debe tener a su disposición tal <b>información</b> y tener la <b>formación suficiente</b> para entenderla y aplicarla en el desarrollo de su actividad con la plataforma.<br><br>La <b>Guía Técnica del INSHT</b> indica que, cuando exista un <b>riesgo significativo</b> de vuelco, deformaciones, roturas o desplome, etc., debido a <b>sobrecargas</b>, el equipo de trabajo debería estar provisto, en función de la carga máxima de utilización o del momento de vuelco o, en su caso, del tipo de aplicación (elevación de cargas o ele­vación de personas), de dispositivos tales como <b>indicadores de carga nominal</b> (carga máxima admisible), <b>limitadores de carga nominal</b> y, en su caso, <b>limitadores de momento de vuelco</b>. En este sentido, las PEMP, al ser equipos de elevación de personas, independientemente de la carga máxima de utilización y del momento de vuelco, deben estar equipadas con dichos dispositivos, salvo que el fabricante pueda demostrar que no existe riesgo de sobrecarga ni de vuelco. <br><br>Los dispositivos <b>indicadores</b> proporcionan <b>advertencia acústica y/o visual</b> cuando se alcanzan los límites de elevación de seguridad y los dispositivos <b>limitadores</b> ordenan la <b>detención del movimiento peligroso</b> del equipo. <br><br>Por tanto, conociendo los <b>límites de carga</b>, entendiéndolos, respetándolos, considerando las indicaciones visuales o acústicas de los paneles y, muy importante, <b>no anulando</b> los limitadores, se controlará el <b>riesgo</b>. <br><br>Las PEMP son un ejemplo de equipo de elevación de entre los que pueden sufrir la <b>variación de su carga nominal</b> dependiendo del radio de giro y/o del alcance de la operación o su configuración; si <b>no es posible disponer</b> de un valor de la carga nominal para <b>todas</b> las configuraciones, se debería <b>rebajar la capacidad del equipo</b> aplicando un factor de reducción a indicar dicho valor mediante el correspondiente <b>marcado</b>. Cuando sea necesario hacer esto, sólo se debería realizar por <b>personal competente</b> y siempre <b>contactando</b> antes con el <b>fabricante</b> del equipo, <b>importador</b> o <b>suministrador</b> para obtener información al respecto."
+            },
+            {
+              "titulo": "Vuelcos por fallos en la estabilización",
+              "texto": "Las plataformas pueden tener o no estabilizadores, pero en cualquier caso, la estabilidad depende, entre otros factores, de la <b>resistencia del suelo</b> sobre el que se apoyan. Si el terreno es lo suficientemente <b>resistente</b> como para no deformarse con la masa de la PEMP más operadores más materiales, y su pendiente es <b>inferior</b> a los límites indicados por el fabricante, tendremos la seguridad de que la PEMP será <b>estable</b>. La evaluación de la <b>superficie de apoyo</b> se debe llevar a cabo tanto si la plataforma dispone de estabilizadores como si no.<br><br>Una PEMP autopropulsada <b>sin estabilizadores</b> puede <b>volcar</b> al <b>pasar</b> de un suelo duro a uno blando. Es muy importante que, durante el uso, se utilicen los <b>indicadores de nivel</b> instalados en la plataforma y se observen los <b>avisos y advertencias</b> que indican que se han superado los límites. En ese caso, el operador debe <b>bajar la plataforma</b> y restablecer el <b>nivel</b> de la misma antes de continuar con el trabajo. Cuando el <b>uso seguro</b> del equipo dependa de la utilización de <b>dispositivos estabilizadores</b>, el equipo no se debería utilizar a menos que dichos dispositivos <b>estén en su posición y sean eficaces</b>. <br><br>Para permitir una <b>utilización adecuada</b>, el equipo debería disponer de lo siguiente: <ol><li><b>Dispositivos de enclavamiento</b> que impidan cualquier movimiento no previsto por el fabricante, cuando:<ul><li>No se utilizan los estabilizadores.</li><li>Los estabilizadores no están correctamente colocados.</li><li>Cuando el chasis no se encuentra dentro de los límites de inclinación previstos por el fabricante. </li></ul></li><li>Las <b>instrucciones del fabricante</b> del equipo para el correcto posicionamiento de los <b>estabilizadores</b> y del <b>chasis</b> dentro de los límites de inclinación previstos por el fabricante. </li></ol><br><br>La <b>eficacia de los estabilizadores</b> depende, en particular, de: <li>Su diseño y construcción y del mantenimiento.</li><li>Los medios de que se disponga para regular la inclinación del chasis del equipo de trabajo y controlar que este se encuentre dentro de los límites de inclinación previstos por el fabricante, por ejemplo, mediante niveles de burbuja.</li><li>El posicionamiento correcto de los mismos y de que se mantengan en dicha posición por medio de los adecuados topes o sistemas de bloqueo.</li><br><br>Entre las <b>medidas preventivas</b> de carácter general a aplicar en relación con los factores que pueden afectar a la estabilidad del equipo de elevación, se van a <b>considerar</b>: <li>La <b>resistencia</b> del suelo</b>. </li><li>La <b>pendiente</b> de la superficie. </li><li>La <b>fuerza del viento</b>. </li><li>La <b>carga</b>. </li><li>Los <b>fallos estructurales</b> (que se han considerado en los puntos anteriores). </li><br><br>En relación con la <b>resistencia del suelo</b> o de la superficie en la que se ha colocado o posicionado el equipo puede ser necesario, por ejemplo, colocar <b>placas de reparto de carga</b>, de manera que puedan soportar con seguridad el peso del equipo y la carga máxima a elevar. Asimismo, se tendrá en cuenta la necesidad de <b>reforzar la estabilidad</b> de la superficie de apoyo en condiciones de carga, por ejemplo, si el equipo está muy próximo a una excavación, o a una zanja, cuando el suelo pueda hundirse lentamente o derrumbarse repentinamente. <br><br>Estas medidas pueden ser de particular <b>interés</b> cuando se utilizan <b>estabilizadores</b>, con los que, además, en ciertos casos, puede ser necesario <b>suplementar</b> las bases de apoyo de las patas del estabilizador con otras <b>bases adicionales</b> apropiadas al uso previsto. <br><br>Los <b>forjados de sótanos, bodegas y garajes</b> no siempre son capaces de aguantar el peso de algunas PEMP y pueden derrumbarse sin aviso. Sería aconsejable disponer de un <b>informe</b> sobre la resistencia del forjado antes de posicionar una PEMP. Las áreas <b>pavimentadas</b> pueden parecer muy seguras, pero en algunas ocasiones la pavimentación puede estar sobre un <b>terreno débil</b>. Las <b>alcantarillas</b>, <b>conductos subterráneos</b> de gas, agua o electricidad pueden resultar dañados por la masa del conjunto y <b>hundirse</b>, causando la pérdida de estabilidad de la PEMP y su vuelco. Se debe prestar especial atención a la <b>presencia de grietas</b> en el terreno, pues son un indicador de terrenos de relleno sin compactar."
+            },
+            {
+              "titulo": "Contacto o arco eléctrico",
+              "texto": "El contacto de la plataforma con elementos en tensión puede resultar fatal para el trabajador o trabajadores que se encuentren en ella.<br><br>La forma de <b>evitar</b> dichos contactos es mantener la plataforma en todo caso a una distancia <b>superior</b> a la distancia mínima de <b>seguridad</b> indicada por el fabricante. Dicha distancia mínima de seguridad estará en función de la <b>tensión</b> a la que se encuentren los elementos de la línea o equipo eléctrico. En el caso en que <b>no</b> se puedan <b>respetar</b> dichas distancias de seguridad debido a la naturaleza de los trabajos a realizar, se deberán utilizar plataformas de <b>brazo aislante</b> de forma que el trabajador no quede expuesto al riesgo.<br><br> <img src='img/mod11/rangoVoltajes.jpg'> "
+            },
+            {
+              "titulo": "Atrapamiento, aplastamiento <br>y daños por colisión",
+              "texto": "Existe el riesgo de sufrir atrapamientos y aplastamientos entre las partes móviles de la estructura y entre estas y el chasis de la PEMP, así como con otros objetos inmóviles. Aunque muchas de las medidas ya se han mencionado, repetiremos las <b>más importantes</b> para prevenir estos riesgos:<br><br><li><b>Elección correcta</b> de la PEMP: la PEMP seleccionada debe ser apta para las maniobras a realizar cuando se tienen obstáculos por encima de ella. </li><li>Tan <b>incorrecto</b> es utilizar plataformas cerca de su <b>alcance máximo</b> como aquellas <b>demasiado grandes</b> para el espacio en el que se vaya a trabajar. </li><li><b>Planificación</b> de los movimientos a realizar. </li><li><b>Familiarización con el equipo</b>: resulta de gran importancia que los operadores estén familiarizados con el equipo y que el personal que se encuentra en el suelo conozca los mandos para un descenso de emergencia. </li><li>Verificación del <b>buen estado</b> de la <b>superficie</b> de trabajo. </li><li>Buena <b>visibilidad</b> en altura: no se debe trabajar con una PEMP si no se dispone de una buena visibilidad en altura, ya que existe riesgo de quedar atrapado entre la PEMP y estructuras superiores. Si no se dispone de buena visibilidad, se debe paralizar el trabajo hasta que dicha situación se solucione. </li><li><b>Distracciones</b>: las distracciones también se pueden combatir; precisamente uno de los motivos de repetir la formación, principalmente la formación práctica, es asimilar como innatos los procedimientos de trabajo seguros. La insistencia en la práctica de los métodos de trabajo seguro (entrenamiento) hace que disminuyan las equivocaciones y distracciones. </li><li><b>Obstrucción</b> de mandos de la PEMP. </li><li><b>No puentear</b> los mandos de la PEMP. </li><li><b>Ensayo</b> de los procedimientos de <b>rescate</b>.</li>"
+            },
+            {
+              "titulo": "Colisión con otra máquina o vehículo",
+              "texto": "Teniendo en cuenta el ámbito de actuación de las PEMP, es bastante probable que se encuentren operando en las inmediaciones de otro tipo de maquinaria. Cualquier <b>colisión</b> con otra máquina o elemento puede provocar el <b>vuelco de la PEMP y la caída del trabajador</b> desde la altura de trabajo. <br><br>Además de <b>contra máquinas</b> para elevación de cargas, las PEMP pueden <b>colisionar con otros equipos</b>, aunque, en este caso, delimitando y señalizando las vías de circulación, así como la zona de trabajo, es <b>poco probable</b> que se produzca la colisión. <br><br>En determinados casos habría que adoptar <b>como medidas</b>, por ejemplo: <br><br><li>Utilizar un <b>único</b> señalista y que tenga controlada la PEMP en todo momento.</li> <li>Mantener permanente y eficazmente <b>comunicados</b> entre sí a los diferentes <b>operadores de cada uno de los equipos</b> que puedan solaparse y colisionar. </li><li><b>Señalizar convenientemente los límites de la trayectoria</b> a seguir por las cargas. </li><br><br>En aquellos <b>casos</b> en que los <b>riesgos</b> puedan verse <b>agravados</b> o modificados por la concurrencia de operaciones diversas que se desarrollan sucesiva y simultáneamente y que hagan preciso el control de la correcta aplicación de los métodos de trabajo, se recurrirá a la <b>presencia del recurso preventivo</b>."
+            },
+            {
+              "titulo": "Caida de objetos desde la cesta",
+              "texto": "En general, los objetos presentes en la plataforma serán <b>herramientas</b> de mano y <b>materiales</b> con los que se vaya a trabajar. Debido a la morfología de la plataforma y a la diversidad de operaciones que se pueden realizar desde ella, puede resultar imposible <b>evitar por completo</b> el riesgo de caída de objetos. En este caso, se debe optar por <b>delimitar la zona de trabajo</b> de forma que se <b>impida el acceso</b> a la zona peligrosa. <br><br>En otros casos, <b>sí</b> es posible evitar completamente la <b>caída de objetos</b> desde la plataforma aplicando una serie de <b>medidas de prevención</b> básicas como las siguientes: <br><br><li>Para evitar la caída de herramientas de mano se debería dotar de <b>cinturones</b> u otros elementos que permitan al trabajador <b>guardarlos</b> de forma segura mientras no opera con ellos. Se evita así que se introduzcan en los bolsillos o se sujeten varias herramientas a la vez con las manos. </li><li><b>Nunca</b> se deben dejar las herramientas <b>en el suelo</b> de la plataforma, de este modo evitamos que por una patada del trabajador puedan caer. </li><li>El suelo de la plataforma deberá estar <b>provisto de un rodapié</b> o protección perimetral que impida la caída de objetos fuera del habitáculo.</li>"
+            },
+            {
+              "titulo": "Efecto catapulta",
+              "texto": "Para prevenir este tipo de accidente se debe disponer de <b>elementos de retención</b> adecuados a fin de que el trabajador no pueda salir despedido de la plataforma de la PEMP. Por tanto, el trabajador debe disponer del <b>EPI correcto</b> y la plataforma debe disponer de un punto de anclaje <b>seguro</b>. Dicho punto de anclaje <b>no</b> puede improvisarse, por ejemplo utilizando la barandilla o el punto de anclaje de la plataforma al brazo y debe ser <b>específico</b> y haberse <b>diseñado</b> para que soporte los <b>esfuerzos</b> a los que estaría sometido en caso de producirse el <b>efecto catapulta</b>. La mayoría de las nuevas PEMP articuladas de brazo telescópico <b>están equipadas</b> con este punto de anclaje. <br><br>Entre los trabajadores existe la creencia de que <b>es peor</b> estar anclado a la plataforma que no estarlo, pues consideran que en caso de vuelco o fallo estructural serían arrastrados por la plataforma y no tendrían posibilidad de quedar sujetos a algún elemento hasta que fuesen rescatados. En realidad ese <b>planteamiento</b> es <b>erróneo</b>, pues si, cae la plataforma y el trabajador se encontraba correctamente situado en su interior, es improbable que consiga quedar colgado con sus extremidades de ningún otro objeto o estructura, ya que sería igualmente arrastrado por la plataforma debido a la altura de las barandillas y a la dificultad de reaccionar a tiempo. En el hipotético caso en que el trabajador consiguiese quedar colgado de otro objeto o estructura, la mayoría de trabajadores no aguantaría el tiempo suficiente para ser rescatado si solo estuviese sujeto con sus manos, y terminaría cayendo.  Además no podría utilizar las manos para usar un teléfono móvil o transmisor de radio para avisar de su situación si se produjese el accidente estando solo. <br><br>Hay que tener en cuenta que el efecto catapulta <b>no</b> se produce en <b>plataformas de tijera</b>, por lo que surge el debate sobre usar o no un dispositivo de retención. El <b>criterio</b> debería ser el siguiente: <li>En aquellas <b>plataformas de tijera</b> cuyo fabricante indique en el manual de instrucciones que es <b>obligatorio</b> el uso de <b>EPI</b>, el trabajador <b>deberá usarlo</b>, ya que, según el anexo II del Real Decreto 1215/97, los equipos de trabajo no podrán utilizarse de forma o en operaciones o en condiciones contraindicadas por el fabricante. <li>En los casos en que el fabricante <b>no obligue</b> al uso de <b>EPI</b>, dicho uso quedará <b>vinculado</b> a lo establecido en la correspondiente <b>evaluación de riesgos</b> del puesto de trabajo. <br><br>Por otra parte, según se indica en la Guía Técnica para la Evaluación y Prevención de los Riesgos relativos a la utilización de equipos de trabajo, cualquier <b>sistema de retención</b> debe estar fijado a <b>puntos adecuados</b> de anclaje en el equipo de trabajo móvil para garantizar su integridad y fiabilidad durante el uso. <br><br>En algunos tipos de <b>equipos de trabajo antiguos</b>, puestos en servicio antes del 5/12/1998, puede ser necesario <b>realizar modificaciones</b> estructurales sustanciales para permitir la instalación de un sistema de retención. En estas circunstancias, si la evaluación de riesgos determina que es necesario un sistema de retención, una alternativa puede ser <b>utilizar otro equipo</b> de trabajo que tenga <b>incorporado o se le pueda incorporar</b> un sistema de retención. "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Resumen - Accidentes más habituales",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": ""
+        },
+        {
+          "clase": "diagrama",
+          "cajas": [
+            {
+              "id": 1,
+              "forma": "rect",
+              "texto": "<h2><font color='white'>ACCIDENTES MÁS HABITUALES</font></h2>",
+              "ancho": 250,
+              "alto": 430,
+              "x": 1,
+              "y": 1,
+              "relleno": "#71AA00",
+              "borde": "#71AA00",
+              "anchoBorde": 3,
+              "orden": 1
+            },
+            {
+              "id": 2,
+              "forma": "rect",
+              "texto": "<b>Caída de la cesta por efecto catapulta</b> Este tipo de accidente se da en plataformas de brazo <b>telescópico</b> (mayor probabilidad a mayor longitud de brazo) ",
+              "ancho": 800,
+              "alto": 70,
+              "x": 350,
+              "y": 1,
+              "relleno": "#E0FFA1",
+              "borde": "#E0FFA1",
+              "anchoBorde": 3,
+              "orden": 3
+            },
+            {
+              "id": 3,
+              "forma": "rect",
+              "texto": "<b>Contacto eléctrico</b> por contacto de la PEMP con elementos en tensión ",
+              "ancho": 800,
+              "alto": 40,
+              "x": 350,
+              "y": 100,
+              "relleno": "#E0FFA1",
+              "borde": "#E0FFA1",
+              "anchoBorde": 3,
+              "orden": 5
+            },
+            {
+              "id": 4,
+              "forma": "rect",
+              "texto": "<b>Caída de objetos</b> desde la cesta elevada  ",
+              "ancho": 800,
+              "alto": 40,
+              "x": 350,
+              "y": 170,
+              "relleno": "#E0FFA1",
+              "borde": "#E0FFA1",
+              "anchoBorde": 3,
+              "orden": 7
+            },
+            {
+              "id": 5,
+              "forma": "rect",
+              "texto": "<b>Atropellos</b>",
+              "ancho": 800,
+              "alto": 40,
+              "x": 350,
+              "y": 240,
+              "relleno": "#E0FFA1",
+              "borde": "#E0FFA1",
+              "anchoBorde": 3,
+              "orden": 9
+            },
+            {
+              "id": 6,
+              "forma": "rect",
+              "texto": "<b>Caída</b> por entrar o salir de la plataforma en posición elevada ",
+              "ancho": 800,
+              "alto": 40,
+              "x": 350,
+              "y": 310,
+              "relleno": "#E0FFA1",
+              "borde": "#E0FFA1",
+              "anchoBorde": 3,
+              "orden": 11
+            },
+            {
+              "id": 7,
+              "forma": "rect",
+              "texto": "<b>Daños</b> durante la comprobación y carga de las <b>baterías</b> ",
+              "ancho": 800,
+              "alto": 40,
+              "x": 350,
+              "y": 380,
+              "relleno": "#E0FFA1",
+              "borde": "#E0FFA1",
+              "anchoBorde": 3,
+              "orden": 13
+            }
+
+          ],
+          "enlaces": [
+            {
+              "origen": 1,
+              "destino": 2,
+              "color": "#666666",
+              "orden": 2
+            },
+            {
+              "origen": 1,
+              "destino": 3,
+              "color": "#666666",
+              "orden": 4
+            },
+            {
+              "origen": 1,
+              "destino": 4,
+              "color": "#666666",
+              "orden": 6
+            },
+            {
+              "origen": 1,
+              "destino": 5,
+              "color": "#666666",
+              "orden": 8
+            },
+            {
+              "origen": 1,
+              "destino": 6,
+              "color": "#666666",
+              "orden": 10
+            },
+            {
+              "origen": 1,
+              "destino": 7,
+              "color": "#666666",
+              "orden": 12
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInLeft",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod11/atropello.jpg",
+              "ancho": 100,
+              "animacion": "rotateIn",
+              "subclase": "rotarIzd"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod11/caida.jpg",
+              "ancho": 165,
+              "animacion": "rotateIn",
+              "subclase": "rotarDch"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod11/descargaElectrica.jpg",
+              "ancho": 165,
+              "animacion": "rotateIn",
+              "subclase": "rotarIzd"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod11/efectoCatapulta.jpg",
+              "ancho": 100,
+              "animacion": "rotateIn",
+              "subclase": "rotarDch"
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "titulo": "Resumen - Principales medidas preventivas",
+      "fondo": "img/mod11/fondoResumen.jpg",
+      "contenido": [
+        {
+          "clase": "diagrama",
+          "cajas": [
+            {
+              "id": 1,
+              "forma": "rect",
+              "texto": "<h2><font color='white'>PRINCIPALES MEDIDAS PREVENTIVAS</font></h2>",
+              "ancho": 250,
+              "alto": 280,
+              "x": 1,
+              "y": 1,
+              "relleno": "#71AA00",
+              "borde": "#71AA00",
+              "anchoBorde": 3,
+              "orden": 1
+            },
+            {
+              "id": 2,
+              "forma": "rect",
+              "texto": "Seguir a rajatabla las <b>instrucciones</b> del fabricante, en cuanto a velocidad máxima del viento, carga máxima de utilización, etc.",
+              "ancho": 800,
+              "alto": 70,
+              "x": 350,
+              "y": 1,
+              "relleno": "#E0FFA1",
+              "borde": "#E0FFA1",
+              "anchoBorde": 3,
+              "orden": 3
+            },
+            {
+              "id": 3,
+              "forma": "rect",
+              "texto": "<b>Mantenimiento</b> adecuado",
+              "ancho": 800,
+              "alto": 40,
+              "x": 350,
+              "y": 100,
+              "relleno": "#E0FFA1",
+              "borde": "#E0FFA1",
+              "anchoBorde": 3,
+              "orden": 5
+            },
+            {
+              "id": 4,
+              "forma": "rect",
+              "texto": "Prestar especial atención a la <b>estabilización y posicionamiento</b> de la PEMP",
+              "ancho": 800,
+              "alto": 40,
+              "x": 350,
+              "y": 170,
+              "relleno": "#E0FFA1",
+              "borde": "#E0FFA1",
+              "anchoBorde": 3,
+              "orden": 7
+            },
+            {
+              "id": 5,
+              "forma": "rect",
+              "texto": "Uso adecuado de <b>EPI</b>",
+              "ancho": 800,
+              "alto": 40,
+              "x": 350,
+              "y": 240,
+              "relleno": "#E0FFA1",
+              "borde": "#E0FFA1",
+              "anchoBorde": 3,
+              "orden": 9
+            }
+          ],
+          "enlaces": [
+            {
+              "origen": 1,
+              "destino": 2,
+              "color": "#eeeeee",
+              "orden": 2
+            },
+            {
+              "origen": 1,
+              "destino": 3,
+              "color": "#eeeeee",
+              "orden": 4
+            },
+            {
+              "origen": 1,
+              "destino": 4,
+              "color": "#eeeeee",
+              "orden": 6
+            },
+            {
+              "origen": 1,
+              "destino": 5,
+              "color": "#eeeeee",
+              "orden": 8
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "juegoPalabrasCruzadas",
+          "titulo": "PEMP",
+          "descripcion": "A partir de las definiciones que te adjuntamos, completa el siguiente crucigrama. Selecciona la definición que quieres responder y escribe la palabra.NO utilices acentos en las respuestas.",
+          "ancho": "18", 
+          "alto": "16", 
+          "pistas": [
+            {
+              "palabra": "CATAPULTA",
+              "definicion": "Efecto ... , accidente que se puede dar en una plataforma de brazo telescópico.",
+              "direccion": "H",
+              "posX": 2,
+              "posY": 3
+            },
+            {
+              "palabra": "LATIGAZO",
+              "definicion": "Movimiento del brazo de la PEMP que puede catapultar al trabajador fuera de la cesta.",
+              "direccion": "H",
+              "posX": 8,
+              "posY": 9
+            },
+            {
+              "palabra": "ATROPELLO",
+              "definicion": "Accidente que se puede producir al interponerse una persona en el movimiento de traslacción de la PEMP.",
+              "direccion": "V",
+              "posX": 3,
+              "posY": 3
+            },
+            {
+              "palabra": "BEAUFORT",
+              "definicion": "Escala de ... , escala de fuerza del viento que se utiliza en algunos manuales por los fabricantes.",
+              "direccion": "V",
+              "posX": 5,
+              "posY": 1
+            },
+            {
+              "palabra": "INTENSIDAD",
+              "definicion": "Factor que influye en los efectos que genera la corriente eléctrica sobre el cuerpo humano.",
+              "direccion": "V",
+              "posX": 9,
+              "posY": 1
+            },
+            {
+              "palabra": "RODAPIE",
+              "definicion": "Parte de la plataforma de una PEMP, en la parte inferior de la barandilla, que evita la caida de objetos.",
+              "direccion": "V",
+              "posX": 15,
+              "posY": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "El riesgo de caída de cesta por efecto catapulta, se relaciona con las pemp de tipo:",
+              "respuestas": [
+                {
+                  "opcion": "Tijera",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Brazo telescópico",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "De mástil",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "El riesgo de atropello:",
+              "respuestas": [
+                {
+                  "opcion": "Es muy habitual en las PEMP, debido a la alta velocidad de traslación.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Es poco habitual en las PEMP debido a la baja velocidad de traslación.",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Es bastante habitual, dada la mala visibilidad desde la cesta.",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "¿Por qué motivo está prohibido pegar carteles en las cestas de las pemp?",
+              "respuestas": [
+                {
+                  "opcion": "Porque aumenta la superficie expuesta al viento y por ende el riesgo de vuelco",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Porque no se puede hacer publicidad en los lugares de trabajo.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Porque debido a ello, se pierde el marcado CE.",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "Para conseguir una buena estabilidad en la plataforma, consideramos la resistencia del suelo, la pendiente de la superficie y la fuerza del viento. No son parámetros a considerar la carga o los fallos estructurales.",
+              "respuestas": [
+                {
+                  "opcion": "Son ciertas ambas frases.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Solo la primera.",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Solo la segunda.",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "La PEMP seleccionada para el trabajo, debe ser apta para las maniobras a realizar cuando se tienen obstáculos por encima de ella. Tan incorrecto es utilizar plataformas cerca de su alcance máximo como aquellas demasiado grandes para el espacio en el que se vaya a trabajar ...",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": "false"
+                }
+              ]
+            },
+           {
+              "texto": "¿Dónde debemos anclar el arnés mientras trabajamos en la plataforma?",
+              "respuestas": [
+                {
+                  "opcion": "A un anclaje fijo, siempre externo a la plataforma.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "A la barandilla de la plataforma.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "En la plataforma existe un anclaje exclusivamente para ello.",
+                  "correcto": "true"
+                }
+              ]
+            },
+            {
+              "texto": "¿Cuál es la respuesta correcta?",
+              "respuestas": [
+                {
+                  "opcion": "Es correcto utilizar una PEMP como ascensor, para llegar al lugar de trabajo.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "La PEMP es una máquina para realizar el trabajo sobre ella, no un ascensor.",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Ambas son incorrectas",
+                  "correcto": "false"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Ya has visto lo que puede pasar si al trabajar con una Pemp <b>no actuamos</b> con cuidado, y todas las medidas que contribuyen de forma considerable a <b>disminuir</b> la probabilidad de que ocurra un accidente. <br><br>Bien, pues esto solo es posible con la <b>concienciación y colaboración de todos los agentes</b> que intervienen en las distintas actividades en las que se utilizan las PEMP.  Y <b>tú</b> eres <b>parte principal</b> entre ellos.<br><br>En el <b>siguiente</b> módulo, verás <b>10 formas de reducir los riesgos</b> en el uso de las PEMP. ¡Mucha atención! ¡Allí te espero!"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod11/hombreAtrapado.jpg",
+              "subclase": "paraCambiar",
+              "pie": "El muñeco de siempre hablando y que tenga casco"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

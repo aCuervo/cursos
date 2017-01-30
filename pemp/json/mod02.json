@@ -1,0 +1,649 @@
+﻿{
+  "modulo": "Mod. 2: GENERALIDADES",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "GENERALIDADES",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Introducción",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Seguro que alguna vez has utilizado una <b>escalera de mano</b> como ésta para acceder a un lugar elevado. <br><br> En este módulo te presentaremos otras maneras de acceso a esos lugares elevados. Conocerás lo que son las PEMP y sabrás <b>cuándo</b> es recomendable utilizarlas. <br><br> ¡Adelante!",
+              "animacion": "fadeInRight"
+            },
+            {
+              "clase": "imagen",
+              "subclase": "paraCambiar",
+              "imagen": "img/mod02/hombre_escalera.jpg",
+              "ancho": 400,
+              "pie": "El muñeco de siempre subido a una escalera",
+              "animacion": "fadeInUp"
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "¿Sabías que las escaleras de mano suponen una cantidad nada despreciable de <b>accidentes por caídas a distinto nivel</b>?",
+          "animacion": "fadeInRight"
+        }
+
+      ]
+    },
+    {
+      "titulo": "Definición (I)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Según el <b>Institulo de Seguridad e Higiene en el trabajo</b>:",
+		  "animacion": "slideInRight"
+        },
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "texto": "“La PEMP es una máquina <b>móvil</b> destinada a desplazar personas hasta una posición de trabajo con una única posición de entrada y salida de la plataforma. <br><br>Está constituida como mínimo por una <b>plataforma</b> de trabajo con órganos de servicio, una <b>estructura</b> extensible y un <b>chasis</b>.<br><br> <b>Existen</b> plataformas sobre camión articuladas y telescópicas, autopropulsadas de tijera, autopropulsadas articuladas o telescópicas y plataformas remolcables entre otras.”",
+		  "animacion": "rubberBand"
+        },
+        {
+          "clase": "imagen",
+          "ancho": 200,
+          "imagen": "img/mod02/ojos.png",
+          "pie": "<b>¡Vamos a verlo!</b>",
+		  "animacion": "slideInLeft"
+        }
+      ]
+    },
+    {
+      "titulo": "Definición (II)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Una PEMP está <b>constituida</b> como mínimo por los siguientes elementos:",
+		  "animacion": "slideInDown"
+        },
+            {
+              "clase": "imagen",
+			  "animacion": "tada",
+              "subclase": "paraCambiar",
+              "imagen": "img/mod02/elementosPEMP.jpg",
+              "pie": "Dibujar las cuatro imagenes una al lado de otra en horizontal"
+            },
+
+            {
+              "clase": "tabsB",
+			  "subclase": "derecha",
+			  "animacion": "fadeInLeft",
+              "contenido": [
+                {
+                  "titulo": "PLATAFORMA DE TRABAJO",
+                  "texto": "Plataforma rodeada por una <b>barandilla</b> o por una <b>cesta</b> (elementos marcados con el numero 1 en el dibujo). "
+                },
+                {
+                  "titulo": "BRAZO EXTENSIBLE",
+                  "texto": "Estructura que está <b>unida al chasis</b> y <b>soporta la plataforma</b> de trabajo permitiendo <b>moverla hasta la situación requerida</b>. Puede constar de uno o varios tramos, plumas o brazos, simples, telescópicos o articulados, estructura de tijera o cualquier combinación entre todos ellos, con o sin posibilidad de orientación en relación a la base (elementos marcados con el numero 2 en el dibujo)."
+                },
+                {
+                  "titulo": "CHASIS",
+                  "texto": "Es la <b>base de la PEMP</b>. Puede ser autopropulsado, empujado o remolcado; puede estar situado sobre el suelo, ruedas, cadenas, orugas o bases especiales; montado sobre remolque, semi-remolque, camión o furgón, y fijado con estabilizadores, ejes exteriores, gatos u otros sistemas que aseguren su estabilidad (elementos marcados con el numero 3 en el dibujo)."
+                }
+              ]
+            },
+        {
+          "clase": "texto",
+		  "animacion": "fadeInRight",
+          "texto": "Sus <b>elementos complementarios</b> son:"
+        },
+        {
+          "clase": "tabsB",
+		  "subclase": "izquierda",
+		  "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "ESTABILIZADORES",
+              "texto": "Son todos los <b>dispositivos o sistemas</b> concebidos para <b>asegurar la estabilidad</b> de las PEMP, como pueden ser: gatos, bloqueo de suspensión, ejes extensibles, placas estabilizadoras, etc. Los gatos son ideales para el uso en pendientes y suelo desigual  (elementos marcados con el numero 4 en el dibujo superior)."
+            },
+            {
+              "titulo": "SISTEMAS DE ACCIONAMIENTO",
+              "texto": "Son los sistemas que sirven <b>para accionar</b> todos los <b>movimientos</b> de las estructuras extensibles. Pueden ser accionados por cables, cadenas, tornillo o por piñón y cremallera."
+            },
+            {
+              "titulo": "ÓRGANOS DE SERVICIO",
+              "texto": "Son principalmente los <b>paneles de mando</b> normales, de seguridad y de emergencia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Clasificación y tipos (I)",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroEstrecho",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+				  "animacion": "slideInRight",
+                  "texto": "Existen, entre otras, <b>plataformas sobre camión</b> articuladas y telescópicas, <b>plataformas autopropulsadas</b> de tijera, articuladas o telescópias y <b>plataformas remolcables</b>."
+                },
+                {
+                  "clase": "texto",
+				  "animacion": "slideInRight",
+                  "texto": "Según la norma <a href='http://api.eoi.es/api_v1_dev.php/fedora/asset/eoi:36337/componente36345.pdf' target='_blank'><b>UNE-EN 280</b></a>, las PEMP se dividen, en función de la <b>proyección vertical</b> del <b>centro de gravedad</b>, en dos grupos:"
+                },
+                {
+                  "clase": "lista",
+				  "animacion": "slideInRight",
+                  "contenido": [
+                    {
+                      "punto": "<b>GRUPO A</b>: son las que la <b>proyección vertical del centro de gravedad (c.d.g)</b> de la carga está siempre en el <b>interior de las lineas de vuelco</b>, en todas las configuraciones de la plataforma y a la máxima inclinación del chasis especificada por el fabricante."
+                    },
+                    {
+                      "punto": "<b>GRUPO B</b>: <b>Resto</b> de PEMP."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "subclase": "paraCambiar",
+			  "animacion": "slideInLeft",
+              "imagen": "img/mod02/clasificacionPEMP.png"
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "imagen": "img/mod02/lineasDeVuelco.jpg",
+          "ancho": 300,
+		      "animacion": "slideInDown",
+          "texto": "Debemos entender las <b>líneas de vuelco</b> como las líneas que componen el cuadrado o rectángulo, según el caso, que limitan exteriormente a los elementos de apoyo, ya se trate de ruedas o estabilizadores."
+        }
+      ]
+    },
+    {
+      "titulo": "Clasificación y tipos (II)",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroEstrecho",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "animacion": "bounceInUp",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "En función de sus <b>posibilidades de traslación</b>, las PEMP se dividen en tres tipos:"
+                },
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "<b>TIPO 1</b>: La traslación <b>solo es posible</b> si la PEMP se encuentra en <b>posición de transporte</b>."
+                    },
+                    {
+                      "punto": "<b>TIPO 2</b>: La traslación con la plataforma de trabajo en posición elevada <b>solo se controla</b> por un <b>órgano situado en el chasis</b>."
+                    },
+                    {
+                      "punto": "<b>TIPO 3</b>: La traslación con la plataforma de trabajo en posición elevada se <b>controla</b> por un <b>órgano situado en la plataforma de trabajo</b>."
+                    }
+                  ]
+                },
+                {
+                  "clase": "texto",
+                  "subclase": "izquierda",
+                  "texto": "<b>NOTA:</b> Los tipos 2 y 3 pueden estar combinados. "
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "subclase": "paraCambiar rotarDch",
+              "animacion": "flipInX",
+              "imagen": "img/mod02/tiposPEMP.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Clasificación y tipos (III)",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "paraCambiar",
+              "imagen": "img/mod02/hombreCualEsLaMejor.png",
+			        "animacion": "tada",
+              "pie": "El muñeco de siempre con un bocadillo en el que ponga Ya, ya, pero ... ¿Cuál es la mejor?",
+              "ancho": 200
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+			        "animacion": "swing",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "No podemos decir que una PEMP sea, a priori, mejor que otra. Para la correcta selección de una u otra, se deben tener en cuenta los siguientes factores:"
+                },
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "<b>Tipo de trabajo</b> a realizar"
+                    },
+                    {
+                      "punto": "<b>Accesos</b> a la zona de trabajo"
+                    },
+                    {
+                      "punto": "Tipo de <b>terreno</b>"
+                    },
+                    {
+                      "punto": "<b>Suelo</b> del área de trabajo"
+                    },
+                    {
+                      "punto": "Numero de <b>personas y cargas</b> a elevar"
+                    },
+                    {
+                      "punto": "<b>Alcance</b> requerido"
+                    },
+                    {
+                      "punto": "Tipo de <b>combustible</b>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "rotateIn",
+          "texto": "Como parte de la correcta selección de PEMP, se debe <b>analizar el trabajo</b> y realizar la <b>evaluación de riesgos</b> asociada"
+        }
+
+      ]
+    },
+    {
+      "titulo": "Legislación",
+	    "fondo": "img/mod02/fondoEstrella.svg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "¡Veamos un poco la <b>normativa aplicable</b> al uso de las PEMP!. <br><br>Según la <b>NTP 1039</b> sobre <i>Plataformas Móviles de Personal (I): gestión preventiva para su uso seguro</i>, la normativa legal que aplica de manera especifica a la utilización y el mantenimiento de las PEMP, es la siguiente:"
+        },
+        {
+          "clase": "circulo",
+          "subclase": "horizontal",
+          "contenido": [
+            {
+              "imagen": "img/mod02/circulo2177.png",
+              "titulo": "Real Decreto 2177/2004",
+              "texto": "<b>Real Decreto 2177/2004</b>, de 12 de noviembre, por el que se establecen las disposiciones mínimas de <b>seguridad y salud</b> para la <b>utilización</b> por los trabajadores de los <b>equipos de trabajo</b>, en materia de <b>trabajos temporales en altura</b>."
+            },
+            {
+              "imagen": "img/mod02/circulo614.png",
+              "titulo": "Real Decreto 614/2001",
+              "texto": "<b>Real Decreto 614/2001</b>, de 8 de junio, sobre disposiciones mínimas para la protección de la <b>salud y seguridad</b> de los trabajadores frente al <b>riesgo eléctrico</b>."
+            },
+            {
+              "imagen": "img/mod02/circulo1627.png",
+              "titulo": "Real Decreto 1627/1997",
+              "texto": "<b>Real Decreto 1627/1997</b>, de 24 de octubre, por el que se establecen disposiciones mínimas de <b>seguridad y de salud</b> en las <b>obras de construcción</b>."
+            },
+            {
+              "imagen": "img/mod02/circulo1215.png",
+              "titulo": "Real Decreto 1215/1997",
+              "texto": "<b>Real Decreto 1215/1997</b>, de 18 de julio por el que se establecen las disposiciones mínimas de <b>seguridad y salud</b> para la utilización por los trabajadores de los <b>equipos de trabajo</b>."
+            },
+            {
+              "imagen": "img/mod02/circuloUNE.png",
+              "titulo": "UNE 58921",
+              "texto": "<b>UNE 58921</b> Instrucciones para la <b>instalación, manejo, mantenimiento, revisiones e inspecciones</b> de las plataformas elevadoras móviles de personal (PEMP)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Factores: Carga Nominal",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho",
+		  "animacion": "flash",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/peligro.png",
+              "ancho": 150
+            },
+         {
+          "clase": "texto",
+          "texto": "La carga nominal es la carga máxima que puede transportar una PEMP de manera segura. La carga nominal estará siempre <b>indicada</b> en la máquina, en un <b>lugar destacado</b> y mostrará la <b>carga máxima</b> y la <b>cantidad máxima</b> de personas que puede transportar. <br><br> <b>¡Cuidado!   Es peligroso…</b> <br><br>- <b>Sobrecargar</b> una PEMP excediendo su carga nominal.  <br>- <b>Cargar</b> la máquina <b>de golpe</b>.  <br>- La <b>distribución desigual</b> de la carga sobre la plataforma y el <b>choque</b> provocado por objetos."
+        }
+           
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Factores: Viento y Climatología",
+      "contenido": [
+        {
+          "clase": "texto",
+		      "animacion": "slideInLeft",
+          "texto": "Todas las PEMP, excepto las de uso exclusivo en interiores, están diseñadas para trabajar con una fuerza de viento hasta un límite determinado, que no es igual en todas las máquinas. Trabajar con un viento superior a este límite es muy <b>peligroso</b> y causa <b>inestabilidad</b> y posible <b>vuelco</b>."
+        },
+        {
+          "clase": "texto",
+		      "animacion": "slideInRight",
+          "texto": "La <b>velocidad máxima de viento</b> admitida por cada plataforma, está <b>fijada por el fabricante</b> e indicada en el <b>manual de instrucciones</b>, y generalmente <b>también en las pegatinas</b> aplicadas en la máquina."
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+		      "animacion": "swing",
+          "texto": "<b>Ten en cuenta …</b> <br><ul><li>La velocidad del viento, se ha de <b>medir a la altura de trabajo</b> y no en cota cero. Es aconsejable disponer de un anemómetro para ello.</li><li>El llamado <b>“efecto embudo”</b>: los edificios, torres, etc, pueden causar corrientes inesperadas, principalmente cerca de techos y esquinas.</li><li>Se prohíbe levantar <b>grandes láminas</b> de material o colocar <b>publicidad</b> sobre las plataformas de las PEMP, ya que afectaría en gran medida a su estabilidad al aumentar la superficie de resistencia al viento.</li></ul>"
+        }
+      ]
+    },
+	{
+		"titulo": "Curiosidades",
+    "contenido": [
+      {
+        "clase": "listaObjetos",
+        "subclase": "centroEstrecho flex-start",
+        "contenido": [
+          {
+            "clase": "texto",
+            "animacion": "rotateInDownLeft",
+            "texto": "La mayoría de las PEMP son <b>automotrices</b>, tanto eléctricas como diésel. Son particularmente <b>dominantes</b> en Francia, España, Reino Unido y Suecia. La principal <b>excepción</b> a esto es Italia, país en el que se montan en camiones, siendo este tipo de PEMP mucho más <b>común</b> que en el resto de Europa. Esto se <b>refleja</b> además en el número de fabricantes italianos de este tipo de PEMP. Del mismo modo, las montadas sobre remolque tienen históricamente una posición más <b>fuerte</b> en Finlandia y Alemania, estando este tipo de PEMP vinculado a los fabricantes de estos países. <br><br>En España los usuarios consideran más <b>versátiles</b> las plataformas telescópicas, por ello el sector de la Construcción <b>demanda</b> más este tipo de plataforma cuando se quiere usar en distintas fases de obra y no para aplicaciones muy específicas."
+          },
+          {
+            "clase": "imagen",
+            "imagen": "img/mod02/mapas.jpg",
+            "animacion": "rotateInUpRight"
+          }
+        ]
+      }
+    ]
+	},
+    {
+      "titulo": "Autoevaluación (I)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Arrastra cada una de las tres imágenes sobre el recuadro que contiene el nombre de la parte señalada por la flecha."
+        },
+        {
+          "clase": "autoevalArrastrar",
+          "contenedores": [
+            {
+              "clase": "caja",
+              "texto": "<h3><ins>CHASIS</ins></h3>",
+              "data_id": 1
+            },
+            {
+              "clase": "caja",
+              "texto": "<h3><ins>TIJERA</ins></h3>",
+              "data_id": 2
+            },
+            {
+              "clase": "caja",
+              "texto": "<h3><ins>PLATAFORMA</ins></h3>",
+              "ancho": 100,
+              "data_id": 3
+            }
+          ],
+          "contenidos": [
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/mod02/arrastrar/chasis.png",
+              "ancho": 150,
+              "data_caja": 1
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/mod02/arrastrar/tijera.png",
+              "ancho": 150,
+              "data_caja": 2
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/mod02/arrastrar/plataforma.png",
+              "ancho": 150,
+              "data_caja": 3
+            }
+          ],
+          "solucion": "img/mod02/arrastrar/soluccion.png"
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación (II)",
+      "contenido": [
+        {
+          "clase": "juegoPalabrasCruzadas",
+          "titulo": "PEMP",
+          "descripcion": "A partir de las definiciones que te adjuntamos, completa el siguiente crucigrama. Selecciona la definición que quieres responder y escribe la palabra.NO utilices acentos en las respuestas.",
+          "ancho": "18", 
+          "alto": "19", 
+          "pistas": [
+            {
+              "palabra": "NOMINAL",
+              "definicion": "CARGA ...  , carga máxima que puede transportar una PEMP de manera segura.",
+              "direccion": "H",
+              "posX": 1,
+              "posY": 5
+            },
+            {
+              "palabra": "PLATAFORMA",
+              "definicion": "Parte superior de una PEMP, cesta o lugar donde se colocan las personas.",
+              "direccion": "H",
+              "posX": 0,
+              "posY": 14
+            },
+            {
+              "palabra": "REMOLCABLES",
+              "definicion": "Las PEMP pueden ser de camión, autopropulsadas y ...",
+              "direccion": "V",
+              "posX": 2,
+              "posY": 2
+            },
+            {
+              "palabra": "ESTABILIZADOR",
+              "definicion": "Dispositivo concebido para asegurar la estabilidad de la PEMP",
+              "direccion": "V",
+              "posX": 4,
+              "posY": 0
+            },
+            {
+              "palabra": "ANEMOMETRO",
+              "definicion": "Dispositivo para medir la velocidad del viento",
+              "direccion": "V",
+              "posX": 6,
+              "posY": 5
+            },
+            {
+              "palabra": "EMBUDO",
+              "definicion": "EFECTO ... , corrientes de aire inesperadas causadas por los edificios, torres, ... principalmente cerca de techos y esquinas",
+              "direccion": "V",
+              "posX": 8,
+              "posY": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación (III)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "Sobre los tipos de plataforma:",
+              "respuestas": [
+                {
+                  "opcion": "La de tijera pertenece al grupo A y la telescópica al B",
+                  "correcto": "true",
+                  "feedback": ""
+                },
+                {
+                  "opcion": "La de tijera pertenece al grupo B y la telescópica al A",
+                  "correcto": "false",
+                  "feedback": "No es correcto, es al reves"
+                },
+                {
+                  "opcion": "Tanto las de tijera como las telescópicas pertenecen al grupo A",
+                  "correcto": "false",
+                  "feedback": "No es correcta. Las telescópicas son del grupo B"
+                }
+              ]
+            },
+            {
+              "texto": "En cuanto a la selección de la PEMP:",
+              "respuestas": [
+                {
+                  "opcion": "Es irrelevante. Cualquier tipo de PEMP puede realizar cualquier trabajo",
+                  "correcto": "false",
+                  "feedback": "No es correcto"
+                },
+                {
+                  "opcion": "Dependerá del tipo de trabajo a realizar entre otras cosas",
+                  "correcto": "true",
+                  "feedback": "Correcto. No todas las PEMP se pueden usar para todos los trabajos"
+                },
+                {
+                  "opcion": "El número de personas y la carga a elevar no serán tenidos en cuenta",
+                  "correcto": "false",
+                  "feedback": "No es correcto. Estos dos factores tienen que ser tenidos en cuenta a la hora de elegir la PEMP correcta"
+                }
+              ]
+            },
+            {
+              "texto": "La velocidad del viento es un parámetro importante en el uso de una plataforma",
+              "respuestas": [
+                {
+                  "opcion": "El viento se mirará en los servicios meteorológicos de la zona",
+                  "correcto": "false",
+                  "feedback": "No es correcto. El viento ha de medirse donde esté trabajando la plataforma"
+                },
+                {
+                  "opcion": "A ser posible se medirá con un anemómetro y siempre en el suelo",
+                  "correcto": "false",
+                  "feedback": "No es correcto. La velocidad del viento aumenta con la altura. A 20 metros de altura puede ser hasta un 50% mayor que en el suelo"
+                },
+                {
+                  "opcion": "Se medirá con un anemómetro a la altura de trabajo",
+                  "correcto": "true",
+                  "feedback": "Correcto. El viento que nos importa es el que hace donde se está trabajando"
+                }
+              ]
+            },
+            {
+              "texto": "¿Cuál es la velocidad límite del viento para el trabajo en una PEMP?",
+              "respuestas": [
+                {
+                  "opcion": "La velocidad límite son 30 metros por segundo",
+                  "correcto": "false",
+                  "feedback": "No es correcto. Dependerá del tipo de máquina"
+                },
+                {
+                  "opcion": "Es un dato que nos dará el fabricante y puede ser distinto para cada máquina",
+                  "correcto": "true",
+                  "feedback": "Correcto"
+                },
+                {
+                  "opcion": "La velocidad límite son 30 kilómetros por hora",
+                  "correcto": "false",
+                  "feedback": "No es correcto. Dependerá del tipo de máquina"
+                }
+              ]
+
+            },
+            {
+              "texto": "Los gatos son ideales para el uso en pendientes y suelo desigual. Pueden ponerse en posición y ser levantados y nivelados desde los mandos de la plataforma",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": "true",
+                  "feedback": "Correcto."
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": "false",
+                  "feedback": "La afirmación es correcta"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "paraCambiar",
+              "imagen": "img/mod02/hombrePEMP.png",
+              "pie": "Poner el muñeco de siempre subido a una PEMP de tijera o de mastil"
+            },
+            {
+              "clase": "texto",
+              "subclase": "anillas",
+              "texto": "En este capítulo te has acercado al conocimiento de las PEMP. Espero que te haya gustado. <br><br><b>A partir de ahora</b> veremos más detenidamente algunos de los <b>tipos de plataformas</b> que existen. <br><br>En el <b>siguiente capítulo</b> nos centraremos en las de tijera y mástil. Pero… ¡tranquilo! Nada que ver con sastres ni barcos. Seguimos en tierra. <br><br>¡Buen viaje hasta el módulo 3! ¡Allí te espero!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

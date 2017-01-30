@@ -1,0 +1,548 @@
+﻿{
+  "modulo": "MOD. 12: 10 MANERAS DE REDUCIR RIESGOS",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "10 MANERAS DE REDUCIR RIESGOS",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "flex-start",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod12/hombreAtrapado.jpg",
+              "subclase": "paraCambiar",
+              "animacion": "fadeInUp",
+              "pie": "Una imagen similar a la que se ve, con nuestro muñeco",
+              "ancho": 300
+            },
+            {
+              "clase": "texto",
+              "texto": "Trabajar con una PEMP cerca de estructuras <b>por encima</b> de la cabeza podría calificarse como una operación de <b>\"alto riesgo\"</b>, así que <b>evítalo</b> siempre que <b>puedas</b>. <br><br>Si prevés realizar este tipo de trabajo, asegúrate antes, de que la <b>dirección</b> de la obra ha <b>explicado las medidas</b> tomadas para <b>minimizar riesgos</b> de choque o aplastamiento en una <b>evaluación previa</b> a la ejecución del trabajo, y de que se hayan <b>atendido</b> convenientemente los <b>10 aspectos</b> que se mencionan en este módulo.<br><br>¡Vamos a ello!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Planificación concienzuda del recorrido",
+      "contenido": [
+        {
+          "clase": "acordeon",
+          "animacion": "zoomInRight",
+          "contenido": [
+            {
+              "titulo": "Guardar una distancia prudente a los obstáculos",
+              "texto": "El recorrido de la PEMP debería planificarse idealmente con una <b>distancia prudente</b> entre la PEMP y cualquier <b>obstáculo vertical</b>. Esta distancia deberá ser <b>mayor</b> cuando se conduzca una PEMP de brazo aéreo <b>a altura</b>, para evitar posibles \"rebotes\" y \"cabeceos\"."
+            },
+            {
+              "titulo": "Evitar los mandos de traslación/elevación/giro cerca de obstáculos",
+              "texto": "Si le es inevitable trabajar cerca de un obstáculo por encima suyo, le recomendamos encarecidamente que, de ser posible, use sólo los <b>mandos de posicionamiento fino</b> en caso de tratarse de una <b>PEMP de brazo aéreo</b>. Una vez la PEMP esté <b>cerca</b> del obstáculo, <b>evite</b> los mandos generales (no de ajuste fino) de traslación, elevación y giro.<br><br>Los movimientos deberían ser <b>siempre</b> lentos, deliberados y planificados. Ello se logra utilizando con cuidado los mandos proporcionales de la PEMP. La <b>secuencia</b> de operaciones debería ser la que se ve en la imagen",
+              "imagen": "img/mod12/secuenciaDeOperaciones.jpg"
+            },
+            {
+              "titulo": "La traslación a altura debería ser la última opción",
+              "texto": "Conducir una PEMP de brazo <b>extendida</b> en altura para trasladarse debería ser la <b>última maniobra</b> a considerar para posicionar la plataforma cerca de un obstáculo por encima de la cabeza, toda vez que ello puede dar lugar a movimientos inesperados que dificulten el posicionamiento fino de la plataforma.<br><br>Si la traslación con el brazo extendido en altura se revela como la opción menos peligrosa, las plataformas de brazo deberían conducirse a sus velocidades <b>más lentas</b> (esto es especialmente importante a bajas alturas, donde las velocidades de traslación son mayores)."
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod12/obstaculos.jpg",
+          "subclase": "paraCambiar",
+          "pie": "Imagen de un camino con obtaculos, con o sin PEMP, segun lo veas",
+          "animacion": "zoomInUp"
+        }
+      ]
+    },
+    {
+      "titulo": "Elección de la máquina",
+      "fondo": "img/mod12/fondoTrabajador.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "celo",
+          "animacion": "rotateIn",
+          "texto": "Es importante <b>cerciorarse</b> de que la PEMP seleccionada sea <b>apta</b> para la maniobra específica a realizar al trabajar cerca de un obstáculo por encima suyo.<br><br>Debe prestarse especial atención a la <b>elección</b> de:<li><b>Alcance de la máquina</b>: lo ideal es no trabajar cerca del alcance máximo de la máquina.</li><li><b>Tamaño</b>: verifique que la PEMP y la plataforma no sean demasiado grandes para los espacios en que se vaya a usar la máquina.</li>"
+        }
+      ]
+    },
+    {
+      "titulo": "Verificación de la familiarización específica",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "texto": "Es esencial que los operadores formados sigan un <b>programa de familiarización</b> específica con la PEMP que vayan a usar, realizando las correspondientes <b>pruebas</b> en una zona sin peligro y lejos de estructuras por encima suyo. Además de <b>familiarizarse</b> con los mandos de funcionamiento normal de la PEMP, el mínimo requerido a todo operador es la plena <b>comprensión</b> de:"
+        },
+        {
+          "clase": "tabsB",
+          "animacion": "lightSpeedIn",
+          "subclase": "izquierda",
+          "contenido": [
+            {
+              "titulo": "MANDOS DESCENSO EMERGENCIA",
+              "texto": "Cómo se usan los mandos de descenso de emergencia, tanto en el modo motorizado como en el modo auxiliar, incluyendo el modo en que funcionan los mandos una vez activada la célula de carga."
+            },
+            {
+              "titulo": "MANDOS \"HOMBRE MUERTO\"",
+              "texto": "Por ejemplo, pedales: ¿qué sucede si se quita el pie del pedal  y se entra en una situación simulada de \"desplome sobre el panel de mando\"?"
+            },
+            {
+              "titulo": "POSICION MÁS DE 90°",
+              "texto": "¿Cómo responden los mandos cuando una PEMP de brazo aéreo se gira más allá de la posición de 90?"
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "rotateIn",
+          "texto": "El personal a <b>nivel de suelo</b> debería seguir un programa de <b>familiarización</b> con los <b>mandos de emergencia</b> y con el panel de <b>mando a altura</b> del suelo y practicar los procedimientos de <b>descenso de emergencia</b> a intervalos regulares según se establezca en el plan de rescate y de emergencias."
+        }
+      ]
+    },
+    {
+      "titulo": "Verificación del buen estado del suelo",
+      "fondo": "img/mod12/fondoSuelo.jpg",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "animacion": "wobble",
+          "texto": "El estado del suelo debería ser tal que permita un uso seguro de la máquina. En la medida de lo posible, el <b>suelo</b> debería ser <b>plano</b> y <b>compacto</b> y <b>sin obstáculos</b> en la zona de trabajo. Deberían <b>identificarse</b> todos los fosos, las bases de las columnas y las zanjas y protegerse. En caso de mal estado del suelo, <b>no</b> use la PEMP."
+        }
+      ]
+    },
+    {
+      "titulo": "Verificación de buena visibilidad en altura",
+      "fondo": "img/mod12/fondoVisibilidadAltura.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "swing",
+          "texto": "Al trabajar en el <b>interior</b> de edificios y en horas de <b>poca luz</b> (p.ej. invierno o días de mal tiempo), debería procurarse un <b>alumbrado adecuado</b> o <b>interrumpirse</b> el trabajo en curso."
+        }
+      ]
+    },
+    {
+      "titulo": "Minimizar distracciones",
+      "fondo": "img/mod12/fondoDistracciones.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "anillas",
+          "animacion": "tada",
+          "texto": "Se desaconsejan las <b>fuentes de distracción</b> en la plataforma/barquilla, tales como teléfonos móviles y cables de arrastre.<br><br>Debería <b>prohibirse</b> la presencia de materiales <b>sueltos</b> en las barandillas y en la barquilla de la PEMP, teniéndose los mismos en <b>compartimentos homologados</b> y/o fijados en soportes accesorios para materiales.<br><br>Deberían <b>suprimirse</b> las fuentes de distracción al nivel del suelo (presencia de gente u objetos cerca de la base de la PEMP) antes de usar la máquina y respetarse las <b>zonas de exclusión</b>."
+        }
+      ]
+    },
+    {
+      "titulo": "No obstruir los mandos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "flex-start",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "celo",
+              "animacion": "swing",
+              "texto": "<h3>Mandos de la cesta:</h3> El <b>acceso</b> a los mandos de <b>mano y de pedal</b> de la barquilla/plataforma <b>no debería</b> estar obstaculizado. Las herramientas y los materiales que pudieran obstruir el acceso a los mandos no deberán colocarse en el panel de mando de la PEMP, sino guardarse en compartimentos homologados y/o fijarse a soportes accesorios para materiales.<br><br>Para reducir el riesgo de movimientos accidentales, considere <b>implementar</b> una función de corte de la alimentación de la máquina una vez alcanzada la <b>posición de trabajo</b> y hasta que se necesite cambiar de posición."
+            },
+            {
+              "clase": "texto",
+              "subclase": "celo",
+              "animacion": "swing",
+              "texto": "<h3>Mandos de descenso de emergencia:</h3> Para llevar a cabo un <b>rescate de emergencia</b> podrían necesitarse estos mandos y el acceso a los mismos <b>nunca</b> debería estar <b>obstruido</b> (p.ej. por usar la PEMP muy cerca de una pared que impida acceder al cuadro de mando de emergencia).<br><br><img src='img/mod12/indicadores.jpg' width=300>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Desacelerar, no apoyarse sobre los mandos y mirar",
+      "fondo": "img/mod12/fondoDesacelerar.jpg",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "animacion": "jello",
+          "texto": "<li><b>Aminore</b> la velocidad de traslación, sobre todo al moverse <b>marcha atrás</b>.<li><b>Apoyarse</b> sobre los mandos <b>reduce</b> notablemente el grado de seguridad del operador.<li><b>Examine</b> si hay obstáculos en el lugar <b>antes y durante</b> el uso de la PEMP.<li><b>No</b> se incline sobre las barandillas mientras opere la PEMP."
+        }
+      ]
+    },
+    {
+      "titulo": "No puentear los mandos ni usar PEMPs defectuosas",
+      "fondo": "img/mod12/fondoPuentear.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "anillas vertical",
+          "animacion": "rotateIn",
+          "texto": "<li>Compruebe que la PEMP tenga el <b>certificado</b> de revisiones y mantenimiento <b>al día</b>.</li><li>Nunca olvide realizar las <b>comprobaciones</b> diarias.</li><li><b>Informe</b> sobre todos los <b>fallos</b> detectados.</li><li>Antes de usar la PEMP deberán <b>subsanarse</b> todos los <b>fallos</b>.</li><li><b>No</b> puentee los mandos.</li>"
+        }
+      ]
+    },
+    {
+      "titulo": "Ensayo de los procedimientos de rescate",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "rotateInDownLeft",
+          "texto": "En <b>casos extremos</b>  o cuando se deba trabajar repetidamente cerca de <b>obstáculos</b>, podría ser conveniente una <b>\"pasada de reconocimiento\"</b> para detectar posibles peligros de aplastamiento y necesidad de rescate."
+        },
+        {
+          "clase": "acordeon",
+          "animacion": "rotateInDownLeft",
+          "contenido": [
+            {
+              "titulo": "Verificar la disponibilidad de llave a nivel del suelo",
+              "texto": "La llave del cuadro de mando del suelo de la PEMP debería <b>dejarse en la base</b>, de ser posible, o al menos en un lugar rápidamente <b>accesible</b> a nivel de suelo."
+            },
+            {
+              "titulo": "Designar una persona para el rescate a nivel de suelo",
+              "texto": "Mientras se esté maniobrando la PEMP deberá haber <b>al menos</b> una persona (o tantas como sea indicado) designada para el <b>rescate</b> a nivel de suelo, quien conocerá el procedimiento de rescate y estará familiarizado con la PEMP que se esté utilizando (incluidos los mandos de rescate de emergencia).<br><br>Dichas personas deberán estar <b>preparadas</b> para actuar en caso de emergencia."
+            },
+            {
+              "titulo": "Considerar cómo dar la alarma",
+              "texto": "Deberá haber un sistema <i>in situ</i> que detecte si un operador ha resultado <b>atrapado</b>, especialmente para trabajadores en <b>solitario</b> cercanos a estructuras por encima suyo. Ello deberá <b>estudiarse concienzudamente</b> en los casos en que el operador <b>no</b> sea visible desde el suelo. <br><br>Deberá <b>advertirse</b> al operador en caso de <b>no</b> tener un sistema tal <i>in situ</i> en lugares con peligro de aplastamiento."
+            },
+            {
+              "titulo": "Decidir quién llevará a efecto el rescate y cómo",
+              "texto": "Ello dependerá de la <b>complejidad</b> de la operación y del <b>riesgo</b> consiguiente que representa el rescate desde el suelo para el operador, quien probablemente <b>intentará</b> salvarse él mismo o habrá sido presa del <b>pánico</b>."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "animacion": "rotateInUpRight",
+          "texto": "El <b>orden de prioridades</b>  debería ser:"
+        },
+        {
+          "clase": "acordeon",
+          "animacion": "rotateInUpRight",
+          "contenido": [
+            {
+              "titulo": "1. OPERADOR",
+              "texto": "El operador (u otra persona competente en la cesta) debería intentar ponerse a salvo él mismo ejecutando <b>inversamente</b> los pasos de trabajo previos."
+            },
+            {
+              "titulo": "2. PERSONAL A NIVEL DE SUELO",
+              "texto": "Si la visibilidad y la comprensión de la situación desde el suelo son <b>buenas</b>, el personal a nivel de suelo debería <b>proceder</b> al rescate con el cuadro de mando del suelo en el siguiente <b>orden</b>:<ul><li><b>Accionamiento auxiliar</b>: en un primer estadio a <b>baja</b> velocidad y pleno control de maniobra del brazo aéreo hasta <b>confirmar</b> que la barquilla queda libre de todo <b>obstáculo</b> a altura.</li><li><b>Descenso motorizado</b>: una vez <b>despejados</b> los obstáculos, es recomendable conmutar al descenso motorizado para realizar el rescate lo más <b>rápido</b> posible.</li></ul>"
+            },
+            {
+              "titulo": "3. OTRA PEMP",
+              "texto": "En algunas situaciones, la opción más <b>segura</b> para acceder a la plataforma suele ser usar <b>otra</b> PEMP. Ello sólo será aceptable si tal variante de rescate ha sido <b>planificada</b> e incluye medios de traslado seguros entre plataformas <b>sin peligro</b> de caída."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Resumen",
+      "contenido": [
+
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroEstrecho flex-start",
+          "contenido": [
+            {
+              "clase": "lista",
+              "subclase": "objetivos",
+              "animacion": "bounceInRight",
+              "contenido": [
+                {
+                  "punto": "Los 10 mandamientos en el uso de una PEMP deberían ser:",
+                  "contenido": [
+                    {
+                      "punto": "PLANIFICACIÓN CONCIENZUDA DEL RECORRIDO"
+                    },
+                    {
+                      "punto": "ELECCIÓN CONCIENZUDA DE LA PEMP"
+                    },
+                    {
+                      "punto": "VERIFICACIÓN DE LA FAMILIARIZACIÓN ESPECÍFICA"
+                    },
+                    {
+                      "punto": "VERIFICACIÓN DEL BUEN ESTADO DEL SUELO"
+                    },
+                    {
+                      "punto": "VERIFICACIÓN DE BUENA VISIBILIDAD EN ALTURA"
+                    },
+                    {
+                      "punto": "MINIMIZAR DISTRACCIONES"
+                    },
+                    {
+                      "punto": "NO OBSTRUIR LOS MANDOS"
+                    },
+                    {
+                      "punto": "DECELERAR, NO APOYARSE SOBRE LOS MANDOS Y MIRAR"
+                    },
+                    {
+                      "punto": "NO PUENTEAR LOS MANDOSNI USAR PEMPS DEFECTUOSAS"
+                    },
+                    {
+                      "punto": "ENSAYO DE LOS PROCEDIMIENTOS DE RESCATE"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "animacion": "fadeInDown",
+              "contenido": [
+                {
+                  "clase": "imagen",
+                  "subclase": "rotarIzq",
+                  "imagen": "img/mod12/resumen1.jpg",
+                  "ancho": 200
+                },
+                {
+                  "clase": "imagen",
+                  "subclase": "rotarDch",
+                  "imagen": "img/mod12/resumen2.jpg",
+                  "ancho": 200
+                },
+                {
+                  "clase": "imagen",
+                  "subclase": "rotarIzq",
+                  "imagen": "img/mod12/resumen3.jpg",
+                  "ancho": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Coloca (arrastrando) los pasos en el ascenso hacia la posición de trabajo en el orden correcto:",
+                  "animacion": "rubberBand"
+                },
+                {
+                  "clase": "lista",
+                  "subclase": "sortable",
+                  "animacion": "rubberBand",
+                  "contenido": [
+                    {
+                      "punto": "Traslación",
+                      "data_orden": 1
+                    },
+                    {
+                      "punto": "Elevación",
+                      "data_orden": 2
+                    },
+                    {
+                      "punto": "Giro",
+                      "data_orden": 3
+                    },
+                    {
+                      "punto": "Extensión telescópica",
+                      "data_orden": 4
+                    },
+                    {
+                      "punto": "Posicionamiento fino",
+                      "data_orden": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod12/resumen2.jpg",
+              "animacion": "shake",
+              "ancho": 350
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "A la hora de elegir la PEMP, se debe prestar atención a:",
+              "respuestas": [
+                {
+                  "opcion": "Alcance de la máquina",
+                  "correcto": "false",
+                  "feecback": "La respuesta no es incorrecta, pero no es la que buscamos."
+                },
+                {
+                  "opcion": "Tamaño de la misma",
+                  "correcto": "false",
+                  "feecback": "La respuesta no es incorrecta, pero no es la que buscamos."
+                },
+                {
+                  "opcion": "Las otras dos son correctas",
+                  "correcto": "true"
+                }
+              ]
+            },
+            {
+              "texto": "Ya nos ha quedado clara la importancia de la familiarización con la máquina a utilizar, que es fundamental conocer los mandos de la cesta, los de descenso de emergencia y hombre muerto.",
+              "respuestas": [
+                {
+                  "opcion": "Cierto, pero solo para el operador.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Cierto, para el operador y para la persona encargada de rescate.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "El operador ha de familiarizarse con todo el uso de la máquina, el encargado de rescate, únicamente  con los mandos de suelo.",
+                  "correcto": "true"
+                }
+              ]
+            },
+            {
+              "texto": "Para colocar una PEMP, el  estado del suelo es fundamental , debe ser plano y compacto, pero además deberían identificarse los fosos, bases de columnas, zanjas etc.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "¿Cuál de las siguientes afirmaciones es correcta?",
+              "respuestas": [
+                {
+                  "opcion": "La iluminación adecuada es fundamental.",
+                  "correcto": "false",
+                  "feecback": "La respuesta no es incorrecta, pero no es la que buscamos."
+                },
+                {
+                  "opcion": "El material no debe estar suelto dentro de la barquilla.",
+                  "correcto": "false",
+                  "feecback": "La respuesta no es incorrecta, pero no es la que buscamos."
+                },
+                {
+                  "opcion": "Las otras dos son correctas.",
+                  "correcto": "true"
+                }
+              ]
+            },
+            {
+              "texto": "Los mandos de la cesta deben estar libres en todo momento, y los del suelo lo mismo, de hecho debería haber una llave de repuesto a nivel de suelo o en poder de la persona encargada de un posible rescate.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "De las siguientes afirmaciones cuál <b>NO</b> es correcta:",
+              "respuestas": [
+                {
+                  "opcion": "Aminorar la velocidad de traslación de la máquina, sobre todo al circular marcha atrás",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Inclínese sobre la barandilla durante las operaciones.",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Apoyarse sobre los mandos reduce la seguridad del operador",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "Antes del uso de la plataforma, se debería comprobar que tenga los certificados de revisiones y mantenimiento al día, pero además:",
+              "respuestas": [
+                {
+                  "opcion": "Se deben realizar las comprobaciones diarias e informar de fallos detectados.",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Puentear los mandos en caso de fallo",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Si tiene los certificados al día es imposible que algo falle.",
+                  "correcto": "false"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Ya hemos llegado al final del módulo... ¡y del curso!<br><br>Espero que hayas estado tan a gusto como yo y que hayas aprendido muchas cosas sobre el uso de las Pemp.<br><br>Ten en cuenta que tu <b>actitud</b> y <b>comportamiento</b> son muy <b>importantes</b> a la hora de manejar las Pemp de una forma segura. Pregunta, asegúrate... y toma todas las <b>precauciones</b> que creas oportunas. <b>Nunca</b> serán demasiadas.<br><br>Te dejo ahora con el <b>examen</b>. Repasa un poco los contenidos y tómate tu tiempo. Seguro que lo tienes dominado.<br><br>¡Mucha suerte y hasta pronto!"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod12/hombreDespedida.jpg",
+              "ancho": 300,
+              "subclase": "paraCambiar",
+              "pie": "El muñeco de siempre, con un pañuelo en la mano despidiendose"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

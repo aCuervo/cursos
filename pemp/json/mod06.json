@@ -1,0 +1,593 @@
+﻿{
+  "modulo": "Mod. 6: PANEL DE CONTROL, INDICADORES Y MANTENIMIENTO.",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "PANEL DE CONTROL, INDICADORES Y MANTENIMIENTO.",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Introducción",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "centroAncho",
+              "contenido": [
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod06/hombreManual.png",
+                  "ancho": 300,
+                  "subclase": "paraCambiar",
+                  "animacion": "fadeInUp",
+                  "pie": "Poner al muñeco de siembre con un manual de instrucciones (que se vea que es un manual de instrucciones"
+                },
+                {
+                  "clase": "texto",
+                  "animacion": "fadeInRight",
+                  "texto": "¿Sabes por qué tengo este manual en la mano?<br><br>Porque es fundamental recurrir siempre al <b>manual del fabricante</b> para conocer los mandos de nuestra plataforma elevadora de personas.<br><br>Esto se denomina <b>familiarización</b>, y es necesario, ya que cada máquina es diferente y cada fabricante, aún dentro de norma, tiene diferentes posibilidades de diseño."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Familiarización (I)",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "exclamacion blanca",
+          "animacion": "fadeInDown",
+          "texto": "Si se tiene la intención de utilizar cualquier <b>máquina</b> con características de peso, altura, anchura o complejidad <b>diferentes</b> a las que se utilizan de manera habitual, se debe disponer de un <b>tiempo razonable</b> para que el <b>operador se familiarice</b> con dicha máquina."
+        },
+        {
+          "clase": "lista",
+          "animacion": "fadeInRight",
+          "titulo": "<h2>Deberá conocer:</h2>",
+          "contenido": [
+            {
+              "punto": "La función y sentido de funcionamiento de <b>cada mando</b> de control."
+            },
+            {
+              "punto": "La <b>forma de parar</b> rápidamente el <b>motor</b>."
+            },
+            {
+              "punto": "Las <b>posibilidades y limitaciones</b> de la máquina."
+            },
+            {
+              "punto": "El <b>espacio necesario</b> para maniobrar."
+            },
+            {
+              "punto": "La misión de los <b>dispositivos de seguridad</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Familiarización (II)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "rotateInDownLeft",
+          "texto": "La <b>familiarización</b> con un modedlo de máquina determinado, deberá incluir:"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod06/familiarizacion.png",
+          "ancho": 1000,
+          "animacion": "shake"
+        }
+      ]
+    },
+    {
+      "titulo": "Puestos de Mando (I)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En una plataforma elevadora hablaremos de <b>DOS PUESTOS DE MANDO</b> diferentes. El primero de cuadros de mando es el <b>primario</b> y se encuentra en la <b>CESTA</b>. Es <b>manipulado por el operario</b> desde su interior. El segundo puesto de mando, el <b>secundario</b>, es el denominado <b>\"de suelo\"</b>. Está diseñado para <b>sustituir a los primarios</b>. Se encuentra en el <b>chasis</b> de la máquina, y es fundamental en los casos en que se haga necesario realizar un rescate.",
+          "animacion": "slideInLeft"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod06/puestoDeMandoPrimario.jpg",
+              "pie": "<H3><INS>Puesto de mando PRIMARIO</INS></H2>",
+              "animacion": "swing"          
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod06/puestoDeMandoSecundario.jpg",
+              "ancho": 400,
+              "pie": "<H3><INS>Puesto de mando SECUNDARIO</INS></H2>",
+              "animacion": "swing"        
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Puestos de Mando (II)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInUp",
+          "texto": "Dependiendo del <b>tipo</b> de plataforma y de las <b>prestaciones</b> de la misma los mandos principales de la misma variarán, pero de un modo general podemos decir que en un puesto de mando nos encontraremos los siguientes:"
+        },
+        {
+          "clase": "acordeon",
+          "animacion": "swing",
+          "contenido": [
+            {
+              "titulo": "Conmutador de llave para activación de los mandos",
+              "texto": "Este conmutador permite <b>seleccionar entre</b> el puesto de mando del <b>chasis</b> y el de la <b>cesta</b> para maniobrar la plataforma."
+            },
+            {
+              "titulo": "Botón de puesta en marcha motor",
+              "texto": "Apretando este botón se pone en marcha el motor de la máquina."
+            },
+            {
+              "titulo": "Palanca de elevación/descenso",
+              "texto": "Permite <b>elevar o descender la plataforma</b> o cesta de la máquina."
+            },
+            {
+              "titulo": "Palanca de movimiento de traslación",
+              "texto": "Permite <b>mover</b> la plataforma hacia adelante o hacia atrás."
+            },
+            {
+              "titulo": "Palanca de dirección",
+              "texto": "Permite <b>modificar la dirección</b> de traslación de la plataforma."
+            },
+            {
+              "titulo": "Botón de hombre presente",
+              "texto": "Este botón debe ser <b>apretado y mantenido apretado</b> durante el uso de las palancas de mando. Si se suelta el botón, el mando accionado mediante la palanca no se realiza o se interrumpe."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Puesto de Mando (III)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "Los sistemas de mando inalámbricos deben estar diseñados conforme a la norma UNE-EN 60204-32:2009 apartado 9.2.7 (Anexo F Normativo). Los mandos deben estar diseñados de forma que <b>NO</b> puedan ser <b>accionados de forma involuntaria y estar protegidos</b> contra el aplastamiento cuando la plataforma se traslada."
+        },
+        {
+          "clase": "texto",
+          "animacion": "slideInLeft",
+          "texto": "<b>Todos los mandos direccionales</b> deben activarse en la dirección de la función volviendo a la <b>posición de paro o neutra automáticamente</b> cuando se deje de actuar sobre ellos."
+        },
+        {
+          "clase": "texto",
+          "texto": ""
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod06/puestoDeMando.png",
+          "animacion": "wobble",
+          "ancho": 700
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "tada",
+          "texto": "<b>¡IMPORTANTE! ...</b><br>¡No se debe manejar la máquina desde el puesto de suelo si hay personas en la cesta, salvo que se trate de una emergencia!"
+        }
+      ]
+    },
+    {
+      "titulo": "Indicadores, Limitadores y Parada de emergencia",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "rotateInDownLeft",
+          "texto": "Los dispositivos <b>indicadores</b> proporcionarán advertencia acústica y/o visual cuando se alcanzan los <b>límites</b> de elevación de seguridad y los dispositivos <b>limitadores</b> ordenan la <b>detención</b> del movimiento peligroso del equipo. El botón de parada de emergencia  <b>conecta</b>  el control de la plataforma y lo desconecta en caso de emergencia."
+        },
+        {
+          "clase": "tabs",
+          "animacion": "rotateIn",
+          "contenido": [
+            {
+              "titulo": "INDICADORES",
+              "texto": "Las PEMP tienen instalados determinados <b>indicadores</b>, en general se trata de los siguientes:<br><ul><li>Indicador <b>de avería</b> del sistema: Se ilumina y destella para indicar un código de fallo que determina donde está el problema.</li><li>Indicador <b>de descarga</b> de baterías.</li><li>Luz de advertencia <b>de inclinación</b>: Una luz (generalmente roja) se ilumina en el panel de control cuando el chasis está sobre una pendiente más empinada de lo aconsejable.</li><li>Indicador <b>de sobrecarga</b>: Suele tener alarma acústica. Si el indicador de sobrecarga se ilumina, se impide la activación del resto de funciones desde los controles de la plataforma. Con los controles de suelo habrá que bajar la máquina completamente y reducir el peso hasta estar por debajo dela carga nominal.</li></ul>"
+            },
+            {
+              "titulo": "LIMITADORES",
+              "texto": "Las PEMP deben llevar al menos <b>limitadores de carga y de inclinación</b> máxima del chasis. Las autopropulsadas deben disponer de <b>limitador automático de velocidad</b>.<br>La inclinación de la plataforma de trabajo no debe variar más de 5<sup>o</sup> respecto a la horizontal o al plano del chasis durante los movimientos de la estructura extensible o bajo el efecto de las cargas y fuerzas de servicio. En caso de fallo del sistema de mantenimiento de la horizontalidad, debe existir un dispositivo de seguridad que mantenga el nivel de la plataforma con una tolerancia suplementaria de 5<sup>o</sup>.",
+              "imagen": "img/mod06/limitadores.png",
+              "ancho": 300
+            },
+            {
+              "titulo": "BOTÓN DE PARADA DE EMERGENCIA",
+              "texto": "Las PEMP tienen <b>botón de parada de emergencia</b>.<br>Se trata de un interruptor <b>rojo sobre fondo amarillo</b> de dos posiciones, que <b>administra alimentación</b> al puesto de control de plataforma y <b>desconecta los controles</b> de la plataforma en caso de emergencia.<br>Cuando el interruptor selector de alimentación se pone en posición de controles de plataforma, la alimentación se <b>conecta</b> tirando del interruptor (seta)  <b>hacia afuera</b> (posición de encendido) y se <b>desconecta empujando</b> la seta.",
+              "imagen": "img/mod06/botonParada.png",
+              "ancho": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Mantenimiento",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "anillas vertical",
+          "animacion": "rubberBand",
+          "texto": "El <b>mantenimiento</b> de una PEMP es el conjunto de <b>operaciones básicas</b> destinadas a conservar la plena <b>efectividad y seguridad</b> de la máquina en función de las instrucciones del fabricante, y en su  caso del propietario, siempre de conformidad con las condiciones de trabajo, frecuencia de uso y normas vigentes. El <b>manual del fabricante</b> determinará la <b>periodicidad</b> requerida."
+        },
+        {
+          "clase": "acordeon",
+          "animacion": "bounceInUp",
+          "contenido": [
+            {
+              "titulo": "OPERACIONES PREVIAS",
+              "texto": "<ul><li>Limpieza <b>general</b> de la máquina.</li><li>Mantenimiento de los <b>letreros</b> de información y operación.</li><li>Verificación de la <b>existencia</b> del manual de instrucciones en su lugar de la máquina.</li></ul>"
+            },
+            {
+              "titulo": "OPERACIONES TÉCNICAS Y FUNCIONALES",
+              "texto": "<ul><li>Orden y mantenimiento <b>normal</b> de todas las partes y mecanismos.</li><li>Las herramientas pertenecientes a la PEMP, recipientes de aceite y grasa, y demás <b>deberán</b> estar siempre listos para su empleo.</li><li>Todas las operaciones de mantenimiento <b>deberán</b> efectuarse con la máquina parada y en posición bajada.</li></ul>"
+            },
+            {
+              "titulo": "PARTE MECÁNICA",
+              "texto": "<ul><li>Verificación que todas las piezas desmontables y dispositivos de seguridad, tales como pasadores, tornillos, espárragos, etc. están <b>fijados</b> sólidamente y reapretados.</li><li>Ajuste de acoplamientos y cadenas con la <b>tensión</b> requerida.</li><li><b>Limpieza</b> de filtros de aire, válvulas y conmutadores.</li><li>Comprobación de cables y <b>sustitución</b> de los mismos si se requiere.</li><li><b>Revisión</b> de frenos y reajuste.</li><li>Examen de rodamientos, cojinetes, etc, <b>comprobando</b> el nivel de lubricante.</li></ul>"
+            },
+            {
+              "titulo": "PARTE NEUMÁTICA",
+              "texto": "<ul><li><b>Limpieza</b> de filtro de aire.</li><li>Purga del agua del depósito de aire comprimido y <b>diariamente</b> en invierno.</li><li><b>Verificar</b> estanqueidad del circuito neumático y <b>cambio</b> de juntas o arandelas en mal estado.</li><li><b>Limpieza</b> del filtro del compresor de aire.</li></ul>"
+            },
+            {
+              "titulo": "PARTE HIDRÁULICA",
+              "texto": "<ul><li>Examen y reapriete de <b>uniones</b> roscadas.</li><li>Engrase de piezas móviles, <b>excepto</b> pistones de cilindros, conforme al fabricante.</li><li><b>Limpieza</b> de filtro del aceite.</li><li>Cambio de tubos, racores, manguitos o camisas <b>dañados</b>.</li>"
+            },
+            {
+              "titulo": "PARTE ELÉCTRICA",
+              "texto": "<ul><li>Desconectar antes de <b>empezar</b> con el mantenimiento eléctrico</li><li>No se utilizarán fusibles <b>distintos</b> a los especificados.</li><li><b>Limpieza</b> de polos y zonas de contacto.</li><li>Verificación del grado de <b>apriete</b> de las pinzas para cables.</li><li><b>Mantenimiento</b> de las baterías.</li></ul>"
+            },
+            {
+              "titulo": "ÓRGANOS FUNCIONALES",
+              "texto": "Verificar con la <b>periodicidad</b> dada por el fabricante:<br><ul><li>Estabilizadores.</li><li>Chasis.</li><li>Motor.</li><li>Estructura extensible.</li><li>Plataforma o cesta.</li></ul>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Revisiones",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "bounceInDown",
+          "texto": "Las revisiones de una PEMP son las <b>comprobaciones periódicas, estructurales, funcionales y operativas, de resistencia y conservación</b>, para <b>garantizar el rendimiento</b> de la máquina de conformidad a su fabricación."
+        },
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroEstrecho",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Pueden ser realizadas por:",
+              "animacion": "bounceInLeft",
+              "contenido": [
+                {
+                  "punto": "<b>Personal competente</b> de la empresa propietaria."
+                },
+                {
+                  "punto": "<b>Talleres con capacidad técnica</b> para ello."
+                },
+                {
+                  "punto": "<b>Servicios oficiales</b> de la marca."
+                },
+                {
+                  "punto": "<b>Organismos de inspección</b> o control autorizados."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "animacion": "flip",
+              "imagen": "img/mod06/mantenimiento.jpg",
+              "ancho": 200,
+              "subclase": "paraCambiar",
+              "pie": "Hacer una imagen parecida a esta, que sea un poco más ancha."
+            }
+          ]
+        },
+
+        {
+          "clase": "texto",
+          "animacion": "bounceInUp",
+          "texto": "Se efectuarán <b>mínimo una vez al año</b>, si el fabricante no establece un periodo menor. Todas las operaciones verificadas <b>deberán marcarse</b> en la correspondiente <b>hoja</b> de revisión periódica, conforme a <b>modelo aportado por el fabricante</b> o empresa propietaria. Los <b>resultados</b> deben quedar <b>a disposición de las autoridades</b> pertinentes durante toda la vida útil de la PEMP."
+        }
+      ]
+    },
+    {
+      "titulo": "Hoja de Revisiones Periódicas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "rotateInDownLeft",
+          "texto": "A continuación vemos la <b>hoja de revisiones periódicas</b>  de PEMP según norma UNE  58921 <a href='http://api.eoi.es/api_v1_dev.php/fedora/asset/eoi:36337/componente36346.pdf' target='_blank'><b>(ir a la norma)</b></a>:"
+        },
+        {
+          "clase": "imagen",
+          "animacion": "rotateIn",
+          "imagen": "img/mod06/hojaRevision.png",
+          "ancho": 700
+        }
+      ]
+    },
+    {
+      "titulo": "RESUMEN",
+      "contenido": [
+        {
+          "clase": "tabsB",
+          "subclase": "izquierda",
+          "contenido": [
+            {
+              "titulo": "FAMILIARIZACIÓN",
+              "texto": "Dentro del mundo de las PEMP, La <b>familiarización</b> con un modelo de máquina determinado, debería incluir:<br><br><ul><li><b>Instrucciones</b> del fabricante.</li><li><b>Advertencias</b> del fabricante.</li><li>Características <b>peculiares</b> del modelo en cuestión.</li><li>Procedimientos de <b>bajada</b> de emergencia.</li><li>Familiarización con mandos y dispositivos de <b>seguridad</b>.</li></ul>"
+            },
+            {
+              "titulo": "PUESTOS <BR>DE MANDO",
+              "texto": "En una plataforma elevadora hablaremos de <b>dos puestos de mando diferentes</b>. El <b>primero</b> de ellos se encuentra <b>en la cesta</b>, y es <b>manipulado por el operario</b> desde su interior.<br><br>El <b>segundo</b> puesto de mando es el denominado <b>“de suelo”</b>. Se encuentra en el <b>chasis</b> de la máquina y es fundamental en los casos en que se haga necesario realizar un rescate."
+            },
+            {
+              "titulo": "MANTENIMIENTO<br>Y REVISIONES",
+              "texto": "El mantenimiento de una PEMP es el conjunto de <b>operaciones</b> básicas destinadas a <b>conservar la plena efectividad y seguridad</b> de la máquina en función de las instrucciones del fabricante, y en su  caso del propietario, siempre de conformidad con las condiciones de trabajo, frecuencia de uso y normas vigentes.<br>El <b>manual del fabricante</b> determinará la <b>periodicidad</b> requerida.<br>Las <b>revisiones</b> de una PEMP son las <b>comprobaciones periódicas, estructurales, funcionales y operativas, de resistencia y conservación</b>, para garantizar el <b>rendimiento</b> de la máquina de conformidad a su fabricación.<br>Se efectuarán <b>mínimo una vez al año</b>, si el fabricante no establece un periodo menor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Localiza en la siguiente SOPA DE LETRAS las siguientes 10 palabras relacionadas con el módulo actual:"
+        },
+        {
+          "clase": "juegoSopaLetras",
+          "pistas": [
+            {
+              "palabra": "ADVERTENCIA",
+              "definicion": "ADVERTENCIA"
+            },
+            {
+              "palabra": "CONSERVACION",
+              "definicion": "CONSERVACION"
+            },
+            {
+              "palabra": "EMERGENCIA",
+              "definicion": "EMERGENCIA"
+            },
+            {
+              "palabra": "ESTRUCTURAL",
+              "definicion": "ESTRUCTURAL"
+            },
+            {
+              "palabra": "FABRICANTE",
+              "definicion": "FABRICANTE"
+            },
+            {
+              "palabra": "INCLINACION",
+              "definicion": "INCLINACION"
+            },
+            {
+              "palabra": "MANTENIMIENTO",
+              "definicion": "MANTENIMIENTO"
+            },
+            {
+              "palabra": "RENDIMIENTO",
+              "definicion": "RENDIMIENTO"
+            },
+            {
+              "palabra": "REVISION",
+              "definicion": "REVISION"
+            },
+            {
+              "palabra": "SOBRECARGA",
+              "definicion": "SOBRECARGA"
+            }
+          ]
+        }      
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "La familiarización con una PEMP es fundamental antes de su utilización por un operador, aunque éste haya manipulado otras PEMP, ya que cada modelo tiene distintas peculiaridades.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": "true",
+                  "feedback": ""
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": "false",
+                  "feedback": ""
+                },
+                {
+                  "opcion": "Solo es necesaria en caso que el operador no haya manipulado nunca ningún tipo de PEMP",
+                  "correcto": "false",
+                  "feedback": ""
+                }
+              ]
+            },
+            {
+              "texto": "El conmutador de llave sirve para:",
+              "respuestas": [
+                {
+                  "opcion": "Seleccionar si activamos los mandos de chasis o de la cesta",
+                  "correcto": "true",
+                  "feedback": ""
+                },
+                {
+                  "opcion": "Mover la plataforma",
+                  "correcto": "false",
+                  "feedback": ""
+                },
+                {
+                  "opcion": "Poner en marcha el motor de la máquina",
+                  "correcto": "false",
+                  "feedback": ""
+                }
+              ]
+            },
+            {
+              "texto": "El botón de hombre presente debe ser apretado y mantenido apretado durante el uso de las palancas de mando, si se suelta el botón, la acción que debería realizar la palanca se interrumpe.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": "true",
+                  "feedback": ""
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": "false",
+                  "feedback": ""
+                }
+              ]
+            },
+            {
+              "texto": "El indicador de sobrecarga se ha iluminado o suena",
+              "respuestas": [
+                {
+                  "opcion": "Impide el uso de los mandos de la cesta, pero funcionan los de suelo",
+                  "correcto": "true",
+                  "feedback": ""
+                },
+                {
+                  "opcion": "Impide el uso de los mandos de suelo, pero funcionan los de la cesta",
+                  "correcto": "false",
+                  "feedback": ""
+                },
+                {
+                  "opcion": "La plataforma sigue funcionando igualmente, pero así sabemos que hay que bajarla y sacar peso",
+                  "correcto": "false",
+                  "feedback": ""
+                }
+              ]
+            },
+            {
+              "texto": "¿Cuál es el aspecto de la parada de emergencia?",
+              "respuestas": [
+                {
+                  "opcion": "La típica seta roja",
+                  "correcto": "true",
+                  "feedback": ""
+                },
+                {
+                  "opcion": "Una palanca roja, con una pegatina indicando su función",
+                  "correcto": "false",
+                  "feedback": ""
+                },
+                {
+                  "opcion": "Un botón rojo ",
+                  "correcto": "false",
+                  "feedback": ""
+                }
+              ]
+            },
+            {
+              "texto": "El mantenimiento de una PEMP es el conjunto de operaciones básicas destinadas a conservar la plena efectividad y seguridad de la máquina en función de las instrucciones del fabricante, y en su  caso del propietario, siempre de conformidad con las condiciones de trabajo, frecuencia de uso y normas vigentes. Pero ¿cada cuánto tiempo se realiza?:",
+              "respuestas": [
+                {
+                  "opcion": "Según las indicaciones del fabricante ",
+                  "correcto": "true",
+                  "feedback": ""
+                },
+                {
+                  "opcion": "Semestralmente",
+                  "correcto": "false",
+                  "feedback": ""
+                },
+                {
+                  "opcion": "Anualmente",
+                  "correcto": "false",
+                  "feedback": ""
+                }
+              ]
+            },
+            {
+              "texto": "Las revisiones de una PEMP son las comprobaciones periódicas, estructurales, funcionales y operativas, de resistencia y conservación, para garantizar el rendimiento de la máquina de conformidad a su fabricación. En general, y siempre que el fabricante no de indicaciones en contra, ¿ cada cuánto tiempo se realizan?",
+              "respuestas": [
+                {
+                  "opcion": "Anualmente",
+                  "correcto": "true",
+                  "feedback": ""
+                },
+                {
+                  "opcion": "Semestralmente",
+                  "correcto": "false",
+                  "feedback": ""
+                },
+                {
+                  "opcion": "Cada 5 años",
+                  "correcto": "false",
+                  "feedback": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroEstrecho",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "celo",
+              "texto": "¡Bueno!<br><br>Ya conocemos el panel de mandos y tenemos nuestra PEMP puesta al día y te veo dispuesto/a a empezar a trabajar con ella. Pero… ¿has inspeccionado el terreno? Recuerda que una correcta evaluación del terreno es importante aún en el caso de que la plataforma no se eleve sobre gatos o estabilizadores.<br><br>Pero de esto hablaremos en el capítulo siguiente. Allí te espero. "
+            },
+            {
+              "clase": "imagen",
+              "subclase": "paraCambiar",
+              "imagen": "img/mod06/despedida.png",
+              "pie": "El mismo muñeco de siempre, y alrededor pequeños dibujos de distintos terrenos: edificios, playa, aeropuesto, ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

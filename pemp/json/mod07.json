@@ -1,0 +1,538 @@
+﻿{
+  "modulo": "MOD. 7: ENTORNO DE TRABAJO",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "ENTORNO DE TRABAJO",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod07/hombreEstabilizador.png",
+              "animacion": "fadeInUp",
+              "subclase": "paraCambiar",
+              "ancho": 200,
+              "pie": "El muñeco de siempre con un estabilizador o gato en la mano"
+            },
+            {
+              "clase": "texto",
+              "animacion": "fadeInRight",
+              "texto": "La <b>estabilidad</b> de todo tipo de PEMP depende de la <b>condición del suelo</b> sobre el que se apoyan.<br><br>Equivocadamente se lleva a cabo una evaluación de las condiciones del terreno solo cuando la PEMP se eleva sobre <b>gatos o estabilizadores</b>. Pero, como seguro que ya imaginas, una correcta evaluación del terreno es <b>igualmente importante para plataformas de brazo y tijera</b> que pueden ser desplazadas sobre el suelo con la <b>plataforma levantada</b>. <br><br>¡Hazme caso! Es necesario llevar a cabo una <b>evaluación de las condiciones del terreno</b> antes de desplazar, usar o levantar <b>cualquier PEMP</b> sobre <b>cualquier tipo de superficie</b>.<br><br>Hablamos sobre ello en este módulo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Zona de realización de los trabajos (I)",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroEstrecho",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "animacion": "bounceInLeft",
+                  "texto": "Un <b>terreno poco firme</b> puede empeorar cuando se somete a las cargas de las ruedas o de los estabilizadores de la PEMP y provocar la <b>desnivelación</b> y la consiguiente <b>inestabilidad</b> de la máquina. Asi mismo, Al <b>pasar de un suelo duro a otro blando</b> la máquina podría desnivelarse o volcar. Por lo tanto, es esencial llevar a cabo una evaluación de las condiciones del terreno antes de desplazar, usar o levantar una PEMP sobre cualquier tipo de superficie. <br><br>Durante el uso, es importante que los operadores utilicen los <b>indicadores de nivel</b> instalados en la plataforma y hagan caso a los <b>avisos y advertencias</b>. Si el indicador de nivel indica que se <b>han superado los límites operativos</b>, el operador debe bajar la plataforma y <b>reestablecer el nivel</b> de la misma. Si se sospecha que los <b>estabilizadores/gatos pueden llegar a hundirse</b> por cualquier razón, se deberá <b>comprobar el nivel</b> de la máquina regularmente y realizar los <b>ajustes</b> necesarios."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod07/hombreEstabilizador.png",
+              "ancho": 300,
+              "animacion": "bounceInRight"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Zona de realización de los trabajos (II)",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "animacion": "bounceInUp",
+          "texto": "La <b>evaluación del terreno</b> es totalmente necesario realizarla antes de posicionar la PEMP."
+        }
+      ]
+    },
+    {
+      "titulo": "Zona de realización de los trabajos (III)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "rotateInDownLeft",
+          "texto": "La <b>zona de trabajo</b> ha de estar <b>balizada</b> y si es necesario <b>señalizada</b>, de manera absolutamente visible.La <b>evaluación</b> de la resistencia del terreno puede variar: "
+        },
+        {
+          "clase": "tabla",
+          "animacion": "pulse",
+          "subclase": "sinBordes separada",
+          "filaTitulos": [
+            {
+              "titulo": "Desde una inspección visual ..."
+            },
+            {
+              "titulo": "<img src='img/mod07/flecha.png' width=100>"
+            },
+            {
+              "titulo": "a un estudio geotécnico"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "En el caso de las <b>PEMP</b>, suele ser <b>suficiente</b> una inspección visual, ya que las cargas en los estabilizadores es relativamente baja, comparada con máquinas como las grúas móviles por ejemplo. <br><br>De cualquier modo, la inspección visual del terreno, debería ser realizada por un <b>técnico con conocimientos y experiencia</b> adecuados a la tarea.",
+                  "imagen": "img/mod07/lupa.png",
+                  "ancho": 150
+                },
+                {
+                  "texto": ""
+                },
+                {
+                  "texto": "El <b>estudio geotécnico</b> es el conjunto de <b>actividades</b> necesarias para conseguir la <b>información geológica y geotécnica</b> del terreno, de cara a la realización de un proyecto de construcción.",
+                  "imagen": "img/mod07/estudioGeotecnico.png",
+                  "ancho": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Categoría de terreno",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Las <b>categorías de terreno</b> sirven para determinar los riesgos a tener en cuenta. De una manera general:",
+          "animacion": "lightSpeedIn"
+        },
+        {
+          "clase": "tabs",
+          "subclase": "vertical",
+          "animacion": "swing",
+          "contenido": [
+            {
+              "titulo": "TERRENO RURAL",
+              "texto": "Zona donde no ha habido <b>actividad de construcción</b>. Se deberá tener extremo <b>cuidado</b> en las cercanías de las <b>riberas de los ríos</b>, <b>marismas</b>, <b>zonas inundadas</b>, con <b>aguas subterráneas</b>, etc."
+            },
+            {
+              "titulo": "PLAYAS",
+              "texto": "La <b>arena</b> es un apoyo muy <b>blando</b>, <b>inestable</b> y de fácil <b>hundimiento</b>"
+            },
+            {
+              "titulo": "ZONAS INDUSTRIALES<BR>ABANDONADAS",
+              "texto": "Por <b>desconocimiento de las condiciones</b> reales del terreno, podría haber <b>cisternas subterráneas</b>, <b>alcantarillado</b>, <b>terreno sin compactar</b>, etc."
+            },
+            {
+              "titulo": "ZONAS ASFALTADAS<BR>O PAVIMENTADAS",
+              "texto": "Estas zonas pueden parecer muy seguras, pero el pavimento puede estar sobre un terreno débil. Si se trata de una <b>carretera frecuentada por vehículos pesados</b> y no muestra señales de <b>hundimiento</b>, en principio se podría <b>confiar</b> en su resistencia.<br><br>En una <b>carretera de campo</b> o <b>parking</b> es más <b>engañoso</b>.<br><br>Las <b>aceras y zonas peatonales</b> necesitan <b>mayor precaución</b> ya que pueden estar sobre terreno hueco o débil.<br><br>Los <b>extremos de zonas pavimentadas y asfaltadas</b> suelen ser zonas <b>muy débiles</b>."
+            },
+            {
+              "titulo": "CENTRO DE LAS CIUDADES",
+              "texto": "Siempre será necesario un <b>análisis del terreno</b> para averiguar si en los subterráneos podrían existir bodegas, túneles, tuberías, etc."
+            },
+            {
+              "titulo": "ZONAS AEROPORTUARIAS",
+              "texto": "Si se tiene intención de trabajar en un <b>radio de 6 km</b> de un aeropuerto, y <b>10 metros o más sobre el nivel del suelo</b>, habrá que solicitar <b>autorización a los gestores</b> del aeropuerto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Riesgos asociados a las condiciones del terreno",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Nos podemos encontrar con los siguientes <b>riesgos asociados a las condiciones del terreno</b>:",
+          "animacion": "lightSpeedIn"
+        },
+        {
+          "clase": "tabs",
+          "subclase": "vertical",
+          "animacion": "zoomInLeft",
+          "contenido": [
+            {
+              "titulo": "RELLENADO SIN COMPACTAR",
+              "texto": "Ocurre que las zonas rellenadas con material de demolición o tierra <b>no están siempre compactadas</b>. Un signo evidente de este hecho son las <b>grietas</b> del terreno cerca de las zanjas."
+            },
+            {
+              "titulo": "TERRENO CERCA DE UNA<br>ZONA DE EXCAVACIONES",
+              "texto": "Las PEMP no deberían posicionarse cerca de zona de excavación, o cerca de una zanja, ya que el terreno suele <b>ceder sin preaviso</b>.<br><br>Si es necesario posicionar una rueda o un estabilizador en una zona de peligro, se deberá realizar un <b>estudio geológico</b> de la zona."
+            },
+            {
+              "titulo": "PRESENCIA DE SÓTANOS<br>O BODEGAS",
+              "texto": "En los casos de <b>sótanos, garajes o bodegas</b>, sus forjados pueden <b>no ser capaces de aguantar</b> el peso de la máquina y <b>derrumbarse sin aviso</b> previo. <br><br>Siempre habrá por tanto, que solicitar un informe sobre la resistencia del forjado antes de posicionar la PEMP."
+            },
+            {
+              "titulo": "ZONAS PAVIMENTADAS",
+              "texto": "Las zonas pavimentadas pese a su aspecto seguro, no tienen por qué serlo.<br><br>La pavimentación puede estar <b>sobre un terreno demasiado débil</b> para soportar el peso de nuestra máquina. "
+            },
+            {
+              "titulo": "CARRETERAS",
+              "texto": "Si se trata de <b>zona transitada por vehículos pesados</b> y no muestra <b>señales de hundimiento</b>, se puede <b>confiar</b> en la resistencia de la misma.<br><br>En una <b>carretera de campo</b> o <b>parking</b> es más <b>engañoso</b>."
+            },
+            {
+              "titulo": "INSTALACIONES SUBTERRANEAS",
+              "texto": "Los <b>conductos subterráneos</b>, bien de gas, agua o electricidad, <b>podrían ser dañados</b> por el peso de una PEMP.<br><br>Existe el <b>riesgo de hundimiento</b> y <b>pérdida de estabilidad</b> con el consiguiente vuelco."
+            },
+            {
+              "titulo": "LLUVIAS TORRENCIALES Y<br>CLIMATOLOGÍA ADVERSA ",
+              "texto": "Periodos largos de <b>lluvia</b> pueden alterar las condiciones de un suelo previamente estable y provocar <b>hundimiento de ruedas y estabilizadores</b>.<br><br>En estos casos es fundamental <b>observar constantemente el nivel de la máquina</b>, y adoptar medidas para aumentar el área de distribución de carga en el suelo, utilizando placas de apoyo grandes.<br><br>Hay que extremar precauciones en <b>suelos helados</b>, pues pueden volverse <b>blandos</b> al aumentar la temperatura."
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Nivelación (I)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<h2>Estabilizadores, salientes y ejes extensibles</h2> "
+        },
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroEstrecho flex-start",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Los estabilizadores sirven para <b>mejorar la estabilidad</b> de la PEMP o aumentar el área de estabilidad. Algunas PEMP de gran altura, disponen de <b>cilindros hidráulicos</b> que elevan la PEMP y <b>ejes extensibles</b> para aumentar la anchura y conseguir el área de estabilidad de trabajo. Deben estar equipados con <b>dispositivos de seguridad</b> para asegurar de modo positivo que la plataforma no se moverá mientras que los mismos no estén situados en posición.  Los <b>circuitos de control</b> deben asegurar que los motores de movimiento no se pueden activar mientras los estabilizadores no han sido desactivados y la plataforma no está bajada a la altura mínima de transporte. <br><br>Algunas PEMP <b>diseñadas</b> para trabajar <b>sin estabilizadores</b> para una gama limitada de operaciones en altura, deben estar equipadas de <b>dispositivos de seguridad</b> que impidan trabajar fuera de esta gama sin que los estabilizadores no estén emplazados. ",
+              "animacion": "bounceInDown"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod07/estabilizadores.jpg",
+              "animacion": "flip",
+              "subclase": "rotarDch paraCambiar",
+              "pie": "Una pemp (parecida a esta) en la que destaquen los estabilizadores"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Nivelación (II)",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod07/placaDistribucionPeso.jpg",
+              "animacion": "flipInX"
+            },
+            {
+              "clase": "texto",
+              "texto": "Un <b>tipo habitual</b> de estabilizadores son los <b>hidráulicos con placa de apoyo</b>.<br><br>El <b>área de apoyo</b> de los estabilizadores de una PEMP  es relativamente <b>pequeña</b>, en consecuencia, genera <b>altas presiones</b> sobre el terreno. La mayoría de los <b>suelos</b>, terrenos en bruto, zonas pavimentadas o asfaltadas <b>no son capaces de soportar</b> estas presiones con lo cual se necesita a menudo algún tipo de <b>placa de repartición de la carga</b> para reducir la presión a un nivel aceptable. Por lo tanto, se recomienda el uso de <b>placas</b> de repartición de la carga <b>por debajo</b> del área de apoyo de los estabilizadores independientemente de las aparentes condiciones del suelo.   <br><br>Además, algunos tipos de terreno pueden exigir una <b>preparación previa</b> de la superficie de apoyo como una losa de hormigón, vigas de acero, redes de acero, calces de madera… Si se utilizan maderas, éstas deben estar en buenas condiciones y ser de un espesor suficiente (no son válidas las tablas de andamio).",
+              "animacion": "slideInRight"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Resumen",
+      "contenido": [
+        {
+          "clase": "lista",
+          "subclase": "objetivos",
+          "animacion": "rubberBand",
+          "contenido": [
+            {
+              "punto": "<b>RECUERDA ...",
+              "contenido": [
+                {
+                  "punto": "Se necesita una <b>evaluación</b> del terreno antes de posicionar la PEMP en su lugar de trabajo. Existen diferentes <b>categorías</b> de terreno: rural, playas, zona industrial abandonada, zona asfaltada o pavimentada, centro de ciudad y zona aeroportuaria."
+                },
+                {
+                  "punto": "Los riesgos <b>asociados</b> a las condiciones de terreno son: Rellenado sin <b>compactar</b>, terreno cerca de una zona de <b>excavaciones</b>, <b>presencia</b> de sótanos o bodegas, zonas <b>pavimentadas</b>, carreteras, Instalaciones <b>subterráneas</b> y lluvias <b>torrenciales</b> y climatología <b>adversa</b>."
+                },
+                {
+                  "punto": "Se recomienda el uso de <b>placas de repartición</b> de la carga por debajo del área de apoyo de los estabilizadores independientemente de las aparentes condiciones del suelo, ya que el área de apoyo de los estabilizadores es pequeña y por ello, genera <b>altas presiones</b> sobre el terreno y la mayoría de los suelos no son capaces de soportarlas."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "autoevalArrastrar",
+          "contenedores": [
+            {
+              "clase": "imagen",
+              "subclase": "droppable",
+              "imagen": "img/mod07/correcto.png",
+              "ancho": 150,
+              "data_id": 1
+            },
+            {
+              "clase": "imagen",
+              "subclase": "droppable",
+              "imagen": "img/mod07/correcto.png",
+              "ancho": 150,
+              "data_id": 1
+            },
+            {
+              "clase": "imagen",
+              "subclase": "droppable",
+              "imagen": "img/mod07/correcto.png",
+              "ancho": 150,
+              "data_id": 1
+            },
+            {
+              "clase": "imagen",
+              "subclase": "droppable",
+              "imagen": "img/mod07/correcto.png",
+              "ancho": 150,
+              "data_id": 1
+            },
+            {
+              "clase": "imagen",
+              "subclase": "droppable",
+              "imagen": "img/mod07/incorrecto.png",
+              "ancho": 150,
+              "data_id": 2
+            },
+            {
+              "clase": "imagen",
+              "subclase": "droppable",
+              "imagen": "img/mod07/incorrecto.png",
+              "ancho": 150,
+              "data_id": 2
+            },
+            {
+              "clase": "imagen",
+              "subclase": "droppable",
+              "imagen": "img/mod07/incorrecto.png",
+              "ancho": 150,
+              "data_id": 2
+            },
+            {
+              "clase": "imagen",
+              "subclase": "droppable",
+              "imagen": "img/mod07/incorrecto.png",
+              "ancho": 150,
+              "data_id": 2
+            }
+          ],
+          "contenidos": [
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/mod07/estabilizador1.png",
+              "ancho": 90,
+              "data_caja": 1
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/mod07/estabilizador2.png",
+              "ancho": 90,
+              "data_caja": 2
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/mod07/estabilizador3.png",
+              "ancho": 90,
+              "data_caja": 2
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/mod07/estabilizador4.png",
+              "ancho": 90,
+              "data_caja": 1
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/mod07/estabilizador5.png",
+              "ancho": 90,
+              "data_caja": 2
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/mod07/estabilizador6.png",
+              "ancho": 90,
+              "data_caja": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "¿Cuáles son las zonas más engañosas para posicionar la plataforma?",
+              "respuestas": [
+                {
+                  "opcion": "Las playas",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Las zonas pavimentadas",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Las zonas rurales",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "En cuanto a carreteras:",
+              "respuestas": [
+                {
+                  "opcion": "Si se trata de zona transitada por vehículos  pesados y no muestra señales de hundimiento, se puede confiar en la resistencia de la misma.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Las carreteras rurales pueden resultar más engañosas",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Las otras dos afirmaciones son correctas",
+                  "correcto": "true"
+                }
+              ]
+            },
+            {
+              "texto": "La mayoría de los suelos, terrenos en bruto, zonas pavimentadas o asfaltadas no son capaces de soportar estas presiones con lo cual se necesita a menudo algún tipo de placa de repartición de la carga para reducir la presión a un nivel aceptable.",
+              "respuestas": [
+                {
+                  "opcion": "Verdadero",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "Cuál de las siguientes afirmaciones es <b>falsa</b>",
+              "respuestas": [
+                {
+                  "opcion": "Algunas PEMP de gran altura, disponen de cilindros hidráulicos que elevan la PEMP y ejes extensibles para aumentar la anchura y conseguir el área de estabilidad de trabajo.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Las zonas con conductos subterráneos son una de las zonas más seguras para posicionar la máquina, ya que suelen estar reforzados.",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "La zona de trabajo de una PEMP ha de estar balizada y si es necesario señalizada, de manera absolutamente visible",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "Cuál de las siguientes afirmaciones es <b>verdadera</b>",
+              "respuestas": [
+                {
+                  "opcion": "Una correcta evaluación de la condición del terreno es igualmente importante para PEMPs autopropulsadas como para plataformas de brazo y tijera.",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Una correcta evaluación de la condición del terreno es más importante para PEMPs autopropulsadas que  para plataformas de brazo y tijera.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Una correcta evaluación de la condición del terreno es menos importante para PEMPs autopropulsadas que  para plataformas de brazo y tijera.",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "En el caso de las PEMP . . ." ,
+              "respuestas": [
+                {
+                  "opcion": "Suele ser suficiente una inspección visual para evaluar la resistencia del terreno.",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Es siempre necesario un estudio geotécnico para evaluar la resistencia del terreno.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Es siempre necesario realizar una inspección visual detallada y un estudio geotécnico para evaluar la resistencia del terreno.",
+                  "correcto": "false"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "flex-start",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Seguro  que ya has quedado convencido de la importancia de realizar una <b>evaluación</b> del terreno <b>antes</b> de comenzar a utilizar una PEMP. ¡Pero esto no es todo!<br><br>En el siguiente capítulo verás cómo <b>esto no es suficiente</b>. Antes de utilizarla, y por tu propia seguridad, tendrás que <b>revisar bien la máquina</b> aunque supuestamente esté en perfecto estado."
+            },
+            {
+              "clase": "imagen",
+              "ancho": 300,
+              "imagen": "img/mod07/hombreRevision.png",
+              "subclase": "paraCambiar",
+              "pie": "Aquí el muñeco de siempre hablando con una hoja en la mano que ponga \"revisión\" o \"inspección\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

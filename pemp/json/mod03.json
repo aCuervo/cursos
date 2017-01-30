@@ -1,0 +1,975 @@
+﻿{
+  "modulo": "Mod. 3: PEMP DE TIJERA Y MÁSTIL",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "PEMP DE TIJERA Y MÁSTIL",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Introducción",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "paraCambiar",
+              "imagen": "img/mod03/dosPEMP.png",
+              "ancho": 400,
+              "pie": "Meter el muñeco mirando hacia arriba, entre las dos PEMP. Hay que dibujar las 2 plataformas",
+              "animacion": "fadeInUp"
+            },
+            {
+              "clase": "texto",
+              "texto": "¡Hola!<br><br>Aquí estoy de nuevo, con muchas ganas de presentarte las PEMP de <b>tijera y mástil</b>. Ambos modelos son de tipo 1 y presentan similitudes así es que los incluiremos juntos en este módulo. <br><br>Mmm…¿Que no te acuerdas qué son las PEMP de tipo1? <br><br>¡Que sí! Esas cuya <b>traslación</b> sólo es posible si se encuentran en <b>posición de transporte</b>…<br><br>Ahora sí ¿verdad? Pues ¡Adelante!",
+              "animacion": "fadeInRight"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "PEMP de Tijera (I)",
+      "fondo": "img/mod03/fondoSlice3.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "anillas",
+          "animacion": "wobble",
+          "texto": "Este tipo de plataformas se utilizan para <b>trabajos</b> de instalaciones eléctricas, mantenimientos, montajes industriales, construcción, etc.<br><br>La estructura es de <b>elevación vertical</b> con una carga nominal de trabajo <b>elevada</b> y puede ser utilizada por <b>varias personas</b> simultáneamente. <br><br>Pueden estar alimentadas por <b>baterías</b> o <b>motor de explosión</b> y disponer de <b>tracción integral</b>, <b>doble extensión manual</b> y <b>estabilizadores hidráulicos</b> que nivelen la máquina y permitan subir al usuario."
+        }
+      ]
+    },
+    {
+      "titulo": "PEMP de Tijera (II)",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod03/PEMPtijera.png",
+              "animacion": "zoomIn"
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "animacion": "fadeInDown",
+                  "texto": "Las <b>PEMP de tijera</b> son máquinas diseñadas para la <b>elevación de personas</b> en diferentes posiciones de trabajo mediante una <b>estructura extensible</b> en forma de tijera unida al <b>chasis</b>."
+                },
+                {
+                  "clase": "lista",
+                  "subclase": "objetivos",
+                  "animacion": "jello",
+                  "contenido": [
+                    {
+                      "punto": "Como toda PEMP, dispone de:",
+                      "contenido": [
+                        {
+                          "punto": "<b>Plataforma de trabajo</b>: rodeada de barandilla en todo sus perímetro."
+                        },
+                        {
+                          "punto": "<b>Estructura extensible</b>: en forma de <b>tijera</b> (origen de su nombre)."
+                        },
+                        {
+                          "punto": "<b>Chasis</b>: normalmente es una plataforma sobre ruedas autopropulsada pero es posible su montaje sobre vehículo, cadenas o remolque."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "PEMP de Tijera (III)",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "columna",
+          "animacion": "flip",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Las plataformas elevadoras de tijera pertenecen al <b>grupo A</b> (es decir, tienen la proyección vertical del centro de gravedad en el interior del polígono de sustentación). Debido a esta posibilidad de elevación, en <b>pequeñas estructuras</b> de chasis, debe disponer de <b>estabilizadores</b>, <b>ejes extensibles</b> u otro <b>sistema homologado</b> que le dé <b>estabilidad</b>. Estas plataformas <b>pueden desplazarse</b> para poder acceder mejor al punto de trabajo.  Si son <b>autopropulsadas</b> y su <b>plataforma</b> de trabajo está en posición <b>elevada</b>, esta traslación puede ser ordenada por un <b>panel  de control</b> situado en el <b>chasis (tipo 2)</b>  o en la <b>plataforma de trabajo (tipo 3)</b>."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod03/separador.jpg",
+              "subclase": "paraCambiar",
+              "pie": "Hacer una imagen larga y estrecha para separar los dos párrafos"
+            },
+            {
+              "clase": "texto",
+              "texto": "Además, pueden <b>incorporar suplementos</b> de plataforma que se deslizan frontalmente para <b>salvar pequeños obstáculos</b>, de unos 2 m aproximadamente. Algunos fabricantes añaden suplementos de 1 m aproximadamente, en desplazamiento lateral. Las dimensiones de altura y anchura de estas plataformas dependerán del tipo de trabajo que tengan que hacer.  Pueden llegar <b>desde 4,5 hasta los 30 metros de altura más o menos</b>. Por lo general, para plataformas de mantenimiento en interiores, se demandan máquinas estrechas de hasta 0,80 m. de anchura y 15 m. de altura."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "PEMP de Tijera (IV)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "bounce",
+          "texto": "<h2>PRINCIPALES TRABAJOS QUE DESEMPEÑA<H2>"
+        },
+        {
+          "clase": "texto",
+          "animacion": "bounce",
+          "texto": "Es una plataforma que se emplea en todos los trabajos que precisen de subir abundante material y que por sus condiciones, permitan que se eleve verticalmente sin encontrar obstáculo."
+        },
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroEstrecho",
+          "animacion": "bounceInLeft",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Emplean este tipo de elevación:",
+              "contenido": [
+                {
+                  "punto": "Montadores de <b>instalaciones eléctricas</b>, <b>sistemas contra incendios</b>, <b>mantenimiento</b>, <b>limpieza de naves diáfanas</b>, ..."
+                },
+                {
+                  "punto": "<b>Rehabilitación de viviendas</b> sin obstáculos en el área de trabajo."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "animacion": "zoomInUp",
+              "imagen": "img/mod03/tijeraAmarilla.png",
+              "ancho": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "PEMP de Mástil (I)",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod03/PEMPmastil.png",
+              "animacion": "zoomIn",
+              "ancho": 300
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "animacion": "fadeInDown",
+                  "texto": "Las <b>PEMP de Mástil Vertical</b> son máquinas diseñadas para la <b>elevación de personas</b> en diferentes alturas de trabajo en la vertical de la misma, mediante una <b>estructura de brazos extensible</b> unida al <b>chasis</b>."
+                },
+                {
+                  "clase": "lista",
+                  "subclase": "objetivos",
+                  "animacion": "jello",
+                  "contenido": [
+                    {
+                      "punto": "Como toda PEMP, dispone de:",
+                      "contenido": [
+                        {
+                          "punto": "<b>Plataforma de trabajo</b>: rodeada de barandilla en todo sus perímetro."
+                        },
+                        {
+                          "punto": "<b>Estructura extensible</b>: una serie de brazos que <b>entran</b> y <b>salen</b> unos de otros."
+                        },
+                        {
+                          "punto": "<b>Chasis</b>: normalmente es una plataforma sobre ruedas autopropulsada pero es posible su montaje sobre vehículo, cadenas o remolque."
+                        }
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "PEMP de Mástil (II)",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "columna",
+          "animacion": "flip",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Las plataformas elevadoras de mástil vertical permiten <b>salvar alturas en la vertical</b> de la propia máquina y trabajar en <b>espacios reducidos</b> con una gran estabilidad. Pertenecen al <b>grupo A</b> (es decir, tienen la proyección vertical del centro de gravedad en el interior del polígono de sustentación) y pueden elevarse <b>hasta 10 m. de altura</b>. Suelen ser máquinas <b>ligeras</b>, de <b>despliegue rápido</b> y gran <b>maniobrabilidad</b>. Los modelos unipersonales resultan idóneos para interiores y espacios reducidos."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod03/separador.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Estas plataformas pueden <b>desplazarse</b> para poder acceder mejor al punto de trabajo.  Si son <b>autopropulsadas</b> y su <b>plataforma</b> de trabajo está en posición <b>elevada</b>, esta traslación puede ser ordenada por un <b>panel  de control</b> situado <b>en el chasis</b> (tipo 2)  o <b>en la plataforma de trabajo</b> (tipo 3). La posibilidad de añadir un pequeño <b>brazo articulado</b> cerca de la cesta de trabajo (“jib”) para salvar los últimos obstáculos, la hace más versátil si cabe."
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Riesgos Laborales derivados de su uso",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Los principales riesgos asociados a un <b>fallo en el mantenimiento</b> o las <b>revisiones</b> del equipo son:",
+          "animacion": "rotateInDownLeft"
+        },
+        {
+          "clase": "acordeon",
+          "animacion": "fadeInUp",
+          "contenido": [
+            {
+              "titulo": "RIESGOS POR CAIDAS A DISTINTO NIVEL",
+              "imagen": "img/mod03/riesgosPEMPcaida.png",
+              "ancho": 300,
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "Las <b>caídas a distinto nivel</b> las podemos clasificar como:",
+                  "contenido": [
+                    {
+                      "punto": "Caída a distinto nivel por <b>deficiente</b> estado, <b>inexistencia</b> o <b>fallo</b> de la puerta de acceso o barandillas."
+                    },
+                    {
+                      "punto": "Caída a distinto nivel por <b>rotura</b> de la plataforma de trabajo, por <b>fallo</b> en los sistemas de aviso y <b>bloqueo</b> del equipo al someterla a sobrecarga o por estar deteriorada."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "RIESGOS POR VUELCO",
+              "imagen": "img/mod03/riesgosPEMPvuelco.png",
+              "ancho": 300,
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "Los <b>riesgos por vuelvo</b> los podemos clasificar como:",
+                  "contenido": [
+                    {
+                      "punto": "Vuelco del equipo por <b>trabajos</b> con el chasis situado sobre superficies inclinadas, por <b>rotura o fallo</b> de los sistemas de aviso sonoro o sistemas de bloqueo."
+                    },
+                    {
+                      "punto": "Vuelco del equipo por <b>fallo</b> de los estabilizadores."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "OTROS RIESGOS",
+              "imagen": "img/mod03/riesgosPEMPotros.png",
+              "ancho": 300,
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "Otros riesgos que nos podemos encontrar son:",
+                  "contenido": [
+                    {
+                      "punto": "<b>Contactos eléctricos</b> directos o indirectos."
+                    },
+                    {
+                      "punto": "<b>Contactos térmicos</b>."
+                    },
+                    {
+                      "punto": "<b>Contacto con sustancias cáustica o corrosivas</b>, que pueden ser derivados de un posible abandono de las <b>revisiones periódicas</b> y de un <b>mantenimiento inadecuado</b> de la máquina."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Documentación exigible",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroEstrecho",
+          "animacion": "fadeInUp",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Conforme a lo establecido en la legislación vigente, la <b>documentación</b> que <b>debe entregarse</b> junto con la máquina es la siguiente:",
+              "contenido": [
+                {
+                  "punto": "<b>Manual de instrucciones</b> del fabricante, al menos, en castellano."
+                },
+                {
+                  "punto": "Declaración <b>CE</b> de conformidad."
+                },
+                {
+                  "punto": "<b>Copia</b> de la <b>última hoja</b> de <b>revisión</b>."
+                },
+                {
+                  "punto": "<b>Contrato de alquiler</b> en el caso de que la máquina se tuviese arrendada."
+                },
+                {
+                  "punto": "<b>Implicaciones, normas y recomendaciones</b> que establezca el propietario o la empresa arrendadora."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "tamaño": 300,
+              "imagen": "img/mod03/carpetaAmarilla.png",
+              "animacion": "zoomInLeft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Señalización exigible",
+      "contenido": [
+        {
+          "clase": "lista",
+          "subclase": "numeros",
+          "titulo": "<h3>La máquina debe disponer de la siguiente señalización:</h3>",
+          "animacion": "bounceInRight",
+          "contenido": [
+            {
+              "punto": "<b>Placa</b> de identificación."
+            },
+            {
+              "punto": "Diagrama de <b>cargas y alcances</b>, en lugar visible, cerca de los sistemas de accionamiento."
+            },
+            {
+              "punto": "Marcado <b>CE</b>."
+            },
+            {
+              "punto": "Señales de <b>peligro</b> y de <b>advertencia</b>:"
+            }
+          ]
+        },
+        {
+          "clase": "slider",
+          "contenido": [
+            {
+              "titulo": "",
+              "imagen": "img/mod03/peligro2.jpg",
+              "thumb": "img/mod03/peligro2.jpg",
+              "texto": "Mantenga la distancia de las partes de la plataforma en movimiento"
+            },
+            {
+              "titulo": "",
+              "imagen": "img/mod03/peligro3.jpg",
+              "thumb": "img/mod03/peligro3.jpg",
+              "texto": "Viento máximo permitido en la plataforma 12,5 m/s y fuerza máxima permitida 400 N"
+            },
+            {
+              "titulo": "",
+              "imagen": "img/mod03/peligro4.jpg",
+              "thumb": "img/mod03/peligro4.jpg",
+              "texto": "Peligro de caida"
+            },
+            {
+              "titulo": "",
+              "imagen": "img/mod03/peligro5.jpg",
+              "thumb": "img/mod03/peligro5.jpg",
+              "texto": "Punto de enganche del cabo para el cinturón de seguridad"
+            },
+            {
+              "titulo": "",
+              "imagen": "img/mod03/peligro6.jpg",
+              "thumb": "img/mod03/peligro6.jpg",
+              "texto": "La capacidad máxima incluyendo las personas a bordo es de 700Kg; el número máximo de ocupantes es "
+            },
+            {
+              "titulo": "",
+              "imagen": "img/mod03/peligro7.jpg",
+              "thumb": "img/mod03/peligro7.jpg",
+              "texto": "Alarma de peligro de vuelco"
+            },
+            {
+              "titulo": "",
+              "imagen": "img/mod03/peligro8.jpg",
+              "thumb": "img/mod03/peligro8.jpg",
+              "texto": "¡Peligro de aplastamiento! Mantenga la distancia de las partes en movimiento"
+            },
+            {
+              "titulo": "",
+              "imagen": "img/mod03/peligro1.jpg",
+              "thumb": "img/mod03/peligro1.jpg",
+              "texto": "Lea el manual de instruciones"
+            }
+
+          ]
+        }
+      ]
+    },
+
+    {
+      "titulo": "Requisitos del operador",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "paraCambiar",
+              "ancho": 100,
+              "imagen": "img/mod03/operario.png",
+              "pie": "Dibujar el muñeco de siempre con un gesto parecido a este",
+              "animacion": "rotateInDownLeft"
+            },
+            {
+              "clase": "lista",
+              "subclase": "anillas vertical",
+              "animacion": "rotateInDownRight",
+              "contenido": [
+                {
+                  "punto": "Tener más de <b>18 años</b> de edad."
+                },
+                {
+                  "punto": "Disponer de una <b>formación e información</b> adecuada a los riesgos derivados de la utilización de la máquina, y adaptada a las necesidades del trabajador (tales como, por ejemplo, el idioma)."
+                },
+                {
+                  "punto": "<b>Autorización</b> de uso por parte del empresario."
+                },
+                {
+                  "punto": "Tener plena <b>capacidad</b> física, psíquica y sensorial, constatada mediante examen médico, con certificado de aptitud para los requisitos de la tarea."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "tada",
+          "texto": "En cuanto a la formación e información, tal y como establece el artículo 5 del <a href='https://www.boe.es/boe/dias/1997/08/07/pdfs/A24063-24070.pdf' target='_blank'><b>Real Decreto 1215/1997</b></a>, por el que se establecen las <i>disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo</i>, esta formación e información ha de ser facilitada por el empresario conforme a lo dispuesto en los artículos 18 y 19 de la Ley 31/1995 de Prevención de Riesgos Laborales."
+        }
+      ]
+    },
+    {
+      "titulo": "Requisitos de fabricación",
+      "fondo": "img/mod03/fondoValla.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "zoomIn",
+          "texto": "En el caso de que la PEMP de tijera esté provista del <b>marcado CE</b> y vaya acompañada de la correspondiente <b>declaración CE de conformidad</b>, se considera que la misma cumple los requisitos esenciales de seguridad y de salud que figuran en el anexo I del  <a href='https://www.boe.es/boe/dias/2008/10/11/pdfs/A40995-41030.pdf' target='_blank'><b>Real Decreto 1644/2008</b></a>, por el que se establecen las normas para la comercialización y puesta en servicio de las máquinas."
+        }
+      ]
+    },
+    {
+      "titulo": "Lista de chequeo de verificacion de requisitos (I)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "A continuación, se muestra un listado de chequeo que pretende, de una forma sencilla, facilitar la verificación, in situ, del cumplimiento de los requisitos de seguridad y de salud:",
+          "animacion": "slideInRight"
+        },
+        {
+          "clase": "lista",
+          "subclase": "anillas vertical",
+          "animacion": "rubberBand",
+          "contenido": [
+            {
+              "punto": "Dispone de su <b>manual de instrucciones en castellano."
+            },
+            {
+              "punto": "El <b>uso</b> que se le va a dar está <b>especificado</b> en el manual de instrucciones."
+            },
+            {
+              "punto": "La máquina lleva de forma visible y legible:",
+              "contenido": [
+                {
+                  "punto": "la <b>razón social</b> y la <b>dirección</b> completa del fabricante y, en su caso, de su representante autorizado."
+                },
+                {
+                  "punto": "La <b>designación de la máquina</b>."
+                },
+                {
+                  "punto": "El marcado <b>CE</b>."
+                },
+                {
+                  "punto": "La <b>designación de la serie</b> o <b>del modelo</b>."
+                },
+                {
+                  "punto": "El <b>número de serie</b> o <b>modelo</b>."
+                },
+                {
+                  "punto": "El <b>año</b> de fabricación."
+                },
+                {
+                  "punto": "El <b>peso de carga máximo</b> autorizado."
+                },
+                {
+                  "punto": "El <b>número máximo de personas</b> autorizado en el habitáculo."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Lista de chequeo de verificacion de requisitos (II)",
+      "contenido": [
+        {
+          "clase": "lista",
+          "subclase": "anillas vertical",
+          "animacion": "rubberBand",
+          "contenido": [
+            {
+              "punto": "Dispone de todos los <b>equipos y accesorios imprescindibles</b> para su <b>regulación, mantenimiento y utilización</b> de forma segura"
+            },
+            {
+              "punto": "Los <b>órganos de accionamiento</b> son claramente <b>visibles</b>, disponen de <b>pictogramas</b> y están situados fuera de las zonas de peligro, siendo de accionamiento mantenido"
+            },
+            {
+              "punto": "Dispone de un <b>órgano de accionamiento voluntario</b>, tipo llave o pulsador, para su puesta en marcha"
+            },
+            {
+              "punto": "Dispone de un <b>selector de puestos de mando</b> que impide que se maneje desde dos puestos a la vez"
+            },
+            {
+              "punto": "Dispone de <b>señales de advertencia de peligro</b> mediante pictogramas o señales luminosas o acústicas"
+            },
+            {
+              "punto": "Dispone de uno o varios <b>dispositivos de parada de emergencia</b> fácilmente accesibles, como una seta de emergencia (de color rojo sobre fondo amarillo), para evitar situaciones peligrosas"
+            },
+            {
+              "punto": "La <b>estructura extensible</b> de tijera está <b>protegida</b> por resguardos de protección tipo valla y bloqueo de bajada durante tres segundos con avisador acústico antes de llegar a su plegado total, además de disponer de los pictogramas de riesgo oportunos"
+            },
+            {
+              "punto": "Junto con sus elementos y equipos (tales como, por ejemplo, gatos, ejes extensibles, bloqueos de suspensión, elementos sonoros, etc.) es <b>estable</b> y evita el vuelco en todo momento"
+            },
+            {
+              "punto": "Los <b>resguardos del motor o zona de baterías</b> están <b>sólidamente construidos y sujetos</b> para evitar inaccesibilidad a partes móviles, a contactos térmicos, a contactos eléctricos, además de disponer de pictogramas de riesgo claramente identificables"
+            },
+            {
+              "punto": "Dispone de <b>limitador de carga</b>"
+            }
+          ]
+        }
+       ]
+    },
+    {
+      "titulo": "Lista de chequeo de verificacion de requisitos (III)",
+      "contenido": [
+        {
+          "clase": "lista",
+          "subclase": "anillas vertical",
+          "animacion": "rubberBand",
+          "contenido": [
+            {
+              "punto": "Los componentes que canalizan los <b>fluidos del motor</b> o <b>dispositivos hidráulicos</b> (depósitos con su tapón, etc.) están en <b>perfecto estado</b>, de forma que no se aprecia ningún tipo de fuga"
+            },
+            {
+              "punto": "El <b>acceso</b> es <b>fácil</b> y <b>seguro</b> (con asideros, peldaños antideslizantes y puerta de apertura fácil)"
+            },
+            {
+              "punto": "El <b>tubo de escape</b> está situado de forma que el operador, en su cabina, no se vea afectado por las citadas emisiones"
+            },
+            {
+              "punto": "Dispone de un <b>dispositivo adicional</b> que permite, en el caso de que se maneje sobre una pendiente o inclinación importante, <b>bloquear</b> la máquina con seguridad y, de este modo, evitar movimientos incontrolados"
+            },
+            {
+              "punto": "Existen <b>puntos de anclaje</b> para dispositivos de protección individual anticaída en el interior de la cabina"
+            },
+            {
+              "punto": "Dispone del correspondiente <b>documento</b> en el que se indica el momento (horas de utilización, etc.) en el que ha de llamarse al técnico especialista para realizar el <b>mantenimiento</b> de la misma (cambio de filtros, aceite, etc.)"
+            },
+            {
+              "punto": "Se lleva un <b>mantenimiento adecuado</b> del equipo que incluye las revisiones periódicas determinadas por el fabricante"
+            },
+            {
+              "punto": "Dispone de <b>extintor</b> en un espacio habilitado para ello y señalizado con su pictograma correspondiente, en el caso de que la evaluación de riesgos así lo determine y sus dimensiones así lo permitan"
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod03/tick.png",
+          "ancho": 200,
+          "animacion": "tada"
+        }
+      ]
+    },
+    {
+      "titulo": "Contenido del manual de instrucciones",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Conforme a lo dispuesto en el antes mencionado Real Decreto 1644/2008, por el que se establecen las normas para la comercialización y puesta en servicio de las máquinas, la plataforma debe ir acompañada de un <b>manual de instrucciones</b> redactado, al menos, en <b>castellano</b>. Este manual tiene que contener, como mínimo, cuando proceda, la <b>siguiente información</b>:",
+          "animacion": "bounceInDown"
+        },
+        {
+          "clase": "listaObjetos",
+          "subclase": "flex-start",
+          "contenido": [
+            {
+              "clase": "lista",
+              "subclase": "recuadro",
+              "animacion": "bounceInLeft",
+              "contenido": [
+                {
+                  "punto": "Razón social y dirección completa del fabricante y, en su caso, de su representante autorizado."
+                },
+                {
+                  "punto": "Designación de la máquina."
+                },
+                {
+                  "punto": "Declaración CE de conformidad."
+                },
+                {
+                  "punto": "Descripción general de la plataforma."
+                },
+                {
+                  "punto": "Instrucciones de uso, mantenimiento y reparación de la plataforma, así como para comprobar su correcto funcionamiento, incluidas las medidas preventivas que deben adoptarse durante la realización de estos tipo de operaciones."
+                },
+                {
+                  "punto": "Descripción del puesto de trabajo del operador."
+                },
+                {
+                  "punto": "Descripción del uso previsto de la plataforma."
+                },
+                {
+                  "punto": "Advertencias relativas a los modos en los que no se debe utilizar la plataforma."
+                },
+                {
+                  "punto": "Instrucciones de montaje, instalación y conexión, incluidas aquéllas dirigidas a reducir el ruido."
+                },
+                {
+                  "punto": "Instrucciones relativas a la puesta en servicio y la utilización de la plataforma."
+                },
+                {
+                  "punto": "Información sobre los riesgos residuales que existan."
+                }
+              ]
+            },
+            {
+              "clase": "lista",
+              "subclase": "recuadro",
+              "animacion": "bounceInRight",
+              "contenido": [
+                {
+                  "punto": "Instrucciones acerca de las medidas preventivas que se deben adoptar así como de los equipos de protección individual que se han de proporcionar."
+                },
+                {
+                  "punto": "Características básicas de las herramientas que se le pueden acoplar."
+                },
+                {
+                  "punto": "Condiciones en las que la plataforma responde al requisito de estabilidad durante su utilización, transporte, montaje, desmontaje, situación de fuera de servicio, ensayo o situación de avería previsible."
+                },
+                {
+                  "punto": "Instrucciones de transporte, manutención y almacenamiento, con indicación de la masa de la máquina y la de sus diversos elementos cuando, de forma regular, deban transportarse por separado."
+                },
+                {
+                  "punto": "Modo operativo que se ha de seguir en caso de accidente o de avería; así como el que se tiene que seguir para lograr el desbloqueo del equipo con total seguridad."
+                },
+                {
+                  "punto": "Características de las piezas de recambio que han de utilizarse, cuando éstas afecten a la salud y seguridad de los operadores."
+                },
+                {
+                  "punto": "Indicaciones sobre el ruido aéreo emitido."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Guía básica de mantenimiento del equipo",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "celo",
+              "animacion": "swing",
+              "texto": "Se debe garantizar el <b>mantenimiento adecuado</b> de la PEMP de la tijera conforme a lo indicado por el <b>fabricante</b> en el <b>manual de instrucciones</b> de la máquina. En este sentido, las revisiones determinadas por el fabricante han de ser efectuadas por <b>personal especializado</b>. <br>En la imagen que ilustra este apartado, y a modo orientativo, se muestra una tabla que, sin ser vinculante, pretende ser una <b>guía básica de instrucciones de mantenimiento</b>."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod03/revisionPEMP.png",
+              "ancho": 600,
+              "animacion": "rotateIn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¿Se aconseja el uso de arnés en PEMP de Tijera?",
+      "fondo": "img/mod03/fondoArnes.png",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "Respondemos a esta pregunta con la recomendación de <a href='http://www.ipaf.org/es/' target='_blank'><b>IPAF</b></a>: <br>Normalmente, si la máquina está equipada <b>con barandillas</b>, <b>no es necesario</b> que el personal que trabaja en un elevador vertical (Plataformas de Tijera y Elevadores verticales unipersonales) utilice el arnés de seguridad, con excepción de circunstancias especiales de riesgo. Las plataformas de tijera, por ejemplo, disponen de una amplia plataforma de trabajo y el arnés limitaría la posibilidad de movimiento de los operadores a bordo de la misma y limitaría la visión del operador en las maniobras (por ejemplo cuando hace marcha atrás). <br>Sin embargo la necesidad de un arnés en una plataforma elevadora de tijera <b>será contemplada en la Evaluación de Riesgos</b> antes de que se empiece el trabajo y según las <b>especificaciones técnicas de la máquina</b> indicadas en el manual de uso de la misma. <br>Por otro lado, también se seguirá la normativa interna de la empresa, que puede especificar la obligatoriedad de uso de este EPI.",
+          "subclase": "recuadro",
+          "animacion": "jello"
+        }
+      ]
+    },
+    {
+      "titulo": "Resumen",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<b>Recuerda …</b> <br>El sistema de elevación en estas plataformas consiste en un <b>conjunto mecánico</b> accionado por unos <b>cilindros hidráulicos</b> que permiten <b>elevar una plataforma</b> de una <b>superficie</b> de más-menos <b>6 metros cuadrados</b> y con una carga <b>superior</b> al resto de plataformas.",
+          "animacion": "rotateInDownLeft"  
+        },
+        {
+          "clase": "texto",
+          "texto": ""
+        },
+        {
+          "clase": "tabla",
+          "subclase": "separada",
+          "animacion": "slideInUp",
+          "filaTitulos": [
+            {
+              "titulo": "CARACTERÍSTICAS DE TRABAJO"
+            },
+            {
+              "titulo": "PRINCIPALES TRABAJOS QUE DESEMPEÑA"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "Este tipo de elevación <b>permite acceder con material y más de dos personas</b> al área de trabajo. También nos permite <b>realizar la traslación sin necesidad de bajar la plataforma</b>, aunque esto dependerá de las características de la máquina. <br>Este tipo de plataforma puede disponer de <b>estabilizadores hidráulicos</b>, lo que permite que el usuario nivele la máquina y pueda subir."
+                },
+                {
+                  "texto": "Es una plataforma que se emplea en <b>todos los trabajos</b> que, por sus condiciones, permitan que una plataforma se <b>eleve verticalmente</b> sin encontrar obstáculo y, que además, precisen de subir <b>abundante material</b>."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Localiza en la siguiente sopa de letras los 7 trabajos principales para los que se utilizan las PEMP"
+        },
+        {
+          "clase": "juegoSopaLetras",
+          "pistas": [
+            {
+              "palabra": "ELECTRICIDAD",
+              "definicion": "ELECTRICIDAD"
+            },
+            {
+              "palabra": "FONTANERIA",
+              "definicion": "FONTANERIA"
+            },
+            {
+              "palabra": "INCENDIOS",
+              "definicion": "INCENDIOS"
+            },
+            {
+              "palabra": "LIMPIEZA",
+              "definicion": "LIMPIEZA"
+            },
+            {
+              "palabra": "REHABILITACION",
+              "definicion": "REHABILITACION"
+            },
+            {
+              "palabra": "CONSTRUCCION",
+              "definicion": "CONSTRUCCION"
+            },
+            {
+              "palabra": "MANTENIMIENTO",
+              "definicion": "MANTENIMIENTO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "¿Es obligatorio el uso de arnés anticaída en este tipo de plataforma?",
+              "respuestas": [
+                {
+                  "opcion": "No, según ley no es obligatorio, pero dependerá de la evaluación de riesgos previa al trabajo",
+                  "correcto": "false",
+                  "feedback": "La afirmación es correcta, pero no es la única correcta"
+                },
+                {
+                  "opcion": "No, según ley no lo es, pero si lo será si es norma interna de la empresa",
+                  "correcto": "false",
+                  "feedback": "La afirmación es correcta, pero no es la única correcta"
+                },
+                {
+                  "opcion": "Ambas son correctas",
+                  "correcto": "true",
+                  "feedback": "Efectivamente, ambas respuestas son correctas"
+                }
+              ]
+            },
+            {
+              "texto": "Para manejar una plataforma de tijera, es necesario ser mayor de edad, disponer de formación e información adecuada y además estar autorizado por el empresario",
+              "respuestas": [
+                {
+                  "opcion": "Si, es correcto",
+                  "correcto": "true",
+                  "feedback": "La afirmación es correcta"
+                },
+                {
+                  "opcion": "No, la mayoría de edad solo es necesaria para las PEMP montadas sobre camión",
+                  "correcto": "false",
+                  "feedback": "Es necesaria la mayoria de edad para poder manejar una PEMP"
+                },
+                {
+                  "opcion": "La autorización del empresario no es necesaria para manipular las PEMP",
+                  "correcto": "false",
+                  "feedback": "Es necesaria la autorización del empresario para poder manipular una PEMP"
+                }
+              ]
+            },
+            {
+              "texto": "Entre los riesgos asociados al uso de las PEMP de Tijera y Mástil podemos resaltar…",
+              "respuestas": [
+                {
+                  "opcion": "Caídas a distinto nivel debidas al efecto látigo",
+                  "correcto": "false",
+                  "feedback": "La afirmación es incorrecta"
+                },
+                {
+                  "opcion": "Riesgos asociados al abandono de las revisiones periódicas y a un mantenimiento inadecuado de la máquina",
+                  "correcto": "false",
+                  "feedback": "La afirmación es incorrecta"
+                },
+                {
+                  "opcion": "Pérdidas de estabilidad del equipo por fallo en los sistemas eléctricos y mecánicos",
+                  "correcto": "true",
+                  "feedback": "La afirmación es correcta"
+                }
+              ]
+            },
+            {
+              "texto": "Si en una PEMP aparece la siguiente señal, ¿qué quiere decir?",
+              "imagen": "img/mod03/autoevaluacion1.jpg",
+              "respuestas": [
+                {
+                  "opcion": "La carga máxima es de dos personas  y  180 kg de material",
+                  "correcto": "false",
+                  "feedback": "La afirmación es correcta, pero no es la única correcta"
+                },
+                {
+                  "opcion": "La carga máxima es de 340 kg",
+                  "correcto": "false",
+                  "feedback": "La afirmación es correcta, pero no es la única correcta"
+                },
+                {
+                  "opcion": "Ambas son acertadas",
+                  "correcto": "true",
+                  "feedback": "La afirmación es correcta, indica las dos cosas a la vez"
+                }
+              ]
+            },
+            {
+              "texto": "¿Qué significa esta señal?",
+              "imagen": "img/mod03/autoevaluacion2.png",
+              "respuestas": [
+                {
+                  "opcion": "Prohibido trabajar sin la formación adecuada",
+                  "correcto": "false",
+                  "feedback": "La afirmación es incorrecta"
+                },
+                {
+                  "opcion": "Lee el manual del operador",
+                  "correcto": "true",
+                  "feedback": "La afirmación es correcta"
+                },
+                {
+                  "opcion": "Puede significar ambas cosas, según el contexto de trabajo",
+                  "correcto": "false",
+                  "feedback": "Esta señal no tiene nada que ver con la formación ni el contexto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "paraCambiar",
+              "imagen": "img/mod03/hombreCualEsLaMejor.png",
+              "pie": "Poner el muñeco del modulo 2 diapositiva 7 sin bocadillo"
+            },
+            {
+              "clase": "texto",
+              "subclase": "anillas",
+              "texto": "Ya sabes mucho sobre las <b>PEMP de tijera y de mástil</b> y sobre lo que tienes que tener en cuenta a la hora de manejarlas con seguridad. Pero…¿y si tienes que trabajar en zonas de difícil acceso o en zonas por debajo de la base de la máquina? Pues… como bien estás pensando, necesitarás otro tipo de PEMP como las de <b>Brazo Telescópico y Articuladas</b>. En el siguiente  módulo nos centraremos en ellas. Ambas son similares, así es que las veremos juntas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

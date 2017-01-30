@@ -18,7 +18,10 @@
             "js/snapsvg/snap.svg-min.js"
         ]);
             break;
-        case "modFrut":
+        case "modFrut": arrayFinal = arrayComun.concat([
+            "js/bootstrap/bootstrap.min.js"
+        ]);
+            break;
         case "modCar":
         case "modRes":
             arrayFinal = arrayComun.concat([
@@ -52,6 +55,10 @@ function getArrayCSS(modulo) {
             ]);
             break;
         case "modFrut":
+            arrayFinal = arrayComun.concat([
+"css/bootstrap/bootstrap.min.css"
+            ]);
+            break;
         case "modCar":
         case "modPes":
         case "modRes":
@@ -475,6 +482,3 @@ function getArrayImagenes(modulo) {
     }
     return arrayFinal;
 }
-
-
-

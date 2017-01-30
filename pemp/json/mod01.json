@@ -1,0 +1,155 @@
+﻿{
+  "modulo": "Mod. 1: INTRODUCCION",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "INTRODUCCION",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+		  "subclase": "flex-start",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "¡Hola! <br><br>Te damos la bienvenida a este curso de <b>Plataformas Elevadoras Móviles de Personal</b>. <br><br>En él conocerás lo que son las PEMP, <b>su manejo, funcionamiento y mantenimiento</b>, además de la <b>legislación y normativa</b> aplicable. <br><br>Aprenderás también a manejarlas de forma <b>segura</b> detectando posibles <b>peligros</b>, evitando <b>accidentes</b> y eliminando <b>riesgos</b> en el trabajo. <br><br>¿ Te animas?",
+              "animacion": "lightSpeedIn"
+            },
+            {
+              "clase": "imagen",
+              "subclase": "paraCambiar",
+              "imagen": "img/mod01/hombre_carretilla.jpg",
+              "ancho": 300,
+              "pie": "Trabajador sobre una PEMP. Hay que poner un muñeco que está hablando. Este muñeco va a aparecer en todos los módulos (presentandolos y despidiendolos) en diferentes posiciones y con diferentes PEMP",
+              "animacion": "lightSpeedIn"
+            }
+          ]
+        }
+      ]
+    },
+	{
+		"titulo": "Presentación",
+    "contenido": [
+      {
+        "clase": "lista",
+        "titulo": "Este curso consta de <b>12 módulos</b> diferenciados. Además de este <b>primero</b> de presentación, veremos los siguientes <b>11</b> en los que se tratarán diferentes aspectos de las plataformas elevadoras móviles de personal:<br>",
+        "contenido": [
+          {
+            "punto": "<b>Mod. 2</b>: Generalidades."
+          },
+          {
+            "punto": "<b>Mod. 3</b>: Pemp de tijera y mástil."
+          },
+          {
+            "punto": "<b>Mod. 4</b>: Pemp de brazo telescópico y articulado."
+          },
+          {
+            "punto": "<b>Mod. 5</b>: Pemp según su sistema de traslación."
+          },
+          {
+            "punto": "<b>Mod. 6</b>: Panel de control e indicadores. Mantenimiento y revisiones."
+          },
+          {
+            "punto": "<b>Mod. 7</b>: Entorno de trabajo."
+          },
+          {
+            "punto": "<b>Mod. 8</b>: Seguridad antes de poner en marcha el equipo."
+          },
+          {
+            "punto": "<b>Mod. 9</b>: Normas de utilización y rescate. EPIs."
+          },
+          {
+            "punto": "<b>Mod. 10</b>: Riesgos asociados al uso de las PEMP."
+          },
+          {
+            "punto": "<b>Mod. 11</b>: Accidentes más habituales."
+          },
+          {
+            "punto": "<b>Mod. 12</b>: Maneras de reducir el riesgo en el uso de las PEMP."
+          }
+        ]
+      }
+    ]
+	},
+    {
+      "titulo": "Algo de historia ... (I)",
+      "contenido": [
+
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroEstrecho",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "animacion": "bounceInDown",
+                  "texto": "<b>DICEN QUE ...</b> La <b>invención</b> de las PEMP o Plataforma Elevadora Móvil de Personal (también conocidas como PTA o Plataformas de Trabajo Aéreo) se atribuye a <b>John L. Grove</b>, un inventor e industrial americano. Después de vender en 1967 su negocio anterior, Grove Manufacturing, él y su esposa realizaron un viaje en automóvil. Durante una parada en la Presa de Hoover, Grove fue <b>testigo</b> de la electrocución de dos trabajadores que trabajaban en un andamio. A partir de este <b>\"trágico acontecimiento\"</b> se dio cuenta de la necesidad de creación y comercialización de un nuevo producto que ayudaría a los trabajadores a realizar tareas de construcción y de mantenimiento en alturas, con <b>más</b> seguridad."
+                },
+                {
+                  "clase": "texto",
+                  "animacion": "bounceInUp",
+                  "texto": "Cuando Grove regresó del viaje a su casa, <b>creó</b> con dos amigos una asociación, <b>compró</b> un pequeño negocio de fabricación de metal, y <b>comenzó</b> a diseñar las bases para una plataforma de trabajo aéreo. Nombraron a la compañía JLG Industries Inc., y con la ayuda de 20 empleados <b>lanzaron</b> en 1970 su primera plataforma de trabajo aéreo."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/johnLgrove.jpg",
+              "animacion": "bounceInRight",
+              "ancho": 300,
+              "pie": "<h2>John L. Grove</h2>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Algo de historia ... (II)",
+      "fondo": "img/mod01/fondo1.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "rotateIn",
+          "texto": "Las PEMP <b>empezaron</b> a diseñarse con una gama de características adicionales: <b>enchufes</b> eléctricos, <b>conectores</b> de aire comprimido, y una variedad de otras adaptaciones para las herramientas. <br><br>JLG introdujo su línea Workstation en los modelos Sky, que fueron diseñados con características especiales para <b>trabajos específicos</b>:<br><br><i>\"Se están utilizando PEMPs no solo para elevar operarios sino también materiales y herramientas, así que, ¿por qué no crear una PEMP que tenga implementadas algunas de las herramientas que necesitan (un estante para asegurar cristal o manejar el conducto, o una plataforma con enchufes eléctricos, un soldador, o a una sierra de albañilería)?\"</i>" 
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "paraCambiar",
+              "imagen": "img/mod01/hombre_carretilla.jpg",
+              "ancho": 300,
+              "pie": "Poner la misma imagen que en la presentación"
+            },
+            {
+              "clase": "texto",
+              "subclase": "celo",
+              "texto": "En este <b>breve</b> módulo de introducción al curso hemos visto un poco de historia de cómo a una persona que ve un accidente se le ocurre diseñar una herramienta para evitarlos.<br><br>En el siguiente módulo veremos generalidades sobre las Plataformas Elevadoras Móviles de Personal.<br><br> ¡AHÍ OS ESPERO!"
+            }
+          ]
+        }
+      ]
+    },
+   {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

@@ -1,0 +1,807 @@
+﻿{
+  "modulo": "MOD. 9: NORMAS DE UTILIZACIÓN Y RESCATE. EPI",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "NORMAS DE UTILIZACION Y RESCATE. EPI",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod09/hombreArnes.png",
+              "subclase": "paraCambiar",
+              "pie": "El muñeco de siempre con un arnés",
+              "ancho": 300,
+              "animacion": "slideInUp"
+            },
+            {
+              "clase": "texto",
+              "texto": "En este nuevo módulo trataremos las <b>normas de seguridad</b> a seguir en los usos habituales de una plataforma elevadora de personas, pero también veremos la <b>secuencia</b> adecuada de <b>rescate</b> y un apartado sobre los <b>equipos de protección individual</b> necesarios en el uso de la máquina. <br><br>Así es que ...  ¡Ajústate el arnés que arrancamos!",
+              "animacion": "slideInRight"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Normas específicas de Seguridad en el uso (I)",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroEstrecho",
+          "animacion": "rotateIn",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Lo <b>primero</b> que se debe hacer, siempre, es leer el <b>manual de instrucciones</b> del fabricante y los <b>procedimientos de trabajo</b> establecidos en nuestra empresa.  No se debería manejar la máquina hasta no estar seguro de haber comprendido el manual. El operario debe leer y observar todos los avisos, notas de precaución e instrucciones de manejo impresas en la máquina y en el manual de instrucciones. Es muy importante <b>familiarizarse</b> también con la ubicación y funcionamiento de los <b>mandos de tierra</b> y de la <b>plataforma</b>. <br><br>Tanto el <b>operario</b> como su <b>supervisor</b> deberán tomar todas las <b>medidas de seguridad</b> necesarias para <b>evitar</b> todos los <b>riesgos</b> previsibles en la zona de trabajo; si detectasen <b>riesgos no contemplados</b> en el procedimiento de trabajo, deberán <b>informar a sus superiores jerárquicos</b> y, en su caso, al <b>Servicio de Prevención</b> para la corrección del procedimiento (es conveniente que los hechos que deben comunicarse al SP estén establecidos de antemano)."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod09/arnes.png",
+              "subclase": "rotarDch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Normas específicas de Seguridad en el uso (II)",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "flex-start",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "<b>NO SE DEBE:</b>",
+              "subclase": "recuadro",
+              "animacion": "rotateInDownLeft",
+              "contenido": [
+                {
+                  "punto": "Utilizar la máquina con <b>vientos</b> de velocidad superior a la máxima indicada por el fabricante del equipo."
+                },
+                {
+                  "punto": "<b>Accionar o elevar la plataforma</b> si se encuentra <b>sobre un vehículo</b> para su transporte."
+                },
+                {
+                  "punto": "Utilizar la máquina <b>fuera del rango de temperaturas</b> indicado por el fabricante."
+                }
+              ]
+            },
+            {
+              "clase": "lista",
+              "titulo": "<b>SE DEBE:</b>",
+              "subclase": "recuadro",
+              "animacion": "rotateInDownRight",
+              "contenido": [
+                {
+                  "punto": "Utilizar los <b>equipos de protección individual indicados por el fabricante</b> o que se establezcan como obligatorios a raíz de la evaluación de riesgos."
+                },
+                {
+                  "punto": "Subir a la plataforma siguiendo la técnica de los <b>\"Tres puntos de contacto\"</b> y mirando hacia la máquina."
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "bounceInUp",
+          "texto": "<b>Sabías que ...</b><br>La Técnica <b>\"Tres puntos de contacto\"</b> consiste en que, al entrar o salir de la plataforma, deben permanecer en <b>contacto permanente</b> con la máquina <b>dos manos y un pie</b> o bien <b>una mano y dos pies</b>."
+        }
+      ]
+    },
+    {
+      "titulo": "Normas específicas de Seguridad en el uso (III)",
+      "contenido": [
+        {
+          "clase": "lista",
+          "subclase": "objetivos",
+          "animacion": "rubberBand",
+          "contenido": [
+            {
+              "punto": "Hay <b>cuatro grupos</b> de normas importantes:",
+              "contenido": [
+                {
+                  "punto": "<b>Previas a la puesta en marcha</b> de la plataforma."
+                },
+                {
+                  "punto": "<b>Previas a la elevación de la plataforma."
+                },
+                {
+                  "punto": "De <b>movimiento</b> del equipo con la <b>plataforma elevada</b>."
+                },
+                {
+                  "punto": "<b>Después del uso</b> de la plataforma."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod09/flechaGrupos.png",
+          "animacion": "slideInLeft",
+          "ancho": 800
+        }
+      ]
+    },
+    {
+      "titulo": "Normas previas a la puesta en marcha de la plataforma",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "flex-start",
+          "contenido": [
+            {
+              "clase": "texto",
+              "animacion": "slideInLeft",
+              "texto": "<b>Antes</b> de utilizar la plataforma se debe <b>comprobar</b> la PEMP para <b>detectar posibles defectos o fallos</b> que puedan afectar a su seguridad. Cualquier <b>defecto</b> debe ser <b>evaluado por personal cualificado y formado</b> por el fabricante y <b>determinar</b> si constituye un <b>riesgo</b> para la seguridad del equipo. <br><br>Todos los <b>defectos detectados</b> que puedan afectar a la seguridad deben ser <b>corregidos</b> antes de utilizar el equipo. <br><br>La comprobación debe consistir en verificar los elementos que se incluyen en el <b>formulario de inspección previa</b>, especificados ya anteriormente en el módulo correspondiente a inspecciones:"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod09/inspeccionPrevia.png",
+              "animacion": "rotateIn",
+              "ancho": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Normas previas a la elevación de la plataforma",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "flex-start",
+          "contenido": [
+            {
+              "clase": "texto",
+              "animacion": "slideInLeft",
+              "texto": "Antes de proceder con la elevación de la plataforma, se deben realizar una <b>serie de operaciones</b>. Para ayudarnos a realizarlas, al igual que en el apartado anterior, proponemos usar la tabla de la imagen, que hemos visto previamente en el módulo correspondiente a inspecciones:"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod09/inspeccionPreviaElevacion.png",
+              "animacion": "rotateIn",
+              "ancho": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Normas de movimiento del equipo con la PEMP elevada (I)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "bounceInDown",
+          "texto": "La <b>traslación</b> de una <b>PEMP</b> con la <b>plataforma elevada</b> y el operador en su interior, se realizará únicamente en <b>máquinas especialmente diseñadas</b> para ello ya que una sacudida provocada por un desnivel en el terreno puede notarse de forma muy superior en la plataforma de trabajo, ocasionando <b>inestabilidad y peligro de caída</b> para sus ocupantes. No se debe <b>subir o bajar pendientes</b> en ella, salvo que el fabricante indique que está <b>diseñada para ello</b>."
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "rotateInUpRight",
+          "texto": "Antes de empezar a moverse hay que <b>comprobar</b>  que <b>no</b> existen  zanjas,  rampas , cables aéreos, salientes de edificios, u otros <b>obstáculos en la ruta</b> de desplazamiento; tampoco material tipo claves, mangueras, etc. <b>colgando o arrastrando de la máquina</b>, ni <b>herramental</b> suelto en el <b>suelo de la plataforma</b>.<br><br>Debemos asegurarnos  que se ha <b>dado aviso</b> a todas las personas que se encuentren en los alrededores de la ruta, <b>reduciendo la velocidad y el volumen de las bocinas</b> al acercarnos a las puertas. Así mismo, los <b>gatos y/o estabilizadores</b> deben estar <b>recogidos</b>."
+        }
+      ]
+    },
+    {
+      "titulo": "Normas de movimiento del equipo con la PEMP elevada (II)",
+      "contenido": [
+            {
+              "clase": "lista",
+              "subclase": "celo",
+              "animacion": "swing",
+              "titulo": "Durante el <b>movimiento</b> del equipo con la <b>plataforma elevada</b>, se deben cumplir una serie de requisitos, que a continuación se detallan:",
+              "contenido": [
+                {
+                  "punto": "Se debe mantener de forma continuada una <b>visión clara</b> del <b>camino</b> y del <b>área a recorrer</b> asegurándonos que en el trayecto no hay <b>personas</b>, ni <b>agujeros</b>, etc. que se puedan interponer ni <b>obstáculos por encima del operador</b>. En este último caso, se debería determinar la necesidad de acoplar <b>sistemas antiatrapamiento</b>"
+                },
+                {
+                  "punto": "<b>No</b> se deben manejar las PEMP de forma <b>temeraria</b> o <b>distraída</b>, comprobando en todo momento que no haya trabajadores en sus proximidades; En este sentido, el movimiento de <b>marcha atrás</b> quedará <b>limitado</b> a los casos imprescindibles debido a que la <b>visibilidad</b> en ellos no siempre está garantizada."
+                },
+                {
+                  "punto": "Deberemos desplazar la máquina sobre <b>superficies niveladas y con suficiente resistencia</b>, evitando situarnos sobre <b>superficies frágiles o inestables</b> y manteniendo la <b>distancia de seguridad a obstáculos</b>, desniveles, zanjas o rampas y la <b>distancia mínima</b> a <b>líneas eléctricas</b> con tensión."
+                },
+                {
+                  "punto": "Se deben tener en cuenta las <b>condiciones metereológicas</b> (viento, lluvia, nieve, etc.) de forma que no impliquen la necesidad de detener el trabajo."
+                }
+              ]
+            }
+          ]
+    },
+    {
+      "titulo": "Normas de movimiento del equipo con la PEMP elevada (III)",
+      "contenido": [
+        {
+          "clase": "lista",
+          "animacion": "fadeInLeft",
+          "titulo": "En cuanto a la <b>velocidad</b>, no se debe desplazar la PEMP aceleradamente en <b>zonas estrechas</b> o con <b>obstáculos</b>, y se debe <b>limitar</b> la misma según las condiciones del terreno, la visibilidad, la presencia de pendientes y el tipo de PEMP, a lo siguiente:",
+          "contenido": [
+            {
+              "punto": "1,5 m/s para las <b>PEMP sobre vehículo portador</b> cuando el movimiento de traslación se mande desde la cabina del portador."
+            },
+            {
+              "punto": "3,0 m/s para las <b>PEMP sobre raíles</b>."
+            },
+            {
+              "punto": "0,7 m/s para todas las <b>demás PEMP</b> de los tipo 2 y 3."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod09/PEMPfueraDeServicio.png",
+              "ancho": 100
+            },
+            {
+              "clase": "texto",
+              "texto": "Si la PEMP está <b>averiada</b> dejar un <b>indicador de fuera de servicio</b> y <b>retirar las llaves</b> de contacto depositándolas en el lugar <b>habilitado</b> para ello."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInLeft",
+          "subclase": "centroEstrecho",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Utilizar <b>placas de apoyo</b> de modo que se <b>aumente</b> la superficie de apoyo y <b>disminuya</b> la presión sobre el suelo. <br><br>Hay que tener en cuenta que aumentando 3 veces la superficie de apoyo, disminuye 10 veces la presión que se ejerce en el suelo."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod09/presion.png",
+              "subclase": "paraCambiar",
+              "ancho": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Normas de seguridad al finalizar los trabajos",
+      "fondo": "img/mod09/fondoPEMP.png",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "<b>Al finalizar</b> el uso de la PEMP, se debe de <b>aparcar</b> la misma convenientemente en el lugar habilitado para ello, <b>cerrando todos los contactos y verificando la inmovilización</b>, (calzando las ruedas si es necesario). <br><br>Una vez realizado esto, <b>limpiar la PEMP</b> de grasa, aceites, pintura, etc. <b>con agua</b>,  procurando que no afecte a cables o partes eléctricas del equipo y <b>retirar las llaves</b> de contacto depositándolas en el <b>lugar habilitado</b> para ello; así nos aseguramos que no se utilizará de manera indebida, ni por personal no autorizado.",
+          "animacion": "zoomInUp"
+        }
+      ]
+    },
+    {
+      "titulo": "Otras recomendaciones de seguridad complementarias",
+      "contenido": [
+        {
+          "clase": "acordeon",
+          "animacion": "swing",
+          "contenido": [
+            {
+              "titulo": "APTO MÉDICO",
+              "texto": "Todos los trabajadores que vayan a operar con plataformas elevadoras deberán disponer del <b>APTO médico<b> de vigilancia de la salud, que les faculta para trabajar en altura y de la <b>formación teórico/práctica</b> especificada en la UNE 58923, especialmente en lo relativo a la <b>familiarización del equipo</b> utilizado, según se indica en su parte 1. "
+            },
+            {
+              "titulo": "REGISTROS DE REVISIÓN",
+              "texto": "Según se indica en la UNE 58921 se debe llevar un <b>registro de las revisiones/inspecciones</b> de la PEMP y un <b>mantenimiento preventivo y correctivo</b>. Del mismo modo, cualquier <b>anomalía detectada</b> por el operario que afecte a su seguridad o la del equipo, debe ser <b>comunicada inmediatamente y subsanada</b> antes de continuar los trabajos."
+            },
+            {
+              "titulo": "OPERARIOS EN EL SUELO",
+              "texto": "Cuando se usa una PEMP, el <b>personal situado en el suelo</b>, en especial el recurso preventivo, debe <b>conocer el procedimiento</b> de <b>rescate o bajada de emergencia</b> y de <b>aviso</b> en caso de ocurrir una emergencia. "
+            },
+            {
+              "titulo": "OPERARIOS EN PLATAFORMA",
+              "texto": "Los <b>operarios</b> que se encuentren <b>en la plataforma</b> deben permanecer con los <b>pies apoyados</b> en la misma, y <b>no</b> deben <b>trepar</b> a las barandillas o listones intermedios, ni utilizar <b>elementos auxiliares</b> como escaleras, tablones, andamios, etc. sobre la plataforma, <b>para ganar altura</b>. Tanto la plataforma como los operarios de la misma, <b>no deben sujetarse a estructuras fijas</b>,  aunque existe la falsa creencia de que anclándose a estructuras fuera de la plataforma se evita el riesgo de caída en caso de vuelco, se recomienda <b>anclarse a un punto seguro de la plataforma diseñado al efecto</b>."
+            },
+            {
+              "titulo": "USO SEGURO",
+              "texto": "<b>En ningún caso</b> se debe <b>sobrecargar</b> la plataforma, <b>añadir</b> en ella elementos que <b>aumenten la carga debida al viento</b> tales como  paneles publicitarios, <b>utilizarla como grúa</b> o <b>subir y bajar de ella estando elevada</b>, utilizando dispositivos de elevación o cualquier otro sistema de acceso.<br><br>Los <b>mandos</b> de la PEMP deben <b>utilizarse con suavidad</b>, sin brusquedades, y esta norma se aplica en general a todos los movimientos de la máquina que deben realizarse sin brusquedades y garantizando la seguridad de trabajadores y demás personal cercano. Cuando se <b>desciende de la rampa</b> de un camión, por ejemplo, debe también hacerse  de <b>manera segura</b> evitando un golpe con el suelo o un efecto catapulta; siempre que se <b>baja o mueve la PEMP</b>, se debe verificar que <b>no existen personas u obstáculos</b> en zonas adyacentes y en los <b>trabajos de poda</b> debe <b>delimitarse la vertical</b> de la zona de trabajo y situar <b>otro operario</b> que <b>evite</b> que <b>otras personas puedan acceder</b> a la zona de riesgo. "
+            },
+            {
+              "titulo": "DISPOSITIVOS DE SEGURIDAD",
+              "texto": "<b>No</b> se deben <b>modificar ni neutralizar</b> los <b>dispositivos de seguridad</b> de la PEMP, pues afectan a su seguridad y estabilidad ni, en general, hacer <b>modificaciones de cualquier</b> tipo en todo el conjunto de las PEMP. "
+            },
+            {
+              "titulo": "ALIMENTACION DE LAS PEMP",
+              "texto": "Con respecto a la alimentación de las PEMP, las <b>baterías</b> deben <b>cargarse en zonas abiertas</b>, bien <b>ventiladas</b> y lejos de posibles llamas, chispas, fuegos y con prohibición de fumar (emisión de hidrógeno). Del mismo modo, se debe <b>evitar</b> el uso de <b>motores de combustión interna en interiores</b>, salvo que cuenten con ventilación suficiente para evitar los humos tóxicos y el <b>relleno de los depósitos</b> de combustible con el <b>motor en marcha</b> en las PEMP de motor de combustión."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Normas para el transporte",
+      "contenido": [
+        {
+          "clase": "lista",
+          "subclase": "anillas vertical",
+          "animacion": "zoomInUp",
+          "contenido": [
+            {
+              "punto": "Antes de <b>desplazar la PEMP por vía pública</b>, hemos de asegurarnos que tenemos el <b>permiso de conducción</b> y todos los requisitos para ello, <b>seguros</b>, etc. ya que en el desplazamiento por vía pública está sujeta a las <b>normas de tráfico</b> del lugar en el que esté."
+            },
+            {
+              "punto": "En un viaje por carretera con una <b>PEMP montada sobre camión</b>, hemos de asegurarnos que <b>conocemos la altura y anchura</b> de la máquina, tanto para la contratación del vehículo como para los gálibos. Estos valores deberán estar <b>indicados en la cabina</b> de la PEMP."
+            },
+            {
+              "punto": "Si la máquina está equipada con <b>estabilizadores, o ejes extensibles</b>, comprobar que estén totalmente <b>retraídos y bloqueados</b>. Si procede, se habrá de comprobar también que el <b>bloqueo de rotación</b> esté <b>accionado</b>."
+            },
+            {
+              "punto": "Durante la <b>carga y descarga de la máquina</b>, se deberán utilizar las <b>rampas del camión</b>, que deberán estar <b>posicionadas correctamente</b>. El uso del <b>cabestrante</b> se recomienda en según que vehículos, por ello es fundamental, comprobar las <b>instrucciones de la máquina</b> en cuanto a su transporte."
+            },
+            {
+              "punto": "Una PEMP autopropulsada, no debe ser remolcada, ni utilizada para remolcar, a menos que esté específicamente diseñada y equipada para ello."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Sistemas de seguridad y rescate (I)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Caso que el <b>OPERADOR</b> de la plataforma resultara <b>INCAPACITADO</b> por algún motivo, se debe proceder a su <b>RESCATE</b>. La <b>SECUENCIA</b> debe ser la siguiente:"
+        },
+        {
+          "clase": "diagrama",
+          "cajas": [
+            {
+              "id": 1,
+              "forma": "rect",
+              "texto": "El operador pierde el control de la situación",
+              "ancho": 150,
+              "alto": 450,
+              "x": 1,
+              "y": 1,
+              "relleno": "#71AA00",
+              "borde": "#000000",
+              "anchoBorde": 3,
+              "orden": 1
+            },
+            {
+              "id": 2,
+              "forma": "rect",
+              "texto": "<h4>Acompañado en la cesta por un compañero familiarizado con la máquina</h4>",
+              "ancho": 200,
+              "alto": 200,
+              "x": 350,
+              "y": 1,
+              "relleno": "#E0FFA1",
+              "borde": "#000000",
+              "anchoBorde": 3,
+              "orden": 3
+            },
+            {
+              "id": 3,
+              "forma": "rect",
+              "texto": "El compañero asume el control de la máquina mediante el panel de control de la cesta.",
+              "ancho": 300,
+              "alto": 150,
+              "x": 750,
+              "y": 25,
+              "relleno": "#ffffff",
+              "borde": "#ffffff",
+              "anchoBorde": 3,
+              "orden": 5
+            },
+            {
+              "id": 4,
+              "forma": "rect",
+              "texto": "No acompañado en la cesta",
+              "ancho": 200,
+              "alto": 200,
+              "x": 350,
+              "y": 250,
+              "relleno": "#E0FFA1",
+              "borde": "#000000",
+              "anchoBorde": 3,
+              "orden": 7
+            },
+            {
+              "id": 5,
+              "forma": "rect",
+              "texto": "Alguien a nivel de suelo, igualmente familiarizado con la máquina, formado y autorizado para el uso, descenderá la PEMP.",
+              "ancho": 300,
+              "alto": 150,
+              "x": 750,
+              "y": 275,
+              "relleno": "#ffffff",
+              "borde": "#ffffff",
+              "anchoBorde": 3,
+              "orden": 9
+            }
+          ],
+          "enlaces": [
+            {
+              "origen": 1,
+              "destino": 2,
+              "color": "#000000",
+              "orden": 2
+            },
+            {
+              "origen": 2,
+              "destino": 3,
+              "color": "#000000",
+              "orden": 4
+            },
+            {
+              "origen": 1,
+              "destino": 4,
+              "color": "#000000",
+              "orden": 6
+            },
+            {
+              "origen": 4,
+              "destino": 5,
+              "color": "#000000",
+              "orden": 8
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Sistemas de seguridad y rescate (II)",
+      "contenido": [
+        {
+          "clase": "tabla",
+          "subclase": "separada flex-start",
+          "animacion": "flip",
+          "filaTitulos": [
+            {
+              "titulo": "Descenso de la plataforma"
+            },
+            {
+              "titulo": "Llave de mando a nivel del suelo"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "Examine el recorrido</b> de descenso por si hay algún obstáculo que impida la bajada o con el que se pueda chocar. <br><br>Es posible que el mando de suelo no tenga la misma sensibilidad ni limitaciones que el de la plataforma. Use los mandos que ofrezcan mejor control de movimiento y proceda con cuidado si existe algún obstáculo cercano. En la medida de lo posible, la secuencia a seguir sería:  <b>movimiento telescópico</b>, <b>elevación/giro</b>, <b>traslación</b>."
+                },
+                {
+                  "texto": "Es importante asegurarse que las llaves permanecen <b>en la unidad base</b> durante el funcionamiento normal, ya que con los mandos de suelo, se puede hacer descender la plataforma mucho más rápido que con los mandos de emergencia.<br><br>En las situaciones que no sea conveniente tener la llave en la base, por ejemplo al trabajar en la vía pública, se recomienda que una <b>persona autorizada</b> a intervenir en caso de emergencia posea <b>una segunda llave</b> para emergencias."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Equipos de protección individual",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "rotateInDownLeft",
+          "texto": "El operador deberá estar equipado en todo momento con los <b>EPIs</b> correspondientes que deben responder a la <b>evaluación de riesgos previamente realizada</b> y que, por tanto, <b>variarán de una a otra tarea</b>."
+        },
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroEstrecho",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Para realizar la elección de los mismos, deberá <b>plantearse</b> lo siguiente:",
+              "animacion": "bounceInLeft",
+              "contenido": [
+                {
+                  "punto": "<b>Tipo de PEMP</b> elegida."
+                },
+                {
+                  "punto": "Tiene la PEMP <b>punto de anclaje para arnés</b>."
+                },
+                {
+                  "punto": "<b>Tipo de trabajo</b> a realizar."
+                },
+                {
+                  "punto": "<b>Recomendaciones del fabricante</b> de la PEMP elegida."
+                },
+                {
+                  "punto": "Existencia de un <b>plan de rescate</b>."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod09/epis.jpg",
+              "ancho": 250,
+              "animacion": "rotateIn"
+            }
+          ]
+        },
+
+        {
+          "clase": "texto",
+          "animacion": "slideInUp",
+          "texto": "Tras haber <b>elegido el equipo, el arnés y el sistema de retención</b> adecuado (dampa y mosquetón), el trabajador ha de saber <b>cómo utilizarlos</b>. El <b>equipo de retención</b>, debe <b>engancharse siempre al punto de anclaje proporcionado por el fabricante</b> y nunca la barandilla ni a otro punto fuera de la plataforma.<br><br>En las <b>plataformas de brazo</b>, se recomienda el uso de <b>arnés con dampa ajustable</b> parar limitar el área de trabajo, el arnés deberá estar perfectamente ajustado. En las <b>plataformas verticales o de tijera</b>, normalmente <b>no es necesario</b> que el personal utilice <b>equipos anticaídas</b>, exceptuando <b>casos puntuales</b> que estén reflejados en la evaluación de riesgos."
+        }
+      ]
+    },
+    {
+      "titulo": "Resumen (I)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "rotateInDownLeft",
+          "texto": "Lo primero y más importante antes de utilizar una plataforma es <b>leer el manual del fabricante</b>. <b>Cuando utilizamos una PEMP ...</b> "
+        },
+        {
+          "clase": "tabla",
+          "subclase": "separada",
+          "animacion": "rubberBand",
+          "filaTitulos": [
+            {
+              "titulo": "<h3>NO SE DEBE</h3>"
+            },
+            {
+              "titulo": "<h3>SE DEBE</h3>"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<ul><li>Utilizar la máquina con <b>vientos de velocidad superior</b> a la máxima indicada por el fabricante del equipo.</li><li><b>Accionar o elevar la plataforma</b> si se encuentra <b>sobre un vehículo</b> para su transporte.</li><li>Utilizar la máquina <b>fuera del rango de temperaturas</b> indicado por el fabricante.</li></ul> "
+                },
+                {
+                  "texto": "<ul><li>Utilizar los <b>equipos de protección individual</b> indicados por el fabricante o que se establezcan como <b>obligatorios</b> a raíz de la <b>evaluación de riesgos.</b></li><li><b>Subir a la plataforma</b> siguiendo la técnica de los <b>\"Tres puntos de contacto\"</b> y <b>mirando hacia la máquina</b>. </li></ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion picos",
+          "animacion": "flash",
+          "texto": "La Técnica <b>\"Tres puntos de contacto\"</b> consiste en que, al entrar o salir de la plataforma, deben <b>permanecer en contacto permanente</b> con la máquina <b>dos manos y un pie</b> o bien <b>una mano y dos pies</b>."
+        }
+      ]
+    },
+    {
+      "titulo": "Resumen (II)",
+      "fondo": "img/mod09/fondoResumen.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "rubberBand",
+          "texto": "<h2>Existen normas de seguridad ...<h2>"
+        },
+        {
+          "clase": "tabla",
+          "animacion": "slideInLeft",
+          "subclase": "separada",
+          "filaTitulos": [
+            {
+              "titulo": "<h3>DURANTE LA UTILIZACIÓN</h3>"
+            },
+            {
+              "titulo": "<h3>DURANTE EL TRANSPORTE<h3>"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<ul><li>Previas a la puesta en marcha de la plataforma.</li><li>Previas a la elevación de la plataforma.</li><li>De movimiento del equipo con la plataforma elevada.</li><li>Después del uso de la plataforma.</li></ul> "
+                },
+                {
+                  "texto": "La máquina está sujeta a las normas de tráfico."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Resumen (III)",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroAncho flex-start",
+          "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "anillas",
+          "animacion": "rotateInDownLeft",
+          "texto": "Sobre los EPI:<br><br>El <b>equipo de retención</b>, deben </b>engancharse siempre al punto de anclaje proporcionado por el fabricante</b> y nunca la barandilla ni a otro punto fuera de la plataforma.<br><br>En las <b>plataformas de brazo</b>, se recomienda el <b>uso de arnés con dampa ajustable</b> parar limitar el área de trabajo, el arnés deberá estar perfectamente ajustado.<br><br>En las <b>plataformas verticales o de tijera</b>, normalmente <b>no es necesario</b> que el personal utilice equipos anticaídas, exceptuando casos puntuales que estén reflejados en la evaluación de riesgos."
+        },
+        {
+          "clase": "texto",
+          "subclase": "anillas",
+          "animacion": "rotateInDownRight",
+          "texto": "Sobre el RESCATE</b>:<br><br><b>Descender la plataforma</b>. <b>Examine el recorrido de descenso</b> por si hay algún obstáculo que impida la bajada o con el que se pueda chocar.<br><br>Es posible que el mando de suelo no tenga la misma sensibilidad ni limitaciones que el de la plataforma. Use los <b>mandos</b> que ofrezcan <b>mejor control de movimiento y proceda con cuidado</b> si existe algún obstáculo cercano. En la medida de lo posible, la secuencia a seguir sería: <b>movimiento telescópico</b>, <b>elevación/giro</b>, <b>traslación</b>.<br><br>Es importante asegurarse que las llaves <b>permanecen en la unidad base</b> durante el funcionamiento normal, ya que con los mandos de suelo se puede hacer descender la plataforma mucho más rápido que con los mandos de emergencia. "
+        }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "La secuencia a seguir durante un rescate es:",
+              "respuestas": [
+                {
+                  "opcion": "Traslación-giro/elevación-movimiento telescópico",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Movimiento telescópico-elevación/giro-traslación",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Elevación/giro-movimiento telescópio-traslación",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "Lo primero que se debe hacer antes de utilizar la PEMP es:",
+              "respuestas": [
+                {
+                  "opcion": "Mirar los mandos",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Cargar la plataforma",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Leer el manual ",
+                  "correcto": "true"
+                }
+              ]
+            },
+            {
+              "texto": "Durante el uso de la máquina, no se debe:",
+              "respuestas": [
+                {
+                  "opcion": "Accionar o elevar la plataforma si se encuentra sobre un vehículo para su transporte. ",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Utilizar los equipos de protección individual indicados por el fabricante o que se establezcan como obligatorios a raíz de la evaluación de riesgos. ",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Subir a la plataforma siguiendo la técnica de los “Tres puntos de contacto” y mirando hacia la máquina ",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "Antes  de subir a la plataforma hemos de asegurarnos de:",
+              "respuestas": [
+                {
+                  "opcion": "Los controles de operación y emergencia se encuentran operativos",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Tenemos el EPI anticaídas",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Las otras dos son correctas",
+                  "correcto": "true"
+                }
+              ]
+            },
+            {
+              "texto": "Durante el trabajo, los operarios han de mantenerse siempre dentro de la cesta y con los pies en el suelo, nunca encaramarse a las barandillas.",
+              "respuestas": [
+                {
+                  "opcion": "Cierto",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Falso",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "La siguiente señal: <br><img src='img/mod09/PEMPfueraDeServicio.png' width=100>",
+              "respuestas": [
+                {
+                  "opcion": "Debemos colocarla si detectamos una posible avería en nuestra máquina",
+                  "correcto": "true"
+                },
+                {
+                  "opcion": "Prohíbe el uso de herramientas mecánicas en su interior",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Las otras dos son ciertas",
+                  "correcto": "false"
+                }
+              ]
+            },
+            {
+              "texto": "Una vez hemos terminado el trabajo:",
+              "respuestas": [
+                {
+                  "opcion": "Cerrar todos los contactos y verificar la inmovilización, calzando las ruedas si es necesario. ",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Retirar las llaves de contacto depositándolas en el lugar habilitado para ello, así nos aseguramos que no se utilizara de manera indebida, ni por personal no autorizado.",
+                  "correcto": "false"
+                },
+                {
+                  "opcion": "Las otras dos son correctas",
+                  "correcto": "true"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Bueno, bueno ... hemos <b>visto</b> muchas normas ¿verdad?. Quizás te <b>preguntes</b> si es necesaria tanta norma y tanta <b>precaución</b> sabiendo como sabes que las PEMPs son el medio más <b>seguro</b> y eficaz de acceder temporalmente a puntos de trabajo en altura ...<br><br>Te invito a <b>\"adentrarte\"</b> en el siguiente capítulo, en el que verás los principales riesgos asociados al uso de las PEMP y ... ¡Ya me contarás!"
+            },
+            {
+              "clase": "imagen",
+              "animacion": "fadeInRight",
+              "subclase": "paraCambiar",
+              "pie": "Aqui el muñeco de siempre vendado",
+              "imagen": "img/mod09/hombreVendado.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

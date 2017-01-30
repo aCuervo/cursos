@@ -3,7 +3,7 @@
   "imagenEncabezado": "img/comunes/logo.svg",
   "contenido": [
     {
-      "fondo": "img/muestra/portada.svg",
+      "fondo": "img/comunes/portada.svg",
       "subclase": "portada",
       "titulo": "Portada"
     },
@@ -41,9 +41,8 @@
             },
             {
               "titulo": "Certificaciones",
-              "imagen": "img/muestra/sepe.svg",
               "texto": "<br><br><p>Estamos acreditados por el SEPE (Servicio Público Estatal de Empleo) y OSALAN (Instituto Vasco de Seguridad y Salud Laborales) para impartir diferentes certificados de profesionalidad y PRL básico.</p><br>",
-              "imagen": "img/muestra/osalan.png",
+              "imagen": "img/muestra/osalan.svg",
               "ancho": 350
             },
             {
@@ -183,27 +182,27 @@
           "subclase": "semi",
           "contenido": [
             {
-              "imagen": "http://lorempixel.com/200/200/animals",
+              "imagen": "img/muestra/ahorro.svg",
               "titulo": "Ahorro responsable",
               "texto": "Sin gastos de desplazamiento, fomentando el ahorro en papel y materiales didácticos, y permitiéndote tomar el aperitivo en casa."
             },
             {
-              "imagen": "http://lorempixel.com/200/200/animals",
+              "imagen": "img/muestra/aldia.svg",
               "titulo": "Siempre al día",
               "texto": "Contenidos editables, permitiendo actualizarlos durante el transcurso de la acción formativa o a petición de los participantes."
             },
             {
-              "imagen": "http://lorempixel.com/200/200/animals",
+              "imagen": "img/muestra/tutorias.svg",
               "titulo": "Tutorías constantes",
               "texto": "Seguimiento personalizado e interactivo fomentando la participación a través de foros y chats, y asentando tus conocimientos mediante autoevaluaciones."
             },
             {
-              "imagen": "http://lorempixel.com/200/200/animals",
+              "imagen": "img/muestra/horarios.svg",
               "titulo": "Sin horarios",
               "texto": "Adaptable a los horarios de la vida diaria. Solo necesitas un dispositivo conectado a internet para realizar las actividades en el momento más conveniente."
             },
             {
-              "imagen": "http://lorempixel.com/200/200/animals",
+              "imagen": "img/muestra/barrera.svg",
               "titulo": "Sin barreras",
               "texto": "Accesible desde cualquier lugar y para cualquier persona, beneficiando especialmente aquellas con alguna minusvalía o discapacidad."
             }
@@ -256,11 +255,11 @@
           "clase": "texto",
           "animacion": "swing",
           "subclase": "recuadro",
-          "texto": "Estas son algunas de las razones por las que nuestros cursos tienen tanto exito:"
+          "texto": "<center>Estas son algunas de las razones por las que nuestros cursos tienen tanto exito:</center>"
         },
-        {
-          "clase": "imagen",
-          "imagen": "img/muestra/separador.svg"
+                {
+          "clase": "texto",
+          "texto": "<br><center><video width='400' controls><source src='vid/Lafuente.mp4' type='video/mp4'>Your browser does not support HTML5 video.</video></center><br>"
         },
         {
           "clase": "lista",
@@ -268,7 +267,7 @@
           "subclase": "objetivos",
           "contenido": [
             {
-              "punto": "Realizados por profesionales altamente cualificados."
+              "punto": "Posibilidad de <b>contenidos audiovisuales</b> ilustrativos."
             },
             {
               "punto": "Flexibilidad en duracion y contenido."
@@ -277,14 +276,11 @@
               "punto": "Adaptables a las necesidades de tu empresa."
             },
             {
-              "punto": "Posibilidad de <b>contenidos audiovisuales</b> ilustrativos."
+              "punto": "Realizados por profesionales altamente cualificados."
             }
           ]
-        },
-        {
-          "clase": "texto",
-          "texto": "<center><video width='400' controls><source src='vid/Lafuente.mp4' type='video/mp4'>Your browser does not support HTML5 video.</video></center>"
         }
+
       ]
     },
 
@@ -308,8 +304,8 @@
         },
         {
           "clase": "texto",
-          "subclase": "instruccion",
-          "texto": "Arrastra cada producto al lugar más adecuado"
+          "subclase": "recuadro",
+          "texto": "<center>Arrastra cada producto al lugar más adecuado</center>"
         },
         {
           "clase": "listaObjetos",
@@ -365,7 +361,7 @@
                   "data_caja": 1
                 }
               ],
-              "solucion": "img/muestra/solucion.png"
+              "solucion": "img/muestra/solucion.svg"
             }
           ]
         }
@@ -427,37 +423,37 @@
             {
               "clase": "imagen",
               "subclase": "rotarDch",
-              "imagen": "img/muestra/fotografia.jpg",
+              "imagen": "img/muestra/fotografia.svg",
               "ancho": 250
             },
             {
               "clase": "imagen",
               "subclase": "rotarIzq",
-              "imagen": "img/muestra/soldadura.jpg",
+              "imagen": "img/muestra/soldadura.svg",
               "ancho": 250
             },
             {
               "clase": "imagen",
               "subclase": "rotarDch",
-              "imagen": "img/muestra/electricidad.jpg",
+              "imagen": "img/muestra/electricidad.svg",
               "ancho": 250
             },
             {
               "clase": "imagen",
               "subclase": "rotarIzq",
-              "imagen": "img/muestra/buceo.jpg",
+              "imagen": "img/muestra/buceo.svg",
               "ancho": 250
             },
             {
               "clase": "imagen",
               "subclase": "rotarDch",
-              "imagen": "img/muestra/jardineria.jpg",
+              "imagen": "img/muestra/jardineria.svg",
               "ancho": 250
             },
             {
               "clase": "imagen",
               "subclase": "rotarIzq",
-              "imagen": "img/muestra/astronauta.jpg",
+              "imagen": "img/muestra/astronauta.svg",
               "ancho": 250
             }
           ]
@@ -789,8 +785,8 @@
         {
           "clase": "texto",
           "animacion": "flash",
-          "subclase": "instruccion",
-          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+          "subclase": "recuadro",
+          "texto": "<center>Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado.</center>"
         },
         {
           "clase": "autoevalPreguntas",
@@ -877,7 +873,7 @@
     {
       "titulo": "¡Hasta pronto!",
       "subclase": "portada",
-      "fondo": "img/muestra/contraportada.svg"
+      "fondo": "img/comunes/contraportada.svg"
     }
   ]
 }
