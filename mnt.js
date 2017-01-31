@@ -659,6 +659,11 @@ function cargarLista(div, elemento) {
     var ulLista = document.createElement("UL");
     ulLista.className = 'ulLista';
 
+    //F. pongo propiedad opacidad en las listas
+    if (elemento.opacidad) {
+        div.style.backgroundColor = "rgba(255, 255, 255," + elemento.opacidad + ")";
+    }
+
     if (elemento.titulo) {
         var spanTitulo = document.createElement("SPAN");
         spanTitulo.innerHTML = elemento.titulo;

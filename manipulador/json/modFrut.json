@@ -330,7 +330,7 @@
           "clase": "texto",
           "texto": "La composición química va a conferir a cada fruta un aroma y un sabor únicos. Pero también va a influir sobre el propio color que presentan frutas y hortalizas.<br><br>El color que presenten puede darnos una idea de su composición química. Tenemos así:"
         },
-                {
+        {
           "clase": "sliderB",
           "contenido": [
             {
@@ -352,7 +352,7 @@
               "imagen": "img/modFru/mediaCebolla.jpg",
               "ancho": 600
             },
-             {
+            {
               "titulo": "Color <b>rojo, morado/azul</b>",
               "texto": "Al igual que frutas y hortalizas de color naranja, poseen carotenos, de los cuales hemos visto sus efectos beneficiosos, pero además, frutas y hortalizas de color rojo intenso/morado son ricas en flavonoides que son compuestos con propiedades antioxidantes que protegen contra la oxidación de vitaminas, enzimas y hormonas. A estos compuestos se les suma otro de color rojo intenso (licopeno) de idéntico efecto. Todos ellos contribuyen a la salud de la memoria y  son compuestos muy beneficiosos para la salud cardiovascular, ya que ayudan a prevenir la hipertensión por sus propiedades vasodilatadoras y reduciendo la formación de placas de colesterol en las arterias.<br>Se incluyen en este grupo: berenjenas, lombardas, ciruelas, uvas tintas, arándanos, moras, tomates, pimientos rojos, rábanos, fresas, frambuesas, cerezas, etc.",
               "imagen": "img/modFru/berries.jpg",
@@ -363,20 +363,82 @@
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "texto": "<b>¿Sabías qué...</b> fresas y kiwis tienen mayor contenido en vitamina C que las naranjas?"
+          "texto": "<b>¿Sabías qué...</b><br>fresas y kiwis tienen mayor contenido en vitamina C que las naranjas?"
         }
       ]
     },
     {
-      "titulo": "Maduración de las frutas",
+      "titulo": "Desarrollo de frutas y hortalizas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+
+                {
+                  "clase": "texto",
+                  "texto": "La vida de frutas y hortalizas se puede dividir en tres etapas fundamentales:"
+                },
+                {
+                  "clase": "acordeon",
+                  "contenido": [
+                    {
+                      "titulo": "Etapa de desarrollo y crecimiento",
+                      "texto": "Durante esta etapa se produce el aumento de volumen hasta alcanzar el tamaño final.",
+                      "imagen": "img/modFru/apple.jpg",
+                      "ancho": 300
+                    },
+                    {
+                      "titulo": "Maduración",
+                      "texto": "Conjunto de procesos de desarrolllo y cambios cuya consecuencia es la adquisición de las características físico-químicas propias.",
+                      "imagen": "img/modFru/maduracion.jpg",
+                      "ancho": 300
+                    },
+                    {
+                      "titulo": "Senescencia",
+                      "texto": "Proceso de envejecimiento de las células de los tejidos, lo que lleva a la muerte del producto.",
+                      "imagen": "img/modFru/senescencia.jpg",
+                      "ancho": 300
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/oranges.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Frutas y hortalizas son estructuras vivas que  después de la recolección, siguen desarrollando procesos metabólicos y mantienen sus sistemas fisiológicos funcionando (respiración, transpiración, etc).<br>Cuando están unidas a la planta, cualquier pérdida de nutrientes o de agua se compensa por el flujo de savia, pero tras la recolección ya no existe ese aporte, así que cuando estas reservas de agua y nutrientes decaen o se agotan, la estructura vegetal colapsa. Por este motivo los vegetales son productos perecederos."
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías qué...</b><br>no se debe mantener la fruta en bolsas o envases de plástico, ya que éstos retienen la humedad y el calor que libera la fruta, lo que provoca su enmohecimiento, deterioro y pudrición?"
+        }
+      ]
+    },
+    {
+      "titulo": "Maduración",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Frutas y hortalizas son estructuras vivas que  después de la recolección, siguen desarrollando procesos metabólicos y mantienen sus sistemas fisiológicos funcionando (respiración, transpiración, etc).<br>Cuando están unidas a la planta, cualquier pérdida de nutrientes o de agua se compensa por el flujo de savia, pero tras la recolección ya no existe ese aporte, así que cuando estas reservas de agua y nutrientes decaen o se agotan, la estructura vegetal colapsa. Por este motivo los vegetales son productos perecederos.<br>La maduración de las frutas está ligada a una serie de complejas transformaciones de su composición química.<br>Cuando se recolectan las frutas, sus tejidos siguen activos y <b>respiran</b>. Estos procesos tienen gran importancia porque influyen en los cambios que se producen durante el almacenamiento, transporte y comercialización de las frutas."
+          "texto": "La maduración de las frutas está ligada a una serie de complejas transformaciones de su composición química.<br>Cuando se recolectan las frutas, sus tejidos siguen activos y <b>respiran</b>. Estos procesos tienen gran importancia porque influyen en los cambios que se producen durante el almacenamiento, transporte y comercialización de las frutas."
         },
         {
           "clase": "listaObjetos",
           "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/frutaverde.jpg",
+              "ancho": 250
+            },
             {
               "clase": "lista",
               "titulo": "Durante la maduración, se producen unos cambios esenciales:",
@@ -390,77 +452,75 @@
               ]
             },
             {
-              "clase": "listaObjetos",
-              "subclase": "columna",
-              "contenido": [
-                {
-                  "clase": "imagen",
-                  "imagen": "img/modFru/frutaverde.jpg",
-                  "ancho": 250
-                },
-                {
-                  "clase": "imagen",
-                  "imagen": "img/modFru/frutanaranja.jpg",
-                  "ancho": 250
-                }
-              ]
+
+              "clase": "imagen",
+              "imagen": "img/modFru/frutanaranja.jpg",
+              "ancho": 250
             }
           ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/modFru/manzanaCorte.png",
+          "ancho": 400
+        },
+
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías qué...</b><br>podemos acelerar la maduración de las frutas si las envolvemos en papel de periódico ya que así se retiene el etileno que va liberando y lo mismo sucede con las frutas verdes si las guardamos junto a frutas –climatéricas- maduras, ya que éstas liberan mucho etileno?"
         }
+
+
+
       ]
     },
     {
-      "titulo": "Respiración",
+      "titulo": "Maduración: Cambios en la respiración",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "<b>Respiración:</b><br><br>Mientras la fruta se está desarrollando la respiración va aumentando, hasta llegar a un punto en el que empieza a disminuir lentamente. A partir de este punto si la intensidad respiratoria:<br><br>Aumenta, de repente, hasta alcanzar un valor máximo (punto climatérico) hablamos de frutas climatéricas. En ese punto la fruta llega a su estado de maduración y a partir del mismo la intensidad respiratoria vuelve a descender hasta la muerte de todas las células de la fruta. Son frutas que pueden seguir madurando aunque se hayan recolectado. Así, se recolectan  antes de que estén maduras porque aguantan mucho mejor el transporte y el almacenamiento. Son ejemplo de este tipo de frutas: plátano, pera, manzana."
+          "texto": "<b>Respiración:</b><br><br>Mientras la fruta se está desarrollando la respiración va aumentando, hasta llegar a un punto en el que empieza a disminuir lentamente. A partir de este punto si la intensidad respiratoria:<br><br>"
         },
         {
-          "clase": "listaObjetos",
+          "clase": "acordeon",
           "contenido": [
             {
-              "clase": "imagen",
-              "imagen": "img/modFru/graficoMaduracion.png"
+              "titulo": "Aumenta",
+              "texto": "Aumenta, de repente, hasta alcanzar un valor máximo (punto climatérico) hablamos de frutas climatéricas. En ese punto la fruta llega a su estado de maduración y a partir del mismo la intensidad respiratoria vuelve a descender hasta la muerte de todas las células de la fruta. Son frutas que pueden seguir madurando aunque se hayan recolectado. Así, se recolectan  antes de que estén maduras porque aguantan mucho mejor el transporte y el almacenamiento. Son ejemplo de este tipo de frutas: plátano, pera, manzana.",
+              "imagen": "img/modFru/graficoMaduracion.png",
+              "ancho": 500
             },
             {
-              "clase": "imagen",
-              "imagen": "img/modFru/pilaManzanas.jpg",
-              "ancho": 250
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "Sigue disminuyendo hasta que todas las células se mueren. Son frutas no climatéricas y no sufren transformaciones importantes una vez se han recolectado, por lo que deben dejarse madurar en la planta.  Por eso estas frutas no se venden si no está maduras, ya que no son capaces de madurar una vez recolectadas. Por ejemplo: fresas, uvas, cítricos."
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/graficoNoclimaterico.png"
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/uvitas.jpg",
-              "ancho": 250
+              "titulo": "Sigue disminuyendo",
+              "texto": "Sigue disminuyendo hasta que todas las células se mueren. Son frutas no climatéricas y no sufren transformaciones importantes una vez se han recolectado, por lo que deben dejarse madurar en la planta.  Por eso estas frutas no se venden si no está maduras, ya que no son capaces de madurar una vez recolectadas. Por ejemplo: fresas, uvas, cítricos.",
+              "imagen": "img/modFru/graficoNoclimaterico.png",
+              "ancho": 500
             }
           ]
         },
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "texto": "La temperatura influye directamente sobre la respiración de la fruta, de tal forma que a mayor temperatura mayor es la velocidad de respiración? Por eso si se mantiene baja la temperatura, se disminuye la respiración del producto y se ayuda a prolongar su vida útil."
+          "texto": "<b>¿Sabías qué...</b><br>la temperatura influye directamente sobre la respiración de la fruta, de tal forma que a mayor temperatura mayor es la velocidad de respiración? Por eso si se mantiene baja la temperatura, se disminuye la respiración del producto y se ayuda a prolongar su vida útil?"
         }
       ]
     },
     {
-      "titulo": "Maduración de las frutas II",
+      "titulo": "Maduración: Cambios en la composición química",
+      "fondo": "img/modFru/strawberryPlant.jpg",
       "contenido": [
         {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.7,
+          "texto": "Cambios en la composición química:<br>La mayoría de los componentes de la fruta se transforman, lo que conlleva cambios en el color, olor, sabor y textura de la fruta.<br>El fruto verde, está compuesto principalmente por agua, clorofila, almidón, celulosas y ácidos. Esto hace que tenga color verde, una textura dura y el sabor sea insípido o ácido."
+        },
+        {
           "clase": "lista",
-          "titulo": "Cambios en la composición química:<br><br>La mayoría de los componentes de la fruta se transforman, lo que conlleva cambios en el color, olor, sabor y textura de la fruta.<br>El fruto verde, está compuesto principalmente por agua, clorofila, almidón, celulosas y ácidos. Esto hace que tenga color verde, una textura dura y el sabor sea insípido o ácido. Con la maduración:<br>",
+          "subclase": "recuadro",
+          "opacidad": 0.7,
+          "titulo": "Con la maduración:",
           "contenido": [
             {
               "punto": "El almidón se transforma en azúcares sencillos, lo que hace que el sabor sea más dulce."
@@ -478,28 +538,12 @@
               "punto": "Se aumenta la concentración de etileno (hormona vegetal), compuesto gaseoso que inicia y acelera la maduración."
             }
           ]
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/modFru/manzanaCorte.png"
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "Podemos acelerar la maduración de las frutas si las envolvemos en papel de periódico ya que así se retiene el etileno que va liberando y lo mismo sucede con las frutas verdes si las guardamos junto a frutas –climatéricas- maduras, ya que éstas liberan mucho etileno?"
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "No se debe mantener la fruta en bolsas o envases de plástico, ya que éstos retienen la humedad y el calor que libera la fruta, lo que provoca su enmohecimiento, deterioro y pudrición?"
         }
       ]
     },
     {
       "titulo": "Envejecimiento de las frutas",
       "contenido": [
-
-
         {
           "clase": "listaObjetos",
           "contenido": [
@@ -517,8 +561,7 @@
             },
             {
               "clase": "imagen",
-              "imagen": "img/modFru/manzanas1.jpg",
-              "ancho": 300
+              "imagen": "img/modFru/manzanas3.jpg"
             }
           ]
         },
@@ -527,15 +570,74 @@
           "contenido": [
             {
               "clase": "imagen",
-              "imagen": "img/modFru/manzanas3.jpg",
-              "ancho": 400
+              "imagen": "img/modFru/banana1.png"
             },
             {
               "clase": "imagen",
-              "imagen": "img/modFru/manzanas2.jpg",
-              "ancho": 300
+              "imagen": "img/modFru/banana2.png"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/banana3.jpg"
             }
           ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías qué...</b><br>los tomates fueron considerados tóxicos cuando llegaron por primera vez a Europa? Algo parecido sucedió con los pepinos, en los que hubo un momento que se consideraron  venenosos por lo que se les rascaba la piel para “eliminar” el veneno."
+        }
+      ]
+    },
+    {
+      "titulo": "Deterioro",
+      "fondo": "img/modFru/fruitsFondo.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "No existe gran diferencia entre frutas y hortalizas a la hora de sufrir alteraciones.<br><center>El deterioro puede producirse por:</center>"
+        },
+        {
+          "clase": "tabs",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Heridas, golpes",
+              "texto": "Heridas, golpes y zonas machacadas provocadas durante su  recolección, transporte y almacenamiento. Estas zonas son más sensibles al ataque de microorganismos, que originarán olores y sabores desagradables.",
+              "imagen": "img/modFru/golpes.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Insectos",
+              "texto": "Lesiones y daños causadas por insectos y orugas. Provocan graves modificaciones (principalmente del aspecto y características organolépticas) que las hacen inaceptables comercialmente. Estas lesiones favorecen, además, el ataque de microorganismos.",
+              "imagen": "img/modFru/caracol.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Microorganismos",
+              "texto": "Además de las zonas dañadas, muchas frutas y hortalizas pueden ser atacadas por microorganismos, lo que les conferirán olores y sabores desagradables. La composición química de frutas y hortalizas las hace menos sensibles al ataque de bacterias (provocan manchas, podredumbres…) pero por el contrario favorece el ataque por hongos (levaduras y mohos), siendo éstos los principales causantes de podredumbres o enmohecimientos.",
+              "imagen": "img/modFru/chungas.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Envejecimiento",
+              "texto": "Se adquiere una textura blanda y se hacen muy sensibles a alteraciones microbiológicas (podredumbres) y alteraciones internas.",
+              "imagen": "img/modFru/stillif.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Almacenamiento incorrecto",
+              "texto": "1. Si la temperatura es demasiado baja pueden producirse coloraciones extrañas en la pulpa y en la piel, dando apariencia de quemaduras. Suele ser frecuente en productos tropicales transportados o almacenados a temperaturas más bajas de las recomendadas.<br>2. Si la humedad es demasiado baja, para compensarla, se produce en la fruta u hortaliza una deshidratación, lo que provoca el marchitamiento y el arrugado. Por el contrario, una humedad excesiva favorece el desarrollo de mohos.<br>3. Algunos productos deben protegerse de la luz para evitar la germinación o, como las patatas, que se vuelvan verdes (lo que indica la presencia de solanina, que es una sustancia tóxica).<br>4. Almacenar juntos productos que liberan mucho etileno junto a productos muy sensibles a éste, puede provocar una maduración prematura no deseada.",
+              "imagen": "img/modFru/appetiz.jpg",
+              "ancho": 200
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías que...</b><br>almacenar las patatas a bajas temperaturas provoca que el almidón se transforme en azúcares simples y por eso las patatas adquieren un sabor dulce? (Pero también has de saber que hay variedades más dulces que otras)."
         }
       ]
     },
@@ -543,10 +645,72 @@
       "titulo": "Beneficios que aportan",
       "contenido": [
         {
+          "clase": "texto",
+          "texto": "Frutas y Hortalizas juegan un papel trascendental en el equilibrio de la dieta humana por sus cualidades nutritivas:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/salad.jpg",
+              "ancho": 300
+            },
+            {
+              "clase": "texto",
+              "texto": "Aportan agua que nos mantiene en un grado adecuado de hidratación y favorece la eliminación de sustancias tóxicas de nuestro organismo."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/salad.jpg",
+              "ancho": 300
+            },
+            {
+              "clase": "texto",
+              "texto": "Contienen fibra que ayuda a regular la función del intestino."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "",
+                              "ancho": 300
+            },
+            {
+              "clase": "texto",
+              "texto": ""
+            }
+          ]
+        },
+                {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "",
+                            "ancho": 300
+            },
+            {
+              "clase": "texto",
+              "texto": ""
+            }
+          ]
+        },
+        {
           "clase": "lista",
           "titulo": "Frutas y Hortalizas juegan un papel trascendental en el equilibrio de la dieta humana por sus cualidades nutritivas:",
           "contenido": [
             {
+              "imagen": "img/modFru/salad.jpg",
+              "ancho": 300,
               "punto": "Aportan agua que nos mantiene en un grado adecuado de hidratación y favorece la eliminación de sustancias tóxicas de nuestro organismo."
             },
             {
@@ -571,6 +735,11 @@
               "punto": "Ayudan a frenar el deterioro causado por el proceso de envejecimiento."
             }
           ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías qué...</b><br>pimiento contiene más vitamina C que la naranja?<br><b>o que<b> fresas y kiwis tienen mayor contenido en vitamina C que las naranjas?"
         }
       ]
     },
@@ -1210,16 +1379,6 @@
           "clase": "icono",
           "subclase": "sabiasQue",
           "texto": "la fresa es la única fruta que tiene las semillas en su exterior, pudiendo llegar a tener hasta 200?"
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "los tomates fueron considerados tóxicos cuando llegaron por primera vez a Europa? Algo parecido sucedió con los pepinos, en los que hubo un momento que se consideraron  venenosos por lo que se les rascaba la piel para “eliminar” el veneno."
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "pimiento contiene más vitamina C que la naranja?"
         },
         {
           "clase": "icono",
