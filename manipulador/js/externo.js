@@ -19,7 +19,10 @@
         ]);
             break;
         case "modFrut": arrayFinal = arrayComun.concat([
-            "js/bootstrap/bootstrap.min.js"
+            "js/bootstrap/bootstrap.min.js",
+            "js/jointJS/lodash.min.js",
+            "js/jointJS/backbone-min.js",
+            "js/jointJS/joint.min.js"
         ]);
             break;
         case "modCar":
@@ -56,7 +59,8 @@ function getArrayCSS(modulo) {
             break;
         case "modFrut":
             arrayFinal = arrayComun.concat([
-"css/bootstrap/bootstrap.min.css"
+            "css/bootstrap/bootstrap.min.css",
+            "css/jointJS/joint.min.css"
             ]);
             break;
         case "modCar":

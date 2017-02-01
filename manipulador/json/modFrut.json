@@ -654,7 +654,7 @@
             {
               "clase": "imagen",
               "imagen": "img/modFru/salad.jpg",
-              "ancho": 300
+              "ancho": 200
             },
             {
               "clase": "texto",
@@ -667,60 +667,40 @@
           "contenido": [
             {
               "clase": "imagen",
-              "imagen": "img/modFru/salad.jpg",
-              "ancho": 300
+              "imagen": "img/modFru/paprika.jpg",
+              "ancho": 200
+            },
+            {
+              "clase": "texto",
+              "texto": "Aportan muchas vitaminas, sobre todo vitamina C de las que son fuente casi exclusiva."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/moras.jpg",
+              "ancho": 200
+            },
+            {
+              "clase": "texto",
+              "texto": "Aportan compuestos y sustancias antioxidantes."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/artichokes.jpg",
+              "ancho": 200
             },
             {
               "clase": "texto",
               "texto": "Contienen fibra que ayuda a regular la función del intestino."
-            }
-          ]
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "",
-                              "ancho": 300
-            },
-            {
-              "clase": "texto",
-              "texto": ""
-            }
-          ]
-        },
-                {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "",
-                            "ancho": 300
-            },
-            {
-              "clase": "texto",
-              "texto": ""
-            }
-          ]
-        },
-        {
-          "clase": "lista",
-          "titulo": "Frutas y Hortalizas juegan un papel trascendental en el equilibrio de la dieta humana por sus cualidades nutritivas:",
-          "contenido": [
-            {
-              "imagen": "img/modFru/salad.jpg",
-              "ancho": 300,
-              "punto": "Aportan agua que nos mantiene en un grado adecuado de hidratación y favorece la eliminación de sustancias tóxicas de nuestro organismo."
-            },
-            {
-              "punto": "Contienen fibra que ayuda a regular la función del intestino."
-            },
-            {
-              "punto": "Aportan muchas vitaminas, sobre todo vitamina C de las que son fuente casi exclusiva."
-            },
-            {
-              "punto": "Aportan compuestos y sustancias antioxidantes."
             }
           ]
         },
@@ -732,14 +712,593 @@
               "punto": "Prevenir enfermedades cardiovasculares, obesidad, e incluso algunos tipos de cáncer como el de boca, faringe, laringe, pulmón, esófago, estómago, colon, mama y vejiga."
             },
             {
-              "punto": "Ayudan a frenar el deterioro causado por el proceso de envejecimiento."
+              "punto": "Disminuir el deterioro causado por el proceso de envejecimiento."
             }
           ]
         },
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "texto": "<b>¿Sabías qué...</b><br>pimiento contiene más vitamina C que la naranja?<br><b>o que<b> fresas y kiwis tienen mayor contenido en vitamina C que las naranjas?"
+          "texto": "<b>¿Sabías qué...</b><br>el pimiento contiene más vitamina C que la naranja?<br><b>o que...</b> fresas y kiwis también tienen mayor contenido en vitamina C que las naranjas?"
+        }
+      ]
+    },
+    {
+      "titulo": "Beneficios",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "texto": "Por el contrario, los beneficios de una buena práctica higiénica:"
+        },
+        {
+          "clase": "diagrama",
+          "cajas": [
+            {
+              "id": 1,
+              "forma": "rect",
+              "texto": "Buena reputación de la empresa",
+              "ancho": 1300,
+              "alto": 40,
+              "x": 1,
+              "y": 1,
+              "relleno": "#B3E5FC",
+              "borde": "#1E88E5",
+              "anchoBorde": 3,
+              "orden": 1
+            },
+            {
+              "id": 2,
+              "forma": "rect",
+              "texto": "<span class='h5'>Clientes satisfechos</span>",
+              "ancho": 250,
+              "alto": 40,
+              "x": 1,
+              "y": 75,
+              "relleno": "#E1F5FE",
+              "borde": "#1E88E5",
+              "anchoBorde": 1,
+              "orden": 3
+            },
+            {
+              "id": 3,
+              "forma": "rect",
+              "texto": "<span class='h5'>Publicidad positiva</span>",
+              "ancho": 250,
+              "alto": 40,
+              "x": 1,
+              "y": 150,
+              "relleno": "#E1F5FE",
+              "borde": "#1E88E5",
+              "anchoBorde": 1,
+              "orden": 5
+            },
+            {
+              "id": 4,
+              "forma": "rect",
+              "texto": "<span class='h5'>Aumento de clientes<br>Facilidad para captar clientes<br>Mayor demanda de artículos</span>",
+              "ancho": 250,
+              "alto": 100,
+              "x": 1,
+              "y": 250,
+              "relleno": "#E1F5FE",
+              "borde": "#1E88E5",
+              "anchoBorde": 1,
+              "orden": 7
+            },
+            {
+              "id": 5,
+              "forma": "rect",
+              "texto": "<span class='h5'>Aumento de las ventas</span>",
+              "ancho": 200,
+              "alto": 40,
+              "x": 300,
+              "y": 310,
+              "relleno": "#E1F5FE",
+              "borde": "#1E88E5",
+              "anchoBorde": 1,
+              "orden": 9
+            },
+            {
+              "id": 6,
+              "forma": "rect",
+              "texto": "Aumento de beneficios",
+              "ancho": 1300,
+              "alto": 40,
+              "x": 1,
+              "y": 480,
+              "relleno": "#C8E6C9",
+              "borde": "#4CAF50",
+              "anchoBorde": 3,
+              "orden": 25
+            },
+            {
+              "id": 7,
+              "forma": "rect",
+              "texto": "<span class='h5 estrecho'>Mayores salarios y primas</span>",
+              "ancho": 160,
+              "alto": 70,
+              "x": 317,
+              "y": 190,
+              "borde": "#B39DDB",
+              "anchoBorde": 1,
+              "orden": 21
+            },
+            {
+              "id": 8,
+              "forma": "rect",
+              "texto": "<span class='h5 estrecho'>Mayor motivación en el trabajo<br>Mejor rendimiento de la plantilla<br>Menor movilidad de plantilla<br>Ambiente de trabajo más seguro y agradable</span>",
+              "ancho": 330,
+              "alto": 200,
+              "x": 550,
+              "y": 160,
+              "relleno": "#B2EBF2",
+              "borde": "#1E88E5",
+              "anchoBorde": 1,
+              "orden": 13
+            },
+            {
+              "id": 9,
+              "forma": "rect",
+              "texto": "<span class='h5 estrecho'>Mayor autoestima del personal</span>",
+              "ancho": 330,
+              "alto": 40,
+              "x": 550,
+              "y": 75,
+              "relleno": "#B2EBF2",
+              "borde": "#1E88E5",
+              "anchoBorde": 1,
+              "orden": 11
+            },
+            {
+              "id": 10,
+              "forma": "rect",
+              "texto": "<span class='h5 estrecho'>Adecuación a la Ley</span>",
+              "ancho": 350,
+              "alto": 40,
+              "x": 950,
+              "y": 100,
+              "borde": "#B2EBF2",
+              "anchoBorde": 3,
+              "dashArray": "5,5",
+              "orden": 15
+            },
+            {
+              "id": 11,
+              "forma": "rect",
+              "texto": "<span class='h5 estrecho'>Satisfacción de las Autoridades Sanitarias</span>",
+              "ancho": 350,
+              "alto": 70,
+              "x": 950,
+              "y": 190,
+              "borde": "#B2EBF2",
+              "anchoBorde": 3,
+              "dashArray": "5,5",
+              "orden": 17
+            },
+            {
+              "id": 12,
+              "forma": "rect",
+              "texto": "<span class='h5 estrecho'>Menor estrés al cumplir con los requisitos de Sanidad.<br>(La vigilancia demasiado estrecha del Inspector de Sanidad puede llegar a ser estresante)</span>",
+              "ancho": 350,
+              "alto": 150,
+              "x": 950,
+              "y": 300,
+              "borde": "#B2EBF2",
+              "anchoBorde": 3,
+              "dashArray": "5,5",
+              "orden": 19
+            },
+            {
+              "id": 13,
+              "forma": "rect",
+              "texto": "Ganancia económica",
+              "ancho": 1300,
+              "alto": 40,
+              "x": 1,
+              "y": 570,
+              "relleno": "#C8E6C9",
+              "borde": "#4CAF50",
+              "anchoBorde": 3,
+              "orden": 27
+
+            },
+            {
+              "id": 14,
+              "forma": "rect",
+              "texto": "<span class='h4'>Posible ampliación del negocio</span>",
+              "ancho": 300,
+              "alto": 50,
+              "x": 500,
+              "y": 660,
+              "borde": "#4CAF50",
+              "anchoBorde": 3,
+              "orden": 29
+            },
+            {
+              "id": 15,
+              "forma": "rect",
+              "texto": "<span class='h4'>Nuevos puestos de trabajo<br>Ascensos</span>",
+              "ancho": 300,
+              "alto": 100,
+              "x": 500,
+              "y": 745,
+              "borde": "#4CAF50",
+              "anchoBorde": 3,
+              "orden": 31
+            }
+          ],
+          "enlaces": [
+            {
+              "origen": 1,
+              "destino": 2,
+              "color": "#1E88E5",
+              "orden": 2
+            },
+            {
+              "origen": 1,
+              "destino": 9,
+              "color": "#1E88E5",
+              "orden": 10
+            },
+            {
+              "origen": 2,
+              "destino": 3,
+              "color": "#1E88E5",
+              "orden": 4
+            },
+            {
+              "origen": 3,
+              "destino": 4,
+              "color": "#1E88E5",
+              "orden": 6
+            },
+            {
+              "origen": 4,
+              "destino": 5,
+              "color": "#1E88E5",
+              "orden": 8
+            },
+            {
+              "origen": 5,
+              "destino": 7,
+              "color": "#1E88E5",
+              "orden": 20
+            },
+            {
+              "origen": 5,
+              "destino": 6,
+              "color": "#1E88E5",
+              "orden": 24
+            },
+
+            {
+              "origen": 7,
+              "destino": 8,
+              "color": "#1E88E5",
+              "orden": 22
+            },
+            {
+              "origen": 9,
+              "destino": 8,
+              "color": "#1E88E5",
+              "orden": 12
+            },
+            {
+              "origen": 8,
+              "destino": 10,
+              "color": "#1E88E5",
+              "orden": 14
+            },
+            {
+              "origen": 8,
+              "destino": 5,
+              "color": "#1E88E5",
+              "orden": 23
+            },
+            {
+              "origen": 10,
+              "destino": 11,
+              "color": "#1E88E5",
+              "orden": 16
+            },
+            {
+              "origen": 11,
+              "destino": 12,
+              "color": "#1E88E5",
+              "orden": 18
+            },
+            {
+              "origen": 6,
+              "destino": 13,
+              "color": "#4CAF50",
+              "orden": 26
+            },
+            {
+              "origen": 13,
+              "destino": 14,
+              "color": "#4CAF50",
+              "orden": 28
+            },
+            {
+              "origen": 14,
+              "destino": 15,
+              "color": "#4CAF50",
+              "orden": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Diagrama de flujo",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInRight",
+          "texto": "A grandes rasgos podríamos definir un diagrama de flujo de frutas y verduras desde su origen hasta el consumidor final según las siguientes etapas:"
+        },
+        {
+          "clase": "diagrama",
+          "retardo": 500,
+          "cajas": [
+            {
+              "id": 1,
+              "forma": "rect",
+              "texto": "Producción Primaria",
+              "ancho": 300,
+              "alto": 60,
+              "x": 400,
+              "y": 1,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 1
+            },
+            {
+              "id": 2,
+              "forma": "rect",
+              "texto": "Recolección",
+              "ancho": 300,
+              "alto": 60,
+              "x": 400,
+              "y": 100,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 3
+            },
+            {
+              "id": 3,
+              "forma": "rect",
+              "texto": "Transporte",
+              "ancho": 300,
+              "alto": 60,
+              "x": 400,
+              "y": 200,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 5
+            },
+            {
+              "id": 4,
+              "forma": "rect",
+              "texto": "Almacenamiento",
+              "ancho": 300,
+              "alto": 60,
+              "x": 400,
+              "y": 300,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 7
+            },
+            {
+              "id": 4.5,
+              "forma": "rect",
+              "texto": "<span class='h5 estrecho'>PRODUCTOS FRESCOS</span>",
+              "ancho": 350,
+              "alto": 40,
+              "x": 950,
+              "y": 100,
+              "borde": "#B2EBF2",
+              "anchoBorde": 3,
+              "dashArray": "5,5",
+              "orden": 7.5
+            },
+            {
+              "id": 5,
+              "forma": "rect",
+              "texto": "Frutería",
+              "ancho": 300,
+              "alto": 60,
+              "x": 1,
+              "y": 400,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 9
+            },
+            {
+              "id": 6,
+              "forma": "rect",
+              "texto": "Envasado y Transporte",
+              "ancho": 300,
+              "alto": 60,
+              "x": 1,
+              "y": 500,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 11
+            },
+            {
+              "id": 8,
+              "forma": "rect",
+              "texto": "Exposición y venta",
+              "ancho": 300,
+              "alto": 60,
+              "x": 1,
+              "y": 700,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 13
+            },
+            {
+              "id": 9,
+              "forma": "rect",
+              "texto": "Industria procesadora",
+              "ancho": 300,
+              "alto": 60,
+              "x": 800,
+              "y": 400,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 15
+            },
+            {
+              "id": 10,
+              "forma": "rect",
+              "texto": "Almacenamiento",
+              "ancho": 300,
+              "alto": 60,
+              "x": 800,
+              "y": 500,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 17
+            },
+            {
+              "id": 11,
+              "forma": "rect",
+              "texto": "Acondicionamiento",
+              "ancho": 300,
+              "alto": 60,
+              "x": 800,
+              "y": 600,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 19
+            },
+            {
+              "id": 12,
+              "forma": "rect",
+              "texto": "Procesado",
+              "ancho": 300,
+              "alto": 60,
+              "x": 800,
+              "y": 700,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 21
+            },
+            {
+              "id": 13,
+              "forma": "rect",
+              "texto": "Envasado",
+              "ancho": 300,
+              "alto": 60,
+              "x": 800,
+              "y": 800,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 23
+            },
+            {
+              "id": 14,
+              "forma": "rect",
+              "texto": "Almacenamiento / Distribución",
+              "ancho": 300,
+              "alto": 60,
+              "x": 800,
+              "y": 900,
+              "relleno": "#ffffff",
+              "borde": "#65acb0",
+              "anchoBorde": 3,
+              "orden": 25
+            }
+          ],
+          "enlaces": [
+            {
+              "origen": 1,
+              "destino": 2,
+              "color": "#65acb0",
+              "orden": 2
+            },
+            {
+              "origen": 2,
+              "destino": 3,
+              "color": "#65acb0",
+              "orden": 4
+            },
+            {
+              "origen": 3,
+              "destino": 4,
+              "color": "#65acb0",
+              "orden": 6
+            },
+            {
+              "origen": 4,
+              "destino": 5,
+              "color": "#65acb0",
+              "orden": 8
+            },
+            {
+              "origen": 5,
+              "destino": 6,
+              "color": "#65acb0",
+              "orden": 10
+            },
+            {
+              "origen": 6,
+              "destino": 7,
+              "color": "#65acb0",
+              "orden": 12
+            },
+            {
+              "origen": 4,
+              "destino": 8,
+              "color": "#65acb0",
+              "orden": 14
+            },
+            {
+              "origen": 8,
+              "destino": 9,
+              "color": "#65acb0",
+              "orden": 16
+            },
+            {
+              "origen": 9,
+              "destino": 10,
+              "color": "#65acb0",
+              "orden": 18
+            },
+            {
+              "origen": 10,
+              "destino": 11,
+              "color": "#65acb0",
+              "orden": 20
+            },
+            {
+              "origen": 11,
+              "destino": 12,
+              "color": "#65acb0",
+              "orden": 22
+            },
+            {
+              "origen": 12,
+              "destino": 13,
+              "color": "#65acb0",
+              "orden": 24
+            }
+          ]
         }
       ]
     },
@@ -1091,35 +1650,74 @@
       ]
     },
     {
-      "titulo": "Producción primaria",
+      "titulo": "Contaminantes en frutas y hortalizas",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Frutas y hortalizas pueden contaminarse en cualquier punto desde la producción primaria hasta el consumidor final.<br>Aunque cada una de dichas etapas tendrá unos peligros asociados específicos, vamos a diferenciar tres grandes bloques:"
+          "texto": "Frutas y hortalizas pueden contaminarse en cualquier punto desde la producción primaria hasta el consumidor final. Aunque cada una de dichas etapas tendrá unos peligros asociados específicos, vamos a diferenciar tres grandes bloques:"
         },
         {
-          "clase": "lista",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "punto": "Contaminación de origen: debida al hábitat o entorno en el que se realice la Producción Primaria o contaminación durante su recolección."
+              "clase": "texto",
+              "subclase": "celo",
+              "texto": "<b>Contaminación de origen:</b><br>En este bloque se incluyen aquellos peligros debidos al hábitat o entorno en el que se realice la Producción Primaria o contaminación durante su recolección."
             },
             {
-              "punto": "Peligros asociados a los productos destinados a ser vendidos en fresco o a productos de cuarta gama."
+              "clase": "texto",
+              "subclase": "celo",
+              "texto": "<b>Conteminación de productos frescos:</b><br>En este bloque se incluyen aquellos peligros asociados a los productos destinados a ser vendidos en fresco o a productos de cuarta gama."
             },
             {
-              "punto": "Peligros asociados a los productos destinados a ser procesados."
+              "clase": "texto",
+              "subclase": "celo",
+              "texto": "<b>Contaminación de productos elaborados:</b><br>En este bloque se incluyen aquellos peligros asociados a los productos destinados a ser procesados."
             }
           ]
         },
         {
           "clase": "icono",
           "subclase": "definicion",
-          "texto": "<b>Definición:</b><br><br>Productos de Cuarta Gama.<br>Se entiende por cuarta gama al procesado mínimo de hortalizas y frutas frescas limpias, troceadas y envasadas para su consumo.<br><br>El producto mantiene sus propiedades naturales y frescas, pero con la diferencia que ya viene lavado, troceado y envasado en bandejas o bolsas en atmósferas especiales y que <b>necesitan refrigeración</b> para una correcta conservación."
+          "texto": "<b>Definición:</b><br>Productos de Cuarta Gama.<br>Se entiende por cuarta gama al procesado mínimo de hortalizas y frutas frescas limpias, troceadas y envasadas para su consumo.<br>El producto mantiene sus propiedades naturales y frescas, pero con la diferencia que ya viene lavado, troceado y envasado en bandejas o bolsas en atmósferas especiales y que <b>necesitan refrigeración</b> para una correcta conservación."
         }
       ]
     },
     {
-      "titulo": "Contaminación de origen",
+      "titulo": "Recolección",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "En esta etapa puede producirse contaminación de los alimentos debido a  unas malas prácticas higiénicas en la manipulación de frutas y verduras. Para evitar esto:",
+              "contenido": [
+                {
+                  "punto": "El personal debe tener conocimientos de los principios básicos de higiene y sanidad, teniendo claros los peligros que pueden contaminar el producto."
+                },
+                {
+                  "punto": "Evitar el uso de recipientes de vidrio o pequeños objetos metálicos cerca de los cultivos, para evitar la presencia en el producto final de restos de vidrio o de dichos objetos metálicos."
+                },
+                {
+                  "punto": "Si es necesario el uso de utensilios u objetos pequeños, se recomienda tenerlos numerados o identificados adecuadamente."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/manzano.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Un factor a tener en cuenta es la necesidad de tener cierta destreza tanto en el momento de la recolección como en las manipulaciones posteriores, para evitar golpes, magulladuras, desgarros, rasguños o cortes indeseables que, además de afectar negativamente a la calidad estética del producto, pueden suponer una vía de acceso para los microorganismos."
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminación de origen: Física",
       "contenido": [
         {
           "clase": "texto",
@@ -1130,7 +1728,7 @@
           "contenido": [
             {
               "clase": "texto",
-              "texto": "<b>Contaminación física:</b> En origen frutas y verduras pueden portar consigo tierra, piedras, trozos de plástico, astillas de madera, etc. que serán eliminados posteriormente."
+              "texto": "<b>Contaminación física:</b> En origen frutas y verduras pueden traer consigo tierra, piedras, trozos de plástico, astillas de madera, etc. que serán eliminados posteriormente."
             },
             {
               "clase": "imagen",
@@ -1140,78 +1738,119 @@
           ]
         },
         {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "texto",
-              "texto": "<b>Contaminación química:</b> frutas y hortalizas están expuestas a distintos contaminantes químicos que pueden provenir de diferentes fuentes:"
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/contaminacionq.png",
-              "ancho": 400
-            }
-          ]
-        },
-        {
-          "clase": "lista",
-          "titulo": "",
-          "contenido": [
-            {
-              "punto": "Metales pesados:",
-              "contenido": [
-                {
-                  "punto": "Plomo (Pb): las emisiones más importantes de plomo a la atmósfera proceden de la combustión de gasolinas y de las industrias (hierro y acero, fundiciones de plomo). La vía de entrada en la cadena alimentaria es a través de la deposición atmosférica de plomo en los vegetales."
-                },
-                {
-                  "punto": "Cadmio (Cd):  se obtiene como subproducto en la minería o de procedencia industrial. Las plantas pueden absorber el cadmio rápidamente desde el suelo (influyendo su concentración y el pH del suelo)."
-                },
-                {
-                  "punto": "Arsénico (As): es un contaminante presente en la naturaleza y también generado por la industria. Antiguamente se empleaba en pesticidas, estando, hoy en día,  prohibida su utilización. Puede presentarse en dos formas: la orgánica y la inorgánica (más tóxica). Las verduras y cereales (como el arroz) lo absorben del suelo o el agua."
-                }
-              ]
-            },
-            {
-              "punto": "Otros productos químicos:",
-              "contenido": [
-                {
-                  "punto": "Pesticidas: son compuestos químicos que se añaden a los cultivos para protegerlos frente a plagas y enfermedades. Son productos muy controlados por la ley y existen unos Límites Máximos de Residuos que son los niveles máximos permitidos legalmente, por debajo de los cuales se considera que el alimento es toxicológicamente aceptable."
-                },
-                {
-                  "punto": "Nitratos: son uno de los componentes principales de fertilizantes y abonos. Permiten a las plantas crecer más rápido, pero si se usan en exceso no son metabolizados y terminan en las hojas de las verduras."
-                }
-              ]
-            }
-          ]
-        },
-        {
           "clase": "imagen",
-          "imagen": "img/modFru/contaminacionq.png",
-          "ancho": 800
+          "subclase": "ajustarAncho",
+          "animacion": "fadeInUp",
+          "imagen": "img/mod3/nutrientes.svg"
         },
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "texto": "<b>Sabías que…</b><br>Se recomienda, por precaución, no incluir espinacas ni acelgas en la dieta de niños menores de un año (o en caso de incluirlas que su contenido no supere el 20% del puré) debido al contenido en nitrato de esos vegetales? (Y no dar más de una ración al día a niños entre 1 y 3 años)."
+          "texto": "<b>¿Sabías qué...</b><br>el coco se llama así porque en portugués coco se llamaba a los fantasmas que asustan a los niños y cuando la expedición de Vasco da Gama llegó a India en 1500, los tripulantes compararon la cáscara y sus tres agujeros con una cabeza con ojos y boca, como las que se usaban para fabricar los fantasmas infantiles?"
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminación de origen: Química",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "<b>Contaminación química:</b> frutas y hortalizas están expuestas a distintos contaminantes químicos que pueden provenir de diferentes fuentes:<br>actividades industriales, actividades humanas (fertilizantes, aplicación de plaguicidas, etc). Destacando los siguientes contaminantes químicos:"
+                },
+                {
+                  "clase": "acordeonSub",
+                  "contenido": [
+                    {
+                      "titulo": "Metales pesados",
+                      "contenido": [
+                        {
+                          "titulo": "Plomo",
+                          "texto": "Plomo (Pb): las emisiones más importantes de plomo a la atmósfera proceden de la combustión de gasolinas y de las industrias (hierro y acero, fundiciones de plomo). La vía de entrada en la cadena alimentaria es a través de la deposición atmosférica de plomo en los vegetales."
+                        },
+                        {
+                          "titulo": "Cadmio",
+                          "texto": "Cadmio (Cd):  se obtiene como subproducto en la minería o de procedencia industrial. Las plantas pueden absorber el cadmio rápidamente desde el suelo (influyendo su concentración y el pH del suelo)."
+                        },
+                        {
+                          "titulo": "Arsénico",
+                          "texto": "Arsénico (As): es un contaminante presente en la naturaleza y también generado por la industria. Antiguamente se empleaba en pesticidas, estando, hoy en día,  prohibida su utilización. Puede presentarse en dos formas: la orgánica y la inorgánica (más tóxica). Las verduras y cereales (como el arroz) lo absorben del suelo o el agua."
+                        }
+                      ]
+                    },
+                    {
+                      "titulo": "Otros productos químicos",
+                      "contenido": [
+                        {
+                          "titulo": "Pesticidas",
+                          "texto": "Son compuestos químicos que se añaden a los cultivos para protegerlos frente a plagas y enfermedades. Son productos muy controlados por la ley y existen unos Límites Máximos de Residuos que son los niveles máximos permitidos legalmente, por debajo de los cuales se considera que el alimento es toxicológicamente aceptable."
+                        },
+                        {
+                          "titulo": "Nitratos",
+                          "texto": "Son uno de los componentes principales de fertilizantes y abonos. Permiten a las plantas crecer más rápido, pero si se usan en exceso no son metabolizados y terminan en las hojas de las verduras."
+                        },
+                        {
+                          "titulo": "Tóxicos naturales",
+                          "texto": "Son aquellos, sin tener en cuenta los compuestos químicos, que se encuentran presentes de forma natural en la composición del producto. Por ejemplo: setas venenosas.",
+                          "imagen": "img/modFru/agarico.jpg",
+                          "ancho": 200
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/contaminacionq.png"
+            }
+          ]
         },
         {
-          "clase": "texto",
-          "texto": "<b>Contaminación biológica:</b><br>La mayoría de las frutas poseen contaminación superficial procedente de las zonas de cultivo y del ambiente en general (insectos, aves, agua de lluvia…)."
-        },
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías que…</b><br>se recomienda, por precaución, no incluir espinacas ni acelgas en la dieta de niños menores de un año (o en caso de incluirlas que su contenido no supere el 20% del puré) debido al contenido en nitrato de esos vegetales? (Y no dar más de una ración al día a niños entre 1 y 3 años)."
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminación de origen: Biológica",
+      "fondo": "img/modFru/campo.jpg",
+      "contenido": [
         {
           "clase": "texto",
-          "texto": "Por otro lado las <b>hortalizas</b> son alimentos que habitualmente presentan una elevada carga microbiológica ya que se  cultivan directamente en los suelos y algunos microorganismos peligrosos pueden formar parte de la flora natural del suelo o del ambiente (como es el caso del: Clostridium botulinum). No obstante, la vía principal de contaminación se debe al agua de riego que puede aportar microorganismos en caso de encontrarse contaminada."
-        },
-        {
-          "clase": "texto",
-          "texto": "Si además llegan a estar en contacto con materia fecal (por ejemplo, abonos o agua de riego contaminada fecalmente), pueden ser origen de procesos de infecciones de origen alimentario, por microorganismos patógenos que son habituales en el intestino de animales y/o humanos. Esto se debe, por un lado, a unas prácticas incorrectas en la producción al permitir dicha contaminación  y, por otro lado, al hecho de ser productos que se consumen en crudo (no es necesario someterlos a ningún tratamiento previo que elimine los posibles patógenos.<br>Frutas y hortalizas pueden transportar virus (como el de la hepatitis A), bacterias (Salmonella, Escherichia, Shigella, …) parásitos y hongos generadores de micotoxinas."
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "<b>Contaminación biológica:</b><br>La mayoría de las frutas poseen contaminación superficial procedente de las zonas de cultivo y del ambiente en general (insectos, aves, agua de lluvia…).<br>Por otro lado las <b>hortalizas</b> son alimentos que habitualmente presentan una elevada carga microbiológica ya que se  cultivan directamente en los suelos y algunos microorganismos peligrosos pueden formar parte de la flora natural del suelo o del ambiente (como es el caso del: Clostridium botulinum). No obstante, la vía principal de contaminación se debe al agua de riego que puede aportar microorganismos en caso de encontrarse contaminada.<br>Si además llegan a estar en contacto con materia fecal (por ejemplo, abonos o agua de riego contaminada fecalmente), pueden ser origen de procesos de infecciones de origen alimentario, por microorganismos patógenos que son habituales en el intestino de animales y/o humanos. Esto se debe, por un lado, a unas prácticas incorrectas en la producción al permitir dicha contaminación  y, por otro lado, al hecho de ser productos que se consumen en crudo (no es necesario someterlos a ningún tratamiento previo que elimine los posibles patógenos.<br>Frutas y hortalizas pueden transportar virus (como el de la hepatitis A), bacterias (Salmonella, Escherichia, Shigella, …) parásitos y hongos generadores de micotoxinas."
         },
         {
           "clase": "icono",
           "subclase": "exclamacion",
-          "texto": "<b>RECUERDA:</b><br>De cara al cliente, es importante resaltar que un lavado correcto de frutas y vegetales, antes de su consumo, conllevará la eliminación de contaminantes físicos como tierra o arena, minimizará la presencia de contaminantes químicos como posibles restos de pesticidas y de contaminantes biológicos.",
-          "imagen": "img/modFru/fresas.jpg",
-          "ancho": 250
+          "opacidad": 0.8,
+          "texto": "<b>RECUERDA:</b><br>De cara al cliente, es importante resaltar que un lavado correcto de frutas y vegetales, antes de su consumo, conllevará la eliminación de contaminantes físicos como tierra o arena, minimizará la presencia de contaminantes químicos como posibles restos de pesticidas y de contaminantes biológicos."
+        }
+      ]
+    },
+    {
+      "titulo": "Factores: Nutrientes",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInDown",
+          "texto": "<b>Nutrientes</b><br>Además del contenido en agua, para el desarrollo de las bacterias en un alimento influye enormemente la <b>composición</b> del mismo. Las bacterias prefieren alimentos con un alto contenido en proteínas y sustancias nutritivas, como la carne y productos cárnicos cocinados, salsas, cremas, huevos y ovoproductos o productos lácteos. Estos alimentos ricos en proteínas y sustancias nutritivas y agua son los denominados <b>alimentos de alto riesgo</b>. Los alimentos con gran concentración de azúcar, sales, ácidos u otros conservantes no permiten el crecimiento bacteriano y serían por tanto <b>alimentos de bajo riesgo</b>."
+        },
+        {
+          "clase": "imagen",
+          "subclase": "ajustarAncho",
+          "animacion": "fadeInUp",
+          "imagen": "img/mod3/nutrientes.svg"
         }
       ]
     },
@@ -1238,7 +1877,7 @@
       ]
     },
     {
-      "titulo": "Recolección",
+      "titulo": "SCO 19 Recolección",
       "contenido": [
         {
           "clase": "lista",
@@ -1368,23 +2007,19 @@
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "texto": "por su alto contenido de ácido, el limón es capaz de matar bacterias y por este motivo, representa un excelente desinfectante natural?"
+          "texto": "<b>¿Sabías qué...</b><br>por su alto contenido de ácido, el limón es capaz de matar bacterias y por este motivo, representa un excelente desinfectante natural?"
         },
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "texto": "las manzanas flotan en el agua porque están constituidas en un 25% por aire?"
+          "texto": "<b>¿Sabías qué...</b><br>las manzanas flotan en el agua porque están constituidas en un 25% por aire?"
         },
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "texto": "la fresa es la única fruta que tiene las semillas en su exterior, pudiendo llegar a tener hasta 200?"
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "el coco se llama así porque en portugués coco se llamaba a los fantasmas que asustan a los niños y cuando la expedición de Vasco da Gama llegó a India en 1500, los tripulantes compararon la cáscara y sus tres agujeros con una cabeza con ojos y boca, como las que se usaban para fabricar los fantasmas infantiles?"
+          "texto": "<b>¿Sabías qué...</b><br>la fresa es la única fruta que tiene las semillas en su exterior, pudiendo llegar a tener hasta 200?"
         }
+
       ]
     },
     {
