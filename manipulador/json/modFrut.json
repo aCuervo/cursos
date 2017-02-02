@@ -14,8 +14,16 @@
         {
           "clase": "texto",
           "subclase": "recuadro",
+          "opacidad": 0.8,
           "animacion": "fadeInRight",
-          "texto": "Hasta ahora en los módulos anteriores has visto todo lo relacionado con la Higiene y Seguridad Alimentaria de forma amplia, pero genérica.<br><br>En este Módulo vas a poder ampliar la información vista anteriormente pero enfocada exclusivamente al Sector de las Frutas y Hortalizas, desde las alteraciones más comunes que sufren estos productos hasta los peligros más específicos, como pueden ser ciertos contaminantes químicos."
+          "texto": "Hasta ahora en los módulos anteriores has visto todo lo relacionado con la Higiene y Seguridad Alimentaria de forma amplia, pero genérica."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "texto": "En este Módulo vas a poder ampliar la información vista anteriormente pero enfocada exclusivamente al Sector de las Frutas y Hortalizas, desde las alteraciones más comunes que sufren estos productos hasta los peligros más específicos, como pueden ser ciertos contaminantes químicos."
         }
       ]
     },
@@ -61,6 +69,7 @@
         {
           "clase": "icono",
           "subclase": "sabiasQue",
+          "animacion": "fadeInRight",
           "texto": "<b>¿Sabías que...</b><br>en su origen las variedades de zanahorias tenían diferentes colores púrpura, blanco, amarillo… y que según una tradición el actual color naranja se debe a un cruce de variedades realizado deliberadamente en el siglo XVI en Holanda para homenajear a la Casa Real Holandesa de Orange cuyo emblema era el color naranja?",
           "imagen": "img/modFru/carrots.jpg",
           "ancho": 150
@@ -68,7 +77,7 @@
       ]
     },
     {
-      "titulo": "Origen de las frutas y hortalizas",
+      "titulo": "A1 Origen de las frutas y hortalizas",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -77,7 +86,6 @@
               "clase": "imagen",
               "imagen": "img/modFru/frutas.jpg"
             },
-
             {
               "clase": "listaObjetos",
               "subclase": "columna",
@@ -92,7 +100,6 @@
                 }
               ]
             },
-
             {
               "clase": "imagen",
               "imagen": "img/modFru/verduras.jpg"
@@ -102,7 +109,7 @@
       ]
     },
     {
-      "titulo": "Origen de las hortalizas",
+      "titulo": "A2 Origen de las hortalizas",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -120,7 +127,7 @@
       ]
     },
     {
-      "titulo": "Origen de las frutas",
+      "titulo": "A2 Origen de las frutas",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -285,7 +292,7 @@
               "titulo": "Vitaminas",
               "contenido": [
                 {
-                  "titulo": "En general",
+                  "titulo": "Información general",
                   "texto": "Son compuestos químicos que el organismo no es capaz de sintetizar (excepto la vitamina D) y son indispensables, en cantidades muy pequeñas, para la vida. Su déficit provoca trastornos y enfermedades, pero también hemos de saber que su exceso puede llegar a provocar problemas muy graves a la salud, aunque cabe reseñar que esto último a través del consumo de alimentos en forma natural es muy difícil. Destacan:"
                 },
                 {
@@ -319,7 +326,7 @@
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "texto": "<b>¿Sabías qué...</b><br>Las calorías de la fruta dependen casi exclusivamente de su contenido de hidratos de carbono –su contenido en grasas es casi inapreciable-, a excepción del caso del aguacate y del coco, frutas en las que el contenido graso determina su valor energético (en el aguacate la mayor parte es grasa “saludable”, mientras que en el coco la mayor parte es grasa saturada, “menos saludable”)?"
+          "texto": "<b>¿Sabías qué...</b><br>las calorías de la fruta dependen casi exclusivamente de su contenido de hidratos de carbono –su contenido en grasas es casi inapreciable-, a excepción del caso del aguacate y del coco, frutas en las que el contenido graso determina su valor energético (en el aguacate la mayor parte es grasa “saludable”, mientras que en el coco la mayor parte es grasa saturada, “menos saludable”)?"
         }
       ]
     },
@@ -337,33 +344,33 @@
               "titulo": "Color <b>verde</b>",
               "texto": "Es el color de la clorofila por lo que es indicativo de riqueza en Magnesio, mineral que participa en el proceso de relajación muscular (por tanto su carencia puede provocar sensación de cansancio sin causa que lo justifique, tensión muscular y calambres). Contienen, además, sustancias que refuerzan el Sistema Inmunológico (defensas) y son una fuente importante de Vitamina C y fibra.<br>En este grupo destacan: brócoli, lima, kiwi, espinacas, guisantes, lechugas, aguacates y uvas verdes, entre otros.",
               "imagen": "img/modFru/kiwi.jpg",
-              "ancho": 600
+              "ancho": 800
             },
 
             {
               "titulo": "Color <b>amarillo/anaranjado</b>",
               "texto": "Es el color de los carotenos cuya acción antioxidante es muy efectiva, aumentando la protección frente al cáncer, fortalecen la vista (ya que son precursores de la Vitamina A), ayudan a combatir infecciones de la piel y tienen propiedades fotoprotectoras al contrarrestar las alteraciones producidas por los rayos UVA (minimizando o reduciendo la flacidez de la piel y la aparición de arrugas). El Beta-caroteno es altamente beneficioso para el Sistema Respiratorio. Frutas y vegetales de color amarillo o naranja destacan por su contenido en Vitamina C y minerales como el potasio.<br>Dentro de este grupo se encuentran: cítricos, melocotón, calabaza, zanahoria, mango y papaya entre otros.",
               "imagen": "img/modFru/mediaNaranja.jpg",
-              "ancho": 600
+              "ancho": 800
             },
             {
               "titulo": "Color <b>blanco</b>",
               "texto": "Es el color de los polifenoles, que son compuestos antioxidantes que ayudan a reducir el riesgo de enfermedades cardiovasculares y cáncer. Tienen efectos antibacterianos, antimicóticos y antiinflamatorios  y refuerzan el Sistema Inmunológico.<br>En este grupo destacan: ajos, cebollas, pepinos, setas y frutas de carne blanca como plátanos, peras y manzanas.",
               "imagen": "img/modFru/mediaCebolla.jpg",
-              "ancho": 600
+              "ancho": 800
             },
             {
               "titulo": "Color <b>rojo, morado/azul</b>",
               "texto": "Al igual que frutas y hortalizas de color naranja, poseen carotenos, de los cuales hemos visto sus efectos beneficiosos, pero además, frutas y hortalizas de color rojo intenso/morado son ricas en flavonoides que son compuestos con propiedades antioxidantes que protegen contra la oxidación de vitaminas, enzimas y hormonas. A estos compuestos se les suma otro de color rojo intenso (licopeno) de idéntico efecto. Todos ellos contribuyen a la salud de la memoria y  son compuestos muy beneficiosos para la salud cardiovascular, ya que ayudan a prevenir la hipertensión por sus propiedades vasodilatadoras y reduciendo la formación de placas de colesterol en las arterias.<br>Se incluyen en este grupo: berenjenas, lombardas, ciruelas, uvas tintas, arándanos, moras, tomates, pimientos rojos, rábanos, fresas, frambuesas, cerezas, etc.",
               "imagen": "img/modFru/berries.jpg",
-              "ancho": 600
+              "ancho": 800
             }
           ]
         },
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "texto": "<b>¿Sabías qué...</b><br>fresas y kiwis tienen mayor contenido en vitamina C que las naranjas?"
+          "texto": "<b>¿Sabías qué...</b><br>por su alto contenido de ácido, el limón es capaz de matar bacterias y por este motivo, representa un excelente desinfectante natural?"
         }
       ]
     },
@@ -558,10 +565,6 @@
                   "punto": "Los tejidos se degradan y la estructura de la fruta se altera, permitiendo el paso de microorganismos que alteran la composición y producen compuestos que dan malos olores y sabores."
                 }
               ]
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/manzanas3.jpg"
             }
           ]
         },
@@ -628,7 +631,7 @@
             },
             {
               "titulo": "Almacenamiento incorrecto",
-              "texto": "1. Si la temperatura es demasiado baja pueden producirse coloraciones extrañas en la pulpa y en la piel, dando apariencia de quemaduras. Suele ser frecuente en productos tropicales transportados o almacenados a temperaturas más bajas de las recomendadas.<br>2. Si la humedad es demasiado baja, para compensarla, se produce en la fruta u hortaliza una deshidratación, lo que provoca el marchitamiento y el arrugado. Por el contrario, una humedad excesiva favorece el desarrollo de mohos.<br>3. Algunos productos deben protegerse de la luz para evitar la germinación o, como las patatas, que se vuelvan verdes (lo que indica la presencia de solanina, que es una sustancia tóxica).<br>4. Almacenar juntos productos que liberan mucho etileno junto a productos muy sensibles a éste, puede provocar una maduración prematura no deseada.",
+              "texto": "1. Si la temperatura es demasiado baja pueden producirse coloraciones extrañas en la pulpa y en la piel, dando apariencia de quemaduras. Suele ser frecuente en productos tropicales transportados o almacenados a temperaturas más bajas de las recomendadas.<br><br>2. Si la humedad es demasiado baja, para compensarla, se produce en la fruta u hortaliza una deshidratación, lo que provoca el marchitamiento y el arrugado. Por el contrario, una humedad excesiva favorece el desarrollo de mohos.<br><br>3. Algunos productos deben protegerse de la luz para evitar la germinación o, como las patatas, que se vuelvan verdes (lo que indica la presencia de solanina, que es una sustancia tóxica).<br><br>4. Almacenar juntos productos que liberan mucho etileno junto a productos muy sensibles a éste, puede provocar una maduración prematura no deseada.",
               "imagen": "img/modFru/appetiz.jpg",
               "ancho": 200
             }
@@ -642,7 +645,7 @@
       ]
     },
     {
-      "titulo": "Beneficios que aportan",
+      "titulo": "Beneficios aportados",
       "contenido": [
         {
           "clase": "texto",
@@ -724,919 +727,7 @@
       ]
     },
     {
-      "titulo": "Beneficios",
-      "contenido": [
-        {
-          "clase": "texto",
-          "animacion": "flash",
-          "texto": "Por el contrario, los beneficios de una buena práctica higiénica:"
-        },
-        {
-          "clase": "diagrama",
-          "cajas": [
-            {
-              "id": 1,
-              "forma": "rect",
-              "texto": "Buena reputación de la empresa",
-              "ancho": 1300,
-              "alto": 40,
-              "x": 1,
-              "y": 1,
-              "relleno": "#B3E5FC",
-              "borde": "#1E88E5",
-              "anchoBorde": 3,
-              "orden": 1
-            },
-            {
-              "id": 2,
-              "forma": "rect",
-              "texto": "<span class='h5'>Clientes satisfechos</span>",
-              "ancho": 250,
-              "alto": 40,
-              "x": 1,
-              "y": 75,
-              "relleno": "#E1F5FE",
-              "borde": "#1E88E5",
-              "anchoBorde": 1,
-              "orden": 3
-            },
-            {
-              "id": 3,
-              "forma": "rect",
-              "texto": "<span class='h5'>Publicidad positiva</span>",
-              "ancho": 250,
-              "alto": 40,
-              "x": 1,
-              "y": 150,
-              "relleno": "#E1F5FE",
-              "borde": "#1E88E5",
-              "anchoBorde": 1,
-              "orden": 5
-            },
-            {
-              "id": 4,
-              "forma": "rect",
-              "texto": "<span class='h5'>Aumento de clientes<br>Facilidad para captar clientes<br>Mayor demanda de artículos</span>",
-              "ancho": 250,
-              "alto": 100,
-              "x": 1,
-              "y": 250,
-              "relleno": "#E1F5FE",
-              "borde": "#1E88E5",
-              "anchoBorde": 1,
-              "orden": 7
-            },
-            {
-              "id": 5,
-              "forma": "rect",
-              "texto": "<span class='h5'>Aumento de las ventas</span>",
-              "ancho": 200,
-              "alto": 40,
-              "x": 300,
-              "y": 310,
-              "relleno": "#E1F5FE",
-              "borde": "#1E88E5",
-              "anchoBorde": 1,
-              "orden": 9
-            },
-            {
-              "id": 6,
-              "forma": "rect",
-              "texto": "Aumento de beneficios",
-              "ancho": 1300,
-              "alto": 40,
-              "x": 1,
-              "y": 480,
-              "relleno": "#C8E6C9",
-              "borde": "#4CAF50",
-              "anchoBorde": 3,
-              "orden": 25
-            },
-            {
-              "id": 7,
-              "forma": "rect",
-              "texto": "<span class='h5 estrecho'>Mayores salarios y primas</span>",
-              "ancho": 160,
-              "alto": 70,
-              "x": 317,
-              "y": 190,
-              "borde": "#B39DDB",
-              "anchoBorde": 1,
-              "orden": 21
-            },
-            {
-              "id": 8,
-              "forma": "rect",
-              "texto": "<span class='h5 estrecho'>Mayor motivación en el trabajo<br>Mejor rendimiento de la plantilla<br>Menor movilidad de plantilla<br>Ambiente de trabajo más seguro y agradable</span>",
-              "ancho": 330,
-              "alto": 200,
-              "x": 550,
-              "y": 160,
-              "relleno": "#B2EBF2",
-              "borde": "#1E88E5",
-              "anchoBorde": 1,
-              "orden": 13
-            },
-            {
-              "id": 9,
-              "forma": "rect",
-              "texto": "<span class='h5 estrecho'>Mayor autoestima del personal</span>",
-              "ancho": 330,
-              "alto": 40,
-              "x": 550,
-              "y": 75,
-              "relleno": "#B2EBF2",
-              "borde": "#1E88E5",
-              "anchoBorde": 1,
-              "orden": 11
-            },
-            {
-              "id": 10,
-              "forma": "rect",
-              "texto": "<span class='h5 estrecho'>Adecuación a la Ley</span>",
-              "ancho": 350,
-              "alto": 40,
-              "x": 950,
-              "y": 100,
-              "borde": "#B2EBF2",
-              "anchoBorde": 3,
-              "dashArray": "5,5",
-              "orden": 15
-            },
-            {
-              "id": 11,
-              "forma": "rect",
-              "texto": "<span class='h5 estrecho'>Satisfacción de las Autoridades Sanitarias</span>",
-              "ancho": 350,
-              "alto": 70,
-              "x": 950,
-              "y": 190,
-              "borde": "#B2EBF2",
-              "anchoBorde": 3,
-              "dashArray": "5,5",
-              "orden": 17
-            },
-            {
-              "id": 12,
-              "forma": "rect",
-              "texto": "<span class='h5 estrecho'>Menor estrés al cumplir con los requisitos de Sanidad.<br>(La vigilancia demasiado estrecha del Inspector de Sanidad puede llegar a ser estresante)</span>",
-              "ancho": 350,
-              "alto": 150,
-              "x": 950,
-              "y": 300,
-              "borde": "#B2EBF2",
-              "anchoBorde": 3,
-              "dashArray": "5,5",
-              "orden": 19
-            },
-            {
-              "id": 13,
-              "forma": "rect",
-              "texto": "Ganancia económica",
-              "ancho": 1300,
-              "alto": 40,
-              "x": 1,
-              "y": 570,
-              "relleno": "#C8E6C9",
-              "borde": "#4CAF50",
-              "anchoBorde": 3,
-              "orden": 27
-
-            },
-            {
-              "id": 14,
-              "forma": "rect",
-              "texto": "<span class='h4'>Posible ampliación del negocio</span>",
-              "ancho": 300,
-              "alto": 50,
-              "x": 500,
-              "y": 660,
-              "borde": "#4CAF50",
-              "anchoBorde": 3,
-              "orden": 29
-            },
-            {
-              "id": 15,
-              "forma": "rect",
-              "texto": "<span class='h4'>Nuevos puestos de trabajo<br>Ascensos</span>",
-              "ancho": 300,
-              "alto": 100,
-              "x": 500,
-              "y": 745,
-              "borde": "#4CAF50",
-              "anchoBorde": 3,
-              "orden": 31
-            }
-          ],
-          "enlaces": [
-            {
-              "origen": 1,
-              "destino": 2,
-              "color": "#1E88E5",
-              "orden": 2
-            },
-            {
-              "origen": 1,
-              "destino": 9,
-              "color": "#1E88E5",
-              "orden": 10
-            },
-            {
-              "origen": 2,
-              "destino": 3,
-              "color": "#1E88E5",
-              "orden": 4
-            },
-            {
-              "origen": 3,
-              "destino": 4,
-              "color": "#1E88E5",
-              "orden": 6
-            },
-            {
-              "origen": 4,
-              "destino": 5,
-              "color": "#1E88E5",
-              "orden": 8
-            },
-            {
-              "origen": 5,
-              "destino": 7,
-              "color": "#1E88E5",
-              "orden": 20
-            },
-            {
-              "origen": 5,
-              "destino": 6,
-              "color": "#1E88E5",
-              "orden": 24
-            },
-
-            {
-              "origen": 7,
-              "destino": 8,
-              "color": "#1E88E5",
-              "orden": 22
-            },
-            {
-              "origen": 9,
-              "destino": 8,
-              "color": "#1E88E5",
-              "orden": 12
-            },
-            {
-              "origen": 8,
-              "destino": 10,
-              "color": "#1E88E5",
-              "orden": 14
-            },
-            {
-              "origen": 8,
-              "destino": 5,
-              "color": "#1E88E5",
-              "orden": 23
-            },
-            {
-              "origen": 10,
-              "destino": 11,
-              "color": "#1E88E5",
-              "orden": 16
-            },
-            {
-              "origen": 11,
-              "destino": 12,
-              "color": "#1E88E5",
-              "orden": 18
-            },
-            {
-              "origen": 6,
-              "destino": 13,
-              "color": "#4CAF50",
-              "orden": 26
-            },
-            {
-              "origen": 13,
-              "destino": 14,
-              "color": "#4CAF50",
-              "orden": 28
-            },
-            {
-              "origen": 14,
-              "destino": 15,
-              "color": "#4CAF50",
-              "orden": 30
-            }
-          ]
-        }
-      ]
-    },
-    {
       "titulo": "Diagrama de flujo",
-      "contenido": [
-        {
-          "clase": "texto",
-          "animacion": "fadeInRight",
-          "texto": "A grandes rasgos podríamos definir un diagrama de flujo de frutas y verduras desde su origen hasta el consumidor final según las siguientes etapas:"
-        },
-        {
-          "clase": "diagrama",
-          "retardo": 500,
-          "cajas": [
-            {
-              "id": 1,
-              "forma": "rect",
-              "texto": "Producción Primaria",
-              "ancho": 300,
-              "alto": 60,
-              "x": 400,
-              "y": 1,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 1
-            },
-            {
-              "id": 2,
-              "forma": "rect",
-              "texto": "Recolección",
-              "ancho": 300,
-              "alto": 60,
-              "x": 400,
-              "y": 100,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 3
-            },
-            {
-              "id": 3,
-              "forma": "rect",
-              "texto": "Transporte",
-              "ancho": 300,
-              "alto": 60,
-              "x": 400,
-              "y": 200,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 5
-            },
-            {
-              "id": 4,
-              "forma": "rect",
-              "texto": "Almacenamiento",
-              "ancho": 300,
-              "alto": 60,
-              "x": 400,
-              "y": 300,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 7
-            },
-            {
-              "id": 4.5,
-              "forma": "rect",
-              "texto": "<span class='h5 estrecho'>PRODUCTOS FRESCOS</span>",
-              "ancho": 350,
-              "alto": 40,
-              "x": 950,
-              "y": 100,
-              "borde": "#B2EBF2",
-              "anchoBorde": 3,
-              "dashArray": "5,5",
-              "orden": 7.5
-            },
-            {
-              "id": 5,
-              "forma": "rect",
-              "texto": "Frutería",
-              "ancho": 300,
-              "alto": 60,
-              "x": 1,
-              "y": 400,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 9
-            },
-            {
-              "id": 6,
-              "forma": "rect",
-              "texto": "Envasado y Transporte",
-              "ancho": 300,
-              "alto": 60,
-              "x": 1,
-              "y": 500,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 11
-            },
-            {
-              "id": 8,
-              "forma": "rect",
-              "texto": "Exposición y venta",
-              "ancho": 300,
-              "alto": 60,
-              "x": 1,
-              "y": 700,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 13
-            },
-            {
-              "id": 9,
-              "forma": "rect",
-              "texto": "Industria procesadora",
-              "ancho": 300,
-              "alto": 60,
-              "x": 800,
-              "y": 400,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 15
-            },
-            {
-              "id": 10,
-              "forma": "rect",
-              "texto": "Almacenamiento",
-              "ancho": 300,
-              "alto": 60,
-              "x": 800,
-              "y": 500,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 17
-            },
-            {
-              "id": 11,
-              "forma": "rect",
-              "texto": "Acondicionamiento",
-              "ancho": 300,
-              "alto": 60,
-              "x": 800,
-              "y": 600,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 19
-            },
-            {
-              "id": 12,
-              "forma": "rect",
-              "texto": "Procesado",
-              "ancho": 300,
-              "alto": 60,
-              "x": 800,
-              "y": 700,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 21
-            },
-            {
-              "id": 13,
-              "forma": "rect",
-              "texto": "Envasado",
-              "ancho": 300,
-              "alto": 60,
-              "x": 800,
-              "y": 800,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 23
-            },
-            {
-              "id": 14,
-              "forma": "rect",
-              "texto": "Almacenamiento / Distribución",
-              "ancho": 300,
-              "alto": 60,
-              "x": 800,
-              "y": 900,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 25
-            }
-          ],
-          "enlaces": [
-            {
-              "origen": 1,
-              "destino": 2,
-              "color": "#65acb0",
-              "orden": 2
-            },
-            {
-              "origen": 2,
-              "destino": 3,
-              "color": "#65acb0",
-              "orden": 4
-            },
-            {
-              "origen": 3,
-              "destino": 4,
-              "color": "#65acb0",
-              "orden": 6
-            },
-            {
-              "origen": 4,
-              "destino": 5,
-              "color": "#65acb0",
-              "orden": 8
-            },
-            {
-              "origen": 5,
-              "destino": 6,
-              "color": "#65acb0",
-              "orden": 10
-            },
-            {
-              "origen": 6,
-              "destino": 7,
-              "color": "#65acb0",
-              "orden": 12
-            },
-            {
-              "origen": 4,
-              "destino": 8,
-              "color": "#65acb0",
-              "orden": 14
-            },
-            {
-              "origen": 8,
-              "destino": 9,
-              "color": "#65acb0",
-              "orden": 16
-            },
-            {
-              "origen": 9,
-              "destino": 10,
-              "color": "#65acb0",
-              "orden": 18
-            },
-            {
-              "origen": 10,
-              "destino": 11,
-              "color": "#65acb0",
-              "orden": 20
-            },
-            {
-              "origen": 11,
-              "destino": 12,
-              "color": "#65acb0",
-              "orden": 22
-            },
-            {
-              "origen": 12,
-              "destino": 13,
-              "color": "#65acb0",
-              "orden": 24
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Alteraciones",
-      "contenido": [
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "lista",
-              "titulo": "No existe gran diferencia entre frutas y hortalizas a la hora de sufrir alteraciones.<br>El deterioro puede producirse por:",
-              "contenido": [
-                {
-                  "punto": "Heridas, golpes y zonas machacadas provocadas durante su  recolección, transporte y almacenamiento. Estas zonas son más sensibles al ataque de microorganismos, que originarán olores y sabores desagradables."
-                },
-                {
-                  "punto": "Lesiones y daños causadas por insectos y orugas. Provocan graves modificaciones (principalmente del aspecto y características organolépticas) que las hacen inaceptables comercialmente. Estas lesiones favorecen, además, el ataque de microorganismos."
-                },
-                {
-                  "punto": "Alteración por microorganismos. Además de las zonas dañadas, muchas frutas y hortalizas pueden ser atacadas por microorganismos, lo que les conferirán olores y sabores desagradables. La composición química de frutas y hortalizas las hace menos sensibles al ataque de bacterias (provocan manchas, podredumbres…) pero por el contrario favorece el ataque por hongos (levaduras y mohos), siendo éstos los principales causantes de podredumbres o enmohecimientos."
-                },
-                {
-                  "punto": "Envejecimiento. Se adquiere una textura blanda y se hacen muy sensibles a alteraciones microbiológicas (podredumbres) y alteraciones internas."
-                }
-              ]
-            },
-            {
-              "clase": "listaObjetos",
-              "subclase": "columna",
-              "contenido": [
-                {
-                  "clase": "imagen",
-                  "imagen": "img/modFru/caracol.jpg"
-                },
-                {
-                  "clase": "imagen",
-                  "imagen": "img/modFru/manzanaFea.jpg"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "lista",
-          "titulo": "Condiciones no apropiadas de almacenamiento: (temperatura, humedad, luz, etc)",
-          "contenido": [
-            {
-              "punto": "Si la temperatura es demasiado baja pueden producirse coloraciones extrañas en la pulpa y en la piel, dando apariencia de quemaduras. Suele ser frecuente en productos tropicales transportados o almacenados a temperaturas más bajas de las recomendadas."
-            },
-            {
-              "punto": "Si la humedad es demasiado baja, para compensarla, se produce en la fruta u hortaliza una deshidratación, lo que provoca el marchitamiento y el arrugado. Por el contrario, una humedad excesiva favorece el desarrollo de mohos."
-            },
-            {
-              "punto": "Algunos productos deben protegerse de la luz para evitar la germinación o, como las patatas, que se vuelvan verdes (lo que indica la presencia de solanina, que es una sustancia tóxica)."
-            },
-            {
-              "punto": "Almacenar juntos productos que liberan mucho etileno junto a productos muy sensibles a éste, puede provocar una maduración prematura no deseada."
-            }
-          ]
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/patatanegra.png"
-            },
-            {
-              "clase": "icono",
-              "subclase": "sabiasQue",
-              "texto": "<b>Sabías que…</b><br> almacenar las patatas a bajas temperaturas provoca que el almidón se transforme en azúcares simples y por eso las patatas adquieren un sabor dulce? (Pero también has de saber que hay variedades más dulces que otras)."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Diagrama de flujo",
-      "contenido": [
-        {
-          "clase": "texto",
-          "animacion": "fadeInRight",
-          "texto": "A grandes rasgos podríamos definir un diagrama de flujo de frutas y verduras desde su origen hasta el consumidor final según las siguientes etapas:"
-        },
-        {
-          "clase": "diagrama",
-          "retardo": 1,
-          "cajas": [
-            {
-              "id": 1,
-              "forma": "rect",
-              "texto": "Producción Primaria",
-              "ancho": 300,
-              "alto": 60,
-              "x": 400,
-              "y": 1,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 1
-            },
-            {
-              "id": 2,
-              "forma": "rect",
-              "texto": "Recolección",
-              "ancho": 300,
-              "alto": 60,
-              "x": 400,
-              "y": 100,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 3
-            },
-            {
-              "id": 3,
-              "forma": "rect",
-              "texto": "Transporte",
-              "ancho": 300,
-              "alto": 60,
-              "x": 400,
-              "y": 200,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 5
-            },
-            {
-              "id": 4,
-              "forma": "rect",
-              "texto": "Almacenamiento",
-              "ancho": 300,
-              "alto": 60,
-              "x": 400,
-              "y": 300,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 7
-            },
-            {
-              "id": 5,
-              "forma": "rect",
-              "texto": "Frutería",
-              "ancho": 300,
-              "alto": 60,
-              "x": 1,
-              "y": 400,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 9
-            },
-            {
-              "id": 6,
-              "forma": "rect",
-              "texto": "Envasado y Transporte",
-              "ancho": 300,
-              "alto": 60,
-              "x": 1,
-              "y": 500,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 11
-            },
-            {
-              "id": 8,
-              "forma": "rect",
-              "texto": "Exposición y venta",
-              "ancho": 300,
-              "alto": 60,
-              "x": 1,
-              "y": 700,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 13
-            },
-            {
-              "id": 9,
-              "forma": "rect",
-              "texto": "Industria procesadora",
-              "ancho": 300,
-              "alto": 60,
-              "x": 800,
-              "y": 400,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 15
-            },
-            {
-              "id": 10,
-              "forma": "rect",
-              "texto": "Almacenamiento",
-              "ancho": 300,
-              "alto": 60,
-              "x": 800,
-              "y": 500,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 17
-            },
-            {
-              "id": 11,
-              "forma": "rect",
-              "texto": "Acondicionamiento",
-              "ancho": 300,
-              "alto": 60,
-              "x": 800,
-              "y": 600,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 19
-            },
-            {
-              "id": 12,
-              "forma": "rect",
-              "texto": "Procesado",
-              "ancho": 300,
-              "alto": 60,
-              "x": 800,
-              "y": 700,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 21
-            },
-            {
-              "id": 13,
-              "forma": "rect",
-              "texto": "Envasado",
-              "ancho": 300,
-              "alto": 60,
-              "x": 800,
-              "y": 800,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 23
-            },
-            {
-              "id": 14,
-              "forma": "rect",
-              "texto": "Almacenamiento / Distribución",
-              "ancho": 300,
-              "alto": 60,
-              "x": 800,
-              "y": 900,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 25
-            }
-          ],
-          "enlaces": [
-            {
-              "origen": 1,
-              "destino": 2,
-              "color": "#65acb0",
-              "orden": 2
-            },
-            {
-              "origen": 2,
-              "destino": 3,
-              "color": "#65acb0",
-              "orden": 4
-            },
-            {
-              "origen": 3,
-              "destino": 4,
-              "color": "#65acb0",
-              "orden": 6
-            },
-            {
-              "origen": 4,
-              "destino": 5,
-              "color": "#65acb0",
-              "orden": 8
-            },
-            {
-              "origen": 5,
-              "destino": 6,
-              "color": "#65acb0",
-              "orden": 10
-            },
-            {
-              "origen": 6,
-              "destino": 7,
-              "color": "#65acb0",
-              "orden": 12
-            },
-            {
-              "origen": 4,
-              "destino": 8,
-              "color": "#65acb0",
-              "orden": 14
-            },
-            {
-              "origen": 8,
-              "destino": 9,
-              "color": "#65acb0",
-              "orden": 16
-            },
-            {
-              "origen": 9,
-              "destino": 10,
-              "color": "#65acb0",
-              "orden": 18
-            },
-            {
-              "origen": 10,
-              "destino": 11,
-              "color": "#65acb0",
-              "orden": 20
-            },
-            {
-              "origen": 11,
-              "destino": 12,
-              "color": "#65acb0",
-              "orden": 22
-            },
-            {
-              "origen": 12,
-              "destino": 13,
-              "color": "#65acb0",
-              "orden": 24
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Diagrama de flujo IMG",
       "contenido": [
         {
           "clase": "texto",
@@ -1833,8 +924,197 @@
         {
           "clase": "icono",
           "subclase": "exclamacion",
-          "opacidad": 0.8,
           "texto": "<b>RECUERDA:</b><br>De cara al cliente, es importante resaltar que un lavado correcto de frutas y vegetales, antes de su consumo, conllevará la eliminación de contaminantes físicos como tierra o arena, minimizará la presencia de contaminantes químicos como posibles restos de pesticidas y de contaminantes biológicos."
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminación de origen: Medidas preventivas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Las medidas preventivas para evitar o minimizar la contaminación de origen se basan en unas buenas prácticas higiénico-sanitarias en la producción primaria, especialmente en los siguientes puntos:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Para prevenir la contaminación química, no cultivar en zonas que puedan suponer un foco de contaminación (cerca de fábricas, aguas residuales, etc.). Respecto al uso de pesticidas, sólo se podrán utilizar aquellos productos que estén autorizados para su uso en el cultivo correspondiente, respetando siempre dosis y el plazo de seguridad establecido. Deben ser aplicados por personal formado y capacitado."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/factory.jpg",
+              "ancho": 500
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/irrigation.jpg",
+              "ancho": 500
+            },
+            {
+              "clase": "texto",
+              "texto": "Para prevenir la contaminación biológica, se ha de utilizar agua de riego libre de contaminación (se ha de evaluar, por tanto, la procedencia del agua y el tipo de riego empleado) y los abonos deben sufrir un proceso de compostaje en el que se alcanza una temperatura elevada capaz de eliminar a los microorganismos patógenos."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "texto": "<b>Compostaje:</b><br>Consiste en la degradación de la materia orgánica mediante su oxidación y la acción de diversos microorganismos presentes en los propios residuos.",
+          "imagen": "img/modFru/compost.jpg",
+          "ancho": 200
+        }
+      ]
+    },
+    {
+      "titulo": "Transporte y almacenamiento",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Tanto el transporte como el almacenamiento son etapas que tienen en común el uso de instalaciones, superficies, equipos, utensilios, recipientes, envases y/o medios de transporte, que entran en contacto directo con frutas y hortalizas frescas, existiendo el peligro de contaminaciones:",
+          "contenido": [
+            {
+              "punto": "Física: incorporación de objetos extraños provenientes de restos de embalajes o de la maquinaria utilizada (por ejemplo: tornillos)."
+            },
+            {
+              "punto": "Química: por la presencia de productos químicos que no deben estar en contacto con los alimentos o por restos de detergentes o desinfectantes presentes en los equipos, superficies, etc. en contacto con ellos."
+            },
+            {
+              "punto": "Biológica: al utilizar equipos, instalaciones, etc. sucias o en estado incorrecto de limpieza y desinfección. Prácticas incorrectas de manipulación que causen golpes, aplastamientos, cortes, etc. con lo que se facilita el acceso a microorganismos. Contaminación cruzada al almacenar/transportar las frutas y hortalizas mezcladas entre sí o junto a otros productos crudos."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "También hay que tener en cuenta que un almacenamiento prolongado favorecerá la multiplicación de bacterias y mohos, por lo que se hace necesario un buen control en el almacenamiento."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/modFru/almacen.jpg",
+          "ancho": 500
+        }
+      ]
+    },
+    {
+      "titulo": "Transporte y almacenamiento: Medidas preventivas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "<b>Medidas preventivas</b>",
+              "contenido": [
+                {
+                  "punto": "Cargar y descargar de forma cuidadosa."
+                },
+                {
+                  "punto": "Proteger la mercancía durante el traslado, evitando que los productos se recalienten y pierdan agua."
+                },
+                {
+                  "punto": "Mantener las condiciones de temperatura, humedad relativa y circulación de aire constantes para aquellos productos que lo requieran."
+                },
+                {
+                  "punto": "Utilizar cajas de un solo uso (cartón, madera o similar) o en caso de ser reutilizables, de materiales fáciles de lavar y desinfectar (descartándose la madera en este caso)."
+                },
+                {
+                  "punto": "Controlar las medidas higiénicas de los vehículos de transporte y almacenes."
+                },
+                {
+                  "punto": "No transportar ni almacenar frutas y hortalizas junto a otros alimentos o productos químicos que puedan contaminarlos."
+                },
+                {
+                  "punto": "Mantener un control y rotación adecuados de los productos almacenados."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
+              "imagen": "img/modFru/sandiamal.jpg",
+              "ancho": 500
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "La refrigeración es recomendable para almacenar algunas frutas y hortalizas frescas, ya que retrasa la maduración, el reblandecimiento y el cambio de textura y color. Además evita la pérdida de humedad y el deterioro por invasión de bacterias y hongos."
+        },
+        {
+          "clase": "texto",
+          "texto": "Las condiciones de almacenamiento dependerán del tipo de producto, ya que existen frutas y hortalizas sensibles al frío (oscurecimiento, alteraciones…), a la humedad (por ejemplo: aparición de raíces) y al etileno."
+        }
+      ]
+    },
+    {
+      "titulo": "Frutas y hortalizas destinadas a Frutería",
+      "fondo": "img/modFru/fondofruta.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "En el punto de venta al público de frutas y hortalizas frescas, los productos deben clasificarse y presentarse ordenados, separando aquellos productos que puedan transmitir al resto olores o sabores extraños (cebollas, ajos, …)."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Se deben retirar aquellas piezas que presenten signos de deterioro o podredumbre a un lugar adecuado."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Si se trata de autoservicio, se deben proporcionar los medios adecuados (guantes de un solo uso y bolsas de plástico) para una manipulación higiénica de los productos por el público. En otro caso no debe permitirse el contacto directo por el público."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Todos los productos se depositarán sobre estanterías, vitrinas, o cualquier otro medio de exposición que impida el contacto directo de los alimentos con el suelo, y toda superficie o material que entre en contacto con el producto será fácil de limpiar y desinfectar."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Los productos de cuarta gama, que necesitan frío para su conservación, se expondrán en vitrinas o expositores que mantengan temperaturas de refrigeración."
+        }
+      ]
+    },
+    {
+      "titulo": "Frutas y hortalizas destinadas a Industria",
+      "fondo": "img/modFru/fondoindustria.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Sin entrar en mayor detalle, las frutas y hortalizas cuyo destino sea la Industria Procesadora serán sometidos a diversas operaciones previas, pasando por una o más etapas de procesado hasta la obtención del producto final: congelados, productos de IV gama o conservas.<br><br>Entre estas operaciones previas están aquellas destinadas al acondicionamiento, como pueden ser lavado, pelado, troceado, etc."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "En estas etapas de acondicionamiento, frutas y verduras pueden contaminarse debido a una falta de limpieza y desinfección de equipos y utensilios o por manipulaciones poco higiénicas del personal. Además hay que tener en cuenta que el pelado favorece el acceso a los microorganismos y el cortado incrementa el área expuesta."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Posteriormente se realizará un procesado específico según el producto final a conseguir. En cada una de estas etapas existen peligros de contaminación física, química y biológica a los que además se puede añadir la multiplicación microbiológica, por lo que las medidas preventivas estarán enfocadas en la prevención de dicha contaminación y a impedir la multiplicación microbiológica."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "En el caso de las conservas, se someterán a un proceso de eliminación de microorganismos (esterilización)."
         }
       ]
     },
@@ -1960,55 +1240,8 @@
       ]
     },
     {
-      "titulo": "Frutas y hortalizas destinadas a Frutería",
-      "contenido": [
-        {
-          "clase": "lista",
-          "contenido": [
-            {
-              "punto": "En el punto de venta al público de frutas y hortalizas frescas, los productos deben clasificarse y presentarse ordenados, separando aquellos productos que puedan transmitir al resto olores o sabores extraños (cebollas, ajos, …)."
-            },
-            {
-              "punto": "Se deben retirar aquellas piezas que presenten signos de deterioro o podredumbre a un lugar adecuado."
-            },
-            {
-              "punto": "Si se trata de autoservicio, se deben proporcionar los medios adecuados (guantes de un solo uso y bolsas de plástico) para una manipulación higiénica de los productos por el público. En otro caso no debe permitirse el contacto directo por el público."
-            },
-            {
-              "punto": "Todos los productos se depositarán sobre estanterías, vitrinas, o cualquier otro medio de exposición que impida el contacto directo de los alimentos con el suelo, y toda superficie o material que entre en contacto con el producto será fácil de limpiar y desinfectar."
-            },
-            {
-              "punto": "Los productos de cuarta gama, que necesitan frío para su conservación, se expondrán en vitrinas o expositores que mantengan temperaturas de refrigeración."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Frutas y hortalizas destinadas a Industria",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Sin entrar en mayor detalle, las frutas y hortalizas cuyo destino sea la Industria Procesadora serán sometidos a diversas operaciones previas, pasando por una o más etapas de procesado hasta la obtención del producto final: congelados, productos de IV gama o conservas."
-        },
-        {
-          "clase": "texto",
-          "texto": "Entre estas operaciones previas están aquellas destinadas al acondicionamiento, como pueden ser lavado, pelado, troceado, etc.<br><br>En estas etapas de acondicionamiento, frutas y verduras pueden contaminarse debido a una falta de limpieza y desinfección de equipos y utensilios o por manipulaciones poco higiénicas del personal. Además hay que tener en cuenta que el pelado favorece el acceso a los microorganismos y el cortado incrementa el área expuesta."
-        },
-        {
-          "clase": "texto",
-          "texto": "Posteriormente se realizará un procesado específico según el producto final a conseguir. En cada una de estas etapas existen peligros de contaminación física, química y biológica a los que además se puede añadir la multiplicación microbiológica, por lo que las medidas preventivas estarán enfocadas en la prevención de dicha contaminación y a impedir la multiplicación microbiológica.<br><br>En el caso de las conservas, se someterán a un proceso de eliminación de microorganismos (esterilización)."
-        }
-      ]
-    },
-    {
       "titulo": "IR REPARTIENDO POR EL MÓDULO",
       "contenido": [
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "<b>¿Sabías qué...</b><br>por su alto contenido de ácido, el limón es capaz de matar bacterias y por este motivo, representa un excelente desinfectante natural?"
-        },
         {
           "clase": "icono",
           "subclase": "sabiasQue",
@@ -2029,6 +1262,7 @@
         {
           "clase": "texto",
           "subclase": "recuadro",
+          "opacidad": 0.8,
           "animacion": "fadeInRight",
           "texto": "<p>Con este módulo se cierra la formación de manipuladores  de alimentos. Esperamos que lo hayas encontrado instructivo a la par que entretenido. Cualquier sugerencia o mejora que te parezca oportuna para mejorar el curso será bienvenida.</p><br><p>¡Acuérdate de cumplimentar el cuestionario del curso para que podamos evaluar todo lo que has aprendido! ¡Muchas gracias!</p>"
         }
