@@ -386,7 +386,7 @@ function getArrayImagenes(modulo) {
 "img/modFru/manzanaFea.jpg",
 "img/modFru/diagrama.png",
 "img/modFru/fresas.jpg",
-"img/modFru/contaminacionq.png",
+"img/modFru/contaminacionq.svg",
 "img/modFru/zanahorias.jpg"
         ]);
             break;

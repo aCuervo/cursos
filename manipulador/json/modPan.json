@@ -1,5 +1,5 @@
 ﻿{
-  "modulo": "Módulo Específico: Sector Frutas, verduras y derivados",
+  "modulo": "Módulo Específico: Sector Panadería y pastelería",
   "imagenEncabezado": "img/comunes/logo.svg",
   "contenido": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "titulo": "Introducción",
-      "fondo": "img/modFru/greengrocers.jpg",
+      "fondo": "img/modPan/01.Fondo.jpg",
       "contenido": [
         {
           "clase": "texto",
@@ -23,7 +23,7 @@
           "subclase": "recuadro",
           "opacidad": 0.8,
           "animacion": "fadeInRight",
-          "texto": "En este Módulo vas a poder ampliar la información vista anteriormente pero enfocada exclusivamente al Sector de las Frutas y Hortalizas, desde las alteraciones más comunes que sufren estos productos hasta los peligros más específicos, como pueden ser ciertos contaminantes químicos."
+          "texto": "En este Módulo vas a poder ampliar la información vista anteriormente pero enfocada exclusivamente al Sector de Panadería y Pastelería, desde las alteraciones más comunes que sufren estos productos hasta los peligros más específicos."
         }
       ]
     },
@@ -34,7 +34,8 @@
           "clase": "icono",
           "animacion": "fadeInRight",
           "subclase": "definicion",
-          "texto": "<b>Definiciones:</b><br>A continuación vamos a ver la definición de hortalizas, verduras, legumbres, frutas y setas."
+          "texto": "<b>Definición:</b><br>Pan, sin otro calificativo, designa el producto perecedero resultante de la cocción de una masa obtenida por la mezcla de harina, sal comestible y agua potable, fermentada por especies de microorganismos propias de la fermentación panaria y que, posteriormente, puede ser sometido o no aun proceso de conservación autorizado.",
+          "imagen": "img/modPan/02.Cuadro.jpg"
         },
         {
           "clase": "tabs",
@@ -77,7 +78,39 @@
       ]
     },
     {
-      "titulo": "Origen de las hortalizas",
+      "titulo": "A1 Origen de las frutas y hortalizas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/frutas.jpg"
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Los distintos vegetales que consumimos como alimento tienen su origen en los distintos tipos de tejidos vegetales. En la segunda imagen puedes ver el origen de las hortalizas según la parte de la planta que se consume."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "Los frutos (los de sabor dulce reciben el nombre de frutas) se originan a partir de la pared del ovario de la flor (pistilo), la cual por efecto de las hormonas vegetales adopta un grosor y consistencia muy variable, en función del tipo de fruto que se trate."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/verduras.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "A2 Origen de las hortalizas",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -95,7 +128,7 @@
       ]
     },
     {
-      "titulo": "Origen de las frutas",
+      "titulo": "A2 Origen de las frutas",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -107,6 +140,40 @@
             {
               "clase": "imagen",
               "imagen": "img/modFru/frutas.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "A3 Origen de las frutas y hortalizas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Los distintos vegetales que consumimos como alimento tienen su origen en los distintos tipos de tejidos vegetales. En la segunda imagen puedes ver el origen de las hortalizas según la parte de la planta que se consume."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/verduras.jpg",
+              "ancho": 400
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/frutas.jpg",
+              "ancho": 400
+            },
+            {
+              "clase": "texto",
+              "texto": "Los frutos (los de sabor dulce reciben el nombre de frutas) se originan a partir de la pared del ovario de la flor (pistilo), la cual por efecto de las hormonas vegetales adopta un grosor y consistencia muy variable, en función del tipo de fruto que se trate."
             }
           ]
         }
@@ -317,7 +384,7 @@
 
             {
               "titulo": "Color <b>amarillo/anaranjado</b>",
-              "texto": "Es el color de los carotenos cuya acción antioxidante es muy efectiva:  aumenta la protección frente al cáncer, fortalece la vista, ayuda a combatir infecciones de la piel, contrarresta las alteraciones producidas por los rayos UVA, minimizando o reduciendo la flacidez de la piel y la aparición de arrugas... También son beneficiosos para el Sistema Respiratorio. Frutas y vegetales de color amarillo o naranja destacan por el contenido en Vitamina C y minerales como el potasio. Algunos ejemplos son: cítricos, melocotón, calabaza, zanahoria, mango y papaya entre otros.",
+              "texto": "Es el color de los carotenos cuya acción antioxidante es muy efectiva, aumentando la protección frente al cáncer, fortalecen la vista (ya que son precursores de la Vitamina A), ayudan a combatir infecciones de la piel y tienen propiedades fotoprotectoras al contrarrestar las alteraciones producidas por los rayos UVA (minimizando o reduciendo la flacidez de la piel y la aparición de arrugas). El Beta-caroteno es altamente beneficioso para el Sistema Respiratorio. Frutas y vegetales de color amarillo o naranja destacan por su contenido en Vitamina C y minerales como el potasio.<br>Dentro de este grupo se encuentran: cítricos, melocotón, calabaza, zanahoria, mango y papaya entre otros.",
               "imagen": "img/modFru/mediaNaranja.jpg",
               "ancho": 800
             },
@@ -562,7 +629,7 @@
     },
     {
       "titulo": "Deterioro",
-      "fondo": "img/modFru/fruitsFondo2.jpg",
+      "fondo": "img/modFru/fruitsFondo.jpg",
       "contenido": [
         {
           "clase": "texto",
@@ -580,8 +647,8 @@
               "ancho": 200
             },
             {
-              "titulo": "Animales",
-              "texto": "Lesiones y daños causadas por aves, insectos, orugas, caracoles, etc. Provocan graves modificaciones (principalmente del aspecto y características organolépticas) que las hacen inaceptables comercialmente. Estas lesiones favorecen, además, el ataque de microorganismos.",
+              "titulo": "Insectos",
+              "texto": "Lesiones y daños causadas por insectos y orugas. Provocan graves modificaciones (principalmente del aspecto y características organolépticas) que las hacen inaceptables comercialmente. Estas lesiones favorecen, además, el ataque de microorganismos.",
               "imagen": "img/modFru/caracol.jpg",
               "ancho": 200
             },
@@ -726,7 +793,7 @@
             {
               "clase": "texto",
               "subclase": "celo",
-              "texto": "<b>Contaminación de productos frescos:</b><br>En este bloque se incluyen aquellos peligros asociados a los productos destinados a ser vendidos en fresco o a productos de cuarta gama."
+              "texto": "<b>Conteminación de productos frescos:</b><br>En este bloque se incluyen aquellos peligros asociados a los productos destinados a ser vendidos en fresco o a productos de cuarta gama."
             },
             {
               "clase": "texto",
@@ -777,7 +844,6 @@
     },
     {
       "titulo": "Contaminación de origen: Física",
-      "fondo": "img/modFru/nutrientes.svg",
       "contenido": [
         {
           "clase": "texto",
@@ -788,16 +854,20 @@
           "contenido": [
             {
               "clase": "texto",
-              "subclase": "recuadro",
-              "opacidad": 0.8,
               "texto": "<b>Contaminación física:</b> En origen frutas y verduras pueden traer consigo tierra, piedras, trozos de plástico, astillas de madera, etc. que serán eliminados posteriormente."
             },
             {
               "clase": "imagen",
               "imagen": "img/modFru/zanahorias.jpg",
-              "ancho": 250
+              "ancho": 300
             }
           ]
+        },
+        {
+          "clase": "imagen",
+          "subclase": "ajustarAncho",
+          "animacion": "fadeInUp",
+          "imagen": "img/mod3/nutrientes.svg"
         },
         {
           "clase": "icono",
@@ -865,7 +935,7 @@
             },
             {
               "clase": "imagen",
-              "imagen": "img/modFru/contaminacionq.svg"
+              "imagen": "img/modFru/contaminacionq.png"
             }
           ]
         },
