@@ -4,60 +4,30 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <html>
 <head>
-    <style type="text/css">
-        #cursos {
-            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-            #cursos td, #cursos th {
-                border: 1px solid #ddd;
-                padding: 8px;
-            }
-
-            #cursos tr:nth-child(even) {
-                background-color: #f2f2f2;
-            }
-
-            #cursos tr:hover {
-                background-color: #ddd;
-            }
-
-            #cursos th {
-                padding-top: 12px;
-                padding-bottom: 12px;
-                text-align: center;
-                background-color: #4CAF50;
-                color: white;
-            }
-
-        #nomcurso, #nomfamilia {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            text-align: center;
-            color: black;
-        }
-
-        img {
-            display: block;
-            margin: auto;
-            width: 10px;
-            height: 10px;
-        }
-
-        .clearfix {
-            overflow: auto;
-            zoom: 1;
-        }
-
-        path {
-            fill: red;
-        }
-    </style>
-
+    <title>Cabecera fija</title>
+    <link rel="stylesheet" href="localstyle.css">
 </head>
 <body>
+   
+    <!-- / franciscoamk.com -->
+    <header id="main-header">
+
+        <a id="logo-header" href="#">
+            <span class="site-name">Mavi NT</span>
+            <span class="site-desc">Consultoría / Formación / Moodle</span>
+        </a> <!-- / #logo-header -->
+
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav><!-- / nav -->
+
+    </header><!-- / #main-header -->
+    <!-- / franciscoamk.com -->
+
 
     <div class="container" style="overflow-x:auto;">
         <h2>MOODLE</h2>
@@ -669,7 +639,7 @@
                     <td>01</td>
                     <td><a href="manipulador/indexFrut.html">Módulo específico</a></td>
                     <td><img src="alimerka/img/comunes/tick_menu.svg" /></td>
-                    <td></td>
+                    <td><img src="alimerka/img/comunes/tick_menu.svg" /></td>
                     <td></td>
                     <td></td>
                     <td id="implement"></td>
@@ -711,6 +681,10 @@
             </tbody>
         </table>
     </div>
+
+    <footer id="main-footer">
+        <p>&copy;2017 <a href="http://www.mavint.es">Mavi Nuevas Tecnologías</a></p>
+    </footer> <!-- / #main-footer -->
 
 </body>
 </html>

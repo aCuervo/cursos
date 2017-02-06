@@ -28,55 +28,133 @@
       ]
     },
     {
-      "titulo": "Definiciones",
+      "titulo": "Definiciones de pan",
       "contenido": [
         {
           "clase": "icono",
           "animacion": "fadeInRight",
           "subclase": "definicion",
-          "texto": "<b>Definición:</b><br>Pan, sin otro calificativo, designa el producto perecedero resultante de la cocción de una masa obtenida por la mezcla de harina, sal comestible y agua potable, fermentada por especies de microorganismos propias de la fermentación panaria y que, posteriormente, puede ser sometido o no aun proceso de conservación autorizado.",
-          "imagen": "img/modPan/02.Cuadro.jpg"
+          "texto": "<b>Definición:</b><br><b>Pan</b>, sin otro calificativo, designa el producto perecedero resultante de la cocción de una masa obtenida por la mezcla de harina, sal comestible y agua potable, fermentada por especies de microorganismos propias de la fermentación panaria y que, posteriormente, puede ser sometido o no aun proceso de conservación autorizado.",
+          "imagen": "img/modPan/02.Cuadro.jpg",
+          "ancho": 200
         },
         {
           "clase": "tabs",
           "animacion": "fadeInRight",
           "contenido": [
             {
-              "titulo": "Hortalizas",
-              "texto": "Toda planta herbácea que se cultiva y que es adecuada para el consumo, bien cruda o bien cocinada. El término </b>verdura</b> hace referencia a los órganos verdes de dichas plantas, especialmente hojas, tallos, frutos en vaina o flores.",
-              "imagen": "img/modFru/hortalizas.jpg",
-              "ancho": 200
+              "titulo": "Pan común",
+              "texto": "Es el producto resultante de la cocción de una masa obtenida por la mezcla de harina de trigo, agua, con o sin sal fermentada. Dentro del pan común, que puede presentarse bajo las formas de barra, baguette, chapata, payés, gallego, etc., tenemos:<br><b>Pan candeal o de miga dura</b>: es el pan de miga prieta o bregada y blanca, generalmente en forma de hogaza. Puede recibir distintos nombres en función de los formatos que adopta: lechuguino, pan de cruz, rosca, fabiola, etc.<br><b>Pan de flama o miga blanda</b>: es el pan elaborado con una mayor proporción de agua y su miga es esponjosa, blanda y no precisa refinado."
             },
             {
-              "titulo": "Legumbres",
-              "texto": "Semillas contenidas en las vainas de las plantas de la familia de las leguminosas. El término legumbres frescas se refiere a los frutos y semillas no maduros de las hortalizas leguminosas.",
-              "imagen": "img/modFru/legumbres.jpg",
-              "ancho": 200
+              "titulo": "Pan especial",
+              "texto": "Contiene ingredientes adicionales, otras harinas, un proceso de elaboración diverso y un formato diferente. Entre los panes especiales, tenemos:<br><b>Pan integral</b>:  es el pan elaborado con harinas integrales (las que contienen el salvado del cereal).<br><b>Pan de Viena</b>: es el pan elaborado con leche y materias grasas, en forma de barra o panecillo abizcochado.<br><b>Pan de otro cereal</b>: es el que se elabora con harina de trigo mezclada con harina de otro cereal, recibiendo el nombre de este otro, del que debe contener, al menos, un 51% (pan de centeno, pan de maíz, multicereales, etc.)<br><b>Pan tostado</b>: es el pan que, después de cocido, es cortado en rebanadas y sometido a tostación y envasado. Puede contener otros ingredientes como grasas, azúcares y otros cereales.<br><b>Pan de molde</b>: es el pan que tiene una ligera corteza blanda y que para su cocción ha sido introducido en molde.<br><b>Otros panes</b>: todos aquellos panes que por razones de sus ingredientes adicionales, de su forma externa o el procedimiento de elaboración, son también panes especiales: pan dulce, pan de frutas, palillos, bastones, colines, pan ácimo, etc."
             },
             {
-              "titulo": "Frutas",
-              "texto": "El conjunto de frutos comestibles de ciertas plantas cultivadas o silvestres.",
-              "imagen": "img/modFru/fruits.jpg",
-              "ancho": 200
-            },
-            {
-              "titulo": "Setas",
-              "texto": "Son variedades de hongos comestibles, entre los que destacan champiñones, níscalos, boletus, etc.",
-              "imagen": "img/modFru/setas.jpg",
-              "ancho": 200
+              "titulo": "Productos semielaborados",
+              "texto": "Se refieren al pan precocido, a las masas congeladas y a otras masas semielaboradas:<br><b>Pan precocido</b>: es la masa de pan cuya cocción ha sido interrumpida antes de llegar a su finalización, siendo sometida posteriormente a un proceso de congelación o a cualquier otro proceso de conservación autorizado.<br><b>Masa congelada</b>: es la masa que, habiendo sido o no fermentada y habiendo sido o no formada la pieza, ha sido posteriormente congelada.<br><b>Masas semielaboradas</b>: aquellas que, habiendo sido o no fermentadas y habiendo sido o no formadas las piezas, han sido posteriormente sometidas a un proceso de conservación autorizado, distinto de la congelación, de tal forma que se inhiba, en su caso, el proceso de fermentación."
             }
           ]
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "animacion": "fadeInRight",
-          "texto": "<b>¿Sabías que...</b><br>en su origen las variedades de zanahorias tenían diferentes colores púrpura, blanco, amarillo… y que según una tradición el actual color naranja se debe a un cruce de variedades realizado deliberadamente en el siglo XVI en Holanda para homenajear a la Casa Real Holandesa de Orange cuyo emblema era el color naranja?",
-          "imagen": "img/modFru/carrots.jpg",
-          "ancho": 150
         }
       ]
     },
+    {
+      "titulo": "Productos de confitería",
+      "fondo": "img/modPan/03.Fondo.jpg",
+      "contenido": [
+        {
+          "clase": "icono",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "subclase": "definicion",
+          "texto": "<b>Definición:<br>Productos de Confitería:</b> Son aquellos productos alimenticios cuyos ingredientes fundamentales son los azúcares, junto con otros ingredientes, incluidos los aditivos autorizados, y que en alguna fase de la elaboración se someten a un tratamiento térmico adecuado."
+        }
+      ]
+    },
+    {
+      "titulo": "Productos de bollería",
+      "contenido": [
+        {
+          "clase": "icono",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "subclase": "definicion",
+          "texto": "<b>Definición:<br>Productos de Bollería:</b> Son aquellos productos alimenticios elaborados básicamente con <b>masa de harinas fermentadas</b> y que han sido sometidos a un tratamiento térmico adecuado. Pueden contener otros alimentos, complementos panarios y aditivos autorizados."
+        },
+        {
+          "clase": "texto",
+          "texto": "Las piezas de bollería se elaboran con masa de harinas fermentadas, y se caracterizan por la aplicación de levadura que las hace fermentar y puedan así, conseguir volumen. En los productos de pastelería y repostería, la presencia de levadura no es obligatoria. Por regla general, existen dos tipos de bollería:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "acordeon",
+              "contenido": [
+                {
+                  "titulo": "Bollería ordinaria",
+                  "texto": "Sin relleno ni guarnición de ningún tipo, es decir, están constituidas únicamente por una masa fermentada y cocida o frita."
+                },
+                {
+                  "titulo": "Bollería rellena o guarnecida",
+                  "texto": "Antes o después del tratamiento térmico adecuado, se han rellenado o guarnecido con diferentes productos allimenticios dulces o salados.<br><b>Rellenos</b> son las elaboraciones que se introducen dentro de las piezas.<br><b>Guarniciones</b> son las que van dentro o encima de la pieza."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/04.Bolleria.jpg",
+              "ancho": 500
+            }
+          ]
+        }
+      
+
+          ]
+        },
+      {
+      "titulo": "Productos de pasteleria y repostería",
+      "contenido": [
+        {
+          "clase": "icono",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "subclase": "definicion",
+          "texto": "<b>Definición:<br>Productos de pastelería y respostería:</b> Son aquellos productos alimenticios elaborados básicamente con masa de harina, fermentada o no, rellena o no, cuyos ingredientes principales son harinas, aceites o grasas, agua, con o sin levadura, a la que se pueden añadir otros alimentos, complementos panarios o aditivos autorizados y que han sido sometidos a un tratamiento térmico adecuado."
+        },
+        {
+          "clase": "texto",
+          "texto": "Existen dos variantes: pastelería y repostería dulce y pastelería y repostería salada, y en ambas pueden distinguirse, al menos, cinco masas básicas:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "acordeon",
+              "contenido": [
+                {
+                  "titulo": "Bollería ordinaria",
+                  "texto": "Sin relleno ni guarnición de ningún tipo, es decir, están constituidas únicamente por una masa fermentada y cocida o frita."
+                },
+                {
+                  "titulo": "Bollería rellena o guarnecida",
+                  "texto": "Antes o después del tratamiento térmico adecuado, se han rellenado o guarnecido con diferentes productos allimenticios dulces o salados.<br><b>Rellenos</b> son las elaboraciones que se introducen dentro de las piezas.<br><b>Guarniciones</b> son las que van dentro o encima de la pieza."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/04.Bolleria.jpg",
+              "ancho": 500
+            }
+          ]
+        }
+      
+
+          ]
+        },
+
+
     {
       "titulo": "A1 Origen de las frutas y hortalizas",
       "contenido": [
