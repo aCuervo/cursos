@@ -52,8 +52,12 @@ img {
 /*
  * Logo
  */
-#logo-header {
+#divCabeceraImagen {
     float: left;
+    height: 100%;
+}
+#logo-header {
+    /*float: left;*/
     padding: 15px 0 0 20px;
     text-decoration: none;
 }
@@ -127,8 +131,8 @@ nav {
     background: #333;
     color: white;
     text-align: center;
-    padding: 20px;
-    margin-top: 40px;
+    padding: 10px;
+    margin-top: 20px;
     width: 100%; /* hacemos que el pie ocupe el ancho completo de la página */
     left: 0; /* Posicionamos el pie al lado izquierdo */
     bottom: 0; /* Posicionamos el pie pegada arriba */

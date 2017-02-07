@@ -83,7 +83,7 @@
         },
         {
           "clase": "texto",
-          "texto": "Las piezas de bollería se elaboran con masa de harinas fermentadas, y se caracterizan por la aplicación de levadura que las hace fermentar y puedan así, conseguir volumen. En los productos de pastelería y repostería, la presencia de levadura no es obligatoria. Por regla general, existen dos tipos de bollería:"
+          "texto": "Las piezas de bollería se elaboran con masa de harinas fermentadas, y se caracterizan por la aplicación de levadura que las hace fermentar y puedan así, conseguir volumen. Por regla general, existen dos tipos de bollería:"
         },
         {
           "clase": "listaObjetos",
@@ -108,11 +108,9 @@
             }
           ]
         }
-      
-
-          ]
-        },
-      {
+      ]
+    },
+    {
       "titulo": "Productos de pasteleria y repostería",
       "contenido": [
         {
@@ -123,405 +121,216 @@
           "texto": "<b>Definición:<br>Productos de pastelería y respostería:</b> Son aquellos productos alimenticios elaborados básicamente con masa de harina, fermentada o no, rellena o no, cuyos ingredientes principales son harinas, aceites o grasas, agua, con o sin levadura, a la que se pueden añadir otros alimentos, complementos panarios o aditivos autorizados y que han sido sometidos a un tratamiento térmico adecuado."
         },
         {
-          "clase": "texto",
-          "texto": "Existen dos variantes: pastelería y repostería dulce y pastelería y repostería salada, y en ambas pueden distinguirse, al menos, cinco masas básicas:"
-        },
-        {
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "acordeon",
+              "clase": "lista",
+              "titulo": "Existen dos variantes:",
               "contenido": [
                 {
-                  "titulo": "Bollería ordinaria",
-                  "texto": "Sin relleno ni guarnición de ningún tipo, es decir, están constituidas únicamente por una masa fermentada y cocida o frita."
+                  "punto": "Pastelería y repostería <b>dulce</b>."
                 },
                 {
-                  "titulo": "Bollería rellena o guarnecida",
-                  "texto": "Antes o después del tratamiento térmico adecuado, se han rellenado o guarnecido con diferentes productos allimenticios dulces o salados.<br><b>Rellenos</b> son las elaboraciones que se introducen dentro de las piezas.<br><b>Guarniciones</b> son las que van dentro o encima de la pieza."
+                  "punto": "Pastelería y repostería <b>salada</b>."
                 }
               ]
             },
             {
               "clase": "imagen",
-              "imagen": "img/modPan/04.Bolleria.jpg",
-              "ancho": 500
-            }
-          ]
-        }
-      
-
-          ]
-        },
-
-
-    {
-      "titulo": "A1 Origen de las frutas y hortalizas",
-      "contenido": [
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/frutas.jpg"
-            },
-            {
-              "clase": "listaObjetos",
-              "subclase": "columna",
-              "contenido": [
-                {
-                  "clase": "texto",
-                  "texto": "Los distintos vegetales que consumimos como alimento tienen su origen en los distintos tipos de tejidos vegetales. En la segunda imagen puedes ver el origen de las hortalizas según la parte de la planta que se consume."
-                },
-                {
-                  "clase": "texto",
-                  "texto": "Los frutos (los de sabor dulce reciben el nombre de frutas) se originan a partir de la pared del ovario de la flor (pistilo), la cual por efecto de las hormonas vegetales adopta un grosor y consistencia muy variable, en función del tipo de fruto que se trate."
-                }
-              ]
+              "imagen": "img/modPan/04.1PR_Dulce.jpg"
             },
             {
               "clase": "imagen",
-              "imagen": "img/modFru/verduras.jpg"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "A2 Origen de las hortalizas",
-      "contenido": [
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "texto",
-              "texto": "Los distintos vegetales que consumimos como alimento tienen su origen en los distintos tipos de tejidos vegetales. En la imagen verás el origen de las hortalizas según la parte de la planta que se consume."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/verduras.jpg"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "A2 Origen de las frutas",
-      "contenido": [
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "texto",
-              "texto": "Los frutos (los de sabor dulce reciben el nombre de frutas) se originan a partir de la pared del ovario de la flor (pistilo), la cual por efecto de las hormonas vegetales adopta un grosor y consistencia muy variable, en función del tipo de fruto que se trate."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/frutas.jpg"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "A3 Origen de las frutas y hortalizas",
-      "contenido": [
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "texto",
-              "texto": "Los distintos vegetales que consumimos como alimento tienen su origen en los distintos tipos de tejidos vegetales. En la segunda imagen puedes ver el origen de las hortalizas según la parte de la planta que se consume."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/verduras.jpg",
-              "ancho": 400
+              "imagen": "img/modPan/04.2PR_Salado.jpg"
             }
           ]
         },
         {
-          "clase": "listaObjetos",
-          "contenido": [
-
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/frutas.jpg",
-              "ancho": 400
-            },
-            {
-              "clase": "texto",
-              "texto": "Los frutos (los de sabor dulce reciben el nombre de frutas) se originan a partir de la pared del ovario de la flor (pistilo), la cual por efecto de las hormonas vegetales adopta un grosor y consistencia muy variable, en función del tipo de fruto que se trate."
-            }
-          ]
+          "clase": "icono",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "subclase": "exclamacion",
+          "texto": "En los productos de pastelería y repostería, la presencia de levadura no es obligatoria."
         }
       ]
     },
     {
-      "titulo": "Clasificación de las hortalizas",
+      "titulo": "Productos semielaborados",
+      "fondo": "img/modPan/05.Fondo.jpg",
       "contenido": [
         {
           "clase": "icono",
-          "subclase": "exclamacion",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "subclase": "definicion",
+          "texto": "<b>Definición:<br>Productos de bollería, repostería y pastelería semielaborados</b> son aquellos preparados alimenticios elaborados únicamente con masa de harinas fermentada o no, rellena o no, con ingredientes como harinas, aceites o grasa, sal, agua, con o sin levadura, a la que se han añadido o no otros alimentos o aditivos."
+        },
+
+        {
+          "clase": "lista",
+          "subclase": "recuadro",
+          "animacion": "fadeInRight",
+          "opacidad": 0.8,
+          "titulo": "Se clasifican en crudos y precocidos.",
+          "contenido": [
+            {
+              "punto": "Los <b>crudos</b> son aquellos productos de bollería, repostería y pastelería que, sin haber recibido un tratamiento térmico, han sido sometidos a un proceso de congelación o de conservación autorizado."
+            },
+            {
+              "punto": "Los <b>precocidos</b> son aquellos productos de bollería, repostería y pastelería cuya cocción ha sido interrumpida antes de llegar a su finalización, siendo posteriormente, en caso necesario, sometidos a un proceso de congelación o de conservación autorizado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Tipos de masas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
           "animacion": "slideInRight",
-          "texto": "<center>Sitúa el ratón sobre cada icono para ver la clasificación y algunos ejemplos.</center>"
+          "texto": "Para la elaboración de los productos de panadería y repostería, tanto en la modalidad dulce como en la modalidad salada, existen, al menos cinco masas básicas"
         },
         {
           "clase": "texto",
-          "texto": "<center><b>HORTALIZAS</b><br>Las hortalizas se clasifican según su órgano de consumo en:</center>"
+          "subclase": "instruccion",
+          "animacion": "slideInRight",
+          "texto": "<center>Sitúa el ratón sobre cada icono para ver información y algunos ejemplos.</center>"
         },
         {
           "clase": "circulo",
-          "subclase": "semi",
-          "contenido": [
-            {
-              "imagen": "img/modFru/hraiz.jpg",
-              "titulo": "Raíz",
-              "texto": "Nabo, rábano, zanahoria, remolacha."
-            },
-            {
-              "imagen": "img/modFru/htuberculos.jpg",
-              "titulo": "Tubérculo",
-              "texto": "Patata, batata, mandioca o yuca."
-            },
-            {
-              "imagen": "img/modFru/hbulbos.jpg",
-              "titulo": "Bulbo",
-              "texto": "Ajo, cebolla, puerro."
-            },
-            {
-              "imagen": "img/modFru/htallos.jpg",
-              "titulo": "Hojas y tallos tiernos",
-              "texto": "Lechuga, perejil, acelga, berro, repollo, espárragos, apio."
-            },
-            {
-              "imagen": "img/modFru/hinflorescencia.jpg",
-              "titulo": "Inflorescencia",
-              "texto": "Alcachofa, brócoli, coliflor, romanescu."
-            },
-            {
-              "imagen": "img/modFru/hfrutos.jpg",
-              "titulo": "Frutos",
-              "texto": "Pimiento, berenjena, guindilla, tomate."
-            },
-            {
-              "imagen": "img/modFru/hsemillas.jpg",
-              "titulo": "Semilla",
-              "texto": "Haba, guisante, alubia, garbanzo, lenteja."
-            },
-            {
-              "imagen": "img/modFru/hpeponides.jpg",
-              "titulo": "Pepónides",
-              "texto": "Calabaza, pepino, calabacín. También melón y sandía pero que vamos a asignar como Frutas."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Clasificación de las frutas",
-      "contenido": [
-        {
-          "clase": "icono",
-          "subclase": "exclamacion",
+          "subclase": "horizontal",
           "animacion": "slideInRight",
-          "texto": "<center>Sitúa el ratón sobre cada icono para ver la clasificación y algunos ejemplos.</center>"
-        },
-        {
-          "clase": "texto",
-          "texto": "<center><b>FRUTAS</b></center>"
-        },
-        {
-          "clase": "circulo",
-          "subclase": "semi",
           "contenido": [
             {
-              "imagen": "img/modFru/fsecos.jpg",
-              "titulo": "Frutos secos",
-              "texto": "Nuez, avellana, castaña, almendra"
+              "imagen": "img/modPan/06.1Hojaldre.jpg",
+              "titulo": "Masa de hojaldre",
+              "texto": "Masa trabajada con aceites o grasas con las que se producen hojas delgadas superpuestas. Es una masa compuesta por harina, grasa comestible, aceite, sal y agua. A nivel industrial se conoce como “masa de croissant” a un tipo de masa de hojaldre fermentada.<br><b>Ejemplos</b>: Pasteles, cocas, bandas de crema, bandas de frutas, milhojas, palmeras, canutos, lazos, etc."
             },
             {
-              "imagen": "img/modFru/fhueso.jpg",
-              "titulo": "Frutas de hueso",
-              "texto": "Melocotón, nectarina, paraguayo, albaricoque, aguacate, ciruela, cereza."
+              "imagen": "img/modPan/06.2MasasAzucaradas.jpg",
+              "titulo": "Masas azucaradas",
+              "texto": "Compuestas fundamentalmente a base de harina, aceite u otras grasas y azúcares comestibles. A nivel industrial se consideran las “masas quebradas” como una variante de este tipo de masa.<br><b>Ejemplos</b>: Pastas secas o de té, tortas, mantecados, polvorones, lenguas de gato, tejas, etc."
             },
             {
-              "imagen": "img/modFru/fpepita.jpg",
-              "titulo": "Frutas de pepita",
-              "texto": "Manzana, pera, níspero, membrillo."
+              "imagen": "img/modPan/06.3MasasEscaldadas.jpg",
+              "titulo": "Masas escaldadas",
+              "texto": "Son masas cocidas antes de someterlas al tratamiento térmico y están compuestas a base de harina, sal, agua, leche, aceites o grasas comestibles y, en su caso, bebidas alcohólicas. A nivel industrial vienen referidas como “masas cocidas”.<br><b>Ejemplos</b>: Relámpagos, lionesas, roscos rellenos, etc."
             },
             {
-              "imagen": "img/modFru/fgrano.jpg",
-              "titulo": "Frutas de grano",
-              "texto": "Fresa e higo."
+              "imagen": "img/modPan/06.4MasasBatidas.jpg",
+              "titulo": "Masas batidas",
+              "texto": "Son masas sometidas a batido, lo que da como resultado masas de gran volumen, tiernas y suaves. Se componen fundamentalmente de huevos, azúcares y/o harinas y almidones.<br><b>Ejemplos</b>: Bizcochos, magdalenas, merengues, brazos de gitano, búlgaros, etc."
             },
             {
-              "imagen": "img/modFru/fbayas.jpg",
-              "titulo": "Bayas",
-              "texto": "Frambuesa, grosella, mora, zarzamora."
-            },
-            {
-              "imagen": "img/modFru/fpeponides.jpg",
-              "titulo": "Pepónides",
-              "texto": "Melón y sandía."
-            },
-            {
-              "imagen": "img/modFru/fcitricos.jpg",
-              "titulo": "Cítricos",
-              "texto": "Limón, naranja, mandarina, lima, pomelo."
-            },
-            {
-              "imagen": "img/modFru/ftropical.jpg",
-              "titulo": "Frutas tropicales",
-              "texto": "Kiwi, piña, mango, papaya, plátano, chirimoya, coco."
+              "imagen": "img/modPan/06.5MasasReposteria.jpg",
+              "titulo": "Masas de repostería",
+              "texto": "Son las masas elaboradas a partir de las anteriores, preparadas con relleno o guarnición de otros productos.<br><b>Ejemplos</b>: Tocinos de cielo, almendrados, yemas, masas de mazapán, turrones, alfajores, caramelos, jarabes, confitados de frutas, figuras y motivos decorativos, etc."
             }
           ]
         }
       ]
     },
     {
-      "titulo": "Composición química: Nutrientes",
+      "titulo": "Ingredientes de la masa",
       "contenido": [
         {
-          "clase": "texto",
-          "texto": "Las propiedades nutritivas de frutas y hortalizas dependen de la composición química –nutrientes- del producto: vitaminas, minerales y otros compuestos. Esta composición es propia de cada fruta (y a su vez de su variedad) y de cada hortaliza. <br>Entre sus componentes destacan:<br><br>"
-        },
-        {
-          "clase": "acordeonSub",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "titulo": "Agua",
-              "texto": "Es el elemento mayoritario en la composición. Con la excepción de los frutos secos, todas las Frutas y Hortalizas tiene en común un elevado contenido en agua."
+              "clase": "imagen",
+              "imagen": "img/modPan/07.0Cuadro.jpg",
+              "ancho": 200
             },
             {
-              "titulo": "Hidratos de Carbono",
-              "texto": "Las hortalizas son ricas en hidratos de carbono complejos (almidón) mientras que las frutas tienen en mayor cantidad hidratos de carbono sencillos o azúcares (fructosa, glucosa y sacarosa). Por esta razón las hortalizas carecen del sabor dulce propio de las frutas (con la excepción del tomate)."
-            },
-            {
-              "titulo": "Fibra",
-              "texto": "La fibra tiene composición compleja y confiere a las hortalizas rigidez y sensación de fibrosidad. Es la parte de los alimentos vegetales comestibles que no es digerida por nuestro aparato digestivo."
-            },
-            {
-              "titulo": "Vitaminas",
-              "contenido": [
-                {
-                  "titulo": "Información general",
-                  "texto": "Son compuestos químicos que el organismo no es capaz de sintetizar (excepto la vitamina D) y son indispensables, en cantidades muy pequeñas, para la vida. Su déficit provoca trastornos y enfermedades, pero también hemos de saber que su exceso puede llegar a provocar problemas muy graves a la salud, aunque cabe reseñar que esto último a través del consumo de alimentos en forma natural es muy difícil. Destacan:"
-                },
-                {
-                  "titulo": "Vitamina A",
-                  "texto": "Participa en la regeneración celular (lo que influye en el crecimiento y desarrollo de los huesos), estimula el sistema inmunitario y mejora la visión. También tiene función antioxidante."
-                },
-                {
-                  "titulo": "Vitaminas del grupo B",
-                  "texto": "Intervienen en la transformación de los alimentos en energía y son responsables de mantener la salud y el funcionamiento correcto de muchos Sistemas del cuerpo humano (Nervioso, Digestivo, Circulatorio, Inmunológico…)."
-                },
-                {
-                  "titulo": "Vitamina C",
-                  "texto": "Imprescindible para la formación de colágeno y en numerosas reacciones del organismo (mantenimiento de cartílagos, huesos y dientes; disminuye los niveles de tensión arterial lo que contribuye a prevenir enfermedades cardiovasculares; ayuda en la asimilación del Hierro; previene o mejora afecciones de la piel, etc…). También tiene función antioxidante."
-                },
-                {
-                  "titulo": "Vitamina E",
-                  "texto": "Es un antioxidante natural. Protege al organismo contra los efectos del envejecimiento."
-                },
-                {
-                  "titulo": "Vitamina K",
-                  "texto": "Se la conoce como la vitamina de la coagulación, porque sin ella la sangre no coagularía."
-                }
-              ]
-            },
-            {
-              "titulo": "Minerales",
-              "texto": "Los minerales son elementos inorgánicos que el organismo necesita para funcionar, y deben ingerirse con los alimentos. Cumplen variedad de funciones: estructura de huesos y dientes, transporte de oxígeno en glóbulos rojos, transmisión de impulsos nerviosos, contracción muscular, respuesta inmunológica, etc. La composición de frutas y hortalizas aporta un gran número de minerales como hierro, potasio, magnesio, fósforo, etc."
+              "clase": "texto",
+              "texto": "El pan se elabora a partir de harina, agua, sal y levadura.<br>Los productos de bollería y pastelería se elaboran a partir de cuatro ingredientes básicos: harina, grasa, azúcar y/o huevos.<br><br>Las materias primas seleccionadas pueden amasarse, de tal forma que se obtienen masas duras o blandas que se caracterizan por su capacidad de retención de líquidos, o pueden agitarse y batirse para obtener pastas, que son meclas espumosas que contienen poca harina."
             }
           ]
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "<b>¿Sabías qué...</b><br>las calorías de la fruta dependen casi exclusivamente de su contenido de hidratos de carbono –su contenido en grasas es casi inapreciable-, a excepción del caso del aguacate y del coco, frutas en las que el contenido graso determina su valor energético (en el aguacate la mayor parte es grasa “saludable”, mientras que en el coco la mayor parte es grasa saturada, “menos saludable”)?"
-        }
-      ]
-    },
-    {
-      "titulo": "Composición química: Colores",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "La composición química va a conferir a cada fruta un aroma y un sabor únicos. Pero también va a influir sobre el propio color que presentan frutas y hortalizas.<br><br>El color que presenten puede darnos una idea de su composición química. Tenemos así:"
         },
         {
           "clase": "sliderB",
           "contenido": [
             {
-              "titulo": "Color <b>verde</b>",
-              "texto": "Es el color de la clorofila por lo que es indicativo de riqueza en Magnesio, mineral que participa en el proceso de relajación muscular (por tanto su carencia puede provocar sensación de cansancio sin causa que lo justifique, tensión muscular y calambres). Contienen, además, sustancias que refuerzan el Sistema Inmunológico (defensas) y son una fuente importante de Vitamina C y fibra.<br>En este grupo destacan: brócoli, lima, kiwi, espinacas, guisantes, lechugas, aguacates y uvas verdes, entre otros.",
-              "imagen": "img/modFru/kiwi.jpg",
-              "ancho": 800
+              "titulo": "Harina",
+              "texto": "Es la materia fundamental en la elaboración de la mayoría de los productos.<br>Cuando la harina se mezcla con el agua, se obtiene una masa que presenta unas características variables según las propiedades de la harina y los componentes de la fórmula usada para conseguir esa masa.",
+              "imagen": "img/modPan/07.1Harina.jpg",
+              "ancho": 600
             },
 
             {
-              "titulo": "Color <b>amarillo/anaranjado</b>",
-              "texto": "Es el color de los carotenos cuya acción antioxidante es muy efectiva, aumentando la protección frente al cáncer, fortalecen la vista (ya que son precursores de la Vitamina A), ayudan a combatir infecciones de la piel y tienen propiedades fotoprotectoras al contrarrestar las alteraciones producidas por los rayos UVA (minimizando o reduciendo la flacidez de la piel y la aparición de arrugas). El Beta-caroteno es altamente beneficioso para el Sistema Respiratorio. Frutas y vegetales de color amarillo o naranja destacan por su contenido en Vitamina C y minerales como el potasio.<br>Dentro de este grupo se encuentran: cítricos, melocotón, calabaza, zanahoria, mango y papaya entre otros.",
-              "imagen": "img/modFru/mediaNaranja.jpg",
-              "ancho": 800
+              "titulo": "Agua",
+              "texto": "",
+              "imagen": "img/modPan/07.2Agua.jpg",
+              "ancho": 600
             },
             {
-              "titulo": "Color <b>blanco</b>",
-              "texto": "Es el color de los polifenoles, que son compuestos antioxidantes que ayudan a reducir el riesgo de enfermedades cardiovasculares y cáncer. Tienen efectos antibacterianos, antimicóticos y antiinflamatorios  y refuerzan el Sistema Inmunológico.<br>En este grupo destacan: ajos, cebollas, pepinos, setas y frutas de carne blanca como plátanos, peras y manzanas.",
-              "imagen": "img/modFru/mediaCebolla.jpg",
-              "ancho": 800
+              "titulo": "Levadura",
+              "texto": "",
+              "imagen": "img/modPan/07.3Levadura.jpg",
+              "ancho": 600
             },
             {
-              "titulo": "Color <b>rojo, morado/azul</b>",
-              "texto": "Al igual que frutas y hortalizas de color naranja, poseen carotenos, de los cuales hemos visto sus efectos beneficiosos, pero además, frutas y hortalizas de color rojo intenso/morado son ricas en flavonoides que son compuestos con propiedades antioxidantes que protegen contra la oxidación de vitaminas, enzimas y hormonas. A estos compuestos se les suma otro de color rojo intenso (licopeno) de idéntico efecto. Todos ellos contribuyen a la salud de la memoria y  son compuestos muy beneficiosos para la salud cardiovascular, ya que ayudan a prevenir la hipertensión por sus propiedades vasodilatadoras y reduciendo la formación de placas de colesterol en las arterias.<br>Se incluyen en este grupo: berenjenas, lombardas, ciruelas, uvas tintas, arándanos, moras, tomates, pimientos rojos, rábanos, fresas, frambuesas, cerezas, etc.",
-              "imagen": "img/modFru/berries.jpg",
-              "ancho": 800
+              "titulo": "Sal",
+              "texto": "",
+              "imagen": "img/modPan/07.4Sal.jpg",
+              "ancho": 600
+            },
+            {
+              "titulo": "Otros componentes",
+              "texto": "",
+              "imagen": "img/modPan/07.5Otros.jpg",
+              "ancho": 600
             }
           ]
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "<b>¿Sabías qué...</b><br>por su alto contenido de ácido, el limón es capaz de matar bacterias y por este motivo, representa un excelente desinfectante natural?"
         }
       ]
     },
     {
-      "titulo": "Desarrollo de frutas y hortalizas",
+      "titulo": "Harina: Composición",
       "contenido": [
         {
           "clase": "listaObjetos",
           "contenido": [
+
             {
               "clase": "listaObjetos",
               "subclase": "columna",
               "contenido": [
-
                 {
-                  "clase": "texto",
-                  "texto": "La vida de frutas y hortalizas se puede dividir en tres etapas fundamentales:"
+                  "clase": "icono",
+                  "opacidad": 0.8,
+                  "animacion": "fadeInRight",
+                  "subclase": "definicion",
+                  "texto": "<b>Definición:<br>Harina</b> es el producto de la molturación del trigo industrialmente limpio. Está compuesta por:"
                 },
                 {
                   "clase": "acordeon",
                   "contenido": [
                     {
-                      "titulo": "Etapa de desarrollo y crecimiento",
-                      "texto": "Durante esta etapa se produce el aumento de volumen hasta alcanzar el tamaño final.",
-                      "imagen": "img/modFru/apple.jpg",
-                      "ancho": 300
+                      "titulo": "Hidratos de carbono",
+                      "texto": "La harina es una buena fuente de hidratos de carbono complejos, principalmente almidón, constituyéndose como el componente principal de la harina."
                     },
                     {
-                      "titulo": "Maduración",
-                      "texto": "Conjunto de procesos de desarrolllo y cambios cuya consecuencia es la adquisición de las características físico-químicas propias.",
-                      "imagen": "img/modFru/maduracion.jpg",
-                      "ancho": 300
+                      "titulo": "Proteínas",
+                      "texto": "El pan aporta proteínas vegetales procedentes del grano del cereal. En el pan abunda una proteína llamada gluten que hace posible que el pan sea panificable. La harina fuerte es rica en gluten y tiene la capacidad de retener mucha agua, dando masas consistentes y elásticas, panes de buen aspecto, textura y volumen.  La harina floja es pobre en gluten, absorbe poca agua, forma masas flojas, por lo que se emplean en la elaboración de galletas u otros productos de repostería."
                     },
                     {
-                      "titulo": "Senescencia",
-                      "texto": "Proceso de envejecimiento de las células de los tejidos, lo que lleva a la muerte del producto.",
-                      "imagen": "img/modFru/senescencia.jpg",
-                      "ancho": 300
+                      "titulo": "Agua",
+                      "texto": "El contenido en agua de las harinas es muy bajo, en proporción inferior al 15%."
+                    },
+                    {
+                      "titulo": "Fibra",
+                      "texto": "Las variedades integrales y de cereales son las más ricas en fibra, ya que contienen mayor cantidad de cáscara procedente de los granos."
+                    },
+                    {
+                      "titulo": "Grasas",
+                      "texto": "Los contenidos en materia grasa en la harina son muy reducidos y provienen de residuos de la cáscara (depende del grado de extracción de la harina). Cuanto mayor sea su cantidad, más fácil es el enranciamiento."
+                    },
+                    {
+                      "titulo": "Vitaminas y minerales",
+                      "texto": "Es fuente de vitaminas del grupo B (B1, B2, B3 y B6) y E, pero después de la cocción su cantidad es mínima, y elementos minerales como P, Mg y K. La mayoría de los minerales y vitaminas se encuentran en las capas exteriores de los granos de cereales."
                     }
                   ]
                 }
@@ -529,316 +338,27 @@
             },
             {
               "clase": "imagen",
-              "imagen": "img/modFru/oranges.jpg"
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "Frutas y hortalizas son estructuras vivas que  después de la recolección, siguen desarrollando procesos metabólicos y mantienen sus sistemas fisiológicos funcionando (respiración, transpiración, etc).<br>Cuando están unidas a la planta, cualquier pérdida de nutrientes o de agua se compensa por el flujo de savia, pero tras la recolección ya no existe ese aporte, así que cuando estas reservas de agua y nutrientes decaen o se agotan, la estructura vegetal colapsa. Por este motivo los vegetales son productos perecederos."
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "<b>¿Sabías qué...</b><br>no se debe mantener la fruta en bolsas o envases de plástico, ya que éstos retienen la humedad y el calor que libera la fruta, lo que provoca su enmohecimiento, deterioro y pudrición?"
-        }
-      ]
-    },
-    {
-      "titulo": "Maduración",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "La maduración de las frutas está ligada a una serie de complejas transformaciones de su composición química.<br>Cuando se recolectan las frutas, sus tejidos siguen activos y <b>respiran</b>. Estos procesos tienen gran importancia porque influyen en los cambios que se producen durante el almacenamiento, transporte y comercialización de las frutas."
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/frutaverde.jpg",
-              "ancho": 250
-            },
-            {
-              "clase": "lista",
-              "titulo": "Durante la maduración, se producen unos cambios esenciales:",
-              "contenido": [
-                {
-                  "punto": "Cambios en la respiración."
-                },
-                {
-                  "punto": "Cambios en la composición química."
-                }
-              ]
-            },
-            {
-
-              "clase": "imagen",
-              "imagen": "img/modFru/frutanaranja.jpg",
-              "ancho": 250
-            }
-          ]
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/modFru/manzanaCorte.png",
-          "ancho": 400
-        },
-
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "<b>¿Sabías qué...</b><br>podemos acelerar la maduración de las frutas si las envolvemos en papel de periódico ya que así se retiene el etileno que va liberando y lo mismo sucede con las frutas verdes si las guardamos junto a frutas –climatéricas- maduras, ya que éstas liberan mucho etileno?"
-        }
-
-
-
-      ]
-    },
-    {
-      "titulo": "Maduración: Cambios en la respiración",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "<b>Respiración:</b><br><br>Mientras la fruta se está desarrollando la respiración va aumentando, hasta llegar a un punto en el que empieza a disminuir lentamente. A partir de este punto si la intensidad respiratoria:<br><br>"
-        },
-        {
-          "clase": "acordeon",
-          "contenido": [
-            {
-              "titulo": "Aumenta",
-              "texto": "Aumenta, de repente, hasta alcanzar un valor máximo (punto climatérico) hablamos de frutas climatéricas. En ese punto la fruta llega a su estado de maduración y a partir del mismo la intensidad respiratoria vuelve a descender hasta la muerte de todas las células de la fruta. Son frutas que pueden seguir madurando aunque se hayan recolectado. Así, se recolectan  antes de que estén maduras porque aguantan mucho mejor el transporte y el almacenamiento. Son ejemplo de este tipo de frutas: plátano, pera, manzana.",
-              "imagen": "img/modFru/graficoMaduracion.png",
-              "ancho": 500
-            },
-            {
-              "titulo": "Sigue disminuyendo",
-              "texto": "Sigue disminuyendo hasta que todas las células se mueren. Son frutas no climatéricas y no sufren transformaciones importantes una vez se han recolectado, por lo que deben dejarse madurar en la planta.  Por eso estas frutas no se venden si no está maduras, ya que no son capaces de madurar una vez recolectadas. Por ejemplo: fresas, uvas, cítricos.",
-              "imagen": "img/modFru/graficoNoclimaterico.png",
-              "ancho": 500
+              "imagen": "img/modPan/08.Lateral.jpg",
+              "ancho": 400
             }
           ]
         },
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "texto": "<b>¿Sabías qué...</b><br>la temperatura influye directamente sobre la respiración de la fruta, de tal forma que a mayor temperatura mayor es la velocidad de respiración? Por eso si se mantiene baja la temperatura, se disminuye la respiración del producto y se ayuda a prolongar su vida útil?"
-        }
-      ]
-    },
-    {
-      "titulo": "Maduración: Cambios en la composición química",
-      "fondo": "img/modFru/strawberryPlant.jpg",
-      "contenido": [
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "opacidad": 0.7,
-          "texto": "Cambios en la composición química:<br>La mayoría de los componentes de la fruta se transforman, lo que conlleva cambios en el color, olor, sabor y textura de la fruta.<br>El fruto verde, está compuesto principalmente por agua, clorofila, almidón, celulosas y ácidos. Esto hace que tenga color verde, una textura dura y el sabor sea insípido o ácido."
-        },
-        {
-          "clase": "lista",
-          "subclase": "recuadro",
-          "opacidad": 0.7,
-          "titulo": "Con la maduración:",
-          "contenido": [
-            {
-              "punto": "El almidón se transforma en azúcares sencillos, lo que hace que el sabor sea más dulce."
-            },
-            {
-              "punto": "Las pectinas se solubilizan, lo que provoca un ablandamiento de la fruta."
-            },
-            {
-              "punto": "La concentración de ácidos disminuye (excepto en los cítricos) por lo que su sabor es menos ácido."
-            },
-            {
-              "punto": "Se crean pigmentos que hacen que la fruta pase de tener color verde a tener su color característico y se crean otros compuestos aromáticos que aportan sabores y olores característicos a cada fruta."
-            },
-            {
-              "punto": "Se aumenta la concentración de etileno (hormona vegetal), compuesto gaseoso que inicia y acelera la maduración."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Envejecimiento de las frutas",
-      "contenido": [
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "lista",
-              "titulo": "Durante el envejecimiento se siguen produciendo cambios en la composición química:",
-              "contenido": [
-                {
-                  "punto": "Los azúcares se transforman en alcoholes y dióxido de carbono."
-                },
-                {
-                  "punto": "Los tejidos se degradan y la estructura de la fruta se altera, permitiendo el paso de microorganismos que alteran la composición y producen compuestos que dan malos olores y sabores."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/banana1.png"
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/banana2.png"
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/banana3.jpg"
-            }
-          ]
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "<b>¿Sabías qué...</b><br>los tomates fueron considerados tóxicos cuando llegaron por primera vez a Europa? Algo parecido sucedió con los pepinos, en los que hubo un momento que se consideraron  venenosos por lo que se les rascaba la piel para “eliminar” el veneno."
-        }
-      ]
-    },
-    {
-      "titulo": "Deterioro",
-      "fondo": "img/modFru/fruitsFondo.jpg",
-      "contenido": [
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "texto": "No existe gran diferencia entre frutas y hortalizas a la hora de sufrir alteraciones.<br><center>El deterioro puede producirse por:</center>"
-        },
-        {
-          "clase": "tabs",
           "animacion": "fadeInRight",
-          "contenido": [
-            {
-              "titulo": "Heridas, golpes",
-              "texto": "Heridas, golpes y zonas machacadas provocadas durante su  recolección, transporte y almacenamiento. Estas zonas son más sensibles al ataque de microorganismos, que originarán olores y sabores desagradables.",
-              "imagen": "img/modFru/golpes.jpg",
-              "ancho": 200
-            },
-            {
-              "titulo": "Insectos",
-              "texto": "Lesiones y daños causadas por insectos y orugas. Provocan graves modificaciones (principalmente del aspecto y características organolépticas) que las hacen inaceptables comercialmente. Estas lesiones favorecen, además, el ataque de microorganismos.",
-              "imagen": "img/modFru/caracol.jpg",
-              "ancho": 200
-            },
-            {
-              "titulo": "Microorganismos",
-              "texto": "Además de las zonas dañadas, muchas frutas y hortalizas pueden ser atacadas por microorganismos, lo que les conferirán olores y sabores desagradables. La composición química de frutas y hortalizas las hace menos sensibles al ataque de bacterias (provocan manchas, podredumbres…) pero por el contrario favorece el ataque por hongos (levaduras y mohos), siendo éstos los principales causantes de podredumbres o enmohecimientos.",
-              "imagen": "img/modFru/chungas.jpg",
-              "ancho": 200
-            },
-            {
-              "titulo": "Envejecimiento",
-              "texto": "Se adquiere una textura blanda y se hacen muy sensibles a alteraciones microbiológicas (podredumbres) y alteraciones internas.",
-              "imagen": "img/modFru/stillif.jpg",
-              "ancho": 200
-            },
-            {
-              "titulo": "Almacenamiento incorrecto",
-              "texto": "1. Si la temperatura es demasiado baja pueden producirse coloraciones extrañas en la pulpa y en la piel, dando apariencia de quemaduras. Suele ser frecuente en productos tropicales transportados o almacenados a temperaturas más bajas de las recomendadas.<br><br>2. Si la humedad es demasiado baja, para compensarla, se produce en la fruta u hortaliza una deshidratación, lo que provoca el marchitamiento y el arrugado. Por el contrario, una humedad excesiva favorece el desarrollo de mohos.<br><br>3. Algunos productos deben protegerse de la luz para evitar la germinación o, como las patatas, que se vuelvan verdes (lo que indica la presencia de solanina, que es una sustancia tóxica).<br><br>4. Almacenar juntos productos que liberan mucho etileno junto a productos muy sensibles a éste, puede provocar una maduración prematura no deseada.",
-              "imagen": "img/modFru/appetiz.jpg",
-              "ancho": 200
-            }
-          ]
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "<b>¿Sabías que...</b><br>almacenar las patatas a bajas temperaturas provoca que el almidón se transforme en azúcares simples y por eso las patatas adquieren un sabor dulce? (Pero también has de saber que hay variedades más dulces que otras)."
+          "texto": "<b>¿Sabías que...</b><br>en los molinos de harina medievales estaba prohibido el uso de velas, candelas y otras fuentes de fuego por alto riesgo de explosiones? El motivo es que el polvo de harina suspendido en el aire es explosivo y ciertas combinaciones de mezcla aire-polvo de harina son altamente inflamables.",
+          "imagen": "img/modPan/08.Sabiasque.jpg",
+          "ancho": 200
         }
       ]
     },
-    {
-      "titulo": "Beneficios aportados",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Frutas y Hortalizas juegan un papel trascendental en el equilibrio de la dieta humana por sus cualidades nutritivas:"
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/salad.jpg",
-              "ancho": 200
-            },
-            {
-              "clase": "texto",
-              "texto": "Aportan agua que nos mantiene en un grado adecuado de hidratación y favorece la eliminación de sustancias tóxicas de nuestro organismo."
-            }
-          ]
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/paprika.jpg",
-              "ancho": 200
-            },
-            {
-              "clase": "texto",
-              "texto": "Aportan muchas vitaminas, sobre todo vitamina C de las que son fuente casi exclusiva."
-            }
-          ]
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/moras.jpg",
-              "ancho": 200
-            },
-            {
-              "clase": "texto",
-              "texto": "Aportan compuestos y sustancias antioxidantes."
-            }
-          ]
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/artichokes.jpg",
-              "ancho": 200
-            },
-            {
-              "clase": "texto",
-              "texto": "Contienen fibra que ayuda a regular la función del intestino."
-            }
-          ]
-        },
-        {
-          "clase": "lista",
-          "titulo": "Y, por todo ello, está probado que una adecuada alimentación – especialmente la ingesta de verduras, hortalizas y frutas- puede ayudar a:",
-          "contenido": [
-            {
-              "punto": "Prevenir enfermedades cardiovasculares, obesidad, e incluso algunos tipos de cáncer como el de boca, faringe, laringe, pulmón, esófago, estómago, colon, mama y vejiga."
-            },
-            {
-              "punto": "Disminuir el deterioro causado por el proceso de envejecimiento."
-            }
-          ]
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "<b>¿Sabías qué...</b><br>el pimiento contiene más vitamina C que la naranja?<br><b>o que...</b> fresas y kiwis también tienen mayor contenido en vitamina C que las naranjas?"
-        }
-      ]
-    },
+
+
+
+
+
+
     {
       "titulo": "Diagrama de flujo",
       "contenido": [
@@ -853,387 +373,331 @@
         }
       ]
     },
+
+
+
     {
-      "titulo": "Contaminantes en frutas y hortalizas",
+      "titulo": "Fermentación",
       "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Frutas y hortalizas pueden contaminarse en cualquier punto desde la producción primaria hasta el consumidor final. Aunque cada una de dichas etapas tendrá unos peligros asociados específicos, vamos a diferenciar tres grandes bloques:"
-        },
         {
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "texto",
-              "subclase": "celo",
-              "texto": "<b>Contaminación de origen:</b><br>En este bloque se incluyen aquellos peligros debidos al hábitat o entorno en el que se realice la Producción Primaria o contaminación durante su recolección."
+              "clase": "imagen",
+              "imagen": "img/modPan/18.1.jpg",
+              "ancho": 400
             },
             {
               "clase": "texto",
-              "subclase": "celo",
-              "texto": "<b>Conteminación de productos frescos:</b><br>En este bloque se incluyen aquellos peligros asociados a los productos destinados a ser vendidos en fresco o a productos de cuarta gama."
-            },
-            {
-              "clase": "texto",
-              "subclase": "celo",
-              "texto": "<b>Contaminación de productos elaborados:</b><br>En este bloque se incluyen aquellos peligros asociados a los productos destinados a ser procesados."
+              "texto": "Durante la fase de fermentación se permite el desarrollo y multiplicación de los microorganismos que hemos adicionado al pan pero se debe controlar la duración del proceso y evitar, especialmente, que se pueda producir cualquier tipo de contaminación cruzada.<br>Levaduras y bacterias lácticas permiten, por un lado el desarrollo de una buena fermentación y por otro lado evitan el crecimiento de otras bacterias y hongos que resultan indeseables. Esto lo consiguen aumentando la acidez o pH de la masa, disminuyendo el nivel de oxígeno y aumentando el nivel de alcohol en la masa."
             }
           ]
         },
         {
           "clase": "icono",
-          "subclase": "definicion",
-          "texto": "<b>Definición:</b><br>Productos de Cuarta Gama.<br>Se entiende por cuarta gama al procesado mínimo de hortalizas y frutas frescas limpias, troceadas y envasadas para su consumo.<br>El producto mantiene sus propiedades naturales y frescas, pero con la diferencia que ya viene lavado, troceado y envasado en bandejas o bolsas en atmósferas especiales y que <b>necesitan refrigeración</b> para una correcta conservación."
+          "subclase": "exclamacion",
+          "texto": "<b>¡IMPORTANTE!</b> Uno de los peligros más importantes a destacar, dentro de los Contaminantes Físicos, se produce en el caso del pan, en la etapa de corte – greñado- que se realiza después de la fermentación. Para realizar el cortado algunas herramientas pueden resultar inadecuadas ya que pueden quedar restos cortantes en la masa al romperse o quebrarse (como en el caso del cúter o las hojas de cuchilla) o bien ocurrir algún descuido u olvido.<br>Asimismo, pueden incumplir las medidas higiénico-sanitarias al estar las cuchillas oxidadas. Por dicho motivo ha de controlarse el estado de las cuchillas.<br>En caso de corte automático hay un depósito de agua donde las cuchillas reposan entre corte y corte, estos depósitos han de controlarse ya que pueden constituir una fuente de contaminación.",
+          "imagen": "img/modPan/18.2.png",
+          "ancho": 150
         }
       ]
     },
     {
-      "titulo": "Recolección",
+      "titulo": "Horneado",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "El horneado además de convertir las piezas en productos comestibles va a destruir la contaminación biológica, siempre que se alcance una temperatura adecuada en el interior de la pieza.<br>En el horneado cada producto tiene una temperatura de elaboración propia que se debe respetar.<br>En la elaboración de salsas o cremas a base de huevo, de no poder asegurar una temperatura adecuada (75ºC) durante un tiempo suficiente (5-10 minutos), deben utilizarse ovoproductos pasteurizados."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/modPan/19.B.jpg",
+          "ancho": 750
+        },
+        {
+          "clase": "texto",
+          "texto": "Si se utilizan combustibles sólidos para la cocción, los humos de combustión que entren en contacto con las masas deben ser de tal naturaleza que no produzcan sustancias tóxicas, olores o sabores desagradables ni depositar hollín sobre la masa de cocción.<br>Si son combustibles líquidos, en ningún caso se podrán poner en contacto los humos y gases de la combustión con las masas en cocción."
+        }
+      ]
+    },
+    {
+      "titulo": "Horneado II",
       "contenido": [
         {
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "lista",
-              "titulo": "En esta etapa puede producirse contaminación de los alimentos debido a  unas malas prácticas higiénicas en la manipulación de frutas y verduras. Para evitar esto:",
-              "contenido": [
-                {
-                  "punto": "El personal debe tener conocimientos de los principios básicos de higiene y sanidad, teniendo claros los peligros que pueden contaminar el producto."
-                },
-                {
-                  "punto": "Evitar el uso de recipientes de vidrio o pequeños objetos metálicos cerca de los cultivos, para evitar la presencia en el producto final de restos de vidrio o de dichos objetos metálicos."
-                },
-                {
-                  "punto": "Si es necesario el uso de utensilios u objetos pequeños, se recomienda tenerlos numerados o identificados adecuadamente."
-                }
-              ]
+              "clase": "imagen",
+              "imagen": "img/modPan/20.Izq.jpg",
+              "ancho": 400
             },
             {
-              "clase": "imagen",
-              "imagen": "img/modFru/manzano.jpg"
+              "clase": "texto",
+              "texto": "Además de la destrucción de los microorganismos que contuviera el alimento, durante el horneado se produce la reacción de Maillard, que es un proceso que se desarrolla en fases con tratamiento térmico elevado y que origina un color tostado y proporciona unos olores y sabores agradables a muchos alimentos (como el pan), mejorando sus propiedades organolépticas."
             }
           ]
-        },
-        {
-          "clase": "texto",
-          "texto": "Un factor a tener en cuenta es la necesidad de tener cierta destreza tanto en el momento de la recolección como en las manipulaciones posteriores, para evitar golpes, magulladuras, desgarros, rasguños o cortes indeseables que, además de afectar negativamente a la calidad estética del producto, pueden suponer una vía de acceso para los microorganismos."
-        }
-      ]
-    },
-    {
-      "titulo": "Contaminación de origen: Física",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "En general, los peligros más importantes en productos del Sector Frutas, Verduras y Derivados son los contaminantes físicos, químicos y biológicos, destacando principalmente los dos últimos."
         },
         {
           "clase": "listaObjetos",
           "contenido": [
             {
               "clase": "texto",
-              "texto": "<b>Contaminación física:</b> En origen frutas y verduras pueden traer consigo tierra, piedras, trozos de plástico, astillas de madera, etc. que serán eliminados posteriormente."
+              "texto": "Sin embargo, un exceso en la cocción conlleva una aparición más fuerte de la reacción, lo que origina compuestos tóxicos y un sabor amargo. Uno de estos compuestos es la acrilamida, clasificado como “probable cancerígeno para humanos”."
             },
             {
               "clase": "imagen",
-              "imagen": "img/modFru/zanahorias.jpg",
+              "imagen": "img/modPan/20.Dch.jpg",
+              "ancho": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Enfriamiento",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Una vez  realizado el horneado, los productos han de enfriarse de una manera rápida y suficiente, especialmente cuando el paso siguiente consiste en la adición de otro(s) ingrediente(s)."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/21.1ArribaI.jpg",
+              "ancho": 300
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/21.2ArribaD.jpg",
               "ancho": 300
             }
           ]
         },
         {
-          "clase": "imagen",
-          "subclase": "ajustarAncho",
-          "animacion": "fadeInUp",
-          "imagen": "img/mod3/nutrientes.svg"
+          "clase": "texto",
+          "texto": "Así, si hay que decorar o rellenar con nata o crema, es importante que el producto a rellenar esté frío, ya que si la nata o la crema tuviesen algún microorganismo, la temperatura del primero favorecería el desarrollo de los mismos, con el consiguiente riesgo para la salud del consumidor."
         },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "<b>¿Sabías qué...</b><br>el coco se llama así porque en portugués coco se llamaba a los fantasmas que asustan a los niños y cuando la expedición de Vasco da Gama llegó a India en 1500, los tripulantes compararon la cáscara y sus tres agujeros con una cabeza con ojos y boca, como las que se usaban para fabricar los fantasmas infantiles?"
-        }
-      ]
-    },
-    {
-      "titulo": "Contaminación de origen: Química",
-      "contenido": [
         {
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "listaObjetos",
-              "subclase": "columna",
-              "contenido": [
-                {
-                  "clase": "texto",
-                  "texto": "<b>Contaminación química:</b> frutas y hortalizas están expuestas a distintos contaminantes químicos que pueden provenir de diferentes fuentes:<br>actividades industriales, actividades humanas (fertilizantes, aplicación de plaguicidas, etc). Destacando los siguientes contaminantes químicos:"
-                },
-                {
-                  "clase": "acordeonSub",
-                  "contenido": [
-                    {
-                      "titulo": "Metales pesados",
-                      "contenido": [
-                        {
-                          "titulo": "Plomo",
-                          "texto": "Plomo (Pb): las emisiones más importantes de plomo a la atmósfera proceden de la combustión de gasolinas y de las industrias (hierro y acero, fundiciones de plomo). La vía de entrada en la cadena alimentaria es a través de la deposición atmosférica de plomo en los vegetales."
-                        },
-                        {
-                          "titulo": "Cadmio",
-                          "texto": "Cadmio (Cd):  se obtiene como subproducto en la minería o de procedencia industrial. Las plantas pueden absorber el cadmio rápidamente desde el suelo (influyendo su concentración y el pH del suelo)."
-                        },
-                        {
-                          "titulo": "Arsénico",
-                          "texto": "Arsénico (As): es un contaminante presente en la naturaleza y también generado por la industria. Antiguamente se empleaba en pesticidas, estando, hoy en día,  prohibida su utilización. Puede presentarse en dos formas: la orgánica y la inorgánica (más tóxica). Las verduras y cereales (como el arroz) lo absorben del suelo o el agua."
-                        }
-                      ]
-                    },
-                    {
-                      "titulo": "Otros productos químicos",
-                      "contenido": [
-                        {
-                          "titulo": "Pesticidas",
-                          "texto": "Son compuestos químicos que se añaden a los cultivos para protegerlos frente a plagas y enfermedades. Son productos muy controlados por la ley y existen unos Límites Máximos de Residuos que son los niveles máximos permitidos legalmente, por debajo de los cuales se considera que el alimento es toxicológicamente aceptable."
-                        },
-                        {
-                          "titulo": "Nitratos",
-                          "texto": "Son uno de los componentes principales de fertilizantes y abonos. Permiten a las plantas crecer más rápido, pero si se usan en exceso no son metabolizados y terminan en las hojas de las verduras."
-                        },
-                        {
-                          "titulo": "Tóxicos naturales",
-                          "texto": "Son aquellos, sin tener en cuenta los compuestos químicos, que se encuentran presentes de forma natural en la composición del producto. Por ejemplo: setas venenosas.",
-                          "imagen": "img/modFru/agarico.jpg",
-                          "ancho": 200
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
+              "clase": "texto",
+              "texto": "Durante el enfriamiento deben extremarse las precauciones para evitar la contaminación de los productos horneados, que estarán libres de microorganismos. Por ello, el desarrollo de mohos y bacterias en las piezas una vez horneadas, es fruto de la contaminación exterior: por manipulación del producto, a través de superficies y/o utensilios,  por contaminantes ambientales o por contacto con insectos y otros animales."
             },
             {
               "clase": "imagen",
-              "imagen": "img/modFru/contaminacionq.png"
+              "imagen": "img/modPan/21.3Abajo.jpg",
+              "ancho": 300
             }
           ]
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "<b>¿Sabías que…</b><br>se recomienda, por precaución, no incluir espinacas ni acelgas en la dieta de niños menores de un año (o en caso de incluirlas que su contenido no supere el 20% del puré) debido al contenido en nitrato de esos vegetales? (Y no dar más de una ración al día a niños entre 1 y 3 años)."
         }
       ]
     },
     {
-      "titulo": "Contaminación de origen: Biológica",
-      "fondo": "img/modFru/campo.jpg",
+      "titulo": "Decorado - Relleno",
+      "fondo": "img/modPan/yoke.jpg",
       "contenido": [
         {
           "clase": "texto",
           "subclase": "recuadro",
           "opacidad": 0.8,
-          "texto": "<b>Contaminación biológica:</b><br>La mayoría de las frutas poseen contaminación superficial procedente de las zonas de cultivo y del ambiente en general (insectos, aves, agua de lluvia…).<br>Por otro lado las <b>hortalizas</b> son alimentos que habitualmente presentan una elevada carga microbiológica ya que se  cultivan directamente en los suelos y algunos microorganismos peligrosos pueden formar parte de la flora natural del suelo o del ambiente (como es el caso del: Clostridium botulinum). No obstante, la vía principal de contaminación se debe al agua de riego que puede aportar microorganismos en caso de encontrarse contaminada.<br>Si además llegan a estar en contacto con materia fecal (por ejemplo, abonos o agua de riego contaminada fecalmente), pueden ser origen de procesos de infecciones de origen alimentario, por microorganismos patógenos que son habituales en el intestino de animales y/o humanos. Esto se debe, por un lado, a unas prácticas incorrectas en la producción al permitir dicha contaminación  y, por otro lado, al hecho de ser productos que se consumen en crudo (no es necesario someterlos a ningún tratamiento previo que elimine los posibles patógenos.<br>Frutas y hortalizas pueden transportar virus (como el de la hepatitis A), bacterias (Salmonella, Escherichia, Shigella, …) parásitos y hongos generadores de micotoxinas."
+          "texto": "En determinados productos se hace necesaria una manipulación posterior al horneado con objeto de mejorar la estética del producto o para aumentar la variedad de los mismos.<br>Es la etapa de Decoración y/o Relleno de los productos."
+        },
+        {
+          "clase": "acordeon",
+          "ancho": 70,
+          "contenido": [
+            {
+              "titulo": "Decoración",
+              "texto": "Con la decoración se busca potenciar el sabor o la estética del producto.",
+              "imagen": "img/modPan/22.1Deco.jpg",
+              "ancho": 250
+            },
+            {
+              "titulo": "Relleno",
+              "texto": "Son aquellas elaboraciones que se introducen dentro de las piezas, de tal forma que se consigue ampliar la gama de productos y sabores disponibles. Muchas veces estos rellenos caracterizan a las piezas que las contienen, de tal manera que llegan a ser consideradas elaboraciones diferenciadas.",
+              "imagen": "img/modPan/22.2Relleno.jpg",
+              "ancho": 250
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "subclase": "exclamacion",
+          "texto": "Esta etapa es muy importante, ya que los productos pueden contaminarse a través de manos, superficies de trabajo o utensilios utilizados y no existe una etapa posterior que elimine la contaminación adquirida en esta fase. Por dicho motivo se extremarán al máximo las medidas de higiene, minimizando las manipulaciones y evitando el contacto con las manos, utilizando utensilios adecuados y en perfecto estado de higiene y desinfección.<br>Las operaciones han de realizarse de forma que no se pueda producir contaminación cruzada de las piezas terminadas."
+        }
+      ]
+    },
+    {
+      "titulo": "Envasado",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En la etapa del envasado los alimentos pueden contaminarse por los propios envases si éstos no cumplen las condiciones higiénico-sanitarias adecuadas (por ejemplo por encontrarse almacenados inadecuadamente acumulando polvo en su interior) o a través de los equipos de envasado. También si el proceso no se hace de forma correcta, quedando el envase mal cerrado o con poro. Además, en este caso, las grasas son más susceptibles de sufrir ataque por el oxígeno, produciéndose un rápido enranciamiento y  reblandecimiento del producto (por ejemplo: galletas)."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/modPan/23.Centro.jpg",
+          "ancho": 600
+        },
+        {
+          "clase": "texto",
+          "texto": "Existen métodos que permiten alargar la vida útil de los productos al envasarlos en atmósfera modificada. Esta técnica se basa en sustituir el oxígeno del interior del envase por una combinación de gases inertes que tienen la propiedad de retrasar el envejecimiento del producto y evitar el desarrollo de gérmenes nocivos para la salud humana y la calidad del producto. De esta manera se reduce significativamente el uso de conservantes químicos que se emplean para conseguir alargar la vida de los productos."
         },
         {
           "clase": "icono",
           "subclase": "exclamacion",
-          "texto": "<b>RECUERDA:</b><br>De cara al cliente, es importante resaltar que un lavado correcto de frutas y vegetales, antes de su consumo, conllevará la eliminación de contaminantes físicos como tierra o arena, minimizará la presencia de contaminantes químicos como posibles restos de pesticidas y de contaminantes biológicos."
+          "texto": "La función del envase es proteger y contener el producto."
         }
       ]
     },
     {
-      "titulo": "Contaminación de origen: Medidas preventivas",
+      "titulo": "Almacenamiento y distribución",
       "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Las medidas preventivas para evitar o minimizar la contaminación de origen se basan en unas buenas prácticas higiénico-sanitarias en la producción primaria, especialmente en los siguientes puntos:"
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "texto",
-              "texto": "Para prevenir la contaminación química, no cultivar en zonas que puedan suponer un foco de contaminación (cerca de fábricas, aguas residuales, etc.). Respecto al uso de pesticidas, sólo se podrán utilizar aquellos productos que estén autorizados para su uso en el cultivo correspondiente, respetando siempre dosis y el plazo de seguridad establecido. Deben ser aplicados por personal formado y capacitado."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/factory.jpg",
-              "ancho": 500
-            }
-          ]
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/modFru/irrigation.jpg",
-              "ancho": 500
-            },
-            {
-              "clase": "texto",
-              "texto": "Para prevenir la contaminación biológica, se ha de utilizar agua de riego libre de contaminación (se ha de evaluar, por tanto, la procedencia del agua y el tipo de riego empleado) y los abonos deben sufrir un proceso de compostaje en el que se alcanza una temperatura elevada capaz de eliminar a los microorganismos patógenos."
-            }
-          ]
-        },
-        {
-          "clase": "icono",
-          "subclase": "definicion",
-          "texto": "<b>Compostaje:</b><br>Consiste en la degradación de la materia orgánica mediante su oxidación y la acción de diversos microorganismos presentes en los propios residuos.",
-          "imagen": "img/modFru/compost.jpg",
-          "ancho": 200
-        }
-      ]
-    },
-    {
-      "titulo": "Transporte y almacenamiento",
-      "contenido": [
-        {
-          "clase": "lista",
-          "titulo": "Tanto el transporte como el almacenamiento son etapas que tienen en común el uso de instalaciones, superficies, equipos, utensilios, recipientes, envases y/o medios de transporte, que entran en contacto directo con frutas y hortalizas frescas, existiendo el peligro de contaminaciones:",
-          "contenido": [
-            {
-              "punto": "Física: incorporación de objetos extraños provenientes de restos de embalajes o de la maquinaria utilizada (por ejemplo: tornillos)."
-            },
-            {
-              "punto": "Química: por la presencia de productos químicos que no deben estar en contacto con los alimentos o por restos de detergentes o desinfectantes presentes en los equipos, superficies, etc. en contacto con ellos."
-            },
-            {
-              "punto": "Biológica: al utilizar equipos, instalaciones, etc. sucias o en estado incorrecto de limpieza y desinfección. Prácticas incorrectas de manipulación que causen golpes, aplastamientos, cortes, etc. con lo que se facilita el acceso a microorganismos. Contaminación cruzada al almacenar/transportar las frutas y hortalizas mezcladas entre sí o junto a otros productos crudos."
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "También hay que tener en cuenta que un almacenamiento prolongado favorecerá la multiplicación de bacterias y mohos, por lo que se hace necesario un buen control en el almacenamiento."
-        },
         {
           "clase": "imagen",
-          "imagen": "img/modFru/almacen.jpg",
+          "imagen": "img/modPan/24.1Arriba.jpg",
           "ancho": 500
-        }
-      ]
-    },
-    {
-      "titulo": "Transporte y almacenamiento: Medidas preventivas",
-      "contenido": [
+        },
         {
-          "clase": "listaObjetos",
+          "clase": "lista",
+          "titulo": "Durante el almacenamiento y la distribución, los peligros que pueden aparecer son:",
           "contenido": [
             {
-              "clase": "lista",
-              "titulo": "<b>Medidas preventivas</b>",
+              "punto": "<b>Contaminación</b>, debida principalmente por mantener los productos sin proteger.",
               "contenido": [
                 {
-                  "punto": "Cargar y descargar de forma cuidadosa."
+                  "punto": "<b>Física</b> por incorporación de elementos extraños o polvo."
                 },
                 {
-                  "punto": "Proteger la mercancía durante el traslado, evitando que los productos se recalienten y pierdan agua."
+                  "punto": "<b>Química</b> por contacto con productos de limpieza y desinfección, o de control de plagas o combustibles."
                 },
                 {
-                  "punto": "Mantener las condiciones de temperatura, humedad relativa y circulación de aire constantes para aquellos productos que lo requieran."
-                },
-                {
-                  "punto": "Utilizar cajas de un solo uso (cartón, madera o similar) o en caso de ser reutilizables, de materiales fáciles de lavar y desinfectar (descartándose la madera en este caso)."
-                },
-                {
-                  "punto": "Controlar las medidas higiénicas de los vehículos de transporte y almacenes."
-                },
-                {
-                  "punto": "No transportar ni almacenar frutas y hortalizas junto a otros alimentos o productos químicos que puedan contaminarlos."
-                },
-                {
-                  "punto": "Mantener un control y rotación adecuados de los productos almacenados."
+                  "punto": "<b>Biológica</b> por condiciones higiénicas deficientes de almacenes, cámaras de frío o transporte."
                 }
               ]
             },
             {
+              "punto": "<b>Multiplicación biológica</b> por no mantener las condiciones de conservación adecuadas (temperatura y tiempo, principalmente)."
+            }
+          ]
+        },
+
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
               "clase": "imagen",
-              "subclase": "rotarIzq",
-              "imagen": "img/modFru/sandiamal.jpg",
-              "ancho": 500
+              "imagen": "img/modPan/24.2Abajo.jpg",
+              "ancho": 250
+            },
+            {
+              "clase": "icono",
+              "subclase": "exclamacion",
+              "texto": "Los productos finales que pueden almacenarse serán aquellos que tengan una vida útil mayor a 24 horas."
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Exposición y venta",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Los expositores para productos de panadería y pastelería tienen como misión principal la de mostrar a la vez que conservar, en aquellos casos en los que sea necesario, los productos.<br>Los peligros en esta etapa son contaminaciones del producto (física, química y biológica) y en el caso de productos que requieran frío para su conservación: multiplicación microbiológica debida, fundamentalmente, a una temperatura incorrecta."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/25.1Izquierda.jpg",
+              "ancho": 400
             }
           ]
         },
         {
-          "clase": "texto",
-          "texto": "La refrigeración es recomendable para almacenar algunas frutas y hortalizas frescas, ya que retrasa la maduración, el reblandecimiento y el cambio de textura y color. Además evita la pérdida de humedad y el deterioro por invasión de bacterias y hongos."
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/25.2Derecha.jpg",
+              "ancho": 300
+            },
+            {
+              "clase": "texto",
+              "texto": "Por dicho motivo, es fundamental que los expositores, así como toda superficie y equipo que entre en contacto con los alimentos estén construidos con materiales que no puedan  entrañar peligro de contaminación, ser de fácil limpieza y desinfección y estar siempre en un estado higiénico óptimo. Si disponen de regulación de temperatura, ésta será adecuada y estará controlada."
+            }
+          ]
         },
         {
-          "clase": "texto",
-          "texto": "Las condiciones de almacenamiento dependerán del tipo de producto, ya que existen frutas y hortalizas sensibles al frío (oscurecimiento, alteraciones…), a la humedad (por ejemplo: aparición de raíces) y al etileno."
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<b>Como normas de manipulación:</b><br>No tocar directamente con las manos las partes de los útiles que entrarán en contacto con los alimentos. Los productos de pastelería que requieran refrigeración, no se manipularán directamente con las manos, usándose para ello pinzas, paletas, etc.<br>Los productos que no se encuentren envasados no se encontrarán al alcance del público, y antes de entregarlos deben envolverse con envoltorios aptos."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/25.3Cuadro.jpg",
+              "ancho": 300
+            }
+          ]
         }
       ]
     },
     {
-      "titulo": "Frutas y hortalizas destinadas a Frutería",
-      "fondo": "img/modFru/fondofruta.jpg",
+      "titulo": "Manipulaciones permitidas y prohibidas",
+      "fondo": "img/modPan/wheat-field.jpg",
       "contenido": [
         {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "opacidad": 0.8,
-          "texto": "En el punto de venta al público de frutas y hortalizas frescas, los productos deben clasificarse y presentarse ordenados, separando aquellos productos que puedan transmitir al resto olores o sabores extraños (cebollas, ajos, …)."
-        },
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "opacidad": 0.8,
-          "texto": "Se deben retirar aquellas piezas que presenten signos de deterioro o podredumbre a un lugar adecuado."
-        },
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "opacidad": 0.8,
-          "texto": "Si se trata de autoservicio, se deben proporcionar los medios adecuados (guantes de un solo uso y bolsas de plástico) para una manipulación higiénica de los productos por el público. En otro caso no debe permitirse el contacto directo por el público."
-        },
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "opacidad": 0.8,
-          "texto": "Todos los productos se depositarán sobre estanterías, vitrinas, o cualquier otro medio de exposición que impida el contacto directo de los alimentos con el suelo, y toda superficie o material que entre en contacto con el producto será fácil de limpiar y desinfectar."
-        },
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "opacidad": 0.8,
-          "texto": "Los productos de cuarta gama, que necesitan frío para su conservación, se expondrán en vitrinas o expositores que mantengan temperaturas de refrigeración."
-        }
-      ]
-    },
-    {
-      "titulo": "Frutas y hortalizas destinadas a Industria",
-      "fondo": "img/modFru/fondoindustria.jpg",
-      "contenido": [
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "opacidad": 0.8,
-          "texto": "Sin entrar en mayor detalle, las frutas y hortalizas cuyo destino sea la Industria Procesadora serán sometidos a diversas operaciones previas, pasando por una o más etapas de procesado hasta la obtención del producto final: congelados, productos de IV gama o conservas.<br><br>Entre estas operaciones previas están aquellas destinadas al acondicionamiento, como pueden ser lavado, pelado, troceado, etc."
-        },
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "opacidad": 0.8,
-          "texto": "En estas etapas de acondicionamiento, frutas y verduras pueden contaminarse debido a una falta de limpieza y desinfección de equipos y utensilios o por manipulaciones poco higiénicas del personal. Además hay que tener en cuenta que el pelado favorece el acceso a los microorganismos y el cortado incrementa el área expuesta."
-        },
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "opacidad": 0.8,
-          "texto": "Posteriormente se realizará un procesado específico según el producto final a conseguir. En cada una de estas etapas existen peligros de contaminación física, química y biológica a los que además se puede añadir la multiplicación microbiológica, por lo que las medidas preventivas estarán enfocadas en la prevención de dicha contaminación y a impedir la multiplicación microbiológica."
-        },
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "opacidad": 0.8,
-          "texto": "En el caso de las conservas, se someterán a un proceso de eliminación de microorganismos (esterilización)."
+          "clase": "acordeon",
+          "ancho": 50,
+          "contenido": [
+            {
+              "titulo": "Respecto al pan del día anterior...",
+              "texto": "Está prohibida la venta de pan cocido el día anterior. Excepcionalmente está autorizada la misma siempre que las instalaciones de este tipo de pan estén separadas adecuadamente y se indique claramente su procedencia del día anterior mediante carteles colocados en las vitrinas que lo contengan y siempre que al mismo tiempo se realice una información verbal al consumidor de dicha circunstancia.<br>Está prohibido almacenar pan del día anterior en las mismas estanterías donde esté el pan del día.",
+              "imagen": "img/modPan/26.1PanAyer.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Respecto al pan rallado...",
+              "texto": "Está prohibido fabricar pan rallado con restos de pan procedentes de establecimientos de consumo.<br>Asimismo se prohíbe su venta sin envasar.",
+              "imagen": "img/modPan/26.2PanRallado.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Respecto a los aditivos...",
+              "texto": "Se prohíbe a los fabricantes de pan la compra, cesión, tenencia o utilización de los aditivos no expresamente autorizados para estos productos.<br>Asimismo, queda prohibida la utilización de conservantes y gasificantes en la elaboración de pan de Viena y pan Francés.",
+              "imagen": "img/modPan/26.3Aditivos.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Respecto a las harinas enriquecidas...",
+              "texto": "En el caso de la elaboración de panes con harinas enriquecidas o acondicionadas, las industrias de panificación que no dispongan de instalaciones autorizadas para preparar para su propio uso este tipo de harinas, deberán adquirirlas de aquellas industrias harineras autorizadas para realizar las mezclas correspondientes, con el fin de garantizar una perfecta dosificación y mezcla.",
+              "imagen": "img/modPan/26.4Acondicionadas.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Respecto al glúten...",
+              "texto": "El pan sin gluten deberá elaborarse en instalaciones totalmente separadas de las que elaboran pan normal, evitando en todo momento las contaminaciones directas o cruzadas por cualquier fuente que contenga o pueda contener gluten.",
+              "imagen": "img/modPan/26.5Gluten.jpg",
+              "ancho": 200
+            }
+          ]
         }
       ]
     },
     {
       "titulo": "Despedida",
-      "fondo": "img/modFru/grapes.jpg",
+      "fondo": "img/modPan/27.Fondo.jpg",
       "contenido": [
         {
           "clase": "texto",
