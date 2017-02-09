@@ -501,6 +501,7 @@ function getArrayImagenes(modulo) {
             "img/modPan/04.2PR_Salado.jpg",
             "img/modPan/04.Bolleria.jpg",
             "img/modPan/05.Fondo.jpg",
+            "img/modPan/06.1Hojaldre.jpg",
             "img/modPan/06.2MasasAzucaradas.jpg",
             "img/modPan/06.3MasasEscaldadas.jpg",
             "img/modPan/06.4MasasBatidas.jpg",
