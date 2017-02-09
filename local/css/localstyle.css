@@ -1,8 +1,8 @@
 /*Estilos generales*/
 /******************/
 body {
-    padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
-    padding-bottom: 80px; /* Relleno superior igual a la altura del pie*/
+    padding-top: 5em; /* Relleno superior igual a la altura de la cabecera*/
+    padding-bottom: 5em; /* Relleno superior igual a la altura del pie*/	
 }
 
 /*
@@ -38,7 +38,7 @@ img {
 #main-header {
     background: #333;
     color: white;
-    height: 80px;
+    height: 5em;
     width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
     left: 0; /* Posicionamos la cabecera al lado izquierdo */
     top: 0; /* Posicionamos la cabecera pegada arriba */
@@ -54,8 +54,12 @@ img {
  */
 #divCabeceraImagen {
     float: left;
-    height: 100%;
+    height: auto;
+    width: auto;
 }
+    #divCabeceraImagen .logo {
+        flex: auto;
+    }
 #logo-header {
     /*float: left;*/
     padding: 15px 0 0 20px;
@@ -96,7 +100,7 @@ nav {
 
         nav ul li {
             display: inline-block;
-            line-height: 80px;
+            line-height: 5em;
         }
 
             nav ul li a {
@@ -185,7 +189,7 @@ nav {
     color: black;
 }
 
-img {
+td>img {
     display: block;
     margin: auto;
     width: 10px;

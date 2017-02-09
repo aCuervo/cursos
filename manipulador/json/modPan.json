@@ -83,7 +83,7 @@
         },
         {
           "clase": "texto",
-          "texto": "Las piezas de bollería se elaboran con masa de harinas fermentadas, y se caracterizan por la aplicación de levadura que las hace fermentar y puedan así, conseguir volumen. Por regla general, existen dos tipos de bollería:"
+          "texto": "Por regla general, existen dos tipos de bollería:"
         },
         {
           "clase": "listaObjetos",
@@ -107,6 +107,13 @@
               "ancho": 500
             }
           ]
+        },
+                {
+          "clase": "icono",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "subclase": "exclamacion",
+          "texto": "Las piezas de bollería se elaboran con masa de harinas fermentadas, y se caracterizan por la aplicación de levadura que las hace fermentar y puedan así, conseguir volumen."
         }
       ]
     },
@@ -261,25 +268,25 @@
 
             {
               "titulo": "Agua",
-              "texto": "",
+              "texto": "El agua juega un papel fundamental en:<br>La formación de la masa: en el agua se disuelven todos los ingredientes, permitiendo una total incorporación de ellos y además hidrata el almidón, que junto al gluten dan por resultado una masa plástica y elástica.<br>La fermentación. Disolviendo la levadura y permitiendo que empiece a actuar.<br<El sabor y la frescura finales del pan. La presencia de agua hace posible la porosidad y buen sabor del pan, además los almidones hidratados son más digeribles.<br>Cuando la harina se mezcla con el agua, se obtiene una masa que presenta unas características variables según las propiedades de la harina y los componentes de la fórmula usada para conseguir esa masa.",
               "imagen": "img/modPan/07.2Agua.jpg",
               "ancho": 600
             },
             {
               "titulo": "Levadura",
-              "texto": "",
+              "texto": "Hay que distinguir entre levadura biológica y gasificante.<br><br>Las <b>biológicas</b> realizan la fermentación biológica del producto, transformando los azúcares en CO2, alcohol etílico y energía, además de descomponer los azúcares complejos en otros más simples.<br><br>Los <b>gasificantes</b> son productos empleados para provocar la hinchazón o elevación de la masa sin llegar a transformar ningún componente de la harina.<br><br>No todas las levaduras son aptas, la más utilizada es la Saccharomyces cerevisiae. Al ser un organismo vivo durante su almacenamiento debemos reducir su actividad, por lo que se conservan entre 0 y 8ºC.",
               "imagen": "img/modPan/07.3Levadura.jpg",
               "ancho": 600
             },
             {
               "titulo": "Sal",
-              "texto": "",
+              "texto": "Es el producto constituido por cloruro sódico en condiciones que la hacen apta para usos alimenticios y se conoce con el nombre de “sal comestible” o simplemente “sal”.<br>Aporta sabor al pan, pero también actúa como reguladora del proceso de fermentación y aumenta la capacidad de hidratación de la harina.",
               "imagen": "img/modPan/07.4Sal.jpg",
               "ancho": 600
             },
             {
               "titulo": "Otros componentes",
-              "texto": "",
+              "texto": "Los ingredientes que pueden incorporarse a la masa son muchos y muy variados: azúcar, huevos, leche (entera, concentrada, en polvo…), aceites y/o grasas comestibles, cacao, especias, condimentos, etc.",
               "imagen": "img/modPan/07.5Otros.jpg",
               "ancho": 600
             }
@@ -355,27 +362,513 @@
     },
 
 
-
-
-
-
+    {
+      "titulo": "Conservación de la harina",
+      "fondo": "img/modPan/09.Fondo.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.6,
+          "texto": "El mayor peligro es la conservación en ambientes que presenten una humedad  excesiva, ya que la harina puede alterarse fácilmente debido a su carácter de polvo higroscópico (capacidad de absorber humedad del medio circundante) lo que favorece la aparición de apelmazamientos, y fermentaciones, el desarrollo de mohos (enmohecimiento y, por tanto, riesgo de micotoxinas) y bacterias, el ataque por ciertos ácaros, aumento de la acidez, enranciamiento de la grasa y se producen procesos enzimáticos que degradan el gluten y el almidón.<br><br>Por tanto, se debe tener especial cuidado con las harinas almacenadas para evitar el ataque de plagas, la infección por hongos y bacterias, fenómenos de oxidación y absorción de humedad."
+        },
+        {
+          "clase": "lista",
+          "opacidad": 0.6,
+          "titulo": "<b>Condiciones de almacenamiento:</b>",
+          "contenido": [
+            {
+              "punto": "Humedad relativa 70%. La humedad hace que el gluten y el almidón se alteren."
+            },
+            {
+              "punto": "Humedad de la harina 14-15%. Por encima de estos valores se endurece y fermenta."
+            },
+            {
+              "punto": "Temperatura 15ºC. Las temperaturas altas favorecen el enranciamiento de las grasas (se forman ácidos grasos libres de cadena corta que causan malos olores y sabores desagradables)."
+            },
+            {
+              "punto": "Permitir la circulación de aire entre los sacos, evitando que se caliente la harina."
+            },
+            {
+              "punto": "Evitar el contacto directo con el suelo."
+            },
+            {
+              "punto": "Control de plagas: roedores, ácaros y especialmente, insectos como cucarachas, gorgojos, polillas…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Alteraciones de la harina",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "acordeon",
+              "contenido": [
+                {
+                  "titulo": "Color",
+                  "contenido": [
+                    {
+                      "clase": "texto",
+                      "texto": "Dependiendo del origen de la harina (trigo, maíz, centeno, de legumbres, etc.), ésta tendrá un color diferente. En la harina de trigo las de buena calidad presentan un color blanco amarillento, en las de mediana calidad el color es blanco mate y en las harinas de calidades inferiores, el color blanco empieza a adquirir tonos rojizos. Una coloración ligeramente azulada es anormal y advierte sobre el inicio de una alteración."
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Olor",
+                  "contenido": [
+                    {
+                      "clase": "texto",
+                      "texto": "Una harina normal tiene un olor propio, ligero y agradable. Las harinas alteradas, por lo general, poseen un olor desagradable."
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Sabor",
+                  "contenido": [
+                    {
+                      "clase": "texto",
+                      "texto": "Gusto a cola fresca. Las harinas alteradas poseen un gusto amargo, rancio y/o agrio."
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Textura",
+                  "contenido": [
+                    {
+                      "clase": "texto",
+                      "texto": "Las harinas deben ser untuosas y uniformes al tacto, frescas y suaves. Las harinas alteradas resultan ásperas al tacto, no se pegan a los dedos y no dejan sensación de frescor."
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Microorganismos",
+                  "contenido": [
+                    {
+                      "clase": "texto",
+                      "texto": "El número de microorganismos de las harinas de cereales es relativamente bajo debido a los agentes blanqueadores. No obstante, la conservación en condiciones elevadas de humedad permitirán el desarrollo de mohos y bacterias."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/10.Lateral.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías que…</b><br>la harina se obtiene de cereales molidos, pero también existen de otros muchos tipos: de castañas, de soja, de garbanzos, de guisantes, de patata y hasta de pescado."
+        }
+      ]
+    },
+    {
+      "titulo": "Nutrición",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "El pan forma parte básica de nuestra alimentación ya que, entre otros nutrientes, aporta cantidades significativas de hidratos de carbono complejos y fibra.",
+                  "contenido": [
+                    {
+                      "punto": "El pan blanco es un alimento rico en hidratos de carbono de absorción lenta, fundamentalmente almidón, por lo que se desprende energía a medida que el organismo la demanda. Es pobre en lípidos y aporta algunos elementos minerales y vitaminas del grupo B."
+                    },
+                    {
+                      "punto": "El pan integral se elabora a partir de harina obtenida por molturación del grano completo de trigo, por lo que contiene mayor contenido en elementos minerales y vitaminas que el pan blanco. Además constituye una fuente importante de fibra que facilita el tracto intestinal de manera muy positiva."
+                    }
+                  ]
+                },
+                {
+                  "clase": "imagen",
+                  "imagen": "img/modPan/11.I.jpg"
+                }
+              ]
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "imagen",
+                  "imagen": "img/modPan/11.D.jpg"
+                },
+                {
+                  "clase": "texto",
+                  "texto": "Los dulces y productos de pastelería son alimentos compuestos por harina de trigo, azúcar y grasas de diverso origen (mantequilla, margarina, manteca de cerdo, aceites…) y otros ingredientes (huevos, frutos secos, etc.). El azúcar empleado constituye el principal aporte de hidratos de carbono, en forma de azúcares simples, como la sacarosa. Son productos que presentan un resultado excelente en cuanto a presencia y sabor, pero su consumo debe ser moderado."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Establecimientos",
+      "fondo": "img/modPan/12.Fondo.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "subclase": "recuadro",
+          "texto": "Los establecimientos de panadería, confitería, pastelería, bollería y repostería presentan una gran diferencia entre ellos en cuanto a su estructura, capacidad industrial, volumen de producción, variedad de productos, técnicas de elaboración y modalidades de venta, pudiendo agruparse en dos grandes tipos de establecimientos:"
+        },
+        {
+          "clase": "acordeon",
+          "ancho": 50,
+          "contenido": [
+            {
+              "titulo": "Establecimientos de fabricación",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "Obradores artesanales. Se caracterizan por se pequeños negocios familiares con escaso número de  trabajadores en los que se realizan muchas operaciones manuales o con ayuda de pequeños equipos o utensilios. Su sistema de producción es discontinuo, la elaboración diaria y suelen comercializar sus productos en un periodo corto de tiempo."
+                    },
+                    {
+                      "punto": "Obradores industriales. Suelen disponer de sistemas continuos de producción, las operaciones manuales son escasas, envasado mecánico, almacenes de gran capacidad (tanto para materias primas como para productos terminados) y una distribución al por mayor a nivel nacional y/o internacional."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Establecimientos de venta",
+              "texto": "Son aquellos que se dedican exclusivamente a la venta de los productos de pan y/o bollería y/o pastelería y repostería. Pueden realizar algunas operaciones de descongelación, fermentación y horneado “in situ” de productos semielaborados, siempre que dispongan de instalaciones y equipos adecuados para ello."
+            }
+          ]
+        }
+      ]
+    },
     {
       "titulo": "Diagrama de flujo",
       "contenido": [
         {
-          "clase": "texto",
-          "animacion": "fadeInRight",
-          "texto": "A grandes rasgos podríamos definir un diagrama de flujo de frutas y verduras desde su origen hasta el consumidor final según las siguientes etapas:"
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/modFru/diagrama.png"
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "animacion": "fadeInRight",
+                  "texto": "Por dicha heterogeneidad entre establecimientos y, aunque a cada tipo de producto le corresponde un proceso de fabricación determinado con sus etapas propias y características, podría considerarse un diagrama de flujo muy genérico como el que se muestra:"
+                },
+                {
+                  "clase": "imagen",
+                  "imagen": "img/modPan/13.Lateral.jpg"
+                }
+
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/diagrama.png"
+            }
+          ]
         }
       ]
     },
+    {
+      "titulo": "Peligros",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Los peligros más importantes en productos de panadería y pastelería son:"
+        },
+        {
+          "clase": "tabs",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Físicos",
+              "imagen": "img/modPan/14.1.jpg",
+              "ancho": 200,
+              "texto": "Restos de metales, plásticos, insectos, etc. procedentes o bien de las materias primas o que son introducidas en las masas durante el proceso de elaboración (objetos personales – anillos, pendientes…- partes de maquinaria – tuercas, tornillos…-. En muchos casos además de constituir un peligro físico, también representan un peligro biológico al contaminar fuertemente el alimento con microorganismos (por ejemplo, un pelo, tiritas usadas….)."
+            },
+            {
+              "titulo": "Químicos",
+              "imagen": "img/modPan/14.2.jpg",
+              "ancho": 200,
+              "texto": "Contaminaciones debidas a restos de productos de limpieza, combustibles para hornos o a causa de confusiones con aditivos."
+            },
+            {
+              "titulo": "Biológicos",
+              "imagen": "img/modPan/14.3.jpg",
+              "ancho": 200,
+              "texto": "Destacan por su frecuencia salmonellas y estafilococos, normalmente asociados a productos con  cremas, natas o derivados del huevo y/o manipulados después del horneado y deficientemente conservados. También son frecuentes los mohos."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "<b>IMPORTANTE!:</b><br>Es fundamental diferenciar entre aquellos productos que no sufren ningún tipo de manipulación después del horneado y aquellos a los que se les añade algún tipo de ingrediente una vez horneados, ya que los peligros van a ser diferentes. La manipulación de productos ya horneados debe ser mínima y en las condiciones más estrictas de higiene, ya que cualquier contaminación que les aportemos no podrá ser eliminada posteriormente."
 
+        }
+      ]
+    },
+    {
+      "titulo": "Recepción y almacenamiento de materias primas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Son muchos y muy variados los productos que se elaboran en panaderías y/o pastelerías, por lo que también son muchas y muy diversas las materias primas utilizadas (harina, sal, levadura, leche, huevos o ovoproductos, cacao, especias, condimentos, frutas u otros vegetales naturales, preparados o condimentados, aditivos, etc. y, aunque cada una de ellas tendrá unos peligros asociados, en general podrían  resumirse en:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "acordeon",
+                  "ancho": 90,
+                  "contenido": [
+                    {
+                      "titulo": "Contaminacion inicial",
+                      "contenido": [
+                        {
+                          "clase": "lista",
+                          "contenido": [
+                            {
+                              "punto": "De origen: harinas contaminadas por hongos presentes en las espigas de cereal (por ejemplo el cornezuelo, que afecta principalmente al centeno, pero también a trigo, avena, o cebada) o elaboradas con granos húmedos o almacenados inadecuadamente que desarrollaron mohos (y posibles micotoxinas) o conteniendo larvas o adultos de insectos o, al igual que el resto de materias primas de origen vegetal, contaminación con pesticidas."
+                            },
+                            {
+                              "punto": "Envases y/o embalajes rotos o deteriorados."
+                            },
+                            {
+                              "punto": "Condiciones higiénico-sanitarias del transporte y del almacén."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "clase": "acordeon",
+                  "ancho": 90,
+                  "contenido": [
+                    {
+                      "titulo": "Medidas preventivas",
+                      "contenido": [
+                        {
+                          "clase": "lista",
+                          "contenido": [
+                            {
+                              "punto": "No se admitirán productos que no se presenten en condiciones óptimas."
+                            },
+                            {
+                              "punto": "Las materias primas serán siempre adquiridas a proveedores homologados (con quienes concertaremos las características de calidad) y no admitiremos productos de procedencia dudosa o sin garantía sanitaria reconocida."
+                            },
+                            {
+                              "punto": "Comprobaremos que los envases y embalajes estén intactos y limpios. En el caso de las conservas no presentarán abolladuras y en el caso de los huevos tendrán la cáscara intacta, limpia y vendrán etiquetados."
+                            },
+                            {
+                              "punto": "No se almacenarán las materias primas junto a combustibles u otros productos químicos (limpieza y desinfección, insectidas, rodenticidas, etc.)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "acordeon",
+                  "ancho": 90,
+                  "contenido": [
+                    {
+                      "titulo": "Multiplicación de microorganismos",
+                      "contenido": [
+                        {
+                          "clase": "lista",
+                          "contenido": [
+                            {
+                              "punto": "Durante el transporte (temperaturas inadecuadas) o durante el almacenamiento (temperaturas inadecuadas o tiempo excesivo)."
+                            },
+                            {
+                              "punto": "Productos caducados."
+                            },
+                            {
+                              "punto": "Condiciones inadecuadas de almacenamiento (p. e. exceso de humedad en harinas)."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "clase": "acordeon",
+                  "ancho": 90,
+                  "contenido": [
+                    {
+                      "titulo": "Medidas preventivas",
+                      "contenido": [
+                        {
+                          "clase": "lista",
+                          "contenido": [
+                            {
+                              "punto": "Controlaremos las condiciones del transporte (condiciones higiénicas y de temperatura)."
+                            },
+                            {
+                              "punto": "Rechazaremos aquellos productos caducados o cuya fecha esté muy próxima (en este sentido las etiquetas, además de cumplir con los requisitos legales, estarán intactas y podrán leerse sin dificultad)."
+                            },
+                            {
+                              "punto": "Almacenaremos los productos en condiciones óptimas de higiene y a la temperatura / humedad que sea adecuada a cada tipo de producto."
+                            },
+                            {
+                              "punto": "Prestaremos especial atención en evitar contaminaciones cruzadas entre materias primas (tanto entre materias primas de distinto origen entre sí, como con productos semielaborados o ya terminados)."
+                            },
+                            {
+                              "punto": "Se deberá tener un control en la llegada y salida de productos así como una adecuada rotación, de tal forma que se evite la caducidad de las materias primas en el almacén."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
 
-
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/15.1.jpg",
+              "ancho": 250
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/15.2.jpg",
+              "ancho": 350
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías que…</b><br>El cornezuelo (Claviceps purpurea) es el hongo que causa la enfermedad llamada ergotismo (que llegó a ser muy frecuente en la Edad Media debido al consumo de pan de centeno contaminado) y que se presenta bajo dos formas: una caracterizada, entre otros síntomas, por convulsiones y alucinaciones y por dicho motivo se le considera responsable de muchos casos de brujería, como los juicios de Salem. La otra forma, denominada Fuego de San Antonio, causa una quemazón (de ahí su nombre) y terribles dolores en las extremidades, lo que finaliza con gangrena y pérdida de las mismas.",
+          "imagen": "img/modPan/15.3Cuadro.jpg",
+          "ancho": 200
+        }
+      ]
+    },
+    {
+      "titulo": "Mezclado",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/16.Cuadro.jpg",
+              "ancho": 500
+            },
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "En esta etapa las condiciones de los locales, de los materiales y utensilios utilizados así como las acciones de los propios manipuladores son fundamentales a la hora de prevenir los riesgos sanitarios.<br>El principal peligro será la contaminación de los productos a través de superficies, equipos, utensilios o por el propio manipulador.<br>Los materiales en contacto con los alimentos deberán ser de materiales resistentes y de fácil limpieza y desinfección, evitándose aquellos materiales porosos (como la madera)."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Superficies, utensilios y otros equipos deben estar limpios y desinfectados (para evitar la contaminación proveniente de restos de materias primas utilizadas previamente y que pueden estar permitiendo la multiplicación de microorganismos) y en estado correcto de mantenimiento (para evitar contaminantes físicos como, por ejemplo, la caída de un tornillo en la masa)."
+                },
+                {
+                  "punto": "Las mangas pasteleras serán de un solo uso o se lavarán y desinfectarán adecuadamente tras cada uso."
+                },
+                {
+                  "punto": "El personal manipulador debe conocer los riesgos en materia de higiene alimentaria (formación adecuada) y deberán presentar un correcto grado de higiene personal."
+                },
+                {
+                  "punto": "En el caso de utilizar materias primas que requieren refrigeración (como el huevo líquido, por ejemplo) se deben mantener en refrigeración hasta el mismo momento de su utilización."
+                },
+                {
+                  "punto": "En el caso de utilizarse aditivos, debe tenerse especial cuidado en utilizar exclusivamente aditivos autorizados para cada tipo de producto y a las dosis correctas, ya que algunos pueden resultar tóxicos."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/16.Lateral.jpg",
+              "ancho": 500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Preparación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Durante la etapa de preparación se desarrollan diferentes acciones específicas con el fin de obtener el producto a elaborar. Entre estas operaciones se encuentran todas aquellas previas a la fermentación y/o horneado: amasado/batido, división-pesado, boleado…"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/17.1.jpg"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/17.2.jpg"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/17.3.jpg"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/17.4.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "En esta fase el peligro principal es la multiplicación de los microorganismos, ya que se está trabajando a temperatura ambiente, por lo que es importante considerar el tiempo que permanece la masa desde que se mezclan los ingredientes hasta que se realiza la fermentación o se lleva al horno.<br><br>Si es necesaria la descongelación de productos, siempre deberá realizarse en locales climatizados o en cámaras frigoríficas y nunca a temperatura ambiente, salvo en el caso de que las masas precisen de un proceso fermentativo previo a la cocción."
+        }
+      ]
+    },
     {
       "titulo": "Fermentación",
       "contenido": [
@@ -384,8 +877,7 @@
           "contenido": [
             {
               "clase": "imagen",
-              "imagen": "img/modPan/18.1.jpg",
-              "ancho": 400
+              "imagen": "img/modPan/18.1.jpg"
             },
             {
               "clase": "texto",
