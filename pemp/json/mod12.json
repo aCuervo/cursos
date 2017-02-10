@@ -17,9 +17,8 @@
             {
               "clase": "imagen",
               "imagen": "img/mod12/hombreAtrapado.jpg",
-              "subclase": "paraCambiar",
-              "animacion": "fadeInUp",
-              "pie": "Una imagen similar a la que se ve, con nuestro muñeco",
+              "animacion": "fadeInRight",
+              "pie": "Riesgo de aplastamiento",
               "ancho": 300
             },
             {
@@ -34,30 +33,35 @@
       "titulo": "Planificación concienzuda del recorrido",
       "contenido": [
         {
-          "clase": "acordeon",
-          "animacion": "zoomInRight",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "titulo": "Guardar una distancia prudente a los obstáculos",
-              "texto": "El recorrido de la PEMP debería planificarse idealmente con una <b>distancia prudente</b> entre la PEMP y cualquier <b>obstáculo vertical</b>. Esta distancia deberá ser <b>mayor</b> cuando se conduzca una PEMP de brazo aéreo <b>a altura</b>, para evitar posibles \"rebotes\" y \"cabeceos\"."
+              "clase": "acordeon",
+              "animacion": "fadeInRight",
+              "contenido": [
+                {
+                  "titulo": "Guardar una distancia prudente a los obstáculos",
+                  "texto": "El recorrido de la PEMP debería planificarse idealmente con una <b>distancia prudente</b> entre la PEMP y cualquier <b>obstáculo vertical</b>. Esta distancia deberá ser <b>mayor</b> cuando se conduzca una PEMP de brazo aéreo <b>a altura</b>, para evitar posibles \"rebotes\" y \"cabeceos\"."
+                },
+                {
+                  "titulo": "Evitar los mandos de traslación/elevación/giro cerca de obstáculos",
+                  "texto": "Si le es inevitable trabajar cerca de un obstáculo por encima suyo, le recomendamos encarecidamente que, de ser posible, use sólo los <b>mandos de posicionamiento fino</b> en caso de tratarse de una <b>PEMP de brazo aéreo</b>. Una vez la PEMP esté <b>cerca</b> del obstáculo, <b>evite</b> los mandos generales (no de ajuste fino) de traslación, elevación y giro.<br><br>Los movimientos deberían ser <b>siempre</b> lentos, deliberados y planificados. Ello se logra utilizando con cuidado los mandos proporcionales de la PEMP. La <b>secuencia</b> de operaciones debería ser la que se ve en la imagen",
+                  "imagen": "img/mod12/secuenciaDeOperaciones.jpg"
+                },
+                {
+                  "titulo": "La traslación a altura debería ser la última opción",
+                  "texto": "Conducir una PEMP de brazo <b>extendida</b> en altura para trasladarse debería ser la <b>última maniobra</b> a considerar para posicionar la plataforma cerca de un obstáculo por encima de la cabeza, toda vez que ello puede dar lugar a movimientos inesperados que dificulten el posicionamiento fino de la plataforma.<br><br>Si la traslación con el brazo extendido en altura se revela como la opción menos peligrosa, las plataformas de brazo deberían conducirse a sus velocidades <b>más lentas</b> (esto es especialmente importante a bajas alturas, donde las velocidades de traslación son mayores)."
+                }
+              ]
             },
             {
-              "titulo": "Evitar los mandos de traslación/elevación/giro cerca de obstáculos",
-              "texto": "Si le es inevitable trabajar cerca de un obstáculo por encima suyo, le recomendamos encarecidamente que, de ser posible, use sólo los <b>mandos de posicionamiento fino</b> en caso de tratarse de una <b>PEMP de brazo aéreo</b>. Una vez la PEMP esté <b>cerca</b> del obstáculo, <b>evite</b> los mandos generales (no de ajuste fino) de traslación, elevación y giro.<br><br>Los movimientos deberían ser <b>siempre</b> lentos, deliberados y planificados. Ello se logra utilizando con cuidado los mandos proporcionales de la PEMP. La <b>secuencia</b> de operaciones debería ser la que se ve en la imagen",
-              "imagen": "img/mod12/secuenciaDeOperaciones.jpg"
-            },
-            {
-              "titulo": "La traslación a altura debería ser la última opción",
-              "texto": "Conducir una PEMP de brazo <b>extendida</b> en altura para trasladarse debería ser la <b>última maniobra</b> a considerar para posicionar la plataforma cerca de un obstáculo por encima de la cabeza, toda vez que ello puede dar lugar a movimientos inesperados que dificulten el posicionamiento fino de la plataforma.<br><br>Si la traslación con el brazo extendido en altura se revela como la opción menos peligrosa, las plataformas de brazo deberían conducirse a sus velocidades <b>más lentas</b> (esto es especialmente importante a bajas alturas, donde las velocidades de traslación son mayores)."
+              "clase": "imagen",
+              "imagen": "img/mod12/obstaculos.svg",
+              "alt": "Recorrido con obtaculos",
+              "pie": "Recorrido con obtaculos.",
+              "animacion": "fadeInRight"
             }
           ]
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod12/obstaculos.jpg",
-          "subclase": "paraCambiar",
-          "pie": "Imagen de un camino con obtaculos, con o sin PEMP, segun lo veas",
-          "animacion": "zoomInUp"
         }
       ]
     },

@@ -1,3 +1,37 @@
+#miHeader {
+    background: #333;
+    color: white;
+    height: 10%;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+
+#miLogoHeader {
+    float: left;
+    height: auto;
+    width: auto;
+    flex: auto;
+}
+
+#miCuerpo {
+    padding-top: 10%; /* Relleno superior igual a la altura de la cabecera*/
+    padding-bottom: 10%; /* Relleno superior igual a la altura del pie*/	
+}
+
+#miPie {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%; /* hacemos que el pie ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos el pie al lado izquierdo */
+    bottom: 0; /* Posicionamos el pie pegado abajo */
+    position: fixed; /* Hacemos que el pie tenga una posición fija */
+}
+
 #myDIV {
     height: 250px;
     width: 400px;

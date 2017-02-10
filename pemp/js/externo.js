@@ -384,7 +384,7 @@ function getArrayImagenes(modulo) {
 			"img/mod12/hombreAtrapado.jpg",
 			"img/mod12/hombreDespedida.jpg",
 			"img/mod12/indicadores.jpg",
-            "img/mod12/obstaculos.jpg",
+            "img/mod12/obstaculos.svg",
 			"img/mod12/resumen1.jpg",
 			"img/mod12/resumen2.jpg",
 			"img/mod12/resumen3.jpg",
