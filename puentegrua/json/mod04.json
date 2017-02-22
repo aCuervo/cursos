@@ -31,7 +31,7 @@
       "contenido": [
         {
           "clase": "listaObjetos",
-		  "animacion": "wobble",
+          "animacion": "wobble",
           "contenido": [
             {
               "clase": "texto",
@@ -51,7 +51,7 @@
       "contenido": [
         {
           "clase": "lista",
-		  "animacion": "bounceInDown",
+          "animacion": "bounceInDown",
           "titulo": "INSTRUCCIONES GENERALES DE OPERACIÓN <br><br>Como reglas generales, deben respetarse las siguientes:",
           "contenido": [
             {
@@ -115,7 +115,7 @@
         },
         {
           "clase": "lista",
-		  "animacion": "bounceInUp",
+          "animacion": "bounceInUp",
           "titulo": "Los factores a considerar pueden ser tales como:",
           "contenido": [
             {
@@ -150,7 +150,7 @@
         },
         {
           "clase": "lista",
-		  "animacion": "fadeInLeft"
+          "animacion": "fadeInLeft",
           "titulo": "La planificación debe tener en cuenta riesgos tales como:",
           "contenido": [
             {
@@ -178,7 +178,7 @@
         },
         {
           "clase": "icono",
-		  "animacion": "bounceInRight",
+          "animacion": "bounceInRight",
           "subclase": "exclamacion",
           "texto": "Este tipo de operaciones han de estar supervisadas adecuadamente."
         }
@@ -233,7 +233,7 @@
         },
         {
           "clase": "tabla",
-		  "animacion": "swing",
+          "animacion": "swing",
           "subclase": "centro",
           "filaTitulos": [
             {
@@ -260,11 +260,11 @@
                 },
                 {
                   "texto": "Eslinga de 2 ramales",
-                   "colspan": 2
+                  "colspan": 2
                 },
                 {
                   "texto": "Eslinga de 3 y 4 ramales",
-                   "colspan": 2
+                  "colspan": 2
                 }
               ]
             },
@@ -285,15 +285,15 @@
                 },
                 {
                   "imagen": "img/mod04/eslingadoCesto.svg",
-                   "colspan": 2
+                  "colspan": 2
                 },
                 {
                   "imagen": "img/mod04/eslinga2Ram.svg",
-                   "colspan": 2
+                  "colspan": 2
                 },
                 {
                   "imagen": "img/mod04/eslinga34Ram.svg",
-                   "colspan": 2
+                  "colspan": 2
                 }
               ]
             },
@@ -313,7 +313,7 @@
                   "texto": "Paralelo"
                 },
                 {
-                  "texto": "ß = 0º a 45º" 
+                  "texto": "ß = 0º a 45º"
 
                 },
                 {
@@ -321,7 +321,7 @@
 
                 },
                 {
-                  "texto": "ß = 0º a 45º" 
+                  "texto": "ß = 0º a 45º"
 
                 },
                 {
@@ -704,7 +704,7 @@
         },
         {
           "clase": "listaObjetos",
-		  "animacion": "shake",
+          "animacion": "shake",
           "contenido": [
             {
               "clase": "imagen",
@@ -721,13 +721,13 @@
               "imagen": "img/mod04/eslingaTubularSinFin.jpg",
               "pie": "Eslinga tubular sin fin"
             },
-                        {
+            {
               "clase": "imagen",
               "imagen": "img/mod04/eslingaTubularGaza.jpg",
               "pie": "Eslinga tubular con gazas"
             }
           ]
-        }        
+        }
       ]
     },
     {
@@ -735,7 +735,7 @@
       "contenido": [
         {
           "clase": "lista",
-		  "animacion": "rotateInDownRight",
+          "animacion": "rotateInDownRight",
           "titulo": "Las eslingas son accesorios de elevación, que en función de sus características pueden ser:",
           "contenido": [
             {
@@ -751,7 +751,7 @@
         },
         {
           "clase": "lista",
-		  "animacion": "slideInUp",
+          "animacion": "slideInUp",
           "titulo": "El principal riesgo asociado al empleo de eslingas es la caída de la carga sobre personas u objetos, siendo algunos de los motivos más comunes para que este riesgo se materialice, los siguientes:",
           "contenido": [
             {
@@ -780,7 +780,7 @@
         },
         {
           "clase": "lista",
-		  "animacion": "lightSpeedIn",
+          "animacion": "lightSpeedIn",
           "titulo": "Otros aspectos a tener en cuenta en su selección son:",
           "contenido": [
             {
@@ -797,7 +797,7 @@
         },
         {
           "clase": "listaObjetos",
-		  "animacion": "fadeInRight",
+          "animacion": "fadeInRight",
           "subclase": "centroAncho",
           "contenido": [
             {
@@ -813,7 +813,7 @@
         },
         {
           "clase": "lista",
-		  "animacion": "fadeInRight",
+          "animacion": "fadeInRight",
           "titulo": "Puede ser necesario realizar puntos de amarre con cáncamos, que deberán entonces combinar dos características: ",
           "contenido": [
             {
@@ -830,7 +830,7 @@
         },
         {
           "clase": "listaObjetos",
-		  "animacion": "swing",
+          "animacion": "swing",
           "contenido": [
             {
               "clase": "texto",
@@ -850,12 +850,12 @@
       "contenido": [
         {
           "clase": "texto",
-		  "animacion": "bounceIn",
+          "animacion": "bounceIn",
           "texto": "Placa de acero perforada destinada a ser soldada a la carga, con el fin de elevarla."
         },
         {
           "clase": "imagen",
-		  "animacion": "rubberBand",
+          "animacion": "rubberBand",
           "subclase": "paraCambiar",
           "imagen": "img/mod04/orejeta.png",
           "ancho": 400
@@ -867,7 +867,7 @@
       "contenido": [
         {
           "clase": "listaObjetos",
-		  "animacion": "swing",
+          "animacion": "swing",
           "contenido": [
             {
               "clase": "imagen",
@@ -889,7 +889,7 @@
         },
         {
           "clase": "lista",
-		  "animacion": "bounceInUp",
+          "animacion": "bounceInUp",
           "titulo": "Dependiendo del pasador se pueden distinguir: ",
           "contenido": [
             {
@@ -906,7 +906,7 @@
         },
         {
           "clase": "lista",
-		  "animacion": "fadeInLeft",
+          "animacion": "fadeInLeft",
           "titulo": "Cada grillete debe venir identificado con:",
           "contenido": [
             {
@@ -925,7 +925,7 @@
         },
         {
           "clase": "lista",
-		  "animacion": "bounceInRight",
+          "animacion": "bounceInRight",
           "titulo": "Además del marcado, el proveedor debe facilitar un certiﬁcado con la siguiente información:",
           "contenido": [
             {
@@ -949,8 +949,8 @@
           ]
         },
         {
-          "clase": "lista",		  
-			"animacion": "bounceInDown",
+          "clase": "lista",
+          "animacion": "bounceInDown",
           "titulo": "Para la adquisición segura de estos equipos, se deberán observar los siguientes parámetros: ",
           "contenido": [
             {
@@ -970,7 +970,7 @@
         },
         {
           "clase": "lista",
-		  "animacion": "fadeInLeft",
+          "animacion": "fadeInLeft",
           "titulo": "Por otro lado, se debe disponer de instrucciones de utilización con los siguientes apartados: ",
           "contenido": [
             {
@@ -1001,12 +1001,12 @@
       "contenido": [
         {
           "clase": "texto",
-		  "animacion": "rotateInDownLeft",
+          "animacion": "rotateInDownLeft",
           "texto": "Además de accesorios de elevación como son las eslingas, también existen otros tipos de equipos auxiliares de elevación, para complementar a la grúa, los denominados amovibles regidos por las normas <b>UNE 13155</b>.<br><br>Este apartado comprende aquellos equipos que se pueden unir directamente al equipo de elevación. Se incluyen, entre otros, las horquillas de elevación, las pinzas, los Ganchos C, las vigas de suspensión, los electroimanes y las ventosas de vacío."
         },
         {
           "clase": "lista",
-		  "animacion": "rotateInDownRight",
+          "animacion": "rotateInDownRight",
           "subclase": "cuadrado",
           "titulo": "Según la Norma EN 13155, estos útiles mantienen unos requisitos generales de seguridad comunes:",
           "contenido": [
@@ -1031,7 +1031,7 @@
         },
         {
           "clase": "lista",
-		  "animacion": "bounceInRight",
+          "animacion": "bounceInRight",
           "titulo": "El Marcado de los Equipos amovibles de elevación de carga debe contener la siguiente información: ",
           "contenido": [
             {
@@ -1059,7 +1059,7 @@
         },
         {
           "clase": "lista",
-		  "animacion": "slideInLeft",
+          "animacion": "slideInLeft",
           "titulo": "Los equipos amovibles deberán ser acompañados de certiﬁcado de conformidad con la norma EN 13155 y el manual de instrucciones que incluirá al menos, la información siguiente:",
           "contenido": [
             {
@@ -1096,7 +1096,7 @@
         },
         {
           "clase": "acordeon",
-		  "animacion": "tada",
+          "animacion": "tada",
           "contenido": [
             {
               "titulo": "Accesorio en C",
@@ -1141,7 +1141,7 @@
         },
         {
           "clase": "lista",
-		  "animacion": "fadeInRight",
+          "animacion": "fadeInRight",
           "titulo": "Los <b>accesorios de elevación</b>, serán seleccionados en función de:",
           "contenido": [
             {
@@ -1166,7 +1166,7 @@
       "contenido": [
         {
           "clase": "acordeon",
-		  "animacion": "flipInY",
+          "animacion": "flipInY",
           "subclase": "paraCambiar",
           "contenido": [
             {
@@ -1237,7 +1237,7 @@
       "contenido": [
         {
           "clase": "tabs",
-		  "animacion": "lightSpeedIn",
+          "animacion": "lightSpeedIn",
           "subclase": "paraCambiar",
           "contenido": [
             {
@@ -1277,7 +1277,7 @@
                 },
                 {
                   "clase": "tabs",
-				  "animacion": "fadeInLeft",
+                  "animacion": "fadeInLeft",
                   "subclase": "paraCambiar",
                   "contenido": [
                     {
@@ -1444,7 +1444,7 @@
                 }
               ]
             },
-                        {
+            {
               "texto": "Caso de tener que utilizar simultáneamente dos máquinas de elevación de cargas en la misma maniobra:",
               "respuestas": [
                 {
@@ -1464,28 +1464,30 @@
           ]
         }
       ]
-    }, 
-
-{
-  "titulo": "Despedida",
-  "contenido": [
+    },
     {
-      "clase": "listaObjetos",
-      "animacion": "fadeInRight",
+      "titulo": "Despedida",
       "contenido": [
         {
-          "clase": "texto",
-          "texto": "Aquí hemos ido conociendo la importancia de la carga y los elementos de estrobado.<br><br>Sobre las eslingas hablaremos en los próximos tres módulos, dedicando uno a cada uno de los tipos de eslinga, ya que es tan importante como conocer la máquina, saber que estrobo hemos de elegir. "
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod04/despedida.jpg"
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Aquí hemos ido conociendo la importancia de la carga y los elementos de estrobado.<br><br>Sobre las eslingas hablaremos en los próximos tres módulos, dedicando uno a cada uno de los tipos de eslinga, ya que es tan importante como conocer la máquina, saber que estrobo hemos de elegir. "
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/despedida.jpg"
+            }
+          ]
         }
       ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
     }
   ]
-}, {
-  "titulo": "¡Hasta luego!",
-  "fondo": "img/comunes/contraportada.svg",
-  "subclase": "portada"
-} ] }
+}

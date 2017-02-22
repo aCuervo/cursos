@@ -32,6 +32,13 @@
             "js/jointJS/joint.min.js"
         ]);
             break;
+        case "modCha": arrayFinal = arrayComun.concat([
+            "js/bootstrap/bootstrap.min.js",
+            "js/jointJS/lodash.min.js",
+            "js/jointJS/backbone-min.js",
+            "js/jointJS/joint.min.js"
+        ]);
+            break;
         case "modCar":
         case "modRes":
             arrayFinal = arrayComun.concat([
@@ -75,6 +82,11 @@ function getArrayCSS(modulo) {
             "css/bootstrap/bootstrap.min.css",
             "css/jointJS/joint.min.css"
             ]);
+            break;
+        case "modCha": arrayFinal = arrayComun.concat([
+            "css/bootstrap/bootstrap.min.css",
+            "css/jointJS/joint.min.css"
+        ]);
             break;
         case "modCar":
         case "modPes":
@@ -538,7 +550,7 @@ function getArrayImagenes(modulo) {
             "img/modPan/19.OpcionA.jpg",
             "img/modPan/20.Dch.jpg",
             "img/modPan/20.Izq.jpg",
-            "img/modPan/21.1ArribaI.jpg",           
+            "img/modPan/21.1ArribaI.jpg",
             "img/modPan/21.2ArribaD.jpg",
             "img/modPan/21.3Abajo.jpg",
             "img/modPan/22.1Deco.jpg",
