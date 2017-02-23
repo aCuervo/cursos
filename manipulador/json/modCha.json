@@ -21,645 +21,360 @@
         }
       ]
     },
-
     {
-      "titulo": "Composición",
+      "titulo": "Productos cárnicos",
       "contenido": [
         {
           "clase": "texto",
-          "animacion": "fadeInRight",
-          "texto": "La carne es el resultado de la <b>transformación del músculo</b> como consecuencia de ciertos cambios bioquímicos que se suceden en el mismo cuando finaliza el sacrificio del animal, por tanto la carne está compuesta principalmente de músculo, pero la pueden componer más elementos como son las grasas, los huesos, nervios, vasos sanguíneos, tendones y aponeurosis (telilla o membrana que rodea los músculos).<br><br>El <b>músculo</b> está compuesto por fibras musculares, que son cadenas de <b>proteínas</b>, y cada proteína está constituida por aminoácidos. Tanto la carne como sus productos cárnicos son ricos en agua, proteínas, vitaminas y elementos minerales."
+          "texto": "A diferencia de la carnicería, cuyo producto más representativo es la carne fresca y ciertos preparados de carne, la Sección de Charcutería está más orientada a la venta de Productos Cárnicos que, según Normativa,  se definen como “los productos transformados resultantes de la transformación de la carne o de la nueva transformación de dichos productos transformados, de modo que la superficie de corte muestre que el producto ha dejado de poseer las características de la carne fresca”.<br>Se distinguen, por tanto:"
         },
-        {
-          "clase": "texto",
-          "animacion": "fadeInRight",
-          "subclase": "centro",
-          "texto": "<b>Composición química de la carne</b>"
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
             {
-              "clase": "imagen",
-              "imagen": "img/modCar/sco4izq.png",
-              "ancho": 300
-            },
-            {
-              "clase": "tabla",
-              "animacion": "fadeInRight",
-              "filaTitulos": [
+              "clase": "acordeonSub",
+              "ancho": 80,
+              "contenido": [
                 {
-                  "titulo": "Componente"
-                },
-                {
-                  "titulo": "Valores aproximados"
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
+                  "titulo": "Queso madurado",
+                  "contenido": [
                     {
-                      "texto": "Agua"
+                      "titulo": "Tierno",
+                      "texto": "Cuando la maduración mínima es de 7 días.",
+                      "imagen": ""
                     },
                     {
-                      "texto": "60-80%"
+                      "titulo": "Semicurado",
+                      "texto": "Cuando la maduración mínima son 20 (quesos de igual o menor peso a 1,5 kg) o 35 días (quesos de más de 1,5 kg).",
+                      "imagen": ""
                     }
                   ]
                 },
-                {
-                  "fila": [
+                   {
+                  "titulo": "Queso madurado",
+                  "contenido": [
                     {
-                      "texto": "Proteínas"
+                      "titulo": "Tierno",
+                      "texto": "Cuando la maduración mínima es de 7 días.",
+                        "imagen": ""
                     },
                     {
-                      "texto": "16-25% "
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Grasas"
-                    },
-                    {
-                      "texto": "Variable: 3-30%"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Vitaminas"
-                    },
-                    {
-                      "texto": "Principalmente del grupo B (B1, B3, B6 y B12) y algo de Vitamina A"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Minerales"
-                    },
-                    {
-                      "texto": "Hierro y Zinc de alta disponibilidad"
-                    }
+                      "titulo": "Semicurado",
+                      "texto": "Cuando la maduración mínima son 20 (quesos de igual o menor peso a 1,5 kg) o 35 días (quesos de más de 1,5 kg).",
+                           "imagen": ""
+                    }                   
                   ]
                 }
               ]
             },
-            {
-              "clase": "imagen",
-              "imagen": "img/modCar/sco4der.png",
-              "ancho": 300
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "titulo": "Alteración",
-      "contenido": [
-        {
-          "clase": "texto",
-          "animacion": "fadeInRight",
-          "texto": "Debido a su <b>composición</b>, contenido alto en agua y pH, la carne reúne todas las características idóneas para la multiplicación de los microorganismos, y por dicho motivo es uno de los alimentos más <b>perecederos y más susceptible a la alteración</b>. Las alteraciones de la carne se deben por un lado a su propia composición y a la interacción con factores físicos (luz, temperatura...),  químicos (oxidación, acidificación...) o microbiológicos (bacterias alterantes)."
-        },
-        {
-          "clase": "texto",
-          "texto": "Alteraciones <b>NO causadas por microorganismos</b>:"
-        },
-        {
-          "clase": "tabs",
-          "subclase": "vertical",
-          "animacion": "fadeInRight",
-          "contenido": [
-            {
-              "titulo": "Rancidez oxidativa",
-              "texto": "Consiste en la <b>oxidación de las grasas</b> al exponerlas al oxígeno del aire. La consecuencia es la producción de un olor, aspecto y sabor desagradables. Este proceso se acelera con las altas temperaturas, la luz y determinadas sales. Hay que tener en cuenta que las grasas insaturadas (consideradas más beneficiosas para la salud) son más susceptibles de ser oxidadas que las saturadas (consideradas menos beneficiosas)."
-            },
-            {
-              "titulo": "Quemadura del frío",
-              "texto": "Si durante el almacenamiento en refrigeración (o congelación) la <b>humedad del entorno es baja</b> (ambientes secos) los alimentos ceden su agua para equilibrar el ambiente y combatir la sequedad lo que provoca una pérdida de humedad en algunas zonas y se produce la quemadura del frío."
-            },
-            {
-              "titulo": "Deshidratación",
-              "texto": "Da un aspecto <b>seco, viejo</b> y de textura basta. Normalmente se limita a la superficie. Se produce por temperaturas inadecuadas (altas) o humedades bajas."
-            },
-            {
-              "titulo": "Goteo",
-              "texto": "Se produce <b>pérdida de agua</b> por descongelación de los productos que han sido congelados de forma lenta o en congeladores poco potentes. Hay carnes como la de cerdo que tienden a acumular agua y que tras su descongelación, tendrán un goteo más intenso."
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "animacion": "fadeInRight",
-          "texto": "Alteraciones <b>causadas por microorganismos</b><br>(dependen de la <b>zona</b> en la que éstos se encuentren, en la superficie o en la parte profunda y también del <b>tipo</b> de microorganismo):"
-        },
-        {
-          "clase": "tabs",
-          "subclase": "vertical",
-          "animacion": "fadeInRight",
-          "contenido": [
-            {
-              "titulo": "Mucosidad exterior",
-              "texto": "Es una alteración que se manifiesta con una especie de limo o <b>mucosidad</b> en la superficie de la carne, normalmente de color blanquecino."
-            },
-            {
-              "titulo": "Coloraciones o brillos anormales",
-              "texto": "Bacterias, hongos y levaduras pueden colonizar la carne originando <b>manchas</b> de diversas tonalidades según de qué microorganismo se trate (azul-verdosas, amarillentas, rosado o rojos, blanco, negruzco...)."
-            },
-            {
-              "titulo": "Otros",
-              "texto": "<b>Olores y sabores</b> desagradables.<br><b>Alteración</b> en la firmeza de la carne.<br><b>Putrefacción</b>"
-            }
-          ]
-        },
-        {
+                {
           "clase": "icono",
+          "opacidad": 0.8,
           "animacion": "fadeInRight",
-          "subclase": "exclamacion",
-          "texto": "Todas estas alteraciones provocan el <b>rechazo del producto</b>, por lo que no deberían ser causa de enfermedad alimentaria."
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías que…</b><br>actualmente los jamones se cuelgan para que se ventilen, pero en la época de persecución de los judíos, la finalidad era distinta. Tener un jamón colgado del techo suponía que allí se comía cerdo y, por tanto, quienes allí estaban no eran judíos."
         }
-      ]
-    },
+]
+        },
     {
-      "titulo": "Bienestar animal",
-      "fondo": "img/modCar/scoBienestar.png",
+      "titulo": "Productos cárnicos II",
+      "fondo": "img/modCha/06.Fondo.jpg",
       "contenido": [
         {
           "clase": "texto",
           "subclase": "recuadro",
           "opacidad": 0.7,
-          "ancho": "70",
-          "animacion": "fadeInRight",
-          "texto": "Existe actualmente una preocupación cada vez mayor que no se limita a la <b>calidad</b> y la <b>seguridad</b> alimentaria de la carne como alimento, sino que engloba todas las manipulaciones y procesos desde el nacimiento del animal en la explotación ganadera hasta el instante en que llega a la persona consumidora, procesos en los que juega un papel muy importante el <b>sistema de cría</b> y las condiciones higiénicas, sanitarias y de <b>bienestar animal</b> presentes en el proceso productivo."
+          "texto": "La carne es un alimento muy perecedero debido a su alto contenido en agua, proteínas, vitaminas y elementos minerales (es decir, nutrientes) y además, al ser un alimento crudo, es normal que se presente con una carga microbiológica, en mayor o menor cantidad según varios factores (condiciones de producción primaria, sacrificio, conservación, elaboración y manipulaciones posteriores). Esto no sucede con los derivados cárnicos, en los cuales, y de una manera muy genérica, podemos decir que el tratamiento al que han sido sometidos han eliminado o disminuido hasta niveles aceptables dicha carga microbiológica –o en el caso de ciertos productos curados ha sido sustituida por otras bacterias beneficiosas, necesarias para la elaboración de los mismos como, por ejemplo, el chorizo-."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.7,
+          "texto": "No obstante, los productos cocidos han sido sometidos a una temperatura de pasteurización, capaz de eliminar o disminuir significativamente las bacterias patógenas, pero no las esporas y por dicho motivo se deben mantener en refrigeración."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.7,
+          "texto": "Los productos curado-madurados, por el contrario, son más estables debido a que durante su elaboración se va eliminando el agua, por lo que ésta no está disponible para los microorganismos y de esta manera pueden mantenerse a temperatura ambiente."
         }
       ]
     },
     {
-      "titulo": "Diagrama de flujo de la carne",
+      "titulo": "Derivados de la pesca",
       "contenido": [
         {
           "clase": "texto",
-          "animacion": "fadeInRight",
-          "texto": "A continuación se muestra un ejemplo simplificado del diagrama de flujo de la carne, desde la producción primaria hasta la venta al consumidor."
-        },
-        {
-          "clase": "diagrama",
-          "cajas": [
-            {
-              "id": 1,
-              "forma": "rect",
-              "texto": "Producción Primaria: Cría de animales",
-              "ancho": 300,
-              "alto": 60,
-              "x": 400,
-              "y": 1,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 1
-            },
-            {
-              "id": 2,
-              "forma": "rect",
-              "texto": "Transporte (animales vivos)",
-              "ancho": 300,
-              "alto": 60,
-              "x": 400,
-              "y": 100,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 3
-            },
-            {
-              "id": 3,
-              "forma": "rect",
-              "texto": "Sacrificio/Despiece",
-              "ancho": 300,
-              "alto": 60,
-              "x": 400,
-              "y": 200,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 5
-            },
-            {
-              "id": 4,
-              "forma": "rect",
-              "texto": "Transporte de carne",
-              "ancho": 300,
-              "alto": 60,
-              "x": 400,
-              "y": 300,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 7
-            },
-            {
-              "id": 5,
-              "forma": "rect",
-              "texto": "Carnicería",
-              "ancho": 300,
-              "alto": 60,
-              "x": 1,
-              "y": 400,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 9
-            },
-            {
-              "id": 6,
-              "forma": "rect",
-              "texto": "Recepción",
-              "ancho": 300,
-              "alto": 60,
-              "x": 1,
-              "y": 500,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 11
-            },
-            {
-              "id": 7,
-              "forma": "rect",
-              "texto": "Almacenamiento",
-              "ancho": 300,
-              "alto": 60,
-              "x": 1,
-              "y": 600,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 13
-            },
-            {
-              "id": 8,
-              "forma": "rect",
-              "texto": "Manipulación y venta",
-              "ancho": 300,
-              "alto": 60,
-              "x": 1,
-              "y": 700,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 15
-            },
-            {
-              "id": 9,
-              "forma": "rect",
-              "texto": "Industria cárnica",
-              "ancho": 300,
-              "alto": 60,
-              "x": 800,
-              "y": 400,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 17
-            },
-            {
-              "id": 10,
-              "forma": "rect",
-              "texto": "Recepción",
-              "ancho": 300,
-              "alto": 60,
-              "x": 800,
-              "y": 500,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 19
-            },
-            {
-              "id": 11,
-              "forma": "rect",
-              "texto": "Almacenamiento",
-              "ancho": 300,
-              "alto": 60,
-              "x": 800,
-              "y": 600,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 21
-            },
-            {
-              "id": 12,
-              "forma": "rect",
-              "texto": "Acondicionamiento / Procesado",
-              "ancho": 300,
-              "alto": 60,
-              "x": 800,
-              "y": 700,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 23
-            },
-            {
-              "id": 13,
-              "forma": "rect",
-              "texto": "Envasado",
-              "ancho": 300,
-              "alto": 60,
-              "x": 800,
-              "y": 800,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 25
-            },
-            {
-              "id": 14,
-              "forma": "rect",
-              "texto": "Almacenamiento / Distribución",
-              "ancho": 300,
-              "alto": 60,
-              "x": 800,
-              "y": 900,
-              "relleno": "#ffffff",
-              "borde": "#65acb0",
-              "anchoBorde": 3,
-              "orden": 27
-            }
-          ],
-          "enlaces": [
-            {
-              "origen": 1,
-              "destino": 2,
-              "color": "#65acb0",
-              "orden": 2
-            },
-            {
-              "origen": 2,
-              "destino": 3,
-              "color": "#65acb0",
-              "orden": 4
-            },
-            {
-              "origen": 3,
-              "destino": 4,
-              "color": "#65acb0",
-              "orden": 6
-            },
-            {
-              "origen": 4,
-              "destino": 5,
-              "color": "#65acb0",
-              "orden": 8
-            },
-            {
-              "origen": 5,
-              "destino": 6,
-              "color": "#65acb0",
-              "orden": 10
-            },
-            {
-              "origen": 6,
-              "destino": 7,
-              "color": "#65acb0",
-              "orden": 12
-            },
-            {
-              "origen": 7,
-              "destino": 8,
-              "color": "#65acb0",
-              "orden": 14
-            },
-            {
-              "origen": 4,
-              "destino": 9,
-              "color": "#65acb0",
-              "orden": 16
-            },
-            {
-              "origen": 9,
-              "destino": 10,
-              "color": "#65acb0",
-              "orden": 18
-            },
-            {
-              "origen": 10,
-              "destino": 11,
-              "color": "#65acb0",
-              "orden": 20
-            },
-            {
-              "origen": 11,
-              "destino": 12,
-              "color": "#65acb0",
-              "orden": 22
-            },
-            {
-              "origen": 12,
-              "destino": 13,
-              "color": "#65acb0",
-              "orden": 24
-            },
-            {
-              "origen": 13,
-              "destino": 14,
-              "color": "#65acb0",
-              "orden": 26
-            }
-          ]
-        }
-
-      ]
-    },
-    {
-      "titulo": "Peligros generales",
-      "fondo": "",
-      "contenido": [
-        {
-          "clase": "texto",
-          "animacion": "fadeInRight",
-          "texto": "Aunque cada una de dichas etapas tendrá unos peligros asociados específicos, vamos a diferenciar <b>dos grandes bloques</b>:"
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "lista",
-              "subclase": "celo",
-              "imgPunto": "img/modCar/vaquita32.svg",
-              "animacion": "fadeInRight",
-              "titulo": "Un primer bloque en el cual se produce la contaminación de la carne y que englobaremos como <b>contaminación de origen</b>, que vamos a mencionar para ser conscientes de que ya partimos de un producto con un cierto grado de contaminación y esto nos ha de condicionar para ser lo más rigurosos posibles en las manipulaciones que realicemos posteriormente para no incrementar la misma y, sobre todo, para evitar la multiplicación microbiológica:",
-              "contenido": [
-                {
-                  "punto": "Contaminación en la <b>explotación</b> ganadera."
-                },
-                {
-                  "punto": "Contaminación durante el <b>traslado</b> de animales vivos al matadero."
-                },
-                {
-                  "punto": "Contaminación durante el <b>sacrificio</b> y faenado."
-                }
-              ]
-            },
-            {
-              "clase": "lista",
-              "subclase": "celo",
-              "imgPunto": "img/modCar/establo25.svg",
-              "animacion": "fadeInRight",
-              "titulo": "Un segundo bloque en el cual se podrán producir <b>nuevas contaminaciones</b> a lo que se suma el peligro de <b>multiplicación bacteriana</b>:",
-              "contenido": [
-                {
-                  "punto": "Peligros asociados al <b>almacenamiento</b> de carnes."
-                },
-                {
-                  "punto": "Peligros asociados al <b>transporte</b> de carnes."
-                },
-                {
-                  "punto": "Peligros asociados a manipulaciones posteriores (<b>acondicionamiento</b> de carnes o <b>elaboración</b> de productos cárnicos en industrias cárnicas o en carnicerías)."
-                }
-              ]
-            }
-          ]
+          "texto": "En Charcutería también pueden encontrarse productos de la pesca."
         },
         {
           "clase": "listaObjetos",
           "contenido": [
             {
               "clase": "imagen",
-              "imagen": "img/modCar/vaquita.svg",
-              "ancho": 200
+              "imagen": "img/modCha/04I.png",
+              "ancho": 300
+            },
+            {
+              "clase": "texto",
+              "texto": "A diferencia de la pescadería cuyos artículos más representativos son el pescado y mariscos frescos, aquí los productos más habituales son los transformados del pescado, principalmente productos en salazón (como el bacalao) y productos ahumados (como el salmón).<br>El pescado, al igual que sucedía con la carne, es un alimento muy perecedero debido a su alto contenido en agua, proteínas, vitaminas y elementos minerales (nutrientes)y además, al ser un alimento crudo, no es inusual que presente una carga microbiológica, en mayor o menor cantidad según diversos factores (zona de captura, condiciones de conservación, elaboración y manipulaciones posteriores)."
             },
             {
               "clase": "imagen",
-              "imagen": "img/modCar/establo.svg",
-              "ancho": 200
+              "imagen": "img/modCha/04D.jpg",
+              "ancho": 300
             }
           ]
-        }
-      ]
-    },
-
-    {
-      "titulo": "Contaminación de origen: Explotación ganadera II",
-      "contenido": [
-        {
-          "clase": "texto",
-          "animacion": "fadeInRight",
-          "texto": "En esta etapa destacan los <b>contaminantes</b>:"
-        },
-        {
-          "clase": "tabs",
-          "animacion": "fadeInRight",
-          "contenido": [
-            {
-              "titulo": "Químicos",
-              "texto": "La utilización de <b>medicamentos</b> en los animales es una práctica que se realiza con el fin de controlar enfermedades, mejorar el crecimiento, la producción etc. No obstante, estos medicamentos deben estar autorizados y administrados a través de receta veterinaria y siguiendo los principios de buenas prácticas veterinarias. Tras su uso, es imprescindible respetar un <b>tiempo de espera</b> previo al sacrificio de los animales cuyos productos o carnes frescas sean destinadas al consumo humano, como prevención y cuidado de la salud pública. Estos productos veterinarios son, principalmente:<ul><li><b>Medicamentos</b> veterinarios (antiparasitarios, antibióticos, etc.).</li><li><b>Hormonas</b> y promotores de crecimiento.</li></ul>Su aparición en la carne puede ser debida a que no se respete el <b>plazo de supresión</b>.<br><br>Otros contaminantes químicos pueden ser productos químicos empleados en el plan de <b>control de plagas</b> (insecticidas, plaguicidas, rodenticidas) o <b>contaminantes ambientales</b> como las <b>dioxinas</b> (compuestos formados en ciertos procesos industriales o procesos naturales como erupciones volcánicas o incendios forestales, que son muy persistentes y se dispersan por el medio ambiente a través del aire y el agua, y se van acumulando a lo largo de la cadena alimentaria, principalmente en los tejidos grasos de los animales).",
-              "imagen": "img/modCar/sco12p1.jpg",
-              "ancho": 200
-            },
-            {
-              "titulo": "Biológicos",
-              "texto": "El <b>origen de los microorganismos</b> puede ser el propio animal (animales enfermos), o bien éste puede contaminarse a través de otros animales enfermos o portadores, del hombre, de los pastos, de los piensos, del medio ambiente o por animales intermediarios (llamados <b>vectores</b>) como pueden ser moscas, mosquitos, pulgas, garrapatas o roedores. Dentro de los peligros biológicos cabe destacar:<ul><li><b>Parásitos</b>: triquina, tenias, toxoplasma...</li><li><b>Microorganismos</b>: Salmonella, Listeria, Escherichia coli…</li>",
-              "imagen": "img/modCar/sco12p2.jpg",
-              "ancho": 200
-            },
-            {
-              "titulo": "Priones",
-              "texto": "Un prión  es una <b>proteína</b> infecciosa. Se trata, por tanto, de un agente no convencional causante de un grupo de enfermedades denominadas <b>encefalopatías espongiformes</b> (debido al aspecto de esponja que adquiere el tejido nervioso infectado) siendo las más conocidas la encefalopatía espongiforme bovina (llamada enfermedad de las vacas locas) en bovinos y el temblor o scrapie en ovinos y caprinos. La vía de transmisión de esta enfermedad es la <b>ingestión</b> por los animales de alimentos –piensos- contaminados con el prión.<br><br>La enfermedad de las vacas locas es una afección <b>degenerativa</b> del <b>sistema nervioso central</b> de los bovinos, incurable, que se caracteriza por la aparición de síntomas nerviosos en los animales adultos, que progresivamente, concluye con la muerte del animal.<br><br>Con el fin de evitar los riesgos de transmisión de la enfermedad, aquellos materiales definidos como <b>Material Especificado de Riesgo</b> (MER) como son: médula espinal, tejido cerebral, ojos, amígdalas... son eliminados de la cadena de alimentación humana y animal, siendo retirados de la canal del animal durante su procesado en el matadero.",
-              "imagen": "img/modCar/sco12p3.png",
-              "ancho": 200
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Minimizar peligros",
-      "contenido": [
-        {
-          "clase": "lista",
-          "animacion": "fadeInRight",
-          "titulo": "Las <b>medidas de control</b> más importantes para evitar la contaminación de la carne durante la etapa de explotación ganadera son:",
-          "contenido": [
-            {
-              "punto": "Campañas de <b>saneamiento</b> ganadero y programas zoosanitarios."
-            },
-            {
-              "punto": "<b>Higiene</b> de pastos y establos."
-            },
-            {
-              "punto": "Buenas prácticas ganaderas"
-            },
-            {
-              "punto": "<b>Control</b> de los piensos"
-            },
-            {
-              "punto": "Aplicación de medicamentos bajo estricto <b>control veterinario</b> y respeto de los plazos de supresión.<br>"
-            }
-
-          ]
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/modCar/syringe.jpg",
-          "ancho": 400
         },
         {
           "clase": "icono",
-          "animacion": "lightSpeedIn",
-          "subclase": "exclamacion",
-          "texto": "<b>Plazo de supresión</b>: es el <b>tiempo  mínimo</b> de espera necesario para el sacrificio de los animales o consumo de leche de los mismos, tras haber sido <b>tratados</b> con un producto medicamentoso. Este periodo viene determinado en el <b<registro</b> de dicho producto, para asegurar la ausencia de trazas o valores por debajo del <b>límite máximo de residuo</b> (LMR) en los alimentos de origen animal."
+          "subclase": "sabiasQue",
+          "texto": "<b>Sabías que...</b><br>Al principio el bacalao era considerado como un alimento propio de las clases sociales más desfavorecidas."
         }
-
       ]
     },
     {
-      "titulo": "Transporte de animales vivos",
+      "titulo": "Derivados de la pesca II",
       "contenido": [
         {
           "clase": "texto",
           "animacion": "fadeInRight",
-          "texto": "El <b>transporte</b>, así como las acciones que se desarrollan durante el mismo (carga, confinamiento, descarga y encierre en un ambiente nuevo desconocido), la llegada al matadero y la estabulación hasta el momento del sacrificio resultan en situaciones desconocidas y estresantes para los animales, por lo que deben hacerse en las condiciones más higiénicas y humanitarias posibles, de tal forma que se minimice dicho estrés. <br><br>En <b>situaciones de estrés</b> el sistema inmunitario del animal se debilita y algunos de los microorganismos intestinales pueden traspasar la barrera intestinal y alcanzar tejidos o vísceras. Alguno de estos microorganismos posee una elevada capacidad de producir toxinas o causar infección en las personas."
+          "texto": "Las técnicas de conservación de los productos de la pesca que, habitualmente, se venden en charcutería se basan en la adición de sal o en el ahumado.<br>Los dos métodos basan su eficacia conservadora en la disminución del contenido en agua del alimento, impidiendo así su utilización por los microorganismos, los cuales ven impedido su crecimiento (y esto no implica su muerte, por lo que una vez rehidratado el producto se puede favorecer su desarrollo). Además los componentes del humo ejercen algún efecto conservador."
         },
         {
           "clase": "listaObjetos",
           "contenido": [
-
             {
-              "clase": "imagen",
-              "imagen": "img/modCar/sco14.jpg",
-              "ancho": 400
-            },
-            {
-              "clase": "lista",
-              "animacion": "fadeInRight",
-              "titulo": "Además, durante el transporte existe un <b>aumento del riesgo de transmisión de enfermedades</b>:",
+              "clase": "listaObjetos",
+              "subclase": "columna",
               "contenido": [
                 {
-                  "punto": "Si durante el transporte existen <b>puntos de parada</b> donde se alojan animales de diversas procedencias para su descanso."
+                  "clase": "acordeon",
+                  "ancho": 70,
+                  "animacion": "fadeInRight",
+                  "contenido": [
+                    {
+                      "titulo": "Productos en salazón",
+                      "texto": "Aquellos sometidos a la acción prolongada de la sal común. Hay dos métodos para salar el pescado: salado en seco y salazón húmeda – salmuera-. Los productos completamente curados tienen una cantidad de agua disponible para los microorganismos tan baja que previenen el crecimiento de la mayoría de ellos(con alguna excepción de mohos o bacterias extremófilas). Si los productos son tratados más ligeramente, el producto final obtenido es una semiconserva, lo que implica una conservación por tiempo limitado, necesitándose ayuda de otros métodos de conservación como envasado en atmósferas modificadas y/o refrigeración."
+                    }
+                  ]
                 },
                 {
-                  "punto": "Si los vehículos que transportan animales <b>no tienen una limpieza y desinfección adecuadas</b> pueden servir como medio de propagación de enfermedades."
+                  "clase": "imagen",
+                  "imagen": "img/modCha/08I.jpg",
+                  "ancho": 300
                 }
               ]
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "acordeon",
+                  "ancho": 70,
+                  "animacion": "fadeInRight",
+                  "contenido": [
+                    {
+                      "titulo": "Productos ahumados",
+                      "texto": "Aquellos que, previamente salados o no, son sometidos a la acción del humo de madera u otros procedimientos autorizados. El ahumado consigue un producto de aspecto y aromas atractivos. Tanto si el ahumado se realiza en frío, como en caliente, no se inactivan las esporas de bacterias patógenas, como el Clostridium botulinum, por lo que es necesario su conservación en refrigeración."
+                    }
+                  ]
+                },
+                {
+                  "clase": "imagen",
+                  "imagen": "img/modCha/08D.jpg",
+                  "ancho": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Derivados lácteos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modCha/09.1.jpg",
+              "ancho": 250
+            },
+            {
+              "clase": "texto",
+              "texto": "El tercer tipo de productos que habitualmente se encuentran en la Charcutería son los derivados lácteos.<br>La leche es uno de los alimentos más completos que existen, ya que está constituida por agua, proteínas, hidratos de carbono, grasas, vitaminas y sales minerales de alto valor biológico hasta el punto de ser el único alimento que consumimos  durante el inicio de nuestra vida.<br>Debido a su composición que la convierte en un alimento completo, y su pH cercano a la neutralidad, es uno de los alimentos más perecederos ya que es fácilmente alterable."
             }
           ]
         },
         {
           "clase": "texto",
-          "animacion": "fadeInRight",
-          "texto": "Es importante resaltar que el <b>manejo</b> que recibe el animal <b>previo a su sacrificio</b> va a influir directamente sobre la calidad de su carne. Las situaciones de estrés son responsables de una maduración de la carne (proceso que sufre el músculo del animal tras su sacrificio) incorrecta, y si bien esto realmente no representa un problema de enfermedades de transmisión alimentaria, es una <b>pérdida de calidad</b> que resulta en un grave problema económico al provocar el rechazo de dichas carnes. Además, lesiones, magulladuras y hematomas en la canal (indicativos de peleas entre animales o malas prácticas de conducción y /o operaciones de carga y descarga) también afectan a la calidad del producto final."
+          "texto": "No obstante, algunos microorganismos producen alteraciones y modificaciones químicas útiles y deseables (como por ejemplo las bacterias Lactobacilos) que se utilizan para transformar la leche en otros productos: yogures, quesos, etc. Siendo estos últimos productos que se venden, muy habitualmente, en Charcutería.<br>El queso se elabora con la leche que es el producto obtenido del ordeño completo de las hembras mamíferas de distintas especies sanas y bien alimentadas."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modCha/09.2.jpg"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modCha/09.3.jpg"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modCha/09.4.jpg"
+            }
+          ]
         }
       ]
     },
-
-
+    {
+      "titulo": "Derivados lácteos II",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Es importante conocer cómo influye la maduración de los quesos en la Seguridad Alimentaria.<br>Los quesos pueden clasificarse atendiendo a su maduración en:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "acordeonSub",
+              "ancho": 80,
+              "contenido": [
+                {
+                  "titulo": "Queso fresco",
+                  "texto": "Es el que está dispuesto para el consumo al finalizar el proceso de fabricación. Desde el punto de vista de Seguridad Alimentaria, el queso fresco es un alimento de alto riesgo debido a la gran cantidad de agua y a la ausencia de maduración. Por este motivo es fundamental tanto el estado inicial de la materia prima como las condiciones más estrictas de higiene y manipulación desde su elaboración, distribución, almacenamiento, punto de venta, hasta el momento de su consumo. También resulta imprescindible que en todos estos procesos no se produzca la rotura de la cadena de frío, manteniéndose el producto en refrigeración (aprox. 4ºC)."
+                },
+                {
+                  "titulo": "Queso blanco pasteurizado",
+                  "texto": "Es aquel queso en el que el coágulo obtenido se somete a un proceso de pasteurización, quedando dispuesto para su consumo al finalizar su proceso de fabricación. Mediante la pasteurización se incrementa la vida útil del producto, pero se debe mantener en refrigeración."
+                },
+                {
+                  "titulo": "Queso madurado",
+                  "texto": "Es el que, tras el proceso de fabricación, requiere mantenerse durante cierto tiempo a una temperatura y en condiciones tales que se produzcan los cambios físicos y químicos característicos del mismo. Los productos madurados son más estables debido a que durante su elaboración se va eliminando el agua, por lo que ésta no está disponible para los microorganismos y de esta manera pueden mantenerse a temperatura ambiente.<br>La palabra “madurado” puede sustituirse por otros términos según el grado de maduración alcanzado por el producto:",
+                  "contenido": [
+                    {
+                      "titulo": "General",
+                      "texto": "Es el que, tras el proceso de fabricación, requiere mantenerse durante cierto tiempo a una temperatura y en condiciones tales que se produzcan los cambios físicos y químicos característicos del mismo. Los productos madurados son más estables debido a que durante su elaboración se va eliminando el agua, por lo que ésta no está disponible para los microorganismos y de esta manera pueden mantenerse a temperatura ambiente.<br>La palabra “madurado” puede sustituirse por otros términos según el grado de maduración alcanzado por el producto:"
+                    },
+                    {
+                      "titulo": "Tierno",
+                      "texto": "Cuando la maduración mínima es de 7 días."
+                    },
+                    {
+                      "titulo": "Semicurado",
+                      "texto": "Cuando la maduración mínima son 20 (quesos de igual o menor peso a 1,5 kg) o 35 días (quesos de más de 1,5 kg)."
+                    },
+                    {
+                      "titulo": "Curado",
+                      "texto": "Cuando la maduración mínima son 45(quesos de igual o menor peso a 1,5 kg) o 105 días (quesos de más de 1,5 kg)."
+                    },
+                    {
+                      "titulo": "Viejo",
+                      "texto": "Cuando la maduración mínima son 100 (quesos de igual o menor peso a 1,5 kg) o 180 días (quesos de más de 1,5 kg)."
+                    },
+                    {
+                      "titulo": "Añejo",
+                      "texto": "Cuando la maduración mínima son 270 días."
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Queso madurado con mohos",
+                  "texto": "Es aquel en el que la maduración se produce, principalmente, como consecuencia del desarrollo característico de mohos en su interior, en la superficie o en ambas partes. Esta denominación puede sustituirse por la de “queso azul” o “queso de pasta azul” cuando corresponda."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modCha/10.Azul.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías que…</b><br>las gotitas de “sudor” que aparecen  en la superficie de un trozo de queso cuando se deja a temperatura ambiente durante largo tiempo, se debe a que parte de la grasa empieza a fundirse?"
+        }
+      ]
+    },
+    {
+      "titulo": "Derivados lácteos III",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Hay que tener en cuenta que la corteza del queso es la protección que sirve de barrera entre su interior y los agentes externos que podrían afectar negativamente a nuestra salud (microorganismos, contaminantes, etc).<br><br>En función de presencia o ausencia de corteza, podemos diferenciar entre quesos con corteza (natural o artificial) y quesos sin corteza:"
+        },
+        {
+          "clase": "sliderB",
+          "contenido": [
+            {
+              "titulo": "<b>Quesos de corteza natural</b>",
+              "texto": "Cuando la corteza del queso se forma de manera espontánea durante la maduración, debido a la desecación de la superficie. En este grupo, la composición de la corteza es similar al interior del queso, con la diferenciación de la pérdida de agua y al desarrollo de algunos microorganismos. En algunos quesos puede consumirse la corteza, pero no se debería hacer en el caso de los quesos sin envasar, ya que la corteza del queso puede contaminarse a lo largo de la cadena de distribución y comercialización (transporte, superficies, manos...).",
+              "imagen": "img/modCha/11.1Natural.jpg",
+              "ancho": 600
+            },
+            {
+              "titulo": "<b>Quesos de corteza natural</b>",
+              "texto": "Cuando la corteza del queso no se forma de manera espontánea durante la maduración, sino que se emplea, de forma intencionada, un material inerte como ceras, parafinas, materiales plásticos o papel de aluminio ( en algunos quesos se utilizan hierbas y hojas, pero esto puede suponer un riesgo de contaminación). Este material añadido recubre la superficie externa del queso para preservar su interior y evitar la desecación y/o la contaminación por agentes externos. No se debe consumir la corteza de estos quesos.",
+              "imagen": "img/modCha/11.2Artificial.jpg",
+              "ancho": 600
+            },
+            {
+              "titulo": "<b>Quesos de corteza natural</b>",
+              "texto": "Son quesos que no desarrollan corteza porque o bien no son sometidos a maduración, ya que se consumen poco tiempo después de ser elaborados – como es el caso de los quesos frescos-, o se maduran en condiciones de elevada humedad relativa, por lo que no se deseca la superficie o, como en el caso del provolone o la mozzarella, en su proceso de elaboración se cuece la cuajada.",
+              "imagen": "img/modCha/11.3Nocorteza.jpg",
+              "ancho": 600
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Tanto si el queso tiene o carece de corteza, si se encuentra envasado, los envases evitarán la contaminación del producto siempre que permanezcan intactos.<br>Se debe evitar, por tanto, manipulaciones no adecuadas como apilamientos excesivos, golpes, roturas o pinchazos que provoquen la pérdida de estanqueidad del producto."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modCha/11.4.jpg",
+              "ancho": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Otros productos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modCha/12.1I.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "No es inusual encontrar también en Charcutería otros productos que se presentan en grandes formatos para poder venderlos a los clientes en cantidades menores, según soliciten, como son los patés o los dulces de frutas (membrillo, manzana), entre otros."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modCha/12.2D.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "<b>Sabías que…</b><br>la leche, y por tanto sus derivados como el queso, pueden provocar alergia o intolerancia en determinados individuos.<br><br>Alergia: Se habla de alergia cuando una persona, tras ingerir proteínas lácteas manifiesta una reacción inmediata y exagerada.<br><br>Intolerancia: Se habla de intolerancia cuando una persona no es capaz de metabolizar la lactosa (azúcar) de la leche, presentando malestar, digestión difícil y/o diarrea."
+        }
+      ]
+    },
     {
       "titulo": "Diagrama de flujo",
       "contenido": [
@@ -670,137 +385,145 @@
         },
 
         {
-          "clase": "diagrama",
-          "retardo": 1000,
-          "cajas": [
+          "clase": "listaObjetos",
+          "contenido": [
             {
-              "id": 1,
-              "forma": "rect",
-              "texto": "Recepción",
-              "ancho": 400,
-              "alto": 60,
-              "x": 1,
-              "y": 1,
-              "relleno": "#FFB74D",
-              "borde": "#F57F17",
-              "anchoBorde": 3,
-              "orden": 1
+              "clase": "diagrama",
+              "retardo": 1000,
+              "cajas": [
+                {
+                  "id": 1,
+                  "forma": "rect",
+                  "texto": "Recepción",
+                  "ancho": 500,
+                  "alto": 60,
+                  "x": 100,
+                  "y": 1,
+                  "relleno": "#FFB74D",
+                  "borde": "#F57F17",
+                  "anchoBorde": 3,
+                  "orden": 1
+                },
+                {
+                  "id": 2,
+                  "forma": "rect",
+                  "texto": "Almacenamiento",
+                  "ancho": 500,
+                  "alto": 60,
+                  "x": 100,
+                  "y": 100,
+                  "relleno": "#FFB74D",
+                  "borde": "#F57F17",
+                  "anchoBorde": 3,
+                  "orden": 3
+                },
+                {
+                  "id": 3,
+                  "forma": "rect",
+                  "texto": "Acondicionamiento",
+                  "ancho": 300,
+                  "alto": 60,
+                  "x": 400,
+                  "y": 200,
+                  "relleno": "#FFB74D",
+                  "borde": "#F57F17",
+                  "anchoBorde": 3,
+                  "orden": 5
+                },
+                {
+                  "id": 4,
+                  "forma": "rect",
+                  "texto": "Exposición",
+                  "ancho": 500,
+                  "alto": 60,
+                  "x": 100,
+                  "y": 300,
+                  "relleno": "#FFB74D",
+                  "borde": "#F57F17",
+                  "anchoBorde": 3,
+                  "orden": 8
+                },
+                {
+                  "id": 5,
+                  "forma": "rect",
+                  "texto": "Corte",
+                  "ancho": 300,
+                  "alto": 60,
+                  "x": 400,
+                  "y": 400,
+                  "relleno": "#FFB74D",
+                  "borde": "#F57F17",
+                  "anchoBorde": 3,
+                  "orden": 10
+                },
+                {
+                  "id": 6,
+                  "forma": "rect",
+                  "texto": "Venta",
+                  "ancho": 500,
+                  "alto": 60,
+                  "x": 100,
+                  "y": 500,
+                  "relleno": "#FFB74D",
+                  "borde": "#F57F17",
+                  "anchoBorde": 3,
+                  "orden": 13
+                }
+              ],
+              "enlaces": [
+                {
+                  "origen": 1,
+                  "destino": 2,
+                  "color": "#F57F17",
+                  "orden": 2
+                },
+                {
+                  "origen": 2,
+                  "destino": 3,
+                  "color": "#F57F17",
+                  "orden": 4
+                },
+                {
+                  "origen": 2,
+                  "destino": 4,
+                  "color": "#F57F17",
+                  "orden": 6
+                },
+                {
+                  "origen": 3,
+                  "destino": 4,
+                  "color": "#F57F17",
+                  "orden": 7
+                },
+                {
+                  "origen": 4,
+                  "destino": 5,
+                  "color": "#F57F17",
+                  "orden": 9
+                },
+                {
+                  "origen": 4,
+                  "destino": 6,
+                  "color": "#F57F17",
+                  "orden": 11
+                },
+                {
+                  "origen": 5,
+                  "destino": 6,
+                  "color": "#F57F17",
+                  "orden": 12
+                }
+              ]
             },
             {
-              "id": 2,
-              "forma": "rect",
-              "texto": "Almacenamiento",
-              "ancho": 400,
-              "alto": 60,
-              "x": 1,
-              "y": 100,
-              "relleno": "#FFB74D",
-              "borde": "#F57F17",
-              "anchoBorde": 3,
-              "orden": 3
-            },
-            {
-              "id": 3,
-              "forma": "rect",
-              "texto": "Acondicionamiento",
-              "ancho": 200,
-              "alto": 60,
-              "x": 200,
-              "y": 200,
-              "relleno": "#FFB74D",
-              "borde": "#F57F17",
-              "anchoBorde": 3,
-              "orden": 5
-            },
-            {
-              "id": 4,
-              "forma": "rect",
-              "texto": "Exposición",
-              "ancho": 400,
-              "alto": 60,
-              "x": 1,
-              "y": 300,
-              "relleno": "#FFE0B2",
-              "borde": "#F57F17",
-              "anchoBorde": 1,
-              "orden": 8
-            },
-            {
-              "id": 5,
-              "forma": "rect",
-              "texto": "Corte",
-              "ancho": 200,
-              "alto": 60,
-              "x": 200,
-              "y": 400,
-              "borde": "#F57F17",
-              "anchoBorde": 2,
-              "dashArray": "5,5",
-              "orden": 10
-            },
-            {
-              "id": 6,
-              "forma": "rect",
-              "texto": "Venta",
-              "ancho": 400,
-              "alto": 60,
-              "x": 1,
-              "y": 500,
-              "borde": "#F57F17",
-              "anchoBorde": 2,
-              "dashArray": "5,5",
-              "orden": 13
-            }
-          ],
-          "enlaces": [
-            {
-              "origen": 1,
-              "destino": 2,
-              "color": "#F57F17",
-              "orden": 2
-            },
-            {
-              "origen": 2,
-              "destino": 3,
-              "color": "#F57F17",
-              "orden": 4
-            },
-            {
-              "origen": 2,
-              "destino": 4,
-              "color": "#F57F17",
-              "orden": 5
-            },
-            {
-              "origen": 3,
-              "destino": 4,
-              "color": "#F57F17",
-              "orden": 7
-            },
-            {
-              "origen": 4,
-              "destino": 5,
-              "color": "#F57F17",
-              "orden": 9
-            },
-            {
-              "origen": 4,
-              "destino": 6,
-              "color": "#F57F17",
-              "orden": 11
-            },
-            {
-              "origen": 5,
-              "destino": 6,
-              "color": "#F57F17",
-              "orden": 12
+              "clase": "imagen",
+              "animacion": "fadeInRight",
+              "imagen": "img/modCha/13.Diagrama.jpg"
             }
           ]
         }
       ]
     },
-
-
     {
       "titulo": "Peligros - Contaminación de origen",
       "fondo": "img/modCha/14Fondo.jpg",
