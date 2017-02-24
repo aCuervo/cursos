@@ -21,58 +21,153 @@
         }
       ]
     },
+        {
+      "titulo": "Introducción",
+      "contenido": [
+            {
+              "clase": "texto",
+                        "animacion": "fadeInRight",
+              "texto": "La Charcutería es un establecimiento que presenta una enorme variedad y riqueza de productos, muchos de ellos  representativos de nuestra cultura y geografía. Todos ellos tienen en común que, aún procediendo de orígenes muy diferentes (carne, pescado, leche, etc.), son productos transformados y la mayoría de ellos listos para el consumo."
+        },
+        {
+          "clase": "listaObjetos",
+                    "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modCha/03.1Enteras.jpg"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modCha/03.2Porciones.jpg"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modCha/03.3Lonchas.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "La presentación y venta de todos ellos puede realizarse como piezas enteras o, lo que suele ser más habitual, loncheados o en porciones.<br>Es importante conocer unos conceptos básicos sobre cada uno de ellos, especialmente sobre su origen, para comprender cómo influirá su manipulación en la seguridad alimentaria."
+        },
+                        {
+          "clase": "icono",
+          "animacion": "fadeInRight",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías que...</b><br>El jamón ibérico es fuente de una gran cantidad de vitaminas (B6, B1, riboflamina…). Además de aportar, en menor medida, vitamina A, D y E.",
+          "imagen": "img/modCha/03.4Sq.jpg",
+          "ancho": 200
+        }
+      ]
+    },
+        {
+      "titulo": "Productos de charcutería",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Los productos más habituales que podemos encontrar en Charcutería son:"
+        },
+        {
+          "clase": "tabs",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Productos cárnicos",
+              "texto": "Productos Cárnicos, cuyo componente fundamental es la carne. Aquí se incluyen los productos cocidos (como el jamón de york), o los productos curados (embutidos, jamón curado, …) y los fiambres.",
+          "imagen": "img/modCha/04.1.jpg",
+          "ancho": 200
+            },
+                        {
+              "titulo": "Pesca",
+              "texto": "Derivados de la Pesca, cuyo componente fundamental es el pescado. Normalmente son productos sometidos a ahumados o salazones, como el salmón o el bacalao salado.",
+          "imagen": "img/modCha/04.Pesca.jpg",
+          "ancho": 200
+            },
+            {
+              "titulo": "Lácteos",
+              "texto": "Derivados Lácteos, cuyo componente fundamental es la leche.  El elemento representativo de este grupo es el queso, desde el  fresco hasta el madurado, incluyendo también las barras de queso fundido.",
+          "imagen": "img/modCha/04.3Lacteos.jpg",
+          "ancho": 200
+            },
+            {
+              "titulo": "Otros",
+              "texto": "Otros productos como los patés o dulces de fruta.",
+          "imagen": "img/modCha/04.4Otros.jpg",
+          "ancho": 200
+            }
+          ]
+        },
+                {
+          "clase": "icono",
+          "animacion": "fadeInRight",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías que...</b><br>Las manchitas blancas que aparecen en los jamones  curados (y también en algunos quesos maduros) no son cristales de sal, sino de tirosina?<br>La tirosina es uno de los 20 aminoácidos que forman las proteínas. Durante el curado, al irse perdiendo el agua de estos productos, la tirosina se reagrupa formando esos cristales, por lo que, además de no ser perjudicial para la salud, la presencia de estos cristales es indicativa de un largo proceso de maduración, y consecuentemente, de aromas y sabores intensos.<br>Ojo, no los confundas con los ácaros o piojillos del jamón, ya que éstos son parásitos que se alimentan de productos ricos en proteínas como los jamones, embutidos o quesos . y presentan movilidad.  Pueden desencadenar síntomas de alergia.",
+          "imagen": "img/modCha/04.5Sq.jpg",
+          "ancho": 200
+        }
+      ]
+    },
     {
       "titulo": "Productos cárnicos",
       "contenido": [
         {
           "clase": "texto",
+          "animacion": "fadeInRight",
           "texto": "A diferencia de la carnicería, cuyo producto más representativo es la carne fresca y ciertos preparados de carne, la Sección de Charcutería está más orientada a la venta de Productos Cárnicos que, según Normativa,  se definen como “los productos transformados resultantes de la transformación de la carne o de la nueva transformación de dichos productos transformados, de modo que la superficie de corte muestre que el producto ha dejado de poseer las características de la carne fresca”.<br>Se distinguen, por tanto:"
         },
+        {
+          "clase": "acordeonSub",
+          "animacion": "fadeInRight",
+          "ancho": 80,
+          "contenido": [
             {
-              "clase": "acordeonSub",
-              "ancho": 80,
+              "titulo": "Derivados cárnicos tratados por el calor",
               "contenido": [
                 {
-                  "titulo": "Queso madurado",
-                  "contenido": [
-                    {
-                      "titulo": "Tierno",
-                      "texto": "Cuando la maduración mínima es de 7 días.",
-                      "imagen": ""
-                    },
-                    {
-                      "titulo": "Semicurado",
-                      "texto": "Cuando la maduración mínima son 20 (quesos de igual o menor peso a 1,5 kg) o 35 días (quesos de más de 1,5 kg).",
-                      "imagen": ""
-                    }
-                  ]
+                  "titulo": "A partir de piezas",
+                  "texto": "Jamón cocido<br>Paleta cocida<br>Lomo cocido<br>Pechuga de pavo cocido<br>Lacón cocido...",
+                  "imagen": "img/modCha/05.1Cocidos.jpg",
+                  "ancho": 200
                 },
-                   {
-                  "titulo": "Queso madurado",
-                  "contenido": [
-                    {
-                      "titulo": "Tierno",
-                      "texto": "Cuando la maduración mínima es de 7 días.",
-                        "imagen": ""
-                    },
-                    {
-                      "titulo": "Semicurado",
-                      "texto": "Cuando la maduración mínima son 20 (quesos de igual o menor peso a 1,5 kg) o 35 días (quesos de más de 1,5 kg).",
-                           "imagen": ""
-                    }                   
-                  ]
+                {
+                  "titulo": "Constituidos por carnes troceadas o picadas",
+                  "texto": "Mortadelas<br>Galantinas<br>Chóped<br>Rouladas...",
+                  "imagen": "img/modCha/05.2cocidos.jpg",
+                  "ancho": 200
                 }
               ]
             },
+            {
+              "titulo": "Derivados cárnicos curado-madurados",
+              "contenido": [
                 {
+                  "titulo": "A partir de piezas",
+                  "texto": "Jamón<br>Paleta<br>Cecina<br>Panceta curada<br>Lombo embuchado...",
+                  "imagen": "img/modCha/05.3Curadosc.png",
+                  "ancho": 200
+                },
+                {
+                  "titulo": "Constituidos por carnes troceadas o picadas",
+                  "texto": "Chorizo<br>Longaniza<br>Salchichón<br>Fuet<br>Salami<br>Sobrasada<br>Chosco...",
+                  "imagen": "img/modCha/05.4Curados.jpg",
+                  "ancho": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
           "clase": "icono",
           "opacidad": 0.8,
           "animacion": "fadeInRight",
           "subclase": "sabiasQue",
-          "texto": "<b>¿Sabías que…</b><br>actualmente los jamones se cuelgan para que se ventilen, pero en la época de persecución de los judíos, la finalidad era distinta. Tener un jamón colgado del techo suponía que allí se comía cerdo y, por tanto, quienes allí estaban no eran judíos."
+          "texto": "<b>¿Sabías que…</b><br>actualmente los jamones se cuelgan para que se ventilen, pero en la época de persecución de los judíos, la finalidad era distinta. Tener un jamón colgado del techo suponía que allí se comía cerdo y, por tanto, quienes allí estaban no eran judíos.",
+          "imagen": "img/modCha/05.5Sq.jpg",
+          "ancho": 200
         }
-]
-        },
+      ]
+    },
     {
       "titulo": "Productos cárnicos II",
       "fondo": "img/modCha/06.Fondo.jpg",
@@ -682,7 +777,7 @@
           "contenido": [
             {
               "titulo": "Cruzada",
-              "texto": "Contaminación cruzada:<br><br<A través de manos, equipos, superficies o utensilios. Por ejemplo: restos de alimentos de diverso origen en máquinas de corte, que también representa un peligro de multiplicación bacteriana.",
+              "texto": "Contaminación cruzada:<br><br>A través de manos, equipos, superficies o utensilios. Por ejemplo: restos de alimentos de diverso origen en máquinas de corte, que también representa un peligro de multiplicación bacteriana.",
               "imagen": "img/modCha/18.1.jpg",
               "ancho": 150
             },
@@ -799,7 +894,7 @@
           "clase": "imagen",
           "animacion": "fadeInRight",
           "imagen": "img/modCha/21.Almacenamiento.jpg",
-          "ancho": 800
+          "ancho": 600
         },
         {
           "clase": "lista",
@@ -824,6 +919,7 @@
 
     {
       "titulo": "Acondicionamiento",
+      "fondo": "img/modCha/fondoblanco.png",
       "contenido": [
         {
           "clase": "texto",

@@ -1,0 +1,697 @@
+﻿{
+  "modulo": "INTRODUCING MYSELF",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "The pronouns",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Los pronombres en inglés son los siguientes:"
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": ""
+            },
+            {
+              "titulo": "SINGULAR",
+              "colspan": 2
+            },
+            {
+              "titulo": "PLURAL",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": ""
+                },
+                {
+                  "texto": "<b>English</b>"
+                },
+                {
+                  "texto": "<b>Español</b>"
+                },
+                {
+                  "texto": "<b>English</b>"
+                },
+                {
+                  "texto": "<b><center>Español</center></b>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<b>1ª PERSONA</b>"
+                },
+                {
+                  "texto": "<center>I</center>"
+                },
+                {
+                  "texto": "<center>yo</center>"
+                },
+                {
+                  "texto": "<center>we</center>"
+                },
+                {
+                  "texto": "nosotros/as"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<b>2ª PERSONA</b>"
+                },
+                {
+                  "texto": "<center>you</center>"
+                },
+                {
+                  "texto": "<center>tu</center>"
+                },
+                {
+                  "texto": "<center>you</center>"
+                },
+                {
+                  "texto": "vosotros/as"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<b>3ª PERSONA</b>",
+                  "rowspan": 3
+                },
+                {
+                  "texto": "<center>he</center>"
+                },
+                {
+                  "texto": "<center>él</center>"
+                },
+                {
+                  "texto": "<center>they</center>",
+                  "rowspan": 3
+                },
+                {
+                  "texto": "<center>ellos/as</center>",
+                  "rowspan": 3
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>she</center>"
+                },
+                {
+                  "texto": "<center>ella</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>it</center>"
+                },
+                {
+                  "texto": "<center>ello</center>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "El pronombre personal “I” (yo) <u>SIEMPRE</u> se escribe en mayúscula."
+            },
+            {
+              "punto": "En inglés no existe un pronombre para tratarnos de “usted”, se utiliza siempre “you” (tú, vosotros/as y usted/es)."
+            },
+            {
+              "punto": "En la tercera persona del singular tenemos un pronombre distinto para:",
+              "contenido": [
+                {
+                  "punto": "Él: <i>He is a boy.</i> (Él es un chico)."
+                },
+                {
+                  "punto": "Ella: <i>She is a girl.</i> (Ella es una chica)."
+                },
+                {
+                  "punto": "Ello lo utilizamos para referirnos a:",
+                  "contenido": [
+                    {
+                      "punto": "Cosas: <i>It is very nice (the house)</i> (Es muy bonita (la casa))."
+                    },
+                    {
+                      "punto": "Animales: si conocemos el sexo del animal podemos dirigirnos a el como “he” or “she” dependiendo de si es macho o hembra: <i>Look! It’s eating my cheese! (a mouse)</i> (¡Mira, se está comiendo mi queso! (un ratón))."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "punto": "Para la tercera persona del plural siempre utilizamos “they”:",
+              "contenido": [
+                {
+                  "punto": "<i>They are boys.</i> (Ellos son chicos.)"
+                },
+                {
+                  "punto": "<i>They are girls.</i> (Ellas son chicas.)"
+                },
+                {
+                  "punto": "<i>They (the houses) are comfortable.</i> (Ellas (las casas) son cómodas.)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Activity: Pronouns",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "texto": "Choose the correct pronoun in each sentence."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "Hello, I want an ice cream please.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Hello, i want an ice cream please.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "He is a beautiful woman.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "She is a beautiful woman.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "It is a beautiful woman.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "I have five brothers, you are a big family.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "I have five brothers, we are a big family.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "I have five brothers, they are a big family.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "I like this bird, she sings very well.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "I like this bird, it sings very well.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "I like this bird, he sings very well.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "My friends live in France, you live in another country.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "My friends live in France, we live in another country.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "My friends live in France, they live in another country.",
+                  "correcto": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "titulo": "The verb to be",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "El verbo “to be” es uno de los verbos más importantes en inglés, ya que cumple varias funciones: es un verbo que significa “ser o estar”, más adelante veremos que funciona como verbo auxiliar y además tiene ciertas peculiaridades en su uso y escritura.<br><br>Vamos a ver sus distintas formas, ya que se conjuga de manera diferente al resto de los verbos regulares en inglés:"
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "<center>PRONOUN</center>"
+            },
+            {
+              "titulo": "<center>VERB</center>"
+            },
+            {
+              "titulo": "<center>ESPAÑOL</center>",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>I</b></center>"
+                },
+                {
+                  "texto": "<center><b>am</b></center>"
+                },
+                {
+                  "texto": "<center>Yo soy</center>"
+                },
+                {
+                  "texto": "<center>Yo estoy</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>you</b></center>"
+                },
+                {
+                  "texto": "<center><b>are</b></center>"
+                },
+                {
+                  "texto": "<center>tú eres</center>"
+                },
+                {
+                  "texto": "<center>tú estás</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<b><center>he</center></b>"
+                },
+                {
+                  "texto": "<center><b>is</b></center>",
+                  "rowspan": 3
+                },
+                {
+                  "texto": "<center>él es</center>"
+                },
+                {
+                  "texto": "<center>él está</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<b><center>she</center></b>"
+                },
+                {
+                  "texto": "<center>ella es</center>"
+                },
+                {
+                  "texto": "<center>ella está</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<b><center>it</center></b>"
+                },
+                {
+                  "texto": "<center>ello es</center>"
+                },
+                                {
+                  "texto": "<center>ello está</center>"
+                }
+              ]
+            },
+                        {
+              "fila": [
+                {
+                  "texto": "<b><center>we</center></b>"
+                },
+                {
+                  "texto": "<center><b>are</b></center>",
+                  "rowspan": 3
+                },
+                {
+                  "texto": "<center>nosotros/as somos</center>"
+                },
+                {
+                  "texto": "<center>nosotros/as estamos</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<b><center>you</center></b>"
+                },
+                {
+                  "texto": "<center>vosotros/as sois</center>"
+                },
+                {
+                  "texto": "<center>vosotros/as estais</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<b><center>they</center></b>"
+                },
+                {
+                  "texto": "<center>ellos/as son</center>"
+                },
+                                {
+                  "texto": "<center>ellos/as están</center>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Como podemos observar, el infinitivo “to be” no vuelve a aparecer, esto solamente ocurre con este verbo.<br><br>El verbo “to be” puede contraerse para abreviar a la hora de escribirlo y decirlo de la siguiente manera:"
+        },
+        {
+          "clase": "tabla",
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>I am</center>"
+                },
+                {
+                  "texto": "<center><b>I'm</b></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>You are</center>"
+                },
+                {
+                  "texto": "<center><b>You're</b></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>He is</center>"
+                },
+                {
+                  "texto": "<center><b>He's</b></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>She is</center>"
+                },
+                {
+                  "texto": "<center><b>She's</b></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>It is</center>"
+                },
+                {
+                  "texto": "<center><b>It's</b></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>We are</center>"
+                },
+                {
+                  "texto": "<center><b>We're</b></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>You are</center>"
+                },
+                {
+                  "texto": "<center><b>You're</b></center>"
+                }
+              ]
+            },
+                        {
+              "fila": [
+                {
+                  "texto": "<center>They are</center>"
+                },
+                {
+                  "texto": "<center><b>They're</b></center>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "acordeon",
+          "titulo": "Examples with the verb to be:",
+          "contenido": [
+
+          ]
+        }
+
+
+
+
+
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            },
+            {
+              "texto": "",
+              "respuestas": [
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                },
+                {
+                  "opcion": "",
+                  "correcto": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": ""
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
