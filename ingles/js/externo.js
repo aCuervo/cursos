@@ -9,10 +9,17 @@
         ]);
             break;   */
         case "mod01": arrayFinal = arrayComun.concat([
-        "js/bootstrap/bootstrap.min.js",
-        "js/jointJS/lodash.min.js",
-        "js/jointJS/backbone-min.js",
-        "js/jointJS/joint.min.js"
+            "js/jointJS/lodash.min.js",
+            "js/jointJS/backbone-min.js",
+            "js/jointJS/joint.min.js",
+			"js/bootstrap/bootstrap.min.js",
+            "js/flexSlider/jquery.flexslider-min.js",
+            "js/slideshow/pgwslideshow.min.js",
+            "js/snapsvg/snap.svg-min.js",
+            "js/crossword/oy.js",
+            "js/wordsearch/wordfind.js",
+            "js/wordsearch/wordfindgame.js",
+            "js/asAccordion/jquery-asAccordion.min.js"
         ]);
             break;
         default: arrayFinal = arrayComun;
@@ -36,9 +43,14 @@ function getArrayCSS(modulo) {
         ]);
             break;*/
         case "mod01": arrayFinal = arrayComun.concat([
-        "css/bootstrap/bootstrap.min.css",
-        "css/jointJS/joint.min.css"
-            ]);
+            "css/jointJS/joint.min.css",
+			"css/bootstrap/bootstrap.min.css",
+            "css/flexSlider/flexslider.css",
+            "css/slideshow/pgwslideshow.min.css",
+            "css/crossword/base.css",
+            "css/wordsearch/style.css",
+            "css/asAccordion/asAccordion.min.css"
+        ]);
             break;
         default: arrayFinal = arrayComun;
     }
