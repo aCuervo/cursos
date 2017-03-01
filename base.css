@@ -558,6 +558,11 @@ footer {
         list-style-type: none;
     }
 
+    .lista li.sinPunto > img{
+        margin-right: 0.5em;
+
+    }
+
     .lista.celo .cabecera {
         height: 3em;
         width: 50%;
@@ -900,7 +905,8 @@ footer {
 
 /* Acordeón (JQUERY) */
 .acordeon {
-    margin: 1em 0 !important;
+    width: 75%;
+    margin: 0 auto !important;
 }
 
     .acordeon img {

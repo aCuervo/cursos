@@ -2093,8 +2093,20 @@ function crearLista(elemento, lista){
             cargarObjeto(liLista, elementoLI);
         }
         else {
+            if (elementoLI.icono) {
+                var imgLi = document.createElement("IMG");
+                imgLi.src = elementoLI.icono;
+                if (elementoLI.ancho) {
+                    imgLi.style.width = elementoLI.ancho + "px";
+                }
+                liLista.className = "sinPunto";
+                liLista.appendChild(imgLi);
+
+            }
             if (elementoLI.punto) {
-                liLista.innerHTML = elementoLI.punto;
+                var spanLi = document.createElement("SPAN");
+                spanLi.innerHTML = elementoLI.punto;
+                liLista.appendChild(spanLi);
             }
             if (elementoLI.imagen) {
                 var imgLi = document.createElement("IMG");
