@@ -12,19 +12,14 @@
       "contenido": [
         {
           "clase": "listaObjetos",
-          "subclase": "centroAncho",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "listaObjetos",
-              "subclase": "centroAncho",
               "contenido": [
                 {
                   "clase": "imagen",
-                  "imagen": "img/mod05/camionIntroduccion.png",
-                  "animacion": "fadeInUp",
-                  "ancho": 300,
-                  "subclase": "paraCambiar",
-                  "pie": "Poner al muñeco de siembre sobre una PEMP de camión parecida a esta"
+                  "imagen": "img/mod05/0502b.svg"
                 },
                 {
                   "clase": "texto",
@@ -42,9 +37,8 @@
       "contenido": [
         {
           "clase": "imagen",
-          "subclase": "paraCambiar",
           "pie": "Combinación de las tres PEMP con la autopropulsada en color y las otras dos en B/N y algo difuminadas",
-          "imagen": "img/mod05/3PEMP-autopropulsada.jpg"
+          "imagen": "img/mod05/05auto.svg"
         },
         {
           "clase": "texto",
@@ -57,27 +51,24 @@
     {
       "titulo": "PEMP remolcables",
       "contenido": [
-         {
+        {
           "clase": "imagen",
-          "subclase": "paraCambiar",
-          "pie": "Combinación de las tres PEMP con la remolcable en color y las otras dos en B/N y algo difuminadas",
-          "imagen": "img/mod05/3PEMP-remolcable.jpg"
+          "imagen": "img/mod05/0504.svg"
         },
-       {
+        {
           "clase": "texto",
           "subclase": "anillas vertical",
           "animacion": "rubberBand",
           "texto": "Se denominan <b>remolcadas o remolcables</b>, porque pueden ser <b>llevadas por un vehículo</b> tractor sin necesidad de tener la obligación de transportarlas sobre otro vehículo. <br><br>En cuanto a características de trabajo, son máquinas <b>más lentas</b> de operar por la necesidad de poner <b>estabilizadores</b> cada vez que posicionamos la máquina para elevar. Por el contrario, lo bueno es que <b>ahorran dinero</b> de transportes más costosos. <br><br> Hay plataformas remolcadas que <b>se convierten en motrices</b> añadiendo un accesorio, que permite el fácil traslado de la máquina <b>en la obra</b> por sólo un operario. <br><br>Este semirremolque debe cumplir las condiciones y características que marca la ley. Por regla general, todo semirremolque que <b>exceda de los 750 kilos</b>, deberá ser <b>matriculado para circular en la vía pública</b>. <br><br>Estas plataformas se emplean principalmente para trabajar <b>en la vía pública</b>."
-        }      ]
+        }
+      ]
     },
     {
       "titulo": "PEMP sobre camión",
       "contenido": [
         {
           "clase": "imagen",
-          "subclase": "paraCambiar",
-          "pie": "Combinación de las tres PEMP con la PEMP sobre camión en color y las otras dos en B/N y algo difuminadas",
-          "imagen": "img/mod05/3PEMP-sobreCamion.jpg"
+          "imagen": "img/mod05/05sobre.svg"
         },
         {
           "clase": "texto",
@@ -363,7 +354,7 @@
           "texto": "En cuanto a la formación e información, tal y como establece el artículo 5 del <a href='https://www.boe.es/boe/dias/1997/08/07/pdfs/A24063-24070.pdf' target='_blank'><b>Real Decreto 1215/1997</b></a>, por el que se establecen las <i>disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo</i>, esta formación e información ha de ser facilitada por el empresario conforme a lo dispuesto en los artículos 18 y 19 de la Ley 31/1995 de Prevención de Riesgos Laborales."
         }
       ]
-    },    
+    },
     {
       "titulo": "Requisitos de fabricación",
       "fondo": "img/mod05/fondoValla.jpg",
@@ -654,7 +645,7 @@
               "clase": "imagen",
               "imagen": "img/mod05/revisionPEMP.png",
               "ancho": 600,
-              "animacion":  "rotateIn"
+              "animacion": "rotateIn"
             }
           ]
         }
@@ -666,7 +657,7 @@
         {
           "clase": "texto",
           "texto": "<b>Recuerda …</b>",
-          "animacion": "rotateInDownLeft"  
+          "animacion": "rotateInDownLeft"
         },
         {
           "clase": "tabla",
@@ -707,7 +698,7 @@
         {
           "clase": "texto",
           "texto": "<b>Recuerda …</b>",
-          "animacion": "rotateInDownLeft"  
+          "animacion": "rotateInDownLeft"
         },
         {
           "clase": "tabla",
@@ -1060,4 +1051,3 @@
     }
   ]
 }
-

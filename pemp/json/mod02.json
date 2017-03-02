@@ -136,11 +136,11 @@
                 {
                   "clase": "texto",
 				  "animacion": "slideInRight",
-                  "texto": "Según la norma <a href='http://api.eoi.es/api_v1_dev.php/fedora/asset/eoi:36337/componente36345.pdf' target='_blank'><b>UNE-EN 280</b></a>, las PEMP se dividen, en función de la <b>proyección vertical</b> del <b>centro de gravedad</b>, en dos grupos:"
+                  "texto": "Según la norma <a href='http://api.eoi.es/api_v1_dev.php/fedora/asset/eoi:36337/componente36345.pdf' target='_blank' style='color:#7986cb' rel='noopener'>UNE-EN 280</a>, las PEMP se dividen, en función de la <b>proyección vertical</b> del <b>centro de gravedad</b>, en dos grupos:"
                 },
                 {
                   "clase": "lista",
-				  "animacion": "slideInRight",
+				  "animacion": "fadeInRight",
                   "contenido": [
                     {
                       "punto": "<b>GRUPO A</b>: son las que la <b>proyección vertical del centro de gravedad (c.d.g)</b> de la carga está siempre en el <b>interior de las lineas de vuelco</b>, en todas las configuraciones de la plataforma y a la máxima inclinación del chasis especificada por el fabricante."
@@ -154,18 +154,15 @@
             },
             {
               "clase": "imagen",
-              "subclase": "paraCambiar",
-			  "animacion": "slideInLeft",
-              "imagen": "img/mod02/clasificacionPEMP.png"
+			  "animacion": "fadeInRight",
+              "imagen": "img/mod02/0205.svg"
             }
           ]
         },
         {
-          "clase": "icono",
-          "subclase": "definicion",
-          "imagen": "img/mod02/lineasDeVuelco.jpg",
-          "ancho": 300,
-		      "animacion": "slideInDown",
+          "clase": "texto",
+          "subclase": "recuadro",
+		      "animacion": "fadeInRight",
           "texto": "Debemos entender las <b>líneas de vuelco</b> como las líneas que componen el cuadrado o rectángulo, según el caso, que limitan exteriormente a los elementos de apoyo, ya se trate de ruedas o estabilizadores."
         }
       ]
@@ -180,7 +177,7 @@
             {
               "clase": "listaObjetos",
               "subclase": "columna",
-              "animacion": "bounceInUp",
+              "animacion": "fadeInRight",
               "contenido": [
                 {
                   "clase": "texto",
@@ -210,7 +207,7 @@
             {
               "clase": "imagen",
               "subclase": "paraCambiar rotarDch",
-              "animacion": "flipInX",
+              "animacion": "fadeInRight",
               "imagen": "img/mod02/tiposPEMP.png"
             }
           ]
@@ -226,16 +223,13 @@
           "contenido": [
             {
               "clase": "imagen",
-              "subclase": "paraCambiar",
-              "imagen": "img/mod02/hombreCualEsLaMejor.png",
-			        "animacion": "tada",
-              "pie": "El muñeco de siempre con un bocadillo en el que ponga Ya, ya, pero ... ¿Cuál es la mejor?",
-              "ancho": 200
+              "imagen": "img/mod02/0207.svg",
+			        "animacion": "fadeInRight"
             },
             {
               "clase": "listaObjetos",
               "subclase": "columna",
-			        "animacion": "swing",
+			        "animacion": "fadeInRight",
               "contenido": [
                 {
                   "clase": "texto",
@@ -274,7 +268,7 @@
         {
           "clase": "texto",
           "subclase": "recuadro",
-          "animacion": "rotateIn",
+          "animacion": "fadeInRight",
           "texto": "Como parte de la correcta selección de PEMP, se debe <b>analizar el trabajo</b> y realizar la <b>evaluación de riesgos</b> asociada"
         }
 
@@ -327,7 +321,7 @@
         {
           "clase": "listaObjetos",
           "subclase": "centroAncho",
-		  "animacion": "flash",
+		  "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "imagen",
@@ -348,18 +342,18 @@
       "contenido": [
         {
           "clase": "texto",
-		      "animacion": "slideInLeft",
+		      "animacion": "fadeInRight",
           "texto": "Todas las PEMP, excepto las de uso exclusivo en interiores, están diseñadas para trabajar con una fuerza de viento hasta un límite determinado, que no es igual en todas las máquinas. Trabajar con un viento superior a este límite es muy <b>peligroso</b> y causa <b>inestabilidad</b> y posible <b>vuelco</b>."
         },
         {
           "clase": "texto",
-		      "animacion": "slideInRight",
+		      "animacion": "fadeInRight",
           "texto": "La <b>velocidad máxima de viento</b> admitida por cada plataforma, está <b>fijada por el fabricante</b> e indicada en el <b>manual de instrucciones</b>, y generalmente <b>también en las pegatinas</b> aplicadas en la máquina."
         },
         {
           "clase": "icono",
           "subclase": "exclamacion",
-		      "animacion": "swing",
+		      "animacion": "fadeInRight",
           "texto": "<b>Ten en cuenta …</b> <br><ul><li>La velocidad del viento, se ha de <b>medir a la altura de trabajo</b> y no en cota cero. Es aconsejable disponer de un anemómetro para ello.</li><li>El llamado <b>“efecto embudo”</b>: los edificios, torres, etc, pueden causar corrientes inesperadas, principalmente cerca de techos y esquinas.</li><li>Se prohíbe levantar <b>grandes láminas</b> de material o colocar <b>publicidad</b> sobre las plataformas de las PEMP, ya que afectaría en gran medida a su estabilidad al aumentar la superficie de resistencia al viento.</li></ul>"
         }
       ]
@@ -369,17 +363,17 @@
     "contenido": [
       {
         "clase": "listaObjetos",
-        "subclase": "centroEstrecho flex-start",
+        "animacion": "fadeInRight",
         "contenido": [
           {
             "clase": "texto",
-            "animacion": "rotateInDownLeft",
+            "animacion": "fadeInRight",
             "texto": "La mayoría de las PEMP son <b>automotrices</b>, tanto eléctricas como diésel. Son particularmente <b>dominantes</b> en Francia, España, Reino Unido y Suecia. La principal <b>excepción</b> a esto es Italia, país en el que se montan en camiones, siendo este tipo de PEMP mucho más <b>común</b> que en el resto de Europa. Esto se <b>refleja</b> además en el número de fabricantes italianos de este tipo de PEMP. Del mismo modo, las montadas sobre remolque tienen históricamente una posición más <b>fuerte</b> en Finlandia y Alemania, estando este tipo de PEMP vinculado a los fabricantes de estos países. <br><br>En España los usuarios consideran más <b>versátiles</b> las plataformas telescópicas, por ello el sector de la Construcción <b>demanda</b> más este tipo de plataforma cuando se quiere usar en distintas fases de obra y no para aplicaciones muy específicas."
           },
           {
             "clase": "imagen",
-            "imagen": "img/mod02/mapas.jpg",
-            "animacion": "rotateInUpRight"
+            "imagen": "img/mod02/0211.svg",
+            "animacion": "fadeInRight"
           }
         ]
       }
@@ -618,18 +612,11 @@
       "contenido": [
         {
           "clase": "listaObjetos",
-          "subclase": "centroAncho",
           "contenido": [
-            {
-              "clase": "imagen",
-              "subclase": "paraCambiar",
-              "imagen": "img/mod02/hombrePEMP.png",
-              "pie": "Poner el muñeco de siempre subido a una PEMP de tijera o de mastil"
-            },
             {
               "clase": "texto",
               "subclase": "anillas",
-              "texto": "En este capítulo te has acercado al conocimiento de las PEMP. Espero que te haya gustado. <br><br><b>A partir de ahora</b> veremos más detenidamente algunos de los <b>tipos de plataformas</b> que existen. <br><br>En el <b>siguiente capítulo</b> nos centraremos en las de tijera y mástil. Pero… ¡tranquilo! Nada que ver con sastres ni barcos. Seguimos en tierra. <br><br>¡Buen viaje hasta el módulo 3! ¡Allí te espero!"
+              "texto": "En este capítulo te has acercado al conocimiento de las PEMP. Espero que te haya gustado. <br><br><b>A partir de ahora</b> veremos más detenidamente algunos de los <b>tipos de plataformas</b> que existen. <br><br>En el <b>siguiente capítulo</b> nos centraremos en las de tijera y mástil de las que en breve irás descubriendo sus peculiaridades y diferencias.<br><br>"
             }
           ]
         }

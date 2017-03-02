@@ -12,31 +12,17 @@
       "contenido": [
         {
           "clase": "listaObjetos",
-          "subclase": "centroAncho flex-start",
           "contenido": [
             {
-              "clase": "listaObjetos",
-              "subclase": "columna",
-              "animacion": "fadeInUp",
-              "contenido": [
-                {
-                  "clase": "imagen",
-                  "imagen": "img/mod04/mastilHombre.png",
-                  "ancho": 200,
-                  "subclase": "paraCambiar",
-                  "pie": "Poner al muñeco de siembre sobre una PEMP articulada"
-                },
-                {
-                  "clase": "imagen",
-                  "imagen": "img/mod04/mastilJirafa.png",
-                  "ancho": 300
-                }
-              ]
+              "clase": "imagen",
+              "animacion": "fadeInRight",
+              "imagen": "img/mod04/0402.jpg"
+
             },
             {
               "clase": "texto",
               "animacion": "fadeInRight",
-              "texto": "<b>¡Hola!</b> Aquí estoy de nuevo para presentarte las <b>PEMP de brazo telescópico</b> y las <b>articuladas</b>. Las dos se parecen en muchos aspectos, así que las veremos también juntas en el mismo capítulo.<br><br>Te adelanto que son las más altas dentro de la familia de las plataformas elevadoras y te diré además que a mí, personalmente, me recuerdan mucho a las jirafas. También ellas llegan a zonas altas de difícil acceso. ¿Que no?"
+              "texto": "En este módulo te presentaremos las <b>PEMP de brazo telescópico</b> y las <b>articuladas</b>. Las dos se parecen en muchos aspectos, así que las veremos también juntas en el mismo capítulo.<br><br>Están entre las más altas dentro de la familia de las plataformas elevadoras móviles de personal y llegan a las zonas más altas y de más difícil acceso."
             }
           ]
         }
@@ -58,13 +44,12 @@
       "contenido": [
         {
           "clase": "listaObjetos",
-          "subclase": "centroAncho",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "imagen",
-              "imagen": "img/mod04/telescopica1.png",
-              "animacion": "zoomIn",
-              "pie": "Descripción de las partes de una PEMP de brazo telescópico"
+              "imagen": "img/mod04/0404.svg",
+              "pie": "Partes de una PEMP de brazo telescópico"
             },
             {
               "clase": "listaObjetos",
@@ -72,7 +57,6 @@
               "contenido": [
                 {
                   "clase": "texto",
-                  "animacion": "fadeInUp",
                   "texto": "Las <b>PEMP telescópicas</b> son máquinas diseñadas para la <b>elevación de personas</b> en diferentes posiciones de trabajo mediante una <b>estructura de brazos extensible</b> unida al chasis."
                 },
                 {
@@ -178,12 +162,11 @@
       "contenido": [
         {
           "clase": "listaObjetos",
-          "subclase": "centroAncho",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "imagen",
-              "imagen": "img/mod04/partesPEMPtelescopica.png",
-              "animacion": "zoomIn"
+              "imagen": "img/mod04/0408.svg"
             },
             {
               "clase": "listaObjetos",
@@ -191,13 +174,11 @@
               "contenido": [
                 {
                   "clase": "texto",
-                  "animacion": "fadeInUp",
                   "texto": "Las <b>PEMP de Mástil Vertical</b> son máquinas diseñadas para la <b>elevación de personas</b> en diferentes alturas de trabajo, en la vertical de la misma, mediante una <b>estructura de brazos extensible</b> unida al <b>chasis</b>."
                 },
                 {
                   "clase": "lista",
                   "subclase": "objetivos",
-                  "animacion": "jello",
                   "contenido": [
                     {
                       "punto": "<b>Como toda PEMP dispone de</b>:",
@@ -519,7 +500,7 @@
           "texto": "En cuanto a la formación e información, tal y como establece el artículo 5 del <a href='https://www.boe.es/boe/dias/1997/08/07/pdfs/A24063-24070.pdf' target='_blank'><b>Real Decreto 1215/1997</b></a>, por el que se establecen las <i>disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo</i>, esta formación e información ha de ser facilitada por el empresario conforme a lo dispuesto en los artículos 18 y 19 de la Ley 31/1995 de Prevención de Riesgos Laborales."
         }
       ]
-    },    
+    },
     {
       "titulo": "Requisitos de fabricación",
       "fondo": "img/mod04/fondoValla.jpg",
@@ -785,7 +766,7 @@
         {
           "clase": "texto",
           "texto": "<b>Recuerda …</b>",
-          "animacion": "rotateInDownLeft"  
+          "animacion": "rotateInDownLeft"
         },
         {
           "clase": "tabla",
@@ -1151,18 +1132,15 @@
       "contenido": [
         {
           "clase": "listaObjetos",
-          "subclase": "centroAncho",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "imagen",
-              "subclase": "paraCambiar",
-              "imagen": "img/mod04/hombreRueda.png",
-              "pie": "El mismo muñeco de siempre, con una rueda"
+              "imagen": "img/mod04/0427.svg"
             },
             {
               "clase": "texto",
-              "subclase": "anillas",
-              "texto": "Ya conoces muchos tipos de plataformas según el sistema de elevación: tijera, mástil, telescópica, articulada…y el modo más adecuado de utilizarlas. En el próximo módulo veremos los diferentes <b>tipos de PEMP</b> en función  del sistema <b>desplazamiento</b> que utilicen. <br><br>¡Ya verás como todo va sobre ruedas!"
+              "texto": "Hasta ahora te hemos mostrado distintos tipos de plataformas elevadoras móviles personales según el sistema de elevación: tijera, mástil, telescópica, articulada…y el modo más adecuado de utilizarlas. En el próximo módulo veremos los diferentes <b>tipos de PEMP</b> en función  del sistema de <b>desplazamiento</b> que utilicen."
             }
           ]
         }
@@ -1175,4 +1153,3 @@
     }
   ]
 }
-

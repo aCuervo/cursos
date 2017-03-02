@@ -12,7 +12,6 @@
       "contenido": [
         {
           "clase": "listaObjetos",
-          "subclase": "centroAncho",
           "contenido": [
             {
               "clase": "imagen",
@@ -212,22 +211,16 @@
       "contenido": [
         {
           "clase": "listaObjetos",
-          "subclase": "columna",
-          "animacion": "flip",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "texto",
-              "texto": "Las plataformas elevadoras de mástil vertical permiten <b>salvar alturas en la vertical</b> de la propia máquina y trabajar en <b>espacios reducidos</b> con una gran estabilidad. Pertenecen al <b>grupo A</b> (es decir, tienen la proyección vertical del centro de gravedad en el interior del polígono de sustentación) y pueden elevarse <b>hasta 10 m. de altura</b>. Suelen ser máquinas <b>ligeras</b>, de <b>despliegue rápido</b> y gran <b>maniobrabilidad</b>. Los modelos unipersonales resultan idóneos para interiores y espacios reducidos."
+              "texto": "Las plataformas elevadoras de mástil vertical permiten <b>salvar alturas en la vertical</b> de la propia máquina y trabajar en <b>espacios reducidos</b> con una gran estabilidad. Pertenecen al <b>grupo A</b> (es decir, tienen la proyección vertical del centro de gravedad en el interior del polígono de sustentación) y pueden elevarse <b>hasta 10 m. de altura</b>. Suelen ser máquinas <b>ligeras</b>, de <b>despliegue rápido</b> y gran <b>maniobrabilidad</b>. Los modelos unipersonales resultan idóneos para interiores y espacios reducidos.<br><br>Estas plataformas pueden <b>desplazarse</b> para poder acceder mejor al punto de trabajo.  Si son <b>autopropulsadas</b> y su <b>plataforma</b> de trabajo está en posición <b>elevada</b>, esta traslación puede ser ordenada por un <b>panel  de control</b> situado <b>en el chasis</b> (tipo 2)  o <b>en la plataforma de trabajo</b> (tipo 3). La posibilidad de añadir un pequeño <b>brazo articulado</b> cerca de la cesta de trabajo (“jib”) para salvar los últimos obstáculos, la hace más versátil si cabe."
             },
             {
               "clase": "imagen",
-              "imagen": "img/mod03/separador.jpg"
-            },
-            {
-              "clase": "texto",
-              "texto": "Estas plataformas pueden <b>desplazarse</b> para poder acceder mejor al punto de trabajo.  Si son <b>autopropulsadas</b> y su <b>plataforma</b> de trabajo está en posición <b>elevada</b>, esta traslación puede ser ordenada por un <b>panel  de control</b> situado <b>en el chasis</b> (tipo 2)  o <b>en la plataforma de trabajo</b> (tipo 3). La posibilidad de añadir un pequeño <b>brazo articulado</b> cerca de la cesta de trabajo (“jib”) para salvar los últimos obstáculos, la hace más versátil si cabe."
+              "imagen": "img/mod03/0308.svg"
             }
-
           ]
         }
       ]
@@ -432,20 +425,16 @@
       "contenido": [
         {
           "clase": "listaObjetos",
-          "subclase": "centroAncho",
+              "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "imagen",
-              "subclase": "paraCambiar",
-              "ancho": 100,
-              "imagen": "img/mod03/operario.png",
-              "pie": "Dibujar el muñeco de siempre con un gesto parecido a este",
-              "animacion": "rotateInDownLeft"
+              "imagen": "img/mod03/0312.svg",
+              "ancho": 250
             },
             {
               "clase": "lista",
               "subclase": "anillas vertical",
-              "animacion": "rotateInDownRight",
               "contenido": [
                 {
                   "punto": "Tener más de <b>18 años</b> de edad."
@@ -466,7 +455,7 @@
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "animacion": "tada",
+          "animacion": "fadeInRight",
           "texto": "En cuanto a la formación e información, tal y como establece el artículo 5 del <a href='https://www.boe.es/boe/dias/1997/08/07/pdfs/A24063-24070.pdf' target='_blank'><b>Real Decreto 1215/1997</b></a>, por el que se establecen las <i>disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo</i>, esta formación e información ha de ser facilitada por el empresario conforme a lo dispuesto en los artículos 18 y 19 de la Ley 31/1995 de Prevención de Riesgos Laborales."
         }
       ]
@@ -575,7 +564,7 @@
             }
           ]
         }
-       ]
+      ]
     },
     {
       "titulo": "Lista de chequeo de verificacion de requisitos (III)",
@@ -613,9 +602,9 @@
         },
         {
           "clase": "imagen",
-          "imagen": "img/mod03/tick.png",
+          "imagen": "img/mod03/0316.svg",
           "ancho": 200,
-          "animacion": "tada"
+          "animacion": "fadeInright"
         }
       ]
     },
@@ -744,7 +733,7 @@
         {
           "clase": "texto",
           "texto": "<b>Recuerda …</b> <br>El sistema de elevación en estas plataformas consiste en un <b>conjunto mecánico</b> accionado por unos <b>cilindros hidráulicos</b> que permiten <b>elevar una plataforma</b> de una <b>superficie</b> de más-menos <b>6 metros cuadrados</b> y con una carga <b>superior</b> al resto de plataformas.",
-          "animacion": "rotateInDownLeft"  
+          "animacion": "rotateInDownLeft"
         },
         {
           "clase": "texto",
@@ -952,9 +941,7 @@
           "contenido": [
             {
               "clase": "imagen",
-              "subclase": "paraCambiar",
-              "imagen": "img/mod03/hombreCualEsLaMejor.png",
-              "pie": "Poner el muñeco del modulo 2 diapositiva 7 sin bocadillo"
+              "imagen": "img/mod03/0323.svg"       
             },
             {
               "clase": "texto",
@@ -972,4 +959,3 @@
     }
   ]
 }
-
