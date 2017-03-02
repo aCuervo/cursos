@@ -162,7 +162,8 @@ function getArrayImagenes(modulo) {
     switch (modulo) {       
         case "mod01": arrayFinal = arrayComun.concat([
 			"img/mod01/fondo1.jpg",
-			"img/mod01/hombre_carretilla.jpg",
+            "img/mod01/fondoblanco.png",
+			"img/mod01/mod1sco2.jpg",
 			"img/mod01/johnLgrove.jpg",
         ]);
             break;

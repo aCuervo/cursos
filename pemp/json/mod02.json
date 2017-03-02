@@ -15,16 +15,14 @@
           "contenido": [
             {
               "clase": "texto",
-              "texto": "Seguro que alguna vez has utilizado una <b>escalera de mano</b> como ésta para acceder a un lugar elevado. <br><br> En este módulo te presentaremos otras maneras de acceso a esos lugares elevados. Conocerás lo que son las PEMP y sabrás <b>cuándo</b> es recomendable utilizarlas. <br><br> ¡Adelante!",
+              "texto": "Seguro que alguna vez habrás tenido que utilizar una <b>escalera de mano</b> como ésta para acceder a un lugar elevado.<br><br>En este módulo te presentaremos otras maneras de acceso a esos lugares elevados. Conocerás lo que son las PEMP y sabrás <b>cuándo</b> es recomendable utilizarlas.",
               "animacion": "fadeInRight"
             },
             {
               "clase": "imagen",
-              "subclase": "paraCambiar",
-              "imagen": "img/mod02/hombre_escalera.jpg",
-              "ancho": 400,
-              "pie": "El muñeco de siempre subido a una escalera",
-              "animacion": "fadeInUp"
+              "imagen": "img/mod02/mod2sco2.svg",
+              "pie": "Trabajador subido a una escalera",
+              "animacion": "fadeInRight"
             }
           ]
         },
@@ -43,20 +41,19 @@
         {
           "clase": "texto",
           "texto": "Según el <b>Institulo de Seguridad e Higiene en el trabajo</b>:",
-		  "animacion": "slideInRight"
+		  "animacion": "fadeInRight"
         },
         {
           "clase": "texto",
           "subclase": "instruccion",
           "texto": "“La PEMP es una máquina <b>móvil</b> destinada a desplazar personas hasta una posición de trabajo con una única posición de entrada y salida de la plataforma. <br><br>Está constituida como mínimo por una <b>plataforma</b> de trabajo con órganos de servicio, una <b>estructura</b> extensible y un <b>chasis</b>.<br><br> <b>Existen</b> plataformas sobre camión articuladas y telescópicas, autopropulsadas de tijera, autopropulsadas articuladas o telescópicas y plataformas remolcables entre otras.”",
-		  "animacion": "rubberBand"
+		  "animacion": "fadeInRight"
         },
         {
           "clase": "imagen",
-          "ancho": 200,
-          "imagen": "img/mod02/ojos.png",
-          "pie": "<b>¡Vamos a verlo!</b>",
-		  "animacion": "slideInLeft"
+          "imagen": "img/mod02/mod02sco03.svg",
+          "pie": "Trabajador",
+		  "animacion": "fadeInRight"
         }
       ]
     },
@@ -66,20 +63,19 @@
         {
           "clase": "texto",
           "texto": "Una PEMP está <b>constituida</b> como mínimo por los siguientes elementos:",
-		  "animacion": "slideInDown"
+		  "animacion": "fadeInRight"
         },
             {
               "clase": "imagen",
-			  "animacion": "tada",
-              "subclase": "paraCambiar",
-              "imagen": "img/mod02/elementosPEMP.jpg",
-              "pie": "Dibujar las cuatro imagenes una al lado de otra en horizontal"
+			  "animacion": "fadeInRight",
+              "imagen": "img/mod02/mod02sco04.svg",
+              "pie": "Distintos tipos de PEMP"
             },
 
             {
               "clase": "tabsB",
 			  "subclase": "derecha",
-			  "animacion": "fadeInLeft",
+			  "animacion": "fadeInRight",
               "contenido": [
                 {
                   "titulo": "PLATAFORMA DE TRABAJO",
