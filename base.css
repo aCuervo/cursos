@@ -93,12 +93,10 @@ li {
                 border-width:1px;
 }
 
-#divLayout{margin:0;padding:0;}
 /*** CABECERA ***/
 header {
     position: fixed;
     width: 100%;
-    height: 5.5em;
     z-index: 4; /*Para que esté por encima de la parte inferior de la página cuando se haga scroll*/
     line-height: 160%;
 }
@@ -117,23 +115,18 @@ header {
     -ms-flex-pack: justify;
     justify-content: space-between;
     text-align: center;
-    /*padding: 0.3em 3em 0.3em 1em;*/
-    height: 4.5em;
+    padding:0.25em;
 }
 
 #divCabeceraImagen {
     width: 25%;
-    height: 100%;
-    padding:0.25em 0;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
 }
 
-    #divCabeceraImagen img {
-        min-height: 100%;
-        height: 100%;
-    }
-
 #divCabeceraTextos {
-    width: 90%;
+   width:75%;  
 }
 
     #divCabeceraTextos img {
@@ -151,34 +144,14 @@ header {
     #divCabeceraTextos h1 {
         margin:0.25em 0;
     }
-/*#divCabeceraMenu{
-width: 20%;
-display: -webkit-box;
-display: -webkit-flex;
-display: -ms-flexbox;
-display: flex;        
-vertical-align: middle;
--webkit-box-pack: end;
--webkit-justify-content: flex-end;
-    -ms-flex-pack: end;
-        justify-content: flex-end;
-}
-#divCabeceraMenu img {
-cursor: pointer;
-min-height: 50%;
-}*/
 
 /*** CONTENIDO ***/
-#divContenido {
-    height: 100%;
-    padding-bottom: 5em;
-    padding-top: 5.5em;
-}
-
 #divTextos {
     position: relative;
-    padding: 1em 2em 5em; /* El padding bottom tendría que ser igual a la altura del footer, pero como también tiene padding por arriba, hay que restárselo*/
+    padding-left: 2em;
+    padding-right:2em;
     float: right;
+    overflow:auto;
 }
 
     /*TODO: REVISAR, ¿QUEREMOS QUE NO HAYA SCROLL EN LAS QUE TIENEN FONDO? QUIZÁ HACER OTRA CLASE QUE ALINEE AL MEDIO LOS OBJETOS POR SI SE QUIERE PONER SOLO ALGÚN TEXTO */
@@ -212,7 +185,7 @@ min-height: 50%;
             background-size: contain;
         }
 
-        #divTextos.fondo.contain {
+        #divTextos.fondo.contain, #divTextos.fondo.portada {
             background-size: contain;
             background-position: center;
         }
@@ -1820,20 +1793,21 @@ left:0;
 .imagenSVG svg > g > rect{opacity:0.3;}
 
 /*******MEDIA QUERIES **********/
-/* Pantalla normal, resolución > 800px*/
-@media only screen and (min-width: 1281px) {
+/* Pantalla normal, resolución > 1280px*/
+@media only screen and (min-width: 1501px) {
     html, body {
         font-size: 14pt;
     }
 
-    h1, .h1{font-size:25pt;} 
-    h2, .h2{font-size:20pt;}
-    h3, .h3{font-size:18pt;}
+    h1, .h1{font-size:20pt;} 
+    h2, .h2{font-size:18pt;}
+    h3, .h3{font-size:16pt;}
+
     h4, .h4{font-size:12pt;}
     h5, .h5{font-size:10pt;}
     h6, .h6{font-size:8pt;}
 
-      #navIndice{
+    #navIndice{
         width:25%;
     }
 
@@ -1843,15 +1817,16 @@ left:0;
     }
 
 }
-
-@media only screen and (max-width: 1280px) {
-    html,body{
-        font-size:12pt;
+/* Pantalla normal, resolución < 1500 y > 1280 */
+@media only screen and (min-width:1001px) and (max-width:1500px) {
+    html, body {
+        font-size: 12pt;
     }
 
-    h1, .h1{font-size:22pt;} 
-    h2, .h2{font-size:18pt;}
-    h3, .h3{font-size:16pt;}
+    h1, .h1{font-size:18pt;} 
+    h2, .h2{font-size:16pt;}
+    h3, .h3{font-size:14pt;}
+
     h4, .h4{font-size:10pt;}
     h5, .h5{font-size:8pt;}
     h6, .h6{font-size:6pt;}
@@ -1859,11 +1834,48 @@ left:0;
     #navIndice{
         width:35%;
     }
+    #divCabeceraImagen{
+        width:35%;
+    }
+
+    #divCabeceraTextos{
+        width:65%;
+    }
     #divTextos {
         line-height: 130%;        
         width:65%;
-    }    
+    }  
 
+}
+
+/* Pantalla  < 1280 px */
+@media only screen and (min-width:601px) and (max-width: 1000px) {
+    html, body {
+        font-size: 10pt;
+    }
+
+    h1, .h1{font-size:16pt;} 
+    h2, .h2{font-size:14pt;}
+    h3, .h3{font-size:12pt;}
+
+    h4, .h4{font-size:8pt;}
+    h5, .h5{font-size:6pt;}
+    h6, .h6{font-size:4pt;}
+
+    #navIndice{
+        width:35%;
+    }
+    #divCabeceraImagen{
+        width:35%;
+    }
+
+    #divCabeceraTextos{
+        width:65%;
+    }
+    #divTextos {
+        line-height: 130%;        
+        width:65%;
+    }  
     .listaObjetos{
         flex-direction:column;
     }
@@ -1873,32 +1885,38 @@ left:0;
     }
 }
 /* SMARTPHONES PORTRAIT */
-@media only screen 
-    and (max-width: 600px)
+@media only screen and (max-width: 600px)
  {
     #divCabeceraImagen{
         display:none;
     }
     nav{
-        display:none;
+        display:none !important;
     }
 
     html,body{
-        font-size:12pt;
+        font-size:8pt;
     }
 
-    h1, .h1{font-size:16pt;} 
-    h2, .h2{font-size:14pt;}
-    h3, .h3{font-size:12pt;}
-    h4, .h4{font-size:8pt;}
-    h5, .h5{font-size:6pt;}
-    h6, .h6{font-size:4pt;}
+    h1, .h1{font-size:14pt;} 
+    h2, .h2{font-size:12pt;}
+    h3, .h3{font-size:10pt;}
 
+    h4, .h4{font-size:6pt;}
+    h5, .h5{font-size:4pt;}
+    h6, .h6{font-size:2pt;}
+
+    #divCabeceraTextos{
+        width:100%;
+    }
 
     #divTextos{
         width:100%;
-        float:none;
-        padding: 0 1em;
+    }
+
+    .footerFlecha > svg{
+        width:15px;
+        height:15px;
     }
 
     #divFooterCopyright{

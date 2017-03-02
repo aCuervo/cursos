@@ -203,15 +203,12 @@ function onLoad() {
                 CURSO.scoUltimo = 0;
             }*/
 
-            // Se crea la capa que contendrá el diseño
-            var divLayout = document.createElement("DIV");
-            divLayout.id = "divLayout";
-            // Se crea la capa de encabezado, la de la pantalla de los textos y el footer con la navegación
-            crearEncabezado(divLayout);
-            crearPantalla(divLayout);
-            crearNavegacion(divLayout);
-            // La capa de diseño se incluye en el body
-            $("body").append(divLayout);
+            // Se crean la capa de encabezado, de navegación, de textos y el footer con la navegación
+            document.body.appendChild(crearEncabezado());
+            document.body.appendChild(crearIndice());
+            document.body.appendChild(crearPantalla());
+            document.body.appendChild(crearNavegacion());
+
             // Inicializa los objetos que lo necesiten, así como la altura del índice
             inicializarObjetos();
             inicializarAlto();
@@ -222,7 +219,7 @@ function onLoad() {
         });
 }
 // Crea el encabezado. Título y subtítulo del SCO, e imagen de cabecera, definidos en el JSON
-function crearEncabezado(div) {
+function crearEncabezado() {
     // Crear la etiqueta para la cabecera
     var headerCabecera = document.createElement("HEADER");
 
@@ -240,10 +237,7 @@ function crearEncabezado(div) {
 
     // Si existe la imagen se carga
     if (CURSO.json.imagenEncabezado) {
-        var imgCabeceraImagen = document.createElement("IMG");
-        imgCabeceraImagen.src =  CURSO.json.imagenEncabezado;
-        imgCabeceraImagen.alt = "Logo";
-        divCabeceraImagen.appendChild(imgCabeceraImagen);
+        divCabeceraImagen.style.backgroundImage = "url(" + CURSO.json.imagenEncabezado + ")";
     }
 
     // Contendor textos
@@ -269,31 +263,10 @@ function crearEncabezado(div) {
     headerCabecera.appendChild(divCabeceraInferior);
 
     // Se agrega a la capa principal enviada en la función
-    div.appendChild(headerCabecera);
-}
-// Crear la capa de contenido general con índice, textos y fondo
-function crearPantalla(div) {
-    // La capa que contiene el índice y los textos
-    var divContenido = document.createElement("DIV");
-    divContenido.id = "divContenido";
-
-    // La capa que contiene los textos del curso
-    var divTextos = document.createElement("DIV");
-    divTextos.id = "divTextos";
-    
-    // Se crea la capa de índice que se añadirá a la de contenido
-    crearIndice(divContenido);
-    // Se cargan el fondo y los textos en la capa correspondiente 
-    cargarFondo(divTextos);
-    cargarTextos(divTextos);
-
-    divContenido.appendChild(divTextos);
-    
-    // Añadir la capa de contenido a su padre
-    div.appendChild(divContenido)
+    return headerCabecera;
 }
 // Crear el índice del módulo, definido en el JSON
-function crearIndice(div) {
+function crearIndice() {
     // Crear la etiqueta para el elemento de navegación
     var navIndice = document.createElement("NAV");
     navIndice.id = "navIndice";
@@ -392,7 +365,19 @@ function crearIndice(div) {
     navIndice.appendChild(divIndiceLista);
         
     // Se añade la navegación a la capa padre
-    div.appendChild(navIndice);
+    return navIndice;
+}
+// Crear la capa de contenido general con textos y fondo
+function crearPantalla() {
+    // La capa que contiene los textos del curso
+    var divTextos = document.createElement("DIV");
+    divTextos.id = "divTextos";
+
+    // Se cargan el fondo y los textos en la capa correspondiente 
+    cargarFondo(divTextos);
+    cargarTextos(divTextos);
+
+    return divTextos;
 }
 // Cargar un fondo de diapositiva, definido en el JSON.
 function cargarFondo(div) {
@@ -1700,7 +1685,7 @@ function cargarSVG(div, elemento) {
 }
 /* NAVEGACIÓN */
 // Crear la capa de navegación, botones anterior y siguiente. Copyright.
-function crearNavegacion(div) {
+function crearNavegacion() {
 
     var footerNavegacion = document.createElement("FOOTER");
 
@@ -1721,7 +1706,7 @@ function crearNavegacion(div) {
     footerNavegacion.appendChild(divFooterBotonera);
     footerNavegacion.appendChild(crearCopyright());
 
-    div.appendChild(footerNavegacion);
+    return footerNavegacion;
 }
 // Crea un botón de navegación y lo devuelve. Recibe el nombre y el SCO al que tiene que navegar.
 function crearBotonNav(texto, proximoSCO) {
@@ -1860,15 +1845,28 @@ function inicializarAcordeonSub() {
         }
     });
 }
-// Inicializar el tamaño del índice
+// Inicializar el tamaño del índice y de los textos
 function inicializarAlto() {
-    // Calcular el espacio para el índice y el contenido
+    // Calcular el hueco disponible para en la pantalla
     var alturaPantalla = $(window).height() - $("header").outerHeight(true) - $("footer").outerHeight(true);
-        // Solo si tiene fondo
-        if (CURSO.json.contenido[CURSO.scoActual].fondo) {
-           $("#divTextos").height(alturaPantalla);
-        }
-    $("#navIndice").height(alturaPantalla);    
+
+    // Margen superior y altura para la navegación
+    $("#navIndice").css("margin-top", $("header").outerHeight(true));
+    $("#navIndice").height(alturaPantalla);
+
+    // Margen superior para los textos
+    $("#divTextos").css("margin-top", $("header").outerHeight(true));
+
+    // Solo si tiene fondo le damos un tamaño a la capa de textos (para que el fondo se ajuste a ese tamaño y se corte)
+    if (CURSO.json.contenido[CURSO.scoActual].fondo) {
+        $("#divTextos").height(alturaPantalla);
+        $("#divTextos").css("padding-bottom", $("footer").outerHeight(true));
+    }
+    // Si no tiene fondo, que la capa se ajuste a la altura de la pantalla y dejar al overflow hacer lo suyo
+    else {
+        $("#divTextos").height(alturaPantalla);
+    }
+  
 }
 // Inicializar los elementos ordenables
 function inicializarSortable(){
