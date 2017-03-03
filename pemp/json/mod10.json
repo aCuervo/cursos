@@ -283,8 +283,8 @@
       "contenido": [
         {
           "clase": "imagen",
-          "animacion": "rotateIn",
-          "imagen": "img/mod10/simbolos.png"
+          "animacion": "fadeInRight",
+          "imagen": "img/mod10/1009.svg"
         }
       ]
     },
@@ -340,7 +340,7 @@
         {
           "clase": "lista",
           "titulo": "<h3>CONSEJOS:</h3><br>",
-          "animacion": "bounceInDown",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "punto": "Todas las líneas eléctricas han de tratarse como <b>elementos peligrosos</b>, a no ser que la gestora eléctrica las declare inactivas."
@@ -359,29 +359,12 @@
             }
           ]
         },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
+
             {
               "clase": "imagen",
-              "imagen": "img/mod10/ok.png",
-              "ancho": 150,
-              "animacion": "bounceInLeft"
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod10/dontForget.png",
-              "ancho": 250,
-              "animacion": "bounceInUp"
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod10/information.png",
-              "ancho": 150,
-              "animacion": "bounceInRight"
+              "imagen": "img/mod10/1012.svg"
             }
-          ]
-        }
+         
       ]
     },
     {
@@ -723,23 +706,16 @@
     {
       "titulo": "Despedida",
       "contenido": [
-        {
-          "clase": "listaObjetos",
-          "animacion": "fadeInRight",
-          "contenido": [
             {
               "clase": "texto",
-              "texto": "Ya hemos visto cómo el trabajo con una PEMP genera ciertos <b>riesgos</b> y la forma de <b>prevenirlos y protegernos</b> frente a ellos. En el siguiente módulo, veremos los <b>accidentes</b> más habituales en este tipo de máquina y las <b>medidas preventivas</b> a realizar. <br><br>Que si riesgo, que si accidente ... ¿Demasiadas palabras para expresar lo mismo? ¿Piensas que todo eso es parecido?<br><br¡Pues mira! ¡Te explico! Si yo ando por aquí, que como ves es una zona en obras y poco señalizada, corro el <b>RIESGO</b> de que me caiga encima un ladrillo o de que me clave una punta que han dejado suelta. Pero el <b>ACCIDENTE</b> se producirá solo si <b>me clavo la punta</b> o se me <b>cae encima el ladrillo</b>, y esto acarrea <b>consecuencias negativas</b> para mí o la empresa.<br><br>Por cierto, \"glup\" ... creo que hoy no me tenía que haber puesto las chanclas ..."
+                        "animacion": "fadeInRight",
+              "texto": "Ya hemos visto cómo el trabajo con una PEMP genera ciertos <b>riesgos</b> y la forma de <b>prevenirlos y protegernos</b> frente a ellos. En el siguiente módulo, veremos los <b>accidentes</b> más habituales en este tipo de máquina y las <b>medidas preventivas</b> a realizar. <br><br>Que si riesgo, que si accidente ... ¿Demasiadas palabras para expresar lo mismo? ¿Piensas que todo eso es parecido?<br><br¡Pues mira! ¡Te explico! Si yo ando por aquí, que como ves es una zona en obras y poco señalizada, corro el <b>RIESGO</b> de que me caiga encima un ladrillo o de que me clave una punta que han dejado suelta. Pero el <b>ACCIDENTE</b> se producirá solo si <b>me clavo la punta</b> o se me <b>cae encima el ladrillo</b>, y esto acarrea <b>consecuencias negativas</b> para mí o la empresa.<br><br>Sigue las señalizaciones para disfrutar una buena salud laboral."
             },
             {
               "clase": "imagen",
-              "imagen": "img/mod10/hombrePeligros.jpg",
-              "subclase": "paraCambiar",
-              "pie": "El muñeco de siempre en una situación parecida a esta y con chancletas",
-              "ancho": 300
+                        "animacion": "fadeInRight",
+              "imagen": "img/mod10/1017.svg"
             }
-          ]
-        }
       ]
     },
     {

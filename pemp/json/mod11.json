@@ -16,10 +16,7 @@
           "contenido": [
             {
               "clase": "imagen",
-              "imagen": "img/mod11/hombreConBotas.jpg",
-              "ancho": 200,
-              "subclase": "paraCambiar",
-              "pie": "El muñeco de siempre, que se le vea bien que lleva botas"
+              "imagen": "img/mod11/1102.svg"
             },
             {
               "clase": "texto",
@@ -46,7 +43,7 @@
       "contenido": [
         {
           "clase": "acordeon",
-          "animacion": "flipInX",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "titulo": "CAÍDAS DE LA CESTA POR EFECTO CATAPULTA",
@@ -75,7 +72,7 @@
             {
               "titulo": "CAÍDAS POR ENTRAR O SALIR DE LA PLATAFORMA EN POSICIÓN ELEVADA",
               "texto": "Generalmente, debido a la inexistencia de una planificación en determinadas tareas de mantenimiento o bien por primar criterios productivos frente a preventivos, se ejecutan tareas de <b>mantenimiento, reglaje o reparación</b> mediante el uso de plata­formas elevadoras móviles de personal que llevan al <b>trabajador</b> a la necesidad de <b>abandonar la cesta</b> para realizar el trabajo. Ello conlleva el <b>riesgo de caída de altura</b>.",
-              "imagen": "img/mod11/caida.jpg",
+              "imagen": "img/mod11/1104.svg",
               "ancho": 250
             },
             {
@@ -279,41 +276,11 @@
           ]
         },
         {
-          "clase": "listaObjetos",
-          "animacion": "slideInLeft",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/mod11/atropello.jpg",
-              "ancho": 100,
-              "animacion": "rotateIn",
-              "subclase": "rotarIzd"
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod11/caida.jpg",
-              "ancho": 165,
-              "animacion": "rotateIn",
-              "subclase": "rotarDch"
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod11/descargaElectrica.jpg",
-              "ancho": 165,
-              "animacion": "rotateIn",
-              "subclase": "rotarIzd"
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod11/efectoCatapulta.jpg",
-              "ancho": 100,
-              "animacion": "rotateIn",
-              "subclase": "rotarDch"
-            }
-          ]
+          "clase": "imagen",
+          "animacion": "fadeInRight",
+          "imagen": "img/mod11/1106.svg"
         }
       ]
-
     },
     {
       "titulo": "Resumen - Principales medidas preventivas",
@@ -425,8 +392,8 @@
           "clase": "juegoPalabrasCruzadas",
           "titulo": "PEMP",
           "descripcion": "A partir de las definiciones que te adjuntamos, completa el siguiente crucigrama. Selecciona la definición que quieres responder y escribe la palabra.NO utilices acentos en las respuestas.",
-          "ancho": "18", 
-          "alto": "16", 
+          "ancho": "18",
+          "alto": "16",
           "pistas": [
             {
               "palabra": "CATAPULTA",
@@ -573,7 +540,7 @@
                 }
               ]
             },
-           {
+            {
               "texto": "¿Dónde debemos anclar el arnés mientras trabajamos en la plataforma?",
               "respuestas": [
                 {
@@ -624,9 +591,7 @@
             },
             {
               "clase": "imagen",
-              "imagen": "img/mod11/hombreAtrapado.jpg",
-              "subclase": "paraCambiar",
-              "pie": "El muñeco de siempre hablando y que tenga casco"
+              "imagen": "img/mod11/1110.svg"
             }
           ]
         }
@@ -639,4 +604,3 @@
     }
   ]
 }
-
