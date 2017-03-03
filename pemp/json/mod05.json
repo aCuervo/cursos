@@ -83,12 +83,11 @@
       "contenido": [
         {
           "clase": "listaObjetos",
-          "subclase": "centroAncho",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "imagen",
-              "imagen": "img/mod05/PEMPcamionPartes.png",
-              "animacion": "zoomIn",
+              "imagen": "img/mod05/0506.svg",
               "pie": "Partes de una PEMP sobre camión"
             },
             {
@@ -96,14 +95,12 @@
               "subclase": "columna",
               "contenido": [
                 {
-                  "clase": "texto",
-                  "animacion": "fadeInUp",
+                  "clase": "texto",                
                   "texto": "Las <b>plataformas elevadoras sobre camión</b> son máquinas diseñadas para la elevación de personas en diferentes posiciones de trabajo mediante una estructura de <b>brazos articulados unida al chasis</b> del camión. <br><br>Permiten <b>salvar obstáculos bajo el área de trabajo</b> y <b>grandes desplazamientos</b>. Otras características que tienen es  que pueden <b>girar</b>, a izquierda o derecha, de forma continua o no continua, <b>360º</b>."
                 },
                 {
                   "clase": "lista",
                   "subclase": "objetivos",
-                  "animacion": "jello",
                   "contenido": [
                     {
                       "punto": "Como toda PEMP dispone de:",
@@ -313,26 +310,22 @@
       "contenido": [
         {
           "clase": "listaObjetos",
-          "subclase": "centroAncho",
+          "animacion": "fadeInright",
           "contenido": [
             {
               "clase": "imagen",
-              "subclase": "paraCambiar",
-              "imagen": "img/mod05/operario.png",
-              "ancho": 100,
-              "pie": "El mismo muñeco que la 3.12",
-              "animacion": "rotateInDownLeft"
+              "ancho": 300,
+              "imagen": "img/mod05/0510.svg"
             },
             {
               "clase": "lista",
               "subclase": "anillas vertical",
-              "animacion": "rotateInDownRight",
               "contenido": [
                 {
                   "punto": "Tener más de <b>18 años</b> de edad."
                 },
                 {
-                  "punto": "Estar en poseción del <b>carnet de conducir</b> para circular por vias públicas."
+                  "punto": "Estar en posesión del <b>carnet de conducir</b> para circular por vias públicas."
                 },
                 {
                   "punto": "Disponer de una <b>formación e información</b> adecuada a los riesgos derivados de la utilización de la máquina, y adaptada a las necesidades del trabajador (tales como, por ejemplo, el idioma)."
@@ -1027,7 +1020,6 @@
       "contenido": [
         {
           "clase": "listaObjetos",
-          "subclase": "centroEstrecho",
           "contenido": [
             {
               "clase": "texto",
@@ -1036,9 +1028,7 @@
             },
             {
               "clase": "imagen",
-              "subclase": "paraCambiar",
-              "imagen": "img/mod05/hombreMandoEmergencia.png",
-              "pie": "El mismo muñeco de siempre, con un mando rojo de emergencia en la mano"
+              "imagen": "img/mod05/0523.svg"
             }
           ]
         }

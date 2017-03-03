@@ -12,19 +12,15 @@
       "contenido": [
         {
           "clase": "listaObjetos",
-          "subclase": "centroAncho",
+                            "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "listaObjetos",
-              "subclase": "centroAncho",
               "contenido": [
                 {
                   "clase": "imagen",
-                  "imagen": "img/mod06/hombreManual.png",
-                  "ancho": 300,
-                  "subclase": "paraCambiar",
-                  "animacion": "fadeInUp",
-                  "pie": "Poner al muñeco de siembre con un manual de instrucciones (que se vea que es un manual de instrucciones"
+                  "imagen": "img/mod06/0602.svg",
+                  "ancho": 300
                 },
                 {
                   "clase": "texto",
@@ -78,6 +74,10 @@
           "animacion": "rotateInDownLeft",
           "texto": "La <b>familiarización</b> con un modedlo de máquina determinado, deberá incluir:"
         },
+                {
+          "clase": "imagen",
+          "imagen": "img/mod06/0604.svg"
+        },
         {
           "clase": "imagen",
           "imagen": "img/mod06/familiarizacion.png",
@@ -99,16 +99,22 @@
           "contenido": [
             {
               "clase": "imagen",
+              "imagen": "img/mod06/0605a.svg"
+            },
+                        {
+              "clase": "imagen",
+              "imagen": "img/mod06/0605b.svg"
+            },
+            {
+              "clase": "imagen",
               "imagen": "img/mod06/puestoDeMandoPrimario.jpg",
-              "pie": "<H3><INS>Puesto de mando PRIMARIO</INS></H2>",
-              "animacion": "swing"          
+              "pie": "<H3><INS>Puesto de mando PRIMARIO</INS></H2>"
             },
             {
               "clase": "imagen",
               "imagen": "img/mod06/puestoDeMandoSecundario.jpg",
               "ancho": 400,
-              "pie": "<H3><INS>Puesto de mando SECUNDARIO</INS></H2>",
-              "animacion": "swing"        
+              "pie": "<H3><INS>Puesto de mando SECUNDARIO</INS></H2>"
             }
           ]
         }
@@ -272,7 +278,6 @@
         },
         {
           "clase": "listaObjetos",
-          "subclase": "centroEstrecho",
           "contenido": [
             {
               "clase": "lista",
@@ -295,11 +300,7 @@
             },
             {
               "clase": "imagen",
-              "animacion": "flip",
-              "imagen": "img/mod06/mantenimiento.jpg",
-              "ancho": 200,
-              "subclase": "paraCambiar",
-              "pie": "Hacer una imagen parecida a esta, que sea un poco más ancha."
+              "imagen": "img/mod06/0610.jpg"
             }
           ]
         },
@@ -566,7 +567,6 @@
       "contenido": [
         {
           "clase": "listaObjetos",
-          "subclase": "centroEstrecho",
           "contenido": [
             {
               "clase": "texto",
@@ -575,9 +575,7 @@
             },
             {
               "clase": "imagen",
-              "subclase": "paraCambiar",
-              "imagen": "img/mod06/despedida.png",
-              "pie": "El mismo muñeco de siempre, y alrededor pequeños dibujos de distintos terrenos: edificios, playa, aeropuesto, ..."
+              "imagen": "img/mod06/0615.svg"
             }
           ]
         }

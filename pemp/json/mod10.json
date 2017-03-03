@@ -12,15 +12,10 @@
       "contenido": [
         {
           "clase": "listaObjetos",
-
           "contenido": [
             {
               "clase": "imagen",
-              "imagen": "img/mod10/hombreParaguas.png",
-              "animacion": "fadeInUp",
-              "subclase": "paraCambiar",
-              "ancho": 300,
-              "pie": "el muñeco de siempre con un paraguas y lloviendo (protegiéndose de la lluvia)"
+              "imagen": "img/mod10/1002.svg"
             },
             {
               "clase": "texto",
@@ -36,7 +31,7 @@
       "contenido": [
         {
           "clase": "acordeon",
-          "animacion": "rubberBand",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "titulo": "CAÍDA DE PERSONAS DEBIDO A FALLOS DEL EQUIPO, HIDRÁULICOS, MECÁNICOS, POR MAL USO, ETC",
@@ -52,9 +47,8 @@
             },
             {
               "titulo": "CAÍDA DE MATERIALES",
-              "texto": "La caída de material o herramientas sobre personas o equipos en las PEMP pueden deberse entre otras situaciones a las siguientes:<br><br><ul><li><b>Vuelco</b> del equipo. </li><li>Plataforma de trabajo <b>sin protecciones perimetrales</b> junto con la existencia de <b>herramientas sueltas o materiales dejados</b> sobre la superficie. </li><li><b>Rotura de la plataforma</b> de trabajo. </li><li><b>Personas</b> situadas <b>en las proximidades</b> de la zona de trabajo o <b>bajo la vertical</b> de la plataforma sin balizar.</li>",
-              "imagen": "img/mod10/caidaDeMaterial.png",
-              "ancho": 350
+              "texto": "La caída de material o herramientas sobre personas o equipos en las PEMP pueden deberse entre otras situaciones a las siguientes:<br><br><ul><li><b>Vuelco</b> del equipo.</li><li>Plataforma de trabajo <b>sin protecciones perimetrales</b> junto con la existencia de <b>herramientas sueltas o materiales dejados</b> sobre la superficie. </li><li><b>Rotura de la plataforma</b> de trabajo. </li><li><b>Personas</b> situadas <b>en las proximidades</b> de la zona de trabajo o <b>bajo la vertical</b> de la plataforma sin balizar.</li>",
+              "imagen": "img/mod10/1003a.svg"
             },
             {
               "titulo": "GOLPES, CHOQUES O ATRAPAMIENTOS DEL OPERARIO O LA PROPIA PEMP CONTRA OBJETOS FIJOS O MÓVILES",
@@ -542,7 +536,7 @@
           ]
         }
       ]
-    },    
+    },
     {
       "titulo": "Resumen (II)",
       "contenido": [
@@ -755,4 +749,3 @@
     }
   ]
 }
-

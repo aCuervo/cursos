@@ -12,13 +12,11 @@
       "contenido": [
         {
           "clase": "listaObjetos",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "imagen",
-              "imagen": "img/mod08/hombreLupa.png",
-              "ancho": 300,
-              "subclase": "paraCambiar",
-              "animacion": "fadeInUp"
+              "imagen": "img/mod08/0802.svg"
             },
             {
               "clase": "texto",
@@ -34,11 +32,9 @@
       "contenido": [
         {
           "clase": "listaObjetos",
-          "subclase": "centroAncho flex-start",
           "contenido": [
             {
               "clase": "texto",
-              "animacion": "bounceInLeft",
               "texto": "<b>Antes de la utilización</b> de cualquier equipo de trabajo se debe comprobar que sus <b>protecciones y condiciones de uso</b> son las <b>adecuadas</b> y que su <b>conexión o puesta en marcha</b> no representa un <b>peligro para terceros</b>. <br><br>Se trata de una inspección muy importante ya que es la <b>inmediatamente anterior al uso</b>. Hablamos de una <b>inspección exterior visual</b>: es una inspección rápida, sencilla, sistemática, no anárquica, que impide que algún elemento quede sin verificar."
             },
             {
@@ -66,8 +62,7 @@
                 },
                 {
                   "clase": "imagen",
-                  "imagen": "img/mod08/flechas.png",
-                  "ancho": 150
+                  "imagen": "img/mod08/0803.svg"
                 }
               ]
             }
@@ -98,7 +93,7 @@
     },
     {
       "titulo": "Inspección previa al uso de las PEMP",
-      "fondo": "img/mod08/fondoJoyas.jpg",
+      "fondo": "img/comunes/fondoBlanco.png",
       "contenido": [
         {
           "clase": "texto",
@@ -383,10 +378,7 @@
             },
             {
               "clase": "imagen",
-              "imagen": "img/mod08/hombreCasco.png",
-              "ancho": 300,
-              "subclase": "paraCambiar",
-              "pie": "El muñeco de siempre con una casco"
+              "imagen": "img/mod08/0813.svg"
             }
           ]
         }

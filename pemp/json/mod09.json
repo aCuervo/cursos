@@ -12,18 +12,15 @@
       "contenido": [
         {
           "clase": "listaObjetos",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "imagen",
-              "imagen": "img/mod09/hombreArnes.png",
-              "subclase": "paraCambiar",
-              "pie": "El muñeco de siempre con un arnés",
-              "ancho": 300,
-              "animacion": "slideInUp"
+              "imagen": "img/mod09/0902.svg"
             },
             {
               "clase": "texto",
-              "texto": "En este nuevo módulo trataremos las <b>normas de seguridad</b> a seguir en los usos habituales de una plataforma elevadora de personas, pero también veremos la <b>secuencia</b> adecuada de <b>rescate</b> y un apartado sobre los <b>equipos de protección individual</b> necesarios en el uso de la máquina. <br><br>Así es que ...  ¡Ajústate el arnés que arrancamos!",
+              "texto": "En este nuevo módulo trataremos las <b>normas de seguridad</b> a seguir en los usos habituales de una plataforma elevadora de personas, pero también veremos la <b>secuencia</b> adecuada de <b>rescate</b> y un apartado sobre los <b>equipos de protección individual</b> necesarios en el uso de la máquina. <br><br><b><center>Tu seguridad es lo más importante.</b></center>",
               "animacion": "slideInRight"
             }
           ]
@@ -106,7 +103,7 @@
         {
           "clase": "lista",
           "subclase": "objetivos",
-          "animacion": "rubberBand",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "punto": "Hay <b>cuatro grupos</b> de normas importantes:",
@@ -129,9 +126,8 @@
         },
         {
           "clase": "imagen",
-          "imagen": "img/mod09/flechaGrupos.png",
-          "animacion": "slideInLeft",
-          "ancho": 800
+          "imagen": "img/mod09/0905.svg",
+          "animacion": "fadeInRight"
         }
       ]
     },
@@ -198,34 +194,34 @@
     {
       "titulo": "Normas de movimiento del equipo con la PEMP elevada (II)",
       "contenido": [
+        {
+          "clase": "lista",
+          "subclase": "celo",
+          "animacion": "swing",
+          "titulo": "Durante el <b>movimiento</b> del equipo con la <b>plataforma elevada</b>, se deben cumplir una serie de requisitos, que a continuación se detallan:",
+          "contenido": [
             {
-              "clase": "lista",
-              "subclase": "celo",
-              "animacion": "swing",
-              "titulo": "Durante el <b>movimiento</b> del equipo con la <b>plataforma elevada</b>, se deben cumplir una serie de requisitos, que a continuación se detallan:",
-              "contenido": [
-                {
-                  "punto": "Se debe mantener de forma continuada una <b>visión clara</b> del <b>camino</b> y del <b>área a recorrer</b> asegurándonos que en el trayecto no hay <b>personas</b>, ni <b>agujeros</b>, etc. que se puedan interponer ni <b>obstáculos por encima del operador</b>. En este último caso, se debería determinar la necesidad de acoplar <b>sistemas antiatrapamiento</b>"
-                },
-                {
-                  "punto": "<b>No</b> se deben manejar las PEMP de forma <b>temeraria</b> o <b>distraída</b>, comprobando en todo momento que no haya trabajadores en sus proximidades; En este sentido, el movimiento de <b>marcha atrás</b> quedará <b>limitado</b> a los casos imprescindibles debido a que la <b>visibilidad</b> en ellos no siempre está garantizada."
-                },
-                {
-                  "punto": "Deberemos desplazar la máquina sobre <b>superficies niveladas y con suficiente resistencia</b>, evitando situarnos sobre <b>superficies frágiles o inestables</b> y manteniendo la <b>distancia de seguridad a obstáculos</b>, desniveles, zanjas o rampas y la <b>distancia mínima</b> a <b>líneas eléctricas</b> con tensión."
-                },
-                {
-                  "punto": "Se deben tener en cuenta las <b>condiciones metereológicas</b> (viento, lluvia, nieve, etc.) de forma que no impliquen la necesidad de detener el trabajo."
-                }
-              ]
+              "punto": "Se debe mantener de forma continuada una <b>visión clara</b> del <b>camino</b> y del <b>área a recorrer</b> asegurándonos que en el trayecto no hay <b>personas</b>, ni <b>agujeros</b>, etc. que se puedan interponer ni <b>obstáculos por encima del operador</b>. En este último caso, se debería determinar la necesidad de acoplar <b>sistemas antiatrapamiento</b>"
+            },
+            {
+              "punto": "<b>No</b> se deben manejar las PEMP de forma <b>temeraria</b> o <b>distraída</b>, comprobando en todo momento que no haya trabajadores en sus proximidades; En este sentido, el movimiento de <b>marcha atrás</b> quedará <b>limitado</b> a los casos imprescindibles debido a que la <b>visibilidad</b> en ellos no siempre está garantizada."
+            },
+            {
+              "punto": "Deberemos desplazar la máquina sobre <b>superficies niveladas y con suficiente resistencia</b>, evitando situarnos sobre <b>superficies frágiles o inestables</b> y manteniendo la <b>distancia de seguridad a obstáculos</b>, desniveles, zanjas o rampas y la <b>distancia mínima</b> a <b>líneas eléctricas</b> con tensión."
+            },
+            {
+              "punto": "Se deben tener en cuenta las <b>condiciones metereológicas</b> (viento, lluvia, nieve, etc.) de forma que no impliquen la necesidad de detener el trabajo."
             }
           ]
+        }
+      ]
     },
     {
       "titulo": "Normas de movimiento del equipo con la PEMP elevada (III)",
       "contenido": [
         {
           "clase": "lista",
-          "animacion": "fadeInLeft",
+          "animacion": "fadeInRight",
           "titulo": "En cuanto a la <b>velocidad</b>, no se debe desplazar la PEMP aceleradamente en <b>zonas estrechas</b> o con <b>obstáculos</b>, y se debe <b>limitar</b> la misma según las condiciones del terreno, la visibilidad, la presencia de pendientes y el tipo de PEMP, a lo siguiente:",
           "contenido": [
             {
@@ -246,8 +242,7 @@
           "contenido": [
             {
               "clase": "imagen",
-              "imagen": "img/mod09/PEMPfueraDeServicio.png",
-              "ancho": 100
+              "imagen": "img/mod09/0910.svg"
             },
             {
               "clase": "texto",
@@ -622,18 +617,18 @@
           "clase": "listaObjetos",
           "subclase": "centroAncho flex-start",
           "contenido": [
-        {
-          "clase": "texto",
-          "subclase": "anillas",
-          "animacion": "rotateInDownLeft",
-          "texto": "Sobre los EPI:<br><br>El <b>equipo de retención</b>, deben </b>engancharse siempre al punto de anclaje proporcionado por el fabricante</b> y nunca la barandilla ni a otro punto fuera de la plataforma.<br><br>En las <b>plataformas de brazo</b>, se recomienda el <b>uso de arnés con dampa ajustable</b> parar limitar el área de trabajo, el arnés deberá estar perfectamente ajustado.<br><br>En las <b>plataformas verticales o de tijera</b>, normalmente <b>no es necesario</b> que el personal utilice equipos anticaídas, exceptuando casos puntuales que estén reflejados en la evaluación de riesgos."
-        },
-        {
-          "clase": "texto",
-          "subclase": "anillas",
-          "animacion": "rotateInDownRight",
-          "texto": "Sobre el RESCATE</b>:<br><br><b>Descender la plataforma</b>. <b>Examine el recorrido de descenso</b> por si hay algún obstáculo que impida la bajada o con el que se pueda chocar.<br><br>Es posible que el mando de suelo no tenga la misma sensibilidad ni limitaciones que el de la plataforma. Use los <b>mandos</b> que ofrezcan <b>mejor control de movimiento y proceda con cuidado</b> si existe algún obstáculo cercano. En la medida de lo posible, la secuencia a seguir sería: <b>movimiento telescópico</b>, <b>elevación/giro</b>, <b>traslación</b>.<br><br>Es importante asegurarse que las llaves <b>permanecen en la unidad base</b> durante el funcionamiento normal, ya que con los mandos de suelo se puede hacer descender la plataforma mucho más rápido que con los mandos de emergencia. "
-        }
+            {
+              "clase": "texto",
+              "subclase": "anillas",
+              "animacion": "rotateInDownLeft",
+              "texto": "Sobre los EPI:<br><br>El <b>equipo de retención</b>, deben </b>engancharse siempre al punto de anclaje proporcionado por el fabricante</b> y nunca la barandilla ni a otro punto fuera de la plataforma.<br><br>En las <b>plataformas de brazo</b>, se recomienda el <b>uso de arnés con dampa ajustable</b> parar limitar el área de trabajo, el arnés deberá estar perfectamente ajustado.<br><br>En las <b>plataformas verticales o de tijera</b>, normalmente <b>no es necesario</b> que el personal utilice equipos anticaídas, exceptuando casos puntuales que estén reflejados en la evaluación de riesgos."
+            },
+            {
+              "clase": "texto",
+              "subclase": "anillas",
+              "animacion": "rotateInDownRight",
+              "texto": "Sobre el RESCATE</b>:<br><br><b>Descender la plataforma</b>. <b>Examine el recorrido de descenso</b> por si hay algún obstáculo que impida la bajada o con el que se pueda chocar.<br><br>Es posible que el mando de suelo no tenga la misma sensibilidad ni limitaciones que el de la plataforma. Use los <b>mandos</b> que ofrezcan <b>mejor control de movimiento y proceda con cuidado</b> si existe algún obstáculo cercano. En la medida de lo posible, la secuencia a seguir sería: <b>movimiento telescópico</b>, <b>elevación/giro</b>, <b>traslación</b>.<br><br>Es importante asegurarse que las llaves <b>permanecen en la unidad base</b> durante el funcionamiento normal, ya que con los mandos de suelo se puede hacer descender la plataforma mucho más rápido que con los mandos de emergencia. "
+            }
           ]
         }
 
@@ -780,20 +775,14 @@
       "titulo": "Despedida",
       "contenido": [
         {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "texto",
-              "texto": "Bueno, bueno ... hemos <b>visto</b> muchas normas ¿verdad?. Quizás te <b>preguntes</b> si es necesaria tanta norma y tanta <b>precaución</b> sabiendo como sabes que las PEMPs son el medio más <b>seguro</b> y eficaz de acceder temporalmente a puntos de trabajo en altura ...<br><br>Te invito a <b>\"adentrarte\"</b> en el siguiente capítulo, en el que verás los principales riesgos asociados al uso de las PEMP y ... ¡Ya me contarás!"
-            },
-            {
-              "clase": "imagen",
-              "animacion": "fadeInRight",
-              "subclase": "paraCambiar",
-              "pie": "Aqui el muñeco de siempre vendado",
-              "imagen": "img/mod09/hombreVendado.png"
-            }
-          ]
+          "clase": "texto",
+          "animacion": "fadeInRight",
+          "texto": "Bueno, bueno ... hemos <b>visto</b> muchas normas ¿verdad?. Quizás te <b>preguntes</b> si es necesaria tanta norma y tanta <b>precaución</b> sabiendo como sabes que las PEMPs son el medio más <b>seguro</b> y eficaz de acceder temporalmente a puntos de trabajo en altura ...<br><br>Te invito a <b>\"adentrarte\"</b> en el siguiente capítulo, en el que verás los principales riesgos asociados al uso de las PEMP y ... ¡Ya me contarás!"
+        },
+        {
+          "clase": "imagen",
+          "animacion": "fadeInRight",
+          "imagen": "img/mod09/0921.svg"
         }
       ]
     },
@@ -804,4 +793,3 @@
     }
   ]
 }
-
