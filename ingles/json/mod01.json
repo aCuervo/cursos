@@ -2533,7 +2533,7 @@
         },
         {
           "clase": "texto",
-          "texto": "En inglés existen distintos tipos de saludos o “greetings”. Los más comunes son los siguientes:"
+          "texto": "<b>GREETINGS</b><br><br>En inglés existen distintos tipos de saludos o “greetings”. Los más comunes son los siguientes:"
         },
         {
           "clase": "listaObjetos",
@@ -2624,7 +2624,7 @@
         },
         {
           "clase": "texto",
-          "texto": "Si queremos preguntarle a alguien “¿Qué tal estás?” diremos “How are you?”, y podremos contestar de diversas maneras:"
+          "texto": "<b>HOW ARE YOU?</b><br><br>Si queremos preguntarle a alguien “¿Qué tal estás?” diremos “How are you?”, y podremos contestar de diversas maneras:"
         },
         {
           "clase": "listaObjetos",
@@ -2700,7 +2700,7 @@
         },
         {
           "clase": "texto",
-          "texto": "Cuando te pregunten por tu nombre o quieras preguntarle a alguien “¿Cómo te llamas?” diremos: What is your name? O What’s your name?. ¿Y cómo podemos contestar?:"
+          "texto": "<b>WHAT'S YOUR NAME?</b><br><br>Cuando te pregunten por tu nombre o quieras preguntarle a alguien “¿Cómo te llamas?” diremos: What is your name? O What’s your name?. ¿Y cómo podemos contestar?:"
         },
         {
           "clase": "texto",
@@ -2759,7 +2759,7 @@
         },
         {
           "clase": "texto",
-          "texto": "Cuando queremos expresarle a la persona que acabamos de conocer o ante la que nos acabamos de presentar que nos alegramos de haberla conocido, utilizaremos las siguientes expresiones o frases hechas:<br><br>It is nice/ great/ lovely to meet you. (Informal)<br><br>Nice to meet you. (Informal/Formal)<br><br>Pleased to meet you. (Informal)<br><br>Glad to meet you (Formal)<br><br>Todas significan lo mismo “Encantado/a de conocerte” o “Es un placer conocerte” y como se indica arriba, unas son más formales que otras."
+          "texto": "<b>PLEASED TO MEET YOU</b><br><br>Cuando queremos expresarle a la persona que acabamos de conocer o ante la que nos acabamos de presentar que nos alegramos de haberla conocido, utilizaremos las siguientes expresiones o frases hechas:<br><br>It is nice / great / lovely to meet you. (Informal)<br><br>Nice to meet you. (Informal/Formal)<br><br>Pleased to meet you. (Informal)<br><br>Glad to meet you (Formal)<br><br>Todas significan lo mismo “Encantado/a de conocerte” o “Es un placer conocerte” y como se indica arriba, unas son más formales que otras."
         },
         {
           "clase": "texto",
@@ -2816,7 +2816,292 @@
               "subclase": "exclamacion",
               "texto": "BE CAREFUL: Nunca digas “I am forty-two years”. Si quieres incluir “years” al decir tu edad o la de otra persona, acuérdate SIEMPRE de añadir “years old”, de otra manera estará incorrecto."
             }
-                      ]
+          ]
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "<b>VARIOUS QUESTIONS</b>",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>Are you married?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Estás casado/a?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Have you got any children?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Tienes hijos/as?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>What do you do?</center>"
+                },
+                {
+                  "texto": "<center><i>¿A qué te dedicas? (Referido trabajo/profesión)</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Do you work?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Trabajas?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Which country are you from?</center>"
+                },
+                {
+                  "texto": "<center><i>¿De qué país eres?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Which city/area do you live in?</center>"
+                },
+                {
+                  "texto": "<center><i>¿En qué ciudad/zona vives?</i></center>"
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>GOOD BYE</b><br><br>Para despedirnos podemos utilizar las siguientes expresiones."
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "F= Formal / I= Informal",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>Good bye! / Bye!</center>"
+                },
+                {
+                  "texto": "<center><i>Adiós.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you soon! (I)?</center>"
+                },
+                {
+                  "texto": "<center><i>Nos vemos o hasta luego.(I)</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you later! (I)</center>"
+                },
+                {
+                  "texto": "<center><i>Te veo después o nos vemos.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you tomorrow! (I)</center>"
+                },
+                {
+                  "texto": "<center><i>Hasta mañana.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Have a good day. (F)</center>"
+                },
+                {
+                  "texto": "<center><i>Que tengas un buen día.</i></center>"
+                }
+              ]
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "In this Unit...",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<center><b>In this Unit you have learned... / En esta unidad has aprendido...</b></center>"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "In this Unit you have learned how to use the personal pronouns and the verb to be in the affirmative, negative and question forms. Let’s remember it!",
+              "contenido": [                
+          
+                   {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": ""
+                },
+                {
+                  "titulo": "<center>AFFIRMATIVE</center>"
+                },
+                {
+                  "titulo": "<center>NEGATIVE</center>"
+                },
+                {
+                  "titulo": "<center>QUESTION</center>"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>I</center>"
+                    },
+                    {
+                      "texto": "<center>am ('m)</center>"
+                    },
+                    {
+                      "texto": "<center>am not ('m not)</center>"
+                    },
+                    {
+                      "texto": "<center>am I...?</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>are</center>"
+                    },
+                    {
+                      "texto": "<center>you</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>is</center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center>he</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>she</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>it</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>are</center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center>we</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>you</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>they</center>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              ]
+            },
+            {
+              "punto": "You have learned new adjectives to describe people and things. Remember: Adjectives in English are invariable, they don’t change depending on the gender or the number of the noun.",
+              "contenido": [
+
+              ]
+            },
+            {
+              "punto": "You can now introduce yourself using simple expressions and ask questions to know basic things about other people.",
+              "contenido": [
+
+              ]
+            }
+          ]
         }
       ]
     },
