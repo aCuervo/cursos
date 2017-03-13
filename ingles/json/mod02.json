@@ -8,11 +8,11 @@
       "subclase": "portada"
     },
     {
-      "titulo": "Los artículos (the/a/an)",
+      "titulo": "Articles (I)",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Mientras que en español tenemos distintas formas para el llamado artículo definido (el, la, lo, los, las), en inglés es mucho más sencillo ya que siempre se utliza el artículo THE.<br>“The” funciona como artículo definido delante de cualquier sustantivo independientemente de su género o número. Ejemplos:"
+          "texto": "<b>THE</b><br><br>Mientras que en español tenemos distintas formas para el llamado artículo definido (el, la, lo, los, las), en inglés es mucho más sencillo ya que siempre se utliza el artículo THE.<br>“The” funciona como artículo definido delante de cualquier sustantivo independientemente de su género o número. Ejemplos:"
         },
         {
           "clase": "listaObjetos",
@@ -159,7 +159,7 @@
             {
               "clase": "texto",
               "subclase": "recuadro",
-              "texto": "<b>COUNTRY</b> = PAÍS<br><br><b>COUNTRY</b> = CAMPO"
+              "texto": "<center><b>COUNTRY</b> = PAÍS<br><br><b>COUNTRY</b> = CAMPO</center>"
             }
           ]
         },
@@ -169,7 +169,7 @@
         },
         {
           "clase": "texto",
-          "texto": "Para referirnos a los artículos indefinidos, “un, una”, en inglés, utilizamos “a”. Veamos algún ejemplo.<br>"
+          "texto": "<b>A</b><br><br>Para referirnos a los artículos indefinidos, “un, una”, en inglés, utilizamos “a”. Veamos algún ejemplo.<br>"
         },
         {
           "clase": "tabla",
@@ -226,7 +226,7 @@
         },
         {
           "clase": "texto",
-          "texto": "Para las palabras que empiecen por vocal “a/ e/ i/ o/ u” en lugar de “a” utilizaremos “an”. Ejemplos:"
+          "texto": "<b>AN</b><br><br>Para las palabras que empiecen por vocal “a/ e/ i/ o/ u” en lugar de “a” utilizaremos “an”. Ejemplos:"
         },
         {
           "clase": "tabla",
@@ -292,34 +292,230 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Activity"
+          "subclase": "instruccion",
+          "texto": "Choose between “the”, “a”, “an” or “no article”"
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "______ new boy in my class is from Canada.",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "a",
+                  "correcto": false
+                },
+                {
+                  "opcion": "an",
+                  "correcto": false
+                },
+                {
+                  "opcion": "no article",
+                  "correcto": false
+                },
+                {
+                  "opcion": "the",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Do you want _____ glass of water?",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "no article",
+                  "correcto": false
+                },
+                {
+                  "opcion": "an",
+                  "correcto": false
+                },
+                {
+                  "opcion": "the",
+                  "correcto": false
+                },
+                {
+                  "opcion": "a",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Maria wears _____ uniform everyday because...",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "a",
+                  "correcto": false
+                },
+                {
+                  "opcion": "an",
+                  "correcto": false
+                },
+                {
+                  "opcion": "the",
+                  "correcto": false
+                },
+                {
+                  "opcion": "no article",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "...she is _____ police officer.",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "a",
+                  "correcto": true
+                },
+                {
+                  "opcion": "an",
+                  "correcto": false
+                },
+                {
+                  "opcion": "an",
+                  "correcto": false
+                },
+                {
+                  "opcion": "no article",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "I want to watch ________ new Harry Potter film...",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "a",
+                  "correcto": false
+                },
+                {
+                  "opcion": "an",
+                  "correcto": false
+                },
+                {
+                  "opcion": "no article",
+                  "correcto": false
+                },
+                {
+                  "opcion": "the",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "...at ______ cinema.",
+              "id": "6",
+              "respuestas": [
+                {
+                  "opcion": "a",
+                  "correcto": false
+                },
+                {
+                  "opcion": "an",
+                  "correcto": false
+                },
+                {
+                  "opcion": "the",
+                  "correcto": false
+                },
+                {
+                  "opcion": "no article",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "For _______ breakfast...",
+              "id": "7",
+              "respuestas": [
+                {
+                  "opcion": "a",
+                  "correcto": false
+                },
+                {
+                  "opcion": "an",
+                  "correcto": false
+                },
+                {
+                  "opcion": "the",
+                  "correcto": false
+                },
+                {
+                  "opcion": "no article",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "...I have ____ omelette.",
+              "id": "8",
+              "respuestas": [
+                {
+                  "opcion": "a",
+                  "correcto": false
+                },
+                {
+                  "opcion": "an",
+                  "correcto": true
+                },
+                {
+                  "opcion": "the",
+                  "correcto": false
+                },
+                {
+                  "opcion": "no article",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "titulo": "Exceptions",
+      "titulo": "Plurals",
       "contenido": [
         {
-          "clase": "lista",
-          "titulo": "En algunos casos, cuando los nombres acaban en “-s”, “-sh”, “-ch”, “-x” en vez de añadir solo “-s” añadiremos “-es” al formar el plural.",
-          "contenido": [
-            {
-              "punto": "Bus - buses"
-            },
-            {
-              "punto": "Crash - crashes"
-            },
-            {
-              "punto": "watch - wathcess"
-            },
-            {
-              "punto": "Fox - foxes"
-            }
-          ]
+          "clase": "texto",
+          "texto": "El plural en inglés se crea generalmente añadiendo  -s al final de las palabras:<br><br>Calendar <i>(Calendario)</i> -> Calendars<br>Cup <i>(Taza)</i> -> Cups<br>Notebook <i>(Libreta)</i> -> Notebooks"
         },
         {
-          "clase": "texto",
-          "texto": "Cuando la palabra termina en “-y” añadiremos”-ies”: baby – babies / strawberry – strawberries En cambio, si la palabra termina en “-ay”, “-ey”, “-oy” forman su plural añadiendo solo “-s” siguiendo la regla general: Boy – boys / day – days/ monkey – monkeys<br><br>Cuando termina en “-f” “-fe” se tranforma  en “-ves”: wife – wifes / shelf – shelves / knife – knives<br><br>Existe una serie de plurales irregulares que no sigue ninguna regla particular para formarse y que tendremos que aprendernos, son los siguientes:"
+          "clase": "lista",
+          "titulo": "<b>Exceptions</b>",
+          "contenido": [
+            {
+              "punto": "En algunos casos, cuando los nombres acaban en “-s”, “-sh”, “-ch”, “-x” en vez de añadir solo “-s” añadiremos “-es” al formar el plural.",
+              "contenido": [
+                {
+                  "punto": "Bus - buses"
+                },
+                {
+                  "punto": "Crash - crashes"
+                },
+                {
+                  "punto": "watch - watches"
+                },
+                {
+                  "punto": "Fox - foxes"
+                }
+              ]
+            },
+            {
+              "punto": "Cuando la palabra termina en “-y” añadiremos”-ies”: baby – babies / strawberry – strawberries. En cambio, si la palabra termina en “-ay”, “-ey”, “-oy” forman su plural añadiendo solo “-s” siguiendo la regla general: Boy – boys / day – days/ monkey – monkeys."
+            },
+            {
+              "punto": "Cuando termina en “-f” “-fe” se tranforma  en “-ves”: wife – wifes / shelf – shelves / knife – knives."
+            },
+            {
+              "punto": "Existe una serie de plurales irregulares que no sigue ninguna regla particular para formarse y que tendremos que aprendernos, son los siguientes:"
+            }
+          ]
         },
         {
           "clase": "tabla",
@@ -459,8 +655,9 @@
           "texto": "(*) También puede significar “pez”, en ese caso su plural puede ser “fishes”."
         },
         {
-          "clase": "texto",
-          "texto": "Hay algunas palabras en inglés que siempre van en plural y por tanto debemos recordar que hay que conjugarlas como tal! Ejemplo:<br>trousers (pantalones)<br>jeans (vaqueros)<br>glasses (gafas)<br>scissors (tijeras)"
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "Algunas palabras en inglés siempre van en plural y debemos recordar conjugarlas como tal:<br><center>trousers <i>(pantalones)</i><br>jeans <i>(vaqueros)</i><br>glasses <i>(gafas)</i><br>scissors <i>(tijeras)</i></center>"
         }
       ]
     },
@@ -469,23 +666,99 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Activity"
+          "subclase": "instruccion",
+          "texto": "Choose the right form of the plural."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "Cat",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "Cates",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Cats",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Box",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "Boxes",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Box",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Child",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "Children",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Childs",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Book",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "Books",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Bookes",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Galaxy",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "Galaxys",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Galaxies",
+                  "correcto": true
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "titulo": "Articles II",
+      "titulo": "Articles (II)",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Hemos visto que “a/an” se utiliza para nombres contables e individuales. Por ejemplo: a car/  an idea/ a star/ a table (un coche, una idea, una estrella, una mesa).<br>Pero, ¿qué ocurre cuando queremos referirnos a más de una persona o más de una cosa? Si estamos refiriéndonos a cosas contables podemos referirnos a ellas con un número:<br>A man - four men<br>A child – two children<br><br>Pero, ¿qué ocurre cuando queremos referirnos a “unos o unas” sin especficiar un número? ¿Y qué pasa cuando utilizamos nombres incontables como pueden ser el agua o la sal? Pues para todo esto utilizaremos el pronombre “some”. Vamos a ver algunos ejemplos que nos ayudarán a comprenderlo mejor.<br><br>Para nombres contables podemos designar el plural utilizando, o bien un número determinado como vimos antes, o some pe “some cars”, “some books” (unos coches, unos libros).<br>Para los nombres incontables, tenemos que utilizar siempre “some”, ya que en inglés no podemos decir “a water”, “a money” o “two musics”. Lo correcto es utilizar “some water” (algo de agua), “some money” (algo de dinero), “some music” (algo de música)."
+          "texto": "Hemos visto que “a/an” se utiliza para nombres contables e individuales. Por ejemplo: a car /  an idea / a star / a table (un coche, una idea, una estrella, una mesa).<br><br>Pero, ¿qué ocurre cuando queremos referirnos a más de una persona o más de una cosa? Si estamos refiriéndonos a cosas contables podemos referirnos a ellas con un número:<br><center>A man - four men<br>A child – two children</center><br><br>¿Y cuando queremos referirnos a “unos o unas” sin especficiar un número? ¿qué pasa cuando utilizamos nombres incontables como pueden ser el agua o la sal? Para todo esto utilizaremos el pronombre “some”. Veamos algunos ejemplos para comprenderlo mejor.<br><br>Para <b>nombres contables</b> podemos designar el plural utilizando, bien <b>un número determinado</b> como vimos antes, <b>o “some”</b>: “some cars”, “some books” (unos coches, unos libros).<br>Para los <b>nombres incontables</b> tenemos que utilizar <b>siempre “some”</b>, ya que en inglés no podemos decir “a water”, “a money” o “two musics”. Lo correcto es utilizar “some water” (algo de agua), “some money” (algo de dinero), “some music” (algo de música)."
         },
         {
           "clase": "acordeon",
           "contenido": [
             {
-              "titulo": "Ejemplos",
-              "texto": "I need some money to buy a new car. – Necesito algo de dinero para comprar un coche nuevo.<br>For lunch I usually have some pasta. – Para comer suelo tomar algo de pasta.<br>She drinks some wine. – Ella bebe algo de vino."
+              "titulo": "Examples",
+              "texto": "-I need some money to buy a new car.<br>–<i>Necesito algo de dinero para comprar un coche nuevo.</i><br><br>-For lunch I usually have some pasta.<br>–<i>Para comer suelo tomar algo de pasta.</i><br><br>-She drinks some wine.<br>–<i>Ella bebe algo de vino.</i>"
             }
           ]
         },
@@ -509,10 +782,10 @@
                   "texto": "COUNTABLE"
                 },
                 {
-                  "texto": "A"
+                  "texto": "<center>A</center>"
                 },
                 {
-                  "texto": "NUMBER / SOME"
+                  "texto": "<center>NUMBER / SOME</center>"
                 }
               ]
             },
@@ -522,10 +795,10 @@
                   "texto": "UNCOUNTABLE"
                 },
                 {
-                  "texto": "SOME"
+                  "texto": "<center>SOME</center>"
                 },
                 {
-                  "texto": "SOME"
+                  "texto": "<center>SOME</center>"
                 }
               ]
             }
@@ -534,16 +807,181 @@
         {
           "clase": "icono",
           "subclase": "exclamacion",
-          "texto": "En español es muy común decir “un agua”, mientras que en inglés siempre que nos refiramos a algún líquido o sustancia tendremos que acompañarlo de una medida:<br><center>A glass of water. / Un vaso de agua.<br>A bottle of milk. / Una botella de leche.<br>A piece of wood. / Un trozo de madera.</center>"
+          "texto": "En español es muy común decir “un agua”, mientras que en inglés siempre que nos refiramos a algún líquido o sustancia tendremos que acompañarlo de una medida:<br><center>A glass of water. <i>(Un vaso de agua.)</i><br>A bottle of milk. <i>(Una botella de leche.)</i><br>A piece of wood. <i>(Un trozo de madera.)</i></center>"
         }
       ]
+    },
+    {
+      "titulo": "(Un)Countables",
+      "fondo": "img/mod02/uncountable.jpg",
+      "subclase": "portada"
     },
     {
       "titulo": "Activity",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Activity"
+          "subclase": "instruccion",
+          "texto": "Choose the right option."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "Do you have ________ milk?",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "a",
+                  "correcto": false
+                },
+                {
+                  "opcion": "an",
+                  "correcto": false
+                },
+                {
+                  "opcion": "the",
+                  "correcto": false
+                },
+                {
+                  "opcion": "some",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "I want ________ orange.",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "a",
+                  "correcto": false
+                },
+                {
+                  "opcion": "an",
+                  "correcto": true
+                },
+                {
+                  "opcion": "the",
+                  "correcto": false
+                },
+                {
+                  "opcion": "some",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Do you want ________ orange juice?",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "a",
+                  "correcto": false
+                },
+                {
+                  "opcion": "an",
+                  "correcto": false
+                },
+                {
+                  "opcion": "the",
+                  "correcto": false
+                },
+                {
+                  "opcion": "some",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "“Treasure Island” is _________ excellent book.",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "a",
+                  "correcto": false
+                },
+                {
+                  "opcion": "an",
+                  "correcto": true
+                },
+                {
+                  "opcion": "the",
+                  "correcto": false
+                },
+                {
+                  "opcion": "some",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Lucia is _______ teacher in this class.",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "a",
+                  "correcto": false
+                },
+                {
+                  "opcion": "an",
+                  "correcto": false
+                },
+                {
+                  "opcion": "the",
+                  "correcto": true
+                },
+                {
+                  "opcion": "some",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Pablo has _______ egg for lunch.",
+              "id": "6",
+              "respuestas": [
+                {
+                  "opcion": "a",
+                  "correcto": false
+                },
+                {
+                  "opcion": "an",
+                  "correcto": true
+                },
+                {
+                  "opcion": "the",
+                  "correcto": false
+                },
+                {
+                  "opcion": "some",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Can I have _________ water, please?",
+              "id": "7",
+              "respuestas": [
+                {
+                  "opcion": "a",
+                  "correcto": false
+                },
+                {
+                  "opcion": "an",
+                  "correcto": false
+                },
+                {
+                  "opcion": "the",
+                  "correcto": false
+                },
+                {
+                  "opcion": "some",
+                  "correcto": true
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -552,13 +990,13 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "En esta unidad aprenderemos como se dicen y escriben los números en inglés.<br>Simplemente pon atención ya que son muy sencillos."
+          "texto": "En esta unidad aprenderemos como se dicen y escriben los números en inglés.<br>Usan un sistema similar al nuestro y después de la primera docena verás que resulta sencillo."
         },
         {
           "clase": "acordeon",
           "contenido": [
             {
-              "titulo": "0-9",
+              "titulo": "0-9: Units",
               "contenido": [
                 {
                   "clase": "tabla",
@@ -679,7 +1117,7 @@
           "clase": "acordeon",
           "contenido": [
             {
-              "titulo": "10-19",
+              "titulo": "10-19: Teens",
               "contenido": [
                 {
                   "clase": "tabla",
@@ -800,7 +1238,7 @@
           "clase": "acordeon",
           "contenido": [
             {
-              "titulo": "20-29",
+              "titulo": "20-29: Twenties",
               "contenido": [
                 {
                   "clase": "tabla",
@@ -921,7 +1359,7 @@
           "clase": "acordeon",
           "contenido": [
             {
-              "titulo": "30-39",
+              "titulo": "30-39: Thirties",
               "contenido": [
                 {
                   "clase": "tabla",
@@ -1042,7 +1480,7 @@
           "clase": "acordeon",
           "contenido": [
             {
-              "titulo": "40-49",
+              "titulo": "40-49: Forties",
               "contenido": [
                 {
                   "clase": "tabla",
@@ -1163,7 +1601,7 @@
           "clase": "acordeon",
           "contenido": [
             {
-              "titulo": "50-59",
+              "titulo": "50-59: Fifties",
               "contenido": [
                 {
                   "clase": "tabla",
@@ -1284,7 +1722,7 @@
           "clase": "acordeon",
           "contenido": [
             {
-              "titulo": "60-69",
+              "titulo": "60-69: Sixties",
               "contenido": [
                 {
                   "clase": "tabla",
@@ -1405,7 +1843,7 @@
           "clase": "acordeon",
           "contenido": [
             {
-              "titulo": "70-79",
+              "titulo": "70-79: Seventies",
               "contenido": [
                 {
                   "clase": "tabla",
@@ -1526,7 +1964,7 @@
           "clase": "acordeon",
           "contenido": [
             {
-              "titulo": "80-89",
+              "titulo": "80-89: Eighties",
               "contenido": [
                 {
                   "clase": "tabla",
@@ -1647,7 +2085,7 @@
           "clase": "acordeon",
           "contenido": [
             {
-              "titulo": "90-99",
+              "titulo": "90-99: Nineties",
               "contenido": [
                 {
                   "clase": "tabla",
@@ -1766,13 +2204,13 @@
         },
         {
           "clase": "lista",
-          "titulo": "FÍJATE!",
+          "titulo": "<b>RECUERDA QUE...</b>",
           "contenido": [
             {
               "punto": "En inglés británico 0 es ‘zero’ pero cuando nos referimos a un 0 en un número de teléfono diremos ‘o’ (‘ou’). Ejemplo: 665-023 ‘double six five o two three’"
             },
             {
-              "punto": "No confundas al escribir y al pronunciar “-teen” (/ti:n) de (11 a 19) con “-ty”(el resto de decenas)."
+              "punto": "No confundas al escribir y al pronunciar “-teen” (/ti:n/) de (11 a 19) con “-ty”(el resto de decenas)."
             },
             {
               "punto": "Recuerda que del 20 al 99 todos los números escriben con un guión (twenty-one, seventy-four…)."
@@ -1796,7 +2234,7 @@
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "texto": "En tenis cero se dice ‘love’. Ejemplo: 6-0 six-love.<br>Por otra parte, en fútbol se dice ‘nil’. Ejemplo: 3-0 three-nil."
+          "texto": "<b>¿Sabías que...</b><br>En <b>tenis</b> cero se dice <b>love</b>:<br>6-0 = six-love.<br>En cambio en <b>fútbol</b> se dice <b>nil</b>:<br>3-0 = three-nil."
         }
       ]
     },
@@ -1805,7 +2243,83 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Activity"
+          "subclase": "instruccion",
+          "texto": "Choose the right answer."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "Fifteen:",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "50",
+                  "correcto": false
+                },
+                {
+                  "opcion": "15",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "33:",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "Thirty-three",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Thirtythree",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Eighty:",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "80",
+                  "correcto": true
+                },
+                {
+                  "opcion": "88",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "12:",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "Ten-two",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Twelve",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "97:",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "Ninteen-seven",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Ninety-seven",
+                  "correcto": true
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1953,7 +2467,83 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Activity"
+          "subclase": "instruccion",
+          "texto": "Choose the correct option."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "The supermarket ________ at 9 o’clock.",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "open",
+                  "correcto": false
+                },
+                {
+                  "opcion": "opens",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "They _________ English and Spanish.",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "speak",
+                  "correcto": true
+                },
+                {
+                  "opcion": "speaks",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "People usually ______ to the cinema on Sunday.",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "go",
+                  "correcto": true
+                },
+                {
+                  "opcion": "goes",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Water ________ at 0 degrees Celsius.",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "freezes",
+                  "correcto": true
+                },
+                {
+                  "opcion": "freeze",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "She _______ a lot of friends.",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "haves",
+                  "correcto": false
+                },
+                {
+                  "opcion": "has",
+                  "correcto": true
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2094,7 +2684,123 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Activity"
+          "subclase": "instruccion",
+          "texto": "Choose between the affirmative and the negative way."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "Chris __________ three languages: English, French and Spanish.",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "speak",
+                  "correcto": false
+                },
+                {
+                  "opcion": "speaks",
+                  "correcto": true
+                },
+                {
+                  "opcion": "don't speak",
+                  "correcto": false
+                },
+                {
+                  "opcion": "doesn't speak",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "I _________ my job. It’s very boring.",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "like",
+                  "correcto": false
+                },
+                {
+                  "opcion": "likes",
+                  "correcto": false
+                },
+                {
+                  "opcion": "dont't like",
+                  "correcto": true
+                },
+                {
+                  "opcion": "doesn't like",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "James is very shy. He _________ very much.",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "talk",
+                  "correcto": false
+                },
+                {
+                  "opcion": "talks",
+                  "correcto": false
+                },
+                {
+                  "opcion": "don't talk",
+                  "correcto": false
+                },
+                {
+                  "opcion": "doesn't talk",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Your house is beautiful! I ______ it.",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "love",
+                  "correcto": true
+                },
+                {
+                  "opcion": "loves",
+                  "correcto": false
+                },
+                {
+                  "opcion": "don't love",
+                  "correcto": false
+                },
+                {
+                  "opcion": "doesn't love",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Kate is a vegetarian. She _________ meat.",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "eat",
+                  "correcto": false
+                },
+                {
+                  "opcion": "eats",
+                  "correcto": false
+                },
+                {
+                  "opcion": "don't eat",
+                  "correcto": false
+                },
+                {
+                  "opcion": "doesn't eat",
+                  "correcto": true
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2534,12 +3240,128 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Activity"
+          "subclase": "instruccion",
+          "texto": "Complete the question with the correct question word."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "-... brothers or sisters do you have?<br>-I don't have any brothers or sisters.",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "How",
+                  "correcto": false
+                },
+                {
+                  "opcion": "How many",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Where",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Why",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "-... are you today?<br>-I am fine, thank you.",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "How",
+                  "correcto": true
+                },
+                {
+                  "opcion": "What",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Why",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Who",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "-... is your favourite meal?<br>-I love spaghetti and meatballs.",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "What",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Who",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Where",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Why",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "-... is your phone number?<br>-It’s 683-911-72.",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "Who",
+                  "correcto": false
+                },
+                {
+                  "opcion": "What",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Where",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Why",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "-... is your birthday?<br>-It is in July.",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "How",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Who",
+                  "correcto": false
+                },
+                {
+                  "opcion": "When",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Where",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "titulo": "WHAT TIME IS IT?",
+      "titulo": "What time is it?",
       "contenido": [
         {
           "clase": "texto",
@@ -2731,23 +3553,20 @@
             },
             {
               "punto": "<i>The flight leaves at quarter past two.</i><br>(El vuelo sale a las dos y cuarto.)"
-            },
-            {
-              "punto": "<i>Could you tell me the time, please?</i><br>(¿Podría darme la hora, por favor?)"
             }
           ]
         }
       ]
     },
     {
-      "titulo": "In this unit...",
+      "titulo": "Summary",
       "contenido": [
         {
           "clase": "listaObjetos",
           "contenido": [
             {
               "clase": "texto",
-              "texto": "In this Unit you have learned how to use the definite and indefinite articles ‘the/ a/ an’ and ‘some’."
+              "texto": "<b>ARTICLES</b><br>In this Unit you have learned how to use the definite and indefinite articles ‘the/a/an’ and ‘some’."
             },
             {
               "clase": "tabla",
@@ -2772,7 +3591,7 @@
                       "texto": "table (specific)"
                     },
                     {
-                      "texto": "milk"
+                      "texto": "<center>milk</center>"
                     }
                   ]
                 },
@@ -2798,7 +3617,7 @@
                       "texto": "tables (plural)"
                     },
                     {
-                      "texto": "milk"
+                      "texto": "<center>milk</center>"
                     }
                   ]
                 }
@@ -2811,7 +3630,7 @@
           "contenido": [
             {
               "clase": "texto",
-              "texto": "You have learned how to create the plural of different words: adding just an ‘-s’, adding ‘-es’, transforming ‘y’ into ‘-ies’ and ‘f/ fe’ into ‘-ves’.<br><br>Plus a list of irregular plurals that you have to learn."
+              "texto": "<b>PLURALS</b><br>You have learned how to create the plural of different words: adding just an ‘-s’, adding ‘-es’, transforming ‘y’ into ‘-ies’ and ‘f/ fe’ into ‘-ves’.<br><br>Plus a list of irregular plurals that you have to learn."
             },
             {
               "clase": "lista",
@@ -2834,11 +3653,11 @@
         },
         {
           "clase": "texto",
-          "texto": "Now you know how to count from 1 to 99 and how to the spell these numbers. We suggest you to have a look again at the list of numbers."
+          "texto": "<b>NUMBERS</b><br>Now you know how to count from 1 to 99 and how to the spell these numbers. We suggest you to have a look again at the list of numbers."
         },
-                {
+        {
           "clase": "texto",
-          "texto": "You know how to use the simple present in the affirmative, negative and question forms. You know how to spell the third person singular and how to create questions with different question words. Let’s have a look at it again!"
+          "texto": "<b>QUESTIONS</b><br>You know how to use the simple present in the affirmative, negative and question forms. You know how to spell the third person singular and how to create questions with different question words. Let’s have a look at it again!"
         },
         {
           "clase": "listaObjetos",
@@ -2906,7 +3725,7 @@
                       "rowspan": 3
                     },
                     {
-                      "texto": "does he/she/it like?",
+                      "texto": "does he /she/it like?",
                       "rowspan": 3
                     }
                   ]
@@ -2983,57 +3802,19 @@
                 {
                   "fila": [
                     {
-                      "texto": ""
-                    },
-                    {
-                      "texto": "Do"
-                    },
-                    {
-                      "texto": "you"
-                    },
-                    {
-                      "texto": "like"
-                    },
-                    {
-                      "texto": "sushi?"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": ""
-                    },
-                    {
-                      "texto": "Does"
-                    },
-                    {
-                      "texto": "Michael"
-                    },
-                    {
-                      "texto": "play"
-                    },
-                    {
-                      "texto": "the piano?"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
                       "texto": "Where"
                     },
                     {
-                      "texto": "do"
+                      "texto": "does"
                     },
                     {
-                      "texto": "your parents"
+                      "texto": "he"
                     },
                     {
-                      "texto": "live?"
+                      "texto": "buy"
                     },
                     {
-                      "texto": ""
+                      "texto": "this wine?"
                     }
                   ]
                 },
@@ -3043,35 +3824,16 @@
                       "texto": "What"
                     },
                     {
-                      "texto": "does"
-                    },
-                    {
-                      "texto": "it"
-                    },
-                    {
-                      "texto": "mean?"
-                    },
-                    {
-                      "texto": ""
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Why"
-                    },
-                    {
                       "texto": "do"
                     },
                     {
-                      "texto": "they"
+                      "texto": "you"
                     },
                     {
-                      "texto": "do"
+                      "texto": "like"
                     },
                     {
-                      "texto": "that thing?"
+                      "texto": "for breakfast?"
                     }
                   ]
                 }
@@ -3079,142 +3841,516 @@
             }
           ]
         },
-                    {
-              "clase": "texto",
-              "texto": "You also learned how to ask for and tell the time:"
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod02/reloj.jpg"
-            }
-      ]
-},
-
-
-
-
-
-    {
-      "titulo": "Autoevaluación",
-      "contenido": [
         {
           "clase": "texto",
-          "animacion": "swing",
-          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+          "texto": "<b>THE TIME</b><br>"
         },
         {
-          "clase": "texto",
-          "animacion": "flash",
-          "subclase": "instruccion",
-          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
-        },
-        {
-          "clase": "autoevalPreguntas",
-          "animacion": "bounceInUp",
-          "preguntas": [
+          "clase": "acordeon",
+          "contenido": [
             {
-              "texto": "",
-              "respuestas": [
+              "titulo": "You also learned how to ask for and tell the time.",
+              "contenido": [
                 {
-                  "opcion": "",
-                  "correcto": ""
+                  "clase": "texto",
+                  "texto": "<i>También aprendiste cómo preguntar y decir la hora.</i>"
                 },
                 {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                }
-              ]
-            },
-            {
-              "texto": "",
-              "respuestas": [
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                }
-              ]
-            },
-            {
-              "texto": "",
-              "respuestas": [
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                }
-              ]
-            },
-            {
-              "texto": "",
-              "respuestas": [
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                }
-              ]
-            },
-            {
-              "texto": "",
-              "respuestas": [
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                }
-              ]
-            },
-            {
-              "texto": "",
-              "respuestas": [
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
+                  "clase": "imagen",
+                  "imagen": "img/mod02/reloj.jpg"
                 }
               ]
             }
           ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>NEW VOCABULARY</b><br>"
+        },
+        {
+          "clase": "acordeon",
+          "contenido": [
+            {
+              "titulo": "And here you have a list of new vocabulary from this Unit.",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "<i>Y aquí tienes una lista del nuevo vocabulario de esta Unidad.</i>"
+                },
+
+                {
+                  "clase": "listaObjetos",
+                  "contenido": [
+                    {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "ENGLISH"
+                        },
+                        {
+                          "titulo": "SPANISH"
+                        },
+                        {
+                          "titulo": "PRONUNCIATION"
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "birthday"
+                            },
+                            {
+                              "texto": "cumpleaños"
+                            },
+                            {
+                              "texto": "/ˈbɜːθdeɪ/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "blue"
+                            },
+                            {
+                              "texto": "azul"
+                            },
+                            {
+                              "texto": "/bluː/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "book"
+                            },
+                            {
+                              "texto": "libro"
+                            },
+                            {
+                              "texto": "/bʊk/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "bottle"
+                            },
+                            {
+                              "texto": "botella"
+                            },
+                            {
+                              "texto": "/ˈbɒtl/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "breakfast"
+                            },
+                            {
+                              "texto": "desayuno"
+                            },
+                            {
+                              "texto": "/ˈbrɛkfəst/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "bright"
+                            },
+                            {
+                              "texto": "brillante"
+                            },
+                            {
+                              "texto": "/braɪt/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "businessman / businesswoman"
+                            },
+                            {
+                              "texto": "empresario/a"
+                            },
+                            {
+                              "texto": "/ˈbɪznɪsmən / ˈbɪznɪswʊmən/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "cinema"
+                            },
+                            {
+                              "texto": "cine"
+                            },
+                            {
+                              "texto": "/ˈsɪnəmə/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "computer"
+                            },
+                            {
+                              "texto": "ordenador"
+                            },
+                            {
+                              "texto": "/kəmˈpjuːtə/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "country"
+                            },
+                            {
+                              "texto": "país / campo"
+                            },
+                            {
+                              "texto": "/ˈkʌntri/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "dinner"
+                            },
+                            {
+                              "texto": "cena"
+                            },
+                            {
+                              "texto": "/ˈdɪnə/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "freeze"
+                            },
+                            {
+                              "texto": "congelar(se)"
+                            },
+                            {
+                              "texto": "/friːz/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "glass"
+                            },
+                            {
+                              "texto": "vaso"
+                            },
+                            {
+                              "texto": "/glɑːs/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "glasses"
+                            },
+                            {
+                              "texto": "gafas"
+                            },
+                            {
+                              "texto": "/ˈglɑːsɪz/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "house"
+                            },
+                            {
+                              "texto": "casa"
+                            },
+                            {
+                              "texto": "/haʊs/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "jeans"
+                            },
+                            {
+                              "texto": "pantalones vaqueros"
+                            },
+                            {
+                              "texto": "/ʤiːnz/"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "ENGLISH"
+                        },
+                        {
+                          "titulo": "SPANISH"
+                        },
+                        {
+                          "titulo": "PRONUNCIATION"
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "job"
+                            },
+                            {
+                              "texto": "trabajo (nombre)"
+                            },
+                            {
+                              "texto": "/ʤɒb/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "lunch"
+                            },
+                            {
+                              "texto": "almuerzo"
+                            },
+                            {
+                              "texto": "/lʌnʧ/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "meal"
+                            },
+                            {
+                              "texto": "comida"
+                            },
+                            {
+                              "texto": "/miːl/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "meat"
+                            },
+                            {
+                              "texto": "carne"
+                            },
+                            {
+                              "texto": "/miːt/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "money"
+                            },
+                            {
+                              "texto": "dinero"
+                            },
+                            {
+                              "texto": "/ˈmʌni/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "nurse"
+                            },
+                            {
+                              "texto": "enfermera"
+                            },
+                            {
+                              "texto": "/nɜːs/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "omelette"
+                            },
+                            {
+                              "texto": "tortilla"
+                            },
+                            {
+                              "texto": "/ˈɒmlɪt/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "onion"
+                            },
+                            {
+                              "texto": "cebolla"
+                            },
+                            {
+                              "texto": "/ˈʌnjən/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "pilot"
+                            },
+                            {
+                              "texto": "piloto"
+                            },
+                            {
+                              "texto": "/ˈpaɪlət/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "scissors"
+                            },
+                            {
+                              "texto": "tijeras"
+                            },
+                            {
+                              "texto": "/ˈsɪzəz/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "sky"
+                            },
+                            {
+                              "texto": "cielo"
+                            },
+                            {
+                              "texto": "/skaɪ/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "speak"
+                            },
+                            {
+                              "texto": "hablar"
+                            },
+                            {
+                              "texto": "/spiːk/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "sun"
+                            },
+                            {
+                              "texto": "sol"
+                            },
+                            {
+                              "texto": "/sʌn/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "supermarket"
+                            },
+                            {
+                              "texto": "supermercado"
+                            },
+                            {
+                              "texto": "/ˈsjuːpəˌmɑːkɪt/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "trousers"
+                            },
+                            {
+                              "texto": "pantalones"
+                            },
+                            {
+                              "texto": "/ˈtraʊzəz/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "umbrella"
+                            },
+                            {
+                              "texto": "paraguas"
+                            },
+                            {
+                              "texto": "/ʌmˈbrɛlə/"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "work"
+                            },
+                            {
+                              "texto": "trabajar"
+                            },
+                            {
+                              "texto": "/wɜːk/"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/londonLast2.png"
         }
       ]
     },
@@ -3238,7 +4374,7 @@
       ]
     },
     {
-      "titulo": "¡Hasta luego!",
+      "titulo": "Contraportada",
       "fondo": "img/comunes/contraportada.svg",
       "subclase": "portada"
     }
