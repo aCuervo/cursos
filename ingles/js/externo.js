@@ -22,6 +22,104 @@
             "js/asAccordion/jquery-asAccordion.min.js"
         ]);
             break;
+        case "mod02": arrayFinal = arrayComun.concat([
+            "js/jointJS/lodash.min.js",
+            "js/jointJS/backbone-min.js",
+            "js/jointJS/joint.min.js",
+            "js/bootstrap/bootstrap.min.js",
+            "js/flexSlider/jquery.flexslider-min.js",
+            "js/slideshow/pgwslideshow.min.js",
+            "js/snapsvg/snap.svg-min.js",
+            "js/crossword/oy.js",
+            "js/wordsearch/wordfind.js",
+            "js/wordsearch/wordfindgame.js",
+            "js/asAccordion/jquery-asAccordion.min.js"
+        ]);
+            break;
+        case "mod03": arrayFinal = arrayComun.concat([
+            "js/jointJS/lodash.min.js",
+            "js/jointJS/backbone-min.js",
+            "js/jointJS/joint.min.js",
+            "js/bootstrap/bootstrap.min.js",
+            "js/flexSlider/jquery.flexslider-min.js",
+            "js/slideshow/pgwslideshow.min.js",
+            "js/snapsvg/snap.svg-min.js",
+            "js/crossword/oy.js",
+            "js/wordsearch/wordfind.js",
+            "js/wordsearch/wordfindgame.js",
+            "js/asAccordion/jquery-asAccordion.min.js"
+        ]);
+            break;
+        case "mod04": arrayFinal = arrayComun.concat([
+            "js/jointJS/lodash.min.js",
+            "js/jointJS/backbone-min.js",
+            "js/jointJS/joint.min.js",
+            "js/bootstrap/bootstrap.min.js",
+            "js/flexSlider/jquery.flexslider-min.js",
+            "js/slideshow/pgwslideshow.min.js",
+            "js/snapsvg/snap.svg-min.js",
+            "js/crossword/oy.js",
+            "js/wordsearch/wordfind.js",
+            "js/wordsearch/wordfindgame.js",
+            "js/asAccordion/jquery-asAccordion.min.js"
+        ]);
+            break;
+        case "mod05": arrayFinal = arrayComun.concat([
+            "js/jointJS/lodash.min.js",
+            "js/jointJS/backbone-min.js",
+            "js/jointJS/joint.min.js",
+            "js/bootstrap/bootstrap.min.js",
+            "js/flexSlider/jquery.flexslider-min.js",
+            "js/slideshow/pgwslideshow.min.js",
+            "js/snapsvg/snap.svg-min.js",
+            "js/crossword/oy.js",
+            "js/wordsearch/wordfind.js",
+            "js/wordsearch/wordfindgame.js",
+            "js/asAccordion/jquery-asAccordion.min.js"
+        ]);
+            break;
+        case "mod06": arrayFinal = arrayComun.concat([
+            "js/jointJS/lodash.min.js",
+            "js/jointJS/backbone-min.js",
+            "js/jointJS/joint.min.js",
+            "js/bootstrap/bootstrap.min.js",
+            "js/flexSlider/jquery.flexslider-min.js",
+            "js/slideshow/pgwslideshow.min.js",
+            "js/snapsvg/snap.svg-min.js",
+            "js/crossword/oy.js",
+            "js/wordsearch/wordfind.js",
+            "js/wordsearch/wordfindgame.js",
+            "js/asAccordion/jquery-asAccordion.min.js"
+        ]);
+            break;
+        case "mod07": arrayFinal = arrayComun.concat([
+            "js/jointJS/lodash.min.js",
+            "js/jointJS/backbone-min.js",
+            "js/jointJS/joint.min.js",
+            "js/bootstrap/bootstrap.min.js",
+            "js/flexSlider/jquery.flexslider-min.js",
+            "js/slideshow/pgwslideshow.min.js",
+            "js/snapsvg/snap.svg-min.js",
+            "js/crossword/oy.js",
+            "js/wordsearch/wordfind.js",
+            "js/wordsearch/wordfindgame.js",
+            "js/asAccordion/jquery-asAccordion.min.js"
+        ]);
+            break;
+        case "mod08": arrayFinal = arrayComun.concat([
+            "js/jointJS/lodash.min.js",
+            "js/jointJS/backbone-min.js",
+            "js/jointJS/joint.min.js",
+            "js/bootstrap/bootstrap.min.js",
+            "js/flexSlider/jquery.flexslider-min.js",
+            "js/slideshow/pgwslideshow.min.js",
+            "js/snapsvg/snap.svg-min.js",
+            "js/crossword/oy.js",
+            "js/wordsearch/wordfind.js",
+            "js/wordsearch/wordfindgame.js",
+            "js/asAccordion/jquery-asAccordion.min.js"
+        ]);
+            break;
         default: arrayFinal = arrayComun;
     }
     return arrayFinal;
@@ -45,6 +143,76 @@ function getArrayCSS(modulo) {
         case "mod01": arrayFinal = arrayComun.concat([
             "css/jointJS/joint.min.css",
 			"css/bootstrap/bootstrap.min.css",
+            "css/flexSlider/flexslider.css",
+            "css/slideshow/pgwslideshow.min.css",
+            "css/crossword/base.css",
+            "css/wordsearch/style.css",
+            "css/asAccordion/asAccordion.min.css"
+        ]);
+            break;
+        case "mod02": arrayFinal = arrayComun.concat([
+            "css/jointJS/joint.min.css",
+            "css/bootstrap/bootstrap.min.css",
+            "css/flexSlider/flexslider.css",
+            "css/slideshow/pgwslideshow.min.css",
+            "css/crossword/base.css",
+            "css/wordsearch/style.css",
+            "css/asAccordion/asAccordion.min.css"
+        ]);
+            break;
+        case "mod03": arrayFinal = arrayComun.concat([
+            "css/jointJS/joint.min.css",
+            "css/bootstrap/bootstrap.min.css",
+            "css/flexSlider/flexslider.css",
+            "css/slideshow/pgwslideshow.min.css",
+            "css/crossword/base.css",
+            "css/wordsearch/style.css",
+            "css/asAccordion/asAccordion.min.css"
+        ]);
+            break;
+        case "mod04": arrayFinal = arrayComun.concat([
+            "css/jointJS/joint.min.css",
+            "css/bootstrap/bootstrap.min.css",
+            "css/flexSlider/flexslider.css",
+            "css/slideshow/pgwslideshow.min.css",
+            "css/crossword/base.css",
+            "css/wordsearch/style.css",
+            "css/asAccordion/asAccordion.min.css"
+        ]);
+            break;
+        case "mod05": arrayFinal = arrayComun.concat([
+            "css/jointJS/joint.min.css",
+            "css/bootstrap/bootstrap.min.css",
+            "css/flexSlider/flexslider.css",
+            "css/slideshow/pgwslideshow.min.css",
+            "css/crossword/base.css",
+            "css/wordsearch/style.css",
+            "css/asAccordion/asAccordion.min.css"
+        ]);
+            break;
+        case "mod06": arrayFinal = arrayComun.concat([
+            "css/jointJS/joint.min.css",
+            "css/bootstrap/bootstrap.min.css",
+            "css/flexSlider/flexslider.css",
+            "css/slideshow/pgwslideshow.min.css",
+            "css/crossword/base.css",
+            "css/wordsearch/style.css",
+            "css/asAccordion/asAccordion.min.css"
+        ]);
+            break;
+        case "mod07": arrayFinal = arrayComun.concat([
+            "css/jointJS/joint.min.css",
+            "css/bootstrap/bootstrap.min.css",
+            "css/flexSlider/flexslider.css",
+            "css/slideshow/pgwslideshow.min.css",
+            "css/crossword/base.css",
+            "css/wordsearch/style.css",
+            "css/asAccordion/asAccordion.min.css"
+        ]);
+            break;
+        case "mod08": arrayFinal = arrayComun.concat([
+            "css/jointJS/joint.min.css",
+            "css/bootstrap/bootstrap.min.css",
             "css/flexSlider/flexslider.css",
             "css/slideshow/pgwslideshow.min.css",
             "css/crossword/base.css",

@@ -8,7 +8,7 @@
       "subclase": "portada"
     },
     {
-      "titulo": "Actividades",
+      "titulo": "Actividades pendientes",
       "contenido": [
         {
           "clase": "imagen",
@@ -1032,135 +1032,14 @@
       ]
     },
     {
-      "titulo": "PLANTILLA*Autoevaluación",
+      "titulo": "Activity (Pendiente)",
       "contenido": [
         {
           "clase": "texto",
-          "subclase": "instruccion",
-          "animacion": "flash",
-          "texto": "Arrastra cada producto a una categoría de tal manera que no quede ninguna vacía."
-        },
-        {
-          "clase": "autoevalArrastrar",
-          "contenedores": [
-            {
-              "clase": "caja",
-              "texto": "Tamaño: Grande",
-              "data_id": 1
-            },
-            {
-              "clase": "caja",
-              "texto": "Tipo de Masa: Hojaldre",
-              "data_id": 2
-            },
-            {
-              "clase": "caja",
-              "texto": "Relleno: Cabello de ángel",
-              "data_id": 3
-            },
-            {
-              "clase": "caja",
-              "texto": "Decoración: Chocolate",
-              "data_id": 5
-            },
-            {
-              "clase": "caja",
-              "texto": "Conservación: En frío",
-              "data_id": 6
-            },
-            {
-              "clase": "caja",
-              "texto": "Tamaño: Mini",
-              "data_id": 7
-            },
-            {
-              "clase": "caja",
-              "texto": "Tipo de Masa: Masa de batido",
-              "data_id": 8
-            },
-            {
-              "clase": "caja",
-              "texto": "Relleno: Nuez",
-              "data_id": 9
-            },
-            {
-              "clase": "caja",
-              "texto": "Tipo de Masa: Sucré",
-              "data_id": 10
-            },
-            {
-              "clase": "caja",
-              "texto": "Decoración: Azúcar Glass",
-              "data_id": 11
-            }
-          ],
-          "contenidos": [
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces01.png",
-              "data_caja": 8
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces03.png",
-              "data_caja": 9
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces04.png",
-              "data_caja": 11
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces05.png",
-              "data_caja": 7
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces06.png",
-              "data_caja": 10
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces07.png",
-              "data_caja": 5
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces08.png",
-              "data_caja": 6
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces09.png",
-              "data_caja": 3
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces10.png",
-              "data_caja": 1
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces11.png",
-              "data_caja": 2
-            }
-          ],
-          "solucion": "img/m4.2/autoeval/solucion.png"
+          "texto": "Activity"
         }
       ]
     },
-
     {
       "titulo": "The verb to be: Question form",
       "contenido": [
@@ -1349,131 +1228,11 @@
       ]
     },
     {
-      "titulo": "PLANTILLA*Autoevaluación",
+      "titulo": "Activity (Pendiente)",
       "contenido": [
         {
           "clase": "texto",
-          "subclase": "instruccion",
-          "animacion": "flash",
-          "texto": "Arrastra cada producto a una categoría de tal manera que no quede ninguna vacía."
-        },
-        {
-          "clase": "autoevalArrastrar",
-          "contenedores": [
-            {
-              "clase": "caja",
-              "texto": "Tamaño: Grande",
-              "data_id": 1
-            },
-            {
-              "clase": "caja",
-              "texto": "Tipo de Masa: Hojaldre",
-              "data_id": 2
-            },
-            {
-              "clase": "caja",
-              "texto": "Relleno: Cabello de ángel",
-              "data_id": 3
-            },
-            {
-              "clase": "caja",
-              "texto": "Decoración: Chocolate",
-              "data_id": 5
-            },
-            {
-              "clase": "caja",
-              "texto": "Conservación: En frío",
-              "data_id": 6
-            },
-            {
-              "clase": "caja",
-              "texto": "Tamaño: Mini",
-              "data_id": 7
-            },
-            {
-              "clase": "caja",
-              "texto": "Tipo de Masa: Masa de batido",
-              "data_id": 8
-            },
-            {
-              "clase": "caja",
-              "texto": "Relleno: Nuez",
-              "data_id": 9
-            },
-            {
-              "clase": "caja",
-              "texto": "Tipo de Masa: Sucré",
-              "data_id": 10
-            },
-            {
-              "clase": "caja",
-              "texto": "Decoración: Azúcar Glass",
-              "data_id": 11
-            }
-          ],
-          "contenidos": [
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces01.png",
-              "data_caja": 8
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces03.png",
-              "data_caja": 9
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces04.png",
-              "data_caja": 11
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces05.png",
-              "data_caja": 7
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces06.png",
-              "data_caja": 10
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces07.png",
-              "data_caja": 5
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces08.png",
-              "data_caja": 6
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces09.png",
-              "data_caja": 3
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces10.png",
-              "data_caja": 1
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.2/autoeval/dulces11.png",
-              "data_caja": 2
-            }
-          ],
-          "solucion": "img/m4.2/autoeval/solucion.png"
+          "texto": "Activity"
         }
       ]
     },
@@ -2959,152 +2718,140 @@
       ]
     },
     {
-      "titulo": "In this Unit...",
+      "titulo": "Summary",
       "contenido": [
         {
-          "clase": "texto",
-          "texto": "<center><b>In this Unit you have learned... / En esta unidad has aprendido...</b></center>"
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": ""
+            },
+            {
+              "titulo": "<center>AFFIRMATIVE</center>"
+            },
+            {
+              "titulo": "<center>NEGATIVE</center>"
+            },
+            {
+              "titulo": "<center>QUESTION</center>"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>I</center>"
+                },
+                {
+                  "texto": "<center>am ('m)</center>"
+                },
+                {
+                  "texto": "<center>am not ('m not)</center>"
+                },
+                {
+                  "texto": "<center>am I...?</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>you</center>"
+                },
+                {
+                  "texto": "<center>are ('re)</center>"
+                },
+                {
+                  "texto": "<center>are not (aren't)</center>"
+                },
+                {
+                  "texto": "<center>are you...?</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>he</center>"
+                },
+                {
+                  "texto": "<center>is ('s)</center>",
+                  "rowspan": 3
+                },
+                {
+                  "texto": "<center>is not (isn't)</center>",
+                  "rowspan": 3
+                },
+                {
+                  "texto": "<center>is he...?</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>she</center>"
+                },
+                {
+                  "texto": "<center>is she...?</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>it</center>"
+                },
+                {
+                  "texto": "<center>is it...?</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>we</center>"
+                },
+                {
+                  "texto": "<center>are ('re)</center>",
+                  "rowspan": 3
+                },
+                {
+                  "texto": "<center>are not (aren't)</center>",
+                  "rowspan": 3
+                },
+                {
+                  "texto": "<center>are we...?</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>you</center>"
+                },
+                {
+                  "texto": "<center>are you...?</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>they</center>"
+                },
+                {
+                  "texto": "<center>are they...?</center>"
+                }
+              ]
+            }
+          ]
         },
         {
           "clase": "lista",
           "contenido": [
             {
-              "punto": "In this Unit you have learned how to use the personal pronouns and the verb to be in the affirmative, negative and question forms. Let’s remember it!",
-              "contenido": [
-
-                {
-                  "clase": "listaObjetos",
-                  "contenido": [
-                    {
-                      "clase": "tabla",
-                      "filaTitulos": [
-                        {
-                          "titulo": ""
-                        },
-                        {
-                          "titulo": "<center>AFFIRMATIVE</center>"
-                        },
-                        {
-                          "titulo": "<center>NEGATIVE</center>"
-                        },
-                        {
-                          "titulo": "<center>QUESTION</center>"
-                        }
-                      ],
-                      "filaContenido": [
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center>I</center>"
-                            },
-                            {
-                              "texto": "<center>am ('m)</center>"
-                            },
-                            {
-                              "texto": "<center>am not ('m not)</center>"
-                            },
-                            {
-                              "texto": "<center>am I...?</center>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center>you</center>"
-                            },
-                            {
-                              "texto": "<center>are ('re)</center>"
-                            },
-                            {
-                              "texto": "<center>are not (aren't)</center>"
-                            },
-                            {
-                              "texto": "<center>are you...?</center>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center>he</center>"
-                            },
-                            {
-                              "texto": "<center>is ('s)</center>",
-                              "rowspan": 3
-                            },
-                            {
-                              "texto": "<center>is not (isn't)</center>",
-                              "rowspan": 3
-                            },
-                            {
-                              "texto": "<center>is he...?</center>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center>she</center>"
-                            },
-                            {
-                              "texto": "<center>is she...?</center>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center>it</center>"
-                            },
-                            {
-                              "texto": "<center>is it...?</center>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center>we</center>"
-                            },
-                            {
-                              "texto": "<center>are ('re)</center>",
-                              "rowspan": 3
-                            },
-                            {
-                              "texto": "<center>are not (aren't)</center>",
-                              "rowspan": 3
-                            },
-                            {
-                              "texto": "<center>are we...?</center>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center>you</center>"
-                            },
-                            {
-                              "texto": "<center>are you...?</center>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center>they</center>"
-                            },
-                            {
-                              "texto": "<center>are they...?</center>"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
+              "punto": "In this Unit you have learned how to use the personal pronouns and the verb to be in the affirmative, negative and question forms. Let’s remember it!"
             },
             {
               "punto": "You have learned new adjectives to describe people and things. Remember: Adjectives in English are invariable, they don’t change depending on the gender or the number of the noun.",
@@ -3431,130 +3178,82 @@
         }
       ]
     },
-    {
-      "titulo": "Autoevaluación",
+        {
+      "titulo": "Wordsearch",
       "contenido": [
         {
           "clase": "texto",
-          "animacion": "swing",
-          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
-        },
-        {
-          "clase": "texto",
-          "animacion": "flash",
           "subclase": "instruccion",
-          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+          "animacion": "flash",
+          "texto": "Click and drag with your mouse to mark a word."
         },
         {
-          "clase": "autoevalPreguntas",
-          "animacion": "bounceInUp",
-          "preguntas": [
+          "clase": "juegoSopaLetras",
+          "pistas": [
             {
-              "texto": "",
-              "respuestas": [
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                }
-              ]
+              "palabra": "beautiful",
+              "definicion": "Hermoso/a"
             },
             {
-              "texto": "",
-              "respuestas": [
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                }
-              ]
+              "palabra": "handsome",
+              "definicion": "Guapo"
             },
             {
-              "texto": "",
-              "respuestas": [
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                }
-              ]
+              "palabra": "pretty",
+              "definicion": "Guapa"
             },
             {
-              "texto": "",
-              "respuestas": [
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                }
-              ]
+              "palabra": "impolite",
+              "definicion": "Maleducado/a"
             },
             {
-              "texto": "",
-              "respuestas": [
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                }
-              ]
+              "palabra": "thirsty",
+              "definicion": "Sediento/a"
             },
             {
-              "texto": "",
-              "respuestas": [
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                },
-                {
-                  "opcion": "",
-                  "correcto": ""
-                }
-              ]
+              "palabra": "comfortable",
+              "definicion": "Cómodo/a"
+            },
+            {
+              "palabra": "tall",
+              "definicion": "Alto/a"
+            },
+            {
+              "palabra": "unfriendly",
+              "definicion": "Antipático/a"
+            },
+            {
+              "palabra": "cheerful",
+              "definicion": "Alegre"
+            },
+            {
+              "palabra": "expensive",
+              "definicion": "Caro/a"
+            },
+            {
+              "palabra": "lazy",
+              "definicion": "Vago/a"
+            },
+            {
+              "palabra": "clean",
+              "definicion": "Limpio/a"
+            },
+            {
+              "palabra": "tydi",
+              "definicion": "Ordenado/a"
+            },
+            {
+              "palabra": "bored",
+              "definicion": "Aburrido/a"
+            },
+            {
+              "palabra": "open",
+              "definicion": "Abierto/a"
             }
           ]
         }
       ]
-    },
+    }, 
     {
       "titulo": "Despedida",
       "contenido": [
@@ -3575,7 +3274,7 @@
       ]
     },
     {
-      "titulo": "¡Hasta luego!",
+      "titulo": "Contraportada",
       "fondo": "img/comunes/contraportada.svg",
       "subclase": "portada"
     }
