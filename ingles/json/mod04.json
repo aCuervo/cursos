@@ -1,0 +1,1226 @@
+﻿{
+  "modulo": "IV: IT RUNS IN THE FAMILY",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/bienvenida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Have got",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "<b>Have got/ haven’t got/ have ... got?</b><br>Para indicar posesión en ingles utilizamos el verbo “have got” o “have” que significan tener. Podemos utilizar cualquiera de estas dos formas de manera indistinta, ya que significan lo mismo y ambas sirven para indicar que tenemos una relación, una cosa, una enfermedad, una cualidad... A pesar de significar lo mismo, tienen diferencias a la hora de conjugarse, veamos cuales son:"
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "PRONOUN"
+                },
+                {
+                  "titulo": "VERB",
+                  "colspan": 3
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>I</b></center>"
+                    },
+                    {
+                      "texto": "<center>have got</center>",
+                      "rowspan": 2
+                    },
+                    {
+                      "texto": "<center>'ve got</center>",
+                      "rowspan": 2
+                    },
+                    {
+                      "texto": "<center>have</center>",
+                      "rowspan": 2
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>you</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>she</b></center>"
+                    },
+                    {
+                      "texto": "<center>has got</center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center>'s got</center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center>has</center>",
+                      "rowspan": 3
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>he</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>it</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>we</b></center>"
+                    },
+                    {
+                      "texto": "<center>have got</center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center>'ve got</center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center>have</center>",
+                      "rowspan": 3
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>you</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>they</b></center>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "La forma “have got” se puede abreviar (I’ve got) pero si utilizamos solo “have” debemos escribir “I have”."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "Examples",
+                  "colspan": 2
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "I've got two brothers.<br>I have two brothers."
+                    },
+                    {
+                      "texto": "Tengo dos hermanos."
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "She has got green eyes.<br>She has green eyes."
+                    },
+                    {
+                      "texto": "Ella tiene los ojos verdes."
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Linda’s got a headache.<br>Linda has a headache."
+                    },
+                    {
+                      "texto": "Linda tiene dolor de cabeza."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "exclamacion",
+              "texto": "No confundas he/ she/ it ‘s got con he/ she/ it’s.<br>She’s got a dream – Ella tiene un sueño.<br>She’s a dream – Ella es un sueño."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Interrogative / negative forms",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "NEGATIVE FORM",
+                  "colspan": 4
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>I</b></center>"
+                    },
+                    {
+                      "texto": "<center>have not got</center>",
+                      "rowspan": 2
+                    },
+                    {
+                      "texto": "<center>haven't got</center>",
+                      "rowspan": 2
+                    },
+                    {
+                      "texto": "<center>don't have</center>",
+                      "rowspan": 2
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>you</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>she</b></center>"
+                    },
+                    {
+                      "texto": "<center>has not got</center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center>hasn't got</center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center>doesn't have</center>",
+                      "rowspan": 3
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>he</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>it</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>we</b></center>"
+                    },
+                    {
+                      "texto": "<center>have not got</center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center>haven't got</center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center>don't have</center>",
+                      "rowspan": 3
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>you</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>they</b></center>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "Como puedes ver, “have got” y “have” tienen diferencias a la hora de crear la forma negativa e interrogativa, pero a pesar de esto, siguen significando lo mismo."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "INTERROGATIVE FORM",
+                  "colspan": 3
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Have</center>",
+                      "rowspan": 2
+                    },
+                    {
+                      "texto": "<center><b>I</b></center>"
+                    },
+                    {
+                      "texto": "<center>got...?</center>",
+                      "rowspan": 2
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>you</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Has</center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center><b>she</b></center>"
+                    },
+                    {
+                      "texto": "<center>got...?</center>",
+                      "rowspan": 3
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>he</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>it</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Have</center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center><b>we</b></center>"
+                    },
+                    {
+                      "texto": "<center>got...?</center>",
+                      "rowspan": 3
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>you</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>they</b></center>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "INTERROGATIVE FORM",
+                  "colspan": 3
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Do</center>",
+                      "rowspan": 2
+                    },
+                    {
+                      "texto": "<center><b>I</b></center>"
+                    },
+                    {
+                      "texto": "<center>have...?</center>",
+                      "rowspan": 8
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>you</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Does</center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center><b>she</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>he</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>it</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Do</center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center><b>we</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>you</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>they</b></center>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>Examples:</b>",
+          "contenido": [
+            {
+              "punto": "Do you have a car? No, I’ve got a bike.<br>¿Tienes un coche? No, tengo una bicicleta."
+            },
+            {
+              "punto": "Have you got a red jumper? Yes, I have.<br>¿Tienes un jersey rojo? Si, lo tengo."
+            },
+            {
+              "punto": "Does she have long hair? No, she doesn’t. She’s got short hair.<br>¿Ella tiene el pelo largo? No, no lo tiene. Ella tiene el pelo corto."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "Algunas expresiones que van con el verbo “have”:<br>-Have breakfast/ lunch/ dinner – Desayunar/ comer/ cenar.<br>- Have a bath/ a shower – Darse un baño/ ducha.<br>- Have a good time – Pasárselo bien.<br>- Have a headache- Tener un dolor de cabeza.<br>- Have a baby – Tener un bebé."
+        }
+      ]
+    },
+    {
+      "titulo": "Activity: have got",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "texto": "Choose the correct answer. More than one can be correct."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "We like animals. We ________ four cats and a dog.",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "have got",
+                  "correcto": true
+                },
+                {
+                  "opcion": "has got",
+                  "correcto": false
+                },
+                {
+                  "opcion": "haven't got",
+                  "correcto": false
+                },
+                {
+                  "opcion": "hasn't got",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "She cries because she ________ something in the eye.",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "have",
+                  "correcto": false
+                },
+                {
+                  "opcion": "has",
+                  "correcto": true
+                },
+                {
+                  "opcion": "don't have",
+                  "correcto": false
+                },
+                {
+                  "opcion": "doesn't have",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "___________ a car? ",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "Does she have...",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Has she got...",
+                  "correcto": false
+                },
+                {
+                  "opcion": "She does have...",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Have she got...",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "I ______________ your pen. I think it is lost.",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "have got",
+                  "correcto": false
+                },
+                {
+                  "opcion": "haven’t got",
+                  "correcto": true
+                },
+                {
+                  "opcion": "don’t have",
+                  "correcto": true
+                },
+                {
+                  "opcion": "has",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "She hates watching TV programmes. She ___________ a TV.",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "hasn't got",
+                  "correcto": true
+                },
+                {
+                  "opcion": "haven’t got",
+                  "correcto": false
+                },
+                {
+                  "opcion": "doesn’t have",
+                  "correcto": true
+                },
+                {
+                  "opcion": "has",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Prepositions (II)",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En la anterior unidad estudiamos alguna de las preposiciones que existen en inglés y algunos de sus usos. Ahora veremos nuevas preposiciones de lugar y repasaremos las que ya estudiamos.<br>Utilizamos las preposiciones de lugar para indicar dónde se encuentra algo o alguien."
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "<center>PREPOSITIONS OF PLACE</center>",
+                  "colspan": 4
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>IN</b></center>"
+                    },
+                    {
+                      "imagen": "http://lorempixel.com/128/128/cats"
+                    },
+                    {
+                      "texto": "<center><b>BEHIND</b></center>"
+                    },
+                    {
+                      "imagen": "http://lorempixel.com/128/128/cats"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>ON</b></center>"
+                    },
+                    {
+                      "imagen": "http://lorempixel.com/128/128/cats"
+                    },
+                    {
+                      "texto": "<center><b>IN FRONT OF</b></center>"
+                    },
+                    {
+                      "imagen": "http://lorempixel.com/128/128/cats"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>AT</b></center>"
+                    },
+                    {
+                      "imagen": "http://lorempixel.com/128/128/cats"
+                    },
+                    {
+                      "texto": "<center><b>NEXT TO</b></center>"
+                    },
+                    {
+                      "imagen": "http://lorempixel.com/128/128/cats"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>NEAR</b></center>"
+                    },
+                    {
+                      "imagen": "http://lorempixel.com/128/128/cats"
+                    },
+                    {
+                      "texto": "<center><b>UNDER</b></center>"
+                    },
+                    {
+                      "imagen": "http://lorempixel.com/128/128/cats"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>BETWEEN</b></center>"
+                    },
+                    {
+                      "imagen": "http://lorempixel.com/128/128/cats"
+                    },
+                    {
+                      "texto": "<center><b>OVER</b></center>"
+                    },
+                    {
+                      "imagen": "http://lorempixel.com/128/128/cats"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "En este cuadro resumen vamos a ver nuevos usos que añadiremos a los que ya hemos estudiado. <b>RECUERDA</b>, debes tener siempre en cuenta el contexto en que te encuentras a la hora de utilizar las preposiciones:"
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "<center>PREPOSICIÓN</center>"
+            },
+            {
+              "titulo": "<center>USOS</center>"
+            },
+            {
+              "titulo": "<center>EJEMPLOS</center>",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>ON</b></center>",
+                  "rowspan": 4
+                },
+                {
+                  "texto": "<center>en contacto con</center>"
+                },
+                {
+                  "texto": "<center>the book is <b>on</b> the table</center>"
+                },
+                {
+                  "texto": "<center>el libro está en la mesa</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>direcciones</center>"
+                },
+                {
+                  "texto": "<center><b>on</b> the left / <b>on</b> the right</center>"
+                },
+                {
+                  "texto": "<center>a la izquerda / a la derecha</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>transporte público</center>"
+                },
+                {
+                  "texto": "<center>I'm <b>on</b> the train / bus / plane</center>"
+                },
+                {
+                  "texto": "<center>Estoy en el tren / bus /avión</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>TV / radio / internet</center>"
+                },
+                {
+                  "texto": "<center>I watch it <b>on</b> the internet</center>"
+                },
+                {
+                  "texto": "<center>Lo veo en internet</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>IN</b></center>",
+                  "rowspan": 4
+                },
+                {
+                  "texto": "<center>en una sala / edificio</center>"
+                },
+                {
+                  "texto": "<center>I am <b>in</b> the kitchen</center>"
+                },
+                {
+                  "texto": "<center>Estoy en la cocina</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>mundo</center>"
+                },
+                {
+                  "texto": "<center><b>In</b> the world</center>"
+                },
+                {
+                  "texto": "<center>En el mundo</center>"
+                },
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>coche y taxi</center>"
+                },
+                {
+                  "texto": "<center>I'm <b>in</b> my car / I'm <b>in</b> a taxi</center>"
+                },
+                {
+                  "texto": "<center>Estoy en mi coche / en un taxi</center>"
+                },
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>libro / periódico</center>"
+                },
+                {
+                  "texto": "<center>I read it <b>in</b> a newspaper</center>"
+                },
+                {
+                  "texto": "<center>Lo leo en un periódico</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>AT</b></center>",
+                  "rowspan": 2
+                },
+                {
+                  "texto": "<center>evento</center>"
+                },
+                {
+                  "texto": "<center>I meet Sue <b>at</b> the party</center>"
+                },
+                {
+                  "texto": "<center>Me encuentro con Sue en la fiesta</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>lugares frecuentes</center>"
+                },
+                {
+                  "texto": "<center><b>at</b> work / <b>at</b> school</center>"
+                },
+                {
+                  "texto": "<center>en el trabajo / en el colegio</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>TO</center>",
+                  "colspan": 2
+                },
+                {
+                  "texto": "‘GO TO' ir a...",
+                  "colspan": 2
+                },
+                {
+                  "texto": "<center>I go <b>to</b> the office</center>"
+                },
+                {
+                  "texto": "Yo voy a la oficina"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>she goes <b>to</b> a meeting</center>"
+                },
+                {
+                  "texto": "Ella va a una reunión"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "titulo": "Summary",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "In this Unit you have learned… / En esta unidad has aprendido…"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "You have learned the numbers from 100 to millions and how to spell more complex numbers. We recommend you to have a look again at the list."
+            },
+            {
+              "punto": "You have learned how to say the date and how to ask for it. You have also learned new ‘time expressions’, new vocabulary and how to say the ordinal numbers. Example:",
+              "contenido": [
+                {
+                  "punto": "‘What’s the date today? Today is Tuesday (the)14th  (of) February 2017. Today is St Valentine’s Day’."
+                }
+              ]
+            },
+            {
+              "punto": "",
+              "contenido": [
+                {
+                  "punto": "You have learned how to use the verb ‘to like/love/enjoy/hate’:"
+                },
+                {
+                  "punto": "I love my job."
+                },
+                {
+                  "punto": "She enjoys terror films."
+                },
+                {
+                  "punto": "He hates doing the laundry."
+                },
+                {
+                  "punto": "They love reading at night."
+                },
+                {
+                  "punto": "I don’t like the dress."
+                },
+                {
+                  "punto": "Do you like going to the beach?"
+                }
+              ]
+            },
+            {
+              "punto": "Now you know how to describe your daily or weekly routine using:",
+              "contenido": [
+                {
+                  "punto": "The present simple."
+                },
+                {
+                  "punto": "Adverbs of frequency: usually, always, once a week, never…"
+                },
+                {
+                  "punto": "Prepositions: on Thursday, in May, at  night, by car…"
+                },
+                {
+                  "punto": "Vocabulary (Why don’t you have a look again?)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "And there is new vocabulary from this Unit:"
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "<center>ENGLISH</center>"
+            },
+            {
+              "titulo": "<center>SPANISH</center>"
+            },
+            {
+              "titulo": "<center>PRONUNCIATION</center>"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>CALL FOR A TAKE AWAY</center>"
+                },
+                {
+                  "texto": "<center>PEDIR PARA LLEVAR/A DOMICILIO</center>"
+                },
+                {
+                  "texto": "<center>/kɔːl fɔːr ə teɪk əˈweɪ/ </center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>PRESENT</center>"
+                },
+                {
+                  "texto": "<center>REGALO</center>"
+                },
+                {
+                  "texto": "<center>/ˈprɛznt/ </center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>SWEET</center>"
+                },
+                {
+                  "texto": "<center>DULCE</center>"
+                },
+                {
+                  "texto": "<center>/swiːt/</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>ARGUE</center>"
+                },
+                {
+                  "texto": "<center>DISCUTIR</center>"
+                },
+                {
+                  "texto": "<center>/ˈɑːgjuː/</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>COOK</center>"
+                },
+                {
+                  "texto": "<center>COCINAR/ COCINERO</center>"
+                },
+                {
+                  "texto": "<center>/kʊk/</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>DRINK/S</center>"
+                },
+                {
+                  "texto": "<center>BEBER/ BEBIDA</center>"
+                },
+                {
+                  "texto": "<center>/drɪŋk/</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>BEACH</center>"
+                },
+                {
+                  "texto": "<center>PLAYA</center>"
+                },
+                {
+                  "texto": "<center>/biːʧ/</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>MOUNTAIN</center>"
+                },
+                {
+                  "texto": "<center>MONTAÑA</center>"
+                },
+                {
+                  "texto": "<center>/ˈmaʊntɪn/</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>FAST FOOD</center>"
+                },
+                {
+                  "texto": "<center>COMIDA RÁPIDA</center>"
+                },
+                {
+                  "texto": "<center>/fɑːst fuːd/</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>BOARD GAMES</center>"
+                },
+                {
+                  "texto": "<center>JUEGOS DE MESA</center>"
+                },
+                {
+                  "texto": "<center>/bɔːd geɪmz/</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>COFFEE</center>"
+                },
+                {
+                  "texto": "<center>CAFÉ</center>"
+                },
+                {
+                  "texto": "<center>/ˈkɒfi/</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>TEA</center>"
+                },
+                {
+                  "texto": "<center>TÉ</center>"
+                },
+                {
+                  "texto": "<center>/tiː/</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>TOAST</center>"
+                },
+                {
+                  "texto": "<center>TOSTADA</center>"
+                },
+                {
+                  "texto": "<center>/təʊst/</center>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Good bye"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Contraportada",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
