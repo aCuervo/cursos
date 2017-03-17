@@ -805,7 +805,7 @@
                   "texto": "<center>I'm <b>on</b> the train / bus / plane</center>"
                 },
                 {
-                  "texto": "<center>Estoy en el tren / bus /avión</center>"
+                  "texto": "<center>Estoy en el tren / bus / avión</center>"
                 }
               ]
             },
@@ -849,7 +849,7 @@
                 },
                 {
                   "texto": "<center>En el mundo</center>"
-                },
+                }
               ]
             },
             {
@@ -862,7 +862,7 @@
                 },
                 {
                   "texto": "<center>Estoy en mi coche / en un taxi</center>"
-                },
+                }
               ]
             },
             {
@@ -911,18 +911,18 @@
             {
               "fila": [
                 {
-                  "texto": "<center>TO</center>",
-                  "colspan": 2
+                  "texto": "<center><b>TO</b></center>",
+                  "rowspan": 2
                 },
                 {
-                  "texto": "‘GO TO' ir a...",
-                  "colspan": 2
+                  "texto": "<center>‘GO TO' ir a...</center>",
+                  "rowspan": 2
                 },
                 {
                   "texto": "<center>I go <b>to</b> the office</center>"
                 },
                 {
-                  "texto": "Yo voy a la oficina"
+                  "texto": "<center>Yo voy a la oficina</center>"
                 }
               ]
             },
@@ -932,7 +932,7 @@
                   "texto": "<center>she goes <b>to</b> a meeting</center>"
                 },
                 {
-                  "texto": "Ella va a una reunión"
+                  "texto": "<center>Ella va a una reunión</center>"
                 }
               ]
             }
@@ -940,257 +940,518 @@
         }
       ]
     },
-
     {
-      "titulo": "Summary",
+      "titulo": "Activity: in / on / at",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "In this Unit you have learned… / En esta unidad has aprendido…"
+          "subclase": "instruccion",
+          "texto": "Complete with IN / ON / AT."
         },
         {
-          "clase": "lista",
-          "contenido": [
+          "clase": "autoevalPreguntas",
+          "preguntas": [
             {
-              "punto": "You have learned the numbers from 100 to millions and how to spell more complex numbers. We recommend you to have a look again at the list."
-            },
-            {
-              "punto": "You have learned how to say the date and how to ask for it. You have also learned new ‘time expressions’, new vocabulary and how to say the ordinal numbers. Example:",
-              "contenido": [
+              "texto": "My mother has a new job. She works ... the evening.",
+              "id": "1",
+              "respuestas": [
                 {
-                  "punto": "‘What’s the date today? Today is Tuesday (the)14th  (of) February 2017. Today is St Valentine’s Day’."
+                  "opcion": "in",
+                  "correcto": true
+                },
+                {
+                  "opcion": "on",
+                  "correcto": false
+                },
+                {
+                  "opcion": "at",
+                  "correcto": false
                 }
               ]
             },
             {
-              "punto": "",
-              "contenido": [
+              "texto": "We have a picnic ... Saturday afternoon. Do you want to come?",
+              "id": "2",
+              "respuestas": [
                 {
-                  "punto": "You have learned how to use the verb ‘to like/love/enjoy/hate’:"
+                  "opcion": "in",
+                  "correcto": false
                 },
                 {
-                  "punto": "I love my job."
+                  "opcion": "on",
+                  "correcto": true
                 },
                 {
-                  "punto": "She enjoys terror films."
-                },
-                {
-                  "punto": "He hates doing the laundry."
-                },
-                {
-                  "punto": "They love reading at night."
-                },
-                {
-                  "punto": "I don’t like the dress."
-                },
-                {
-                  "punto": "Do you like going to the beach?"
+                  "opcion": "at",
+                  "correcto": false
                 }
               ]
             },
             {
-              "punto": "Now you know how to describe your daily or weekly routine using:",
-              "contenido": [
+              "texto": "When is the meeting? It is ... 2:00 pm.",
+              "id": "3",
+              "respuestas": [
                 {
-                  "punto": "The present simple."
+                  "opcion": "in",
+                  "correcto": false
                 },
                 {
-                  "punto": "Adverbs of frequency: usually, always, once a week, never…"
+                  "opcion": "on",
+                  "correcto": false
                 },
                 {
-                  "punto": "Prepositions: on Thursday, in May, at  night, by car…"
+                  "opcion": "at",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Julia’s birthday is next week, ... March 12.",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "on",
+                  "correcto": true
                 },
                 {
-                  "punto": "Vocabulary (Why don’t you have a look again?)"
+                  "opcion": "in",
+                  "correcto": false
+                },
+                {
+                  "opcion": "at",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "My family and I like to ski ... winter.",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "in",
+                  "correcto": true
+                },
+                {
+                  "opcion": "on",
+                  "correcto": false
+                },
+                {
+                  "opcion": "at",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "The programme starts very late, it starts ... midnight!",
+              "id": "6",
+              "respuestas": [
+                {
+                  "opcion": "at",
+                  "correcto": true
+                },
+                {
+                  "opcion": "on",
+                  "correcto": false
+                },
+                {
+                  "opcion": "in",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "I’m ... the bus because my car is broken.",
+              "id": "7",
+              "respuestas": [
+                {
+                  "opcion": "on",
+                  "correcto": true
+                },
+                {
+                  "opcion": "in",
+                  "correcto": false
+                },
+                {
+                  "opcion": "at",
+                  "correcto": false
                 }
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "titulo": "Saxon genitive",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "“The saxon genitive” o genitivo sajón se utiliza para indicar posesión de personas, pero no de cosas. Se forma añadiendo “ ’s ” al final del nombre. Ejemplo:",
+          "contenido": [
+            {
+              "punto": "Maria’s car – El coche de Maria."
+            },
+            {
+              "punto": "My sister’s car – El coche de mi hermana."
+            },
+            {
+              "punto": "Mario’s house – La casa de Mario."
+            }
+          ]
         },
         {
+          "clase": "lista",
+          "titulo": "Cuando el nombre es plural o termina en “s” solamente añadimos el apóstrofe “ ‘ “ si se trata de un plural, pero si se trata de un nombre propio terminado en ‘s’ podemos poner o apóstrofe o ‘s’, ambas formas de escribirlo serían correctas. Ejemplos:",
+          "contenido": [
+            {
+              "punto": "My parents’ house – La casa de mis padres."
+            },
+            {
+              "punto": "My friends’ flat – El piso de mis amigos."
+            },
+            {
+              "punto": "Chris’ umbrella/ Chris’s umbrella – El paraguas de Chris."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "Como dijimos antes, con las cosas no se usa “saxon genitive” se dice “of” como diríamos normalmente:",
+          "contenido": [
+            {
+              "punto": "The roof of the building – El tejado del edificio."
+            },
+            {
+              "punto": "The name of the city – El nombre de la ciudad."
+            },
+            {
+              "punto": "London is the capital of the UK – Londres es la capital de UK."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "También puede utilizarse sin necesidad de añadir un sustantivo después, ya que por el contexto, se sobreentiende:",
+          "contenido": [
+            {
+              "punto": "It’s not my car. It’s Maria’s – No es mi coche. Es el de Maria."
+            },
+            {
+              "punto": "Is this your book? No, it’s Susie’s - ¿Es este tu libro? No, es de Susie."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "No confundas la ‘s de la tercera persona del singular del verbo to be con el genitivo sajón, este último siempre suele llevar un sustantivo detrás:<br><center>Mike’s bike – La bici de Mike.<br>Mike’s tall – Mike es alto.</center>"
+        }
+      ]
+    },
+    {
+      "titulo": "Activity: saxon genitive",
+      "contenido": [
+        {
           "clase": "texto",
-          "texto": "And there is new vocabulary from this Unit:"
+          "subclase": "instruccion",
+          "texto": "Mark the correct option."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "Which sentence is correct?",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "I am at my parent's house.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "I am at the house of my parents.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "The school’s principal is busy.",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "Incorrect",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Correct",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Which sentence is correct?",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "When is your birthday's child?",
+                  "correcto": true
+                },
+                {
+                  "opcion": "When is the birthday of your child?’",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Which sentence is correct?",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "Look at the sky’s colours!’",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Look at the colours of the sky!",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Which sentence is correct?",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "My bosses' office.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "My bosses’s office.",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Possessive adjectives",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Los adjetivos posesivos se utilizan para indicar posesión, que algo es nuestro o nos pertenece, “Mi casa”, “Tu hermano”, “Sus bolsos”."
         },
         {
           "clase": "tabla",
           "filaTitulos": [
             {
-              "titulo": "<center>ENGLISH</center>"
+              "titulo": "<center>PRONOUN</center>"
             },
             {
-              "titulo": "<center>SPANISH</center>"
+              "titulo": "<center>POSSESSIVE</center>"
             },
             {
-              "titulo": "<center>PRONUNCIATION</center>"
+              "titulo": "<center>EXAMPLES</center>",
+              "colspan": 2
             }
           ],
           "filaContenido": [
             {
               "fila": [
                 {
-                  "texto": "<center>CALL FOR A TAKE AWAY</center>"
+                  "texto": "<center>I</center>"
                 },
                 {
-                  "texto": "<center>PEDIR PARA LLEVAR/A DOMICILIO</center>"
+                  "texto": "<center><b>MY</b></center>"
                 },
                 {
-                  "texto": "<center>/kɔːl fɔːr ə teɪk əˈweɪ/ </center>"
+                  "texto": "<center>I like <b>my</b> job.</center>"
+                },
+                {
+                  "texto": "<center>MI trabajo</center>"
                 }
               ]
             },
             {
               "fila": [
                 {
-                  "texto": "<center>PRESENT</center>"
+                  "texto": "<center>you</center>"
                 },
                 {
-                  "texto": "<center>REGALO</center>"
+                  "texto": "<center><b>YOUR</b></center>"
                 },
                 {
-                  "texto": "<center>/ˈprɛznt/ </center>"
+                  "texto": "<center>You like <b>your</b> job.</center>"
+                },
+                {
+                  "texto": "<center>TU trabajo</center>"
                 }
               ]
             },
             {
               "fila": [
                 {
-                  "texto": "<center>SWEET</center>"
+                  "texto": "<center>he</center>"
                 },
                 {
-                  "texto": "<center>DULCE</center>"
+                  "texto": "<center><b>HIS</b></center>"
                 },
                 {
-                  "texto": "<center>/swiːt/</center>"
+                  "texto": "<center>He likes <b>his</b> job.</center>"
+                },
+                {
+                  "texto": "<center>SU trabajo</center>"
                 }
               ]
             },
             {
               "fila": [
                 {
-                  "texto": "<center>ARGUE</center>"
+                  "texto": "<center>she</center>"
                 },
                 {
-                  "texto": "<center>DISCUTIR</center>"
+                  "texto": "<center><b>HER</b></center>"
                 },
                 {
-                  "texto": "<center>/ˈɑːgjuː/</center>"
+                  "texto": "<center>She likes <b>her</b> job.</center>"
+                },
+                {
+                  "texto": "<center>SU trabajo</center>"
                 }
               ]
             },
             {
               "fila": [
                 {
-                  "texto": "<center>COOK</center>"
+                  "texto": "<center>it</center>"
                 },
                 {
-                  "texto": "<center>COCINAR/ COCINERO</center>"
+                  "texto": "<center><b>ITS</b></center>"
                 },
                 {
-                  "texto": "<center>/kʊk/</center>"
+                  "texto": "<center>Italy (it) is famous for <b>its</b> food.</center>"
+                },
+                {
+                  "texto": "<center>SU comida</center>"
                 }
               ]
             },
             {
               "fila": [
                 {
-                  "texto": "<center>DRINK/S</center>"
+                  "texto": "<center>we</center>"
                 },
                 {
-                  "texto": "<center>BEBER/ BEBIDA</center>"
+                  "texto": "<center><b>OUR</b></center>"
                 },
                 {
-                  "texto": "<center>/drɪŋk/</center>"
+                  "texto": "<center>We like <b>our</b> job.</center>"
+                },
+                {
+                  "texto": "<center>NUESTRO trabajo</center>"
                 }
               ]
             },
             {
               "fila": [
                 {
-                  "texto": "<center>BEACH</center>"
+                  "texto": "<center>you</center>"
                 },
                 {
-                  "texto": "<center>PLAYA</center>"
+                  "texto": "<center><b>YOUR</b></center>"
                 },
                 {
-                  "texto": "<center>/biːʧ/</center>"
+                  "texto": "<center>You like <b>your</b> job.</center>"
+                },
+                {
+                  "texto": "<center>VUESTRO trabajo</center>"
                 }
               ]
             },
             {
               "fila": [
                 {
-                  "texto": "<center>MOUNTAIN</center>"
+                  "texto": "<center>They</center>"
                 },
                 {
-                  "texto": "<center>MONTAÑA</center>"
+                  "texto": "<center><b>THEIR</b></center>"
                 },
                 {
-                  "texto": "<center>/ˈmaʊntɪn/</center>"
+                  "texto": "<center>They like <b>their</b> job.</center>"
+                },
+                {
+                  "texto": "<center>SU trabajo</center>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "<center><b>Its</b> pizza – Su pizza.<br><b>It’s</b> pizza (= it is) – Es pizza.</center>"
+        },
+        {
+          "clase": "texto",
+          "texto": "Generalmente utilizamos my/ you/her… + noun (nombre). Example: Her bike – My cats – Our children. Presta atención a que el adjetivo posesivo no cambia, independientemente de que el nombre sea singular o plural (Mi gato/ mis gatos: My cat/My cats – Su coche/Sus coches: His car/ His cars)."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod04/katy.png"
+                },
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "HER BAG = Kate's bag."
+                    },
+                    {
+                      "punto": "HER BROTHER = Kate's brother."
+                    },
+                    {
+                      "punto": "HER DOGS = Kate's dogs."
+                    }
+                  ]
                 }
               ]
             },
             {
-              "fila": [
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
                 {
-                  "texto": "<center>FAST FOOD</center>"
+                  "clase": "listaObjetos",
+                  "contenido": [
+                    {
+                      "clase": "imagen",
+                      "imagen": "img/mod04/katy.png"
+                    },
+                    {
+                      "clase": "imagen",
+                      "imagen": "img/mod04/jimy.png"
+                    }
+                  ]
                 },
+
                 {
-                  "texto": "<center>COMIDA RÁPIDA</center>"
-                },
-                {
-                  "texto": "<center>/fɑːst fuːd/</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>BOARD GAMES</center>"
-                },
-                {
-                  "texto": "<center>JUEGOS DE MESA</center>"
-                },
-                {
-                  "texto": "<center>/bɔːd geɪmz/</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>COFFEE</center>"
-                },
-                {
-                  "texto": "<center>CAFÉ</center>"
-                },
-                {
-                  "texto": "<center>/ˈkɒfi/</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>TEA</center>"
-                },
-                {
-                  "texto": "<center>TÉ</center>"
-                },
-                {
-                  "texto": "<center>/tiː/</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>TOAST</center>"
-                },
-                {
-                  "texto": "<center>TOSTADA</center>"
-                },
-                {
-                  "texto": "<center>/təʊst/</center>"
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "THEIR CAT = Kate and James' cat."
+                    },
+                    {
+                      "punto": "THEIR DOG = Kate and James' dog."
+                    },
+                    {
+                      "punto": "THEIR PETS = Kate and James' pets."
+                    }
+                  ]
                 }
               ]
             }
@@ -1198,6 +1459,474 @@
         }
       ]
     },
+    {
+      "titulo": "Family and relatives",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En esta unidad vamos a aprender vocabulario relacionado con la familia y las relaciones familiares."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "ENGLISH"
+                },
+                {
+                  "titulo": "SPANISH"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>FATHER (DAD)</b></center>"
+                    },
+                    {
+                      "texto": "<center>PADRE (PAPÁ)</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>MOTHER (MUM)</b></center>"
+                    },
+                    {
+                      "texto": "<center>MADRE (MAMÁ)</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>SON</b></center>"
+                    },
+                    {
+                      "texto": "<center>HIJO</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>DAUGHTER</b></center>"
+                    },
+                    {
+                      "texto": "<center>HIJA</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>PARENT/S</b></center>"
+                    },
+                    {
+                      "texto": "<center>PADRE/S (DA IGUAL EL SEXO)</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>CHILD (CHILDREN)</b></center>"
+                    },
+                    {
+                      "texto": "<center>NIÑO / HIJO (NIÑOS/HIJOS)</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>HUSBAND</b></center>"
+                    },
+                    {
+                      "texto": "<center>MARIDO</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>WIFE</b></center>"
+                    },
+                    {
+                      "texto": "<center>ESPOSA</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>BROTHER</b></center>"
+                    },
+                    {
+                      "texto": "<center>HERMANO</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>SISTER</b></center>"
+                    },
+                    {
+                      "texto": "<center>HERMANA</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>UNCLE</b></center>"
+                    },
+                    {
+                      "texto": "<center>TÍO</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>AUNT</b></center>"
+                    },
+                    {
+                      "texto": "<center>TÍA</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>NEPHEW</b></center>"
+                    },
+                    {
+                      "texto": "<center>SOBRINO</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>NIECE</b></center>"
+                    },
+                    {
+                      "texto": "<center>SOBRINA</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>COUSIN</b></center>"
+                    },
+                    {
+                      "texto": "<center>PRIMO/A</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>GRANDMOTHER (GRANDMA)</b></center>"
+                    },
+                    {
+                      "texto": "<center>ABUELA / ABUELITA</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>GRANDFATHER (GRANDPA)</b></center>"
+                    },
+                    {
+                      "texto": "<center>ABUELO / ABUELITO</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>GRANDPARENTS</b></center>"
+                    },
+                    {
+                      "texto": "<center>ABUELOS</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>GRANDSON</b></center>"
+                    },
+                    {
+                      "texto": "<center>NIETO</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>GRANDAUGHTER</b></center>"
+                    },
+                    {
+                      "texto": "<center>NIETA</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>GRANDCHILD (GRANDCHILDREN)</b></center>"
+                    },
+                    {
+                      "texto": "<center>NIETO / NIETOS</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>BOYFRIEND</b></center>"
+                    },
+                    {
+                      "texto": "<center>NOVIO</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>GIRLFRIEND</b></center>"
+                    },
+                    {
+                      "texto": "<center>NOVIA</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>PARTNER</b></center>"
+                    },
+                    {
+                      "texto": "<center>PAREJA</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>SIBLINGS</b></center>"
+                    },
+                    {
+                      "texto": "<center>HERMANOS (DA IGUAL EL SEXO)</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>ONLY CHILD</b></center>"
+                    },
+                    {
+                      "texto": "<center>HIJO/A ÚNICO</center>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+
+
+                {
+                  "clase": "icono",
+                  "subclase": "exclamacion",
+                  "texto": "The plural of wife - wives"
+                },
+
+                {
+                  "clase": "acordeon",
+                  "contenido": [
+                    {
+                      "titulo": "If you want to learn more",
+                      "contenido": [
+                        {
+                          "clase": "tabla",
+                          "filaTitulos": [
+                            {
+                              "titulo": "ENGLISH"
+                            },
+                            {
+                              "titulo": "SPANISH"
+                            },
+                            {
+                              "titulo": "BE CAREFUL"
+                            }
+                          ],
+                          "filaContenido": [
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>HAVE A BABY</b></center>"
+                                },
+                                {
+                                  "texto": "<center>TENER UN BEBÉ</center>"
+                                },
+                                {
+                                  "texto": ""
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>SINGLE</b></center>"
+                                },
+                                {
+                                  "texto": "<center>SOLTERO/A</center>"
+                                },
+                                {
+                                  "texto": ""
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>MARRIED</b></center>"
+                                },
+                                {
+                                  "texto": "<center>CASADO/A</center>"
+                                },
+                                {
+                                  "texto": ""
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>GET MARRIED TO</b></center>"
+                                },
+                                {
+                                  "texto": "<center>CASARSE</center>"
+                                },
+                                {
+                                  "texto": "NUNCA 'GET MARRIED WITH'"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>BRIDE</b></center>"
+                                },
+                                {
+                                  "texto": "<center>NOVIA</center>"
+                                },
+                                {
+                                  "texto": "(EN UNA BODA)",
+                                  "rowspan": 2
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>GROOM</b></center>"
+                                },
+                                {
+                                  "texto": "<center>NOVIO</center>"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Crosswords",
+      "contenido": [
+        {
+          "clase": "juegoPalabrasCruzadas",
+          "titulo": "Numbers",
+          "descripcion": "Write the name of each number.<br><span class='h4 importante'>JUST FOR THIS TIME: DON'T USE ANY '-'</span>",
+          "ancho": 18,
+          "alto": 17,
+          "pistas": [
+            {
+              "palabra": "BROTHER",
+              "definicion": "HERMANO",
+              "direccion": "H",
+              "posX": 7,
+              "posY": 5
+            },
+            {
+              "palabra": "GIRLFRIEND",
+              "definicion": "NOVIA",
+              "direccion": "H",
+              "posX": 0,
+              "posY": 8
+            },
+            {
+              "palabra": "HUSBAND",
+              "definicion": "MARIDO",
+              "direccion": "H",
+              "posX": 2,
+              "posY": 10
+            },
+            {
+              "palabra": "GRANDFATHER",
+              "definicion": "ABUELO",
+              "direccion": "H",
+              "posX": 1,
+              "posY": 3
+            },
+            {
+              "palabra": "NINETEEN",
+              "definicion": "19",
+              "direccion": "V",
+              "posX": 3,
+              "posY": 0
+            },
+            {
+              "palabra": "FIVE",
+              "definicion": "5",
+              "direccion": "V",
+              "posX": 10,
+              "posY": 3
+            },
+            {
+              "palabra": "ELEVEN",
+              "definicion": "11",
+              "direccion": "V",
+              "posX": 11,
+              "posY": 6
+            }
+          ]
+        }
+      ]
+    },
+
+
     {
       "titulo": "Despedida",
       "contenido": [
