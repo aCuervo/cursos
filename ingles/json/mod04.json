@@ -1855,6 +1855,13 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "clase": "icono",
+                  "subclase": "sabiasQue",
+                  "texto": "<b>DID YOU KNOW...</b><br>‘It runs in the family’ significa que hay una cualidad o una característica que está en muchos miembros de la familia. ‘We are all very intelligent, it runs in the family’.<br>También es el título de una película de 2003 que en español se tradujo como “Cosas de familia”.",
+                  "imagen": "img/mod04/movie.jpg",
+                  "ancho": 200
                 }
               ]
             }
@@ -1884,42 +1891,49 @@
               "definicion": "NOVIA",
               "direccion": "H",
               "posX": 0,
-              "posY": 8
+              "posY": 7
             },
             {
               "palabra": "HUSBAND",
               "definicion": "MARIDO",
               "direccion": "H",
-              "posX": 2,
-              "posY": 10
+              "posX": 4,
+              "posY": 9
             },
             {
               "palabra": "GRANDFATHER",
               "definicion": "ABUELO",
               "direccion": "H",
-              "posX": 1,
-              "posY": 3
+              "posX": 7,
+              "posY": 15
             },
             {
-              "palabra": "NINETEEN",
-              "definicion": "19",
+              "palabra": "PARENTS",
+              "definicion": "PADRES",
               "direccion": "V",
-              "posX": 3,
+              "posX": 10,
               "posY": 0
             },
             {
-              "palabra": "FIVE",
-              "definicion": "5",
+              "palabra": "MOTHER",
+              "definicion": "MADRE",
               "direccion": "V",
-              "posX": 10,
-              "posY": 3
+              "posX": 13,
+              "posY": 0
             },
             {
-              "palabra": "ELEVEN",
-              "definicion": "11",
+              "palabra": "GRANDAUGHTER",
+              "definicion": "NIETA",
               "direccion": "V",
-              "posX": 11,
-              "posY": 6
+              "posX": 8,
+              "posY": 4
+            },
+                        {
+              "palabra": "UNCLE",
+              "definicion": "TÍO",
+              "direccion": "V",
+              "posX": 5,
+              "posY": 9
             }
           ]
         }
