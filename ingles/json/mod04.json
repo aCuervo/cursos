@@ -1470,284 +1470,334 @@
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "tabla",
-              "filaTitulos": [
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
                 {
-                  "titulo": "ENGLISH"
-                },
-                {
-                  "titulo": "SPANISH"
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
+                  "clase": "acordeon",
+                  "contenido": [
                     {
-                      "texto": "<center><b>FATHER (DAD)</b></center>"
+                      "titulo": "FIRST-DEGREE FAMILY",
+                      "contenido": [
+                        {
+                          "clase": "tabla",
+                          "filaTitulos": [
+                            {
+                              "titulo": "ENGLISH"
+                            },
+                            {
+                              "titulo": "SPANISH"
+                            }
+                          ],
+                          "filaContenido": [
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>FATHER (DAD)</b></center>"
+                                },
+                                {
+                                  "texto": "<center>PADRE (PAPÁ)</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>MOTHER (MUM)</b></center>"
+                                },
+                                {
+                                  "texto": "<center>MADRE (MAMÁ)</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>SON</b></center>"
+                                },
+                                {
+                                  "texto": "<center>HIJO</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>DAUGHTER</b></center>"
+                                },
+                                {
+                                  "texto": "<center>HIJA</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>PARENT/S</b></center>"
+                                },
+                                {
+                                  "texto": "<center>PADRE/S (DA IGUAL EL SEXO)</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>CHILD (CHILDREN)</b></center>"
+                                },
+                                {
+                                  "texto": "<center>NIÑO / HIJO (NIÑOS / HIJOS)</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>HUSBAND</b></center>"
+                                },
+                                {
+                                  "texto": "<center>MARIDO</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>WIFE</b></center>"
+                                },
+                                {
+                                  "texto": "<center>ESPOSA</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>ONLY CHILD</b></center>"
+                                },
+                                {
+                                  "texto": "<center>HIJO/A ÚNICO</center>"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
                     },
                     {
-                      "texto": "<center>PADRE (PAPÁ)</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
+                      "titulo": "SECOND-DEGREE FAMILY",
+                      "contenido": [
+                        {
+                          "clase": "tabla",
+                          "filaTitulos": [
+                            {
+                              "titulo": "ENGLISH"
+                            },
+                            {
+                              "titulo": "SPANISH"
+                            }
+                          ],
+                          "filaContenido": [
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>BROTHER</b></center>"
+                                },
+                                {
+                                  "texto": "<center>HERMANO</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>SISTER</b></center>"
+                                },
+                                {
+                                  "texto": "<center>HERMANA</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>GRANDMOTHER (GRANDMA)</b></center>"
+                                },
+                                {
+                                  "texto": "<center>ABUELA / ABUELITA</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>GRANDFATHER (GRANDPA)</b></center>"
+                                },
+                                {
+                                  "texto": "<center>ABUELO / ABUELITO</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>GRANDPARENTS</b></center>"
+                                },
+                                {
+                                  "texto": "<center>ABUELOS</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>GRANDSON</b></center>"
+                                },
+                                {
+                                  "texto": "<center>NIETO</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>GRANDAUGHTER</b></center>"
+                                },
+                                {
+                                  "texto": "<center>NIETA</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>GRANDCHILD (GRANDCHILDREN)</b></center>"
+                                },
+                                {
+                                  "texto": "<center>NIETO / NIETOS</center>"
+                                }
+                              ]
+                            }                  
+                          ]
+                        }
+                      ]
+                    },
+                                        {
+                      "titulo": "THIRD-DEGREE FAMILY AND MORE",
+                      "contenido": [
+                        {
+                          "clase": "tabla",
+                          "filaTitulos": [
+                            {
+                              "titulo": "ENGLISH"
+                            },
+                            {
+                              "titulo": "SPANISH"
+                            }
+                          ],
+                  "filaContenido": [
                     {
-                      "texto": "<center><b>MOTHER (MUM)</b></center>"
+                      "fila": [
+                        {
+                          "texto": "<center><b>UNCLE</b></center>"
+                        },
+                        {
+                          "texto": "<center>TÍO</center>"
+                        }
+                      ]
                     },
                     {
-                      "texto": "<center>MADRE (MAMÁ)</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>SON</b></center>"
+                      "fila": [
+                        {
+                          "texto": "<center><b>AUNT</b></center>"
+                        },
+                        {
+                          "texto": "<center>TÍA</center>"
+                        }
+                      ]
                     },
                     {
-                      "texto": "<center>HIJO</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>DAUGHTER</b></center>"
+                      "fila": [
+                        {
+                          "texto": "<center><b>NEPHEW</b></center>"
+                        },
+                        {
+                          "texto": "<center>SOBRINO</center>"
+                        }
+                      ]
                     },
                     {
-                      "texto": "<center>HIJA</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>PARENT/S</b></center>"
+                      "fila": [
+                        {
+                          "texto": "<center><b>NIECE</b></center>"
+                        },
+                        {
+                          "texto": "<center>SOBRINA</center>"
+                        }
+                      ]
                     },
                     {
-                      "texto": "<center>PADRE/S (DA IGUAL EL SEXO)</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
+                      "fila": [
+                        {
+                          "texto": "<center><b>COUSIN</b></center>"
+                        },
+                        {
+                          "texto": "<center>PRIMO/A</center>"
+                        }
+                      ]
+                    },                  
                     {
-                      "texto": "<center><b>CHILD (CHILDREN)</b></center>"
+                      "fila": [
+                        {
+                          "texto": "<center><b>BOYFRIEND</b></center>"
+                        },
+                        {
+                          "texto": "<center>NOVIO</center>"
+                        }
+                      ]
                     },
                     {
-                      "texto": "<center>NIÑO / HIJO (NIÑOS/HIJOS)</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>HUSBAND</b></center>"
+                      "fila": [
+                        {
+                          "texto": "<center><b>GIRLFRIEND</b></center>"
+                        },
+                        {
+                          "texto": "<center>NOVIA</center>"
+                        }
+                      ]
                     },
                     {
-                      "texto": "<center>MARIDO</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>WIFE</b></center>"
+                      "fila": [
+                        {
+                          "texto": "<center><b>PARTNER</b></center>"
+                        },
+                        {
+                          "texto": "<center>PAREJA</center>"
+                        }
+                      ]
                     },
                     {
-                      "texto": "<center>ESPOSA</center>"
+                      "fila": [
+                        {
+                          "texto": "<center><b>SIBLINGS</b></center>"
+                        },
+                        {
+                          "texto": "<center>HERMANOS (DA IGUAL EL SEXO)</center>"
+                        }
+                      ]
                     }
                   ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>BROTHER</b></center>"
-                    },
-                    {
-                      "texto": "<center>HERMANO</center>"
+                        }
+                      ]
                     }
                   ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>SISTER</b></center>"
-                    },
-                    {
-                      "texto": "<center>HERMANA</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>UNCLE</b></center>"
-                    },
-                    {
-                      "texto": "<center>TÍO</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>AUNT</b></center>"
-                    },
-                    {
-                      "texto": "<center>TÍA</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>NEPHEW</b></center>"
-                    },
-                    {
-                      "texto": "<center>SOBRINO</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>NIECE</b></center>"
-                    },
-                    {
-                      "texto": "<center>SOBRINA</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>COUSIN</b></center>"
-                    },
-                    {
-                      "texto": "<center>PRIMO/A</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>GRANDMOTHER (GRANDMA)</b></center>"
-                    },
-                    {
-                      "texto": "<center>ABUELA / ABUELITA</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>GRANDFATHER (GRANDPA)</b></center>"
-                    },
-                    {
-                      "texto": "<center>ABUELO / ABUELITO</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>GRANDPARENTS</b></center>"
-                    },
-                    {
-                      "texto": "<center>ABUELOS</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>GRANDSON</b></center>"
-                    },
-                    {
-                      "texto": "<center>NIETO</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>GRANDAUGHTER</b></center>"
-                    },
-                    {
-                      "texto": "<center>NIETA</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>GRANDCHILD (GRANDCHILDREN)</b></center>"
-                    },
-                    {
-                      "texto": "<center>NIETO / NIETOS</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>BOYFRIEND</b></center>"
-                    },
-                    {
-                      "texto": "<center>NOVIO</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>GIRLFRIEND</b></center>"
-                    },
-                    {
-                      "texto": "<center>NOVIA</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>PARTNER</b></center>"
-                    },
-                    {
-                      "texto": "<center>PAREJA</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>SIBLINGS</b></center>"
-                    },
-                    {
-                      "texto": "<center>HERMANOS (DA IGUAL EL SEXO)</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>ONLY CHILD</b></center>"
-                    },
-                    {
-                      "texto": "<center>HIJO/A ÚNICO</center>"
-                    }
-                  ]
-                }
+                } 
               ]
             },
             {
               "clase": "listaObjetos",
               "subclase": "columna",
               "contenido": [
-
-
                 {
                   "clase": "icono",
                   "subclase": "exclamacion",
@@ -1928,7 +1978,7 @@
               "posX": 8,
               "posY": 4
             },
-                        {
+            {
               "palabra": "UNCLE",
               "definicion": "TÍO",
               "direccion": "V",
