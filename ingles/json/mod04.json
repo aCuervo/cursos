@@ -648,6 +648,10 @@
       "titulo": "Prepositions (II)",
       "contenido": [
         {
+          "clase": "imagen",
+          "imagen": "img/mod04/preps.svg"
+        },
+        {
           "clase": "listaObjetos",
           "contenido": [
             {
@@ -669,13 +673,13 @@
                       "texto": "<center><b>IN</b></center>"
                     },
                     {
-                      "imagen": "http://lorempixel.com/128/128/cats"
+                      "imagen": "img/mod04/in.svg"
                     },
                     {
                       "texto": "<center><b>BEHIND</b></center>"
                     },
                     {
-                      "imagen": "http://lorempixel.com/128/128/cats"
+                      "imagen": "img/mod04/behind.svg"
                     }
                   ]
                 },
@@ -685,13 +689,13 @@
                       "texto": "<center><b>ON</b></center>"
                     },
                     {
-                      "imagen": "http://lorempixel.com/128/128/cats"
+                      "imagen": "img/mod04/on.svg"
                     },
                     {
                       "texto": "<center><b>IN FRONT OF</b></center>"
                     },
                     {
-                      "imagen": "http://lorempixel.com/128/128/cats"
+                      "imagen": "img/mod04/infront.svg"
                     }
                   ]
                 },
@@ -701,13 +705,13 @@
                       "texto": "<center><b>AT</b></center>"
                     },
                     {
-                      "imagen": "http://lorempixel.com/128/128/cats"
+                      "imagen": "img/mod04/at.svg"
                     },
                     {
                       "texto": "<center><b>NEXT TO</b></center>"
                     },
                     {
-                      "imagen": "http://lorempixel.com/128/128/cats"
+                      "imagen": "img/mod04/nexto.svg"
                     }
                   ]
                 },
@@ -717,13 +721,13 @@
                       "texto": "<center><b>NEAR</b></center>"
                     },
                     {
-                      "imagen": "http://lorempixel.com/128/128/cats"
+                      "imagen": "img/mod04/nearto.svg"
                     },
                     {
                       "texto": "<center><b>UNDER</b></center>"
                     },
                     {
-                      "imagen": "http://lorempixel.com/128/128/cats"
+                      "imagen": "img/mod04/under.svg"
                     }
                   ]
                 },
@@ -733,13 +737,13 @@
                       "texto": "<center><b>BETWEEN</b></center>"
                     },
                     {
-                      "imagen": "http://lorempixel.com/128/128/cats"
+                      "imagen": "img/mod04/between.svg"
                     },
                     {
                       "texto": "<center><b>OVER</b></center>"
                     },
                     {
-                      "imagen": "http://lorempixel.com/128/128/cats"
+                      "imagen": "img/mod04/over.svg"
                     }
                   ]
                 }
@@ -1464,7 +1468,7 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "En esta unidad vamos a aprender vocabulario relacionado con la familia y las relaciones familiares."
+          "texto": "En esta unidad aprenderemos vocabulario relacionado con la familia y las relaciones familiares."
         },
         {
           "clase": "listaObjetos",
@@ -1621,6 +1625,16 @@
                             {
                               "fila": [
                                 {
+                                  "texto": "<center><b>SIBLINGS</b></center>"
+                                },
+                                {
+                                  "texto": "<center>HERMANOS (DA IGUAL EL SEXO)</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
                                   "texto": "<center><b>GRANDMOTHER (GRANDMA)</b></center>"
                                 },
                                 {
@@ -1677,12 +1691,12 @@
                                   "texto": "<center>NIETO / NIETOS</center>"
                                 }
                               ]
-                            }                  
+                            }
                           ]
                         }
                       ]
                     },
-                                        {
+                    {
                       "titulo": "THIRD-DEGREE FAMILY AND MORE",
                       "contenido": [
                         {
@@ -1695,103 +1709,93 @@
                               "titulo": "SPANISH"
                             }
                           ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>UNCLE</b></center>"
-                        },
-                        {
-                          "texto": "<center>TÍO</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>AUNT</b></center>"
-                        },
-                        {
-                          "texto": "<center>TÍA</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>NEPHEW</b></center>"
-                        },
-                        {
-                          "texto": "<center>SOBRINO</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>NIECE</b></center>"
-                        },
-                        {
-                          "texto": "<center>SOBRINA</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>COUSIN</b></center>"
-                        },
-                        {
-                          "texto": "<center>PRIMO/A</center>"
-                        }
-                      ]
-                    },                  
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>BOYFRIEND</b></center>"
-                        },
-                        {
-                          "texto": "<center>NOVIO</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>GIRLFRIEND</b></center>"
-                        },
-                        {
-                          "texto": "<center>NOVIA</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>PARTNER</b></center>"
-                        },
-                        {
-                          "texto": "<center>PAREJA</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>SIBLINGS</b></center>"
-                        },
-                        {
-                          "texto": "<center>HERMANOS (DA IGUAL EL SEXO)</center>"
+                          "filaContenido": [
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>UNCLE</b></center>"
+                                },
+                                {
+                                  "texto": "<center>TÍO</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>AUNT</b></center>"
+                                },
+                                {
+                                  "texto": "<center>TÍA</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>NEPHEW</b></center>"
+                                },
+                                {
+                                  "texto": "<center>SOBRINO</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>NIECE</b></center>"
+                                },
+                                {
+                                  "texto": "<center>SOBRINA</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>COUSIN</b></center>"
+                                },
+                                {
+                                  "texto": "<center>PRIMO/A</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>BOYFRIEND</b></center>"
+                                },
+                                {
+                                  "texto": "<center>NOVIO</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>GIRLFRIEND</b></center>"
+                                },
+                                {
+                                  "texto": "<center>NOVIA</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center><b>PARTNER</b></center>"
+                                },
+                                {
+                                  "texto": "<center>PAREJA</center>"
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }
                   ]
-                        }
-                      ]
-                    }
-                  ]
-                } 
+                }
               ]
             },
             {
@@ -1905,17 +1909,17 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "clase": "icono",
-                  "subclase": "sabiasQue",
-                  "texto": "<b>DID YOU KNOW...</b><br>‘It runs in the family’ significa que hay una cualidad o una característica que está en muchos miembros de la familia. ‘We are all very intelligent, it runs in the family’.<br>También es el título de una película de 2003 que en español se tradujo como “Cosas de familia”.",
-                  "imagen": "img/mod04/movie.jpg",
-                  "ancho": 200
                 }
               ]
             }
           ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "<b>DID YOU KNOW...</b><br><br>‘It runs in the family’ significa que hay una cualidad o una característica que está en muchos miembros de la familia. ‘We are all very intelligent, it runs in the family’.<br><br>También es el título de una película de 2003 que en español se tradujo como “Cosas de familia”.",
+          "imagen": "img/mod04/movie.jpg",
+          "ancho": 150
         }
       ]
     },
@@ -1925,7 +1929,7 @@
         {
           "clase": "juegoPalabrasCruzadas",
           "titulo": "Numbers",
-          "descripcion": "Write the name of each number.<br><span class='h4 importante'>JUST FOR THIS TIME: DON'T USE ANY '-'</span>",
+          "descripcion": "Write the name of definition.<br><span class='h4 importante'>CAN YOU DO IT WITHOUT LOOKING BACK?</span>",
           "ancho": 18,
           "alto": 17,
           "pistas": [
@@ -1989,8 +1993,727 @@
         }
       ]
     },
+    {
+      "titulo": "Describing people",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<center><b>Describing people: vocabulary and strategies</b></center><br>En el primer módulo de este curso, aprendimos un montón de adjetivos para describir el carácter y el aspecto de las personas y cosas. En esta unidad aprenderemos a describir físicamente a las personas que nos rodean usando todo el vocabulario y los verbos que ya sabes.<br><br>Para describir a alguien utilizaremos adjetivos, recuerda que en inglés los adjetivos se colocan siempre antes del nombre (Green eyes, long hair, beautiful face...)."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "<b><center>HEIGHT AND WEIGHT (/haɪt/ and /weɪt/)</b></center><br>Para describir la altura (height)<br>She is tall/ short/ medium height...<br>Para describir su peso o su figura (weight):<br>Peter is Slim/ thin/ fat/ overweight...."
+                },
+                {
+                  "clase": "icono",
+                  "subclase": "exclamacion",
+                  "texto": "People are TALL and not high.<br>(You only are high after taking drugs.)"
+                }
+              ]
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "<b><center>FACE AND HEAD (/feɪs/ and /hɛd/)</center></b><br>Podemos describir la cara (the face) de alguien de muchas maneras. Podemos decir simplemente que es guapo (He is handsome/ good looking) o que no es muy guapo (He is not very handsome.)"
+                },
+                {
+                  "clase": "texto",
+                  "subclase": "recuadro",
+                  "texto": "<b>TAKE NOTE</b><br>Very – muy<br>Quite – bastante"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Descripciones más detalladas:",
+              "contenido": [
+                {
+                  "punto": "Skin (piel):",
+                  "contenido": [
+                    {
+                      "punto": "Fair, dark...<br>Clara, oscura..."
+                    }
+                  ]
+                },
+                {
+                  "punto": "Eyes (ojos):",
+                  "contenido": [
+                    {
+                      "punto": "Big, small, pretty...<br>grandes, pequeños, bonitos..."
+                    },
+                    {
+                      "punto": "Brown, blue, green, grey"
+                    }
+                  ]
+                },
+                {
+                  "punto": "Hair (pelo):",
+                  "contenido": [
+                    {
+                      "punto": "Long, short...<br>Largo, corto..."
+                    },
+                    {
+                      "punto": "Straight, curly, wavy...<br>Liso, rizado, ondulado..."
+                    },
+                    {
+                      "punto": "Brown, fair, blonde, dark, grey, pink...<br>Marrón, claro, rubio, oscuro, gris, rosa..."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "texto",
+              "texto": "<b>Ejemplo:</b><br>Maria is not very tall. She has got fair skin and her eyes are blue. She has got long blonde curly hair. She is quite pretty.<br><br>(Maria no es muy alta. Ella tiene la piel clara y los ojos azules. Tiene el pelo largo, rubio y rizado. Es bastante guapa)."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Recuerda que también podemos decir que alguien es joven (young), viejo (old), de mediana edad (middle-age)..."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "acordeon",
+              "contenido": [
+                {
+                  "titulo": "If you want to learn more",
+                  "contenido": [
+                    {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "ENGLISH"
+                        },
+                        {
+                          "titulo": "SPANISH"
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>BEARD</b></center>"
+                            },
+                            {
+                              "texto": "<center>BARBA</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>MOUSTACHE</b></center>"
+                            },
+                            {
+                              "texto": "<center>BIGOTE</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>REDHEAD</b></center>"
+                            },
+                            {
+                              "texto": "<center>PELIRROJO/A</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>BRUNETTE</b></center>"
+                            },
+                            {
+                              "texto": "<center>MORENO/A</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>BALD</b></center>"
+                            },
+                            {
+                              "texto": "<center>CALVO/A</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>WEAR GLASSES</b></center>"
+                            },
+                            {
+                              "texto": "<center>LLEVAR GAFAS</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>WEAR MAKE UP</b></center>"
+                            },
+                            {
+                              "texto": "<center>LLEVAR MAQUILLAJE</center>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center><b>PAY ATTENTION</b><br>Para describir el pelo: longitud + color+ forma<br>People have long or short HAIR (nunca hairS).</center>"
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "Cómo preguntar sobre el aspecto de una persona:",
+          "contenido": [
+            {
+              "punto": "What does he/she look like? - ¿Qué aspecto tiene?"
+            },
+            {
+              "punto": "How tall is he/ she? How tall are you? - ¿Cuánto mide? ¿Cuánto mides?"
+            },
+            {
+              "punto": "How much do you weight? - ¿Cuánto pesas?"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>EXAMPLES</b>"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "contenido": [
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod04/emily.png"
+                },
+                {
+                  "clase": "texto",
+                  "texto": "This is Emily. Emily is a student. She is medium height, slim and she has got fair skin. She has got brown eyes and she wears red glasses. She has short purple straight hair. Emily looks friendly and cheerful.<br><br>Esta es Emily. Emily es una estudiante. Ella es de estatura media, delgada y tiene la piel clara. Tiene los ojos marrones y lleva gafas rojas. Tiene el pelo corto, morado y liso. Emily parece amistosa y alegre."
+                }
+              ]
+            },
+            {
+              "clase": "listaObjetos",
+              "contenido": [
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod04/john.png"
+                },
+                {
+                  "clase": "texto",
+                  "texto": "John is Emily’s father. He’s 56 years old. He looks calm and kind. He is a doctor and he works at the hospital. He is tall and slim. He has short grey curly hair and he has a grey beard. John doesn’t wear glasses and he has big blue eyes. He has some wrinkles.<br><br>John es el padre de Emily. Tiene 56 años. Él parece tranquilo y amable. Él es un doctor y trabaja en el hospital. Es alto y delgado. Tiene el pelo corto, gris y rizado y tiene una barba gris. John no lleva gafas y tiene los ojos azules. Tiene algunas arrugas."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "Utilizamos “He looks…/ They look…” para decir que alguien parece... She looks friendly- Ella parece amistosa."
+        }
 
+      ]
+    },
+    {
+      "titulo": "Activity",
+      "contenido": [
 
+      ]
+    },
+    {
+      "titulo": "Summary",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<center><b>In this Unit you have learned...</b><br><i>En esta Unidad has aprendido...</i></center>"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "How to use the verb to have (got).",
+              "contenido": [
+                {
+                  "punto": "Maria has a headache. <i>(María tiene un dolor de cabeza.)</i>"
+                },
+                {
+                  "punto": "I have one brother and two sisters. <i>(Tengo un hermano y dos hermanas.)</i>"
+                }
+              ]
+            },
+            {
+              "punto": "Now you know new place prepositions and new uses of <b>IN / ON / AT</b>. Here you have a table with all the uses that you have learned:",
+              "contenido": [
+                {
+                  "clase": "tabla",
+                  "filaTitulos": [
+                    {
+                      "titulo": "<center>PREPOSITION</center>"
+                    },
+                    {
+                      "titulo": "<center>WE USE IT</center>"
+                    },
+                    {
+                      "titulo": "<center>EXAMPLES</center>"
+                    }
+                  ],
+                  "filaContenido": [
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>IN</b></center>",
+                          "rowspan": 6
+                        },
+                        {
+                          "texto": "<center>months / seasons / year</center>"
+                        },
+                        {
+                          "texto": "<center>In March / winter / 2016</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>country / city / town</center>"
+                        },
+                        {
+                          "texto": "<center>In Spain / Madrid / Oviedo</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>morning / afternoon / evening</center>"
+                        },
+                        {
+                          "texto": "<center>In the morning I have breakfast</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>specific room / building</center>"
+                        },
+                        {
+                          "texto": "<center>In the living room</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>car / taxi</center>"
+                        },
+                        {
+                          "texto": "<center>I'm in a taxi</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>book / newspaper</center>"
+                        },
+                        {
+                          "texto": "<center>I read it in the newspaper</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>ON</b></center>",
+                          "rowspan": 5
+                        },
+                        {
+                          "texto": "<center>in contact with</center>"
+                        },
+                        {
+                          "texto": "<center>On the table / on the wall</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>specific days and dates</center>"
+                        },
+                        {
+                          "texto": "<center>On Tuesday / On May 1<sup>st</sup></center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>street names</center>"
+                        },
+                        {
+                          "texto": "<center>On Prince Street</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>public transport</center>"
+                        },
+                        {
+                          "texto": "<center>On the train / bus / plane</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>TV / radio / internet</center>"
+                        },
+                        {
+                          "texto": "<center>I watch it on TV</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>AT</b></center>",
+                          "rowspan": 5
+                        },
+                        {
+                          "texto": "<center>events</center>"
+                        },
+                        {
+                          "texto": "<center>At the party</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>specific times</center>"
+                        },
+                        {
+                          "texto": "<center>At quarter to ten</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>night</center>"
+                        },
+                        {
+                          "texto": "<center>At night</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>weekend</center>"
+                        },
+                        {
+                          "texto": "<center>At the weekend / at weekends</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>frequent places</center>"
+                        },
+                        {
+                          "texto": "<center>At work / at the hospital</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>FROM... TO...</b></center>"
+                        },
+                        {
+                          "texto": "<center>how long it lasts</center>"
+                        },
+                        {
+                          "texto": "<center>I work from eight to six</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>TO</b></center>"
+                        },
+                        {
+                          "texto": "<center>go to...</center>"
+                        },
+                        {
+                          "texto": "<center>I go to work</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>UNTIL</b></center>",
+                          "colspan": 2
+                        },
+                        {
+                          "texto": "<center>It opens until seven</center>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "punto": "You know how indicate possession using the Saxon genitive for people (‘s), ‘of’ for things:",
+              "contenido": [
+                {
+                  "punto": "Maria’s car."
+                },
+                {
+                  "punto": "The door of the house."
+                }
+              ]
+            },
+            {
+              "punto": "You learned the possessive adjectives:",
+              "contenido": [
+                {
+                  "punto": "Your book."
+                },
+                {
+                  "punto": "His job."
+                },
+                {
+                  "punto": "Our mother."
+                }
+              ]
+            },
+            {
+              "punto": "You have new vocabulary about the family and relationships (why don’t you have a look again at the vocabulary?)"
+            },
+            {
+              "punto": "You have learned how to describe people using the adjectives from UNIT 1 and new expressions and verb tenses."
+            }
+          ]
+        },
+        {
+          "clase": "acordeon",
+          "contenido": [
+            {
+              "titulo": "New vocabulary from this Unit",
+              "contenido": [
+                {
+                  "clase": "tabla",
+                  "filaTitulos": [
+                    {
+                      "titulo": "ENGLISH"
+                    },
+                    {
+                      "titulo": "SPANISH"
+                    },
+                    {
+                      "titulo": "PRONUNTIATION"
+                    }
+                  ],
+                  "filaContenido": [
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>HEADACHE</b></center>"
+                        },
+                        {
+                          "texto": "<center>DOLOR DE CABEZA</center>"
+                        },
+                        {
+                          "texto": "<center>ˈhɛdeɪk</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>COMPUTER</b></center>"
+                        },
+                        {
+                          "texto": "<center>ORDENADOR</center>"
+                        },
+                        {
+                          "texto": "<center>kəmˈpjuːtə</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>SMARTPHONE</b></center>"
+                        },
+                        {
+                          "texto": "<center>TELÉFONO MÓVIL</center>"
+                        },
+                        {
+                          "texto": "<center>ˈsmɑːtfəʊn/A</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>UMBRELLA</b></center>"
+                        },
+                        {
+                          "texto": "<center>PARAGUAS</center>"
+                        },
+                        {
+                          "texto": "<center>ʌmˈbrɛlə</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>ROOF</b></center>"
+                        },
+                        {
+                          "texto": "<center>TEJADO</center>"
+                        },
+                        {
+                          "texto": "<center>ruːf</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>BUILDING</b></center>"
+                        },
+                        {
+                          "texto": "<center>EDIFICIO</center>"
+                        },
+                        {
+                          "texto": "<center>ˈbɪldɪŋ</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>PRINCIPAL</b></center>"
+                        },
+                        {
+                          "texto": "<center>DIRECTOR</center>"
+                        },
+                        {
+                          "texto": "<center>ˈprɪnsəpəl</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>WEDDING</b></center>"
+                        },
+                        {
+                          "texto": "<center>BODA</center>"
+                        },
+                        {
+                          "texto": "<center>ˈwɛdɪŋ</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>LOST</b></center>"
+                        },
+                        {
+                          "texto": "<center>PERDIDO</center>"
+                        },
+                        {
+                          "texto": "<center>lɒst</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>DREAM</b></center>"
+                        },
+                        {
+                          "texto": "<center>SUEÑO</center>"
+                        },
+                        {
+                          "texto": "<center>driːm</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>BAND</b></center>"
+                        },
+                        {
+                          "texto": "<center>GRUPO DE MÚSICA</center>"
+                        },
+                        {
+                          "texto": "<center>bænd</center>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+                {
+          "clase": "imagen",
+          "imagen": "img/mod04/londonLast2.png"
+        }
+
+      ]
+    },
     {
       "titulo": "Despedida",
       "contenido": [
