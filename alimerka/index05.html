@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="js/externo.js"></script>
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/jquery/jquery-ui.min.js"></script>
+    <script src="js/SCORM_API_wrapper.js"></script>
+    <script src="js/SCOFunctions.js"></script>
+    <script src="../mnt.js"></script>
+    <link rel="stylesheet" type="text/css" href="../base.css" />
+    <script>
+        window.onbeforeunload = function () {
+            CURSO = null;
+            unloadPage();
+    }
+    </script>
+</head>
+<body>
+    <div id="barraCarga">
+        <div class="progress-label">Cargando...</div>
+    </div>
+    <script>CURSO.inicializar("modhor");</script>
+</body>
+</html>

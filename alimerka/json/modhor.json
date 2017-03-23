@@ -1,0 +1,1534 @@
+﻿{
+  "modulo": "HORNEADO",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/modhor/portada.svg"
+    },
+    {
+      "titulo": "Objetivos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "animacion": "slideInRight",
+              "subclase": "recuadro",
+              "texto": "El objetivo de este curso es que te familiarices con los distintos tipos de hornos que puedes encontrar en la sección de panadería de tu tienda y conozcas su funcionamiento y programación.<br><br>También se hará una aproximación muy sencilla y genérica sobre las condiciones que rigen la planificación del horneado y la cocción de los distintos tipos de productos que se trabajan en la sección (pan, pan precocido, pan ecológico, bollería, hojaldre y masa de batido)."
+            },
+            {
+              "clase": "imagen",
+              "animacion": "fadeInRight",
+              "imagen": "img/comunes/madalena.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Introducción",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En la Sección de Panadería se desarrollan una serie de trabajos que hay que realizar con el objetivo de alcanzar los estándares de calidad de la sección, mediante un flujo de trabajo cíclico.<br><br>La actividad de la panadería se ejecuta completando esa serie de procesos en orden, con cierta periodicidad, siguiendo la estructuración:<br><br><center>Proceso -> Tareas -> Operativas</center>"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "animacion": "fadeInRight",
+              "texto": "Esto quiere decir que para completar cada Proceso habrá que ejecutar una serie de Tareas y para completar cada Tarea será necesario realizar varias Operativas."
+            },
+            {
+              "clase": "imagen",
+              "animacion": "fadeInRight",
+              "imagen": "img/modhor/ruedasdentadas.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Procesos",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInRight",
+          "subclase": "recuadro",
+          "texto": "Los Procesos se refieren:<br>1. Al Producto (con vistas a su obtención, elaboración, control y venta) y,<br>2. A la Sección (limpieza y mantenimiento)."
+        },
+        {
+          "clase": "texto",
+          "texto": "A continuación mostramos los Procesos relacionados con la Sección de Panadería y que encontrarás desarrollados en el Módulo correspondiente:<br><br>Procesos de Producto:"
+        },
+        {
+          "clase": "acordeon",
+          "contenido": [
+            {
+              "titulo": "Aprovisionamiento",
+              "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Preparación",
+              "texto": "es el proceso mediante el cual transformamos las existencias que hemos aprovisionado en productos para los clientes.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Punto de venta",
+              "texto": "es el proceso de la exposición del producto en el punto de venta. Incluye tanto la colocación estética del producto como la uniformidad y el etiquetado.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Venta",
+              "texto": "es el proceso de venta del producto y es fundamental para la actividad de la sección, de tal forma que todos los demás procesos funcionan en torno a las necesidades que se generan en este proceso.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Retirada de producto",
+              "texto": "es el proceso de control de producto no vendido y es el último de los procesos relacionados con el producto, y con él se cierra el ciclo de trabajo, volviendo a comenzar con el Aprovisionamiento.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Procesos de Sección"
+        },
+        {
+          "clase": "acordeon",
+          "contenido": [
+            {
+              "titulo": "Sección de panadería",
+              "texto": "es un proceso cuya finalidad supone el mantenimiento de la sección en correcto funcionamiento en cuestiones de higiene, limpieza y conservación.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Tareas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "Cada uno de los Procesos mencionados se subdividen, a su vez, en una serie de Tareas que el profesional ha de llevar a cabo con una determinada temporalidad, siguiendo una serie de pasos y aplicando unas Operativas."
+        },
+        {
+          "clase": "texto",
+          "texto": "Vamos a ver qué Tareas conforman cada uno de los Procesos anteriores:"
+        },
+        {
+          "clase": "acordeonSub",
+          "contenido": [
+            {
+              "titulo": "Aprovisionamiento",
+              "contenido": [
+                {
+                  "titulo": "Pedido",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                },
+                {
+                  "titulo": "Inventario",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                },
+                {
+                  "titulo": "Trazabilidad",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                },
+                {
+                  "titulo": "Almacenaje",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                }
+              ]
+            },
+            {
+              "titulo": "Preparación",
+              "contenido": [
+                {
+                  "titulo": "Fermentación",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                },
+                {
+                  "titulo": "Manipulación",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                },
+                {
+                  "titulo": "Horneado",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                },
+                {
+                  "titulo": "Decoración",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                }
+              ]
+            },
+            {
+              "titulo": "Punto de venta",
+              "contenido": [
+                {
+                  "titulo": "Uniformidad",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                },
+                {
+                  "titulo": "Etiquetado",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                },
+                {
+                  "titulo": "Colocación",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                },
+                {
+                  "titulo": "Reposición",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                }
+              ]
+            },
+            {
+              "titulo": "Venta",
+              "contenido": [
+                {
+                  "titulo": "Embolsado",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                },
+                {
+                  "titulo": "Balanza",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                },
+                {
+                  "titulo": "Gestión de esperas",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                }
+              ]
+            },
+            {
+              "titulo": "Retirada",
+              "contenido": [
+                {
+                  "titulo": "Recogida",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                },
+                {
+                  "titulo": "Residuos",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                }
+              ]
+            },
+            {
+              "titulo": "Sección",
+              "contenido": [
+                {
+                  "titulo": "Limpieza",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                },
+                {
+                  "titulo": "Mantenimiento",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                },
+                {
+                  "titulo": "Incidencias",
+                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
+                  "imagen": "img/modhor/portada.svg",
+                  "ancho": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Tarea: horneado",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "anillas",
+          "texto": "Hemos visto que el Proceso de Preparación de productos de la Sección de Panadería está conformado por 4 Tareas fundamentales: Fermentación, Manipulación, Horneado y Decoración.<br>Es el eje central de este curso desarrollar la Tarea de Horneado."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/modhor/preparacion.svg",
+          "ancho": 600
+        },
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "texto": "<b>Definición:</b><br>El horneado es el proceso por el que el producto de panadería crudo o precocido, a través de un procedimiento de inducción de calor a cierta temperatura y en unos tiempos delimitados se cuece, permitiendo obtener unas piezas listas para su consumo."
+        }
+      ]
+    },
+    {
+      "titulo": "Introducción: Operativas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "Al igual que para poder completar cada Proceso se deben realizar varias Tareas, para poder completar cada Tarea se necesita la realización de unas Operativas de trabajo concretas."
+        },
+        {
+          "clase": "texto",
+          "texto": "En las Operativas se recogen los pasos necesarios que hay que seguir para poder realizarse. Conllevan el cumplimiento de unos registros, de tal manera que sea posible realizar un correcto seguimiento de la actividad y la utilización de unos recursos.<br><br>En este módulo verás algunas Operativas que son una simulación gráfica de la actividad real de la Tarea de Horneado. Esto quiere decir que estarán incluidas todas aquellas operaciones necesarias para la preparación del horno, desde el corte de pan, pasando por las operativas de preparación de los diferentes tipos de masas con las que trabajamos en la Sección: pan, pan precocido, pan ecológico, bollería, hojaldre y masas de batido. También haremos referencia a los tipos de hornos de los que disponemos en tienda."
+        }
+      ]
+    },
+    {
+      "titulo": "Operativas de horneado",
+      "contenido": [
+        {
+          "clase": "lista",
+          "subclase": "celo",
+          "animacion": "fadeInRight",
+          "titulo": "Las Operativas que completan la Tarea de Horneado son:",
+          "contenido": [
+            {
+              "punto": "Programación de horno BAKE."
+            },
+            {
+              "punto": "Programación de horno APH."
+            },
+            {
+              "punto": "Programación de horno SALVA."
+            },
+            {
+              "punto": "Planificación del Horneado."
+            },
+            {
+              "punto": "Corte de Pan."
+            },
+            {
+              "punto": "Horneado con Pan Precocido."
+            },
+            {
+              "punto": "Horneado con Pan Ecológico."
+            },
+            {
+              "punto": "Horneado con Bollería."
+            },
+            {
+              "punto": "Horneado con Hojaldre."
+            },
+            {
+              "punto": "Horneado con Batidos."
+            },
+            {
+              "punto": "También vamos a incluir en esta sección de la Preparación:",
+              "contenido": [
+                {
+                  "punto": "Defectos del pan."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Asociado a estas operativas se encuentran la Periodicidad y el Procedimiento."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+
+
+        {
+          "clase": "acordeon",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Periodicidad",
+              "texto": "Todos los días."
+            }
+          ]
+        },
+            {
+              "clase": "acordeon",
+              "animacion": "fadeInRight",
+              "contenido": [
+                {
+                  "titulo": "Procedimiento",
+                  "texto": "Introducción del producto en el horno, programación del horno, sacar el producto horneado."
+                }
+              ]
+            }
+                      ]
+        }
+      ]
+    },
+    {
+      "titulo": "Los hornos",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Dependiendo de la tienda en la que te encuentres, en la Sección de Panadería encontrarás alguno de los siguientes tipos de horno:"
+        },
+        {
+          "clase": "acordeonSub",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Horno BAKE",
+              "texto": "Horno de programación manual.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Horno APH",
+              "texto": "Horno con pantalla táctil. La programación puede realizarse de forma manual o automática.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Horno SALVA",
+              "texto": "Horno de programación manual o automática.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Vamos a ver a continuación las Operativas de Programación para saber cómo funciona cada uno de ellos."
+        }
+      ]
+    },
+    {
+      "titulo": "Mandos de horno BAKE",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "imagen": "img/modhor/mandosBake.png",
+          "ancho": 500
+        }
+      ]
+    },
+    {
+      "titulo": "Programación de horno BAKE",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<center><b>Denominación de Operativa:</b> Programación de horno BAKE</center><br><br>Vamos a ver cómo realizar el proceso de programación del horno BAKE, de forma manual:"
+        },
+        {
+          "clase": "sliderB",
+          "contenido": [
+            {
+              "titulo": "Paso 1: Encendido del horno",
+              "texto": "El botón de Encendido / Apagado nos permitirá encender el horno girando el interruptor hacia la derecha.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 2: Activación de temperatura",
+              "texto": "Para poder seleccionar la temperatura debemos pulsar el botón de Activar / Confirmar (marcado en azul). Con esta primera pulsación se inicia el modo Activar y la pantalla que está justo encima (marcada en rojo) empezará a parpadear.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 3: Selección de temperatura",
+              "texto": "En el momento en que la pantalla esté parpadeando, podemos ajustar la temperatura mediante las teclas de Subir o Bajar (marcadas en amarillo) hasta alcanzar los grados deseados.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 4: Confirmación de temperatura",
+              "texto": "Cuando tengamos los grados centígrados que queremos marcados en la pantalla, volvemos a pulsar el botón de Activar / Confirmar para entrar en el modo Confirmar y validar esa temperatura.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 5: Introducción de producto",
+              "texto": "Metemos los productos que vayamos a hornear dentro del horno y tras asegurarnos de cerrar la puerta, pulsamos el botón que inicia el proceso de vaporización (marcado en naranja).",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 6: Temporizador de cocción",
+              "texto": "Para programar el tiempo que nos va a llevar la cocción de los productos, marcamos el tiempo de cocción girando la rosca del reloj  (marcada en color rosa) hasta la posición deseada.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 7: Aviso de finalización",
+              "texto": "Para no tener que estar pendientes del tiempo de cocción, activaremos el timbre de aviso (marcado en violeta) de finalización de la cocción.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "<b>Paso 8: Finalización de cocción</b>",
+              "texto": "Una vez finalizado el tiempo de cocción, giraremos de nuevo la tecla del timbre de aviso (marcado en violeta) en sentido contrario para desactivar el aviso sonoro.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+                        {
+              "titulo": "<b>Especial</b>",
+              "texto": "Durante el horneado puede ser necesario abrir el tiro del horno (por ejemplo en horneados de pan y hojaldre). Para hacerlo deberemos activar la apertura del tiro (marcado en rojo en la imagen) girando la rosca dispuesta para ello.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "titulo": "Programación manual de horno APH",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<center><b>Denominación de Operativa:</b> Programación de horno APH</center><br><br>Podemos realizar el proceso de programación del horno APH de forma automática o bien de forma manual.<br>Vamos a ver primero la programación manual:"
+        },
+        {
+          "clase": "sliderB",
+          "contenido": [
+            {
+              "titulo": "Paso 1: Cambio de modo automático / manual",
+              "texto": "La programación del horno APH se realiza desde la pantalla táctil. Por defecto el horno nos permite el acceso al modo automático, por lo que para activar el modo manual hemos de pulsar la flecha de la esquina superior derecha (marcada en amarillo).",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 2: Confirmación de cambio de modo",
+              "texto": "Se nos preguntará si queremos abandonar el modo automático, por lo que la pantalla mostrará el mensaje: “Realmente desea salir del modo automático y volver al menú principal”. Pulsamos SÍ para confirmar que queremos acceder al modo manual.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 3: Modificación de temperatura",
+              "texto": "Ahora la pantalla nos mostrará las opciones para realizar los cambios en los parámetros de la cocción: temperatura y tiempo. Pulsamos el botón de la izquierda para modificar la temperatura.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 4: Selección de la temperatura",
+              "texto": "Aparecerá un teclado numérico sobre el cual podemos marcar los grados centígrados que deseamos programar. Una vez introducidos, debemos guardar la temperatura pulsando el botón de confirmar (señalado en azul en la imagen).",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 5: Modificación del tiempo",
+              "texto": "Al igual que hemos hecho con la temperatura, podemos modificar el tiempo de cocción pulsando sobre el botón de la derecha.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 6: Selección del tiempo",
+              "texto": "Aparecerá, de nuevo, el teclado numérico sobre el cual podemos marcar el tiempo que deseamos programar. Una vez introducido, debemos guardarlo pulsando el botón de confirmar (señalado en azul en la imagen).",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 7: Inicio de cocción",
+              "texto": "Regresamos al menú principal de la pantalla pulsando la flecha de la izquierda (señalada en color naranja) y confirmamos el inicio de cocción pulsando el botón On/Off.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "titulo": "Programación automática de horno APH",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<center><b>Denominación de Operativa:</b> Programación de horno APH</center><br><br>Podemos realizar el proceso de programación del horno APH de forma automática o bien de forma manual.<br>Ahora vamos a ver cómo es la programación automática::"
+        },
+        {
+          "clase": "sliderB",
+          "contenido": [
+            {
+              "titulo": "INICIO DE PROGRAMA AUTOMÁTICO<br>Paso 1: Inicio",
+              "texto": "Por defecto el horno ya nos ofrece el acceso al modo automático, por lo que tan solo hemos de pulsar el botón de inicio (señalado en la imagen en amarillo).",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "INICIO DE PROGRAMA AUTOMÁTICO<br>Paso 2: Confirmación de incio de cocción",
+              "texto": "Para confirmar el inicio de la cocción pulsaremos el botón On/Off.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "FIN DE PROGRAMA AUTOMÁTICO<br>Paso 1: Fin del proceso automático",
+              "texto": "Cuando el proceso automático ha terminado pulsamos 3 veces la flecha de bajada, que está en la esquina superior izquierda de la pantalla táctil (marcada en naranja en la imagen).",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "FIN DE PROGRAMA AUTOMÁTICO<br>Paso 2: Confirmación de fin de proceso",
+              "texto": "Nos aparece una nueva ventana que nos muestra las posibilidades del modo automático y confirmamos el fin del proceso pulsando el botón FIN (marcado en rojo en la imagen).",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Programación manual de horno SALVA",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<center><b>Denominación de Operativa:</b> Programación de horno SALVA</center><br><br>Podemos realizar el proceso de programación del horno SALVA de forma automática o bien de forma manual. Vamos a ver primero la programación manual:"
+        },
+        {
+          "clase": "sliderB",
+          "contenido": [
+            {
+              "titulo": "Paso 1: Inicio de funcionamiento",
+              "texto": "Lo primero de todo es iniciar el funcionamiento del horno. Para ello, hemos de pulsar el botón PROG que encontrarás en la esquina inferior derecha del panel de mandos (marcado en amarillo en la imagen).",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 2: Calentamiento del horno",
+              "texto": "Para que se inicie el calentamiento del horno hemos de ir al panel de programas (marcado en azul en la imagen) y pulsamos el botón correspondiente al programa 1, inicial (marcado en rojo).",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 3: Selección de programas",
+              "texto": "En este momento debemos seleccionar TODOS los programas que queramos que se vayan ejecutando.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 4: Inicio del proceso",
+              "texto": "Para comenzar el horneado solamente nos queda pulsar el botón de Start / Stop que puedes encontrar en la esquina inferior izquierda (marcado en verde en la imagen).",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Programación automática de horno SALVA",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<center><b>Denominación de Operativa:</b> Programación de horno SALVA</center><br><br>Podemos realizar el proceso de programación del horno SALVA de forma automática o bien de forma manual. Ahora veremos como es la programación automática:"
+        },
+        {
+          "clase": "sliderB",
+          "contenido": [
+            {
+              "titulo": "Paso 1: Entrar en modo programación",
+              "texto": "Para que el horno active el modo programación debemos pulsar el botón 1 del panel de programas (marcado en azul en la imagen) y continuamos pulsando el botón Star/Stop de la esquina inferior izquierda (marcado en verde).",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 2: Introducción de programa",
+              "texto": ". Ahora el horno se encuentra activo para introducir nuevos programas en su memoria, y para hacerlo seleccionaremos uno de los botones numerados del panel de programas en el cual queremos guardar los parámetros del proceso.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 3: Introducción de la temperatura",
+              "texto": "Con las flechas de subir o bajar que están marcadas en rojo en la imagen, podemos seleccionar la temperatura que deseamos programar. La pantalla que queda entre ambas flechas nos muestra la selección actual.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 4: Introducción del tiempo",
+              "texto": "Al igual que con la temperatura, las flechas de subir o bajar (marcadas en naranja) nos permiten seleccionar la duración del programa. La pantalla que está justo por encima de ambas flechas nos muestra la selección actual.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 5: Grabación del programa",
+              "texto": "Para grabar el programa con los parámetros que hemos marcado, pulsamos el botón PROG (señalado con el color violeta en la imagen) y confirmamos pulsando el botón Start/Stop (marcado en color verde).",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "Paso 6: Vuelta al estado de espera",
+              "texto": "Ya tenemos grabado y guardado el programa en la memoria del horno, por lo que podemos regresar al estado de espera / inicial del horno. Para ello pulsamos el botón 1 del panel de programas.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            },
+            {
+              "titulo": "",
+              "texto": "Si queremos hacer una comprobación, podemos pulsar el número del programa que elegimos para guardar el proceso en el panel de programas.",
+              "imagen": "img/modhor/mandosBake.png",
+              "ancho": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Operativas de horneado",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Las operativas que veremos a continuación son todas aquellas relacionadas con el horneado del producto, desde la planificación del horneado hasta el proceso de cocción de los diferentes tipos de productos con los que trabajamos en la Sección de Panadería: pan, pan precocido, pan ecológico, bollería, hojaldre y masas de batido."
+        },
+        {
+          "clase": "lista",
+          "titulo": "Con objeto de facilitarte su aprendizaje todas ellas están diseñadas de la misma manera, siguiendo la siguiente estructura:",
+          "contenido": [
+            {
+              "punto": "<b>Denominación de la Operativa</b>"
+            },
+            {
+              "punto": "<b>Recursos necesarios para desarrollarla</b>"
+            },
+            {
+              "punto": "<b>Registros asociados</b>"
+            },
+            {
+              "punto": "<b>Observaciones</b>"
+            },
+            {
+              "punto": "<b>Procedimiento para realizar la Operativa</b> (en su caso)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Planificación de horneado",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "definición",
+          "texto": "<b>1. Denominación de Operativa:</b><br>Planificación del Horneado."
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>2. Recursos:</b><br>Para poder realizar esta operativa serán necesarios los siguientes recursos:"
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "Profesional de panadería",
+              "texto": "Es el profesional responsable de ejecutar las tareas y procedimientos.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Horno",
+              "texto": "Equipo necesario para poder cocer los productos de la sección.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "subclase": "anillas vertical",
+          "texto": "<b>3. ¿Qué registro o registros están asociados a esta Operativa?</b><br>No hay registros."
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Arrastra cada producto a una categoría de tal manera que no quede ninguna vacía."
+        },
+        {
+          "clase": "autoevalArrastrar",
+          "contenedores": [
+            {
+              "clase": "caja",
+              "texto": "Tamaño: Grande",
+              "data_id": 1
+            },
+            {
+              "clase": "caja",
+              "texto": "Tipo de Masa: Hojaldre",
+              "data_id": 2
+            },
+            {
+              "clase": "caja",
+              "texto": "Relleno: Queso azul",
+              "data_id": 3
+            },
+            {
+              "clase": "caja",
+              "texto": "Ingredientes: Harina integral de centeno",
+              "data_id": 4
+            },
+            {
+              "clase": "caja",
+              "texto": "Relleno: Jamón York y Queso",
+              "data_id": 5
+            },
+            {
+              "clase": "caja",
+              "texto": "Tamaño: Mini",
+              "data_id": 6
+            },
+            {
+              "clase": "caja",
+              "texto": "Relleno: Salchicha Frankfurt",
+              "data_id": 7
+            },
+            {
+              "clase": "caja",
+              "texto": "Relleno: Pollo y Champiñones",
+              "data_id": 8
+            },
+            {
+              "clase": "caja",
+              "texto": "Tipo de Masa: Empanada gallega",
+              "data_id": 9
+            },
+            {
+              "clase": "caja",
+              "texto": "Tamaño: Bollo",
+              "data_id": 10
+            }
+
+          ],
+          "contenidos": [
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado01.png",
+              "data_caja": 3
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado02.png",
+              "data_caja": 5
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado03.png",
+              "data_caja": 8
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado04.png",
+              "data_caja": 7
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado05.png",
+              "data_caja": 10
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado06.png",
+              "data_caja": 4
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado07.png",
+              "data_caja": 9
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado08.png",
+              "data_caja": 2
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado09.png",
+              "data_caja": 6
+            },
+            {
+              "clase": "imagen",
+              "subclase": "draggable",
+              "imagen": "img/m4.3/autoeval/salado10.png",
+              "data_caja": 1
+            }
+
+          ],
+          "solucion": "img/m4.3/autoeval/solucion.png"
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación 2",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.3/autoeval2/salado01.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "TAMAÑO"
+                },
+                {
+                  "titulo": "TIPO DE MASA"
+                },
+                {
+                  "titulo": "RELLENO"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Hojaldre"
+                    },
+                    {
+                      "texto": "Atún"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo"
+                    },
+                    {
+                      "texto": "Bollería"
+                    },
+                    {
+                      "texto": "Jamón York"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mini"
+                    },
+                    {
+                      "texto": "Pan"
+                    },
+                    {
+                      "texto": "Carne"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Pieza"
+                    },
+                    {
+                      "texto": "Empanada Gallega"
+                    },
+                    {
+                      "texto": "Pollo"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo pequeño"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "Chorizo"
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 3 ],
+                [ 1, 2 ],
+                [ 2, 1 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación 3",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.3/autoeval2/salado02.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "TAMAÑO"
+                },
+                {
+                  "titulo": "TIPO DE MASA"
+                },
+                {
+                  "titulo": "RELLENO"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Hojaldre"
+                    },
+                    {
+                      "texto": "Atún"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo"
+                    },
+                    {
+                      "texto": "Bollería"
+                    },
+                    {
+                      "texto": "Jamón York"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mini"
+                    },
+                    {
+                      "texto": "Pan"
+                    },
+                    {
+                      "texto": "Carne"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Pieza"
+                    },
+                    {
+                      "texto": "Empanada Gallega"
+                    },
+                    {
+                      "texto": "Pollo"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo pequeño"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "Chorizo"
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 4 ],
+                [ 1, 2 ],
+                [ 2, 4 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación 4",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.3/autoeval2/salado03.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "TAMAÑO"
+                },
+                {
+                  "titulo": "TIPO DE MASA"
+                },
+                {
+                  "titulo": "RELLENO"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Hojaldre"
+                    },
+                    {
+                      "texto": "Atún"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo"
+                    },
+                    {
+                      "texto": "Bollería"
+                    },
+                    {
+                      "texto": "Jamón York"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mini"
+                    },
+                    {
+                      "texto": "Pan"
+                    },
+                    {
+                      "texto": "Carne"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Pieza"
+                    },
+                    {
+                      "texto": "Empanada Gallega"
+                    },
+                    {
+                      "texto": "Pollo"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo pequeño"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "Chorizo"
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 2 ],
+                [ 1, 1 ],
+                [ 2, 1 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación 5",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.3/autoeval2/salado04.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "TAMAÑO"
+                },
+                {
+                  "titulo": "TIPO DE MASA"
+                },
+                {
+                  "titulo": "RELLENO"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Hojaldre"
+                    },
+                    {
+                      "texto": "Atún"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo"
+                    },
+                    {
+                      "texto": "Bollería"
+                    },
+                    {
+                      "texto": "Jamón York"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mini"
+                    },
+                    {
+                      "texto": "Pan"
+                    },
+                    {
+                      "texto": "Carne"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Pieza"
+                    },
+                    {
+                      "texto": "Empanada Gallega"
+                    },
+                    {
+                      "texto": "Pollo"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo pequeño"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "Chorizo"
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 3 ],
+                [ 1, 3 ],
+                [ 2, 0 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación 6",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+        },
+        {
+          "clase": "autoevalTabla",
+          "imagen": "img/m4.3/autoeval2/salado05.png",
+          "tabla": [
+            {
+              "clase": "tabla",
+              "subclase": "rebordeHover",
+              "filaTitulos": [
+                {
+                  "titulo": "TAMAÑO"
+                },
+                {
+                  "titulo": "TIPO DE MASA"
+                },
+                {
+                  "titulo": "RELLENO"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Grande"
+                    },
+                    {
+                      "texto": "Hojaldre"
+                    },
+                    {
+                      "texto": "Atún"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo"
+                    },
+                    {
+                      "texto": "Bollería"
+                    },
+                    {
+                      "texto": "Jamón York"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Mini"
+                    },
+                    {
+                      "texto": "Pan"
+                    },
+                    {
+                      "texto": "Carne"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Pieza"
+                    },
+                    {
+                      "texto": "Empanada Gallega"
+                    },
+                    {
+                      "texto": "Pollo"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bollo pequeño"
+                    },
+                    {
+                      "texto": "--"
+                    },
+                    {
+                      "texto": "Chorizo"
+                    }
+                  ]
+                }
+              ],
+              "respuestas": [
+                [ 0, 0 ],
+                [ 1, 3 ],
+                [ 2, 3 ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "titulo": "Autoevaluación 7",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "flash",
+          "texto": "Pincha y arrastra con el ratón para marcar una palabra."
+        },
+        {
+          "clase": "juegoSopaLetras",
+          "pistas": [
+            {
+              "palabra": "salados",
+              "definicion": "Grupo de productos entre los que se encuentra la empanada"
+            },
+            {
+              "palabra": "trigo",
+              "definicion": "El cereal del que proviene la harina más utilizada en los panes"
+            },
+            {
+              "palabra": "conservacion",
+              "definicion": "Categoría que indica la mejor manera de guardar el producto"
+            },
+            {
+              "palabra": "decoracion",
+              "definicion": "Sirve para mejorar la estética  o el sabor del producto"
+            },
+            {
+              "palabra": "precio",
+              "definicion": "Indica cuánto cuesta un producto"
+            },
+            {
+              "palabra": "digestivos",
+              "definicion": "Grupo de productos que favorecen la digestión"
+            },
+            {
+              "palabra": "nuez",
+              "definicion": "Fruto seco con el que se elabora el relleno de la Casadiella"
+            },
+            {
+              "palabra": "confitada",
+              "definicion": "Tipo de fruta que se utiliza para decoración, por ejemplo, del Roscón de Reyes"
+            },
+            {
+              "palabra": "nata",
+              "definicion": "Derivado de la leche que se emplea como relleno principal de muchos productos"
+            },
+            {
+              "palabra": "horno",
+              "definicion": "Máquina donde se hornea el pan"
+            },
+            {
+              "palabra": "levadura",
+              "definicion": "Provoca la fermentación del pan"
+            },
+            {
+              "palabra": "chorizo",
+              "definicion": "Es el relleno de los bollos 'preñaos'"
+            },
+            {
+              "palabra": "hojaldre",
+              "definicion": "Tipo de masa que tiene muchas capas superpuestas"
+            },
+            {
+              "palabra": "glaseado",
+              "definicion": "Capa visible hecha con azúcar glass y agua utilizada para decorar"
+            },
+            {
+              "palabra": "pastelera",
+              "definicion": "Se dice de la crema con la que se rellenan muchos productos dulces"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Aprendizaje",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En este módulo has podido identificar cuáles son las <b>categorías</b> más significativas de cara al cliente para cada grupo de productos de la sección de panadería.<br><br>Has descubierto cuáles son los <b>formatos</b> en los que se agrupan, los tamaños y <b>tipos de masa</b> más habituales de los productos salados, las principales operativas de <b>relleno</b> y los <b>ingredientes</b> más básicos de su composición, así como otras categorías.<br><br>Con este módulo hemos llegado al final del curso de \"Conocimiento de Producto: Sección de Panadería\". Esperamos haber sido de ayuda para que pudieras dar el primer paso en el camino de convertirte en un <b>profesional experto</b> en la venta de productos de panadería.<br><br>¡Te esperamos con nuestros siguientes cursos para seguir caminando juntos!<br><br>¡Gracias!"
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarDcha",
+              "imagen": "img/m4.3/ventaPan.png",
+              "ancho": 500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Final del módulo",
+      "fondo": "img/comunes/contraportada.jpg",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "animacion": "slideInRight",
+          "imagen": "img/comunes/contraportadaImg.svg"
+        }
+      ]
+    }
+  ]
+}

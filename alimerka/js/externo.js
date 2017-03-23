@@ -28,6 +28,14 @@
                 "js/wordsearch/wordfindgame.js",
                 "js/bootstrap/bootstrap.min.js"]);
             break;
+        case "modhor":
+            arrayFinal = arrayComun.concat([
+                "js/bootstrap/bootstrap.min.js",
+                "js/slideshow/pgwslideshow.min.js",
+                "js/wordsearch/wordfind.js",
+                "js/wordsearch/wordfindgame.js",
+                "js/bootstrap/bootstrap.min.js"]);
+            break;
         default:arrayFinal = arrayComun;
     }
     return arrayFinal;
@@ -64,6 +72,14 @@ function getArrayCSS(modulo) {
             arrayFinal = arrayComun.concat([
 			"css/bootstrap/bootstrap.min.css",
 			"css/wordsearch/style.css"
+            ])
+            break;
+        case "modhor":
+            arrayFinal = arrayComun.concat([
+            "css/bootstrap/bootstrap.min.css",
+            "css/slideshow/pgwslideshow.min.css",
+			"css/oy-cword-1.0/base.css",
+            "css/asAccordion/asAccordion.min.css"
             ])
             break;
         default: arrayFinal = arrayComun;;
