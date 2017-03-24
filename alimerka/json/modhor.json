@@ -375,18 +375,16 @@
         {
           "clase": "listaObjetos",
           "contenido": [
-
-
-        {
-          "clase": "acordeon",
-          "animacion": "fadeInRight",
-          "contenido": [
             {
-              "titulo": "Periodicidad",
-              "texto": "Todos los días."
-            }
-          ]
-        },
+              "clase": "acordeon",
+              "animacion": "fadeInRight",
+              "contenido": [
+                {
+                  "titulo": "Periodicidad",
+                  "texto": "Todos los días."
+                }
+              ]
+            },
             {
               "clase": "acordeon",
               "animacion": "fadeInRight",
@@ -397,7 +395,7 @@
                 }
               ]
             }
-                      ]
+          ]
         }
       ]
     },
@@ -506,7 +504,7 @@
               "imagen": "img/modhor/mandosBake.png",
               "ancho": 400
             },
-                        {
+            {
               "titulo": "<b>Especial</b>",
               "texto": "Durante el horneado puede ser necesario abrir el tiro del horno (por ejemplo en horneados de pan y hojaldre). Para hacerlo deberemos activar la apertura del tiro (marcado en rojo en la imagen) girando la rosca dispuesta para ello.",
               "imagen": "img/modhor/mandosBake.png",
@@ -516,7 +514,7 @@
         }
       ]
     },
-        {
+    {
       "titulo": "Programación manual de horno APH",
       "contenido": [
         {
@@ -572,7 +570,7 @@
         }
       ]
     },
-        {
+    {
       "titulo": "Programación automática de horno APH",
       "contenido": [
         {
@@ -735,7 +733,7 @@
       ]
     },
     {
-      "titulo": "Planificación de horneado",
+      "titulo": "Planificación del horneado",
       "contenido": [
         {
           "clase": "icono",
@@ -771,234 +769,50 @@
       ]
     },
     {
-      "titulo": "Autoevaluación",
+      "titulo": "Planificación del horneado: Observaciones",
       "contenido": [
         {
           "clase": "texto",
-          "subclase": "instruccion",
-          "animacion": "flash",
-          "texto": "Arrastra cada producto a una categoría de tal manera que no quede ninguna vacía."
+          "texto": "En la mayor parte de las tiendas están a tu disposición 2 fermentadoras y 2 hornos para que puedas planificar la preparación de fermentaciones y de hornadas."
         },
         {
-          "clase": "autoevalArrastrar",
-          "contenedores": [
+          "clase": "listaObjetos",
+          "contenido": [
             {
-              "clase": "caja",
-              "texto": "Tamaño: Grande",
-              "data_id": 1
+              "clase": "texto",
+              "texto": "Teniendo en cuenta que la jornada es de 9:00 h. a 21:30 h, podemos seguir una planificación como la que se muestra en la imagen:"
             },
             {
-              "clase": "caja",
-              "texto": "Tipo de Masa: Hojaldre",
-              "data_id": 2
-            },
-            {
-              "clase": "caja",
-              "texto": "Relleno: Queso azul",
-              "data_id": 3
-            },
-            {
-              "clase": "caja",
-              "texto": "Ingredientes: Harina integral de centeno",
-              "data_id": 4
-            },
-            {
-              "clase": "caja",
-              "texto": "Relleno: Jamón York y Queso",
-              "data_id": 5
-            },
-            {
-              "clase": "caja",
-              "texto": "Tamaño: Mini",
-              "data_id": 6
-            },
-            {
-              "clase": "caja",
-              "texto": "Relleno: Salchicha Frankfurt",
-              "data_id": 7
-            },
-            {
-              "clase": "caja",
-              "texto": "Relleno: Pollo y Champiñones",
-              "data_id": 8
-            },
-            {
-              "clase": "caja",
-              "texto": "Tipo de Masa: Empanada gallega",
-              "data_id": 9
-            },
-            {
-              "clase": "caja",
-              "texto": "Tamaño: Bollo",
-              "data_id": 10
+              "clase": "imagen",
+              "imagen": "img/modhor/p290.png"
             }
-
-          ],
-          "contenidos": [
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.3/autoeval/salado01.png",
-              "data_caja": 3
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.3/autoeval/salado02.png",
-              "data_caja": 5
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.3/autoeval/salado03.png",
-              "data_caja": 8
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.3/autoeval/salado04.png",
-              "data_caja": 7
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.3/autoeval/salado05.png",
-              "data_caja": 10
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.3/autoeval/salado06.png",
-              "data_caja": 4
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.3/autoeval/salado07.png",
-              "data_caja": 9
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.3/autoeval/salado08.png",
-              "data_caja": 2
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.3/autoeval/salado09.png",
-              "data_caja": 6
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/m4.3/autoeval/salado10.png",
-              "data_caja": 1
-            }
-
-          ],
-          "solucion": "img/m4.3/autoeval/solucion.png"
-        }
-      ]
-    },
-    {
-      "titulo": "Autoevaluación 2",
-      "contenido": [
+          ]
+        },
         {
           "clase": "texto",
-          "subclase": "instruccion",
-          "animacion": "flash",
-          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+          "texto": "No obstante, hay que tener en cuenta que hay una serie de productos que, por sus características, están asociados a unos horarios, en cierta manera, establecidos (productos para desayunar, para acompañar las comidas, para meriendas…).<br>Es fundamental, por tanto, para planificar correctamente el horneado, que tengamos en cuenta dos variables:"
         },
         {
-          "clase": "autoevalTabla",
-          "imagen": "img/m4.3/autoeval2/salado01.png",
-          "tabla": [
+          "clase": "listaObjetos",
+          "contenido": [
             {
-              "clase": "tabla",
-              "subclase": "rebordeHover",
-              "filaTitulos": [
+              "clase": "acordeon",
+              "animacion": "fadeInRight",
+              "contenido": [
                 {
-                  "titulo": "TAMAÑO"
-                },
-                {
-                  "titulo": "TIPO DE MASA"
-                },
-                {
-                  "titulo": "RELLENO"
+                  "titulo": "Temporalidad",
+                  "texto": "Existen cierto productos que deben prepararse en base a un rango temporal. Así, por ejemplo:<br><b>1. Antes de las 9:00:</b> Tenemos que tener preparados pan y bollería.<br><b>2. Entre las 10:00 y las 12:00:</b> Preparamos el hojaldre del día.<br><b>3. A lo largo de la jornada:</b> Los productos derivados de los batidos."
                 }
-              ],
-              "filaContenido": [
+              ]
+            },
+            {
+              "clase": "acordeon",
+              "animacion": "fadeInRight",
+              "contenido": [
                 {
-                  "fila": [
-                    {
-                      "texto": "Grande"
-                    },
-                    {
-                      "texto": "Hojaldre"
-                    },
-                    {
-                      "texto": "Atún"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Bollo"
-                    },
-                    {
-                      "texto": "Bollería"
-                    },
-                    {
-                      "texto": "Jamón York"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Mini"
-                    },
-                    {
-                      "texto": "Pan"
-                    },
-                    {
-                      "texto": "Carne"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Pieza"
-                    },
-                    {
-                      "texto": "Empanada Gallega"
-                    },
-                    {
-                      "texto": "Pollo"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Bollo pequeño"
-                    },
-                    {
-                      "texto": "--"
-                    },
-                    {
-                      "texto": "Chorizo"
-                    }
-                  ]
+                  "titulo": "Cantidad y variedad",
+                  "texto": "Para solventar este punto hemos de tener en cuenta que serán los propios clientes quienes marquen las prioridades de producción según su consumo. Se trata de satisfacer las necesidades de los clientes pero, también, hay que tener en cuenta la sugerencia de nuevos productos, por lo que es conveniente no repetir continuamente las mismas referencias y realizar alguna apuesta dentro de la variedad."
                 }
-              ],
-              "respuestas": [
-                [ 0, 3 ],
-                [ 1, 2 ],
-                [ 2, 1 ]
               ]
             }
           ]
@@ -1006,103 +820,139 @@
       ]
     },
     {
-      "titulo": "Autoevaluación 3",
+      "titulo": "Incompatibilidades",
       "contenido": [
         {
           "clase": "texto",
-          "subclase": "instruccion",
-          "animacion": "flash",
-          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+          "texto": "La Sección de Panadería cuenta con los siguientes tipos de producto: Pan, Pan Precocido, Bollería, Hojaldre y Masas de Batido.<br><br>Y no todos ellos son compatibles de hornear juntos, por lo que a continuación te mostramos las diferentes posibilidades de combinación para el horneado:"
         },
         {
-          "clase": "autoevalTabla",
-          "imagen": "img/m4.3/autoeval2/salado02.png",
-          "tabla": [
+          "clase": "imagen",
+          "imagen": "img/modhor/incompatibilidades.png"
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "<b>Importante:</b><br>1. Está terminantemente prohibido coger cualquier tipo de producto de la sala o de otras secciones de la tienda (jamón, queso, lechuga, etc.)<br>2. Para informar a nuestros compañeros de que el carro del horno está aún caliente, colocaremos encima de él los guantes de seguridad como advertencia."
+        }
+      ]
+    },
+    {
+      "titulo": "Corte de pan",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "definición",
+          "texto": "<b>1. Denominación de Operativa:</b><br>Corte de pan"
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>2. Recursos:</b><br>Para poder realizar esta operativa serán necesarios los siguientes recursos:"
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
             {
-              "clase": "tabla",
-              "subclase": "rebordeHover",
-              "filaTitulos": [
+              "titulo": "Profesional de panadería",
+              "texto": "Es el profesional responsable de ejecutar las tareas y procedimientos.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Cuchillas",
+              "texto": "Son los utensilios cortantes que utilizamos para realizar los cortes de pan, previo al horneado.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Soporte de cuchillas",
+              "texto": "Es la base imantada para colocar las cuchillas de corte mientras no se estén utilizando.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Bandejas de canal",
+              "texto": "Son las bandejas con ondulaciones a modo de canales que permiten colocar el producto de forma separada para su horneado.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "subclase": "anillas vertical",
+          "texto": "<b>3. ¿Qué registro o registros están asociados a esta Operativa?</b><br>No hay registros."
+        }
+      ]
+    },
+    {
+      "titulo": "Corte de pan: Observaciones",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Las cuchillas utilizadas para el corte de pan serán exclusivamente las proporcionadas desde el almacén de Masas Congeladas."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Solo debe haber un máximo de dos cuchillas en la sección y cuando no se estén utilizando deben permanecer en un imán exclusivo para ellas y que irá colocado a la altura del fregadero."
+            },
+            {
+              "clase": "icono",
+              "subclase": "exclamacion picos",
+              "texto": "Cuando sea necesario cambiarlas, bien porque se encuentren desgastadas, se hayan roto o cualquier otro motivo, se debe comunicar al encargado/a, quien será la responsable de proporcionar una nueva cuchilla (este punto estará desarrollado en la operativa de “cambio de cuchilla”, perteneciente a la Tarea:<br>Mantenimiento del Proceso: Sección."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Los cortes se realizarán teniendo en cuenta la proporcionalidad de la barra. Así se han dispuesto los siguientes cortes:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "acordeon",
+              "animacion": "fadeInRight",
+              "contenido": [
                 {
-                  "titulo": "TAMAÑO"
+                  "titulo": "Barras de medio",
+                  "texto": "5 cortes."
                 },
                 {
-                  "titulo": "TIPO DE MASA"
-                },
-                {
-                  "titulo": "RELLENO"
+                  "titulo": "Barras de cuarto",
+                  "texto": "2 cortes."
                 }
-              ],
-              "filaContenido": [
+              ]
+            },
+            {
+              "clase": "acordeon",
+              "animacion": "fadeInRight",
+              "contenido": [
                 {
-                  "fila": [
-                    {
-                      "texto": "Grande"
-                    },
-                    {
-                      "texto": "Hojaldre"
-                    },
-                    {
-                      "texto": "Atún"
-                    }
-                  ]
+                  "titulo": "Baguette",
+                  "texto": "6-7 cortes."
                 },
                 {
-                  "fila": [
-                    {
-                      "texto": "Bollo"
-                    },
-                    {
-                      "texto": "Bollería"
-                    },
-                    {
-                      "texto": "Jamón York"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Mini"
-                    },
-                    {
-                      "texto": "Pan"
-                    },
-                    {
-                      "texto": "Carne"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Pieza"
-                    },
-                    {
-                      "texto": "Empanada Gallega"
-                    },
-                    {
-                      "texto": "Pollo"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Bollo pequeño"
-                    },
-                    {
-                      "texto": "--"
-                    },
-                    {
-                      "texto": "Chorizo"
-                    }
-                  ]
+                  "titulo": "Barra sin sal",
+                  "texto": "1 corte"
                 }
-              ],
-              "respuestas": [
-                [ 0, 4 ],
-                [ 1, 2 ],
-                [ 2, 4 ]
+              ]
+            },
+            {
+              "clase": "acordeon",
+              "animacion": "fadeInRight",
+              "contenido": [
+                {
+                  "titulo": "Piragua",
+                  "texto": "1 corte"
+                },
+                {
+                  "titulo": "Pan de la abuela",
+                  "texto": "Cortes en forma de V."
+                }
               ]
             }
           ]
@@ -1110,391 +960,659 @@
       ]
     },
     {
-      "titulo": "Autoevaluación 4",
+      "titulo": "Horneado con pan",
       "contenido": [
         {
-          "clase": "texto",
-          "subclase": "instruccion",
-          "animacion": "flash",
-          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+          "clase": "icono",
+          "subclase": "definición",
+          "texto": "<b>1. Denominación de Operativa:</b><br>Horneado con pan"
         },
         {
-          "clase": "autoevalTabla",
-          "imagen": "img/m4.3/autoeval2/salado03.png",
-          "tabla": [
+          "clase": "texto",
+          "texto": "<b>2. Recursos:</b><br>Para poder realizar esta operativa serán necesarios los siguientes recursos:"
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
             {
-              "clase": "tabla",
-              "subclase": "rebordeHover",
-              "filaTitulos": [
-                {
-                  "titulo": "TAMAÑO"
-                },
-                {
-                  "titulo": "TIPO DE MASA"
-                },
-                {
-                  "titulo": "RELLENO"
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "Grande"
-                    },
-                    {
-                      "texto": "Hojaldre"
-                    },
-                    {
-                      "texto": "Atún"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Bollo"
-                    },
-                    {
-                      "texto": "Bollería"
-                    },
-                    {
-                      "texto": "Jamón York"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Mini"
-                    },
-                    {
-                      "texto": "Pan"
-                    },
-                    {
-                      "texto": "Carne"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Pieza"
-                    },
-                    {
-                      "texto": "Empanada Gallega"
-                    },
-                    {
-                      "texto": "Pollo"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Bollo pequeño"
-                    },
-                    {
-                      "texto": "--"
-                    },
-                    {
-                      "texto": "Chorizo"
-                    }
-                  ]
-                }
-              ],
-              "respuestas": [
-                [ 0, 2 ],
-                [ 1, 1 ],
-                [ 2, 1 ]
-              ]
+              "titulo": "Profesional de panadería",
+              "texto": "Es el profesional responsable de ejecutar las tareas y procedimientos.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Horno",
+              "texto": "Máquina que se utiliza para cocer los productos de la sección.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Carros de horno",
+              "texto": "Son estructuras que facilitan el transporte de las bandejas y su manipulación durante el proceso de horneado.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Cuchillas",
+              "texto": "Son los utensilios cortantes que utilizamos para realizar los cortes de pan, previo al horneado.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Bandejas de canal",
+              "texto": "Son las bandejas con ondulaciones a modo de canales que permiten colocar el producto de forma separada para su horneado.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Guantes de seguridad",
+              "texto": "Son los guantes que hemos de emplear para meter y sacar del horno los carros de producto.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
             }
           ]
+        },
+        {
+          "clase": "texto",
+          "subclase": "anillas vertical",
+          "texto": "<b>3. ¿Qué registro o registros están asociados a esta Operativa?</b><br>No hay registros."
         }
       ]
     },
     {
-      "titulo": "Autoevaluación 5",
+      "titulo": "Horneado con pan: Observaciones",
       "contenido": [
         {
           "clase": "texto",
-          "subclase": "instruccion",
-          "animacion": "flash",
-          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
+          "texto": "Antes de meter una hornada es obligatorio que el horno esté precalentado a una temperatura entre 230 - 250ºC, y el tiro estará cerrado.<br>Si el horno no proporciona vapor automáticamente, tendremos que hacerlo nosotros de forma manual (horno BAKE) y, en caso necesario, habrá que bajar la temperatura hasta que sea la adecuada para la hornada que estamos elaborando."
         },
         {
-          "clase": "autoevalTabla",
-          "imagen": "img/m4.3/autoeval2/salado04.png",
-          "tabla": [
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "Una vez introducidos los productos en el horno, nunca debemos abrir la puerta de éste hasta que no hayan transcurrido al menos 15 minutos de cocción."
+        },
+        {
+          "clase": "texto",
+          "texto": "Para una elaboración de pan adecuada, aproximadamente a la mitad del proceso de horneado, debemos extraer la humedad del horno. Esto lo conseguimos al abrir el tiro, que dependiendo del tipo de horno, tendremos que hacerlo nosotros de forma manual si es que la máquina no lo hace automáticamente.<br><br>El tiempo estimado de una hornada (completa o media) es de 40 minutos. Como norma general:"
+        },
+        {
+          "clase": "texto",
+          "texto": "Los cortes se realizarán teniendo en cuenta la proporcionalidad de la barra. Así se han dispuesto los siguientes cortes:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
             {
-              "clase": "tabla",
-              "subclase": "rebordeHover",
-              "filaTitulos": [
+              "clase": "acordeon",
+              "animacion": "fadeInRight",
+              "contenido": [
                 {
-                  "titulo": "TAMAÑO"
-                },
-                {
-                  "titulo": "TIPO DE MASA"
-                },
-                {
-                  "titulo": "RELLENO"
+                  "titulo": "Piezas pequeñas",
+                  "texto": "Se sacan a los 20 minutos de cocción.<br>Ejemplos de piezas pequeñas son: castañinas, pulguitas, pan de hamburguesa, bollo de leche y choripincho."
                 }
-              ],
-              "filaContenido": [
+              ]
+            },
+            {
+              "clase": "acordeon",
+              "animacion": "fadeInRight",
+              "contenido": [
                 {
-                  "fila": [
-                    {
-                      "texto": "Grande"
-                    },
-                    {
-                      "texto": "Hojaldre"
-                    },
-                    {
-                      "texto": "Atún"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Bollo"
-                    },
-                    {
-                      "texto": "Bollería"
-                    },
-                    {
-                      "texto": "Jamón York"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Mini"
-                    },
-                    {
-                      "texto": "Pan"
-                    },
-                    {
-                      "texto": "Carne"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Pieza"
-                    },
-                    {
-                      "texto": "Empanada Gallega"
-                    },
-                    {
-                      "texto": "Pollo"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Bollo pequeño"
-                    },
-                    {
-                      "texto": "--"
-                    },
-                    {
-                      "texto": "Chorizo"
-                    }
-                  ]
+                  "titulo": "BaBaguettes",
+                  "texto": "Se sacan a los 35 minutos de cocción.<br>Ejemplos: baguette, mini baguette y la ración."
                 }
-              ],
-              "respuestas": [
-                [ 0, 3 ],
-                [ 1, 3 ],
-                [ 2, 0 ]
               ]
             }
           ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Aquellas piezas que sean de menor peso tendrán 5 minutos menos de horneado."
         }
       ]
     },
     {
-      "titulo": "Autoevaluación 6",
+      "titulo": "Corte de pan: Procedimiento",
       "contenido": [
         {
-          "clase": "texto",
-          "subclase": "instruccion",
-          "animacion": "flash",
-          "texto": "Pincha sobre las características que creas que son aplicables al pan mostrado en la fotografía. Para desmarcar una opción, pincha otra vez sobre ella. Puede haber más de una (o ninguna) respuesta correcta por columna."
-        },
-        {
-          "clase": "autoevalTabla",
-          "imagen": "img/m4.3/autoeval2/salado05.png",
-          "tabla": [
+          "clase": "sliderB",
+          "contenido": [
             {
-              "clase": "tabla",
-              "subclase": "rebordeHover",
-              "filaTitulos": [
-                {
-                  "titulo": "TAMAÑO"
-                },
-                {
-                  "titulo": "TIPO DE MASA"
-                },
-                {
-                  "titulo": "RELLENO"
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "Grande"
-                    },
-                    {
-                      "texto": "Hojaldre"
-                    },
-                    {
-                      "texto": "Atún"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Bollo"
-                    },
-                    {
-                      "texto": "Bollería"
-                    },
-                    {
-                      "texto": "Jamón York"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Mini"
-                    },
-                    {
-                      "texto": "Pan"
-                    },
-                    {
-                      "texto": "Carne"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Pieza"
-                    },
-                    {
-                      "texto": "Empanada Gallega"
-                    },
-                    {
-                      "texto": "Pollo"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Bollo pequeño"
-                    },
-                    {
-                      "texto": "--"
-                    },
-                    {
-                      "texto": "Chorizo"
-                    }
-                  ]
-                }
-              ],
-              "respuestas": [
-                [ 0, 0 ],
-                [ 1, 3 ],
-                [ 2, 3 ]
-              ]
+              "titulo": "Paso 1:",
+              "texto": "Para los cortes del pan, utilizaremos exclusivamente las cuchillas proporcionadas para tal efecto.",
+              "imagen": "img/modhor/corte1.png",
+              "ancho": 600
+            },
+            {
+              "titulo": "Paso 2:",
+              "texto": "Sacaremos la bandeja apoyando un extremo superior sobre el carro y el extremo opuesto sobre nuestra mano.",
+              "imagen": "img/modhor/corte2.png",
+              "ancho": 600
+            },
+            {
+              "titulo": "Paso 3:",
+              "texto": "El corte debe ser superficial.",
+              "imagen": "img/modhor/corte3.png",
+              "ancho": 600
+            },
+            {
+              "titulo": "Paso 4:",
+              "texto": "El número de cortes será proporcional al tamaño de la barra.",
+              "imagen": "img/modhor/corte4.png",
+              "ancho": 600
+            },
+            {
+              "titulo": "Paso 5:",
+              "texto": "Los cortes permitirán que el pan greñe adecuadamente.",
+              "imagen": "img/modhor/corte5.png",
+              "ancho": 500
             }
           ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "<b>IMPORTANTE</b><br>En los casos de rotura de cuchillas durante los procesos de corte, se deberá buscar el fragmento hasta encontrarlo y avisaremos al encargado/a.<br>Si fuera imposible su recuperación, retiraremos toda la hornada."
         }
       ]
     },
-
     {
-      "titulo": "Autoevaluación 7",
+      "titulo": "Horneado con pan: Procedimiento",
+      "contenido": [
+        {
+          "clase": "sliderB",
+          "contenido": [
+            {
+              "titulo": "Paso 1:",
+              "texto": "Debemos dejar que se produzca la fermentación del producto en la cámara de fermentación. Cuando finalice el proceso lo sacamos de la cámara.",
+              "imagen": "img/modhor/horneado1.png",
+              "ancho": 600
+            },
+            {
+              "titulo": "Paso 2:",
+              "texto": "Pasamos las bandejas desde el carro de la fermentadora al carro del horno.",
+              "imagen": "img/modhor/horneado2.png",
+              "ancho": 600
+            },
+            {
+              "titulo": "Paso 3:",
+              "texto": "Debemos atender las demandas y gustos de nuestros clientes, por lo que metemos productos variados que cubran sus necesidades.",
+              "imagen": "img/modhor/horneado3.png",
+              "ancho": 600
+            },
+            {
+              "titulo": "Paso 4:",
+              "texto": "Realizamos el corte del pan, siempre de forma rápida y evitando interrupciones para que el pan no se nos reseque.",
+              "imagen": "img/modhor/horneado4.png",
+              "ancho": 600
+            },
+            {
+              "titulo": "Paso 5:",
+              "texto": "Ahora metemos el carro cargado en el horno. Llevaremos puestos  los guantes de seguridad para evitar que nos podamos quemar.",
+              "imagen": "img/modhor/horneado5.png",
+              "ancho": 500
+            },
+            {
+              "titulo": "Paso 6:",
+              "texto": "Una vez tengamos la carga dentro del horno, lo cerramos e iniciamos el proceso de horneado.",
+              "imagen": "img/modhor/horneado6.png",
+              "ancho": 500
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "<b>IMPORTANTE</b><br>Es esencial que conozcas la forma de hornear de la máquina, es decir: en cada horno existirán zonas de mayor y menor temperatura y esto hay que tenerlo en cuenta en el momento de colocar las bandejas en el carro del horno."
+        }
+      ]
+    },
+    {
+      "titulo": "Horneado con pan precocido",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "definición",
+          "texto": "<b>1. Denominación de Operativa:</b><br>Horneado con pan precocido"
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>2. Recursos:</b><br>Para poder realizar esta operativa serán necesarios los siguientes recursos:"
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "Profesional de panadería",
+              "texto": "Es el profesional responsable de ejecutar las tareas y procedimientos.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Cámara de congelación",
+              "texto": "Es el habitáculo de la sección dedicado a la conservación del producto en estado de congelación.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Horno",
+              "texto": "Máquina que se utiliza para cocer los productos de la sección.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Carros de horno",
+              "texto": "Son estructuras que facilitan el transporte de las bandejas y su manipulación durante el proceso de horneado.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Bandejas de canal",
+              "texto": "Son las bandejas con ondulaciones a modo de canales que permiten colocar el producto de forma separada para su horneado.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Bandejas planas",
+              "texto": "Es la superficie lisa que se utiliza en el horneado de productos.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Guantes de seguridad",
+              "texto": "Son los guantes que hemos de emplear para meter y sacar del horno los carros de producto.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "subclase": "anillas vertical",
+          "texto": "<b>3. ¿Qué registro o registros están asociados a esta Operativa?</b><br>No hay registros."
+        }
+      ]
+    },
+    {
+      "titulo": "Horneado con pan precocido: Observaciones",
       "contenido": [
         {
           "clase": "texto",
-          "subclase": "instruccion",
-          "animacion": "flash",
-          "texto": "Pincha y arrastra con el ratón para marcar una palabra."
+          "texto": "El Pan Precocido está almacenado en la cámara de congelación, ya que es un producto congelado, por lo que lo primero que tenemos que hacer es dejarlo descongelar antes de meterlo al horno."
         },
         {
-          "clase": "juegoSopaLetras",
-          "pistas": [
+          "clase": "icono",
+          "subclase": "exclamacion picos",
+          "texto": "Para realizar la descongelación del pan precocido, podemos optar por una de las dos maneras siguientes, según nos resulte más adecuada:<br>1. Descongelar el pan directamente en el carro, lo que nos obliga a cocerlo inmediatamente una vez descongelado.<br>2. Dejarlo descongelando en su propio embalaje (dentro de su caja y bolsa correspondientes), lo que alargaría hasta las 48 horas la necesidad de cocción."
+        },
+        {
+          "clase": "texto",
+          "texto": "Antes de meter una hornada es obligatorio que el horno esté precalentado.<br><br>La temperatura de cocción será de alrededor de 200ºC y el tiempo dependerá del tamaño de la pieza. Necesitaremos, por ejemplo, más tiempo para cocer una chapata que un pan de fibra.<br><br>Para su correcta cocción también debemos darle la vuelta durante el proceso."
+        }
+      ]
+    },
+    {
+      "titulo": "Horneado con pan precocido: Procedimiento",
+      "contenido": [
+        {
+          "clase": "sliderB",
+          "contenido": [
             {
-              "palabra": "salados",
-              "definicion": "Grupo de productos entre los que se encuentra la empanada"
+              "titulo": "Paso 1:",
+              "texto": "Cogemos el precocido de la cámara de congelación y lo sacamos fuera.",
+              "imagen": "img/modhor/precocido1.png",
+              "ancho": 600
             },
             {
-              "palabra": "trigo",
-              "definicion": "El cereal del que proviene la harina más utilizada en los panes"
+              "titulo": "Paso 2:",
+              "texto": "Lo dejamos descongelar dentro de la bolsa de su embalaje, bien colocado en la bandeja dentro del carro del horno.",
+              "imagen": "img/modhor/precocido2.png",
+              "ancho": 600
             },
             {
-              "palabra": "conservacion",
-              "definicion": "Categoría que indica la mejor manera de guardar el producto"
+              "titulo": "Paso 3:",
+              "texto": "En la cámara podemos colocar el precocido fuera de la caja de cartón, siempre con la bolsa cerrada y etiquetada.",
+              "imagen": "img/modhor/precocido3.png",
+              "ancho": 600
             },
             {
-              "palabra": "decoracion",
-              "definicion": "Sirve para mejorar la estética  o el sabor del producto"
+              "titulo": "Paso 4:",
+              "texto": "La caja la doblaremos y prepararemos en el palet destinado al cartón y ubicado en el almacén.",
+              "imagen": "img/modhor/precocido4.png",
+              "ancho": 600
             },
             {
-              "palabra": "precio",
-              "definicion": "Indica cuánto cuesta un producto"
+              "titulo": "Paso 5:",
+              "texto": "Una vez preparado y colocado en las bandejas del carro todo el precocido, se deja descongelar.",
+              "imagen": "img/modhor/precocido5.png",
+              "ancho": 500
             },
             {
-              "palabra": "digestivos",
-              "definicion": "Grupo de productos que favorecen la digestión"
-            },
-            {
-              "palabra": "nuez",
-              "definicion": "Fruto seco con el que se elabora el relleno de la Casadiella"
-            },
-            {
-              "palabra": "confitada",
-              "definicion": "Tipo de fruta que se utiliza para decoración, por ejemplo, del Roscón de Reyes"
-            },
-            {
-              "palabra": "nata",
-              "definicion": "Derivado de la leche que se emplea como relleno principal de muchos productos"
-            },
-            {
-              "palabra": "horno",
-              "definicion": "Máquina donde se hornea el pan"
-            },
-            {
-              "palabra": "levadura",
-              "definicion": "Provoca la fermentación del pan"
-            },
-            {
-              "palabra": "chorizo",
-              "definicion": "Es el relleno de los bollos 'preñaos'"
-            },
-            {
-              "palabra": "hojaldre",
-              "definicion": "Tipo de masa que tiene muchas capas superpuestas"
-            },
-            {
-              "palabra": "glaseado",
-              "definicion": "Capa visible hecha con azúcar glass y agua utilizada para decorar"
-            },
-            {
-              "palabra": "pastelera",
-              "definicion": "Se dice de la crema con la que se rellenan muchos productos dulces"
+              "titulo": "Paso 6:",
+              "texto": "Descongelado el precocido lo metemos en el horno para su cocción.",
+              "imagen": "img/modhor/precocido6.png",
+              "ancho": 500
             }
           ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "<b>IMPORTANTE</b><br>Una vez descongelado el Pan Precocido no puede volver a congelarse en ninguna circunstancia."
+        }
+      ]
+    },
+    {
+      "titulo": "Horneado con pan ecológico",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "definición",
+          "texto": "<b>1. Denominación de Operativa:</b><br>Horneado con pan ecológico"
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>2. Recursos:</b><br>Para poder realizar esta operativa serán necesarios los siguientes recursos:"
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "Profesional de panadería",
+              "texto": "Es el profesional responsable de ejecutar las tareas y procedimientos.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Cámara de congelación",
+              "texto": "Es el habitáculo de la sección dedicado a la conservación del producto en estado de congelación.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Horno",
+              "texto": "Máquina que se utiliza para cocer los productos de la sección.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Carros de horno",
+              "texto": "Son estructuras que facilitan el transporte de las bandejas y su manipulación durante el proceso de horneado.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Papel sulfurizado",
+              "texto": "Es un papel que se caracteriza por su resistencia a las altas temperaturas y por ser antiadherente.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Bandejas planas",
+              "texto": "Es la superficie lisa que se utiliza en el horneado de productos.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Guantes de seguridad",
+              "texto": "Son los guantes que hemos de emplear para meter y sacar del horno los carros de producto.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "subclase": "anillas vertical",
+          "texto": "<b>3. ¿Qué registro o registros están asociados a esta Operativa?</b><br>No hay registros."
+        }
+      ]
+    },
+    {
+      "titulo": "Horneado con pan ecológico: Observaciones",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Dentro de toda la hornada se utiliza una bandeja exclusiva para el Pan Ecológico, y el papel sulfurizado que empleemos no se volverá a reutilizar.<br>El Pan Ecológico está almacenado en la cámara de congelación, ya que es un producto congelado, por lo que lo primero que tenemos que hacer es dejarlo descongelar antes de meterlo al horno.<br><br>Para realizar la descongelación del pan ecológico, podemos optar por una de las dos maneras siguientes, según nos resulte más adecuada:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "acordeon",
+              "animacion": "fadeInRight",
+              "contenido": [
+                {
+                  "titulo": "Descongelar el pan directamente en el carro",
+                  "texto": "Si optamos por esta opción tenemos que tener en cuenta que estamos obligados a hornearlo inmediatamente, una vez descongelado."
+                }
+              ]
+            },
+            {
+              "clase": "acordeon",
+              "animacion": "fadeInRight",
+              "contenido": [
+                {
+                  "titulo": "Dejarlo descongelando en su propio embalaje",
+                  "texto": "Si optamos por dejarlo descongelarse dentro de su caja y bolsa correspondientes, podemos demorar la necesidad de cocción hasta 48 horas."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "El pan ecológico necesita más tiempo en descongelación que el pan precocido, por lo que se sacará para su descongelación a última hora del día anterior a su cocción, entrando en el primer horneado del día siguiente.<br><br>Antes de meter una hornada es obligatorio que el horno esté precalentado.<br><br>El proceso y los tiempos de horneado serán los mismos que utilicemos para el pan."
+        }
+      ]
+    },
+    {
+      "titulo": "Horneado con pan ecológico: Procedimiento",
+      "contenido": [
+        {
+          "clase": "sliderB",
+          "contenido": [
+            {
+              "titulo": "Paso 1:",
+              "texto": "Utilizamos y preparamos una bandeja plana exclusiva, dentro de toda la hornada, para el Pan Ecológico.",
+              "imagen": "img/modhor/ecologico1.png",
+              "ancho": 600
+            },
+            {
+              "titulo": "Paso 2:",
+              "texto": "Cubrimos la bandeja que vamos a utilizar con un papel sulfurizado nuevo, ya que con el Pan Ecológico este papel se cambia todos los días.",
+              "imagen": "img/modhor/ecologico2.png",
+              "ancho": 600
+            },
+            {
+              "titulo": "Paso 3:",
+              "texto": "Cogemos de la cámara de congelación las unidades de Pan Ecológico que necesitemos. Este pan debe encontrarse siempre perfectamente identificado y sin mezclar con otros panes.",
+              "imagen": "img/modhor/ecologico3.png",
+              "ancho": 600
+            },
+            {
+              "titulo": "Paso 4:",
+              "texto": "Antes de meterlo en el horno debemos dejarlo descongelar.",
+              "imagen": "img/modhor/ecologico4.png",
+              "ancho": 600
+            },
+            {
+              "titulo": "Paso 5:",
+              "texto": "Una  vez esté descongelado, lo colocamos en el carro del horno, donde estará el resto del pan, pero siempre en la bandeja de arriba y lo metemos en el horno.",
+              "imagen": "img/modhor/ecologico5.png",
+              "ancho": 600
+            },
+            {
+              "titulo": "Paso 6:",
+              "texto": "El proceso de horneado finaliza cuando transcurren 40 minutos. Ahora tenemos el producto listo para su venta.",
+              "imagen": "img/modhor/ecologico6.png",
+              "ancho": 600
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "<b>IMPORTANTE</b><br>Una vez descongelado el Pan Ecológico no puede volver a congelarse en ninguna circunstancia."
+        }
+      ]
+    },
+    {
+      "titulo": "Horneado con Bollería",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "definición",
+          "texto": "<b>1. Denominación de Operativa:</b><br>Horneado con Bollería"
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>2. Recursos:</b><br>Para poder realizar esta operativa serán necesarios los siguientes recursos:"
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "Profesional de panadería",
+              "texto": "Es el profesional responsable de ejecutar las tareas y procedimientos.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Fermentadora",
+              "texto": "Máquina que realiza el proceso de fermentación de los productos de panadería, como paso previo al horneado.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Horno",
+              "texto": "Máquina que se utiliza para cocer los productos de la sección.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Carros de horno",
+              "texto": "Son estructuras que facilitan el transporte de las bandejas y su manipulación durante el proceso de horneado.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Bandejas de canal",
+              "texto": "Son las bandejas con ondulaciones, a modo de canales, que permiten colocar el producto de forma separada para su horneado.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Bandejas planas",
+              "texto": "Es la superficie lisa que se utiliza en el horneado de productos.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Guantes de seguridad",
+              "texto": "Son los guantes que hemos de emplear para meter y sacar del horno los carros de producto.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "subclase": "anillas vertical",
+          "texto": "<b>3. ¿Qué registro o registros están asociados a esta Operativa?</b><br>No hay registros."
+        }
+      ]
+    },
+    {
+      "titulo": "Horneado con Bollería: Observaciones",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "celo",
+          "texto": "Para que presenten un aspecto atractivo, antes de meter las piezas de bollería en el horno, podemos pintar su superficie con el spray que tienes en la sección para ese fin.<br><br>También podemos decorarlos en este momento (con crema, con granillo, con guindas, con azúcar y con relleno de manzana).<br>Tanto este pintado como esta decoración se realizarán justo antes de introducir las bandejas en el horno y teniendo en cuenta que debemos realizarlos sin demorarnos, en el menor tiempo posible."
+        },
+        {
+          "clase": "texto",
+          "texto": "Para realizar un buen proceso de horneado con bollería, tenemos que tener en cuenta:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "acordeon",
+              "animacion": "fadeInRight",
+              "contenido": [
+                {
+                  "titulo": "Temperatura del horno",
+                  "texto": "La temperatura de entrada estará entre los 230-250ºC, y una vez introducidos los productos en el horno y cerrada la puerta, se ajusta la temperatura al nivel más adecuado para su cocción en un periodo de tiempo que oscilará entre 15 y 25 minutos, siempre con el tiro cerrado."
+                }
+              ]
+            },
+            {
+              "clase": "acordeon",
+              "animacion": "fadeInRight",
+              "contenido": [
+                {
+                  "titulo": "Tiempo de cocción",
+                  "texto": "Las piezas de poco peso requieren menos tiempo de cocción y las hemos de sacar antes, por lo que es conveniente alternar las bandejas con productos de poco peso primero y mayor peso después, sucesivamente, a lo largo de todo el carro. De esta forma, cuando  extraigamos las piezas menores no se nos quedarán concentradas las latas (¿?) en un punto concreto del carro, lo que afectaría a la cocción de los productos que permanecen en el horno.<br>El producto que nos guiará en la selección de temperatura idónea será el mini croissant, que tiene un tiempo de cocción de 15 minutos, tras los cuales deberá estar perfectamente horneado."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Son considerados productos pequeños la ensaimada, el suizo, el mini croissant de mantequilla, la mini rosca, la mini napolitana y la mini ensaimada."
+        }
+      ]
+    },
+    {
+      "titulo": "Horneado con Bollería: Procedimiento",
+      "contenido": [
+        {
+          "clase": "sliderB",
+          "contenido": [
+            {
+              "titulo": "Paso 1:",
+              "texto": "Sacamos del carro de la fermentadora las bandejas de la bollería.",
+              "imagen": "img/modhor/bolleria1.png",
+              "ancho": 600
+            },
+            {
+              "titulo": "Paso 2:",
+              "texto": "Decoramos como paso previo al horneado.",
+              "imagen": "img/modhor/bolleria2.png",
+              "ancho": 600
+            },
+            {
+              "titulo": "Paso 3:",
+              "texto": "Pasamos las bandejas al carro del horno.",
+              "imagen": "img/modhor/bolleria3.png",
+              "ancho": 600
+            },
+            {
+              "titulo": "Paso 4:",
+              "texto": "Metemos el carro en el horno y programamos.",
+              "imagen": "img/modhor/bolleria4.png",
+              "ancho": 600
+            },
+            {
+              "titulo": "Paso 5:",
+              "texto": "A los 15 minutos sacamos la bollería pequeña. Entre los 15 y 15 minutos sacamos la bollería mediana y a los 25 minutos el resto.",
+              "imagen": "img/modhor/bolleria5.png",
+              "ancho": 600
+            },
+            {
+              "titulo": "Paso 6:",
+              "texto": "Una vez fuera, colocamos el carro en un lugar accesible pero seguro.",
+              "imagen": "img/modhor/bolleria6.png",
+              "ancho": 600
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "<b>IMPORTANTE</b><br>Nunca abriremos el horno durante los primeros 15 minutos del horneado de las piezas de bollería, porque si lo hacemos perderán el volumen y quedarán aplastadas, produciéndose el rechazo por parte del consumidor."
         }
       ]
     },
