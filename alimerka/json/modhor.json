@@ -10,18 +10,23 @@
       "titulo": "Objetivos",
       "contenido": [
         {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "fadeInRight",
+          "texto": "El objetivo de este curso es que te familiarices con los distintos tipos de hornos que puedes encontrar en la sección de panadería de tu tienda y conozcas su funcionamiento y programación."
+        },
+        {
           "clase": "listaObjetos",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "texto",
-              "animacion": "slideInRight",
               "subclase": "recuadro",
-              "texto": "El objetivo de este curso es que te familiarices con los distintos tipos de hornos que puedes encontrar en la sección de panadería de tu tienda y conozcas su funcionamiento y programación.<br><br>También se hará una aproximación muy sencilla y genérica sobre las condiciones que rigen la planificación del horneado y la cocción de los distintos tipos de productos que se trabajan en la sección (pan, pan precocido, pan ecológico, bollería, hojaldre y masa de batido)."
+              "texto": "También se hará una aproximación muy sencilla y genérica sobre las condiciones que rigen la planificación del horneado y la cocción de los distintos tipos de productos que se trabajan en la sección (pan, pan precocido, pan ecológico, bollería, hojaldre y masa de batido)."
             },
             {
               "clase": "imagen",
-              "animacion": "fadeInRight",
-              "imagen": "img/comunes/madalena.svg"
+              "imagen": "img/modhor/objetivos.png"
             }
           ]
         }
@@ -32,19 +37,25 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "En la Sección de Panadería se desarrollan una serie de trabajos que hay que realizar con el objetivo de alcanzar los estándares de calidad de la sección, mediante un flujo de trabajo cíclico.<br><br>La actividad de la panadería se ejecuta completando esa serie de procesos en orden, con cierta periodicidad, siguiendo la estructuración:<br><br><center>Proceso -> Tareas -> Operativas</center>"
+          "animacion": "fadeInRight",
+          "texto": "En la Sección de Panadería se desarrollan una serie de trabajos que hay que realizar con el objetivo de alcanzar los estándares de calidad de la sección, mediante un flujo de trabajo cíclico.<br><br>La actividad de la panadería se ejecuta completando esa serie de procesos en orden, con cierta periodicidad, siguiendo la estructuración:"
+        },
+        {
+          "clase": "imagen",
+          "animacion": "fadeInRight",
+          "imagen": "img/modhor/pto.png"
         },
         {
           "clase": "listaObjetos",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "texto",
-              "animacion": "fadeInRight",
+
               "texto": "Esto quiere decir que para completar cada Proceso habrá que ejecutar una serie de Tareas y para completar cada Tarea será necesario realizar varias Operativas."
             },
             {
               "clase": "imagen",
-              "animacion": "fadeInRight",
               "imagen": "img/modhor/ruedasdentadas.png"
             }
           ]
@@ -58,7 +69,7 @@
           "clase": "texto",
           "animacion": "fadeInRight",
           "subclase": "recuadro",
-          "texto": "Los Procesos se refieren:<br>1. Al Producto (con vistas a su obtención, elaboración, control y venta) y,<br>2. A la Sección (limpieza y mantenimiento)."
+          "texto": "Los Procesos se refieren:<br>1. Al Producto (con vistas a su obtención, elaboración, control y venta)<br>2. A la Sección (limpieza y mantenimiento)."
         },
         {
           "clase": "texto",
@@ -70,31 +81,31 @@
             {
               "titulo": "Aprovisionamiento",
               "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-              "imagen": "img/modhor/portada.svg",
+              "imagen": "img/modhor/procesos1.png",
               "ancho": 200
             },
             {
               "titulo": "Preparación",
-              "texto": "es el proceso mediante el cual transformamos las existencias que hemos aprovisionado en productos para los clientes.",
-              "imagen": "img/modhor/portada.svg",
+              "texto": "Es el proceso mediante el cual transformamos las existencias que hemos aprovisionado en productos para los clientes.",
+              "imagen": "img/modhor/procesos2.png",
               "ancho": 200
             },
             {
               "titulo": "Punto de venta",
-              "texto": "es el proceso de la exposición del producto en el punto de venta. Incluye tanto la colocación estética del producto como la uniformidad y el etiquetado.",
-              "imagen": "img/modhor/portada.svg",
+              "texto": "Es el proceso de la exposición del producto en el punto de venta. Incluye tanto la colocación estética del producto como la uniformidad y el etiquetado.",
+              "imagen": "img/modhor/procesos3.png",
               "ancho": 200
             },
             {
               "titulo": "Venta",
-              "texto": "es el proceso de venta del producto y es fundamental para la actividad de la sección, de tal forma que todos los demás procesos funcionan en torno a las necesidades que se generan en este proceso.",
-              "imagen": "img/modhor/portada.svg",
+              "texto": "Es el proceso de venta del producto y es fundamental para la actividad de la sección, de tal forma que todos los demás procesos funcionan en torno a las necesidades que se generan en este proceso.",
+              "imagen": "img/modhor/procesos4.png",
               "ancho": 200
             },
             {
               "titulo": "Retirada de producto",
-              "texto": "es el proceso de control de producto no vendido y es el último de los procesos relacionados con el producto, y con él se cierra el ciclo de trabajo, volviendo a comenzar con el Aprovisionamiento.",
-              "imagen": "img/modhor/portada.svg",
+              "texto": "Es el proceso de control de producto no vendido y es el último de los procesos relacionados con el producto, y con él se cierra el ciclo de trabajo, volviendo a comenzar con el Aprovisionamiento.",
+              "imagen": "img/modhor/procesos5.png",
               "ancho": 200
             }
           ]
@@ -108,8 +119,8 @@
           "contenido": [
             {
               "titulo": "Sección de panadería",
-              "texto": "es un proceso cuya finalidad supone el mantenimiento de la sección en correcto funcionamiento en cuestiones de higiene, limpieza y conservación.",
-              "imagen": "img/modhor/portada.svg",
+              "texto": "Es un proceso cuya finalidad supone el mantenimiento de la sección en correcto funcionamiento en cuestiones de higiene, limpieza y conservación.",
+              "imagen": "img/modhor/procesos6.png",
               "ancho": 200
             }
           ]
@@ -135,28 +146,16 @@
               "titulo": "Aprovisionamiento",
               "contenido": [
                 {
-                  "titulo": "Pedido",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Pedido"
                 },
                 {
-                  "titulo": "Inventario",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Inventario"
                 },
                 {
-                  "titulo": "Trazabilidad",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Trazabilidad"
                 },
                 {
-                  "titulo": "Almacenaje",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Almacenaje"
                 }
               ]
             },
@@ -164,28 +163,16 @@
               "titulo": "Preparación",
               "contenido": [
                 {
-                  "titulo": "Fermentación",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Fermentación"
                 },
                 {
-                  "titulo": "Manipulación",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Manipulación"
                 },
                 {
-                  "titulo": "Horneado",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Horneado"
                 },
                 {
-                  "titulo": "Decoración",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Decoración"
                 }
               ]
             },
@@ -193,28 +180,16 @@
               "titulo": "Punto de venta",
               "contenido": [
                 {
-                  "titulo": "Uniformidad",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Uniformidad"
                 },
                 {
-                  "titulo": "Etiquetado",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Etiquetado"
                 },
                 {
-                  "titulo": "Colocación",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Colocación"
                 },
                 {
-                  "titulo": "Reposición",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Reposición"
                 }
               ]
             },
@@ -222,22 +197,13 @@
               "titulo": "Venta",
               "contenido": [
                 {
-                  "titulo": "Embolsado",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Embolsado"
                 },
                 {
-                  "titulo": "Balanza",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Balanza"
                 },
                 {
-                  "titulo": "Gestión de esperas",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Gestión de esperas"
                 }
               ]
             },
@@ -245,16 +211,10 @@
               "titulo": "Retirada",
               "contenido": [
                 {
-                  "titulo": "Recogida",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Recogida"
                 },
                 {
-                  "titulo": "Residuos",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Residuos"
                 }
               ]
             },
@@ -262,22 +222,13 @@
               "titulo": "Sección",
               "contenido": [
                 {
-                  "titulo": "Limpieza",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Limpieza"
                 },
                 {
-                  "titulo": "Mantenimiento",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Mantenimiento"
                 },
                 {
-                  "titulo": "Incidencias",
-                  "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-                  "imagen": "img/modhor/portada.svg",
-                  "ancho": 200
+                  "titulo": "Incidencias"
                 }
               ]
             }
@@ -299,8 +250,8 @@
           "ancho": 600
         },
         {
-          "clase": "icono",
-          "subclase": "definicion",
+          "clase": "texto",
+          "subclase": "recuadro",
           "texto": "<b>Definición:</b><br>El horneado es el proceso por el que el producto de panadería crudo o precocido, a través de un procedimiento de inducción de calor a cierta temperatura y en unos tiempos delimitados se cuece, permitiendo obtener unas piezas listas para su consumo."
         }
       ]
@@ -315,7 +266,7 @@
         },
         {
           "clase": "texto",
-          "texto": "En las Operativas se recogen los pasos necesarios que hay que seguir para poder realizarse. Conllevan el cumplimiento de unos registros, de tal manera que sea posible realizar un correcto seguimiento de la actividad y la utilización de unos recursos.<br><br>En este módulo verás algunas Operativas que son una simulación gráfica de la actividad real de la Tarea de Horneado. Esto quiere decir que estarán incluidas todas aquellas operaciones necesarias para la preparación del horno, desde el corte de pan, pasando por las operativas de preparación de los diferentes tipos de masas con las que trabajamos en la Sección: pan, pan precocido, pan ecológico, bollería, hojaldre y masas de batido. También haremos referencia a los tipos de hornos de los que disponemos en tienda."
+          "texto": "En las Operativas se recogen los pasos necesarios que hay que seguir para poder realizarse.<br>Conllevan el cumplimiento de unos registros, de tal manera que sea posible realizar un correcto seguimiento de la actividad y la utilización de unos recursos.<br><br>En este módulo verás algunas Operativas que son una simulación gráfica de la actividad real de la Tarea de Horneado. Esto quiere decir que estarán incluidas todas aquellas operaciones necesarias para la preparación del horno, desde el corte de pan, pasando por las operativas de preparación de los diferentes tipos de masas con las que trabajamos en la Sección: pan, pan precocido, pan ecológico, bollería, hojaldre y masas de batido. También haremos referencia a los tipos de hornos de los que disponemos en tienda."
         }
       ]
     },
@@ -370,6 +321,7 @@
         },
         {
           "clase": "texto",
+          "animacion": "fadeInRight",
           "texto": "Asociado a estas operativas se encuentran la Periodicidad y el Procedimiento."
         },
         {
@@ -413,22 +365,27 @@
             {
               "titulo": "Horno BAKE",
               "texto": "Horno de programación manual.",
-              "imagen": "img/modhor/portada.svg",
+              "imagen": "img/modhor/bake.png",
               "ancho": 200
             },
             {
               "titulo": "Horno APH",
               "texto": "Horno con pantalla táctil. La programación puede realizarse de forma manual o automática.",
-              "imagen": "img/modhor/portada.svg",
+              "imagen": "img/modhor/aph.png",
               "ancho": 200
             },
             {
               "titulo": "Horno SALVA",
               "texto": "Horno de programación manual o automática.",
-              "imagen": "img/modhor/portada.svg",
+              "imagen": "img/modhor/salva.png",
               "ancho": 200
             }
           ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/comunes/rodillo.png",
+          "ancho": 200
         },
         {
           "clase": "texto",
@@ -437,7 +394,7 @@
       ]
     },
     {
-      "titulo": "Mandos de horno BAKE",
+      "titulo": "Mandos del horno BAKE",
       "contenido": [
         {
           "clase": "imagen",
@@ -1597,7 +1554,7 @@
             },
             {
               "titulo": "Paso 5:",
-              "texto": "A los 15 minutos sacamos la bollería pequeña. Entre los 15 y 15 minutos sacamos la bollería mediana y a los 25 minutos el resto.",
+              "texto": "A los 15 minutos sacamos la bollería pequeña. Entre los 15 y 25 minutos sacamos la bollería mediana y a los 25 minutos el resto.",
               "imagen": "img/modhor/bolleria5.png",
               "ancho": 600
             },
@@ -1617,7 +1574,298 @@
       ]
     },
     {
-      "titulo": "Aprendizaje",
+      "titulo": "Horneado con Hojaldre",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "definición",
+          "texto": "<b>1. Denominación de Operativa:</b><br>Horneado con Hojaldre"
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>2. Recursos:</b><br>Para poder realizar esta operativa serán necesarios los siguientes recursos:"
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "Profesional de panadería",
+              "texto": "Es el profesional responsable de ejecutar las tareas y procedimientos.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Horno",
+              "texto": "Máquina que se utiliza para cocer los productos de la sección.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Carros de horno",
+              "texto": "Son estructuras que facilitan el transporte de las bandejas y su manipulación durante el proceso de horneado.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Bandejas planas",
+              "texto": "Es la superficie lisa que se utiliza en el horneado de productos.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Papel sulfurizado",
+              "texto": "Es un papel que se caracteriza por su resistencia a las altas temperaturas y por ser antiadherente.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Guantes de seguridad",
+              "texto": "Son los guantes que hemos de emplear para meter y sacar del horno los carros de producto.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "subclase": "anillas vertical",
+          "texto": "<b>3. ¿Qué registro o registros están asociados a esta Operativa?</b><br>No hay registros."
+        }
+      ]
+    },
+    {
+      "titulo": "Horneado con Hojaldre: Observaciones",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Los productos de hojaldre los colocamos en bandejas planas, que previamente hemos cubierto con papel sulfurizado limpio, teniendo la precaución de mantenerlos lo suficientemente separados para que no lleguen a pegarse entre ellos."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Como son productos que nos llegan congelados, los sacamos de la cámara de congelación y los dejamos descongelar.<br><br>Cargamos el carro del horno alternando las  bandejas de piezas grandes con las bandejas de piezas pequeñas (palmeritas, palmeras y hojaldres), porque así, al sacar las bandejas de las piezas pequeñas, que se hacen antes, el calor incidirá de forma equilibrada en las piezas restantes que permanezcan, provocando un horneado más homogéneo."
+            },
+            {
+              "clase": "icono",
+              "subclase": "exclamacion picos",
+              "texto": "Justo antes de meterlos en el horno, y haciéndolo en el menor tiempo posible, debemos pintar la superficie de las piezas:<br><br>1. Piezas saladas con spray.<br>2. Piezas dulces con brillo.<br><br>Si alguna pieza lleva decoración (crema, granillo, guindas, azúcar o relleno de manzana), este es el momento de hacerlo."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Para realizar correctamente el horneado del hojaldre, tendremos en cuenta:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "acordeon",
+              "animacion": "fadeInRight",
+              "contenido": [
+                {
+                  "titulo": "Temperatura",
+                  "texto": "Se prepara el horno a 250ºC lo que permitirá darle a las piezas un primer golpe de calor para un correcto desarrollo. Transcurridos de 1 a 3 minutos, se baja a 190-200ºC para el resto de la cocción.<br>En ningún caso abriremos el horno durante los primeros 15 minutos de cocción, lo que provocaría una bajada brusca de la temperatura en un momento crítico de la cocción."
+                }
+              ]
+            },
+            {
+              "clase": "acordeon",
+              "animacion": "fadeInRight",
+              "contenido": [
+                {
+                  "titulo": "Tiempo de horneado",
+                  "texto": "Los tiempos de cocción variarán en función del tamaño de la pieza. El tiempo lo marca la propia pieza alcanzando un color dorado y textura crujiente. Obtener el punto de cocción óptimo determinará la calidad de la pieza."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "<b>IMPORTANTE</b><br>Es imprescindible extraer la humedad de las piezas, por lo que la cocción se desarrollará con el tiro abierto."
+        }
+      ]
+    },
+    {
+      "titulo": "Horneado con Batidos",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "definición",
+          "texto": "<b>1. Denominación de Operativa:</b><br>Horneado con Batidos"
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>2. Recursos:</b><br>Para poder realizar esta operativa serán necesarios los siguientes recursos:"
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "Profesional de panadería",
+              "texto": "Es el profesional responsable de ejecutar las tareas y procedimientos.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Horno",
+              "texto": "Máquina que se utiliza para cocer los productos de la sección.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Carros de horno",
+              "texto": "Son estructuras que facilitan el transporte de las bandejas y su manipulación durante el proceso de horneado.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Moldes",
+              "texto": "Los moldes de batido/cápsulas, o de bizcocho son las bases sobre las que se coloca la masa de batido para su horneado y que la soporta y da forma.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Bandejas planas",
+              "texto": "Es la superficie lisa que se utiliza en el horneado de productos.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Guantes de seguridad",
+              "texto": "Son los guantes que hemos de emplear para meter y sacar del horno los carros de producto.",
+              "imagen": "img/modhor/portada.svg",
+              "ancho": 200
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "subclase": "anillas vertical",
+          "texto": "<b>3. ¿Qué registro o registros están asociados a esta Operativa?</b><br>No hay registros."
+        }
+      ]
+    },
+    {
+      "titulo": "Horneado con Batidos: Observaciones",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "El batido estará almacenado en la cámara de congelación, por lo que para poder utilizarlo lo dejamos descongelar previamente en la cámara del refrigerador, recordando que una vez descongelado tiene una vida útil máxima de una semana, recomendando un máximo de 3 días para su uso."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Antes de meter el carro con las bandejas de batido, habremos precalentado el horno a 250ºC. Esta temperatura la bajamos según metamos el producto en el horno a 190ºC.<br><br>De manera genérica, podemos indicar que el tiempo que mantendremos en el horno los productos de batido es:",
+              "contenido": [
+                {
+                  "punto": "Para las Magdalenas: 12-13 minutos."
+                },
+                {
+                  "punto": "Para Integrales: 12-13 minutos."
+                },
+                {
+                  "punto": "Para los Bizcochos: 30-40 minutos."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modhor/p307.png"
+            }
+
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "En el horneado de los batidos debes tener en cuenta:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "acordeon",
+              "animacion": "fadeInRight",
+              "contenido": [
+                {
+                  "titulo": "Magdalenas",
+                  "texto": "Las magdalenas se cocerán solas o junto a otros batidos y que para su elaboración el tiro permanecerá cerrado durante casi todo el proceso de horneado (aproximadamente unos 10 minutos según la tipología del horno), a excepción de los últimos minutos en los que lo abriremos para que salga la humedad (2-3 minutos)."
+                }
+              ]
+            },
+            {
+              "clase": "acordeon",
+              "animacion": "fadeInRight",
+              "contenido": [
+                {
+                  "titulo": "Bizcochos",
+                  "texto": "Para los bizcochos procedemos con la misma operativa, pero ajustándonos a los tiempos propios del producto."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "<b>IMPORTANTE</b><br>En ningún caso abriremos la puerta del horno durante la cocción, deberemos esperar a la finalización del proceso para extraer todas las piezas."
+        }
+      ]
+    },
+    {
+      "titulo": "Defectos del pan",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Puede ocurrir, a lo largo de nuestra experiencia como profesional de panadería, que se nos presente alguno de los siguientes problemas que causan que el pan salga defectuoso.<br><br>En esta operativa te mostramos algunos de dichos problemas y los defectos que provocan en el pan y cómo evitarlos:"
+        },
+        {
+          "clase": "acordeonSub",
+          "ancho": 75,
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Insuficiente humedad",
+              "texto": "Si la cámara no tiene suficiente humedad, se resecará mucho el producto durante la fermentación produciéndose defectos en el pan. Habría que avisar para una revisión mecánica de la cámara.",
+              "imagen": "img/modhor/296-1.png",
+              "ancho": 200
+            },
+            {
+              "titulo": "Exceso de tiempo",
+              "texto": "Si una vez fermentado correctamente lo dejamos mucho tiempo fuera de la cámara, o si lo cortamos y lo dejamos también mucho tiempo fuera de la cámara antes de cocer, el pan se caerá y no  conseguiremos tener un pan con la calidad necesaria. Lo correcto es sacar el pan de la cámara de fermentación y cortarlo inmediatamente antes de hornear.",
+              "imagen": "img/modhor/296-2.png",
+              "ancho": 200
+            },
+            {
+              "titulo": "Pan demasiado fresco",
+              "texto": "Si el pan se corta demasiado fresco, es decir que el proceso de fermentación no se haya terminado, el pan no alcanzará los niveles de calidad necesarios para su posterior exposición y venta.",
+              "imagen": "img/modhor/296-3.png",
+              "ancho": 200
+            },
+            {
+              "titulo": "Masa demasiado fría",
+              "texto": "Este defecto del pan puede ser debido a que la masa haya tenido un exceso de frío. Las quemaduras por frío hacen que aparezcan las burbujas y que el pan no se desarrolle perfectamente en el horno. Suele cocer demasiado por la corteza y quedar crudo por dentro. Este pan debe ser desechado.",
+              "imagen": "img/modhor/296-4.png",
+              "ancho": 200
+            },
+            {
+              "titulo": "Rotura cadena frío",
+              "texto": "Si se descongela el producto y se vuelve a congelar, se pierden propiedades del mismo y se producen defectos en la apariencia de la pieza.",
+              "imagen": "img/modhor/296-5.png",
+              "ancho": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -1625,12 +1873,11 @@
           "contenido": [
             {
               "clase": "texto",
-              "texto": "En este módulo has podido identificar cuáles son las <b>categorías</b> más significativas de cara al cliente para cada grupo de productos de la sección de panadería.<br><br>Has descubierto cuáles son los <b>formatos</b> en los que se agrupan, los tamaños y <b>tipos de masa</b> más habituales de los productos salados, las principales operativas de <b>relleno</b> y los <b>ingredientes</b> más básicos de su composición, así como otras categorías.<br><br>Con este módulo hemos llegado al final del curso de \"Conocimiento de Producto: Sección de Panadería\". Esperamos haber sido de ayuda para que pudieras dar el primer paso en el camino de convertirte en un <b>profesional experto</b> en la venta de productos de panadería.<br><br>¡Te esperamos con nuestros siguientes cursos para seguir caminando juntos!<br><br>¡Gracias!"
+              "texto": "En este Módulo has visto las Operativas que se llevan a cabo para desarrollar la Tarea de Horneado. <br><br>Ten en cuenta los productos que se elaboran en la Sección de Panadería de Alimerka tienen su propia operativa en la que se indican exactamente los parámetros de temperatura de cocción, tiempo que dura el horneado y acciones a realizar durante el proceso para obtener productos de óptima calidad y que podrás encontrar dentro del Módulo de Tarea: Manipulación, perteneciente al Proceso: Preparación.<br><br>Esperamos que con este curso  hayas descubierto información útil a desarrollar en tu puesto de trabajo y que también te haya resultado ameno. <br><br>¡Gracias!"
             },
             {
               "clase": "imagen",
-              "subclase": "rotarDcha",
-              "imagen": "img/m4.3/ventaPan.png",
+              "imagen": "img/modhor/ventaPan.png",
               "ancho": 500
             }
           ]
@@ -1638,15 +1885,8 @@
       ]
     },
     {
-      "titulo": "Final del módulo",
-      "fondo": "img/comunes/contraportada.jpg",
-      "contenido": [
-        {
-          "clase": "imagen",
-          "animacion": "slideInRight",
-          "imagen": "img/comunes/contraportadaImg.svg"
-        }
-      ]
+      "titulo": "Contraportada",
+      "fondo": "img/modhor/contraportada.svg"
     }
   ]
 }
