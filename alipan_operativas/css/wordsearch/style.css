@@ -1,0 +1,128 @@
+/**
+* Wordfind.js 0.0.1
+* (c) 2012 Bill, BunKat LLC.
+* Wordfind is freely distributable under the MIT license.
+* For all details and documentation:
+*     http://github.com/bunkat/wordfind
+*/
+
+.juegoSopaLetras p {
+  margin: 1em;
+}
+
+/**
+* Styles for the puzzle
+*/
+.juegoSopaLetras #puzzle {
+  border: 1px solid #ffa000;
+  padding: 1em;
+  float: left;
+  margin: 30px 20px;
+  min-width: 400px;
+  min-height: 400px;
+}
+
+.juegoSopaLetras #puzzle div {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* style for each square in the puzzle */
+.juegoSopaLetras #puzzle .puzzleSquare {
+  height: 30px;
+  width: 30px;
+  text-transform: uppercase;
+  background-color: white;
+  border: 0;
+  font: 1em sans-serif;
+}
+
+.juegoSopaLetras button::-moz-focus-inner {
+  border: 0;
+}
+
+/* indicates when a square has been selected */
+.juegoSopaLetras #puzzle .selected {
+  background-color: #ffa000;
+  color: #fffde7;
+      transition: all .3s ease-out;  
+}
+
+/* indicates that the square is part of a word that has been found */ 
+.juegoSopaLetras #puzzle .found {
+  background-color: #c5e1a5;
+  color: green;
+  transition: all .3s ease-out;  
+}
+
+.juegoSopaLetras #puzzle .solved {
+  background-color: #ffcdd2;
+  color: red;
+  transition: all .3s ease-out;  
+  /*border: 1px solid #212121;*/
+}
+
+/* indicates that all words have been found */
+.juegoSopaLetras #puzzle .complete {
+  background-color: #c5e1a5;
+}
+
+/**
+* Styles for the word list
+*/
+.juegoSopaLetras #words {
+    padding: 1em;
+  /*padding-top: 20px;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+  width: 300px;*/ 
+}
+
+.juegoSopaLetras #words ul {
+    counter-reset: li; 
+    list-style: none;
+    *list-style: decimal; /* Keep using default numbering for IE6/7 */
+    padding-left: 30px;
+}
+
+.juegoSopaLetras #words li {
+  padding: 0.1em 0;
+}
+
+.juegoSopaLetras #words li:before{
+    content: counter(li) ". ";
+    counter-increment: li;
+    /*position: absolute; 
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;*/
+    color: #ffa000;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* indicates that the word has been found */
+.juegoSopaLetras #words .wordFound {
+  text-decoration: line-through;
+  color: #727272;
+      transition: all .3s ease-out;  
+}
+
+/**
+* Styles for the button
+*/
+/* Estilo como el de todos los botones del curso */
+.juegoSopaLetras #solve {
+    /*padding: 0.3em 0.5em;
+  margin: 0 30px;
+  border: 1px solid #ffa000;
+  color: #ffa000;
+  background-color: #fffde7;*/
+}

@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'museo500';
+  src: url('../fonts/Museo-500.eot');
+  src: url('../fonts/Museo-500.woff2') format('woff2'),
+       url('../fonts/Museo-500.woff') format('woff'),
+       url('../fonts/Museo-500.ttf') format('truetype'),
+       url('../fonts/Museo-500.svg#Museo-500') format('svg'),
+       url('../fonts/Museo-500.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+.h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6, .ui-widget-header, .tabsB .nav-tabs >li > a, .botonera button
+{font-family:museo500, Arial}
+
+#divIndiceLista .scoCompletado a {
+    background: url("../img/comunes/tick_menu.svg") no-repeat scroll 97% 50%;
+    background-size: 25px 18px;
+}
+.icono.sabiasQue .divFondo {
+    background-image: url('../img/comunes/sabiasQue.svg');
+    background-size: auto 80px;
+    background-position: 50% 8px;
+}
+.icono.definicion .divFondo{
+    background-image: url('../img/comunes/definicion.svg');
+    background-size: auto 50px;
+    background-position: 50% 25px;
+}
+.icono.exclamacion .divFondo{
+    background-image: url('../img/comunes/exclamacion.svg');
+    background-size: auto 80px;
+    background-position: 50% 8px;
+}
+.icono.exclamacion.blanca .divFondo, 
+.icono.exclamacion.picos .divFondo {background-image: url('../img/comunes/exclamacionBlanca.svg');}
+
+.bordeAlimerka{border: 3px solid #fbc02d; padding:1em !important;}
+.bordeCliente{border: 3px solid #01579B; padding: 1em !important;}
+
+.lista.sortable.alimerka ul{background-color: #fffdd6;}
+.lista.sortable.cliente ul {background-color: #B3E5FC;}
+.lista.sortable.cliente ul > li {background-color: #FFFFFF;border: 3px solid #01579B;margin: 1em 0;}
+.lista.sortable.cliente .placeholder {border: 3px dashed #01579B !important;}
