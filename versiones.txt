@@ -1,6 +1,16 @@
-
+*02/03/2017
+	v7.7.1
+- Se eliminan el divLayout.
+- Se elimina el tag img de la cabecera (ahora se pone como fondo de divCabeceraImagen)
+- Se elimina el alto específico de la cabecera para que se ajuste al texto
+- Se cambia la función inicializarAlto() para que el tamaño de divTextos y navIndice encaje en el hueco disponible entre cabecera y pie.
+- Se añade mediaquery entre 1001 y 1500.
+*01/03/2017
+	v7.7.0
+- Se añade la propiedad "icono" para las listas (imagen antes del texto).
+- Ancho de los acordeones al 75% por defecto.
 *31/01/2017
-	v7.5.1
+	v7.6.0
 - Se añade la propiedad "opacidad" para las listas.
 *04/01/2017
 	v7.5.0
