@@ -687,7 +687,7 @@
         }
       ]
     },
-        {
+    {
       "titulo": "Some / Any",
       "contenido": [
         {
@@ -702,7 +702,7 @@
             }
           ]
         },
-                {
+        {
           "clase": "lista",
           "titulo": "Any significa lo mismo que some, pero lo utilizaremos en su lugar en las frases NEGATIVAS E INTERROGATIVAS.",
           "contenido": [
@@ -712,7 +712,7 @@
             {
               "punto": "Do you have any money? - ¿Tienes algo de dinero?"
             },
-                                    {
+            {
               "punto": "Don’t you have any money? - ¿No tienes nada de dinero?"
             }
           ]
@@ -785,6 +785,20 @@
           ]
         },
         {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Vamos a verlo con unos ejemplos para que sea más sencillo:"
+            },
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center><b>REMEMBER</b></center>Laptop/s -> Ordenador portátil (singular/plural y contable)<br>Milk -> Leche (en inglés siempre en singular e incontable)"
+            }
+          ]
+        },
+        {
           "clase": "acordeon",
           "contenido": [
             {
@@ -804,30 +818,706 @@
                     {
                       "fila": [
                         {
-                          "texto": "There is a TV in the room = The room has a TV.<br>(There is + TV (sujeto) + in the room (complement)."
+                          "texto": "There is a laptop on the table.<br>There isn’t a laptop on the table.<br>Is there a laptop on table?"
                         },
                         {
-                          "texto": "Hay una televisión en la sala."
+                          "texto": "<i>Hay un portátil en la mesa.<br>No hay un portátil en la mesa.<br>¿Hay un portátil en la mesa?</i>"
                         }
                       ]
                     },
                     {
                       "fila": [
                         {
-                          "texto": "There is bread in the cupboard = The cupboard has bread.<br>(There is + bread + in the cupboard)."
+                          "texto": "There are some laptops on the table.<br>There aren’t any laptops on the table.<br>Are there any laptops on the table?"
                         },
                         {
-                          "texto": "Hay pan en el armario/ despensa."
+                          "texto": "<i>Hay varios/unos portátiles en la mesa.<br>No hay ningún portátil en la mesa.<br>¿Hay algún portátil en la mesa?</i>"
                         }
                       ]
                     },
                     {
                       "fila": [
                         {
-                          "texto": "There are two wallets in my bag = I have two walllets in my bag.<br>(There are + two wallets + in my bag)."
+                          "texto": "There is some milk in the fridge.<br>There isn’t any milk in the fridge.<br>Is there any milk in the fridge?"
                         },
                         {
-                          "texto": "Hay dos carteras en mi bolso."
+                          "texto": "<i>Hay algo de leche en la nevera.<br>No hay nada de leche en la nevera.<br>¿Hay leche en la nevera?</i>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "How to write an e-mail",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En esta unidad vamos a ver las características de un e-mail, a diferenciar entre un e-mail formal y uno informal, vocabulario específico y, como no, aprenderemos a redactar un e-mail sencillo.<br>Antes de empezar con el contenido de un e-mail, vamos a ver una las partes de la plantilla donde redactaremos nuestro correo electrónico. Como ya sabes, hay muchos modelos, pero en general todos comparten estas características.<br><br>En el apartado FROM aparecerá nuestra dirección de correo electrónico (our e-mail adress). En el recuadro de TO… debemos escribir la dirección de correo electrónico de la persona a la que le estamos enviando el correo."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "El apartado Cc podemos poner las direcciones de quienes queramos que tenga el e-mail en copia o COPY y donde aparece SUBJECT escribiremos el asunto del correo, siempre con palabras clave que ayuden a identificar el correo. Ejemplo: ‘English course’, ‘Important documents’, ‘Job offer’."
+            },
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center>¿Cómo leemos una dirección de correo electrónico?<br>Example:<br>maryadams@gmail.com -> maryadams <b>AT</b> gmail <b>DOT</b> com<br>‘My e-mail address is maryadams at gmail dot com’</center>"
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Si queremos adjuntar algún documento buscaremos ATTACH o ATTACH FILE. Una vez que hayamos redactado el cuerpo del e-mail (MAIL BODY) sólo nos quedar hacer click en el botón de SEND o enviar.<br><br>A la hora de redactar un e-mail, al igual que si lo escribiéramos en español, tenemos que tener en cuenta quien el destinatario y escribir con un estilo acorde. Podemos diferenciar entre correos formales (formal style) e informales (informal style). Los primeros se corresponden con e-mails para compañeros de trabajo, a organismos públicos, a gente que no conocemos y nos dirigimos por primera vez, etc. (business and important messages). Por otro lado los ‘informal’ serán los que enviemos a familiares y amigos o gente con la que tengamos más confianza (friends and family)."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/email.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Email: Formal style",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En el caso de los e-mails informales no hay reglas para escribirlos, podemos escribir lo que queramos sin seguir ninguna pauta en concreto. Por otro lado, los e-mails formales (formal e-mails) se suelen encabezar y redactar en un estilo más acorde y formal. Aunque el e-mail es un formato relativamente nuevo, y no tienen unas reglas tan marcadas como podían tener las cartas (letters), vamos a ver algunas de las expresiones que podemos utilizar para encabezar y terminar e-mail formal:"
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "FORMAL STYLE",
+              "colspan": 3
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>SALUTATIONS<br><i>(saludos)</i></b></center>",
+                  "rowspan": 2
+                },
+                {
+                  "texto": "<center><b>Dear Mr/ Mrs/ Name</b></center>"
+                },
+                {
+                  "texto": "<center><i>Estimado señor/a nombre</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>Dear Sir/ Madam/ Name</b></center>"
+                },
+                {
+                  "texto": "<center><i>Estimado señor/a</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>FAREWELL<br><i>(despedida)</i></b></center>",
+                  "rowspan": 3
+                },
+                {
+                  "texto": "<center><b>Yours faithfully</b></center>"
+                },
+                {
+                  "texto": "<center><i>Atentamente</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>Regards</b></center>"
+                },
+                {
+                  "texto": "<center><i>Saludos</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>Kind regards</b></center>"
+                },
+                {
+                  "texto": "<center><i>Saludos cordiales</i></center>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<center><b>FORMAL EMAIL<br></b></center>"
+        },
+                {
+          "clase": "imagen",
+          "imagen": "img/mod05/formalemail.png"
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "Aparte de este vocabulario, tenemos que recordar que no se deben usar contracciones (I’m, You’re…) escribiremos I am, he is, she is not..."
+        }
+      ]
+    },
+        {
+      "titulo": "Email: Informal style",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Como dijimos anteriormente, un e-mail informal no debe tener un estilo determinado y podemos escribir como queramos. Podemos utilizar contracciones, emoticonos o ‘slang’ (jerga)."
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "INFORMAL STYLE",
+              "colspan": 3
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>SALUTATIONS<br><i>(saludos)</i></b></center>",
+                  "rowspan": 3
+                },
+                {
+                  "texto": "<center><b>Hi + name!</b></center>"
+                },
+                {
+                  "texto": "<center><i>Hola + nombre</i></center>",
+                  "rowspan": 2
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>Hi there + name</b></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>Morning / afternoon / evening</b></center>"
+                },
+                {
+                  "texto": "<center><i>Buenos días ( tardes / noches</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>FAREWELL<br><i>(despedida)</i></b></center>",
+                  "rowspan": 3
+                },
+                {
+                  "texto": "<center><b>Cheers!</b></center>"
+                },
+                {
+                  "texto": "<center><i>Hasta luego!<br>Nos vemos</i></center>",
+                  "rowspan": 3
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>See you soon</b></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>Bye!</b></center>"
+                }
+              ]
+            }
+          ]
+        },
+                {
+          "clase": "texto",
+          "texto": "<center><b>INFORMAL EMAIL<br></b></center>"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod05/informalemail.png"
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "Aparte de este vocabulario, tenemos que recordar que no se deben usar contracciones (I’m, You’re…) escribiremos I am, he is, she is not..."
+        }
+      ]
+    },
+    {
+      "titulo": "Summary",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<center><b>In this Unit you have learned...</b><br><i>En esta Unidad has aprendido...</i></center>"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "How to use the verb to have (got).",
+              "contenido": [
+                {
+                  "punto": "Maria has a headache. <i>(María tiene un dolor de cabeza.)</i>"
+                },
+                {
+                  "punto": "I have one brother and two sisters. <i>(Tengo un hermano y dos hermanas.)</i>"
+                }
+              ]
+            },
+            {
+              "punto": "Now you know new place prepositions and new uses of <b>IN / ON / AT</b>. Here you have a table with all the uses that you have learned:",
+              "contenido": [
+                {
+                  "clase": "tabla",
+                  "filaTitulos": [
+                    {
+                      "titulo": "<center>PREPOSITION</center>"
+                    },
+                    {
+                      "titulo": "<center>WE USE IT</center>"
+                    },
+                    {
+                      "titulo": "<center>EXAMPLES</center>"
+                    }
+                  ],
+                  "filaContenido": [
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>IN</b></center>",
+                          "rowspan": 6
+                        },
+                        {
+                          "texto": "<center>months / seasons / year</center>"
+                        },
+                        {
+                          "texto": "<center>In March / winter / 2016</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>country / city / town</center>"
+                        },
+                        {
+                          "texto": "<center>In Spain / Madrid / Oviedo</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>morning / afternoon / evening</center>"
+                        },
+                        {
+                          "texto": "<center>In the morning I have breakfast</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>specific room / building</center>"
+                        },
+                        {
+                          "texto": "<center>In the living room</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>car / taxi</center>"
+                        },
+                        {
+                          "texto": "<center>I'm in a taxi</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>book / newspaper</center>"
+                        },
+                        {
+                          "texto": "<center>I read it in the newspaper</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>ON</b></center>",
+                          "rowspan": 5
+                        },
+                        {
+                          "texto": "<center>in contact with</center>"
+                        },
+                        {
+                          "texto": "<center>On the table / on the wall</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>specific days and dates</center>"
+                        },
+                        {
+                          "texto": "<center>On Tuesday / On May 1<sup>st</sup></center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>street names</center>"
+                        },
+                        {
+                          "texto": "<center>On Prince Street</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>public transport</center>"
+                        },
+                        {
+                          "texto": "<center>On the train / bus / plane</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>TV / radio / internet</center>"
+                        },
+                        {
+                          "texto": "<center>I watch it on TV</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>AT</b></center>",
+                          "rowspan": 5
+                        },
+                        {
+                          "texto": "<center>events</center>"
+                        },
+                        {
+                          "texto": "<center>At the party</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>specific times</center>"
+                        },
+                        {
+                          "texto": "<center>At quarter to ten</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>night</center>"
+                        },
+                        {
+                          "texto": "<center>At night</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>weekend</center>"
+                        },
+                        {
+                          "texto": "<center>At the weekend / at weekends</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>frequent places</center>"
+                        },
+                        {
+                          "texto": "<center>At work / at the hospital</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>FROM... TO...</b></center>"
+                        },
+                        {
+                          "texto": "<center>how long it lasts</center>"
+                        },
+                        {
+                          "texto": "<center>I work from eight to six</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>TO</b></center>"
+                        },
+                        {
+                          "texto": "<center>go to...</center>"
+                        },
+                        {
+                          "texto": "<center>I go to work</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>UNTIL</b></center>",
+                          "colspan": 2
+                        },
+                        {
+                          "texto": "<center>It opens until seven</center>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "punto": "You know how indicate possession using the Saxon genitive for people (‘s), ‘of’ for things:",
+              "contenido": [
+                {
+                  "punto": "Maria’s car."
+                },
+                {
+                  "punto": "The door of the house."
+                }
+              ]
+            },
+            {
+              "punto": "You learned the possessive adjectives:",
+              "contenido": [
+                {
+                  "punto": "Your book."
+                },
+                {
+                  "punto": "His job."
+                },
+                {
+                  "punto": "Our mother."
+                }
+              ]
+            },
+            {
+              "punto": "You have new vocabulary about the family and relationships (why don’t you have a look again at the vocabulary?)"
+            },
+            {
+              "punto": "You have learned how to describe people using the adjectives from UNIT 1 and new expressions and verb tenses."
+            }
+          ]
+        },
+        {
+          "clase": "acordeon",
+          "contenido": [
+            {
+              "titulo": "New vocabulary from this Unit",
+              "contenido": [
+                {
+                  "clase": "tabla",
+                  "filaTitulos": [
+                    {
+                      "titulo": "ENGLISH"
+                    },
+                    {
+                      "titulo": "SPANISH"
+                    },
+                    {
+                      "titulo": "PRONUNTIATION"
+                    }
+                  ],
+                  "filaContenido": [
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>HEADACHE</b></center>"
+                        },
+                        {
+                          "texto": "<center>DOLOR DE CABEZA</center>"
+                        },
+                        {
+                          "texto": "<center>ˈhɛdeɪk</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>COMPUTER</b></center>"
+                        },
+                        {
+                          "texto": "<center>ORDENADOR</center>"
+                        },
+                        {
+                          "texto": "<center>kəmˈpjuːtə</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>SMARTPHONE</b></center>"
+                        },
+                        {
+                          "texto": "<center>TELÉFONO MÓVIL</center>"
+                        },
+                        {
+                          "texto": "<center>ˈsmɑːtfəʊn/A</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>UMBRELLA</b></center>"
+                        },
+                        {
+                          "texto": "<center>PARAGUAS</center>"
+                        },
+                        {
+                          "texto": "<center>ʌmˈbrɛlə</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>ROOF</b></center>"
+                        },
+                        {
+                          "texto": "<center>TEJADO</center>"
+                        },
+                        {
+                          "texto": "<center>ruːf</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>BUILDING</b></center>"
+                        },
+                        {
+                          "texto": "<center>EDIFICIO</center>"
+                        },
+                        {
+                          "texto": "<center>ˈbɪldɪŋ</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>WHAT'S UP</b></center>"
+                        },
+                        {
+                          "texto": "<center>¿QUÉ HAY? (coloquial)</center>"
+                        },
+                        {
+                          "texto": "<center>wɒts ʌp</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>BUSY</b></center>"
+                        },
+                        {
+                          "texto": "<center>OCUPADO</center>"
+                        },
+                        {
+                          "texto": "<center>ˈbɪzi </center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>COLLEAGUES</b></center>"
+                        },
+                        {
+                          "texto": "<center>COMPAÑEROS DE TRABAJO</center>"
+                        },
+                        {
+                          "texto": "<center>lɒˈkɒliːgz</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>TO KEEP</b></center>"
+                        },
+                        {
+                          "texto": "<center>GUARDAR</center>"
+                        },
+                        {
+                          "texto": "<center>tuː kiːp</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>TO DELETE</b></center>"
+                        },
+                        {
+                          "texto": "<center>BORRAR / ELIMINAR</center>"
+                        },
+                        {
+                          "texto": "<center>tuː dɪˈliːt</center>"
                         }
                       ]
                     }
@@ -837,17 +1527,13 @@
             }
           ]
         },
-        {
-          "clase": "icono",
-          "subclase": "exclamacion",
-          "texto": "<b>Contracciones</b><br>There is: there’s.<br>There are: <strike>there’re</strike> <b>no es possible</b> ya que sería impronunciable!<br><br>En <b>respuestas cortas</b><br>Yes, there is / Yes, there are.<br>No se puede contraer ninguna de las dos formas."
+                {
+          "clase": "imagen",
+          "imagen": "img/mod04/londonLast2.png"
         }
+
       ]
     },
-
-
-
-
 
 
 
