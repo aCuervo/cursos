@@ -23,14 +23,15 @@
 }
 .icono.definicion .divFondo{
     background-image: url('../img/comunes/definicion.svg');
-    background-size: 85%;
-    background-position: 50%;
+    background-size: auto 80px;
+    background-position: 50% 8px;
 }
 .icono.exclamacion .divFondo{
     background-image: url('../img/comunes/exclamacion.svg');
     background-size: auto 80px;
     background-position: 50% 8px;
 }
+
 .icono.exclamacion.blanca .divFondo, 
 .icono.exclamacion.picos .divFondo {background-image: url('../img/comunes/exclamacionBlanca.svg');}
 
@@ -42,5 +43,5 @@
 .lista.sortable.cliente ul > li {background-color: #FFFFFF;border: 3px solid #01579B;margin: 1em 0;}
 .lista.sortable.cliente .placeholder {border: 3px dashed #01579B !important;}
 
-.sliderB .carousel-caption{position:relative !important;}
+.sliderB .carousel-caption{position:static !important;}
 .sliderB .carousel-indicators{bottom: 0px !important;}

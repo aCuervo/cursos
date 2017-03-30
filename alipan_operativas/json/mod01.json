@@ -27,7 +27,7 @@
             },
             {
               "clase": "imagen",
-              "imagen": "img/modhor/objetivos.png"
+              "imagen": "img/mod01/objetivos.png"
             }
           ]
         }
@@ -44,7 +44,7 @@
         {
           "clase": "imagen",
           "animacion": "fadeInRight",
-          "imagen": "img/modhor/pto.png"
+          "imagen": "img/mod01/pto.png"
         },
         {
           "clase": "listaObjetos",
@@ -57,7 +57,7 @@
             },
             {
               "clase": "imagen",
-              "imagen": "img/modhor/ruedasdentadas.png"
+              "imagen": "img/mod01/ruedasdentadas.png"
             }
           ]
         }
@@ -82,31 +82,31 @@
             {
               "titulo": "Aprovisionamiento",
               "texto": "Es el proceso que consiste en surtir a la sección con todos los productos necesarios para su funcionamiento, así como el control de los mismos.",
-              "imagen": "img/modhor/procesos1.png",
+              "imagen": "img/mod01/procesos1.png",
               "ancho": 200
             },
             {
               "titulo": "Preparación",
               "texto": "Es el proceso mediante el cual transformamos las existencias que hemos aprovisionado en productos para los clientes.",
-              "imagen": "img/modhor/procesos2.png",
+              "imagen": "img/mod01/procesos2.png",
               "ancho": 200
             },
             {
               "titulo": "Punto de venta",
               "texto": "Es el proceso de la exposición del producto en el punto de venta. Incluye tanto la colocación estética del producto como la uniformidad y el etiquetado.",
-              "imagen": "img/modhor/procesos3.png",
+              "imagen": "img/mod01/procesos3.png",
               "ancho": 200
             },
             {
               "titulo": "Venta",
               "texto": "Es el proceso de venta del producto y es fundamental para la actividad de la sección, de tal forma que todos los demás procesos funcionan en torno a las necesidades que se generan en este proceso.",
-              "imagen": "img/modhor/procesos4.png",
+              "imagen": "img/mod01/procesos4.png",
               "ancho": 200
             },
             {
               "titulo": "Retirada de producto",
               "texto": "Es el proceso de control de producto no vendido y es el último de los procesos relacionados con el producto, y con él se cierra el ciclo de trabajo, volviendo a comenzar con el Aprovisionamiento.",
-              "imagen": "img/modhor/procesos5.png",
+              "imagen": "img/mod01/procesos5.png",
               "ancho": 200
             }
           ]
@@ -121,7 +121,7 @@
             {
               "titulo": "Sección de panadería",
               "texto": "Es un proceso cuya finalidad supone el mantenimiento de la sección en correcto funcionamiento en cuestiones de higiene, limpieza y conservación.",
-              "imagen": "img/modhor/procesos6.png",
+              "imagen": "img/mod01/procesos6.png",
               "ancho": 200
             }
           ]
@@ -269,7 +269,7 @@
     },
     {
       "titulo": "Tarea: horneado",
-      "fondo": "img/modhor/19.B.jpg",
+      "fondo": "img/mod01/19.B.jpg",
       "contenido": [
         {
           "clase": "texto",
@@ -278,7 +278,7 @@
         },
         {
           "clase": "imagen",
-          "imagen": "img/modhor/preparacion.svg",
+          "imagen": "img/mod01/preparacion.svg",
           "ancho": 600
         },
         {
@@ -397,19 +397,19 @@
             {
               "titulo": "Horno BAKE",
               "texto": "Horno de programación manual.",
-              "imagen": "img/modhor/bake.png",
+              "imagen": "img/mod01/bake.png",
               "ancho": 200
             },
             {
               "titulo": "Horno APH",
               "texto": "Horno con pantalla táctil. La programación puede realizarse de forma manual o automática.",
-              "imagen": "img/modhor/aph.png",
+              "imagen": "img/mod01/aph.png",
               "ancho": 200
             },
             {
               "titulo": "Horno SALVA",
               "texto": "Horno de programación manual o automática.",
-              "imagen": "img/modhor/salva.png",
+              "imagen": "img/mod01/salva.png",
               "ancho": 200
             }
           ]
@@ -430,7 +430,7 @@
       "contenido": [
         {
           "clase": "imagen",
-          "imagen": "img/modhor/mandosBake.png",
+          "imagen": "img/mod01/mandosBake.png",
           "ancho": 500
         }
       ]
@@ -452,49 +452,49 @@
             {
               "titulo": "Paso 1: Encendido del horno",
               "texto": "El botón de Encendido / Apagado nos permitirá encender el horno girando el interruptor hacia la derecha.",
-              "imagen": "img/modhor/bake1.png",
+              "imagen": "img/mod01/bake1.png",
               "ancho": 200
             },
             {
               "titulo": "Paso 2: Activación de temperatura",
               "texto": "Para poder seleccionar la temperatura debemos pulsar el botón de Activar / Confirmar (marcado en azul). Con esta primera pulsación se inicia el modo Activar y la pantalla que está justo encima (marcada en rojo) empezará a parpadear.",
-              "imagen": "img/modhor/bake2.png",
+              "imagen": "img/mod01/bake2.png",
               "ancho": 200
             },
             {
               "titulo": "Paso 3: Selección de temperatura",
               "texto": "En el momento en que la pantalla esté parpadeando, podemos ajustar la temperatura mediante las teclas de Subir o Bajar (marcadas en amarillo) hasta alcanzar los grados deseados.",
-              "imagen": "img/modhor/bake3.png",
+              "imagen": "img/mod01/bake3.png",
               "ancho": 200
             },
             {
               "titulo": "Paso 4: Confirmación de temperatura",
               "texto": "Cuando tengamos los grados centígrados que queremos marcados en la pantalla, volvemos a pulsar el botón de Activar / Confirmar para entrar en el modo Confirmar y validar esa temperatura.",
-              "imagen": "img/modhor/bake4.png",
+              "imagen": "img/mod01/bake4.png",
               "ancho": 200
             },
             {
               "titulo": "Paso 5: Introducción de producto",
               "texto": "Metemos los productos que vayamos a hornear dentro del horno y tras asegurarnos de cerrar la puerta, pulsamos el botón que inicia el proceso de vaporización (marcado en naranja).",
-              "imagen": "img/modhor/bake5.png",
+              "imagen": "img/mod01/bake5.png",
               "ancho": 200
             },
             {
               "titulo": "Paso 6: Temporizador de cocción",
               "texto": "Para programar el tiempo que nos va a llevar la cocción de los productos, marcamos el tiempo de cocción girando la rosca del reloj  (marcada en color rosa) hasta la posición deseada.",
-              "imagen": "img/modhor/bake6.png",
+              "imagen": "img/mod01/bake6.png",
               "ancho": 200
             },
             {
               "titulo": "Paso 7: Aviso de finalización",
               "texto": "Para no tener que estar pendientes del tiempo de cocción, activaremos el timbre de aviso (marcado en violeta) de finalización de la cocción.",
-              "imagen": "img/modhor/bake7.png",
+              "imagen": "img/mod01/bake7.png",
               "ancho": 200
             },
             {
               "titulo": "Paso 8: Finalización de cocción",
               "texto": "Una vez finalizado el tiempo de cocción, giraremos de nuevo la tecla del timbre de aviso (marcado en violeta) en sentido contrario para desactivar el aviso sonoro.",
-              "imagen": "img/modhor/bake8.png",
+              "imagen": "img/mod01/bake8.png",
               "ancho": 200
             }
           ]
@@ -503,7 +503,7 @@
           "clase": "icono",
           "subclase": "exclamacion",
           "texto": "Durante el horneado puede ser necesario abrir el tiro del horno (por ejemplo en horneados de pan y hojaldre). Para hacerlo deberemos activar la apertura del tiro (marcado en rojo en la imagen) girando la rosca dispuesta para ello.",
-          "imagen": "img/modhor/bake9.png",
+          "imagen": "img/mod01/bake9.png",
           "ancho": 100
         }
       ]
@@ -521,43 +521,43 @@
             {
               "titulo": "Paso 1: Cambio de modo automático / manual",
               "texto": "La programación del horno APH se realiza desde la pantalla táctil. Por defecto el horno nos permite el acceso al modo automático, por lo que para activar el modo manual hemos de pulsar la flecha de la esquina superior derecha (marcada en amarillo).",
-              "imagen": "img/modhor/aphm1.png",
+              "imagen": "img/mod01/aphm1.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 2: Confirmación de cambio de modo",
               "texto": "Se nos preguntará si queremos abandonar el modo automático, por lo que la pantalla mostrará el mensaje: “Realmente desea salir del modo automático y volver al menú principal”. Pulsamos SÍ para confirmar que queremos acceder al modo manual.",
-              "imagen": "img/modhor/aphm2.png",
+              "imagen": "img/mod01/aphm2.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 3: Modificación de temperatura",
               "texto": "Ahora la pantalla nos mostrará las opciones para realizar los cambios en los parámetros de la cocción: temperatura y tiempo. Pulsamos el botón de la izquierda para modificar la temperatura.",
-              "imagen": "img/modhor/aphm3.png",
+              "imagen": "img/mod01/aphm3.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 4: Selección de la temperatura",
               "texto": "Aparecerá un teclado numérico sobre el cual podemos marcar los grados centígrados que deseamos programar. Una vez introducidos, debemos guardar la temperatura pulsando el botón de confirmar (señalado en azul en la imagen).",
-              "imagen": "img/modhor/aphm4.png",
+              "imagen": "img/mod01/aphm4.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 5: Modificación del tiempo",
               "texto": "Al igual que hemos hecho con la temperatura, podemos modificar el tiempo de cocción pulsando sobre el botón de la derecha.",
-              "imagen": "img/modhor/aphm5.png",
+              "imagen": "img/mod01/aphm5.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 6: Selección del tiempo",
               "texto": "Aparecerá, de nuevo, el teclado numérico sobre el cual podemos marcar el tiempo que deseamos programar. Una vez introducido, debemos guardarlo pulsando el botón de confirmar (señalado en azul en la imagen).",
-              "imagen": "img/modhor/aphm6.png",
+              "imagen": "img/mod01/aphm6.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 7: Inicio de cocción",
               "texto": "Regresamos al menú principal de la pantalla pulsando la flecha de la izquierda (señalada en color naranja) y confirmamos el inicio de cocción pulsando el botón On/Off.",
-              "imagen": "img/modhor/aphm7.png",
+              "imagen": "img/mod01/aphm7.png",
               "ancho": 600
             }
           ]
@@ -569,7 +569,7 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "<center><b>Denominación de Operativa:</b> Programación de horno APH</center><br><br>Podemos realizar el proceso de programación del horno APH de forma automática o bien de forma manual.<br>Ahora vamos a ver cómo es la programación automática::"
+          "texto": "<center><b>Denominación de Operativa:</b> Programación de horno APH</center><br><br>Podemos realizar el proceso de programación del horno APH de forma automática o bien de forma manual.<br>Ahora vamos a ver cómo es la programación automática:"
         },
         {
           "clase": "sliderB",
@@ -577,25 +577,25 @@
             {
               "titulo": "INICIO DE PROGRAMA AUTOMÁTICO<br>Paso 1: Inicio",
               "texto": "Por defecto el horno ya nos ofrece el acceso al modo automático, por lo que tan solo hemos de pulsar el botón de inicio (señalado en la imagen en amarillo).",
-              "imagen": "img/modhor/apha1.png",
+              "imagen": "img/mod01/apha1.png",
               "ancho": 600
             },
             {
               "titulo": "INICIO DE PROGRAMA AUTOMÁTICO<br>Paso 2: Confirmación de incio de cocción",
               "texto": "Para confirmar el inicio de la cocción pulsaremos el botón On/Off.",
-              "imagen": "img/modhor/apha2.png",
+              "imagen": "img/mod01/apha2.png",
               "ancho": 600
             },
             {
               "titulo": "FIN DE PROGRAMA AUTOMÁTICO<br>Paso 1: Fin del proceso automático",
               "texto": "Cuando el proceso automático ha terminado pulsamos 3 veces la flecha de bajada, que está en la esquina superior izquierda de la pantalla táctil (marcada en naranja en la imagen).",
-              "imagen": "img/modhor/apha3.png",
+              "imagen": "img/mod01/apha3.png",
               "ancho": 600
             },
             {
               "titulo": "FIN DE PROGRAMA AUTOMÁTICO<br>Paso 2: Confirmación de fin de proceso",
               "texto": "Nos aparece una nueva ventana que nos muestra las posibilidades del modo automático y confirmamos el fin del proceso pulsando el botón FIN (marcado en rojo en la imagen).",
-              "imagen": "img/modhor/apha4.png",
+              "imagen": "img/mod01/apha4.png",
               "ancho": 600
             }
           ]
@@ -615,25 +615,25 @@
             {
               "titulo": "Paso 1: Inicio de funcionamiento",
               "texto": "Lo primero de todo es iniciar el funcionamiento del horno. Para ello, hemos de pulsar el botón PROG que encontrarás en la esquina inferior derecha del panel de mandos (marcado en amarillo en la imagen).",
-              "imagen": "img/modhor/salvam1.png",
+              "imagen": "img/mod01/salvam1.png",
               "ancho": 250
             },
             {
               "titulo": "Paso 2: Calentamiento del horno",
               "texto": "Para que se inicie el calentamiento del horno hemos de ir al panel de programas (marcado en azul en la imagen) y pulsamos el botón correspondiente al programa 1, inicial (marcado en rojo).",
-              "imagen": "img/modhor/salvam2.png",
+              "imagen": "img/mod01/salvam2.png",
               "ancho": 250
             },
             {
               "titulo": "Paso 3: Selección de programas",
               "texto": "En este momento debemos seleccionar TODOS los programas que queramos que se vayan ejecutando.",
-              "imagen": "img/modhor/salvam3.png",
+              "imagen": "img/mod01/salvam3.png",
               "ancho": 250
             },
             {
               "titulo": "Paso 4: Inicio del proceso",
               "texto": "Para comenzar el horneado solamente nos queda pulsar el botón de Start / Stop que puedes encontrar en la esquina inferior izquierda (marcado en verde en la imagen).",
-              "imagen": "img/modhor/salvam4.png",
+              "imagen": "img/mod01/salvam4.png",
               "ancho": 250
             }
           ]
@@ -653,43 +653,43 @@
             {
               "titulo": "Paso 1: Entrar en modo programación",
               "texto": "Para que el horno active el modo programación debemos pulsar el botón 1 del panel de programas (marcado en azul en la imagen) y continuamos pulsando el botón Star/Stop de la esquina inferior izquierda (marcado en verde).",
-              "imagen": "img/modhor/salvaa1.png",
+              "imagen": "img/mod01/salvaa1.png",
               "ancho": 250
             },
             {
               "titulo": "Paso 2: Introducción de programa",
               "texto": ". Ahora el horno se encuentra activo para introducir nuevos programas en su memoria, y para hacerlo seleccionaremos uno de los botones numerados del panel de programas en el cual queremos guardar los parámetros del proceso.",
-              "imagen": "img/modhor/salvaa2.png",
+              "imagen": "img/mod01/salvaa2.png",
               "ancho": 250
             },
             {
               "titulo": "Paso 3: Introducción de la temperatura",
               "texto": "Con las flechas de subir o bajar que están marcadas en rojo en la imagen, podemos seleccionar la temperatura que deseamos programar. La pantalla que queda entre ambas flechas nos muestra la selección actual.",
-              "imagen": "img/modhor/salvaa3.png",
+              "imagen": "img/mod01/salvaa3.png",
               "ancho": 250
             },
             {
               "titulo": "Paso 4: Introducción del tiempo",
               "texto": "Al igual que con la temperatura, las flechas de subir o bajar (marcadas en naranja) nos permiten seleccionar la duración del programa. La pantalla que está justo por encima de ambas flechas nos muestra la selección actual.",
-              "imagen": "img/modhor/salvaa4.png",
+              "imagen": "img/mod01/salvaa4.png",
               "ancho": 250
             },
             {
               "titulo": "Paso 5: Grabación del programa",
               "texto": "Para grabar el programa con los parámetros que hemos marcado, pulsamos el botón PROG (señalado con el color violeta en la imagen) y confirmamos pulsando el botón Start/Stop (marcado en color verde).",
-              "imagen": "img/modhor/salvaa5.png",
+              "imagen": "img/mod01/salvaa5.png",
               "ancho": 250
             },
             {
               "titulo": "Paso 6: Vuelta al estado de espera",
               "texto": "Ya tenemos grabado y guardado el programa en la memoria del horno, por lo que podemos regresar al estado de espera / inicial del horno. Para ello pulsamos el botón 1 del panel de programas.",
-              "imagen": "img/modhor/salvaa6.png",
+              "imagen": "img/mod01/salvaa6.png",
               "ancho": 250
             },
             {
               "titulo": "",
               "texto": "Si queremos hacer una comprobación, podemos pulsar el número del programa que elegimos para guardar el proceso en el panel de programas.",
-              "imagen": "img/modhor/salvaa6.png",
+              "imagen": "img/mod01/salvaa6.png",
               "ancho": 250
             }
           ]
@@ -731,7 +731,7 @@
       "contenido": [
         {
           "clase": "icono",
-          "subclase": "definición",
+          "subclase": "definicion",
           "texto": "<b>1. Denominación de Operativa:</b><br>Planificación del Horneado."
         },
         {
@@ -744,13 +744,13 @@
             {
               "titulo": "Profesional de panadería",
               "texto": "Es el profesional responsable de ejecutar las tareas y procedimientos.",
-              "imagen": "img/modhor/pprofesional.png",
+              "imagen": "img/mod01/pprofesional.png",
               "ancho": 200
             },
             {
               "titulo": "Horno",
               "texto": "Equipo necesario para poder cocer los productos de la sección.",
-              "imagen": "img/modhor/phorno.png",
+              "imagen": "img/mod01/phorno.png",
               "ancho": 200
             }
           ]
@@ -778,7 +778,7 @@
             },
             {
               "clase": "imagen",
-              "imagen": "img/modhor/p290.png"
+              "imagen": "img/mod01/p290.png"
             }
           ]
         },
@@ -788,6 +788,7 @@
         },
         {
           "clase": "listaObjetos",
+          "subclase": "flex-start",
           "contenido": [
             {
               "clase": "acordeon",
@@ -822,7 +823,7 @@
         },
         {
           "clase": "imagen",
-          "imagen": "img/modhor/incompatibilidades.png"
+          "imagen": "img/mod01/incompatibilidades.png"
         },
         {
           "clase": "icono",
@@ -836,7 +837,7 @@
       "contenido": [
         {
           "clase": "icono",
-          "subclase": "definición",
+          "subclase": "definicion",
           "texto": "<b>1. Denominación de Operativa:</b><br>Corte de pan"
         },
         {
@@ -849,25 +850,25 @@
             {
               "titulo": "Profesional de panadería",
               "texto": "Es el profesional responsable de ejecutar las tareas y procedimientos.",
-              "imagen": "img/modhor/pprofesional.png",
+              "imagen": "img/mod01/pprofesional.png",
               "ancho": 200
             },
             {
               "titulo": "Cuchillas",
               "texto": "Son los utensilios cortantes que utilizamos para realizar los cortes de pan, previo al horneado.",
-              "imagen": "img/modhor/pcuchillas.png",
+              "imagen": "img/mod01/pcuchillas.png",
               "ancho": 200
             },
             {
               "titulo": "Soporte de cuchillas",
               "texto": "Es la base imantada para colocar las cuchillas de corte mientras no se estén utilizando.",
-              "imagen": "img/modhor/psoporte.png",
+              "imagen": "img/mod01/psoporte.png",
               "ancho": 200
             },
             {
               "titulo": "Bandejas de canal",
               "texto": "Son las bandejas con ondulaciones a modo de canales que permiten colocar el producto de forma separada para su horneado.",
-              "imagen": "img/modhor/pcanal.png",
+              "imagen": "img/mod01/pcanal.png",
               "ancho": 200
             }
           ]
@@ -962,31 +963,31 @@
             {
               "titulo": "Paso 1:",
               "texto": "Para los cortes del pan, utilizaremos exclusivamente las cuchillas proporcionadas para tal efecto.",
-              "imagen": "img/modhor/corte1.png",
+              "imagen": "img/mod01/corte1.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 2:",
               "texto": "Sacaremos la bandeja apoyando un extremo superior sobre el carro y el extremo opuesto sobre nuestra mano.",
-              "imagen": "img/modhor/corte2.png",
+              "imagen": "img/mod01/corte2.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 3:",
               "texto": "El corte debe ser superficial.",
-              "imagen": "img/modhor/corte3.png",
+              "imagen": "img/mod01/corte3.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 4:",
               "texto": "El número de cortes será proporcional al tamaño de la barra.",
-              "imagen": "img/modhor/corte4.png",
+              "imagen": "img/mod01/corte4.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 5:",
               "texto": "Los cortes permitirán que el pan greñe adecuadamente.",
-              "imagen": "img/modhor/corte5.png",
+              "imagen": "img/mod01/corte5.png",
               "ancho": 500
             }
           ]
@@ -1003,7 +1004,7 @@
       "contenido": [
         {
           "clase": "icono",
-          "subclase": "definición",
+          "subclase": "definicion",
           "texto": "<b>1. Denominación de Operativa:</b><br>Horneado con pan"
         },
         {
@@ -1016,37 +1017,37 @@
             {
               "titulo": "Profesional de panadería",
               "texto": "Es el profesional responsable de ejecutar las tareas y procedimientos.",
-              "imagen": "img/modhor/pprofesional.png",
+              "imagen": "img/mod01/pprofesional.png",
               "ancho": 200
             },
             {
               "titulo": "Horno",
               "texto": "Máquina que se utiliza para cocer los productos de la sección.",
-              "imagen": "img/modhor/phorno.png",
+              "imagen": "img/mod01/phorno.png",
               "ancho": 200
             },
             {
               "titulo": "Carros de horno",
               "texto": "Son estructuras que facilitan el transporte de las bandejas y su manipulación durante el proceso de horneado.",
-              "imagen": "img/modhor/pcarroshorno.png",
+              "imagen": "img/mod01/pcarroshorno.png",
               "ancho": 200
             },
             {
               "titulo": "Cuchillas",
               "texto": "Son los utensilios cortantes que utilizamos para realizar los cortes de pan, previo al horneado.",
-              "imagen": "img/modhor/pcuchillas.png",
+              "imagen": "img/mod01/pcuchillas.png",
               "ancho": 200
             },
             {
               "titulo": "Bandejas de canal",
               "texto": "Son las bandejas con ondulaciones a modo de canales que permiten colocar el producto de forma separada para su horneado.",
-              "imagen": "img/modhor/pcanal.png",
+              "imagen": "img/mod01/pcanal.png",
               "ancho": 200
             },
             {
               "titulo": "Guantes de seguridad",
               "texto": "Son los guantes que hemos de emplear para meter y sacar del horno los carros de producto.",
-              "imagen": "img/modhor/pguantesseguridad.png",
+              "imagen": "img/mod01/pguantesseguridad.png",
               "ancho": 200
             }
           ]
@@ -1080,6 +1081,7 @@
         },
         {
           "clase": "listaObjetos",
+          "subclase": "flex-start",
           "contenido": [
             {
               "clase": "acordeon",
@@ -1096,7 +1098,7 @@
               "animacion": "fadeInRight",
               "contenido": [
                 {
-                  "titulo": "BaBaguettes",
+                  "titulo": "Baguettes",
                   "texto": "Se sacan a los 35 minutos de cocción.<br>Ejemplos: baguette, mini baguette y la ración."
                 }
               ]
@@ -1118,37 +1120,37 @@
             {
               "titulo": "Paso 1:",
               "texto": "Debemos dejar que se produzca la fermentación del producto en la cámara de fermentación. Cuando finalice el proceso lo sacamos de la cámara.",
-              "imagen": "img/modhor/horneado1.png",
+              "imagen": "img/mod01/horneado1.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 2:",
               "texto": "Pasamos las bandejas desde el carro de la fermentadora al carro del horno.",
-              "imagen": "img/modhor/horneado2.png",
+              "imagen": "img/mod01/horneado2.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 3:",
               "texto": "Debemos atender las demandas y gustos de nuestros clientes, por lo que metemos productos variados que cubran sus necesidades.",
-              "imagen": "img/modhor/horneado3.png",
+              "imagen": "img/mod01/horneado3.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 4:",
               "texto": "Realizamos el corte del pan, siempre de forma rápida y evitando interrupciones para que el pan no se nos reseque.",
-              "imagen": "img/modhor/horneado4.png",
+              "imagen": "img/mod01/horneado4.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 5:",
               "texto": "Ahora metemos el carro cargado en el horno. Llevaremos puestos  los guantes de seguridad para evitar que nos podamos quemar.",
-              "imagen": "img/modhor/horneado5.png",
+              "imagen": "img/mod01/horneado5.png",
               "ancho": 500
             },
             {
               "titulo": "Paso 6:",
               "texto": "Una vez tengamos la carga dentro del horno, lo cerramos e iniciamos el proceso de horneado.",
-              "imagen": "img/modhor/horneado6.png",
+              "imagen": "img/mod01/horneado6.png",
               "ancho": 500
             }
           ]
@@ -1165,7 +1167,7 @@
       "contenido": [
         {
           "clase": "icono",
-          "subclase": "definición",
+          "subclase": "definicion",
           "texto": "<b>1. Denominación de Operativa:</b><br>Horneado con pan precocido"
         },
         {
@@ -1178,43 +1180,43 @@
             {
               "titulo": "Profesional de panadería",
               "texto": "Es el profesional responsable de ejecutar las tareas y procedimientos.",
-              "imagen": "img/modhor/pprofesional.png",
+              "imagen": "img/mod01/pprofesional.png",
               "ancho": 200
             },
             {
               "titulo": "Cámara de congelación",
               "texto": "Es el habitáculo de la sección dedicado a la conservación del producto en estado de congelación.",
-              "imagen": "img/modhor/pcongelacion.png",
+              "imagen": "img/mod01/pcongelacion.png",
               "ancho": 200
             },
             {
               "titulo": "Horno",
               "texto": "Máquina que se utiliza para cocer los productos de la sección.",
-              "imagen": "img/modhor/phorno.png",
+              "imagen": "img/mod01/phorno.png",
               "ancho": 200
             },
             {
               "titulo": "Carros de horno",
               "texto": "Son estructuras que facilitan el transporte de las bandejas y su manipulación durante el proceso de horneado.",
-              "imagen": "img/modhor/pcarroshorno.png",
+              "imagen": "img/mod01/pcarroshorno.png",
               "ancho": 200
             },
             {
               "titulo": "Bandejas de canal",
               "texto": "Son las bandejas con ondulaciones a modo de canales que permiten colocar el producto de forma separada para su horneado.",
-              "imagen": "img/modhor/pcanal.png",
+              "imagen": "img/mod01/pcanal.png",
               "ancho": 200
             },
             {
               "titulo": "Bandejas planas",
               "texto": "Es la superficie lisa que se utiliza en el horneado de productos.",
-              "imagen": "img/modhor/pplana.png",
+              "imagen": "img/mod01/pplana.png",
               "ancho": 200
             },
             {
               "titulo": "Guantes de seguridad",
               "texto": "Son los guantes que hemos de emplear para meter y sacar del horno los carros de producto.",
-              "imagen": "img/modhor/pguantesseguridad.png",
+              "imagen": "img/mod01/pguantesseguridad.png",
               "ancho": 200
             }
           ]
@@ -1253,37 +1255,37 @@
             {
               "titulo": "Paso 1:",
               "texto": "Cogemos el precocido de la cámara de congelación y lo sacamos fuera.",
-              "imagen": "img/modhor/precocido1.png",
+              "imagen": "img/mod01/precocido1.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 2:",
               "texto": "Lo dejamos descongelar dentro de la bolsa de su embalaje, bien colocado en la bandeja dentro del carro del horno.",
-              "imagen": "img/modhor/precocido2.png",
+              "imagen": "img/mod01/precocido2.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 3:",
               "texto": "En la cámara podemos colocar el precocido fuera de la caja de cartón, siempre con la bolsa cerrada y etiquetada.",
-              "imagen": "img/modhor/precocido3.png",
+              "imagen": "img/mod01/precocido3.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 4:",
               "texto": "La caja la doblaremos y prepararemos en el palet destinado al cartón y ubicado en el almacén.",
-              "imagen": "img/modhor/precocido4.png",
+              "imagen": "img/mod01/precocido4.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 5:",
               "texto": "Una vez preparado y colocado en las bandejas del carro todo el precocido, se deja descongelar.",
-              "imagen": "img/modhor/precocido5.png",
+              "imagen": "img/mod01/precocido5.png",
               "ancho": 500
             },
             {
               "titulo": "Paso 6:",
               "texto": "Descongelado el precocido lo metemos en el horno para su cocción.",
-              "imagen": "img/modhor/precocido6.png",
+              "imagen": "img/mod01/precocido6.png",
               "ancho": 500
             }
           ]
@@ -1300,7 +1302,7 @@
       "contenido": [
         {
           "clase": "icono",
-          "subclase": "definición",
+          "subclase": "definicion",
           "texto": "<b>1. Denominación de Operativa:</b><br>Horneado con pan ecológico"
         },
         {
@@ -1313,43 +1315,43 @@
             {
               "titulo": "Profesional de panadería",
               "texto": "Es el profesional responsable de ejecutar las tareas y procedimientos.",
-              "imagen": "img/modhor/pprofesional.png",
+              "imagen": "img/mod01/pprofesional.png",
               "ancho": 200
             },
             {
               "titulo": "Cámara de congelación",
               "texto": "Es el habitáculo de la sección dedicado a la conservación del producto en estado de congelación.",
-              "imagen": "img/modhor/pcongelacion.png",
+              "imagen": "img/mod01/pcongelacion.png",
               "ancho": 200
             },
             {
               "titulo": "Horno",
               "texto": "Máquina que se utiliza para cocer los productos de la sección.",
-              "imagen": "img/modhor/phorno.png",
+              "imagen": "img/mod01/phorno.png",
               "ancho": 200
             },
             {
               "titulo": "Carros de horno",
               "texto": "Son estructuras que facilitan el transporte de las bandejas y su manipulación durante el proceso de horneado.",
-              "imagen": "img/modhor/pcarroshorno.png",
+              "imagen": "img/mod01/pcarroshorno.png",
               "ancho": 200
             },
             {
               "titulo": "Papel sulfurizado",
               "texto": "Es un papel que se caracteriza por su resistencia a las altas temperaturas y por ser antiadherente.",
-              "imagen": "img/modhor/ppsulfurizado.png",
+              "imagen": "img/mod01/ppsulfurizado.png",
               "ancho": 200
             },
             {
               "titulo": "Bandejas planas",
               "texto": "Es la superficie lisa que se utiliza en el horneado de productos.",
-              "imagen": "img/modhor/pplana.png",
+              "imagen": "img/mod01/pplana.png",
               "ancho": 200
             },
             {
               "titulo": "Guantes de seguridad",
               "texto": "Son los guantes que hemos de emplear para meter y sacar del horno los carros de producto.",
-              "imagen": "img/modhor/pguantesseguridad.png",
+              "imagen": "img/mod01/pguantesseguridad.png",
               "ancho": 200
             }
           ]
@@ -1370,6 +1372,7 @@
         },
         {
           "clase": "listaObjetos",
+          "subclase": "flex-start",
           "contenido": [
             {
               "clase": "acordeon",
@@ -1408,37 +1411,37 @@
             {
               "titulo": "Paso 1:",
               "texto": "Utilizamos y preparamos una bandeja plana exclusiva, dentro de toda la hornada, para el Pan Ecológico.",
-              "imagen": "img/modhor/ecologico1.png",
+              "imagen": "img/mod01/ecologico1.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 2:",
               "texto": "Cubrimos la bandeja que vamos a utilizar con un papel sulfurizado nuevo, ya que con el Pan Ecológico este papel se cambia todos los días.",
-              "imagen": "img/modhor/ecologico2.png",
+              "imagen": "img/mod01/ecologico2.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 3:",
               "texto": "Cogemos de la cámara de congelación las unidades de Pan Ecológico que necesitemos. Este pan debe encontrarse siempre perfectamente identificado y sin mezclar con otros panes.",
-              "imagen": "img/modhor/ecologico3.png",
+              "imagen": "img/mod01/ecologico3.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 4:",
               "texto": "Antes de meterlo en el horno debemos dejarlo descongelar.",
-              "imagen": "img/modhor/ecologico4.png",
+              "imagen": "img/mod01/ecologico4.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 5:",
               "texto": "Una  vez esté descongelado, lo colocamos en el carro del horno, donde estará el resto del pan, pero siempre en la bandeja de arriba y lo metemos en el horno.",
-              "imagen": "img/modhor/ecologico5.png",
+              "imagen": "img/mod01/ecologico5.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 6:",
               "texto": "El proceso de horneado finaliza cuando transcurren 40 minutos. Ahora tenemos el producto listo para su venta.",
-              "imagen": "img/modhor/ecologico6.png",
+              "imagen": "img/mod01/ecologico6.png",
               "ancho": 600
             }
           ]
@@ -1455,7 +1458,7 @@
       "contenido": [
         {
           "clase": "icono",
-          "subclase": "definición",
+          "subclase": "definicion",
           "texto": "<b>1. Denominación de Operativa:</b><br>Horneado con Bollería"
         },
         {
@@ -1468,43 +1471,43 @@
             {
               "titulo": "Profesional de panadería",
               "texto": "Es el profesional responsable de ejecutar las tareas y procedimientos.",
-              "imagen": "img/modhor/pprofesional.png",
+              "imagen": "img/mod01/pprofesional.png",
               "ancho": 200
             },
             {
               "titulo": "Fermentadora",
               "texto": "Máquina que realiza el proceso de fermentación de los productos de panadería, como paso previo al horneado.",
-              "imagen": "img/modhor/fermentadora.png",
+              "imagen": "img/mod01/fermentadora.png",
               "ancho": 200
             },
             {
               "titulo": "Horno",
               "texto": "Máquina que se utiliza para cocer los productos de la sección.",
-              "imagen": "img/modhor/phorno.png",
+              "imagen": "img/mod01/phorno.png",
               "ancho": 200
             },
             {
               "titulo": "Carros de horno",
               "texto": "Son estructuras que facilitan el transporte de las bandejas y su manipulación durante el proceso de horneado.",
-              "imagen": "img/modhor/pcarroshorno.png",
+              "imagen": "img/mod01/pcarroshorno.png",
               "ancho": 200
             },
             {
               "titulo": "Bandejas de canal",
               "texto": "Son las bandejas con ondulaciones, a modo de canales, que permiten colocar el producto de forma separada para su horneado.",
-              "imagen": "img/modhor/pcanal.png",
+              "imagen": "img/mod01/pcanal.png",
               "ancho": 200
             },
             {
               "titulo": "Bandejas planas",
               "texto": "Es la superficie lisa que se utiliza en el horneado de productos.",
-              "imagen": "img/modhor/pplana.png",
+              "imagen": "img/mod01/pplana.png",
               "ancho": 200
             },
             {
               "titulo": "Guantes de seguridad",
               "texto": "Son los guantes que hemos de emplear para meter y sacar del horno los carros de producto.",
-              "imagen": "img/modhor/pguantesseguridad.png",
+              "imagen": "img/mod01/pguantesseguridad.png",
               "ancho": 200
             }
           ]
@@ -1530,6 +1533,7 @@
         },
         {
           "clase": "listaObjetos",
+          "subclase": "flex-start",
           "contenido": [
             {
               "clase": "acordeon",
@@ -1568,37 +1572,37 @@
             {
               "titulo": "Paso 1:",
               "texto": "Sacamos del carro de la fermentadora las bandejas de la bollería.",
-              "imagen": "img/modhor/bolleria1.png",
+              "imagen": "img/mod01/bolleria1.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 2:",
               "texto": "Decoramos como paso previo al horneado.",
-              "imagen": "img/modhor/bolleria2.png",
+              "imagen": "img/mod01/bolleria2.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 3:",
               "texto": "Pasamos las bandejas al carro del horno.",
-              "imagen": "img/modhor/bolleria3.png",
+              "imagen": "img/mod01/bolleria3.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 4:",
               "texto": "Metemos el carro en el horno y programamos.",
-              "imagen": "img/modhor/bolleria4.png",
+              "imagen": "img/mod01/bolleria4.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 5:",
               "texto": "A los 15 minutos sacamos la bollería pequeña. Entre los 15 y 25 minutos sacamos la bollería mediana y a los 25 minutos el resto.",
-              "imagen": "img/modhor/bolleria5.png",
+              "imagen": "img/mod01/bolleria5.png",
               "ancho": 600
             },
             {
               "titulo": "Paso 6:",
               "texto": "Una vez fuera, colocamos el carro en un lugar accesible pero seguro.",
-              "imagen": "img/modhor/bolleria6.png",
+              "imagen": "img/mod01/bolleria6.png",
               "ancho": 600
             }
           ]
@@ -1615,7 +1619,7 @@
       "contenido": [
         {
           "clase": "icono",
-          "subclase": "definición",
+          "subclase": "definicion",
           "texto": "<b>1. Denominación de Operativa:</b><br>Horneado con Hojaldre"
         },
         {
@@ -1628,37 +1632,37 @@
             {
               "titulo": "Profesional de panadería",
               "texto": "Es el profesional responsable de ejecutar las tareas y procedimientos.",
-              "imagen": "img/modhor/pprofesional.png",
+              "imagen": "img/mod01/pprofesional.png",
               "ancho": 200
             },
             {
               "titulo": "Horno",
               "texto": "Máquina que se utiliza para cocer los productos de la sección.",
-              "imagen": "img/modhor/phorno.png",
+              "imagen": "img/mod01/phorno.png",
               "ancho": 200
             },
             {
               "titulo": "Carros de horno",
               "texto": "Son estructuras que facilitan el transporte de las bandejas y su manipulación durante el proceso de horneado.",
-              "imagen": "img/modhor/pcarroshorno.png",
+              "imagen": "img/mod01/pcarroshorno.png",
               "ancho": 200
             },
             {
               "titulo": "Bandejas planas",
               "texto": "Es la superficie lisa que se utiliza en el horneado de productos.",
-              "imagen": "img/modhor/pplana.png",
+              "imagen": "img/mod01/pplana.png",
               "ancho": 200
             },
             {
               "titulo": "Papel sulfurizado",
               "texto": "Es un papel que se caracteriza por su resistencia a las altas temperaturas y por ser antiadherente.",
-              "imagen": "img/modhor/ppsulfurizado.png",
+              "imagen": "img/mod01/ppsulfurizado.png",
               "ancho": 200
             },
             {
               "titulo": "Guantes de seguridad",
               "texto": "Son los guantes que hemos de emplear para meter y sacar del horno los carros de producto.",
-              "imagen": "img/modhor/pguantesseguridad.png",
+              "imagen": "img/mod01/pguantesseguridad.png",
               "ancho": 200
             }
           ]
@@ -1697,6 +1701,7 @@
         },
         {
           "clase": "listaObjetos",
+          "subclase": "flex-start",
           "contenido": [
             {
               "clase": "acordeon",
@@ -1732,7 +1737,7 @@
       "contenido": [
         {
           "clase": "icono",
-          "subclase": "definición",
+          "subclase": "definicion",
           "texto": "<b>1. Denominación de Operativa:</b><br>Horneado con Batidos"
         },
         {
@@ -1745,37 +1750,37 @@
             {
               "titulo": "Profesional de panadería",
               "texto": "Es el profesional responsable de ejecutar las tareas y procedimientos.",
-              "imagen": "img/modhor/pprofesional.png",
+              "imagen": "img/mod01/pprofesional.png",
               "ancho": 200
             },
             {
               "titulo": "Horno",
               "texto": "Máquina que se utiliza para cocer los productos de la sección.",
-              "imagen": "img/modhor/phorno.png",
+              "imagen": "img/mod01/phorno.png",
               "ancho": 200
             },
             {
               "titulo": "Carros de horno",
               "texto": "Son estructuras que facilitan el transporte de las bandejas y su manipulación durante el proceso de horneado.",
-              "imagen": "img/modhor/pcarroshorno.png",
+              "imagen": "img/mod01/pcarroshorno.png",
               "ancho": 200
             },
             {
               "titulo": "Moldes",
               "texto": "Los moldes de batido/cápsulas, o de bizcocho son las bases sobre las que se coloca la masa de batido para su horneado y que la soporta y da forma.",
-              "imagen": "img/modhor/pmoldes.png",
+              "imagen": "img/mod01/pmoldes.png",
               "ancho": 200
             },
             {
               "titulo": "Bandejas planas",
               "texto": "Es la superficie lisa que se utiliza en el horneado de productos.",
-              "imagen": "img/modhor/pplana.png",
+              "imagen": "img/mod01/pplana.png",
               "ancho": 200
             },
             {
               "titulo": "Guantes de seguridad",
               "texto": "Son los guantes que hemos de emplear para meter y sacar del horno los carros de producto.",
-              "imagen": "img/modhor/pguantesseguridad.png",
+              "imagen": "img/mod01/pguantesseguridad.png",
               "ancho": 200
             }
           ]
@@ -1814,7 +1819,7 @@
             },
             {
               "clase": "imagen",
-              "imagen": "img/modhor/p307.png"
+              "imagen": "img/mod01/p307.png"
             }
 
           ]
@@ -1825,6 +1830,7 @@
         },
         {
           "clase": "listaObjetos",
+          "subclase": "flex-start",
           "contenido": [
             {
               "clase": "acordeon",
@@ -1870,31 +1876,31 @@
             {
               "titulo": "Insuficiente humedad",
               "texto": "Si la cámara no tiene suficiente humedad, se resecará mucho el producto durante la fermentación produciéndose defectos en el pan. Habría que avisar para una revisión mecánica de la cámara.",
-              "imagen": "img/modhor/296-1.png",
+              "imagen": "img/mod01/296-1.png",
               "ancho": 200
             },
             {
               "titulo": "Exceso de tiempo",
               "texto": "Si una vez fermentado correctamente lo dejamos mucho tiempo fuera de la cámara, o si lo cortamos y lo dejamos también mucho tiempo fuera de la cámara antes de cocer, el pan se caerá y no  conseguiremos tener un pan con la calidad necesaria. Lo correcto es sacar el pan de la cámara de fermentación y cortarlo inmediatamente antes de hornear.",
-              "imagen": "img/modhor/296-2.png",
+              "imagen": "img/mod01/296-2.png",
               "ancho": 200
             },
             {
               "titulo": "Pan demasiado fresco",
               "texto": "Si el pan se corta demasiado fresco, es decir que el proceso de fermentación no se haya terminado, el pan no alcanzará los niveles de calidad necesarios para su posterior exposición y venta.",
-              "imagen": "img/modhor/296-3.png",
+              "imagen": "img/mod01/296-3.png",
               "ancho": 200
             },
             {
               "titulo": "Masa demasiado fría",
               "texto": "Este defecto del pan puede ser debido a que la masa haya tenido un exceso de frío. Las quemaduras por frío hacen que aparezcan las burbujas y que el pan no se desarrolle perfectamente en el horno. Suele cocer demasiado por la corteza y quedar crudo por dentro. Este pan debe ser desechado.",
-              "imagen": "img/modhor/296-4.png",
+              "imagen": "img/mod01/296-4.png",
               "ancho": 200
             },
             {
               "titulo": "Rotura cadena frío",
               "texto": "Si se descongela el producto y se vuelve a congelar, se pierden propiedades del mismo y se producen defectos en la apariencia de la pieza.",
-              "imagen": "img/modhor/296-5.png",
+              "imagen": "img/mod01/296-5.png",
               "ancho": 200
             }
           ]
@@ -1914,7 +1920,7 @@
             },
             {
               "clase": "imagen",
-              "imagen": "img/modhor/ventaPan.png",
+              "imagen": "img/mod01/ventaPan.png",
               "ancho": 500
             }
           ]

@@ -5,7 +5,7 @@
     var arrayFinal = null;
 
     switch (modulo) {
-        case "modhor":
+        case "mod01":
             arrayFinal = arrayComun.concat([
                 "js/jointJS/lodash.min.js",
                 "js/jointJS/backbone-min.js",
@@ -29,7 +29,7 @@ function getArrayCSS(modulo) {
     var arrayFinal = null;
 
     switch (modulo) {
-        case "modhor":
+        case "mod01":
             arrayFinal = arrayComun.concat([
             "css/jointJS/joint.min.css",
 			"css/bootstrap/bootstrap.min.css",
