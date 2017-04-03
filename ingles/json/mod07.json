@@ -16,7 +16,7 @@
           "contenido": [
             {
               "clase": "imagen",
-              "imagen": "img/mod01/bienvenida.jpg"
+              "imagen": "img/comunes/exclamacion.svg"
             },
             {
               "clase": "texto",
@@ -1851,7 +1851,7 @@
         }
       ]
     },
-        {
+    {
       "titulo": "Summary",
       "contenido": [
         {
@@ -1873,11 +1873,11 @@
                         {
                           "titulo": "Affirmative",
                           "contenido": [
-                                    {
+                            {
                               "clase": "tabla",
                               "filaTitulos": [
                                 {
-                                  "titulo": "AFFIRMATIVE",
+                                  "titulo": "AFFIRMATIVE"
                                   "colspan": 3
                                 }
                               ],
@@ -1918,21 +1918,11 @@
                                   ]
                                 },
                                 {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>she</b>"
-                                    }
-                                  ]
+                                  "texto": "<b>she</b>"
                                 },
-                                                                {
-                                  "fila": [
-                                                                    {
+                                {
                                   "texto": "<b>it</b>"
-                                }
-                                  ]
                                 },
-
-
                                 {
                                   "fila": [
                                     {
@@ -1944,20 +1934,11 @@
                                     }
                                   ]
                                 },
-
                                 {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>you</b>"
-                                    }
-                                  ]
+                                  "texto": "<b>you</b>"
                                 },
-                                                                {
-                                  "fila": [
-                                                                    {
+                                {
                                   "texto": "<b>they</b>"
-                                }
-                                  ]
                                 }
                               ]
                             }
@@ -1966,200 +1947,8 @@
                       ]
                     },
                     {
-                      "clase": "acordeon",
-                      "contenido": [
-                        {
-                          "titulo": "Negative",
-                          "contenido": [
-                            {
-                              "clase": "tabla",
-                              "filaTitulos": [
-                                {
-                                  "titulo": "NEGATIVE",
-                                  "colspan": 3
-                                }
-                              ],
-                              "filaContenido": [
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>I</b>"
-                                    },
-                                    {
-                                      "texto": "am not"
-                                    },
-                                    {
-                                      "texto": "eating",
-                                      "rowspan": 8
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>you</b>"
-                                    },
-                                    {
-                                      "texto": "aren't"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>he</b>"
-                                    },
-                                    {
-                                      "texto": "isn't",
-                                      "rowspan": 3
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>she</b>"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>it</b>"
-                                    }
-                                  ]
-                                },
-
-
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>we</b>"
-                                    },
-                                    {
-                                      "texto": "aren't",
-                                      "rowspan": 3
-                                    }
-                                  ]
-                                },
-
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>you</b>"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>they</b>"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                                        {
-                      "clase": "acordeon",
-                      "contenido": [
-                        {
-                          "titulo": "Interrogative",
-                          "contenido": [
-                                    {
-                              "clase": "tabla",
-                              "filaTitulos": [
-                                {
-                                  "titulo": "QUESTION",
-                                  "colspan": 3
-                                }
-                              ],
-                              "filaContenido": [
-                                {
-                                  "fila": [
-                                                                        {
-                                      "texto": "am"
-                                    },
-                                    {
-                                      "texto": "<b>I</b>"
-                                    },
-                                    {
-                                      "texto": "reading?",
-                                      "rowspan": 8
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                                                        {
-                                      "texto": "are"
-                                    },
-                                    {
-                                      "texto": "<b>you</b>"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                                                        {
-                                      "texto": "is",
-                                      "rowspan": 3
-                                    },
-                                    {
-                                      "texto": "<b>he</b>"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>she</b>"
-                                    }
-                                  ]
-                                },
-                                                                {
-                                  "fila": [
-                                                                    {
-                                  "texto": "<b>it</b>"
-                                }
-                                  ]
-                                },
-
-
-                                {
-                                  "fila": [
-                                                                        {
-                                      "texto": "are",
-                                      "rowspan": 3
-                                    },
-                                    {
-                                      "texto": "<b>we</b>"
-                                    }
-                                  ]
-                                },
-
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>you</b>"
-                                    }
-                                  ]
-                                },
-                                                                {
-                                  "fila": [
-                                                                    {
-                                  "texto": "<b>they</b>"
-                                }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
+                      "clase": "texto",
+                      "texto": "sdfasf"
                     }
                   ]
                 }
@@ -2444,7 +2233,6 @@
         }
       ]
     },
-
     {
       "titulo": "Despedida",
       "contenido": [
