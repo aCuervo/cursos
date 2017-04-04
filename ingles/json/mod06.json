@@ -27,62 +27,6 @@
       ]
     },
     {
-      "titulo": "Crosswords",
-      "contenido": [
-        {
-          "clase": "juegoPalabrasCruzadas",
-          "titulo": "Numbers",
-          "descripcion": "Write the name of definition.<br><span class='h4 importante'>CAN YOU DO IT WITHOUT LOOKING BACK?</span>",
-          "ancho": 13,
-          "alto": 12,
-          "pistas": [
-            {
-              "palabra": "STRAWBERRY",
-              "definicion": "FRESA",
-              "direccion": "H",
-              "posX": 3,
-              "posY": 2
-            },
-            {
-              "palabra": "LETTUCE",
-              "definicion": "LECHUGA",
-              "direccion": "H",
-              "posX": 0,
-              "posY": 6
-            },
-            {
-              "palabra": "CHEESE",
-              "definicion": "QUESO",
-              "direccion": "H",
-              "posX": 3,
-              "posY": 10
-            },
-            {
-              "palabra": "BISCUITS",
-              "definicion": "GALLETAS",
-              "direccion": "V",
-              "posX": 3,
-              "posY": 0
-            },
-            {
-              "palabra": "MILK",
-              "definicion": "LECHE",
-              "direccion": "V",
-              "posX": 0,
-              "posY": 4
-            },
-            {
-              "palabra": "COFFEE",
-              "definicion": "CAFÉ",
-              "direccion": "V",
-              "posX": 5,
-              "posY": 6
-            }
-          ]
-        }
-      ]
-    },
-    {
       "titulo": "Present continuous",
       "contenido": [
         {
@@ -1654,6 +1598,62 @@
       ]
     },
     {
+      "titulo": "Crosswords",
+      "contenido": [
+        {
+          "clase": "juegoPalabrasCruzadas",
+          "titulo": "Numbers",
+          "descripcion": "Write the name of definition.<br><span class='h4 importante'>CAN YOU DO IT WITHOUT LOOKING BACK?</span>",
+          "ancho": 13,
+          "alto": 12,
+          "pistas": [
+            {
+              "palabra": "STRAWBERRY",
+              "definicion": "FRESA",
+              "direccion": "H",
+              "posX": 3,
+              "posY": 2
+            },
+            {
+              "palabra": "LETTUCE",
+              "definicion": "LECHUGA",
+              "direccion": "H",
+              "posX": 0,
+              "posY": 6
+            },
+            {
+              "palabra": "CHEESE",
+              "definicion": "QUESO",
+              "direccion": "H",
+              "posX": 3,
+              "posY": 10
+            },
+            {
+              "palabra": "BISCUITS",
+              "definicion": "GALLETAS",
+              "direccion": "V",
+              "posX": 3,
+              "posY": 0
+            },
+            {
+              "palabra": "MILK",
+              "definicion": "LECHE",
+              "direccion": "V",
+              "posX": 0,
+              "posY": 4
+            },
+            {
+              "palabra": "COFFEE",
+              "definicion": "CAFÉ",
+              "direccion": "V",
+              "posX": 5,
+              "posY": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
       "titulo": "In a restaurant",
       "contenido": [
         {
@@ -1680,7 +1680,7 @@
             {
               "clase": "texto",
               "subclase": "recuadro",
-              "texto": "En un menú, podemos encontrarnos con algunos adjetivos que acompañen a la comida:<br>Roasted (chicken) – Asado (pollo asado)<br>Homemade (pasta) – Casero (pasta casera)<br>Fried (egg) – Frito (huevo frito)"
+              "texto": "En un menú, podemos encontrarnos con algunos adjetivos que acompañen a la comida:<center>Roasted (chicken) – Asado (pollo asado)<br>Homemade (pasta) – Casero (pasta casera)<br>Fried (egg) – Frito (huevo frito)</center>"
             }
           ]
         },
@@ -1851,7 +1851,7 @@
         }
       ]
     },
-        {
+    {
       "titulo": "Summary",
       "contenido": [
         {
@@ -1873,7 +1873,7 @@
                         {
                           "titulo": "Affirmative",
                           "contenido": [
-                                    {
+                            {
                               "clase": "tabla",
                               "filaTitulos": [
                                 {
@@ -1924,11 +1924,11 @@
                                     }
                                   ]
                                 },
-                                                                {
+                                {
                                   "fila": [
-                                                                    {
-                                  "texto": "<b>it</b>"
-                                }
+                                    {
+                                      "texto": "<b>it</b>"
+                                    }
                                   ]
                                 },
 
@@ -1952,11 +1952,11 @@
                                     }
                                   ]
                                 },
-                                                                {
+                                {
                                   "fila": [
-                                                                    {
-                                  "texto": "<b>they</b>"
-                                }
+                                    {
+                                      "texto": "<b>they</b>"
+                                    }
                                   ]
                                 }
                               ]
@@ -2063,13 +2063,13 @@
                         }
                       ]
                     },
-                                        {
+                    {
                       "clase": "acordeon",
                       "contenido": [
                         {
                           "titulo": "Interrogative",
                           "contenido": [
-                                    {
+                            {
                               "clase": "tabla",
                               "filaTitulos": [
                                 {
@@ -2080,7 +2080,7 @@
                               "filaContenido": [
                                 {
                                   "fila": [
-                                                                        {
+                                    {
                                       "texto": "am"
                                     },
                                     {
@@ -2094,7 +2094,7 @@
                                 },
                                 {
                                   "fila": [
-                                                                        {
+                                    {
                                       "texto": "are"
                                     },
                                     {
@@ -2104,7 +2104,7 @@
                                 },
                                 {
                                   "fila": [
-                                                                        {
+                                    {
                                       "texto": "is",
                                       "rowspan": 3
                                     },
@@ -2120,18 +2120,18 @@
                                     }
                                   ]
                                 },
-                                                                {
+                                {
                                   "fila": [
-                                                                    {
-                                  "texto": "<b>it</b>"
-                                }
+                                    {
+                                      "texto": "<b>it</b>"
+                                    }
                                   ]
                                 },
 
 
                                 {
                                   "fila": [
-                                                                        {
+                                    {
                                       "texto": "are",
                                       "rowspan": 3
                                     },
@@ -2148,11 +2148,11 @@
                                     }
                                   ]
                                 },
-                                                                {
+                                {
                                   "fila": [
-                                                                    {
-                                  "texto": "<b>they</b>"
-                                }
+                                    {
+                                      "texto": "<b>they</b>"
+                                    }
                                   ]
                                 }
                               ]
@@ -2444,7 +2444,6 @@
         }
       ]
     },
-
     {
       "titulo": "Despedida",
       "contenido": [

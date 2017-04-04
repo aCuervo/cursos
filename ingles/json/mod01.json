@@ -301,7 +301,7 @@
       ]
     },
     {
-      "titulo": "The verb to be",
+      "titulo": "The verb to be I",
       "contenido": [
         {
           "clase": "texto",
@@ -559,12 +559,21 @@
           ]
         },
         {
+          "clase": "texto",
+          "texto": "El significado continúa siendo el mismo y podemos utilizar tanto la forma completa como la forma abreviada de manera indistinta. Por otro lado, la forma completa es considerada más formal y es aconsejable utilizarla en determinadas ocasiones (p.e: al escribir un e-mail o una carta a alguien que no conocemos, en documentos de trabajo...)."
+        },
+        {
           "clase": "icono",
           "subclase": "sabiasQue",
           "texto": "Shakespeare inmortalizó este verbo en su obra “Hamlet”:<br><br>“To be or not to be, that is the question.”",
           "imagen": "img/mod01/skull.png",
           "ancho": 100
-        },
+        }
+      ]
+    },
+        {
+      "titulo": "The verb to be II",
+      "contenido": [
         {
           "clase": "listaObjetos",
           "contenido": [
@@ -999,10 +1008,10 @@
             {
               "fila": [
                 {
-                  "texto": "My friend and my sister are tired.<br><i>Mi amigo y mi Hermana están cansados.</i>"
+                  "texto": "My friend and my sister are tired.<br><i>Mi amigo y mi hermana están cansados.</i>"
                 },
                 {
-                  "texto": "My friend and my sister are not tired.<br><i>Mi amigo y mi Hermana no están cansados</i>"
+                  "texto": "My friend and my sister are not tired.<br><i>Mi amigo y mi hermana no están cansados</i>"
                 }
               ]
             }
@@ -2197,6 +2206,486 @@
       ]
     },
     {
+      "titulo": "Introducing yourself I",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En esta unidad vamos a aprender vocabulario y algunos trucos para saber cómo actuar cuando conozcamos a alguien por primera vez.<br><br>Comencemos con un ejemplo de una conversación ficticia en la que dos personas, John y Mary, se conocen por primera vez y se presentan. Lee el texto y no te preocupes si no lo entiendes todo, ¡acabamos de empezar!"
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>Conversation</b>",
+          "contenido": [
+            {
+              "punto": "Hello, my name is Mary. What is your name?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "Hi Mary! I am John, nice to meet you. How are you?",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am fine, thank you! Where are you from?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am from Scotland, how about you?",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I live in London. How old are you?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am thirty (30) years old. What do you do?",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am a teacher. Are you married?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "Yes, I am and I have two children.",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>GREETINGS</b><br><br>En inglés existen distintos tipos de saludos o “greetings”. Los más comunes son los siguientes:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "<center>GREETINGS</center>",
+                  "colspan": 3
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/hello.svg"
+                    },
+                    {
+                      "texto": "<center>Hello/ Hi/ Hey (informal)</center>"
+                    },
+                    {
+                      "texto": "<center><i>Hola</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/morning.svg"
+                    },
+                    {
+                      "texto": "<center>Good morning</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenos días</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/afternoon.svg"
+                    },
+                    {
+                      "texto": "<center>Good afternoon</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas tardes</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/evening.svg"
+                    },
+                    {
+                      "texto": "<center>Good evening</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/night.svg"
+                    },
+                    {
+                      "texto": "<center>Good night</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                }
+
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "sabiasQue",
+              "texto": "<b>¿Cuándo usamos “good afternoon”, “good evening” y “good night”?</b> En inglés, diríamos “good afternoon” en el tramo comprendido entre las 12 del mediodía y las 5 o 6 de la tarde, a partir de ese momento se utilizaría “good evening” como forma de desear  buenas noches. Solo diríamos “good night” en el momento de irnos a la cama y a modo de despedida si vamos a abandonar un lugar cuando ya es de noche."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>HOW ARE YOU?</b><br><br>Si queremos preguntarle a alguien “¿Qué tal estás?” diremos “How are you?”, y podremos contestar de diversas maneras:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "How are you?",
+                  "colspan": 2
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>(I am) fine </center>"
+                    },
+                    {
+                      "texto": "<center><i>(Estoy) bien</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good morning</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenos días</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good afternoon</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas tardes</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good evening</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good night</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                }
+
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "sabiasQue",
+              "texto": "Hemos de recordar decir siempre <b>“Thank you”</b> (gracias) al responder:<br>&nbsp&nbsp&nbsp-How are you, Michael?<br>&nbsp&nbsp&nbsp-I am fine, thank you"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>WHAT'S YOUR NAME?</b><br><br>Cuando te pregunten por tu nombre o quieras preguntarle a alguien “¿Cómo te llamas?” diremos: What is your name? O What’s your name?. ¿Y cómo podemos contestar?:"
+        },
+        {
+          "clase": "texto",
+          "texto": "My name is (Violet).<br>Me llamo (Violet).<br><br>I am (Charles).<br>Soy (Charles).<br><br>My name is (James) but you can call me (Jim).<br>Me llamo (James) pero puedes llamarme (Jim)."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "Cuandos nos pregunten “How are you?” o “What’s your name?”, podemos añadir a nuestra respuesta “and you?” o “how about you?” que significa en ambos casos “¿y tú?”. Podemos añadirlo a casi cualquier pregunta cuando queramos saber más sobre nuestro interlocutor tras haber dado información previa sobre nosotros."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "<b>Examples</b>",
+              "contenido": [
+                {
+                  "punto": "How are you Katie?<br><i>&nbsp&nbsp&nbsp¿Qué tal estás Katie?</i>",
+                  "icono": "img/mod01/john.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "I’m fine, thank you. How about you?<br><i>&nbsp&nbsp&nbspBien, gracias. ¡Y tú?</i><br><br>",
+                  "icono": "img/mod01/mary.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "What’s your name?<br><i>&nbsp&nbsp&nbsp¿Cómo te llamas?</i>",
+                  "icono": "img/mod01/john.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "I’m Rosie, and you?<br><i>&nbsp&nbsp&nbspSoy Rosie, ¿y tú?</i><br><br>",
+                  "icono": "img/mod01/mary.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "Where are you from?<br><i>&nbsp&nbsp&nbsp¿De dónde eres?</i>",
+                  "icono": "img/mod01/john.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "I am from Spain, how about you?<br>&nbsp&nbsp&nbsp<i>Soy de España, ¿y tú?</i><br><br>",
+                  "icono": "img/mod01/mary.svg",
+                  "ancho": 32
+                }
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "sabiasQue",
+              "texto": "<b>Please</b>, <b>thank you</b> y <b>sorry</b> son unas de las palabras más utilizadas por los ingleses, ya que las utilizan prácticamente en cualquier situación. ¡Aunque no lo sientan!"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>PLEASED TO MEET YOU</b><br><br>Cuando queremos expresarle a la persona que acabamos de conocer o ante la que nos acabamos de presentar que nos alegramos de haberla conocido, utilizaremos las siguientes expresiones o frases hechas:<br><br>It is nice / great / lovely to meet you. (Informal)<br><br>Nice to meet you. (Informal/Formal)<br><br>Pleased to meet you. (Informal)<br><br>Glad to meet you (Formal)<br><br>Todas significan lo mismo “Encantado/a de conocerte” o “Es un placer conocerte” y como se indica arriba, unas son más formales que otras."
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Example</b><br>Hello James, my name is Oscar, pleased to meet you. How are you?<br><i>Hola James, me llamo Oscar, encantado de conocerte. ¿Qué tal estás?</i>"
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>WHERE ARE YOU FROM?</b><br><br>Para saber de donde es alguien le preguntaremos “Where are you from?” para  conocer su país o lugar de origen. Si nos hacen esa pregunta a nosotros contestaremos: “I am from...” y nuestro país o lugar de origen.<br><br>I live in + country/city. <i>(Vivo en + país o ciudad.)</i><br>I live in Spain / I live in Gijón.<br><br>Si queremos ser más específicos y preguntarle a alguien donde está viviendo actualmente le preguntaremos “Where do you live?”.<br><br>I live at + address. <i>(Vivo en + dirección concreta.)</i><br>I live at St Peter Street, 33"
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>Examples</b>",
+          "contenido": [
+            {
+              "punto": "Hi Alix, where are you from?<br><i>&nbsp&nbsp&nbspHola Alix, ¿de dónde eres?</i>",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am from France.<br><i>&nbsp&nbsp&nbspSoy de Francia.</i>",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "And where do you live?<br><i>&nbsp&nbsp&nbsp¿Y dónde vives?</i>",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I live in England, how about you?<br><i>&nbsp&nbsp&nbspVivo en Inglaterra, ¿y tú?</i>",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am from Spain and I live in Madrid.<br><i>&nbsp&nbsp&nbspYo soy de España y vivo en Madrid.</i>",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>HOW OLD ARE YOU?</b>"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Si queremos conocer la edad de otra persona le preguntaremos “How old are you?”, es decir, “¿cuántos años tienes?”. ¿Y qué podemos contestar? Pues tenemos dos opciones. La manera más sencilla de contestar sería “I am…” y nuestra edad. Por ejemplo, “I am twenty-five” o “I am sixty”. La otra manera de decir nuestra edad es “I am sixty YEARS OLD”. Como hemos visto antes, aquí el verbo “to be” vuelve a funcionar como el verbo “tener”, “I am twenty-five” es “tengo veinticinco años” y no “Yo soy veinticinco años”."
+            },
+            {
+              "clase": "icono",
+              "subclase": "exclamacion",
+              "texto": "BE CAREFUL: Nunca digas “I am forty-two years”. Si quieres incluir “years” al decir tu edad o la de otra persona, acuérdate SIEMPRE de añadir “years old”, de otra manera estará incorrecto."
+            }
+          ]
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "<b>VARIOUS QUESTIONS</b>",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>Are you married?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Estás casado/a?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Have you got any children?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Tienes hijos/as?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>What do you do?</center>"
+                },
+                {
+                  "texto": "<center><i>¿A qué te dedicas? (Referido trabajo/profesión)</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Do you work?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Trabajas?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Which country are you from?</center>"
+                },
+                {
+                  "texto": "<center><i>¿De qué país eres?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Which city/area do you live in?</center>"
+                },
+                {
+                  "texto": "<center><i>¿En qué ciudad/zona vives?</i></center>"
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>GOOD BYE</b><br><br>Para despedirnos podemos utilizar las siguientes expresiones."
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "F= Formal / I= Informal",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>Good bye! / Bye!</center>"
+                },
+                {
+                  "texto": "<center><i>Adiós.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you soon! (I)?</center>"
+                },
+                {
+                  "texto": "<center><i>Nos vemos o hasta luego.(I)</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you later! (I)</center>"
+                },
+                {
+                  "texto": "<center><i>Te veo después o nos vemos.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you tomorrow! (I)</center>"
+                },
+                {
+                  "texto": "<center><i>Hasta mañana.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Have a good day. (F)</center>"
+                },
+                {
+                  "texto": "<center><i>Que tengas un buen día.</i></center>"
+                }
+              ]
+            }
+
+          ]
+        }
+      ]
+    },
+    {
       "titulo": "Introducing yourself",
       "contenido": [
         {
@@ -2672,6 +3161,2107 @@
               ]
             }
 
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Introducing yourself",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En esta unidad vamos a aprender vocabulario y algunos trucos para saber cómo actuar cuando conozcamos a alguien por primera vez.<br><br>Comencemos con un ejemplo de una conversación ficticia en la que dos personas, John y Mary, se conocen por primera vez y se presentan. Lee el texto y no te preocupes si no lo entiendes todo, ¡acabamos de empezar!"
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>Conversation</b>",
+          "contenido": [
+            {
+              "punto": "Hello, my name is Mary. What is your name?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "Hi Mary! I am John, nice to meet you. How are you?",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am fine, thank you! Where are you from?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am from Scotland, how about you?",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I live in London. How old are you?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am thirty (30) years old. What do you do?",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am a teacher. Are you married?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "Yes, I am and I have two children.",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>GREETINGS</b><br><br>En inglés existen distintos tipos de saludos o “greetings”. Los más comunes son los siguientes:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "<center>GREETINGS</center>",
+                  "colspan": 3
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/hello.svg"
+                    },
+                    {
+                      "texto": "<center>Hello/ Hi/ Hey (informal)</center>"
+                    },
+                    {
+                      "texto": "<center><i>Hola</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/morning.svg"
+                    },
+                    {
+                      "texto": "<center>Good morning</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenos días</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/afternoon.svg"
+                    },
+                    {
+                      "texto": "<center>Good afternoon</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas tardes</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/evening.svg"
+                    },
+                    {
+                      "texto": "<center>Good evening</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/night.svg"
+                    },
+                    {
+                      "texto": "<center>Good night</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                }
+
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "sabiasQue",
+              "texto": "<b>¿Cuándo usamos “good afternoon”, “good evening” y “good night”?</b> En inglés, diríamos “good afternoon” en el tramo comprendido entre las 12 del mediodía y las 5 o 6 de la tarde, a partir de ese momento se utilizaría “good evening” como forma de desear  buenas noches. Solo diríamos “good night” en el momento de irnos a la cama y a modo de despedida si vamos a abandonar un lugar cuando ya es de noche."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>HOW ARE YOU?</b><br><br>Si queremos preguntarle a alguien “¿Qué tal estás?” diremos “How are you?”, y podremos contestar de diversas maneras:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "How are you?",
+                  "colspan": 2
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>(I am) fine </center>"
+                    },
+                    {
+                      "texto": "<center><i>(Estoy) bien</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good morning</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenos días</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good afternoon</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas tardes</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good evening</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good night</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                }
+
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "sabiasQue",
+              "texto": "Hemos de recordar decir siempre <b>“Thank you”</b> (gracias) al responder:<br>&nbsp&nbsp&nbsp-How are you, Michael?<br>&nbsp&nbsp&nbsp-I am fine, thank you"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>WHAT'S YOUR NAME?</b><br><br>Cuando te pregunten por tu nombre o quieras preguntarle a alguien “¿Cómo te llamas?” diremos: What is your name? O What’s your name?. ¿Y cómo podemos contestar?:"
+        },
+        {
+          "clase": "texto",
+          "texto": "My name is (Violet).<br>Me llamo (Violet).<br><br>I am (Charles).<br>Soy (Charles).<br><br>My name is (James) but you can call me (Jim).<br>Me llamo (James) pero puedes llamarme (Jim)."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "Cuandos nos pregunten “How are you?” o “What’s your name?”, podemos añadir a nuestra respuesta “and you?” o “how about you?” que significa en ambos casos “¿y tú?”. Podemos añadirlo a casi cualquier pregunta cuando queramos saber más sobre nuestro interlocutor tras haber dado información previa sobre nosotros."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "<b>Examples</b>",
+              "contenido": [
+                {
+                  "punto": "How are you Katie?<br><i>&nbsp&nbsp&nbsp¿Qué tal estás Katie?</i>",
+                  "icono": "img/mod01/john.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "I’m fine, thank you. How about you?<br><i>&nbsp&nbsp&nbspBien, gracias. ¡Y tú?</i><br><br>",
+                  "icono": "img/mod01/mary.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "What’s your name?<br><i>&nbsp&nbsp&nbsp¿Cómo te llamas?</i>",
+                  "icono": "img/mod01/john.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "I’m Rosie, and you?<br><i>&nbsp&nbsp&nbspSoy Rosie, ¿y tú?</i><br><br>",
+                  "icono": "img/mod01/mary.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "Where are you from?<br><i>&nbsp&nbsp&nbsp¿De dónde eres?</i>",
+                  "icono": "img/mod01/john.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "I am from Spain, how about you?<br>&nbsp&nbsp&nbsp<i>Soy de España, ¿y tú?</i><br><br>",
+                  "icono": "img/mod01/mary.svg",
+                  "ancho": 32
+                }
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "sabiasQue",
+              "texto": "<b>Please</b>, <b>thank you</b> y <b>sorry</b> son unas de las palabras más utilizadas por los ingleses, ya que las utilizan prácticamente en cualquier situación. ¡Aunque no lo sientan!"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>PLEASED TO MEET YOU</b><br><br>Cuando queremos expresarle a la persona que acabamos de conocer o ante la que nos acabamos de presentar que nos alegramos de haberla conocido, utilizaremos las siguientes expresiones o frases hechas:<br><br>It is nice / great / lovely to meet you. (Informal)<br><br>Nice to meet you. (Informal/Formal)<br><br>Pleased to meet you. (Informal)<br><br>Glad to meet you (Formal)<br><br>Todas significan lo mismo “Encantado/a de conocerte” o “Es un placer conocerte” y como se indica arriba, unas son más formales que otras."
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Example</b><br>Hello James, my name is Oscar, pleased to meet you. How are you?<br><i>Hola James, me llamo Oscar, encantado de conocerte. ¿Qué tal estás?</i>"
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>WHERE ARE YOU FROM?</b><br><br>Para saber de donde es alguien le preguntaremos “Where are you from?” para  conocer su país o lugar de origen. Si nos hacen esa pregunta a nosotros contestaremos: “I am from...” y nuestro país o lugar de origen.<br><br>I live in + country/city. <i>(Vivo en + país o ciudad.)</i><br>I live in Spain / I live in Gijón.<br><br>Si queremos ser más específicos y preguntarle a alguien donde está viviendo actualmente le preguntaremos “Where do you live?”.<br><br>I live at + address. <i>(Vivo en + dirección concreta.)</i><br>I live at St Peter Street, 33"
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>Examples</b>",
+          "contenido": [
+            {
+              "punto": "Hi Alix, where are you from?<br><i>&nbsp&nbsp&nbspHola Alix, ¿de dónde eres?</i>",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am from France.<br><i>&nbsp&nbsp&nbspSoy de Francia.</i>",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "And where do you live?<br><i>&nbsp&nbsp&nbsp¿Y dónde vives?</i>",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I live in England, how about you?<br><i>&nbsp&nbsp&nbspVivo en Inglaterra, ¿y tú?</i>",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am from Spain and I live in Madrid.<br><i>&nbsp&nbsp&nbspYo soy de España y vivo en Madrid.</i>",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>HOW OLD ARE YOU?</b>"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Si queremos conocer la edad de otra persona le preguntaremos “How old are you?”, es decir, “¿cuántos años tienes?”. ¿Y qué podemos contestar? Pues tenemos dos opciones. La manera más sencilla de contestar sería “I am…” y nuestra edad. Por ejemplo, “I am twenty-five” o “I am sixty”. La otra manera de decir nuestra edad es “I am sixty YEARS OLD”. Como hemos visto antes, aquí el verbo “to be” vuelve a funcionar como el verbo “tener”, “I am twenty-five” es “tengo veinticinco años” y no “Yo soy veinticinco años”."
+            },
+            {
+              "clase": "icono",
+              "subclase": "exclamacion",
+              "texto": "BE CAREFUL: Nunca digas “I am forty-two years”. Si quieres incluir “years” al decir tu edad o la de otra persona, acuérdate SIEMPRE de añadir “years old”, de otra manera estará incorrecto."
+            }
+          ]
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "<b>VARIOUS QUESTIONS</b>",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>Are you married?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Estás casado/a?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Have you got any children?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Tienes hijos/as?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>What do you do?</center>"
+                },
+                {
+                  "texto": "<center><i>¿A qué te dedicas? (Referido trabajo/profesión)</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Do you work?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Trabajas?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Which country are you from?</center>"
+                },
+                {
+                  "texto": "<center><i>¿De qué país eres?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Which city/area do you live in?</center>"
+                },
+                {
+                  "texto": "<center><i>¿En qué ciudad/zona vives?</i></center>"
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>GOOD BYE</b><br><br>Para despedirnos podemos utilizar las siguientes expresiones."
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "F= Formal / I= Informal",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>Good bye! / Bye!</center>"
+                },
+                {
+                  "texto": "<center><i>Adiós.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you soon! (I)?</center>"
+                },
+                {
+                  "texto": "<center><i>Nos vemos o hasta luego.(I)</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you later! (I)</center>"
+                },
+                {
+                  "texto": "<center><i>Te veo después o nos vemos.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you tomorrow! (I)</center>"
+                },
+                {
+                  "texto": "<center><i>Hasta mañana.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Have a good day. (F)</center>"
+                },
+                {
+                  "texto": "<center><i>Que tengas un buen día.</i></center>"
+                }
+              ]
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Introducing yourself",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En esta unidad vamos a aprender vocabulario y algunos trucos para saber cómo actuar cuando conozcamos a alguien por primera vez.<br><br>Comencemos con un ejemplo de una conversación ficticia en la que dos personas, John y Mary, se conocen por primera vez y se presentan. Lee el texto y no te preocupes si no lo entiendes todo, ¡acabamos de empezar!"
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>Conversation</b>",
+          "contenido": [
+            {
+              "punto": "Hello, my name is Mary. What is your name?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "Hi Mary! I am John, nice to meet you. How are you?",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am fine, thank you! Where are you from?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am from Scotland, how about you?",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I live in London. How old are you?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am thirty (30) years old. What do you do?",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am a teacher. Are you married?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "Yes, I am and I have two children.",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>GREETINGS</b><br><br>En inglés existen distintos tipos de saludos o “greetings”. Los más comunes son los siguientes:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "<center>GREETINGS</center>",
+                  "colspan": 3
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/hello.svg"
+                    },
+                    {
+                      "texto": "<center>Hello/ Hi/ Hey (informal)</center>"
+                    },
+                    {
+                      "texto": "<center><i>Hola</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/morning.svg"
+                    },
+                    {
+                      "texto": "<center>Good morning</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenos días</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/afternoon.svg"
+                    },
+                    {
+                      "texto": "<center>Good afternoon</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas tardes</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/evening.svg"
+                    },
+                    {
+                      "texto": "<center>Good evening</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/night.svg"
+                    },
+                    {
+                      "texto": "<center>Good night</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                }
+
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "sabiasQue",
+              "texto": "<b>¿Cuándo usamos “good afternoon”, “good evening” y “good night”?</b> En inglés, diríamos “good afternoon” en el tramo comprendido entre las 12 del mediodía y las 5 o 6 de la tarde, a partir de ese momento se utilizaría “good evening” como forma de desear  buenas noches. Solo diríamos “good night” en el momento de irnos a la cama y a modo de despedida si vamos a abandonar un lugar cuando ya es de noche."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>HOW ARE YOU?</b><br><br>Si queremos preguntarle a alguien “¿Qué tal estás?” diremos “How are you?”, y podremos contestar de diversas maneras:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "How are you?",
+                  "colspan": 2
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>(I am) fine </center>"
+                    },
+                    {
+                      "texto": "<center><i>(Estoy) bien</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good morning</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenos días</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good afternoon</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas tardes</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good evening</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good night</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                }
+
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "sabiasQue",
+              "texto": "Hemos de recordar decir siempre <b>“Thank you”</b> (gracias) al responder:<br>&nbsp&nbsp&nbsp-How are you, Michael?<br>&nbsp&nbsp&nbsp-I am fine, thank you"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>WHAT'S YOUR NAME?</b><br><br>Cuando te pregunten por tu nombre o quieras preguntarle a alguien “¿Cómo te llamas?” diremos: What is your name? O What’s your name?. ¿Y cómo podemos contestar?:"
+        },
+        {
+          "clase": "texto",
+          "texto": "My name is (Violet).<br>Me llamo (Violet).<br><br>I am (Charles).<br>Soy (Charles).<br><br>My name is (James) but you can call me (Jim).<br>Me llamo (James) pero puedes llamarme (Jim)."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "Cuandos nos pregunten “How are you?” o “What’s your name?”, podemos añadir a nuestra respuesta “and you?” o “how about you?” que significa en ambos casos “¿y tú?”. Podemos añadirlo a casi cualquier pregunta cuando queramos saber más sobre nuestro interlocutor tras haber dado información previa sobre nosotros."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "<b>Examples</b>",
+              "contenido": [
+                {
+                  "punto": "How are you Katie?<br><i>&nbsp&nbsp&nbsp¿Qué tal estás Katie?</i>",
+                  "icono": "img/mod01/john.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "I’m fine, thank you. How about you?<br><i>&nbsp&nbsp&nbspBien, gracias. ¡Y tú?</i><br><br>",
+                  "icono": "img/mod01/mary.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "What’s your name?<br><i>&nbsp&nbsp&nbsp¿Cómo te llamas?</i>",
+                  "icono": "img/mod01/john.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "I’m Rosie, and you?<br><i>&nbsp&nbsp&nbspSoy Rosie, ¿y tú?</i><br><br>",
+                  "icono": "img/mod01/mary.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "Where are you from?<br><i>&nbsp&nbsp&nbsp¿De dónde eres?</i>",
+                  "icono": "img/mod01/john.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "I am from Spain, how about you?<br>&nbsp&nbsp&nbsp<i>Soy de España, ¿y tú?</i><br><br>",
+                  "icono": "img/mod01/mary.svg",
+                  "ancho": 32
+                }
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "sabiasQue",
+              "texto": "<b>Please</b>, <b>thank you</b> y <b>sorry</b> son unas de las palabras más utilizadas por los ingleses, ya que las utilizan prácticamente en cualquier situación. ¡Aunque no lo sientan!"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>PLEASED TO MEET YOU</b><br><br>Cuando queremos expresarle a la persona que acabamos de conocer o ante la que nos acabamos de presentar que nos alegramos de haberla conocido, utilizaremos las siguientes expresiones o frases hechas:<br><br>It is nice / great / lovely to meet you. (Informal)<br><br>Nice to meet you. (Informal/Formal)<br><br>Pleased to meet you. (Informal)<br><br>Glad to meet you (Formal)<br><br>Todas significan lo mismo “Encantado/a de conocerte” o “Es un placer conocerte” y como se indica arriba, unas son más formales que otras."
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Example</b><br>Hello James, my name is Oscar, pleased to meet you. How are you?<br><i>Hola James, me llamo Oscar, encantado de conocerte. ¿Qué tal estás?</i>"
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>WHERE ARE YOU FROM?</b><br><br>Para saber de donde es alguien le preguntaremos “Where are you from?” para  conocer su país o lugar de origen. Si nos hacen esa pregunta a nosotros contestaremos: “I am from...” y nuestro país o lugar de origen.<br><br>I live in + country/city. <i>(Vivo en + país o ciudad.)</i><br>I live in Spain / I live in Gijón.<br><br>Si queremos ser más específicos y preguntarle a alguien donde está viviendo actualmente le preguntaremos “Where do you live?”.<br><br>I live at + address. <i>(Vivo en + dirección concreta.)</i><br>I live at St Peter Street, 33"
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>Examples</b>",
+          "contenido": [
+            {
+              "punto": "Hi Alix, where are you from?<br><i>&nbsp&nbsp&nbspHola Alix, ¿de dónde eres?</i>",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am from France.<br><i>&nbsp&nbsp&nbspSoy de Francia.</i>",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "And where do you live?<br><i>&nbsp&nbsp&nbsp¿Y dónde vives?</i>",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I live in England, how about you?<br><i>&nbsp&nbsp&nbspVivo en Inglaterra, ¿y tú?</i>",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am from Spain and I live in Madrid.<br><i>&nbsp&nbsp&nbspYo soy de España y vivo en Madrid.</i>",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>HOW OLD ARE YOU?</b>"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Si queremos conocer la edad de otra persona le preguntaremos “How old are you?”, es decir, “¿cuántos años tienes?”. ¿Y qué podemos contestar? Pues tenemos dos opciones. La manera más sencilla de contestar sería “I am…” y nuestra edad. Por ejemplo, “I am twenty-five” o “I am sixty”. La otra manera de decir nuestra edad es “I am sixty YEARS OLD”. Como hemos visto antes, aquí el verbo “to be” vuelve a funcionar como el verbo “tener”, “I am twenty-five” es “tengo veinticinco años” y no “Yo soy veinticinco años”."
+            },
+            {
+              "clase": "icono",
+              "subclase": "exclamacion",
+              "texto": "BE CAREFUL: Nunca digas “I am forty-two years”. Si quieres incluir “years” al decir tu edad o la de otra persona, acuérdate SIEMPRE de añadir “years old”, de otra manera estará incorrecto."
+            }
+          ]
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "<b>VARIOUS QUESTIONS</b>",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>Are you married?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Estás casado/a?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Have you got any children?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Tienes hijos/as?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>What do you do?</center>"
+                },
+                {
+                  "texto": "<center><i>¿A qué te dedicas? (Referido trabajo/profesión)</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Do you work?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Trabajas?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Which country are you from?</center>"
+                },
+                {
+                  "texto": "<center><i>¿De qué país eres?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Which city/area do you live in?</center>"
+                },
+                {
+                  "texto": "<center><i>¿En qué ciudad/zona vives?</i></center>"
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>GOOD BYE</b><br><br>Para despedirnos podemos utilizar las siguientes expresiones."
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "F= Formal / I= Informal",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>Good bye! / Bye!</center>"
+                },
+                {
+                  "texto": "<center><i>Adiós.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you soon! (I)?</center>"
+                },
+                {
+                  "texto": "<center><i>Nos vemos o hasta luego.(I)</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you later! (I)</center>"
+                },
+                {
+                  "texto": "<center><i>Te veo después o nos vemos.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you tomorrow! (I)</center>"
+                },
+                {
+                  "texto": "<center><i>Hasta mañana.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Have a good day. (F)</center>"
+                },
+                {
+                  "texto": "<center><i>Que tengas un buen día.</i></center>"
+                }
+              ]
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Introducing yourself",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En esta unidad vamos a aprender vocabulario y algunos trucos para saber cómo actuar cuando conozcamos a alguien por primera vez.<br><br>Comencemos con un ejemplo de una conversación ficticia en la que dos personas, John y Mary, se conocen por primera vez y se presentan. Lee el texto y no te preocupes si no lo entiendes todo, ¡acabamos de empezar!"
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>Conversation</b>",
+          "contenido": [
+            {
+              "punto": "Hello, my name is Mary. What is your name?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "Hi Mary! I am John, nice to meet you. How are you?",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am fine, thank you! Where are you from?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am from Scotland, how about you?",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I live in London. How old are you?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am thirty (30) years old. What do you do?",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am a teacher. Are you married?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "Yes, I am and I have two children.",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>GREETINGS</b><br><br>En inglés existen distintos tipos de saludos o “greetings”. Los más comunes son los siguientes:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "<center>GREETINGS</center>",
+                  "colspan": 3
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/hello.svg"
+                    },
+                    {
+                      "texto": "<center>Hello/ Hi/ Hey (informal)</center>"
+                    },
+                    {
+                      "texto": "<center><i>Hola</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/morning.svg"
+                    },
+                    {
+                      "texto": "<center>Good morning</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenos días</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/afternoon.svg"
+                    },
+                    {
+                      "texto": "<center>Good afternoon</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas tardes</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/evening.svg"
+                    },
+                    {
+                      "texto": "<center>Good evening</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/night.svg"
+                    },
+                    {
+                      "texto": "<center>Good night</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                }
+
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "sabiasQue",
+              "texto": "<b>¿Cuándo usamos “good afternoon”, “good evening” y “good night”?</b> En inglés, diríamos “good afternoon” en el tramo comprendido entre las 12 del mediodía y las 5 o 6 de la tarde, a partir de ese momento se utilizaría “good evening” como forma de desear  buenas noches. Solo diríamos “good night” en el momento de irnos a la cama y a modo de despedida si vamos a abandonar un lugar cuando ya es de noche."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>HOW ARE YOU?</b><br><br>Si queremos preguntarle a alguien “¿Qué tal estás?” diremos “How are you?”, y podremos contestar de diversas maneras:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "How are you?",
+                  "colspan": 2
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>(I am) fine </center>"
+                    },
+                    {
+                      "texto": "<center><i>(Estoy) bien</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good morning</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenos días</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good afternoon</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas tardes</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good evening</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good night</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                }
+
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "sabiasQue",
+              "texto": "Hemos de recordar decir siempre <b>“Thank you”</b> (gracias) al responder:<br>&nbsp&nbsp&nbsp-How are you, Michael?<br>&nbsp&nbsp&nbsp-I am fine, thank you"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>WHAT'S YOUR NAME?</b><br><br>Cuando te pregunten por tu nombre o quieras preguntarle a alguien “¿Cómo te llamas?” diremos: What is your name? O What’s your name?. ¿Y cómo podemos contestar?:"
+        },
+        {
+          "clase": "texto",
+          "texto": "My name is (Violet).<br>Me llamo (Violet).<br><br>I am (Charles).<br>Soy (Charles).<br><br>My name is (James) but you can call me (Jim).<br>Me llamo (James) pero puedes llamarme (Jim)."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "Cuandos nos pregunten “How are you?” o “What’s your name?”, podemos añadir a nuestra respuesta “and you?” o “how about you?” que significa en ambos casos “¿y tú?”. Podemos añadirlo a casi cualquier pregunta cuando queramos saber más sobre nuestro interlocutor tras haber dado información previa sobre nosotros."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "<b>Examples</b>",
+              "contenido": [
+                {
+                  "punto": "How are you Katie?<br><i>&nbsp&nbsp&nbsp¿Qué tal estás Katie?</i>",
+                  "icono": "img/mod01/john.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "I’m fine, thank you. How about you?<br><i>&nbsp&nbsp&nbspBien, gracias. ¡Y tú?</i><br><br>",
+                  "icono": "img/mod01/mary.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "What’s your name?<br><i>&nbsp&nbsp&nbsp¿Cómo te llamas?</i>",
+                  "icono": "img/mod01/john.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "I’m Rosie, and you?<br><i>&nbsp&nbsp&nbspSoy Rosie, ¿y tú?</i><br><br>",
+                  "icono": "img/mod01/mary.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "Where are you from?<br><i>&nbsp&nbsp&nbsp¿De dónde eres?</i>",
+                  "icono": "img/mod01/john.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "I am from Spain, how about you?<br>&nbsp&nbsp&nbsp<i>Soy de España, ¿y tú?</i><br><br>",
+                  "icono": "img/mod01/mary.svg",
+                  "ancho": 32
+                }
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "sabiasQue",
+              "texto": "<b>Please</b>, <b>thank you</b> y <b>sorry</b> son unas de las palabras más utilizadas por los ingleses, ya que las utilizan prácticamente en cualquier situación. ¡Aunque no lo sientan!"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>PLEASED TO MEET YOU</b><br><br>Cuando queremos expresarle a la persona que acabamos de conocer o ante la que nos acabamos de presentar que nos alegramos de haberla conocido, utilizaremos las siguientes expresiones o frases hechas:<br><br>It is nice / great / lovely to meet you. (Informal)<br><br>Nice to meet you. (Informal/Formal)<br><br>Pleased to meet you. (Informal)<br><br>Glad to meet you (Formal)<br><br>Todas significan lo mismo “Encantado/a de conocerte” o “Es un placer conocerte” y como se indica arriba, unas son más formales que otras."
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Example</b><br>Hello James, my name is Oscar, pleased to meet you. How are you?<br><i>Hola James, me llamo Oscar, encantado de conocerte. ¿Qué tal estás?</i>"
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>WHERE ARE YOU FROM?</b><br><br>Para saber de donde es alguien le preguntaremos “Where are you from?” para  conocer su país o lugar de origen. Si nos hacen esa pregunta a nosotros contestaremos: “I am from...” y nuestro país o lugar de origen.<br><br>I live in + country/city. <i>(Vivo en + país o ciudad.)</i><br>I live in Spain / I live in Gijón.<br><br>Si queremos ser más específicos y preguntarle a alguien donde está viviendo actualmente le preguntaremos “Where do you live?”.<br><br>I live at + address. <i>(Vivo en + dirección concreta.)</i><br>I live at St Peter Street, 33"
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>Examples</b>",
+          "contenido": [
+            {
+              "punto": "Hi Alix, where are you from?<br><i>&nbsp&nbsp&nbspHola Alix, ¿de dónde eres?</i>",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am from France.<br><i>&nbsp&nbsp&nbspSoy de Francia.</i>",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "And where do you live?<br><i>&nbsp&nbsp&nbsp¿Y dónde vives?</i>",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I live in England, how about you?<br><i>&nbsp&nbsp&nbspVivo en Inglaterra, ¿y tú?</i>",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am from Spain and I live in Madrid.<br><i>&nbsp&nbsp&nbspYo soy de España y vivo en Madrid.</i>",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>HOW OLD ARE YOU?</b>"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Si queremos conocer la edad de otra persona le preguntaremos “How old are you?”, es decir, “¿cuántos años tienes?”. ¿Y qué podemos contestar? Pues tenemos dos opciones. La manera más sencilla de contestar sería “I am…” y nuestra edad. Por ejemplo, “I am twenty-five” o “I am sixty”. La otra manera de decir nuestra edad es “I am sixty YEARS OLD”. Como hemos visto antes, aquí el verbo “to be” vuelve a funcionar como el verbo “tener”, “I am twenty-five” es “tengo veinticinco años” y no “Yo soy veinticinco años”."
+            },
+            {
+              "clase": "icono",
+              "subclase": "exclamacion",
+              "texto": "BE CAREFUL: Nunca digas “I am forty-two years”. Si quieres incluir “years” al decir tu edad o la de otra persona, acuérdate SIEMPRE de añadir “years old”, de otra manera estará incorrecto."
+            }
+          ]
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "<b>VARIOUS QUESTIONS</b>",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>Are you married?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Estás casado/a?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Have you got any children?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Tienes hijos/as?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>What do you do?</center>"
+                },
+                {
+                  "texto": "<center><i>¿A qué te dedicas? (Referido trabajo/profesión)</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Do you work?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Trabajas?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Which country are you from?</center>"
+                },
+                {
+                  "texto": "<center><i>¿De qué país eres?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Which city/area do you live in?</center>"
+                },
+                {
+                  "texto": "<center><i>¿En qué ciudad/zona vives?</i></center>"
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>GOOD BYE</b><br><br>Para despedirnos podemos utilizar las siguientes expresiones."
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "F= Formal / I= Informal",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>Good bye! / Bye!</center>"
+                },
+                {
+                  "texto": "<center><i>Adiós.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you soon! (I)?</center>"
+                },
+                {
+                  "texto": "<center><i>Nos vemos o hasta luego.(I)</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you later! (I)</center>"
+                },
+                {
+                  "texto": "<center><i>Te veo después o nos vemos.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you tomorrow! (I)</center>"
+                },
+                {
+                  "texto": "<center><i>Hasta mañana.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Have a good day. (F)</center>"
+                },
+                {
+                  "texto": "<center><i>Que tengas un buen día.</i></center>"
+                }
+              ]
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Introducing yourself",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En esta unidad vamos a aprender vocabulario y algunos trucos para saber cómo actuar cuando conozcamos a alguien por primera vez.<br><br>Comencemos con un ejemplo de una conversación ficticia en la que dos personas, John y Mary, se conocen por primera vez y se presentan. Lee el texto y no te preocupes si no lo entiendes todo, ¡acabamos de empezar!"
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>Conversation</b>",
+          "contenido": [
+            {
+              "punto": "Hello, my name is Mary. What is your name?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "Hi Mary! I am John, nice to meet you. How are you?",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am fine, thank you! Where are you from?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am from Scotland, how about you?",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I live in London. How old are you?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am thirty (30) years old. What do you do?",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am a teacher. Are you married?",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "Yes, I am and I have two children.",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>GREETINGS</b><br><br>En inglés existen distintos tipos de saludos o “greetings”. Los más comunes son los siguientes:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "<center>GREETINGS</center>",
+                  "colspan": 3
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/hello.svg"
+                    },
+                    {
+                      "texto": "<center>Hello/ Hi/ Hey (informal)</center>"
+                    },
+                    {
+                      "texto": "<center><i>Hola</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/morning.svg"
+                    },
+                    {
+                      "texto": "<center>Good morning</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenos días</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/afternoon.svg"
+                    },
+                    {
+                      "texto": "<center>Good afternoon</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas tardes</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/evening.svg"
+                    },
+                    {
+                      "texto": "<center>Good evening</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "imagen": "img/mod01/night.svg"
+                    },
+                    {
+                      "texto": "<center>Good night</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                }
+
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "sabiasQue",
+              "texto": "<b>¿Cuándo usamos “good afternoon”, “good evening” y “good night”?</b> En inglés, diríamos “good afternoon” en el tramo comprendido entre las 12 del mediodía y las 5 o 6 de la tarde, a partir de ese momento se utilizaría “good evening” como forma de desear  buenas noches. Solo diríamos “good night” en el momento de irnos a la cama y a modo de despedida si vamos a abandonar un lugar cuando ya es de noche."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>HOW ARE YOU?</b><br><br>Si queremos preguntarle a alguien “¿Qué tal estás?” diremos “How are you?”, y podremos contestar de diversas maneras:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "How are you?",
+                  "colspan": 2
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>(I am) fine </center>"
+                    },
+                    {
+                      "texto": "<center><i>(Estoy) bien</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good morning</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenos días</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good afternoon</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas tardes</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good evening</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good night</center>"
+                    },
+                    {
+                      "texto": "<center><i>Buenas noches</i></center>"
+                    }
+                  ]
+                }
+
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "sabiasQue",
+              "texto": "Hemos de recordar decir siempre <b>“Thank you”</b> (gracias) al responder:<br>&nbsp&nbsp&nbsp-How are you, Michael?<br>&nbsp&nbsp&nbsp-I am fine, thank you"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>WHAT'S YOUR NAME?</b><br><br>Cuando te pregunten por tu nombre o quieras preguntarle a alguien “¿Cómo te llamas?” diremos: What is your name? O What’s your name?. ¿Y cómo podemos contestar?:"
+        },
+        {
+          "clase": "texto",
+          "texto": "My name is (Violet).<br>Me llamo (Violet).<br><br>I am (Charles).<br>Soy (Charles).<br><br>My name is (James) but you can call me (Jim).<br>Me llamo (James) pero puedes llamarme (Jim)."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "Cuandos nos pregunten “How are you?” o “What’s your name?”, podemos añadir a nuestra respuesta “and you?” o “how about you?” que significa en ambos casos “¿y tú?”. Podemos añadirlo a casi cualquier pregunta cuando queramos saber más sobre nuestro interlocutor tras haber dado información previa sobre nosotros."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "<b>Examples</b>",
+              "contenido": [
+                {
+                  "punto": "How are you Katie?<br><i>&nbsp&nbsp&nbsp¿Qué tal estás Katie?</i>",
+                  "icono": "img/mod01/john.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "I’m fine, thank you. How about you?<br><i>&nbsp&nbsp&nbspBien, gracias. ¡Y tú?</i><br><br>",
+                  "icono": "img/mod01/mary.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "What’s your name?<br><i>&nbsp&nbsp&nbsp¿Cómo te llamas?</i>",
+                  "icono": "img/mod01/john.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "I’m Rosie, and you?<br><i>&nbsp&nbsp&nbspSoy Rosie, ¿y tú?</i><br><br>",
+                  "icono": "img/mod01/mary.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "Where are you from?<br><i>&nbsp&nbsp&nbsp¿De dónde eres?</i>",
+                  "icono": "img/mod01/john.svg",
+                  "ancho": 32
+                },
+                {
+                  "punto": "I am from Spain, how about you?<br>&nbsp&nbsp&nbsp<i>Soy de España, ¿y tú?</i><br><br>",
+                  "icono": "img/mod01/mary.svg",
+                  "ancho": 32
+                }
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "sabiasQue",
+              "texto": "<b>Please</b>, <b>thank you</b> y <b>sorry</b> son unas de las palabras más utilizadas por los ingleses, ya que las utilizan prácticamente en cualquier situación. ¡Aunque no lo sientan!"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>PLEASED TO MEET YOU</b><br><br>Cuando queremos expresarle a la persona que acabamos de conocer o ante la que nos acabamos de presentar que nos alegramos de haberla conocido, utilizaremos las siguientes expresiones o frases hechas:<br><br>It is nice / great / lovely to meet you. (Informal)<br><br>Nice to meet you. (Informal/Formal)<br><br>Pleased to meet you. (Informal)<br><br>Glad to meet you (Formal)<br><br>Todas significan lo mismo “Encantado/a de conocerte” o “Es un placer conocerte” y como se indica arriba, unas son más formales que otras."
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Example</b><br>Hello James, my name is Oscar, pleased to meet you. How are you?<br><i>Hola James, me llamo Oscar, encantado de conocerte. ¿Qué tal estás?</i>"
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>WHERE ARE YOU FROM?</b><br><br>Para saber de donde es alguien le preguntaremos “Where are you from?” para  conocer su país o lugar de origen. Si nos hacen esa pregunta a nosotros contestaremos: “I am from...” y nuestro país o lugar de origen.<br><br>I live in + country/city. <i>(Vivo en + país o ciudad.)</i><br>I live in Spain / I live in Gijón.<br><br>Si queremos ser más específicos y preguntarle a alguien donde está viviendo actualmente le preguntaremos “Where do you live?”.<br><br>I live at + address. <i>(Vivo en + dirección concreta.)</i><br>I live at St Peter Street, 33"
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>Examples</b>",
+          "contenido": [
+            {
+              "punto": "Hi Alix, where are you from?<br><i>&nbsp&nbsp&nbspHola Alix, ¿de dónde eres?</i>",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am from France.<br><i>&nbsp&nbsp&nbspSoy de Francia.</i>",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "And where do you live?<br><i>&nbsp&nbsp&nbsp¿Y dónde vives?</i>",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I live in England, how about you?<br><i>&nbsp&nbsp&nbspVivo en Inglaterra, ¿y tú?</i>",
+              "icono": "img/mod01/mary.svg",
+              "ancho": 32
+            },
+            {
+              "punto": "I am from Spain and I live in Madrid.<br><i>&nbsp&nbsp&nbspYo soy de España y vivo en Madrid.</i>",
+              "icono": "img/mod01/john.svg",
+              "ancho": 32
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>HOW OLD ARE YOU?</b>"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Si queremos conocer la edad de otra persona le preguntaremos “How old are you?”, es decir, “¿cuántos años tienes?”. ¿Y qué podemos contestar? Pues tenemos dos opciones. La manera más sencilla de contestar sería “I am…” y nuestra edad. Por ejemplo, “I am twenty-five” o “I am sixty”. La otra manera de decir nuestra edad es “I am sixty YEARS OLD”. Como hemos visto antes, aquí el verbo “to be” vuelve a funcionar como el verbo “tener”, “I am twenty-five” es “tengo veinticinco años” y no “Yo soy veinticinco años”."
+            },
+            {
+              "clase": "icono",
+              "subclase": "exclamacion",
+              "texto": "BE CAREFUL: Nunca digas “I am forty-two years”. Si quieres incluir “years” al decir tu edad o la de otra persona, acuérdate SIEMPRE de añadir “years old”, de otra manera estará incorrecto."
+            }
+          ]
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "<b>VARIOUS QUESTIONS</b>",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>Are you married?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Estás casado/a?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Have you got any children?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Tienes hijos/as?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>What do you do?</center>"
+                },
+                {
+                  "texto": "<center><i>¿A qué te dedicas? (Referido trabajo/profesión)</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Do you work?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Trabajas?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Which country are you from?</center>"
+                },
+                {
+                  "texto": "<center><i>¿De qué país eres?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Which city/area do you live in?</center>"
+                },
+                {
+                  "texto": "<center><i>¿En qué ciudad/zona vives?</i></center>"
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>GOOD BYE</b><br><br>Para despedirnos podemos utilizar las siguientes expresiones."
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "F= Formal / I= Informal",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>Good bye! / Bye!</center>"
+                },
+                {
+                  "texto": "<center><i>Adiós.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you soon! (I)?</center>"
+                },
+                {
+                  "texto": "<center><i>Nos vemos o hasta luego.(I)</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you later! (I)</center>"
+                },
+                {
+                  "texto": "<center><i>Te veo después o nos vemos.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you tomorrow! (I)</center>"
+                },
+                {
+                  "texto": "<center><i>Hasta mañana.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Have a good day. (F)</center>"
+                },
+                {
+                  "texto": "<center><i>Que tengas un buen día.</i></center>"
+                }
+              ]
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "How old are you?",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Si queremos conocer la edad de otra persona le preguntaremos <b>“How old are you?”</b>, es decir, “¿cuántos años tienes?”. ¿Y qué podemos contestar? Pues tenemos dos opciones. La manera más sencilla de contestar sería “I am…” y nuestra edad. Por ejemplo, “I am twenty-five” o “I am sixty”. La otra manera de decir nuestra edad es “I am sixty YEARS OLD”. Como hemos visto antes, aquí el verbo “to be” vuelve a funcionar como el verbo “tener”, “I am twenty-five” es “tengo veinticinco años” y no “Yo soy veinticinco años”."
+            },
+            {
+              "clase": "icono",
+              "subclase": "exclamacion",
+              "texto": "BE CAREFUL: Nunca digas “I am forty-two years”. Si quieres incluir “years” al decir tu edad o la de otra persona, acuérdate SIEMPRE de añadir “years old”, de otra manera estará incorrecto."
+            }
+          ]
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "OTHER QUESTIONS",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>Are you married?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Estás casado/a?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Have you got any children?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Tienes hijos/as?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>What do you do?</center>"
+                },
+                {
+                  "texto": "<center><i>¿A qué te dedicas? (Referido trabajo/profesión)</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Do you work?</center>"
+                },
+                {
+                  "texto": "<center><i>¿Trabajas?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Which country are you from?</center>"
+                },
+                {
+                  "texto": "<center><i>¿De qué país eres?</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Which city/area do you live in?</center>"
+                },
+                {
+                  "texto": "<center><i>¿En qué ciudad/zona vives?</i></center>"
+                }
+              ]
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Good bye!",
+      "fondo": "img/mod01/bye.png",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "<center>A la hora de despedirnos podemos utilizar cualquiera de las siguientes expresiones.</center>"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "Despedidas formales",
+                  "colspan": 2
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Good bye! / Bye!</center>"
+                    },
+                    {
+                      "texto": "<center><i>Adiós.</i></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Have a good day.</center>"
+                    },
+                    {
+                      "texto": "<center><i>Que tengas un buen día.</i></center>"
+                    }
+                  ]
+                }
+
+              ]
+            },
+                    {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "Despedidas informales",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you soon!</center>"
+                },
+                {
+                  "texto": "<center><i>Nos vemos o hasta luego.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you later!</center>"
+                },
+                {
+                  "texto": "<center><i>Te veo después o nos vemos.</i></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>See you tomorrow!</center>"
+                },
+                {
+                  "texto": "<center><i>Hasta mañana.</i></center>"
+                }
+              ]
+            }
+          ]
+        }
           ]
         }
       ]
