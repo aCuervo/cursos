@@ -43,7 +43,7 @@
                   "punto": "El presente simple del resto de verbos."
                 },
                 {
-                  "punto": "El verbo HAVE/ HAVE GOT/ HAVEN’T/ HAVEN’T GOT."
+                  "punto": "El verbo HAVE / HAVE GOT / DON’T HAVE / HAVEN’T GOT."
                 },
                 {
                   "punto": "El verbo auxiliar CAN y su forma negativa CAN’T."
@@ -52,7 +52,7 @@
             },
             {
               "clase": "texto",
-              "texto": "En esta unidad aprenderemos a utilizar un nuevo tiempo verbal, el presente continuo o PRESENT CONTINUOUS. En español se corresponde con la construcción ESTAR + GERUNDIO.<br>Ejemplo: Estoy comiendo en un restaurante, Pedro está leyendo...<br>Ahora vamos a ver como se construye.<br>La estructura del PRESENT CONTINUOUS  es la siguiente:"
+              "texto": "En esta unidad aprenderemos a utilizar un nuevo tiempo verbal, el presente continuo o PRESENT CONTINUOUS. En español se corresponde con la construcción ESTAR + GERUNDIO.<br>Ejemplo: Estoy comiendo en un restaurante, Pedro está leyendo...<br>Ahora vamos a ver como se forma.<br>La estructura del PRESENT CONTINUOUS  es la siguiente:"
             }
           ]
         },
@@ -342,7 +342,7 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "El present continuous se forma añadiendo la partícula negativa ‘not’ al verbo TO BE y añadiendo el verbo +ing.<br><br>Sus usos son los ya indicados anteriormente pero en este caso indicaremos que NO estamos haciendo algo o que algo no está ocurriendo o no va a ocurrir en un futuro cercano."
+          "texto": "El present continuous se forma añadiendo la partícula negativa ‘not’ al verbo TO BE y añadiendo el verbo +ing.<br><br>Sus usos son los ya indicados anteriormente pero en este caso lo usaremos para decir que NO estamos haciendo algo o que algo no está ocurriendo o no va a ocurrir en un futuro cercano."
         },
         {
           "clase": "listaObjetos",
@@ -1367,7 +1367,7 @@
                 {
                   "opcion": "Correct",
                   "correcto": false,
-                  "feedback": "Incorrect: THESES ARE MY KEYS."
+                  "feedback": "Incorrect: THESE ARE MY KEYS."
                 }
               ]
             },
@@ -1406,7 +1406,7 @@
       ]
     },
     {
-      "titulo": "Food and meals",
+      "titulo": "Breakfast",
       "contenido": [
         {
           "clase": "texto",
@@ -1415,187 +1415,54 @@
         {
           "clase": "imagen",
           "imagen": "img/mod06/Breakfast2.jpg"
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod06/Beverages.jpg"
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod06/fruits.jpg"
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod06/food.jpg"
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod06/Snacks.jpg"
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "‘It’s easy as pie’ es una expresión en inglés que significa literalmente “fácil como un pastel”. Quiere decir que algo es muy sencillo y que cualquiera podría hacerlo, como hacer un pastel.<center>‘This activity is easy as pie, you can do it in five minutes!’<br>Esto es muy sencilo, ¡puedes hacerlo en 5 minutos!</center>"
         }
       ]
     },
     {
-      "titulo": "Ejercicio",
+      "titulo": "Beverages",
       "contenido": [
         {
-          "clase": "texto",
-          "subclase": "instruccion",
-          "animacion": "flash",
-          "texto": "Arrastra cada producto al lugar de conservación más adecuado."
-        },
-        {
-          "clase": "autoevalArrastrar",
-          "contenedores": [
-            {
-              "clase": "imagen",
-              "subclase": "droppable",
-              "imagen": "img/mod6/autoeval/armario.svg",
-              "ancho": 200,
-              "data_id": 1,
-              "pie": "Armario"
-            },
-            {
-              "clase": "imagen",
-              "subclase": "droppable",
-              "imagen": "img/mod6/autoeval/congelador.svg",
-              "ancho": 200,
-              "data_id": 2,
-              "pie": "Congelador"
-            },
-            {
-              "clase": "imagen",
-              "subclase": "droppable",
-              "imagen": "img/mod6/autoeval/estanteria.svg",
-              "ancho": 200,
-              "data_id": 3,
-              "pie": "Estantería"
-            },
-            {
-              "clase": "imagen",
-              "subclase": "droppable",
-              "imagen": "img/mod6/autoeval/estanteria.svg",
-              "ancho": 200,
-              "data_id": 3,
-              "pie": "Estantería"
-            },
-
-            {
-              "clase": "imagen",
-              "subclase": "droppable",
-              "imagen": "img/mod6/autoeval/nevera.svg",
-              "ancho": 200,
-              "data_id": 4,
-              "pie": "Nevera"
-            },
-            {
-              "clase": "imagen",
-              "subclase": "droppable",
-              "imagen": "img/mod6/autoeval/nevera.svg",
-              "ancho": 200,
-              "data_id": 4,
-              "pie": "Nevera"
-            },
-
-            {
-              "clase": "imagen",
-              "subclase": "droppable",
-              "imagen": "img/mod6/autoeval/nevera.svg",
-              "ancho": 200,
-              "data_id": 4,
-              "pie": "Nevera"
-            },
-
-            {
-              "clase": "imagen",
-              "subclase": "droppable",
-              "imagen": "img/mod6/autoeval/nevera.svg",
-              "ancho": 200,
-              "data_id": 4,
-              "pie": "Nevera"
-            },
-
-            {
-              "clase": "imagen",
-              "subclase": "droppable",
-              "imagen": "img/mod6/autoeval/nevera.svg",
-              "ancho": 200,
-              "data_id": 4,
-              "pie": "Nevera"
-            }
-          ],
-          "contenidos": [
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/mod6/autoeval/anchoas.svg",
-              "ancho": 100,
-              "data_caja": 4
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/mod6/autoeval/cacerola.svg",
-              "ancho": 70,
-              "data_caja": 4
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/mod6/autoeval/conserva.svg",
-              "ancho": 50,
-              "data_caja": 3
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/mod6/autoeval/helado.svg",
-              "ancho": 30,
-              "data_caja": 2
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/mod6/autoeval/limpiacristales.svg",
-              "ancho": 25,
-              "data_caja": 1
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/mod6/autoeval/mermelada.svg",
-              "ancho": 50,
-              "data_caja": 3
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/mod6/autoeval/pez.svg",
-              "ancho": 100,
-              "data_caja": 4
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/mod6/autoeval/pollo.svg",
-              "ancho": 100,
-              "data_caja": 4
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/mod6/autoeval/tarta.svg",
-              "ancho": 100,
-              "data_caja": 4
-            }
-          ],
-          "solucion": "img/mod6/autoeval/solucion.png"
+          "clase": "imagen",
+          "imagen": "img/mod06/Beverages.jpg"
         }
       ]
+    },
+    {
+      "titulo": "Fruits & vegetables",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "imagen": "img/mod06/fruits.jpg"
+        }        
+      ]
+    },
+    {
+      "titulo": "A meal",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "imagen": "img/mod06/food.jpg"
+        }
+      ]
+    },
+        {
+      "titulo": "Sancks & more",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod06/Snacks.jpg"
+            },
+                {
+                  "clase": "icono",
+                  "subclase": "sabiasQue",
+                  "texto": "‘It’s easy as pie’ es una expresión en inglés que significa literalmente “fácil como un pastel”. Quiere decir que algo es muy sencillo y que cualquiera podría hacerlo, como hacer un pastel.<center>‘This activity is easy as pie, you can do it in five minutes!’<br>Esto es muy sencilo, ¡puedes hacerlo en 5 minutos!</center>"
+                }
+                              ]
+            }
+          ]
     },
     {
       "titulo": "Crosswords",
@@ -1694,7 +1561,7 @@
             },
             {
               "clase": "texto",
-              "texto": "Cuando lleguemos a un restaurant no nos debemos olvidar de saludar (Hello/ Good evening…) e incluso podemos preguntar al camarero o camarera qué tal están (How are you?). Camarero en inglés se dice WAITER y su femenino es WAITRESS.<br>Una vez que tengamos el menú (THE MENU), estaremos listos para empezar a pedir.<br><br>En general, en un menú nos encontraremos con la parte de ‘starters’ o entrantes, “main course/s’ que es la categoría de platos principales y ‘dessert’, que como ya vimos en la parte de vocabulario es el postre.<br>Para pedir algo del menú utilizaremos las expresiones vistas antes (Can I have... / Can I get...) y también la expresión ‘I would like...’ que es “me gustaría tomar...”."
+              "texto": "Cuando lleguemos a un restaurant no nos debemos olvidar de saludar (Hello/ Good evening…) e incluso podemos preguntar al camarero o camarera qué tal están (How are you?). Camarero en inglés se dice WAITER y su femenino es WAITRESS.<br>Una vez que tengamos el menú (THE MENU), estaremos listos para empezar a pedir.<br><br>En general, en un menú nos encontraremos con la parte de ‘starters’ o entrantes, ‘main course/s’ que es la categoría de platos principales y ‘dessert’, que como ya vimos en la parte de vocabulario es el postre.<br>Para pedir algo del menú utilizaremos las expresiones vistas antes (Can I have... / Can I get...) y también la expresión ‘I would like...’ que es “me gustaría tomar...”."
             }
           ]
         },
@@ -1838,7 +1705,7 @@
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "texto": "Si viajas a debes tener en cuenta que es costumbre dejar de propina (TIP) el 10% o el 20% del total de lo que has pagado. No es una obligación y depende de lo contento que hayas quedado con el servicio."
+          "texto": "Si viajas a Londres debes tener en cuenta que es costumbre dejar de propina (TIP) el 10% o el 20% del total de lo que has pagado. No es una obligación y depende de lo contento que hayas quedado con el servicio."
         }
       ]
     },
