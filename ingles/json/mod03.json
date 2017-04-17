@@ -9,18 +9,17 @@
     },
     {
       "titulo": "Bienvenida",
+      "fondo": "img/comunes/towerB.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
             {
-              "clase": "imagen",
-              "imagen": "img/mod01/bienvenida.jpg"
-            },
-            {
               "clase": "texto",
-              "texto": ""
+              "subclase": "recuadro",
+              "opacidad": 0.8,
+              "texto": "<center><b>Welcome to English Basic Level Course!</b></center><br>Con este curso pretendemos que aprendas y desarrolles tus conocimientos de inglés, poco a poco y empezando desde el principio.<br>Hoy en día, saber inglés es una habilidad indispensable, ya que es el lenguaje universal y estudiarlo nos  ayudará a mejorar no sólo en nuestro puesto de trabajo, sino que también mejorará nuestras habilidades sociales y comunicativas.<br><br>El objetivo de este curso es que aprendas  las estructuras básicas gramaticales, vocabulario y expresiones que te ayuden a desenvolverte mejor en este idioma, siendo capaz de expresarte de manera sencilla y de hacer frente a situaciones nuevas que requieran el uso de esta lengua.<br><br>Esperamos que disfrutes aprendiendo. Enjoy!"
             }
           ]
         }
@@ -2260,18 +2259,23 @@
     },
     {
       "titulo": "Despedida",
+      "fondo": "img/comunes/bigBen.jpg",
       "contenido": [
+        {
+          "clase": "imagen",
+          "ancho": 128,
+          "opacidad": 0.8,
+          "imagen": "img/comunes/keep.png"
+        },
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "texto",
-              "texto": ""
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod01/despedida.jpg"
+              "subclase": "recuadro",
+              "opacidad": 0.8,
+              "texto": "En este módulo has aplicado los tiempos verbales aprendidos con anterioridad para describir tu rutina diaria y vocabulario relacionado con las actividades cotidianas. Hemos seguido con los números en inglés, a partir de las centenas y en adelante. Finalmente hemos visto cómo usar el verbo TO LIKE y a decir la fecha en inglés, junto con vocabulario sobre las estaciones, días de la semana, etc.<br><br>En el próximo módulo aprenderás nuevos verbos auxiliares, nuevos pronombres y formas de indicar la posesión en inglés, así como vocabulario relacionado con la familia."
             }
           ]
         }

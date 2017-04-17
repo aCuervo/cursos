@@ -9,18 +9,17 @@
     },
     {
       "titulo": "Bienvenida",
+      "fondo": "img/comunes/towerB.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
             {
-              "clase": "imagen",
-              "imagen": "img/mod01/bienvenida.jpg"
-            },
-            {
               "clase": "texto",
-              "texto": ""
+              "subclase": "recuadro",
+              "opacidad": 0.8,
+              "texto": "<center><b>Welcome to English Basic Level Course!</b></center><br>Con este curso pretendemos que aprendas y desarrolles tus conocimientos de inglés, poco a poco y empezando desde el principio.<br>Hoy en día, saber inglés es una habilidad indispensable, ya que es el lenguaje universal y estudiarlo nos  ayudará a mejorar no sólo en nuestro puesto de trabajo, sino que también mejorará nuestras habilidades sociales y comunicativas.<br><br>El objetivo de este curso es que aprendas  las estructuras básicas gramaticales, vocabulario y expresiones que te ayuden a desenvolverte mejor en este idioma, siendo capaz de expresarte de manera sencilla y de hacer frente a situaciones nuevas que requieran el uso de esta lengua.<br><br>Esperamos que disfrutes aprendiendo. Enjoy!"
             }
           ]
         }
@@ -1411,25 +1410,25 @@
 
       ]
     },
-
-
-
-
-
     {
       "titulo": "Despedida",
+      "fondo": "img/comunes/bigBen.jpg",
       "contenido": [
+        {
+          "clase": "imagen",
+          "ancho": 128,
+          "opacidad": 0.8,
+          "imagen": "img/comunes/keep.png"
+        },
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "texto",
-              "texto": "Good bye"
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod01/despedida.jpg"
+              "subclase": "recuadro",
+              "opacidad": 0.8,
+              "texto": "En este módulo  has aprendido cómo usar el verbo auxiliar CAN/ CAN’T y a indicar cuántas cosas hay mediante THERE IS y THERE ARE junto con ANY y SOME. En el apartado de vocabulario hemos aprendido sobre nuevas tecnologías y redes sociales. Finalmente has aprendido a redactar un e-mail de manera formal e informal.<br><br>En el próximo módulo aprenderás un nuevo tiempo verbal, el PRESENT CONTINUOUS, a usar los pronombres demostrativos y nuevo vocabulario sobre la comida."
             }
           ]
         }

@@ -9,7 +9,7 @@
     },
     {
       "titulo": "Bienvenida",
-      "fondo": "img/mod01/towerB.jpg",
+      "fondo": "img/comunes/towerB.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -18,7 +18,8 @@
             {
               "clase": "texto",
               "subclase": "recuadro",
-              "texto": "Nulla eu accumsan enim. Nulla pellentesque elit et velit molestie, sit amet tincidunt elit faucibus. Nam in laoreet ex. Maecenas vitae congue diam. Duis lectus purus, imperdiet nec sapien et, sollicitudin vulputate mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc elementum ac mi vitae facilisis.<br><br>Mauris nec justo cursus justo sollicitudin scelerisque vel et nisi. Mauris eu tellus et diam vestibulum ultricies a in lorem. Nulla sit amet nisi eu ligula volutpat rhoncus. Suspendisse tincidunt sapien ac nulla facilisis, vel tincidunt enim rhoncus."
+              "opacidad": 0.8,
+              "texto": "<center><b>Welcome to English Basic Level Course!</b></center><br>Con este curso pretendemos que aprendas y desarrolles tus conocimientos de inglés, poco a poco y empezando desde el principio.<br>Hoy en día, saber inglés es una habilidad indispensable, ya que es el lenguaje universal y estudiarlo nos  ayudará a mejorar no sólo en nuestro puesto de trabajo, sino que también mejorará nuestras habilidades sociales y comunicativas.<br><br>El objetivo de este curso es que aprendas  las estructuras básicas gramaticales, vocabulario y expresiones que te ayuden a desenvolverte mejor en este idioma, siendo capaz de expresarte de manera sencilla y de hacer frente a situaciones nuevas que requieran el uso de esta lengua.<br><br>Esperamos que disfrutes aprendiendo. Enjoy!"
             }
           ]
         }
@@ -156,7 +157,7 @@
               "ancho": 300,
               "imagen": "img/mod01/cabina.jpg"
             }
-                      ]
+          ]
         },
         {
           "clase": "lista",
@@ -2420,11 +2421,11 @@
             }
           ]
         },
-            {
-              "clase": "icono",
-              "subclase": "sabiasQue",
-              "texto": "Hemos de recordar decir siempre <b>“Thank you”</b> (gracias) al responder:<br>&nbsp&nbsp&nbsp-How are you, Michael?<br>&nbsp&nbsp&nbsp-I am fine, thank you"
-            }
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "Hemos de recordar decir siempre <b>“Thank you”</b> (gracias) al responder:<br>&nbsp&nbsp&nbsp-How are you, Michael?<br>&nbsp&nbsp&nbsp-I am fine, thank you"
+        }
 
       ]
     },
@@ -2503,6 +2504,11 @@
         {
           "clase": "texto",
           "texto": "<b>PLEASED TO MEET YOU</b><br><br>Cuando queremos expresarle a la persona que acabamos de conocer o ante la que nos acabamos de presentar que nos alegramos de haberla conocido, utilizaremos las siguientes expresiones o frases hechas:<br><br>It is nice / great / lovely to meet you. (Informal)<br><br>Nice to meet you. (Informal/Formal)<br><br>Pleased to meet you. (Informal)<br><br>Glad to meet you (Formal)<br><br>Todas significan lo mismo “Encantado/a de conocerte” o “Es un placer conocerte” y como se indica arriba, unas son más formales que otras."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod01/meetYou.jpg",
+          "ancho": 128
         },
         {
           "clase": "texto",
@@ -2731,7 +2737,7 @@
         }
       ]
     },
-        {
+    {
       "titulo": "Wordsearch",
       "contenido": [
         {
@@ -2821,14 +2827,14 @@
         {
           "clase": "listaObjetos",
           "contenido": [
+            {
+              "clase": "lista",
+              "contenido": [
                 {
-                  "clase": "lista",
-                  "contenido": [
-                    {
-                      "punto": "In this Unit you have learned how to use the personal pronouns and the verb to be in the affirmative, negative and question forms. Let’s remember it!"
-                    }
-                  ]
-                },
+                  "punto": "In this Unit you have learned how to use the personal pronouns and the verb to be in the affirmative, negative and question forms. Let’s remember it!"
+                }
+              ]
+            },
             {
               "clase": "tabla",
               "filaTitulos": [
@@ -3290,7 +3296,7 @@
             }
           ]
         },
-                {
+        {
           "clase": "imagen",
           "imagen": "img/mod01/londonLast2.png"
         }
@@ -3298,8 +3304,14 @@
     },
     {
       "titulo": "Despedida",
-      "fondo": "img/mod01/bigBen.jpg",
+      "fondo": "img/comunes/bigBen.jpg",
       "contenido": [
+        {
+          "clase": "imagen",
+          "ancho": 128,
+          "opacidad": 0.8,
+          "imagen": "img/comunes/keep.png"
+        },
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
@@ -3308,7 +3320,7 @@
               "clase": "texto",
               "subclase": "recuadro",
               "opacidad": 0.8,
-              "texto": "Nulla eu accumsan enim. Nulla pellentesque elit et velit molestie, sit amet tincidunt elit faucibus. Nam in laoreet ex. Maecenas vitae congue diam. Duis lectus purus, imperdiet nec sapien et, sollicitudin vulputate mi.<br><br>Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc elementum ac mi vitae facilisis. Mauris nec justo cursus justo sollicitudin scelerisque vel et nisi. Mauris eu tellus et diam vestibulum ultricies a in lorem. Nulla sit amet nisi eu ligula volutpat rhoncus. Suspendisse tincidunt sapien ac nulla facilisis, vel tincidunt enim rhoncus."
+              "texto": "En este primer módulo has aprendido los contenidos básicos para comenzar a aprender inglés, como los pronombres personales y el verbo TO BE. Vocabulario para describir cualidades físicas y del carácter y expresiones simples para presentarte ante los demás y conocer más sobre tu interlocutor.<br><br>En el siguiente módulo aprenderás nuevos tiempos verbales como el PRESENT SIMPLE, los número del 1 al 99, a decir la hora en inglés y mucho más."
             }
           ]
         }

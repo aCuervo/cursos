@@ -8,6 +8,24 @@
       "subclase": "portada"
     },
     {
+      "titulo": "Bienvenida",
+      "fondo": "img/comunes/towerB.jpg",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
+              "texto": "<center><b>Welcome to English Basic Level Course!</b></center><br>Con este curso pretendemos que aprendas y desarrolles tus conocimientos de inglés, poco a poco y empezando desde el principio.<br>Hoy en día, saber inglés es una habilidad indispensable, ya que es el lenguaje universal y estudiarlo nos  ayudará a mejorar no sólo en nuestro puesto de trabajo, sino que también mejorará nuestras habilidades sociales y comunicativas.<br><br>El objetivo de este curso es que aprendas  las estructuras básicas gramaticales, vocabulario y expresiones que te ayuden a desenvolverte mejor en este idioma, siendo capaz de expresarte de manera sencilla y de hacer frente a situaciones nuevas que requieran el uso de esta lengua.<br><br>Esperamos que disfrutes aprendiendo. Enjoy!"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "titulo": "Articles (I)",
       "contenido": [
         {
@@ -4419,18 +4437,23 @@
     },
     {
       "titulo": "Despedida",
+      "fondo": "img/comunes/bigBen.jpg",
       "contenido": [
+        {
+          "clase": "imagen",
+          "ancho": 128,
+          "opacidad": 0.8,
+          "imagen": "img/comunes/keep.png"
+        },
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "texto",
-              "texto": ""
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod01/despedida.jpg"
+              "subclase": "recuadro",
+              "opacidad": 0.8,
+              "texto": "En este módulo has aprendido los artículo THE, A/AN y SOME, a formar plurales regulares e irregulares. Has aprendido los números del 1 al 99 y un nuevo tiempo verbal, el PRESENT SIMPLE. Finalmente hemos visto como se dice la hora en inglés.<br><br>En el siguiente módulo seguiremos estudiando los números, aprenderás nuevo vocabulario y aplicarás lo que has aprendido de gramática en este módulo para describir tu rutina diaria."
             }
           ]
         }
