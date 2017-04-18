@@ -3,12 +3,12 @@
   "imagenEncabezado": "img/comunes/logo.svg",
   "contenido": [
     {
-      "titulo": "Portada",
+      "titulo": "Cover",
       "fondo": "img/comunes/portada.svg",
       "subclase": "portada"
     },
     {
-      "titulo": "Bienvenida",
+      "titulo": "Welcome",
       "fondo": "img/comunes/towerB.jpg",
       "contenido": [
         {
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "titulo": "The pronouns",
+      "titulo": "THE PRONOUNS",
       "contenido": [
         {
           "clase": "texto",
@@ -154,55 +154,70 @@
             },
             {
               "clase": "imagen",
-              "ancho": 300,
-              "imagen": "img/mod01/cabina.jpg"
+              "ancho": 256,
+              "imagen": "img/mod01/photo.jpg"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "About the pronouns",
+      "contenido": [
         {
-          "clase": "lista",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "punto": "El pronombre personal “I” (yo) <u>SIEMPRE</u> se escribe en mayúscula."
-            },
-            {
-              "punto": "En inglés no existe un pronombre para tratarnos de “usted”, se utiliza siempre “you” (tú, vosotros/as y usted/es)."
-            },
-            {
-              "punto": "En la tercera persona del singular tenemos un pronombre distinto para:",
+              "clase": "lista",
               "contenido": [
                 {
-                  "punto": "Él: <i>He is a boy.</i> (Él es un chico)."
+                  "punto": "El pronombre personal “I” (yo) <u>SIEMPRE</u> se escribe en mayúscula."
                 },
                 {
-                  "punto": "Ella: <i>She is a girl.</i> (Ella es una chica)."
+                  "punto": "En inglés no existe un pronombre para tratarnos de “usted”, se utiliza siempre “you” (tú, vosotros/as y usted/es)."
                 },
                 {
-                  "punto": "Ello lo utilizamos para referirnos a:",
+                  "punto": "En la tercera persona del singular tenemos un pronombre distinto para:",
                   "contenido": [
                     {
-                      "punto": "Cosas: <i>It is very nice (the house)</i> (Es muy bonita (la casa))."
+                      "punto": "Él: <i>He is a boy.</i> (Él es un chico)."
                     },
                     {
-                      "punto": "Animales: si conocemos el sexo del animal podemos dirigirnos a el como “he” or “she” dependiendo de si es macho o hembra: <i>Look! It’s eating my cheese! (a mouse)</i> (¡Mira, se está comiendo mi queso! (un ratón))."
+                      "punto": "Ella: <i>She is a girl.</i> (Ella es una chica)."
+                    },
+                    {
+                      "punto": "Ello lo utilizamos para referirnos a:",
+                      "contenido": [
+                        {
+                          "punto": "Cosas: <i>It is very nice (the house)</i> (Es muy bonita (la casa))."
+                        },
+                        {
+                          "punto": "Animales: si conocemos el sexo del animal podemos dirigirnos a el como “he” or “she” dependiendo de si es macho o hembra: <i>Look! It’s eating my cheese! (a mouse)</i> (¡Mira, se está comiendo mi queso! (un ratón))."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "punto": "Para la tercera persona del plural siempre utilizamos “they”:",
+                  "contenido": [
+                    {
+                      "punto": "<i>They are boys.</i> (Ellos son chicos.)"
+                    },
+                    {
+                      "punto": "<i>They are girls.</i> (Ellas son chicas.)"
+                    },
+                    {
+                      "punto": "<i>They (the houses) are comfortable.</i> (Ellas (las casas) son cómodas.)"
                     }
                   ]
                 }
               ]
             },
             {
-              "punto": "Para la tercera persona del plural siempre utilizamos “they”:",
-              "contenido": [
-                {
-                  "punto": "<i>They are boys.</i> (Ellos son chicos.)"
-                },
-                {
-                  "punto": "<i>They are girls.</i> (Ellas son chicas.)"
-                },
-                {
-                  "punto": "<i>They (the houses) are comfortable.</i> (Ellas (las casas) son cómodas.)"
-                }
-              ]
+              "clase": "imagen",
+              "ancho": 256,
+              "imagen": "img/mod01/cabin.png"
             }
           ]
         }
@@ -310,7 +325,7 @@
       ]
     },
     {
-      "titulo": "The verb to be I",
+      "titulo": "THE VERB TO BE",
       "contenido": [
         {
           "clase": "texto",
@@ -320,158 +335,170 @@
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "listaObjetos",
-              "subclase": "columna",
-              "contenido": [
+              "clase": "tabla",
+              "filaTitulos": [
                 {
-                  "clase": "texto",
-                  "texto": "Como podemos observar, el infinitivo “to be” no vuelve a aparecer, esto solamente ocurre con este verbo."
+                  "titulo": "<center>PRONOUN</center>"
                 },
                 {
-                  "clase": "tabla",
-                  "filaTitulos": [
+                  "titulo": "<center>VERB</center>"
+                },
+                {
+                  "titulo": "<center>ESPAÑOL</center>",
+                  "colspan": 2
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
                     {
-                      "titulo": "<center>PRONOUN</center>"
+                      "texto": "<center><b>I</b></center>"
                     },
                     {
-                      "titulo": "<center>VERB</center>"
+                      "texto": "<center><b>am</b></center>"
                     },
                     {
-                      "titulo": "<center>ESPAÑOL</center>",
-                      "colspan": 2
+                      "texto": "<center>Yo soy</center>"
+                    },
+                    {
+                      "texto": "<center>Yo estoy</center>"
                     }
-                  ],
-                  "filaContenido": [
+                  ]
+                },
+                {
+                  "fila": [
                     {
-                      "fila": [
-                        {
-                          "texto": "<center><b>I</b></center>"
-                        },
-                        {
-                          "texto": "<center><b>am</b></center>"
-                        },
-                        {
-                          "texto": "<center>Yo soy</center>"
-                        },
-                        {
-                          "texto": "<center>Yo estoy</center>"
-                        }
-                      ]
+                      "texto": "<center><b>you</b></center>"
                     },
                     {
-                      "fila": [
-                        {
-                          "texto": "<center><b>you</b></center>"
-                        },
-                        {
-                          "texto": "<center><b>are</b></center>"
-                        },
-                        {
-                          "texto": "<center>tú eres</center>"
-                        },
-                        {
-                          "texto": "<center>tú estás</center>"
-                        }
-                      ]
+                      "texto": "<center><b>are</b></center>"
                     },
                     {
-                      "fila": [
-                        {
-                          "texto": "<b><center>he</center></b>"
-                        },
-                        {
-                          "texto": "<center><b>is</b></center>",
-                          "rowspan": 3
-                        },
-                        {
-                          "texto": "<center>él es</center>"
-                        },
-                        {
-                          "texto": "<center>él está</center>"
-                        }
-                      ]
+                      "texto": "<center>tú eres</center>"
                     },
                     {
-                      "fila": [
-                        {
-                          "texto": "<b><center>she</center></b>"
-                        },
-                        {
-                          "texto": "<center>ella es</center>"
-                        },
-                        {
-                          "texto": "<center>ella está</center>"
-                        }
-                      ]
+                      "texto": "<center>tú estás</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<b><center>he</center></b>"
                     },
                     {
-                      "fila": [
-                        {
-                          "texto": "<b><center>it</center></b>"
-                        },
-                        {
-                          "texto": "<center>ello es</center>"
-                        },
-                        {
-                          "texto": "<center>ello está</center>"
-                        }
-                      ]
+                      "texto": "<center><b>is</b></center>",
+                      "rowspan": 3
                     },
                     {
-                      "fila": [
-                        {
-                          "texto": "<b><center>we</center></b>"
-                        },
-                        {
-                          "texto": "<center><b>are</b></center>",
-                          "rowspan": 3
-                        },
-                        {
-                          "texto": "<center>nosotros/as somos</center>"
-                        },
-                        {
-                          "texto": "<center>nosotros/as estamos</center>"
-                        }
-                      ]
+                      "texto": "<center>él es</center>"
                     },
                     {
-                      "fila": [
-                        {
-                          "texto": "<b><center>you</center></b>"
-                        },
-                        {
-                          "texto": "<center>vosotros/as sois</center>"
-                        },
-                        {
-                          "texto": "<center>vosotros/as estais</center>"
-                        }
-                      ]
+                      "texto": "<center>él está</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<b><center>she</center></b>"
                     },
                     {
-                      "fila": [
-                        {
-                          "texto": "<b><center>they</center></b>"
-                        },
-                        {
-                          "texto": "<center>ellos/as son</center>"
-                        },
-                        {
-                          "texto": "<center>ellos/as están</center>"
-                        }
-                      ]
+                      "texto": "<center>ella es</center>"
+                    },
+                    {
+                      "texto": "<center>ella está</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<b><center>it</center></b>"
+                    },
+                    {
+                      "texto": "<center>ello es</center>"
+                    },
+                    {
+                      "texto": "<center>ello está</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<b><center>we</center></b>"
+                    },
+                    {
+                      "texto": "<center><b>are</b></center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center>nosotros/as somos</center>"
+                    },
+                    {
+                      "texto": "<center>nosotros/as estamos</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<b><center>you</center></b>"
+                    },
+                    {
+                      "texto": "<center>vosotros/as sois</center>"
+                    },
+                    {
+                      "texto": "<center>vosotros/as estais</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<b><center>they</center></b>"
+                    },
+                    {
+                      "texto": "<center>ellos/as son</center>"
+                    },
+                    {
+                      "texto": "<center>ellos/as están</center>"
                     }
                   ]
                 }
               ]
             },
             {
+              "clase": "icono",
+              "subclase": "sabiasQue",
+              "texto": "Shakespeare inmortalizó este verbo en su obra “Hamlet”:<br><br>“To be or not to be, that is the question.”",
+              "imagen": "img/mod01/skull.png",
+              "ancho": 100
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Como podemos observar, el infinitivo “to be” no vuelve a aparecer, esto solamente ocurre con este verbo."
+        }
+      ]
+    },
+    {
+      "titulo": "Contracted form",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "El verbo “to be” puede contraerse para abreviar a la hora de escribirlo y decirlo de la siguiente manera:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
               "clase": "listaObjetos",
               "subclase": "columna",
               "contenido": [
-                {
-                  "clase": "texto",
-                  "texto": "El verbo “to be” puede contraerse para abreviar a la hora de escribirlo y decirlo de la siguiente manera:"
-                },
+
                 {
                   "clase": "tabla",
                   "filaTitulos": [
@@ -570,18 +597,11 @@
         {
           "clase": "texto",
           "texto": "El significado continúa siendo el mismo y podemos utilizar tanto la forma completa como la forma abreviada de manera indistinta. Por otro lado, la forma completa es considerada más formal y es aconsejable utilizarla en determinadas ocasiones (p.e: al escribir un e-mail o una carta a alguien que no conocemos, en documentos de trabajo...)."
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "Shakespeare inmortalizó este verbo en su obra “Hamlet”:<br><br>“To be or not to be, that is the question.”",
-          "imagen": "img/mod01/skull.png",
-          "ancho": 100
         }
       ]
     },
     {
-      "titulo": "The verb to be II",
+      "titulo": "Examples",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -713,7 +733,12 @@
               "texto": "La estructura de las frases afirmativas en inglés es:<br><center>SUJETO + VERBO + COMPLEMENTO</center>"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Peculiarities",
+      "contenido": [
         {
           "clase": "lista",
           "titulo": "<b>PECULIARIDADES</b>",
@@ -875,165 +900,11 @@
       ]
     },
     {
-      "titulo": "The verb to be: Negative form",
+      "titulo": "Negative form",
       "contenido": [
         {
           "clase": "texto",
           "texto": "Ahora vamos a ver como se construyen oraciones de forma negativa con el verbo “to be”. Lo utilizamos cuando queremos expresar que algo “no es” o “no está”.<br><br>¡Es muy sencillo!. En español para convertir una frase en negativa simplemente añadimos “no”, en inglés añadiremos “not” de la siguiente manera:"
-        },
-        {
-          "clase": "tabla",
-          "filaTitulos": [
-            {
-              "titulo": "<center>PRONOUN</center>"
-            },
-            {
-              "titulo": "<center>NEGATIVE FORM</center>",
-              "colspan": 2
-            }
-          ],
-          "filaContenido": [
-            {
-              "fila": [
-                {
-                  "texto": "<center><b>I</b></center>"
-                },
-                {
-                  "texto": "<center>am not</center>"
-                },
-                {
-                  "texto": "<center>'m not</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center><b>you</b></center>"
-                },
-                {
-                  "texto": "<center>are not</center>"
-                },
-                {
-                  "texto": "<center>aren't</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<b><center>he</center></b>"
-                },
-                {
-                  "texto": "<center>is not</center>",
-                  "rowspan": 3
-                },
-                {
-                  "texto": "<center>isn't</center>",
-                  "rowspan": 3
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<b><center>she</center></b>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<b><center>it</center></b>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<b><center>we</center></b>"
-                },
-                {
-                  "texto": "<center>are not</center>",
-                  "rowspan": 3
-                },
-                {
-                  "texto": "<center>aren't</center>",
-                  "rowspan": 3
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<b><center>you</center></b>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<b><center>they</center></b>"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "<center><b>Ejemplos</center></b>"
-        },
-        {
-          "clase": "tabla",
-          "filaTitulos": [
-            {
-              "titulo": "<center>Afirmación</center>"
-            },
-            {
-              "titulo": "<center>Negación</center>"
-            }
-          ],
-          "filaContenido": [
-            {
-              "fila": [
-                {
-                  "texto": "I am a cook.<br><i>Soy cocinero.</i>"
-                },
-                {
-                  "texto": "I am not a cook.<br><i>No soy cocinero.</i>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "Tom is interested in basketball.<br><i>Tom está interesado en el baloncesto.</i>"
-                },
-                {
-                  "texto": "Tom isn't interested in basketball.<br><i>Tom no está interesado en el baloncesto.</i>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "My friend and my sister are tired.<br><i>Mi amigo y mi hermana están cansados.</i>"
-                },
-                {
-                  "texto": "My friend and my sister are not tired.<br><i>Mi amigo y mi hermana no están cansados</i>"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "The verb to be: Question form",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Para hacer preguntas en inglés, lo primero que tenemos que tener en cuenta es que el orden se ve alterado. Mientras que cuando afirmamos o negamos algo (You are tall/ You are not tall) la estructura es sujeto + verbo + complemento, en la forma interrogativa o “question form” el verbo se coloca delante del sujeto. De esta manera:"
         },
 
         {
@@ -1043,98 +914,163 @@
               "clase": "tabla",
               "filaTitulos": [
                 {
-                  "titulo": "<center>VERB</center>"
-                },
-                {
                   "titulo": "<center>PRONOUN</center>"
                 },
                 {
-                  "titulo": "<center>COMPLEMENT</center>"
+                  "titulo": "<center>NEGATIVE FORM</center>",
+                  "colspan": 2
                 }
               ],
               "filaContenido": [
                 {
                   "fila": [
                     {
-                      "texto": "<center>am</center>"
+                      "texto": "<center><b>I</b></center>"
                     },
                     {
-                      "texto": "<center>I</center>"
+                      "texto": "<center>am not</center>"
                     },
                     {
-                      "texto": "<center>tall?</center>",
-                      "rowspan": 8
+                      "texto": "<center>'m not</center>"
                     }
                   ]
                 },
                 {
                   "fila": [
                     {
-                      "texto": "<center>are</center>"
+                      "texto": "<center><b>you</b></center>"
                     },
                     {
-                      "texto": "<center>you</center>"
+                      "texto": "<center>are not</center>"
+                    },
+                    {
+                      "texto": "<center>aren't</center>"
                     }
                   ]
                 },
                 {
                   "fila": [
                     {
-                      "texto": "<center>is</center>",
+                      "texto": "<b><center>he</center></b>"
+                    },
+                    {
+                      "texto": "<center>is not</center>",
                       "rowspan": 3
                     },
                     {
-                      "texto": "<center>he</center>"
+                      "texto": "<center>isn't</center>",
+                      "rowspan": 3
                     }
                   ]
                 },
                 {
                   "fila": [
                     {
-                      "texto": "<center>she</center>"
+                      "texto": "<b><center>she</center></b>"
                     }
                   ]
                 },
                 {
                   "fila": [
                     {
-                      "texto": "<center>it</center>"
+                      "texto": "<b><center>it</center></b>"
                     }
                   ]
                 },
                 {
                   "fila": [
                     {
-                      "texto": "<center>are</center>",
+                      "texto": "<b><center>we</center></b>"
+                    },
+                    {
+                      "texto": "<center>are not</center>",
                       "rowspan": 3
                     },
                     {
-                      "texto": "<center>we</center>"
+                      "texto": "<center>aren't</center>",
+                      "rowspan": 3
                     }
                   ]
                 },
                 {
                   "fila": [
                     {
-                      "texto": "<center>you</center>"
+                      "texto": "<b><center>you</center></b>"
                     }
                   ]
                 },
                 {
                   "fila": [
                     {
-                      "texto": "<center>they</center>"
+                      "texto": "<b><center>they</center></b>"
                     }
                   ]
                 }
               ]
             },
             {
-              "clase": "texto",
-              "subclase": "recuadro",
-              "texto": "En inglés sólo se coloca un signo de interrogación (question mark, “?”) al final de la pregunta."
+              "clase": "acordeon",
+              "contenido": [
+                {
+                  "titulo": "<center>Examples</center>",
+                  "contenido": [
+                    {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "<center>Afirmación</center>"
+                        },
+                        {
+                          "titulo": "<center>Negación</center>"
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "I am a cook.<br><i>Soy cocinero.</i>"
+                            },
+                            {
+                              "texto": "I am not a cook.<br><i>No soy cocinero.</i>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "Tom is interested in basketball.<br><i>Tom está interesado en el baloncesto.</i>"
+                            },
+                            {
+                              "texto": "Tom isn't interested in basketball.<br><i>Tom no está interesado en el baloncesto.</i>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "My friend and my sister are tired.<br><i>Mi amigo y mi hermana están cansados.</i>"
+                            },
+                            {
+                              "texto": "My friend and my sister are not tired.<br><i>Mi amigo y mi hermana no están cansados</i>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "titulo": "Question form",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Para hacer preguntas en inglés, lo primero que tenemos que tener en cuenta es que el orden se ve alterado. Mientras que cuando afirmamos o negamos algo (You are tall/ You are not tall) la estructura es sujeto + verbo + complemento, en la forma interrogativa o “question form” el verbo se coloca delante del sujeto. De esta manera:"
         },
         {
           "clase": "listaObjetos",
@@ -1144,79 +1080,184 @@
               "subclase": "columna",
               "contenido": [
                 {
-                  "clase": "texto",
-                  "texto": "<center><b>Ejemplos</center></b>"
-                },
-                {
                   "clase": "tabla",
                   "filaTitulos": [
                     {
-                      "titulo": "<center>Affirmation</center>"
+                      "titulo": "<center>VERB</center>"
                     },
                     {
-                      "titulo": "<center>Question</center>"
+                      "titulo": "<center>PRONOUN</center>"
                     },
                     {
-                      "titulo": "<center>Answer</center>"
+                      "titulo": "<center>COMPLEMENT</center>"
                     }
                   ],
                   "filaContenido": [
                     {
                       "fila": [
                         {
-                          "texto": "He is married.<br><i>Él está casado.</i>"
+                          "texto": "<center>am</center>"
                         },
                         {
-                          "texto": "Is he married?<br><i>¿Está casado?</i>"
+                          "texto": "<center>I</center>"
                         },
                         {
-                          "texto": "Yes, he is.<br><i>Sí, lo está.</i>"
+                          "texto": "<center>tall?</center>",
+                          "rowspan": 8
                         }
                       ]
                     },
                     {
                       "fila": [
                         {
-                          "texto": "You are happy.<br><i>Tú estás feliz.</i>"
+                          "texto": "<center>are</center>"
                         },
                         {
-                          "texto": "Are you happy?<br><i>¿Estás feliz?</i>"
-                        },
-                        {
-                          "texto": "Yes, I am.<br><i>Sí, lo estoy.</i>"
+                          "texto": "<center>you</center>"
                         }
                       ]
                     },
                     {
                       "fila": [
                         {
-                          "texto": "They are late.<br><i>Ellos llegan tarde.</i>"
+                          "texto": "<center>is</center>",
+                          "rowspan": 3
                         },
                         {
-                          "texto": "Are they late?<br><i>¿Llegan tarde?</i>"
+                          "texto": "<center>he</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>she</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>it</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>are</center>",
+                          "rowspan": 3
                         },
                         {
-                          "texto": "Yes, they are.<br><i>Sí, llegan tarde.</i>"
+                          "texto": "<center>we</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>you</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>they</center>"
                         }
                       ]
                     }
                   ]
+                },
+                {
+                  "clase": "texto",
+                  "subclase": "recuadro",
+                  "texto": "En inglés sólo se coloca un signo de interrogación (question mark, “?”) al final de la pregunta."
                 }
               ]
             },
-
-
             {
-              "clase": "icono",
-              "subclase": "exclamacion",
-              "texto": "Para contestar a esta clase de preguntas, en inglés no podemos contestar con un simple “yes” or “no”, debemos <b>añadir la forma del verbo “to be” correspondiente</b>."
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "acordeon",
+                  "contenido": [
+                    {
+                      "titulo": "Examples",
+                      "contenido": [
+                        {
+                          "clase": "tabla",
+                          "filaTitulos": [
+                            {
+                              "titulo": "<center>Affirmation</center>"
+                            },
+                            {
+                              "titulo": "<center>Question</center>"
+                            },
+                            {
+                              "titulo": "<center>Answer</center>"
+                            }
+                          ],
+                          "filaContenido": [
+                            {
+                              "fila": [
+                                {
+                                  "texto": "He is married.<br><i>Él está casado.</i>"
+                                },
+                                {
+                                  "texto": "Is he married?<br><i>¿Está casado?</i>"
+                                },
+                                {
+                                  "texto": "Yes, he is.<br><i>Sí, lo está.</i>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "You are happy.<br><i>Tú estás feliz.</i>"
+                                },
+                                {
+                                  "texto": "Are you happy?<br><i>¿Estás feliz?</i>"
+                                },
+                                {
+                                  "texto": "Yes, I am.<br><i>Sí, lo estoy.</i>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "They are late.<br><i>Ellos llegan tarde.</i>"
+                                },
+                                {
+                                  "texto": "Are they late?<br><i>¿Llegan tarde?</i>"
+                                },
+                                {
+                                  "texto": "Yes, they are.<br><i>Sí, llegan tarde.</i>"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "clase": "icono",
+                  "subclase": "exclamacion",
+                  "texto": "Para contestar a esta clase de preguntas, en inglés no podemos contestar con un simple “yes” or “no”, debemos <b>añadir la forma del verbo “to be” correspondiente</b>."
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "titulo": "Vocabulary",
+      "titulo": "ADJECTIVES",
       "contenido": [
         {
           "clase": "texto",
@@ -2213,7 +2254,7 @@
       ]
     },
     {
-      "titulo": "Introducing yourself",
+      "titulo": "INTRODUCING YOURSELF",
       "contenido": [
         {
           "clase": "texto",
@@ -2503,12 +2544,12 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "<b>PLEASED TO MEET YOU</b><br><br>Cuando queremos expresarle a la persona que acabamos de conocer o ante la que nos acabamos de presentar que nos alegramos de haberla conocido, utilizaremos las siguientes expresiones o frases hechas:<br><br>It is nice / great / lovely to meet you. (Informal)<br><br>Nice to meet you. (Informal/Formal)<br><br>Pleased to meet you. (Informal)<br><br>Glad to meet you (Formal)<br><br>Todas significan lo mismo “Encantado/a de conocerte” o “Es un placer conocerte” y como se indica arriba, unas son más formales que otras."
+          "texto": "Cuando queremos expresarle a la persona que acabamos de conocer o ante la que nos acabamos de presentar que nos alegramos de haberla conocido, utilizaremos las siguientes expresiones o frases hechas:<br><br>It is nice / great / lovely to meet you. (Informal)<br><br>Nice to meet you. (Informal/Formal)<br><br>Pleased to meet you. (Informal)<br><br>Glad to meet you (Formal)<br><br>Todas significan lo mismo “Encantado/a de conocerte” o “Es un placer conocerte” y como se indica arriba, unas son más formales que otras."
         },
         {
           "clase": "imagen",
           "imagen": "img/mod01/meetYou.jpg",
-          "ancho": 128
+          "ancho": 256
         },
         {
           "clase": "texto",
@@ -2738,7 +2779,7 @@
       ]
     },
     {
-      "titulo": "Wordsearch",
+      "titulo": "WORDSEARCH",
       "contenido": [
         {
           "clase": "texto",
@@ -2822,7 +2863,7 @@
       ]
     },
     {
-      "titulo": "Summary",
+      "titulo": "SUMMARY",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -3001,7 +3042,7 @@
           "clase": "acordeon",
           "contenido": [
             {
-              "titulo": "A list of new vocabulary",
+              "titulo": "<center>NEW VOCABULARY</center>",
               "contenido": [
                 {
                   "clase": "tabla",
@@ -3298,12 +3339,12 @@
         },
         {
           "clase": "imagen",
-          "imagen": "img/mod01/londonLast2.png"
+          "imagen": "img/comunes/londonLast2.png"
         }
       ]
     },
     {
-      "titulo": "Despedida",
+      "titulo": "Farewell",
       "fondo": "img/comunes/bigBen.jpg",
       "contenido": [
         {
@@ -3327,7 +3368,7 @@
       ]
     },
     {
-      "titulo": "Contraportada",
+      "titulo": "Back cover",
       "fondo": "img/comunes/contraportada.svg",
       "subclase": "portada"
     }

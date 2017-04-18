@@ -3,12 +3,12 @@
   "imagenEncabezado": "img/comunes/logo.svg",
   "contenido": [
     {
-      "titulo": "Portada",
+      "titulo": "Cover",
       "fondo": "img/comunes/portada.svg",
       "subclase": "portada"
     },
     {
-      "titulo": "Bienvenida",
+      "titulo": "Welcome",
       "fondo": "img/comunes/towerB.jpg",
       "contenido": [
         {
@@ -22,6 +22,204 @@
               "texto": "<center><b>Welcome to English Basic Level Course!</b></center><br>Con este curso pretendemos que aprendas y desarrolles tus conocimientos de inglés, poco a poco y empezando desde el principio.<br>Hoy en día, saber inglés es una habilidad indispensable, ya que es el lenguaje universal y estudiarlo nos  ayudará a mejorar no sólo en nuestro puesto de trabajo, sino que también mejorará nuestras habilidades sociales y comunicativas.<br><br>El objetivo de este curso es que aprendas  las estructuras básicas gramaticales, vocabulario y expresiones que te ayuden a desenvolverte mejor en este idioma, siendo capaz de expresarte de manera sencilla y de hacer frente a situaciones nuevas que requieran el uso de esta lengua.<br><br>Esperamos que disfrutes aprendiendo. Enjoy!"
             }
           ]
+        }
+      ]
+    },
+    {
+      "titulo": "ARTICLES: The",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Mientras que en español tenemos distintas formas para el llamado artículo definido (el, la, lo, los, las), en inglés es mucho más sencillo ya que siempre se utliza el artículo <b>THE</b>.<br>“The” funciona como artículo definido delante de cualquier sustantivo independientemente de su género o número."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "<center>English</center>"
+                },
+                {
+                  "titulo": "<center>Spanish</center>"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "The house"
+                    },
+                    {
+                      "texto": "<i>La casa</i>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "The postman"
+                    },
+                    {
+                      "texto": "<i>El cartero</i>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "The cats"
+                    },
+                    {
+                      "texto": "<i>Los gatos</i>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "The women"
+                    },
+                    {
+                      "texto": "<i>Las mujeres</i>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "texto",
+              "texto": "Utilizamos este artículo cuando queremos referirnos a alguna persona, animal o cosa en particular. Como al referirnos al nombre de un estadio de fútbol en particular, que diremos “The name of the football stadium is...” porque sólo tiene un nombre concreto. O si nos preguntan dónde está Carmen (Where is Carmen?) que contestaremos, “She’s in the kitchen” (está en la cocina) porque nos referimos a la cocina concreta donde está."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "acordeon",
+              "contenido": [
+                {
+                  "titulo": "Utilizamos siempre “the” para...",
+                  "contenido": [
+                    {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "<center>English</center>"
+                        },
+                        {
+                          "titulo": "<center>Spanish</center>"
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "The sky is blue."
+                            },
+                            {
+                              "texto": "<i>El cielo es azul.</i>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "The sun is bright."
+                            },
+                            {
+                              "texto": "<i>El sol es brillante.</i>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "I live in the country."
+                            },
+                            {
+                              "texto": "<i>Vivo en el campo.</i>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "The piano/ the violin/ the trumpet"
+                            },
+                            {
+                              "texto": "<i>Cuando hablamos de tocar instrumentos. (I play the piano.)</i>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "You listen to the radio."
+                            },
+                            {
+                              "texto": "<i>Tu escuchas la radio.</i>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "The Internet"
+                            },
+                            {
+                              "texto": "<i>Internet</i>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "acordeon",
+              "contenido": [
+                {
+                  "titulo": "No necesitamos usar “the” cuando...",
+                  "contenido": [
+                    {
+                      "clase": "lista",
+                      "contenido": [
+                        {
+                          "punto": "<b>Television/TV</b> in general: cuando queremos referirnos a que vemos mucho la televisión o que echan algo en la televisión, no necesitamos usar “the”.",
+                          "contenido": [
+                            {
+                              "punto": "I watch TV a lot.<br><i>Veo mucho la tele.</i>"
+                            },
+                            {
+                              "punto": "What’s on televisión tonight?<br><i>¿Qué echan esta noche en la televisión?</i>"
+                            }
+                          ]
+                        },
+                        {
+                          "punto": "Cuando nos referimos al desayuno (<b>breakfast</b>), comida/almuerzo (<b>lunch</b>) y cena (<b>dinner</b>):",
+                          "contenido": [
+                            {
+                              "punto": "Have breakfast, have lunch, have dinner."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "<center><b>COUNTRY</b> = PAÍS<br>&<br><b>COUNTRY</b> = CAMPO</center>"
         }
       ]
     },
@@ -302,6 +500,176 @@
         {
           "clase": "texto",
           "texto": "También lo utilizamos para decir:<br>An hour (una hora)<br><br>Para referirnos a una profesión:<br>‘I am a nurse’ (soy enfermera),<br>‘You are a pilot’ (tu eres piloto),<br>‘He is a businessman’ (él es empresario).<br><br>Las palabras que empiezan por la vocal “u” pero se pronuncian con el sonido “yu”, a pesar de empezar por vocal, van acompañadas del pronombre “a” y no de “an”. Como:<br>“A university” (una universidad),<br>“A uniform” (un uniforme),<br>“A universo” (un universo)."
+        }
+      ]
+    },
+    {
+      "titulo": "ARTICLES: A/An",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Para referirnos a los artículos indefinidos, “un, una”, en inglés, utilizamos <b>A</b>."
+                },
+                {
+                  "clase": "tabla",
+                  "filaTitulos": [
+                    {
+                      "titulo": "<center>English</center>"
+                    },
+                    {
+                      "titulo": "<center>Spanish</center>"
+                    }
+                  ],
+                  "filaContenido": [
+                    {
+                      "fila": [
+                        {
+                          "texto": "A house"
+                        },
+                        {
+                          "texto": "<i>Una casa</i>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "A bottle"
+                        },
+                        {
+                          "texto": "<i>Una botella</i>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "A computer"
+                        },
+                        {
+                          "texto": "<i>Un ordenador</i>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "A police officer"
+                        },
+                        {
+                          "texto": "<i>Un policía</i>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Para las palabras que empiecen por vocal “a, e, i, o, u” en lugar de “a” utilizaremos <b>AN</b>."
+                },
+                {
+                  "clase": "tabla",
+                  "filaTitulos": [
+                    {
+                      "titulo": "<center>English</center>"
+                    },
+                    {
+                      "titulo": "<center>Spanish</center>"
+                    }
+                  ],
+                  "filaContenido": [
+                    {
+                      "fila": [
+                        {
+                          "texto": "An onion"
+                        },
+                        {
+                          "texto": "<i>Una cebolla</i>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "An umbrella"
+                        },
+                        {
+                          "texto": "<i>Un paraguas</i>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "An excellent book"
+                        },
+                        {
+                          "texto": "<i>Un libro excelente</i>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "An hour"
+                        },
+                        {
+                          "texto": "<i>Una hora</i>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "También se utiliza <b>A</b> para:",
+          "contenido": [
+            {
+              "punto": "Referirnos a una profesión:",
+              "contenido": [
+                {
+                  "punto": "I am a nurse.<br><i>Soy enfermera.</i>"
+                },
+                {
+                  "punto": "You are a pilot.<br><i>Tú eres piloto.</i>"
+                },
+                {
+                  "punto": "He is a businessman.<br><i>Él es empresario.</i>"
+                }
+              ]
+            },
+            {
+              "punto": "Cuando una palabra empieza por la vocal “u”, pero se pronuncia con el sonido “yu”.",
+              "contenido": [
+                {
+                  "punto": "“A university” (<i>una universidad</i>)"
+                },
+                {
+                  "punto": "“A uniform” (<i>un uniforme</i>)"
+                },
+                {
+                  "punto": "“A universo” (<i>un universo</i>)."
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1008,1209 +1376,1174 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "En esta unidad aprenderemos como se dicen y escriben los números en inglés.<br>Usan un sistema similar al nuestro y después de la primera docena verás que resulta sencillo."
+          "texto": "En esta unidad aprenderemos como se dicen y escriben los números en inglés.<br>Usan un sistema similar al nuestro y verás que resulta sencillo."
         },
         {
-          "clase": "acordeon",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "titulo": "0-9: Units",
+              "clase": "acordeon",
               "contenido": [
                 {
-                  "clase": "tabla",
-                  "filaTitulos": [
+                  "titulo": "<center>0-9</center>",
+                  "contenido": [
                     {
-                      "titulo": "From 0 to 9",
-                      "colspan": 2
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "From 0 to 9",
+                          "colspan": 2
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "0"
+                            },
+                            {
+                              "texto": "zero"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "1"
+                            },
+                            {
+                              "texto": "one"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "2"
+                            },
+                            {
+                              "texto": "two"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "3"
+                            },
+                            {
+                              "texto": "three"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "4"
+                            },
+                            {
+                              "texto": "four"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "5"
+                            },
+                            {
+                              "texto": "five"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "6"
+                            },
+                            {
+                              "texto": "six"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "7"
+                            },
+                            {
+                              "texto": "seven"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "8"
+                            },
+                            {
+                              "texto": "eight"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "9"
+                            },
+                            {
+                              "texto": "nine"
+                            }
+                          ]
+                        }
+                      ]
                     }
-                  ],
-                  "filaContenido": [
+                  ]
+                },
+                {
+                  "titulo": "<center>10-19</center>",
+                  "contenido": [
                     {
-                      "fila": [
+                      "clase": "tabla",
+                      "filaTitulos": [
                         {
-                          "texto": "0"
+                          "titulo": "From 10 to 19",
+                          "colspan": 2
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "10"
+                            },
+                            {
+                              "texto": "ten"
+                            }
+                          ]
                         },
                         {
-                          "texto": "zero"
+                          "fila": [
+                            {
+                              "texto": "11"
+                            },
+                            {
+                              "texto": "eleven"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "12"
+                            },
+                            {
+                              "texto": "twelve"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "13"
+                            },
+                            {
+                              "texto": "thirteen"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "14"
+                            },
+                            {
+                              "texto": "fourteen"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "15"
+                            },
+                            {
+                              "texto": "fifteen"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "16"
+                            },
+                            {
+                              "texto": "sixteen"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "17"
+                            },
+                            {
+                              "texto": "seventeen"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "18"
+                            },
+                            {
+                              "texto": "eighteen"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "19"
+                            },
+                            {
+                              "texto": "nineteen"
+                            }
+                          ]
                         }
                       ]
-                    },
+                    }
+                  ]
+                },
+                {
+                  "titulo": "<center>20-29</center>",
+                  "contenido": [
                     {
-                      "fila": [
+                      "clase": "tabla",
+                      "filaTitulos": [
                         {
-                          "texto": "1"
+                          "titulo": "From 20 to 29",
+                          "colspan": 2
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "20"
+                            },
+                            {
+                              "texto": "twenty"
+                            }
+                          ]
                         },
                         {
-                          "texto": "one"
+                          "fila": [
+                            {
+                              "texto": "21"
+                            },
+                            {
+                              "texto": "twenty-one"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "22"
+                            },
+                            {
+                              "texto": "twenty-two"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "23"
+                            },
+                            {
+                              "texto": "twenty-three"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "24"
+                            },
+                            {
+                              "texto": "twenty-four"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "25"
+                            },
+                            {
+                              "texto": "twenty-five"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "26"
+                            },
+                            {
+                              "texto": "twenty-six"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "27"
+                            },
+                            {
+                              "texto": "twenty-seven"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "28"
+                            },
+                            {
+                              "texto": "twenty-eight"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "29"
+                            },
+                            {
+                              "texto": "twenty-nine"
+                            }
+                          ]
                         }
                       ]
-                    },
+                    }
+                  ]
+                },
+                {
+                  "titulo": "<center>30-39</center>",
+                  "contenido": [
                     {
-                      "fila": [
+                      "clase": "tabla",
+                      "filaTitulos": [
                         {
-                          "texto": "2"
+                          "titulo": "From 30 to 39",
+                          "colspan": 2
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "30"
+                            },
+                            {
+                              "texto": "thirty"
+                            }
+                          ]
                         },
                         {
-                          "texto": "two"
+                          "fila": [
+                            {
+                              "texto": "31"
+                            },
+                            {
+                              "texto": "thirty-one"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "32"
+                            },
+                            {
+                              "texto": "thirty-two"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "33"
+                            },
+                            {
+                              "texto": "thirty-three"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "34"
+                            },
+                            {
+                              "texto": "thirty-four"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "35"
+                            },
+                            {
+                              "texto": "thirty-five"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "36"
+                            },
+                            {
+                              "texto": "thirty-six"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "37"
+                            },
+                            {
+                              "texto": "thirty-seven"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "38"
+                            },
+                            {
+                              "texto": "thirty-eight"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "39"
+                            },
+                            {
+                              "texto": "thirty-nine"
+                            }
+                          ]
                         }
                       ]
-                    },
+                    }
+                  ]
+                },
+                {
+                  "titulo": "<center>40-49</center>",
+                  "contenido": [
                     {
-                      "fila": [
+                      "clase": "tabla",
+                      "filaTitulos": [
                         {
-                          "texto": "3"
-                        },
-                        {
-                          "texto": "three"
+                          "titulo": "From 40 to 49",
+                          "colspan": 2
                         }
-                      ]
-                    },
-                    {
-                      "fila": [
+                      ],
+                      "filaContenido": [
                         {
-                          "texto": "4"
+                          "fila": [
+                            {
+                              "texto": "40"
+                            },
+                            {
+                              "texto": "forty"
+                            }
+                          ]
                         },
                         {
-                          "texto": "four"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "5"
+                          "fila": [
+                            {
+                              "texto": "41"
+                            },
+                            {
+                              "texto": "forty-one"
+                            }
+                          ]
                         },
                         {
-                          "texto": "five"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "6"
+                          "fila": [
+                            {
+                              "texto": "42"
+                            },
+                            {
+                              "texto": "forty-two"
+                            }
+                          ]
                         },
                         {
-                          "texto": "six"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "7"
+                          "fila": [
+                            {
+                              "texto": "43"
+                            },
+                            {
+                              "texto": "forty-three"
+                            }
+                          ]
                         },
                         {
-                          "texto": "seven"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "8"
+                          "fila": [
+                            {
+                              "texto": "44"
+                            },
+                            {
+                              "texto": "forty-four"
+                            }
+                          ]
                         },
                         {
-                          "texto": "eight"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "9"
+                          "fila": [
+                            {
+                              "texto": "45"
+                            },
+                            {
+                              "texto": "forty-five"
+                            }
+                          ]
                         },
                         {
-                          "texto": "nine"
+                          "fila": [
+                            {
+                              "texto": "46"
+                            },
+                            {
+                              "texto": "forty-six"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "47"
+                            },
+                            {
+                              "texto": "forty-seven"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "48"
+                            },
+                            {
+                              "texto": "forty-eight"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "49"
+                            },
+                            {
+                              "texto": "forty-nine"
+                            }
+                          ]
                         }
                       ]
                     }
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "clase": "acordeon",
-          "contenido": [
+            },
             {
-              "titulo": "10-19: Teens",
+              "clase": "acordeon",
               "contenido": [
                 {
-                  "clase": "tabla",
-                  "filaTitulos": [
+                  "titulo": "<center>50-59</center>",
+                  "contenido": [
                     {
-                      "titulo": "From 10 to 19",
-                      "colspan": 2
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
+                      "clase": "tabla",
+                      "filaTitulos": [
                         {
-                          "texto": "10"
-                        },
-                        {
-                          "texto": "ten"
+                          "titulo": "From 50 to 59",
+                          "colspan": 2
                         }
-                      ]
-                    },
-                    {
-                      "fila": [
+                      ],
+                      "filaContenido": [
                         {
-                          "texto": "11"
+                          "fila": [
+                            {
+                              "texto": "50"
+                            },
+                            {
+                              "texto": "fifty"
+                            }
+                          ]
                         },
                         {
-                          "texto": "eleven"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "12"
+                          "fila": [
+                            {
+                              "texto": "51"
+                            },
+                            {
+                              "texto": "fifty-one"
+                            }
+                          ]
                         },
                         {
-                          "texto": "twelve"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "13"
+                          "fila": [
+                            {
+                              "texto": "52"
+                            },
+                            {
+                              "texto": "fifty-two"
+                            }
+                          ]
                         },
                         {
-                          "texto": "thirteen"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "14"
+                          "fila": [
+                            {
+                              "texto": "53"
+                            },
+                            {
+                              "texto": "fifty-three"
+                            }
+                          ]
                         },
                         {
-                          "texto": "fourteen"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "15"
+                          "fila": [
+                            {
+                              "texto": "54"
+                            },
+                            {
+                              "texto": "fifty-four"
+                            }
+                          ]
                         },
                         {
-                          "texto": "fifteen"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "16"
+                          "fila": [
+                            {
+                              "texto": "55"
+                            },
+                            {
+                              "texto": "fifty-five"
+                            }
+                          ]
                         },
                         {
-                          "texto": "sixteen"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "17"
+                          "fila": [
+                            {
+                              "texto": "56"
+                            },
+                            {
+                              "texto": "fifty-six"
+                            }
+                          ]
                         },
                         {
-                          "texto": "seventeen"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "18"
+                          "fila": [
+                            {
+                              "texto": "57"
+                            },
+                            {
+                              "texto": "fifty-seven"
+                            }
+                          ]
                         },
                         {
-                          "texto": "eighteen"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "19"
+                          "fila": [
+                            {
+                              "texto": "58"
+                            },
+                            {
+                              "texto": "fifty-eight"
+                            }
+                          ]
                         },
                         {
-                          "texto": "nineteen"
+                          "fila": [
+                            {
+                              "texto": "59"
+                            },
+                            {
+                              "texto": "fifty-nine"
+                            }
+                          ]
                         }
                       ]
                     }
                   ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "acordeon",
-          "contenido": [
-            {
-              "titulo": "20-29: Twenties",
-              "contenido": [
+                },
                 {
-                  "clase": "tabla",
-                  "filaTitulos": [
+                  "titulo": "<center>60-69</center>",
+                  "contenido": [
                     {
-                      "titulo": "From 20 to 29",
-                      "colspan": 2
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
+                      "clase": "tabla",
+                      "filaTitulos": [
                         {
-                          "texto": "20"
-                        },
-                        {
-                          "texto": "twenty"
+                          "titulo": "From 60 to 69",
+                          "colspan": 2
                         }
-                      ]
-                    },
-                    {
-                      "fila": [
+                      ],
+                      "filaContenido": [
                         {
-                          "texto": "21"
+                          "fila": [
+                            {
+                              "texto": "60"
+                            },
+                            {
+                              "texto": "sixty"
+                            }
+                          ]
                         },
                         {
-                          "texto": "twenty-one"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "22"
+                          "fila": [
+                            {
+                              "texto": "61"
+                            },
+                            {
+                              "texto": "sixty-one"
+                            }
+                          ]
                         },
                         {
-                          "texto": "twenty-two"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "23"
+                          "fila": [
+                            {
+                              "texto": "62"
+                            },
+                            {
+                              "texto": "sixty-two"
+                            }
+                          ]
                         },
                         {
-                          "texto": "twenty-three"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "24"
+                          "fila": [
+                            {
+                              "texto": "63"
+                            },
+                            {
+                              "texto": "sixty-three"
+                            }
+                          ]
                         },
                         {
-                          "texto": "twenty-four"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "25"
+                          "fila": [
+                            {
+                              "texto": "64"
+                            },
+                            {
+                              "texto": "sixty-four"
+                            }
+                          ]
                         },
                         {
-                          "texto": "twenty-five"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "26"
+                          "fila": [
+                            {
+                              "texto": "65"
+                            },
+                            {
+                              "texto": "sixty-five"
+                            }
+                          ]
                         },
                         {
-                          "texto": "twenty-six"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "27"
+                          "fila": [
+                            {
+                              "texto": "66"
+                            },
+                            {
+                              "texto": "sixty-six"
+                            }
+                          ]
                         },
                         {
-                          "texto": "twenty-seven"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "28"
+                          "fila": [
+                            {
+                              "texto": "67"
+                            },
+                            {
+                              "texto": "sixty-seven"
+                            }
+                          ]
                         },
                         {
-                          "texto": "twenty-eight"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "29"
+                          "fila": [
+                            {
+                              "texto": "68"
+                            },
+                            {
+                              "texto": "sixty-eight"
+                            }
+                          ]
                         },
                         {
-                          "texto": "twenty-nine"
+                          "fila": [
+                            {
+                              "texto": "69"
+                            },
+                            {
+                              "texto": "sixty-nine"
+                            }
+                          ]
                         }
                       ]
                     }
                   ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "acordeon",
-          "contenido": [
-            {
-              "titulo": "30-39: Thirties",
-              "contenido": [
+                },
                 {
-                  "clase": "tabla",
-                  "filaTitulos": [
+                  "titulo": "<center>70-79<center>",
+                  "contenido": [
                     {
-                      "titulo": "From 30 to 39",
-                      "colspan": 2
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
+                      "clase": "tabla",
+                      "filaTitulos": [
                         {
-                          "texto": "30"
-                        },
-                        {
-                          "texto": "thirty"
+                          "titulo": "From 70 to 79",
+                          "colspan": 2
                         }
-                      ]
-                    },
-                    {
-                      "fila": [
+                      ],
+                      "filaContenido": [
                         {
-                          "texto": "31"
+                          "fila": [
+                            {
+                              "texto": "70"
+                            },
+                            {
+                              "texto": "seventy"
+                            }
+                          ]
                         },
                         {
-                          "texto": "thirty-one"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "32"
+                          "fila": [
+                            {
+                              "texto": "71"
+                            },
+                            {
+                              "texto": "seventy-one"
+                            }
+                          ]
                         },
                         {
-                          "texto": "thirty-two"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "33"
+                          "fila": [
+                            {
+                              "texto": "72"
+                            },
+                            {
+                              "texto": "seventy-two"
+                            }
+                          ]
                         },
                         {
-                          "texto": "thirty-three"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "34"
+                          "fila": [
+                            {
+                              "texto": "73"
+                            },
+                            {
+                              "texto": "seventy-three"
+                            }
+                          ]
                         },
                         {
-                          "texto": "thirty-four"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "35"
+                          "fila": [
+                            {
+                              "texto": "74"
+                            },
+                            {
+                              "texto": "seventy-four"
+                            }
+                          ]
                         },
                         {
-                          "texto": "thirty-five"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "36"
+                          "fila": [
+                            {
+                              "texto": "75"
+                            },
+                            {
+                              "texto": "seventy-five"
+                            }
+                          ]
                         },
                         {
-                          "texto": "thirty-six"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "37"
+                          "fila": [
+                            {
+                              "texto": "76"
+                            },
+                            {
+                              "texto": "seventy-six"
+                            }
+                          ]
                         },
                         {
-                          "texto": "thirty-seven"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "38"
+                          "fila": [
+                            {
+                              "texto": "77"
+                            },
+                            {
+                              "texto": "seventy-seven"
+                            }
+                          ]
                         },
                         {
-                          "texto": "thirty-eight"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "39"
+                          "fila": [
+                            {
+                              "texto": "78"
+                            },
+                            {
+                              "texto": "seventy-eight"
+                            }
+                          ]
                         },
                         {
-                          "texto": "thirty-nine"
+                          "fila": [
+                            {
+                              "texto": "79"
+                            },
+                            {
+                              "texto": "seventy-nine"
+                            }
+                          ]
                         }
                       ]
                     }
                   ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "acordeon",
-          "contenido": [
-            {
-              "titulo": "40-49: Forties",
-              "contenido": [
+                },
                 {
-                  "clase": "tabla",
-                  "filaTitulos": [
+                  "titulo": "<center>80-89</center>",
+                  "contenido": [
                     {
-                      "titulo": "From 40 to 49",
-                      "colspan": 2
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
+                      "clase": "tabla",
+                      "filaTitulos": [
                         {
-                          "texto": "40"
-                        },
-                        {
-                          "texto": "forty"
+                          "titulo": "From 80 to 89",
+                          "colspan": 2
                         }
-                      ]
-                    },
-                    {
-                      "fila": [
+                      ],
+                      "filaContenido": [
                         {
-                          "texto": "41"
+                          "fila": [
+                            {
+                              "texto": "80"
+                            },
+                            {
+                              "texto": "eighty"
+                            }
+                          ]
                         },
                         {
-                          "texto": "forty-one"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "42"
+                          "fila": [
+                            {
+                              "texto": "81"
+                            },
+                            {
+                              "texto": "eighty-one"
+                            }
+                          ]
                         },
                         {
-                          "texto": "forty-two"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "43"
+                          "fila": [
+                            {
+                              "texto": "82"
+                            },
+                            {
+                              "texto": "eighty-two"
+                            }
+                          ]
                         },
                         {
-                          "texto": "forty-three"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "44"
+                          "fila": [
+                            {
+                              "texto": "83"
+                            },
+                            {
+                              "texto": "eighty-three"
+                            }
+                          ]
                         },
                         {
-                          "texto": "forty-four"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "45"
+                          "fila": [
+                            {
+                              "texto": "84"
+                            },
+                            {
+                              "texto": "eighty-four"
+                            }
+                          ]
                         },
                         {
-                          "texto": "forty-five"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "46"
+                          "fila": [
+                            {
+                              "texto": "85"
+                            },
+                            {
+                              "texto": "eighty-five"
+                            }
+                          ]
                         },
                         {
-                          "texto": "forty-six"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "47"
+                          "fila": [
+                            {
+                              "texto": "86"
+                            },
+                            {
+                              "texto": "eighty-six"
+                            }
+                          ]
                         },
                         {
-                          "texto": "forty-seven"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "48"
+                          "fila": [
+                            {
+                              "texto": "87"
+                            },
+                            {
+                              "texto": "eighty-seven"
+                            }
+                          ]
                         },
                         {
-                          "texto": "forty-eight"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "49"
+                          "fila": [
+                            {
+                              "texto": "88"
+                            },
+                            {
+                              "texto": "eighty-eight"
+                            }
+                          ]
                         },
                         {
-                          "texto": "forty-nine"
+                          "fila": [
+                            {
+                              "texto": "89"
+                            },
+                            {
+                              "texto": "eighty-nine"
+                            }
+                          ]
                         }
                       ]
                     }
                   ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "acordeon",
-          "contenido": [
-            {
-              "titulo": "50-59: Fifties",
-              "contenido": [
+                },
                 {
-                  "clase": "tabla",
-                  "filaTitulos": [
+                  "titulo": "<center>90-99</center>",
+                  "contenido": [
                     {
-                      "titulo": "From 50 to 59",
-                      "colspan": 2
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
+                      "clase": "tabla",
+                      "filaTitulos": [
                         {
-                          "texto": "50"
-                        },
-                        {
-                          "texto": "fifty"
+                          "titulo": "From 90 to 99",
+                          "colspan": 2
                         }
-                      ]
-                    },
-                    {
-                      "fila": [
+                      ],
+                      "filaContenido": [
                         {
-                          "texto": "51"
+                          "fila": [
+                            {
+                              "texto": "90"
+                            },
+                            {
+                              "texto": "ninety"
+                            }
+                          ]
                         },
                         {
-                          "texto": "fifty-one"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "52"
+                          "fila": [
+                            {
+                              "texto": "91"
+                            },
+                            {
+                              "texto": "ninety-one"
+                            }
+                          ]
                         },
                         {
-                          "texto": "fifty-two"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "53"
+                          "fila": [
+                            {
+                              "texto": "92"
+                            },
+                            {
+                              "texto": "ninety-two"
+                            }
+                          ]
                         },
                         {
-                          "texto": "fifty-three"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "54"
+                          "fila": [
+                            {
+                              "texto": "93"
+                            },
+                            {
+                              "texto": "ninety-three"
+                            }
+                          ]
                         },
                         {
-                          "texto": "fifty-four"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "55"
+                          "fila": [
+                            {
+                              "texto": "94"
+                            },
+                            {
+                              "texto": "ninety-four"
+                            }
+                          ]
                         },
                         {
-                          "texto": "fifty-five"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "56"
+                          "fila": [
+                            {
+                              "texto": "95"
+                            },
+                            {
+                              "texto": "ninety-five"
+                            }
+                          ]
                         },
                         {
-                          "texto": "fifty-six"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "57"
+                          "fila": [
+                            {
+                              "texto": "96"
+                            },
+                            {
+                              "texto": "ninety-six"
+                            }
+                          ]
                         },
                         {
-                          "texto": "fifty-seven"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "58"
+                          "fila": [
+                            {
+                              "texto": "97"
+                            },
+                            {
+                              "texto": "ninety-seven"
+                            }
+                          ]
                         },
                         {
-                          "texto": "fifty-eight"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "59"
+                          "fila": [
+                            {
+                              "texto": "98"
+                            },
+                            {
+                              "texto": "ninety-eight"
+                            }
+                          ]
                         },
                         {
-                          "texto": "fifty-nine"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "acordeon",
-          "contenido": [
-            {
-              "titulo": "60-69: Sixties",
-              "contenido": [
-                {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "From 60 to 69",
-                      "colspan": 2
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "60"
-                        },
-                        {
-                          "texto": "sixty"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "61"
-                        },
-                        {
-                          "texto": "sixty-one"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "62"
-                        },
-                        {
-                          "texto": "sixty-two"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "63"
-                        },
-                        {
-                          "texto": "sixty-three"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "64"
-                        },
-                        {
-                          "texto": "sixty-four"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "65"
-                        },
-                        {
-                          "texto": "sixty-five"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "66"
-                        },
-                        {
-                          "texto": "sixty-six"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "67"
-                        },
-                        {
-                          "texto": "sixty-seven"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "68"
-                        },
-                        {
-                          "texto": "sixty-eight"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "69"
-                        },
-                        {
-                          "texto": "sixty-nine"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "acordeon",
-          "contenido": [
-            {
-              "titulo": "70-79: Seventies",
-              "contenido": [
-                {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "From 70 to 79",
-                      "colspan": 2
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "70"
-                        },
-                        {
-                          "texto": "seventy"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "71"
-                        },
-                        {
-                          "texto": "seventy-one"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "72"
-                        },
-                        {
-                          "texto": "seventy-two"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "73"
-                        },
-                        {
-                          "texto": "seventy-three"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "74"
-                        },
-                        {
-                          "texto": "seventy-four"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "75"
-                        },
-                        {
-                          "texto": "seventy-five"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "76"
-                        },
-                        {
-                          "texto": "seventy-six"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "77"
-                        },
-                        {
-                          "texto": "seventy-seven"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "78"
-                        },
-                        {
-                          "texto": "seventy-eight"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "79"
-                        },
-                        {
-                          "texto": "seventy-nine"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "acordeon",
-          "contenido": [
-            {
-              "titulo": "80-89: Eighties",
-              "contenido": [
-                {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "From 80 to 89",
-                      "colspan": 2
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "80"
-                        },
-                        {
-                          "texto": "eighty"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "81"
-                        },
-                        {
-                          "texto": "eighty-one"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "82"
-                        },
-                        {
-                          "texto": "eighty-two"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "83"
-                        },
-                        {
-                          "texto": "eighty-three"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "84"
-                        },
-                        {
-                          "texto": "eighty-four"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "85"
-                        },
-                        {
-                          "texto": "eighty-five"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "86"
-                        },
-                        {
-                          "texto": "eighty-six"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "87"
-                        },
-                        {
-                          "texto": "eighty-seven"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "88"
-                        },
-                        {
-                          "texto": "eighty-eight"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "89"
-                        },
-                        {
-                          "texto": "eighty-nine"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "acordeon",
-          "contenido": [
-            {
-              "titulo": "90-99: Nineties",
-              "contenido": [
-                {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "From 90 to 99",
-                      "colspan": 2
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "90"
-                        },
-                        {
-                          "texto": "ninety"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "91"
-                        },
-                        {
-                          "texto": "ninety-one"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "92"
-                        },
-                        {
-                          "texto": "ninety-two"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "93"
-                        },
-                        {
-                          "texto": "ninety-three"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "94"
-                        },
-                        {
-                          "texto": "ninety-four"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "95"
-                        },
-                        {
-                          "texto": "ninety-five"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "96"
-                        },
-                        {
-                          "texto": "ninety-six"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "97"
-                        },
-                        {
-                          "texto": "ninety-seven"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "98"
-                        },
-                        {
-                          "texto": "ninety-eight"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "99"
-                        },
-                        {
-                          "texto": "ninety-nine"
+                          "fila": [
+                            {
+                              "texto": "99"
+                            },
+                            {
+                              "texto": "ninety-nine"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -2222,7 +2555,7 @@
         },
         {
           "clase": "lista",
-          "titulo": "<b>RECUERDA QUE...</b>",
+          "titulo": "<b>PRESTA ATENCIÓN</b>",
           "contenido": [
             {
               "punto": "En inglés británico 0 es ‘zero’ pero cuando nos referimos a un 0 en un número de teléfono diremos ‘o’ (‘ou’). Ejemplo: 665-023 ‘double six five o two three’"
@@ -3639,15 +3972,19 @@
         }
       ]
     },
-        {
-      "titulo": "Summary",
+    {
+      "titulo": "SUMMARY",
       "contenido": [
         {
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "texto",
-              "texto": "<b>ARTICLES</b><br>In this Unit you have learned how to use the definite and indefinite articles ‘the/a/an’ and ‘some’."
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "You have learned how to use the definite and indefinite articles ‘the/a/an’ and ‘some’."
+                }
+              ]
             },
             {
               "clase": "tabla",
@@ -3685,7 +4022,7 @@
                       "texto": "table/apple"
                     },
                     {
-                      "texto": ""
+                      "texto": "<center>/</center>"
                     }
                   ]
                 },
@@ -3707,14 +4044,10 @@
           ]
         },
         {
-          "clase": "listaObjetos",
+          "clase": "lista",
           "contenido": [
             {
-              "clase": "texto",
-              "texto": "<b>PLURALS</b><br>You have learned how to create the plural of different words: adding just an ‘-s’, adding ‘-es’, transforming ‘y’ into ‘-ies’ and ‘f/ fe’ into ‘-ves’.<br><br>Plus a list of irregular plurals that you have to learn."
-            },
-            {
-              "clase": "lista",
+              "punto": "You have learned how to create the plural of different words: adding just an ‘-s’, adding ‘-es’, transforming ‘y’ into ‘-ies’ and ‘f/fe’ into ‘-ves’. Plus a list of irregular plurals that you have to learn.",
               "contenido": [
                 {
                   "punto": "Table: tables (mesas)"
@@ -3729,16 +4062,14 @@
                   "punto": "Thief: thieves (ladrones)"
                 }
               ]
+            },
+            {
+              "punto": "Now you know how to count from 1 to 99 and how to the spell these numbers. We suggest you to have a look again at the list of numbers."
+            },
+            {
+              "punto": "You know how to use the simple present in the affirmative, negative and question forms. You know how to spell the third person singular and how to create questions with different question words. Let’s have a look at it again!"
             }
           ]
-        },
-        {
-          "clase": "texto",
-          "texto": "<b>NUMBERS</b><br>Now you know how to count from 1 to 99 and how to the spell these numbers. We suggest you to have a look again at the list of numbers."
-        },
-        {
-          "clase": "texto",
-          "texto": "<b>QUESTIONS</b><br>You know how to use the simple present in the affirmative, negative and question forms. You know how to spell the third person singular and how to create questions with different question words. Let’s have a look at it again!"
         },
         {
           "clase": "listaObjetos",
@@ -3747,16 +4078,16 @@
               "clase": "tabla",
               "filaTitulos": [
                 {
-                  "titulo": ""
+                  "titulo": "PR."
                 },
                 {
-                  "titulo": "AFFIRMATIVE"
+                  "titulo": "AFF."
                 },
                 {
-                  "titulo": "NEGATIVE"
+                  "titulo": "NEG."
                 },
                 {
-                  "titulo": "QUESTION"
+                  "titulo": "QUEST."
                 }
               ],
               "filaContenido": [
@@ -3864,10 +4195,10 @@
               "clase": "tabla",
               "filaTitulos": [
                 {
-                  "titulo": ""
+                  "titulo": "ADVERB"
                 },
                 {
-                  "titulo": "DO/DOES"
+                  "titulo": "AUX. VERB"
                 },
                 {
                   "titulo": "SUBJECT"
@@ -3923,18 +4254,14 @@
           ]
         },
         {
-          "clase": "texto",
-          "texto": "<b>THE TIME</b><br>"
-        },
-        {
           "clase": "acordeon",
           "contenido": [
             {
-              "titulo": "You also learned how to ask for and tell the time.",
+              "titulo": "<center>THE TIME</center>",
               "contenido": [
                 {
                   "clase": "texto",
-                  "texto": "<i>También aprendiste cómo preguntar y decir la hora.</i>"
+                  "texto": "You also learned how to ask for and tell the time.<br><i>También aprendiste cómo preguntar y decir la hora.</i>"
                 },
                 {
                   "clase": "imagen",
@@ -3945,22 +4272,18 @@
           ]
         },
         {
-          "clase": "texto",
-          "texto": "<b>NEW VOCABULARY</b><br>"
-        },
-        {
-          "clase": "acordeon",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "titulo": "And here you have a list of new vocabulary from this Unit.",
+              "clase": "imagen",
+              "ancho": 128,
+              "imagen": "img/mod02/girlFlower.png"
+            },
+            {
+              "clase": "acordeon",
               "contenido": [
                 {
-                  "clase": "texto",
-                  "texto": "<i>Y aquí tienes una lista del nuevo vocabulario de esta Unidad.</i>"
-                },
-
-                {
-                  "clase": "listaObjetos",
+                  "titulo": "<center>NEW VOCABULARY</center>",
                   "contenido": [
                     {
                       "clase": "tabla",
@@ -3985,7 +4308,7 @@
                               "texto": "cumpleaños"
                             },
                             {
-                              "texto": "/ˈbɜːθdeɪ/"
+                              "texto": "ˈbɜːθdeɪ"
                             }
                           ]
                         },
@@ -3998,7 +4321,7 @@
                               "texto": "azul"
                             },
                             {
-                              "texto": "/bluː/"
+                              "texto": "bluː"
                             }
                           ]
                         },
@@ -4011,7 +4334,7 @@
                               "texto": "libro"
                             },
                             {
-                              "texto": "/bʊk/"
+                              "texto": "bʊk"
                             }
                           ]
                         },
@@ -4024,7 +4347,7 @@
                               "texto": "botella"
                             },
                             {
-                              "texto": "/ˈbɒtl/"
+                              "texto": "ˈbɒtl"
                             }
                           ]
                         },
@@ -4037,7 +4360,7 @@
                               "texto": "desayuno"
                             },
                             {
-                              "texto": "/ˈbrɛkfəst/"
+                              "texto": "ˈbrɛkfəst"
                             }
                           ]
                         },
@@ -4050,20 +4373,20 @@
                               "texto": "brillante"
                             },
                             {
-                              "texto": "/braɪt/"
+                              "texto": "braɪt"
                             }
                           ]
                         },
                         {
                           "fila": [
                             {
-                              "texto": "businessman / businesswoman"
+                              "texto": "businessman<br>businesswoman"
                             },
                             {
                               "texto": "empresario/a"
                             },
                             {
-                              "texto": "/ˈbɪznɪsmən / ˈbɪznɪswʊmən/"
+                              "texto": "ˈbɪznɪsmən<br>ˈbɪznɪswʊmən"
                             }
                           ]
                         },
@@ -4076,7 +4399,7 @@
                               "texto": "cine"
                             },
                             {
-                              "texto": "/ˈsɪnəmə/"
+                              "texto": "ˈsɪnəmə"
                             }
                           ]
                         },
@@ -4089,7 +4412,7 @@
                               "texto": "ordenador"
                             },
                             {
-                              "texto": "/kəmˈpjuːtə/"
+                              "texto": "kəmˈpjuːtə"
                             }
                           ]
                         },
@@ -4102,7 +4425,7 @@
                               "texto": "país / campo"
                             },
                             {
-                              "texto": "/ˈkʌntri/"
+                              "texto": "ˈkʌntri"
                             }
                           ]
                         },
@@ -4115,7 +4438,7 @@
                               "texto": "cena"
                             },
                             {
-                              "texto": "/ˈdɪnə/"
+                              "texto": "ˈdɪnə"
                             }
                           ]
                         },
@@ -4128,7 +4451,7 @@
                               "texto": "congelar(se)"
                             },
                             {
-                              "texto": "/friːz/"
+                              "texto": "friːz"
                             }
                           ]
                         },
@@ -4141,7 +4464,7 @@
                               "texto": "vaso"
                             },
                             {
-                              "texto": "/glɑːs/"
+                              "texto": "glɑːs"
                             }
                           ]
                         },
@@ -4154,7 +4477,7 @@
                               "texto": "gafas"
                             },
                             {
-                              "texto": "/ˈglɑːsɪz/"
+                              "texto": "ˈglɑːsɪz"
                             }
                           ]
                         },
@@ -4167,7 +4490,7 @@
                               "texto": "casa"
                             },
                             {
-                              "texto": "/haʊs/"
+                              "texto": "haʊs"
                             }
                           ]
                         },
@@ -4180,26 +4503,10 @@
                               "texto": "pantalones vaqueros"
                             },
                             {
-                              "texto": "/ʤiːnz/"
+                              "texto": "ʤiːnz"
                             }
                           ]
-                        }
-                      ]
-                    },
-                    {
-                      "clase": "tabla",
-                      "filaTitulos": [
-                        {
-                          "titulo": "ENGLISH"
                         },
-                        {
-                          "titulo": "SPANISH"
-                        },
-                        {
-                          "titulo": "PRONUNCIATION"
-                        }
-                      ],
-                      "filaContenido": [
                         {
                           "fila": [
                             {
@@ -4209,7 +4516,7 @@
                               "texto": "trabajo (nombre)"
                             },
                             {
-                              "texto": "/ʤɒb/"
+                              "texto": "ʤɒb"
                             }
                           ]
                         },
@@ -4222,7 +4529,7 @@
                               "texto": "almuerzo"
                             },
                             {
-                              "texto": "/lʌnʧ/"
+                              "texto": "lʌnʧ"
                             }
                           ]
                         },
@@ -4235,7 +4542,7 @@
                               "texto": "comida"
                             },
                             {
-                              "texto": "/miːl/"
+                              "texto": "miːl"
                             }
                           ]
                         },
@@ -4248,7 +4555,7 @@
                               "texto": "carne"
                             },
                             {
-                              "texto": "/miːt/"
+                              "texto": "miːt"
                             }
                           ]
                         },
@@ -4261,7 +4568,7 @@
                               "texto": "dinero"
                             },
                             {
-                              "texto": "/ˈmʌni/"
+                              "texto": "ˈmʌni"
                             }
                           ]
                         },
@@ -4274,7 +4581,7 @@
                               "texto": "enfermera"
                             },
                             {
-                              "texto": "/nɜːs/"
+                              "texto": "nɜːs"
                             }
                           ]
                         },
@@ -4287,7 +4594,7 @@
                               "texto": "tortilla"
                             },
                             {
-                              "texto": "/ˈɒmlɪt/"
+                              "texto": "ˈɒmlɪt"
                             }
                           ]
                         },
@@ -4300,7 +4607,7 @@
                               "texto": "cebolla"
                             },
                             {
-                              "texto": "/ˈʌnjən/"
+                              "texto": "ˈʌnjən"
                             }
                           ]
                         },
@@ -4313,7 +4620,7 @@
                               "texto": "piloto"
                             },
                             {
-                              "texto": "/ˈpaɪlət/"
+                              "texto": "ˈpaɪlət"
                             }
                           ]
                         },
@@ -4326,7 +4633,7 @@
                               "texto": "tijeras"
                             },
                             {
-                              "texto": "/ˈsɪzəz/"
+                              "texto": "ˈsɪzəz"
                             }
                           ]
                         },
@@ -4339,7 +4646,7 @@
                               "texto": "cielo"
                             },
                             {
-                              "texto": "/skaɪ/"
+                              "texto": "skaɪ"
                             }
                           ]
                         },
@@ -4352,7 +4659,7 @@
                               "texto": "hablar"
                             },
                             {
-                              "texto": "/spiːk/"
+                              "texto": "spiːk"
                             }
                           ]
                         },
@@ -4365,7 +4672,7 @@
                               "texto": "sol"
                             },
                             {
-                              "texto": "/sʌn/"
+                              "texto": "sʌn"
                             }
                           ]
                         },
@@ -4378,7 +4685,7 @@
                               "texto": "supermercado"
                             },
                             {
-                              "texto": "/ˈsjuːpəˌmɑːkɪt/"
+                              "texto": "ˈsjuːpəˌmɑːkɪt"
                             }
                           ]
                         },
@@ -4391,7 +4698,7 @@
                               "texto": "pantalones"
                             },
                             {
-                              "texto": "/ˈtraʊzəz/"
+                              "texto": "ˈtraʊzəz"
                             }
                           ]
                         },
@@ -4404,7 +4711,7 @@
                               "texto": "paraguas"
                             },
                             {
-                              "texto": "/ʌmˈbrɛlə/"
+                              "texto": "ʌmˈbrɛlə"
                             }
                           ]
                         },
@@ -4417,7 +4724,7 @@
                               "texto": "trabajar"
                             },
                             {
-                              "texto": "/wɜːk/"
+                              "texto": "wɜːk"
                             }
                           ]
                         }
@@ -4431,12 +4738,12 @@
         },
         {
           "clase": "imagen",
-          "imagen": "img/mod02/londonLast2.png"
+          "imagen": "img/comunes/londonLast2.png"
         }
       ]
     },
     {
-      "titulo": "Despedida",
+      "titulo": "Farewell",
       "fondo": "img/comunes/bigBen.jpg",
       "contenido": [
         {
@@ -4460,7 +4767,7 @@
       ]
     },
     {
-      "titulo": "Contraportada",
+      "titulo": "Back cover",
       "fondo": "img/comunes/contraportada.svg",
       "subclase": "portada"
     }
