@@ -26,14 +26,18 @@
       ]
     },
     {
-      "titulo": "Numbers",
+      "titulo": "NUMBERS: Hundreds",
       "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En este módulo veremos cómo se forman y leen las centenas, millares, decenas de millares..."
+        },
         {
           "clase": "listaObjetos",
           "contenido": [
             {
               "clase": "texto",
-              "texto": "En esta segunda parte dedicada a “Numbers in English” veremos cómo se forman y leen las centenas, los millares, decenas de millares, etc.<br><br>Una vez que ya conocemos los números del 1 al 99 (MÓDULO 2) es muy sencillo formar el resto de los números. Primero veamos cómo se escriben las centenas:"
+              "texto": "<br><br>Una vez conocemos los números del 1 al 99 (MÓDULO 2) es muy sencillo formar el resto de números.<br><br>Siempre que queramos formar un número como “125” o “268” tendremos que decir <b>primero las centenas</b> (one hundred o two hundred) y <b>después AND y el número</b> correspondiente:<center><br>125 = one hundred and twenty-five<br>268 = two hundred and sixty-eight</center>"
             },
             {
               "clase": "tabla",
@@ -129,10 +133,20 @@
                 {
                   "fila": [
                     {
-                      "texto": "<center>...</center>"
+                      "texto": "<center>700</center>"
                     },
                     {
-                      "texto": "<center>...</center>"
+                      "texto": "<center>SEVEN HUNDRED</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>800</center>"
+                    },
+                    {
+                      "texto": "<center>EIGHT HUNDRED</center>"
                     }
                   ]
                 },
@@ -149,10 +163,15 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+        {
+      "titulo": "NUMBERS: Thousands",
+      "contenido": [
         {
           "clase": "texto",
-          "texto": "Siempre que queramos formar un número como “125” o “268” (por ejemplo) tendremos que decir primero las centenas (one hundred o two hundred) y después AND y el número correspondiente:<br>125 = one hundred and twenty-five<br>268 = two hundred and sixty-eight<br><br>Ahora veremos cómo se forman los millares, decenas de millares y siguientes:"
+          "texto": "Ahora que ya sabes cómo formar las centenas veremos como formar los millares y siguientes:"
         },
         {
           "clase": "listaObjetos",
@@ -253,13 +272,13 @@
             {
               "clase": "icono",
               "subclase": "exclamacion",
-              "texto": "Para separar millares, en lugar de puntos pondremos comas.<br>Para separar decimales utilizaremos puntos y se leen “point”.<br>25.5 = twenty-five point five"
+              "texto": "Para <b>separar millares</b>, en lugar de puntos pondremos <b>comas</b>.<br><br>Para <b>separar decimales</b> utilizaremos <b>puntos</b> y se leen “point”.<center><br>25.5 = twenty-five point five</center>"
             }
           ]
         },
         {
           "clase": "lista",
-          "titulo": "Teniendo en cuenta estas reglas, será muy sencillo aprender a utilizar los números en inglés. Vamos a ver algún ejemplo de cómo se escriben y leen algunos números más complejos para familiarizarnos con ellos:",
+          "titulo": "Recordando estas reglas, te resultará muy sencillo utilizar los números en inglés. Veamos cómo se escriben y leen algunos números más complejos para familiarizarnos con ellos:",
           "contenido": [
             {
               "punto": "12,568: twelve thousand, five hundred and sixty-eight."
@@ -362,6 +381,1078 @@
       ]
     },
     {
+      "titulo": "THE DATE: Vocabulary",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Vamos a aprender como se dice la fecha en inglés y vocabulario relacionado con el tiempo."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "SEASONS",
+                  "colspan": 2
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>ENGLISH</b></center>"
+                    },
+                    {
+                      "texto": "<center><b>SPANISH</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>WINTER</center>"
+                    },
+                    {
+                      "texto": "<center>INVIERNO</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>SPRING</center>"
+                    },
+                    {
+                      "texto": "<center>PRIMAVERA</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>SUMMER</center>"
+                    },
+                    {
+                      "texto": "<center>VERANO</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>AUTUMN</center>"
+                    },
+                    {
+                      "texto": "<center>OTOÑO</center>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "MONTHS",
+                  "colspan": 2
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>ENGLISH</b></center>"
+                    },
+                    {
+                      "texto": "<center><b>SPANISH</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>January</center>"
+                    },
+                    {
+                      "texto": "<center>Enero</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>February</center>"
+                    },
+                    {
+                      "texto": "<center>Febrero</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>March</center>"
+                    },
+                    {
+                      "texto": "<center>Marzo</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>April</center>"
+                    },
+                    {
+                      "texto": "<center>Abril</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>May</center>"
+                    },
+                    {
+                      "texto": "<center>Mayo</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>June</center>"
+                    },
+                    {
+                      "texto": "<center>Junio</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>July</center>"
+                    },
+                    {
+                      "texto": "<center>Julio</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>August</center>"
+                    },
+                    {
+                      "texto": "<center>Agosto</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>September</center>"
+                    },
+                    {
+                      "texto": "<center>Septiembre</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>October</center>"
+                    },
+                    {
+                      "texto": "<center>Octubre</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>November</center>"
+                    },
+                    {
+                      "texto": "<center>Noviembre</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>December</center>"
+                    },
+                    {
+                      "texto": "<center>Diciembre</center>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "WEEK DAYS",
+                  "colspan": 2
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>ENGLISH</b></center>"
+                    },
+                    {
+                      "texto": "<center><b>SPANISH</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Monday</center>"
+                    },
+                    {
+                      "texto": "<center>Lunes</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Tuesday</center>"
+                    },
+                    {
+                      "texto": "<center>Martes</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Wednesday</center>"
+                    },
+                    {
+                      "texto": "<center>Miércoles</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Thursday</center>"
+                    },
+                    {
+                      "texto": "<center>Jueves</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Friday</center>"
+                    },
+                    {
+                      "texto": "<center>Viernes</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Saturday</center>"
+                    },
+                    {
+                      "texto": "<center>Sábado</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Sunday</center>"
+                    },
+                    {
+                      "texto": "<center>Domingo</center>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "THE DATE: Expressions",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "<b>ENGLISH</b>",
+              "contenido": [
+                {
+                  "punto": "What day is it?"
+                },
+                {
+                  "punto": "What is the date today?"
+                },
+                {
+                  "punto": "Today is..."
+                },
+                {
+                  "punto": "Yesterday was..."
+                },
+                {
+                  "punto": "Tomorrow"
+                },
+                {
+                  "punto": "The day before yesterday"
+                },
+                {
+                  "punto": "The day after tomorrow"
+                },
+                {
+                  "punto": "(The) next day/week/month/year"
+                },
+                {
+                  "punto": "(The) previous day/week/month/year"
+                },
+                {
+                  "punto": "<b>In</b> March, July, September..."
+                },
+                {
+                  "punto": "<b>On</b> Monday, Tuesday, Sunday..."
+                }
+              ]
+            },
+            {
+              "clase": "lista",
+              "titulo": "<b>SPANISH</b>",
+              "contenido": [
+                {
+                  "punto": "¿Qué día es?"
+                },
+                {
+                  "punto": "¿Qué fecha es hoy?"
+                },
+                {
+                  "punto": "Hoy es..."
+                },
+                {
+                  "punto": "Ayer fue..."
+                },
+                {
+                  "punto": "Mañana"
+                },
+                {
+                  "punto": "Antes de ayer"
+                },
+                {
+                  "punto": "Pasado mañana"
+                },
+                {
+                  "punto": "La próxima..."
+                },
+                {
+                  "punto": "La anterior..."
+                },
+                {
+                  "punto": "En (meses)"
+                },
+                {
+                  "punto": "En (días)"
+                }
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "exclamacion",
+              "texto": "Los días de la semana y los meses del año se escriben <b>SIEMPRE</b> con mayúscula."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "El orden en el que se expresa la fecha es muy importante y debemos tener varias cosas en cuenta. Veámoslo con un ejemplo: <center>Monday 13th January 2017.</center>Primero se escribe y dice el día “Monday”. Vemos que el número aparece con dos letras al lado, esto es por que en inglés, nos referimos siempre al día en números ordinales, es decir, “el primero de mayo”, “el décimo tercero de enero”, etc. Ahora verermos como formar los números ordinales."
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "<b>BRITISH AND AMERICAN</b><br>En inglés británico, la fecha se dice y escribe como hemos visto hasta ahora, pero en inglés americano se suele poner el mes delante del  día “12/01/2016” – December (the) first two thousand and sixteen."
+        }
+      ]
+    },
+    {
+      "titulo": "The date",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Vamos a aprender como se dice la fecha en inglés y vocabulario relacionado con el tiempo."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "SEASONS",
+                  "colspan": 2
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>ENGLISH</b></center>"
+                    },
+                    {
+                      "texto": "<center><b>SPANISH</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>WINTER</center>"
+                    },
+                    {
+                      "texto": "<center>INVIERNO</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>SPRING</center>"
+                    },
+                    {
+                      "texto": "<center>PRIMAVERA</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>SUMMER</center>"
+                    },
+                    {
+                      "texto": "<center>VERANO</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>AUTUMN</center>"
+                    },
+                    {
+                      "texto": "<center>OTOÑO</center>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "MONTHS",
+                  "colspan": 2
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>ENGLISH</b></center>"
+                    },
+                    {
+                      "texto": "<center><b>SPANISH</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>January</center>"
+                    },
+                    {
+                      "texto": "<center>Enero</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>February</center>"
+                    },
+                    {
+                      "texto": "<center>Febrero</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>March</center>"
+                    },
+                    {
+                      "texto": "<center>Marzo</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>April</center>"
+                    },
+                    {
+                      "texto": "<center>Abril</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>May</center>"
+                    },
+                    {
+                      "texto": "<center>Mayo</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>June</center>"
+                    },
+                    {
+                      "texto": "<center>Junio</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>July</center>"
+                    },
+                    {
+                      "texto": "<center>Julio</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>August</center>"
+                    },
+                    {
+                      "texto": "<center>Agosto</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>September</center>"
+                    },
+                    {
+                      "texto": "<center>Septiembre</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>October</center>"
+                    },
+                    {
+                      "texto": "<center>Octubre</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>November</center>"
+                    },
+                    {
+                      "texto": "<center>Noviembre</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>December</center>"
+                    },
+                    {
+                      "texto": "<center>Diciembre</center>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "WEEK DAYS",
+                  "colspan": 2
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>ENGLISH</b></center>"
+                    },
+                    {
+                      "texto": "<center><b>SPANISH</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Monday</center>"
+                    },
+                    {
+                      "texto": "<center>Lunes</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Tuesday</center>"
+                    },
+                    {
+                      "texto": "<center>Martes</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Wednesday</center>"
+                    },
+                    {
+                      "texto": "<center>Miércoles</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Thursday</center>"
+                    },
+                    {
+                      "texto": "<center>Jueves</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Friday</center>"
+                    },
+                    {
+                      "texto": "<center>Viernes</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Saturday</center>"
+                    },
+                    {
+                      "texto": "<center>Sábado</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Sunday</center>"
+                    },
+                    {
+                      "texto": "<center>Domingo</center>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "<b>ENGLISH</b>",
+              "contenido": [
+                {
+                  "punto": "What day is it?"
+                },
+                {
+                  "punto": "What is the date today?"
+                },
+                {
+                  "punto": "Today is..."
+                },
+                {
+                  "punto": "Yesterday was..."
+                },
+                {
+                  "punto": "Tomorrow"
+                },
+                {
+                  "punto": "The day before yesterday"
+                },
+                {
+                  "punto": "The day after tomorrow"
+                },
+                {
+                  "punto": "(The) next day/week/month/year"
+                },
+                {
+                  "punto": "(The) previous day/week/month/year"
+                },
+                {
+                  "punto": "<b>In</b> March, July, September..."
+                },
+                {
+                  "punto": "<b>On</b> Monday, Tuesday, Sunday..."
+                }
+              ]
+            },
+            {
+              "clase": "lista",
+              "titulo": "<b>SPANISH</b>",
+              "contenido": [
+                {
+                  "punto": "¿Qué día es?"
+                },
+                {
+                  "punto": "¿Qué fecha es hoy?"
+                },
+                {
+                  "punto": "Hoy es..."
+                },
+                {
+                  "punto": "Ayer fue..."
+                },
+                {
+                  "punto": "Mañana"
+                },
+                {
+                  "punto": "Antes de ayer"
+                },
+                {
+                  "punto": "Pasado mañana"
+                },
+                {
+                  "punto": "La próxima..."
+                },
+                {
+                  "punto": "La anterior..."
+                },
+                {
+                  "punto": "En (meses)"
+                },
+                {
+                  "punto": "En (días)"
+                }
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "exclamacion",
+              "texto": "Los días de la semana y los meses del año se escriben <b>SIEMPRE</b> con mayúscula."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "El orden en el que se expresa la fecha es muy importante y debemos tener varias cosas en cuenta. Veámoslo con un ejemplo: Monday 13th January 2017.<br><br>Primero se escribe y dice el día “Monday”. Vemos que el número aparece con dos letras al lado, ¿y esto qué significa? En inglés, nos referimos siempre al día en números ordinales, es decir, “el primero de mayo”, “el décimo tercero de enero”, etc. Vamos a ver como se forman los números ordinales."
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "NUMBER"
+            },
+            {
+              "titulo": "ENGLISH"
+            },
+            {
+              "titulo": "SPANISH"
+            },
+            {
+              "titulo": "NUMBER"
+            },
+            {
+              "titulo": "ENGLISH"
+            },
+            {
+              "titulo": "SPANISH"
+            },
+            {
+              "titulo": "NUMBER"
+            },
+            {
+              "titulo": "ENGLISH"
+            },
+            {
+              "titulo": "SPANISH"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>1ST</b></center>"
+                },
+                {
+                  "texto": "<center>FIRST</center>"
+                },
+                {
+                  "texto": "<center>PRIMERO</center>"
+                },
+                {
+                  "texto": "<center><b>8TH</b></center>"
+                },
+                {
+                  "texto": "<center>EIGHTH</center>"
+                },
+                {
+                  "texto": "<center>OCTAVO</center>"
+                },
+                {
+                  "texto": "<center><b>15TH</b></center>"
+                },
+                {
+                  "texto": "<center>FIFTEENTH</center>"
+                },
+                {
+                  "texto": "<center>DÉCIMO QUINTO</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>2ND</b></center>"
+                },
+                {
+                  "texto": "<center>SECOND</center>"
+                },
+                {
+                  "texto": "<center>SEGUNDO</center>"
+                },
+                {
+                  "texto": "<center><b>9TH</b></center>"
+                },
+                {
+                  "texto": "<center>NINTH</center>"
+                },
+                {
+                  "texto": "<center>NOVENO</center>"
+                },
+                {
+                  "texto": "<center><b>16TH</b></center>"
+                },
+                {
+                  "texto": "<center>SIXTEENTH</center>"
+                },
+                {
+                  "texto": "<center>DÉCIMO SEXTO</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>3RD</b></center>"
+                },
+                {
+                  "texto": "<center>THIRD</center>"
+                },
+                {
+                  "texto": "<center>TERCERO</center>"
+                },
+                {
+                  "texto": "<center><b>10TH</b></center>"
+                },
+                {
+                  "texto": "<center>TENTH</center>"
+                },
+                {
+                  "texto": "<center>DÉCIMO</center>"
+                },
+                {
+                  "texto": "<center><b>17TH</b></center>"
+                },
+                {
+                  "texto": "<center>SEVENTH</center>"
+                },
+                {
+                  "texto": "<center>DÉCIMO SÉPTIMO</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>4TH</b></center>"
+                },
+                {
+                  "texto": "<center>FOURTH</center>"
+                },
+                {
+                  "texto": "<center>CUARTO</center>"
+                },
+                {
+                  "texto": "<center><b>11TH</b></center>"
+                },
+                {
+                  "texto": "<center>ELEVENTH</center>"
+                },
+                {
+                  "texto": "<center>UNDÉCIMO</center>"
+                },
+                {
+                  "texto": "<center><b>18TH</b></center>"
+                },
+                {
+                  "texto": "<center>EIGHTEENTH</center>"
+                },
+                {
+                  "texto": "<center>DÉCIMO OCTAVO</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>5TH</b></center>"
+                },
+                {
+                  "texto": "<center>FIFTH</center>"
+                },
+                {
+                  "texto": "<center>QUINTO</center>"
+                },
+                {
+                  "texto": "<center><b>12TH</b></center>"
+                },
+                {
+                  "texto": "<center>TWELFTH</center>"
+                },
+                {
+                  "texto": "<center>DUODÉCIMO</center>"
+                },
+                {
+                  "texto": "<center><b>19TH</b></center>"
+                },
+                {
+                  "texto": "<center>NINETEENTH</center>"
+                },
+                {
+                  "texto": "<center>DÉCIMO NOVENO</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>6TH</b></center>"
+                },
+                {
+                  "texto": "<center>SIXTH</center>"
+                },
+                {
+                  "texto": "<center>SEXTO</center>"
+                },
+                {
+                  "texto": "<center><b>13TH</b></center>"
+                },
+                {
+                  "texto": "<center>THIRTEENTH</center>"
+                },
+                {
+                  "texto": "<center>DÉCIMO TERCERO</center>"
+                },
+                {
+                  "texto": "<center><b>20TH</b></center>"
+                },
+                {
+                  "texto": "<center>TWENTIETH</center>"
+                },
+                {
+                  "texto": "<center>VIGÉSIMO</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>7TH</b></center>"
+                },
+                {
+                  "texto": "<center>SEVENTH</center>"
+                },
+                {
+                  "texto": "<center>SÉPTIMO</center>"
+                },
+                {
+                  "texto": "<center><b>14TH</b></center>"
+                },
+                {
+                  "texto": "<center>FOURTEENTH</center>"
+                },
+                {
+                  "texto": "<center>DÉCIMO CUARTO</center>"
+                },
+                {
+                  "texto": "<center><b>21TH</b></center>"
+                },
+                {
+                  "texto": "<center>TWENTY-FIRST</center>"
+                },
+                {
+                  "texto": "<center>VIGÉSIMO PRIMERO</center>"
+                }
+              ]
+            }
+
+
+
+
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Una vez lleguemos al número 20, la estructura siempre es la misma (30, thirtieth; 40, fortieth, 50, fiftieth…). También hemos de fijarnos en la pronunciación. “First” se pronunciará como “ferst”, “third” como “zerd” y el resto de números que terminen en “th” se pronuncian igual pero añadiendo al final el sonido “z”.<br>Entonces, para decir el día que es hoy diremos “Monday THE (se dice aunque no se escriba) thirteenth OF (se dice pero no escribe) January, two thousand seventeen”. Los años del 1000 a 1999 se dividen en dos cifras (1998-nineteen ninety-eight).<br>Si queremos referirnos solamente al día y al mes, podremos decir “January the thirteenth”."
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "<b>BRITISH AND AMERICAN</b><br>En inglés británico, la fecha se dice y escribe como hemos visto hasta ahora, pero en inglés americano se suele poner el mes delante del  día “12/01/2016” – December (the) first two thousand and sixteen."
+        }
+      ]
+    },
+        {
       "titulo": "The date",
       "contenido": [
         {
@@ -1411,7 +2502,7 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "How to describe your daily routine? Para empezar a describir nuestra rutina diaria en inglés primero debemos pensar en las cosas que hacemos a lo largo del día. ¿Qué es lo primero qué haces? ¿Qué te gustaría contar a los demás sobre lo que sueles hacer un día cualquiera? Veamos primero el vocabulario necesario para empezar:"
+          "texto": "How to describe your daily routine? Para describir nuestra rutina diaria en inglés primero debemos pensar en las cosas que hacemos a lo largo del día. ¿Qué es lo primero qué haces? ¿Qué te gustaría contar a los demás sobre lo que sueles hacer un día cualquiera? Veamos primero el vocabulario necesario para empezar:"
         },
         {
           "clase": "tabla",
@@ -1999,6 +3090,11 @@
           ]
         }
       ]
+    },
+    {
+      "titulo": "Franklin's routine",
+      "fondo": "img/mod03/rutinaBF.jpg",
+      "subclase": "portada"
     },
     {
       "titulo": "SUMMARY",
