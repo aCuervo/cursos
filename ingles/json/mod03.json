@@ -166,7 +166,7 @@
         }
       ]
     },
-        {
+    {
       "titulo": "NUMBERS: Thousands",
       "contenido": [
         {
@@ -294,7 +294,7 @@
       ]
     },
     {
-      "titulo": "Activity: numbers",
+      "titulo": "Activity: Numbers",
       "contenido": [
         {
           "clase": "texto",
@@ -391,63 +391,74 @@
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "tabla",
-              "filaTitulos": [
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
                 {
-                  "titulo": "SEASONS",
-                  "colspan": 2
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
+                  "clase": "tabla",
+                  "filaTitulos": [
                     {
-                      "texto": "<center><b>ENGLISH</b></center>"
+                      "titulo": "SEASONS",
+                      "colspan": 2
+                    }
+                  ],
+                  "filaContenido": [
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center><b>ENGLISH</b></center>"
+                        },
+                        {
+                          "texto": "<center><b>SPANISH</b></center>"
+                        }
+                      ]
                     },
                     {
-                      "texto": "<center><b>SPANISH</b></center>"
+                      "fila": [
+                        {
+                          "texto": "<center>WINTER</center>"
+                        },
+                        {
+                          "texto": "<center>INVIERNO</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>SPRING</center>"
+                        },
+                        {
+                          "texto": "<center>PRIMAVERA</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>SUMMER</center>"
+                        },
+                        {
+                          "texto": "<center>VERANO</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "<center>AUTUMN</center>"
+                        },
+                        {
+                          "texto": "<center>OTOÑO</center>"
+                        }
+                      ]
                     }
                   ]
                 },
                 {
-                  "fila": [
-                    {
-                      "texto": "<center>WINTER</center>"
-                    },
-                    {
-                      "texto": "<center>INVIERNO</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>SPRING</center>"
-                    },
-                    {
-                      "texto": "<center>PRIMAVERA</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>SUMMER</center>"
-                    },
-                    {
-                      "texto": "<center>VERANO</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>AUTUMN</center>"
-                    },
-                    {
-                      "texto": "<center>OTOÑO</center>"
-                    }
-                  ]
+                  "clase": "icono",
+                  "subclase": "exclamacion",
+                  "texto": "Los días de la semana y los meses del año se escriben <b>SIEMPRE</b> con mayúscula."
                 }
               ]
             },
@@ -682,6 +693,82 @@
                   ]
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "THE DATE: How to say",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center>Monday 13th January 2017</center>"
+            },
+            {
+              "clase": "texto",
+              "texto": "El orden en el que se expresa la fecha es muy importante y debemos tener varias cosas en cuenta, por ejemplo la fecha anterior la expresaríamos de la siguiente manera:"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<center><b>Monday “the” thirteenth “of” January, two thousand seventeen</b></center>"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Primero el día de la semana: <b>Monday</b>."
+            },
+            {
+              "punto": "Después el número. En inglés siempre nos referimos al día con un número ordinal, por eso lleva dos letras al lado: para indicar que es <b>el décimo tercero de enero</b>. Luego veremos como se forman los números ordinales"
+            },
+            {
+              "punto": "Las palabras entre comillas (<b>the</b> y <b>of</b>) se dicen aunque no estén escritas."
+            },
+            {
+              "punto": "Los años del 1000 a 1999 los dividimos en dos cifras: 1998 sería nineteen ninety-eight."
+            },
+            {
+              "punto": "Si sólo queremos referirnos al día y al mes, podemos decir <b>January the thirteenth</b>."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
+              "imagen": "img/mod03/winter.jpg",
+              "ancho": 200,
+              "pie": "winter"
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "imagen": "img/mod03/spring.jpg",
+              "ancho": 200,
+              "pie": "spring"
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
+              "imagen": "img/mod03/summer.jpg",
+              "ancho": 200,
+              "pie": "summer"
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "imagen": "img/mod03/autumn.jpg",
+              "ancho": 200,
+              "pie": "autumn"
             }
           ]
         }
@@ -770,17 +857,8 @@
                   "punto": "En (días)"
                 }
               ]
-            },
-            {
-              "clase": "icono",
-              "subclase": "exclamacion",
-              "texto": "Los días de la semana y los meses del año se escriben <b>SIEMPRE</b> con mayúscula."
             }
           ]
-        },
-        {
-          "clase": "texto",
-          "texto": "El orden en el que se expresa la fecha es muy importante y debemos tener varias cosas en cuenta. Veámoslo con un ejemplo: <center>Monday 13th January 2017.</center>Primero se escribe y dice el día “Monday”. Vemos que el número aparece con dos letras al lado, esto es por que en inglés, nos referimos siempre al día en números ordinales, es decir, “el primero de mayo”, “el décimo tercero de enero”, etc. Ahora verermos como formar los números ordinales."
         },
         {
           "clase": "icono",
@@ -790,402 +868,8 @@
       ]
     },
     {
-      "titulo": "The date",
+      "titulo": "THE DATE: Ordinal numbers",
       "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Vamos a aprender como se dice la fecha en inglés y vocabulario relacionado con el tiempo."
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "SEASONS",
-                  "colspan": 2
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>ENGLISH</b></center>"
-                    },
-                    {
-                      "texto": "<center><b>SPANISH</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>WINTER</center>"
-                    },
-                    {
-                      "texto": "<center>INVIERNO</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>SPRING</center>"
-                    },
-                    {
-                      "texto": "<center>PRIMAVERA</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>SUMMER</center>"
-                    },
-                    {
-                      "texto": "<center>VERANO</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>AUTUMN</center>"
-                    },
-                    {
-                      "texto": "<center>OTOÑO</center>"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "MONTHS",
-                  "colspan": 2
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>ENGLISH</b></center>"
-                    },
-                    {
-                      "texto": "<center><b>SPANISH</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>January</center>"
-                    },
-                    {
-                      "texto": "<center>Enero</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>February</center>"
-                    },
-                    {
-                      "texto": "<center>Febrero</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>March</center>"
-                    },
-                    {
-                      "texto": "<center>Marzo</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>April</center>"
-                    },
-                    {
-                      "texto": "<center>Abril</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>May</center>"
-                    },
-                    {
-                      "texto": "<center>Mayo</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>June</center>"
-                    },
-                    {
-                      "texto": "<center>Junio</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>July</center>"
-                    },
-                    {
-                      "texto": "<center>Julio</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>August</center>"
-                    },
-                    {
-                      "texto": "<center>Agosto</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>September</center>"
-                    },
-                    {
-                      "texto": "<center>Septiembre</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>October</center>"
-                    },
-                    {
-                      "texto": "<center>Octubre</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>November</center>"
-                    },
-                    {
-                      "texto": "<center>Noviembre</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>December</center>"
-                    },
-                    {
-                      "texto": "<center>Diciembre</center>"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "WEEK DAYS",
-                  "colspan": 2
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>ENGLISH</b></center>"
-                    },
-                    {
-                      "texto": "<center><b>SPANISH</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Monday</center>"
-                    },
-                    {
-                      "texto": "<center>Lunes</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Tuesday</center>"
-                    },
-                    {
-                      "texto": "<center>Martes</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Wednesday</center>"
-                    },
-                    {
-                      "texto": "<center>Miércoles</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Thursday</center>"
-                    },
-                    {
-                      "texto": "<center>Jueves</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Friday</center>"
-                    },
-                    {
-                      "texto": "<center>Viernes</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Saturday</center>"
-                    },
-                    {
-                      "texto": "<center>Sábado</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Sunday</center>"
-                    },
-                    {
-                      "texto": "<center>Domingo</center>"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "lista",
-              "titulo": "<b>ENGLISH</b>",
-              "contenido": [
-                {
-                  "punto": "What day is it?"
-                },
-                {
-                  "punto": "What is the date today?"
-                },
-                {
-                  "punto": "Today is..."
-                },
-                {
-                  "punto": "Yesterday was..."
-                },
-                {
-                  "punto": "Tomorrow"
-                },
-                {
-                  "punto": "The day before yesterday"
-                },
-                {
-                  "punto": "The day after tomorrow"
-                },
-                {
-                  "punto": "(The) next day/week/month/year"
-                },
-                {
-                  "punto": "(The) previous day/week/month/year"
-                },
-                {
-                  "punto": "<b>In</b> March, July, September..."
-                },
-                {
-                  "punto": "<b>On</b> Monday, Tuesday, Sunday..."
-                }
-              ]
-            },
-            {
-              "clase": "lista",
-              "titulo": "<b>SPANISH</b>",
-              "contenido": [
-                {
-                  "punto": "¿Qué día es?"
-                },
-                {
-                  "punto": "¿Qué fecha es hoy?"
-                },
-                {
-                  "punto": "Hoy es..."
-                },
-                {
-                  "punto": "Ayer fue..."
-                },
-                {
-                  "punto": "Mañana"
-                },
-                {
-                  "punto": "Antes de ayer"
-                },
-                {
-                  "punto": "Pasado mañana"
-                },
-                {
-                  "punto": "La próxima..."
-                },
-                {
-                  "punto": "La anterior..."
-                },
-                {
-                  "punto": "En (meses)"
-                },
-                {
-                  "punto": "En (días)"
-                }
-              ]
-            },
-            {
-              "clase": "icono",
-              "subclase": "exclamacion",
-              "texto": "Los días de la semana y los meses del año se escriben <b>SIEMPRE</b> con mayúscula."
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "El orden en el que se expresa la fecha es muy importante y debemos tener varias cosas en cuenta. Veámoslo con un ejemplo: Monday 13th January 2017.<br><br>Primero se escribe y dice el día “Monday”. Vemos que el número aparece con dos letras al lado, ¿y esto qué significa? En inglés, nos referimos siempre al día en números ordinales, es decir, “el primero de mayo”, “el décimo tercero de enero”, etc. Vamos a ver como se forman los números ordinales."
-        },
         {
           "clase": "tabla",
           "filaTitulos": [
@@ -1443,680 +1127,12 @@
         },
         {
           "clase": "texto",
-          "texto": "Una vez lleguemos al número 20, la estructura siempre es la misma (30, thirtieth; 40, fortieth, 50, fiftieth…). También hemos de fijarnos en la pronunciación. “First” se pronunciará como “ferst”, “third” como “zerd” y el resto de números que terminen en “th” se pronuncian igual pero añadiendo al final el sonido “z”.<br>Entonces, para decir el día que es hoy diremos “Monday THE (se dice aunque no se escriba) thirteenth OF (se dice pero no escribe) January, two thousand seventeen”. Los años del 1000 a 1999 se dividen en dos cifras (1998-nineteen ninety-eight).<br>Si queremos referirnos solamente al día y al mes, podremos decir “January the thirteenth”."
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "<b>BRITISH AND AMERICAN</b><br>En inglés británico, la fecha se dice y escribe como hemos visto hasta ahora, pero en inglés americano se suele poner el mes delante del  día “12/01/2016” – December (the) first two thousand and sixteen."
-        }
-      ]
-    },
-        {
-      "titulo": "The date",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Vamos a aprender como se dice la fecha en inglés y vocabulario relacionado con el tiempo."
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "SEASONS",
-                  "colspan": 2
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>ENGLISH</b></center>"
-                    },
-                    {
-                      "texto": "<center><b>SPANISH</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>WINTER</center>"
-                    },
-                    {
-                      "texto": "<center>INVIERNO</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>SPRING</center>"
-                    },
-                    {
-                      "texto": "<center>PRIMAVERA</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>SUMMER</center>"
-                    },
-                    {
-                      "texto": "<center>VERANO</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>AUTUMN</center>"
-                    },
-                    {
-                      "texto": "<center>OTOÑO</center>"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "MONTHS",
-                  "colspan": 2
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>ENGLISH</b></center>"
-                    },
-                    {
-                      "texto": "<center><b>SPANISH</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>January</center>"
-                    },
-                    {
-                      "texto": "<center>Enero</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>February</center>"
-                    },
-                    {
-                      "texto": "<center>Febrero</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>March</center>"
-                    },
-                    {
-                      "texto": "<center>Marzo</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>April</center>"
-                    },
-                    {
-                      "texto": "<center>Abril</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>May</center>"
-                    },
-                    {
-                      "texto": "<center>Mayo</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>June</center>"
-                    },
-                    {
-                      "texto": "<center>Junio</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>July</center>"
-                    },
-                    {
-                      "texto": "<center>Julio</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>August</center>"
-                    },
-                    {
-                      "texto": "<center>Agosto</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>September</center>"
-                    },
-                    {
-                      "texto": "<center>Septiembre</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>October</center>"
-                    },
-                    {
-                      "texto": "<center>Octubre</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>November</center>"
-                    },
-                    {
-                      "texto": "<center>Noviembre</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>December</center>"
-                    },
-                    {
-                      "texto": "<center>Diciembre</center>"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "WEEK DAYS",
-                  "colspan": 2
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>ENGLISH</b></center>"
-                    },
-                    {
-                      "texto": "<center><b>SPANISH</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Monday</center>"
-                    },
-                    {
-                      "texto": "<center>Lunes</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Tuesday</center>"
-                    },
-                    {
-                      "texto": "<center>Martes</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Wednesday</center>"
-                    },
-                    {
-                      "texto": "<center>Miércoles</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Thursday</center>"
-                    },
-                    {
-                      "texto": "<center>Jueves</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Friday</center>"
-                    },
-                    {
-                      "texto": "<center>Viernes</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Saturday</center>"
-                    },
-                    {
-                      "texto": "<center>Sábado</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Sunday</center>"
-                    },
-                    {
-                      "texto": "<center>Domingo</center>"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "lista",
-              "titulo": "<b>ENGLISH</b>",
-              "contenido": [
-                {
-                  "punto": "What day is it?"
-                },
-                {
-                  "punto": "What is the date today?"
-                },
-                {
-                  "punto": "Today is..."
-                },
-                {
-                  "punto": "Yesterday was..."
-                },
-                {
-                  "punto": "Tomorrow"
-                },
-                {
-                  "punto": "The day before yesterday"
-                },
-                {
-                  "punto": "The day after tomorrow"
-                },
-                {
-                  "punto": "(The) next day/week/month/year"
-                },
-                {
-                  "punto": "(The) previous day/week/month/year"
-                },
-                {
-                  "punto": "<b>In</b> March, July, September..."
-                },
-                {
-                  "punto": "<b>On</b> Monday, Tuesday, Sunday..."
-                }
-              ]
-            },
-            {
-              "clase": "lista",
-              "titulo": "<b>SPANISH</b>",
-              "contenido": [
-                {
-                  "punto": "¿Qué día es?"
-                },
-                {
-                  "punto": "¿Qué fecha es hoy?"
-                },
-                {
-                  "punto": "Hoy es..."
-                },
-                {
-                  "punto": "Ayer fue..."
-                },
-                {
-                  "punto": "Mañana"
-                },
-                {
-                  "punto": "Antes de ayer"
-                },
-                {
-                  "punto": "Pasado mañana"
-                },
-                {
-                  "punto": "La próxima..."
-                },
-                {
-                  "punto": "La anterior..."
-                },
-                {
-                  "punto": "En (meses)"
-                },
-                {
-                  "punto": "En (días)"
-                }
-              ]
-            },
-            {
-              "clase": "icono",
-              "subclase": "exclamacion",
-              "texto": "Los días de la semana y los meses del año se escriben <b>SIEMPRE</b> con mayúscula."
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "El orden en el que se expresa la fecha es muy importante y debemos tener varias cosas en cuenta. Veámoslo con un ejemplo: Monday 13th January 2017.<br><br>Primero se escribe y dice el día “Monday”. Vemos que el número aparece con dos letras al lado, ¿y esto qué significa? En inglés, nos referimos siempre al día en números ordinales, es decir, “el primero de mayo”, “el décimo tercero de enero”, etc. Vamos a ver como se forman los números ordinales."
-        },
-        {
-          "clase": "tabla",
-          "filaTitulos": [
-            {
-              "titulo": "NUMBER"
-            },
-            {
-              "titulo": "ENGLISH"
-            },
-            {
-              "titulo": "SPANISH"
-            },
-            {
-              "titulo": "NUMBER"
-            },
-            {
-              "titulo": "ENGLISH"
-            },
-            {
-              "titulo": "SPANISH"
-            },
-            {
-              "titulo": "NUMBER"
-            },
-            {
-              "titulo": "ENGLISH"
-            },
-            {
-              "titulo": "SPANISH"
-            }
-          ],
-          "filaContenido": [
-            {
-              "fila": [
-                {
-                  "texto": "<center><b>1ST</b></center>"
-                },
-                {
-                  "texto": "<center>FIRST</center>"
-                },
-                {
-                  "texto": "<center>PRIMERO</center>"
-                },
-                {
-                  "texto": "<center><b>8TH</b></center>"
-                },
-                {
-                  "texto": "<center>EIGHTH</center>"
-                },
-                {
-                  "texto": "<center>OCTAVO</center>"
-                },
-                {
-                  "texto": "<center><b>15TH</b></center>"
-                },
-                {
-                  "texto": "<center>FIFTEENTH</center>"
-                },
-                {
-                  "texto": "<center>DÉCIMO QUINTO</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center><b>2ND</b></center>"
-                },
-                {
-                  "texto": "<center>SECOND</center>"
-                },
-                {
-                  "texto": "<center>SEGUNDO</center>"
-                },
-                {
-                  "texto": "<center><b>9TH</b></center>"
-                },
-                {
-                  "texto": "<center>NINTH</center>"
-                },
-                {
-                  "texto": "<center>NOVENO</center>"
-                },
-                {
-                  "texto": "<center><b>16TH</b></center>"
-                },
-                {
-                  "texto": "<center>SIXTEENTH</center>"
-                },
-                {
-                  "texto": "<center>DÉCIMO SEXTO</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center><b>3RD</b></center>"
-                },
-                {
-                  "texto": "<center>THIRD</center>"
-                },
-                {
-                  "texto": "<center>TERCERO</center>"
-                },
-                {
-                  "texto": "<center><b>10TH</b></center>"
-                },
-                {
-                  "texto": "<center>TENTH</center>"
-                },
-                {
-                  "texto": "<center>DÉCIMO</center>"
-                },
-                {
-                  "texto": "<center><b>17TH</b></center>"
-                },
-                {
-                  "texto": "<center>SEVENTH</center>"
-                },
-                {
-                  "texto": "<center>DÉCIMO SÉPTIMO</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center><b>4TH</b></center>"
-                },
-                {
-                  "texto": "<center>FOURTH</center>"
-                },
-                {
-                  "texto": "<center>CUARTO</center>"
-                },
-                {
-                  "texto": "<center><b>11TH</b></center>"
-                },
-                {
-                  "texto": "<center>ELEVENTH</center>"
-                },
-                {
-                  "texto": "<center>UNDÉCIMO</center>"
-                },
-                {
-                  "texto": "<center><b>18TH</b></center>"
-                },
-                {
-                  "texto": "<center>EIGHTEENTH</center>"
-                },
-                {
-                  "texto": "<center>DÉCIMO OCTAVO</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center><b>5TH</b></center>"
-                },
-                {
-                  "texto": "<center>FIFTH</center>"
-                },
-                {
-                  "texto": "<center>QUINTO</center>"
-                },
-                {
-                  "texto": "<center><b>12TH</b></center>"
-                },
-                {
-                  "texto": "<center>TWELFTH</center>"
-                },
-                {
-                  "texto": "<center>DUODÉCIMO</center>"
-                },
-                {
-                  "texto": "<center><b>19TH</b></center>"
-                },
-                {
-                  "texto": "<center>NINETEENTH</center>"
-                },
-                {
-                  "texto": "<center>DÉCIMO NOVENO</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center><b>6TH</b></center>"
-                },
-                {
-                  "texto": "<center>SIXTH</center>"
-                },
-                {
-                  "texto": "<center>SEXTO</center>"
-                },
-                {
-                  "texto": "<center><b>13TH</b></center>"
-                },
-                {
-                  "texto": "<center>THIRTEENTH</center>"
-                },
-                {
-                  "texto": "<center>DÉCIMO TERCERO</center>"
-                },
-                {
-                  "texto": "<center><b>20TH</b></center>"
-                },
-                {
-                  "texto": "<center>TWENTIETH</center>"
-                },
-                {
-                  "texto": "<center>VIGÉSIMO</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center><b>7TH</b></center>"
-                },
-                {
-                  "texto": "<center>SEVENTH</center>"
-                },
-                {
-                  "texto": "<center>SÉPTIMO</center>"
-                },
-                {
-                  "texto": "<center><b>14TH</b></center>"
-                },
-                {
-                  "texto": "<center>FOURTEENTH</center>"
-                },
-                {
-                  "texto": "<center>DÉCIMO CUARTO</center>"
-                },
-                {
-                  "texto": "<center><b>21TH</b></center>"
-                },
-                {
-                  "texto": "<center>TWENTY-FIRST</center>"
-                },
-                {
-                  "texto": "<center>VIGÉSIMO PRIMERO</center>"
-                }
-              ]
-            }
-
-
-
-
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "Una vez lleguemos al número 20, la estructura siempre es la misma (30, thirtieth; 40, fortieth, 50, fiftieth…). También hemos de fijarnos en la pronunciación. “First” se pronunciará como “ferst”, “third” como “zerd” y el resto de números que terminen en “th” se pronuncian igual pero añadiendo al final el sonido “z”.<br>Entonces, para decir el día que es hoy diremos “Monday THE (se dice aunque no se escriba) thirteenth OF (se dice pero no escribe) January, two thousand seventeen”. Los años del 1000 a 1999 se dividen en dos cifras (1998-nineteen ninety-eight).<br>Si queremos referirnos solamente al día y al mes, podremos decir “January the thirteenth”."
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "<b>BRITISH AND AMERICAN</b><br>En inglés británico, la fecha se dice y escribe como hemos visto hasta ahora, pero en inglés americano se suele poner el mes delante del  día “12/01/2016” – December (the) first two thousand and sixteen."
+          "texto": "Una vez lleguemos al número 20, la estructura siempre es la misma (30: thirtieth; 40: fortieth; 50: fiftieth...). También hemos de fijarnos en la pronunciación: “First” se pronunciará como “ferst”, “third” como “zerd” y el resto de números que terminen en “th” se pronuncian igual pero añadiendo al final el sonido “z”."
         }
       ]
     },
     {
-      "titulo": "Activity: the date",
+      "titulo": "Activity: The date",
       "contenido": [
         {
           "clase": "texto",
@@ -2189,97 +1205,231 @@
       ]
     },
     {
-      "titulo": "The verb to like",
+      "titulo": "THE VERB TO LIKE",
       "contenido": [
         {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "<center><b>TO LIKE</b> significa <b>gustar</b></center>"
+        },
+        {
           "clase": "lista",
-          "titulo": "El verbo “to like”, como ya hemos visto significa “gustar”. Vamos a ver cómo se usa:",
+          "titulo": "Se puede usar de varias formas, como para hablar de <b>cosas que nos gustan o que nos gusta hacer</b>, aunque también podemos utilizar otros verbos con significados similiares:",
           "contenido": [
             {
-              "punto": "Usamos el verbo “to like” para hablar de cosas que nos gustan o que nos gusta hacer. Podemos utilizar otros verbos que tienen un significado similiar a “to like”:",
+              "punto": "<b>To love</b>: Lo utilizamos cuando queremos decir que algo nos encanta o que lo amamos.",
               "contenido": [
                 {
-                  "punto": "To love: I love presents – Me encantan los regalos. Lo utilizamos cuando queremos decir que algo nos encanta o que lo amamos."
-                },
-                {
-                  "punto": "To enjoy: She enjoys long walks- Ella disfruta los largos paseos. Significa disfrutar."
-                },
-                {
-                  "punto": "To hate: I hate my job- Odio mi trabajo. Este verbo en concreto significa lo contrario a “to like”, pero comparten características que veremos más adelante."
+                  "punto": "I love presents. (<i>Me encantan los regalos.)</i>"
                 }
               ]
             },
             {
-              "punto": "Para decir que nos gusta hacer algo, es decir,” like+verb” tendremos que añadir –ing al segundo verbo. Lo mismo ocurre con el resto de los verbos que vimos antes (to love, to enjoy, to hate). Ejemplos:",
+              "punto": "<b>To enjoy</b>: Significa disfrutar.",
               "contenido": [
                 {
-                  "punto": "I like eating sweets – Me gusta comer dulces"
-                },
-                {
-                  "punto": "She likes running – A ella le gusta correr"
-                },
-                {
-                  "punto": "I like going to the cinema- Me gusta ir al cine"
-                },
-                {
-                  "punto": "They like playing the piano – A ellos les gusta tocar el piano"
-                },
-                {
-                  "punto": "I love watching TV – Me encanta ver la tele"
-                },
-                {
-                  "punto": "He hates arguing – Él odia discutir"
+                  "punto": "She enjoys long walks. (<i>Ella disfruta los largos paseos.)</i>"
                 }
               ]
             },
             {
-              "punto": "Para decir que nos gusta algo utilizaremos “I like running” (eg) pero también podemos decir “I like to run”, es decir, verbo like + infinitivo. ¿Cuál es la diferencia y cuándo debemos usar cada uno? Pues la realidad es que tienen prácticamente el mismo significado y podemos usarlos de manera indistinta. Por otro lado, cuando utilizamos “to like + ing” estamos poniendo más énfasis en la acción o experiencia en sí, mientras que si decimos “to like + to inifinitive” nos referimos a una preferencia, que algo nos viene mejor o que es más ventajoso para nosotros. También lo utilizamos para indicar un hábito.<br>Ejemplo:",
+              "punto": "<b>To hate</b>:  Este verbo en concreto significa lo contrario a “to like”, pero comparten características que veremos más adelante.",
               "contenido": [
                 {
-                  "punto": "I like reading at night vs. I like to read at night (Me gusta leer por la noche). En ambos casos el significado es el mismo pero en el primero (I like reading…) ponemos más énfasis en el verbo leer, mientras que en el segundo (I like to read…) queremos expresar que solemos leer por la noche o que nos viene mejor leer por la noche."
-                }
-              ]
-            },
-            {
-              "punto": "Forma negativa e interrogativa:",
-              "contenido": [
-                {
-                  "punto": "I don’t like eating sweets – No me gusta comer dulces."
-                },
-                {
-                  "punto": "She doesn’t like running – A ella no le gusta correr"
-                },
-                {
-                  "punto": "I don’t like going to the cinema – No me gusta ir al cine"
-                },
-                {
-                  "punto": "They don’t like playing the piano – A ellos no les gusta tocar el piano"
-                },
-                {
-                  "punto": "Do you like eating sweets? - ¿Te gusta comer dulces?"
-                },
-                {
-                  "punto": "Does she like running? - ¿Le gusta corer?"
-                },
-                {
-                  "punto": "Do you like going to the cinema? - ¿Te gusta ir al cine?"
-                },
-                {
-                  "punto": "Do they like playing the piano? - ¿Le gusta tocar el piano?"
+                  "punto": "I hate my job. (<i>Odio mi trabajo.</i>)"
                 }
               ]
             }
           ]
         },
         {
-          "clase": "icono",
-          "subclase": "exclamacion",
-          "texto": "Recuerda que “like” tiene que llevar –s en la tercera persona del singular!"
+          "punto": "Para <b>decir que nos gusta hacer algo</b>, es decir, <b>like + verb, añadiendo –ing al segundo verbo</b>. Lo mismo ocurre con el resto de los verbos anteriores (to love, to enjoy, to hate).",
+          "contenido": [
+            {
+              "punto": "I like eating sweets. (<i>Me gusta comer dulces.</i>)"
+            },
+            {
+              "punto": "She likes running. (<i>A ella le gusta correr.</i>)"
+            },
+            {
+              "punto": "I like going to the cinema. (<i>Me gusta ir al cine.</i>)"
+            },
+            {
+              "punto": "They like playing the piano. (<i>A ellos les gusta tocar el piano.</i>)"
+            },
+            {
+              "punto": "I love watching TV. (<i>Me encanta ver la tele.</i>)"
+            },
+            {
+              "punto": "He hates arguing. (<i>Él odia discutir.</i>)"
+            }
+          ]
         }
       ]
     },
     {
-      "titulo": "Activity: to like",
+      "titulo": "TO LIKE + VERB",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Para <b>decir que nos gusta hacer algo</b> podemos utilizar:",
+              "contenido": [
+                {
+                  "punto": "<b>TO LIKE + VERB, añadiendo –ING</b> al segundo verbo.",
+                  "contenido": [
+                    {
+                      "punto": "I like eating sweets. (<i>Me gusta comer dulces.</i>)"
+                    },
+                    {
+                      "punto": "She likes running. (<i>A ella le gusta correr.</i>)"
+                    },
+                    {
+                      "punto": "I like going to the cinema. (<i>Me gusta ir al cine.</i>)"
+                    },
+                    {
+                      "punto": "They like playing the piano. (<i>A ellos les gusta tocar el piano.</i>)"
+                    },
+                    {
+                      "punto": "I love watching TV. (<i>Me encanta ver la tele.</i>)"
+                    },
+                    {
+                      "punto": "He hates arguing. (<i>Él odia discutir.</i>)"
+                    }
+                  ]
+                },
+                {
+                  "punto": "<b>TO LIKE + INFFINITIVE</b>"
+                }
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "exclamacion",
+              "texto": "Se puede <b>sustituir TO LIKE</b> por los verbos anteriores (to love, to enjoy) o por su contrario (to hate)."
+            }
+          ]
+        },
+
+        {
+          "clase": "texto",
+          "texto": "Prácticamente tienen el mismo significado y podemos decir que nos gusta algo con “I like running” o “I like to run”, pero cuando utilizamos “like + ing” ponemos más énfasis en la acción en sí, mientras que si decimos “like + to inffinitive” nos referimos a una preferencia, algo que nos viene mejor o es más ventajoso para nosotros. También se utiliza para indicar un hábito."
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "to like + verb[ing]"
+            },
+            {
+              "titulo": "to like + inffinitive"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "I like reading at night."
+                },
+                {
+                  "texto": "I like to read at night."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><i>Me gusta leer por la noche</i>.</center>",
+                  "colspan": 2
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Enfatizamos más la acción de leer."
+                },
+                {
+                  "texto": "Solemos (o nos viene mejor) leer por la noche."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "TO LIKE: Forms",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "<b>Forma negativa</b>",
+              "contenido": [
+                {
+                  "punto": "I don’t like eating sweets. (<i>No me gusta comer dulces.</i>)"
+                },
+                {
+                  "punto": "She doesn’t like running. (<i>A ella no le gusta correr.</i>)"
+                },
+                {
+                  "punto": "I don’t like going to the cinema. (<i>No me gusta ir al cine.</i>)"
+                },
+                {
+                  "punto": "They don’t like playing the piano. (<i>A ellos no les gusta tocar el piano.</i>)"
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
+              "imagen": "img/mod03/joggin.jpg",
+              "ancho": 200
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "<b>Forma interrogativa</b>",
+              "contenido": [
+                {
+                  "punto": "Do you like eating sweets? (<i>¿Te gusta comer dulces?</i>)"
+                },
+                {
+                  "punto": "Does she like running? (<i>¿Le gusta correr?</i>)"
+                },
+                {
+                  "punto": "Do you like going to the cinema? (<i>¿Te gusta ir al cine?</i>)"
+                },
+                {
+                  "punto": "Do they like playing the piano? (<i>¿Le gusta tocar el piano?</i>)"
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "imagen": "img/mod03/cinema.jpg",
+              "ancho": 200
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "<center><b>TO LIKE lleva “–S” en la tercera persona del singular!</center></b>"
+        }
+      ]
+    },
+    {
+      "titulo": "Activity: To like",
       "contenido": [
         {
           "clase": "texto",
@@ -2380,6 +1530,303 @@
       ]
     },
     {
+      "titulo": "DAILY ROUTINE",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En esta unidad aprenderemos a describir <b>our daily routine</b> (<i>nuestra rutina diaria</i>). Veremos el vocabulario necesario para describir lo que hacemos desde que nos levantamos, pasando por nuestro trabajo y nuestro tiempo libre. ¡Empecemos!"
+        },
+        {
+          "clase": "texto",
+          "texto": "Para describir ‘our daily routine’ utilizaremos siempre el PRESENT SIMPLE, ya que son acciones que solemos repetir con frecuencia o que tenemos costumbre de hacer."
+        },
+        {
+          "clase": "lista",
+              "titulo": "<b>ADVERBS OF FREQUENCY:</b> para describir nuestra ‘daily routine” o nuestra ‘everyday routine’ (lo que hacemos todos los días), podemos utilizar adverbios de frecuencia. Estos adverbios se utilizan para describir la frecuencia con la que realizamos una acción.",
+              "contenido": [
+                {
+                  "punto": "Suelen ir en el medio de la frase, entre el sujeto y el verbo y con el verbo TO BE se colocan después del verbo:",
+                  "contenido": [
+                    {
+                      "punto": "She sometimes visits the museum. (<i>Ella a veces visita el museo.</i>)"
+                    },
+                    {
+                      "punto": "We usually drink coffee. (<i>Nosotros normalmente bebemos café.</i>)"
+                    },
+                                        {
+                      "punto": "They are never kind to people. (<i>Nunca son amables con la gente.</i>)"
+                    }
+                  ]
+                },
+                {
+                  "punto": "‘How often do/does you/he/she… + infitive + complement?’ significa ‘¿Con qué frecuencia haces…?’ Ejemplo:<br>How often do you cook? – I cook every day.<br>¿Con qué frecuencia cocinas? Cocino todos los días.<br>How often does she go to the cinema? – She goes to the cinema twice a week.<br>¿Con qué frecuencia va ella al cine? – Ella va dos veces a la semana."
+                },
+                {
+                  "punto": "Para expresar con qué frecuencia hacemos algo podemos utilizar los adverbios ‘several’ o ‘many’ junto con ‘times’, para decir ‘varias veces’: ‘I meet Sam several times a year’ – Me reúno con Sam varias veces al año. Si queremos decir ‘una vez’ diremos ‘ONCE’ (pronunciado ‘guans’) y no ‘one time’. Con dos veces ocurre lo mismo, no diremos ‘two times’ si no ‘TWICE’ (pronunciado ‘tuais’). A partir de tres veces ya podemos utilizar el número que queramos + times: three times, ten times, one hundred times... Para decir cuantas veces hacemos algo en un periodo de tiempo añadiremos “a” después de times."
+                }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "<b>REMEMBER</b><br><center>Subject + adverb + main verb<br>Subject + to be + adverb</center>"
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "<center>Con estos ejemplos lo entenderás mejor:</center>",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>Several/ many + times: varias veces</center>"
+                },
+                {
+                  "texto": "<center>+ a week/ day/ year/ month…</center>",
+                  "rowspan": 4
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Once: una vez</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Twice: dos veces</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Three, five, twenty… + times: 3, 4… veces</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Every + day/ night/ week/ Monday…: cada día/ noche/ semana/ lunes…</center>",
+                  "colspan": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "Adverbs with PRESENT SIMPLE:",
+          "contenido": [
+            {
+              "punto": "ALWAYS: siempre"
+            },
+            {
+              "punto": "USUALLY: normalmente"
+            },
+            {
+              "punto": "NEVER: nunca"
+            },
+            {
+              "punto": "SOMETIMES: a veces"
+            },
+            {
+              "punto": "FREQUENTLY: frecuentemente"
+            },
+            {
+              "punto": "GENERALLY: generalmente"
+            },
+            {
+              "punto": "OCCASIONALLY: ocasionalmente"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Ejemplos:</b><br>I brush my teeth several times a day – Me cepillo los dientes varias veces al día.<br>I do the laundry twice a week – Hago la colada dos veces a la semana.<br>I wash my hair every night – Me lavo el pelo cada noche.<br>I go to the supermarket every Wednesday – Voy al supermercado cada miércoles.<br>I always have tea for breakfast – Siempre tomo té para desayunar.<br>I sometimes take the bus – A veces cojo el autobus.<br>I frequently watch TV – Veo la tele con frecuencia/ frecuentemente."
+        }
+      ]
+    },
+    {
+      "titulo": "HOW OFTEN...?",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "<center><b>HOW OFTEN + AUX. + SUBJ. + INFINITIVE + COMPLEMENT</b></center>"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "<b>Auxiliar verb:</b> do/does"
+            },
+            {
+              "punto": "<b>Subject:</b> you/he/she..."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Utilizamos <b<how often...?</b> para preguntar con qué frecuencia haces algo:"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "How often do you cook? (<i>¿Con qué frecuencia cocinas?</i>)"
+            },
+            {
+              "punto": "I cook every day. (<i>Cocino todos los días.</i>)<br>"
+            },
+            {
+              "punto": "How often does she go to the cinema? (<i>¿Con qué frecuencia va ella al cine?</i>)"
+            },
+            {
+              "punto": "She goes to the cinema twice a week. (<i>Ella va dos veces a la semana.</i>)"
+            }
+          ]
+        },
+                {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "‘How often do/does you/he/she... + infitive + complement?’ significa ‘¿Con qué frecuencia haces…?’ Ejemplo:<br>How often do you cook? – I cook every day.<br>¿Con qué frecuencia cocinas? Cocino todos los días.<br>How often does she go to the cinema? – She goes to the cinema twice a week.<br>¿Con qué frecuencia va ella al cine? – Ella va dos veces a la semana."
+            },
+            {
+              "punto": "Para expresar con qué frecuencia hacemos algo podemos utilizar los adverbios ‘several’ o ‘many’ junto con ‘times’, para decir ‘varias veces’: ‘I meet Sam several times a year’ – Me reúno con Sam varias veces al año. Si queremos decir ‘una vez’ diremos ‘ONCE’ (pronunciado ‘guans’) y no ‘one time’. Con dos veces ocurre lo mismo, no diremos ‘two times’ si no ‘TWICE’ (pronunciado ‘tuais’). A partir de tres veces ya podemos utilizar el número que queramos + times: three times, ten times, one hundred times… Para decir cuantas veces hacemos algo en un periodo de tiempo añadiremos “a” después de times."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "My daily routine",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En esta unidad aprenderemos a describir nuestra rutina diaria o, lo que es lo mismo, ‘our daily routine’. Veremos todo el vocabulario necesario para describir lo que hacemos desde que nos levantamos, pasando por nuestro trabajo y nuestro tiempo libre. Empecemos!"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Para describir ‘our daily routine’ utilizaremos siempre el PRESENT SIMPLE, ya que son acciones que solemos repetir con frecuencia o que tenemos costumbre de hacer."
+            },
+            {
+              "punto": "ADVERBS OF FREQUENCY: para describir nuestra ‘daily routine” o nuestra ‘everyday routine’ (lo que hacemos todos los días), podemos utilizar adverbios de frecuencia o ‘adverbs of frequency’. Estos adverbios se utilizan para describir la frecuencia con la que realizamos una acción.",
+              "contenido": [
+                {
+                  "punto": "Suelen ir en el medio de la frase, entre el sujeto y el verbo y con el verbo TO BE se colocan después del verbo:<br>She sometimes visits the museum – Ella a veces visita el museo.<br>We usually drink coffee – Nosotros normalmente bebemos café.<br>They are never kind to people – Nunca son amables con la gente."
+                },
+                {
+                  "punto": "‘How often do/does you/he/she… + infitive + complement?’ significa ‘¿Con qué frecuencia haces…?’ Ejemplo:<br>How often do you cook? – I cook every day.<br>¿Con qué frecuencia cocinas? Cocino todos los días.<br>How often does she go to the cinema? – She goes to the cinema twice a week.<br>¿Con qué frecuencia va ella al cine? – Ella va dos veces a la semana."
+                },
+                {
+                  "punto": "Para expresar con qué frecuencia hacemos algo podemos utilizar los adverbios ‘several’ o ‘many’ junto con ‘times’, para decir ‘varias veces’: ‘I meet Sam several times a year’ – Me reúno con Sam varias veces al año. Si queremos decir ‘una vez’ diremos ‘ONCE’ (pronunciado ‘guans’) y no ‘one time’. Con dos veces ocurre lo mismo, no diremos ‘two times’ si no ‘TWICE’ (pronunciado ‘tuais’). A partir de tres veces ya podemos utilizar el número que queramos + times: three times, ten times, one hundred times… Para decir cuantas veces hacemos algo en un periodo de tiempo añadiremos “a” después de times."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "<b>REMEMBER</b><br><center>Subject + adverb + main verb<br>Subject + to be + adverb</center>"
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "<center>Con estos ejemplos lo entenderás mejor:</center>",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<center>Several/ many + times: varias veces</center>"
+                },
+                {
+                  "texto": "<center>+ a week/ day/ year/ month…</center>",
+                  "rowspan": 4
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Once: una vez</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Twice: dos veces</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Three, five, twenty… + times: 3, 4… veces</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center>Every + day/ night/ week/ Monday…: cada día/ noche/ semana/ lunes…</center>",
+                  "colspan": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "Adverbs with PRESENT SIMPLE:",
+          "contenido": [
+            {
+              "punto": "ALWAYS: siempre"
+            },
+            {
+              "punto": "USUALLY: normalmente"
+            },
+            {
+              "punto": "NEVER: nunca"
+            },
+            {
+              "punto": "SOMETIMES: a veces"
+            },
+            {
+              "punto": "FREQUENTLY: frecuentemente"
+            },
+            {
+              "punto": "GENERALLY: generalmente"
+            },
+            {
+              "punto": "OCCASIONALLY: ocasionalmente"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Ejemplos:</b><br>I brush my teeth several times a day – Me cepillo los dientes varias veces al día.<br>I do the laundry twice a week – Hago la colada dos veces a la semana.<br>I wash my hair every night – Me lavo el pelo cada noche.<br>I go to the supermarket every Wednesday – Voy al supermercado cada miércoles.<br>I always have tea for breakfast – Siempre tomo té para desayunar.<br>I sometimes take the bus – A veces cojo el autobus.<br>I frequently watch TV – Veo la tele con frecuencia/ frecuentemente."
+        }
+      ]
+    },
+            {
       "titulo": "My daily routine",
       "contenido": [
         {
@@ -3120,7 +2567,7 @@
             {
               "punto": "",
               "contenido": [
-                                {
+                {
                   "punto": "You have learned how to use the verb ‘to like/love/enjoy/hate’:"
                 },
                 {
@@ -3138,7 +2585,7 @@
                 {
                   "punto": "I don’t like the dress."
                 },
-                                {
+                {
                   "punto": "Do you like going to the beach?"
                 }
               ]
@@ -3351,7 +2798,7 @@
             }
           ]
         },
-                {
+        {
           "clase": "imagen",
           "imagen": "img/comunes/londonLast2.png"
         }
