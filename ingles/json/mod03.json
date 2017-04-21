@@ -863,7 +863,7 @@
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "texto": "<b>BRITISH AND AMERICAN</b><br>En inglés británico, la fecha se dice y escribe como hemos visto hasta ahora, pero en inglés americano se suele poner el mes delante del  día “12/01/2016” – December (the) first two thousand and sixteen."
+          "texto": "<b>BRITISH AND AMERICAN</b><br>En inglés británico, la fecha se dice y escribe como hemos visto hasta ahora, pero en inglés americano se suele poner el mes delante del  día “12/01/2016”: <b>December (the) first two thousand and sixteen</b>."
         }
       ]
     },
@@ -1301,7 +1301,7 @@
                   ]
                 },
                 {
-                  "punto": "<b>TO LIKE + INFFINITIVE</b>"
+                  "punto": "<b>TO LIKE + INFINITIVE</b>"
                 }
               ]
             },
@@ -1315,7 +1315,7 @@
 
         {
           "clase": "texto",
-          "texto": "Prácticamente tienen el mismo significado y podemos decir que nos gusta algo con “I like running” o “I like to run”, pero cuando utilizamos “like + ing” ponemos más énfasis en la acción en sí, mientras que si decimos “like + to inffinitive” nos referimos a una preferencia, algo que nos viene mejor o es más ventajoso para nosotros. También se utiliza para indicar un hábito."
+          "texto": "Prácticamente tienen el mismo significado y podemos decir que nos gusta algo con “I like running” o “I like to run”, pero cuando utilizamos “like + ing” ponemos más énfasis en la acción en sí, mientras que si decimos “like + to infinitive” nos referimos a una preferencia, algo que nos viene mejor o es más ventajoso para nosotros. También se utiliza para indicar un hábito."
         },
         {
           "clase": "tabla",
@@ -1324,7 +1324,7 @@
               "titulo": "to like + verb[ing]"
             },
             {
-              "titulo": "to like + inffinitive"
+              "titulo": "to like + infinitive"
             }
           ],
           "filaContenido": [
@@ -1538,120 +1538,67 @@
         },
         {
           "clase": "texto",
-          "texto": "Para describir ‘our daily routine’ utilizaremos siempre el PRESENT SIMPLE, ya que son acciones que solemos repetir con frecuencia o que tenemos costumbre de hacer."
+          "texto": "Para describir acciones que solemos repetir con frecuencia o tenemos costumbre de hacer utilizaremos siempre PRESENT SIMPLE, normalmente acompañado de un adverbio de frecuencia."
         },
         {
-          "clase": "lista",
-              "titulo": "<b>ADVERBS OF FREQUENCY:</b> para describir nuestra ‘daily routine” o nuestra ‘everyday routine’ (lo que hacemos todos los días), podemos utilizar adverbios de frecuencia. Estos adverbios se utilizan para describir la frecuencia con la que realizamos una acción.",
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Estos adverbios se utilizan para describir la frecuencia con la que realizamos una acción. Suelen ir en mitad de la frase entre el sujeto y el verbo, pero con el verbo TO BE se colocan justo después del verbo."
+            },
+            {
+              "clase": "lista",
+              "titulo": "<b>ADVERBS OF FREQUENCY</b>",
               "contenido": [
                 {
-                  "punto": "Suelen ir en el medio de la frase, entre el sujeto y el verbo y con el verbo TO BE se colocan después del verbo:",
-                  "contenido": [
-                    {
-                      "punto": "She sometimes visits the museum. (<i>Ella a veces visita el museo.</i>)"
-                    },
-                    {
-                      "punto": "We usually drink coffee. (<i>Nosotros normalmente bebemos café.</i>)"
-                    },
-                                        {
-                      "punto": "They are never kind to people. (<i>Nunca son amables con la gente.</i>)"
-                    }
-                  ]
+                  "punto": "ALWAYS: siempre"
                 },
                 {
-                  "punto": "‘How often do/does you/he/she… + infitive + complement?’ significa ‘¿Con qué frecuencia haces…?’ Ejemplo:<br>How often do you cook? – I cook every day.<br>¿Con qué frecuencia cocinas? Cocino todos los días.<br>How often does she go to the cinema? – She goes to the cinema twice a week.<br>¿Con qué frecuencia va ella al cine? – Ella va dos veces a la semana."
+                  "punto": "USUALLY: normalmente"
                 },
                 {
-                  "punto": "Para expresar con qué frecuencia hacemos algo podemos utilizar los adverbios ‘several’ o ‘many’ junto con ‘times’, para decir ‘varias veces’: ‘I meet Sam several times a year’ – Me reúno con Sam varias veces al año. Si queremos decir ‘una vez’ diremos ‘ONCE’ (pronunciado ‘guans’) y no ‘one time’. Con dos veces ocurre lo mismo, no diremos ‘two times’ si no ‘TWICE’ (pronunciado ‘tuais’). A partir de tres veces ya podemos utilizar el número que queramos + times: three times, ten times, one hundred times... Para decir cuantas veces hacemos algo en un periodo de tiempo añadiremos “a” después de times."
+                  "punto": "NEVER: nunca"
+                },
+                {
+                  "punto": "SOMETIMES: a veces"
+                },
+                {
+                  "punto": "FREQUENTLY: frecuentemente"
+                },
+                {
+                  "punto": "GENERALLY: generalmente"
+                },
+                {
+                  "punto": "OCCASIONALLY: ocasionalmente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+                    {
+          "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "She sometimes visits the museum. (<i>Ella a veces visita el museo.</i>)"
+                },
+                {
+                  "punto": "We usually drink coffee. (<i>Nosotros normalmente bebemos café.</i>)"
+                },
+                {
+                  "punto": "They are never kind to people. (<i>Nunca son amables con la gente.</i>)"
                 }
           ]
         },
         {
           "clase": "icono",
           "subclase": "exclamacion",
-          "texto": "<b>REMEMBER</b><br><center>Subject + adverb + main verb<br>Subject + to be + adverb</center>"
-        },
-        {
-          "clase": "tabla",
-          "filaTitulos": [
-            {
-              "titulo": "<center>Con estos ejemplos lo entenderás mejor:</center>",
-              "colspan": 2
-            }
-          ],
-          "filaContenido": [
-            {
-              "fila": [
-                {
-                  "texto": "<center>Several/ many + times: varias veces</center>"
-                },
-                {
-                  "texto": "<center>+ a week/ day/ year/ month…</center>",
-                  "rowspan": 4
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>Once: una vez</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>Twice: dos veces</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>Three, five, twenty… + times: 3, 4… veces</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>Every + day/ night/ week/ Monday…: cada día/ noche/ semana/ lunes…</center>",
-                  "colspan": 2
-                }
-              ]
-            }
+          "texto": "<center><b>Subject + adverb + main verb<br>Subject + to be + adverb</b></center>"
+        }
           ]
-        },
-        {
-          "clase": "lista",
-          "titulo": "Adverbs with PRESENT SIMPLE:",
-          "contenido": [
-            {
-              "punto": "ALWAYS: siempre"
-            },
-            {
-              "punto": "USUALLY: normalmente"
-            },
-            {
-              "punto": "NEVER: nunca"
-            },
-            {
-              "punto": "SOMETIMES: a veces"
-            },
-            {
-              "punto": "FREQUENTLY: frecuentemente"
-            },
-            {
-              "punto": "GENERALLY: generalmente"
-            },
-            {
-              "punto": "OCCASIONALLY: ocasionalmente"
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "<b>Ejemplos:</b><br>I brush my teeth several times a day – Me cepillo los dientes varias veces al día.<br>I do the laundry twice a week – Hago la colada dos veces a la semana.<br>I wash my hair every night – Me lavo el pelo cada noche.<br>I go to the supermarket every Wednesday – Voy al supermercado cada miércoles.<br>I always have tea for breakfast – Siempre tomo té para desayunar.<br>I sometimes take the bus – A veces cojo el autobus.<br>I frequently watch TV – Veo la tele con frecuencia/ frecuentemente."
         }
       ]
     },
@@ -1667,16 +1614,16 @@
           "clase": "lista",
           "contenido": [
             {
-              "punto": "<b>Auxiliar verb:</b> do/does"
+              "punto": "<b>AUX</b>: Auxiliar verb (<i>Verbo auxiliar</i>) do/does"
             },
             {
-              "punto": "<b>Subject:</b> you/he/she..."
+              "punto": "<b>SUBJ</b>: Subject (<i>Sujeto</i>) you/he/she..."
             }
           ]
         },
         {
           "clase": "texto",
-          "texto": "Utilizamos <b<how often...?</b> para preguntar con qué frecuencia haces algo:"
+          "texto": "Utilizamos <b>how often...?</b> para preguntar con qué frecuencia haces algo:"
         },
         {
           "clase": "lista",
@@ -1685,7 +1632,7 @@
               "punto": "How often do you cook? (<i>¿Con qué frecuencia cocinas?</i>)"
             },
             {
-              "punto": "I cook every day. (<i>Cocino todos los días.</i>)<br>"
+              "punto": "I cook every day. (<i>Cocino todos los días.</i>)<br><br>"
             },
             {
               "punto": "How often does she go to the cinema? (<i>¿Con qué frecuencia va ella al cine?</i>)"
@@ -1694,59 +1641,47 @@
               "punto": "She goes to the cinema twice a week. (<i>Ella va dos veces a la semana.</i>)"
             }
           ]
-        },
-                {
-          "clase": "lista",
-          "contenido": [
-            {
-              "punto": "‘How often do/does you/he/she... + infitive + complement?’ significa ‘¿Con qué frecuencia haces…?’ Ejemplo:<br>How often do you cook? – I cook every day.<br>¿Con qué frecuencia cocinas? Cocino todos los días.<br>How often does she go to the cinema? – She goes to the cinema twice a week.<br>¿Con qué frecuencia va ella al cine? – Ella va dos veces a la semana."
-            },
-            {
-              "punto": "Para expresar con qué frecuencia hacemos algo podemos utilizar los adverbios ‘several’ o ‘many’ junto con ‘times’, para decir ‘varias veces’: ‘I meet Sam several times a year’ – Me reúno con Sam varias veces al año. Si queremos decir ‘una vez’ diremos ‘ONCE’ (pronunciado ‘guans’) y no ‘one time’. Con dos veces ocurre lo mismo, no diremos ‘two times’ si no ‘TWICE’ (pronunciado ‘tuais’). A partir de tres veces ya podemos utilizar el número que queramos + times: three times, ten times, one hundred times… Para decir cuantas veces hacemos algo en un periodo de tiempo añadiremos “a” después de times."
-            }
-          ]
         }
       ]
     },
     {
-      "titulo": "My daily routine",
+      "titulo": "MANY TIMES",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "En esta unidad aprenderemos a describir nuestra rutina diaria o, lo que es lo mismo, ‘our daily routine’. Veremos todo el vocabulario necesario para describir lo que hacemos desde que nos levantamos, pasando por nuestro trabajo y nuestro tiempo libre. Empecemos!"
+          "texto": "Para expresar que la frecuencia con que hacemos algo es de ‘varias veces’ podemos utilizar: "
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "<center><b>SEVERAL/MANY + TIMES</b></center>"
+        },
+        {
+          "clase": "texto",
+          "texto": "<center>I meet Sam several times a year. (<i>Me reúno con Sam varias veces al año.</i>)</center>"
         },
         {
           "clase": "lista",
           "contenido": [
             {
-              "punto": "Para describir ‘our daily routine’ utilizaremos siempre el PRESENT SIMPLE, ya que son acciones que solemos repetir con frecuencia o que tenemos costumbre de hacer."
+              "punto": "Si queremos decir <b>una vez</b> diremos <b>ONCE</b> (pronunciado ‘guans’) y no ‘one time’."
             },
             {
-              "punto": "ADVERBS OF FREQUENCY: para describir nuestra ‘daily routine” o nuestra ‘everyday routine’ (lo que hacemos todos los días), podemos utilizar adverbios de frecuencia o ‘adverbs of frequency’. Estos adverbios se utilizan para describir la frecuencia con la que realizamos una acción.",
-              "contenido": [
-                {
-                  "punto": "Suelen ir en el medio de la frase, entre el sujeto y el verbo y con el verbo TO BE se colocan después del verbo:<br>She sometimes visits the museum – Ella a veces visita el museo.<br>We usually drink coffee – Nosotros normalmente bebemos café.<br>They are never kind to people – Nunca son amables con la gente."
-                },
-                {
-                  "punto": "‘How often do/does you/he/she… + infitive + complement?’ significa ‘¿Con qué frecuencia haces…?’ Ejemplo:<br>How often do you cook? – I cook every day.<br>¿Con qué frecuencia cocinas? Cocino todos los días.<br>How often does she go to the cinema? – She goes to the cinema twice a week.<br>¿Con qué frecuencia va ella al cine? – Ella va dos veces a la semana."
-                },
-                {
-                  "punto": "Para expresar con qué frecuencia hacemos algo podemos utilizar los adverbios ‘several’ o ‘many’ junto con ‘times’, para decir ‘varias veces’: ‘I meet Sam several times a year’ – Me reúno con Sam varias veces al año. Si queremos decir ‘una vez’ diremos ‘ONCE’ (pronunciado ‘guans’) y no ‘one time’. Con dos veces ocurre lo mismo, no diremos ‘two times’ si no ‘TWICE’ (pronunciado ‘tuais’). A partir de tres veces ya podemos utilizar el número que queramos + times: three times, ten times, one hundred times… Para decir cuantas veces hacemos algo en un periodo de tiempo añadiremos “a” después de times."
-                }
-              ]
+              "punto": "Para decir <b>dos veces</b> no diremos ‘two times’, si no <b>TWICE</b> (pronunciado ‘tuais’)."
+            },
+            {
+              "punto": "Para <b>tres veces o más</b> usaremos el <b>número + times</b>: three times, ten times, one hundred times..."
+            },
+            {
+              "punto": "Para decir cuantas veces hacemos algo en un periodo de tiempo dado, añadiremos “a” después de times, seguido del período de tiempo."
             }
           ]
-        },
-        {
-          "clase": "icono",
-          "subclase": "exclamacion",
-          "texto": "<b>REMEMBER</b><br><center>Subject + adverb + main verb<br>Subject + to be + adverb</center>"
         },
         {
           "clase": "tabla",
           "filaTitulos": [
             {
-              "titulo": "<center>Con estos ejemplos lo entenderás mejor:</center>",
+              "titulo": "<center>Con esta tabla lo entenderás mejor:</center>",
               "colspan": 2
             }
           ],
@@ -1754,10 +1689,10 @@
             {
               "fila": [
                 {
-                  "texto": "<center>Several/ many + times: varias veces</center>"
+                  "texto": "<center>Several / many + times (<i>varias veces</i>)</center>"
                 },
                 {
-                  "texto": "<center>+ a week/ day/ year/ month…</center>",
+                  "texto": "<center>+ a week / day / year / month...</center>",
                   "rowspan": 4
                 }
               ]
@@ -1765,68 +1700,37 @@
             {
               "fila": [
                 {
-                  "texto": "<center>Once: una vez</center>"
+                  "texto": "<center>Once (<i>una vez</i>)</center>"
                 }
               ]
             },
             {
               "fila": [
                 {
-                  "texto": "<center>Twice: dos veces</center>"
+                  "texto": "<center>Twice (<i>dos veces</i>)</center>"
                 }
               ]
             },
             {
               "fila": [
                 {
-                  "texto": "<center>Three, five, twenty… + times: 3, 4… veces</center>"
+                  "texto": "<center>Three, five, twenty... + times (<i>3, 5, 20... veces</i>)</center>"
                 }
               ]
             },
             {
               "fila": [
                 {
-                  "texto": "<center>Every + day/ night/ week/ Monday…: cada día/ noche/ semana/ lunes…</center>",
+                  "texto": "<center>Every + day / night / week / Monday... (<i>cada día / noche / semana / lunes...</i>)</center>",
                   "colspan": 2
                 }
               ]
             }
           ]
-        },
-        {
-          "clase": "lista",
-          "titulo": "Adverbs with PRESENT SIMPLE:",
-          "contenido": [
-            {
-              "punto": "ALWAYS: siempre"
-            },
-            {
-              "punto": "USUALLY: normalmente"
-            },
-            {
-              "punto": "NEVER: nunca"
-            },
-            {
-              "punto": "SOMETIMES: a veces"
-            },
-            {
-              "punto": "FREQUENTLY: frecuentemente"
-            },
-            {
-              "punto": "GENERALLY: generalmente"
-            },
-            {
-              "punto": "OCCASIONALLY: ocasionalmente"
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "<b>Ejemplos:</b><br>I brush my teeth several times a day – Me cepillo los dientes varias veces al día.<br>I do the laundry twice a week – Hago la colada dos veces a la semana.<br>I wash my hair every night – Me lavo el pelo cada noche.<br>I go to the supermarket every Wednesday – Voy al supermercado cada miércoles.<br>I always have tea for breakfast – Siempre tomo té para desayunar.<br>I sometimes take the bus – A veces cojo el autobus.<br>I frequently watch TV – Veo la tele con frecuencia/ frecuentemente."
         }
       ]
     },
-            {
+    {
       "titulo": "My daily routine",
       "contenido": [
         {
