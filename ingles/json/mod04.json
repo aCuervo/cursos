@@ -1085,7 +1085,7 @@
       ]
     },
     {
-      "titulo": "Saxon genitive",
+      "titulo": "SAXON GENITIVE",
       "contenido": [
         {
           "clase": "lista",
@@ -1152,7 +1152,7 @@
       ]
     },
     {
-      "titulo": "Activity: saxon genitive",
+      "titulo": "Activity: Saxon Genitive",
       "contenido": [
         {
           "clase": "texto",
@@ -1195,7 +1195,7 @@
               "id": "3",
               "respuestas": [
                 {
-                  "opcion": "When is your birthday's child?",
+                  "opcion": "When is your child's birthday?",
                   "correcto": true
                 },
                 {
@@ -1674,7 +1674,7 @@
                             {
                               "fila": [
                                 {
-                                  "texto": "<center><b>GRANDAUGHTER</b></center>"
+                                  "texto": "<center><b>GRANDDAUGHTER</b></center>"
                                 },
                                 {
                                   "texto": "<center>NIETA</center>"
@@ -1975,7 +1975,7 @@
               "posY": 0
             },
             {
-              "palabra": "GRANDAUGHTER",
+              "palabra": "GRANDDAUGHTER",
               "definicion": "NIETA",
               "direccion": "V",
               "posX": 8,
@@ -2203,48 +2203,251 @@
               "punto": "How much do you weight? - ¿Cuánto pesas?"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Describing people",
+      "contenido": [
         {
           "clase": "texto",
-          "texto": "<b>EXAMPLES</b>"
+          "texto": "En el primer módulo de este curso, aprendimos un montón de adjetivos para describir el carácter y el aspecto de las personas y cosas. En esta unidad aprenderemos a describir físicamente a las personas que nos rodean usando todo el vocabulario y los verbos que ya sabes.<br><br>Para describir a alguien utilizaremos adjetivos, recuerda que en inglés los adjetivos se colocan siempre antes del nombre (Green eyes, long hair, beautiful face...)."
         },
         {
           "clase": "listaObjetos",
           "contenido": [
             {
               "clase": "listaObjetos",
+              "subclase": "columna",
               "contenido": [
                 {
-                  "clase": "imagen",
-                  "imagen": "img/mod04/emily.png"
+                  "clase": "texto",
+                  "texto": "<b><center>HEIGHT AND WEIGHT (/haɪt/ and /weɪt/)</b></center><br>Para describir la altura (height)<br>She is tall/ short/ medium height...<br>Para describir su peso o su figura (weight):<br>Peter is Slim/ thin/ fat/ overweight...."
                 },
                 {
-                  "clase": "texto",
-                  "texto": "This is Emily. Emily is a student. She is medium height, slim and she has got fair skin. She has got brown eyes and she wears red glasses. She has short purple straight hair. Emily looks friendly and cheerful.<br><br>Esta es Emily. Emily es una estudiante. Ella es de estatura media, delgada y tiene la piel clara. Tiene los ojos marrones y lleva gafas rojas. Tiene el pelo corto, morado y liso. Emily parece amistosa y alegre."
+                  "clase": "icono",
+                  "subclase": "exclamacion",
+                  "texto": "People are TALL and not high."
                 }
               ]
             },
             {
               "clase": "listaObjetos",
+              "subclase": "columna",
               "contenido": [
                 {
-                  "clase": "imagen",
-                  "imagen": "img/mod04/john.png"
+                  "clase": "texto",
+                  "texto": "<b><center>FACE AND HEAD (/feɪs/ and /hɛd/)</center></b><br>Podemos describir la cara (the face) de alguien de muchas maneras. Podemos decir simplemente que es guapo (He is handsome/ good looking) o que no es muy guapo (He is not very handsome.)"
                 },
                 {
                   "clase": "texto",
-                  "texto": "John is Emily’s father. He’s 56 years old. He looks calm and kind. He is a doctor and he works at the hospital. He is tall and slim. He has short grey curly hair and he has a grey beard. John doesn’t wear glasses and he has big blue eyes. He has some wrinkles.<br><br>John es el padre de Emily. Tiene 56 años. Él parece tranquilo y amable. Él es un doctor y trabaja en el hospital. Es alto y delgado. Tiene el pelo corto, gris y rizado y tiene una barba gris. John no lleva gafas y tiene los ojos azules. Tiene algunas arrugas."
+                  "subclase": "recuadro",
+                  "texto": "<b>TAKE NOTE</b><br>Very – muy<br>Quite – bastante"
+                }
+              ]
+            }
+          ]
+        },
+
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "acordeon",
+              "contenido": [
+                {
+                  "titulo": "<center>If you want to learn more VOCABULARY</center>",
+                  "contenido": [
+                    {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "ENGLISH"
+                        },
+                        {
+                          "titulo": "SPANISH"
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>BEARD</b></center>"
+                            },
+                            {
+                              "texto": "<center>BARBA</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>MOUSTACHE</b></center>"
+                            },
+                            {
+                              "texto": "<center>BIGOTE</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>REDHEAD</b></center>"
+                            },
+                            {
+                              "texto": "<center>PELIRROJO/A</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>BRUNETTE</b></center>"
+                            },
+                            {
+                              "texto": "<center>MORENO/A</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>BALD</b></center>"
+                            },
+                            {
+                              "texto": "<center>CALVO/A</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>WEAR GLASSES</b></center>"
+                            },
+                            {
+                              "texto": "<center>LLEVAR GAFAS</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>WEAR MAKE UP</b></center>"
+                            },
+                            {
+                              "texto": "<center>LLEVAR MAQUILLAJE</center>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "titulo": "Vocabulary and strategies",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "<b>Descripciones más detalladas</b>",
+              "contenido": [
+                {
+                  "punto": "Skin (<i>piel</i>):",
+                  "contenido": [
+                    {
+                      "punto": "Fair, dark...<br><i>Clara, oscura</i>..."
+                    }
+                  ]
+                },
+                {
+                  "punto": "Eyes (<i>ojos</i>):",
+                  "contenido": [
+                    {
+                      "punto": "Big, small, pretty...<br><i>grandes, pequeños, bonitos</i>..."
+                    },
+                    {
+                      "punto": "Brown, blue, green, grey"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Age (edad):",
+                  "contenido": [
+                    {
+                      "punto": "Young, old, middle-age...<br>Joven, viejo, mediana edad..."
+                    }
+                  ]
+                },
+                {
+                  "punto": "Hair (pelo):",
+                  "contenido": [
+                    {
+                      "punto": "Long, short...<br>Largo, corto..."
+                    },
+                    {
+                      "punto": "Straight, curly, wavy...<br>Liso, rizado, ondulado..."
+                    },
+                    {
+                      "punto": "Brown, fair, blonde, dark, grey, pink...<br>Marrón, claro, rubio, oscuro, gris, rosa..."
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "texto": "Utilizamos “He looks…/ They look…” para decir que alguien parece... She looks friendly- Ella parece amistosa."
+          "clase": "listaObjetos",
+          "contenido": [
+                   {
+          "clase": "acordeon",
+          "contenido": [
+            {
+              "titulo": "<center>Example</center>",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Mary is not very tall. She has got fair skin and her eyes are blue. She has got long blonde curly hair. She is quite pretty.<br><br>(<i>Maria no es muy alta. Ella tiene la piel clara y los ojos azules. Tiene el pelo largo, rubio y rizado. Es bastante guapa</i>)."
+                }
+              ]
+            }
+          ]
+        },
+             {
+              "clase": "icono",
+              "subclase": "exclamacion",
+              "texto": "<center>Para describir el pelo: longitud + color+ forma<br>People have long or short HAIR (nunca hairS).</center>"
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "Cómo preguntar sobre el aspecto de una persona:",
+          "contenido": [
+            {
+              "punto": "What does he/she look like? - ¿Qué aspecto tiene?"
+            },
+            {
+              "punto": "How tall is he/ she? How tall are you? - ¿Cuánto mide? ¿Cuánto mides?"
+            },
+            {
+              "punto": "How much do you weight? - ¿Cuánto pesas?"
+            }
+          ]
         }
-
       ]
     },
     {
@@ -2255,27 +2458,49 @@
           "contenido": [
             {
               "clase": "listaObjetos",
+              "subclase": "columna",
               "contenido": [
                 {
-                  "clase": "imagen",
-                  "imagen": "img/mod04/emily.png"
+                  "clase": "listaObjetos",
+                  "contenido": [
+                    {
+                      "clase": "imagen",
+                      "imagen": "img/mod04/emily.png",
+                      "ancho": 128
+                    },
+                    {
+                      "clase": "texto",
+                      "texto": "This is Emily. Emily is a student. She is medium height, slim and she has got fair skin. She has got brown eyes and she wears red glasses. She has long light brown straight hair. Emily looks friendly and cheerful."
+                    }
+                  ]
                 },
                 {
                   "clase": "texto",
-                  "texto": "This is Emily. Emily is a student. She is medium height, slim and she has got fair skin. She has got brown eyes and she wears red glasses. She has long light brown straight hair. Emily looks friendly and cheerful.<br><br>Esta es Emily. Emily es una estudiante. Ella es de estatura media, delgada y tiene la piel clara. Tiene los ojos marrones y lleva gafas rojas. Tiene el pelo largo, castaño claro y liso. Emily parece amistosa y alegre."
+                  "texto": "<i>Esta es Emily. Emily es una estudiante. Ella es de estatura media, delgada y tiene la piel clara. Tiene los ojos marrones y lleva gafas rojas. Tiene el pelo largo, castaño claro y liso. Emily parece amistosa y alegre.</i>"
                 }
               ]
             },
             {
               "clase": "listaObjetos",
+              "subclase": "columna",
               "contenido": [
                 {
+                  "clase": "listaObjetos",
+                  "contenido": [
+                {
                   "clase": "imagen",
-                  "imagen": "img/mod04/john.png"
+                  "imagen": "img/mod04/john.png",
+                  "ancho": 175
                 },
                 {
                   "clase": "texto",
-                  "texto": "John is Emily’s brother. He’s 15 years old. He looks funny and friendly. He is a student and he plays the guitar. He is tall and slim. John has short blonde hair and he hasn’t got a beard. John doesn’t wear glasses and he has big blue eyes. <br><br>John es el hermano de Emily. Tiene 15 años. Él parece gracioso y amigable. Es un estudiante y toca la guitarra. Él es alto y delgado. John tiene el pelo corto y rubio y no tiene barba. John no lleva gafas y tiene los ojos grandes y azules."
+                  "texto": "John is Emily’s brother. He’s 15 years old. He looks funny and friendly. He is a student and he plays the guitar. He is tall and slim. John has short blonde hair and he hasn’t got a beard. John doesn’t wear glasses and he has big blue eyes."
+                }
+                  ]
+                },
+                {
+                  "clase": "texto",
+                  "texto":"<i>John es el hermano de Emily. Tiene 15 años. Él parece gracioso y amigable. Es un estudiante y toca la guitarra. Él es alto y delgado. John tiene el pelo corto y rubio y no tiene barba. John no lleva gafas y tiene los ojos grandes y azules.</i>"
                 }
               ]
             }
@@ -2284,7 +2509,7 @@
         {
           "clase": "texto",
           "subclase": "recuadro",
-          "texto": "Utilizamos “He looks…/ They look…” para decir que alguien parece... She looks friendly- Ella parece amistosa."
+          "texto": "Utilizamos “He looks... / They look...” para decir que alguien parece... She looks friendly <i>(Ella parece amistosa.)</i>"
         }
       ]
     },

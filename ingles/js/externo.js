@@ -298,6 +298,31 @@ function getArrayImagenes(modulo) {
                 "img/mod02/reloj.jpg",
                 "img/mod02/uncountable.jpg"]);
             break;
+        case "mod03":
+            arrayFinal = arrayComun.concat([
+                "img/mod03/3guards.svg",
+                "img/mod03/autumn.jpg",
+                "img/mod03/brushTeeth.jpg",
+                "img/mod03/bus.svg",
+                "img/mod03/calabaza.png",
+                "img/mod03/cinema.jpg",
+                "img/mod03/claus.png",
+                "img/mod03/coffee.jpg",
+                "img/mod03/dates.png",
+                "img/mod03/hat.png",
+                "img/mod03/joggin.jpg",
+                "img/mod03/preps.svg",
+                "img/mod03/queen.jpg",
+                "img/mod03/rutinaBF.jpg",
+                "img/mod03/shopping.jpg",
+                "img/mod03/spring.jpg",
+                "img/mod03/summer.jpg",
+                "img/mod03/tv.png",
+                "img/mod03/valentin.png",
+                "img/mod03/welcome.svg",
+                "img/mod03/winter.jpg",
+                "img/mod03/wMachine.png"]);
+            break;
         default: arrayFinal = arrayComun;
     }
     return arrayFinal;

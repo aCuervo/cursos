@@ -319,6 +319,65 @@
         }
       ]
     },
+        {
+      "titulo": "Contaminación cruzada (alérgenos)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInDown",
+          "texto": "Aunque hemos visto que casi cualquier alimento que contenga proteínas puede causar alergia alimentaria, también hay que tener en cuenta dos consideraciones:"
+        },
+        {
+          "clase": "acordeon",
+          "contenido": [
+            {
+              "titulo": "La contaminación cruzada (de alérgenos)",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Pueden existir alérgenos <b>presentes de forma no intencionada</b> resultado de una contaminación cruzada. Esto se produce cuando se transfieren alérgenos a un alimento que no los contiene por el contacto por contacto con superficies, equipos, útiles de trabajo o incluso las manos.<br>Por ejemplo: se puede contaminar un chorizo sin leche con proteínas de la leche porque utilizamos la misma cortadora, sin limpiar, después de haber loncheado queso.<br>La contaminación cruzada, entre productos que contienen alérgenos  y los que no, es uno de los <b>principales peligros en la gestión de los alérgenos</b>."
+                }
+              ]
+            },
+            {
+              "titulo": "Las trazas",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "En el etiquetado de alimentos debe aparecer obligatoriamente la composición de los productos y, por tanto, deben constar los principales alérgenos, sin embargo, muchas veces vemos una <b>advertencia</b>, fuera del listado de ingredientes del producto, tipo: “Puede contener trazas de...”; “Fabricado en una planta que utiliza…” o “Trazas de...”.<br>Esto significa que <b>es posible que el producto haya entrado en contacto</b> con el alérgeno (por ejemplo, en una misma línea de producción se elabora chocolate con y sin almendras, en el chocolate sin almendras pueden aparecer trazas de las mismas).<br>Por tanto, <b>las trazas</b> son pequeñísimas cantidades de alérgeno presentes en un producto y que no deberían aparecer en el mismo, ya que no forman parte de su composición. A pesar de encontrarse en tan mínima concentración, afectan <b>negativamente</b> a la salud de la persona alérgica o intolerante."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Las <b>medidas preventivas</b> para eliminar o minimizar las contaminaciones cruzadas se basan en Buenas Prácticas de Manipulación:"
+        },
+        {
+          "clase": "tabs",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Limpieza y desinfección",
+              "texto": "Se debe realizar una <b>limpieza y desinfección  adecuada</b> de la maquinaria (cortadoras), superficies (tablas de corte, etc.) y útiles de trabajo (pinzas, cuchillos, etc.), que van a entrar en contacto con los alimentos aptos para personas con alergias o intolerancias."
+            },
+            {
+              "titulo": "Separación",
+              "texto": "Se debe <b>evitar el contacto</b> de los productos libres de alérgenos con el resto de productos durante su preparación."
+            },
+            {
+              "titulo": "Lavado de manos",
+              "texto": "Se debe realizar una <b>limpieza adecuada de las manos</b> siempre que se vayan a preparar alimentos aptos para personas con alergias o intolerancias alimentarias."
+            },
+                        {
+              "titulo": "Cambio de guantes",
+              "texto": "En caso de utilizar guantes, <b>se han de cambiar</b> cuando vayamos a manipular alimentos que no contengan alérgenos."
+            }
+          ]
+        }
+      ]
+    },
     {
       "titulo": "Tratamiento",
       "contenido": [
