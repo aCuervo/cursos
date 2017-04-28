@@ -26,20 +26,34 @@
       ]
     },
     {
-      "titulo": "Can",
+      "titulo": "CAN",
       "contenido": [
         {
-          "clase": "lista",
-          "titulo": "<b>Can</b> es uno de los verbos auxiliares más utilizados en inglés y significa, “poder o ser capaz de hacer algo”. Veamos sus diversos usos con más detalle:",
+          "clase": "texto",
+          "texto": "<b>Can</b> es uno de los verbos auxiliares más utilizados en inglés y significa “poder o ser capaz de hacer algo”."
+        },
+        {
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "punto": "Forma positiva: <b>CAN</b>.",
+              "clase": "lista",
+              "titulo": "Veamos sus diversos usos con más detalle:",
               "contenido": [
                 {
-                  "punto": "Habilidad general. Saber o poder hacer algo.<br><i>I can speak English.</i>"
+                  "punto": "Habilidad general. Saber o poder hacer algo.",
+                  "contenido": [
+                    {
+                      "punto": "I can speak English. (<i>Puedo/Sé hablar inglés.</i>)"
+                    }
+                  ]
                 },
                 {
-                  "punto": "Tener la oportunidad de hacer algo, poder hacerlo en ese momento.<br><i>I can help you right now.</i>"
+                  "punto": "Tener la oportunidad de hacer algo, poder hacerlo en ese momento.",
+                  "contenido": [
+                    {
+                      "punto": "I can help you right now. <i>(Puedo ayudarte ahora.)</i>"
+                    }
+                  ]
                 },
                 {
                   "punto": "Para pedir permiso o como petición de algo. Se usa sobre todo para preguntas."
@@ -47,119 +61,20 @@
               ]
             },
             {
-              "punto": "Forma negativa: <b>CAN'T (CAN NOT)</b>.",
-              "contenido": [
-                {
-                  "punto": "No saber o poder hacer algo. :<br><i>I can't speak English.</i>"
-                },
-                {
-                  "punto": "No poder hacer algo en ese momento, no estar disponible.<br><i>I can't help you, I am very busy.</i>"
-                },
-                {
-                  "punto": "La forma negativa no se suele usar como petición, ya que tiene más sentido usar la forma afirmativa."
-                }
-              ]
-            },
-            {
-              "punto": "Forma interrogativa: <b>CAN</b> + subject + verb.",
-              "contenido": [
-                {
-                  "punto": "<i>Can you speak english?</i>"
-                },
-                {
-                  "punto": "<i>Can I drive your car?</i>"
-                },
-                {
-                  "punto": "<i>Can I borrow your shirt?</i>"
-                },
-                {
-                  "punto": "<i>Can I have a cup of tea, please?</i>"
-                },
-                {
-                  "punto": "<i>Can you bring me some paper, please?</i>"
-                }
-              ]
+              "clase": "imagen",
+              "imagen": "img/mod05/youCan.svg",
+              "ancho": 256
             }
           ]
         },
-        {
-          "clase": "texto",
-          "texto": "<b>Can</b> es un verbo auxiliar y nunca varía, todas las personas (I, you, he, she, it, we, you, they) van con ‘can’ o con su forma negativa ‘can’t’, no necesita modificaciones."
-        },
+
 
         {
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "acordeon",
-              "contenido": [
-                {
-                  "titulo": "Examples",
-                  "contenido": [
-                    {
-                      "clase": "tabla",
-                      "filaTitulos": [
-                        {
-                          "titulo": "Examples",
-                          "colspan": 2
-                        }
-                      ],
-                      "filaContenido": [
-                        {
-                          "fila": [
-                            {
-                              "texto": "I can play the piano but my brother can’t."
-                            },
-                            {
-                              "texto": "<i>Yo puedo tocar el piano pero mi hermano no.</i>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "I can’t talk to you right now, I’m on a plane."
-                            },
-                            {
-                              "texto": "<i>No puedo hablarte ahora, estoy en un avión.</i>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "Can I have some chips, please?"
-                            },
-                            {
-                              "texto": "<i>¿Puedo tomar unas patatas fritas, por favor?</i>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "Can she swim?"
-                            },
-                            {
-                              "texto": "<i>¿Sabe nadar?/ ¿Puede nadar?</i> (Tener esa habilidad)"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "Sorry, I can’t hear you."
-                            },
-                            {
-                              "texto": "<i>Lo siento, no puedo oírte.</i>"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
+              "clase": "texto",
+              "texto": "Es un <b>verbo auxiliar y nunca varía</b>, todas las personas (I, you, he, she, it, we, you, they) van con ‘can’ o con su forma negativa ‘can’t’, <b>no necesita modificaciones</b>."
             },
             {
               "clase": "icono",
@@ -171,24 +86,170 @@
       ]
     },
     {
-      "titulo": "Technological vocabulary",
+      "titulo": "Negative / Interrogative Form",
       "contenido": [
         {
-          "clase": "texto",
-          "texto": "Vamos a ver el vocabulario relacionado con las nuevas tecnologías y las nuevas palabras y verbos que han surgido a raíz de este fenómeno."
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "FORMA NEGATIVA"
+                },
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "<b>CAN'T (CAN NOT)</b>.",
+                      "contenido": [
+                        {
+                          "punto": "No saber o poder hacer algo.",
+                          "contenido": [
+                            {
+                              "punto": "I can't speak English. (<i>No sé hablar inglés</i>)"
+                            }
+                          ]
+                        },
+                        {
+                          "punto": "No poder hacer algo en ese momento, no estar disponible.",
+                          "contenido": [
+                            {
+                              "punto": "I can't help you, I am very busy. (<i>No puedo ayudarte, estoy muy ocupado.</i>)"
+                            }
+                          ]
+                        },
+                        {
+                          "punto": "La forma negativa no se suele usar como petición, ya que tiene más sentido usar la forma afirmativa."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "FORMA INTERROGATIVA"
+                },
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "<b>CAN</b> + SUBJECT + VERB",
+                      "contenido": [
+                        {
+                          "punto": "Can you speak english? (<i>¿Sabes hablar inglés?</i>)"
+                        },
+                        {
+                          "punto": "Can I drive your car? (<i>¿Puedo conducir tu coche?</i>)"
+                        },
+                        {
+                          "punto": "Can I borrow your shirt? <i>(¿Puedo tomar prestada tu camisa?)</i>"
+                        },
+                        {
+                          "punto": "Can I have a cup of tea, please? <i>(¿Puedo tomar una taza de te, por favor?)</i>"
+                        },
+                        {
+                          "punto": "Can you bring me some paper, please? <i>(¿Puedes traerme algo de papel, por favor?)</i>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "clase": "imagen",
-          "imagen": "img/mod05/vocabulary.png"
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "More Examples",
+              "colspan": 2
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "I can play the piano but my brother can’t."
+                },
+                {
+                  "texto": "<i>Yo puedo tocar el piano pero mi hermano no.</i>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "I can’t talk to you right now, I’m on a plane."
+                },
+                {
+                  "texto": "<i>No puedo hablarte ahora, estoy en un avión.</i>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Can I have some chips, please?"
+                },
+                {
+                  "texto": "<i>¿Puedo tomar unas patatas fritas, por favor?</i>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Can she swim?"
+                },
+                {
+                  "texto": "<i>¿Sabe nadar? / ¿Puede nadar?</i> (Tener esa habilidad)"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Sorry, I can’t hear you."
+                },
+                {
+                  "texto": "<i>Lo siento, no puedo oírte.</i>"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "titulo": "Punctuation signs",
+      "titulo": "TECHNOLOGICAL VOCABULARY",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Ahora que ya hemos visto el vocabulario necesario para designar diversos aparatos electrónicos (o ‘gadgets’) y palabras que utilizamos día a día en nuestro trabajo o cuando utilizamos el ordenador, vamos a conocer los distintos signos de puntuación.<br>Es importante saber cómo se denominan y cuando se usan los signos de puntuación en inglés, ya que también los verás, por ejemplo, en URLs (www.english.com) o en redes sociales como Twitter o Facebook (@english) ( #english)..."
+          "texto": "Vamos a ver algún vocabulario relacionado con las nuevas tecnologías y nuevas palabras y verbos que han surgido a raíz de este fenómeno."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod05/vocabulary.png",
+          "ancho": 650
+        }
+      ]
+    },
+    {
+      "titulo": "PUNCTUATION SIGNS",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Ahora que ya hemos visto el vocabulario necesario para designar diversos aparatos electrónicos (o ‘gadgets’) y palabras que utilizamos día a día en nuestro trabajo o cuando utilizamos el ordenador, vamos a conocer los distintos signos de puntuación.<br>Es importante saber cómo se denominan y cuando se usan los signos de puntuación en inglés, ya que también los verás, por ejemplo, en URLs (www.english.com) o en redes sociales como Twitter o Facebook (@english, #english...)"
         },
         {
           "clase": "listaObjetos",
@@ -362,12 +423,12 @@
         {
           "clase": "texto",
           "subclase": "recuadro",
-          "texto": "El símbolo # se utiliza en redes sociales (social networks) y se utiliza para agrupar contenidos bajo esa palabra y lo denominaremos “hashtag” que se puede traducir por “etiqueta”."
+          "texto": "La almohadilla (#) se utiliza en redes sociales (social networks) para agrupar contenidos bajo una palabra que denominaremos “hashtag”, que se puede traducir por “etiqueta”."
         }
       ]
     },
     {
-      "titulo": "Reading",
+      "titulo": "READING",
       "contenido": [
         {
           "clase": "texto",
@@ -395,33 +456,47 @@
           ]
         },
         {
-          "clase": "texto",
-          "texto": "Some people think social media is good and useful and some people think it is bad but we can say that social media is here to stay.<br><br>*<sub>Adaptation from www.eslreadinglessons.com</sub>"
-        },
-        {
-          "clase": "lista",
-          "titulo": "<b>Vocabulary from the reading:</b>",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "punto": "Account: cuenta."
+              "clase": "texto",
+              "texto": "Some people think social media is good and useful and some people think it is bad but we can say that social media is here to stay.<br><br>*<sub>Adaptation from <a href='http://www.eslreadinglessons.com' target='_blank' style='color:#7986cb' rel='noopener'>www.eslreadinglessons.com</a></sub>"
             },
             {
-              "punto": "To interact: interactuar."
-            },
-            {
-              "punto": "To share: compartir."
-            },
-            {
-              "punto": "Content(s): contenido(s)."
-            },
-            {
-              "punto": "To stay in touch: estar en contacto."
-            },
-            {
-              "punto": "Useful: útil."
-            },
-            {
-              "punto": "‘To be here to stay’: estar aquí para quedarse."
+              "clase": "acordeon",
+              "contenido": [
+                {
+                  "titulo": "<center>Vocabulary from the reading</center>",
+                  "contenido": [
+                    {
+                      "clase": "lista",
+                      "contenido": [
+                        {
+                          "punto": "Account: cuenta."
+                        },
+                        {
+                          "punto": "To interact: interactuar."
+                        },
+                        {
+                          "punto": "To share: compartir."
+                        },
+                        {
+                          "punto": "Content(s): contenido(s)."
+                        },
+                        {
+                          "punto": "To stay in touch: estar en contacto."
+                        },
+                        {
+                          "punto": "Useful: útil."
+                        },
+                        {
+                          "punto": "‘To be here to stay’: estar aquí para quedarse."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -553,11 +628,11 @@
       ]
     },
     {
-      "titulo": "There is / There are",
+      "titulo": "THERE IS / THERE ARE",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "En ingles decimos there is y there are cuando queramos utilizar el verbo <b>HABER</b>. Tiene varias particularidades, ya que se forma con there + to be y debemos recordar que there no es el sujeto, si no que forma parte del verbo y el sujeto va detrás. Veamos cómo se forma:"
+          "texto": "En ingles decimos there is y there are cuando queramos utilizar el verbo <b>HABER</b>. Tiene varias particularidades, ya que se forma con there + to be y debemos recordar que there no es el sujeto, si no que forma parte del verbo y el sujeto va detrás."
         },
         {
           "clase": "tabla",
@@ -630,7 +705,7 @@
           "clase": "acordeon",
           "contenido": [
             {
-              "titulo": "Examples",
+              "titulo": "<center>Examples</center>",
               "contenido": [
                 {
                   "clase": "tabla",
@@ -649,7 +724,7 @@
                           "texto": "There is a TV in the room = The room has a TV.<br>(There is + TV (sujeto) + in the room (complement)."
                         },
                         {
-                          "texto": "Hay una televisión en la sala."
+                          "texto": "<i>Hay una televisión en la sala.</i>"
                         }
                       ]
                     },
@@ -659,7 +734,7 @@
                           "texto": "There is bread in the cupboard = The cupboard has bread.<br>(There is + bread + in the cupboard)."
                         },
                         {
-                          "texto": "Hay pan en el armario/ despensa."
+                          "texto": "<i>Hay pan en el armario / despensa.</i>"
                         }
                       ]
                     },
@@ -669,7 +744,7 @@
                           "texto": "There are two wallets in my bag = I have two walllets in my bag.<br>(There are + two wallets + in my bag)."
                         },
                         {
-                          "texto": "Hay dos carteras en mi bolso."
+                          "texto": "<i>Hay dos carteras en mi bolso.</i>"
                         }
                       ]
                     }
@@ -682,37 +757,53 @@
         {
           "clase": "icono",
           "subclase": "exclamacion",
-          "texto": "<b>Contracciones</b><br>There is: there’s.<br>There are: <strike>there’re</strike> <b>no es possible</b> ya que sería impronunciable!<br><br>En <b>respuestas cortas</b><br>Yes, there is / Yes, there are.<br>No se puede contraer ninguna de las dos formas."
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "<b>CONTRACCIONES</b><br>There is: there’s.<br>There are: <strike>there’re</strike> <b>no es possible</b> ¡Sería impronunciable!"
+                },
+                {
+                  "clase": "texto",
+                  "texto": "En <u>respuestas cortas</u> decimos:<br>Yes, there is / Yes, there are.<br>No se puede contraer ninguna de las dos formas."
+                }
+              ]
+            }
+          ]
+
         }
+
       ]
     },
     {
-      "titulo": "Some / Any",
+      "titulo": "SOME / ANY",
       "contenido": [
         {
           "clase": "lista",
-          "titulo": "En algunos casos tenemos que utilizar some y any. Some ya lo hemos visto anteriormente y sabemos que se utiliza con los nombres en plural para designar una cantidad indeterminada (tanto nombres contables como incontables):",
+          "titulo": "En algunos casos tenemos que utilizar some y any. <b>Some</b> ya lo hemos visto anteriormente y sabemos que se utiliza con los <b>nombres en plural para designar una cantidad indeterminada</b> (tanto nombres contables como incontables):",
           "contenido": [
             {
-              "punto": "I have some money – Tengo algo de dinero"
+              "punto": "I have some money. (<i>Tengo algo de dinero.</i>)"
             },
             {
-              "punto": "I have some books – Tengo algunos libros"
+              "punto": "I have some books. (<i>Tengo algunos libros.</i>)"
             }
           ]
         },
         {
           "clase": "lista",
-          "titulo": "Any significa lo mismo que some, pero lo utilizaremos en su lugar en las frases NEGATIVAS E INTERROGATIVAS.",
+          "titulo": "<b>Any</b> significa lo mismo que some, pero lo utilizaremos en su lugar en las <b>frases NEGATIVAS E INTERROGATIVAS</b>.",
           "contenido": [
             {
-              "punto": "I don’t have any tomatoes for the salad – No tengo ningún tomate para la ensalada"
+              "punto": "I don’t have any tomatoes for the salad. (<i>No tengo ningún tomate para la ensalada.</i>)"
             },
             {
-              "punto": "Do you have any money? - ¿Tienes algo de dinero?"
+              "punto": "Do you have any money? (<i>¿Tienes algo de dinero?</i>)"
             },
             {
-              "punto": "Don’t you have any money? - ¿No tienes nada de dinero?"
+              "punto": "Don’t you have any money? (<i>¿No tienes nada de dinero?</i>)"
             }
           ]
         },
@@ -782,73 +873,63 @@
               ]
             }
           ]
+        }    
+      ]
+    },
+    {
+      "titulo": "Examples",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Vamos a verlo con unos ejemplos para que sea más sencillo:"
         },
         {
-          "clase": "listaObjetos",
-          "contenido": [
+          "clase": "tabla",
+          "filaTitulos": [
             {
-              "clase": "texto",
-              "texto": "Vamos a verlo con unos ejemplos para que sea más sencillo:"
+              "titulo": "English"
             },
             {
-              "clase": "texto",
-              "subclase": "recuadro",
-              "texto": "<center><b>REMEMBER</b></center>Laptop/s -> Ordenador portátil (singular/plural y contable)<br>Milk -> Leche (en inglés siempre en singular e incontable)"
+              "titulo": "Spanish"
             }
-          ]
-        },
-        {
-          "clase": "acordeon",
-          "contenido": [
+          ],
+          "filaContenido": [
             {
-              "titulo": "Examples",
-              "contenido": [
+              "fila": [
                 {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "English"
-                    },
-                    {
-                      "titulo": "Spanish"
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "There is a laptop on the table.<br>There isn’t a laptop on the table.<br>Is there a laptop on table?"
-                        },
-                        {
-                          "texto": "<i>Hay un portátil en la mesa.<br>No hay un portátil en la mesa.<br>¿Hay un portátil en la mesa?</i>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "There are some laptops on the table.<br>There aren’t any laptops on the table.<br>Are there any laptops on the table?"
-                        },
-                        {
-                          "texto": "<i>Hay varios/unos portátiles en la mesa.<br>No hay ningún portátil en la mesa.<br>¿Hay algún portátil en la mesa?</i>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "There is some milk in the fridge.<br>There isn’t any milk in the fridge.<br>Is there any milk in the fridge?"
-                        },
-                        {
-                          "texto": "<i>Hay algo de leche en la nevera.<br>No hay nada de leche en la nevera.<br>¿Hay leche en la nevera?</i>"
-                        }
-                      ]
-                    }
-                  ]
+                  "texto": "There is a laptop on the table.<br>There isn’t a laptop on the table.<br>Is there a laptop on table?"
+                },
+                {
+                  "texto": "<i>Hay un portátil en la mesa.<br>No hay un portátil en la mesa.<br>¿Hay un portátil en la mesa?</i>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "There are some laptops on the table.<br>There aren’t any laptops on the table.<br>Are there any laptops on the table?"
+                },
+                {
+                  "texto": "<i>Hay varios/unos portátiles en la mesa.<br>No hay ningún portátil en la mesa.<br>¿Hay algún portátil en la mesa?</i>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "There is some milk in the fridge.<br>There isn’t any milk in the fridge.<br>Is there any milk in the fridge?"
+                },
+                {
+                  "texto": "<i>Hay algo de leche en la nevera.<br>No hay nada de leche en la nevera.<br>¿Hay leche en la nevera?</i>"
                 }
               ]
             }
           ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "<b>Laptop/s:</b> Ordenador portátil (singular/plural y contable)<br><b>Milk:</b> Leche (singular e incontable)"
         }
       ]
     },
@@ -1174,7 +1255,7 @@
                 {
                   "punto": "Is there any bread?"
                 },
-                                {
+                {
                   "punto": "There is a smartphone on the table."
                 }
               ]
@@ -1188,7 +1269,7 @@
                 {
                   "punto": "You can differentiate between formal and informal e-mails."
                 },
-                                {
+                {
                   "punto": "You can write simple e-mails in a formal and informal style."
                 }
               ]

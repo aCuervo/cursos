@@ -323,6 +323,25 @@ function getArrayImagenes(modulo) {
                 "img/mod03/winter.jpg",
                 "img/mod03/wMachine.png"]);
             break;
+        case "mod04":
+            arrayFinal = arrayComun.concat([
+                "img/mod04/at.svg",
+                "img/mod04/behind.svg",
+                "img/mod04/emily.png",
+                "img/mod04/farola.svg",
+                "img/mod04/in.svg",
+                "img/mod04/infront.svg",
+                "img/mod04/jimy.png",
+                "img/mod04/john.png",
+                "img/mod04/katy.png",
+                "img/mod04/movie.jpg",
+                "img/mod04/nearto.svg",
+                "img/mod04/nexto.svg",
+                "img/mod04/on.svg",
+                "img/mod04/over.svg",
+                "img/mod04/preps.svg",
+                "img/mod04/under.svg"]);
+            break;
         default: arrayFinal = arrayComun;
     }
     return arrayFinal;

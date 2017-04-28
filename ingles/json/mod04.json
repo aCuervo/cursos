@@ -26,14 +26,25 @@
       ]
     },
     {
-      "titulo": "Have got",
+      "titulo": "HAVE GOT",
       "contenido": [
         {
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "texto",
-              "texto": "<b>Have got/ haven’t got/ have ... got?</b><br>Para indicar posesión en ingles utilizamos el verbo “have got” o “have” que significan <b>TENER</b>. Podemos utilizar cualquiera de estas dos formas de manera indistinta, ya que significan lo mismo y ambas sirven para indicar que tenemos una relación, una cosa, una enfermedad, una cualidad... A pesar de significar lo mismo, tienen diferencias a la hora de conjugarse, veamos cuales son:"
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "<b>Have got/ haven’t got/ have ... got?</b><br>Para indicar posesión en ingles utilizamos el verbo “have got” o “have” que significan <b>TENER</b>. Podemos utilizar cualquiera de estas dos formas de manera indistinta, ya que significan lo mismo y ambas sirven para indicar que tenemos una relación, una cosa, una enfermedad, una cualidad... A pesar de significar lo mismo, tienen diferencias a la hora de conjugarse, veamos cuales son:"
+                },
+                {
+                  "clase": "texto",
+                  "subclase": "recuadro",
+                  "texto": "La forma “have got” se puede abreviar (I’ve got) pero si utilizamos solo “have” debemos escribir “I have”."
+                }
+              ]
             },
             {
               "clase": "tabla",
@@ -144,11 +155,6 @@
           ]
         },
         {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "texto": "La forma “have got” se puede abreviar (I’ve got) pero si utilizamos solo “have” debemos escribir “I have”."
-        },
-        {
           "clase": "listaObjetos",
           "contenido": [
             {
@@ -166,7 +172,7 @@
                       "texto": "I've got two brothers.<br>I have two brothers."
                     },
                     {
-                      "texto": "Tengo dos hermanos."
+                      "texto": "<i>Tengo dos hermanos.</i>"
                     }
                   ]
                 },
@@ -176,7 +182,7 @@
                       "texto": "She has got green eyes.<br>She has green eyes."
                     },
                     {
-                      "texto": "Ella tiene los ojos verdes."
+                      "texto": "<i>Ella tiene los ojos verdes.</i>"
                     }
                   ]
                 },
@@ -186,7 +192,7 @@
                       "texto": "Linda’s got a headache.<br>Linda has a headache."
                     },
                     {
-                      "texto": "Linda tiene dolor de cabeza."
+                      "texto": "<i>Linda tiene dolor de cabeza.</i>"
                     }
                   ]
                 }
@@ -195,14 +201,224 @@
             {
               "clase": "icono",
               "subclase": "exclamacion",
-              "texto": "No confundas he/ she/ it ‘s got con he/ she/ it’s.<br>She’s got a dream – Ella tiene un sueño.<br>She’s a dream – Ella es un sueño."
+              "texto": "No confundas he/ she/ it ‘s got con he/ she/ it’s.<br>She’s got a dream. <i>(Ella tiene un sueño.)</i><br>She’s a dream. (<i>Ella es un sueño.)</i>"
             }
           ]
         }
       ]
     },
     {
-      "titulo": "Interrogative / negative forms",
+      "titulo": "Interrogative form",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+          
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "INTERROGATIVE FORM",
+                  "colspan": 3
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Have</center>",
+                      "rowspan": 2
+                    },
+                    {
+                      "texto": "<center><b>I</b></center>"
+                    },
+                    {
+                      "texto": "<center>got...?</center>",
+                      "rowspan": 2
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>you</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Has</center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center><b>she</b></center>"
+                    },
+                    {
+                      "texto": "<center>got...?</center>",
+                      "rowspan": 3
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>he</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>it</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Have</center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center><b>we</b></center>"
+                    },
+                    {
+                      "texto": "<center>got...?</center>",
+                      "rowspan": 3
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>you</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>they</b></center>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod04/farola.svg",
+              "ancho": 128
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "INTERROGATIVE FORM",
+                  "colspan": 3
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Do</center>",
+                      "rowspan": 2
+                    },
+                    {
+                      "texto": "<center><b>I</b></center>"
+                    },
+                    {
+                      "texto": "<center>have...?</center>",
+                      "rowspan": 8
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>you</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Does</center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center><b>she</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>he</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>it</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Do</center>",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center><b>we</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>you</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>they</b></center>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>Examples:</b>",
+          "contenido": [
+            {
+              "punto": "Do you have a car? No, I’ve got a bike.<br><i>¿Tienes un coche? No, tengo una bicicleta.</i>"
+            },
+            {
+              "punto": "Have you got a red jumper? Yes, I have.<br><i>¿Tienes un jersey rojo? Si, lo tengo.</i>"
+            },
+            {
+              "punto": "Does she have long hair? No, she doesn’t. She’s got short hair.<br><i>¿Ella tiene el pelo largo? No, no lo tiene. Ella tiene el pelo corto.</i>"
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "titulo": "Negative form",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -309,212 +525,18 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
+            },
+                    {
           "clase": "texto",
           "subclase": "recuadro",
-          "texto": "Como puedes ver, “have got” y “have” tienen diferencias a la hora de crear la forma negativa e interrogativa, pero a pesar de esto, siguen significando lo mismo."
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "INTERROGATIVE FORM",
-                  "colspan": 3
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Have</center>",
-                      "rowspan": 2
-                    },
-                    {
-                      "texto": "<center><b>I</b></center>"
-                    },
-                    {
-                      "texto": "<center>got...?</center>",
-                      "rowspan": 2
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>you</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Has</center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center><b>she</b></center>"
-                    },
-                    {
-                      "texto": "<center>got...?</center>",
-                      "rowspan": 3
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>he</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>it</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Have</center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center><b>we</b></center>"
-                    },
-                    {
-                      "texto": "<center>got...?</center>",
-                      "rowspan": 3
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>you</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>they</b></center>"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "INTERROGATIVE FORM",
-                  "colspan": 3
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Do</center>",
-                      "rowspan": 2
-                    },
-                    {
-                      "texto": "<center><b>I</b></center>"
-                    },
-                    {
-                      "texto": "<center>have...?</center>",
-                      "rowspan": 8
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>you</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Does</center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center><b>she</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>he</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>it</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Do</center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center><b>we</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>you</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>they</b></center>"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "lista",
-          "titulo": "<b>Examples:</b>",
-          "contenido": [
-            {
-              "punto": "Do you have a car? No, I’ve got a bike.<br>¿Tienes un coche? No, tengo una bicicleta."
-            },
-            {
-              "punto": "Have you got a red jumper? Yes, I have.<br>¿Tienes un jersey rojo? Si, lo tengo."
-            },
-            {
-              "punto": "Does she have long hair? No, she doesn’t. She’s got short hair.<br>¿Ella tiene el pelo largo? No, no lo tiene. Ella tiene el pelo corto."
-            }
+          "texto": "Algunas expresiones que van con el verbo “have”:<br>-Have breakfast/ lunch/ dinner – Desayunar/ comer/ cenar.<br>- Have a bath/ a shower – Darse un baño/ ducha.<br>- Have a good time – Pasárselo bien.<br>- Have a headache- Tener un dolor de cabeza.<br>- Have a baby – Tener un bebé."
+        }
           ]
         },
         {
           "clase": "icono",
           "subclase": "exclamacion",
-          "texto": "Algunas expresiones que van con el verbo “have”:<br>-Have breakfast/ lunch/ dinner – Desayunar/ comer/ cenar.<br>- Have a bath/ a shower – Darse un baño/ ducha.<br>- Have a good time – Pasárselo bien.<br>- Have a headache- Tener un dolor de cabeza.<br>- Have a baby – Tener un bebé."
+          "texto": "Como puedes ver, “have got” y “have” tienen diferencias a la hora de crear la forma negativa e interrogativa, pero a pesar de esto, siguen significando lo mismo."
         }
       ]
     },
@@ -644,19 +666,19 @@
       ]
     },
     {
-      "titulo": "Prepositions (II)",
+      "titulo": "PREPOSITIONS",
       "contenido": [
         {
           "clase": "imagen",
           "imagen": "img/mod04/preps.svg"
         },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
+                    {
               "clase": "texto",
               "texto": "En la anterior unidad estudiamos alguna de las preposiciones que existen en inglés y algunos de sus usos. Ahora veremos nuevas preposiciones de lugar y repasaremos las que ya estudiamos.<br>Utilizamos las preposiciones de lugar para indicar dónde se encuentra algo o alguien."
             },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
             {
               "clase": "tabla",
               "filaTitulos": [
@@ -749,10 +771,15 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+        {
+      "titulo": "Prepositions: New uses",
+      "contenido": [
         {
           "clase": "texto",
-          "texto": "En este cuadro resumen vamos a ver nuevos usos que añadiremos a los que ya hemos estudiado. <b>RECUERDA</b>, debes tener siempre en cuenta el contexto en que te encuentras a la hora de utilizar las preposiciones:"
+          "texto": "En este cuadro resumen vamos a ver nuevos usos que añadiremos a los que ya hemos estudiado. <b>Ten siempre en cuenta el contexto en que te encuentras a la hora de utilizar preposiciones</b>."
         },
         {
           "clase": "tabla",
@@ -782,7 +809,7 @@
                   "texto": "<center>the book is <b>on</b> the table</center>"
                 },
                 {
-                  "texto": "<center>el libro está en la mesa</center>"
+                  "texto": "<center><i>el libro está en la mesa</i></center>"
                 }
               ]
             },
@@ -795,7 +822,7 @@
                   "texto": "<center><b>on</b> the left / <b>on</b> the right</center>"
                 },
                 {
-                  "texto": "<center>a la izquerda / a la derecha</center>"
+                  "texto": "<center><i>a la izquerda / a la derecha</i></center>"
                 }
               ]
             },
@@ -808,7 +835,7 @@
                   "texto": "<center>I'm <b>on</b> the train / bus / plane</center>"
                 },
                 {
-                  "texto": "<center>Estoy en el tren / bus / avión</center>"
+                  "texto": "<center><i>Estoy en el tren / bus / avión</i></center>"
                 }
               ]
             },
@@ -821,7 +848,7 @@
                   "texto": "<center>I watch it <b>on</b> the internet</center>"
                 },
                 {
-                  "texto": "<center>Lo veo en internet</center>"
+                  "texto": "<center><i>Lo veo en internet</i></center>"
                 }
               ]
             },
@@ -838,7 +865,7 @@
                   "texto": "<center>I am <b>in</b> the kitchen</center>"
                 },
                 {
-                  "texto": "<center>Estoy en la cocina</center>"
+                  "texto": "<center><i>Estoy en la cocina</i></center>"
                 }
               ]
             },
@@ -851,7 +878,7 @@
                   "texto": "<center><b>In</b> the world</center>"
                 },
                 {
-                  "texto": "<center>En el mundo</center>"
+                  "texto": "<center><i>En el mundo</i></center>"
                 }
               ]
             },
@@ -864,7 +891,7 @@
                   "texto": "<center>I'm <b>in</b> my car / I'm <b>in</b> a taxi</center>"
                 },
                 {
-                  "texto": "<center>Estoy en mi coche / en un taxi</center>"
+                  "texto": "<center><i>Estoy en mi coche / en un taxi</i></center>"
                 }
               ]
             },
@@ -877,7 +904,7 @@
                   "texto": "<center>I read it <b>in</b> a newspaper</center>"
                 },
                 {
-                  "texto": "<center>Lo leo en un periódico</center>"
+                  "texto": "<center><i>Lo leo en un periódico</i></center>"
                 }
               ]
             },
@@ -894,7 +921,7 @@
                   "texto": "<center>I meet Sue <b>at</b> the party</center>"
                 },
                 {
-                  "texto": "<center>Me encuentro con Sue en la fiesta</center>"
+                  "texto": "<center><i>Me encuentro con Sue en la fiesta</i></center>"
                 }
               ]
             },
@@ -907,7 +934,7 @@
                   "texto": "<center><b>at</b> work / <b>at</b> school</center>"
                 },
                 {
-                  "texto": "<center>en el trabajo / en el colegio</center>"
+                  "texto": "<center><i>en el trabajo / en el colegio</i></center>"
                 }
               ]
             },
@@ -925,7 +952,7 @@
                   "texto": "<center>I go <b>to</b> the office</center>"
                 },
                 {
-                  "texto": "<center>Yo voy a la oficina</center>"
+                  "texto": "<center><i>Yo voy a la oficina</i></center>"
                 }
               ]
             },
@@ -935,7 +962,7 @@
                   "texto": "<center>she goes <b>to</b> a meeting</center>"
                 },
                 {
-                  "texto": "<center>Ella va a una reunión</center>"
+                  "texto": "<center><i>Ella va a una reunión</i></center>"
                 }
               ]
             }
@@ -1084,71 +1111,78 @@
         }
       ]
     },
-    {
+        {
       "titulo": "SAXON GENITIVE",
       "contenido": [
         {
           "clase": "lista",
-          "titulo": "“The saxon genitive” o genitivo sajón se utiliza para indicar posesión de personas, pero no de cosas. Se forma añadiendo “ ’s ” al final del nombre. Ejemplo:",
           "contenido": [
             {
-              "punto": "Maria’s car – El coche de Maria."
+              "punto": "“The saxon genitive” o genitivo sajón <b>se forma añadiendo “ ’s ” al final del nombre. Indica posesión de personas, pero no de cosas.</b>",
+              "contenido": [
+                {
+                  "punto": "Maria’s car. (<i>El coche de Maria.</i>)"
+                },
+                {
+                  "punto": "My sister’s car. (<i>El coche de mi hermana.</i>)"
+                },
+                {
+                  "punto": "Mario’s house. (<i>La casa de Mario.</i>)"
+                }
+              ]
             },
             {
-              "punto": "My sister’s car – El coche de mi hermana."
+              "punto": "<b>Cuando el nombre es plural sólo añadimos el apóstrofe “ ‘ ”</b> al final. Si se trata de un <b>nombre propio terminado en ‘s’ podemos poner sólo apóstrofe o “'s”</b>. Ambas formas de escribirlo serían correctas.",
+              "contenido": [
+                {
+                  "punto": "My parents’ house. (<i>La casa de mis padres.</i>)"
+                },
+                {
+                  "punto": "My friends’ flat. (<i>El piso de mis amigos.</i>)"
+                },
+                {
+                  "punto": "Chris’ umbrella / Chris’s umbrella. (<i>El paraguas de Chris.</i>)"
+                }
+              ]
             },
             {
-              "punto": "Mario’s house – La casa de Mario."
+              "punto": "También <b>puede utilizarse sin necesidad de añadir un sustantivo después</b>, ya que por el contexto, se sobreentiende.",
+              "contenido": [
+                {
+                  "punto": "It’s not my car. It’s Maria’s. (<i>No es mi coche. Es el de Maria.</i>)"
+                },
+                {
+                  "punto": "Is this your book? No, it’s Susie’s. (<i>¿Es este tu libro? No, es de Susie.</i>)"
+                }
+              ]
             }
           ]
         },
         {
+          "clase": "listaObjetos",
+          "contenido": [
+  {
           "clase": "lista",
-          "titulo": "Cuando el nombre es plural o termina en “s” solamente añadimos el apóstrofe “ ‘ “ si se trata de un plural, pero si se trata de un nombre propio terminado en ‘s’ podemos poner o apóstrofe o ‘s’, ambas formas de escribirlo serían correctas. Ejemplos:",
+          "titulo": "<b>Con las cosas no se usa “saxon genitive” se utiliza “of”.</b>",
           "contenido": [
             {
-              "punto": "My parents’ house – La casa de mis padres."
+              "punto": "The roof of the building. (<i>El tejado del edificio.</i>)"
             },
             {
-              "punto": "My friends’ flat – El piso de mis amigos."
+              "punto": "The name of the city. (<i>El nombre de la ciudad.</i>)"
             },
             {
-              "punto": "Chris’ umbrella/ Chris’s umbrella – El paraguas de Chris."
-            }
-          ]
-        },
-        {
-          "clase": "lista",
-          "titulo": "Como dijimos antes, con las cosas no se usa “saxon genitive” se dice “of” como diríamos normalmente:",
-          "contenido": [
-            {
-              "punto": "The roof of the building – El tejado del edificio."
-            },
-            {
-              "punto": "The name of the city – El nombre de la ciudad."
-            },
-            {
-              "punto": "London is the capital of the UK – Londres es la capital de UK."
-            }
-          ]
-        },
-        {
-          "clase": "lista",
-          "titulo": "También puede utilizarse sin necesidad de añadir un sustantivo después, ya que por el contexto, se sobreentiende:",
-          "contenido": [
-            {
-              "punto": "It’s not my car. It’s Maria’s – No es mi coche. Es el de Maria."
-            },
-            {
-              "punto": "Is this your book? No, it’s Susie’s - ¿Es este tu libro? No, es de Susie."
+              "punto": "London is the capital of the UK. (<i>Londres es la capital de UK.</i>)"
             }
           ]
         },
         {
           "clase": "icono",
           "subclase": "exclamacion",
-          "texto": "No confundas la ‘s de la tercera persona del singular del verbo to be con el genitivo sajón, este último siempre suele llevar un sustantivo detrás:<br><center>Mike’s bike – La bici de Mike.<br>Mike’s tall – Mike es alto.</center>"
+          "texto": "No confundas la ‘s de la tercera persona del singular del verbo to be con el <b>genitivo sajón</b>, que <b>suele llevar un sustantivo detrás</b>:<br><center>Mike’s bike. (<i>La bici de Mike.</i>)<br>Mike’s tall. (<i>Mike es alto.</i>)</center>"
         }
+          ]
+        }      
       ]
     },
     {
@@ -1237,11 +1271,21 @@
       ]
     },
     {
-      "titulo": "Possessive adjectives",
+      "titulo": "POSSESSIVE ADJECTIVES",
       "contenido": [
         {
-          "clase": "texto",
-          "texto": "Los adjetivos posesivos se utilizan para indicar posesión, que algo es nuestro o nos pertenece, “Mi casa”, “Tu hermano”, “Sus bolsos”."
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Los adjetivos posesivos se utilizan para indicar posesión, que algo es nuestro o nos pertenece: <i>“Mi casa”, “Tu hermano”, “Su bolso”.</i>"
+            },
+                    {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "<center><b>Its</b> pizza (<i>Su pizza</i>)<br><b>It’s</b> (= it is) pizza (<i>Es pizza</i>)</center>"
+        }
+          ]
         },
         {
           "clase": "tabla",
@@ -1387,15 +1431,37 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
         {
-          "clase": "icono",
-          "subclase": "exclamacion",
-          "texto": "<center><b>Its</b> pizza – Su pizza.<br><b>It’s</b> pizza (= it is) – Es pizza.</center>"
-        },
+      "titulo": "Examples",
+      "contenido": [
         {
-          "clase": "texto",
-          "texto": "Generalmente utilizamos my/ you/her… + noun (nombre). Example: Her bike – My cats – Our children. Presta atención a que el adjetivo posesivo no cambia, independientemente de que el nombre sea singular o plural (Mi gato/ mis gatos: My cat/My cats – Su coche/Sus coches: His car/ His cars)."
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Generalmente utilizamos my / you / her... + noun (<i>nombre</i>):",
+              "contenido": [
+                {
+                  "punto": "Her bike / Her bikes (<i>Su bici / Sus bicis</i>)"
+                },
+                {
+                  "punto": "My cat / My cats (<i>Mi gato / Mis gatos</i>)"
+                },
+                {
+                  "punto": "His car / His cars (<i>Su coche / Sus coches</i>)"
+                }
+              ]
+
+            },
+            {
+              "clase": "icono",
+              "subclase": "exclamacion",
+              "texto": "Fíjate en que <b>el adjetivo posesivo no cambia</b>, independientemente de que el nombre <b>sea singular o plural</b>."
+            }
+          ]
         },
         {
           "clase": "listaObjetos",
@@ -1463,7 +1529,7 @@
       ]
     },
     {
-      "titulo": "Family and relatives",
+      "titulo": "FAMILY AND RELATIVES",
       "contenido": [
         {
           "clase": "texto",
@@ -1993,221 +2059,7 @@
       ]
     },
     {
-      "titulo": "Describing people",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "<center><b>Describing people: vocabulary and strategies</b></center><br>En el primer módulo de este curso, aprendimos un montón de adjetivos para describir el carácter y el aspecto de las personas y cosas. En esta unidad aprenderemos a describir físicamente a las personas que nos rodean usando todo el vocabulario y los verbos que ya sabes.<br><br>Para describir a alguien utilizaremos adjetivos, recuerda que en inglés los adjetivos se colocan siempre antes del nombre (Green eyes, long hair, beautiful face...)."
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "listaObjetos",
-              "subclase": "columna",
-              "contenido": [
-                {
-                  "clase": "texto",
-                  "texto": "<b><center>HEIGHT AND WEIGHT (/haɪt/ and /weɪt/)</b></center><br>Para describir la altura (height)<br>She is tall/ short/ medium height...<br>Para describir su peso o su figura (weight):<br>Peter is Slim/ thin/ fat/ overweight...."
-                },
-                {
-                  "clase": "icono",
-                  "subclase": "exclamacion",
-                  "texto": "People are TALL and not high."
-                }
-              ]
-            },
-            {
-              "clase": "listaObjetos",
-              "subclase": "columna",
-              "contenido": [
-                {
-                  "clase": "texto",
-                  "texto": "<b><center>FACE AND HEAD (/feɪs/ and /hɛd/)</center></b><br>Podemos describir la cara (the face) de alguien de muchas maneras. Podemos decir simplemente que es guapo (He is handsome/ good looking) o que no es muy guapo (He is not very handsome.)"
-                },
-                {
-                  "clase": "texto",
-                  "subclase": "recuadro",
-                  "texto": "<b>TAKE NOTE</b><br>Very – muy<br>Quite – bastante"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "lista",
-              "titulo": "Descripciones más detalladas:",
-              "contenido": [
-                {
-                  "punto": "Skin (piel):",
-                  "contenido": [
-                    {
-                      "punto": "Fair, dark...<br>Clara, oscura..."
-                    }
-                  ]
-                },
-                {
-                  "punto": "Eyes (ojos):",
-                  "contenido": [
-                    {
-                      "punto": "Big, small, pretty...<br>grandes, pequeños, bonitos..."
-                    },
-                    {
-                      "punto": "Brown, blue, green, grey"
-                    }
-                  ]
-                },
-                {
-                  "punto": "Hair (pelo):",
-                  "contenido": [
-                    {
-                      "punto": "Long, short...<br>Largo, corto..."
-                    },
-                    {
-                      "punto": "Straight, curly, wavy...<br>Liso, rizado, ondulado..."
-                    },
-                    {
-                      "punto": "Brown, fair, blonde, dark, grey, pink...<br>Marrón, claro, rubio, oscuro, gris, rosa..."
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "clase": "texto",
-              "texto": "<b>Ejemplo:</b><br>Maria is not very tall. She has got fair skin and her eyes are blue. She has got long blonde curly hair. She is quite pretty.<br><br>(Maria no es muy alta. Ella tiene la piel clara y los ojos azules. Tiene el pelo largo, rubio y rizado. Es bastante guapa)."
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "Recuerda que también podemos decir que alguien es joven (young), viejo (old), de mediana edad (middle-age)..."
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "acordeon",
-              "contenido": [
-                {
-                  "titulo": "If you want to learn more",
-                  "contenido": [
-                    {
-                      "clase": "tabla",
-                      "filaTitulos": [
-                        {
-                          "titulo": "ENGLISH"
-                        },
-                        {
-                          "titulo": "SPANISH"
-                        }
-                      ],
-                      "filaContenido": [
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center><b>BEARD</b></center>"
-                            },
-                            {
-                              "texto": "<center>BARBA</center>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center><b>MOUSTACHE</b></center>"
-                            },
-                            {
-                              "texto": "<center>BIGOTE</center>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center><b>REDHEAD</b></center>"
-                            },
-                            {
-                              "texto": "<center>PELIRROJO/A</center>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center><b>BRUNETTE</b></center>"
-                            },
-                            {
-                              "texto": "<center>MORENO/A</center>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center><b>BALD</b></center>"
-                            },
-                            {
-                              "texto": "<center>CALVO/A</center>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center><b>WEAR GLASSES</b></center>"
-                            },
-                            {
-                              "texto": "<center>LLEVAR GAFAS</center>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center><b>WEAR MAKE UP</b></center>"
-                            },
-                            {
-                              "texto": "<center>LLEVAR MAQUILLAJE</center>"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "clase": "texto",
-              "subclase": "recuadro",
-              "texto": "<center><b>PAY ATTENTION</b><br>Para describir el pelo: longitud + color+ forma<br>People have long or short HAIR (nunca hairS).</center>"
-            }
-          ]
-        },
-        {
-          "clase": "lista",
-          "titulo": "Cómo preguntar sobre el aspecto de una persona:",
-          "contenido": [
-            {
-              "punto": "What does he/she look like? - ¿Qué aspecto tiene?"
-            },
-            {
-              "punto": "How tall is he/ she? How tall are you? - ¿Cuánto mide? ¿Cuánto mides?"
-            },
-            {
-              "punto": "How much do you weight? - ¿Cuánto pesas?"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Describing people",
+      "titulo": "DESCRIBING PEOPLE",
       "contenido": [
         {
           "clase": "texto",
@@ -2349,7 +2201,7 @@
         }
       ]
     },
-        {
+    {
       "titulo": "Vocabulary and strategies",
       "contenido": [
         {
@@ -2412,30 +2264,30 @@
         {
           "clase": "listaObjetos",
           "contenido": [
-                   {
-          "clase": "acordeon",
-          "contenido": [
             {
-              "titulo": "<center>Example</center>",
+              "clase": "acordeon",
               "contenido": [
                 {
-                  "clase": "texto",
-                  "texto": "Mary is not very tall. She has got fair skin and her eyes are blue. She has got long blonde curly hair. She is quite pretty.<br><br>(<i>Maria no es muy alta. Ella tiene la piel clara y los ojos azules. Tiene el pelo largo, rubio y rizado. Es bastante guapa</i>)."
+                  "titulo": "<center>Example</center>",
+                  "contenido": [
+                    {
+                      "clase": "texto",
+                      "texto": "Mary is not very tall. She has got fair skin and her eyes are blue. She has got long blonde curly hair. She is quite pretty.<br><br>(<i>Maria no es muy alta. Ella tiene la piel clara y los ojos azules. Tiene el pelo largo, rubio y rizado. Es bastante guapa</i>)."
+                    }
+                  ]
                 }
               ]
-            }
-          ]
-        },
-             {
+            },
+            {
               "clase": "icono",
               "subclase": "exclamacion",
-              "texto": "<center>Para describir el pelo: longitud + color+ forma<br>People have long or short HAIR (nunca hairS).</center>"
+              "texto": "<center>Para describir el pelo: longitud + color + forma<br>People have long or short HAIR (nunca hairS).</center>"
             }
           ]
         },
         {
           "clase": "lista",
-          "titulo": "Cómo preguntar sobre el aspecto de una persona:",
+          "titulo": "<b>Preguntar sobre el aspecto de una persona</b>",
           "contenido": [
             {
               "punto": "What does he/she look like? - ¿Qué aspecto tiene?"
@@ -2487,20 +2339,20 @@
                 {
                   "clase": "listaObjetos",
                   "contenido": [
-                {
-                  "clase": "imagen",
-                  "imagen": "img/mod04/john.png",
-                  "ancho": 175
-                },
-                {
-                  "clase": "texto",
-                  "texto": "John is Emily’s brother. He’s 15 years old. He looks funny and friendly. He is a student and he plays the guitar. He is tall and slim. John has short blonde hair and he hasn’t got a beard. John doesn’t wear glasses and he has big blue eyes."
-                }
+                    {
+                      "clase": "imagen",
+                      "imagen": "img/mod04/john.png",
+                      "ancho": 175
+                    },
+                    {
+                      "clase": "texto",
+                      "texto": "John is Emily’s brother. He’s 15 years old. He looks funny and friendly. He is a student and he plays the guitar. He is tall and slim. John has short blonde hair and he hasn’t got a beard. John doesn’t wear glasses and he has big blue eyes."
+                    }
                   ]
                 },
                 {
                   "clase": "texto",
-                  "texto":"<i>John es el hermano de Emily. Tiene 15 años. Él parece gracioso y amigable. Es un estudiante y toca la guitarra. Él es alto y delgado. John tiene el pelo corto y rubio y no tiene barba. John no lleva gafas y tiene los ojos grandes y azules.</i>"
+                  "texto": "<i>John es el hermano de Emily. Tiene 15 años. Él parece gracioso y amigable. Es un estudiante y toca la guitarra. Él es alto y delgado. John tiene el pelo corto y rubio y no tiene barba. John no lleva gafas y tiene los ojos grandes y azules.</i>"
                 }
               ]
             }
@@ -2518,7 +2370,7 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "<center><b>In this Unit you have learned...</b><br><i>En esta Unidad has aprendido...</i></center>"
+          "texto": "In this Unit you have learned... (<i>En esta Unidad has aprendido...</i>)"
         },
         {
           "clase": "lista",
@@ -2533,11 +2385,24 @@
                   "punto": "I have one brother and two sisters. <i>(Tengo un hermano y dos hermanas.)</i>"
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "contenido": [
             {
-              "punto": "Now you know new place prepositions and new uses of <b>IN / ON / AT</b>. Here you have a table with all the uses that you have learned:",
+              "punto": "Now you know new place prepositions and new uses of <b>IN / ON / AT</b>."
+            }
+          ]
+        },
+        {
+          "clase": "acordeon",
+          "contenido": [
+            {
+              "titulo": "<center>Here you have a table with all the uses you have learned</center>",
               "contenido": [
-                {
+                                {
                   "clase": "tabla",
                   "filaTitulos": [
                     {
@@ -2763,7 +2628,12 @@
                   ]
                 }
               ]
-            },
+            }
+          ]
+        },
+                {
+          "clase": "lista",
+          "contenido": [
             {
               "punto": "You know how indicate possession using the Saxon genitive for people (‘s), ‘of’ for things:",
               "contenido": [
@@ -2801,7 +2671,7 @@
           "clase": "acordeon",
           "contenido": [
             {
-              "titulo": "New vocabulary",
+              "titulo": "<center>NEW VOCABULARY</center>",
               "contenido": [
                 {
                   "clase": "tabla",
@@ -2966,7 +2836,7 @@
             }
           ]
         },
-                {
+        {
           "clase": "imagen",
           "imagen": "img/comunes/londonLast2.png"
         }
