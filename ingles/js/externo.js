@@ -342,6 +342,15 @@ function getArrayImagenes(modulo) {
                 "img/mod04/preps.svg",
                 "img/mod04/under.svg"]);
             break;
+        case "mod05":
+            arrayFinal = arrayComun.concat([
+                "img/mod05/email.png",
+                "img/mod05/formalemail.png",
+                "img/mod05/informalemail.png",
+                "img/mod05/stamp.svg",
+                "img/mod05/vocabulary.png",
+                "img/mod05/youCan.svg"]);
+            break;
         default: arrayFinal = arrayComun;
     }
     return arrayFinal;

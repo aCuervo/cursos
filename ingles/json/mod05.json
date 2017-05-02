@@ -938,14 +938,19 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "En esta unidad vamos a ver las características de un e-mail, a diferenciar entre un e-mail formal y uno informal, vocabulario específico y, como no, aprenderemos a redactar un e-mail sencillo.<br>Antes de empezar con el contenido de un e-mail, vamos a ver una a una las partes de la plantilla donde redactaremos nuestro correo electrónico. Como ya sabes, hay muchos modelos, pero en general todos comparten estas características.<br><br>En el apartado FROM aparecerá nuestra dirección de correo electrónico (our e-mail adress). En el recuadro de TO… debemos escribir la dirección de correo electrónico de la persona a la que le estamos enviando el correo."
+          "texto": "En esta unidad vamos a ver las características de un e-mail, a diferenciar entre un e-mail formal y uno informal, aprenderemos vocabulario específico y cómo redactar un e-mail sencillo.<br><br>Antes de empezar con el contenido de un e-mail, vamos a ver una a una las partes de la plantilla donde redactaremos nuestro correo electrónico. Como ya sabes, hay muchos modelos, pero en general todos comparten estas características:<br><br>En el apartado <b>FROM</b> aparecerá nuestra dirección de correo electrónico (our e-mail adress). En el recuadro de <b>TO...</b/> debemos escribir la dirección de correo electrónico de la persona a la que le estamos enviando el correo."
+        },
+        {
+              "clase": "texto",
+              "texto": "El apartado <b>CC</b> podemos poner las direcciones de quienes queramos que tenga el e-mail en copia o COPY y donde aparece <b>SUBJECT</b> escribiremos el asunto del correo, siempre con palabras clave que ayuden a identificar el correo. Ejemplo: ‘English course’, ‘Important documents’, ‘Job offer’."
         },
         {
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "texto",
-              "texto": "El apartado Cc podemos poner las direcciones de quienes queramos que tenga el e-mail en copia o COPY y donde aparece SUBJECT escribiremos el asunto del correo, siempre con palabras clave que ayuden a identificar el correo. Ejemplo: ‘English course’, ‘Important documents’, ‘Job offer’."
+              "clase": "imagen",
+              "imagen": "img/mod05/stamp.svg",
+              "ancho": 256
             },
             {
               "clase": "texto",
@@ -953,29 +958,42 @@
               "texto": "<center>¿Cómo leemos una dirección de correo electrónico?<br>Example:<br>maryadams@gmail.com -> maryadams <b>AT</b> gmail <b>DOT</b> com<br>‘My e-mail address is maryadams at gmail dot com’</center>"
             }
           ]
-        },
+        }
+      ]
+    },
         {
-          "clase": "listaObjetos",
+      "titulo": "Attach file",
           "contenido": [
             {
               "clase": "texto",
-              "texto": "Si queremos adjuntar algún documento buscaremos ATTACH o ATTACH FILE. Una vez que hayamos redactado el cuerpo del e-mail (MAIL BODY) sólo nos quedar hacer click en el botón de SEND o enviar.<br><br>A la hora de redactar un e-mail, al igual que si lo escribiéramos en español, tenemos que tener en cuenta quien el destinatario y escribir con un estilo acorde. Podemos diferenciar entre correos formales (formal style) e informales (informal style). Los primeros se corresponden con e-mails para compañeros de trabajo, a organismos públicos, a gente que no conocemos y nos dirigimos por primera vez, etc. (business and important messages). Por otro lado los ‘informal’ serán los que enviemos a familiares y amigos o gente con la que tengamos más confianza (friends and family)."
+              "subclase": "recuadro",
+              "texto": "Si queremos adjuntar algún documento buscaremos <b>ATTACH</b> o <b>ATTACH FILE</b>. Una vez que hayamos redactado el cuerpo del e-mail (MAIL BODY) sólo nos quedar hacer click en el botón de SEND o enviar."
             },
             {
-              "clase": "imagen",
-              "imagen": "img/mod05/email.png"
+              "clase": "listaObjetos",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "A la hora de redactar un e-mail, al igual que si lo escribiéramos en español, tenemos que tener en cuenta quien el destinatario y escribir con un estilo acorde. Podemos diferenciar entre correos formales (formal style) e informales (informal style). Los primeros se corresponden con e-mails para compañeros de trabajo, a organismos públicos, a gente que no conocemos y nos dirigimos por primera vez, etc. (business and important messages). Por otro lado los ‘informal’ serán los que enviemos a familiares y amigos o gente con la que tengamos más confianza (friends and family)."
+                },
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod05/email.png"
+                }
+              ]
             }
           ]
-        }
-      ]
     },
     {
       "titulo": "Email: Formal style",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "En el caso de los e-mails informales no hay reglas para escribirlos, podemos escribir lo que queramos sin seguir ninguna pauta en concreto. Por otro lado, los e-mails formales (formal e-mails) se suelen encabezar y redactar en un estilo más acorde y formal. Aunque el e-mail es un formato relativamente nuevo, y no tienen unas reglas tan marcadas como podían tener las cartas (letters), vamos a ver algunas de las expresiones que podemos utilizar para encabezar y terminar e-mail formal:"
+          "texto": "Los e-mails formales (formal e-mails) se suelen encabezar y redactar en un estilo acorde y formal. Aunque el e-mail es un formato relativamente nuevo, y no tienen unas reglas tan marcadas como podían tener las cartas (letters), vamos a ver algunas de las expresiones que podemos utilizar para encabezar y terminar e-mail formal:"
         },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
         {
           "clase": "tabla",
           "filaTitulos": [
@@ -1045,28 +1063,34 @@
             }
           ]
         },
-        {
-          "clase": "texto",
-          "texto": "<center><b>FORMAL EMAIL<br></b></center>"
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod05/formalemail.png"
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/formalemail.png",
+              "ancho": 512
+            }
+                      ]
         },
         {
           "clase": "icono",
           "subclase": "exclamacion",
-          "texto": "Aparte de este vocabulario, tenemos que recordar que no se deben usar contracciones (I’m, You’re…) escribiremos I am, he is, she is not..."
+          "texto": "Recuerda que no se deben usar contracciones (I’m, You’re...) en la redacción de un e-mail formal. Escribiremos I am, he is, she is not..."
         }
       ]
     },
     {
       "titulo": "Email: Informal style",
       "contenido": [
+              {
+          "clase": "texto",
+          "texto": "En el caso de los e-mails informales no hay reglas para escribirlos, podemos escribir lo que queramos sin seguir ninguna pauta en concreto."
+        },
         {
           "clase": "texto",
-          "texto": "Como dijimos anteriormente, un e-mail informal no debe tener un estilo determinado y podemos escribir como queramos. Podemos utilizar contracciones, emoticonos o ‘slang’ (jerga)."
+          "texto": "Un e-mail informal no tiene por qué seguir un estilo determinado y <b>podemos utilizar contracciones, emoticonos o ‘slang’</b> (<i>jerga</i>)."
         },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
         {
           "clase": "tabla",
           "filaTitulos": [
@@ -1139,13 +1163,11 @@
             }
           ]
         },
-        {
-          "clase": "texto",
-          "texto": "<center><b>INFORMAL EMAIL<br></b></center>"
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod05/informalemail.png"
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/informalemail.png"
+            }
+                      ]
         }
       ]
     },
@@ -1154,13 +1176,13 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "<center><b>In this Unit you have learned...</b><br><i>En esta Unidad has aprendido...</i></center>"
+          "texto": "In this Unit you have learned... (<i>En esta Unidad has aprendido...</i>)"
         },
         {
           "clase": "lista",
           "contenido": [
             {
-              "punto": "How to use the auxiliary verb ‘can’ and ‘can’t’. You know how to express your abilities and ask for permission. Examples:",
+              "punto": "How to use <b>the auxiliary verb ‘can’</b> and ‘can’t’. You know how to express your abilities and ask for permission:",
               "contenido": [
                 {
                   "punto": "I can sing very well."
@@ -1177,10 +1199,10 @@
               ]
             },
             {
-              "punto": "You have learned new vocabulary related to technology and the Internet language. You can use the punctuation signs not only in phrases but on the Internet and social networks.<br>We recommend you to have a look at the vocabulary part."
+              "punto": "You have learned new <b>vocabulary related to technology and the Internet language</b>. You can use the punctuation signs not only in phrases but on the Internet and social networks.<br>We recommend you to have a look at the vocabulary part."
             },
             {
-              "punto": "You can use ‘there is’ and ‘there are’ correctly and you know when to use ‘some’ and ‘any’.",
+              "punto": "You can use <b>‘there is’</b> and <b>‘there are’</b> correctly and you know when to use <b>‘some’</b> and <b>‘any’</b>.",
               "contenido": [
                 {
                   "clase": "tabla",
@@ -1261,7 +1283,7 @@
               ]
             },
             {
-              "punto": "You have learned how to write an e-mail. You know:",
+              "punto": "You have learned <b>how to write an e-mail</b>. You know:",
               "contenido": [
                 {
                   "punto": "New vocabulary and new words."
