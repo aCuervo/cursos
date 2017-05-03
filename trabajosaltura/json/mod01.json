@@ -16,7 +16,8 @@
           "contenido": [
             {
               "clase": "imagen",
-              "imagen": "img/mod01/bienvenida.jpg"
+              "imagen": "img/mod01/bienvenida.jpg",
+              "ancho": 512
             },
             {
               "clase": "texto",
@@ -28,13 +29,16 @@
     },
     {
       "titulo": "Introducción",
+      "fondo": "img/mod01/tower.jpg",
       "contenido": [
         {
           "clase": "texto",
+          "opacidad": 0.7,
           "texto": "Trataremos en primer lugar la necesidad de una evaluación de riesgos laborales aplicada al entorno de trabajo y la tarea a realizar. Cada lugar de trabajo y cada tarea son únicos en su género, de modo que las sugerencias y recomendaciones que aquí se presentan no eximen de la obligación de proceder a una evaluación rigurosa de los riesgos antes de elegir un método de trabajo concreto.<br><br>Existe una relación directa entre la existencia de diferentes alturas en el lugar de trabajo y el riesgo de caída. Cuando se llevan a cabo trabajos temporales en altura, el trabajador está generalmente expuesto a este riesgo: al acceder al puesto o lugar de trabajo (con o sin equipos o materiales); al realizar los trabajos."
         },
         {
           "clase": "lista",
+          "opacidad": 0.7,
           "titulo": "El empresario es responsable de la salud y la seguridad de los trabajadores  y debería plantearse las siguientes preguntas:",
           "contenido": [
             {
@@ -47,6 +51,7 @@
         },
         {
           "clase": "lista",
+          "opacidad": 0.7,
           "titulo": "Antes de proceder a cualquier operación que requiera la realización de trabajos temporales en altura, no olvide plantearse las siguientes preguntas:",
           "contenido": [
             {
@@ -91,7 +96,6 @@
 
           ]
         }
-
       ]
     },
 
@@ -101,6 +105,11 @@
         {
           "clase": "texto",
           "texto": " Si no es posible evitar la realización de trabajos en altura, se debe reducir por todos los medios posibles la distancia potencial de caída (véase el artículo 6 de la Directiva marco 89/391/CEE).<br><br><b>¿Es posible prevenirlo?</b><br><br>De no ser así, ¿es posible instalar dispositivos anticaídas (barandillas o barreras) lo más cerca posible de las zonas de trabajo? <br><br>En caso de que sea preciso utilizar dispositivos anticaídas (p. ej. arneses de seguridad o técnicas de acceso y posicionamiento con cuerdas) ¿es posible organizar el trabajo de modo que se reduzca al mínimo la distancia potencial de caída (uso de tensores, elección de los puntos de anclaje, etc.)?"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod01/architecture.jpg",
+          "ancho": 512
         }
       ]
     },
@@ -110,6 +119,11 @@
         {
           "clase": "texto",
           "texto": " El empresario debe «adaptar el trabajo a la persona, en particular en lo que respecta a la concepción de los puestos de trabajo, así como a la elección de los equipos de trabajo y los métodos de trabajo y de producción, , en particular, atenuando en lo posible el trabajo monótono y el trabajo repetitivo y a reducir los efectos de los mismos en la salud.» [artículo 6, apartado 2, letra d), de la Directiva 89/391/CEE, relativa a la aplicación de medidas para promover la mejora de la seguridad y de la salud de los trabajadores en el trabajo (la llamada «Directiva marco»)]."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod01/balance.png",
+          "ancho": 512
         }
       ]
     },
@@ -121,34 +135,51 @@
           "texto": "Se trata de detectar los riesgos que podrían ocasionar lesiones dadas las condiciones del lugar de trabajo."
         },
         {
-          "clase": "lista",
-          "titulo": "Un listado no exhaustivo de riesgos o situaciones peligrosas que pueden darse en casi cualquier tarea:",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "punto": "Resbalones (p. ej. suelos o escaleras en mal estado)."
-            },
-            {
-              "punto": "Incendios (p. ej. materiales inflamables)."
-            },
-            {
-              "punto": "Productos químicos (p. ej. ácido de batería)."
-            },
-            {
-              "punto": "Piezas móviles de maquinaria (p. ej. cuchillas)."
-            },
-            {
-              "punto": "Trabajos en altura (p. ej. en áticos)."
-            },
-            {
-              "punto": "Vehículos (p. ej. carretillas elevadoras)."
-            },
-            {
-              "punto": "Electricidad (p. ej. cableado deficiente)."
-            },
-            {
-              "punto": "Manipulación manual de cargas."
-            }
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
 
+                {
+                  "clase": "lista",
+                  "titulo": "Un listado no exhaustivo de riesgos o situaciones peligrosas que pueden darse en casi cualquier tarea:",
+                  "contenido": [
+                    {
+                      "punto": "Resbalones (p. ej. suelos o escaleras en mal estado)."
+                    },
+                    {
+                      "punto": "Incendios (p. ej. materiales inflamables)."
+                    },
+                    {
+                      "punto": "Productos químicos (p. ej. ácido de batería)."
+                    },
+                    {
+                      "punto": "Piezas móviles de maquinaria (p. ej. cuchillas)."
+                    },
+                    {
+                      "punto": "Trabajos en altura (p. ej. en áticos)."
+                    },
+                    {
+                      "punto": "Vehículos (p. ej. carretillas elevadoras)."
+                    },
+                    {
+                      "punto": "Electricidad (p. ej. cableado deficiente)."
+                    },
+                    {
+                      "punto": "Manipulación manual de cargas."
+                    }
+
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/dance.jpg",
+              "ancho": 400
+            }
           ]
         }
       ]
@@ -157,16 +188,28 @@
       "titulo": "¿QUIÉN PODRÍA RESULTAR LESIONADO?",
       "contenido": [
         {
-          "clase": "texto",
-          "texto": "Se trata de clasificar al personal por grupos según las tareas que realizan, por ejemplo personal de oficina, personal de mantenimiento, personal directivo, trabajadores de otras empresas que comparten su lugar de trabajo con sus trabajadores, trabajadores, personal de limpieza, público. Es conveniente prestar especial atención a las categorías específicas de trabajadores, por ejemplo: personas con discapacidad, jóvenes trabajadores, embarazadas y madres lactantes, personal con poca experiencia y personal en prácticas, trabajadores aislados, trabajadores autónomos, cualquier trabajador que pudiera considerarse vulnerable, trabajadores que no comprenden la lengua local. Es preciso asimismo tomar en consideración a las personas ajenas a la empresa que pudieran estar presentes en el lugar de trabajo ocasionalmente (p. ej. visitantes)."
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/oceana.jpg",
+              "ancho": 512
+            },
+            {
+              "clase": "texto",
+              "texto": "Se trata de clasificar al personal por grupos según las tareas que realizan, por ejemplo personal de oficina, personal de mantenimiento, personal directivo, trabajadores de otras empresas que comparten su lugar de trabajo con sus trabajadores, trabajadores, personal de limpieza, público. Es conveniente prestar especial atención a las categorías específicas de trabajadores, por ejemplo: personas con discapacidad, jóvenes trabajadores, embarazadas y madres lactantes, personal con poca experiencia y personal en prácticas, trabajadores aislados, trabajadores autónomos, cualquier trabajador que pudiera considerarse vulnerable, trabajadores que no comprenden la lengua local. Es preciso asimismo tomar en consideración a las personas ajenas a la empresa que pudieran estar presentes en el lugar de trabajo ocasionalmente (p. ej. visitantes)."
+            }
+          ]
         }
       ]
     },
     {
       "titulo": "¿ES PRECISO TOMAR OTRAS MEDIDAS PARA MANTENER LOS RIESGOS BAJO CONTROL?",
+      "fondo": "img/mod01/sky.jpg",
       "contenido": [
         {
           "clase": "lista",
+          "opacidad": 0.7,
           "titulo": "Por lo que respecta a los riesgos evaluados, y suponiendo que las precauciones que ya se han tomado:",
           "contenido": [
             {
@@ -191,6 +234,7 @@
         },
         {
           "clase": "texto",
+          "opacidad": 0.7,
           "texto": "Si la respuesta a estas preguntas es SI, puede considerarse que los riesgos están bajo control. Con todo, es preciso indicar las precauciones que ha tomado (para ello se efectúan los procedimientos, a normas internas de la empresa, etc.).<br><br>En caso de que el riesgo no esté bajo control, habrá que indicar qué otras medidas tiene previsto adoptar («lista de acciones»)."
         }
       ]
@@ -198,10 +242,30 @@
     {
       "titulo": "RIESGOS Y DIVERSIDAD DE TRABAJOS",
       "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Dada la diversidad de tareas en que están implicados los trabajos en altura, procederemos a hablar de riesgos y medidas preventivas, ya que serán muy dispares, en función de los mismos y en módulos diferenciados, según utilicemos escaleras de mano, andamios, etc."
-        }
+                {
+                  "clase": "texto",
+                  "texto": "Dada la diversidad de tareas en que están implicados los trabajos en altura, procederemos a hablar de riesgos y medidas preventivas, ya que serán muy dispares, en función de los mismos y en módulos diferenciados, según utilicemos escaleras de mano, andamios, etc."
+                },
+                {
+                  "clase": "listaObjetos",
+                  "contenido": [
+                                {
+                                  "clase": "imagen",                                  "subclase": "rotarDch",
+              "imagen": "img/mod01/head.jpg",
+              "ancho": 256
+            },
+                    {
+                      "clase": "imagen",
+                      "subclase": "rotarIzq",
+                      "imagen": "img/mod01/construction.jpg"
+                    },
+                    {
+                      "clase": "imagen",
+                      "subclase": "rotarDch",
+                      "imagen": "img/mod01/house.jpg"
+                    }
+                  ]
+                }
       ]
     },
     {
@@ -352,6 +416,15 @@
         }
       ]
     },
+        {
+      "titulo": "NORMAS UNE-EN",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Del mismo modo, aplicarían las siguientes normas UNE:<br><br>UNE-EN 1263-1 y 2 :2004 sobre Redes de Seguridad<br><br>UNE 81652:2013 sobre redes de seguridad bajo forjado<br><br>UNE-EN 13374:2013 sobre sistemas provisionales de protección de borde<br><br>UNE-EN 12810 1 y 2:2005 sobre andamios de fachada<br><br>UNE-EN 12811:2005 sobre andamios<br><br>UNE-EN 1004:2006 sobre torres de acceso y torres de trabajo móviles.<br><br>UNE-EN 795:2012 sobre EPI contra caídas, dispositivos de anclaje.<br><br>UNE-EN 353-1:2014 sobre dispositivos anticaídas deslizantes sobre línea de anclaje rígida.<br><br>En cuanto a las Notas Técnicas de Prevención del Instituto Nacional de Seguridad e Higiene en el Trabajo, tenemos:<br><br>NTP 774 “Sistemas anticaídas. Componentes y elementos”<br><br>NTP 809 “Descripción y elección de dispositivos de anlaje”<br><br>NTP 843 “Dispositivos de anclaje de clase C”<br><br>El instituto Nacional de Seguridad e Higiene en el Trabajo, también ha publicado una <a href='http://www.insht.es/InshtWeb/Contenidos/Documentacion/TextosOnline/Guias/Guias_Orientativas_EPI/Ficheros/caidas_de_altura.pdf' target='_blank' rel='noopener'>Guía orientativa para la selección y utilización de EPI contra caídas en altura.</a>"
+        }
+      ]
+    },
     {
       "titulo": "Autoevaluación",
       "contenido": [
@@ -489,7 +562,8 @@
             },
             {
               "clase": "imagen",
-              "imagen": "img/mod1/despedida.jpg"
+              "imagen": "img/comunes/despedida.jpg",
+              "ancho": 450
             }
           ]
         }
@@ -502,4 +576,3 @@
     }
   ]
 }
-
