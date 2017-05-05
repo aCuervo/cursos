@@ -9,17 +9,16 @@
     },
     {
       "titulo": "Bienvenida",
+      "fondo": "img/comunes/bienvenida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
             {
-              "clase": "imagen",
-              "imagen": "img/mod03/bienvenida.jpg"
-            },
-            {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "En casi cualquier trabajo en altura es necesario llevar un sistema de protección anticaídas, aquí hablaremos del arnés, EPI fundamental en estos trabajos. Veremos en este módulo, los tipos, y  componentes de los arneses."
             }
           ]
@@ -30,19 +29,28 @@
       "titulo": "ARNESES",
       "contenido": [
         {
+          "clase": "texto",
+          "texto": "El sistema anticaídas está formado por una serie de componentes, entre los que se encuentran los arneses, además de los equipos de amarre, conectores, etc."
+        },
+        {
           "clase": "listaObjetos",
           "contenido": [
             {
               "clase": "texto",
-              "texto": "El sistema anticaídas está formado por una serie de componentes, entre los que se encuentran los arneses, además de los equipos de amarre, conectores, etc.<br><br>Según nos dice la NTP 774, sobre sistemas anticaídas, componentes y elementos: \"Es un dispositivo de prensión del cuerpo formado por bandas textiles situadas sobre los hombros y en la región pelviana de forma que permitan sostener el cuerpo durante la caída y después de producirse ésta.\" Es decir, se trata de un sistema de cintas que se colocan directamente sobre el cuerpo del trabajador y que está pensado para detener una caída y, posteriormente, sujetar a la persona que la ha sufrido."
+              "texto": "Según nos dice la NTP 774, sobre sistemas anticaídas, componentes y elementos: \"Es un dispositivo de prensión del cuerpo formado por bandas textiles situadas sobre los hombros y en la región pelviana de forma que permitan sostener el cuerpo durante la caída y después de producirse ésta.\" Es decir, se trata de un sistema de cintas que se colocan directamente sobre el cuerpo del trabajador y que está pensado para detener una caída y, posteriormente, sujetar a la persona que la ha sufrido."
             },
             {
               "clase": "imagen",
-              
+
               "imagen": "img/mod03/tiposArneses.jpg"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Partes del arnés",
+      "contenido": [
         {
           "clase": "acordeon",
           "contenido": [
@@ -67,7 +75,12 @@
         {
           "clase": "imagen",
           "imagen": "img/mod03/partesArnes.jpg"
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Función del arnés",
+      "contenido": [
         {
           "clase": "texto",
           "texto": "La función del arnés es transmitir al cuerpo la fuerza de frenado ejercida por el resto de los componentes del sistema anticaídas. Esa fuerza se intenta pasar a la parte más fuerte del cuerpo: los huesos de la cadera (pelvis)."
@@ -90,10 +103,15 @@
         {
           "clase": "imagen",
           "imagen": "img/mod03/arnesVsCinturon.jpg"
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Diseño del arnés",
+      "contenido": [
         {
           "clase": "texto",
-          "texto": "Sin embargo, si esta fuerza se recibe con un arnés integral (con tirantes) conectado a la cuerda a través de un enganche situado por encima del centro de masas del cuerpo, no se producen daños de estas características."
+          "texto": "Sin embargo, si la fuerza se recibe con un arnés integral (con tirantes) conectado a la cuerda a través de un enganche situado por encima del centro de masas del cuerpo, no se producen daños de estas características."
         },
         {
           "clase": "lista",
@@ -109,44 +127,68 @@
         },
         {
           "clase": "texto",
-          "texto": "Cumpliendo estos dos requisitos se consigue, además, que la fuerza de frenado sea lo suficientemente paralela a la columna vertebral. Si sólo se cumpliera una de las dos exigencias no se conseguiría el fin perseguido.<br><br>Así, ante una caída, se puede observar que la parte de los tirantes situada por encima del elemento de enganche no se encarga de transmitir la fuerza de frenado al cuerpo, sino que evita que éste se voltee, manteniéndolo en una posición relativamente vertical para la correcta transmisión de la fuerza, aunque el accidentado esté inconsciente. Para comprobarlo, basta quedarse en suspensión de manera consciente (con la participación de los músculos abdominales) con un arnés bien ajustado y anclado en el anclaje esternal: los tirantes quedan sin tensión alguna.<br><br>Según la norma UNE-EN 361, los elementos de enganche destinados a conectar un sistema de conexión anticaídas deben estar marcados con una “A”."
-        },
+          "texto": "Cumpliendo estos dos requisitos se consigue, además, que la fuerza de frenado sea lo suficientemente paralela a la columna vertebral. Si sólo se cumpliera una de las dos exigencias no se conseguiría el fin perseguido.<br><br>Así, ante una caída, se puede observar que la parte de los tirantes situada por encima del elemento de enganche no se encarga de transmitir la fuerza de frenado al cuerpo, sino que evita que éste se voltee, manteniéndolo en una posición relativamente vertical para la correcta transmisión de la fuerza, aunque el accidentado esté inconsciente. Para comprobarlo, basta quedarse en suspensión de manera consciente (con la participación de los músculos abdominales) con un arnés bien ajustado y anclado en el anclaje esternal: los tirantes quedan sin tensión alguna."
+        }
+      ]
+    },
+    {
+      "titulo": "UNE-EN 361",
+      "contenido": [
         {
-          "clase": "imagen",
-          "imagen": "img/mod03/anticaida.jpg"
-        },
-        {
-          "clase": "texto",
-          "texto": "El elemento de enganche puede estar formado por una anilla metálica o por un bucle de cinta. En ocasiones, principalmente en el anclaje esternal, es necesario unir dos elementos (anillas o bucles de cinta) para hacer un único elemento de enganche. Estas dos anillas se suelen unir con un conector que cumpla la norma UNE-EN 361."
-        },
-        {
-          "clase": "lista",
-          "titulo": "Estos puntos pueden estar situados:",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "punto": "En la espalda, a la altura de los dos omóplatos (anclaje dorsal). Es muy habitual que este punto esté situado sobre una pieza plana de plástico. En algunos arneses se puede regular la altura a la que se coloca, pero no es obligatorio."
+              "clase": "texto",
+              "texto": "Según la norma UNE-EN 361, los elementos de enganche destinados a conectar un sistema de conexión anticaídas deben estar marcados con una “A”.<br><br>El elemento de enganche puede estar formado por una anilla metálica o por un bucle de cinta. En ocasiones, principalmente en el anclaje esternal, es necesario unir dos elementos (anillas o bucles de cinta) para hacer un único elemento de enganche. Estas dos anillas se suelen unir con un conector que cumpla la norma UNE-EN 361."
             },
             {
-              "imagen": "img/mod03/espalda.jpg"
-            },
-            {
-              "punto": "En la parte delantera del cuerpo, aproximadamente a la altura del esternón (anclaje esternal)."
-            },
-            {
-              "imagen": "img/mod03/esternon.jpg"
-            },
-            {
-              "punto": "En uno de los tirantes (anclaje lateral)."
-            },
-            {
-              "imagen": "img/mod03/lateral.jpg"
+              "clase": "imagen",
+              "imagen": "img/mod03/anticaida.jpg",
+              "ancho": 256
             }
           ]
         },
         {
           "clase": "texto",
-          "texto": "¿ES MEJOR UTILIZAR EL ANCLAJE DORSAL O EL ESTERNAL?<br><br>Algunos estudiosos defienden la utilización del punto de anclaje dorsal basándose, principalmente, en que disminuye el “latigazo cervical” (movimiento brusco hacia atrás de la cabeza que aparece al detener la caída el anclaje esternal) a la persona que está cayendo de forma inconsciente.<br><br>Otros estudiosos sin embargo, enumeran la posibilidad de controlar la caída sujetándose al elemento de unión en caso de caída consciente, algo que no se puede hacer si se utiliza el anclaje dorsal.<br><br>Además, indica la importancia de un posible auto-rescate y tener en cuenta el confort de la persona que está en suspensión.<br><br>También apunta la necesidad, en algunos trabajos, de anclarse y soltarse del elemento de unión y señala un detalle que puede pasar desapercibido: la posibilidad de chequear la unión del elemento de conexión al arnés por parte del trabajador.<br><br>No habiendo una razón técnica totalmente clara para decantarse por el anclaje dorsal o esternal, se recomienda ELEGIRLO EN FUNCIÓN DEL TRABAJO QUE SE VA A REALIZAR analizando todas sus variables."
+          "texto": "Estos puntos pueden estar situados en:"
         },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "Espalda",
+              "imagen": "img/mod03/espalda.jpg",
+              "ancho": 128,
+              "texto": "A la altura de los dos omóplatos (anclaje dorsal). Es muy habitual que este punto esté situado sobre una pieza plana de plástico. En algunos arneses se puede regular la altura a la que se coloca, pero no es obligatorio."
+            },
+            {
+              "titulo": "Parte delantera",
+              "imagen": "img/mod03/esternon.jpg",
+              "ancho": 128,
+              "texto": "Aproximadamente a la altura del esternón (anclaje esternal)."
+            },
+            {
+              "titulo": "Anclaje lateral",
+              "imagen": "img/mod03/lateral.jpg",
+              "ancho": 128,
+              "texto": "En uno de los tirantes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "ANCLAJE DORSAL O ESTERNAL",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Algunos estudiosos defienden la utilización del punto de anclaje dorsal basándose, principalmente, en que disminuye el “latigazo cervical” (movimiento brusco hacia atrás de la cabeza que aparece al detener la caída el anclaje esternal) a la persona que está cayendo de forma inconsciente.<br><br>Otros estudiosos sin embargo, enumeran la posibilidad de controlar la caída sujetándose al elemento de unión en caso de caída consciente, algo que no se puede hacer si se utiliza el anclaje dorsal.<br><br>Además, indica la importancia de un posible auto-rescate y tener en cuenta el confort de la persona que está en suspensión.<br><br>También apunta la necesidad, en algunos trabajos, de anclarse y soltarse del elemento de unión y señala un detalle que puede pasar desapercibido: la posibilidad de chequear la unión del elemento de conexión al arnés por parte del trabajador.<br><br>No habiendo una razón técnica totalmente clara para decantarse por el anclaje dorsal o esternal, se recomienda ELEGIRLO EN FUNCIÓN DEL TRABAJO QUE SE VA A REALIZAR analizando todas sus variables."
+        }
+      ]
+    },
+        {
+          "titulo": "Casos particulares",
+      "contenido": [
         {
           "clase": "lista",
           "titulo": "A continuación se exponen algunos casos particulares:",
@@ -165,7 +207,12 @@
         {
           "clase": "texto",
           "texto": "En cada caso particular pueden existir más variables que se deben valorar. En general, teniendo en cuenta lo incómodo que resulta estar en suspensión sujeto por el anclaje dorsal y la imposibilidad de chequeo de la unión del sistema de conexión al arnés, suele ser más aconsejable el anclaje esternal.<br><br>Para concluir, hay que tener en cuenta el rescate. Un arnés que disponga de anclaje esternal, aunque se esté utilizando el anclaje dorsal, puede facilitar el rescate de una persona consciente a la que no se puede llegar, ya que ella misma se puede conectar una cuerda que le pase el rescatador."
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "TIPOS DE ANCLAJE",
+      "contenido": [
         {
           "clase": "texto",
           "texto": "En cuanto al  TIPO DE ANCLAJE:<br><br>El anclaje dorsal suele estar constituido por una anilla metálica. Sin embargo, el esternal puede estar constituido por cinta o por anilla. Los dos sistemas son admisibles.<br><br>La principal ventaja de las anillas es que permiten poner otro conector aunque estén soportando tensión. Aun sin tensión, es más fácil anclar un conector en una anilla que en una cinta.<br><br>Esta facilidad puede ayudar en los casos en los que se debe cambiar de dispositivo anticaídas, pero sin soltarse de uno de ellos. También puede ser útil para rescates.<br><br>Si no hay que realizar este tipo de maniobras, el bucle textil es igual de adecuado que la anilla.<br><br>OJO: Los arneses pueden tener otras anillas o puntos de conexión para utilizarlos en sujeción o en retención exclusivamente, nunca en situación de caída libre.<br><br>Estos puntos no estarán marcados con una “A” y en las instrucciones quedará claro su uso. Sin embargo, no hay inconveniente en utilizar un elemento de enganche anticaídas para retención o sujeción, siempre que su uso sea compatible con la situación particular.<br><br>También se pueden encontrar anillas en la parte superior de las hombreras. Estas anillas están dispuestas para el rescate y suelen estar fabricadas de acuerdo a la norma UNE-EN 1497. Equipos de protección individual contra caídas. Arneses de salvamento. No son puntos anticaídas."
@@ -173,11 +220,14 @@
       ]
     },
     {
-      "titulo": "CLASIFICACIÓN DE ARNéS",
+      "titulo": "CLASIFICACIÓN DE ARNÉS",
+      "fondo": "img/mod03/colgando.jpg",
       "contenido": [
         {
           "clase": "lista",
-          "titulo": "Los arneses anticaídas se pueden dividir en dos clases:",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "titulo": "<center>Los arneses anticaídas se pueden dividir en dos clases:</center>",
           "contenido": [
             {
               "punto": "Arneses anticaídas que tienen incorporado un arnés de asiento."
@@ -197,18 +247,30 @@
           "texto": "Son los arneses que incluyen un arnés de asiento con anclaje ventral en su construcción, complementado con tirantes. En principio, este tipo de arneses están especialmente indicados para trabajos verticales o trabajos en los que se va a estar en suspensión.<br><br>Los arneses de asiento (por sí solos) son aquéllos que están especialmente diseñados para sujeción, retención y acceso mediante cuerdas. Están formados por un cinturón con enganche ventral y dos perneras, de forma que una persona consciente se pueda mantener sentada si está suspendida de ese anclaje ventral.<br><br>Este tipo de arnés no está diseñado para detener una caída, pero sí puede formar parte de un arnés anticaídas si lleva incorporados tirantes (que pueden ser disociables) con elementos de enganche anticaídas por encima del centro de masas del cuerpo."
         },
         {
-          "clase": "imagen",
-          "imagen": "img/mod03/arnesAsiento.jpg",
-          "pie": "Arnés de asiento"
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod03/arnesAsientoIncor.jpg",
-          "pie": "Arnés anticaídas con asiento incorporado"
-        },
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod03/arnesAsiento.jpg",
+              "pie": "Arnés de asiento",
+                "ancho": 350
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod03/arnesAsientoIncor.jpg",
+              "pie": "Arnés anticaídas con asiento incorporado",
+              "ancho": 350
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Elementos",
+      "contenido": [
         {
           "clase": "lista",
-          "titulo": "Distinguimos en estos arneses los siguientes elementos:",
+          "titulo": "<center>Distinguimos en estos arneses los siguientes elementos:</center>",
           "contenido": [
             {
               "punto": "Tirantes: su misión será mantener el cuerpo en posición más o menos vertical durante la detención de la caída y la posterior sujeción de la persona en suspensión. También sujetarían el cuerpo en caso de caída con el centro de masas por debajo del elemento de enganche."
@@ -232,10 +294,15 @@
               "punto": "Unión de perneras a cinturón: realizada a través de cintas que unen estos dos puntos. Su longitud es importante para transmitir mejor el esfuerzo al hueso pélvico. En algunos arneses se puede regular."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "¿Cómo funcionan?",
+      "contenido": [
         {
           "clase": "texto",
-          "texto": "¿Cómo funcionan?<br><br>La forma de transmitir la fuerza de frenado de este tipo de arneses se basa en repartir la fuerza entre cinturón y perneras. Se pretende que las perneras reciban la mayor parte de la fuerza posible. Esto depende de los tirantes (que hacen que el cuerpo no se voltee) y las cintas que unen las perneras al cinturón.<br><br>Si estas cintas son demasiado largas: las perneras quedarán bajas y, en caso de caída, deslizarán por las piernas y es posible que obliguen al usuario a doblar las piernas hacia arriba. En este caso, parte de la fuerza de frenado la recibirán las piernas y no el hueso pélvico.<br><br>Si, por el contrario, las cintas sean muy cortas: el cinturón no se podrá colocar en su posición correcta (quedará más bajo), por lo que no transmitirá correctamente la fuerza a la cadera."
+          "texto": "La forma de transmitir la fuerza de frenado de este tipo de arneses se basa en repartir la fuerza entre cinturón y perneras. Se pretende que las perneras reciban la mayor parte de la fuerza posible. Esto depende de los tirantes (que hacen que el cuerpo no se voltee) y las cintas que unen las perneras al cinturón.<br><br>Si estas cintas son demasiado largas: las perneras quedarán bajas y, en caso de caída, deslizarán por las piernas y es posible que obliguen al usuario a doblar las piernas hacia arriba. En este caso, parte de la fuerza de frenado la recibirán las piernas y no el hueso pélvico.<br><br>Si, por el contrario, las cintas sean muy cortas: el cinturón no se podrá colocar en su posición correcta (quedará más bajo), por lo que no transmitirá correctamente la fuerza a la cadera."
         },
         {
           "clase": "lista",
@@ -251,10 +318,15 @@
               "punto": "Se ha de ajustar la altura del punto de enganche dorsal, ya que éste se eleva al parar la caída y puede hacer que los tirantes hagan fuerza por debajo de la cabeza."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Colocación",
+      "contenido": [
         {
           "clase": "texto",
-          "texto": "CÓMO COLOCARSE ESTE TIPO DE ARNÉS<br><br>Hablaremos de la forma general de colocación, puede haber variantes, no obstante, siempre prevalecerá lo indicado por el fabricante en sus instrucciones."
+          "texto": "Hablaremos de la forma general de colocación, puede haber variantes, no obstante, <b>siempre prevalecerá lo indicado por el fabricante en sus instrucciones</b>."
         },
         {
           "clase": "lista",
@@ -314,48 +386,58 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "La norma que les ampara es la UNE-EN 361.<br><br>Pueden llevar o no, incorporado un cinturón de sujeción (UNE-EN 358) fijo o disociable sin elemento de enganche ventral.<br><br>En esta imagen podemos ver sus componentes."
+          "texto": "La norma que les ampara es la UNE-EN 361. Pueden llevar o no, incorporado un cinturón de sujeción (UNE-EN 358) fijo o disociable sin elemento de enganche ventral."
         },
         {
-          "clase": "imagen",
-          "imagen": "img/mod03/partesArnes.jpg"
-        },
-        {
-          "clase": "acordeon",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "titulo": "Tirantes",
-              "texto": "Su misión es mantener el cuerpo en posición más o menos vertical durante la detención de la caída y la posterior sujeción de la persona en suspensión. También sujetarían el cuerpo en caso de caída con el centro de masas por encima del elemento de enganche (caída “de cabeza”)."
+              "clase": "acordeon",
+              "contenido": [
+                {
+                  "titulo": "Tirantes",
+                  "texto": "Su misión es mantener el cuerpo en posición más o menos vertical durante la detención de la caída y la posterior sujeción de la persona en suspensión. También sujetarían el cuerpo en caso de caída con el centro de masas por encima del elemento de enganche (caída “de cabeza”)."
+                },
+                {
+                  "titulo": "Elemento de enganche anticaídas ",
+                  "texto": "(Dorsal, esternal o en tirante): es el elemento de amarre con absorbedor, dispositivo deslizante, etc. diseñado para conectar un sistema de conexión anticaídas."
+                },
+                {
+                  "titulo": "Hebillas de regulación",
+                  "texto": "Elemento para regulación de cintas. Pueden estar sólo en tirantes, sólo en perneras o en tirantes y perneras."
+                },
+                {
+                  "titulo": "Banda subglútea",
+                  "texto": "Elemento que permite que la fuerza de choque se reparta mejor en toda la zona subpélvica. No es obligatoria."
+                },
+                {
+                  "titulo": "Trabillas",
+                  "texto": "Piezas de plástico para recoger el sobrante de cinta o bloquear la cinta en las hebillas de regulación."
+                }
+              ]
             },
             {
-              "titulo": "Elemento de enganche anticaídas ",
-              "texto": "(Dorsal, esternal o en tirante): es el elemento de amarre con absorbedor, dispositivo deslizante, etc. diseñado para conectar un sistema de conexión anticaídas."
-            },
-            {
-              "titulo": "Hebillas de regulación",
-              "texto": "Elemento para regulación de cintas. Pueden estar sólo en tirantes, sólo en perneras o en tirantes y perneras."
-            },
-            {
-              "titulo": "Banda subglútea",
-              "texto": "Elemento que permite que la fuerza de choque se reparta mejor en toda la zona subpélvica. No es obligatoria."
-            },
-            {
-              "titulo": "Trabillas",
-              "texto": "Piezas de plástico para recoger el sobrante de cinta o bloquear la cinta en las hebillas de regulación."
+              "clase": "imagen",
+              "imagen": "img/mod03/partesArnes.jpg"
             }
           ]
         },
         {
           "clase": "texto",
           "texto": "Algunos de este tipo arneses tienen una cinta con cierre en la zona external para que los tirantes queden en su sitio. Esta cinta es secundaria. Nunca se debe utilizar para conectar un sistema anticaídas, de retención o sujeción."
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Colocación de arnés Tipo 1",
+      "contenido": [
         {
           "clase": "texto",
-          "texto": "CÓMO COLOCARSE ESTE TIPO DE ARNÉS<br><br>Para ponerse bien el arnés se deben seguir las instrucciones del fabricante y ellas prevalecerán sobre las indicaciones generales expuestas a continuación. Partiremos de un tipo de arnés específico para después explicar las variantes más habituales del mercado."
+          "texto": "Para ponerse bien el arnés <b>se deben seguir las instrucciones del fabricante y ellas prevalecerán sobre las indicaciones generales expuestas a continuación</b>. Partiremos de un tipo de arnés específico para después explicar las variantes más habituales del mercado."
         },
         {
           "clase": "lista",
-          "titulo": "Tipo 1 Arnés con regulación en perneras y tirantes, apertura de perneras y banda subglútea independiente de las perneras",
+          "titulo": "<center><b>Tipo 1</b><br>Arnés con regulación en perneras y tirantes, apertura de perneras y banda subglútea independiente de las perneras</center>",
           "contenido": [
             {
               "punto": "Paso 1. Coger el arnés del anclaje dorsal (normalmente con placa de plástico), con los tirantes mirando hacia la parte exterior."
@@ -409,7 +491,7 @@
         },
         {
           "clase": "lista",
-          "titulo": "Errores más comunes",
+          "titulo": "<b>Errores más comunes</b>",
           "contenido": [
             {
               "punto": "Perneras sin apretar: si el trabajador se deja las perneras flojas, aun estando la banda subglútea en su sitio, en caso de caída, se subirá bruscamente pudiendo causar graves lesiones."
@@ -422,42 +504,62 @@
         {
           "clase": "texto",
           "texto": "En caso de que ocurra esto se deberán regular los tirantes más largos, bajar la parte inferior del arnés, volver a apretar las perneras y subir de nuevo los tirantes. Para comprobar que el arnés está bien puesto lo mejor es colgarse de él."
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Colocación de otros tipos de arnés",
+      "contenido": [
         {
           "clase": "lista",
           "contenido": [
             {
-              "punto": "Tipo 2 Igual que en anterior pero el arnés tiene cinturón incluido. Al llegar al paso 3 es aconsejable abrocharse el cinturón teniendo la certeza de que no se une el cinturón a una pernera o a otra hebilla. El cinturón se dejará algo suelto y después del paso 8 se ajustará por encima de la cadera y suficientemente apretado."
+              "punto": "<b>Tipo 2</b>: Igual que en anterior pero el arnés tiene cinturón incluido. Al llegar al paso 3 es aconsejable abrocharse el cinturón teniendo la certeza de que no se une el cinturón a una pernera o a otra hebilla. El cinturón se dejará algo suelto y después del paso 8 se ajustará por encima de la cadera y suficientemente apretado."
             },
             {
-              "punto": "Tipo 3 Igual que el caso 1 pero las perneras no se pueden desabrochar o es complicado. Sustituir los pasos 3 y 4 por colocar el arnés suavemente en el suelo. Meter las piernas en las perneras y subirlo hasta que los tirantes apoyen en los hombros."
+              "punto": "<b>Tipo 3</b>: Igual que el caso 1 pero las perneras no se pueden desabrochar o es complicado. Sustituir los pasos 3 y 4 por colocar el arnés suavemente en el suelo. Meter las piernas en las perneras y subirlo hasta que los tirantes apoyen en los hombros."
             },
             {
-              "punto": "Tipo 4. La banda subglútea está cosida a las perneras. Se seguirán los pasos 1 al 4 del caso 1 y, a partir de aquí:",
+              "punto": "<b>Tipo 4</b>: La banda subglútea está cosida a las perneras. Se seguirán los pasos 1 al 4 del caso 1 y, a partir de aquí:",
               "contenido": [
                 {
-                  "punto": "Paso 5. Regular los tirantes para que la banda subglútea quede en su sitio y unir el anclaje esternal o la cinta de unión."
+                  "punto": "<b>Paso 5</b>: Regular los tirantes para que la banda subglútea quede en su sitio y unir el anclaje esternal o la cinta de unión."
                 },
                 {
-                  "punto": "Paso 6. Apretar las perneras de manera que entre la mano pero no el puño y sin desplazar la banda subglútea hacia delante."
+                  "punto": "<b>Paso 6</b>: Apretar las perneras de manera que entre la mano pero no el puño y sin desplazar la banda subglútea hacia delante."
                 },
                 {
-                  "punto": "Paso 7. Unir las anillas y regular el anclaje dorsal como en el caso 1."
+                  "punto": "<b>Paso 7</b>: Unir las anillas y regular el anclaje dorsal como en el caso 1."
                 }
               ]
             },
-
             {
-              "punto": "Tipo 5. Sólo tiene regulación en los tirantes o en las perneras<br><br>En este tipo de arneses se debe tener muy en cuenta la adaptación de la talla del arnés a la medida de la persona, ya que, al tener menos regulaciones, es menos polivalente para distintos tamaños de la persona.<br><br>Se seguirán los cuatro primeros pasos del caso 1. Si no se pueden desabrochar las perneras, se actuará como en el caso 2. Una vez puesto el arnés, se regulará con las hebillas previstas a tal efecto, de manera que se consiga: que la banda subglútea quede en su sitio, que las perneras estén suficientemente fuertes y que los tirantes queden a la vez firmes y permitiendo libertad de movimiento. Es importante insistir en que estos arneses más sencillos no se adaptan a todo tipo de personas y hay fabricantes que solo comercializan una talla."
+              "punto": "<b>Tipo 5</b>: Sólo tiene regulación en los tirantes o en las perneras. Estos arneses más sencillos no se adaptan a todo tipo de personas y hay fabricantes que solo comercializan una talla.<br>En este tipo de arneses se debe tener muy en cuenta la adaptación de la talla del arnés a la medida de la persona, ya que, al tener menos regulaciones, es menos polivalente para distintos tamaños de la persona. Se seguirán los cuatro primeros pasos del caso 1. Si no se pueden desabrochar las perneras, se actuará como en el caso 2. Una vez puesto el arnés, se regulará con las hebillas previstas a tal efecto, de manera que se consiga:",
+              "contenido": [
+                {
+                  "punto": "que la banda subglútea quede en su sitio,"
+                },
+                {
+                  "punto": "que las perneras estén suficientemente fuertes y"
+                },
+                {
+                  "punto": "que los tirantes queden a la vez firmes y permitiendo libertad de movimiento."
+                }
+              ]
             },
             {
-              "punto": "Tipo 6. Arneses sin banda subglútea. Se seguirán los pasos 1-4 del caso 1. Posteriormente, se ajustarán las perneras de manera que la parte de atrás de la pernera quede rodeando el glúteo y, así, la pernera envuelva al hueso pélvico. Por último, se debe ajustar los tirantes para que el anclaje esternal quede, aproximadamente, a la altura del esternón. En el caso de llevar cinta que una las dos perneras, ésta debe quedar en la región subglútea. Cuando estos arneses tienen regulación en tirantes y perneras, a veces hay que jugar con las dos regulaciones hasta colocar bien las perneras. Si sólo tienen regulación en tirantes o perneras la dificultad de su ajuste dependerá del tamaño del usuario y su correlación con el tamaño del arnés."
+              "punto": "<b>Tipo 6</b>: Arneses sin banda subglútea. Se seguirán los pasos 1-4 del caso 1. Posteriormente, se ajustarán las perneras de manera que la parte de atrás de la pernera quede rodeando el glúteo y, así, la pernera envuelva al hueso pélvico. Por último, se debe ajustar los tirantes para que el anclaje esternal quede, aproximadamente, a la altura del esternón. En el caso de llevar cinta que una las dos perneras, ésta debe quedar en la región subglútea. Cuando estos arneses tienen regulación en tirantes y perneras, a veces hay que jugar con las dos regulaciones hasta colocar bien las perneras. Si sólo tienen regulación en tirantes o perneras la dificultad de su ajuste dependerá del tamaño del usuario y su correlación con el tamaño del arnés."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Otros criterios",
+      "contenido": [
         {
           "clase": "lista",
-          "titulo": "Otros criterios de clasificación de arneses sin arnés de asiento<br><br>Además de la clasificación hecha anteriormente según el sistema de transmisión de la fuerza de frenado (con y sin banda subglútea), se pueden hacer otras divisiones tomando en consideración diferentes criterios. A pesar de la dificultad de contemplar todos los tipos de arneses por la gran variedad comercializada, se pueden hacer las siguientes clasificaciones.",
+          "titulo": "<b><center>Otros criterios de clasificación de arneses sin arnés de asiento</b></center><br><br>Además de la clasificación hecha anteriormente según el sistema de transmisión de la fuerza de frenado (con y sin banda subglútea), se pueden hacer otras divisiones tomando en consideración diferentes criterios. A pesar de la dificultad de contemplar todos los tipos de arneses por la gran variedad comercializada, se pueden hacer las siguientes clasificaciones.",
           "contenido": [
             {
               "punto": "Según su regulación:",
@@ -485,10 +587,49 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Recomendaciones y errores",
+      "contenido": [
         {
           "clase": "texto",
-          "texto": "Recomendaciones y errores comunes en la colocación del arnés.<br><br>A continuación, se muestran unas recomendaciones a tener en cuenta a la hora de colocarse ambos tipos de arnés:<br><br>En cualquier tipo de arnés, el anclaje esternal debe quedar a la altura aproximada del esternón. Si una vez regulada la banda subglútea, éste queda bajo o alto, habrá que cambiar la talla.<br><br>En todos los casos, el arnés se debe colocar por encima de la ropa.<br><br>Es muy importante que el elemento de enganche dorsal quede libre para un posible rescate.<br><br>No se debe llevar nada en los bolsillos del pantalón, debido a que, en caso de transmitir la fuerza de frenado, quedara entre el arnés y el cuerpo por las lesiones que pueden causar.<br><br>En caso de llevar una chaqueta tipo “tres cuartos”, la parte inferior de la chaqueta se puede colocar por encima de las perneras.<br><br>Por otro lado, algunos de los errores más comunes que el usuario debe tratar de evitar mientras se pone el arnés son los siguientes:<br><br>Dejar que el cinturón o las perneras queden sueltos.<br><br>Unir los tirantes al cinturón a través del punto ventral.<br><br>Dejar los tirantes poco tensos."
+          "texto": "<b><center>Recomendaciones y errores comunes en la colocación del arnés</b></center><br><br>A continuación, se muestran unas recomendaciones a tener en cuenta a la hora de colocarse ambos tipos de arnés:"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "En cualquier tipo de arnés, el anclaje esternal debe quedar a la altura aproximada del esternón. Si una vez regulada la banda subglútea, éste queda bajo o alto, habrá que cambiar la talla."
+            },
+            {
+              "punto": "En todos los casos, el arnés se debe colocar por encima de la ropa"
+            },
+            {
+              "punto": "Es muy importante que el elemento de enganche dorsal quede libre para un posible rescate."
+            },
+            {
+              "punto": "No se debe llevar nada en los bolsillos del pantalón, debido a que, en caso de transmitir la fuerza de frenado, quedara entre el arnés y el cuerpo por las lesiones que pueden causar."
+            },
+            {
+              "punto": "En caso de llevar una chaqueta tipo “tres cuartos”, la parte inferior de la chaqueta se puede colocar por encima de las perneras."
+            },
+            {
+              "punto": "Algunos de los errores más comunes que el usuario debe tratar de evitar mientras se pone el arnés son los siguientes:",
+              "contenido": [
+                {
+                  "punto": "Dejar que el cinturón o las perneras queden sueltos."
+                },
+                {
+                  "punto": "Unir los tirantes al cinturón a través del punto ventral."
+                },
+                {
+                  "punto": "Dejar los tirantes poco tensos."
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -712,6 +853,7 @@
     },
     {
       "titulo": "Despedida",
+      "fondo": "img/comunes/despedida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -719,11 +861,9 @@
           "contenido": [
             {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "Hemos visto en este tercer módulo los arneses anticaídas. Hablaremos en el siguiente de otros dispositivos utilizados en trabajos en altura, los  elementos de amarre, conectores, retráctiles y absorbedores."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod03/despedida.jpg"
             }
           ]
         }
@@ -736,4 +876,3 @@
     }
   ]
 }
-

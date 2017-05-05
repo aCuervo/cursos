@@ -33,11 +33,13 @@
       "contenido": [
         {
           "clase": "texto",
+          "subclase": "recuadro",
           "opacidad": 0.7,
           "texto": "Trataremos en primer lugar la necesidad de una evaluación de riesgos laborales aplicada al entorno de trabajo y la tarea a realizar. Cada lugar de trabajo y cada tarea son únicos en su género, de modo que las sugerencias y recomendaciones que aquí se presentan no eximen de la obligación de proceder a una evaluación rigurosa de los riesgos antes de elegir un método de trabajo concreto.<br><br>Existe una relación directa entre la existencia de diferentes alturas en el lugar de trabajo y el riesgo de caída. Cuando se llevan a cabo trabajos temporales en altura, el trabajador está generalmente expuesto a este riesgo: al acceder al puesto o lugar de trabajo (con o sin equipos o materiales); al realizar los trabajos."
         },
         {
           "clase": "lista",
+          "subclase": "recuadro",
           "opacidad": 0.7,
           "titulo": "El empresario es responsable de la salud y la seguridad de los trabajadores  y debería plantearse las siguientes preguntas:",
           "contenido": [
@@ -51,6 +53,7 @@
         },
         {
           "clase": "lista",
+          "subclase": "recuadro",
           "opacidad": 0.7,
           "titulo": "Antes de proceder a cualquier operación que requiera la realización de trabajos temporales en altura, no olvide plantearse las siguientes preguntas:",
           "contenido": [
@@ -98,7 +101,6 @@
         }
       ]
     },
-
     {
       "titulo": "Combatir los riesgos en su origen",
       "contenido": [
@@ -209,6 +211,7 @@
       "contenido": [
         {
           "clase": "lista",
+          "subclase": "recuadro",
           "opacidad": 0.7,
           "titulo": "Por lo que respecta a los riesgos evaluados, y suponiendo que las precauciones que ya se han tomado:",
           "contenido": [
@@ -234,6 +237,7 @@
         },
         {
           "clase": "texto",
+          "subclase": "recuadro",
           "opacidad": 0.7,
           "texto": "Si la respuesta a estas preguntas es SI, puede considerarse que los riesgos están bajo control. Con todo, es preciso indicar las precauciones que ha tomado (para ello se efectúan los procedimientos, a normas internas de la empresa, etc.).<br><br>En caso de que el riesgo no esté bajo control, habrá que indicar qué otras medidas tiene previsto adoptar («lista de acciones»)."
         }
@@ -242,38 +246,38 @@
     {
       "titulo": "RIESGOS Y DIVERSIDAD DE TRABAJOS",
       "contenido": [
-                {
-                  "clase": "texto",
-                  "texto": "Dada la diversidad de tareas en que están implicados los trabajos en altura, procederemos a hablar de riesgos y medidas preventivas, ya que serán muy dispares, en función de los mismos y en módulos diferenciados, según utilicemos escaleras de mano, andamios, etc."
-                },
-                {
-                  "clase": "listaObjetos",
-                  "contenido": [
-                                {
-                                  "clase": "imagen",                                  "subclase": "rotarDch",
+        {
+          "clase": "texto",
+          "texto": "Dada la diversidad de tareas en que están implicados los trabajos en altura, procederemos a hablar de riesgos y medidas preventivas, ya que serán muy dispares, en función de los mismos y en módulos diferenciados, según utilicemos escaleras de mano, andamios, etc."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
               "imagen": "img/mod01/head.jpg",
               "ancho": 256
             },
-                    {
-                      "clase": "imagen",
-                      "subclase": "rotarIzq",
-                      "imagen": "img/mod01/construction.jpg"
-                    },
-                    {
-                      "clase": "imagen",
-                      "subclase": "rotarDch",
-                      "imagen": "img/mod01/house.jpg"
-                    }
-                  ]
-                }
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
+              "imagen": "img/mod01/construction.jpg"
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "imagen": "img/mod01/house.jpg"
+            }
+          ]
+        }
       ]
     },
-    {
-      "titulo": "NORMATIVA APLICABLE",
+        {
+      "titulo": "CONDICIONES GENERALES",
       "contenido": [
         {
           "clase": "lista",
-          "subclase": "numeros",
           "titulo": "El RD 486/1997 sobre Disposiciones mínimas de seguridad y salud en los lugares de trabajo, en su anexo I “condiciones generales de seguridad en los lugares de trabajo” dice en el punto 3, sobre “suelos, aberturas y desniveles, y barandillas”:",
           "contenido": [
             {
@@ -300,12 +304,14 @@
         },
         {
           "clase": "texto",
-          "texto": "El mismo RD 486/1997 y en el mismo anexo I, en su punto 9 sobre escaleras de mano dice que estas deberán ajustarse a lo establecido en su normativa específica, lo que nos lleva al RD 2177/2004 , que modifica al RD 1215/1997 y establece las disposiciones mínimas de seguridad y salud para la utilización de los equipos de trabajo.<br><br>Este RD 2177/2004, en su anexo sobre “disposiciones relativas a la utilización de los equipos de trabajo para la realización de trabajos temporales en altura, específica sobre uso de andamios y escaleras de mano, asi como de uso de  técnicas de acceso y posicionamiento mediante cuerdas.<br><br>Resulta obvio que este Real Decreto dará las pautas para ésta formación."
-        },
+          "texto": "El mismo RD 486/1997 y en el mismo anexo I, en su punto 9 sobre escaleras de mano dice que estas deberán ajustarse a lo establecido en su normativa específica, lo que nos lleva al RD 2177/2004 , que modifica al RD 1215/1997 y establece las disposiciones mínimas de seguridad y salud para la utilización de los equipos de trabajo.<br><br>Este RD 2177/2004, en su anexo sobre “disposiciones relativas a la utilización de los equipos de trabajo para la realización de trabajos temporales en altura, específica sobre uso de andamios y escaleras de mano, asi como de uso de  técnicas de acceso y posicionamiento mediante cuerdas.<br><br>Este Real Decreto da las pautas para ésta formación."
+        }
+      ]
+    },        {
+      "titulo": "ESCALERAS DE MANO",
+      "contenido": [
         {
           "clase": "lista",
-          "subclase": "numeros",
-          "titulo": "Respecto a las escaleras de mano:",
           "contenido": [
             {
               "punto": "Las escaleras de mano se colocarán de forma que su estabilidad durante su utilización esté asegurada. Los puntos de apoyo de las escaleras de mano deberán asentarse sólidamente sobre un soporte de dimensión adecuada y estable, resistente e inmóvil, de forma que los travesaños queden en posición horizontal. Las escaleras suspendidas se fijarán de forma segura y, excepto las de cuerda, de manera que no puedan desplazarse y se eviten los movimientos de balanceo."
@@ -324,11 +330,14 @@
             }
 
           ]
-        },
+        }
+      ]
+    },
+        {
+      "titulo": "ANDAMIOS",
+      "contenido": [
         {
           "clase": "lista",
-          "subclase": "numeros",
-          "titulo": "Y con respecto a <b>los andamios</b>:",
           "contenido": [
             {
               "punto": "Los andamios deberán proyectarse, montarse y mantenerse convenientemente de manera que se evite que se desplomen o se desplacen accidentalmente. Las plataformas de trabajo, las pasarelas y las escaleras de los andamios deberán construirse, dimensionarse, protegerse y utilizarse de forma que se evite que las personas caigan o estén expuestas a caídas de objetos. A tal efecto, sus medidas se ajustarán al número de trabajadores que vayan a utilizarlos."
@@ -337,7 +346,7 @@
               "punto": "Cuando no se disponga de la nota de cálculo del andamio elegido, o cuando las configuraciones estructurales previstas no estén contempladas en ella, deberá efectuarse un cálculo de resistencia y estabilidad, a menos que el andamio esté montado según una configuración tipo generalmente reconocida."
             },
             {
-              "punto": "En función de la complejidad del andamio elegido, deberá elaborarse un plan de montaje, de utilización y de desmontaje. Este plan y el cálculo a que se refiere el apartado anterior deberán ser realizados por una persona con una formación universitaria que lo habilite para la realización de estas actividades. Este plan podrá adoptar la forma de un plan de aplicación generalizada, completado con elementos correspondientes a los detalles específicos del andamio de que se trate.",
+              "punto": "En función de la complejidad del andamio elegido, deberá elaborarse un plan de montaje, de utilización y de desmontaje. Este plan y el cálculo a que se refiere el apartado anterior deberán ser realizados por una persona con una formación universitaria que lo habilite para la realización de estas actividades. Este plan podrá adoptar la forma de un plan de aplicación generalizada, completado con elementos correspondientes a los detalles específicos del andamio de que se trate:",
               "contenido": [
                 {
                   "punto": "Plataformas suspendidas de nivel variable (de accionamiento manual o motorizadas), instaladas temporalmente sobre un edificio o una estructura para tareas específicas, y plataformas elevadoras sobre mástil."
@@ -354,7 +363,7 @@
               ]
             },
             {
-              "punto": "Sin embargo, cuando se trate de andamios que, a pesar de estar incluidos entre los anteriormente citados, dispongan del marcado “CE”, por serles de aplicación una normativa específica en materia de comercialización, el citado plan podrá ser sustituido por las instrucciones específicas del fabricante, proveedor o suministrador, sobre el montaje, la utilización y el desmontaje de los equipos, salvo que estas operaciones se realicen de forma o en condiciones o circunstancias no previstas en dichas instrucciones."
+              "punto": "Cuando se trate de andamios que, a pesar de estar incluidos entre los anteriormente citados, dispongan del marcado “CE”, por serles de aplicación una normativa específica en materia de comercialización, el citado plan podrá ser sustituido por las instrucciones específicas del fabricante, proveedor o suministrador, sobre el montaje, la utilización y el desmontaje de los equipos, salvo que estas operaciones se realicen de forma o en condiciones o circunstancias no previstas en dichas instrucciones."
             },
             {
               "punto": "Los elementos de apoyo de un andamio deberán estar protegidos contra el riesgo de deslizamiento, ya sea mediante sujeción en la superficie de apoyo, ya sea mediante un dispositivo antideslizante, o bien mediante cualquier otra solución de eficacia equivalente, y la superficie portante deberá tener una capacidad suficiente. Se deberá garantizar la estabilidad del andamio. Deberá impedirse mediante dispositivos adecuados el desplazamiento inesperado de los andamios móviles durante los trabajos en altura."
@@ -411,17 +420,90 @@
           ]
         },
         {
-          "clase": "texto",
-          "texto": "El RD 1627/1997 sobre obras de construcción, en su anexo IV, parte C, también legisla sobre las caídas en altura.<br><br>El RD 773/1997 y el RD 1407/1992 sobre equipos de protección individual, aplicarían en cuanto a los EPI adecuados a la tarea.<br><br>Asimismo el RD 1801/2003 sobre seguridad general de los productos, en su artículo 3, Evaluación de la seguridad de un producto sería de aplicación.<br><br>Del mismo modo, aplicarían las siguientes normas UNE:<br><br>UNE-EN 1263-1 y 2 :2004 sobre Redes de Seguridad<br><br>UNE 81652:2013 sobre redes de seguridad bajo forjado<br><br>UNE-EN 13374:2013 sobre sistemas provisionales de protección de borde<br><br>UNE-EN 12810 1 y 2:2005 sobre andamios de fachada<br><br>UNE-EN 12811:2005 sobre andamios<br><br>UNE-EN 1004:2006 sobre torres de acceso y torres de trabajo móviles.<br><br>UNE-EN 795:2012 sobre EPI contra caídas, dispositivos de anclaje.<br><br>UNE-EN 353-1:2014 sobre dispositivos anticaídas deslizantes sobre línea de anclaje rígida.<br><br>En cuanto a las Notas Técnicas de Prevención del Instituto Nacional de Seguridad e Higiene en el Trabajo, tenemos:<br><br>NTP 774 “Sistemas anticaídas. Componentes y elementos”<br><br>NTP 809 “Descripción y elección de dispositivos de anlaje”<br><br>NTP 843 “Dispositivos de anclaje de clase C”<br><br>El instituto Nacional de Seguridad e Higiene en el Trabajo, también ha publicado una <a href='http://www.insht.es/InshtWeb/Contenidos/Documentacion/TextosOnline/Guias/Guias_Orientativas_EPI/Ficheros/caidas_de_altura.pdf' target='_blank'>Guía orientativa para la selección y utilización de EPI contra caídas en altura.</a>"
+          "clase": "lista",
+          "subclase": "recuadro",
+          "contenido": [
+            {
+              "punto": "El RD 1627/1997 sobre obras de construcción, en su anexo IV, parte C, también legisla sobre las caídas en altura."
+            },
+            {
+              "punto": "El RD 773/1997 y el RD 1407/1992 sobre equipos de protección individual, aplicarían en cuanto a los EPI adecuados a la tarea."
+            },
+            {
+              "punto": "El RD 1801/2003 sobre seguridad general de los productos, en su artículo 3, Evaluación de la seguridad de un producto sería de aplicación."
+            }
+          ]
         }
       ]
     },
-        {
+    {
       "titulo": "NORMAS UNE-EN",
       "contenido": [
         {
+          "clase": "lista",
+          "titulo": "Normas UNE aplicables:",
+          "contenido": [
+            {
+              "punto": "<b>UNE-EN 1263-1 y 2 :2004</b> sobre Redes de Seguridad"
+            },
+            {
+              "punto": "<b>UNE 81652:2013</b> sobre redes de seguridad bajo forjado"
+            },
+            {
+              "punto": "<b>UNE-EN 13374:2013</b> sobre sistemas provisionales de protección de borde"
+            },
+            {
+              "punto": "<b>UNE-EN 12810 1 y 2:2005</b> sobre andamios de fachada"
+            },
+            {
+              "punto": "<b>UNE-EN 12811:2005</b> sobre andamios"
+            },
+            {
+              "punto": "<b>UNE-EN 1004:2006</b> sobre torres de acceso y torres de trabajo móviles."
+            },
+            {
+              "punto": "<b>UNE-EN 795:2012</b> sobre EPI contra caídas, dispositivos de anclaje."
+            },
+            {
+              "punto": "<b>UNE-EN 353-1:2014</b> sobre dispositivos anticaídas deslizantes sobre línea de anclaje rígida."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "contenido": [
+
+              ]
+            },
+            {
+              "clase": "lista",
+              "contenido": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "Notas Técnicas de Prevención del Instituto Nacional de Seguridad e Higiene en el Trabajo",
+          "contenido": [
+            {
+              "punto": "<b>NTP 774</b> “Sistemas anticaídas. Componentes y elementos”."
+            },
+            {
+              "punto": "<b>NTP 809</b> “Descripción y elección de dispositivos de anclaje”."
+            },
+            {
+              "punto": "<b>NTP 843</b> “Dispositivos de anclaje de clase C”."
+            }
+          ]
+        },
+        {
           "clase": "texto",
-          "texto": "Del mismo modo, aplicarían las siguientes normas UNE:<br><br>UNE-EN 1263-1 y 2 :2004 sobre Redes de Seguridad<br><br>UNE 81652:2013 sobre redes de seguridad bajo forjado<br><br>UNE-EN 13374:2013 sobre sistemas provisionales de protección de borde<br><br>UNE-EN 12810 1 y 2:2005 sobre andamios de fachada<br><br>UNE-EN 12811:2005 sobre andamios<br><br>UNE-EN 1004:2006 sobre torres de acceso y torres de trabajo móviles.<br><br>UNE-EN 795:2012 sobre EPI contra caídas, dispositivos de anclaje.<br><br>UNE-EN 353-1:2014 sobre dispositivos anticaídas deslizantes sobre línea de anclaje rígida.<br><br>En cuanto a las Notas Técnicas de Prevención del Instituto Nacional de Seguridad e Higiene en el Trabajo, tenemos:<br><br>NTP 774 “Sistemas anticaídas. Componentes y elementos”<br><br>NTP 809 “Descripción y elección de dispositivos de anlaje”<br><br>NTP 843 “Dispositivos de anclaje de clase C”<br><br>El instituto Nacional de Seguridad e Higiene en el Trabajo, también ha publicado una <a href='http://www.insht.es/InshtWeb/Contenidos/Documentacion/TextosOnline/Guias/Guias_Orientativas_EPI/Ficheros/caidas_de_altura.pdf' target='_blank' rel='noopener'>Guía orientativa para la selección y utilización de EPI contra caídas en altura.</a>"
+          "texto": "El Instituto Nacional de Seguridad e Higiene en el Trabajo también ha publicado una <a href='http://www.insht.es/InshtWeb/Contenidos/Documentacion/TextosOnline/Guias/Guias_Orientativas_EPI/Ficheros/caidas_de_altura.pdf' target='_blank' rel='noopener'>Guía orientativa para la selección y utilización de EPI contra caídas en altura.</a>"
         }
       ]
     },
@@ -551,21 +633,13 @@
     },
     {
       "titulo": "Despedida",
+      "fondo": "img/comunes/despedida.jpg",
       "contenido": [
         {
-          "clase": "listaObjetos",
-          "animacion": "fadeInRight",
-          "contenido": [
-            {
-              "clase": "texto",
-              "texto": "En este módulo hemos visto una pequeña introducción a los trabajos en altura y hemos hablado de la importancia de la prevención de riesgos laborales. En el segundo módulo, nos adentraremos en los conceptos necesarios para tratar los trabajos en altura."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/comunes/despedida.jpg",
-              "ancho": 450
-            }
-          ]
+          "clase": "texto",
+          "opacidad": 0.8,
+          "subclase": "recuadro",
+          "texto": "En este módulo hemos visto una pequeña introducción a los trabajos en altura y hemos hablado de la importancia de la prevención de riesgos laborales.<br>En el segundo módulo, nos adentraremos en los conceptos necesarios para tratar los trabajos en altura."
         }
       ]
     },

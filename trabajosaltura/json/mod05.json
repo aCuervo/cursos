@@ -9,17 +9,16 @@
     },
     {
       "titulo": "Bienvenida",
+      "fondo": "img/comunes/bienvenida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
             {
-              "clase": "imagen",
-              "imagen": "img/mod05/bienvenida.jpg"
-            },
-            {
               "clase": "texto",
+              "opacidad": 0.8,
+              "subclase": "recuadro",
               "texto": "Hemos tratado con anterioridad los arneses, elementos de amarre, conectores, etc. Ahora bien, todo eso que lleva el trabajador sobre su cuerpo y compone el sistema anticaídas, hay que asegurarlo a algún sitio. Comenzaremos por tanto ahora de las líneas de vida. Una línea de vida puede ser horizontal o vertical."
             }
           ]
@@ -86,18 +85,30 @@
           "texto": "La NTP 774 “Sistemas anticaídas. Componentes y elementos”, nos dice lo siguiente sobre los sistemas anticaídas: Considera la necesidad de utilizar un conjunto de equipos compatibles entre sí. A dicho conjunto se le denomina sistema anticaídas y cada uno de los equipos que lo forman es un componente de dicho sistema. Un componente es un equipo que el fabricante comercializa provisto de marcado y embalaje y acompañado de la correspondiente información proporcionada por el fabricante. Como ejemplos de componentes pueden citarse, entre otros, los arneses anticaídas, los dispositivos anticaídas retráctiles y los conectores. Cada componente está formado, a su vez, por diferentes partes constituyentes a las que se les denomina elementos. Como ejemplos de estos elementos pueden mencionarse, entre otros, los cables, cuerdas y bandas, los elementos de enganche, los elementos de ajuste y cierre, los reguladores de longitud, los lastres y los tensores. De forma general, puede decirse que un sistema anticaídas está formado por un dispositivo de prensión del cuerpo y un subsistema de conexión (figura 1)."
         },
         {
-          "clase": "imagen",
-          "imagen": "img/mod05/fig1.jpg"
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/fig1.jpg",
+              "ancho": 256
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/anticaida.jpg",
+              "pie": "Dispositivo anticaídas deslizante sobre línea de anclaje rígida",
+              "ancho": 256
+            }
+          ]
         },
         {
           "clase": "texto",
           "texto": "Hemos estudiado con anterioridad los arneses, retráctiles y absorbedores de energía. Hablaremos en esta parte de las líneas de vida. Un dispositivo anticaídas deslizante sobre línea de anclaje rígida o flexible, es un subsistema de conexión formado por un dispositivo anticaídas deslizante, una línea de anclaje rígida o flexible y un conector o un elemento de amarre terminado en un conector."
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod05/anticaida.jpg",
-          "pie": "Ejemplo de dispositivo anticaídas deslizante sobre lí¬nea de anclaje rígida"
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Dispositivos anticaídas deslizantes",
+      "contenido": [
         {
           "clase": "texto",
           "texto": "El dispositivo anticaídas deslizante es un elemento que dispone de una función de bloqueo automático y de un mecanismo de guía. Dicho dispositivo anticaídas se desplaza a lo largo de su línea de anclaje, acompañando al usuario sin requerir su intervención manual, durante los cambios de posición hacia arriba o hacia abajo y se bloquea automáticamente sobre la línea de anclaje cuando se produce una caída dando lugar a la correspondiente disipación de energía. Esta disipación se produce por la acción conjunta del dispositivo anticaídas deslizante y la línea de anclaje, o bien, mediante ciertos elementos incorporados en la línea de anclaje o en el elemento de amarre. Los dispositivos anticaídas deslizantes pueden estar dotados de un mecanismo para su apertura que además cumple la condición de que sólo puede abrirse o cerrar¬ 3 Notas Técnicas de Prevención se mediante dos acciones manuales consecutivas y voluntarias. "
@@ -105,7 +116,7 @@
         {
           "clase": "imagen",
           "imagen": "img/mod05/anticaida2.jpg",
-          "pie": "Ejemplo de dispositivo anticaídas deslizante sobre lí¬nea de anclaje flexible"
+          "pie": "Ejemplo de dispositivo anticaídas deslizante sobre línea de anclaje flexible"
         },
         {
           "clase": "texto",
@@ -114,11 +125,23 @@
       ]
     },
     {
-      "titulo": "Dispositivos anticaída sobre linea de anclaje rígida",
+      "titulo": "LÍNEAS DE ANCLAJE RÍGIDAS",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Son sistemas ideados especialmente para proteger al usuario en el ascenso y descenso por escaleras. Están compuestos por un raíl o un cable vertical al que se le incorpora un dispositivo que se une al arnés. El dispositivo acompaña al usuario sin que lo tenga que manipular y, en caso de caída, se bloquea sobre el raíl o cable.<br><br>Estos equipos se pueden certificar según la norma UNE-EN 353-1. Para obtener el marcado CE el equipo que cumpla la norma debe pasar además pruebas complementarias a las que dicta la misma norma.<br><br>Este sistema consta de dos partes, la línea de anclaje y el dispositivo deslizante.<br><br>La línea de anclaje puede ser un raíl o un cable de, como mínimo, 8 mm de grosor o que tenga una resistencia equivalente. Debe estar prevista para fijarla a una estructura, de manera que los movimientos laterales de la línea estén limitados.<br><br>La limitación de los movimientos laterales es una de las diferencias esenciales con los dispositivos anticaídas sobre línea de anclaje flexible (UNE-EN 353-2) que veremos posteriormente.<br><br>Cuando la línea es un raíl, su propia estructura y que esté anclado a intervalos fijos evita los movimientos laterales.<br><br>Cuando es un cable, debe estar sujeto firmemente arriba y abajo (normalmente la tensión la especifica el fabricante) y puede estar fijado, si se ha diseñado así, también a intervalos regulares."
+          "texto": "Son sistemas ideados especialmente para proteger al usuario en el ascenso y descenso por escaleras. Están compuestos por un raíl o un cable vertical al que se le incorpora un dispositivo que se une al arnés. El dispositivo acompaña al usuario sin que lo tenga que manipular y, en caso de caída, se bloquea sobre el raíl o cable.<br><br>Estos equipos se pueden certificar según la norma UNE-EN 353-1. Para obtener el marcado CE el equipo que cumpla la norma debe pasar además pruebas complementarias a las que dicta la misma norma.<br><br>Este sistema consta de dos partes, la línea de anclaje y el dispositivo deslizante."
+        },
+        {
+          "clase": "lista",
+          "titulo": "La línea de anclaje puede ser un raíl o un cable de, como mínimo, 8 mm de grosor o que tenga una resistencia equivalente. Debe estar prevista para fijarla a una estructura, de manera que los movimientos laterales de la línea estén limitados. La limitación de los movimientos laterales es una de las diferencias esenciales con los dispositivos anticaídas sobre línea de anclaje flexible (UNE-EN 353-2) que veremos posteriormente.",
+          "contenido": [
+            {
+              "punto": "Cuando la línea es un raíl, su propia estructura y que esté anclado a intervalos fijos evita los movimientos laterales."
+            },
+            {
+              "punto": "Cuando es un cable, debe estar sujeto firmemente arriba y abajo (normalmente la tensión la especifica el fabricante) y puede estar fijado, si se ha diseñado así, también a intervalos regulares."
+            }
+          ]
         },
         {
           "clase": "lista",
@@ -131,72 +154,94 @@
               "punto": "Si estuviera  situada en el centro de la escalera, se debe prestar atención al espacio libre que queda en los peldaños para colocar el pie."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Instalación de líneas rígidas",
+      "contenido": [
         {
           "clase": "texto",
-          "texto": "La línea de anclaje rígida debe llevar un sistema para que no se salga inadvertidamente el dispositivo. Cuando es un raíl suele ser necesario un tope al final del mismo. Según la norma, este tope debe estar tanto abajo como arriba.<br><br>La instalación de la línea se debe hacer de acuerdo con las instrucciones del fabricante. Especialmente se debe respetar la resistencia de la estructura de recepción de la línea. Algunos fabricantes obligan a que la instalación la realice una empresa autorizada por ellos para garantizar su seguridad.<br><br>El dispositivo es el componente que desliza por la línea y se une al arnés. La forma de frenado habitual, tanto para raíl como para el cable, es mediante un tipo de leva que “muerde” la línea. También pueden ser otros sistemas, normalmente de concepción semejante, como un trapecio móvil."
+          "texto": "La línea de anclaje rígida debe llevar un sistema para que no se salga inadvertidamente el dispositivo. Cuando es un raíl suele ser necesario un tope al final del mismo. Según la norma, este tope debe estar tanto abajo como arriba. La instalación de la línea se debe hacer de acuerdo con las instrucciones del fabricante. Especialmente se debe respetar la resistencia de la estructura de recepción de la línea. Algunos fabricantes obligan a que la instalación la realice una empresa autorizada por ellos para garantizar su seguridad."
         },
         {
-          "clase": "imagen",
-          "imagen": "img/mod05/dispositivo.jpg"
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "El dispositivo es el componente que desliza por la línea y se une al arnés. La forma de frenado habitual, tanto para raíl como para el cable, es mediante un tipo de leva que “muerde” la línea. También pueden ser otros sistemas, normalmente de concepción semejante, como un trapecio móvil."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/dispositivo.jpg",
+              "ancho": 256
+            }
+          ]
         },
         {
           "clase": "texto",
           "texto": "El dispositivo puede llevar incorporado un equipo de amarre o un absorbedor. Si es un absorbedor, éste puede también ser disociable. Se ha de unir el dispositivo al arnés con el elemento indicado expresamente por el fabricante. Jamás se deberá alargar la distancia entre el dispositivo y el arnés añadiendo absorbedores o equipos de amarre no autorizados en las instrucciones, ya que las pruebas se hacen con los elementos indicados por el fabricante y la utilización de otros equipos podrían aumentar la distancia de caída o variar las condiciones iniciales dictadas por él."
         },
         {
-          "clase": "imagen",
-          "imagen": "img/mod05/union.jpg"
-        },
-                {
-          "clase": "texto",
-          "texto": "Cuando el dispositivo se puede retirar de la línea deben ser necesarias dos acciones manuales consecutivas y voluntarias para quitarlo, lo cual evita la retirada involuntaria por un mal movimiento."
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/union.jpg",
+              "ancho": 256
+            },
+            {
+              "clase": "texto",
+              "texto": "Cuando el dispositivo se puede retirar de la línea deben ser necesarias dos acciones manuales consecutivas y voluntarias para quitarlo, lo cual evita la retirada involuntaria por un mal movimiento."
+            }
+          ]
         }
       ]
     },
     {
-      "titulo": "Linea de vida flexible",
+      "titulo": "LÍNEA DE VIDA FLEXIBLE",
       "contenido": [
         {
           "clase": "texto",
           "texto": "Sobre estas líneas de vida en concreto, nos habla extensamente la NTP 843, cuyo es la descripción de los dispositivos de anclaje equipados con líneas de anclaje flexibles horizontales fijas según la norma UNE-EN 795, incluidas dentro del grupo de productos “dispositivos de anclaje”. Esta norma específica los requisitos de comportamiento y los métodos de ensayo asociados para los dispositivos de anclaje de clase C, aportando las siguientes definiciones:"
         },
         {
-          "clase": "icono",
-          "subclase": "definicion",
-          "texto": "Dispositivo de anclaje: Elemento o serie de elementos o componentes que incorporan uno o varios puntos de anclaje. "
-        },
-        {
-          "clase": "icono",
-          "subclase": "definicion",
-          "texto": "Dispositivo de anclaje de clase C: Dispositivo de anclaje provisto de una línea de anclaje flexible que no se desvía de la horizontal más de 15°, puede incorporar puntos de anclaje que se deslizan a lo largo de la línea para unir el equipo de protección individual contra caídas o unirse éste a la línea directamente."
-        },
-        {
-          "clase": "icono",
-          "subclase": "definicion",
-          "texto": "Línea de anclaje flexible: Línea flexible situada entre anclajes de extremidad, a la que es posible sujetar un equipo de protección individual contra caídas."
-        },
-        {
-          "clase": "icono",
-          "subclase": "definicion",
-          "texto": "Anclaje estructural: Elemento o conjunto de elementos fijados a una estructura de forma permanente al que es posible sujetar un dispositivo de anclaje o un equipo de protección individual contra caídas. "
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "<b>Dispositivo de anclaje:</b> Elemento o serie de elementos o componentes que incorporan uno o varios puntos de anclaje."
+            },
+            {
+              "punto": "<b>Dispositivo de anclaje de clase C:</b> Dispositivo de anclaje provisto de una línea de anclaje flexible que no se desvía de la horizontal más de 15°, puede incorporar puntos de anclaje que se deslizan a lo largo de la línea para unir el equipo de protección individual contra caídas o unirse éste a la línea directamente."
+            },
+            {
+              "punto": "<b>Línea de anclaje flexible:</b> Línea flexible situada entre anclajes de extremidad, a la que es posible sujetar un equipo de protección individual contra caídas."
+            },
+            {
+              "punto": "<b>Anclaje estructural:</b> Elemento o conjunto de elementos fijados a una estructura de forma permanente al que es posible sujetar un dispositivo de anclaje o un equipo de protección individual contra caídas."
+            },
+            {
+              "punto": "<b>Anclaje de extremidad:</b> Elemento que conecta el extremo de la línea de anclaje a la estructura."
+            },
+            {
+              "punto": "<b>Anclaje intermedio:</b> Elemento situado entre los anclajes de extremidad que conecta una línea de anclaje a la estructura. Permiten reducir la flecha y la tensión de la línea en caso de caída."
+            }
+          ]
         }
-        ,
-        {
-          "clase": "icono",
-          "subclase": "definicion",
-          "texto": "Anclaje de extremidad: Elemento que conecta el extremo de la línea de anclaje a la estructura."
-        }
-        ,
-        {
-          "clase": "icono",
-          "subclase": "definicion",
-          "texto": "Anclaje intermedio: Elemento situado entre los anclajes de extremidad que conecta una línea de anclaje a la estructura. Permiten reducir la flecha y la tensión de la línea en caso de caída."
-        },
+      ]
+    },
+    {
+      "titulo": "Tipos",
+      "contenido": [
         {
           "clase": "imagen",
           "imagen": "img/mod05/lineasVida.jpg"
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Lineas fijas",
+      "contenido": [
         {
           "clase": "texto",
           "texto": "Se dice de una línea de anclaje que es “fija” cuando está destinada a quedarse instalada indefinidamente.<br><br>De acuerdo con la reglamentación vigente, los desniveles, huecos y aberturas con un riesgo de caída superior a 2 m. respecto de la superficie a la que se pueda caer, requiere la protección contra caídas de altura; ello no significa que cuando se trabaje en alturas inferiores no deban utilizarse los medios y equipos adecuados para cada caso."
@@ -224,7 +269,12 @@
               "punto": "Obras de construcción."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Instalación de líneas flexibles",
+      "contenido": [
         {
           "clase": "texto",
           "texto": "Al instalar la línea se deben tener en cuenta entre otros factores, la seguridad de las personas que realizan la instalación, las instrucciones de instalación y el proyecto de instalación."
@@ -248,7 +298,7 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Existen en el mercado una serie de líneas de vida horizontales portátiles homologadas cuya principal característica es la facilidad de colocación.<br><br>Es imprescindible que el instalador se asegure de que la estructura portadora es compatible con los esfuerzos que se puedan generar sobre el dispositivo y que el modo de fijación no altera las prestaciones ni las características de ninguno de los elementos."
+          "texto": "Existen en el mercado una serie de líneas de vida horizontales portátiles homologadas cuya principal característica es la facilidad de colocación. Es imprescindible que el instalador se asegure de que la estructura portadora es compatible con los esfuerzos que se puedan generar sobre el dispositivo y que el modo de fijación no altera las prestaciones ni las características de ninguno de los elementos."
         },
         {
           "clase": "lista",
@@ -278,9 +328,13 @@
     },
     {
       "titulo": "Recomendaciones importantes",
+      "fondo": "img/mod05/cuerdas2.jpg",
       "contenido": [
         {
           "clase": "lista",
+          "animacion": "fadeInRight",
+          "opacidad": 0.8,
+          "subclase": "recuadro",
           "contenido": [
             {
               "punto": "Si el dispositivo se ha utilizado para parar una caída, por razones de seguridad es esencial no reutilizarlo. Lo mismo sucede si se duda de su seguridad. "
@@ -324,7 +378,7 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "El mantenimiento se debe realizar según las recomendaciones del fabricante, pero en general el responsable de la instalación velará para que la línea de anclaje esté en perfectas condiciones. Cualquier duda en cuanto a la seguridad del dispositivo de anclaje debe ser notificada ¬ ¬ ¬ ¬ ¬ ¬ rápidamente al proveedor del mismo y no se debe utilizar hasta su revisión por personal cualificado.<br><br>Jamás se debe utilizar para su reparación piezas que no sean originales del fabricante, puesto que pueden cambiar el comportamiento mecánico de la línea o no ser compatibles con ella.<br><br>Nunca debe manipular la línea personal no autorizado para ello puesto que no conocen las especificaciones de la línea. Si alguien la ha manipulado sin ser personal autorizado por el fabricante, se pone en grave peligro a las personas que la utilicen.<br><br>La línea se debe utilizar únicamente para lo que está pensada. No se debe consentir su uso como punto de anclaje para subir cargas ni como punto de anclaje para la cuerda de sujeción de un trabajo en suspensión.<br><br>Después de una caída no se deberá utilizar una línea de anclaje hasta que haya sido controlada y puesta en conformidad por una persona competente.<br><br>La línea debe mantenerse limpia (tener cuidado a las partículas agresivas con poder de corrosión como el polvo de hierro u otros productos químicos sólidos).<br><br>Además de las revisiones que se deben hacer en caso de detectar alguna anomalía, es recomendable realizar revisiones periódicas al menos con la frecuencia marcada por el fabricante (habitualmente una vez al año). Puede que la periodicidad haya que aumentarla en función de las condiciones de la línea (por ejemplo si se encuentra en una atmósfera corrosiva).<br><br>Las revisiones las debe hacer personal competente que conozca las líneas y esté capacitado para desarrollar esta tarea."
+          "texto": "El mantenimiento se debe realizar según las recomendaciones del fabricante, pero en general el responsable de la instalación velará para que la línea de anclaje esté en perfectas condiciones. Cualquier duda en cuanto a la seguridad del dispositivo de anclaje debe ser notificada rápidamente al proveedor del mismo y no se debe utilizar hasta su revisión por personal cualificado.<br><br>Jamás se debe utilizar para su reparación piezas que no sean originales del fabricante, puesto que pueden cambiar el comportamiento mecánico de la línea o no ser compatibles con ella.<br><br>Nunca debe manipular la línea personal no autorizado para ello puesto que no conocen las especificaciones de la línea. Si alguien la ha manipulado sin ser personal autorizado por el fabricante, se pone en grave peligro a las personas que la utilicen.<br><br>La línea se debe utilizar únicamente para lo que está pensada. No se debe consentir su uso como punto de anclaje para subir cargas ni como punto de anclaje para la cuerda de sujeción de un trabajo en suspensión.<br><br>Después de una caída no se deberá utilizar una línea de anclaje hasta que haya sido controlada y puesta en conformidad por una persona competente.<br><br>La línea debe mantenerse limpia (tener cuidado a las partículas agresivas con poder de corrosión como el polvo de hierro u otros productos químicos sólidos).<br><br>Además de las revisiones que se deben hacer en caso de detectar alguna anomalía, es recomendable realizar revisiones periódicas al menos con la frecuencia marcada por el fabricante (habitualmente una vez al año). Puede que la periodicidad haya que aumentarla en función de las condiciones de la línea (por ejemplo si se encuentra en una atmósfera corrosiva).<br><br>Las revisiones las debe hacer personal competente que conozca las líneas y esté capacitado para desarrollar esta tarea."
         }
 
       ]
@@ -334,19 +388,25 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Consiste en un sistema formado por una línea de anclaje flexible constituida por un cable o una cuerda, generalmente, vertical y anclada, únicamente, en el extremo superior, a la que se le incorpora un dispositivo que desliza sobre ella y se une al arnés.<br><br>El dispositivo acompaña al usuario sin que lo tenga que manipular y en caso de caída se bloquea sobre la cuerda o el cable.<br><br>Este sistema es más versátil que el rígido y se utiliza en más situaciones (proteger andamios colgantes, ascensos por escaleras de mano, por estructuras metálicas, etc.).<br><br>Muchas veces están pensados como equipos móviles que se colocan en el momento de su utilización y después se retiran.<br><br>Estos equipos se pueden certificar según la norma armonizada EN 353-2.<br><br>El equipo consta de dos partes, la línea de anclaje y el dispositivo deslizante."
+          "texto": "Consiste en un sistema formado por una línea de anclaje flexible constituida por un cable o una cuerda, generalmente, vertical y anclada, únicamente, en el extremo superior, a la que se le incorpora un dispositivo que desliza sobre ella y se une al arnés. El dispositivo acompaña al usuario sin que lo tenga que manipular y en caso de caída se bloquea sobre la cuerda o el cable. Este sistema es más versátil que el rígido y se utiliza en más situaciones (proteger andamios colgantes, ascensos por escaleras de mano, por estructuras metálicas, etc.)."
         },
         {
-          "clase": "imagen",
-          "imagen": "img/mod05/anticaidaFlexible.jpg"
-        },
-        {
-          "clase": "texto",
-          "texto": "La línea de anclaje puede ser una cuerda o un cable. El cable, en muchas ocasiones, tiene un diámetro menor de 8 mm, aunque no es obligatorio. Al contrario que con el sistema rígido, no se busca evitar los movimientos laterales."
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/anticaidaFlexible.jpg",
+              "ancho": 256
+            },
+            {
+              "clase": "texto",
+              "texto": "Muchas veces están pensados como equipos móviles que se colocan en el momento de su utilización y después se retiran. Estos equipos se pueden certificar según la norma armonizada EN 353-2. El equipo consta de dos partes, la línea de anclaje y el dispositivo deslizante."
+            }
+          ]
         },
         {
           "clase": "lista",
-          "titulo": "Por ello, no tienen que estar necesariamente ancladas en la parte inferior, aunque deben llevar un tope para que no se salga el dispositivo.",
+          "titulo": "La línea de anclaje puede ser una cuerda o un cable. El cable, en muchas ocasiones, tiene un diámetro menor de 8 mm, aunque no es obligatorio. Al contrario que con el sistema rígido, no se busca evitar los movimientos laterales. Por ello, no tienen que estar necesariamente ancladas en la parte inferior, aunque deben llevar un tope para que no se salga el dispositivo.",
           "contenido": [
             {
               "punto": "Si son de cable, la parte inferior debe estar, obligatoriamente, fija o lastrada. "
@@ -359,7 +419,12 @@
         {
           "clase": "texto",
           "texto": "Las cuerdas, normalmente, cumplen la norma UNE-EN 1891 o son cuerdas torcidas. Cuando la línea es un cable, puede llevar incorporado un absorbedor de energía en la parte alta del cable (dependerá del diseño del fabricante). Si es de cuerda, normalmente la misma cuerda realiza la labor de absorber energía."
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Instalación sobre línea flexible",
+      "contenido": [
         {
           "clase": "lista",
           "titulo": "La instalación de la línea se debe hacer de acuerdo con las instrucciones del fabricante. Algunos fabricantes obligan a que la instalación la realice una empresa autorizada por ellos para garantizar su seguridad. En otros casos, sobre todo en los de cuerda, el fabricante da unas indicaciones sobre la resistencia requerida del anclaje donde se va a colocar (téngase en cuenta que muchas veces se piensan como equipo “móvil”). Esto se suele expresar de tres formas:",
@@ -376,21 +441,39 @@
           ]
         },
         {
-          "clase": "lista",
-          "titulo": "El dispositivo es el componente que desliza por la línea y se une al arnés. La forma de frenado se puede hacer con diferentes sistemas:",
+          "clase": "texto",
+          "texto": "El dispositivo es el componente que desliza por la línea y se une al arnés. La forma de frenado se puede hacer con diferentes sistemas:"
+        },
+        {
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "punto": "Tipo “leva”, como en las líneas rígidas; "
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Tipo “leva”, como en las líneas rígidas; "
+                },
+                {
+                  "imagen": "img/mod05/frenadoLeva.jpg"
+                }
+              ]
             },
             {
-              "imagen": "img/mod05/frenadoLeva.jpg"
-            },
-            {
-              "punto": "Por bloqueo de poleas o por combinación de ambos sistemas. "
-            },
-            {
-              "imagen": "img/mod05/frenadoPoleas.jpg"
-            },
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Por bloqueo de poleas o por combinación de ambos sistemas. "
+                },
+                {
+                  "imagen": "img/mod05/frenadoPoleas.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "contenido": [
             {
               "punto": "También se pueden utilizar otros medios, normalmente de concepción semejante, como un trapecio móvil."
             }
@@ -400,14 +483,19 @@
       ]
     },
     {
-      "titulo": "Mantenimiento del equipo",
+      "titulo": "MANTENIMIENTO",
+      "fondo": "img/mod05/cuerda.jpg",
       "contenido": [
         {
           "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
           "texto": "Todo equipo requiere de un mantenimiento que garantice su perfecto funcionamiento.<br><br>Los equipos serán sometidos a comprobaciones periódicas al menos cada 12 meses, además de ser mantenidos regularmente y verificados antes y después de cada utilización, o cada vez que se entrega a una persona.<br><br>Cada usuario deberá de informar al mando directo de las incidencias ocurridas y los defectos de que se haya percatado.<br><br>Estas comprobaciones pueden ser, por medio de personal cualificado y debidamente formado de la propia empresa o subcontratar a una empresa cualificada."
         },
         {
           "clase": "lista",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
           "titulo": "Los resultados de los controles serán almacenados en un registro de seguridad que deberá de estar a disposición de las distintas partes interesadas en el control y prevención de riesgos laborales. Estará formado por:",
           "contenido": [
             {
@@ -421,9 +509,17 @@
             }
 
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Conservación de productos textiles",
+      "fondo": "img/mod05/cuerdas.jpg",
+      "contenido": [
         {
           "clase": "lista",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
           "titulo": "Para la conservación de los productos textiles (arneses, cuerdas, etc.) se tendrá en cuenta lo siguiente: ",
           "contenido": [
             {
@@ -469,9 +565,17 @@
               "punto": "No lavarlos jamás con máquinas de alta presión que dañarían las fibras textiles.  "
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Conservación de productos metálicos",
+      "fondo": "img/mod05/climbing.jpg",
+      "contenido": [
         {
           "clase": "lista",
+          "opacidad": 0.8,
+          "subclase": "recuadro",
           "titulo": "Respecto a la conservación de productos metálicos:",
           "contenido": [
             {
@@ -525,41 +629,89 @@
           ]
         },
         {
-          "clase": "imagen",
-          "imagen": "img/mod05/cintasAnclaje.jpg"
-        },
-        {
           "clase": "texto",
-          "texto": "Existe gran variedad de cintas de anclaje en el mercado. Pueden ser textiles o de acero.<br><br>NUNCA se deben utilizar como sistema de conexión entre el dispositivo de anclaje y el arnés para detener una caída sin un sistema de conexión que absorba energía, ya que la parada sería muy estática, transmitiendo fuerzas altísimas al cuerpo de la persona o rompiéndose la cinta directamente.<br><br>Las de acero suelen acabar en dos terminaciones donde se puede utilizar un conector. Se deberá colocar evitando que recaigan sobre él fuerzas triaxiales o con ángulos mayores de 60º."
+          "texto": "Existe gran variedad de cintas de anclaje en el mercado. Pueden ser textiles o de acero."
         },
         {
-          "clase": "imagen",
-          "imagen": "img/mod05/anclajeAcero.jpg"
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/cintasAnclaje.jpg",
+              "ancho": 256
+            },
+            {
+              "clase": "texto",
+              "texto": "<b>NUNCA</b> se deben utilizar como sistema de conexión entre el dispositivo de anclaje y el arnés para detener una caída sin un sistema de conexión que absorba energía, ya que la parada sería muy estática, transmitiendo fuerzas altísimas al cuerpo de la persona o rompiéndose la cinta directamente."
+            }
+          ]
         },
         {
-          "clase": "texto",
-          "texto": "Las cintas textiles pueden estar construidas de forma plana o tubular. Las tubulares son más flexibles y resisten peor la abrasión. Las planas, más rígidas, resisten mejor el rozamiento. Ante un corte en un lateral de la cinta suelen resistir mejor las tubulares."
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Las de acero suelen acabar en dos terminaciones donde se puede utilizar un conector. Se deberá colocar evitando que recaigan sobre él fuerzas triaxiales o con ángulos mayores de 60º."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/anclajeAcero.jpg",
+              "ancho": 256
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Cintas textiles",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Las cintas textiles pueden estar construidas de forma plana o tubular. Las tubulares son más flexibles y resisten peor la abrasión. Las planas, más rígidas, resisten mejor el rozamiento. Ante un corte en un lateral de la cinta suelen resistir mejor las tubulares."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/cintaTextil.jpg",
+              "ancho": 256
+            }
+          ]
         },
         {
-          "clase": "imagen",
-          "imagen": "img/mod05/cintaTextil.jpg"
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/cintas.jpg",
+              "ancho": 512
+            },
+            {
+              "clase": "texto",
+              "texto": "Por lo tanto, para trabajar en superficies con bordes de hormigón, cemento o ladrillo son preferibles las cintas planas no tubulares (aunque en bordes agresivos se deben proteger). Para trabajar en estructuras metálicas con bordes redondeados las tubulares son una buena opción. Suelen estar construidas formando un anillo simple o con una costura que deja un bucle para alojar un conector. También pueden tener terminaciones metálicas o bucles textiles sin formar un anillo e incluso pueden ser regulables."
+            }
+          ]
         },
         {
-          "clase": "texto",
-          "texto": "Por lo tanto, para trabajar en superficies con bordes de hormigón, cemento o ladrillo son preferibles las cintas planas no tubulares (aunque en bordes agresivos se deben proteger). Para trabajar en estructuras metálicas con bordes redondeados las tubulares son una buena opción. Suelen estar construidas formando un anillo simple o con una costura que deja un bucle para alojar un conector. También pueden tener terminaciones metálicas o bucles textiles sin formar un anillo e incluso pueden ser regulables."
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod05/cintas.jpg"
-        },
-        {
-          "clase": "texto",
-          "texto": "Siempre que se necesiten anillos, se debe optar por cintas cosidas por el fabricante. La forma de colocarlas suele ser rodeando el elemento estructural y, o bien se ahorcan (nudo de alondra) o se anclan en doble. En el primer caso, se pierde resistencia (entre un 30% y un 60%), en el segundo, es el doble de resistente que el anillo utilizado de manera simple, pero es más fácil cometer errores en su colocación."
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod05/nudoCinta.jpg"
-        },
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/nudoCinta.jpg",
+              "ancho": 256
+            },
+            {
+              "clase": "texto",
+              "texto": "Siempre que se necesiten anillos, se debe optar por cintas cosidas por el fabricante. La forma de colocarlas suele ser rodeando el elemento estructural y, o bien se ahorcan (nudo de alondra) o se anclan en doble. En el primer caso, se pierde resistencia (entre un 30% y un 60%), en el segundo, es el doble de resistente que el anillo utilizado de manera simple, pero es más fácil cometer errores en su colocación."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Variantes",
+      "contenido": [
         {
           "clase": "texto",
           "texto": "Se pueden encontrar variantes de estas cintas, como por ejemplo, anillos hechos con cuerda que en algunos casos son regulables. Los anillos de cuerda son menos indicados para trabajar con bordes, pero resisten mejor la intemperie ya que la parte interior está más resguardada. Los elementos regulables ayudan mucho a adaptarse a diversas situaciones. La versatilidad de los productos es muy positiva y es a lo que se tiende, pero el trabajador debe tener una mayor formación para sacar partido a estos elementos."
@@ -569,12 +721,18 @@
           "imagen": "img/mod05/anillosRegulables.jpg"
         },
         {
-          "clase": "texto",
-          "texto": "Una variante especialmente indicada en construcción es la cinta ajustable (cincha) por medio de  tensor, con cantoneras para proteger la cinta del filo de hormigón. Es un sistema muy útil para utilizar en pilares."
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod05/cincha.jpg"
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Una variante especialmente indicada en construcción es la cinta ajustable (cincha) por medio de  tensor, con cantoneras para proteger la cinta del filo de hormigón. Es un sistema muy útil para utilizar en pilares."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/cincha.jpg",
+              "ancho": 256
+            }
+          ]
         },
         {
           "clase": "texto",
@@ -587,21 +745,37 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "También se encuentra una gran variedad de dispositivos para utilizar con perfiles metálicos horizontales como estructura de recepción. La mayoría están pensados para unirlos a las alas de los perfiles tipo IPE, HEB, etc.<br><br>Pueden estar diseñados para trabajar por encima de la viga, por debajo o en posición lateral (si la viga está así situada). Algunos llevan unos rodamientos para que avance por el perfil a modo de línea de anclaje rígida horizontal.<br><br>Un dispositivo con estos rodamientos no estaría dentro de los elementos cubiertos por la norma EN 795:2012 tipo B, ya que sería un punto de anclaje móvil, pudiéndose encuadrar dentro de los de tipo D definidos por la norma del 2012 (dispositivo de anclaje sobre línea de anclaje rígida horizontal).<br><br>Se deben seguir todas las indicaciones del fabricante, pero se debe poner especial atención en los tipos de perfil y medidas compatibles. Si el dispositivo es sólo para posición horizontal se debe colocar hacia abajo, también, con el punto de anclaje por encima de la viga. Al comprobar si la viga es suficientemente resistente, se tendrá en cuenta el vano que tiene, además, de su tamaño y tipo."
+          "texto": "También se encuentra una gran variedad de dispositivos para utilizar con perfiles metálicos horizontales como estructura de recepción. La mayoría están pensados para unirlos a las alas de los perfiles tipo IPE, HEB, etc. Pueden estar diseñados para trabajar por encima de la viga, por debajo o en posición lateral (si la viga está así situada). Algunos llevan unos rodamientos para que avance por el perfil a modo de línea de anclaje rígida horizontal. Un dispositivo con estos rodamientos no estaría dentro de los elementos cubiertos por la norma EN 795:2012 tipo B, ya que sería un punto de anclaje móvil, pudiéndose encuadrar dentro de los de tipo D definidos por la norma del 2012 (dispositivo de anclaje sobre línea de anclaje rígida horizontal)."
         },
         {
-          "clase": "imagen",
-          "imagen": "img/mod05/rodamientos.jpg",
-          "pie": "Dispositivo con rodamientos para perfiles"
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Se deben seguir todas las indicaciones del fabricante, pero se debe poner especial atención en los tipos de perfil y medidas compatibles. Si el dispositivo es sólo para posición horizontal se debe colocar hacia abajo, también, con el punto de anclaje por encima de la viga. Al comprobar si la viga es suficientemente resistente, se tendrá en cuenta el vano que tiene, además, de su tamaño y tipo."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/rodamientos.jpg",
+              "ancho": 200,
+              "pie": "Dispositivo con rodamientos para perfiles"
+            }
+                      ]
         },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
         {
           "clase": "imagen",
           "imagen": "img/mod05/acoplar.jpg",
+          "ancho": 200,
           "pie": "Dispositivo para acoplar a las alas de la viga"
         },
-        {
-          "clase": "texto",
-          "texto": "También se pueden encontrar dispositivos que trabajan en pilares metálicos verticales a cualquier altura y que, por su funcionamiento, evitan su deslizamiento hacia abajo."
+            {
+              "clase": "texto",
+              "texto": "También se pueden encontrar dispositivos que trabajan en pilares metálicos verticales a cualquier altura y que, por su funcionamiento, evitan su deslizamiento hacia abajo."
+            }
+                      ]
         }
       ]
     },
@@ -638,19 +812,35 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Para acceder a espacios confinados o cuando se requiere un pescante (sistema para avanzar el punto de anclaje) puede ser necesario uno de estos dos sistemas.<br><br>Si son transportables estarán dentro del objeto de la norma EN 795:1996 clase B o de la EN 795:2012 tipo B y son un EPI.<br><br>Los trípodes pueden estar diseñados para una o más personas. En la parte superior disponen de poleas para poder reenviar el cable de los sistemas de seguridad que se les acopla. Estos sistemas suelen ser un torno de rescate o un retráctil con recuperador para acceder a un espacio confinado. Están pensadas para su uso en vertical, cuando el trabajador se sale de la zona de equilibrio se desestabilizan muy fácilmente. Se debe tener en cuenta la resistencia del suelo. En algunos casos puede ser aconsejable fijar las patas al suelo con tornillos."
+          "texto": "Para acceder a espacios confinados o cuando se requiere un pescante (sistema para avanzar el punto de anclaje) puede ser necesario uno de estos dos sistemas. Si son transportables estarán dentro del objeto de la norma EN 795:1996 clase B o de la EN 795:2012 tipo B y son un EPI."
         },
         {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Los trípodes pueden estar diseñados para una o más personas. En la parte superior disponen de poleas para poder reenviar el cable de los sistemas de seguridad que se les acopla. Estos sistemas suelen ser un torno de rescate o un retráctil con recuperador para acceder a un espacio confinado. Están pensadas para su uso en vertical, cuando el trabajador se sale de la zona de equilibrio se desestabilizan muy fácilmente. Se debe tener en cuenta la resistencia del suelo. En algunos casos puede ser aconsejable fijar las patas al suelo con tornillos."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/tripodes.jpg",
+              "ancho": 200
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+                    {
           "clase": "imagen",
-          "imagen": "img/mod05/tripodes.jpg"
+                      "imagen": "img/mod05/tripodes2.jpg",
+                      "ancho": 200
         },
-        {
-          "clase": "texto",
-          "texto": "La norma EN 795:2012 define pruebas de laboratorio especiales para este tipo de equipos. Las horcas móviles se pueden equilibrar modificando la forma de las patas o utilizando un contrapeso en la parte posterior. Suelen tener el problema de ser muy pesadas a pesar de su carácter transportable. La norma publicada en 2012 establece que cualquier dispositivo destinado a ser transportado por una persona se debe dividir en elementos de menos de 25 kg. Es interesante elegir una horca liviana o con un sistema de transporte (ruedas, etc.). También se debe observar la longitud del pescante y la posición del sistema de estabilización, para que sea compatible con el lugar donde se va a utilizar, por ejemplo, una boca de hombre."
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod05/tripodes2.jpg"
+            {
+              "clase": "texto",
+              "texto": "La norma EN 795:2012 define pruebas de laboratorio especiales para este tipo de equipos. Las horcas móviles se pueden equilibrar modificando la forma de las patas o utilizando un contrapeso en la parte posterior. Suelen tener el problema de ser muy pesadas a pesar de su carácter transportable. La norma publicada en 2012 establece que cualquier dispositivo destinado a ser transportado por una persona se debe dividir en elementos de menos de 25 kg. Es interesante elegir una horca liviana o con un sistema de transporte (ruedas, etc.). También se debe observar la longitud del pescante y la posición del sistema de estabilización, para que sea compatible con el lugar donde se va a utilizar, por ejemplo, una boca de hombre."
+            }
+                      ]
         },
         {
           "clase": "texto",
@@ -754,7 +944,7 @@
           "texto": "¿SE PUEDE REPARAR UNA LÍNEA DE VIDA? Las líneas de vida temporales NO se pueden reparar: no se pueden modificar en ninguna de sus formas por ninguna persona que no sea el fabricante directamente. Las líneas de vida permanentes SÍ se pueden reparar, puesto que están diseñadas para que sus componentes dañados (por caída, manipulaciones indebidas por terceros, etc), puedan ser sustituidos por otros sin que el conjunto pierda eficacia, seguridad y certificación."
         }
       ]
-    },   
+    },
     {
       "titulo": "Autoevaluación",
       "contenido": [
@@ -775,7 +965,7 @@
           "preguntas": [
             {
               "texto": "La siguiente imagen, ¿qué tipo de anclajes nos muestra?",
-              "imagen": "img/mod05/autoeval01.jpg",             
+              "imagen": "img/mod05/autoeval01.jpg",
               "respuestas": [
                 {
                   "opcion": "A1",
@@ -892,6 +1082,7 @@
     },
     {
       "titulo": "Despedida",
+      "fondo": "img/comunes/despedida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -899,11 +1090,9 @@
           "contenido": [
             {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "En este módulo hemos estudiado los anclajes y líneas de vida. Hablaremos en el próximo de los trabajos sobre escalera de mano, ya que aunque el parámetro altura sea significativamente menor, no deja de ser una altura, recordemos que si los pies están a 2 metros del suelo, el trabajo se considera ya en altura."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod05/despedida.jpg"
             }
           ]
         }
@@ -916,4 +1105,3 @@
     }
   ]
 }
-
