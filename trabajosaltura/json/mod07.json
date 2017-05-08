@@ -9,17 +9,16 @@
     },
     {
       "titulo": "Bienvenida",
+      "fondo": "img/comunes/bienvenida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
             {
-              "clase": "imagen",
-              "imagen": "img/mod07/bienvenida.jpg"
-            },
-            {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "Una gran parte de trabajos, sobre todo en el ramo de la construcción y el montaje, se realizan mediante andamios. Este módulo está dedicado a estas estructuras."
             }
           ]
@@ -31,52 +30,111 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Son plataformas fijas o móviles de trabajo que permiten usarlas a diferentes niveles de altura a la misma vez. Su estructura debe estar formada por tubos de acero o aluminio y las plataformas de madera o aluminio.<br><br>Las plataformas siempre deben estar protegidas por una barandilla de seguridad, una barra intermedia y un rodapié.<br><br>Los accesos entre las plataformas de distinto nivel deben hacerse a través de una escalera.<br><br>El montaje se debe hacer siempre sobre una superficie plana.<br><br>Las tareas de montaje y desmontaje serán  dirigidas por una persona que disponga de una experiencia certificada por el empresario en esta materia de más de dos años y cuente con la formación preventiva correspondiente, como mínimo, a las funciones de nivel básico, cuando no sea necesaria la elaboración de un plan de montaje, utilización y desmontaje."
+          "texto": "Son plataformas fijas o móviles de trabajo que permiten usarlas a diferentes niveles de altura a la misma vez. Su estructura debe estar formada por tubos de acero o aluminio y las plataformas de madera o aluminio."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Las plataformas siempre deben estar protegidas por una barandilla de seguridad, una barra intermedia y un rodapié."
+                },
+                {
+                  "punto": "Los accesos entre las plataformas de distinto nivel deben hacerse a través de una escalera."
+                },
+                {
+                  "punto": "El montaje se debe hacer siempre sobre una superficie plana."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod07/bienvenida.jpg",
+              "ancho": 256
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Las tareas de montaje y desmontaje serán  dirigidas por una persona que disponga de una experiencia certificada por el empresario en esta materia de más de dos años y cuente con la formación preventiva correspondiente, como mínimo, a las funciones de nivel básico, cuando no sea necesaria la elaboración de un plan de montaje, utilización y desmontaje."
         }
       ]
     },
     {
-      "titulo": "Principales tipos de andamios",
+      "titulo": "Andamios prefabricados",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Las NTP 1015 y 1016 son específicas sobre andamios y refieren los andamios de fachada tubulares prefabricados:<br><br>Los andamios de trabajo prefabricados, sistema modular, son estructuras tubulares provisionales para proporcionar un lugar de trabajo, de paso, o de protección seguro para la construcción, mantenimiento, reparación o demolición de edificios, entre otros.<br><br>Según se haya definido su uso, los andamios pueden cumplir la función de habilitar superficies de trabajo, sustentación de carga, protección horizontal o perimetral, de servicio (para circulación de operarios y materiales conectando diferentes zonas), etc. <br><br>Las principales partes que configuran un andamio de trabajo prefabricado modular se pueden ver en la siguiente imagen:"
+          "texto": "Las NTP 1015 y 1016 son específicas sobre andamios y refieren los andamios de fachada tubulares prefabricados:<br><br>Los andamios de trabajo prefabricados, sistema modular, son estructuras tubulares provisionales para proporcionar un lugar de trabajo, de paso, o de protección seguro para la construcción, mantenimiento, reparación o demolición de edificios, entre otros."
         },
         {
-          "clase": "imagen",
-          "imagen": "img/mod07/andamioModular.jpg"
-        },
-        {
-          "clase": "lista",
-          "titulo": "Tipos y sistemas: Los andamios tubulares prefabricados se presentan en diversas variantes y sistemas que se describen a continuación.",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "punto": "Sistemas de andamio con certificación de producto emitida por una entidad reconocida de certificación<br><br>Son andamios basados en un sistema modular de componentes prefabricados interconectados entre sí, para constituir estructuras temporales que se configuran adaptándose a la superficie de un elemento constructivo (fachadas, chimeneas, bóvedas, puentes, depósitos, monumentos, etc.). En lo referente a los sistemas de andamios que disponen de certificación de producto debe verificarse que se disponga de la correspondiente documentación, que se encuentre en vigor y que se acompañe de las instrucciones del fabricante del sistema. Estructuralmente, el andamio debe estar conformado sin mezclas de materiales de distintos fabricantes que contradigan las referidas Instrucciones del fabricante y que inhabilitan dicha certificación."
+              "clase": "texto",
+              "texto": "Según se haya definido su uso, los andamios pueden cumplir la función de habilitar superficies de trabajo, sustentación de carga, protección horizontal o perimetral, de servicio (para circulación de operarios y materiales conectando diferentes zonas), etc.<br><br>Las principales partes que configuran un andamio de trabajo prefabricado modular se pueden ver en la imagen:"
             },
             {
-              "punto": "Sistemas de andamio sin certificación pero asimilables a normas armonizadas<br><br>Estos andamios no pueden aportar una garantía de producto por no disponer de los documentos acreditativos de ensayos preceptivos previos o bien por no estar en vigencia o por no serles de aplicación al presentarse con mezclas que los invalidan. Según el V Convenio Colectivo del Sector la Construcción (CCSC), los andamios que no dispongan de certificación de producto emitida por entidad reconocida únicamente podrán montarse hasta 6 m de altura, no podrán contar con distancias entre apoyos de más de 8 m o estar situadas sus bases a una altura superior a 24 m."
-            },
-            {
-              "punto": "Sistemas de andamio sin certificación no asimilables a normas armonizadas del tipo de escalerilla y cruceta<br><br>Son andamios basados en un sistema modular de componentes prefabricados interconectados entre sí, constituidos por marcos con escalas para acceso (escalerillas) incorporadas, que se unen mediante riostras para garantizar la invariabilidad del conjunto, constituyendo estructuras provisionales que se configuran frente a un elemento constructivo. Este tipo de andamios carece de norma específica. Por ello será necesario lleva a cabo una evaluación de riesgos cuyo resultado determinará la posibilidad de su utilización y, en su caso, la adopción de medidas preventivas complementarias."
-            },
-            {
-              "imagen": "img/mod07/escalerillaCruceta.jpg"
-            },
-            {
-              "punto": "Sistemas de andamio sin certificación conformados por la unión de tubos con grapas<br><br>Se denominan andamios metálicos tubulares (no modulares) aquellos andamios en los que todas o algunas de sus dimensiones son determinadas mediante dispositivos de unión, que se denominan grapas o abrazaderas. Dichos dispositivos se fijan a elementos denominados tubos, para constituir estructuras provisionales y que se pueden adaptar según las circunstancias a cualquier obra u objeto y a elementos constructivos (chimeneas, depósitos, etc.). Los andamios metálicos tubulares carecen de norma específica. Por esta razón, al igual que en el caso anterior, será necesario lleva a cabo una evaluación de riesgos cuyo resultado determinará la posibilidad de su utilización y, en su caso, la adopción de medidas preventivas complementarias."
-            },
-            {
-              "imagen": "img/mod07/metalicoTubular.jpg"
-            },
-            {
-              "punto": "Sistemas de andamio sin certificación de caballetes o borriqueta de uso restringido<br><br>Son los constituidos por dos caballetes o dos borriquetas metálicas, sobre los que se apoyan unos tablones o plataformas metálicas para formar el piso o plataforma de trabajo, regulable en altura o no. A este respecto, el artículo 198 del Convenio Colectivo del Sector Construcción, limita el empleo de estos andamios de borriquetas hasta una altura de 3 m al no estar sujetos a norma específica. De modo general esta plataforma no debería alcanzar los 2 m de altura. La posibilidad de uso está ligada a los resultados de la evaluación de riesgos que determinará, si corresponde, la adopción de medidas preventivas complementarias."
+              "clase": "imagen",
+              "imagen": "img/mod07/andamioModular.jpg"
             }
           ]
         }
       ]
     },
     {
-      "titulo": "Riesgos y factores de riesgo",
+      "titulo": "Tipos y sistemas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Los andamios tubulares prefabricados se presentan en diversas variantes y sistemas:"
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Sistemas de andamio con certificación de producto emitida por una entidad reconocida de certificación</b><br>Son andamios basados en un sistema modular de componentes prefabricados interconectados entre sí, para constituir estructuras temporales que se configuran adaptándose a la superficie de un elemento constructivo (fachadas, chimeneas, bóvedas, puentes, depósitos, monumentos, etc.). En lo referente a los sistemas de andamios que disponen de certificación de producto debe verificarse que se disponga de la correspondiente documentación, que se encuentre en vigor y que se acompañe de las instrucciones del fabricante del sistema. Estructuralmente, el andamio debe estar conformado sin mezclas de materiales de distintos fabricantes que contradigan las referidas Instrucciones del fabricante y que inhabilitan dicha certificación."
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Sistemas de andamio sin certificación pero asimilables a normas armonizadas</b><br>Estos andamios no pueden aportar una garantía de producto por no disponer de los documentos acreditativos de ensayos preceptivos previos o bien por no estar en vigencia o por no serles de aplicación al presentarse con mezclas que los invalidan. Según el V Convenio Colectivo del Sector la Construcción (CCSC), los andamios que no dispongan de certificación de producto emitida por entidad reconocida únicamente podrán montarse hasta 6 m de altura, no podrán contar con distancias entre apoyos de más de 8 m o estar situadas sus bases a una altura superior a 24 m."
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Sistemas de andamio sin certificación no asimilables a normas armonizadas del tipo de escalerilla y cruceta</b><br>Son andamios basados en un sistema modular de componentes prefabricados interconectados entre sí, constituidos por marcos con escalas para acceso (escalerillas) incorporadas, que se unen mediante riostras para garantizar la invariabilidad del conjunto, constituyendo estructuras provisionales que se configuran frente a un elemento constructivo. Este tipo de andamios carece de norma específica. Por ello será necesario lleva a cabo una evaluación de riesgos cuyo resultado determinará la posibilidad de su utilización y, en su caso, la adopción de medidas preventivas complementarias."
+        }
+      ]
+    },
+    {
+      "titulo": "Otros tipos de andamios",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<b>Sistemas de andamio sin certificación conformados por la unión de tubos con grapas</b><br>Se denominan andamios metálicos tubulares (no modulares) aquellos andamios en los que todas o algunas de sus dimensiones son determinadas mediante dispositivos de unión, que se denominan grapas o abrazaderas. Dichos dispositivos se fijan a elementos denominados tubos, para constituir estructuras provisionales y que se pueden adaptar según las circunstancias a cualquier obra u objeto y a elementos constructivos (chimeneas, depósitos, etc.). Los andamios metálicos tubulares carecen de norma específica. Por esta razón, al igual que en el caso anterior, será necesario lleva a cabo una evaluación de riesgos cuyo resultado determinará la posibilidad de su utilización y, en su caso, la adopción de medidas preventivas complementarias."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod07/metalicoTubular.jpg",
+              "ancho": 128
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod07/escalerillaCruceta.jpg",
+              "ancho": 128
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Sistemas de andamio sin certificación de caballetes o borriqueta de uso restringido</b><br>Son los constituidos por dos caballetes o dos borriquetas metálicas, sobre los que se apoyan unos tablones o plataformas metálicas para formar el piso o plataforma de trabajo, regulable en altura o no. A este respecto, el artículo 198 del Convenio Colectivo del Sector Construcción, limita el empleo de estos andamios de borriquetas hasta una altura de 3 m al no estar sujetos a norma específica. De modo general esta plataforma no debería alcanzar los 2 m de altura. La posibilidad de uso está ligada a los resultados de la evaluación de riesgos que determinará, si corresponde, la adopción de medidas preventivas complementarias."
+        }
+      ]
+    },
+    {
+      "titulo": "Riesgos y factores de riesgo *****original*****",
       "contenido": [
         {
           "clase": "texto",
@@ -502,6 +560,909 @@
                       "punto": "Estas protecciones no evitan el golpe, ni tampoco protegen otras zonas del cuerpo, por lo que se recomienda adoptar las medidas descritas en la NTP 1015."
                     }
                   ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Riesgos y factores de riesgo",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En los andamios pueden presentarse una gran variedad de riesgos que veremos a continuación. Destacan por sus posibles consecuencias graves las <b>caídas a distinto nivel y el desplome de la estructura</b>."
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Caídas a distinto nivel y/o desplome de la estructura:",
+              "contenido": [
+                {
+                  "punto": "Causas",
+                  "contenido": [
+                    {
+                      "punto": "Montaje o desmontaje de los niveles de trabajo sin el uso de las correspondientes protecciones colectivas y/o EPI. "
+                    },
+                    {
+                      "punto": "Anchura insuficiente de la plataforma de trabajo. "
+                    },
+                    {
+                      "punto": "Anclaje de los EPI anticaída al andamio en puntos no garantizados o indicados para ello. "
+                    },
+                    {
+                      "punto": "Ausencia de barandillas de seguridad en zonas de trabajo o paso. "
+                    },
+                    {
+                      "punto": "Acceso a la zona de trabajo trepando verticalmente por la estructura. "
+                    },
+                    {
+                      "punto": "Existencia de separación, superior al rango de seguridad establecido entre los 20 y 30 cm, entre el andamio y la zona de actuación, careciendo de barandilla interior o del uso de EPI anticaídas. "
+                    },
+                    {
+                      "punto": "Deficiente sujeción de la plataforma de trabajo a la estructura tal que permite su desplazamiento. "
+                    },
+                    {
+                      "punto": "Rotura de la plataforma de trabajo por sobrecarga, deterioro de las garras o de la superficie o mal uso de la misma. "
+                    },
+                    {
+                      "punto": "Mala utilización de las escaleras de acceso a las distintas plantas de la estructura del andamio. "
+                    },
+                    {
+                      "punto": "Dejar abiertas las trampillas de acceso a uno o varios de los niveles de trabajo. "
+                    },
+                    {
+                      "punto": "Hundimiento o reblandecimiento de toda o de parte de la superficie de apoyo. "
+                    },
+                    {
+                      "punto": "Estar incorrectamente apoyado en el suelo. "
+                    },
+                    {
+                      "punto": "Desplome del andamio por uso inadecuado (por ejemplo: uso como soporte de cargas en el caso de andamio de trabajo). "
+                    },
+                    {
+                      "punto": "Deformación o rotura de uno o varios de los elementos constituyentes del andamio originado por mezclar materiales de distintos fabricantes. "
+                    },
+                    {
+                      "punto": "Estabilización incorrecta del montaje: Sujeciones a la fachada inexistentes, incompletas o insuficientes, anclajes y amarres incorrectos, o no considerar otras reglas probadas de estabilidad. "
+                    },
+                    {
+                      "punto": "Montaje incorrecto o no acorde a las instrucciones del fabricante. "
+                    },
+                    {
+                      "punto": "Sobrecarga de las plataformas de trabajo respecto a su resistencia máxima permitida. "
+                    },
+                    {
+                      "punto": "Insuficientes arriostramientos rigidizadores de la propia estructura. "
+                    },
+                    {
+                      "punto": "Acción de las inclemencias atmosféricas, en especial el viento. "
+                    },
+                    {
+                      "punto": "Sobrecargas generadas en desplazamientos o vuelos efectuados (por ejemplo: salvar salientes de una fachada). "
+                    },
+                    {
+                      "punto": "Modificaciones realizadas por personal no cualificado para ello. "
+                    },
+                    {
+                      "punto": "Impacto de vehículos. "
+                    }
+                  ]
+                },
+                {
+                  "punto": "Medidas preventivas: Las medidas preventivas y de protección para la prevención de los riesgos de caídas a distinto nivel y/o desplome de la estructura se pueden agrupar en cuatro fases:",
+                  "contenido": [
+                    {
+                      "punto": "Recomendaciones de seguridad previas al montaje.",
+                      "contenido": [
+                        {
+                          "punto": "El tipo de andamio ha de ser el adecuado al trabajo que se va a realizar, debiendo tener el diseño y las dimensiones apropiadas para acceder a todas las zonas de actuación teniendo en cuenta las siguientes consideraciones: ",
+                          "contenido": [
+                            {
+                              "punto": "Geometría de la fachada o paramento."
+                            },
+                            {
+                              "punto": "Carga de uso del andamio en función de los trabajos a realizar sobre el mismo. "
+                            },
+                            {
+                              "punto": "Distancia del andamio a la fachada o paramento. "
+                            },
+                            {
+                              "punto": "Número de personas que lo van a utilizar. "
+                            },
+                            {
+                              "punto": "Necesidad de cubrición o no con malla o red. "
+                            },
+                            {
+                              "punto": "Tipo y ubicación de los amarres. "
+                            },
+                            {
+                              "punto": "Capacidad de carga de la superficie del suelo. "
+                            }
+                          ]
+                        },
+                        {
+                          "punto": "En ningún caso se pueden mezclar componentes de fabricantes diferentes en un mismo andamio. "
+                        },
+                        {
+                          "punto": "Los andamios deben tener una certificación de producto emitida por entidad reconocida tal y como exige el V Convenio Colectivo del Sector de la Construcción para aquellos montajes de más de 6 m de altura, en el caso de existir distancias entre apoyos de más de 8 m o estar situadas sus bases a una altura superior a 24 m. "
+                        },
+                        {
+                          "punto": "Los materiales utilizados han de ser de buena calidad, sometidos a un mantenimiento y en buen estado de uso. "
+                        },
+                        {
+                          "punto": "Cuando se utilicen plataformas de madera contrachapada, estos tendrán un mínimo de 5 capas con un espesor igual o mayor a 9 mm, según recoge la UNE-EN 12811-1 en su punto 4.2.3, sin defectos que comprometan su resistencia. "
+                        },
+                        {
+                          "punto": "Los tubos metálicos no deben presentar signos de oxidación o corrosión, grandes deformaciones, modificaciones o pérdidas de elementos para su conexión. "
+                        },
+                        {
+                          "punto": "Se debe comprobar la resistencia de la superficie de apoyo del andamio. "
+                        },
+                        {
+                          "punto": "Los andamios deben montarse sobre terrenos suficientemente compactados o en su defecto sobre tablones para reparto de la carga o durmientes, aconsejándose el claveteado de las bases de apoyo. "
+                        },
+                        {
+                          "punto": "En ningún caso se deben situar los apoyos sobre tapas de registro, arquetas o sobre suplementos formados por bidones, ladrillos, bovedillas, torretas de madera, etc. "
+                        },
+                        {
+                          "imagen": "img/mod07/seguridad.jpg"
+                        }
+                      ]
+                    },
+                    {
+                      "punto": "Recomendaciones de seguridad en el montaje y desmontaje:",
+                      "contenido": [
+                        {
+                          "punto": "Deben respetarse las recomendaciones dadas a continuación en cada una de las operaciones que se indican. "
+                        },
+                        {
+                          "punto": "Inspección previa de la zona de montaje: con carácter previo, se debe llevar a cabo una inspección previa de la zona de montaje para comprobar las condiciones del suelo, la posición de las plataformas de trabajo, las zonas donde amarrar, los posibles obstáculos que se pueden encontrar en el montaje, la proximidad de elementos peligrosos (por ejemplo, las líneas eléctricas), así como la posible circulación de peatones y/o vehículos en sus proximidades. "
+                        },
+                        {
+                          "punto": "Acotado y señalización de la zona de trabajo: la zona de carga/descarga, acopio y montaje/desmontaje, se debe acotar y señalizar adecuadamente para proteger a personas y/o vehículos. "
+                        },
+                        {
+                          "punto": "Dirección del montaje y desmontaje: los andamios sólo podrán ser montados, desmontados o modificados sustancialmente bajo la dirección de una persona con una formación universitaria o profesional que lo habilite para ello cuando no responda a una “configuración tipo” generalmente reconocida. Cuando responda a una “configuración tipo”, también podrá ser dirigida por una persona con experiencia certificada por el empresario en esta materia de más de dos años y con formación preventiva correspondiente, como mínimo, a las funciones de nivel básico. Por otro lado los trabajadores deben haber recibido una formación adecuada y específica para las operaciones previstas, que les permita enfrentarse a los riesgos específicos de conformidad con el Real Decreto 2177/2004. Un andamio responde a una “configuración tipo” reconocida cuando su diseño es acorde a las instrucciones del fabricante del sistema y así se justifica con la correspondiente documentación. Esta documentación garantiza por medio de ensayo o simulación equivalente, del mismo fabricante o de laboratorio acreditado, la resistencia y estabilidad del andamio. Estructuralmente, el andamio deberá estar conformado sin mezclas de materiales de distintos fabricantes que contraindican las referidas instrucciones del fabricante y que inhabilitan su certificación. "
+                        },
+                        {
+                          "punto": "Montaje del andamio: según sea el sistema de andamio utilizado o la metodología de montaje, se debe seguir una secuencia de operaciones atendiendo a las instrucciones del fabricante y/o al plan de montaje, utilización y desmontaje. "
+                        },
+                        {
+                          "punto": "El montaje seguro del andamio requiere disponer las bases del andamio de manera que quede posicionado a la distancia de la pared adecuada para el sistema de protección seleccionado, así como para el trabajo a realizar teniendo en cuenta los obstáculos que presente el edificio. Se deben disponer tablones de reparto en el caso de que la superficie de apoyo tenga una resistencia insuficiente. "
+                        },
+                        {
+                          "punto": "El nivelado se debe realizar empezando desde la parte más alta del terreno. "
+                        },
+                        {
+                          "punto": "Deben conocerse las cargas máximas admitidas por los componentes del andamio con el fin de poder realizar (si así corresponde según el diseño) el plan de montaje, utilización y desmontaje, que incluirá el cálculo de resistencia y estabilidad siempre y cuando no haya una “configuración tipo” del fabricante de andamio que contemple dicho montaje. "
+                        },
+                        {
+                          "punto": "Cuando la eliminación del riesgo de caída superior a 2 m no esté garantizada en cada una de las fases (por tratarse de fachadas con retranqueos interiores o proceder sin las barandillas trepantes de seguridad), se requerirá el uso de EPI atendiendo a las instrucciones del fabricante. El anclaje de los EPI al andamio debe realizarse únicamente en aquellos puntos garantizados o indicados para ello. Las instrucciones del fabricante deberán indicar qué puntos del andamio están preparados y testados para dicha función. "
+                        },
+                        {
+                          "imagen": "img/mod07/instruccionesAndamioModular.jpg"
+                        },
+                        {
+                          "punto": "Los montadores deben llevar siempre EPI contra caídas de altura aunque el andamio cuente con protecciones colectivas. "
+                        },
+                        {
+                          "punto": "El montador debe extremar la precaución en todas las fases del montaje/desmontaje, utilizando preferentemente las protecciones colectivas frente a la individual, como por ejemplo los pies y largueros específicos de seguridad para las fases de montaje/ desmontaje. "
+                        },
+                        {
+                          "punto": "En la siguiente imagen se muestra la secuencia de como los operarios utilizan una protección colectiva previa al montaje de las protecciones colectivas definitivas, ya sea en disposición simple o doble según se haya determinado y colocadas desde el nivel inferior antes de subir al siguiente nivel. "
+                        },
+                        {
+                          "imagen": "img/mod07/pasosModular.jpg"
+                        },
+                        {
+                          "punto": "Cada nivel se debe montar por completo antes de subir a la siguiente altura, para garantizar con ello su estabilidad y comportamiento, prestando especial atención a los elementos rigidizadores, como por ejemplo las diagonales, complementado con los amarres a un punto firme o cualquier otro método que se use para garantizar la estabilidad."
+                        },
+                        {
+                          "punto": "En el caso de disponer de amarres, éstos se colocarán según lo indicado en la configuración tipo o en el estudio de resistencia y estabilidad; usualmente se recomienda disponerlos en altura con separaciones de como máximo 4 m. "
+                        },
+                        {
+                          "punto": "En el caso de montajes que contengan desplazamientos o vuelos, esto es, que dispongan de elementos cuya transmisión de carga vertical quede fuera de las bases en las que se apoya el andamio, se debe garantizar la estabilidad antes de proceder a montarlos. "
+                        },
+                        {
+                          "punto": "Una forma habitual es situar en su proximidad amarres o anclajes que impidan el vuelco que generan estos desplazamientos o vuelos. "
+                        },
+                        {
+                          "punto": "Únicamente una vez estabilizado el conjunto y protegido cada nivel se puede proceder a recubrirlo con malla o lona atendiendo a las instrucciones del fabricante y/o al plan de montaje, utilización y desmontaje."
+                        }
+                      ]
+                    },
+                    {
+                      "punto": "Recomendaciones durante el uso del andamio",
+                      "contenido": [
+                        {
+                          "punto": "Los andamios deben comprobarse antes de iniciar la jornada laboral o después de verse afectado por cualquier circunstancia que pueda alterar su resistencia y estabilidad, especialmente en caso de viento relevante o lluvias. Deberá procederse a las revisiones periódicas establecidas según lo indicado en Real Decreto 2177/2004. La siguiente imagen contiene una lista orientativa de comprobaciones o revisiones."
+                        },
+                        {
+                          "imagen": "img/mod07/comprobaciones.jpg"
+                        },
+                        {
+                          "punto": "En caso de detectar cualquier anomalía se debe subsanar de inmediato o, según su importancia, delimitar la zona donde se encuentre pudiendo seguir trabajando en las zonas seguras. "
+                        },
+                        {
+                          "punto": "Los andamios deben ser inspeccionados por una persona con una formación universitaria o profesional que lo habilite para ello o por una persona con experiencia certificada por el empresario en esta materia de más de dos años y con formación preventiva correspondiente, como mínimo, a las funciones de nivel básico: ",
+                          "contenido": [
+                            {
+                              "punto": "Antes de su puesta en servicio. "
+                            },
+                            {
+                              "punto": "A continuación, periódicamente. "
+                            },
+                            {
+                              "punto": "Tras cualquier modificación, período de no utilización, exposición a la intemperie, sacudidas sísmicas, o cualquier otra circunstancia que hubiera podido afectar a su resistencia o a su estabilidad. "
+                            }
+                          ]
+                        },
+                        {
+                          "punto": "Una vez iniciados los trabajos, es decir en la fase de utilización del andamio, se deben seguir las siguientes recomendaciones de seguridad: ",
+                          "contenido": [
+                            {
+                              "punto": "El acceso a la zona de trabajo del andamio por parte de los operarios se debe hacer siempre por las escaleras o pasarelas instaladas al efecto. "
+                            },
+                            {
+                              "punto": "Evitar sobrecargas y acopios en los niveles de trabajo en función del límite de capacidad de carga definido para el andamio en el propio plan de montaje, utilización y desmontaje cuando proceda. "
+                            },
+                            {
+                              "punto": "No se debe subir, bajo ningún concepto, a las barandillas como punto de soporte para un trabajo. "
+                            },
+                            {
+                              "punto": "Los trabajos se deben suspender cuando las condiciones meteorológicas impidan realizar con seguridad las labores de montaje/desmontaje del andamio. Con viento superior a 72 km/h se aconseja paralizar las tareas de montaje/desmontaje procediendo a retirar los materiales o herramientas que pudieran caer desde la superficie del andamio. "
+                            },
+                            {
+                              "punto": "No se deben utilizar andamios de borriquetas u otros elementos auxiliares situados sobre los niveles de trabajo para ganar altura. "
+                            },
+                            {
+                              "punto": "Las modificaciones sustanciales (fundamentalmente las que afecten a la estructura o seguridad) de un andamio montado serán llevadas a cabo por personal cualificado. "
+                            },
+                            {
+                              "punto": "Sólo se acoplarán sobre los andamios equipos de trabajo o de elevación de cargas cuando así se hubiera considerado o evaluado en el diseño del andamio. "
+                            },
+                            {
+                              "punto": "Las modificaciones de los recubrimientos (por ejemplo, mallas mosquiteras) deben comunicarse a la dirección de obra y/o a la empresa instaladora del andamio antes de realizarse, al tratarse de una modificación que puede generar cambios sustanciales en las características de diseño del andamio."
+                            },
+                            {
+                              "punto": "La instalación en proximidad de otros equipos (por ejemplo, grúas) debe tener en cuenta la posible interferencia con el trabajo en el andamio. "
+                            },
+                            {
+                              "punto": "Durante el uso del andamio se debe mantener el orden y la limpieza como garantía para evitar las caídas al mismo nivel y de objetos. En particular los escombros se deben retirar periódicamente del andamio de forma que no se acumulen sobre las superficies de trabajo."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "punto": "Caída de materiales sobre personas y/o bienes debidas a:",
+              "contenido": [
+                {
+                  "punto": "Vuelco o hundimiento del andamio. "
+                },
+                {
+                  "punto": "Plataforma de trabajo desprotegida en alguna parte de su perímetro. "
+                },
+                {
+                  "punto": "Rotura de plataforma de trabajo. "
+                },
+                {
+                  "punto": "Falta de plataformas o existencia de huecos en los niveles de trabajo. "
+                },
+                {
+                  "punto": "Elevación o descenso de los componentes del sistema u otros elementos utilizando medios inadecuados o deficientes. "
+                },
+                {
+                  "punto": "No delimitar y balizar debidamente la zona de izado de materiales. "
+                }
+              ]
+            },
+            {
+              "punto": "Caídas al mismo nivel:",
+              "contenido": [
+                {
+                  "punto": "Causas",
+                  "contenido": [
+                    {
+                      "punto": "Falta de orden y limpieza en la superficie de las plataformas de trabajo. "
+                    },
+                    {
+                      "punto": "Existencia de huecos, en un mismo nivel de trabajo, especialmente en el paso entre dos tramos de andamio. "
+                    },
+                    {
+                      "punto": "Deficiente sujeción de las plataformas de trabajo a la estructura de forma que pueda dar lugar a su movimiento o desplazamiento. "
+                    },
+                    {
+                      "punto": "Salto excesivo en plataformas apoyadas para la cubrición de huecos o en los encuentros entre andamios. "
+                    }
+                  ]
+                },
+
+                {
+                  "punto": "Medidas preventivas",
+                  "contenido": [
+                    {
+                      "punto": "Se debe evitar la acumulación de suciedad, objetos diversos y materiales sobre las plataformas de trabajo. "
+                    },
+                    {
+                      "punto": "Todo el personal que trabaje sobre el andamio debe estar formado para que mantenga ordenada su zona de trabajo y deje libre el suelo de herramientas, cables, materiales, etc., utilizados para realizar su trabajo; para ello es conveniente disponer de cajas para depositar los útiles necesarios para realizar el trabajo. "
+                    },
+                    {
+                      "punto": "En cualquier caso, una vez finalizada la jornada laboral se deben dejar libres todas las superficies de trabajo."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "contenido": [
+                {
+                  "punto": "Causas",
+                  "contenido": [
+                    {
+                      "punto": "Montaje del andamio en proximidad a líneas eléctricas de alta tensión (AT) y/o baja tensión (BT) ya sean aereas o en fachada. "
+                    }
+                  ]
+                },
+                {
+                  "punto": "Medidas preventivas",
+                  "contenido": [
+                    {
+                      "punto": "Evaluar previamente la zona de montaje y realizar el plan de montaje teniéndolo en cuenta, evitando estas zonas en la medida de lo posible."
+                    }
+                  ]
+                }
+              ],
+              "punto": "Contactos eléctricos directos o indirectos "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Riesgos y factores de riesgo",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En los andamios pueden presentarse una gran variedad de riesgos que veremos a continuación. Destacan por sus posibles consecuencias graves las <b>caídas a distinto nivel y el desplome de la estructura</b>."
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Caídas a distinto nivel y/o desplome de la estructura:",
+              "contenido": [
+                {
+                  "punto": "Causas",
+                  "contenido": [
+                    {
+                      "punto": "Montaje o desmontaje de los niveles de trabajo sin el uso de las correspondientes protecciones colectivas y/o EPI. "
+                    },
+                    {
+                      "punto": "Anchura insuficiente de la plataforma de trabajo. "
+                    },
+                    {
+                      "punto": "Anclaje de los EPI anticaída al andamio en puntos no garantizados o indicados para ello. "
+                    },
+                    {
+                      "punto": "Ausencia de barandillas de seguridad en zonas de trabajo o paso. "
+                    },
+                    {
+                      "punto": "Acceso a la zona de trabajo trepando verticalmente por la estructura. "
+                    },
+                    {
+                      "punto": "Existencia de separación, superior al rango de seguridad establecido entre los 20 y 30 cm, entre el andamio y la zona de actuación, careciendo de barandilla interior o del uso de EPI anticaídas. "
+                    },
+                    {
+                      "punto": "Deficiente sujeción de la plataforma de trabajo a la estructura tal que permite su desplazamiento. "
+                    },
+                    {
+                      "punto": "Rotura de la plataforma de trabajo por sobrecarga, deterioro de las garras o de la superficie o mal uso de la misma. "
+                    },
+                    {
+                      "punto": "Mala utilización de las escaleras de acceso a las distintas plantas de la estructura del andamio. "
+                    },
+                    {
+                      "punto": "Dejar abiertas las trampillas de acceso a uno o varios de los niveles de trabajo. "
+                    },
+                    {
+                      "punto": "Hundimiento o reblandecimiento de toda o de parte de la superficie de apoyo. "
+                    },
+                    {
+                      "punto": "Estar incorrectamente apoyado en el suelo. "
+                    },
+                    {
+                      "punto": "Desplome del andamio por uso inadecuado (por ejemplo: uso como soporte de cargas en el caso de andamio de trabajo). "
+                    },
+                    {
+                      "punto": "Deformación o rotura de uno o varios de los elementos constituyentes del andamio originado por mezclar materiales de distintos fabricantes. "
+                    },
+                    {
+                      "punto": "Estabilización incorrecta del montaje: Sujeciones a la fachada inexistentes, incompletas o insuficientes, anclajes y amarres incorrectos, o no considerar otras reglas probadas de estabilidad. "
+                    },
+                    {
+                      "punto": "Montaje incorrecto o no acorde a las instrucciones del fabricante. "
+                    },
+                    {
+                      "punto": "Sobrecarga de las plataformas de trabajo respecto a su resistencia máxima permitida. "
+                    },
+                    {
+                      "punto": "Insuficientes arriostramientos rigidizadores de la propia estructura. "
+                    },
+                    {
+                      "punto": "Acción de las inclemencias atmosféricas, en especial el viento. "
+                    },
+                    {
+                      "punto": "Sobrecargas generadas en desplazamientos o vuelos efectuados (por ejemplo: salvar salientes de una fachada). "
+                    },
+                    {
+                      "punto": "Modificaciones realizadas por personal no cualificado para ello. "
+                    },
+                    {
+                      "punto": "Impacto de vehículos. "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Medidas preventivas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Las medidas preventivas y de protección para la prevención de los riesgos de caídas a distinto nivel y/o desplome de la estructura se pueden agrupar en varias fases: antes del montaje, durante el montaje, durante su uso..."
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "El tipo de andamio ha de ser el adecuado al trabajo que se va a realizar, debiendo tener el diseño y las dimensiones apropiadas para acceder a todas las zonas de actuación teniendo en cuenta las siguientes consideraciones: ",
+              "contenido": [
+                {
+                  "punto": "Geometría de la fachada o paramento."
+                },
+                {
+                  "punto": "Carga de uso del andamio en función de los trabajos a realizar sobre el mismo. "
+                },
+                {
+                  "punto": "Distancia del andamio a la fachada o paramento. "
+                },
+                {
+                  "punto": "Número de personas que lo van a utilizar. "
+                },
+                {
+                  "punto": "Necesidad de cubrición o no con malla o red. "
+                },
+                {
+                  "punto": "Tipo y ubicación de los amarres. "
+                },
+                {
+                  "punto": "Capacidad de carga de la superficie del suelo. "
+                }
+              ]
+            },
+            {
+              "punto": "En ningún caso se pueden mezclar componentes de fabricantes diferentes en un mismo andamio. "
+            },
+            {
+              "punto": "Los andamios deben tener una certificación de producto emitida por entidad reconocida tal y como exige el V Convenio Colectivo del Sector de la Construcción para aquellos montajes de más de 6 m de altura, en el caso de existir distancias entre apoyos de más de 8 m o estar situadas sus bases a una altura superior a 24 m. "
+            },
+            {
+              "punto": "Los materiales utilizados han de ser de buena calidad, sometidos a un mantenimiento y en buen estado de uso. "
+            },
+            {
+              "punto": "Cuando se utilicen plataformas de madera contrachapada, estos tendrán un mínimo de 5 capas con un espesor igual o mayor a 9 mm, según recoge la UNE-EN 12811-1 en su punto 4.2.3, sin defectos que comprometan su resistencia. "
+            },
+            {
+              "punto": "Los tubos metálicos no deben presentar signos de oxidación o corrosión, grandes deformaciones, modificaciones o pérdidas de elementos para su conexión. "
+            },
+            {
+              "punto": "Se debe comprobar la resistencia de la superficie de apoyo del andamio. "
+            },
+            {
+              "punto": "Los andamios deben montarse sobre terrenos suficientemente compactados o en su defecto sobre tablones para reparto de la carga o durmientes, aconsejándose el claveteado de las bases de apoyo. "
+            },
+            {
+              "punto": "En ningún caso se deben situar los apoyos sobre tapas de registro, arquetas o sobre suplementos formados por bidones, ladrillos, bovedillas, torretas de madera, etc. "
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod07/seguridad.jpg"
+        }
+      ]
+    },
+    {
+      "titulo": "Previo al montaje/desmontaje",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<b>Inspección previa de la zona de montaje</b><br>Con carácter previo, se debe llevar a cabo una inspección previa de la zona de montaje para comprobar las condiciones del suelo, la posición de las plataformas de trabajo, las zonas donde amarrar, los posibles obstáculos que se pueden encontrar en el montaje, la proximidad de elementos peligrosos (por ejemplo, las líneas eléctricas), así como la posible circulación de peatones y/o vehículos en sus proximidades."
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Acotado y señalización de la zona de trabajo: la zona de carga/descarga, acopio y montaje/desmontaje, se debe acotar y señalizar adecuadamente para proteger a personas y/o vehículos."
+            },
+            {
+              "punto": "Dirección del montaje y desmontaje: los andamios sólo podrán ser montados, desmontados o modificados sustancialmente bajo la dirección de una persona con una formación universitaria o profesional que lo habilite para ello cuando no responda a una “configuración tipo” generalmente reconocida. Cuando responda a una “configuración tipo”, también podrá ser dirigida por una persona con experiencia certificada por el empresario en esta materia de más de dos años y con formación preventiva correspondiente, como mínimo, a las funciones de nivel básico. Por otro lado los trabajadores deben haber recibido una formación adecuada y específica para las operaciones previstas, que les permita enfrentarse a los riesgos específicos de conformidad con el Real Decreto 2177/2004. Un andamio responde a una “configuración tipo” reconocida cuando su diseño es acorde a las instrucciones del fabricante del sistema y así se justifica con la correspondiente documentación. Esta documentación garantiza por medio de ensayo o simulación equivalente, del mismo fabricante o de laboratorio acreditado, la resistencia y estabilidad del andamio. Estructuralmente, el andamio deberá estar conformado sin mezclas de materiales de distintos fabricantes que contraindican las referidas instrucciones del fabricante y que inhabilitan su certificación."
+            },
+            {
+              "punto": "Montaje del andamio: según sea el sistema de andamio utilizado o la metodología de montaje, se debe seguir una secuencia de operaciones atendiendo a las instrucciones del fabricante y/o al plan de montaje, utilización y desmontaje."
+            },
+            {
+              "punto": "El montaje seguro del andamio requiere disponer las bases del andamio de manera que quede posicionado a la distancia de la pared adecuada para el sistema de protección seleccionado, así como para el trabajo a realizar teniendo en cuenta los obstáculos que presente el edificio. Se deben disponer tablones de reparto en el caso de que la superficie de apoyo tenga una resistencia insuficiente."
+            },
+            {
+              "punto": "El nivelado se debe realizar empezando desde la parte más alta del terreno."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Seguridad durante el montaje/desmontaje",
+      "contenido": [
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Deben conocerse las cargas máximas admitidas por los componentes del andamio con el fin de poder realizar (si así corresponde según el diseño) el plan de montaje, utilización y desmontaje, que incluirá el cálculo de resistencia y estabilidad siempre y cuando no haya una “configuración tipo” del fabricante de andamio que contemple dicho montaje. "
+            },
+            {
+              "punto": "Cuando la eliminación del riesgo de caída superior a 2 m no esté garantizada en cada una de las fases (por tratarse de fachadas con retranqueos interiores o proceder sin las barandillas trepantes de seguridad), se requerirá el uso de EPI atendiendo a las instrucciones del fabricante. El anclaje de los EPI al andamio debe realizarse únicamente en aquellos puntos garantizados o indicados para ello. Las instrucciones del fabricante deberán indicar qué puntos del andamio están preparados y testados para dicha función. "
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod07/instruccionesAndamioModular.jpg",
+              "ancho": 300
+            },
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Los montadores deben llevar siempre EPI contra caídas de altura aunque el andamio cuente con protecciones colectivas. "
+                },
+                {
+                  "punto": "El montador debe extremar la precaución en todas las fases del montaje/desmontaje, utilizando preferentemente las protecciones colectivas frente a la individual, como por ejemplo los pies y largueros específicos de seguridad para las fases de montaje/ desmontaje. "
+                },
+                {
+                  "punto": "Cada nivel se debe montar por completo antes de subir a la siguiente altura, para garantizar con ello su estabilidad y comportamiento, prestando especial atención a los elementos rigidizadores, como por ejemplo las diagonales, complementado con los amarres a un punto firme o cualquier otro método que se use para garantizar la estabilidad."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Montaje/desmontaje",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod07/pasosModular.jpg",
+              "ancho": 200
+            },
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "En la siguiente imagen se muestra la secuencia de como los operarios utilizan una protección colectiva previa al montaje de las protecciones colectivas definitivas, ya sea en disposición simple o doble según se haya determinado y colocadas desde el nivel inferior antes de subir al siguiente nivel."
+                },
+                {
+                  "punto": "En el caso de disponer de amarres, éstos se colocarán según lo indicado en la configuración tipo o en el estudio de resistencia y estabilidad; usualmente se recomienda disponerlos en altura con separaciones de como máximo 4 m. "
+                },
+                {
+                  "punto": "En el caso de montajes que contengan desplazamientos o vuelos, esto es, que dispongan de elementos cuya transmisión de carga vertical quede fuera de las bases en las que se apoya el andamio, se debe garantizar la estabilidad antes de proceder a montarlos. "
+                },
+                {
+                  "punto": "Una forma habitual es situar en su proximidad amarres o anclajes que impidan el vuelco que generan estos desplazamientos o vuelos. "
+                },
+                {
+                  "punto": "Únicamente una vez estabilizado el conjunto y protegido cada nivel se puede proceder a recubrirlo con malla o lona atendiendo a las instrucciones del fabricante y/o al plan de montaje, utilización y desmontaje."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Recomendaciones durante el uso",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<b>Recomendaciones durante el uso del andamio</b>"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Los andamios deben comprobarse antes de iniciar la jornada laboral o después de verse afectado por cualquier circunstancia que pueda alterar su resistencia y estabilidad, especialmente en caso de viento relevante o lluvias. Deberá procederse a las revisiones periódicas establecidas según lo indicado en Real Decreto 2177/2004. La siguiente imagen contiene una lista orientativa de comprobaciones o revisiones."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod07/comprobaciones.jpg",
+              "ancho": 300
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "En caso de detectar cualquier anomalía se debe subsanar de inmediato o, según su importancia, delimitar la zona donde se encuentre pudiendo seguir trabajando en las zonas seguras. "
+            },
+            {
+              "punto": "Los andamios deben ser inspeccionados por una persona con una formación universitaria o profesional que lo habilite para ello o por una persona con experiencia certificada por el empresario en esta materia de más de dos años y con formación preventiva correspondiente, como mínimo, a las funciones de nivel básico: ",
+              "contenido": [
+                {
+                  "punto": "Antes de su puesta en servicio. "
+                },
+                {
+                  "punto": "A continuación, periódicamente. "
+                },
+                {
+                  "punto": "Tras cualquier modificación, período de no utilización, exposición a la intemperie, sacudidas sísmicas, o cualquier otra circunstancia que hubiera podido afectar a su resistencia o a su estabilidad. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Fase de utilización",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "<b>Una vez iniciados los trabajos</b> se deben seguir las siguientes recomendaciones de seguridad:",
+          "contenido": [
+            {
+              "punto": "El acceso a la zona de trabajo del andamio por parte de los operarios se debe hacer siempre por las escaleras o pasarelas instaladas al efecto. "
+            },
+            {
+              "punto": "Evitar sobrecargas y acopios en los niveles de trabajo en función del límite de capacidad de carga definido para el andamio en el propio plan de montaje, utilización y desmontaje cuando proceda. "
+            },
+            {
+              "punto": "No se debe subir, bajo ningún concepto, a las barandillas como punto de soporte para un trabajo. "
+            },
+            {
+              "punto": "Los trabajos se deben suspender cuando las condiciones meteorológicas impidan realizar con seguridad las labores de montaje/desmontaje del andamio. Con viento superior a 72 km/h se aconseja paralizar las tareas de montaje/desmontaje procediendo a retirar los materiales o herramientas que pudieran caer desde la superficie del andamio. "
+            },
+            {
+              "punto": "No se deben utilizar andamios de borriquetas u otros elementos auxiliares situados sobre los niveles de trabajo para ganar altura. "
+            },
+            {
+              "punto": "Las modificaciones sustanciales (fundamentalmente las que afecten a la estructura o seguridad) de un andamio montado serán llevadas a cabo por personal cualificado. "
+            },
+            {
+              "punto": "Sólo se acoplarán sobre los andamios equipos de trabajo o de elevación de cargas cuando así se hubiera considerado o evaluado en el diseño del andamio. "
+            },
+            {
+              "punto": "Las modificaciones de los recubrimientos (por ejemplo, mallas mosquiteras) deben comunicarse a la dirección de obra y/o a la empresa instaladora del andamio antes de realizarse, al tratarse de una modificación que puede generar cambios sustanciales en las características de diseño del andamio."
+            },
+            {
+              "punto": "La instalación en proximidad de otros equipos (por ejemplo, grúas) debe tener en cuenta la posible interferencia con el trabajo en el andamio. "
+            },
+            {
+              "punto": "Durante el uso del andamio se debe mantener el orden y la limpieza como garantía para evitar las caídas al mismo nivel y de objetos. En particular los escombros se deben retirar periódicamente del andamio de forma que no se acumulen sobre las superficies de trabajo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Caída de materiales",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "<b>Caída de materiales sobre personas y/o bienes</b>",
+          "contenido": [
+            {
+              "punto": "Causas",
+              "contenido": [
+                {
+                  "punto": "Vuelco o hundimiento del andamio. "
+                },
+                {
+                  "punto": "Plataforma de trabajo desprotegida en alguna parte de su perímetro."
+                },
+                {
+                  "punto": "Rotura de plataforma de trabajo."
+                },
+                {
+                  "punto": "Falta de plataformas o existencia de huecos en los niveles de trabajo."
+                },
+                {
+                  "punto": "Elevación o descenso de los componentes del sistema u otros elementos utilizando medios inadecuados o deficientes."
+                }
+              ]
+            },
+            {
+              "punto": "Medidas preventivas",
+              "contenido": [
+                {
+                  "punto": "Delimitar y balizar debidamente la zona de izado de materiales. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Caídas al mismo nivel",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "<b>Caídas al mismo nivel</b>",
+          "contenido": [
+            {
+              "punto": "Causas",
+              "contenido": [
+                {
+                  "punto": "Falta de orden y limpieza en la superficie de las plataformas de trabajo. "
+                },
+                {
+                  "punto": "Existencia de huecos, en un mismo nivel de trabajo, especialmente en el paso entre dos tramos de andamio. "
+                },
+                {
+                  "punto": "Deficiente sujeción de las plataformas de trabajo a la estructura de forma que pueda dar lugar a su movimiento o desplazamiento. "
+                },
+                {
+                  "punto": "Salto excesivo en plataformas apoyadas para la cubrición de huecos o en los encuentros entre andamios. "
+                }
+              ]
+            },
+            {
+              "punto": "Medidas preventivas",
+              "contenido": [
+                {
+                  "punto": "Se debe evitar la acumulación de suciedad, objetos diversos y materiales sobre las plataformas de trabajo. "
+                },
+                {
+                  "punto": "Todo el personal que trabaje sobre el andamio debe estar formado para que mantenga ordenada su zona de trabajo y deje libre el suelo de herramientas, cables, materiales, etc., utilizados para realizar su trabajo; para ello es conveniente disponer de cajas para depositar los útiles necesarios para realizar el trabajo. "
+                },
+                {
+                  "punto": "En cualquier caso, una vez finalizada la jornada laboral se deben dejar libres todas las superficies de trabajo."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Contactos eléctricos",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "<b>Contactos eléctricos directos o indirectos</b>",
+          "contenido": [
+            {
+              "punto": "Causas",
+              "contenido": [
+                {
+                  "punto": "Montaje del andamio en proximidad a líneas eléctricas de alta tensión (AT) y/o baja tensión (BT) ya sean aereas o en fachada. "
+                }
+              ]
+            },
+            {
+              "punto": "Medidas preventivas",
+              "contenido": [
+                {
+                  "punto": "Evaluar previamente la zona de montaje y realizar el plan de montaje teniéndolo en cuenta, evitando estas zonas en la medida de lo posible."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Sobreesfuerzos y atrapamientos",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "<b>Sobreesfuerzos en los trabajos de montaje/desmontaje y atrapamientos diversos</b>",
+          "contenido": [
+            {
+              "punto": "Causas",
+              "contenido": [
+                {
+                  "punto": "Peso excesivo de los componentes. "
+                },
+                {
+                  "punto": "Procedimientos de trabajo no ergonómicos que provoquen fatigas físicas por manipulación incorrecta de cargas. "
+                },
+                {
+                  "punto": "Manipulación de los elementos del andamio sin protección de las extremidades. "
+                },
+                {
+                  "punto": "Cierre accidental de la trampilla de las plataformas de acceso. "
+                },
+                {
+                  "punto": "Caída de elementos al desflejar los paquetes de material. "
+                }
+              ]
+            },
+            {
+              "punto": "Medidas preventivas.<br>Los riesgos de sobreesfuerzos en la manipulación manual de elementos del andamio durante el montaje o desmontaje del mismo, se pueden eliminar o reducir adoptando las siguientes medidas:",
+              "contenido": [
+                {
+                  "punto": "Utilización de medios mecánicos para la manipulación de los elementos. "
+                },
+                {
+                  "punto": "La disminución del peso de los elementos. "
+                },
+                {
+                  "punto": "Actuación sobre la organización del trabajo. "
+                },
+                {
+                  "punto": "Tener en cuenta las capacidades individuales de las personas implicadas."
+                },
+                {
+                  "punto": "En general, se tendrán en cuenta los criterios y recomendaciones contemplados en la Guía Técnica para la evaluación y prevención de los riesgos relativos a la manipulación manual de cargas publicada por el INSHT."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Golpes contra objetos fijos",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "<b>Golpes contra objetos fijos</b>",
+          "contenido": [
+            {
+              "punto": "Causas",
+              "contenido": [
+                {
+                  "punto": "Mal posicionamiento de tubos de anclaje, invadiendo la zona de trabajo o de paso. "
+                },
+                {
+                  "punto": "Elementos del entorno de la zona de trabajo que invaden las plataformas suponiendo un obstáculo para el libre movimiento (por ejemplo, las ramas de un árbol)."
+                }
+              ]
+            },
+            {
+              "punto": "Medidas preventivas",
+              "contenido": [
+                {
+                  "punto": "El riesgo de golpes contra objetos y posibles lesiones en las extremidades superiores e inferiores, se puede controlar utilizando los equipos de protección individual descritos en el apartado correspondiente de este documento. "
+                },
+                {
+                  "punto": "Estas protecciones no evitan el golpe, ni tampoco protegen otras zonas del cuerpo, por lo que se recomienda adoptar las medidas descritas en la NTP 1015."
                 }
               ]
             }

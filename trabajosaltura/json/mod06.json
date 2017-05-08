@@ -9,6 +9,18 @@
     },
     {
       "titulo": "Bienvenida",
+      "fondo": "img/comunes/bienvenida.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Las escaleras de mano, siguen utilizándose de manera habitual en muchas tareas, especialmente limpiezas y mantenimientos, lo que puede dar lugar a muchas caídas. Las escalas fijas, también conocidas como escaleras de gato, son muy utilizadas a nivel industrial, para el acceso por ejemplo a silos, o cucharas de acero, entre otros usos."
+        }
+      ]
+    },
+    {
+      "titulo": "Escaleras de mano",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -20,193 +32,185 @@
             },
             {
               "clase": "texto",
-              "texto": "Las escaleras de mano, siguen utilizándose de manera habitual en muchas tareas, especialmente limpiezas y mantenimientos, lo que puede dar lugar a muchas caídas. Las escalas fijas, también conocidas como escaleras de gato, son muy utilizadas a nivel industrial, para el acceso por ejemplo a silos, o cucharas de acero, entre otros usos."
+              "texto": "La <b<NTP 239</b> es específica sobre las escaleras manuales y en ella nos basaremos para este apartado. La escalera manual es un aparato portátil que consiste en dos piezas paralelas o ligeramente convergentes unidas a intervalos por travesaños y que sirve para subir o bajar una persona de un nivel a otro. La escalera debe ser de longitud suficiente para ofrecer, en todas las posiciones en las que deba ser utilizada, un apoyo a las manos y a los pies, para lo que, en caso de tener que trabajar sobre ella, deberá haber como mínimo cuatro escalones libres por encima de la posición de los pies."
             }
           ]
         }
       ]
     },
     {
-      "titulo": "Escaleras de mano",
+      "titulo": "Formas",
+      "fondo": "img/mod06/ladder.jpg",
       "contenido": [
         {
-          "clase": "texto",
-          "texto": "La NTP 239 es específica sobre las escaleras manuales y en ella nos basaremos para este apartado. La escalera manual es un aparato portátil que consiste en dos piezas paralelas o ligeramente convergentes unidas a intervalos por travesaños y que sirve para subir o bajar una persona de un nivel a otro. La escalera debe ser de longitud suficiente para ofrecer, en todas las posiciones en las que deba ser utilizada, un apoyo a las manos y a los pies, para lo que, en caso de tener que trabajar sobre ella, deberá haber como mínimo cuatro escalones libres por encima de la posición de los pies."
+          "clase": "lista",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "contenido": [
+            {
+              "punto": "<b>Escalera simple de un tramo:</b> Escalera portátil no autosoportada y no ajustable en longitud, compuesta de dos largueros."
+            },
+            {
+              "punto": "<b>Escalera doble de tijera:</b> La unión de las secciones se realiza mediante un dispositivo metálico de articulación que permite su plegado. "
+            },
+            {
+              "punto": "<b>Escalera extensible:</b> Es una escalera compuesta de dos simples superpuestas y cuya longitud varía por desplazamientos relativo de un tramo sobre otro. Pueden ser mecánicas (cable) o manuales. "
+            },
+            {
+              "punto": "<b>Escalera transformable:</b> Es una extensible de dos o tres tramos (mixta de una doble y extensible). "
+            },
+            {
+              "punto": "<b>Escalera mixta con rótula:</b> La unión de las secciones se realiza mediante un dispositivo metálico de articulación que permite su plegado. "
+            }
+          ]
         }
-
       ]
     },
     {
-      "titulo": "Tipos de escalera",
+      "titulo": "Materiales",
       "contenido": [
         {
-          "clase": "acordeon",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "titulo": "Según su forma",
+              "clase": "lista",
               "contenido": [
                 {
-                  "clase": "lista",
+                  "punto": "<b>Madera</b>",
                   "contenido": [
                     {
-                      "punto": "Escalera simple de un tramo: Escalera portátil no autosoportada y no ajustable en longitud, compuesta de dos largueros."
+                      "punto": "Ventajas",
+                      "contenido": [
+                        {
+                          "punto": "Precio"
+                        },
+                        {
+                          "punto": "Baja conductividad térmica"
+                        },
+                        {
+                          "punto": "Aislante de la corriente eléctrica (sin humedad). "
+                        }
+                      ]
                     },
                     {
-                      "punto": "Escalera doble de tijera: La unión de las secciones se realiza mediante un dispositivo metálico de articulación que permite su plegado. "
+                      "punto": "Inconvenientes",
+                      "contenido": [
+                        {
+                          "punto": "Se reseca, tiene holgaduras con el tiempo, se contrae o dilata según las condiciones atmosféricas."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "punto": "<b>Acero</b>",
+                  "contenido": [
+                    {
+                      "punto": "Ventajas",
+                      "contenido": [
+                        {
+                          "punto": "Incombustible"
+                        },
+                        {
+                          "punto": "Poco sensible a las variaciones atmosféricas. "
+                        },
+                        {
+                          "punto": "Rotura más difícil."
+                        },
+                        {
+                          "punto": "Precio"
+                        }
+
+                      ]
                     },
                     {
-                      "punto": "Escalera extensible: Es una escalera compuesta de dos simples superpuestas y cuya longitud varía por desplazamientos relativo de un tramo sobre otro. Pueden ser mecánicas (cable) o manuales. "
-                    },
-                    {
-                      "punto": "Escalera transformable: Es una extensible de dos o tres tramos (mixta de una doble y extensible). "
-                    },
-                    {
-                      "punto": "Escalera mixta con rótula: La unión de las secciones se realiza mediante un dispositivo metálico de articulación que permite su plegado. "
+                      "punto": "Inconvenientes",
+                      "contenido": [
+                        {
+                          "punto": "Pesada"
+                        },
+                        {
+                          "punto": "Buena conductividad térmica y eléctrica. "
+                        },
+                        {
+                          "punto": "Posible oxidación. "
+                        },
+                        {
+                          "punto": "Sensible a los golpes. "
+                        }
+                      ]
                     }
                   ]
                 }
               ]
             },
             {
-              "titulo": "En función del material",
+              "clase": "lista",
               "contenido": [
                 {
-                  "clase": "lista",
-                  "titulo": "Describimos los materiales así como sus ventajas e inconvenientes.",
+                  "punto": "<b>Aleaciones ligeras</b> (aluminio, etc.)",
                   "contenido": [
                     {
-                      "punto": "Madera",
+                      "punto": "Ventajas",
                       "contenido": [
                         {
-                          "punto": "Ventajas",
-                          "contenido": [
-                            {
-                              "punto": "Precio"
-                            },
-                            {
-                              "punto": "Baja conductividad térmica"
-                            },
-                            {
-                              "punto": "Aislante de la corriente eléctrica (sin humedad). "
-                            }
-                          ]
+                          "punto": "Ligera. "
                         },
                         {
-                          "punto": "Inconvenientes",
-                          "contenido": [
-                            {
-                              "punto": "Se reseca, tiene holgaduras con el tiempo, se contrae o dilata según las condiciones atmosféricas."
-                            }
-                          ]
+                          "punto": "Incombustible"
+                        },
+                        {
+                          "punto": "Inoxidable"
+                        },
+                        {
+                          "punto": "Larga duración que la hace económica a pesar de su precio elevado. "
                         }
                       ]
                     },
                     {
-                      "punto": "Acero",
+                      "punto": "Inconvenientes",
                       "contenido": [
                         {
-                          "punto": "Ventajas",
-                          "contenido": [
-                            {
-                              "punto": "Incombustible"
-                            },
-                            {
-                              "punto": "Poco sensible a las variaciones atmosféricas. "
-                            },
-                            {
-                              "punto": "Rotura más difícil."
-                            },
-                            {
-                              "punto": "Precio"
-                            }
-
-                          ]
+                          "punto": "Buena conductividad térmica y eléctrica. "
                         },
                         {
-                          "punto": "Inconvenientes",
-                          "contenido": [
-                            {
-                              "punto": "Pesada"
-                            },
-                            {
-                              "punto": "Buena conductividad térmica y eléctrica. "
-                            },
-                            {
-                              "punto": "Posible oxidación. "
-                            },
-                            {
-                              "punto": "Sensible a los golpes. "
-                            }
-                          ]
+                          "punto": "Sensible a los golpes. "
+                        },
+                        {
+                          "punto": "Precio"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "punto": "<b>Materiales sintéticos</b> (Fibra de vidrio)",
+                  "contenido": [
+                    {
+                      "punto": "Ventajas",
+                      "contenido": [
+                        {
+                          "punto": "Ligeras"
+                        },
+                        {
+                          "punto": "Aislantes frente a la corriente eléctrica. "
+                        },
+                        {
+                          "punto": "Muy resistente a los ácidos y productos corrosivos. "
                         }
                       ]
                     },
                     {
-                      "punto": "Aleaciones ligeras (aluminio, etc.)",
+                      "punto": "Inconvenientes",
                       "contenido": [
                         {
-                          "punto": "Ventajas",
-                          "contenido": [
-                            {
-                              "punto": "Ligera. "
-                            },
-                            {
-                              "punto": "Incombustible"
-                            },
-                            {
-                              "punto": "Inoxidable"
-                            },
-                            {
-                              "punto": "Larga duración que la hace económica a pesar de su precio elevado. "
-                            }
-                          ]
+                          "punto": "Precio"
                         },
                         {
-                          "punto": "Inconvenientes",
-                          "contenido": [
-                            {
-                              "punto": "Buena conductividad térmica y eléctrica. "
-                            },
-                            {
-                              "punto": "Sensible a los golpes. "
-                            },
-                            {
-                              "punto": "Precio"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "punto": "Materiales sintéticos (Fibra de vidrio)",
-                      "contenido": [
-                        {
-                          "punto": "Ventajas",
-                          "contenido": [
-                            {
-                              "punto": "Ligeras"
-                            },
-                            {
-                              "punto": "Aislantes frente a la corriente eléctrica. "
-                            },
-                            {
-                              "punto": "Muy resistente a los ácidos y productos corrosivos. "
-                            }
-                          ]
+                          "punto": "Resistencia limitada al calor. "
                         },
                         {
-                          "punto": "Inconvenientes",
-                          "contenido": [
-                            {
-                              "punto": "Precio"
-                            },
-                            {
-                              "punto": "Resistencia limitada al calor. "
-                            },
-                            {
-                              "punto": "Frágil en ambientes muy fríos. "
-                            }
-                          ]
+                          "punto": "Frágil en ambientes muy fríos. "
                         }
                       ]
                     }
@@ -223,10 +227,9 @@
       "contenido": [
         {
           "clase": "lista",
-          "titulo": "Riesgos asociados",
           "contenido": [
             {
-              "punto": "Caída de altura (Factores de riesgo)",
+              "punto": "<b>Caída de altura</b> (Factores de riesgo)",
               "contenido": [
                 {
                   "punto": "Deslizamiento lateral de la cabeza de la escalera (apoyo precario, escalera mal situada, viento, desplazamiento lateral del usuario, etc). "
@@ -261,7 +264,7 @@
               ]
             },
             {
-              "punto": "Atrapamientos ",
+              "punto": "<b>Atrapamientos</b> ",
               "contenido": [
                 {
                   "punto": "Desencaje de los herrajes de ensamblaje de las cabezas de una escalera de tijera o transformable."
@@ -275,7 +278,7 @@
               ]
             },
             {
-              "punto": "Caída de objetos sobre otras personas ",
+              "punto": "<b>Caída de objetos sobre otras personas</b>",
               "contenido": [
                 {
                   "punto": "Durante trabajos diversos y sobre el personal de ayuda o que circunstancialmente haya pasado por debajo o junto a la escalera. "
@@ -283,7 +286,7 @@
               ]
             },
             {
-              "punto": "Contactos eléctricos directos o indirectos ",
+              "punto": "<b>Contactos eléctricos directos o indirectos</b>",
               "contenido": [
                 {
                   "punto": "Utilizando escalera metálica para trabajos de electricidad o próximos a conducciones eléctricas. "
@@ -291,7 +294,7 @@
               ]
             },
             {
-              "punto": "Accidentes varios",
+              "punto": "<b>Accidentes varios</b>",
               "contenido": [
                 {
                   "punto": "Operario afectado de vértigos o similares"
@@ -299,10 +302,15 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Medidas preventivas",
+      "contenido": [
         {
           "clase": "lista",
-          "titulo": "Las medidas preventivas:",
+          "titulo": "<center><b>Medidas preventivas</b></center>",
           "contenido": [
             {
               "punto": "Comprobar que la escalera posee topes antideslizamiento y que su extremo superior está firmemente sujeto, y que, en su caso, los bordes de la zanja, excavación, forjado, etc., al que se accede, están protegidos con sistemas provisionales de protección. "
@@ -338,62 +346,59 @@
         }
       ]
     },
-    {
-      "titulo": "Normas de utilización",
+        {
+      "titulo": "Transporte manual",
       "contenido": [
         {
-          "clase": "lista",
-          "titulo": "Se darán normas de:",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "punto": "Transporte "
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Procurar no dañarlas."
+                },
+                {
+                  "punto": "Depositarlas, no tirarlas."
+                },
+                {
+                  "punto": "No utilizarlas para transportar materiales."
+                }
+              ]
             },
             {
-              "punto": "Colocación"
+              "clase": "imagen",
+              "imagen": "img/mod06/escaleraDosPersonas.jpg",
+              "ancho": 256
             },
-            {
-              "punto": "Uso"
+                       {
+              "clase": "imagen",
+              "imagen": "img/mod06/escaleraUnaPersona.jpg",
+              "ancho": 256
             }
           ]
         },
         {
-          "clase": "lista",
-          "titulo": "Normas de transporte",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "punto": "A mano",
+              "clase": "lista",
+              "titulo": "<b>Si la lleva una sola persona:</b>",
               "contenido": [
                 {
-                  "punto": "Procurar no dañarlas. "
+                  "punto": "Sólo transportará escaleras simples o de tijeras con un peso máximo que en ningún caso superará los 25 kg."
                 },
                 {
-                  "punto": "Depositarlas, no tirarlas. "
+                  "punto": "No se debe transportar horizontalmente. Hacerlo con la parte delantera hacia abajo. "
                 },
                 {
-                  "punto": "No utilizarlas para transportar materiales."
-                },
+                  "punto": "No hacerla pivotar ni transportarla sobre la espalda, entre montantes, etc."
+                }
+              ]
+            },
                 {
-                  "imagen": "img/mod06/escaleraDosPersonas.jpg"
-                },
-                {
-                  "punto": "Si la lleva una sola persona:",
-                  "contenido": [
-                    {
-                      "punto": "Sólo transportará escaleras simples o de tijeras con un peso máximo que en ningún caso superará los 25 kg."
-                    },
-                    {
-                      "punto": "No se debe transportar horizontalmente. Hacerlo con la parte delantera hacia abajo. "
-                    },
-                    {
-                      "punto": "No hacerla pivotar ni transportarla sobre la espalda, entre montantes, etc."
-                    },
-                    {
-                      "imagen": "img/mod06/escaleraUnaPersona.jpg"
-                    }
-                  ]
-                },
-                {
-                  "punto": "Si la llevan dos personas:",
+          "clase": "lista",
+          "titulo": "<b>Si la llevan dos personas:</b>",
                   "contenido": [
                     {
                       "punto": "En el caso de escaleras transformables se necesitan dos personas y se deberán tomar las siguientes precauciones:"
@@ -409,33 +414,50 @@
                     }
                   ]
                 }
-              ]
+                      ]
+        }
+      ]
+    },
+    {
+      "titulo": "Transporte en vehículos",
+      "contenido": [
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Protegerlas reposando sobre apoyos de goma."
             },
             {
-              "punto": "En vehículos",
-              "contenido": [
-                {
-                  "punto": "Protegerlas reposando sobre apoyos de goma."
-                },
-                {
-                  "punto": "Fijarla sólidamente sobre el porta-objetos del vehículo evitando que cuelgue o sobresalga lateralmente. "
-                },
-                {
-                  "punto": "La escalera no deberá sobrepasar la parte anterior del vehículo más de 2 m en caso de automóviles. "
-                },
-                {
-                  "punto": "Cuando se carguen en vehículos de longitud superior a 5 m podrán sobresalir por la parte posterior hasta 3 metros. En vehículos de longitud inferior la carga no deberá sobresalir ni por la parte anterior ni posterior más de 1/3 de su longitud total.<br><br>Cuando las escaleras sobresalgan por la parte posterior del vehículo, llevarán durante la noche una luz roja o dispositivo reflectante que refleje en ese color la luz que reciba y, durante el día, cubierta con un trozo de tela de color vivo (Art. 59 del Código de Circulación)"
-                }
-              ]
+              "punto": "Fijarla sólidamente sobre el porta-objetos del vehículo evitando que cuelgue o sobresalga lateralmente. "
+            },
+            {
+              "punto": "La escalera no deberá sobrepasar la parte anterior del vehículo más de 2 m en caso de automóviles. "
+            },
+            {
+              "punto": "Cuando se carguen en vehículos de longitud superior a 5 m podrán sobresalir por la parte posterior hasta 3 metros. En vehículos de longitud inferior la carga no deberá sobresalir ni por la parte anterior ni posterior más de 1/3 de su longitud total."
             }
           ]
         },
         {
+          "clase": "imagen",
+          "imagen": "img/mod06/baca.jpg",
+          "ancho": 512
+        },
+        {
+          "clase": "texto",
+          "texto": "Cuando las escaleras sobresalgan por la parte posterior del vehículo, llevarán durante la noche una luz roja o dispositivo reflectante que refleje en ese color la luz que reciba y, durante el día, cubierta con un trozo de tela de color vivo (Art. 59 del Código de Circulación)."
+        }
+      ]
+    },
+    {
+      "titulo": "Normas de colocación",
+      "contenido": [
+        {
           "clase": "lista",
-          "titulo": "Colocación de escaleras para trabajo",
+          "titulo": "<center><b>Colocación de escaleras para trabajo<b></center>",
           "contenido": [
             {
-              "punto": "Elección del lugar donde levantar la escalera",
+              "punto": "<b>Elección del lugar</b> donde levantar la escalera",
               "contenido": [
                 {
                   "punto": "No situar la escalera detrás de una puerta que previamente no se ha cerrado. No podrá ser abierta accidentalmente. "
@@ -449,7 +471,7 @@
               ]
             },
             {
-              "punto": "Levantamiento o abatimiento de una escalera",
+              "punto": "<b>Levantamiento o abatimiento</b> de una escalera",
               "contenido": [
                 {
                   "punto": "Por una persona y en caso de escaleras ligeras de un sólo plano:",
@@ -512,9 +534,21 @@
                       "punto": "El ángulo de abertura de una escalera de tijera debe ser de 30º como máximo, con la cuerda que une los dos planos, extendida o el limitador de abertura bloqueado."
                     }
                   ]
-                },
-                {
-                  "punto": "Estabilización de la escalera. Sistemas de sujeción y apoyo",
+                }             
+              ]
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "titulo": "Sistemas de sujeción y apoyo",
+      "contenido": [
+        {
+          "clase": "lista",
+        "contenido": [
+                          {
+                  "punto": "<b>Estabilización de la escalera</b>",
                   "contenido": [
                     {
                       "punto": "Para dar a la escalera la estabilidad necesaria, se emplean dispositivos que, adaptados a los largueros, proporcionan en condiciones normales, una resistencia suficiente frente a deslizamiento y vuelco. Pueden ser fijos, solidarios o independientes adaptados a la escalera. Se emplean para este objetivo diversos sistemas en función de las características del suelo y/o de la operación realizada."
@@ -559,12 +593,12 @@
                       "punto": "Sobrepasado del punto de apoyo en la escalera La escalera debe sobrepasar al menos en 1 m el punto de apoyo superior. "
                     },
                     {
-                      "imagen": "img/mod06/sobrepaso.jpg" 
-                    }                                                     
+                      "imagen": "img/mod06/sobrepaso.jpg"
+                    }
                   ]
                 },
                 {
-                  "punto": "Inmovilización de la parte superior de la escalera",
+                  "punto": "<b>Inmovilización de la parte superior</b> de la escalera",
                   "contenido": [
                     {
                       "punto": "La inmovilización de la parte superior de la escalera por medio de una cuerda es siempre aconsejable sobre todo en el sector de la construcción y siempre que su estabilidad no esté asegurada. "
@@ -580,19 +614,17 @@
               ]
             }
           ]
-        }
-      ]
     },
     {
-      "titulo": "Utilización de escaleras",
+      "titulo": "Cargas máximas",
       "contenido": [
         {
-          "clase": "texto",
+          "clase": "icono",
+          "subclase": "exclamacion",
           "texto": "No deben utilizar escaleras personas que sufran algún tipo de vértigo o similares. Para subir a una escalera se debe llevar un calzado que sujete bien los pies. Las suelas deben estar limpias de grasa, aceite u otros materiales deslizantes, pues a su vez ensucian los escalones de la propia escalera."
         },
         {
           "clase": "lista",
-          "titulo": "Cargas máximas de las escaleras",
           "contenido": [
             {
               "punto": "Madera",
@@ -617,7 +649,7 @@
         },
         {
           "clase": "texto",
-          "texto": "Ascenso - Descenso: El ascenso y descenso de la escalera se debe hacer siempre de cara a la misma teniendo libres las manos y utilizándolas para subir o bajar los escalones"
+          "texto": "<b>Ascenso y Descenso:</b> El ascenso y descenso de la escalera se debe hacer siempre de cara a la misma teniendo libres las manos y utilizándolas para subir o bajar los escalones"
         },
         {
           "clase": "imagen",
@@ -626,10 +658,15 @@
         {
           "clase": "texto",
           "texto": "Cualquier objeto a transportar se debe llevar colgando al cuerpo o cintura."
-        },
-        {
+        }
+      ]
+    },
+    {
+      "titulo": "Trabajo sobre escaleras",
+      "contenido": [
+              {
           "clase": "lista",
-          "titulo": "Trabajo sobre una escalera: La norma básica es la de no utilizar una escalera manual para trabajar. En caso necesario y siempre que no sea posible utilizar una plataforma de trabajo se deberán adoptar las siguientes medidas:",
+          "titulo": "La norma básica es la de no utilizar una escalera manual para trabajar. En caso necesario y siempre que no sea posible utilizar una plataforma de trabajo se deberán adoptar las siguientes medidas:",
           "contenido": [
             {
               "punto": "Si los pies están a más de 2 m del suelo, utilizar cinturón de seguridad anclado a un punto sólido y resistente."
@@ -659,19 +696,20 @@
               "punto": "Para acceder a otro punto de operación no se debe dudar en variar la situación de la escalera volviendo a verificar los elementos de seguridad de la misma. "
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Mala utilización de escaleras",
+      "contenido": [
         {
           "clase": "lista",
-          "titulo": "Mala utilización de las escaleras",
           "contenido": [
             {
               "punto": "Las escaleras no deben utilizarse para otros fines distintos de aquellos para los que han sido construidas. "
             },
             {
               "punto": "No se deben utilizar las escaleras dobles como simples."
-            },
-            {
-              "imagen": "img/mod06/noDoble.jpg"
             },
             {
               "punto": "No se deben utilizar en posición horizontal para servir de puentes, pasarelas o plataformas."
@@ -682,8 +720,17 @@
           ]
         },
         {
+          "clase": "imagen",
+          "imagen": "img/mod06/noDoble.jpg",
+          "ancho": 256
+        }
+      ]
+    },
+        {
+      "titulo": "Procedimiento de colocación",
+      "contenido": [
+        {
           "clase": "lista",
-          "titulo": "Procedimiento de colocación:",
           "contenido": [
             {
               "punto": "La base debe quedar apoyada firmemente en superficies horizontales y planas, haciendo uso de los dispositivos antideslizamiento. "
@@ -734,40 +781,58 @@
               "punto": "Los materiales y elementos que las constituyen deberán encontrarse en perfectas condiciones de uso y estado de conservación."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Normas generales",
+      "contenido": [
         {
           "clase": "lista",
-          "titulo": "Normas generales:",
           "contenido": [
             {
               "punto": "Siempre serán un elemento auxiliar para llegar al lugar de trabajo (ascenso y descenso), siendo la última posibilidad a barajar para la realización de un trabajo."
-            },{
+            },
+            {
               "punto": "Su uso será excepcional."
-            },{
+            },
+            {
               "punto": "No se improvisarán escaleras (palés, mesas, sillas...)."
-            },{
+            },
+            {
               "punto": "Si dudas de su resistencia no la uses."
-            },{
+            },
+            {
               "punto": "Preferiblemente que no sean de madera pintada."
-            },{
+            },
+            {
               "punto": "Realizar una revisión periódica."
-            },{
+            },
+            {
               "punto": "Las escaleras de tijera siempre llevarán algún sistema de retención de la apertura accidental (cadenas, cintas...)."
-            },{
+            },
+            {
               "punto": "El apoyo de la escalera siempre será de goma y de un material antideslizante."
-            },{
+            },
+            {
               "punto": "Nunca usará la escalera más de un trabajador a la vez."
-            },{
+            },
+            {
               "punto": "A una escalera siempre se subirá de frente."
-            },{
+            },
+            {
               "imagen": "img/mod06/subirFrente.jpg"
-            },{
+            },
+            {
               "punto": "No inclinar ni desplazar el tronco en exceso cuando se esté utilizando la escalera. Mejor muévela."
-            },{
+            },
+            {
               "punto": "Siempre rebasará en al menos un metro el punto más alto acceso."
-            },{
+            },
+            {
               "punto": "Los trabajos a más de 3,5 metros de altura, desde el punto de operación al suelo, que requieran movimientos o esfuerzos peligrosos para la estabilidad del trabajador, sólo se efectuarán si se utiliza un equipo de protección individual anticaídas o se adoptan otras medidas de protección alternativas."
-            },{
+            },
+            {
               "punto": "Llegado el caso, la mejor opción por su versatilidad es una línea de anclaje vertical flexible, de cuerda, conectada a un anclaje por encima de la escalera."
             }
           ]
@@ -779,16 +844,44 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Existe normativa aplicable al sector de la construcción que obliga, en ciertas circunstancias, a disponer de una protección circundante en las escalas fijas. Tal es el caso de lo dispuesto en el Anexo I del Real Decreto 486/1997, por el que se establecen las disposiciones mínimas de seguridad y salud en los lugares de trabajo.<br><br>En el punto 8 del citado Anexo, se determina que las escalas fijas que tengan una altura superior a 4 metros dispondrán, al menos a partir de dicha altura, de una protección circundante.<br><br>Esta medida no será necesaria en conductos, pozos angostos y otras instalaciones que, por su configuración, ya proporcionen dicha protección. Es en la guía técnica del mencionado Real Decreto donde aparece un dibujo en el que se identifica la protección circundante con las jaulas o aros de protección."
+          "texto": "Existe normativa aplicable al sector de la construcción que obliga, en ciertas circunstancias, a disponer de una protección circundante en las escalas fijas. Tal es el caso de lo dispuesto en el <b>Anexo I del Real Decreto 486/1997</b>, por el que se establecen las disposiciones mínimas de seguridad y salud en los lugares de trabajo. En el <b>punto 8</b> del citado Anexo, se determina que las escalas fijas que tengan una altura superior a 4 metros dispondrán, al menos a partir de dicha altura, de una protección circundante. Esta medida no será necesaria en conductos, pozos angostos y otras instalaciones que, por su configuración, ya proporcionen dicha protección. Es en la guía técnica del mencionado Real Decreto donde aparece un dibujo en el que se identifica la protección circundante con las jaulas o aros de protección."
         },
         {
-          "clase": "imagen",
-          "imagen": "img/mod06/escalerasGato.jpg"
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod06/escalerasGato.jpg"
+            },
+            {
+              "clase": "texto",
+                "texto": "Este mismo Real Decreto indica la necesidad de poner plataformas de descanso cada 9 m. Sin embargo, no obliga a que las plataformas interrumpan la escalera, pudiéndose colocar, por ejemplo, a un lado de ésta."
+            }
+          ]
         },
         {
-          "clase": "texto",
-          "texto": "Este mismo Real Decreto indica la necesidad de poner plataformas de descanso cada 9 m. Sin embargo, no obliga a que las plataformas interrumpan la escalera, pudiéndose colocar, por ejemplo, a un lado de ésta.<br><br>Otra normativa que recoge una redacción muy similar para las mismas circunstancias es, de una parte el apartado 1 del Documento Básico “DB-SU Seguridad de Utilización” del  Código Técnico de la Edificación, Seguridad frente al riesgo de caídas; y, de otra, el artículo 204 del V Convenio Colectivo del Sector de la Construcción.<br><br>La Nota Técnica Preventiva 408 Escalas fijas de servicio, las define a partir de una inclinación de 60º e indica unas cotas para la construcción de jaulas.<br><br>La norma UNE-EN-ISO 14122-4 “Seguridad de las máquinas. Medios de acceso permanente a máquinas e instalaciones industriales. Parte 4: Escaleras fijas” También establece unas cotas mínimas para la construcción de estas jaulas."
-        },
+          "clase": "lista",
+          "titulo": "Otras normativas que recoge una redacción muy similar para las mismas circunstancias son:",
+          "contenido": [
+            {
+              "punto": "El <b>Apartado 1 del Documento Básico “DB-SU Seguridad de Utilización”</b> del  Código Técnico de la Edificación, Seguridad frente al riesgo de caídas."
+            },
+            {
+              "punto": "El <b>Artículo 204 del V Convenio Colectivo del Sector de la Construcción.</b>"
+            },
+            {
+              "punto": "La <b>Nota Técnica Preventiva 408</b> Escalas fijas de servicio, que las define a partir de una inclinación de 60º e indica unas cotas para la construcción de jaulas."
+            },
+                    {
+          "punto": "La <b>Norma UNE-EN-ISO 14122-4</b> “Seguridad de las máquinas. Medios de acceso permanente a máquinas e instalaciones industriales. Parte 4: Escaleras fijas” También establece unas cotas mínimas para la construcción de estas jaulas."
+        }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Ventajas",
+      "contenido": [
         {
           "clase": "lista",
           "titulo": "La utilización de estos sistemas de protección tiene innegables ventajas como son:",
@@ -811,9 +904,24 @@
           ]
         },
         {
-          "clase": "texto",
-          "texto": "Sin embargo se insta a la utilización de sistemas anticaídas para proteger estas escalas verticales."
-        },
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Sin embargo se insta a la utilización de sistemas anticaídas para proteger estas escalas verticales."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod06/upright.jpg",
+              "ancho": 256
+            }
+                      ]
+        }
+      ]
+    },
+        {
+      "titulo": "Inconvenientes",
+      "contenido": [
         {
           "clase": "lista",
           "titulo": "Algunos de los inconvenientes de las jaulas son:",
@@ -831,7 +939,7 @@
         },
         {
           "clase": "texto",
-          "texto": "Por lo tanto, la escasa protección de las jaulas hace recomendable el uso de otros sistemas de seguridad que, por lo menos, las complementen.<br><br>Dichos sistemas pueden ser la instalación de un sistema anticaídas o la utilización del doble gancho, por ejemplo.<br><br>La NTP 408 indica al hablar de sistemas anticaídas “su instalación y uso deberá ser obligatorio en todas las escalas fijas”.<br><br>El vigente Convenio Colectivo del Sector de la Construcción establece que En el supuesto de que por las características constitutivas del propio pozo, conducto u otras instalaciones, las necesidades de acceso o la realización del trabajo impidan el establecimiento de las citadas plataformas de descanso, se dispondrán de sistemas anticaídas para su utilización por los trabajadores.<br><br>Los sistemas anticaídas habituales en estas circunstancias son la instalación de un retráctil (aconsejado para escaleras que no superen los 10 m), una línea de anclaje rígida  o una línea de anclaje flexible.  También puede emplearse el doble gancho utilizando los escalones, aunque tiene el inconveniente de tener que garantizar la resistencia mínima de los escalones."
+          "texto": "Por lo tanto, la escasa protección de las jaulas hace recomendable el uso de otros sistemas de seguridad que, por lo menos, las complementen. Dichos sistemas pueden ser la <b>instalación de un sistema anticaídas o la utilización del doble gancho</b>, por ejemplo.<br><br>La <b>NTP 408</b> indica al hablar de sistemas anticaídas <b>“su instalación y uso deberá ser obligatorio en todas las escalas fijas”</b>.<br><br>El vigente <b>Convenio Colectivo del Sector de la Construcción</b> establece que <u>en el supuesto de que por las características constitutivas del propio pozo, conducto u otras instalaciones, las necesidades de acceso o la realización del trabajo impidan el establecimiento de las citadas plataformas de descanso, se dispondrán de sistemas anticaídas para su utilización por los trabajadores</u>.<br><br>Los sistemas anticaídas habituales en estas circunstancias son la instalación de un retráctil (aconsejado para escaleras que no superen los 10 m), una línea de anclaje rígida  o una línea de anclaje flexible.  También puede emplearse el doble gancho utilizando los escalones, aunque tiene el inconveniente de tener que garantizar la resistencia mínima de los escalones."
         }
 
       ]
@@ -840,8 +948,15 @@
       "titulo": "Riesgos y medidas de prevención",
       "contenido": [
         {
+          "clase": "texto",
+          "texto": "La <b>NTP 408</b> asocia el riesgo de caída en altura como el principal durante el uso de estas instalaciones:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+        {
           "clase": "lista",
-          "titulo": "La NTP 408 asocia el riesgo de caída en altura como el principal durante el uso de estas instalaciones, en base a las siguientes causas:",
+          "titulo": "<b>Causas:</b>",
           "contenido": [
             {
               "punto": "En su utilización normal de subida o bajada."
@@ -863,25 +978,27 @@
             }
           ]
         },
-        {
-          "clase": "lista",
-          "titulo": "Otros riesgos son: ",
-          "contenido": [
             {
-              "punto": "Lesiones por astillas, rebabas metálicas etc"
-            },
-            {
-              "punto": "Resbalones que pueden dar origen a esguinces y torceduras, contusiones o abrasiones"
-            },
-            {
-              "punto": "Contacto eléctrico directo con líneas eléctricas situadas en las proximidades de la escala."
+              "clase": "lista",
+              "titulo": "<b>Otros riesgos:</b>",
+              "contenido": [
+                {
+                  "punto": "Lesiones por astillas, rebabas metálicas etc"
+                },
+                {
+                  "punto": "Resbalones que pueden dar origen a esguinces y torceduras, contusiones o abrasiones"
+                },
+                {
+                  "punto": "Contacto eléctrico directo con líneas eléctricas situadas en las proximidades de la escala."
+                }
+              ]
             }
-          ]
+                      ]
         },
         {
           "clase": "lista",
-          "titulo": "Como medidas de prevención incluye:",
-          "lista": [
+          "titulo": "Como <b>medidas de prevención</b> incluye:",
+          "contenido": [
             {
               "punto": "Selección de personal: Se debe hacer una selección del personal que deba utilizar escalas fijas teniendo en cuenta los siguientes aspectos:",
               "contenido": [
@@ -1003,7 +1120,7 @@
           ]
         }
       ]
-    },          
+    },
     {
       "titulo": "Autoevaluación",
       "contenido": [
@@ -1120,7 +1237,7 @@
                 }
               ]
             },
-             {
+            {
               "texto": "A la hora de utilizar tanto escaleras de mano como de gato, es importante además del estado del equipo, el estado de nuestros zapatos, ya que la presencia de grasas podría dar lugar a resbalones y caídas.",
               "respuestas": [
                 {
@@ -1139,6 +1256,7 @@
     },
     {
       "titulo": "Despedida",
+      "fondo": "img/comunes/despedida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -1146,11 +1264,9 @@
           "contenido": [
             {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "Tras este módulo dedicado a las escaleras de mano, pasaremos al siguiente, en el que trataremos el trabajo en los andamios."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod06/despedida.jpg"
             }
           ]
         }
@@ -1163,4 +1279,3 @@
     }
   ]
 }
-

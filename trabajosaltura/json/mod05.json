@@ -760,22 +760,22 @@
               "ancho": 200,
               "pie": "Dispositivo con rodamientos para perfiles"
             }
-                      ]
+          ]
         },
         {
           "clase": "listaObjetos",
           "contenido": [
-        {
-          "clase": "imagen",
-          "imagen": "img/mod05/acoplar.jpg",
-          "ancho": 200,
-          "pie": "Dispositivo para acoplar a las alas de la viga"
-        },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/acoplar.jpg",
+              "ancho": 200,
+              "pie": "Dispositivo para acoplar a las alas de la viga"
+            },
             {
               "clase": "texto",
               "texto": "También se pueden encontrar dispositivos que trabajan en pilares metálicos verticales a cualquier altura y que, por su funcionamiento, evitan su deslizamiento hacia abajo."
             }
-                      ]
+          ]
         }
       ]
     },
@@ -789,7 +789,8 @@
         {
           "clase": "imagen",
           "imagen": "img/mod05/marcos.jpg",
-          "pie": "Dispositivo para marcos de puertas"
+          "pie": "Dispositivo para marcos de puertas",
+          "ancho": 256
         }
 
       ]
@@ -799,11 +800,16 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "En multitud de ocasiones se dispone de un punto de anclaje –dispositivo ya instalado o elemento estructural- pero que se encuentra demasiado alejado. Para poder colocar en él un sistema de conexión se puede utilizar un mango telescópico conocido como “pértiga”. Dependiendo del anclaje disponible existen distintos tipos de terminaciones de la pértiga. Las pértigas pueden llegar hasta 9 m de altura. Como sistema de conexión se suele utilizar un dispositivo anticaída deslizante sobre línea de anclaje flexible o sistemas retráctiles."
+          "texto": "En multitud de ocasiones se dispone de un punto de anclaje –dispositivo ya instalado o elemento estructural- pero que se encuentra demasiado alejado. Para poder colocar en él un sistema de conexión se puede utilizar un mango telescópico conocido como “pértiga”."
         },
         {
           "clase": "imagen",
-          "imagen": "img/mod05/pertigas.jpg"
+          "imagen": "img/mod05/pertigas.jpg",
+          "ancho": 512
+        },
+        {
+          "clase": "texto",
+          "texto": "Dependiendo del anclaje disponible existen distintos tipos de terminaciones de la pértiga. Las pértigas pueden llegar hasta 9 m de altura. Como sistema de conexión se suele utilizar un dispositivo anticaída deslizante sobre línea de anclaje flexible o sistemas retráctiles."
         }
       ]
     },
@@ -831,37 +837,48 @@
         {
           "clase": "listaObjetos",
           "contenido": [
-                    {
-          "clase": "imagen",
-                      "imagen": "img/mod05/tripodes2.jpg",
-                      "ancho": 200
-        },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/tripodes2.jpg",
+              "ancho": 200
+            },
             {
               "clase": "texto",
-              "texto": "La norma EN 795:2012 define pruebas de laboratorio especiales para este tipo de equipos. Las horcas móviles se pueden equilibrar modificando la forma de las patas o utilizando un contrapeso en la parte posterior. Suelen tener el problema de ser muy pesadas a pesar de su carácter transportable. La norma publicada en 2012 establece que cualquier dispositivo destinado a ser transportado por una persona se debe dividir en elementos de menos de 25 kg. Es interesante elegir una horca liviana o con un sistema de transporte (ruedas, etc.). También se debe observar la longitud del pescante y la posición del sistema de estabilización, para que sea compatible con el lugar donde se va a utilizar, por ejemplo, una boca de hombre."
+              "texto": "La norma EN 795:2012 define pruebas de laboratorio especiales para este tipo de equipos. Las horcas móviles se pueden equilibrar modificando la forma de las patas o utilizando un contrapeso en la parte posterior. Suelen tener el problema de ser muy pesadas a pesar de su carácter transportable. La norma publicada en 2012 establece que cualquier dispositivo destinado a ser transportado por una persona se debe dividir en elementos de menos de 25 kg."
             }
-                      ]
-        },
-        {
-          "clase": "texto",
-          "texto": "Para elegir un trípode, se debería valorar la abertura máxima (huella) que puede abarcar para proteger una entrada a una boca de hombre. Si se va a utilizar para rescates con camilla es muy importante su altura. También se deben evaluar los sistemas de bloqueo para que no se abran las patas. Son preferibles los sistemas alternativos a una simple cadena. Se debe observar la compatibilidad entre el sistema anticaídas o de rescate que se utilice y la posición de las poleas en el punto superior (en el extremo de la pata y alineada con ella o debajo de la pieza de unión de las tres patas y descentrada de las mismas). Esta posición, junto a la posición del sistema de conexión, influye en un posible roce del cable o cuerda del sistema de conexión con las patas del trípode."
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod05/tripodes3.jpg"
-        },
-        {
-          "clase": "texto",
-          "texto": "Existen trípodes especiales, orientados principalmente a rescates, que pueden adquirir varias posiciones y usos, pero se emplean en ocasiones muy específicas y no son necesarios en trabajos cotidianos."
-        }
-
+          ]
+        }    
       ]
+    },
+        {
+      "titulo": "Elección de sistema",
+          "contenido": [
+                        {
+              "clase": "texto",
+              "texto": "Es interesante elegir una horca liviana o con un sistema de transporte (ruedas, etc.). También se debe observar la longitud del pescante y la posición del sistema de estabilización, para que sea compatible con el lugar donde se va a utilizar, por ejemplo, una boca de hombre."
+            },
+            {
+              "clase": "texto",
+              "texto": "Para elegir un trípode, se debería valorar la abertura máxima (huella) que puede abarcar para proteger una entrada a una boca de hombre. Si se va a utilizar para rescates con camilla es muy importante su altura. También se deben evaluar los sistemas de bloqueo para que no se abran las patas. Son preferibles los sistemas alternativos a una simple cadena. Se debe observar la compatibilidad entre el sistema anticaídas o de rescate que se utilice y la posición de las poleas en el punto superior (en el extremo de la pata y alineada con ella o debajo de la pieza de unión de las tres patas y descentrada de las mismas). Esta posición, junto a la posición del sistema de conexión, influye en un posible roce del cable o cuerda del sistema de conexión con las patas del trípode."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod05/tripodes3.jpg",
+              "ancho": 512
+            },
+            {
+              "clase": "texto",
+              "texto": "Existen trípodes especiales, orientados principalmente a rescates, que pueden adquirir varias posiciones y usos, pero se emplean en ocasiones muy específicas y no son necesarios en trabajos cotidianos."
+            }
+          ]
     },
     {
       "titulo": "Dispositivos para taladros",
+      "fondo": "img/mod05/wall.jpg",
       "contenido": [
         {
           "clase": "tabs",
+          "opacidad": 0.8,
           "contenido": [
             {
               "titulo": "Para taladros ciegos en hormigón",
@@ -881,29 +898,38 @@
       "titulo": "Resumen",
       "contenido": [
         {
-          "clase": "lista",
-          "titulo": "¿QUÉ ES UNA LÍNEA DE VIDA? Su nombre técnico es «línea de anclaje» y pueden dividirse en:",
-          "contenido": [
-            {
-              "punto": "Rígidas"
-            },
-            {
-              "punto": "Flexibles "
-            },
-            {
-              "punto": "De raíl"
-            }
-          ]
+          "clase": "texto",
+          "texto":"<b>¿QUÉ ES UNA LÍNEA DE VIDA?</b>"
         },
         {
-          "clase": "lista",
-          "titulo": "A su vez pueden ser: ",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "punto": "Permanentes."
+              "clase": "lista",
+              "titulo": "Su nombre técnico es «línea de anclaje» y pueden dividirse en:",
+              "contenido": [
+                {
+                  "punto": "Rígidas"
+                },
+                {
+                  "punto": "Flexibles "
+                },
+                {
+                  "punto": "De raíl"
+                }
+              ]
             },
             {
-              "punto": "Temporales"
+              "clase": "lista",
+              "titulo": "A su vez pueden ser: ",
+              "contenido": [
+                {
+                  "punto": "Permanentes."
+                },
+                {
+                  "punto": "Temporales"
+                }
+              ]
             }
           ]
         },
@@ -913,19 +939,19 @@
         },
         {
           "clase": "texto",
-          "texto": "¿QUÉ DIFERENCIA HAY ENTRE UNA LÍNEA FLEXIBLE Y UNA LÍNEA RÍGIDA? Las líneas flexibles son las que tienen cable como elemento de anclaje. El cable se conecta mediante perrillos, engaste o similar a los postes o anillas de los extremos. En caso de caída el cable estira, de ahí el nombre de flexible para estas líneas. Por el contrario, las líneas de anclaje rígidas son las que utilizan raíles especiales, vigas IPN, vigas diseñadas de aluminio, acero inoxidable o galvanizado, etc. En el caso de las líneas rígidas, el anclaje no estira, produciéndose un bloqueo inmediato y muy brusco; de ahí que todos los sistemas de anclaje rígido lleven incorporados formas de absorción de energía tanto en el dispositivo anticaídas como en el EPI del trabajador. Las líneas de anclaje rígidas horizontales se utilizan cuando existe poca distancia de seguridad al suelo."
+          "texto": "<b>¿QUÉ DIFERENCIA HAY ENTRE UNA LÍNEA FLEXIBLE Y UNA LÍNEA RÍGIDA?</b><br>Las líneas flexibles son las que tienen cable como elemento de anclaje. El cable se conecta mediante perrillos, engaste o similar a los postes o anillas de los extremos. En caso de caída el cable estira, de ahí el nombre de flexible para estas líneas. Por el contrario, las líneas de anclaje rígidas son las que utilizan raíles especiales, vigas IPN, vigas diseñadas de aluminio, acero inoxidable o galvanizado, etc. En el caso de las líneas rígidas, el anclaje no estira, produciéndose un bloqueo inmediato y muy brusco; de ahí que todos los sistemas de anclaje rígido lleven incorporados formas de absorción de energía tanto en el dispositivo anticaídas como en el EPI del trabajador. Las líneas de anclaje rígidas horizontales se utilizan cuando existe poca distancia de seguridad al suelo."
         },
         {
           "clase": "texto",
-          "texto": "¿Y ENTRE UNA VERTICAL Y UNA HORIZONTAL? Las verticales se suelen instalar en escaleras fijas, pates u otro acceso en vertical por estructuras. Las horizontales se instalan sobre cualquier tipo de soporte: cubiertas, columnas, estructuras, etc."
+          "texto": "<b>¿Y ENTRE UNA VERTICAL Y UNA HORIZONTAL?</b><br>Las verticales se suelen instalar en escaleras fijas, pates u otro acceso en vertical por estructuras. Las horizontales se instalan sobre cualquier tipo de soporte: cubiertas, columnas, estructuras, etc."
         },
         {
           "clase": "texto",
-          "texto": "¿PERMANENTES O TEMPORALES? Esta clasificación es importante cuando se valora la posibilidad de dejar algo fijo, permanentemente instalado en el lugar de trabajo; o bien se quiere retirar cuando se han terminado los trabajos que motivaron su uso. Generalmente en montajes industriales se utilizan líneas de anclaje temporales; puesto que se pueden retirar al terminar los trabajos y pueden servir para obras futuras. La propiedad de una determinada instalación puede tener instaladas líneas permanentes para acceder a lugares en altura donde existe posibilidad de caída, y este riesgo no se ha podido reducir con barandillas u otros medios de protección colectiva."
+          "texto": "<b>¿PERMANENTES O TEMPORALES?</b><br>Esta clasificación es importante cuando se valora la posibilidad de dejar algo fijo, permanentemente instalado en el lugar de trabajo; o bien se quiere retirar cuando se han terminado los trabajos que motivaron su uso. Generalmente en montajes industriales se utilizan líneas de anclaje temporales; puesto que se pueden retirar al terminar los trabajos y pueden servir para obras futuras. La propiedad de una determinada instalación puede tener instaladas líneas permanentes para acceder a lugares en altura donde existe posibilidad de caída, y este riesgo no se ha podido reducir con barandillas u otros medios de protección colectiva."
         },
         {
           "clase": "lista",
-          "titulo": "¿QUIÉN PUEDE INSTALARLAS?",
+          "titulo": "<b>¿QUIÉN PUEDE INSTALARLAS?</b>",
           "contenido": [
             {
               "punto": "Línea de vida temporal: Este tipo de líneas de vida (vertical u horizontal) puede ser instalada por la propia persona que las va a utilizar. Para ello, el trabajador deberá haber recibido una formación específica para ello. Esta formación será teórica y práctica y contemplará, por supuesto el montaje de distintos tipos de líneas de vida; la utilización de las mismas; y la realización de un rescate por caída en altura en la línea de vida temporal."
@@ -937,11 +963,11 @@
         },
         {
           "clase": "texto",
-          "texto": "¿SI SE PRODUCE UNA CAÍDA, PODEMOS SEGUIR UTILIZANDO LA MISMA LÍNEA DE VIDA? Las líneas de vida están pensadas y diseñadas para soportar esfuerzos muy altos originados por la caída de una o varias personas sobre ellas. Si la caída es muy violenta, los sistemas de protección de la línea de vida actuarán (son los absorbedores de energía). Si la protección de una línea de vida ha funcionado, ésta se debe cambiar lo antes posible; y mientras no se realice esa sustitución, la línea no se podrá utilizar. Si la caída no es muy violenta, habrá que realizar una inspección por parte de un técnico competente (persona autorizada por el fabricante). Será este experto quien nos diga si podemos seguir utilizando la línea de vida o no."
+          "texto": "<b>¿SI SE PRODUCE UNA CAÍDA, PODEMOS SEGUIR UTILIZANDO LA MISMA LÍNEA DE VIDA?</b><br>Las líneas de vida están pensadas y diseñadas para soportar esfuerzos muy altos originados por la caída de una o varias personas sobre ellas. Si la caída es muy violenta, los sistemas de protección de la línea de vida actuarán (son los absorbedores de energía). Si la protección de una línea de vida ha funcionado, ésta se debe cambiar lo antes posible; y mientras no se realice esa sustitución, la línea no se podrá utilizar. Si la caída no es muy violenta, habrá que realizar una inspección por parte de un técnico competente (persona autorizada por el fabricante). Será este experto quien nos diga si podemos seguir utilizando la línea de vida o no."
         },
         {
           "clase": "texto",
-          "texto": "¿SE PUEDE REPARAR UNA LÍNEA DE VIDA? Las líneas de vida temporales NO se pueden reparar: no se pueden modificar en ninguna de sus formas por ninguna persona que no sea el fabricante directamente. Las líneas de vida permanentes SÍ se pueden reparar, puesto que están diseñadas para que sus componentes dañados (por caída, manipulaciones indebidas por terceros, etc), puedan ser sustituidos por otros sin que el conjunto pierda eficacia, seguridad y certificación."
+          "texto": "<b>¿SE PUEDE REPARAR UNA LÍNEA DE VIDA?</b><br>Las líneas de vida temporales NO se pueden reparar: no se pueden modificar en ninguna de sus formas por ninguna persona que no sea el fabricante directamente. Las líneas de vida permanentes SÍ se pueden reparar, puesto que están diseñadas para que sus componentes dañados (por caída, manipulaciones indebidas por terceros, etc), puedan ser sustituidos por otros sin que el conjunto pierda eficacia, seguridad y certificación."
         }
       ]
     },
