@@ -41,7 +41,7 @@ function getArrayImagenes(modulo) {
             "img/mod01/botoneraDesplazable.png",
             "img/mod01/botoneraSuspendidaCarro.png",
             "img/mod01/botoneraSuspendidaPuente.png",
-            "img/mod01/cabina.png",
+            "img/mod01/puestosOperacion.svg",
             "img/mod01/gruaMensula.jpg",
             "img/mod01/gruaPalomilla.jpg",
             "img/mod01/gruaPortico.jpg",
@@ -51,7 +51,7 @@ function getArrayImagenes(modulo) {
         ]);
             break;
         case "mod02": arrayFinal = arrayComun.concat([
-            "img/mod02/comunicaciones.png",
+            "img/mod02/comunicaciones.svg",
             "img/mod02/operario.svg",
             "img/mod02/señalista.png",
         ]);
@@ -72,7 +72,7 @@ function getArrayImagenes(modulo) {
             "img/mod04/cancamo2.png" ,
             "img/mod04/cancamoSoldar.png" ,
             "img/mod04/carretillaManual.jpg" ,
-            "img/mod04/centroGravedad.png" ,
+            "img/mod04/centroGravedad.svg" ,
             "img/mod04/colada.jpg" ,
             "img/mod04/contenedor.jpg" ,
             "img/mod04/contenedorGranel.png" ,

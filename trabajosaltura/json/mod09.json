@@ -9,17 +9,16 @@
     },
     {
       "titulo": "Bienvenida",
+      "fondo": "img/comunes/bienvenida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
             {
-              "clase": "imagen",
-              "imagen": "img/mod09/bienvenida.jpg"
-            },
-            {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "Todo trabajo en altura implica un riesgo, motivo por el que es una buena idea, tener previstos medios de rescate, para el caso de que ocurra un accidente."
             }
           ]
@@ -45,10 +44,18 @@
           ]
         },
         {
-          "clase": "texto",
-          "texto": "La rápida respuesta por parte de sus compañeros es vital para no agravar el estado del accidentado. Por ello además de realizar la evaluación de riesgos de una actividad, deberá existir un “plan de emergencia”, para poder tener una respuesta clara, rápida y segura a la hora de asistir al accidentado. La formación adecuada en dichas técnicas y conocimientos en materia de primeros auxilios es fundamental."
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "La rápida respuesta por parte de sus compañeros es vital para no agravar el estado del accidentado. Por ello además de realizar la evaluación de riesgos de una actividad, deberá existir un “plan de emergencia”, para poder tener una respuesta clara, rápida y segura a la hora de asistir al accidentado. La formación adecuada en dichas técnicas y conocimientos en materia de primeros auxilios es fundamental."
+            },
+                        {
+              "clase": "imagen",
+              "imagen": "img/mod09/bienvenida.jpg"
+            }
+                 ]
         }
-
       ]
     },
     {
@@ -72,7 +79,12 @@
               "punto": "Socorrer. En tercer lugar y siempre que se tengan medios, conocimientos y práctica suficiente, se pueden iniciar las tareas de rescate. Prestando especial atención a la fase de socorrer, siempre se debe valorar la posibilidad de llegar hasta el herido a través de medios que pueden facilitar el rescate, como puede ser el uso de plataformas elevadoras móviles de personas. Las máquinas elevadoras de carga no están permitidas para elevar personas, sin embargo, en caso de necesidad grave, se puede sopesar su uso con las debidas medidas de precaución. Ojo, sopesar, no utilizar directamente."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Sistemas ligeros de evacuación",
+      "contenido": [
         {
           "clase": "texto",
           "texto": "En muchos casos, se deben utilizar sistemas ligeros para evacuar a la víctima, como pueden ser dispositivos que utilizan cuerda o cable para ascender o descender a la víctima hasta una posición segura."
@@ -99,30 +111,57 @@
               "punto": "Descenderlo o subirlo de una forma segura."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Colocación de la cuerda de rescate",
+      "contenido": [
         {
           "clase": "texto",
-          "texto": "¿Cómo colocar la cuerda de rescate al accidentado?<br>La primera fase del rescate consiste en colocar al herido una cuerda o cable que pasará a través de un descensor o de un equipo de elevación, aparato que regulará la velocidad de bajada o que permitirá ascender al accidentado. Puede estar colocado de antemano, aunque no es lo habitual. Por ejemplo, si el sistema anticaídas tiene incorporado un sistema para realizar el rescate una vez detenida la caída. Si el rescatador debe aproximarse a la posición del accidentado, debe extremar las precauciones para mantener su propia seguridad. Si el herido está inconsciente y en el descenso o ascenso debe pasar por espacios pequeños, es más recomendable anclarle la cuerda en el anclaje dorsal de su arnés, ya que el accidentado tendrá una posición más “recogida” que si se utiliza el anclaje ventral e incluso el esternal. Si no existe este problema, lo más efectivo suele ser anclar la cuerda de rescate al herido en el mismo punto en que tiene el sistema que le está sujetando, así se facilita la desconexión de este sistema. Si no se puede llegar al herido, existen pértigas de rescate para poder anclarle la cuerda a distancia. En el caso de que cuelgue de una cuerda, se pueden utilizar bloqueadores sobre la misma cuerda de la que está suspendido. Estos aparatos “muerden” la cuerda que le sujeta, de manera que no es necesario llegar hasta el accidentado para pasar su peso a la cuerda de rescate. La cuerda o cable de rescate debe ir unida a un sistema que facilite el descenso del herido a una velocidad razonable (descensor) o al aparato que permite el ascenso."
-        },
+          "texto": "La primera fase del rescate consiste en colocar al herido una cuerda o cable que pasará a través de un descensor o de un equipo de elevación, aparato que regulará la velocidad de bajada o que permitirá ascender al accidentado. Puede estar colocado de antemano, aunque no es lo habitual. Por ejemplo, si el sistema anticaídas tiene incorporado un sistema para realizar el rescate una vez detenida la caída. Si el rescatador debe aproximarse a la posición del accidentado, debe extremar las precauciones para mantener su propia seguridad. Si el herido está inconsciente y en el descenso o ascenso debe pasar por espacios pequeños, es más recomendable anclarle la cuerda en el anclaje dorsal de su arnés, ya que el accidentado tendrá una posición más “recogida” que si se utiliza el anclaje ventral e incluso el esternal. Si no existe este problema, lo más efectivo suele ser anclar la cuerda de rescate al herido en el mismo punto en que tiene el sistema que le está sujetando, así se facilita la desconexión de este sistema. Si no se puede llegar al herido, existen pértigas de rescate para poder anclarle la cuerda a distancia. En el caso de que cuelgue de una cuerda, se pueden utilizar bloqueadores sobre la misma cuerda de la que está suspendido. Estos aparatos “muerden” la cuerda que le sujeta, de manera que no es necesario llegar hasta el accidentado para pasar su peso a la cuerda de rescate. La cuerda o cable de rescate debe ir unida a un sistema que facilite el descenso del herido a una velocidad razonable (descensor) o al aparato que permite el ascenso."
+        }
+      ]
+    },
+    {
+      "titulo": "Liberar al accidentado",
+      "contenido": [
         {
-          "clase": "texto",
-          "texto": "¿Cómo desconectar al accidentado del sistema anticaídas del que cuelga?<br>Ocurre que en algunos casos, es necesario desconectar al herido de su sistema inicial para poder realizar a la evacuación. Para pasar el peso del herido del sistema del que ha quedado suspendido a la cuerda que pasa por el descensor o el equipo de elevación existen varios métodos. Cortar la cuerda del accidentado una vez que se le ha conectado la cuerda de rescate no es aconsejable, debido a las posibilidades de equivocación. Este criterio está avalado la norma UNE-EN 363: que en su punto 4.2.5 dice: “El sistema de salvamento debería ensamblarse de forma que no sea necesario cortar las líneas para efectuar el salvamento”. Para no cortar la cuerda, algunos descensores llevan un sistema que se acciona a través de palancas o un volante y permite elevar ligeramente al herido para liberarle del sistema que le sujeta inicialmente."
-        },
-        {
+          "clase": "listaObjetos",
+          "contenido": [
+                    {
           "clase": "imagen",
-          "imagen": "img/mod09/descensor.jpg"
+                      "imagen": "img/mod09/descensor.jpg",
+                      "ancho": 512
         },
+            {
+              "clase": "texto",
+              "texto": "<b>¿Cómo desconectar al accidentado del sistema anticaídas del que cuelga?</b><br>Ocurre que en algunos casos, es necesario desconectar al herido de su sistema inicial para poder realizar a la evacuación. Para pasar el peso del herido del sistema del que ha quedado suspendido a la cuerda que pasa por el descensor o el equipo de elevación existen varios métodos. Cortar la cuerda del accidentado una vez que se le ha conectado la cuerda de rescate no es aconsejable, debido a las posibilidades de equivocación. Este criterio está avalado la norma UNE-EN 363: que en su punto 4.2.5 dice: “El sistema de salvamento debería ensamblarse de forma que no sea necesario cortar las líneas para efectuar el salvamento”. Para no cortar la cuerda, algunos descensores llevan un sistema que se acciona a través de palancas o un volante y permite elevar ligeramente al herido para liberarle del sistema que le sujeta inicialmente."
+            }
+                      ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
         {
           "clase": "texto",
           "texto": "En los descensores que no tienen este sistema, se suele utilizar un sistema de poleas y cuerda llamado polipasto, aprovechando habitualmente el sistema de frenado automático del descensor."
         },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod09/frenadoAutomatico.jpg",
+              "ancho": 256
+            }
+                      ]
+        }
+      ]
+    },
         {
-          "clase": "imagen",
-          "imagen": "img/mod09/frenadoAutomatico.jpg"
-        },
+      "titulo": "Ascenso/Descenso del accidentado",
+      "contenido": [
         {
           "clase": "texto",
-          "texto": "¿Y el ascenso/descenso del accidentado?<br>Los sistemas de descenso suelen regular de forma automática la velocidad. Se debe vigilar, continuamente, el descenso del herido, especialmente si esta inconsciente para impedir que se golpee o enganche. Algunos evacuadores por descenso permiten que desciendan dos personas a la vez. Esta opción puede ser muy interesante para que un rescatador baje con el herido, o en los casos de autoevacuación en los que se utiliza el descensor como sistema de escape de un lugar en altura. En el caso de rescate por ascenso, se debe vigilar especialmente los posibles enganchones o atrapamientos del accidentado durante el izado, especialmente si está inconsciente, ya que el sistema de elevación puede hacer mucha fuerza y dañar a un accidentado al que se le enganche, por ejemplo, una extremidad durante el ascenso. En ambos casos, existen situaciones en las que no se pueden hacer rescates verticales y se deben hacer en horizontal o diagonal. Existen diversas técnicas para este tipo de rescates, como es la utilización de una cuerda guía. Veremos a continuación algunos procedimientos de rescate."
+          "texto": "Los sistemas de descenso suelen regular de forma automática la velocidad. Se debe vigilar, continuamente, el descenso del herido, especialmente si esta inconsciente para impedir que se golpee o enganche. Algunos evacuadores por descenso permiten que desciendan dos personas a la vez. Esta opción puede ser muy interesante para que un rescatador baje con el herido, o en los casos de autoevacuación en los que se utiliza el descensor como sistema de escape de un lugar en altura. En el caso de rescate por ascenso, se debe vigilar especialmente los posibles enganchones o atrapamientos del accidentado durante el izado, especialmente si está inconsciente, ya que el sistema de elevación puede hacer mucha fuerza y dañar a un accidentado al que se le enganche, por ejemplo, una extremidad durante el ascenso. En ambos casos, existen situaciones en las que no se pueden hacer rescates verticales y se deben hacer en horizontal o diagonal. Existen diversas técnicas para este tipo de rescates, como es la utilización de una cuerda guía. Veremos a continuación algunos procedimientos de rescate."
         }
 
       ]
@@ -300,6 +339,7 @@
     },
     {
       "titulo": "Despedida",
+      "fondo": "img/comunes/despedida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -307,11 +347,9 @@
           "contenido": [
             {
               "clase": "texto",
-              "texto": " Ya hemos prácticamente terminado la materia de este curso. Esperamos que te haya resultado productivo. El siguiente módulo es un compendio de temas que creemos es necesario recordar."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod09/despedida.jpg"
+              "subclase": "recuadro",
+              "opacidad": 0.8,
+              "texto": " Ya hemos prácticamente terminado la materia de este curso. Esperamos que te haya resultado productivo."
             }
           ]
         }

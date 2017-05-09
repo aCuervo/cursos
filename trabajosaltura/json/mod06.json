@@ -743,37 +743,68 @@
             },
             {
               "punto": "Se colocarán lejos de objetos móviles y fuera del área de barrido de las puertas. "
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Se colocarán tan cerca de la zona de trabajo como sea posible, a fin de evitar que haya que estirarse, colgarse..."
+                },
+                {
+                  "punto": "Si se colocan en zonas de tránsito se balizará la zona de trabajo. "
+                },
+                {
+                  "punto": "Las de tijera no podrán abrirse más de 30º una vez extendido por completo el dispositivo de limitación de apertura. "
+                },
+                {
+                  "punto": "La inclinación recomendada para las simples será de 70-75º respecto del suelo. "
+                }
+              ]
             },
             {
-              "punto": "Se colocarán tan cerca de la zona de trabajo como sea posible, a fin de evitar que haya que estirarse, colgarse… "
-            },
-            {
+              "clase": "imagen",
               "imagen": "img/mod06/noColgarse.jpg"
-            },
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
             {
-              "punto": "Si se colocan en zonas de tránsito se balizará la zona de trabajo. "
+              "clase": "imagen",
+              "imagen": "img/mod06/sobrepaso.jpg",
+              "ancho": 256
             },
+
             {
-              "punto": "Las de tijera no podrán abrirse más de 30º una vez extendido por completo el dispositivo de limitación de apertura. "
-            },
-            {
-              "punto": "La inclinación recomendada para las simples será de 70-75º respecto del suelo. "
-            },
-            {
-              "punto": "Su extremo superior siempre estará anclado mediante abrazaderas, ganchos u otros, y deberá sobresalir al menos 1 m del punto de apoyo. "
-            },
-            {
-              "imagen": "img/mod06/sobrepaso.jpg"
-            },
-            {
-              "punto": "Se empleará el personal suficiente para su montaje y transporte, a fin de evitar la incorrecta manipulación de cargas. "
-            },
-            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Su extremo superior siempre estará anclado mediante abrazaderas, ganchos u otros, y deberá sobresalir al menos 1 m del punto de apoyo. "
+                },
+                {
+                  "punto": "Se empleará el personal suficiente para su montaje y transporte, a fin de evitar la incorrecta manipulación de cargas. "
+                },
+                            {
               "punto": "Las extensibles se transportarán recogidas y las de tijera, cerradas. "
             },
             {
               "punto": "Cuando se transporten en vehículos, se sujetarán fuertemente, no sobresaldrán por los laterales, y por la parte anterior o posterior como máximo sobresaldrán 1/3 de su longitud. En este caso se señalizarán con una tela de color vivo o una luz roja. "
-            },
+            }
+              ]
+            }
+          ]
+        },
+
+
+        {
+          "clase": "lista",
+          "contenido": [
             {
               "punto": "En el caso de que se instalen sobre zonas de trabajo a más de 2,00 m, los trabajadores que realicen el proceso de colocación o trabajen sobre la escalera deberán utilizar arnés anticaídas o cinturón de retención anclado a puntos de amarre resistentes. "
             },

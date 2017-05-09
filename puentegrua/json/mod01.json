@@ -9,17 +9,16 @@
     },
     {
       "titulo": "Bienvenida",
+      "fondo": "img/comunes/bienvenida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
             {
-              "clase": "imagen",
-              "imagen": "img/mod01/bienvenida.jpg"
-            },
-            {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "Este curso está destinado a darnos a conocer los puentes grúa, que están presentes en la mayor parte de las instalaciones industriales. Comenzaremos con una aproximación a la máquina, para ello deberemos conocer algunas definiciones, y los tipos que existen."
             }
           ]
@@ -174,10 +173,8 @@
         },
         {
           "clase": "imagen",		  
-			"animacion": "shake",
-          "subclase": "paraCambiar",
-          "imagen": "img/mod01/cabina.png",
-          "ancho": 500,
+		    	"animacion": "fadeInRight",
+          "imagen": "img/mod01/puestosOperacion.svg",
           "pie": "Fig. 1: Ejemplos de emplazamiento de cabinas"
         },
         {

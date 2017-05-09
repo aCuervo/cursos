@@ -9,17 +9,16 @@
     },
     {
       "titulo": "Bienvenida",
+      "fondo": "img/comunes/bienvenida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
             {
-              "clase": "imagen",
-              "imagen": "img/mod08/bienvenida.jpg"
-            },
-            {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "Además del uso de escaleras y andamios que ya hemos visto con anterioridad, uno de los trabajos más habituales en altura es aquel que se realiza sobre tejados, y es a esto, entre otros trabajos, a lo que nos dedicaremos en este módulo."
             }
           ]
@@ -272,15 +271,151 @@
       ]
     },
     {
+      "titulo": "Riesgos durante el trabajo en cubiertas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Riesgo de caída de personas a distinto nivel: Se colocarán de elementos de protección colectiva tales como redes o barandillas, y en caso de necesidad se utilizarán equipos de protección individual."
+        },
+        {
+          "clase": "texto",
+          "texto": "Caídas de altura a través de lucernarios o claraboyas y otras pequeñas aberturas cubiertas de material ligero: Para los lucernarios es conveniente proteger sus lados accesibles mediante barandillas de suficiente resistencia de forma que se distingan del resto de la cubierta en caso estar cubiertas de nieve o polvo. Otra forma de protección, es cubrirlos con emparrillados metálicos de una resistencia adecuada. Para reforzar la seguridad se pueden colocar carteles de prohibición que indiquen “no sentarse, pisar o saltar”. A continuación, un listado no exhaustivo de los riesgos que pueden aparecer en estos casos y posibles soluciones. Dada la similitud de la situación, se incluyen, además, los trabajos en planos horizontales con peligro de caída por el borde o perimetral o caída por hundimiento."
+        },
+        {
+          "clase": "lista",
+          "titulo": "En el trabajo en plano inclinado se pueden diferenciar los siguientes riesgos:",
+          "contenido": [
+            {
+              "punto": "Caída perimetral o de borde: se puede dar también en planos horizontales en los que no existe protección circundante, como cubiertas planas sin barandillas o con petos excesivamente bajos. En una cubierta, se puede diferenciar dos riesgos de caída perimetral o de borde:",
+              "contenido": [
+                {
+                  "punto": "Caída por el frente del tejado."
+                },
+                {
+                  "punto": "Caída por el lateral"
+                }
+              ]
+            },
+            {
+              "punto": "Caída por hundimiento de la cubierta. Se puede presentar en cubiertas ligeras o por la presencia de traslúcidos. Se excluyen de las recomendaciones las cubiertas en estado ruinoso que necesitan una actuación de gran envergadura."
+            },
+            {
+              "punto": "Caída por deslizamiento. En estas situaciones puede aumentar la velocidad de la caída y terminar en una caída perimetral o continuar un deslizamiento hasta el suelo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Dispositivos de anclaje",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Los dispositivos de anclaje donde se unirá el sistema de conexión se pueden dividir, para esta situación, en dos tipos: con punto de anclaje móvil o anclaje en punto fijo. Como dispositivo con punto de anclaje móvil se puede utilizar una línea de anclaje flexible horizontal  -que puede ser fija o temporal- o una línea de anclaje rígida horizontal."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod08/lineaAnclaje.jpg"
+        },
+        {
+          "clase": "texto",
+          "texto": "En ambos casos se puede describir de forma muy simplificada como un cable, cuerda o perfil, habitualmente situado en el caballete de la cubierta o en la zona alta del plano inclinado, donde se conecta el sistema de conexión entre el arnés del usuario y la línea. El punto de unión entre la conexión y la línea se puede desplazar a lo largo de ésta. Como punto de anclaje fijo se pueden utilizar soportes o cualquier otro punto que no permita desplazar la unión del elemento de conexión con el anclaje. Los puntos fijos están situados en una posición y no pueden variar esta situación."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod08/anclajeFijo.jpg"
+        }
+      ]
+    },
+    {
+      "titulo": "Sistemas de conexión",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Se elegirán en función del trabajo a realizar. Los más habituales son:",
+          "contenido": [
+            {
+              "punto": "Retráctil: En trabajos llevados a cabo en planos inclinados, el retráctil tiene la ventaja de que el usuario no tiene que manipularlo mientras transita por la cubierta y, además, reduce la distancia de caída, ya que siempre tiene desenrollada la mínima cuerda activa. Como desventajas:",
+              "contenido": [
+                {
+                  "punto": "Puede llegar a permitir la caída si se debe trabajar justo en el borde de la cubierta, puesto que no bloquea de continuo. "
+                },
+                {
+                  "punto": "Si se necesitan retráctiles muy largos, su peso es considerable (un retráctil de cable de 15 m puede pesar 6 kg). Este peso impedirá el correcto desplazamiento sobre el cable de una la línea de anclaje horizontal, haciendo que no quede perpendicular el sistema de conexión al borde. Lo cual es peligroso porque el trabajador puede avanzar sin ser consciente que el retráctil no corre por la línea."
+                }
+              ]
+            },
+            {
+              "punto": "Puede ser válido el retráctil si pesa poco  si se acompaña al lado del cable empujándolo con la mano o se utiliza en un punto de anclaje fijo. Si el dispositivo de anclaje es un raíl, éste suele estar muy cerca de las tejas en una cubierta y el retráctil podría no avanzar por reposar en el suelo."
+            },
+            {
+              "punto": "Equipo de amarre: Sólo es válido en el caso de trabajos en retención sin posibilidad de caída. Su uso puede permitirse en cubiertas con pendiente moderada para evitar el deslizamiento."
+            },
+            {
+              "punto": "Componentes de amarre de sujeción: Su uso en cubiertas es igual que para equipos de amarre, excepto en que no se pueden completar con un absorbedor."
+            },
+            {
+              "punto": "Absorbedor de energía: Si la posición de la línea de anclaje o de los anclajes fijos es muy baja y se pueden producidas caídas de factor alto (por ejemplo, líneas de anclaje paralelas al borde de una cubierta pero muy cercanas a él, al no poder quedar la línea detrás de un trabajador que se encuentra en el borde, aún ajustando el equipo de amarre se puede producir una caída). Para esta situación se puede emplear un absorbedor con equipo de amarre –pueden estar los dos integrados, pero su longitud máxima no puede pasar de 2 m- o un retráctil que permita trabajar en horizontal o con factor 2 (se debe prestar atención a que la carcasa del retráctil no quede haciendo palanca en el borde al parar la caída)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Dispositivo deslizante sobre línea de anclaje flexible",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Dispositivo deslizante sobre línea de anclaje flexible. Variantes",
+          "contenido": [
+            {
+              "punto": "Si el usuario se debe separar mucho de la línea de anclaje horizontal o del punto de anclaje, incluso utilizando los reenvíos descritos en el apartado anterior, estos dispositivos deslizantes pueden ser la mejor opción. "
+            },
+            {
+              "punto": "Para que el trabajador se aleje del punto de anclaje basta con guiar la cuerda para que pase por el dispositivo deslizante, moviéndose preferentemente en la línea de máxima pendiente. Si la cuerda es larga, puede llevarla recogida en un mochila e irla sacando poco a poco. Es imprescindible que la cuerda tenga nudo de tope."
+            },
+            {
+              "punto": "Para acercarse al punto de anclaje, normalmente el trabajador deberá ayudar a que la cuerda pase por el dispositivo. Esto se puede evitar si el movimiento se realiza sólo en la línea de máxima pendiente y la cuerda, o tiene un contrapeso, o está sujeta en el punto más alejado. "
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod08/contrapeso.jpg"
+        }
+      ]
+    },
+        {
+      "titulo": "Posibles problemas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En caso de hundimiento, la fuerza de choque puede ser mayor que en el uso habitual de este sistema, ya que la caída puede ser mayor que si fuera vertical (ver fig 7.4.4-14). Este punto queda muy matizado por la existencia de rozamiento en el borde del hundimiento y porque el factor de caída suele ser muy bajo. En el caso de que se produzca una caída por deslizamiento, puede que el sistema no llegue a frenar hasta que no se produzca la caída por el borde, ya que algunos dispositivos para que frenen necesitan cierta velocidad. Hay fabricantes que indican que su dispositivo funciona en esta situación, pero no señalan pendientes mínimas de uso, y si lo hicieran, dependería de la rugosidad del plano inclinado. Para esta situación, hay dispositivos que tienen una posición de bloqueo."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod08/posicionBloqueo.jpg"
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Caída de objetos sobre personas o instalaciones</b><br>La zona bajo cubierta se balizará y cerrará el paso a personas ajenas a la obra. Se debe utilizar casco de seguridad."
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Contactos eléctricos</b><br>Para prevenir el riesgo de contacto eléctrico con cables accesibles desde la cubierta, no se deben efectuar trabajos en las proximidades de conductores o elementos bajo tensión, desnudos o sin protección, salvo que estén desconectados de la fuente de energía. Si a pesar de ello se deben realizar trabajos, los cables se desviarán o se protegerán mediante fundas aislantes o apantallamiento. Para el caso de líneas de alta tensión se seguirá lo dispuesto en el vigente reglamento de líneas eléctricas aéreas de alta tensión."
+        }
+      ]
+    },
+    {
       "titulo": "Otras circunstancias a tener en cuenta",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Organización de los trabajos: Antes de efectuar cualquier trabajo sobre una cubierta., la empresa responsable de las obras deberá realizar un estudio previo de la misma que según las condiciones de la misma (tipo, pendiente, medidas de protección existentes, etc.) Diseñar el sistema de trabajo, medios de acceso seguro, equipos de protección personal necesarios y forma de usarlos, etc."
+          "texto": "<center><b>Organización de los trabajos</b></center>Antes de efectuar cualquier trabajo sobre una cubierta., la empresa responsable de las obras deberá realizar un estudio previo de la misma que según las condiciones de la misma (tipo, pendiente, medidas de protección existentes, etc.) Diseñar el sistema de trabajo, medios de acceso seguro, equipos de protección personal necesarios y forma de usarlos, etc."
         },
         {
           "clase": "texto",
-          "texto": "Inclemencias del tiempo: No se deben realizar trabajos si las condiciones atmosféricas, sobre todo el viento, así lo desaconsejan. Como regla general no se trabajará si llueve, nieva o si la velocidad del viento es superior a los 50 km/h, debiéndose retirar cualquier material o herramienta que pueda caer desde la cubierta. Los trabajadores deberán poseer ropa especial para trabajos con condiciones atmosféricas desfavorables."
+          "texto": "<center><b>Inclemencias del tiempo</b></center>No se deben realizar trabajos si las condiciones atmosféricas, sobre todo el viento, así lo desaconsejan. Como regla general no se trabajará si llueve, nieva o si la velocidad del viento es superior a los 50 km/h, debiéndose retirar cualquier material o herramienta que pueda caer desde la cubierta. Los trabajadores deberán poseer ropa especial para trabajos con condiciones atmosféricas desfavorables."
         }
       ]
     },
@@ -605,6 +740,7 @@
     },
     {
       "titulo": "Despedida",
+      "fondo": "img/comunes/despedida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -612,11 +748,9 @@
           "contenido": [
             {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "Ya hemos visto lo relativo a trabajos en altura, pero queda pendiente un tema importante, que trataremos en el siguiente módulo. ¿Qué ocurre si pese a todas las protecciones sucede un accidente? El siguiente módulo está dedicado a los rescates."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod08/despedida.jpg"
             }
           ]
         }
