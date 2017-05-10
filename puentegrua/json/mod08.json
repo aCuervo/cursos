@@ -9,15 +9,12 @@
     },
     {
       "titulo": "Bienvenida",
+      "fondo": "img/comunes/bienvenida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/mod08/bienvenida.jpg"
-            },
             {
               "clase": "texto",
               "texto": ""
@@ -27,17 +24,17 @@
       ]
     },
     {
-      "titulo": "NOCIONES DE MANTENIMIENTO Y DETECCIÓN DE AVERÍAS",
+      "titulo": "Nociones de mantenimiento y detección de averías",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "El mantenimiento de una grúa consiste en el conjunto de comprobaciones, actuaciones, sustituciones y ajustes que se realizan para que la misma mantenga un nivel de seguridad aceptable y como mínimo acorde con el prescrito en el marco normativo que le sea aplicable.<br><br> El <a href='http://www.insht.es/portal/site/Insht/menuitem.1f1a3bc79ab34c578c2e8884060961ca/?vgnextoid=5f644344952d5110VgnVCM100000dc0ca8c0RCRD&vgnextchannel=1d19bf04b6a03110VgnVCM100000dc0ca8c0RCRD&tab=tabConsultaCompleta' target='_blank'>RD 1215/1997</a> artículo 3.5, ( ) obliga al empresario a adoptar las medidas necesarias para que, mediante un mantenimiento adecuado, los equipos de trabajo se conserven durante todo el tiempo de utilización en unas condiciones que garanticen la seguridad y la salud de los trabajadores al utilizar dichos equipos de trabajo.<br><br>Dicho mantenimiento se realizará teniendo en cuenta las instrucciones del fabricante o en su defecto, las características de estos equipos, sus condiciones de utilización y cualquier otra circunstancia normal o excepcional que pueda influir en su deterioro o desajuste. Las operaciones de mantenimiento, transformación o reparación de equipos de trabajo, cuya realización suponga un riesgo específico para los trabajadores sólo podrán ser encomendadas a personal especialmente capacitado.<br><br>Los propietarios o usuarios de las grúas e instalaciones deben garantizar la seguridad de los operarios que realicen intervenciones (revisiones, reparaciones, etc.) en las mismas. Los riesgos y medidas de seguridad, derivados de dichas intervenciones quedarán registrados en su evaluación de riesgos laborales, reflejando en el mismo los accesos previstos y medidas de seguridad para dicho trabajo (plataformas elevadoras, andamios, escaleras, líneas de vida verticales y horizontales, etc.)"
+          "texto": "El mantenimiento de una grúa consiste en el conjunto de comprobaciones, actuaciones, sustituciones y ajustes que se realizan para que la misma mantenga un nivel de seguridad aceptable y como mínimo acorde con el prescrito en el marco normativo que le sea aplicable.<br><br> El <a href='http://www.boe.es/buscar/act.php?id=BOE-A-1997-17824' target='_blank' rel='noopener'>RD 1215/1997</a> artículo 3.5, ( ) obliga al empresario a adoptar las medidas necesarias para que, mediante un mantenimiento adecuado, los equipos de trabajo se conserven durante todo el tiempo de utilización en unas condiciones que garanticen la seguridad y la salud de los trabajadores al utilizar dichos equipos de trabajo.<br><br>Dicho mantenimiento se realizará teniendo en cuenta las instrucciones del fabricante o en su defecto, las características de estos equipos, sus condiciones de utilización y cualquier otra circunstancia normal o excepcional que pueda influir en su deterioro o desajuste. Las operaciones de mantenimiento, transformación o reparación de equipos de trabajo, cuya realización suponga un riesgo específico para los trabajadores sólo podrán ser encomendadas a personal especialmente capacitado.<br><br>Los propietarios o usuarios de las grúas e instalaciones deben garantizar la seguridad de los operarios que realicen intervenciones (revisiones, reparaciones, etc.) en las mismas. Los riesgos y medidas de seguridad, derivados de dichas intervenciones quedarán registrados en su evaluación de riesgos laborales, reflejando en el mismo los accesos previstos y medidas de seguridad para dicho trabajo (plataformas elevadoras, andamios, escaleras, líneas de vida verticales y horizontales, etc.)"
         }
 
       ]
     },
     {
-      "titulo": "TIPOS DE MANTENIMIENTO",
+      "titulo": "Tipos de mantenimiento",
       "contenido": [
         {
           "clase": "tabs",
@@ -57,7 +54,7 @@
       ]
     },
     {
-      "titulo": "LOS CONTROLES REGULARES Y CONTROLES DIARIOS",
+      "titulo": "Controles regulares y controles diarios",
       "contenido": [
         {
           "clase": "texto",
@@ -65,7 +62,6 @@
         },
         {
           "clase": "acordeon",
-          "subclase": "paraCambiar",
           "contenido": [
             {
               "titulo": "Revisiones diarias",
@@ -82,18 +78,15 @@
                       "punto": "Revisión visual de los aspectos más aparentes de la grúa y de elementos sometidos a esfuerzo. "
                     },
                     {
-                      "clase": "imagen",
-                      "subclase": "paraCambiar",
-                      "imagen": "img/mod08/revisiones.png",
-                      "ancho": 600
-                    },
-                    {
                       "punto": "Si el operador detectara alguna anomalía, debe de ponerla inmediatamente en conocimiento del técnico responsable."
                     }
-
                   ]
+                },
+                {
+                  "clase": "imagen",
+                  "subclase": "ajustarAncho",
+                  "imagen": "img/mod08/revisiones.jpg"
                 }
-
               ]
             },
             {
@@ -110,25 +103,33 @@
       ]
     },
     {
-      "titulo": "INFORMES SOBRE DEFECTOS DE FUNCIONAMIENTO",
+      "titulo": "Informes sobre defectos de funcionamiento",
+      "fondo": "img/mod08/sco6.jpg",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "<b>Mantenimiento correctivo</b> El mantenimiento correctivo está motivado por las averías o por la rotura de elementos de una máquina y la calidad de su ejecución puede afectar a la seguridad del funcionamiento del aparato reparado. La reparación de averías -mantenimiento correctivo cuando comporte la sustitución o reparación de elementos o componentes del equipo de cuyo correcto funcionamiento dependa la seguridad, debería ser realizada por el propio fabricante o por una empresa conservadora autorizada; empleando siempre piezas o recambios originales o admitidos expresamente por el fabricante de la grúa. Debería inscribirse el tipo de reparación en el \"Diario de mantenimiento\". La NTP 737 facilita un modelo de diario de mantenimiento."
+          "animacion": "fadeInRight",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "<center><b>Mantenimiento correctivo</b></center>El mantenimiento correctivo está motivado por las averías o por la rotura de elementos de una máquina y la calidad de su ejecución puede afectar a la seguridad del funcionamiento del aparato reparado. La reparación de averías -mantenimiento correctivo cuando comporte la sustitución o reparación de elementos o componentes del equipo de cuyo correcto funcionamiento dependa la seguridad, debería ser realizada por el propio fabricante o por una empresa conservadora autorizada; empleando siempre piezas o recambios originales o admitidos expresamente por el fabricante de la grúa. Debería inscribirse el tipo de reparación en el \"Diario de mantenimiento\". La NTP 737 facilita un modelo de diario de mantenimiento."
         }
       ]
     },
     {
-      "titulo": "COMPORTAMIENTO A SEGUIR EN CASO DE AVERÍA O CORTE DE ENERGÍA",
+      "titulo": "Comportamiento a seguir en caso de avería o corte de energía",
+      "fondo": "img/mod08/sco7.jpg",
       "contenido": [
         {
           "clase": "texto",
+          "animacion": "fadeInRight",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
           "texto": "Caso que algún equipo de trabajo para la elevación de cargas no guiadas no pueda mantener las cargas en caso de avería parcial o total por falta de la alimentación de energía, deberán adoptarse medidas apropiadas para evitar que los trabajadores se expongan a los riesgos correspondientes. Las cargas suspendidas no deberán quedar sin vigilancia, salvo si es imposible el acceso a la zona de peligro y si la carga se ha colgado con toda seguridad y se mantiene de forma completamente segura. Este es el único caso en que podría mantenerse una carga suspendida, y se señalizará la zona mediante balizado y prohibición de paso."
         }
 
       ]
     },
-        {
+    {
       "titulo": "Autoevaluación",
       "contenido": [
         {
@@ -220,7 +221,8 @@
                 {
                   "opcion": "El fabricante o empresa autorizada al efecto",
                   "correcto": true
-                },                {
+                },
+                {
                   "opcion": "Mantenimiento",
                   "correcto": false
                 }
@@ -229,9 +231,10 @@
           ]
         }
       ]
-    },  
+    },
     {
       "titulo": "Despedida",
+      "fondo": "img/comunes/despedida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -239,21 +242,18 @@
           "contenido": [
             {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "En el siguiente módulo, daremos una serie de indicaciones recopiladas en lo que habitualmente se denomina manual de operación."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod08/despedida.jpg"
             }
           ]
         }
       ]
     },
     {
-      "titulo": "¡Hasta luego!",
+      "titulo": "Contraportada",
       "fondo": "img/comunes/contraportada.svg",
       "subclase": "portada"
     }
   ]
 }
-

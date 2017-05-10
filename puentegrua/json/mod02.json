@@ -339,17 +339,21 @@
     {
       "titulo": "CÓDIGOS DE SEÑALIZACIÓN DE MANIOBRAS.",
       "contenido": [
+                    {
+              "clase": "texto",
+              "texto": "<center><b>Comunicaciones para la operación de grúas</b></center>Cuando esté establecido en la empresa o por las características del área sea aconsejable que en las maniobras de la grúa deba intervenir un señalista, la comunicación gestual entre éste y el operador se realizará mediante una serie de ademanes concretos que viene establecidos en el Anexo VI del RD 485/1997 - Señalización de Seguridad y Salud en el Trabajo o bien, si se utiliza un sistema de radioteléfono, mediante frases cortas perfectamente ensayadas y conocidas por el señalista y el operador."
+            },
         {
           "clase": "listaObjetos",
-		  "animacion": "fadeInDown",
+          "animacion": "fadeInRight",
           "contenido": [
-            {
-              "clase": "texto",
-              "texto": "<b>Comunicaciones para la operación de grúas</b>: Cuando esté establecido en la empresa o por las características del área sea aconsejable que en las maniobras de la grúa deba intervenir un señalista, la comunicación gestual entre éste y el operador se realizará mediante una serie de ademanes concretos que viene establecidos en el Anexo VI del RD 485/1997 - Señalización de Seguridad y Salud en el Trabajo o bien, si se utiliza un sistema de radioteléfono, mediante frases cortas perfectamente ensayadas y conocidas por el señalista y el operador."
-            },
             {
               "clase": "imagen",
               "imagen": "img/mod02/comunicaciones.svg"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/comunicaciones2.svg"
             }
           ]
         }

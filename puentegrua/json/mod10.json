@@ -9,17 +9,16 @@
     },
     {
       "titulo": "Bienvenida",
+      "fondo": "img/comunes/bienvenida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
             {
-              "clase": "imagen",
-              "imagen": "img/mod10/bienvenida.jpg"
-            },
-            {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "En este parte del curso, tomaremos contacto con la PRL de manera general, y específica en cuanto a los riesgos del puente grúa. En prácticamente todas las actividades industriales es necesario el desplazamiento de materiales para el desarrollo del proceso productivo, siendo necesarios por tanto, el transporte y almacenamiento de materias primas, productos en proceso y  terminados. Entre los medios empleados para ello, se encuentra el puente grúa, que es la máquina que nos ocupa en este manual. Un alto porcentaje de accidentes de trabajo se producen en operaciones de movimiento de cargas durante el proceso productivo y el almacenamiento."
             }
           ]
@@ -27,66 +26,76 @@
       ]
     },
     {
-      "titulo": "CONCEPTOS BÁSICOS DE USO HABITUAL, DEFINICIONES",
+      "titulo": "Conceptos básicos",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "EL TRABAJO: Es una actividad social organizada, en la que intervienen personas, materiales, energía o tecnología, y mediante la que se alcanzan unos objetivos y se satisfacen unas necesidades. El progreso tecnológico y social ha mejorado la calidad de vida y las condiciones en las que se realiza el trabajo, eliminando o reduciendo los problemas laborales. Unos problemas siguen manteniéndose; otros se han incrementado y han surgido algunos nuevos, que es preciso identificar, evaluar y controlar. Los problemas relacionados con la salud de los trabajadores adquieren primacía en el campo laboral."
+          "texto": "<center><b>TRABAJO</b></center>Es una actividad social organizada, en la que intervienen personas, materiales, energía o tecnología, y mediante la que se alcanzan unos objetivos y se satisfacen unas necesidades. El progreso tecnológico y social ha mejorado la calidad de vida y las condiciones en las que se realiza el trabajo, eliminando o reduciendo los problemas laborales. Unos problemas siguen manteniéndose; otros se han incrementado y han surgido algunos nuevos, que es preciso identificar, evaluar y controlar. Los problemas relacionados con la salud de los trabajadores adquieren primacía en el campo laboral."
         },
         {
           "clase": "texto",
-          "texto": "LA SALUD: La Organización Mundial de la Salud la define como: El estado de bienestar físico, mental y social completo y no meramente la ausencia de daño o enfermedad. Comprende una triple dimensión de la salud física, mental y social y la importancia de lograr que estén en equilibrio en cada persona."
+          "texto": "<center><b>SALUD</b></center>La Organización Mundial de la Salud la define como: El estado de bienestar físico, mental y social completo y no meramente la ausencia de daño o enfermedad. Comprende una triple dimensión de la salud física, mental y social y la importancia de lograr que estén en equilibrio en cada persona."
         },
         {
           "clase": "texto",
-          "texto": "EL TRABAJO Y LA SALUD: El trabajo y la salud están interrelacionados. El trabajo en sí está en un proceso de cambio permanente. Las empresas se caracterizan por la competitividad, para lograr la eficacia y asegurar la supervivencia. La salud de los trabajadores está relacionada con los procesos de cambio, con la evolución de la empresa, con los procesos de trabajo... y también pueden cambiar las condiciones de seguridad y salud de los trabajadores. En los procesos de cambio, además de la productividad y de la calidad, hay que considerar también la mejora de las condiciones de trabajo, prestando atención a los factores organizativos y psicosociales, cuyas consecuencias pasan más desapercibidas que las de los accidentes de trabajo y las enfermedades profesionales. Inherentes al proceso productivo están los elementos que pueden influir en el desarrollo del trabajo y en el trabajador. Los elementos que influyen negativamente y relacionados con la seguridad y la salud de los trabajadores son los \"riesgos laborales\""
+          "texto": "<center><b>TRABAJO Y SALUD</b></center>El trabajo y la salud están interrelacionados. El trabajo en sí está en un proceso de cambio permanente. Las empresas se caracterizan por la competitividad, para lograr la eficacia y asegurar la supervivencia. La salud de los trabajadores está relacionada con los procesos de cambio, con la evolución de la empresa, con los procesos de trabajo... y también pueden cambiar las condiciones de seguridad y salud de los trabajadores. En los procesos de cambio, además de la productividad y de la calidad, hay que considerar también la mejora de las condiciones de trabajo, prestando atención a los factores organizativos y psicosociales, cuyas consecuencias pasan más desapercibidas que las de los accidentes de trabajo y las enfermedades profesionales. Inherentes al proceso productivo están los elementos que pueden influir en el desarrollo del trabajo y en el trabajador. Los elementos que influyen negativamente y relacionados con la seguridad y la salud de los trabajadores son los \"riesgos laborales\""
+        }
+      ]
+    },
+    {
+      "titulo": "Otras definiciiones",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<center><b>SALUD LABORAL</b></center>Según la O.M.S. (Organización Mundial de la Salud), Salud Laboral es la disciplina que se ocupa de que el trabajador por cuenta ajena mantenga adecuada salud física, psíquica y social dentro de su puesto de trabajo. La salud física o salud orgánica que tiene la persona como resultado del funcionamiento correcto del conjunto de sus células, tejidos, órganos y sistemas biológicos. La salud psíquica, que presupone un equilibrio intelectual y emocional. La salud social o bienestar de la persona en sus relaciones sociales."
         },
         {
           "clase": "texto",
-          "texto": "SALUD LABORAL: Según la O.M.S. (Organización Mundial de la Salud), Salud Laboral es la disciplina que se ocupa de que el trabajador por cuenta ajena mantenga adecuada salud física, psíquica y social dentro de su puesto de trabajo. La salud física o salud orgánica que tiene la persona como resultado del funcionamiento correcto del conjunto de sus células, tejidos, órganos y sistemas biológicos. La salud psíquica, que presupone un equilibrio intelectual y emocional. La salud social o bienestar de la persona en sus relaciones sociales."
+          "texto": "<center><b>RIESGO LABORAL</b></center>Posibilidad de que un trabajador sufra un determinado daño derivado del trabajo "
         },
         {
           "clase": "texto",
-          "texto": "RIESGO LABORAL: Posibilidad de que un trabajador sufra un determinado daño derivado del trabajo "
+          "texto": "<center><b>DAÑOS DERIVADOS DEL TRABAJO</b></center>Enfermedades, patologías o lesiones sufridas con motivo u ocasión del trabajo."
         },
         {
           "clase": "texto",
-          "texto": "DAÑOS DERIVADOS DEL TRABAJO: Enfermedades, patologías o lesiones sufridas con motivo u ocasión del trabajo."
-        },
-        {
-          "clase": "texto",
-          "texto": "PREVENCIÓN: Conjunto de actividades o medidas adoptadas prevista en todas las fases de actividad de la empresa con el fin de evitar o disminuir los riesgos derivados del trabajo."
+          "texto": "<center><b>PREVENCIÓN</b></center>Conjunto de actividades o medidas adoptadas prevista en todas las fases de actividad de la empresa con el fin de evitar o disminuir los riesgos derivados del trabajo."
         }
 
       ]
     },
     {
-      "titulo": "IMPORTANTE",
+      "titulo": "Importante",
       "contenido": [
         {
-          "clase": "icono",
-          "subclase": "exclamacion picos",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "lista",
-              "titulo": "En el trabajo: ",
+              "clase": "texto",
+              "texto": "La realización de un trabajo produce modificaciones en el lugar donde se realiza que repercuten sobre el trabajador. Las modificaciones pueden ser mecánicas, físicas, químicas, biológicas, psicológicas, sociales... La actividad preventiva consistirá en analizar y evaluar cada una de esas modificaciones para determinar sus efectos sobre la salud y definir las medidas preventivas adecuadas."
+            },
+            {
+              "clase": "icono",
+              "subclase": "exclamacion",
               "contenido": [
                 {
-                  "punto": "Evitar los riesgos."
-                },
-                {
-                  "punto": "Evaluar los que no se puedan evitar."
-                },
-                {
-                  "punto": "Combatir los riesgos en su origen."
+                  "clase": "lista",
+                  "titulo": "En el trabajo: ",
+                  "contenido": [
+                    {
+                      "punto": "Evitar los riesgos."
+                    },
+                    {
+                      "punto": "Evaluar los que no se puedan evitar."
+                    },
+                    {
+                      "punto": "Combatir los riesgos en su origen."
+                    }
+                  ]
                 }
               ]
             }
           ]
-        },
-        {
-          "clase": "texto",
-          "texto": "La realización de un trabajo produce modificaciones en el lugar donde se realiza, que repercuten sobre el trabajador. Las modificaciones pueden ser mecánicas, físicas, químicas, biológicas, psicológicas, sociales... Y la actividad preventiva consistirá en analizar y evaluar cada una de esas modificaciones para determinar sus efectos sobre la salud y definir las medidas preventivas adecuadas."
         },
         {
           "clase": "lista",
@@ -101,141 +110,181 @@
           ]
         },
         {
-          "clase": "texto",
-          "texto": "Consecuencias de los riesgos:"
-        },
-        {
-          "clase": "acordeon",
+          "clase": "listaObjetos",
           "contenido": [
             {
-
-              "titulo": "Accidentes de trabajo",
-              "contenido": [
-                {
-                  "clase": "texto",
-                  "texto": "Se puede definir el accidente de trabajo como el suceso brusco, inesperado y normalmente evitable, que puede causar lesiones corporales con disminución o anulación de la integridad física de las personas. La ley general de la seguridad social, en su artículo 115, define el accidente como la lesión corporal que el trabajador sufre con ocasión o por consecuencia del trabajo que ejecuta por cuenta ajena."
-                },
-                {
-                  "clase": "lista",
-                  "titulo": "Estadísticamente, y basándonos en la conocida pirámide de heinrich, sea cual fuere el tipo de empresa, se demuestra que de cada 330 situaciones de peligro, en las que se actúa de forma incorrecta, se producen:",
-                  "contenido": [
-                    {
-                      "punto": "1 lesión grave o accidente mortal."
-                    },
-                    {
-                      "punto": "29 accidentes con lesiones leves. "
-                    },
-                    {
-                      "punto": "300  accidentes sin lesión (incidentes)"
-                    }
-                  ]
-                },
-                {
-                  "clase": "texto",
-                  "texto": "La lucha contra los accidentes de trabajo es el primer paso de la actividad preventiva. Legalmente, accidente de trabajo es: \"toda lesión corporal que el trabajador sufra con ocasión o a consecuencia de trabajo que ejecuta por cuenta ajena\". "
-                },
-                {
-                  "clase": "lista",
-                  "titulo": "Comprende:",
-                  "contenido": [
-                    {
-                      "punto": "Las lesiones que se producen en el centro de trabajo. "
-                    },
-                    {
-                      "punto": "Las producidas entre el trayecto habitual entre el centro de trabajo y el domicilio del trabajador. Estos se llaman accidentes <i>in itínere</i>."
-                    }
-                  ]
-                },
-                {
-                  "clase": "lista",
-                  "titulo": "Desde el punto de vista técnico-preventivo, accidente de trabajo es: todo suceso anormal no querido ni deseado que se presenta de una forma brusca e inesperada y que:",
-                  "contenido": [
-                    {
-                      "punto": "Normalmente es evitable"
-                    },
-                    {
-                      "punto": "Interrumpe la normal continuidad del trabajo "
-                    },
-                    {
-                      "punto": "Puede causar lesiones a las personas."
-                    }
-                  ]
-                },
-                {
-                  "clase": "texto",
-                  "texto": "Los accidentes tienen causas naturales y explicables. Si no se descubren y controlan las causas, los accidentes volverán a producirse."
-                },
-                {
-                  "clase": "lista",
-                  "titulo": "Se localizan tres causas básicas:",
-                  "contenido": [
-                    {
-                      "punto": "Causas técnicas: son los fallos de las máquinas y equipos, así como las causas originadas en las operaciones mal diseñadas para la seguridad, etc. Estas causas son relativamente fáciles de conocer y de controlar. Se descubre dónde está el error dañino y se aplica una medida técnica para corregirlo o reducirlo. "
-                    },
-                    {
-                      "punto": "Causas humanas: son aquellos actos de los trabajadores que por falta de información, formación, atención e interés, producen directamente efectos dañinos."
-                    },
-                    {
-                      "punto": "Causas técnicas y humanas: responden a la combinación de los dos anteriores. Es decir, la existencia de un error técnico más un acto de imprudencia o el fallo técnico unido al desconocimiento del trabajador."
-                    }
-                  ]
-                },
-                {
-                  "clase": "texto",
-                  "texto": "La seguridad en el trabajo es el conjunto de técnicas y procedimientos que tienen por objeto eliminar o en su defecto disminuir el riesgo de que se produzcan los accidentes de trabajo. "
-                }
-              ]
+              "clase": "texto",
+              "texto": "Consecuencias de los riesgos laborales:"
             },
             {
-              "titulo": "Enfermedades profesionales",
+              "clase": "lista",
               "contenido": [
                 {
-                  "clase": "texto",
-                  "texto": "Según el art. 116 de la <a href='http://www.seg-social.es/internet_1/normativa/095093' target='_blank'>Ley General de la Seguridad Social</a> es \"toda aquella contraída a consecuencia del trabajo ejecutado por cuenta ajena, en la actividades que se especifiquen en el cuadro que se aprueba por las disposiciones de aplicación y desarrollo de la ley, y que esté provocada por la acción de los elementos o sustancias que en dicho cuadro se indique para toda enfermedad profesional.\"<br><br>Desde el punto de vista técnico preventivo se habla de enfermedad derivada del trabajo entendida como “aquel deterioro lento y paulatino de la salud del trabajador, producido por una exposición crónica a situaciones adversas, sean estas producidas por el ambiente en que se desarrolla el trabajo o por la forma en que éste está organizado”"
+                  "punto": "Accidentes de trabajo."
                 },
                 {
-                  "clase": "lista",
-                  "titulo": "Factores que determinan la enfermedad profesional:",
-                  "contenido": [
-                    {
-                      "punto": "Tiempo de exposición."
-                    },
-                    {
-                      "punto": "Características personales del trabajador."
-                    },
-                    {
-                      "punto": "Concentración o intensidad del contaminante."
-                    },
-                    {
-                      "punto": "Presencia simultánea de varios contaminantes."
-                    }
-                  ]
+                  "punto": "Enfermedades profesionales."
                 },
                 {
-                  "clase": "texto",
-                  "texto": "Presencia simultánea de varios contaminantes."
+                  "punto": "Otros daños para la salud."
                 }
               ]
-            },
-            {
-              "titulo": "Otros daños para la salud",
-              "texto": "La prevención no sólo se limita a la lucha contra los accidentes y enfermedades, sino que se extiende a los elementos agresivos que pueden existir en el trabajo y que son capaces de ocasionar trastornos al trabajador. No son de naturaleza física y afectan al equilibrio mental y social de los trabajadores, llegando a materializarse en dolencias de tipo somático o psicosomático. En este apartado está la carga de trabajo física y mental, cuya principal manifestación es la fatiga, el estrés y la insatisfacción laboral. En este campo actúa la ergonomía y la psicosociología aplicada a la prevención de riesgos laborales, además de la medicina del trabajo.<br><br>Ergonomía: Conjunto de técnicas cuyo objetivo es la adecuación del trabajo a la persona.<br><br>Psicosociología aplicada a la prevención de riesgos laborales: Estudia los factores de naturaleza psicosocial y organizativa existentes en el trabajo, que pueden repercutir en la salud del trabajador.<br><br>Medicina del trabajo: es una ciencia que, partiendo del conocimiento del funcionamiento del cuerpo humano y del medio en que éste desarrolla su actividad, en este caso el laboral, tiene como objetivos la promoción de la salud (o prevención de la pérdida de salud) la curación de las enfermedades y la rehabilitación. El trabajo nos permite satisfacer necesidades. Pero puede representar un peligro para nuestra salud, que es necesario identificar, evaluar y controlar. Si se considera la salud en sus tres dimensiones: física, mental y social, hay que contemplar todos los factores que pueden ocasionar un daño en ella y que impiden el desarrollo profesional, personal y social. El cambio permanente es una característica fundamental del mundo laboral con efectos beneficiosos o perjudiciales en la salud de los trabajadores."
             }
           ]
         }
       ]
     },
     {
-      "titulo": "¿En que consiste la prevención de riesgos laborales?",
+      "titulo": "Accidentes de trabajo",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "La prevención de riesgos laborales consiste en un conjunto de actividades que se realizan en la empresa con la finalidad de descubrir anticipadamente los riesgos que se producen en cualquier trabajo.<br><br>Esta anticipación permite que se puedan planificar y adoptar una serie de medidas preventivas que evitarán que se produzca un accidente laboral.<br><br>La prl se basa en estas ideas:<br><br>Un accidente laboral no es un suceso inevitable, algo que suceda irremediablemente, por casualidad o “porque tenía que pasar”. Un accidente laboral es la manifestación de que algo no ha ido bien en el desarrollo de una tarea, de que ha habido un fallo. Si la tarea está bien estudiada de antemano, sabiendo cómo hay que hacerla y qué medios hay que emplear, también se podrán prever los riesgos que puedan aparecer. Por lo tanto, cuanto mejor estudiada esté una tarea, más fácil será evitar que se produzcan “fallos” (accidentes) durante la misma. La legislación actual se basa en el derecho de los trabajadores a un trabajo en condiciones de seguridad y salud, lo que implica a su vez un deber del empresario para conseguir esa protección."
+          "texto": "Se puede definir el accidente de trabajo como el suceso brusco, inesperado y normalmente evitable, que puede causar lesiones corporales con disminución o anulación de la integridad física de las personas. La ley general de la seguridad social, en su artículo 115, define el accidente como la lesión corporal que el trabajador sufre con ocasión o por consecuencia del trabajo que ejecuta por cuenta ajena."
+        },
+        {
+          "clase": "lista",
+          "titulo": "Estadísticamente, y basándonos en la conocida pirámide de heinrich, sea cual fuere el tipo de empresa, se demuestra que de cada 330 situaciones de peligro, en las que se actúa de forma incorrecta, se producen:",
+          "contenido": [
+            {
+              "punto": "1 lesión grave o accidente mortal."
+            },
+            {
+              "punto": "29 accidentes con lesiones leves. "
+            },
+            {
+              "punto": "300  accidentes sin lesión (incidentes)"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "La lucha contra los accidentes de trabajo es el primer paso de la actividad preventiva. Legalmente, accidente de trabajo es: \"toda lesión corporal que el trabajador sufra con ocasión o a consecuencia de trabajo que ejecuta por cuenta ajena\". "
+        },
+        {
+          "clase": "lista",
+          "titulo": "Comprende:",
+          "contenido": [
+            {
+              "punto": "Las lesiones que se producen en el centro de trabajo. "
+            },
+            {
+              "punto": "Las producidas entre el trayecto habitual entre el centro de trabajo y el domicilio del trabajador. Estos se llaman accidentes <i>in itínere</i>."
+            }
+          ]
         }
       ]
     },
     {
-      "titulo": "Herramientas de la prevención de riesgos laborales",
+      "titulo": "Causas de los accidentes",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Desde el punto de vista técnico-preventivo accidente de trabajo es todo suceso anormal no querido ni deseado, que se presenta de una forma brusca e inesperada y que:",
+              "contenido": [
+                {
+                  "punto": "Normalmente es evitable"
+                },
+                {
+                  "punto": "Interrumpe la normal continuidad del trabajo "
+                },
+                {
+                  "punto": "Puede causar lesiones a las personas."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Los accidentes tienen causas naturales y explicables. Si no se descubren y controlan las causas, los accidentes volverán a producirse."
+        },
+        {
+          "clase": "lista",
+          "titulo": "Se localizan tres causas básicas:",
+          "contenido": [
+            {
+              "punto": "Causas <b>técnicas</b>: son los fallos de las máquinas y equipos, así como las causas originadas en las operaciones mal diseñadas para la seguridad, etc. Estas causas son relativamente fáciles de conocer y de controlar. Se descubre dónde está el error dañino y se aplica una medida técnica para corregirlo o reducirlo. "
+            },
+            {
+              "punto": "Causas <b>humanas</b>: son aquellos actos de los trabajadores que por falta de información, formación, atención e interés, producen directamente efectos dañinos."
+            },
+            {
+              "punto": "Causas <b>técnicas y humanas</b>: responden a la combinación de los dos anteriores. Es decir, la existencia de un error técnico más un acto de imprudencia o el fallo técnico unido al desconocimiento del trabajador."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "La seguridad en el trabajo es el conjunto de técnicas y procedimientos que tienen por objeto eliminar o en su defecto disminuir el riesgo de que se produzcan los accidentes de trabajo. "
+        }
+      ]
+    },
+    {
+      "titulo": "Enfermedades profesionales",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Según el art. 116 de la Ley General de la Seguridad Social es \"toda aquella contraída a consecuencia del trabajo ejecutado por cuenta ajena, en la actividades que se especifiquen en el cuadro que se aprueba por las disposiciones de aplicación y desarrollo de la ley, y que esté provocada por la acción de los elementos o sustancias que en dicho cuadro se indique para toda enfermedad profesional.\"<br><br>Desde el punto de vista técnico preventivo se habla de enfermedad derivada del trabajo entendida como “aquel deterioro lento y paulatino de la salud del trabajador, producido por una exposición crónica a situaciones adversas, sean estas producidas por el ambiente en que se desarrolla el trabajo o por la forma en que éste está organizado”"
+        },
+        {
+          "clase": "lista",
+          "titulo": "Factores que determinan la enfermedad profesional:",
+          "contenido": [
+            {
+              "punto": "Tiempo de exposición."
+            },
+            {
+              "punto": "Características personales del trabajador."
+            },
+            {
+              "punto": "Concentración o intensidad del contaminante."
+            },
+            {
+              "punto": "Presencia simultánea de varios contaminantes."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Presencia simultánea de varios contaminantes."
+        }
+      ]
+    },
+    {
+      "titulo": "Otros daños para la salud",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "La prevención no sólo se limita a la lucha contra los accidentes y enfermedades, sino que se extiende a los elementos agresivos que pueden existir en el trabajo y que son capaces de ocasionar trastornos al trabajador. No son de naturaleza física y afectan al equilibrio mental y social de los trabajadores, llegando a materializarse en dolencias de tipo somático o psicosomático. En este apartado está la carga de trabajo física y mental, cuya principal manifestación es la fatiga, el estrés y la insatisfacción laboral. En este campo actúa la ergonomía y la psicosociología aplicada a la prevención de riesgos laborales, además de la medicina del trabajo.",
+          "contenido": [
+            {
+              "punto": "<b>Ergonomía:</b> Conjunto de técnicas cuyo objetivo es la adecuación del trabajo a la persona."
+            },
+            {
+              "punto": "<b>Psicosociología aplicada a la prevención de riesgos laborales:</b> Estudia los factores de naturaleza psicosocial y organizativa existentes en el trabajo, que pueden repercutir en la salud del trabajador."
+            },
+            {
+              "punto": "<b>Medicina del trabajo:</b> Es una ciencia que, partiendo del conocimiento del funcionamiento del cuerpo humano y del medio en que éste desarrolla su actividad, en este caso el laboral, tiene como objetivos la promoción de la salud (o prevención de la pérdida de salud) la curación de las enfermedades y la rehabilitación. El trabajo nos permite satisfacer necesidades. Pero puede representar un peligro para nuestra salud, que es necesario identificar, evaluar y controlar. Si se considera la salud en sus tres dimensiones: física, mental y social, hay que contemplar todos los factores que pueden ocasionar un daño en ella y que impiden el desarrollo profesional, personal y social. El cambio permanente es una característica fundamental del mundo laboral con efectos beneficiosos o perjudiciales en la salud de los trabajadores."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¿En que consiste la PRL?",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "La prevención de riesgos laborales consiste en un conjunto de actividades que se realizan en la empresa con la finalidad de descubrir anticipadamente los riesgos que se producen en cualquier trabajo.<br><br>Esta anticipación permite que se puedan planificar y adoptar una serie de medidas preventivas que evitarán que se produzca un accidente laboral.<br><br>La PRL se basa en estas ideas:<br><br>Un accidente laboral no es un suceso inevitable, algo que suceda irremediablemente, por casualidad o “porque tenía que pasar”. Un accidente laboral es la manifestación de que algo no ha ido bien en el desarrollo de una tarea, de que ha habido un fallo. Si la tarea está bien estudiada de antemano, sabiendo cómo hay que hacerla y qué medios hay que emplear, también se podrán prever los riesgos que puedan aparecer. Por lo tanto, cuanto mejor estudiada esté una tarea, más fácil será evitar que se produzcan “fallos” (accidentes) durante la misma. La legislación actual se basa en el derecho de los trabajadores a un trabajo en condiciones de seguridad y salud, lo que implica a su vez un deber del empresario para conseguir esa protección."
+        }
+      ]
+    },
+    {
+      "titulo": "Herramientas de la PRL",
       "contenido": [
         {
           "clase": "texto",
@@ -271,10 +320,15 @@
               "punto": "Controlar periódicamente las condiciones, la organización y los métodos de trabajo y el estado de salud de los trabajadores."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Artículo 33",
+      "contenido": [
         {
           "clase": "texto",
-          "texto": "De acuerdo con el artículo 33 de la <a href='http://www.insht.es/portal/site/insht/menuitem.1f1a3bc79ab34c578c2e8884060961ca/?vgnextoid=771be9369a3d3110vgnvcm100000dc0ca8c0rcrd&vgnextchannel=75164a7f8a651110vgnvcm100000dc0ca8c0rcrd' target='_blank'>Ley de Prevención de Riesgos Laborales</a>,  el empresario deberá consultar a los representantes de los trabajadores o a los propios trabajadores en ausencia de representantes, acerca del procedimiento de evaluación a utilizar en la empresa o centro de trabajo.<br><br>En cualquier caso, si existiera normativa específica de aplicación, el procedimiento de evaluación deberá ajustarse a las condiciones concretas establecidas en la misma."
+          "texto": "De acuerdo con el Artículo 33 de la Ley de Prevención de Riesgos Laborales,  el empresario deberá consultar a los representantes de los trabajadores o a los propios trabajadores en ausencia de representantes, acerca del procedimiento de evaluación a utilizar en la empresa o centro de trabajo.<br><br>En cualquier caso, si existiera normativa específica de aplicación, el procedimiento de evaluación deberá ajustarse a las condiciones concretas establecidas en la misma."
         },
         {
           "clase": "lista",
@@ -296,7 +350,7 @@
       ]
     },
     {
-      "titulo": "ORGANIZACIÓN DE LA PREVENCIÓN DE RIESGOS LABORALES EN LA EMPRESA",
+      "titulo": "Organización de la PRL en la empresa",
       "contenido": [
         {
           "clase": "texto",
@@ -311,109 +365,137 @@
       ]
     },
     {
-      "titulo": "RIESGOS Y FACTORES DE RIESGO",
+      "titulo": "Riesgos y factores de riesgo",
       "contenido": [
         {
           "clase": "texto",
           "texto": "Según la NTP 736, el riesgo laboral es la posibilidad de que un trabajador sufra daños por la exposición a los peligros asociados al trabajo que realiza. Las técnicas preventivas son las actuaciones o medidas que se toman en todas las actividades de la empresa para eliminar o reducir los riesgos y, en su defecto, minimizar sus consecuencias, si estos se materializan. <br><br>Los factores de riesgo específicos de las grúas, lo constituyen el desplazamiento del equipo (sea en carga o en vacío) y su posible interacción con el personal o con otras máquinas u objetos que se encuentren dentro de la zona de desplazamiento de la grúa. Los riesgos y factores de riesgo más importantes son los mecánicos, eléctricos, ergonómicos, por fallo de energía y por falta de medidas de seguridad, o que éstas sean inadecuadas o insuficientes."
         },
         {
-          "clase": "lista",
-          "titulo": "Riesgos mecánicos",
+          "clase": "acordeon",
           "contenido": [
             {
-              "punto": "De arrastre o atrapamientos por la carga o por la propia grúa. "
+              "titulo": "Riesgos mecánicos",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "De arrastre o atrapamientos por la carga o por la propia grúa. "
+                    },
+                    {
+                      "punto": "De impacto por la carga o por la propia grúa. "
+                    },
+                    {
+                      "punto": "De pérdida de estabilidad (de la carga, de la máquina o de sus elementos). "
+                    },
+                    {
+                      "punto": "De rotura de elementos de la máquina (por envejecimiento, fatiga, etc.) "
+                    }
+                  ]
+                }
+              ]
             },
             {
-              "punto": "De impacto por la carga o por la propia grúa. "
+              "titulo": "Riesgos eléctricos",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "Pueden ser debidos a contactos eléctricos directos o indirectos. ",
+                  "contenido": [
+                    {
+                      "punto": "Con partes en tensión de la máquina."
+                    },
+                    {
+                      "punto": "Con cableado, enchufes o interruptores de la instalación"
+                    },
+                    {
+                      "punto": "Por el sistema de alumbrado."
+                    },
+                    {
+                      "punto": "En cuadros eléctricos o en contacto con conductores en mal estado."
+                    },
+                    {
+                      "punto": "Por no existir toma de tierra."
+                    }
+                  ]
+                }
+              ]
             },
             {
-              "punto": "De pérdida de estabilidad (de la carga, de la máquina o de sus elementos). "
+              "titulo": "Riesgo térmico",
+              "texto": "Producido por las resistencias de puesta en marcha que pueden producir quemaduras por contacto."
             },
             {
-              "punto": "De rotura de elementos de la máquina (por envejecimiento, fatiga, etc.) "
+              "titulo": "Riesgos ergonómicos",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "Producidos por defectos ergonómicos",
+                  "contenido": [
+                    {
+                      "punto": "Posturas forzadas o esfuerzos excesivos (especialmente en las grúas con cabina para el operador) "
+                    },
+                    {
+                      "punto": "Inadecuada iluminación localizada, tanto por defecto como por exceso (deslumbramiento)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Riesgos funcionales",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "Producidos por fallo en la alimentación de energía y otros trastornos funcionales:",
+                  "contenido": [
+                    {
+                      "punto": "Fallo en la alimentación de energía (de los circuitos de potencia y/o de mando)."
+                    },
+                    {
+                      "punto": "Fallo del sistema de mando (puesta en marcha o aceleración intempestivos)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Riesgos por ausencia o inadecuación de medidas de seguridad",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "Inexistencia o diseño inadecuado de resguardos o dispositivos de protección. "
+                    },
+                    {
+                      "punto": "Diseño inadecuado de dispositivos de marcha y paro. "
+                    },
+                    {
+                      "punto": "Ausencia o inadecuación de señales y pictogramas seguridad. "
+                    },
+                    {
+                      "punto": "Ausencia o inadecuación de los dispositivos de paro de emergencia. "
+                    },
+                    {
+                      "punto": "Ausencia o inadecuación de los dispositivos de paro de emergencia. "
+                    },
+                    {
+                      "punto": "Ausencia y/o inadecuación de accesorios en las operaciones de ajuste y/o mantenimiento. "
+                    },
+                    {
+                      "punto": "Ausencia o inadecuación de equipos de protección individual. "
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
         {
           "clase": "lista",
-          "titulo": "Riesgos eléctricos pueden ser debidos a contactos eléctricos directos o indirectos. ",
-          "contenido": [
-            {
-              "punto": "Con partes en tensión de la máquina."
-            },
-            {
-              "punto": "Con cableado, enchufes o interruptores de la instalación"
-            },
-            {
-              "punto": "Por el sistema de alumbrado."
-            },
-            {
-              "punto": "En cuadros eléctricos o en contacto con conductores en mal estado."
-            },
-            {
-              "punto": "Por no existir toma de tierra."
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "Riesgo térmico producido por las resistencias de puesta en marcha que pueden producir quemaduras por contacto."
-        },
-        {
-          "clase": "lista",
-          "titulo": "Riesgos producidos por defectos ergonómicos",
-          "contenido": [
-            {
-              "punto": "Posturas forzadas o esfuerzos excesivos (especialmente en las grúas con cabina para el operador) "
-            },
-            {
-              "punto": "Inadecuada iluminación localizada, tanto por defecto como por exceso (deslumbramiento)."
-            }
-          ]
-        },
-        {
-          "clase": "lista",
-          "titulo": "Riesgos producidos por fallo en la alimentación de energía, y otros trastornos funcionales:",
-          "contenido": [
-            {
-              "punto": "Fallo en la alimentación de energía (de los circuitos de potencia y/o de mando)."
-            },
-            {
-              "punto": "Fallo del sistema de mando (puesta en marcha o aceleración intempestivos)."
-            }
-          ]
-        },
-        {
-          "clase": "lista",
-          "titulo": "Riesgos producidos por la ausencia y/o inadecuación de medidas de seguridad:",
-          "contenido": [
-            {
-              "punto": "Inexistencia o diseño inadecuado de resguardos o dispositivos de protección. "
-            },
-            {
-              "punto": "Diseño inadecuado de dispositivos de marcha y paro. "
-            },
-            {
-              "punto": "Ausencia o inadecuación de señales y pictogramas seguridad. "
-            },
-            {
-              "punto": "Ausencia o inadecuación de los dispositivos de paro de emergencia. "
-            },
-            {
-              "punto": "Ausencia o inadecuación de los dispositivos de paro de emergencia. "
-            },
-            {
-              "punto": "Ausencia y/o inadecuación de accesorios en las operaciones de ajuste y/o mantenimiento. "
-            },
-            {
-              "punto": "Ausencia o inadecuación de equipos de protección individual. "
-            }
-          ]
-        },
-        {
-          "clase": "lista",
-          "titulo": "A estos riesgos deben añadirse aquellos que son propios del entorno de trabajo de las grúas, como por ejemplo:",
+          "titulo": "A estos riesgos deben añadirse aquellos que son propios del entorno de trabajo de las grúas como:",
           "contenido": [
             {
               "punto": "Caída de personas a nivel y desde altura, en este último caso principalmente durante actuaciones de mantenimiento de la máquina. "
@@ -431,7 +513,12 @@
               "punto": "La falta de orden y limpieza, que puede ocasionar todo tipo de tropiezos y golpes."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Riesgos más habituales",
+      "contenido": [
         {
           "clase": "texto",
           "texto": "Haremos especial incidencia en los siguientes riesgos, por ser los más importantes y/o habituales:"
@@ -457,7 +544,7 @@
                 }
               ]
             },
-                        {
+            {
               "fila": [
                 {
                   "texto": "Caída o desprendimiento de materiales, por rotura de eslinga o accesorio de elevación, o bien elemento del propio puente grúa"
@@ -466,7 +553,8 @@
                   "texto": "Verificar la carga máxima de los elementos de elevación.<br>Establecer un procedimiento de revisiones periódicas en la cuales se verifique el buen estado de los cables, así como el funcionamiento de los elementos de protección, limitadores de carga y finales de carrera.<br>Asegurar las cargas mediante un zunchado o empacado.<br>Utilización de equipos de protección individual, casco, calzado, etc."
                 }
               ]
-            },            {
+            },
+            {
               "fila": [
                 {
                   "texto": "Desplome, incluiríamos aquí tanto el desplome de la carga, como el de la propia máquina, en parte o su totalidad."
@@ -475,7 +563,8 @@
                   "texto": "No sobrepasar en ningún caso la carga máxima admisible.<br>Utilizar siempre el accesorio de izado o implemento más adecuado a la carga a transportar.<br>Verificación del correcto estado de los frenos."
                 }
               ]
-            },            {
+            },
+            {
               "fila": [
                 {
                   "texto": "Golpes y choques."
@@ -484,7 +573,8 @@
                   "texto": "No se dejará el bloque elevador bajo con el puente parado.<br>Durante el traslado del puente grúa en vacío, el bloque elevador siempre irá en su posición más elevada.<br>Pedir ayuda para bajar una carga, no intentar bajar solo la carga y manejar el control de la grúa al mismo tiempo. <br>No se deben arrastrar ni hacer esfuerzos laterales.<br>Están totalmente prohibidos los tiros oblicuos.<br>Asimismo está prohibido el freno a contramarcha.<br>Utilización de cuerdas guía o accesorios similares para el posicionamiento de la carga. "
                 }
               ]
-            },            {
+            },
+            {
               "fila": [
                 {
                   "texto": "Contactos eléctricos indirectos."
@@ -493,7 +583,8 @@
                   "texto": "La instalación deberá disponer de protecciones eléctricas y de toma a tierra adecuada.<br>Revisar periódicamente la instalación eléctrica a fin de detectar posibles deficiencias."
                 }
               ]
-            },            {
+            },
+            {
               "fila": [
                 {
                   "texto": "Atrapamiento de manos/pies durante el estrobado y/o izado de verificación."
@@ -502,7 +593,8 @@
                   "texto": "Nunca se iniciará la maniobra hasta que la carga haya sido asegurada y quien dirija la maniobra de la orden de movimiento.<br>Una vez dicha orden haya sido dada, nadie podrá  manipular la carga."
                 }
               ]
-            },            {
+            },
+            {
               "fila": [
                 {
                   "texto": "Atrapamiento entre la carga y superficies fijas de la instalación"
@@ -517,15 +609,28 @@
       ]
     },
     {
-      "titulo": "MEDIDAS PREVENTIVAS GENERALES",
+      "titulo": "Medidas preventivas generales",
       "contenido": [
         {
-          "clase": "texto",
-          "texto": "Las eslingas serán de constitución y tamaño apropiados a la carga a elevar.<br>La capacidad de la carga máxima debe estar marcada en la eslinga, en lugar visible. <br>En ningún caso debe superarse la carga de trabajo de la eslinga. <br>Cuanto mayor es el ángulo que forman las eslingas, menor es la resistencia de ésta; para ángulos mayores de 90º deben utilizarse eslingas o ejes transversales."
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Las eslingas serán de constitución y tamaño apropiados a la carga a elevar."
+            },
+            {
+              "punto": "La capacidad de la carga máxima debe estar marcada en la eslinga, en lugar visible."
+            },
+            {
+              "punto": "En ningún caso debe superarse la carga de trabajo de la eslinga."
+            },
+                        {
+              "punto": "Cuanto mayor es el ángulo que forman las eslingas, menor es la resistencia de ésta. Para ángulos mayores de 90º deben utilizarse eslingas o ejes transversales."
+            }
+          ]
         }
       ]
     },
-        {
+    {
       "titulo": "Autoevaluación",
       "contenido": [
         {
@@ -572,7 +677,8 @@
                   "correcto": true
                 },
                 {
-                  "opcion": "No pasa nada, no es mi trabajo limpiar",                  "correcto": false
+                  "opcion": "No pasa nada, no es mi trabajo limpiar",
+                  "correcto": false
                 }
               ]
             },
@@ -587,7 +693,7 @@
                   "opcion": "Una vez dicha orden haya sido dada, nadie podrá  manipular la carga.",
                   "correcto": false
                 },
-                                {
+                {
                   "opcion": "Ambas son correctas",
                   "correcto": true
                 }
@@ -640,7 +746,7 @@
                 },
                 {
                   "opcion": "Ambas son correctas",
-                  "correcto":false
+                  "correcto": false
                 }
               ]
             },
@@ -681,9 +787,10 @@
           ]
         }
       ]
-    },  
+    },
     {
       "titulo": "Despedida",
+      "fondo": "img/comunes/despedida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -692,10 +799,6 @@
             {
               "clase": "texto",
               "texto": ""
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod10/despedida.jpg"
             }
           ]
         }
@@ -708,4 +811,3 @@
     }
   ]
 }
-

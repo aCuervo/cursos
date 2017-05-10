@@ -9,17 +9,16 @@
     },
     {
       "titulo": "Bienvenida",
+      "fondo": "img/comunes/bienvenida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
             {
-              "clase": "imagen",
-              "imagen": "img/mod07/bienvenida.jpg"
-            },
-            {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "Hemos hablado anteriormente de la carga y los accesorios necesarios para el estrobado. Hablaremos en este módulo de las eslingas de cadena, que ya es el último tipo de eslinga."
             }
           ]
@@ -55,22 +54,21 @@
       ]
     },
     {
-      "titulo": "TIPOS DE ESLINGA DE CADENA",
+      "titulo": "Tipos de eslinga de cadena",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Las eslingas serán de construcción y tamaño apropia dos para las operaciones en que se hayan de emplear. Existen dos construcciones de eslingas de cadena: eslingas de uno o varios ramales y eslingas sin fin."
+          "texto": "Las eslingas serán de construcción y tamaño apropiados para las operaciones en que se hayan de emplear.<br><br>Existen dos construcciones de eslingas de cadena: eslingas de uno o varios ramales y eslingas sin fin."
         },
         {
           "clase": "imagen",
-          "subclase": "paraCambiar",
           "imagen": "img/mod07/tipos.png"
         }
 
       ]
     },
     {
-      "titulo": "RIESGOS Y FACTORES DE RIESGO",
+      "titulo": "Riesgos y factores de riesgo",
       "contenido": [
         {
           "clase": "lista",
@@ -106,7 +104,7 @@
       ]
     },
     {
-      "titulo": "MEDIDAS DE PREVENCIÓN Y PROTECCIÓN",
+      "titulo": "Medidas de prevención y protección",
       "contenido": [
         {
           "clase": "texto",
@@ -149,45 +147,21 @@
     },
     {
       "titulo": "Capacidad de carga",
+      "fondo": "img/mod07/pulpoAcero.jpg",
       "contenido": [
         {
           "clase": "texto",
+          "animacion": "fadeInRight",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
           "texto": " En la capacidad de carga de una eslinga intervienen la cadena propiamente dicha y los accesorios que lo complementan tales como anillas, grilletes y ganchos. El coeficiente de seguridad para las eslingas de cadena es 4. La Carga Máxima de Trabajo (C.M.U.) de cualquier eslabón maestro (anilla) debe ser al menos igual a la C.M.U. de la eslinga. La C.M.U. de los accesorios del extremo inferior de la eslinga debe ser al menos igual a la del ramal al cual está unido."
         }
 
       ]
     },
     {
-      "titulo": "NORMAS DE UTILIZACIÓN SEGURA",
+      "titulo": "Elección de eslingas",
       "contenido": [
-        {
-          "clase": "lista",
-          "titulo": "Para trabajar con eslingas de cable de acero, se deberán seguir una serie de normas en su utilización: ",
-          "contenido": [
-            {
-              "punto": "Deben ser usadas sólo por las personas que hayan recibido formación adecuada. "
-            },
-            {
-              "punto": "Antes de la primera utilización se debe asegurar que: ",
-              "contenido": [
-                {
-                  "punto": "La eslinga es conforme a las especificaciones solicitadas. "
-                },
-                {
-                  "punto": "La eslinga dispone de certificado. "
-                },
-                {
-                  "punto": "El marcado es el correcto. "
-                },
-                {
-                  "punto": "Las características de la eslinga son las adecuadas para el uso previsto. "
-                }
-              ]
-            }
-
-
-          ]
-        },
         {
           "clase": "lista",
           "titulo": "La seguridad en la utilización de una eslinga comienza con la elección de ésta, que deberá ser adecuada a la carga y a los esfuerzos que debe soportar.",
@@ -266,77 +240,122 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+        {
+      "titulo": "Normas de utilización",
+      "contenido": [
         {
           "clase": "lista",
-          "titulo": "Se puede fijar la carga a los ramales de una eslinga de diversas maneras:",
+          "titulo": "Para trabajar con eslingas de cable de acero, se deberán seguir una serie de normas en su utilización: ",
           "contenido": [
             {
-              "punto": "Ahorcado o de nudo corredizo: un ramal se pasa por debajo o a través de la carga y el accesorio de extremo inferior se vuelve a enganchar a la carga. Cuando se utiliza de esta forma, la carga de utilización no debe sobrepasar 0.8 x C.M.U. marcada en la eslinga."
-
+              "punto": "Deben ser usadas sólo por las personas que hayan recibido formación adecuada. "
             },
             {
-              "imagen": "img/mod07/nudoAhorcado.png",
-              "ancho": 100
-            },
-            {
-              "punto": "En cesto: la eslinga pasa a través de la carga o la rodea. Podemos tener dos situaciones diferentes:"
+              "punto": "Antes de la primera utilización se debe asegurar que: ",
+              "contenido": [
+                {
+                  "punto": "La eslinga es conforme a las especificaciones solicitadas. "
+                },
+                {
+                  "punto": "La eslinga dispone de certificado. "
+                },
+                {
+                  "punto": "El marcado es el correcto. "
+                },
+                {
+                  "punto": "Las características de la eslinga son las adecuadas para el uso previsto. "
+                }
+              ]
             }
           ]
         },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Se puede fijar la carga a los ramales de una eslinga de diversas maneras:",
+              "contenido": [
+                {
+                  "punto": "Ahorcado o de nudo corredizo: un ramal se pasa por debajo o a través de la carga y el accesorio de extremo inferior se vuelve a enganchar a la carga. Cuando se utiliza de esta forma, la carga de utilización no debe sobrepasar 0.8 x C.M.U. marcada en la eslinga."
+
+                },
+
+                {
+                  "punto": "En cesto: la eslinga pasa a través de la carga o la rodea. Podemos tener dos situaciones diferentes:"
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod07/nudoAhorcado.png",
+                "ancho": 200
+            }
+                  ]
+        }
+      ]
+    },
+    {
+      "titulo": "Fijación de la carga",
+      "contenido": [
         {
           "clase": "imagen",
           "imagen": "img/mod07/fijacion.jpg",
-          "ancho": 800
+          "ancho": 650
         }
-
       ]
     },
     {
-      "titulo": "IDENTIFICACIÓN DE LA ESLINGA DE CADENA",
+      "titulo": "Identificación de eslingas de cadena",
       "contenido": [
         {
           "clase": "lista",
-          "titulo": "Las cadenas vendrán identificadas mediante una chapa, la cual deberá incluir la siguiente información:",
+          "titulo": "Las cadenas están identificadas mediante una chapa con la siguiente información:",
           "contenido": [
             {
-              "punto": "Marca del fabricante de la eslinga. "
+              "punto": "Marca del fabricante de la eslinga."
             },
             {
-              "punto": "Números o letras que identifiquen la eslinga con el certificado correspondiente. "
+              "punto": "Números o letras que identifiquen la eslinga con el certificado correspondiente."
             },
             {
-              "punto": "La Carga Máxima de Utilización (C.M.U.) "
-            },
-            {
-              "punto": "La Carga Máxima de Utilización (C.M.U.) "
+              "punto": "La Carga Máxima de Utilización (C.M.U.)."
             }
           ]
         },
         {
+          "clase": "listaObjetos",
+          "contenido": [
+        {
           "clase": "texto",
-          "texto": "Además, si la eslinga es de dos o más ramales, a la información anterior se le añade la Carga Máxima de Utilización y los ángulos de aplicación de las cargas."
+          "texto": "Si la eslinga es de dos o más ramales a la información anterior se le añaden los ángulos de aplicación de las cargas."
         },
         {
           "clase": "imagen",
-          "subclase": "paraCambiar",
-          "imagen": "img/mod07/plaquitas.png",
-          "ancho": 800
+          "imagen": "img/mod07/placas.svg"
         }
-
+                  ]
+        }
       ]
     },
     {
-      "titulo": "ALMACENAMIENTO",
+      "titulo": "Almacenamiento",
+      "fondo": "img/mod07/almacenamiento.jpg",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Las eslingas se almacenarán en lugar seco, bien ventilado y libre de atmósferas corrosivas o polvorientas. No estarán en contacto directo con el suelo, suspendiéndolas de soportes de madera con perfil redondeado o depositándolas sobre estacas o paletas."
+          "subclase": "recuadro",
+          "animacion": "fadeInRight",
+          "opacidad": 0.8,
+          "texto": "Las eslingas se almacenarán en lugar seco, bien ventilado y libre de atmósferas corrosivas o polvorientas.<br>No estarán en contacto directo con el suelo, suspendiéndolas de soportes de madera con perfil redondeado o depositándolas sobre estacas o paletas."
         }
       ]
     },
     {
-      "titulo": "INSPECCIONES Y RETIRADA EN SU CASO",
+      "titulo": "Inspecciones periódicas",
       "contenido": [
         {
           "clase": "texto",
@@ -345,56 +364,70 @@
         {
           "clase": "icono",
           "subclase": "exclamacion",
-          "texto": "LAS ESLINGAS SE INSPECCIONARÁN DIARIAMENTE POR EL PERSONAL QUE LAS UTILICE."
+          "texto": "<center>LAS ESLINGAS SE INSPECCIONARÁN <b>DIARIAMENTE</b> POR EL PERSONAL QUE LAS UTILICE.</center>"
         },
         {
           "clase": "texto",
-          "texto": "Además se debería realizar una inspección en profundidad al menos cada 12 meses, aunque puede ser necesario acortar el tiempo según el trabajo que realiza la eslinga. Se deberán mantener registros de las inspecciones."
-        },
+          "texto": "Además se debería realizar una <b>inspección en profundidad al menos cada 12 meses</b>, aunque puede ser necesario acortar el tiempo según el trabajo que realiza la eslinga. Se deberán mantener registros de las inspecciones."
+        }
+      ]
+    }, 
+        {
+      "titulo": "Hoja de informe",
+      "contenido": [
         {
           "clase": "imagen",
-          "subclase": "paraCambiar",
-          "imagen": "img/mod07/informe.png",
+          "imagen": "img/mod07/informe2.jpg",
           "ancho": 800
-        },
+        }
+      ]
+    }, 
         {
-          "clase": "lista",
-          "titulo": "Las eslingas de cadena deberán retirarse al detectar las siguientes condiciones:",
+      "titulo": "Retirada de eslingas",
           "contenido": [
             {
-              "punto": "La información relativa a la identificación de la eslinga (chapa o placa) es ilegible."
-            },
-            {
-              "punto": "Daños en los accesorios de extremo"
-            },
-            {
-              "punto": "Desgaste, deformación y/o fisuras en los accesorios, falta del pestillo en el gancho o desperfectos en el cierre de los ganchos."
+              "clase": "listaObjetos",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "Las eslingas de cadena deberán retirarse al detectar las siguientes condiciones:",
+                  "contenido": [
+                    {
+                      "punto": "La información relativa a la identificación de la eslinga (chapa o placa) es ilegible."
+                    },
+                    {
+                      "punto": "Daños en los accesorios de extremo"
+                    },
+                    {
+                      "punto": "Desgaste, deformación y/o fisuras en los accesorios, falta del pestillo en el gancho o desperfectos en el cierre de los ganchos."
+                    },
+                    {
+                      "punto": "Deformaciones de eslabones (desgastes, dobleces, mellas, estiramientos importantes...)"
+                    },
+                    {
+                      "punto": "Corrosión avanzada. La corrosión superficial es improbable que afecte a la resistencia de la cadena."
+                    },
+                    {
+                      "punto": "Daños debidos al calor, que se pone en evidencia por la decoloración del acero."
+                    },
+                    {
+                      "punto": "Incremento de un 5% de la longitud del eslabón."
+                    }
+                  ]
+                },
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod07/desgasteGancho2.jpg",
+                  "ancho": 350
+                }
+              ]
             },
             {
               "clase": "imagen",
-              "subclase": "paraCambiar",
-              "imagen": "img/mod07/desgasteGancho.png",
-              "ancho": 400
-            },
-            {
-              "punto": "Deformaciones de eslabones (desgastes, dobleces, mellas, estiramientos importantes…)"
-            },
-            {
-              "imagen": "img/mod07/desgasteEslabones.svg",
-              "ancho": 1000
-            },
-            {
-              "punto": "Corrosión avanzada. La corrosión superficial es improbable que afecte a la resistencia de la cadena."
-            },
-            {
-              "punto": "Daños debidos al calor, que se pone en evidencia por la decoloración del acero."
-            },
-            {
-              "punto": "Incremento de un 5% de la longitud del eslabón."
+              "subclase": "ajustarAncho",
+              "imagen": "img/mod07/desgasteEslabones.svg"
             }
           ]
-        }
-      ]
     }, 
         {
       "titulo": "Autoevaluación",
@@ -535,6 +568,7 @@
     },  
     {
       "titulo": "Despedida",
+      "fondo": "img/comunes/despedida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -542,11 +576,9 @@
           "contenido": [
             {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "Hemos terminado con el capítulo de las eslingas, en el próximo hablaremos del mantenimiento y averías que puede tener nuestro puente grúa."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod07/despedida.jpg"
             }
           ]
         }

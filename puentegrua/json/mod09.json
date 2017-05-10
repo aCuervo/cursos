@@ -9,17 +9,16 @@
     },
     {
       "titulo": "Bienvenida",
+      "fondo": "img/comunes/bienvenida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
             {
-              "clase": "imagen",
-              "imagen": "img/mod09/bienvenida.jpg"
-            },
-            {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "Este módulo reúne las normas básicas para el manejo de la grúa, dividiéndolas en un antes, durante y después. Pretende ser un resumen, para en cualquier momento acceder a él y recordar temas importantes."
             }
           ]
@@ -248,6 +247,7 @@
     },  
     {
       "titulo": "Despedida",
+      "fondo": "img/comunes/despedida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -255,11 +255,9 @@
           "contenido": [
             {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "El próximo módulo tratará sobre la Prevención de Riesgos Laborales en la empresa, y de manera específica del puente grúa. Es el último módulo como tal, aunque tendremos otro posterior a modo de resumen, en el que recordaremos datos importantes."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod09/despedida.jpg"
             }
           ]
         }

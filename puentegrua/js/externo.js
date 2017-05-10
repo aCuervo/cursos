@@ -85,21 +85,17 @@ function getArrayImagenes(modulo) {
             "img/mod04/paletCarretilla.jpg" ,
             "img/mod04/saca.jpg" ,
             "img/mod04/sistemaMultiple.png" ,
-            "img/mod04/sistemaSencillo.png" ,
             "img/mod04/tiposEslingas.png" 
         ]);
             break;
         case "mod05": arrayFinal = arrayComun.concat([
             "img/mod05/cesta.svg",
-            "img/mod05/comprobaciones.jpg",
             "img/mod05/dosEslingas.svg",
             "img/mod05/eslingas.jpg",
             "img/mod05/estrangulada.svg",
             "img/mod05/etiqueta.svg",
             "img/mod05/guiaSeleccion.jpg",
             "img/mod05/perchero.jpg",
-            "img/mod05/retirada1.png",
-            "img/mod05/retirada2.png",
             "img/mod05/tresEslingas.svg",
             "img/mod05/vertical.svg"
         ]);
@@ -122,15 +118,15 @@ function getArrayImagenes(modulo) {
             "img/mod07/calculoRamales.png",
             "img/mod07/cmuAnilla.png",
             "img/mod07/desgasteEslabones.svg",
-            "img/mod07/desgasteGancho.png",
+            "img/mod07/desgasteGancho2.jpg",
             "img/mod07/dosSimples.png",
             "img/mod07/extremo.jpg",
             "img/mod07/fijacion.jpg",
             "img/mod07/gancho.jpg",
             "img/mod07/hammerlock.jpg",
-            "img/mod07/informe.png",
+            "img/mod07/informe2.jpg",
             "img/mod07/nudoAhorcado.png",
-            "img/mod07/plaquitas.png",
+            "img/mod07/placas.svg",
             "img/mod07/tipos.png"
         ]);
             break;
