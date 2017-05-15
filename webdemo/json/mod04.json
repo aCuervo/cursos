@@ -1,0 +1,1256 @@
+﻿{
+  "modulo": "Mod. 4: Enfermedades Alimentarias",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Introducción",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "rotateInDownRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
+              "imagen": "img/mod4/M4introduccion.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "En este módulo te darás cuenta de la enorme importancia que tienen las enfermedades de transmisión alimentaria sobre la salud pública y vas a conocer, de manera muy sencilla, cuáles son las <b>enfermedades más comunes</b> (o graves) relacionadas con el consumo de alimentos o bebidas y cuáles son los principales organismos biológicos implicados.<br><br>También se indicarán unas pautas generales para evitar la aparición de dichas enfermedades."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Enfermedades",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInDown",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Las enfermedades de <b>transmisión alimentaria</b> son una importante causa de problemas de salud. Si a esto sumamos las consecuencias socioeconómicas directamente relacionadas con estas enfermedades en el sector agroalimentario y en el sector turístico, no es de extrañar que constituyan una de las mayores preocupaciones de <b>salud pública</b> en Europa.<br><br>Aún así se estima que solamente el 10% de los casos de estas enfermedades son declarados, esto es debido a que no todas las personas afectadas acuden al médico y éstos no siempre notifican a las autoridades sanitarias los casos que tratan, ya que pueden no ser identificados como enfermedades transmitidas por los alimentos."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/M4EnfermedadesTransmision.png",
+              "ancho": 450
+            }
+
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "bounce",
+          "texto": "<b>¿Sabías que...</b> según la OMS (Organización Mundial de la Salud) se estima que, cada año, hay 582 millones de casos de enfermedades transmitidas por los alimentos, en todo el mundo, de los cuales 351 000 acaban en muerte?"
+        }
+      ]
+    },
+    {
+      "titulo": "Brote",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "animacion": "shake",
+          "texto": "<b>Brote</b> (de origen alimentario): se denomina brote a aquel incidente en el cual dos o más personas manifiestan la misma enfermedad después de la ingestión del mismo alimento o bebida, presentan los mismos síntomas, y excretan, en su caso, los mismos patógenos (microorganismo que origina y desarrolla una enfermedad), observándose en consecuencia una <b>asociación</b> de tiempo, lugar o personas entre los afectados. No obstante, también se considerará brote la aparición de <b>un solo caso sospechoso</b> de enfermedad que esté claramente relacionada con el consumo de un alimento (botulismo, triquinosis, intoxicación paralizante por moluscos, etc.)"
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "swing",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/M4formacion.jpg"
+            },
+            {
+              "clase": "lista",
+              "subclase": "numeros",
+              "titulo": "El papel del manipulador de alimentos y su responsabilidad se revela en las investigaciones realizadas por la <b>Autoridad Sanitaria</b> cuando aparece un brote. En estas investigaciones donde se ponen de manifiesto los factores que, de forma directa o indirecta, depende del <b>manipulador de alimentos</b>. Por dicho motivo y para evitar la aparición de un brote, se considera que los mecanismos de prevención más eficaces consisten en:",
+              "contenido": [
+                {
+                  "punto": "Cumplimiento de unas correctas <b>prácticas de higiene</b> en el trabajo."
+                },
+                {
+                  "punto": "<b>Formación continuada</b> del personal manipulador de alimentos."
+                },
+                {
+                  "punto": "Diseño de locales y áreas de trabajo con <b>criterios higiénicos</b>."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Enfermedades alimentarias",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInRight",
+          "contenido": [
+            {
+              "clase": "icono",
+              "subclase": "definicion",
+              "texto": "<b>Enfermedad transmitida por los alimentos</b>: El conjunto de síntomas originados por la ingestión de agua y/o alimentos que contengan agentes biológicos (p.ej. bacterias o parásitos) o no biológicos (p.ej. plaguicidas o metales pesados) en cantidades tales que afectan a la salud del consumidor en forma aguda o crónica, a nivel individual o de grupo de personas."
+            },
+            {
+              "clase": "lista",
+              "titulo": "Hay que distinguir entre:",
+              "contenido": [
+                {
+                  "punto": "<b>Intoxicaciones alimentarias</b>: causadas por el consumo de alimentos que contienen sustancias tóxicas (ejemplo: moluscos bivalvos-mareas rojas; pesticidas, fármacos, metales pesados…). También hablamos de intoxicación alimentaria en aquellos casos que un microorganismo produce toxinas en el alimento (Ej. Intoxicación por toxina botulínica, que produce el botulismo)."
+                },
+                {
+                  "punto": "<b>Infecciones alimentarias</b>: son las enfermedades derivadas de la ingestión de los alimentos contaminados. Su causa son los propios gérmenes presentes en el producto."
+                },
+                {
+                  "punto": "<b>Toxiinfecciones alimentarias</b>: originadas por la presencia en los alimentos de gérmenes patógenos, que además de reproducirse, producen toxinas."
+                },
+                {
+                  "punto": "<b>Alergias e intolerancias</b>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "animacion": "bounceInUp",
+          "subclase": "exclamacion",
+          "texto": "Generalmente, al conjunto de todas estas enfermedades se las conoce con el nombre de <b>toxiinfecciones alimentarias</b>."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod4/dolorTripa.jpg",
+          "ancho": 200
+        }
+
+      ]
+    },
+    {
+      "titulo": "Factores",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInDown",
+          "texto": "Según el <b>tipo de contaminante</b> del alimento, la enfermedad se podrá desarrollar más o menos rápidamente. Como norma general, los síntomas de una intoxicación alimentaria suelen aparecer <b>rápidamente</b> (desde pocos minutos a horas), mientras que en una infección alimentaria, los síntomas se desarrollan desde <b>pasadas</b> unas cuantas horas hasta algunos días.<br><br>En la aparición de la enfermedad intervienen muchos más <b>factores</b>, como pueden ser:"
+        },
+        {
+          "clase": "tabs",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Agente causal",
+              "texto": "Es decir el <b>tipo</b> de agente que causa la enfermedad: sustancias químicas, parásitos, virus, bacterias o toxinas que estas producen."
+            },
+            {
+              "titulo": "Susceptibilidad",
+              "texto": "Según el individuo. Niños, ancianos y personas <b>inmunodeprimidas</b> (con las defensas disminuidas) son más susceptibles."
+            },
+
+            {
+              "titulo": "Dosis ingerida",
+              "texto": "Dosis ingerida del germen que contiene el alimento o de la sustancia tóxica o toxina que produce. En el caso de microorganismos tendremos en cuenta la <b>dosis infectiva mínima</b>, es decir la concentración de microorganismos que debe contener el alimento para que se produzca la toxiinfección. Por ejemplo: hay bacterias que para provocar la enfermedad necesitan encontrarse en un número muy elevado dentro del alimento, mientras que en otros casos, la sola presencia de la bacteria es equivalente a enfermedad."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "animacion": "rotateInUpRight",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías que...</b><br>...para provocar una <b>salmonelosis</b> se estima que el número de Salmonellas, por  gramo de alimento es de 100.000 bacterias. Y que por el contrario, para provocar enfermedad, <i>Escherichia coli</i> O157:H7 bastaría con menos de 100 bacterias por gramo? ¿O incluso que un solo huevo de <b>parásito</b> podría ser suficiente?"
+        }
+      ]
+    },
+    {
+      "titulo": "Alergias e intolerancias alimentarias",
+      "fondo": "img/mod4/M4huevos2.jpg",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "animacion": "flipInX",
+          "texto": "<b>Alergia</b>: la alergia es una reacción o respuesta exagerada del organismo ante una sustancia (<b>alérgeno</b>) que por sí misma es inofensiva y bien tolerada por las personas no alérgicas. El sistema inmunológico de las personas alérgicas crea mecanismos de defensa que se vuelven dañinos, causando los síntomas de alergia."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "flipInX",
+          "texto": "La alergia a alimentos se produce cuando la persona <b>reacciona</b> con síntomas al contacto, ingestión o inhalación de las <b>proteínas</b>  de un alimento (hablamos de proteínas y no de azúcares como lactosa, fructosa... porque en este caso estaríamos hablando de una intolerancia a esos azúcares, producida por un problema digestivo y no inmunológico). Se estima que sólo un 2% de los adultos y un 3-7% de los niños presentan realmente alergias. Las alergias e intolerancias alimentarias constituyen un <b>problema de salud emergente</b>."
+        }
+      ]
+    },
+    {
+      "titulo": "Alergia vs. Intolerancia",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "centro",
+          "animacion": "lightSpeedIn",
+          "texto": "¿En qué se <b>diferencia</b> una alergia de una intolerancia alimentaria?"
+        },
+        {
+          "clase": "listaObjetos",
+          "subclase": "flex-start",
+          "animacion": "slideInUp",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna amarillo",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "<h2><b>Intolerancia</b></h2>"
+                },
+                {
+                  "clase": "texto",
+                  "texto": "En la intolerancia, el organismo no puede <b>asimilar</b> correctamente un alimento o uno de sus componentes. Se pueden consumir <b>pequeñas</b> cantidades del alimento o del componente alimenticio sin que se den síntomas. En la intolerancia a alimentos no interviene el <b>sistema inmune</b>."
+                },
+                {
+                  "clase": "listaObjetos",
+                  "subclase": "flex-start recuadro",
+                  "contenido": [
+                    {
+                      "clase": "lista",
+                      "titulo": "<b>Ejemplos:</b>",
+                      "contenido": [
+                        {
+                          "punto": "Intolerancia a la lactosa."
+                        },
+                        {
+                          "punto": "Intolerancia a otros azúcares (fructosa)."
+                        },
+                        {
+                          "punto": "Intolerancia a ciertos aditivos (como los sulfitos)"
+                        }
+                      ]
+                    },
+                    {
+                      "clase": "lista",
+                      "titulo": "<b>Síntomas generales:</b>",
+                      "contenido": [
+                        {
+                          "punto": "Nauseas."
+                        },
+                        {
+                          "punto": "Diarrea."
+                        },
+                        {
+                          "punto": "Dolor abdominal."
+                        }
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna rojo",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "<h2><b>Alergia</b></h2>"
+                },
+                {
+                  "clase": "texto",
+                  "texto": "En cambio, la <b>alergia</b> a alimentos se manifiesta como una respuesta exagerada a la ingestión de un alimento (con un componente proteico que actuará como <b>alérgeno</b>) o también por <b>contacto</b> (tocar un melocotón, derramar un vaso de leche sobre la mano) o <b>inhalación</b> (vapores de cocción, por ejemplo). A diferencia de la intolerancia aquí SÍ interviene el sistema inmune.<br><br><b>Síntomas de la alergia:</b> Normalmente los síntomas de la alergia a alimentos suelen aparecer entre los primeros minutos y las pocas horas tras haber entrado en contacto con el alimento."
+                },
+                {
+                  "clase": "listaObjetos",
+                  "subclase": "flex-start recuadro",
+                  "contenido": [
+                    {
+                      "clase": "lista",
+                      "titulo": "<b>Menos graves y más frecuentes:</b>",
+                      "contenido": [
+                        {
+                          "punto": "Síntomas cutáneos: urticaria, enrojecimiento de la piel, hinchazón de labios y párpados, dermatitis"
+                        },
+                        {
+                          "punto": "Síntomas gastrointestinales: vómitos, dolor cólico, diarrea, picor de boca y garganta"
+                        },
+                        {
+                          "punto": "Síntomas respiratorios: rinitis, asma"
+                        }
+                      ]
+                    },
+                    {
+                      "clase": "lista",
+                      "titulo": "<b>Más graves:</b>",
+                      "contenido": [
+                        {
+                          "punto": "Reacción anafiláctica que afecta a varios órganos y sistemas."
+                        },
+                        {
+                          "punto": "La manifestación más grave es el shock anafiláctico que puede resultar mortal."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Alérgenos",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<b>Alimentos que causan alergias</b>:<br>Casi cualquier alimento que contenga proteínas puede causar alergia alimentaria, pero algunos las originan con mayor frecuencia (sobre todo en niños): leche de vaca, huevo, pescado, marisco, leguminosas, cereales, frutas frescas y frutos secos. A continuación vamos a indicar los alérgenos de declaración obligatoria:"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod4/alergenos.svg"
+        }
+      ]
+    },
+        {
+      "titulo": "Contaminación cruzada (alérgenos)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInDown",
+          "texto": "Aunque hemos visto que casi cualquier alimento que contenga proteínas puede causar alergia alimentaria, también hay que tener en cuenta dos consideraciones:"
+        },
+        {
+          "clase": "acordeon",
+          "contenido": [
+            {
+              "titulo": "La contaminación cruzada (de alérgenos)",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Pueden existir alérgenos <b>presentes de forma no intencionada</b> resultado de una contaminación cruzada. Esto se produce cuando se transfieren alérgenos a un alimento que no los contiene por el contacto por contacto con superficies, equipos, útiles de trabajo o incluso las manos.<br>Por ejemplo: se puede contaminar un chorizo sin leche con proteínas de la leche porque utilizamos la misma cortadora, sin limpiar, después de haber loncheado queso.<br>La contaminación cruzada, entre productos que contienen alérgenos  y los que no, es uno de los <b>principales peligros en la gestión de los alérgenos</b>."
+                }
+              ]
+            },
+            {
+              "titulo": "Las trazas",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "En el etiquetado de alimentos debe aparecer obligatoriamente la composición de los productos y, por tanto, deben constar los principales alérgenos, sin embargo, muchas veces vemos una <b>advertencia</b>, fuera del listado de ingredientes del producto, tipo: “Puede contener trazas de...”; “Fabricado en una planta que utiliza…” o “Trazas de...”.<br>Esto significa que <b>es posible que el producto haya entrado en contacto</b> con el alérgeno (por ejemplo, en una misma línea de producción se elabora chocolate con y sin almendras, en el chocolate sin almendras pueden aparecer trazas de las mismas).<br>Por tanto, <b>las trazas</b> son pequeñísimas cantidades de alérgeno presentes en un producto y que no deberían aparecer en el mismo, ya que no forman parte de su composición. A pesar de encontrarse en tan mínima concentración, afectan <b>negativamente</b> a la salud de la persona alérgica o intolerante."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Las <b>medidas preventivas</b> para eliminar o minimizar las contaminaciones cruzadas se basan en Buenas Prácticas de Manipulación:"
+        },
+        {
+          "clase": "tabs",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Limpieza y desinfección",
+              "texto": "Se debe realizar una <b>limpieza y desinfección  adecuada</b> de la maquinaria (cortadoras), superficies (tablas de corte, etc.) y útiles de trabajo (pinzas, cuchillos, etc.), que van a entrar en contacto con los alimentos aptos para personas con alergias o intolerancias."
+            },
+            {
+              "titulo": "Separación",
+              "texto": "Se debe <b>evitar el contacto</b> de los productos libres de alérgenos con el resto de productos durante su preparación."
+            },
+            {
+              "titulo": "Lavado de manos",
+              "texto": "Se debe realizar una <b>limpieza adecuada de las manos</b> siempre que se vayan a preparar alimentos aptos para personas con alergias o intolerancias alimentarias."
+            },
+            {
+              "titulo": "Cambio de guantes",
+              "texto": "En caso de utilizar guantes, <b>se han de cambiar</b> cuando vayamos a manipular alimentos que no contengan alérgenos."
+            }
+          ]
+        },
+                {
+                  "clase": "imagen",
+                  "subclase": "ajustarAncho",
+                  "imagen": "img/comunes/separadorHierba.svg"
+        }
+      ]
+    },
+    {
+      "titulo": "Tratamiento",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "zoomIn",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/etiquetadoEnvases.svg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Hasta la fecha el único tratamiento que tienen las alergias alimentarias consiste en la <b>eliminación completa</b> de la alimentación del agente causante, pero esto puede no resultar sencillo. Por dicho motivo se ha de disponer de toda la información necesaria sobre la composición de los alimentos, y en este sentido el <b>etiquetado</b> se convierte en un elemento imprescindible de seguridad alimentaria.<br><br>En la <b>legislación actual</b> es obligatorio indicar la presencia de ingredientes que causan alergias e intolerancias.<br><br>En el caso de alimentos sin envasar, envasados a petición del consumidor y en la restauración, se permite facilitar la información sobre los ingredientes que causan alergias o intolerancias de <b>forma oral</b>, siempre que el establecimiento tenga dicha información por escrito o en formato electrónico a disposición del consumidor que lo solicite."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Enfermedades provocadas por bacterias",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "bounceInRight",
+          "texto": "Enfermedades de transmisión alimentaria por <b>microorganismos</b>: Como ya hemos visto, las enfermedades de transmisión alimentaria más frecuente se deben a la <b>contaminación</b> de los alimentos con bacterias patógenas y a su posterior multiplicación incontrolada. En la mayoría de los casos son consecuencia de un <b>tratamiento incorrecto</b> de los alimentos durante su obtención, transformación, almacenamiento o preparación."
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInLeft",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/M4mermelada.jpg"
+            },
+            {
+              "clase": "lista",
+              "titulo": "<b>Causas</b> de contaminación o multiplicación bacteriana en los alimentos:",
+              "contenido": [
+                {
+                  "punto": "Enfriamento <b>lento</b> de los alimentos preparados."
+                },
+                {
+                  "punto": "Preparación con demasiada <b>antelación</b> al consumo."
+                },
+                {
+                  "punto": "<b>Almacenamiento</b> inadecuado."
+                },
+                {
+                  "punto": "Conservación a temperatura <b>ambiente</b> de aquellos alimentos que requieren frío."
+                },
+                {
+                  "punto": "Tratamiento térmico o cocinado <b>insuficiente</b>."
+                },
+                {
+                  "punto": "Conservación en <b>caliente</b> por debajo de 65 ºC de platos preparados."
+                },
+                {
+                  "punto": "Higiene <b>personal</b> deficiente."
+                },
+                {
+                  "punto": "Contaminación <b>cruzada</b>."
+                },
+                {
+                  "punto": "Ingredientes sin garantía <b>sanitaria</b> reconocida."
+                }
+              ]
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Salmonella",
+      "contenido": [
+        {
+          "clase": "tabs",
+          "animacion": "fadeInLeft",
+          "contenido": [
+            {
+              "titulo": "Salmonella",
+              "texto": "<b>Salmonella</b>: Son las bacterias responsables de aproximadamente el 70%  de los casos registrados de intoxicación alimentaria. La enfermedad que producen es la <b>salmonelosis</b>. Es una enfermedad cuyos síntomas principalmente son fiebre alta, dolor abdominal, diarrea – a veces con sangre – náuseas, vómitos e incluso la muerte (se produce por deshidratación, generalmente ancianos, bebés y personas inmunodeprimidas (es decir, con las defensas disminuidas). El periodo de incubación varía entre <b>1 y 3 días</b>. Las salmonellas pueden llegar al área de manipulación de alimentos en la <b>superficie</b> de alimentos crudos como la carne, cáscara de huevos, etc.",
+              "imagen": "img/mod4/M4Salmonella.jpg",
+              "ancho":  300
+            },
+            {
+              "titulo": "Dónde se encuentran",
+              "texto": "Las salmonellas son bacterias que se encuentran distribuidas en todo el mundo. Son comunes en el intestino de animales domésticos, ganado (principalmente aves) y humanos (portadores), en la superficie de huevos y en la piel y patas de roedores e insectos."
+            },
+            {
+              "titulo": "Alimentos",
+              "texto": "Las bacterias pueden diseminarse desde alimentos <b>crudos a cocinados</b> (por manos, utensilios, corrientes de aire...). Ratas, ratones, cucarachas, moscas y otros insectos pueden contaminar los alimentos arrastrando suciedades sobre ellos y sobre los utensilios de cocina, o por deposiciones intestinales que llegan a los alimentos o los recipientes que los contienen. La infección alimentaria se produce cuando el alimento <b>no es cocinado</b> (o su cocción no es suficiente) y se conserva inadecuadamente."
+            },
+            {
+              "titulo": "Medidas preventivas",
+              "texto": "<ul><li>Las salmonellas se destruyen fácilmente por el <b>calor</b>, por tanto es importante asegurarse que en el centro del alimento se haya alcanzado una temperatura suficientemente alta para destruir todas las bacterias. No ingerir alimentos no tratados.</li><li>Utilizar <b>refrigeradores diferentes</b> para almacenar productos crudos y cocinados. Si no es posible, conservar los alimentos crudos en la parte inferior y los elaborados en la parte superior.</li><li>Buenos hábitos de <b>aseo manual</b>, sobre todo tras ir al baño y entre la manipulación de alimentos crudos y cocinados.</li><li>Emplear cuchillos y tablas de corte <b>separados</b> para la preparación de alimentos crudos y cocinados, para evitar la contaminación cruzada a partir de la superficie de los alimentos crudos.</li><li><b>Limpiar y desinfectar</b> adecuadamente equipos y superficies tras su uso y antes de comenzar otra tarea.</li><li><b>Proteger</b> a los alimentos de los roedores e insectos.</li></ul>",
+              "imagen": "img/mod4/M4huevos.jpg",
+              "ancho": 300
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "fadeInRight",
+          "texto": "<b>¿Sabías que</b> no es aconsejable lavar el huevo y, de hacerlo, que sea justo antes de cocinarlo? El motivo es que la cáscara del huevo tiene miles de poros por los que pueden acceder salmonellas y otros microorganismos y para evitarlo existe una cutícula exterior que tapona los poros pero que desaparece si lavamos el huevo (y así dejamos que penetre la Salmonella al interior del huevo)."
+        }
+      ]
+    },
+    {
+      "titulo": "Estafilococos",
+      "contenido": [
+        {
+          "clase": "tabs",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Estafilococos",
+              "texto": "<i><b>Staphylococcus aureus</b></i>: Son bacterias que provocan una intoxicación y no una infección alimentaria debido a que es una toxina la que produce la enfermedad. Al tratarse de una <b>intoxicación</b>, los primeros síntomas aparecen súbitamente y en un periodo corto, entre 6 y 24 horas después de la ingestión del alimento. Normalmente la enfermedad cursa con náuseas, vómitos, dolor abdominal, a menudo diarrea y en general sin fiebre.   El microorganismo es fácilmente destruido por el <b>calor</b>, pero no así la <b>toxina</b> (que recordemos es la causante de la enfermedad), que es <b>mucho más resistente</b> y no se destruye con el calor. La toxina se genera cuando la bacteria se multiplica a temperaturas superiores a 7ºC.",
+              "imagen": "img/mod4/estafilococos.jpg",
+              "ancho": 490
+            },
+            {
+              "titulo": "Dónde se encuentran",
+              "texto": "El <span class ='italic'>Staphylococcus aureus</span> se encuentra a menudo en la nariz, garganta, oídos y piel de las manos de individuos sanos. Está muy presente en heridas, arañazos, granos y demás alteraciones de la piel."
+            }, 
+            {
+              "titulo": "Alimentos",
+              "texto": "El <b>manipulador</b> transmite la bacteria cuando estornuda, habla, tose, silba, etc... sobre los alimentos, o cuando tiene heridas y no los cubre con vendajes limpios. También por pañuelos, ropas y sobre todo por las manos. Los estafilococos crecen muy bien en alimentos ricos en proteínas y previamente cocidos (precisamente al estar ya cocidos no contienen microorganismos y por este motivo el estafilococo no ve limitada su  multiplicación por la presencia de otros microorganismos). Destacan el <b>jamón cocido</b> y otros productos cárnicos, masas de confitería rellenas de crema, platos de pescados, leche y queso, salsas... Aunque los alimentos con gran concentración de <b>sal</b> o <b>azúcar</b> suelen anular el crecimiento de las bacterias, no tienen apenas efecto sobre los estafilococos. De ahí que se hayan encontrado en carnes curadas, alimento de difícil contaminación."
+            },
+            {
+              "titulo": "Medidas preventivas",
+              "texto": "<ul><li>Mantener los alimentos a temperaturas <b>inferiores a 7ºC o superiores a 70ºC</b> (es decir, fuera de la zona de peligro) para reducir la velocidad de multiplicación de las bacterias y la producción de toxinas.</li><li>Mantener un gran nivel de <b>higiene</b> personal y asegurarse de que todo el personal sigue unas Buenas Prácticas de Higiene.</li><li>Manipular el alimento lo <b>menos posible</b> (especialmente aquellos alimentos que no se van a cocinar de nuevo). Usar pinzas y guantes donde sea posible para reducir el contacto manual con el alimento.</li><li>Nunca usar los dedos para <b>probar</b> los alimentos durante la elaboración y desinfectar siempre el cubierto utilizado inmediatamente después de su uso.</li><li>Calentar los sobrantes <b>a fondo</b> y no sólo superficialmente para destruir los microorganismos.</li></ul>",
+              "imagen": "img/mod4/M4jamon.jpg",
+              "ancho": 300
+
+            }
+
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "fadeInLeft",
+          "texto": "<b>¿Sabías que</b> el nombre de <i>Staphylococcus aureus</i> o estafiloco dorado proviene de <i>staphyle</i> (que significa racimo), <i>coccus</i> (debido a la morfología redonda que tienen las bacterias) y <i>aureus</i> (que significa dorado) porque en laboratorio se observan como si fueran racimos de uvas de color oro?"
+        }
+      ]
+    },
+    {
+      "titulo": "<i>Clostridium botulinum</i>",
+      "contenido": [
+        {
+          "clase": "tabs",
+          "animacion": "fadeInLeft",
+          "contenido": [
+            {
+              "titulo": "<i>Clostridium botulinum</i>",
+              "texto": "<b><span class='italic'>Clostridium botulinum</span></b>: Al igual que con los estafilococos, volvemos a encontrarnos ante una intoxicación alimentaria y no una infección. En este caso la bacteria implicada es el <i>Clostridium botulinum</i>, que produce la toxina botulínica  y verdadera responsable de la enfermedad: el <b>botulismo</b>.<br><br> La toxina botulínica es una de las más potentes que existe y el índice de mortalidad de la enfermedad es muy elevado. El periodo de aparición de síntomas normalmente es de 12 a las 36 horas, aunque existen casos en los que han pasado de 6 a 14 días antes de que se presente la enfermedad. La toxina es una <b>neurotoxina</b>, es decir afecta al sistema nervioso central. Los síntomas comienzan con una visión borrosa, dolor de cabeza, cansancio general, debilidad muscular y dificultad para tragar. La respiración se hace irregular y la muerte sobreviene por asfixia.<br><br>La bacteria crece en ausencia de oxígeno y se encuentra habitualmente en botes de conserva, en el fondo de estofados o en el centro de grandes masas de alimentos, especialmente de carne, sobre todo de aves. Puede formar <b>esporas</b> (una espora es una bacteria protegida por una dura cubierta que le permite resistir viva en condiciones adversas; cuando remiten estas condiciones adversas, la cubierta protectora se disuelve  y la multiplicación y el crecimiento comienzan de nuevo). La espora es muy resistente a temperaturas elevadas, incluso a más de 100ºC.",
+              "imagen": "img/mod4/Clostridio.png",
+              "ancho": 490
+            },
+            {
+              "titulo": "Dónde se encuentran",
+              "texto": "Es una bacteria cuyo hábitat natural es la tierra y el polvo en prácticamente <b>todos los lugares del mundo</b>. También es fácil encontrarla en intestino de animales. Es capaz de formar esporas (una espora es una forma de resistencia que permite la supervivencia de la bacteria en estado latente ante condiciones adversas, como si fuera una cubierta protectora que envuelve a la bacteria. Cuando remiten las condiciones adversas, esta protección se disuelve y el Clostridio puede multiplicarse de nuevo). La espora es capaz de soportar temperaturas elevadas, incluso de más de 100ºC. Son bacterias a las que el oxígeno les resulta nocivo, y ante su presencia solamente podremos encontrarla en la forma de resistencia (espora). Esto es muy importante para tener en cuenta en alimentos en los que se generan condiciones de anaerobiosis (ausencia de oxígeno) como pueden ser las conservas."
+            },
+            {
+              "titulo": "Alimentos",
+              "texto": "Las <b>esporas</b> que se encuentran en el suelo, en la tierra que ensucia los vegetales, sacos, etc. pueden llegar a contaminar los alimentos si se les permite que alcancen las áreas de manipulación de alimentos (contaminación cruzada). Cuando se preparan <b>conservas</b>, si existen esporas en el alimento fresco y no se destruyen durante el tratamiento térmico que toda conserva requiere, pueden desarrollarse y dar lugar a bacterias que se multiplican y producen toxinas. En el caso de conservas caseras el riesgo es <b>muy elevado</b> debido a que no es fácil alcanzar y controlar la temperatura ideal que destruye el 100% de los microorganismos."
+            },
+            {
+              "titulo": "Medidas preventivas",
+              "texto": "<ul><li>La toxina es <b>termosensible</b>, es decir, es relativamente fácil de destruir mediante calor. Por tanto una <b>ebullición</b> durante 15 minutos, acompañada de movimiento de la comida, destruiría la toxina.</li><li>Realizar un correcto <b>curado</b> de los productos cárnicos.</li><li>Cocinar a <b>presión</b> en las operaciones de envasado.</li><li>Agregar <b>ciertos ácidos</b> convenientes y aprobados, capaces de impedir o dificultar el desarrollo de las bacterias.</li><li>No utilizar <b>conservas caseras</b>.</li></ul>",
+              "imagen": "img/mod4/M4conservas.jpg",
+              "ancho": 300
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "animacion": "fadeInRight",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías que</b> la toxina botulínica se utiliza en medicina estética, bajo el nombre de botox (marca del primer medicamento de este tipo que se comercializó) porque al producir parálisis muscular produce la relajación e inhibición del movimiento del músculo, y de esa manera se suavizan las arrugas y las líneas de expresión hasta hacerlas desaparecer?"
+        }
+      ]
+    },
+    {
+      "titulo": "<i>Clostridium perfringens</i>",
+      "contenido": [
+        {
+          "clase": "tabs",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "<i>Clostridium perfringens</i>",
+              "texto": "<b><i>Clostridium perfringens</i></b>: es una bacteria, que al igual que el <i>Clostridium botulinum</i>, solamente crece en ausencia de oxígeno y también es capaz de formar <b>esporas</b>. En el momento en el que forma la espora es cuando libera la toxina (por tanto, la enfermedad es una intoxicación). Las esporas son muy resistentes y no se destruyen con el cocinado (pudiendo resistir más de 1 hora a 100ºC). Tras la preparación culinaria, las esporas germinan rápidamente convirtiéndose en bacterias que se multiplican fácilmente a temperaturas entre 50ºC y 10ºC (por debajo de esta temperatura apenas se produce crecimiento, ya que es sensible al frío).<br><br>No es un tóxico tan potente como la toxina botulínica y los síntomas, más suaves, aparecen entre las 8 y las 12 horas después de la ingesta del alimento contaminado y suelen ser: dolor abdominal y diarrea (el vómito es raro). La duración  de la enfermedad varía entre 12 y 48 horas (normalmente duran menos de 24 horas).",
+              "imagen": "img/mod4/M4ClostridiumPerfringens.jpg",
+              "ancho": 490
+            },
+            {
+              "titulo": "Dónde se encuentran",
+              "texto": "Es una bacteria que se encuentra fácilmente en la <b>tierra y en el polvo</b>. Las esporas conteniendo las bacterias abundan mucho en las secreciones corporales de los individuos infectados y también en los intestinos de animales, por lo que las aguas contaminadas fecalmente pueden contener esporas."
+            }, 
+            {
+              "titulo": "Alimentos",
+              "texto": "C. perfringens puede ser detectado en numerosos alimentos crudos, resultado de contaminación con tierra o materia fecal (carnes, pescados y vegetales crudos), si bien normalmente los alimentos implicados en la enfermedad son grandes piezas de carne, salsas, aves y rellenos de éstas cuando han sido cocinadas y se han enfriado lentamente, en los que la bacteria crece  en grietas y cavidades del alimento y zonas donde se favorece la ausencia de oxígeno. Es una bacteria con mayor riesgo de aparición en establecimientos que elaboran grandes cantidades de comida con mucha anticipación a su consumo."
+            },
+            {
+              "titulo": "Medidas preventivas",
+              "texto": "<ul><li><b>Cocción a fondo</b> de los alimentos (especialmente las carnes)</li><li><b>Enfriar rápidamente</b> los alimentos cocinados y refrigerarlos inmediatamente. Es aconsejable dividir las masas grandes de alimento en porciones más pequeñas para facilitar el enfriamiento rápido.</li><li>Intentar <b>no recalentar</b> los alimentos, pero si se hace, asegurarse que se alcanza 100ºC tan rápidamente como sea posible y servirlos inmediatamente.</li><li>Tener siempre <b>separadas</b> las áreas de preparación de los alimentos crudos de las de los alimentos cocinados, especialmente <b>carnes y verduras</b>, para evitar la contaminación cruzada.</li><li>Utilizar <b>refrigeradores diferentes</b> para almacenar productos crudos y cocinados.</li><b>Limpiar y desinfectar</b> los equipos tras su uso y antes de comenzar otra tarea.</li><li><b>Lavarse las manos</b> después de la manipulación de carnes y verduras no lavadas.</li></ul>",
+              "imagen": "img/mod4/M4salsa.jpg",
+              "ancho": 300
+
+            }
+
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "fadeInLeft",
+          "texto": "<b>¿Sabías que</b> en condiciones óptimas el <i>Clostridium perfringens</i> se divide en dos cada 10 minutos?"
+        }
+      ]
+    },
+    {
+      "titulo": "<i>Bacillus cereus</i>",
+      "contenido": [
+        {
+          "clase": "tabs",
+          "animacion": "fadeInLeft",
+          "contenido": [
+            {
+              "titulo": "<i>Bacillus cereus</i>",
+              "texto": "<b><i>Bacillus cereus</i></b> es otra bacteria capaz de formar esporas muy resistentes a la temperatura y de provocar intoxicaciones, ya que cuando se multiplica en el alimento libera toxinas. Estas toxinas pueden ser de dos tipos, lo que produce dos formas diferentes de presentarse la enfermedad:<ul><li><b>Toxina emética</b>: produce una enfermedad cuyos síntomas característicos son náuseas y vómitos. Es una toxina resistente al calor y sólo se produce en el alimento.</li><li><b>Toxina diarreica</b>: produce una enfermedad caracterizada por dolores abdominales y diarrea. Es una toxina sensible al calor y se produce tanto en el alimento como en el intestino de la persona que ingiere los microorganismos.</li></ul> Los síntomas aparecen rápidamente tras la ingestión del alimento contaminado y normalmente duran poco tiempo.",
+              "imagen": "img/mod4/M4BacillusCereus.jpg",
+              "ancho": 490
+            },
+            {
+              "titulo": "Dónde se encuentran",
+              "texto": "Aunque las esporas se encuentran en muchos lugares como en el <b>agua</b> y también en el <b>aire</b> lo que provoca que cualquier alimento pueda verse contaminado, normalmente las fuentes de contaminación son la tierra y el polvo y <b>heces</b> de animales y personas."
+            }, 
+            {
+              "titulo": "Alimentos",
+              "texto": "Normalmente los alimentos implicados son los que han sido cocinados y se han <b>enfriado lentamente a temperatura ambiente</b>. Arroz, pasta y patatas suelen verse implicados en las intoxicaciones con toxina <b>emética</b>, mientras que los productos cárnicos y salsas suelen ser los alimentos involucrados en intoxicaciones con toxina <b>diarreica</b>."
+            },
+            {
+              "titulo": "Medidas preventivas",
+              "texto": "<ul><li>Evitar recalentar los alimentos más de una vez.</li><li>Realizar un correcto <b>calentamiento</b> de los alimentos</li><li><b>Refrigeración rápida</b> del alimento tras su cocinado.</li><li>Adecuada <b>limpieza y desinfección</b> de los utensilios tras su empleo.</li><li>Evitar <b>contaminaciones cruzadas</b> entre alimentos crudos y cocinados.</li></ul>",
+              "imagen": "img/mod4/M4Arroz.jpg",
+              "ancho": 300
+
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "fadeInRight",
+          "texto": "<b>¿Sabías que</b> la multiplicación de <i>Bacillus cereus</i> en los alimentos cocinados y enfriados lentamente o mantenidos a temperaturas inadecuadas se favorece enormemente por el hecho de que el tratamiento térmico destruyó a los otros microorganismos, lo que implica que no tenga competencia que limite su crecimiento?"
+        }
+
+      ]
+    },
+    {
+      "titulo": "<i>Listeria monocytogenes</i>",
+      "contenido": [
+        {
+          "clase": "tabs",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "<i>Listeria monocytogenes</i>",
+              "texto": "<b><i>Listeria monocytogenes</i></b>: es una bacteria cuya característica principal es que, aunque NO forma esporas, es muy resistente y puede sobrevivir a condiciones de calentamiento (aunque no la pasteurización), desecación, concentración de sal y es capaz de multiplicarse a temperaturas de refrigeración (pudiendo alcanzar cifras significativas si transcurre suficiente tiempo).<br><br>Aunque la mayoría de adultos sanos no desarrolla ningún síntoma, la enfermedad que provoca, la listeriosis, afecta principalmente a personas inmunodeprimidas (con las defensas bajas), niños, ancianos y mujeres embarazadas y fetos. Los síntomas pueden manifestarse después de 3 días hasta 21 días después de la ingesta del alimento contaminado y algunas personas presentan síntomas similares a una gripe con fiebre y evolucionar a sintomatología gastrointestinal. En mujeres embarazadas puede llegar a provocar abortos o la muerte del feto.",
+              "imagen": "img/mod4/M4Listeria.jpg",
+              "ancho": 400
+            },
+
+            {
+              "titulo": "Dónde se encuentran",
+              "texto": "Se encuentra prácticamente en cualquier parte, ya que está ampliamente distribuida en el medioambiente: suelos, aguas, vegetación, así como intestino de hombres y de animales salvajes y domésticos, aves y peces."
+            },
+            {
+              "titulo": "Alimentos",
+              "texto": "Los alimentos involucrados tienen que ver con productos crudos (vegetales y hortalizas, pescados y mariscos, carnes…), productos refrigerados durante largos periodos que no precisan un tratamiento térmico para su consumo y principalmente se asocia a leche cruda o productos lácteos como quesos frescos o poco maduros, helados u otros productos (como los patés) elaborados con leche cruda o mal pasteurizada."
+            },
+            {
+              "titulo": "Medidas preventivas",
+              "texto": "<ul><li>Utilizar lo <b>antes posible</b> todos los productos perecederos que estén precocinados o que vengan listos para comer. Observar con detenimiento todas las <b>fechas de caducidad</b> de dichos productos.</li><li><b>Limpieza y desinfección</b> frecuente de las cámaras de refrigeración.</li><li>Evitar el consumo de patés, leche, quesos y productos lácteos que no hayan tenido un <b>tratamiento térmico</b>.</li><li>Las personas que constituyan un grupo de riesgo deberían evitar los <b>derivados cárnicos</b>, tales como salchichas, patés, fiambres, embutidos, etc. salvo que estén recalentados hasta el punto de emitir vapor.</li><li><b>Cocinar muy bien</b> todos los alimentos, especialmente carnes, mariscos y pescados (evitar pescados y mariscos ahumados).</li><li><b>Recalentar muy bien</b> todas las sobras de las comidas hasta que observe el vapor.</li><li><b>Lavarse las manos</b> adecuadamente después de manipular alimentos frescos. Asimismo, lavar meticulosamente las frutas, vegetales y hortalizas, tablas de cortar, vajillas y utensilios con el fin de eliminar cualquier bacteria que haya podido contaminar los alimentos antes de ser recalentados.</li>",
+              "imagen": "img/mod4/M4Lacteos.jpg",
+              "ancho": 300
+
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "fadeInLeft",
+          "texto": "<b>¿Sabías que</b> la <i>Listeria monocytogenes</i> solo empezó a considerarse patógeno humano a partir de los años 80 y que hoy en día es uno de los agentes más importantes de enfermedades de transmisión alimentaria? Entre las explicaciones posibles se encuentra la utilización cada vez mayor de la refrigeración como medio de conservación y los cambios en los hábitos de comida en la población, respecto a la comodidad de alimentos ya preparados."
+        }
+      ]
+    },
+    {
+      "titulo": "<i>Escherichia coli</i>",
+      "contenido": [
+        {
+          "clase": "tabs",
+          "animacion": "fadeInLeft",
+          "contenido": [
+            {
+              "titulo": "<i>Escherichia coli</i>",
+              "texto": "<b><span class='italic'>Escherichia coli</span></b>: es una bacteria muy abundante en el tubo digestivo de los mamíferos, donde constituye parte esencial de la flora intestinal y, en condiciones normales, se le atribuyen efectos beneficiosos para la salud. Sin embargo, hay cepas de estas bacterias capaces de provocar alteraciones graves y brotes de toxiinfecciones alimentarias. Éstas se dividen en dos grupos:<ul><li>Bacterias que producen una <b>enterotoxina</b> y provocan una enfermedad similar al cólera (diarrea, vómitos, deshidratación). Son las responsables de las diarreas infantiles y de las llamadas «diarreas del viajero».</li><li>Bacterias que <b>no</b> producen <b>enterotoxina</b> pero son invasivas del intestino y provocan <b>colitis</b> (inflamación del intestino grueso) y cuadros similares a una sigelosis (disentería bacilar) con fiebre, escalofríos, dolores de cabeza, espasmos abdominales y diarrea, entre otros.</li><br><br>Aunque con una incidencia muy baja, existe una cepa en particular, la Escherichia coli O157:H7 que puede producir una toxina cuyos síntomas más graves provocan diarreas abundantes con sangre, fallo renal y puede resultar mortal.",
+              "imagen": "img/mod4/M4bacteriaColi.jpg",
+              "ancho": 490
+            },
+            {
+              "titulo": "Dónde se encuentran",
+              "texto": "Escherichia coli es un tipo de bacteria que vive en el <b>intestino</b>, donde forma parte de la flora intestinal del hombre y animales (mamíferos). A partir de ahí puede alcanzar los alimentos de diversas formas, como puede ser: rotura del tubo intestinal en la evisceración de los animales de abasto  en el caso de las carnes; utilización de aguas de riego contaminadas en el caso de verduras y hortalizas; moscas o insectos que transporten la bacteria en sus patas, presencia de animales – salvajes y/o domésticos- en zonas de elaboración de alimentos..."
+            }, 
+            {
+              "titulo": "Alimentos",
+              "texto": "Los alimentos implicados incluyen cualquier alimento expuesto a una <b>contaminación fecal</b>: tanto los alimentos crudos como carnes, pescados y mariscos, vegetales o el agua como los alimentos preparados contaminados por prácticas higiénicas deficientes del personal manipulador o presencia de insectos. Normalmente son alimentos con una fuerte contaminación o incorrectamente conservados. La cepa E. coli O157:H7 se relaciona principalmente con la <b>carne de bovino</b>, especialmente con la carne picada (hamburguesas) poco hecha, pero también con leche cruda y vegetales crudos."
+            },
+            {
+              "titulo": "Medidas preventivas",
+              "texto": "<ul><li><b>Control</b> de los alimentos frescos en origen, principalmente leche y carne. También el agua.</li><li><b>Vigilancia</b> de una posible contaminación posterior y contaminación cruzada de alimentos.</li><li><b>Control</b> de los alimentos frescos en origen, principalmente leche y carne. También el agua.</li><li><b>Refrigeración</b> adecuada a temperatura y en el tiempo. </li><li><b>Tratamientos térmicos</b> adecuados de los alimentos (al menos alcanzar 72ºC en el interior del producto).</li></ul>",
+              "imagen": "img/mod4/M4Hamburguesa.jpg",
+              "ancho": 300
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "fadeInRight",
+          "texto": "<b>¿Sabías que</b> <i>Escherichia coli</i> se puede transmitir no sólo a través de los alimentos, sino también de persona a persona, a través de las manos si no hay una higiene adecuada de las mismas, y por agua contaminada en las piscinas con tratamiento deficiente?"
+        }
+      ]
+    },
+
+    {
+
+      "titulo": "Cuadro resumen",
+      "contenido": [
+        {
+          "clase": "tabla",
+                    "animacion": "bounce",
+          "filaTitulos": [
+            {
+              "titulo": "Nombre"
+            },
+            {
+              "titulo": "Efectos"
+            },
+            {
+              "titulo": "¿Dónde encontrarlos?"
+            },
+            {
+              "titulo": "Alimentos"
+            },
+            {
+              "titulo": "Medidas preventivas"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "<b>Salmonella</b> (Salmonelosis)"
+                },
+                {
+                  "texto": "Fiebre alta, dolor abdominal, diarrea, náuseas, vómitos en incluso la muerte."
+                },
+                {
+                  "texto": "<ul><li>Intestino de las personas y animales</li><li>Superficie de los huevos</li><li>Verduras regadas con aguas residuales</li><li>Cuerpo y patas de ratas, ratones e insectos</li></ul>"
+                },
+                {
+                  "texto": "Huevos, carne de ave, pasteles, leche y productos lácteos",
+                  "imagen": "img/mod4/patogenosAlimentos1.svg",
+                  "ancho": 150
+                },
+                {
+                  "texto": "Temperaturas mínimas de cocción a 65ºC (10 minutos) o 70ºC (5 minutos)<br>pH ácido<br>Higiene personal adecuada<br>Higiene, desinfección y manipulación correcta en mataderos."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<b>Estafilococos</b> (Intoxicación estafilocócica)"
+                },
+                {
+                  "texto": "Náuseas, vómitos, dolor abdominal y diarrea, sin fiebre. Calambres musculares, escalofríos, estados de shock."
+                },
+                {
+                  "texto": "<ul><li>Nariz, garganta y piel de las personas.</li><li>Cortes, arañazos, granos, orzuelos...</li></ul>"
+                },
+                {
+                  "texto": "Natas, cremas, salsas, quesos.",
+                  "imagen": "img/mod4/patogenosAlimentos3.svg",
+                  "ancho": 150
+                },
+                {
+                  "texto": "Refrigeración de alimentos preparados<br>Evitar producción de toxina (mantener a menos de 7ºC)<br>Control de portadores<br>Evitar la manipulación de alimento en la medida de lo posible<br>Extremar la higiene del manipulador."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<b>Clostridium botulinum</b> (Botulismo)"
+                },
+                {
+                  "texto": "Trastornos nerviosos (debilidad, vértigo, alteraciones de la visión, fallo respiratorio) e incluso muerte."
+                },
+                {
+                  "texto": "<ul><li>Sobre todo en la tierra.</li><li>Intestinos de los peces.</i></ul>"
+                },
+                {
+                  "texto": "Conservas caseras, productos cárnicos envasados.",
+                  "imagen": "img/mod4/patogenosAlimentos2.svg",
+                  "ancho": 150
+                },
+                {
+                  "texto": "Destrucción de la toxina a temperaturas superiores a 90º C<br>Refrigeración<br>Acidificación y salazón<br>Evitar conservas caseras."
+                }             
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<b>Listeria monocytogenes</b> (listeriosis)"
+                },
+                {
+                  "texto": "Fiebre, dolor de cabeza, a veces meningitis, aborto, coma, muerte."
+                },
+                {
+                  "texto": "<ul><li>Tierra.</li><li>Aguas no potables.</li><li>Algunas personas.</li><li>Animales.</li></ul>"
+                },
+                {
+                  "texto": "Leche cruda, quesos frescos, productos cárnicos, verduras y hortalizas.",
+                  "imagen": "img/mod4/patogenosAlimentos4.svg",
+                  "ancho": 150
+                },
+                {
+                  "texto": "Realizar una higienización, almacenamiento y tratamiento térmico adecuados. No beber leche cruda (al menos debe haber sido sometida a pasteurización: y esto también es de aplicación en la elaboración de derivados lácteos como quesos frescos, helados…). Evitar la contaminación cruzada, especialmente de carnes crudas, pescados, marisco y vegetales con alimentos preparados. Lavar frutas y verduras con abundante agua. Almacenar los envases y embalajes aislados del entorno. Precaución especial por parte de mujeres embarazadas."
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<b>Escherichia coli</b>"
+                },
+                {
+                  "texto": "Vómitos, dolores abdominales, diarreas, insuficiencia renal."
+                },
+                {
+                  "texto": "<ul><li>Tubo digestivo de los animales y las personas.</li><li>Aguas no potables.</li></ul>"
+                },
+                {
+                  "texto": "Carne, productos lácteos, frutas y verduras, pescados ahumados, almejas",
+                  "imagen": "img/mod4/patogenosAlimentos5.svg",
+                  "ancho": 150
+                },
+                {
+                  "texto": "Higiene en mataderos<br>Tratamiento de aguas adecuado (cloración de agua de piscinas)<br>Tratamiento térmico adecuado y suficiente del alimento."
+                }
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Enfermedades causadas por virus",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "lightSpeedIn",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "¿Qué <b>virus</b> causan habitualmente las enfermedades transmitidas por los alimentos?<br>Existen unos cuantos tipos de virus que provocan la mayoría de enfermedades virales de origen alimentario, entre ellos: ",
+              "contenido": [
+                {
+                  "punto": "El <b>norovirus</b>  o virus del tipo Norwalk (la enfermedad de origen viral transmitida por alimentos más común, causante de la gastroenteritis, una afección médica caracterizada por diarrea, vómitos y dolor abdominal)."
+                },
+                {
+                  "punto": "La <b>hepatitis</b> A y E (que causan inflamación del hígado)."
+                },
+                {
+                  "punto": "El <b>rotavirus</b> (asociado especialmente con la gastroenteritis en niños)."
+                }
+
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod4/M4Agua.jpg"
+            }
+          ]
+        },
+
+        {
+          "clase": "texto",
+                    "animacion": "lightSpeedIn",
+          "texto": "La <b>profilaxis</b> se basa en extremar las condiciones higiénicas y el control del agua."
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "rotateInUpLeft",
+          "texto": "<b>¿Sabías que</b> existe una creencia popular, la regla de los cinco segundos, según la cual si un alimento cae al suelo y lo recoges antes de que transcurran 5 segundos, el alimento no se contamina con microorganismos y puede comerse con seguridad? A pesar de ser totalmente falso, se llegaron a realizar estudios científicos para demostrar que con el mero contacto basta para que se produzca la contaminación."
+        }
+
+      ]
+    },
+    {
+      "titulo": "Enfermedades causadas por parásitos",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "lightSpeedIn",
+          "texto": "Las enfermedades de transmisión alimentaria causadas por <b>parásitos</b> suelen producirse principalmente a través del agua y alimentos crudos o poco cocinados (vegetales, carnes y pescados) contaminados.<br>Hay una gran variedad de parásitos que pueden afectar al organismo humano y, en consecuencia, sus efectos también varían, desde incómodas gastroenteritis hasta patologías crónicas.<br><br>Entre los parásitos/enfermedades más comunes tenemos:"
+        },
+        {
+          "clase": "acordeon",
+          "animacion": "bounce",
+          "contenido": [
+            {
+              "titulo": "Anisakiasis",
+              "texto": "Enfermedad provocada por Anisakis simplex debida al consumo de <b>pescados y mariscos</b> insuficientemente cocinados o crudos.",
+              "imagen": "img/mod4/M4anisakis.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Triquinosis",
+              "texto": "Enfermedad provocada por <i>Trichinella spiralis</i> normalmente asociada al consumo de <b>carnes</b> de cerdo o caza crudas o poco cocinadas.",
+              "imagen": "img/mod4/M4trichinella.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Giardiasis",
+              "texto": "Enfermedad causada por <i>Giardia lamblia</i>, normalmente asociada al agua, vegetales crudos y carnes poco cocinadas.",
+              "imagen": "img/mod4/M4Giardia.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Toxoplasmosis",
+              "texto": "Enfermedad causada por <i>Toxoplasma gondii</i>, normalmente asociada al agua y  alimentos vegetales y animales crudos o insuficientemente cocinados.",
+              "imagen": "img/mod4/M4Toxoplasma.jpg",
+              "ancho":  275
+            },
+            {
+              "titulo": "Teniasis",
+              "texto": "Enfermedad causada por las tenias, siendo las más conocidas <i>Taenia saginata</i> (asociada a carne de bovinos) y <i>Taenia solium</i> (asociada a carne porcina), más conocida como \"la solitaria\".",
+              "imagen": "img/mod4/M4tenia.png",
+              "ancho": 275
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+           "animacion": "rotateInUpRight",
+          "texto": "<b>¿Sabías que</b> cada año, en Europa, más de 2.500 personas sufren una infección parasitaria transmitida por alimentos?"
+        }
+      ]
+    },
+    {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "Entre las intoxicaciones alimentarias figuran:",
+              "respuestas": [
+                {
+                  "opcion": "Intoxicaciones causadas por sustancias químicas naturales presentes en el alimento.",
+                  "correcto": false,
+                  "feedback": "Un ejemplo sería la ingestión de setas venenosas."
+                },
+                {
+                  "opcion": "Intoxicaciones causadas por compuestos tóxicos producidos por microorganismos.",
+                  "correcto": false,
+                  "feedback": "Un ejemplo sería la toxina botulínica o la toxina estafilocócica, ambas producidas por bacterias."
+                },
+                {
+                  "opcion": "Intoxicaciones causadas por compuestos químicos contaminantes.",
+                  "correcto": false,
+                  "feedback": "Un ejemplo serían los metales pesados en el pescado, o alimentos contaminados con productos de limpieza y desinfección."
+                },
+                {
+                  "opcion": "Todas las respuestas son correctas.",
+                  "correcto": true,
+                  "feedback": "Correcto."
+                }
+              ]
+            },
+            {
+              "texto": "Para que se produzca enfermedad debida al consumo de alimentos o bebidas:",
+              "respuestas": [
+                {
+                  "opcion": "La persona afectada debe tener el sistema inmunitario debilitado (tener las \"defensas bajas\").",
+                  "correcto": false,
+                  "feedback": "No es totalmente correcto. Aunque sí es cierto que este hecho aumenta la susceptibilidad para padecer la enfermedad (o que se presente con síntomas más graves)."
+                },
+                {
+                  "opcion": "La persona afectada debe haber ingerido mucha cantidad de alimento o bebida contaminados.",
+                  "correcto": false,
+                  "feedback": "No es cierto. Dependerá de la dosis infectiva y del tipo de agente causante de la enfermedad. No representaría el mismo peligro comer 1 g de alimento con 10.000 bacterias patógenas que 100 g de alimento con esas 10.000 bacterias."
+                },
+                {
+                  "opcion": "El alimento debe contener un número suficiente de bacterias.",
+                  "correcto": false,
+                  "feedback": "No es del todo correcto, ya que la enfermedad solamente se podría desarrollar si esas bacterias fueran patógenas."
+                },
+                {
+                  "opcion": "Dependerá de varias circunstancias como son: el tipo de agente que causa la enfermedad y la cantidad del mismo así como el estado de la persona que consume el alimento o bebida.",
+                  "correcto": true,
+                  "feedback": "Correcto."
+                }
+              ]
+            },
+            {
+              "texto": "¿Qué puede resultar más grave: una alergia o una intolerancia alimentaria?",
+              "respuestas": [
+                {
+                  "opcion": "Alergia.",
+                  "correcto": true,
+                  "feedback": "La alergia puede llegar a producir la muerte por shock anafiláctico."
+                },
+                {
+                  "opcion": "Intolerancia.",
+                  "correcto": false,
+                  "feedback": "La intolerancia puede ser muy molesta, pero los síntomas no llegan a la gravedad de la alergia."
+                },
+                {
+                  "opcion": "Las dos por igual.",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                },
+                {
+                  "opcion": "Depende del alimento que provoque la alergia/intolerancia.",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                }
+              ]
+            },
+            {
+              "texto": "Un alérgeno es:",
+              "respuestas": [
+                {
+                  "opcion": "Una sustancia inofensiva pero que en personas alérgicas se transforma en una sustancia tóxica.",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                },
+                {
+                  "opcion": "Una sustancia tóxica pero que las personas no alérgicas destruyen fácilmente y no causa problemas.",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                },
+                {
+                  "opcion": "Una sustancia inofensiva pero que en personas alérgicas provoca una reacción exagerada del sistema inmune.",
+                  "correcto": true,
+                  "feedback": "Correcto."
+                },
+                {
+                  "opcion": "Una sustancia tóxica que provoca alergia tanto a personas alérgicas como a personas no alérgicas.",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                }
+              ]
+            },
+            {
+              "texto": "Como medida general para evitar la multiplicación de las bacterias en los alimentos recién cocinados que no se van a consumir de inmediato, tenemos:",
+              "respuestas": [
+                {
+                  "opcion": "Enfriar los alimentos calientes directamente en la nevera o en el congelador, así las bacterias que pudieran sobrevivir no tienen tiempo para desarrollarse.",
+                  "correcto": false,
+                  "feedback": "El alimento se iría enfriando de forma no uniforme: mientras una parte estaría enfriando, otra podría permitir el desarrollo de bacterias. Vamos a aumentar la temperatura de la nevera, por lo que los alimentos ahí guardados aumentarían su temperatura y permitiríamos la multiplicación bacteriana. Provocaremos que el equipo de frío tenga que trabajar para volver a la temperatura marcada, lo que implica un considerable gasto de energía además de limitar la vida del equipo."
+                },
+                {
+                  "opcion": "Enfriar los alimentos recién cocinados lo más rápidamente posible. Trasvasarlos a recipientes pequeños (lo que facilita su enfriamiento) e introducir en la nevera o congelador.",
+                  "correcto": true,
+                  "feedback": "A tener en cuenta que los recipientes deben encontrarse en perfecto estado higiénico y ser aptos para utilización con alimentos."
+                },
+                {
+                  "opcion": "Dejar enfriar los alimentos durante mucho tiempo a temperatura ambiente y luego introducirlos en la nevera o en el congelador.",
+                  "correcto": false,
+                  "feedback": "Los alimentos se deben mantener fuera de la nevera o de la congelación el tiempo mínimo posible."
+                },
+                {
+                  "opcion": "En los alimentos recién cocinados no hay bacterias supervivientes, por lo que bastaría con evitar la contaminación aislando el alimento.",
+                  "correcto": false,
+                  "feedback": "Se debe, en todo momento, evitar nuevas recontaminaciones del alimento, pero el cocinado no garantiza la destrucción de todas las bacterias (esporas)."
+                }
+              ]
+            },
+            {
+              "texto": "Los insectos pueden  transportar en sus patas y cuerpo bacterias o virus patógenos que depositan en los alimentos sobre los que se posan. Esta afirmación es:",
+              "respuestas": [
+                {
+                  "opcion": "Verdadera.",
+                  "correcto": true,
+                  "feedback": "Correcto."
+                },
+                {
+                  "opcion": "Falsa.",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                }
+              ]
+            },
+            {
+              "texto": "Los envases y recipientes utilizados para alimentos, deben estar almacenados de manera que se evite su contaminación. Para ello:",
+              "respuestas": [
+                {
+                  "opcion": "Deberán colocarse boca abajo para que no acumulen suciedad en su interior y alejados de cualquier fuente de alimentación",
+                  "correcto": true,
+                  "feedback": "Correcto."
+                },
+                {
+                  "opcion": "Deberán colocarse de cualquier manera, pero alejados de fuentes de contaminación.",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                },
+                {
+                  "opcion": "No importa cómo se almacenen siempre que estén limpios y desinfectados en el momento de hacerlo.",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                },
+                {
+                  "opcion": "Deberán limpiarse y desinfectarse justo antes de su uso, por lo que no es importante la manera de almacenarlos.",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                }
+              ]
+            },
+            {
+              "texto": "Una de las siguientes afirmaciones es <b>falsa</b>. Indica cuál:",
+              "respuestas": [
+                {
+                  "opcion": "Hay bacterias  capaces de sobrevivir  a los tratamientos de pasteurización.",
+                  "correcto": false,
+                  "feedback": "Correcto. Pueden sobrevivir tanto bacterias alterantes como patógenas, y por dicho motivo los productos pasteurizados han de conservarse en refrigeración."
+                },
+                {
+                  "opcion": "No hay ninguna bacteria patógena que se reproduzca a temperaturas de refrigeración.",
+                  "correcto": true,
+                  "feedback": "Incorrecto. Listeria monocytogenes es capaz de multiplicarse, lentamente, a temperaturas de refrigeración."
+                },
+                {
+                  "opcion": "Las bacterias que forman esporas son capaces de sobrevivir a una pasteurización.",
+                  "correcto": false,
+                  "feedback": "Correcto. La espora es una forma de resistencia que puede soportar las temperaturas  de pasteurización."
+                },
+                {
+                  "opcion": "Las bacterias patógenas sobreviven a las temperaturas de refrigeración y congelación.",
+                  "correcto": false,
+                  "feedback": "Correcto. El frío no destruye las bacterias."
+                }
+              ]
+            },
+            {
+              "texto": "De las siguientes bacterias indica cuál es capaz de formar esporas:",
+              "respuestas": [
+                {
+                  "opcion": "Bacillus cereus.",
+                  "correcto": true,
+                  "feedback": "Correcto"
+                },
+                {
+                  "opcion": "Salmonella spp.",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                },
+                {
+                  "opcion": "Escherichia coli.",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                },
+                {
+                  "opcion": "Staphylococcus aureus.",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                },
+                {
+                  "opcion": "Listeria monocytogenes.",
+                  "correcto": false,
+                  "feedback": "No es correcto."
+                }
+              ]
+            },
+            {
+              "texto": "Una de estas bacterias no origina toxinas. ¿Sabrías identificar cuál?",
+              "respuestas": [
+                {
+                  "opcion": "Escherichia coli O157:H7.",
+                  "correcto": false,
+                  "feedback": "Esta cepa en concreto es capaz de originar una toxina que puede llegar a ser mortal."
+                },
+                {
+                  "opcion": "Bacillus cereus.",
+                  "correcto": false,
+                  "feedback": "Produce dos tipos de toxina: emética y diarreica."
+                },
+                {
+                  "opcion": "Staphylococcus aureus.",
+                  "correcto": false,
+                  "feedback": "Produce una toxina cuando se encuentra a temperaturas mayores de 7ºC."
+                },
+                {
+                  "opcion": "Clostridium botulinum.",
+                  "correcto": false,
+                  "feedback": "Produce la toxina botulínica, una de las más potentes que existen."
+                },
+                {
+                  "opcion": "Salmonella spp.",
+                  "correcto": true,
+                  "feedback": "Correcto."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInDown",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
+              "imagen": "img/mod4/M4despedida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "En este módulo has descubierto, de forma sencilla, cuáles son las enfermedades de <b>trasmisión alimentaria</b> más habituales, sus síntomas y qué organismo es el causante. Y lo más importante: también has visto las <b>medidas preventivas</b> para evitar la aparición de dichas enfermedades.<br><br>En el próximo módulo vamos a completar dichas medidas preventivas, pero centrándonos en el manipulador de alimentos, en sus prácticas y en sus hábitos higiénicos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta pronto!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}

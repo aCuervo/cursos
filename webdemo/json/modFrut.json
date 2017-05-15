@@ -1,0 +1,1167 @@
+﻿{
+  "modulo": "Módulo Específico: Sector Frutas, verduras y derivados",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Introducción",
+      "fondo": "img/modFru/greengrocers.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "texto": "Hasta ahora en los módulos anteriores has visto todo lo relacionado con la Higiene y Seguridad Alimentaria de forma amplia, pero genérica."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "texto": "En este Módulo vas a poder ampliar la información vista anteriormente pero enfocada exclusivamente al <b>Sector de las Frutas y Hortalizas</b>, desde las alteraciones más comunes que sufren estos productos hasta los peligros más específicos, como pueden ser ciertos contaminantes químicos."
+        }
+      ]
+    },
+    {
+      "titulo": "Definiciones",
+      "contenido": [
+        {
+          "clase": "icono",
+          "animacion": "fadeInRight",
+          "subclase": "definicion",
+          "texto": "<b>Definiciones:</b><br>A continuación vamos a ver la definición de hortalizas, verduras, legumbres, frutas y setas."
+        },
+        {
+          "clase": "tabs",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Hortalizas",
+              "texto": "Toda planta herbácea que se cultiva y que es adecuada para el consumo, bien cruda o bien cocinada. El término <b>verdura</b> hace referencia a los órganos verdes de dichas plantas, especialmente hojas, tallos, frutos en vaina o flores.",
+              "imagen": "img/modFru/hortalizas.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Legumbres",
+              "texto": "Semillas contenidas en las vainas de las plantas de la familia de las leguminosas. El término <b>legumbres frescas</b> se refiere a los frutos y semillas no maduros de las hortalizas leguminosas.",
+              "imagen": "img/modFru/legumbres.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Frutas",
+              "texto": "El conjunto de <b>frutos comestibles</b> de ciertas plantas cultivadas o silvestres.",
+              "imagen": "img/modFru/fruits.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Setas",
+              "texto": "Son variedades de <b>hongos comestibles</b>, entre los que destacan champiñones, níscalos, boletus, etc.",
+              "imagen": "img/modFru/setas.jpg",
+              "ancho": 200
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "fadeInRight",
+          "texto": "<b>¿Sabías que...</b><br>en su origen las variedades de zanahorias tenían diferentes colores: púrpura, blanco, amarillo… y que según una tradición el actual color naranja se debe a un cruce de variedades realizado deliberadamente en el siglo XVI en Holanda para homenajear a la Casa Real Holandesa de Orange cuyo emblema era el color naranja?",
+          "imagen": "img/modFru/carrots.jpg",
+          "ancho": 150
+        }
+      ]
+    },
+    {
+      "titulo": "Origen de las hortalizas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Los distintos vegetales que consumimos como alimento tienen su origen en los distintos tipos de tejidos vegetales. En la imagen verás el origen de las hortalizas <b>según la parte de la planta que se consume.</b>"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/verduras.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Origen de las frutas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Los frutos (los de sabor dulce reciben el nombre de frutas) se originan a partir de la <b>pared del ovario de la flor</b> (pistilo), la cual por efecto de las hormonas vegetales adopta un grosor y consistencia muy variable, en función del tipo de fruto que se trate."
+            },
+            {
+              "clase": "imagen",
+              "animacion": "slideInRight",
+              "imagen": "img/modFru/frutas.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Clasificación de las hortalizas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "slideInRight",
+          "texto": "<center>Sitúa el ratón sobre cada icono para ver la clasificación y algunos ejemplos.</center>"
+        },
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "<center><b>HORTALIZAS</b><br>Las hortalizas se clasifican según su órgano de consumo en:</center>"
+        },
+        {
+          "clase": "circulo",
+          "subclase": "horizontal",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "imagen": "img/modFru/hraiz.jpg",
+              "titulo": "Raíz",
+              "texto": "Nabo, rábano, zanahoria, remolacha."
+            },
+            {
+              "imagen": "img/modFru/htuberculos.jpg",
+              "titulo": "Tubérculo",
+              "texto": "Patata, batata, mandioca o yuca."
+            },
+            {
+              "imagen": "img/modFru/hbulbos.jpg",
+              "titulo": "Bulbo",
+              "texto": "Ajo, cebolla, puerro."
+            },
+            {
+              "imagen": "img/modFru/htallos.jpg",
+              "titulo": "Hojas y tallos tiernos",
+              "texto": "Lechuga, perejil, acelga, berro, repollo, espárragos, apio."
+            },
+            {
+              "imagen": "img/modFru/hinflorescencia.jpg",
+              "titulo": "Inflorescencia",
+              "texto": "Alcachofa, brócoli, coliflor, romanescu."
+            },
+            {
+              "imagen": "img/modFru/hfrutos.jpg",
+              "titulo": "Frutos",
+              "texto": "Pimiento, berenjena, guindilla, tomate."
+            },
+            {
+              "imagen": "img/modFru/hsemillas.jpg",
+              "titulo": "Semilla",
+              "texto": "Haba, guisante, alubia, garbanzo, lenteja."
+            },
+            {
+              "imagen": "img/modFru/hpeponides.jpg",
+              "titulo": "Pepónides",
+              "texto": "Calabaza, pepino, calabacín. También melón y sandía pero que vamos a asignar como Frutas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Clasificación de las frutas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "slideInRight",
+          "texto": "<center>Sitúa el ratón sobre cada icono para ver la clasificación y algunos ejemplos.</center>"
+        },
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "<center><b>FRUTAS</b></center>"
+        },
+        {
+          "clase": "circulo",
+          "subclase": "horizontal",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "imagen": "img/modFru/fsecos.jpg",
+              "titulo": "Frutos secos",
+              "texto": "Nuez, avellana, castaña, almendra"
+            },
+            {
+              "imagen": "img/modFru/fhueso.jpg",
+              "titulo": "Frutas de hueso",
+              "texto": "Melocotón, nectarina, paraguayo, albaricoque, aguacate, ciruela, cereza."
+            },
+            {
+              "imagen": "img/modFru/fpepita.jpg",
+              "titulo": "Frutas de pepita",
+              "texto": "Manzana, pera, níspero, membrillo."
+            },
+            {
+              "imagen": "img/modFru/fgrano.jpg",
+              "titulo": "Frutas de grano",
+              "texto": "Fresa e higo."
+            },
+            {
+              "imagen": "img/modFru/fbayas.jpg",
+              "titulo": "Bayas",
+              "texto": "Frambuesa, grosella, mora, zarzamora."
+            },
+            {
+              "imagen": "img/modFru/fpeponides.jpg",
+              "titulo": "Pepónides",
+              "texto": "Melón y sandía."
+            },
+            {
+              "imagen": "img/modFru/fcitricos.jpg",
+              "titulo": "Cítricos",
+              "texto": "Limón, naranja, mandarina, lima, pomelo."
+            },
+            {
+              "imagen": "img/modFru/ftropical.jpg",
+              "titulo": "Frutas tropicales",
+              "texto": "Kiwi, piña, mango, papaya, plátano, chirimoya, coco."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Composición química: Nutrientes",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "Las propiedades nutritivas de frutas y hortalizas dependen de la <b>composición química</b> –nutrientes- del producto: vitaminas, minerales y otros compuestos. Esta composición es propia de cada fruta (y a su vez de su variedad) y de cada hortaliza. <br>Entre sus componentes destacan:<br><br>"
+        },
+        {
+          "clase": "acordeonSub",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "titulo": "Agua",
+              "texto": "Es el <b>elemento mayoritario</b> en la composición. Con la excepción de los frutos secos, todas las Frutas y Hortalizas tiene en común un elevado contenido en agua."
+            },
+            {
+              "titulo": "Hidratos de Carbono",
+              "texto": "Las hortalizas son ricas en hidratos de carbono <b>complejos</b> (almidón) mientras que las frutas tienen en mayor cantidad hidratos de carbono <b>sencillos</b> o azúcares (fructosa, glucosa y sacarosa). Por esta razón las hortalizas carecen del sabor dulce propio de las frutas (con la excepción del tomate)."
+            },
+            {
+              "titulo": "Fibra",
+              "texto": "La fibra tiene composición compleja y confiere a las hortalizas <b>rigidez</b> y sensación de fibrosidad. Es la parte de los alimentos vegetales comestibles que no es digerida por nuestro aparato digestivo."
+            },
+            {
+              "titulo": "Vitaminas",
+              "contenido": [
+                {
+                  "titulo": "Información general",
+                  "texto": "Son compuestos químicos que el organismo no es capaz de sintetizar (excepto la vitamina D) y son <b>indispensables</b>, en cantidades muy pequeñas, para la vida. Su déficit provoca trastornos y enfermedades, pero también hemos de saber que su exceso puede llegar a provocar problemas muy graves a la salud, aunque cabe reseñar que esto último a través del consumo de alimentos en forma natural es muy difícil. Destacan:"
+                },
+                {
+                  "titulo": "Vitamina A",
+                  "texto": "Participa en la regeneración celular (lo que influye en el crecimiento y desarrollo de los huesos), estimula el sistema inmunitario y mejora la visión. También tiene función antioxidante."
+                },
+                {
+                  "titulo": "Vitaminas del grupo B",
+                  "texto": "Intervienen en la transformación de los alimentos en energía y son responsables de mantener la salud y el funcionamiento correcto de muchos Sistemas del cuerpo humano (Nervioso, Digestivo, Circulatorio, Inmunológico…)."
+                },
+                {
+                  "titulo": "Vitamina C",
+                  "texto": "Imprescindible para la formación de colágeno y en numerosas reacciones del organismo (mantenimiento de cartílagos, huesos y dientes; disminuye los niveles de tensión arterial lo que contribuye a prevenir enfermedades cardiovasculares; ayuda en la asimilación del Hierro; previene o mejora afecciones de la piel, etc…). También tiene función antioxidante."
+                },
+                {
+                  "titulo": "Vitamina E",
+                  "texto": "Es un antioxidante natural. Protege al organismo contra los efectos del envejecimiento."
+                },
+                {
+                  "titulo": "Vitamina K",
+                  "texto": "Se la conoce como la vitamina de la coagulación, porque sin ella la sangre no coagularía."
+                }
+              ]
+            },
+            {
+              "titulo": "Minerales",
+              "texto": "Los minerales son <b>elementos inorgánicos</b> que el organismo necesita para funcionar, y deben ingerirse con los alimentos. Cumplen variedad de funciones: estructura de huesos y dientes, transporte de oxígeno en glóbulos rojos, transmisión de impulsos nerviosos, contracción muscular, respuesta inmunológica, etc. La composición de frutas y hortalizas aporta un gran número de minerales como hierro, potasio, magnesio, fósforo, etc."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "slideInRight",
+          "texto": "<b>¿Sabías que...</b><br>las calorías de la fruta dependen casi exclusivamente de su contenido de <b>hidratos de carbono</b> –su contenido en grasas es casi inapreciable-, a excepción del caso del aguacate y del coco, frutas en las que el contenido graso determina su valor energético (en el aguacate la mayor parte es grasa “saludable”, mientras que en el coco la mayor parte es grasa saturada, “menos saludable”)?"
+        }
+      ]
+    },
+    {
+      "titulo": "Composición química: Colores",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "La composición química va a conferir a cada fruta un <b>aroma y un sabor únicos</b>. Pero también va a influir sobre el propio color que presentan frutas y hortalizas.<br><br>El <b>color</b> que presenten puede darnos una idea de su composición química. Tenemos así:"
+        },
+        {
+          "clase": "sliderB",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "titulo": "Color verde",
+              "texto": "Es el color de la <b>clorofila</b> por lo que es indicativo de riqueza en Magnesio, mineral que participa en el proceso de relajación muscular (por tanto su carencia puede provocar sensación de cansancio sin causa que lo justifique, tensión muscular y calambres). Contienen, además, sustancias que refuerzan el Sistema Inmunológico (defensas) y son una fuente importante de Vitamina C y fibra.<br>En este grupo destacan: brócoli, lima, kiwi, espinacas, guisantes, lechugas, aguacates y uvas verdes, entre otros.",
+              "imagen": "img/modFru/kiwi.jpg",
+              "ancho": 700
+            },
+
+            {
+              "titulo": "Color amarillo/anaranjado",
+              "texto": "Es el color de los <b>carotenos</b> cuya acción antioxidante es muy efectiva:  aumenta la protección frente al cáncer, fortalece la vista, ayuda a combatir infecciones de la piel, contrarresta las alteraciones producidas por los rayos UVA, minimizando o reduciendo la flacidez de la piel y la aparición de arrugas... También son beneficiosos para el Sistema Respiratorio. Frutas y vegetales de color amarillo o naranja destacan por el contenido en Vitamina C y minerales como el potasio. Algunos ejemplos son: cítricos, melocotón, calabaza, zanahoria, mango y papaya entre otros.",
+              "imagen": "img/modFru/mediaNaranja.jpg",
+              "ancho": 700
+            },
+            {
+              "titulo": "Color blanco",
+              "texto": "Es el color de los <b>polifenoles</b>, que son compuestos antioxidantes que ayudan a reducir el riesgo de enfermedades cardiovasculares y cáncer. Tienen efectos antibacterianos, antimicóticos y antiinflamatorios  y refuerzan el Sistema Inmunológico.<br>En este grupo destacan: ajos, cebollas, pepinos, setas y frutas de carne blanca como plátanos, peras y manzanas.",
+              "imagen": "img/modFru/mediaCebolla.jpg",
+              "ancho": 700
+            },
+            {
+              "titulo": "Color rojo, morado/azul",
+              "texto": "Además de abundancia en carotenos (como en las frutas de color naranja) son ricas en <b>flavonoides</b> que son compuestos con propiedades antioxidantes. A estos compuestos se les suma otro de color rojo intenso (licopeno) de idéntico efecto. Todos ellos contribuyen a la salud de la memoria y son compuestos muy beneficiosos para la salud cardiovascular (ayudan a prevenir la hipertensión). Se incluyen en este grupo: berenjenas, lombardas, uvas tintas, moras, tomates, rábanos, fresas, cerezas, etc.",
+              "imagen": "img/modFru/berries.jpg",
+              "ancho": 700
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "slideInRight",
+          "texto": "<b>¿Sabías que...</b><br>por su alto contenido de ácido, el limón es capaz de matar bacterias y por este motivo, representa un excelente <b>desinfectante</b> natural?"
+        }
+      ]
+    },
+    {
+      "titulo": "Desarrollo de frutas y hortalizas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+
+                {
+                  "clase": "texto",
+                  "texto": "La vida de frutas y hortalizas se puede dividir en <b>tres etapas</b> fundamentales:"
+                },
+                {
+                  "clase": "acordeon",
+                  "contenido": [
+                    {
+                      "titulo": "Etapa de desarrollo y crecimiento",
+                      "texto": "Durante esta etapa se produce el <b>aumento de volumen</b> hasta alcanzar el tamaño final.",
+                      "imagen": "img/modFru/apple.jpg",
+                      "ancho": 300
+                    },
+                    {
+                      "titulo": "Maduración",
+                      "texto": "Conjunto de procesos de desarrolllo y <b>cambios</b> cuya consecuencia es la adquisición de las características físico-químicas propias.",
+                      "imagen": "img/modFru/maduracion.jpg",
+                      "ancho": 300
+                    },
+                    {
+                      "titulo": "Senescencia",
+                      "texto": "Proceso de <b>envejecimiento</b> de las células de los tejidos, lo que lleva a la <b>muerte</b> del producto.",
+                      "imagen": "img/modFru/senescencia.jpg",
+                      "ancho": 300
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/oranges.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "Frutas y hortalizas son <b>estructuras vivas</b> que  después de la recolección, siguen desarrollando procesos metabólicos y mantienen sus sistemas fisiológicos funcionando (respiración, transpiración, etc).<br>Cuando están unidas a la planta, cualquier pérdida de nutrientes o de agua se compensa por el flujo de savia, pero tras la recolección ya no existe ese aporte, así que cuando estas reservas de agua y nutrientes decaen o se agotan, la estructura vegetal colapsa. <b>Por este motivo los vegetales son productos perecederos</b>."
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "slideInRight",
+          "texto": "<b>¿Sabías que...</b><br>no se debe mantener la fruta en <b>bolsas o envases de plástico</b>, ya que éstos retienen la humedad y el calor que libera la fruta, lo que provoca su enmohecimiento, deterioro y pudrición?"
+        }
+      ]
+    },
+    {
+      "titulo": "Maduración",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "La maduración de las frutas está ligada a una serie de <b>complejas transformaciones</b> de su composición química.<br>Cuando se recolectan las frutas, sus tejidos siguen activos y <b>respiran</b>. Estos procesos tienen gran importancia porque influyen en los cambios que se producen durante el almacenamiento, transporte y comercialización de las frutas."
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/frutaverde.jpg",
+              "ancho": 250
+            },
+            {
+              "clase": "lista",
+              "titulo": "Durante la maduración, se producen unos cambios esenciales:",
+              "contenido": [
+                {
+                  "punto": "Cambios en la <b>respiración.</b>"
+                },
+                {
+                  "punto": "Cambios en la <b>composición química.</b>"
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/frutanaranja.jpg",
+              "ancho": 250
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "animacion": "slideInRight",
+          "imagen": "img/modFru/manzanaCorte.png",
+          "ancho": 400
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "slideInRight",
+          "texto": "<b>¿Sabías que...</b><br>podemos <b>acelerar la maduración</b> de las frutas si las envolvemos en papel de periódico ya que así se retiene el etileno que va liberando y lo mismo sucede con las frutas verdes si las guardamos junto a frutas –climatéricas- maduras, ya que éstas liberan mucho etileno?"
+        }
+      ]
+    },
+    {
+      "titulo": "Maduración: Cambios en la respiración",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "<b>Respiración:</b><br><br>Mientras la fruta se está desarrollando la respiración va aumentando, <b>hasta llegar a un punto</b> en el que empieza a disminuir lentamente. A partir de este punto si la intensidad respiratoria:<br><br>"
+        },
+        {
+          "clase": "acordeon",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "titulo": "Aumenta",
+              "texto": "Aumenta, de repente, hasta alcanzar un valor máximo (punto climatérico) hablamos de <b>frutas climatéricas</b>. En ese punto la fruta llega a su estado de maduración y a partir del mismo la intensidad respiratoria vuelve a descender hasta la muerte de todas las células de la fruta. Son frutas que pueden <b>seguir madurando aunque se hayan recolectado</b>. Así, se recolectan  antes de que estén maduras porque aguantan mucho mejor el transporte y el almacenamiento. Son ejemplo de este tipo de frutas: plátano, pera, manzana.",
+              "imagen": "img/modFru/graficoMaduracion.png",
+              "ancho": 500
+            },
+            {
+              "titulo": "Sigue disminuyendo",
+              "texto": "Sigue disminuyendo hasta que todas las células se mueren. Son <b>frutas no climatéricas</b> y no sufren transformaciones importantes una vez se han recolectado, por lo que deben dejarse madurar en la planta.  Por eso estas frutas no se venden si no está maduras, ya que <b>no son capaces de madurar una vez recolectadas</b>. Por ejemplo: fresas, uvas, cítricos.",
+              "imagen": "img/modFru/graficoNoclimaterico.png",
+              "ancho": 500
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "slideInRight",
+          "texto": "<b>¿Sabías que...</b><br>la <b>temperatura</b> influye directamente sobre la respiración de la fruta, de tal forma que a mayor temperatura mayor es la velocidad de respiración? Por eso si se mantiene baja la temperatura, se disminuye la respiración del producto y se ayuda a prolongar su vida útil?"
+        }
+      ]
+    },
+    {
+      "titulo": "Maduración: Cambios en la composición química",
+      "fondo": "img/modFru/strawberryPlant.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "slideInRight",
+          "opacidad": 0.7,
+          "texto": "<b>Cambios en la composición química</b>:<br>La mayoría de los componentes de la fruta se transforman, lo que conlleva cambios en el color, olor, sabor y textura de la fruta.<br>El fruto verde, está compuesto principalmente por agua, clorofila, almidón, celulosas y ácidos. Esto hace que tenga color verde, una textura dura y el sabor sea insípido o ácido."
+        },
+        {
+          "clase": "lista",
+          "subclase": "recuadro",
+          "animacion": "slideInRight",
+          "opacidad": 0.7,
+          "titulo": "Con la maduración:",
+          "contenido": [
+            {
+              "punto": "El almidón se transforma en <b>azúcares sencillos</b>, lo que hace que el sabor sea más <b>dulce</b>."
+            },
+            {
+              "punto": "Las pectinas se solubilizan, lo que provoca un <b>ablandamiento</b> de la fruta."
+            },
+            {
+              "punto": "La concentración de ácidos disminuye (excepto en los cítricos) por lo que su sabor es <b>menos ácido</b>."
+            },
+            {
+              "punto": "Se crean pigmentos que hacen que la fruta pase de tener color verde a tener su <b>color característico</b> y se crean otros compuestos aromáticos que aportan sabores y olores característicos a cada fruta."
+            },
+            {
+              "punto": "Se aumenta la concentración de <b>etileno</b> (hormona vegetal), compuesto gaseoso que inicia y acelera la maduración."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Envejecimiento de las frutas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Durante el <b>envejecimiento</b> se siguen produciendo cambios en la composición química:",
+              "contenido": [
+                {
+                  "punto": "Los azúcares se transforman en <b>alcoholes</b> y dióxido de carbono."
+                },
+                {
+                  "punto": "Los tejidos se <b>degradan</b> y la estructura de la fruta se altera, permitiendo el paso de microorganismos que alteran la composición y producen compuestos que dan malos olores y sabores."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/banana1.png"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/banana2.png"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/banana3.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "slideInRight",
+          "texto": "<b>¿Sabías que...</b><br>los tomates fueron considerados tóxicos cuando llegaron por primera vez a Europa? Algo parecido sucedió con los pepinos, en los que hubo un momento que se consideraron  venenosos por lo que se les rascaba la piel para “eliminar” el veneno."
+        }
+      ]
+    },
+    {
+      "titulo": "Deterioro",
+      "fondo": "img/modFru/fruitsFondo2.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "slideInRight",
+          "texto": "No existe gran diferencia entre frutas y hortalizas a la hora de sufrir <b>alteraciones</b>.<br><center>El deterioro puede producirse por:</center>"
+        },
+        {
+          "clase": "tabs",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Heridas, golpes",
+              "texto": "Heridas, golpes y zonas machacadas provocadas durante su  recolección, transporte y almacenamiento. Estas zonas son más <b>sensibles al ataque</b> de microorganismos, que originarán olores y sabores <b>desagradables</b>.",
+              "imagen": "img/modFru/golpes.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Animales",
+              "texto": "<b>Lesiones y daños</b> causadas por aves, insectos, orugas, caracoles, etc. Provocan graves modificaciones (principalmente del aspecto y características organolépticas) que las hacen <b>inaceptables comercialmente</b>. Estas lesiones favorecen, además, el ataque de microorganismos.",
+              "imagen": "img/modFru/caracol.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Microorganismos",
+              "texto": "Además de las zonas dañadas, muchas frutas y hortalizas pueden ser atacadas por microorganismos, lo que les conferirán <b>olores y sabores desagradables</b>. La composición química de frutas y hortalizas las hace menos sensibles al ataque de bacterias (provocan manchas, podredumbres…) pero por el contrario favorece el ataque por <b>hongos</b> (levaduras y mohos), siendo éstos los principales causantes de podredumbres o enmohecimientos.",
+              "imagen": "img/modFru/chungas.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Envejecimiento",
+              "texto": "Se adquiere una <b>textura blanda</b> y se hacen muy sensibles a alteraciones microbiológicas (podredumbres) y alteraciones internas.",
+              "imagen": "img/modFru/stillif.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Almacenamiento incorrecto",
+              "texto": "1. Si la temperatura es demasiado baja pueden producirse <b>coloraciones extrañas</b> en la pulpa y en la piel, dando apariencia de quemaduras. Suele ser frecuente en productos tropicales transportados o almacenados a temperaturas más bajas de las recomendadas.<br><br>2. Si la humedad es demasiado baja, para compensarla, se produce en la fruta u hortaliza una <b>deshidratación</b>, lo que provoca el marchitamiento y el arrugado. Por el contrario, una humedad excesiva favorece el desarrollo de <b>mohos</b>.<br><br>3. Algunos productos deben protegerse de la luz para evitar la <b>germinación</b> o, como las patatas, que se vuelvan verdes (lo que indica la presencia de solanina, que es una sustancia tóxica).<br><br>4. Almacenar juntos productos que liberan mucho etileno junto a productos muy sensibles a éste, puede provocar una <b>maduración prematura</b> no deseada.",
+              "imagen": "img/modFru/appetiz.jpg",
+              "ancho": 200
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías que...</b><br>almacenar las patatas a bajas temperaturas provoca que el almidón se transforme en azúcares simples y por eso las patatas adquieren un sabor dulce? (Pero también has de saber que hay variedades más dulces que otras)."
+        }
+      ]
+    },
+    {
+      "titulo": "Beneficios aportados",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "Frutas y Hortalizas juegan un papel trascendental en el equilibrio de la dieta humana por sus <b>cualidades nutritivas:</b>"
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/salad.jpg",
+              "ancho": 200
+            },
+            {
+              "clase": "texto",
+              "texto": "Aportan agua que nos mantiene en un grado adecuado de <b>hidratación</b> y favorece la eliminación de sustancias tóxicas de nuestro organismo."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/paprika.jpg",
+              "ancho": 200
+            },
+            {
+              "clase": "texto",
+              "texto": "Aportan muchas vitaminas, sobre todo vitamina C de las que son <b>fuente casi exclusiva</b>."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/moras.jpg",
+              "ancho": 200
+            },
+            {
+              "clase": "texto",
+              "texto": "Aportan compuestos y sustancias <b>antioxidantes</b>."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/artichokes.jpg",
+              "ancho": 200
+            },
+            {
+              "clase": "texto",
+              "texto": "Contienen fibra que ayuda a <b>regular la función del intestino</b>."
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "animacion": "slideInRight",
+          "titulo": "Y, por todo ello, está probado que una adecuada alimentación – especialmente la ingesta de verduras, hortalizas y frutas- puede ayudar a:",
+          "contenido": [
+            {
+              "punto": "<b>Prevenir enfermedades</b> cardiovasculares, obesidad, e incluso algunos tipos de cáncer como el de boca, faringe, laringe, pulmón, esófago, estómago, colon, mama y vejiga."
+            },
+            {
+              "punto": "<b>Disminuir</b> el deterioro causado por el proceso de <b>envejecimiento</b>."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "slideInRight",
+          "texto": "<b>¿Sabías que...</b><br>el pimiento contiene más vitamina C que la naranja?<br><b>o que...</b> fresas y kiwis también tienen mayor contenido en vitamina C que las naranjas?"
+        }
+      ]
+    },
+    {
+      "titulo": "Diagrama de flujo",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInRight",
+          "texto": "A grandes rasgos podríamos definir un <b>diagrama de flujo</b> de frutas y verduras desde su origen hasta el consumidor final según las siguientes etapas:"
+        },
+        {
+          "clase": "imagen",
+          "animacion": "slideInRight",
+          "imagen": "img/modFru/diagrama.png"
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminantes en frutas y hortalizas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "Frutas y hortalizas pueden <b>contaminarse en cualquier punto</b> desde la producción primaria hasta el consumidor final. Aunque cada una de dichas etapas tendrá unos peligros asociados específicos, vamos a diferenciar tres grandes bloques:"
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "celo",
+              "texto": "<b>Contaminación de origen:</b><br>En este bloque se incluyen aquellos peligros debidos al hábitat o entorno en el que se realice la Producción Primaria o contaminación durante su recolección."
+            },
+            {
+              "clase": "texto",
+              "subclase": "celo",
+              "texto": "<b>Contaminación de productos frescos:</b><br>En este bloque se incluyen aquellos peligros asociados a los productos destinados a ser vendidos en fresco o a productos de cuarta gama."
+            },
+            {
+              "clase": "texto",
+              "subclase": "celo",
+              "texto": "<b>Contaminación de productos elaborados:</b><br>En este bloque se incluyen aquellos peligros asociados a los productos destinados a ser procesados."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "animacion": "slideInRight",
+          "texto": "<b>Definición:</b><br>Productos de <b>Cuarta Gama</b>.<br>Se entiende por cuarta gama al procesado mínimo de hortalizas y frutas frescas limpias, troceadas y envasadas para su consumo.<br>El producto mantiene sus propiedades naturales y frescas, pero con la diferencia que ya viene lavado, troceado y envasado en bandejas o bolsas en atmósferas especiales y que <b>necesitan refrigeración</b> para una correcta conservación."
+        }
+      ]
+    },
+    {
+      "titulo": "Recolección",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "En esta etapa puede producirse <b>contaminación</b> de los alimentos debido a  unas <b>malas prácticas</b> higiénicas en la manipulación de frutas y verduras. Para evitar esto:",
+              "contenido": [
+                {
+                  "punto": "El <b>personal</b> debe tener conocimientos de los principios básicos de higiene y sanidad, teniendo claros los peligros que pueden contaminar el producto."
+                },
+                {
+                  "punto": "Evitar el uso de <b>recipientes de vidrio</b> o pequeños objetos metálicos cerca de los cultivos, para evitar la presencia en el producto final de restos de vidrio o de dichos objetos metálicos."
+                },
+                {
+                  "punto": "Si es necesario el uso de utensilios u objetos pequeños, se recomienda tenerlos <b>numerados o identificados</b> adecuadamente."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/manzano.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "Un factor a tener en cuenta es la necesidad de tener cierta destreza tanto en el momento de la recolección como en las manipulaciones posteriores, para <b>evitar</b> golpes, magulladuras, desgarros, rasguños o cortes indeseables que, además de afectar negativamente a la calidad estética del producto, pueden suponer una <b>vía de acceso</b> para los microorganismos."
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminación de origen: Física",
+      "fondo": "img/modFru/nutrientes.svg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "En general, los <b>peligros</b> más importantes en productos del Sector Frutas, Verduras y Derivados son los contaminantes físicos, químicos y biológicos, destacando principalmente los dos últimos."
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
+              "texto": "<b>Contaminación física:</b> En origen frutas y verduras pueden traer consigo tierra, piedras, trozos de plástico, astillas de madera, etc. que serán eliminados posteriormente."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/zanahorias.jpg",
+              "ancho": 250
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "slideInRight",
+          "texto": "<b>¿Sabías que...</b><br>el coco se llama así porque en portugués coco se llamaba a los fantasmas que asustan a los niños y cuando la expedición de Vasco da Gama llegó a India en 1500, los tripulantes compararon la cáscara y sus tres agujeros con una cabeza con ojos y boca, como las que se usaban para fabricar los fantasmas infantiles?"
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminación de origen: Química",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "animacion": "slideInRight",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "<b>Contaminación química:</b> frutas y hortalizas están expuestas a distintos contaminantes químicos que pueden provenir de diferentes fuentes:<br>actividades industriales, actividades humanas (fertilizantes, aplicación de plaguicidas, etc). Destacando los siguientes contaminantes químicos:"
+                },
+                {
+                  "clase": "acordeonSub",
+                  "contenido": [
+                    {
+                      "titulo": "Metales pesados",
+                      "contenido": [
+                        {
+                          "titulo": "Plomo",
+                          "texto": "<b>Plomo</b> (Pb): las emisiones más importantes de plomo a la atmósfera proceden de la combustión de gasolinas y de las industrias (hierro y acero, fundiciones de plomo). La vía de entrada en la cadena alimentaria es a través de la deposición atmosférica de plomo en los vegetales."
+                        },
+                        {
+                          "titulo": "Cadmio",
+                          "texto": "<b>Cadmio</b> (Cd):  se obtiene como subproducto en la minería o de procedencia industrial. Las plantas pueden absorber el cadmio rápidamente desde el suelo (influyendo su concentración y el pH del suelo)."
+                        },
+                        {
+                          "titulo": "Arsénico",
+                          "texto": "<b>Arsénico</b> (As): es un contaminante presente en la naturaleza y también generado por la industria. Antiguamente se empleaba en pesticidas, estando, hoy en día,  prohibida su utilización. Puede presentarse en dos formas: la orgánica y la inorgánica (más tóxica). Las verduras y cereales (como el arroz) lo absorben del suelo o el agua."
+                        }
+                      ]
+                    },
+                    {
+                      "titulo": "Otros productos químicos",
+                      "contenido": [
+                        {
+                          "titulo": "Pesticidas",
+                          "texto": "Son compuestos químicos que se añaden a los cultivos para <b>protegerlos frente a plagas</b> y enfermedades. Son productos muy controlados por la ley y existen unos Límites Máximos de Residuos que son los niveles máximos permitidos legalmente, por debajo de los cuales se considera que el alimento es toxicológicamente aceptable."
+                        },
+                        {
+                          "titulo": "Nitratos",
+                          "texto": "Son uno de los componentes principales de <b>fertilizantes</b> y abonos. Permiten a las plantas crecer más rápido, pero si se usan en exceso no son metabolizados y terminan en las hojas de las verduras."
+                        },
+                        {
+                          "titulo": "Tóxicos naturales",
+                          "texto": "Son aquellos, sin tener en cuenta los compuestos químicos, que se encuentran <b>presentes de forma natural</b> en la composición del producto. Por ejemplo: setas venenosas.",
+                          "imagen": "img/modFru/agarico.jpg",
+                          "ancho": 200
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/contaminacionq.svg"
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "slideInRight",
+          "texto": "<b>¿Sabías que…</b><br>se recomienda, por precaución, no incluir espinacas ni acelgas en la dieta de niños menores de un año (o en caso de incluirlas que su contenido no supere el 20% del puré) debido al contenido en nitrato de esos vegetales? (Y no dar más de una ración al día a niños entre 1 y 3 años)."
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminación de origen: Biológica",
+      "fondo": "img/modFru/campo.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "slideInRight",
+          "opacidad": 0.8,
+          "texto": "<b>Contaminación biológica:</b><br>La mayoría de las <b>frutas</b> poseen contaminación superficial procedente de las zonas de cultivo y del ambiente en general (insectos, aves, agua de lluvia…).<br>Por otro lado las <b>hortalizas</b> son alimentos que habitualmente presentan una elevada carga microbiológica ya que se  cultivan directamente en los suelos y algunos microorganismos peligrosos pueden formar parte de la flora natural del suelo o del ambiente (como es el caso del Clostridium botulinum). No obstante, la <b>vía principal de contaminación</b> se debe al <b>agua de riego</b> que puede aportar microorganismos en caso de encontrarse contaminada.<br>Si además llegan a estar en contacto con <b>materia fecal</b> (por ejemplo, abonos o agua de riego contaminada fecalmente), pueden ser origen de procesos de infecciones de origen alimentario, por microorganismos patógenos que son habituales en el intestino de animales y/o humanos. Esto se debe, por un lado, a unas prácticas incorrectas en la producción al permitir dicha contaminación  y, por otro lado, al hecho de ser productos que se consumen en crudo (no es necesario someterlos a ningún tratamiento previo que elimine los posibles patógenos.<br>Frutas y hortalizas pueden transportar virus (como el de la hepatitis A), bacterias (Salmonella, Escherichia, Shigella, …) parásitos y hongos generadores de micotoxinas."
+        },
+        {
+          "clase": "icono",
+          "animacion": "slideInRight",
+          "subclase": "exclamacion",
+          "texto": "<b>RECUERDA:</b><br>De cara al cliente, es importante resaltar que un <b>lavado correcto de frutas y vegetales</b>, antes de su consumo, conllevará la eliminación de contaminantes físicos como tierra o arena, minimizará la presencia de contaminantes químicos como posibles restos de pesticidas y de contaminantes biológicos."
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminación de origen: Medidas preventivas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "Las medidas preventivas para <b>evitar o minimizar la contaminación</b> de origen se basan en unas buenas prácticas higiénico-sanitarias en la producción primaria, especialmente en los siguientes puntos:"
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Para prevenir la contaminación química, <b>no cultivar en zonas que puedan suponer un foco de contaminación</b> (cerca de fábricas, aguas residuales, etc.). Respecto al uso de pesticidas, sólo se podrán utilizar aquellos productos que estén <b>autorizados</b> para su uso en el cultivo correspondiente, respetando siempre <b>dosis y el plazo de seguridad</b> establecido. Deben ser aplicados por personal <b>formado y capacitado</b>."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/factory.jpg",
+              "ancho": 500
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/irrigation.jpg",
+              "ancho": 500
+            },
+            {
+              "clase": "texto",
+              "texto": "Para prevenir la contaminación biológica, se ha de utilizar <b>agua de riego libre de contaminación</b> (se ha de evaluar, por tanto, la procedencia del agua y el tipo de riego empleado) y los abonos deben sufrir un proceso de <b>compostaje</b> en el que se alcanza una temperatura elevada capaz de eliminar a los microorganismos patógenos."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "animacion": "slideInRight",
+          "texto": "<b>Compostaje:</b><br>Consiste en la degradación de la materia orgánica mediante su oxidación y la acción de diversos microorganismos presentes en los propios residuos.",
+          "imagen": "img/modFru/compost.jpg",
+          "ancho": 200
+        }
+      ]
+    },
+    {
+      "titulo": "Transporte y almacenamiento",
+      "contenido": [
+        {
+          "clase": "lista",
+          "animacion": "slideInRight",
+          "titulo": "Tanto el <b>transporte</b> como el <b>almacenamiento</b> son etapas que tienen en común el uso de instalaciones, superficies, equipos, utensilios, recipientes, envases y/o medios de transporte, que entran en contacto directo con frutas y hortalizas frescas, existiendo el peligro de contaminaciones:",
+          "contenido": [
+            {
+              "punto": "<b>Física</b>: incorporación de objetos extraños provenientes de <b>restos de embalajes</b> o de la maquinaria utilizada (por ejemplo: tornillos)."
+            },
+            {
+              "punto": "<b>Química</b>: por la presencia de productos químicos que no deben estar en contacto con los alimentos o por restos de <b>detergentes o desinfectantes</b> presentes en los equipos, superficies, etc. en contacto con ellos."
+            },
+            {
+              "punto": "<b>Biológica</b>: al utilizar equipos, instalaciones, etc. sucias o en estado incorrecto de limpieza y desinfección. Prácticas incorrectas de manipulación que causen golpes, aplastamientos, cortes, etc. con lo que se facilita el acceso a microorganismos. <b>Contaminación cruzada</b> al almacenar/transportar las frutas y hortalizas mezcladas entre sí o junto a otros productos crudos."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "También hay que tener en cuenta que un <b>almacenamiento prolongado</b> favorecerá la multiplicación de bacterias y mohos, por lo que se hace necesario un buen control en el almacenamiento."
+        },
+        {
+          "clase": "imagen",
+          "animacion": "slideInRight",
+          "imagen": "img/modFru/almacen.jpg",
+          "ancho": 500
+        }
+      ]
+    },
+    {
+      "titulo": "Transporte y almacenamiento: Medidas preventivas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "<b>Medidas preventivas</b>",
+              "contenido": [
+                {
+                  "punto": "Cargar y descargar de forma <b>cuidadosa</b>."
+                },
+                {
+                  "punto": "<b>Proteger</b> la mercancía durante el traslado, evitando que los productos se recalienten y pierdan agua."
+                },
+                {
+                  "punto": "Mantener las <b>condiciones</b> de temperatura, humedad relativa y circulación de aire constantes para aquellos productos que lo requieran."
+                },
+                {
+                  "punto": "Utilizar cajas de <b>un solo uso</b> (cartón, madera o similar) o en caso de ser reutilizables, de materiales fáciles de lavar y desinfectar (descartándose la madera en este caso)."
+                },
+                {
+                  "punto": "Controlar las <b>medidas higiénicas</b> de los vehículos de transporte y almacenes."
+                },
+                {
+                  "punto": "No transportar ni almacenar frutas y hortalizas junto a <b>otros alimentos o productos</b> químicos que puedan contaminarlos."
+                },
+                {
+                  "punto": "Mantener un <b>control y rotación</b> adecuados de los productos almacenados."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
+              "imagen": "img/modFru/sandiamal.jpg",
+              "ancho": 500
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "La <b>refrigeración</b> es recomendable para almacenar algunas frutas y hortalizas frescas, ya que retrasa la maduración, el reblandecimiento y el cambio de textura y color. Además evita la pérdida de humedad y el deterioro por invasión de bacterias y hongos."
+        },
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "Las condiciones de almacenamiento dependerán del tipo de producto, ya que existen frutas y hortalizas sensibles al frío (oscurecimiento, alteraciones…), a la humedad (por ejemplo: aparición de raíces) y al etileno."
+        }
+      ]
+    },
+    {
+      "titulo": "Frutas y hortalizas destinadas a Frutería",
+      "fondo": "img/modFru/fondofruta.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "slideInRight",
+          "opacidad": 0.8,
+          "texto": "En el punto de venta al público de frutas y hortalizas frescas, los productos deben <b>clasificarse y presentarse ordenados</b>, separando aquellos productos que puedan transmitir al resto olores o sabores extraños (cebollas, ajos, …)."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "slideInRight",
+          "opacidad": 0.8,
+          "texto": "Se deben <b>retirar</b> aquellas <b>piezas</b> que presenten signos de deterioro o podredumbre a un lugar adecuado."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "slideInRight",
+          "opacidad": 0.8,
+          "texto": "Si se trata de <b>autoservicio</b>, se deben proporcionar los medios adecuados (guantes de un solo uso y bolsas de plástico) para una <b>manipulación higiénica</b> de los productos por el público. En otro caso no debe permitirse el contacto directo por el público."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "slideInRight",
+          "opacidad": 0.8,
+          "texto": "Todos los productos se depositarán sobre <b>estanterías, vitrinas</b>, o cualquier otro medio de exposición que impida el contacto directo de los alimentos con el suelo, y toda superficie o material que entre en contacto con el producto será fácil de limpiar y desinfectar."
+        },
+        {
+          "clase": "texto",
+                    "animacion": "slideInRight",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Los productos de <b>cuarta gama</b>, que necesitan frío para su conservación, se expondrán en vitrinas o expositores que mantengan temperaturas de <b>refrigeración</b>."
+        }
+      ]
+    },
+    {
+      "titulo": "Frutas y hortalizas destinadas a Industria",
+      "fondo": "img/modFru/fondoindustria.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Sin entrar en mayor detalle, las frutas y hortalizas cuyo destino sea la Industria Procesadora serán sometidos a diversas <b>operaciones previas</b>, pasando por una o más etapas de <b>procesado</b> hasta la obtención del producto final: congelados, productos de IV gama o conservas.<br><br>Entre estas operaciones previas están aquellas destinadas al acondicionamiento, como pueden ser lavado, pelado, troceado, etc."
+        },
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "En estas etapas de <b>acondicionamiento</b>, frutas y verduras pueden contaminarse debido a una falta de limpieza y desinfección de equipos y utensilios o por manipulaciones poco higiénicas del personal. Además hay que tener en cuenta que el <b>pelado</b> favorece el acceso a los microorganismos y el <b>cortado</b> incrementa el área expuesta."
+        },
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Posteriormente se realizará un <b>procesado</b> específico según el producto final a conseguir. En cada una de estas etapas existen peligros de contaminación física, química y biológica a los que además se puede añadir la <b>multiplicación microbiológica</b>, por lo que las medidas preventivas estarán enfocadas en la prevención de dicha contaminación y a impedir la multiplicación microbiológica."
+        },
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "En el caso de las <b>conservas</b>, se someterán a un proceso de eliminación de microorganismos (<b>esterilización</b>)."
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "fondo": "img/modFru/grapes.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "texto": "<p>Con este módulo se cierra la formación de manipuladores  de alimentos. Esperamos que lo hayas encontrado instructivo a la par que entretenido. Cualquier sugerencia o mejora que te parezca oportuna para mejorar el curso será bienvenida.</p><br><p>¡Acuérdate de cumplimentar el cuestionario del curso para que podamos evaluar todo lo que has aprendido! ¡Muchas gracias!</p>"
+        }
+      ]
+    },
+    {
+      "titulo": "Contraportada",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}

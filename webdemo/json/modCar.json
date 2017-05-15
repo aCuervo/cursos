@@ -1,0 +1,308 @@
+﻿{
+  "modulo": "Mod. Específico: Sector Cárnico",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "La carne",
+      "contenido": [
+        {
+          "clase": "icono",
+          "animacion": "fadeInRight",
+          "subclase": "definicion",
+          "texto": "<b>Carne:</b> Toda parte apta para el consumo humano, incluidos  los  despojos,  obtenidos  en  establecimientos autorizados, provenientes de animales domésticos de las especies bovina, porcina, ovina,  caprina, solípedos, gallinas, pavos, pintadas, patos, ocas y conejos; mamíferos  terrestres  y  aves  silvestres  reproducidos, criados y sacrificados en cautividad, caza silvestre y reses de lidia procedentes de espectáculos taurinos."
+        },
+        {
+          "clase": "tabs",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Carne fresca",
+              "texto": "<br>Por <b>carnes frescas</b> se entiende aquellas carnes que no han sido sometidas a  procesos de conservación distintos de la refrigeración, la congelación o la ultracongelación, incluida la carne envasada al vacío o envasada en atmósfera controlada.",
+              "imagen": "img/modCar/sco3p1.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Carne Picada",
+              "texto": "<br>Es la carne <b>deshuesada</b> que ha sido sometida a una operación de <b>picado</b> en trozos y que contiene menos de 1% de sal.",
+              "imagen": "img/modCar/sco3p2.png",
+              "ancho": 200
+            },
+            {
+              "titulo": "Despojos",
+              "texto": "<br>Son la <b>carne fresca que no sea de la canal</b>, incluidas las vísceras y la sangre.",
+              "imagen": "img/modCar/sco3p3.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Preparados de carne",
+              "texto": "<br>Son los productos elaborados con carne fresca, incluida la carne que ha sido troceada, a la que se han añadido productos alimenticios, condimentos o aditivos, o que ha sido sometida a <b>transformaciones que no bastan para alterar</b> la estructura interna de la fibra muscular ni, por lo tanto, para eliminar las características de la carne fresca.",
+              "imagen": "img/modCar/sco3p4.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Productos cárnicos",
+              "texto": "<br>Son los productos transformados resultantes de la transformación de la carne o de la nueva transformación de dichos productos transformados, de modo que la superficie de corte muestre que el producto <b>ha dejado de poseer las características de la carne fresca</b>.",
+              "imagen": "img/modCar/sco3p5.jpg",
+              "ancho": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Composición",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInRight",
+          "texto": "La carne es el resultado de la <b>transformación del músculo</b> como consecuencia de ciertos cambios bioquímicos que se suceden en el mismo cuando finaliza el sacrificio del animal, por tanto la carne está compuesta principalmente de músculo, pero la pueden componer más elementos como son las grasas, los huesos, nervios, vasos sanguíneos, tendones y aponeurosis (telilla o membrana que rodea los músculos).<br><br>El <b>músculo</b> está compuesto por fibras musculares, que son cadenas de <b>proteínas</b>, y cada proteína está constituida por aminoácidos. Tanto la carne como sus productos cárnicos son ricos en agua, proteínas, vitaminas y elementos minerales."
+        },
+        {
+          "clase": "texto",
+          "animacion": "fadeInRight",
+          "subclase": "centro",
+          "texto": "<b>Composición química de la carne</b>"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modCar/sco4izq.png",
+              "ancho": 300
+            },
+            {
+              "clase": "tabla",
+              "animacion": "fadeInRight",
+              "filaTitulos": [
+                {
+                  "titulo": "Componente"
+                },
+                {
+                  "titulo": "Valores aproximados"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Agua"
+                    },
+                    {
+                      "texto": "60-80%"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Proteínas"
+                    },
+                    {
+                      "texto": "16-25% "
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Grasas"
+                    },
+                    {
+                      "texto": "Variable: 3-30%"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Vitaminas"
+                    },
+                    {
+                      "texto": "Principalmente del grupo B (B1, B3, B6 y B12) y algo de Vitamina A"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Minerales"
+                    },
+                    {
+                      "texto": "Hierro y Zinc de alta disponibilidad"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modCar/sco4der.png",
+              "ancho": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Nutrición",
+      "fondo": "img/modCar/sco5fondo.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Abre los siguientes desplegables para obtener información más detallada."
+        },
+        {
+          "clase": "acordeon",
+          "animacion": "fadeInRight",
+          "opacidad": 0.8,
+          "ancho": "75",
+          "contenido": [
+            {
+              "titulo": "Agua",
+              "subtitulo": "Agua",
+              "texto": "Es el <b>principal</b> componente y se encuentra <b>enlazada</b> fundamentalmente a las proteínas, lo que hace que tenga aspecto de sólido.",
+              "imagen": "img/modCar/sco5aco1.jpg",
+              "ancho": 300
+            },
+            {
+              "titulo": "Proteínas",
+              "subtitulo": "Proteínas",
+              "texto": "Las proteínas de la carne son de <b>alto valor biológico</b>, es decir, son proteínas fácilmente asimilables por nuestro organismo y nos aportan todos los aminoácidos esenciales (los que deben ser suministrados por la dieta ya que el cuerpo humano no es capaz de producir o lo hace pero no en cantidad suficiente). Dentro del grupo de las proteínas es importante destacar una en concreto, la <b>mioglobina</b>. Es una proteína que contiene hierro y cuya función en el músculo es servir de almacén y transporte de oxígeno dentro del tejido muscular y además es la responsable de conferir a la carne el color rojo – es el pigmento principal de la carne-. Según tenga o no oxígeno tendrá un color más o menos oscuro  de tal forma que:<ul><li>Mioglobina en contacto con el oxígeno = Color <b>rojo brillante</b> (parte exterior de la carne recién cortada).</li><li>Mioglobina con poco oxígeno = Color <b>rojo púrpura</b>, más oscuro (por ejemplo interior del músculo).</li><li>Mioglobina oxidada por contacto prolongado con el oxígeno = Color <b>pardo</b> (poco atractivo para el consumidor porque se relaciona con mucho tiempo de almacenamiento). </li></ul>Lo que explica la valoración positiva del color rojo brillante en la carne, rechazándose aquella de color marrón u oscuro -pérdida de apariencia de fresca. La concentración de mioglobina es el criterio utilizado tradicionalmente para la clasificación de las carnes en carnes <b>rojas</b> y carnes <b>blancas</b>. A veces se habla también de carnes <b>negras</b> cuando se refieren a la carne de caza.",
+              "imagen": "img/modCar/sco5aco2.png",
+              "ancho": 300
+            },
+            {
+              "titulo": "Grasas",
+              "subtitulo": "Grasas",
+              "texto": "Van a ser responsables del <b>aporte calórico</b> de la carne ya que los hidratos de carbono no son representativos desde un punto de vista nutricional (suponen menos del 1% del peso de la carne) aunque sí influirán en el sabor.",
+              "imagen": "img/modCar/sco5aco3.png",
+              "ancho": 300
+            },
+            {
+              "titulo": "Vitaminas",
+              "subtitulo": "Vitaminas",
+              "texto": "La carne es una buena fuente de vitaminas, principalmente del <b>grupo B</b> (en especial <b>B12</b>, presente sobre todo en carnes rojas, y que es indispensable para la asimilación del hierro). Excepto las <b>vísceras</b>, son pobres en vitaminas A y C.",
+              "imagen": "img/modCar/sco5aco4.jpg",
+              "ancho": 300
+            },
+            {
+              "titulo": "Minerales",
+              "subtitulo": "Minerales",
+              "texto": "La carne y sus derivados constituyen un excelente aporte de <b>hierro</b>, mucho más fácilmente asimilable que el proporcionado por otros alimentos (vegetales). El mayor riesgo de no consumir hierro es la posibilidad de contraer <b>anemia</b> (falta de glóbulos rojos que origina el debilitamiento general del cuerpo). Además de hierro y zinc, las carnes, contienen cantidades significativas de otros minerales como cobre, magnesio, selenio, fósforo, cromo y níquel.",
+              "imagen": "img/modCar/sco5aco5.png",
+              "ancho": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Alteración",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInRight",
+          "texto": "Debido a su <b>composición</b>, contenido alto en agua y pH, la carne reúne todas las características idóneas para la multiplicación de los microorganismos, y por dicho motivo es uno de los alimentos más <b>perecederos y más susceptible a la alteración</b>. Las alteraciones de la carne se deben por un lado a su propia composición y a la interacción con factores físicos (luz, temperatura...),  químicos (oxidación, acidificación...) o microbiológicos (bacterias alterantes)."
+        },
+        {
+          "clase": "texto",
+          "texto": "Alteraciones <b>NO causadas por microorganismos</b>:"
+        },
+        {
+          "clase": "tabs",
+          "subclase": "vertical",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Rancidez oxidativa",
+              "texto": "Consiste en la <b>oxidación de las grasas</b> al exponerlas al oxígeno del aire. La consecuencia es la producción de un olor, aspecto y sabor desagradables. Este proceso se acelera con las altas temperaturas, la luz y determinadas sales. Hay que tener en cuenta que las grasas insaturadas (consideradas más beneficiosas para la salud) son más susceptibles de ser oxidadas que las saturadas (consideradas menos beneficiosas)."
+            },
+            {
+              "titulo": "Quemadura del frío",
+              "texto": "Si durante el almacenamiento en refrigeración (o congelación) la <b>humedad del entorno es baja</b> (ambientes secos) los alimentos ceden su agua para equilibrar el ambiente y combatir la sequedad lo que provoca una pérdida de humedad en algunas zonas y se produce la quemadura del frío."
+            },
+            {
+              "titulo": "Deshidratación",
+              "texto": "Da un aspecto <b>seco, viejo</b> y de textura basta. Normalmente se limita a la superficie. Se produce por temperaturas inadecuadas (altas) o humedades bajas."
+            },
+            {
+              "titulo": "Goteo",
+              "texto": "Se produce <b>pérdida de agua</b> por descongelación de los productos que han sido congelados de forma lenta o en congeladores poco potentes. Hay carnes como la de cerdo que tienden a acumular agua y que tras su descongelación, tendrán un goteo más intenso."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "animacion": "fadeInRight",
+          "texto": "Alteraciones <b>causadas por microorganismos</b><br>(dependen de la <b>zona</b> en la que éstos se encuentren, en la superficie o en la parte profunda y también del <b>tipo</b> de microorganismo):"
+        },
+        {
+          "clase": "tabs",
+          "subclase": "vertical",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Mucosidad exterior",
+              "texto": "Es una alteración que se manifiesta con una especie de limo o <b>mucosidad</b> en la superficie de la carne, normalmente de color blanquecino."
+            },
+            {
+              "titulo": "Coloraciones o brillos anormales",
+              "texto": "Bacterias, hongos y levaduras pueden colonizar la carne originando <b>manchas</b> de diversas tonalidades según de qué microorganismo se trate (azul-verdosas, amarillentas, rosado o rojos, blanco, negruzco...)."
+            },
+            {
+              "titulo": "Otros",
+                          "contenido": [
+                            {
+                              "clase": "lista",
+                              "contenido": [
+                                {
+                                  "punto": "<b>Olores y sabores</b> desagradables."
+                                },
+                                {
+                                  "punto": "<b>Alteración</b> en la firmeza de la carne."
+                                },
+                                {
+                                  "punto": "<b>Putrefacción</b>."
+                                }
+                              ]
+                            }
+                              ]
+            }
+          ]
+        },
+                {
+          "clase": "icono",
+          "animacion": "fadeInRight",
+          "subclase": "exclamacion",
+          "texto": "Todas estas alteraciones provocan el <b>rechazo del producto</b>, por lo que no deberían ser causa de enfermedad alimentaria."
+        }
+      ]
+    },
+      {
+      "titulo": "Despedida",
+      "fondo": "img/modCar/scoDespedida.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "texto": "<p>Aquí termina este pequeño extracto de la formación de <b>Manipulador de Alimentos: Especialidad Carnicería</b>. Esperamos que lo hayas encontrado instructivo y entretenido. Si te ha resultado interesante, <u>no dudes en solicitar más información sobre nuestros cursos</u>. Cualquier sugerencia que te parezca oportuna para mejorar el curso también es bienvenida.</p><br><p><center>¡Muchas gracias!</center></p>"
+        }
+      ]
+    },
+    {
+      "titulo": "Contraportada",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}

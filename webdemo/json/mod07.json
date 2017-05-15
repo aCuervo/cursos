@@ -1,0 +1,1311 @@
+﻿{
+  "modulo": "Mod. 7: El sistema A.P.P.C.C.",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Introducción",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInUp",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En este módulo vas a descubrir por qué <b>surgió</b> el Sistema APPCC (Análisis de Peligros y Puntos de Control Crítico) y qué <b>requisitos</b> son básicos para que sea totalmente eficaz.<br><br>También verás que este sistema, que empezó a implantarse en las grandes industrias agroalimentarias hasta alcanzar a todas las industrias y establecimientos alimentarios, es de carácter <b>obligatorio</b> y establece la existencia de un sistema de documentación (Plan APPCC) y los registros que de él se deriven."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod7/M7Intro.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "El origen de la APPC",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInDown",
+          "texto": "Todas las empresas del sector alimentario deben garantizar la <b>seguridad</b> de sus productos en las fases de la cadena alimentaria de las que sean responsables, desde la producción hasta la venta al consumidor final.<br>Al principio, el control de la seguridad alimentaria se basaba en la <b>formación</b> de los manipuladores, en <b>inspecciones</b> rutinarias de los establecimientos por parte de la Administración y en los <b>análisis</b> de los alimentos ya elaborados."
+        },
+        {
+          "clase": "listaObjetos",
+          "subclase": "flex-start",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "lista",
+              "subclase": "celo",
+              "titulo": "Estos sistemas <b>no</b> eran <b>eficaces</b> debido a sus múltiples fallos e inconvenientes:",
+              "contenido": [
+                {
+                  "punto": "Algunas medidas solamente podían realizarse en industrias de <b>gran</b> tamaño."
+                },
+                {
+                  "punto": "Las inspecciones por parte de la Administración solamente permitían controlar el proceso en el <b>mismo momento</b> de la inspección y era imposible incluir todos los productos."
+                },
+                {
+                  "punto": "Si el resultado de los análisis de un producto final indicaba que podrían existir <b>riesgos</b> para la salud de los consumidores, había que <b>destruir</b> toda la producción."
+                }
+              ]
+            },
+            {
+              "clase": "lista",
+              "subclase": "celo",
+              "titulo": "Se buscó entonces un sistema de <b>autocontrol</b> que permitiese a la propia industria o establecimiento garantizar que los productos que en ella se manipulan o elaboran resultasen <b>inocuos</b> para la salud. Surgió así el APPCC (Análisis de Peligros y Puntos de Control Crítico). El APPCC es un sistema de <b>gestión de peligros</b> cuyo objetivo es asegurar la inocuidad de los alimentos que consiste, básicamente, en:",
+              "contenido": [
+                {
+                  "punto": "<b>Analizar</b> qué peligros puede presentar el alimento."
+                },
+                {
+                  "punto": "<b>Identificar</b> dónde y por qué se pueden generar esos peligros."
+                },
+                {
+                  "punto": "Identificar cuáles son los puntos más importantes donde hay que <b>controlar</b> esos peligros (Puntos de Control Crítico)."
+                },
+                {
+                  "punto": "Actuar sobre dichos peligros aplicando medidas de <b>prevención</b>."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Peligro vs. Riesgo",
+      "fondo": "img/mod7/M7peligro.jpg",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "animacion": "flipInX",
+          "texto": "Es importante diferenciar entre:<br><br><b>Peligro</b>: En alimentación un peligro se refiere a cualquier <b>agente</b> biológico, químico o físico presente en el alimento, o bien la condición en que éste se halla, que puede causar un <b>efecto adverso</b> a la salud.<br><br><b>Riesgo</b>: A diferencia del peligro, en alimentación el riesgo es la <b>probabilidad</b> de que aparezca alguno de los peligros mencionados."
+        }
+      ]
+    },
+    {
+      "titulo": "El sistema APPC",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "flex-start",
+          "animacion": "lightSpeedIn",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "El APPCC es un método <b>preventivo</b>, <b>sistemático</b> y <b>estructurado</b> que afecta a todo proceso de la cadena alimentaria. Se dice que es preventivo porque si aparece un resultado que indique que el alimento producido pueda no ser seguro, se pueden tomar medidas adecuadas a tiempo, asegurándose así que el producto no llegue al <b>consumidor</b>.<br><br>Por otra parte el Sistema APPCC es de obligado <b>cumplimiento</b> por parte de todas las empresas del ámbito alimentario.<br><br>Cada empresa tendrá su <b>propio sistema</b> de documentación y registro que estará constituido por el <b>Plan de APPCC</b>. El Plan APPCC que es el documento preparado de conformidad con los principios del Sistema de APPCC."
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "anchoMitad columna",
+              "contenido": [
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod7/APPCC1.svg",
+                  "ancho": 150
+                },
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod7/APPCC2.svg",
+                  "ancho": 150
+                },
+                            {
+              "clase": "imagen",
+              "imagen": "img/mod7/APPCC3.svg",
+                  "ancho": 150
+            }
+
+              ]
+            },
+            {
+              "clase": "texto",
+              "texto": "Dependiendo de las características de la empresa, pueden existir dificultades para la implantación de un sistema APPCC completo por lo que la normativa les permite la utilización de las <b>Guías de Prácticas Correctas de Higiene (GPCH)</b>, ya que son más sencillas y fáciles de utilizar, como medio para garantizar la higiene y salubridad de los productos alimenticios. Dichas guías deben ser evaluadas favorablemente por las Autoridades competentes y deben basarse en los mismos principios del Sistema APPCC."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "lightSpeedIn",
+          "texto": "<b>¿Sabías que...</b> el Sistema APPCC surgió en los años 60 en la Agencia Aeroespacial Americana (NASA) debido al enorme problema que podía suponer que los astronautas enfermaran en el espacio por el consumo de alimentos no seguros?"
+        }
+      ]
+    },
+    {
+      "titulo": "Ventajas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "animacion": "rotateInDownLeft",
+              "imagen": "img/mod7/M7ensalada.jpg"
+            },
+            {
+              "clase": "lista",
+              "subclase": "numeros",
+              "animacion": "rotateInUpRight",
+              "titulo": "Las <b>ventajas</b> del Sistema APPCC son:",
+              "contenido": [
+                {
+                  "punto": "Permite <b>eliminar o minimizar</b> los peligros de contaminación de los alimentos a lo largo de toda la cadena alimentaria."
+                },
+                {
+                  "punto": "Es <b>preventivo</b>, actúa antes de que aparezca el problema. Permite localizar los lugares y momentos en los que se puede producir un problema, de tal modo que es posible establecer medidas preventivas (y así evitar o minimizar dicho problema) o medidas correctoras (saber cómo actuar si aparece el problema) más adecuadas antes de que el producto ya esté fabricado o elaborado."
+                },
+                {
+                  "punto": "Permite ofrecer alimentos <b>seguros</b> y de mayor <b>calidad</b>, lo que aporta confianza a los consumidores y a los clientes."
+                },
+                {
+                  "punto": "Permite a los establecimientos cumplir con los <b>requisitos legales</b> que exigen disponer de un sistema de aseguramiento de la calidad, demostrando que la empresa autocontrola su actividad alimentaria."
+                },
+                {
+                  "punto": "Es <b>flexible</b>, se adapta tanto a la gran empresa como a la mediana y pequeña empresa. También se adapta a cualquier cambio del proceso."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Locales e instalaciones",
+      "fondo": "img/mod7/M7local.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "anillas",
+          "animacion": "slideInRight",
+          "texto": "Para poder aplicar un sistema basado en el análisis de peligros y puntos de control crítico es <b>imprescindible</b> que las instalaciones donde se vayan a elaborar/manipular alimentos reúnan una serie de condiciones <b>higiénico-sanitarias</b> en cuanto a su diseño, construcción, materiales, etc. que permitan el desarrollo de dicho sistema."
+        }
+      ]
+    },
+    {
+      "titulo": "Características: Instalaciones",
+      "fondo": "img/mod7/industria.jpg",     
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "zoomIn",
+          "subclase": "recuadro",
+          "texto": "Las <b>instalaciones</b> dedicadas a la manipulación de alimentos han de diseñarse de modo que permitan la limpieza y desinfección de todas las superficies."
+        },
+        {
+          "clase": "tabs",
+          "animacion": "zoomIn",
+          "contenido": [
+            {
+              "titulo": "Suelos",
+              "texto": "Los <b>suelos</b> de un establecimiento alimentario han de ser impermeables, lavables y antideslizantes. No deben tener grietas o hendiduras para evitar la acumulación de suciedad y la proliferación de microorganismos. En caso necesario, tendrán una <b>pequeña inclinación</b> que facilite la evacuación de líquidos; esto facilitará su limpieza mediante mangueras evacuando hacia un desagüe."
+            },
+            {
+              "titulo": "Paredes",
+              "texto": "Las <b>paredes</b> han de ser, de igual modo, impermeables y de fácil limpieza. Son recomendables las paredes lisas y de colores claros, sobre todo en cocinas y despensas. En las áreas de servicio (restaurantes, cafeterías...) ha de valorarse si la confortabilidad y estética que proporcionan diversos materiales o decoraciones son compatibles con su limpieza o sustitución en caso de deterioro."
+            },
+            {
+              "titulo": "Techos",
+              "texto": "Los <b>techos</b> deben construirse con materiales que impidan la acumulación de suciedad y  reduzcan al máximo la condensación de vapor y aparición de humedades. Además han de ser de fácil mantenimiento."
+            },
+            {
+              "titulo": "Ángulos",
+              "texto": "Los <b>ángulos</b> formados por paredes entre sí, paredes y techo y paredes y suelo deberían ser <b>redondeados</b> para facilitar su limpieza."
+            },
+            {
+              "titulo": "Ventanas",
+              "texto": "En caso de existir <b>ventanas abiertas</b> al exterior, deben estar provistas de protección contra insectos. Esta protección ha de poder desmontarse fácilmente para proceder a su limpieza y mantenimiento. Si las ventanas tienen bordes internos, tipo alféizar, éstos deben ser inclinados y estrechos para evitar que se conviertan en zonas de almacenamiento."
+            },
+            {
+              "titulo": "Puertas",
+              "texto": "Las <b>puertas</b> deberán ser fáciles de limpiar y, en caso necesario, de desinfectar, lo que requerirá que sus superficies sean lisas y no absorbentes. A ser posible, que se abran y se cierren automáticamente."
+            }
+
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Características: Utensilios",
+      "contenido": [
+        {
+          "clase": "lista",
+          "animacion": "bounce",
+          "titulo": "Características de <b>equipos y utensilios</b>",
+          "contenido": [
+            {
+              "punto": "Los equipos y utensilios que vayan a entrar en contacto con alimentos, deben estar fabricados con materiales <b>no absorbentes</b> (no utilizar madera), resistentes a la corrosión y capaces de soportar repetidas operaciones de limpieza y desinfección. Además, han de utilizarse materiales que no transfieran sustancias tóxicas u olores y sabores indeseados a los alimentos."
+            },
+            {
+              "punto": "Los útiles y equipos de trabajo utilizados en la zona de manipulación de alimentos deben guardarse en <b>estanterías o armarios</b>, perfectamente ordenados y limpios."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "animacion": "bounce",
+          "texto": "<b>Materiales</b> de los utensilios:"
+        },
+        {
+          "clase": "acordeon",
+          "animacion": "bounce",
+          "contenido": [
+            {
+              "titulo": "Metal",
+              "texto": "Si se utilizan materiales <b>metálicos</b>, debemos asegurarnos de que resisten a la corrosión y de que son suficientemente resistentes a cualquier agresión mecánica.",
+              "imagen": "img/mod7/M7metal.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Plástico",
+              "texto": "Ha de tenerse especial cuidado con algunos <b>plásticos</b>, ya que, a temperaturas relativamente bajas pueden fundir y disolverse en los alimentos. Otros son frágiles y se quiebran fácilmente, contaminando físicamente los productos.",
+              "imagen": "img/mod7/M7plastico.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Madera",
+              "texto": "La <b>madera</b> es un material que siempre debería evitarse en las superficies de manipulación de alimentos. Se trata de un material muy absorbente y difícil de esterilizar; además, es frágil.",
+              "imagen": "img/mod7/M7madera.jpg",
+              "ancho": 275
+            }
+          ]
+        },        
+        {
+          "clase": "imagen",
+          "animacion": "bounce",
+          "imagen": "img/mod7/mesaCocina.svg",
+                    "ancho": 600
+        }
+      ]
+    },
+    {
+      "titulo": "Condiciones",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "shake",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "<b>Condiciones ambientales</b> de los locales de manipulación: ya sabemos que la <b>temperatura</b> es un factor muy importante para el desarrollo de los microorganismos que pueden dar lugar a la contaminación y al deterioro de los alimentos. Recuerda que existe una <b>zona de riesgo</b>, comprendida entre  5 y 65 °C,  en la que se debe evitar mantener los alimentos, para así protegerlos de la proliferación bacteriana. Por tanto, deberemos manipularlos a temperatura ambiente el menor tiempo posible."
+            },
+            {
+              "clase": "texto",
+              "texto": "En la mayoría de las ocasiones es necesario disponer de  <b>cámaras frigoríficas</b> para la conservación de los alimentos. Las cámaras frigoríficas y los arcones congeladores han de mantenerse ordenados y se limpiarán periódicamente con productos adecuados. Debería disponerse de <b>cámaras separadas</b> para almacenar los distintos productos respetando las condiciones óptimas para cada tipo de alimento. En caso de tener que almacenar distintos tipos de alimentos en la misma cámara, éstos han de <b>protegerse, clasificarse y ordenarse</b> adecuadamente, de modo que queden separados según las distintas variedades, en especial los  alimentos crudos de los listos para consumir."
+            }
+          ]
+        },
+        {
+          "clase": "imagen",
+          "animacion": "shake",
+          "imagen": "img/mod7/heladeria.jpg",
+          "ancho": 400
+        }
+      ]
+    },
+    {
+      "titulo": "Otros factores",
+      "fondo": "img/mod7/M7hotel.jpg",
+      "contenido": [
+        {
+          "clase": "acordeonSub",
+          "animacion": "bounceInUp",
+          "contenido": [
+            {
+              "titulo": "Iluminación",
+              "texto": "Otro de los factores que debe tenerse en cuenta en el diseño y construcción de los locales de manipulación de alimentos es la <b>iluminación</b>. Cuando se utilice luz artificial, la iluminación no debe alterar los colores, para evitar confusiones y dudas respecto a su estado higiénico-sanitario. Todos los elementos de iluminación deben estar protegidos para evitar la contaminación de los alimentos en caso de rotura."
+            },
+            {
+              "titulo": "Ventilación",
+              "texto": "También es muy importante la <b>ventilación</b> de los locales. Una buena ventilación permitirá evitar el exceso de calor, la condensación de vapor y polvo así como sustituir el aire viciado. Los sistemas de ventilación, especialmente los de ventilación forzada, <b>nunca</b> han de provocar corrientes de aire que circulen de los lugares sucios a los limpios."
+            },
+
+            {
+              "titulo": "Agua",
+              "texto": "<b>Abastecimiento de agua</b>: en los locales donde se manipulan alimentos es imprescindible garantizar un abastecimiento de agua potable suficiente. El agua potable debe utilizarse también para la fabricación de hielo. Ha de evitarse cualquier contaminación posterior que pudiese afectar a las características higiénicas de los alimentos que entren en contacto con él. En los locales donde se manipulan alimentos y, cerca de los puestos de trabajo, deben existir <b>lavamanos independientes</b> y de uso exclusivo, de accionamiento no manual (a pedal) y adecuadamente dotados para que los manipuladores puedan lavarse cómodamente las manos cuando sea necesario."
+            },
+            {
+              "titulo": "Servicios higiénicos",
+              "texto": "<b>Los servicios higiénicos</b> asociados a los locales de manipulación deben estar separados de cualquier zona donde se recepcionen, almacenen, preparen o sirvan alimentos. Los retretes deben estar <b>aislados</b> mediante puertas y disponer de una ventilación independiente. Cerca de los baños siempre han de situarse lavabos donde el manipulador pueda lavarse las manos tras haber utilizado el servicio y antes de volver a la zona de trabajo.<br><br>Los lavabos de los servicios higénicos deben <b>disponer</b> de los siguientes elementos:<ul><li>Suministro de agua tibia o caliente, y fría.</li><li>Dispensador de un producto adecuado para lavarse las manos.</li><li>Sistema de secado de manos por aire caliente o toallas de papel.</li></ul>Además, sería recomendable que los <b>grifos</b> no se pudieran accionar manualmente."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Prerrequisitos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInLeft",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Además de las condiciones higiénico-sanitarias de locales, instalaciones y materiales, es necesario cumplir con unos prerrequisitos mínimos que proporcionan el entorno y <b>base higiénica</b> necesarios para la producción de alimentos seguros, de tal manera que permiten que el Sistema APPCC se centre específicamente en los <b>peligros específicos</b> de cada producto o de cada proceso.<br><br>Los prerrequisitos consideran los peligros provenientes del entorno de trabajo, incluidos los producidos por contaminaciones cruzadas. En cambio, el Plan de APPCC considera los <b>peligros específicos</b> del proceso de producción."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod7/APPCCCono.svg",
+              "ancho": 400
+            }
+
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "animacion": "fadeInRight",
+          "texto": "El Plan de APPCC sólo es <b>eficaz</b> si los prerrequisitos funcionan correctamente. Es decir, aunque haya un Plan de APPCC bien diseñado, será difícil garantizar la seguridad de los productos alimenticios si no se siguen los <b>planes de prerrequisitos</b>."
+        }
+      ]
+    },
+    {
+      "titulo": "Los planes del APPC",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "flipInX",
+          "texto": "Los prerrequisitos deben ser <b>específicos</b> para cada establecimiento, ya que cada uno necesita los suyos ajustados a sus características particulares: instalaciones, actividades, procesos... y deben <b>actualizarse</b> cuando se produzcan cambios en dichos establecimientos."
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "flipInX",
+          "subclase": "flex-start",
+          "contenido": [
+            {
+              "clase": "lista",
+              "subclase": "anillas vertical",
+              "titulo": "Los prerrequisitos se presentan como <b>Planes</b>, y cada plan tiene la finalidad de cumplir un objetivo <b>específico</b> que siempre va dirigido a la minimización o eliminación de peligros generales. Estos planes son:",
+              "contenido": [
+                {
+                  "punto": "Plan de Control del Agua."
+                },
+                {
+                  "punto": "Plan de Limpieza y Desinfección."
+                },
+                {
+                  "punto": "Plan de Control de Plagas y Otros Animales Indeseables."
+                },
+                {
+                  "punto": "Plan de Mantenimiento de Instalaciones y Equipos."
+                },
+                {
+                  "punto": "Plan de Formación y Capacitación del Personal en Seguridad Alimentaria."
+                },
+                {
+                  "punto": "Plan de Control de Proveedores."
+                },
+                {
+                  "punto": "Plan de Trazabilidad."
+                }
+
+              ]
+            },
+            {
+              "clase": "lista",
+              "subclase": "anillas vertical",
+              "titulo": "Cada Plan estará definido en un documento o Programa en el que se describen las <b>condiciones, actividades y/o acciones</b> que se deben cumplir:",
+              "contenido": [
+                {
+                  "punto": "¿<b>Qué</b> hay que hacer?"
+                },
+                {
+                  "punto": "¿<b>Dónde</b> hay que hacerlo?"
+                },
+                {
+                  "punto": "¿<b>Cuándo</b> hay que hacerlo?"
+                },
+                {
+                  "punto": "¿<b>Cómo</b> hay que hacerlo?"
+                },
+                {
+                  "punto": "¿<b>Quién</b> tiene que hacerlo?"
+                }
+              ]
+            },
+            {
+              "clase": "lista",
+              "subclase": "anillas vertical",
+              "titulo": "En este Programa también hay que especificar las <b>actividades de comprobación</b> (es decir, comprobaremos que lo que hemos dicho en el programa del plan se hace y que además es eficaz):",
+              "contenido": [
+                {
+                  "punto": "¿<b>Qué</b> se comprueba?"
+                },
+                {
+                  "punto": "¿<b>Cuándo</b> se comprueba?"
+                },
+                {
+                  "punto": "¿<b>Dónde</b> se comprueba?"
+                },
+                {
+                  "punto": "¿<b>Cómo</b> se comprueba?"
+                },
+                {
+                  "punto": "¿<b>Quién</b> lo comprueba?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Registros",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "exclamacion picos",
+          "animacion": "lightSpeedIn",
+          "texto": "Si en el resultado de las comprobaciones se detecta el <b>incumplimiento de las actividades</b> descritas o que dichas actividades no son eficaces, habrá que adoptar las medidas correctoras correspondientes e indicar las acciones emprendidas, la fecha de realización y la persona que las ha llevado a cabo."
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "lightSpeedIn",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Todo esto hemos de dejarlo reflejado en los <b>registros</b>, que son las anotaciones de los resultados derivados de:",
+              "contenido": [
+                {
+                  "punto": "La realización de las actividades."
+                },
+                {
+                  "punto": "La realización de las comprobaciones."
+                },
+                {
+                  "punto": "Las incidencias y las actuaciones llevadas a cabo, si procede."
+                }
+              ]
+            },
+            {
+              "clase": "texto",
+              "texto": "El <b>archivo</b> de todos los documentos y los registros tiene que poder ser consultado por cualquier persona autorizada que tenga que hacer la revisión. Por este motivo, debe mantenerse siempre ordenado y actualizado, sea cual sea el soporte documental en el que se encuentre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Plan de control de agua",
+      "fondo": "img/mod7/M7mar.jpg",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "animacion": "rotateInUpLeft",
+          "texto": "El Programa de Control del Agua consiste en la <b>descripción detallada</b> de todas las acciones y las condiciones del establecimiento que deben cumplirse para conseguir el objetivo fijado."
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "rotateInDownRight",
+          "contenido": [
+            {
+              "clase": "lista",
+              "subclase": "recuadro",
+              "titulo": "El agua utilizada en un establecimiento alimentario puede constituir un <b>vehículo de contaminantes</b> tanto biológicos (virus, bacterias, parásitos, etc.) como químicos (nitratos, plaguicidas, etc.) y físicos (turbiedad, radioactividad, etc.). En los establecimientos alimentarios, el agua puede tener diferentes usos, entre otros los siguientes:",
+              "contenido": [
+                {
+                  "punto": "<b>Limpieza</b> de instalaciones, de utensilios, de equipamientos, de los manipuladores (manos, ropa, etc.)."
+                },
+                {
+                  "punto": "Formar parte del proceso de <b>producción</b> de alimentos (cocción de productos cárnicos, glaseado de pescado, etc.)."
+                },
+                {
+                  "punto": "Formar parte del alimento como <b>ingrediente</b> (sopas, etc.) o líquido de cobertura (conservas, etc.)."
+                }
+              ]
+            },
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "En estos casos, el agua debe ser apta para el consumo humano. Sólo se pueden utilizar aguas exentas de esta cualidad cuando conste que su utilización no puede afectar a la <b>salubridad</b> del producto alimenticio final. Hay que establecer, pues, un <b>Plan de Control del Agua</b> con el objetivo de garantizar que el agua utilizada por los establecimientos no sea una fuente de contaminación, ya sea de forma directa o bien a través de los manipuladores, las instalaciones o los equipos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Plan de L+D",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInUp",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Los <b>establecimientos alimentarios</b> deben asegurar que todas las instalaciones, la maquinaria, los utensilios y otros equipamientos estén debidamente <b>limpios y desinfectados</b> para que no sean una fuente de contaminación para los alimentos. Así mismo, debe tenerse presente que las propias actividades de limpieza y desinfección pueden ser una causa de contaminación química de los alimentos, bien de manera <b>directa</b> o bien por la permanencia de posibles <b>residuos</b> de detergentes y de desinfectantes en las superficies sometidas a estas operaciones.<br><br>El <b>Plan de Limpieza y Desinfección</b> (L+D) debe llevarse a cabo teniendo en cuenta las necesidades higiénicas de cada establecimiento, los procesos de producción, el tipo de alimentos y los peligros relacionados. Aunque la limpieza y la desinfección se deben aplicar en todas las zonas y los elementos que componen un establecimiento (superficies, instalaciones, equipos y utensilios), el sistema seleccionado y la frecuencia con que se aplica variará de acuerdo con los siguientes factores:"
+            },
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Los <b>tipos de alimentos</b> (de bajo o alto riesgo) que se elaboren, se manipulen o se almacenen."
+                },
+                {
+                  "punto": "La probabilidad de contaminación de los alimentos por el <b>contacto</b> con las superficies, las instalaciones, los equipos y los utensilios."
+                },
+                {
+                  "punto": "La <b>frecuencia</b> en el uso de los equipos, las superficies y los utensilios."
+                },
+                {
+                  "punto": "El <b>estado</b> de limpieza en el que se encuentran."
+                },
+                {
+                  "punto": "El <b>tipo</b> de suciedad (grasa, líquido, residuos sólidos, etc.)."
+                },
+                {
+                  "punto": "El <b>material</b> con el que está construido el equipo, el utensilio o la superficie que hay que limpiar y desinfectar."
+                },
+                {
+                  "punto": "Los <b>productos</b> de limpieza y desinfección que se pueden aplicar en cada caso."
+                },
+                {
+                  "punto": "Las <b>características químicas</b> del agua, especialmente su dureza."
+                }
+              ]
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Acciones del plan L+D",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInUp",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "La selección del sistema tiene una gran importancia y puede ser necesario el consejo de un experto. El <b>Plan de Limpieza y Desinfección</b> consiste en la descripción detallada de todas las acciones que deben cumplirse para conseguir el objetivo fijado:<br><br>¿Qué Limpiamos/Desinfectamos?<br>¿Cómo Limpiamos/Desinfectamos?<br>¿Cuándo Limpiamos/Desinfectamos?<br>¿Con qué Limpiamos/Desinfectamos?<br>¿Quién Limpia/Desinfectamos?<br>Acciones de comprobación"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod7/M7productos.png",
+              "ancho": 300
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "slideInUp",
+          "texto": "¿Recuerdas los organismos extremófilos <b>psicrófilos</b> – aquellos a los que les encantaba el frío? ¿Sabías que se utilizan en la <b>investigación</b> para formular nuevos detergentes capaces de actuar eficazmente a temperaturas muy frías?"
+        }
+      ]
+    },
+    {
+      "titulo": "Higienización",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "zoomIn",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "La limpieza y la desinfección de las instalaciones y los útiles de trabajo en la manipulación de alimentos son dos operaciones fundamentales. En este sentido cabe distinguir entre ambos conceptos:<br><br><b>Limpieza</b>: Conjunto de acciones que se realizan para eliminar la suciedad.<br><br><b>Desinfección</b>: Conjunto de acciones que se realizan para eliminar o disminuir el número de bacterias presentes en un objeto, superficie, etc.<br><br>Para evitar cualquier tipo de contaminación de los alimentos, los locales, superficies, el material y los utensilios que se utilicen durante su manipulación han de limpiarse tantas veces <b>como sea necesario</b> y desinfectarse siempre que las circunstancias lo exijan."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod7/LimpiezaDesinfeccion.svg"
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+                    "animacion": "zoomIn",
+          "subclase": "exclamacion centro",
+          "texto": "Limpieza + Desinfección = <b>Higienización</b>"
+        }
+      ]
+    },
+    {
+      "titulo": "Aplicación del Plan L+D",
+      "contenido": [
+        {
+          "clase": "texto",
+                    "animacion": "rubberBand",
+          "texto": "En todos los establecimientos donde se manipulan alimentos debe existir un <b>plan de limpieza y desinfección</b> en el que queden establecidos claramente los siguientes puntos:"
+        },
+        {
+          "clase": "tabs",
+          "animacion": "rubberBand",
+          "contenido": [
+            {
+              "titulo": "Cúando",
+              "texto": "<b>¿Cuándo hay que limpiar?</b> La frecuencia con que se deben realizar las operaciones de limpieza y desinfección."
+            },
+            {
+              "titulo": "Qué",
+              "texto": "<b>¿Qué se debe limpiar?</b> Detallar todos los locales, superficies, útiles y equipos que se deben someter a dichas operaciones y la profundidad con que éstas deben realizarse."
+            },
+            {
+              "titulo": "Con qué",
+              "texto": "<b>¿Con qué se debe limpiar?</b> La naturaleza y la cantidad de agentes limpiadores y desinfectantes que deben utilizarse."
+            },
+            {
+              "titulo": "Cómo",
+              "texto": "<b>¿Cómo se debe limpiar?</b> La forma de realizar el trabajo."
+            },
+            {
+              "titulo": "Quién",
+              "texto": "<b>¿Quién debe limpiar?</b> El personal responsable de llevar a cabo las tareas de limpieza y desinfección."
+            }
+
+          ]
+        },
+        {
+          "clase": "texto",
+                    "animacion": "rubberBand",
+          "texto": "Además han de establecerse las medidas de <b>precaución</b> que se deben adoptar para realizar estas tareas, así como el modo de <b>supervisión y el control</b> de la eficacia de las operaciones. Para conseguir una limpieza y desinfección correctas:"
+        },
+        {
+          "clase": "listaObjetos",
+                    "animacion": "rubberBand",
+          "contenido": [
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Las soluciones <b>desinfectantes</b> deben prepararse en el momento de su utilización, con el objeto de que no pierdan eficacia (no es recomendable dejar las fregonas a remojo en una solución desinfectante durante la noche, ya que las bacterias pueden sobrevivir en este desinfectante envejecido, e incluso crecer, y ser sembradas en el local cuando la fregona se utilice de nuevo)."
+                },
+                {
+                  "punto": "Es muy importante realizar un <b>correcto aclarado</b> para evitar la contaminación química de los alimentos (superficies, equipos, utensilios...)"
+                },
+                {
+                  "punto": "Ha de evitarse el <b>barrido en seco</b> de suelos para que no se produzca polvo."
+                },
+                {
+                  "punto": "Útiles y equipos de trabajo deben limpiarse y desinfectarse, en su caso, <b>inmediatamente después de su utilización</b>. Además hay que establecer un sistema regular de limpieza para aquellos utensilios que no se utilizan a menudo."
+                }
+
+              ]
+            },
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "Deben utilizarse <b>productos adecuados</b> para la industria alimentaria."
+                },
+                {
+                  "punto": "Cada producto ha de utilizarse siguiendo las <b>instrucciones del fabricante</b>."
+                },
+                {
+                  "punto": "Debe respetarse la <b>periodicidad</b> establecida en el programa o plan de limpieza."
+                },
+                {
+                  "punto": "Las <b>fregonas y cepillos</b> también deben lavarse, desinfectarse y dejarse secar tras su uso."
+                },
+                {
+                  "punto": "Todo el material utilizado para la limpieza de los locales de manipulación de alimentos (escobas, fregonas, detergentes,  productos químicos...) debe <b>guardarse</b> en lugares donde no pueda contaminar los alimentos, utensilios, equipamientos o ropa de trabajo."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Gestión de basuras y residuos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInDown",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En todas las <b>fases de producción</b>, elaboración y distribución de alimentos, se originan productos de desecho y residuos que es preciso eliminar de la cadena alimentaria. Gran parte de estos productos, procedentes de distintos tipos de alimentos en diferentes estados (crudos, cocidos, deteriorados) constituyen un foco de contaminación y de malos olores. Generalmente, en un primer momento, las basuras se almacenan en <b>contenedores</b> situados dentro de los locales de manipulación.<br><br>Estos cubos o contenedores han de estar construidos con materiales de fácil limpieza y desinfección, no deben ser excesivamente grandes para evitar acumular exceso de basura durante largos periodos de tiempo, se abrirán mediante un <b>pedal</b> para evitar tener que tocar la tapa con las manos mientras se manipulan alimentos y estarán provistos siempre de bolsas adecuadas. Además deben vaciarse con frecuencia.<br><br>Los <b>cubos de basura</b> han de lavarse y desinfectarse a menudo y se guardarán en una habitación cerrada destinada a este fin. Este local ha de mantenerse a la temperatura más baja posible, bien ventilado y protegido contra insectos y roedores. Con el fin de contribuir a la mejora y mantenimiento del entorno, se implantan medidas de respeto al medio ambiente, como son las campañas de <b>reciclaje</b>."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod7/M7basura.svg"
+            }
+
+          ]
+        },
+
+        {
+          "clase": "texto",
+          "animacion": "bounceInUp",
+          "texto": "El reciclaje exige la <b>separación de residuos</b> en su origen. Es frecuente que en los locales de manipulación de alimentos se haga una recogida selectiva de basuras. Para ello, los residuos se desechan tras separarlos en <b>4 categorías</b>: papel y cartón, plásticos y envases, vidrio y materia orgánica. Para cada uno de eso tipos de residuos se disponen contenedores específicos. La empresa encargada de su recogida los transportará después hasta su correspondiente destino."
+        }
+      ]
+    },
+    {
+      "titulo": "Plan de control de plagas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod7/M7ratita.jpg",
+              "ancho": 400
+            },
+            {
+              "clase": "texto",
+              "texto": "La presencia de <b>plagas y animales indeseables</b> (insectos, roedores, pájaros, animales domésticos, etc.) en los establecimientos alimentarios constituye una posible fuente de contaminación y un medio de transmisión de enfermedades que compromete la seguridad sanitaria de los productos alimenticios producidos y comercializados. Por lo tanto, hay que establecer <b>sistemas de control preventivos</b> para evitar la aparición de las plagas."
+            }
+
+          ]
+        },
+
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "animacion": "swing",
+          "texto": "El <b>Plan de Control de Plagas</b> tiene como objetivo prevenir la entrada y la instauración de plagas y otros animales indeseables que puedan implicar un peligro de contaminación para los alimentos."
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInLeft",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Tradicionalmente, se han basado en la <b>aplicación de productos químicos</b> (raticidas e insecticidas). El uso sistemático de estos productos a menudo se ha visto asociado a problemas de tipo sanitario debidos a su toxicidad para las personas que directa o indirectamente se encuentran expuestas a ellos, así como a otros de tipo medioambiental.<br><br>La lucha integrada se fundamenta en la aplicación de métodos de prevención basados en el control de los factores que favorecen la aparición y el desarrollo de las plagas y la utilización prioritaria de métodos <b>físicos, mecánicos y biológicos</b>, evitando el uso de plaguicidas. Sólo en aquellas situaciones en las que sea estrictamente necesario, de acuerdo con el diagnóstico previo del problema, deben utilizarse plaguicidas, escogiendo, en este caso, los más específicos, selectivos y de menor peligrosidad."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod7/M7veneno.jpg"
+
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Plagas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "flipInX",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Cuando hablamos de manipulación de alimentos, denominamos <b>plagas</b> a aquellos animales que, en contacto con los alimentos producen su alteración o contaminación, o que simplemente resultan molestos."
+            },
+            {
+              "clase": "lista",
+              "titulo": "Las plagas más comunes en los locales de manipulación de alimentos son:",
+              "contenido": [
+                {
+                  "punto": "<b>Roedores</b>, tales como ratas y ratones."
+                },
+                {
+                  "punto": "<b>Insectos</b>, tales como moscas y cucarachas."
+                },
+                {
+                  "punto": "<b>Pájaros</b>, como palomas o gorriones."
+                }
+              ]
+            },
+            {
+              "clase": "texto",
+              "texto": "En cualquier caso, las plagas deben <b>controlarse</b> para prevenir la difusión de enfermedades, para impedir la pérdida material de alimentos y para cumplir las leyes establecidas al efecto."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "flipInX",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Algunos síntomas inequívocos de la presencia de plagas:",
+              "contenido": [
+                {
+                  "punto": "Los propios <b>animales</b>, vivos o muertos, o sus larvas o pupas."
+                },
+                {
+                  "punto": "Los <b>excrementos</b> de los roedores."
+                },
+                {
+                  "punto": "La aparición de <b>sacos, cajas y envases roídos</b>."
+                },
+                {
+                  "punto": "El <b>derrame</b> de alimentos cerca de sus envases, señal de que éstos últimos han sido dañados."
+                },
+                {
+                  "punto": "Las <b>manchas grasientas</b> que producen los roedores alrededor de las cañerías."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod7/M7oruga.jpg"
+            }
+
+         
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Métodos de control de plagas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "lightSpeedIn",
+          "texto": "Para controlar y mantener unas instalaciones libres las plagas, tenemos una serie de <b>medidas pasivas</b> destinadas a evitar la presencia de plagas y medidas activas destinadas a la erradicación de plagas que estén presentes en los locales."
+        },
+        {
+          "clase": "acordeon",
+          "animacion": "lightSpeedIn",
+          "contenido": [
+
+            {
+              "titulo": "Medidas Pasivas",
+              "texto": "<ul><li><b>Impedir el acceso</b>.</li><li><b>Evitar</b> que puedan obtener <b>alimento y refugio</b> (plan correcto de limpieza y desinfección, plan de mantenimiento...).</li></ul>Para conseguir esto:<ul><li>Instalar <b>mallas metálicas</b> en ventanas y aberturas. Estas telas han de ser fácilmente lavables.</li><li>Cubrir o sellar todos los <b>pequeños huecos</b> donde los ratones o ratas puedan meterse.</li><li>Impedir el acceso a restos de alimentos y agua: establecer <b>programas de limpieza y desinfección</b> adecuados, tanto para los locales de manipulación de alimentos como para áreas cercanas. Depositar basuras en contenedores con tapa, bien cerrados o sellados y eliminar con frecuencia. Mantener el <b>entorno limpio y sin residuos</b>.</li><li>Desarrollar un <b>plan de mantenimiento</b> adecuado con un programa de inspección periódico y subsanar rápidamente cualquier fallo detectado.</li></ul>",
+              "imagen": "img/mod7/mosquitera.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Medidas Activas",
+              "texto": "En caso de que las plagas penetren en el establecimiento, deberán tomarse las medidas necesarias para eliminarlas (<b>medidas activas</b>). Estas medidas pueden ser <b>físicas</b> (aparatos de electrocución, ultrasonidos) o <b>químicas</b> (insecticidas, rodenticidas).<br><br>Siempre que se utilicen medidas de lucha activas como insecticidas y raticidas, deberá hacerse un <b>análisis detallado</b> de la plaga, determinar los productos más apropiados (aptos para industria alimentaria), métodos de aplicación, dosis, etc. Sólo deberán ser aplicados por <b>empresas o personal autorizado</b>. Los insecticidas y otras sustancias no alimenticias que puedan representar un peligro para la salud tienen que llevar una etiqueta donde se refleje su naturaleza peligrosa. Se almacenarán en <b>armarios o locales cerrados</b> y reservados únicamente para ello, y solo serán distribuidos y manipulados por personal autorizado.",
+              "imagen": "img/mod7/insecticida.svg",
+              "ancho": 200
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Plan de mantenimiento",
+      "fondo": "img/mod7/engranajes.jpg",
+      "contenido": [
+        {
+          "clase": "listaObjetos",         
+          "animacion": "rotateInDownLeft",
+          "contenido": [
+            {
+              "clase": "icono",
+              "subclase": "definicion",
+              "texto": "<b>Mantenimiento</b>: Es una disciplina cuyo objetivo es prolongar de forma rentable, la vida útil de las instalaciones y equipos."
+            },
+            {
+              "clase": "lista",
+              "subclase": "recuadro",
+              "titulo": "El objetivo del <b>Plan de Mantenimiento</b> se basa en el conjunto de técnicas que permiten:",
+              "contenido": [
+                {
+                  "punto": "Que las instalaciones funcionen con <b>normalidad</b>."
+                },
+                {
+                  "punto": "<b>Prever</b> las averías y fallos."
+                },
+                {
+                  "punto": "Llevar a cabo las <b>reparaciones</b> pertinentes con los recambios necesarios."
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "clase": "texto",
+          "animacion": "shake",
+          "subclase": "recuadro",
+          "texto": "El mantenimiento puede ser:"
+        },
+        {
+          "clase": "tabs",
+                    "animacion": "rotateInUpRight",
+          "contenido": [
+            {
+              "titulo": "Correctivo o no programado",
+              "texto": "Consiste en trabajos de <b>reparación</b> de averías, que no han sido programados con anterioridad. Se caracteriza por una frecuencia <b>aleatoria</b> y sin expectativa de una nueva realización."
+            },
+            {
+              "titulo": "Preventivo o de estado",
+              "texto": "Se realiza de manera <b>sistemática</b>, a intervalos conocidos, para adelantarse a posibles averías, y evitarlas, hasta un punto económicamente razonable. Se puede realizar mediante la <b>revisión</b> de instalaciones y equipos o la reposición sistemática de piezas que han cumplido un determinado número de horas de funcionamiento."
+            },
+            {
+              "titulo": "Predictivo",
+              "texto": "Es una técnica utilizada pronosticar el punto <b>futuro</b> de falla de un componente de una máquina, de tal forma que dicho componente pueda <b>reemplazarse</b>, con base en un plan, justo antes de que falle. Así, el tiempo muerto del equipo se minimiza y el tiempo de vida del componente se maximiza."
+            }
+          ]
+        }
+        
+      ]
+    },
+    {
+      "titulo": "Responsable de mantenimiento",
+      "fondo": "img/mod7/M7mantenimiento.jpg",
+      "contenido": [
+
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "slideInDown",
+          "texto": "En el Plan de Mantenimiento debe existir un <b>Inventario de infraestructuras, Equipos y Utensilios</b>, que tengan relación directa o indirectamente con el proceso productivo (conducciones de agua, desagües, depósitos de combustible, paredes, techos, suelos, luminarias, puertas y ventanas, mosquiteras, cristales, cámaras de frío, equipos de producción, utensilios...)"
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInUp",
+          "contenido": [
+            {
+              "clase": "lista",
+              "subclase": "recuadro",
+              "titulo": "Debe existir un <b>responsable de mantenimiento</b> (propio o perteneciente a empresa externa) cuyas tareas sean:",
+              "contenido": [
+                {
+                  "punto": "<b>Realizar</b> tareas de mantenimiento."
+                },
+                {
+                  "punto": "<b>Evaluación</b> y seguimiento de los proveedores de servicios."
+                },
+                {
+                  "punto": "<b>Supervisión</b> de los contratos de mantenimiento."
+                },
+                {
+                  "punto": "Supervisión del <b>Plan de Mantenimiento</b> como si se tratara de un equipo interno."
+                }
+              ]
+            },
+
+            {
+              "clase": "lista",
+              "subclase": "recuadro",
+              "titulo": "El mantenimiento debe de basarse en documentos:",
+              "contenido": [
+                {
+                  "punto": "<b>Externos</b>. Serían aquellos documentos de tipo técnico (elaborados por el fabricante o ingeniería responsable de la instalación), como son manuales de funcionamiento, catálogos de equipos y recambios."
+                },
+                {
+                  "punto": "<b>Internos</b>. Serían los elaborados por la propia empresa (registros de las labores de mantenimiento realizadas sobre los equipos o instalaciones, fechas de realización de las mismas, responsable de las operaciones realizadas, etc.)"
+                }
+              ]
+            }
+
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Plan de formación y capacitación del personal",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "zoomIn",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod7/M7ok.jpg"
+            },
+                    {
+          "clase": "texto",
+          "texto": "Las empresas y los establecimientos de cualquier sector alimentario deben garantizar que todas las personas que intervengan en la obtención, la transformación, la distribución y la venta de alimentos reciban una <b>formación apropiada</b> en materia de higiene alimentaria de acuerdo con su actividad laboral. El objetivo del <b>Plan de Formación y Capacitación</b> es conseguir que los manipuladores reciban la formación continuada necesaria sobre la seguridad de los alimentos para que así sean capaces de aplicar estos conocimientos en su lugar de trabajo y se puedan responsabilizar de las operaciones que realicen.<br><br>Constituye un elemento esencial para la transmisión y la aplicación de las <b>instrucciones higiénicas</b> de trabajo, las cuales, sin la información y la formación necesarias sobre el significado de la higiene, pueden desembocar en la falta de colaboración y aplicación de las medidas higiénicas por parte de los trabajadores."
+        }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Plan de control de proveedores",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounce",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Las <b>materias primas</b> y, en general, cualquier producto alimenticio pueden ser una fuente de contaminación, si las condiciones higiénicas en las que llegan a un establecimiento no son las adecuadas. Por esta razón, las empresas tienen que establecer las condiciones necesarias que deben tener las materias primas y otros productos alimenticios (material de envasado, aditivos, etc.), antes de la compra, para garantizar la <b>inocuidad alimentaria</b>. Al conjunto de estas condiciones se las llama <b>especificaciones de compra</b>.<br><br>El objetivo del <b>Plan de Control de Proveedores</b> es evitar que las materias primas y otros productos alimenticios de los que se provee el establecimiento comporten un peligro para la seguridad alimentaria. Es frecuente que en las especificaciones de compra, además de los requisitos de inocuidad, se tengan en cuenta otros aspectos. En cualquier caso, siempre deberán recoger como prioridades los aspectos relacionados con la seguridad alimentaria."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod7/M7especias.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Plan de trazabilidad",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod7/M7plan.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Ya habíamos visto que por <b>trazabilidad</b> se entiende la capacidad de localizar y hacer el seguimiento de un producto alimenticio a lo largo de su proceso de producción y comercialización mediante un sistema de <b>identificación</b>.<br><br>Esto implica establecer una relación, que no pueda llevar a confusión, entre las materias primas y su origen, el proceso de elaboración y el producto final y su distribución.<br><br>El objetivo de este plan es disponer de un sistema que permita hacer un <b>seguimiento</b> de todo el proceso productivo y localizar el producto de modo rápido y eficaz, para evitar que se comercialice o para retirarlo del mercado en caso de que ya se haya comercializado.<br><br>Este Plan incluye el concepto de <b>lote</b>: Conjunto de unidades de venta de un producto alimenticio producido, fabricado o envasado en circunstancias prácticamente idénticas."
+            }
+          ]
+        }
+      ]
+    },
+            {
+      "titulo": "Autoevaluación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "swing",
+          "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
+        },
+        {
+          "clase": "texto",
+          "animacion": "flash",
+          "subclase": "instruccion",
+          "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "animacion": "bounceInUp",
+          "preguntas": [
+            {
+              "texto": "El APPCC es un método preventivo, sistemático, estructurado y...",
+              "respuestas": [
+                {
+                  "opcion": "Voluntario para todas las industrias alimentarias.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Obligatorio para todas las industrias alimentarias.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Obligatorio para las grandes industrias alimentarias.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Voluntario para las pequeñas industrias alimentarias.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Cuando, por características propias de la empresa alimentaria, existan dificultades para implantar un Sistema APPCC completo se podrá:",
+              "respuestas": [
+                {
+                  "opcion": "Solicitar a las Autoridades Competentes la exención de la implantación del sistema APPCC.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Sea cual sea la dificultad, se ha de implantar el sistema APPCC completo.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Se permite la utilización de las Guías de Prácticas Correctas de Higiene, siempre que estén evaluadas favorablemente por la Autoridad Competente y se basen en los principios del Sistema APPCC.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Se permite la utilización de unas Guías de Prácticas Correctas de Higiene siempre que éstas no se basen en los principios del Sistema APPCC.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "El Sistema APPCC ofrece, entre sus ventajas:",
+              "respuestas": [
+                {
+                  "opcion": "Eliminar o minimizar los peligros de contaminación de los alimentos.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Todas las respuestas son correctas.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Actuar antes de que aparezca el problema.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Aportar confianza a los consumidores y clientes.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Indica la respuesta <b>incorrecta</b>:",
+              "respuestas": [
+                {
+                  "opcion": "Los elementos de iluminación deben estar protegidos para evitar la contaminación de los alimentos en caso de rotura.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Una ventilación adecuada evitará la condensación de vapor y por tanto la aparición de mohos.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "En las zonas donde se manipulan alimentos, lo mejor para el secado de manos es la utilización de un secador que genere un fuerte flujo de aire caliente.",
+                  "correcto": true,
+                  "feedback": "La generación de corrientes de aire pueden dispersar polvo, suciedad y, por tanto microorganismos, desde el suelo o el ambiente hacia los alimentos además de aumentar la temperatura, por lo que lo más adecuado es la utilización de toallas de un solo uso."
+                },
+                {
+                  "opcion": "Los equipos y utensilios que vayan a entrar en contacto con alimentos deben estar fabricados con materiales no absorbentes, resistentes a la corrosión y a numerosas operaciones de limpieza y desinfección.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "¿Qué sucede si Limpiamos pero no Desinfectamos?",
+              "respuestas": [
+                {
+                  "opcion": "Que ahorramos desinfectante, ya que al limpiar eliminamos la suciedad y los microorganismos.",
+                  "correcto": false,
+                  "feedback": "Podemos eliminar la suciedad, pero los microorganismos permanecen vivos."
+                },
+                {
+                  "opcion": "Que eliminamos los microorganismos pero no la suciedad.",
+                  "correcto": false,
+                  "feedback": "El detergente elimina la suciedad y el desinfectante los microorganismos."
+                },
+                {
+                  "opcion": "Que permanece la suciedad y los microorganismos.",
+                  "correcto": false,
+                  "feedback": "La suciedad sí la eliminamos, no así los microorganismos."
+                },
+                {
+                  "opcion": "Que eliminamos la suciedad pero no los microorganismos, por lo que tenemos un foco de contaminación asegurado.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Por el contrario, ¿qué sucede si Desinfectamos pero no Limpiamos?",
+              "respuestas": [
+                {
+                  "opcion": "Que ahorramos detergente, ya que al desinfectar eliminamos los microorganismos que son los que causan enfermedades.",
+                  "correcto": false,
+                  "feedback": "No eliminamos la suciedad, por lo que tampoco eliminamos los microorganismos que pueden permanecer protegidos en puntos donde no alcance el desinfectante. Además este se inactiva al contacto con materia orgánica."
+                },
+                {
+                  "opcion": "Que eliminamos la suciedad pero no los microorganismos.",
+                  "correcto": false,
+                  "feedback": "Los detergentes son los que remueven la suciedad, no los desinfectantes."
+                },
+                {
+                  "opcion": "Que no eliminamos ni los microorganismos ni la suciedad.",
+                  "correcto": true,
+                  "feedback": "Por un lado los gérmenes estarán protegidos bajo la suciedad en puntos donde no alcance el desinfectante y además éste no tendrá fuerza suficiente para destruirlos."
+                },
+                                {
+                  "opcion": "Que eliminamos los microorganismos pero no la suciedad.",
+                  "correcto": false,
+                  "feedback": "Si no eliminamos la suciedad, no eliminaremos los microorganismos."
+                }
+              ]
+            },
+            {
+              "texto": "Los insectocutores (aparatos de luz ultravioleta utilizados para electrocutar insectos voladores) ¿pueden ser causa de contaminación de los alimentos?:",
+              "respuestas": [
+                {
+                  "opcion": "Sí.",
+                  "correcto": true,
+                  "feedback": "Los insectos pueden caer sobre los alimentos si la ubicación del insectocutor no es la adecuada y/o la bandeja de recogida de insectos muertos no se vacía con regularidad."
+                },
+                {
+                  "opcion": "No.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Los productos de desecho y residuos generados en la manipulación/elaboración de alimentos:",
+              "respuestas": [
+                {
+                  "opcion": "Todas las respuestas son correctas.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Constituyen un foco de contaminación y de malos olores.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Según se generen se tirarán en cubos de basura o contenedores de accionamiento no manual (con pedales) provistos siempre de bolsas adecuadas.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Se evitará su acumulación durante periodos prolongados de tiempo.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "El Plan de Mantenimiento:",
+              "respuestas": [
+                {
+                  "opcion": "Permite que las instalaciones funciones con normalidad, pudiendo prever fallos y averías y llevar a cabo las reparaciones necesarias.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Permite que en caso de fallo podamos sustituir el equipo rápidamente por otro de iguales características.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Impide que los equipos se estropeen.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Consiste en tener un listado actualizado en el que figure toda la maquinaria que se utiliza y que se puede estropear.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "La trazabilidad implica:",
+              "respuestas": [
+                {
+                  "opcion": "Establecer una relación entre un producto final y el origen de las materias primas que lo constituyen.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Establecer una relación entre un producto final y su proceso de elaboración.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Establecer una relación entre un producto final y su distribución.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Todas son correctas.",
+                  "correcto": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInDown",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod7/M7ensalada2.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Con este módulo has visto que los <b>prerrequisitos</b> (presentados como Planes) que son necesarios para que el Sistema APPCC funcione correctamente llevan asociados una serie de <b>registros</b> donde se pueden consultar las operaciones realizadas y las incidencias que pudieran surgir  y actuaciones que se realizaron para resolver dichas incidencias.<br><br>En el siguiente módulo, último del curso, nos centraremos más en el <b>sector</b> correspondiente a tu actividad."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta pronto!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
