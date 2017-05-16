@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="MANIFEST-EBA2745038E4C772DCAD8E86B8CA1E19" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <imsmd:lom>
+      <imsmd:general>
+        <imsmd:identifier>Curso</imsmd:identifier>
+        <imsmd:title>
+          <imsmd:langstring xml:lang="es">Powtoon</imsmd:langstring>
+        </imsmd:title>
+        <imsmd:catalogentry>
+          <imsmd:catalog>Powtoon</imsmd:catalog>
+        </imsmd:catalogentry>
+        <imsmd:language>es</imsmd:language>
+        <imsmd:description>
+          <imsmd:langstring xml:lang="es">Powtoon</imsmd:langstring>
+        </imsmd:description>
+      </imsmd:general>
+    </imsmd:lom>
+  </metadata>
+  <organizations default="MNT">  
+		<organization identifier="CURSOS" structure="hierarchical">
+			<title>Mavi Nuevas Tecnologías </title>
+			<item identifier="Powtoon" isvisible="true" identifierref="Powtoon" >
+				<title>Powtoon</title>			
+			</item>
+		</organization>
+</organizations>
+  <resources>
+    <resource identifier="Powtoon" type="webcontent" href="powtoon/index.html">
+    </resource> 
+  </resources>
+</manifest>

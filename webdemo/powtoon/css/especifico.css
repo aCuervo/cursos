@@ -1,0 +1,42 @@
+#divIndiceLista .scoCompletado a {
+    background: url("../img/comunes/tick_menu.svg") no-repeat scroll 97% 50%;
+    background-size: 25px 18px;
+}
+.icono.sabiasQue .divFondo {
+    background-image: url('../img/comunes/sabiasQue.svg');
+    background-size: auto 80px;
+    background-position: 50% 8px;
+}
+.icono.definicion .divFondo{
+    background-image: url('../img/comunes/definicion.svg');
+    background-size: auto 50px;
+    background-position: 50% 25px;
+}
+.icono.exclamacion .divFondo{
+    background-image: url('../img/comunes/aviso.svg');
+    background-size: auto 80px;
+    background-position: 50% 8px;
+}
+.icono.exclamacion.blanca .divFondo, 
+.icono.exclamacion.picos .divFondo {
+    background-image: url('../img/comunes/avisoBlanco.svg');
+}
+
+.json{
+    border: 1px dotted #212121;
+    flex: 0 1 auto !important;
+    margin-right: 1em !important;
+    padding: 0.5em !important;
+    font-size: 12pt !important;
+    background-color:#fff;
+    line-height:100%;
+    font-family:Consolas;
+}
+.acordeon{
+    width: 75%;
+    align-self:center;
+}
+#ulIndiceLista img{
+    width:1.5em;
+    height:1.5em;
+}

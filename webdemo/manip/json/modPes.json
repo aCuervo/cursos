@@ -1,0 +1,262 @@
+﻿{
+  "modulo": "Mod. Específico: Sector Pesquero",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Productos pesqueros",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "bounceInRight",
+
+          "texto": "Los productos pesqueros se caracterizan por la gran <b>variedad y diversidad</b> de productos y especies que los constituyen. Esta diversificación ha seguido aumentando debido a la liberación de los mercados y al desarrollo de nuevas tecnologías de conservación y elaboración de los alimentos, alcanzando la práctica totalidad de especies comercializadas en todo el mundo."
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInLeft",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Dentro de los productos pesqueros se pueden distinguir:",
+              "contenido": [
+                {
+                  "punto": "<b>Pescados</b>"
+                },
+                {
+                  "punto": "<b>Marisco</b> (a los crustáceos y moluscos con concha se les suele incluir dentro del término marisco):",
+                  "contenido": [
+                    {
+                      "punto": "<b>Crustáceos</b> (gambas, cigalas, langostinos...)"
+                    },
+                    {
+                      "punto": "<b>Moluscos</b>:",
+                      "contenido": [
+                        {
+                          "punto": "Con concha: almejas, mejillones, ostras..."
+                        },
+                        {
+                          "punto": "Sin concha:  calamares, pulpos..."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/paella.jpg"
+            }
+
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "El Pescado",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInDown",
+          "texto": "El pescado es un alimento <b>básico y fundamental</b> en nuestra alimentación, constituyendo uno de los pilares fundamentales en la dieta equilibrada (cuyo modelo más conocido es la dieta mediterránea), protectora de nuestra salud y bienestar. El hábitat o entorno en que se desarrollan las especies condiciona su <b>sabor, textura y propiedades</b> y puesto que es el <b>agua</b> el medio en el que se desenvuelven, desarrollan y reproducen, éste será el medio que determinará los dos grandes grupos en los que podemos dividirlos:"
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "lista",
+              "subclase": "numeros",
+              "contenido": [
+                {
+                  "punto": "Pescados de agua <b>dulce</b>: Son aquellos que proceden de <b>ríos, arroyos y lagos</b>. En términos generales, se considera a estos pescados más “sosos” y en algunos casos incorporan, además, el sabor propio del entorno en que han vivido. Desde el punto de vista de consumo, son minoría."
+                },
+                {
+                  "punto": "Pescados de agua <b>salada</b>: Son los que proceden del mar, medio más rico en nutrientes, lo que en general les confiere un  sabor más potente (“a mar”). Desde el punto de vista de consumo, son mayoría."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/pescadoPlata.jpg",
+              "ancho": 400
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "animacion": "fadeInUp",
+          "subclase": "exclamacion",
+          "texto": "Hay algunas especies, como el <b>salmón</b> y la <b>anguila</b>, que comparten su vida en ambos medios."
+        }
+      ]
+    },
+    {
+      "titulo": "El Pescado (Cont.)",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "flipInX",
+          "texto": "Desde el punto de vista <b>nutricional</b>, el pescado tiene una composición parecida a la de la carne, si bien existen marcadas diferencias, como es la composición de las <b>grasas</b>, con una proporción mucho menor de grasas saturadas (grasas “malas”) que la carne. La composición nutritiva y el valor energético difieren según especie e incluso dentro de una misma especie pueden variar según otros <b>factores</b> como son la edad de la pieza, el hábitat donde vive, la temperatura del agua, la alimentación recibida, la época de captura, estación del año, etc."
+        },
+        {
+          "clase": "texto",
+          "subclase": "centro",
+          "animacion": "flipInX",
+          "texto": "<b>Composición química del pescado<b/>"
+        },
+        {
+          "clase": "tabla",
+          "subclase": "centro",
+          "animacion": "flipInX",
+          "filaTitulos": [
+            { "titulo": "Componente" },
+            { "titulo": "Se muestran valores medios aproximados, ya que depende de múltiples factores: especie, edad, medio en el que vive, alimentación, época del año..." }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                { "texto": "Agua" },
+                { "texto": "60-80%" }
+
+              ]
+            },
+            {
+              "fila": [
+                { "texto": "Proteínas" },
+                { "texto": "16-25% " }
+              ]
+            },
+            {
+              "fila": [
+                { "texto": "Grasas" },
+                { "texto": "Variable: 0,1% hasta 15% " }
+              ]
+            },
+            {
+              "fila": [
+                { "texto": "Vitaminas" },
+                { "texto": "Vitaminas del grupo B (B1, B2, B3 y B12) Vitamina A y Vitamina D se encuentran principalmente en pescados grasos" }
+              ]
+            },
+            {
+              "fila": [
+                { "texto": "Minerales " },
+                { "texto": "Fósforo, Potasio, Sodio, Calcio, Magnesio, Hierro y  Yodo (los pescados de agua marina son más ricos en sodio y yodo que los de agua dulce)" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Composición química",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "animacion": "lightSpeedIn",
+          "imagen": "img/modPes/molecula.svg",
+          "ancho": 300
+        },
+        {
+          "clase": "acordeon",
+          "animacion": "lightSpeedIn",
+          "contenido": [
+            {
+              "titulo": "Agua",
+              "texto": "Es el <b>principal</b> componente y es inversamente proporcional al contenido <b>graso</b> (cuando aumenta uno, disminuye el otro). En los pescados magros la proporción de agua se encuentra entre el 75-80% y en los pescados grasos puede llegar a valores inferiores al 75% (depende de la especie y de la época del año)."
+            },
+            {
+              "titulo": "Proteínas",
+              "texto": "Las proteínas del pescado y marisco son de alto valor biológico, es decir, son proteínas <b>fácilmente asimilables</b> por nuestro organismo y nos aportan todos los aminoácidos esenciales (los que deben ser suministrados por la dieta ya que el cuerpo humano no es capaz de producir o lo hace pero no en cantidad suficiente). El tipo de proteínas del pescado es lo que determina su textura o consistencia, su digestibilidad, su conservación y los cambios de sabor y color que se suceden en el pescado desde su pesca hasta su llegada al consumidor final.<br><br>La carne de pescado contiene menos proporción de una proteína llamada <b>colágeno</b> (confiere firmeza y dureza) por lo que resulta más tierna y más fácil de digerir que la carne o el marisco (ambos con mayor proporción de colágeno). Además el colágeno del pescado se convierte más fácilmente en gelatina con el calentamiento."
+            },
+            {
+              "titulo": "Grasas",
+              "texto": "Van a ser responsables del <b>aporte</b> calórico del pescado ya que los hidratos de carbono no son representativos desde un punto de vista nutricional (suponen menos del 1%). El contenido en grasa del pescado es muy <b>variable</b>. Según la cantidad de grasa se establece una clasificación del pescado en:<ul><li>Pescado <b>blanco o magro</b>: contenido en grasa inferior al 3%. La mayoría tiene la carne blanca.</li><li>Pescado <b>semigraso</b>: valores comprendidos entre el 3% y el 5 %. Realmente no existen pescados semigrasos como tales, sino que dependiendo de diversos factores, un pescado azul o blanco se convierte en semigraso por pérdida o ganancia de materia grasa de su cuerpo</li><li>Pescado <b>graso</b>: valores superiores al 5%. La cantidad de grasa influye en la coloración, así que gran parte de los pescados de esta categoría tienen coloración externa azul (posiblemente este sea el motivo de que también se llame pescado azul).</li></ul>El <b>contenido</b> en grasa varía mucho entre una especie y otra, e incluso dentro de la misma especie también cambia según diversos factores, como pueden ser:<ul><li><b>Alimentación</b>: tanto su disponibilidad como las características de la misma.</li><li><b>Hábitat</b> o entorno en el que viven: los pescados de agua dulce suelen ser menos grasos que los de agua marina. Aparte, también influye la temperatura del agua (la grasa evita la congelación, por lo que peces de aguas frías tendrán más grasa).</li><li><b>Ciclo de vida</b>: la grasa en el pez actúa como reserva de energía, por lo que acumulan grasa antes del desove. Por otro lado el pescado blanco encuentra cerca su alimento, por lo que no necesita desplazarse y no necesita acumular grasa. El pescado azul hace grandes viajes y por eso debe acumular grasa (cuanto mayor sea el desplazamiento mayor será el depósito de grasa que tenga que acumular).</li></ul>Hay que hacer mención especial al tipo de grasa de los pescados (principalmente del pescado azul) que se diferencia de la de otros alimentos de origen animal por su abundante contenido en ácidos grasos poliinsaturados (entre los que destacan el <b>Omega 3</b> y el <b>Omega 6</b>) y monoinsaturados (“grasas buenas”) y en menor proporción los ácidos grasos saturados (“grasas malas”). Los ácidos grasos Omega 3 están relacionados con la prevención y tratamiento de las enfermedades cardiovasculares así como de los factores que pueden desencadenarlas (colesterol y/o triglicéridos elevados en sangre)."
+            },
+            {
+              "titulo": "Vitaminas",
+              "texto": "Destacan las vitaminas del <b>grupo B</b> (B1, B2, B3 y B12). También es significativo el aporte de las Vitaminas A y D y, aunque en menor proporción, la Vitamina E  (éstas últimas principalmente se encuentran almacenadas en el hígado). Las vitaminas A, D y E son vitaminas <b>liposolubles</b>, es decir se almacenan en los tejidos grasos (principalmente hígado) y por eso su contenido es más significativo en los pescados grasos."
+            },
+            {
+              "titulo": "Minerales",
+              "texto": "El pescado aporta cantidad importante de minerales, entre los que destacan el <b>fósforo, potasio, sodio, magnesio, hierro y yodo</b>, entre otros, aunque muy variable según se trate de pescado de agua dulce o de mar y si se considera solamente el músculo o también la piel y las espinas (en cuyo caso tiene importancia el aporte de calcio). El pescado marino es más rico en sodio, yodo y cloro que el de agua dulce."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "El marisco",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "rotateInUpRight",
+          "contenido": [
+
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/marisco.jpg"
+            },
+            {
+              "clase": "lista",
+              "titulo": "Los <b>mariscos</b> son aquellos animales invertebrados comestibles que tienen en el agua su medio normal de vida. Normalmente se consumen moluscos y crustáceos. En general, la composición química de los mariscos es similar a la de los pescados magros.",
+              "contenido": [
+                {
+                  "punto": "El <b>agua</b> es el componente mayoritario, siendo su composición de un 75-80%."
+                },
+                {
+                  "punto": "En los moluscos el porcentaje de <b>proteína</b> oscila entre el 10-20%; en los crustáceos es superior, del orden del 16-25%."
+                },
+                {
+                  "punto": "El contenido en <b>grasa</b> en el marisco es bajo, constituyendo de un 0,5 a un 2% de la fracción comestible en moluscos y entre el 2-5% en crustáceos y, al igual que en el pescado, también abundan los ácidos grasos insaturados como el Omega3. Hay que destacar que <b>algunos</b> crustáceos y moluscos sin concha contienen un porcentaje nada despreciable de <b>colesterol</b>, sin embargo debido a la concentración de ácidos grasos insaturados y su escaso contenido en ácidos grasos saturados, la capacidad de aumentar el nivel de colesterol sanguíneo es muy inferior a la de otros alimentos."
+                },
+                {
+                  "punto": "Al igual que en los pescados, la presencia de <b>hidratos de carbono</b> no es importante, si bien algunos moluscos con concha (ostras, mejillones) tienen cantidades significativas."
+                },
+                {
+                  "punto": "En cuanto al contenido de <b>minerales</b> es destacable el aporte de <b>hierro</b> de almejas, chirlas, berberechos, ostras y mejillones."
+                },
+                {
+                  "punto": "Las vitaminas predominantes son las del <b>grupo B</b>, y no son muy significativas las vitaminas A, D y E."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInLeft",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modPes/salmon.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "<p>Aquí termina este pequeño extracto de la formación de <b>Manipulador de Alimentos: Especialidad Pescadería</b>. Esperamos que lo hayas encontrado instructivo y entretenido. Si te ha resultado interesante, <u>no dudes en solicitar más información sobre nuestros cursos</u>. Cualquier sugerencia que te parezca oportuna para mejorar el curso también es bienvenida.</p><br><p><center>¡Muchas gracias!</center></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta pronto!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+
+

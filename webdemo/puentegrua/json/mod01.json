@@ -1,0 +1,170 @@
+﻿{
+  "modulo": "Mod. I: El puente grúa",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "fondo": "img/comunes/bienvenida.jpg",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
+              "texto": "Este curso está destinado a darnos a conocer los puentes grúa, que están presentes en la mayor parte de las instalaciones industriales. Comenzaremos con una aproximación a la máquina, para ello deberemos conocer algunas definiciones, y los tipos que existen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "MOTORES DE ACCIONAMIENTO",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "flipInX",
+          "texto": "<center><b>Motores de accionamiento</b></center><br>Según el uso del puente grúa los motores que se utilizan son:"
+        },
+        {
+          "clase": "tabs",
+		  "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Motores de corriente continua",
+              "texto": "Son equipos de mucho costo, muy delicados y equipos que necesitaran mucho mantenimiento. Algunos de los motores que se utilizan son: motor en shunt, en serie y compound. Ya están prácticamente en desususo."
+
+            },
+            {
+              "titulo": "Motores en corriente alterna",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "Con los motores siguientes:",
+                  "contenido": [
+                    {
+                      "punto": "<b>Motor asíncrono de rotor bobinado</b>: es el más utilizado; la regulación de la velocidad se efectúa por resistencias robóticas, y a medida que se va eliminando las resistencias aumenta la velocidad del motor. Estas máquinas son en general bastante antiguas."
+                    },
+                    {
+                      "punto": "<b>Motor de rotor en cortocircuito</b>: basado en el principio de rotor deslizante, se consigue la regulación de la velocidad en función de la frecuencia de la red a partir de un convertidor, primero a corriente continua y después a alterna con la frecuencia regulada. Son los más montados en la actualidad y  se controlan mediante variadores."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "TIPOS DE PUENTES GRÚA",
+      "fondo": "img/mod01/scofondo.jpg",
+      "contenido": [
+        {
+          "clase": "acordeon",
+		  "animacion": "slideInRight",
+          "contenido": [
+            {
+              "titulo": "Grúa",
+              "texto": "Máquina de funcionamiento discontinuo destinada a elevar y distribuir las cargas suspendidas de un gancho o de cualquier otro accesorio de prensión. "
+            },
+            {
+              "titulo": "Grúa puente",
+              "texto": "Grúa que consta de un elemento portador formado por una o dos vigas móviles, apoyadas o suspendidas, sobre las que se desplaza el carro con los mecanismos elevadores.",
+              "imagen": "img/mod01/gruaPuente.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Grúa pórtico",
+              "texto": "Grúa cuyo elemento portador se apoya sobre un camino de rodadura por medio de patas de apoyo. Se diferencia de la grúa puente en que los raíles de desplazamiento están en un plano horizontal muy inferior al del carro (normalmente apoyados en el suelo)",
+              "imagen": "img/mod01/gruaPortico.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Grúa semipórtico",
+              "texto": "Grúa cuyo elemento portador se apoya sobre un camino de rodadura, directamente en un lado y por medio de patas de apoyo en el otro. Se diferencia de la grúa puente y de la grúa pórtico en que uno de los raíles de desplazamiento está aproximadamente en el mismo plano horizontal que el carro, y el otro raíl de desplazamiento está en otro plano horizontal muy inferior al del carro (normalmente apoyado en el suelo).",
+              "imagen": "img/mod01/gruaSemiportico.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Grúa ménsula",
+              "texto": "Grúa fijada a un muro, o susceptible de desplazarse a lo largo de un camino de rodadura aéreo fijado a un muro o a una estructura de obra. Se diferencia de la grúa puente en que los raíles de desplazamiento están en un mismo plano vertical.",
+              "imagen": "img/mod01/gruaMensula.jpg",
+              "ancho": 275
+            },
+            {
+              "titulo": "Grúa de brazo giratorio (o de palomilla)",
+              "texto": "Grúa capaz de girar sobre una columna fijada por su base a la fundación, o fijada a una columna giratoria sobre un soporte empotrado.",
+              "imagen": "img/mod01/gruaPalomilla.jpg",
+              "ancho": 275
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "PUESTOS DE OPERACIÓN",
+      "contenido": [
+        {
+          "clase": "icono",
+		  "animacion": "fadeInUp",
+          "subclase": "definicion",
+          "texto": "Se entiende por puesto de operación el lugar desde el que el operador manejando los órganos de control opera la grúa. Las grandes grúas generalmente se operan desde cabinas situadas en la estructura de la misma con distintas disposiciones (Fig. 1), y en el resto se operan desde el suelo, mediante botonera o telemando. "
+        },
+        {
+          "clase": "imagen",		  
+		    	"animacion": "fadeInRight",
+          "imagen": "img/mod01/puestosOperacion.svg",
+          "pie": "Fig. 1: Ejemplos de emplazamiento de cabinas"
+        },
+        {
+          "clase": "texto",
+          "texto": "Las cabinas montadas en el centro del puente, se suelen utilizar en puentes de gran luz, con la idea de conseguir una buena visibilidad para el conductor. Las cabinas desplazables a lo largo del puente, se suelen utilizar para el movimiento de material muy voluminoso."
+        }
+
+      ]
+    },
+    {
+      "titulo": "CONDICIONES DE ACCESO A LAS CABINAS",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "shake",
+          "texto": "El acceso a las cabinas debe realizarse en las mejores condiciones posibles de seguridad para el operador. Las escalas fijas de acceso a las cabinas tendrán una anchura mínima de 40 cm. con una distancia entre peldaños de 30 cm. y separadas de la pared posterior 16 cm. como mínimo.<br><br>La barandilla o lateral de la escala se prolongará 1 metro por encima del último peldaño y para escalas de altura superior a 4 metros dispondrán de protección circundante. Si se emplean escalas fijas para alturas mayores de 9 metros se instalaran plataformas de descanso cada 9 metros o fracción.<br><br>Las cabinas y sus accesos se mantendrán limpios y exentos de grasas, combustibles, polvo, etc. En caso de parada accidental, el operador debe poder abandonar la cabina de forma segura.<br><br>Está prohibida la utilización en la cabina de sistemas de calefacción por incandescencia o combustión. Las cabinas deben disponer de un sistema de ventilación adecuado.<br><br>Cuando se trabaje en zonas sometidas a alta o baja temperatura, las cabinas dispondrán de un equipo adecuado de aire acondicionado, que estará dotado de filtros apropiados para trabajos en atmósferas contaminadas o susceptibles de estarlo.<br><br>En el interior de la cabina existirá un extintor adecuado. Los cristales se mantendrán siempre limpios, para lo cual se limpiaran regularmente. Esta operación debe poder efectuarse sin riesgo para el operador."
+        }
+
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "fondo": "img/comunes/despedida.jpg",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "opacidad": 0.8,
+              "subclase": "recuadro",
+              "texto": "<p>Aquí termina este pequeño extracto de la formación de <b>Prevención de Riesgos Laborales: Puente Grúa</b>. Esperamos que lo hayas encontrado instructivo y entretenido. Si te ha resultado interesante, <u>no dudes en solicitar más información sobre nuestros cursos</u>. Cualquier sugerencia que te parezca oportuna para mejorar el curso también es bienvenida.</p><br><p><center>¡Muchas gracias!</center></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

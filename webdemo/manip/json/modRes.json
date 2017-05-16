@@ -1,0 +1,348 @@
+﻿{
+  "modulo": "Mod. Específico: Hostelería y Restauración",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Etapa 1: Recepción de M.P.",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "shake",
+          "texto": "<b>Recepción de materias primas</b>:<br>El <b>control</b> que se debe realizar de las materias primas con las que vamos a trabajar es <b>fundamental</b> para garantizar la calidad e inocuidad de los alimentos que vamos a elaborar o a fabricar. Por dicho motivo debemos <b>asegurarnos</b> que los productos lleguen en perfectas condiciones y reúnan todas las garantías. ¿Cómo controlamos esto?"
+        },
+        {
+          "clase": "texto",
+		  "animacion": "pulse",
+          "texto": "Por tanto, en esta etapa hemos de realizar un <b>control visual</b> de las condiciones de recepción de los alimentos, especialmente:<br><br><b>Temperatura</b> de recepción:"
+        },
+        {
+          "clase": "tabla",
+		  "animacion": "rubberBand",
+          "subclase": "centro",
+          "filaTitulos": [
+            {
+              "titulo": "Producto alimenticio"
+            },
+            {
+              "titulo": "Temperatura de recepción"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
+                {
+                  "texto": "Comida envasada fría"
+                },
+                {
+                  "texto": "Máx. 8ºC"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Comidas calientes"
+                },
+                {
+                  "texto": "Mín. 65ºC"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Lácteos"
+                },
+                {
+                  "texto": "Máx. 4ºC"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Ovoproductos"
+                },
+                {
+                  "texto": "Máx. 4ºC"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Embutidos cocidos"
+                },
+                {
+                  "texto": "Entre 0 - 5ºC"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Pescados"
+                },
+                {
+                  "texto": "Máx. 2ºC"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Carne picada"
+                },
+                {
+                  "texto": "Máx. 3ºC"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Pollo, aves y conejo"
+                },
+                {
+                  "texto": "Máx. 4ºC"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Carne fresca"
+                },
+                {
+                  "texto": "Máx. 7ºC"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "Congelados"
+                },
+                {
+                  "texto": "Máx. -18ºC"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Peligros y medidas preventivas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "¿Por qué hacemos este control? Para evitar los peligros que pueden aparecer en la etapa de recepción de materias primas, que son:"
+        },
+        {
+          "clase": "lista",
+		  "animacion": "rotateInDownLeft",
+          "contenido": [
+            {
+              "punto": "<b>Contaminación</b> de los alimentos, por ejemplo:",
+              "contenido": [
+                {
+                  "punto": "Los vehículos en los que se transportan no reúnen unas adecuadas condiciones de higiene."
+                },
+                {
+                  "punto": "Las operaciones de descarga no se realizan de manera que se evite la contaminación de los alimentos."
+                },
+                {
+                  "punto": "Los alimentos vienen con gran contaminación de origen debido a deficiencias de higiene del proveedor."
+                }
+              ]
+            },
+            {
+              "punto": "<b>Multiplicación</b> de los microorganismos presentes en los alimentos, por ejemplo:",
+              "contenido": [
+                {
+                  "punto": "Temperaturas no adecuadas durante el transporte."
+                },
+                {
+                  "punto": "Tiempo de descarga excesivo."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Así, entre las maneras de <b>evitar o minimizar</b> que aparezcan estos peligros tenemos:"
+        },
+        {
+          "clase": "tabs",
+		  "animacion": "zoomInUp",
+          "contenido": [
+            {
+              "titulo": "Transporte",
+              "texto": "Serán vehículos <b>homologados</b> cuyo uso sea <b>exclusivo</b> para el transporte de alimentos, o en caso de compartir con otros productos no alimenticios será necesaria una separación efectiva de los productos.<br>Los alimentos estarán debidamente <b>protegidos y estibados</b> durante el transporte.<br>El vehículo presentará unas condiciones de <b>limpieza</b> adecuadas.<br>La <b>temperatura</b> de conservación será la adecuada a los alimentos transportados."
+            },
+            {
+              "titulo": "Proveedores",
+              "texto": "Todos los alimentos y materias primas deben comprarse a proveedores autorizados que dispongan de autorización sanitaria vigente y nunca a proveedores clandestinos que no estén controlados por la autoridad sanitaria y vendrán acompañados de facturas o albaranes que indiquen su procedencia."
+            },
+            {
+              "titulo": "Cadena de frío",
+              "texto": "En aquellos productos que se mantengan refrigerados o congelados, no se  interrumpirá la cadena de frío. No obstante, se permitirán períodos limitados no sometidos al control de temperatura por necesidades prácticas de manipulación durante la preparación, transporte, almacenamiento, presentación y entrega de los productos alimenticios, siempre que ello no suponga un riesgo para la salud."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Medidas preventivas",
+      "contenido": [
+        {
+          "clase": "lista",
+		  "animacion": "slideInUp",
+          "subclase": "anillas",
+          "titulo": "¿Cómo <b>minimizar</b> o evitar los peligros mencionados?",
+          "contenido": [
+            {
+              "punto": "Los alimentos se ordenarán por <b>categorías</b>, en base a su naturaleza, respetando su modo de conservación, evitando en todo momento la contaminación cruzada. Lo ideal sería disponer de equipos frigoríficos <b>independientes</b> para cada grupo de alimentos:",
+              "contenido": [
+                {
+                  "punto": "Frutas y verduras"
+                },
+                {
+                  "punto": "Carnes y productos cárnicos frescos"
+                },
+                {
+                  "punto": "Pescados y mariscos"
+                },
+                {
+                  "punto": "Productos listos para consumo (fiambres, lácteos, etc.)"
+                },
+                {
+                  "punto": "Comidas preparadas"
+                }
+              ]
+            },
+            {
+              "punto": "Nunca se depositarán directamente sobre el <b>suelo</b> los alimentos (aunque estén debidamente envasados y embalados)."
+            },
+            {
+              "punto": "Adoptar unos <b>planes de mantenimiento</b>, control de plagas e higiene y desinfección efectivos."
+            },
+            {
+              "punto": "No sobrecargar los equipos de frío (siempre se debe facilitar la <b>circulación</b> del aire frío)."
+            },
+            {
+              "punto": "Establecer una adecuada <b>rotación</b> de productos (sistema FIFO)."
+            },
+            {
+              "punto": "Respetar las <b>fechas de consumo</b> (fechas de caducidad o fechas de consumo preferente)."
+            },
+            {
+              "punto": "Las etiquetas, envases y envoltorios deben ser perfectamente <b>legibles</b> y encontrarse en buen estado de conservación."
+            },
+            {
+              "punto": "Si los alimentos se van a introducir en recipientes del propio establecimiento, éstos deben ser <b>aptos</b> para uso alimentario y en adecuadas condiciones de higiene y conservación."
+            },
+            {
+              "punto": "En aquellos productos que se mantengan refrigerados o congelados, no se  interrumpirá la <b>cadena de frío</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Evitar la contaminación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Para evitar la contaminación cruzada hemos de adoptar una serie de medidas preventivas como pueden ser:<br>Dependiendo de la dimensión de la cocina:"
+        },
+        {
+          "clase": "listaObjetos",
+		  "animacion": "fadeInLeft",
+          "subclase": "flex-start",
+          "contenido": [
+            {
+              "clase": "lista",
+              "subclase": "sinPuntos",
+              "titulo": "Deberá existir una separación <b>espacial</b> (diversos locales, zonas o secciones) por ejemplo:",
+              "contenido": [
+
+                {
+                  "punto": "Zona o local para realizar operaciones de limpieza y desinfección de útiles"
+                },
+                {
+                  "punto": "Zona  o local de preparación de carnes"
+                },
+                {
+                  "punto": "Zona o local de preparación de pescados"
+                },
+                {
+                  "punto": "Zona o local de preparación de vegetales"
+                },
+                {
+                  "punto": "Zona de productos intermedios"
+                },
+                {
+                  "punto": "Zona de productos terminados"
+                },
+                {
+                  "clase": "icono",
+                  "subclase": "exclamacion",
+                  "texto": "En restauración uno de los puntos más importantes es evitar la <b>contaminación cruzada</b>."
+                }
+              ]
+            },
+            {
+              "clase": "listaObjetos",
+			  "animacion": "flash",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "O bien una <b>separación temporal</b> (primero realizar unas operaciones y luego otras) para manipular materias primas crudas y productos semielaborados o productos terminados."
+                },
+                {
+                  "clase": "imagen",
+                  "imagen": "img/modRes/desorden.jpg"
+                }
+              ]
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInLeft",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modRes/despedida.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "<p>Aquí termina este pequeño extracto de la formación de <b>Manipulador de Alimentos: Especialidad Hostelería y restauración</b>. Esperamos que lo hayas encontrado instructivo y entretenido. Si te ha resultado interesante, <u>no dudes en solicitar más información sobre nuestros cursos</u>. Cualquier sugerencia que te parezca oportuna para mejorar el curso también es bienvenida.</p><br><p><center>¡Muchas gracias!</center></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta pronto!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

@@ -1,0 +1,170 @@
+﻿{
+  "modulo": "Módulo Específico: Sector Panadería y pastelería",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Definiciones de pan",
+      "contenido": [
+        {
+          "clase": "icono",
+          "animacion": "fadeInRight",
+          "subclase": "definicion",
+          "texto": "<b>Pan</b>, sin otro calificativo, designa el producto perecedero resultante de la cocción de una masa obtenida por la mezcla de harina, sal comestible y agua potable, fermentada por especies de microorganismos propias de la fermentación panaria y que, posteriormente, puede ser sometido o no a un proceso de conservación autorizado.",
+          "imagen": "img/modPan/02.Cuadro.jpg",
+          "ancho": 200
+        },
+        {
+          "clase": "texto",
+          "texto": "Se establecen las siguientes definiciones de pan:"
+        },
+        {
+          "clase": "tabs",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Pan común",
+              "texto": "Es el producto resultante de la cocción de una masa obtenida por la mezcla de harina de trigo, agua, con o sin sal fermentada. Dentro del pan común, que puede presentarse bajo las formas de barra, baguette, chapata, payés, gallego, etc., tenemos:<br><b>Pan candeal o de miga dura</b>: es el pan de miga prieta o bregada y blanca, generalmente en forma de hogaza. Puede recibir distintos nombres en función de los formatos que adopta: lechuguino, pan de cruz, rosca, fabiola, etc.<br><b>Pan de flama o miga blanda</b>: es el pan elaborado con una mayor proporción de agua y su miga es esponjosa, blanda y no precisa refinado."
+            },
+            {
+              "titulo": "Pan especial",
+              "texto": "Contiene ingredientes adicionales, otras harinas, un proceso de elaboración diverso y un formato diferente. Entre los panes especiales, tenemos:<br><b>Pan integral</b>:  es el pan elaborado con harinas integrales (las que contienen el salvado del cereal).<br><b>Pan de Viena</b>: es el pan elaborado con leche y materias grasas, en forma de barra o panecillo abizcochado.<br><b>Pan de otro cereal</b>: es el que se elabora con harina de trigo mezclada con harina de otro cereal, recibiendo el nombre de este otro, del que debe contener, al menos, un 51% (pan de centeno, pan de maíz, multicereales, etc.)<br><b>Pan tostado</b>: es el pan que, después de cocido, es cortado en rebanadas y sometido a tostación y envasado. Puede contener otros ingredientes como grasas, azúcares y otros cereales.<br><b>Pan de molde</b>: es el pan que tiene una ligera corteza blanda y que para su cocción ha sido introducido en molde.<br><b>Otros panes</b>: todos aquellos panes que por razones de sus ingredientes adicionales, de su forma externa o el procedimiento de elaboración, son también panes especiales: pan dulce, pan de frutas, palillos, bastones, colines, pan ácimo, etc."
+            },
+            {
+              "titulo": "Productos semielaborados",
+              "texto": "Se refieren al pan precocido, a las masas congeladas y a otras masas semielaboradas:<br><b>Pan precocido</b>: es la masa de pan cuya cocción ha sido interrumpida antes de llegar a su finalización, siendo sometida posteriormente a un proceso de congelación o a cualquier otro proceso de conservación autorizado.<br><b>Masa congelada</b>: es la masa que, habiendo sido o no fermentada y habiendo sido o no formada la pieza, ha sido posteriormente congelada.<br><b>Masas semielaboradas</b>: aquellas que, habiendo sido o no fermentadas y habiendo sido o no formadas las piezas, han sido posteriormente sometidas a un proceso de conservación autorizado, distinto de la congelación, de tal forma que se inhiba, en su caso, el proceso de fermentación."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Productos de confitería",
+      "fondo": "img/modPan/03.Fondo.jpg",
+      "contenido": [
+        {
+          "clase": "icono",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "subclase": "definicion",
+          "texto": "Los <b>Productos de Confitería</b> son aquellos productos alimenticios cuyos ingredientes fundamentales son los <b>azúcares</b>, junto con otros ingredientes, incluidos los aditivos autorizados, y que en alguna fase de la elaboración se someten a un tratamiento térmico adecuado."
+        }
+      ]
+    },
+    {
+      "titulo": "Productos de pasteleria y repostería",
+      "contenido": [
+        {
+          "clase": "icono",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "subclase": "definicion",
+          "texto": "Los <b>Productos de pastelería y repostería</b> son aquellos productos alimenticios elaborados básicamente con masa de harina, <b>fermentada o no</b>, rellena o no, cuyos ingredientes principales son harinas, aceites o grasas, agua, con o sin levadura, a la que se pueden añadir otros alimentos, complementos panarios o aditivos autorizados y que han sido sometidos a un tratamiento térmico adecuado."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Existen dos variantes:",
+              "contenido": [
+                {
+                  "punto": "Pastelería y repostería <b>dulce</b>."
+                },
+                {
+                  "punto": "Pastelería y repostería <b>salada</b>."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/04.1PR_Dulce.jpg"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modPan/04.2PR_Salado.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "subclase": "exclamacion",
+          "texto": "En los productos de pastelería y repostería, la presencia de levadura no es obligatoria."
+        }
+      ]
+    },
+    {
+      "titulo": "Tipos de masas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "animacion": "slideInRight",
+          "texto": "Para la elaboración de los productos de panadería y repostería, tanto en la modalidad dulce como en la modalidad salada, existen, al menos cinco masas básicas:"
+        },
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "slideInRight",
+          "texto": "<center>Sitúa el ratón sobre cada icono para ver información y algunos ejemplos.</center>"
+        },
+        {
+          "clase": "circulo",
+          "subclase": "horizontal",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "imagen": "img/modPan/06.1Hojaldreb.jpg",
+              "titulo": "Masa de hojaldre",
+              "texto": "Masa trabajada con aceites o grasas con las que se producen <b>hojas delgadas superpuestas</b>. Es una masa compuesta por harina, grasa comestible, aceite, sal y agua. A nivel industrial se conoce como “masa de croissant” a un tipo de masa de hojaldre fermentada.<br>Ejemplos: Pasteles, cocas, bandas de crema, bandas de frutas, milhojas, palmeras, canutos, lazos, etc."
+            },
+            {
+              "imagen": "img/modPan/06.2MasasAzucaradasb.jpg",
+              "titulo": "Masas azucaradas",
+              "texto": "Compuestas fundamentalmente a base de harina, aceite u otras grasas <b>y azúcares comestibles</b>. A nivel industrial se consideran las “masas quebradas” como una variante de este tipo de masa.<br>Ejemplos: Pastas secas o de té, tortas, mantecados, polvorones, lenguas de gato, tejas, etc."
+            },
+            {
+              "imagen": "img/modPan/06.3MasasEscaldadasb.jpg",
+              "titulo": "Masas escaldadas",
+              "texto": "Son <b>masas cocidas</b> antes de someterlas al tratamiento térmico y están compuestas a base de harina, sal, agua, leche, aceites o grasas comestibles y, en su caso, bebidas alcohólicas. A nivel industrial vienen referidas como “masas cocidas”.<br>Ejemplos: Relámpagos, lionesas, roscos rellenos, etc."
+            },
+            {
+              "imagen": "img/modPan/06.4MasasBatidasb.jpg",
+              "titulo": "Masas batidas",
+              "texto": "Son masas <b>sometidas a batido</b>, lo que da como resultado masas de gran volumen, tiernas y suaves. Se componen fundamentalmente de huevos, azúcares y/o harinas y almidones.<br>Ejemplos: Bizcochos, magdalenas, merengues, brazos de gitano, búlgaros, etc."
+            },
+            {
+              "imagen": "img/modPan/06.5MasasReposteriab.jpg",
+              "titulo": "Masas de repostería",
+              "texto": "Son las masas <b>elaboradas a partir de las anteriores</b>, preparadas con relleno o guarnición de otros productos.<br>Ejemplos: Tocinos de cielo, almendrados, yemas, masas de mazapán, turrones, alfajores, caramelos, jarabes, confitados de frutas, figuras y motivos decorativos, etc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "fondo": "img/modPan/27.Fondo.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "texto": "<<p>Aquí termina este pequeño extracto de la formación de <b>Manipulador de Alimentos: Especialidad Panadería y Pastelería</b>. Esperamos que lo hayas encontrado instructivo y entretenido. Si te ha resultado interesante, <u>no dudes en solicitar más información sobre nuestros cursos</u>. Cualquier sugerencia que te parezca oportuna para mejorar el curso también es bienvenida.</p><br><p><center>¡Muchas gracias!</center></p>"
+        }
+      ]
+    },
+    {
+      "titulo": "Contraportada",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}

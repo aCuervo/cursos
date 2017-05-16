@@ -1,0 +1,264 @@
+﻿{
+  "modulo": "Mod. I: Introducción",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Objetivo del curso",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInDown",
+          "texto": "El verdadero objetivo del curso es que seas <b>consciente</b> de tu importancia en la preservación de la higiene de los alimentos, ya que el  manipulador de alimentos puede ser la <b>causa</b> de enfermedades de transmisión alimentaria debidas al: <br><b>“No lo sabía”</b><br><b>“No me importa”</b>"
+        },
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "En este Primer Módulo, introductorio al curso de <b>Manipulador de Alimentos</b>, vas a descubrir que uno de los pilares fundamentales para combatir las enfermedades de transmisión alimentaria es la <b>formación</b> (“no lo sabía”).<br><br>A ésta hay que añadirle otro factor importante que es la <b>concienciación</b> de los manipuladores (“no me importa”)."
+        },
+        {
+          "clase": "texto",
+          "subclase": "centro",
+          "animacion": "slideInUp",
+          "texto": "<span class='h2'>¡Vamos allá!</span>"
+        },
+        {
+          "clase": "imagen",
+          "subclase": "ajustarAncho",
+          "imagen": "img/comunes/separadorHierba.svg"
+        }
+      ]
+    },
+    {
+      "titulo": "Seguridad alimentaria",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "definicion",
+          "animacion": "rotateInDownRight",
+          "texto": "<b>Definición:</b><br>La <b>Seguridad Alimentaria</b> es el conjunto de medidas que garantizan que los alimentos que consumimos sean inocuos y conserven sus propiedades nutritivas."
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "zoomIn",
+          "contenido": [
+            {
+              "clase": "lista",
+              "subclase": "numeros",
+              "titulo": "Cuando se manifiesta una enfermedad debida al consumo de alimentos o bebidas, en los estudios que realiza la autoridad sanitaria se pone de manifiesto el papel, <b>directo o indirecto</b>, del manipulador de alimentos y su responsabilidad ante la aparición de dicho brote.<br><br>Así, entre los principales factores que contribuyen a la aparición de brotes destacan, en este orden:",
+              "contenido": [
+                {
+                  "punto": "Las manipulaciones poco higiénicas o prácticas incorrectas de manipulación."
+                },
+                {
+                  "punto": "Casos acaecidos como consecuencia de una limpieza y desinfección deficiente."
+                },
+                {
+                  "punto": "Casos debidos a una conservación incorrecta de los alimentos."
+                }
+              ]
+            },
+
+            {
+              "clase": "imagen",
+              "imagen": "img/mod1/M1higosFresas.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Responsabilidad",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "subclase": "centroEstrecho",
+          "animacion": "lightSpeedIn",
+          "contenido": [
+
+            {
+              "clase": "texto",
+              "texto": "En los últimos años se viene produciendo un cambio radical en el enfoque de la formación de los manipuladores motivado, principalmente, por los propios consumidores, que cada vez están más interesados en una <b>dieta sana y equilibrada</b>, y <b>no</b> toleran los riesgos para la salud asociados al consumo de alimentos, buscando el <b>riesgo cero</b> (aún a sabiendas que esto es imposible de garantizar)."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/comunes/separadorArbol.svg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Por esto surge la necesidad de <b>concienciar</b> a los manipuladores de su importancia en la preservación de la higiene de los alimentos a lo largo de toda la cadena alimentaria, evitando la aparición de <b>enfermedades</b> relacionadas con el consumo de alimentos.<br><br>Las empresas del sector agroalimentario tienen ante sí la <b>responsabilidad</b> de ofrecer alimentos sanos y seguros, lo que depende, en gran medida, de la <b>profesionalidad</b> de sus manipuladores."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+                  "animacion": "lightSpeedIn",
+          "texto": "Todas las personas tienen derecho a esperar que los alimentos que comen sean inocuos y aptos para el consumo"
+        }
+      ]
+    },
+    {
+      "titulo": "La cadena alimentaria",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "bounceInDown",
+          "texto": "La <b>cadena alimentaria</b> es el conjunto de etapas por las que pasan los alimentos desde su producción (en el campo o en el mar) hasta que llegan al consumidor. Debido a que la cadena alimentaria es <b>larga y compleja</b>, es fácil que los alimentos se contaminen a lo largo de ella, perdiendo parte de sus propiedades nutritivas o llegando a constituir un peligro para la salud. Para garantizar la seguridad alimentaria, todas estas etapas deben realizarse en las máximas condiciones de higiene. Una correcta higiene general y personal del personal que manipula los alimentos así como su formación higiénico-sanitaria al respecto constituye uno de los <b>pilares básicos</b> sobre los que se asienta la higiene y seguridad de los alimentos."
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "anchoMitad",
+              "imagen": "img/mod1/cadenaUno.svg"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod1/cadenaPaso1.svg"
+            },
+            {
+              "clase": "texto",
+              "texto": "La producción primaria es el primer eslabón de la cadena: cría, producción o cultivo de los productos de la tierra, ganadería, pesca, caza... La producción primaria proporciona \"la materia prima\" de la cadena. "
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInLeft",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "anchoMitad",
+              "imagen": "img/mod1/cadenaDos.svg"
+            },
+            {
+              "clase": "texto",
+              "texto": "La industria alimentaria se encarga de la preparación o elaboración de los alimentos utilizando la materia prima que llega desde la producción primaria."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod1/cadenaPaso2.svg"
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "anchoMitad",
+              "imagen": "img/mod1/cadenaTres.svg"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod1/cadenaPaso3.svg",
+              "ancho": 400
+            },
+            {
+              "clase": "texto",
+              "texto": "Durante el proceso de comercialización y venta los productos preparados en la industria se ofrecen al consumidor en tiendas, supermercados, hipermercados y otros establecimientos similares."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "bounceInLeft",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "anchoMitad",
+              "imagen": "img/mod1/cadenaCuatro.svg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Los consumidores constituyen el último eslabón de la cadena alimentaria. Sobre ellos recaen importantes responsabilidades para garantizar la seguridad de los alimentos."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod1/cadenaPaso4.svg",
+              "ancho": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Trazabilidad",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "rubberBand",
+          "texto": "Aparece así la necesidad de <b>trazabilidad</b> o <b>rastreabilidad</b> de los alimentos.<br><br>La Trazabilidad es un sistema que permite conocer todos los <b>datos esenciales</b> (de calidad y seguridad alimentaria) de un producto alimentario: se identifica el producto y sus materias primas, la forma en que se ha manipulado, el lugar del que procede y el lugar al que se destina así como los controles y procesos a los que se ha sometido."
+        },
+        {
+          "clase": "lista",
+          "subclase": "cuadrado",
+          "animacion": "rubberBand",
+          "titulo": "Con la trazabilidad se consigue, además de evitar fraudes:",
+          "contenido": [
+            {
+              "punto": "El aumento de la <b>seguridad</b> alimentaria en la producción primaria"
+            },
+            {
+              "punto": "Que el consumidor obtenga toda la <b>información</b> necesaria del producto"
+            },
+            {
+              "punto": "Una <b>gestión</b> rápida y fácil sobre cualquier posible riesgo alimentario"
+            }
+          ]
+        },
+        {
+          "clase": "tabs",
+          "animacion": "lightSpeedIn",
+          "contenido": [
+            {
+              "titulo": "Hacia atrás",
+              "texto": "<b>Trazabilidad hacia atrás:</b> proporciona la información sobre el origen del alimento (de dónde procede, qué se ha hecho con él y cómo se ha hecho)."
+            },
+            {
+              "titulo": "De proceso",
+              "texto": "<b>Trazabilidad de proceso:</b> informa sobre los cambios a los que se somete el alimento. Proporciona la información sobre qué se hace con él (si se divide, cambia o mezcla con otros productos), qué se elabora con él, cómo, cuándo y,  por último, la identificación de lo que se elabora."
+            },
+            {
+              "titulo": "Hacia delante",
+              "texto": "<b>Trazabilidad hacia adelante:</b> informa del destino del producto (a quién se le entrega, qué se entrega y cuándo se entrega)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "<p>Aquí termina este pequeño extracto de la formación de <b>Manipulador de Alimentos: Buenas Prácticas e Higiene Alimentaria</b>. Esperamos que lo hayas encontrado instructivo y entretenido. Si te ha resultado interesante, <u>no dudes en solicitar más información sobre nuestros cursos</u>. Cualquier sugerencia que te parezca oportuna para mejorar el curso también es bienvenida.</p><br><p><center>¡Muchas gracias!</center></p>"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod1/despedida.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
+

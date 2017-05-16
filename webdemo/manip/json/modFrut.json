@@ -1,0 +1,207 @@
+﻿{
+  "modulo": "Módulo Específico: Sector Frutas, verduras y derivados",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Definiciones",
+      "contenido": [
+        {
+          "clase": "icono",
+          "animacion": "fadeInRight",
+          "subclase": "definicion",
+          "texto": "<b>Definiciones:</b><br>A continuación vamos a ver la definición de hortalizas, verduras, legumbres, frutas y setas."
+        },
+        {
+          "clase": "tabs",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Hortalizas",
+              "texto": "Toda planta herbácea que se cultiva y que es adecuada para el consumo, bien cruda o bien cocinada. El término <b>verdura</b> hace referencia a los órganos verdes de dichas plantas, especialmente hojas, tallos, frutos en vaina o flores.",
+              "imagen": "img/modFru/hortalizas.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Legumbres",
+              "texto": "Semillas contenidas en las vainas de las plantas de la familia de las leguminosas. El término <b>legumbres frescas</b> se refiere a los frutos y semillas no maduros de las hortalizas leguminosas.",
+              "imagen": "img/modFru/legumbres.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Frutas",
+              "texto": "El conjunto de <b>frutos comestibles</b> de ciertas plantas cultivadas o silvestres.",
+              "imagen": "img/modFru/fruits.jpg",
+              "ancho": 200
+            },
+            {
+              "titulo": "Setas",
+              "texto": "Son variedades de <b>hongos comestibles</b>, entre los que destacan champiñones, níscalos, boletus, etc.",
+              "imagen": "img/modFru/setas.jpg",
+              "ancho": 200
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "fadeInRight",
+          "texto": "<b>¿Sabías que...</b><br>en su origen las variedades de zanahorias tenían diferentes colores: púrpura, blanco, amarillo… y que según una tradición el actual color naranja se debe a un cruce de variedades realizado deliberadamente en el siglo XVI en Holanda para homenajear a la Casa Real Holandesa de Orange cuyo emblema era el color naranja?",
+          "imagen": "img/modFru/carrots.jpg",
+          "ancho": 150
+        }
+      ]
+    },
+    {
+      "titulo": "Origen de las hortalizas",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Los distintos vegetales que consumimos como alimento tienen su origen en los distintos tipos de tejidos vegetales. En la imagen verás el origen de las hortalizas <b>según la parte de la planta que se consume.</b>"
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modFru/verduras.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Clasificación de las hortalizas",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "animacion": "slideInRight",
+          "texto": "<center>Sitúa el ratón sobre cada icono para ver la clasificación y algunos ejemplos.</center>"
+        },
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "<center><b>HORTALIZAS</b><br>Las hortalizas se clasifican según su órgano de consumo en:</center>"
+        },
+        {
+          "clase": "circulo",
+          "subclase": "horizontal",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "imagen": "img/modFru/hraiz.jpg",
+              "titulo": "Raíz",
+              "texto": "Nabo, rábano, zanahoria, remolacha."
+            },
+            {
+              "imagen": "img/modFru/htuberculos.jpg",
+              "titulo": "Tubérculo",
+              "texto": "Patata, batata, mandioca o yuca."
+            },
+            {
+              "imagen": "img/modFru/hbulbos.jpg",
+              "titulo": "Bulbo",
+              "texto": "Ajo, cebolla, puerro."
+            },
+            {
+              "imagen": "img/modFru/htallos.jpg",
+              "titulo": "Hojas y tallos tiernos",
+              "texto": "Lechuga, perejil, acelga, berro, repollo, espárragos, apio."
+            },
+            {
+              "imagen": "img/modFru/hinflorescencia.jpg",
+              "titulo": "Inflorescencia",
+              "texto": "Alcachofa, brócoli, coliflor, romanescu."
+            },
+            {
+              "imagen": "img/modFru/hfrutos.jpg",
+              "titulo": "Frutos",
+              "texto": "Pimiento, berenjena, guindilla, tomate."
+            },
+            {
+              "imagen": "img/modFru/hsemillas.jpg",
+              "titulo": "Semilla",
+              "texto": "Haba, guisante, alubia, garbanzo, lenteja."
+            },
+            {
+              "imagen": "img/modFru/hpeponides.jpg",
+              "titulo": "Pepónides",
+              "texto": "Calabaza, pepino, calabacín. También melón y sandía pero que vamos a asignar como Frutas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Composición química: Colores",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "slideInRight",
+          "texto": "La composición química va a conferir a cada fruta un <b>aroma y un sabor únicos</b>. Pero también va a influir sobre el propio color que presentan frutas y hortalizas.<br><br>El <b>color</b> que presenten puede darnos una idea de su composición química. Tenemos así:"
+        },
+        {
+          "clase": "sliderB",
+          "animacion": "slideInRight",
+          "contenido": [
+            {
+              "titulo": "Color verde",
+              "texto": "Es el color de la <b>clorofila</b> por lo que es indicativo de riqueza en Magnesio, mineral que participa en el proceso de relajación muscular (por tanto su carencia puede provocar sensación de cansancio sin causa que lo justifique, tensión muscular y calambres). Contienen, además, sustancias que refuerzan el Sistema Inmunológico (defensas) y son una fuente importante de Vitamina C y fibra.<br>En este grupo destacan: brócoli, lima, kiwi, espinacas, guisantes, lechugas, aguacates y uvas verdes, entre otros.",
+              "imagen": "img/modFru/kiwi.jpg",
+              "ancho": 700
+            },
+
+            {
+              "titulo": "Color amarillo/anaranjado",
+              "texto": "Es el color de los <b>carotenos</b> cuya acción antioxidante es muy efectiva:  aumenta la protección frente al cáncer, fortalece la vista, ayuda a combatir infecciones de la piel, contrarresta las alteraciones producidas por los rayos UVA, minimizando o reduciendo la flacidez de la piel y la aparición de arrugas... También son beneficiosos para el Sistema Respiratorio. Frutas y vegetales de color amarillo o naranja destacan por el contenido en Vitamina C y minerales como el potasio. Algunos ejemplos son: cítricos, melocotón, calabaza, zanahoria, mango y papaya entre otros.",
+              "imagen": "img/modFru/mediaNaranja.jpg",
+              "ancho": 700
+            },
+            {
+              "titulo": "Color blanco",
+              "texto": "Es el color de los <b>polifenoles</b>, que son compuestos antioxidantes que ayudan a reducir el riesgo de enfermedades cardiovasculares y cáncer. Tienen efectos antibacterianos, antimicóticos y antiinflamatorios  y refuerzan el Sistema Inmunológico.<br>En este grupo destacan: ajos, cebollas, pepinos, setas y frutas de carne blanca como plátanos, peras y manzanas.",
+              "imagen": "img/modFru/mediaCebolla.jpg",
+              "ancho": 700
+            },
+            {
+              "titulo": "Color rojo, morado/azul",
+              "texto": "Además de abundancia en carotenos (como en las frutas de color naranja) son ricas en <b>flavonoides</b> que son compuestos con propiedades antioxidantes. A estos compuestos se les suma otro de color rojo intenso (licopeno) de idéntico efecto. Todos ellos contribuyen a la salud de la memoria y son compuestos muy beneficiosos para la salud cardiovascular (ayudan a prevenir la hipertensión). Se incluyen en este grupo: berenjenas, lombardas, uvas tintas, moras, tomates, rábanos, fresas, cerezas, etc.",
+              "imagen": "img/modFru/berries.jpg",
+              "ancho": 700
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "animacion": "slideInRight",
+          "texto": "<b>¿Sabías que...</b><br>por su alto contenido de ácido, el limón es capaz de matar bacterias y por este motivo, representa un excelente <b>desinfectante</b> natural?"
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "fondo": "img/modFru/grapes.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "texto": "<p><p>Aquí termina este pequeño extracto de la formación de <b>Manipulador de Alimentos: Especialidad Frutería</b>. Esperamos que lo hayas encontrado instructivo y entretenido. Si te ha resultado interesante, <u>no dudes en solicitar más información sobre nuestros cursos</u>. Cualquier sugerencia que te parezca oportuna para mejorar el curso también es bienvenida.</p><br><p><center>¡Muchas gracias!</center></p>"
+        }
+      ]
+    },
+    {
+      "titulo": "Contraportada",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+﻿{
+  "modulo": "Mod. Específico: Sector Charcutería",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+        {
+      "titulo": "Productos de charcutería",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Los productos más habituales que podemos encontrar en Charcutería son:"
+        },
+        {
+          "clase": "tabs",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Productos cárnicos",
+              "texto": "Productos Cárnicos, cuyo componente fundamental es la carne. Aquí se incluyen los productos cocidos (como el jamón de york), o los productos curados (embutidos, jamón curado, …) y los fiambres.",
+          "imagen": "img/modCha/04.1.jpg",
+          "ancho": 200
+            },
+                        {
+              "titulo": "Pesca",
+              "texto": "Derivados de la Pesca, cuyo componente fundamental es el pescado. Normalmente son productos sometidos a ahumados o salazones, como el salmón o el bacalao salado.",
+          "imagen": "img/modCha/04.Pesca.jpg",
+          "ancho": 200
+            },
+            {
+              "titulo": "Lácteos",
+              "texto": "Derivados Lácteos, cuyo componente fundamental es la leche.  El elemento representativo de este grupo es el queso, desde el  fresco hasta el madurado, incluyendo también las barras de queso fundido.",
+          "imagen": "img/modCha/04.3Lacteos.jpg",
+          "ancho": 200
+            },
+            {
+              "titulo": "Otros",
+              "texto": "Otros productos como los patés o dulces de fruta.",
+          "imagen": "img/modCha/04.4Otros.jpg",
+          "ancho": 200
+            }
+          ]
+        },
+                {
+          "clase": "icono",
+          "animacion": "fadeInRight",
+          "subclase": "sabiasQue",
+          "texto": "<b>¿Sabías que...</b><br>Las manchitas blancas que aparecen en los jamones  curados (y también en algunos quesos maduros) no son cristales de sal, sino de tirosina?<br>La tirosina es uno de los 20 aminoácidos que forman las proteínas. Durante el curado, al irse perdiendo el agua de estos productos, la tirosina se reagrupa formando esos cristales, por lo que, además de no ser perjudicial para la salud, la presencia de estos cristales es indicativa de un largo proceso de maduración, y consecuentemente, de aromas y sabores intensos.<br>Ojo, no los confundas con los ácaros o piojillos del jamón, ya que éstos son parásitos que se alimentan de productos ricos en proteínas como los jamones, embutidos o quesos . y presentan movilidad.  Pueden desencadenar síntomas de alergia.",
+          "imagen": "img/modCha/04.5Sq.jpg",
+          "ancho": 200
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminantes biológicos",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInRight",
+          "subclase": "anillas",
+          "texto": "<b>Contaminantes biológicos</b><br><br>Tal y como se indicó en la parte genérica del curso, la contaminación biológica es aquella producida por un organismo (virus, bacteria, hongo o parásito) vivo. Los productos de Charcutería pueden contaminarse si no realizamos una manipulación adecuada de los mismos o por hábitos o prácticas incorrectas."
+        },
+        {
+          "clase": "texto",
+          "texto": "Entre otras, las fuentes de contaminación más habituales en charcutería son:"
+        },
+        {
+          "clase": "tabs",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "titulo": "Cruzada",
+              "texto": "Contaminación cruzada:<br><br>A través de manos, equipos, superficies o utensilios. Por ejemplo: restos de alimentos de diverso origen en máquinas de corte, que también representa un peligro de multiplicación bacteriana.",
+              "imagen": "img/modCha/18.1.jpg",
+              "ancho": 150
+            },
+            {
+              "titulo": "Prácticas",
+              "texto": "Prácticas incorrectas:<br><br>Hablar, toser o estornudar sobre los alimentos. Estado higiénico de manos o guantes, en su caso.",
+              "imagen": "img/modCha/18.2.jpg",
+              "ancho": 150
+            },
+            {
+              "titulo": "Apertura",
+              "texto": "Apertura de envases:<br><br>No aislar convenientemente un alimento envasado que hemos abierto, ya que desde el momento en que se realiza la apertura de un envase, el alimento en él contenido está expuesto a diferentes contaminantes.",
+              "imagen": "img/modCha/18.3.jpg",
+              "ancho": 150
+            },
+            {
+              "titulo": "Insectos",
+              "texto": "Insectos, principalmente voladores:<br><br>Si se utilizan insectocutores (máquina con luz ultravioleta que atrae los insectos y los electrocuta), se debe evitar situarlos en zonas donde puedan caer los insectos muertos sobre los alimentos.",
+              "imagen": "img/modCha/18.4.jpg",
+              "ancho": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Acondicionamiento",
+      "fondo": "img/modCha/fondoblanco.png",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Por acondicionamiento vamos a entender cualquier operación previa a la exposición del producto, como pudiera ser la eliminación total o parcial del envoltorio que protege al alimento con objeto de mostrar el producto al cliente o para permitir el comienzo de la pieza, como en el caso de algunos patés, jamones cocidos, fiambres. Otra operación puede ser la división de alimentos que vienen en un formato grande para reenvasarlo en porciones menores, como el bacalao, requesón, dulces de frutas.<br><br>En esta etapa también podría incluirse el deshuese de jamones."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/modCha/22.1Acondicionamiento.jpg",
+              "ancho": 300
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modCha/22.2Acondicionamiento.jpg",
+              "ancho": 300
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/modCha/22.3Acondicionamiento.jpg",
+              "ancho": 300
+            }
+          ]
+        },
+        {
+          "clase": "acordeon",
+          "animacion": "fadeInRight",
+          "ancho": "70",
+          "contenido": [
+            {
+              "titulo": "Peligros de esta etapa",
+              "texto": "Es una de las etapas en las cuales el principal peligro será la contaminación del alimento debido a  la manipulación a la que se somete y porque se exponen zonas del alimento que antes se mantenían protegidas, como sucede al retirar el envase que hasta este momento mantenía al producto aislado y protegido.<br>Si las operaciones a realizar sobre los productos que necesitan frío se realizan durante un tiempo excesivo, también hay que tener en cuenta el peligro de multiplicación microbiológica."
+            },
+            {
+              "titulo": "Medidas preventivas",
+              "texto": "Están encaminadas a evitar la contaminación del alimento: evitar contaminación cruzada, condiciones adecuadas de higiene de todo material que entre en contacto con el alimento, superficies y utensilios, y del manipulador de alimentos… Y también a evitar la multiplicación bacteriana: realizar las operaciones en el menor tiempo posible y no romper la cadena de frío de los productos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Corte y Venta",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En esta etapa, que se corresponde con la prestación del servicio al cliente, los alimentos se exponen a nuevas contaminaciones provenientes del manipulador, de los utensilios y máquinas de corte, así como de superficies y envoltorios y envases que utilicemos para entregarlos al cliente.<br><br>Durante el corte o loncheado de las piezas se produce la exposición de zonas que antes estaban protegidas a los contaminantes y que ahora se verán expuestas."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/modCha/24.jpg",
+          "ancho": 900
+        },
+        {
+          "clase": "texto",
+          "texto": "Además del peligro de contaminación, hemos de tener en cuenta el peligro de multiplicación biológica si mantenemos fuera de refrigeración innecesariamente los productos refrigerados o restos presentes en las máquinas de corte a temperatura ambiente.<br><br>Al igual que en la etapa de acondicionamiento, las medidas preventivas estarán encaminadas a evitar la contaminación del alimento (evitar contaminación cruzada, condiciones adecuadas de higiene de superficies, máquinas y utensilios de corte y del manipulador,… ) Y también a evitar la multiplicación : realizar las operaciones en el menor tiempo posible y no romper la cadena de frío de los productos que se conserven en refrigeración."
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "fondo": "img/modCha/Despedida.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
+          "texto": "<p>Aquí termina este pequeño extracto de la formación de <b>Manipulador de Alimentos: Especialidad Charcutería</b>. Esperamos que lo hayas encontrado instructivo y entretenido. Si te ha resultado interesante, <u>no dudes en solicitar más información sobre nuestros cursos</u>. Cualquier sugerencia que te parezca oportuna para mejorar el curso también es bienvenida.</p><br><p><center>¡Muchas gracias!</center></p>"
+        }
+      ]
+    },
+    {
+      "titulo": "Contraportada",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}

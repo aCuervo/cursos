@@ -1,0 +1,208 @@
+﻿{
+  "modulo": "Mod. 1: Introducción",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },
+    {
+      "titulo": "Bienvenida",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/bienvenida.jpg",
+              "ancho": 512
+            },
+            {
+              "clase": "texto",
+              "texto": "Este curso está destinado a dar a conocer los trabajos en altura.<br><br>¿A qué llamamos trabajo en altura?<br>Se habla de altura en el trabajo, como regla general, cuando trabajamos a una distancia igual o superior a 2 metros hasta el suelo, o bien a 3,5 m desde el suelo hasta punto de operación. A partir de esa altura, si no existe protección colectiva, es obligatorio el uso de los EPI´S contra caídas de altura. El concepto de trabajo de altura no solo hace referencia a la utilización de un medio auxiliar para alcanzar la altura de 2 metros (escaleras, andamios, …), sino también al  lugar de trabajo aunque éste sea un plano parte de un elemento estructural del edificio (cubiertas, tejados, huecos en el suelo...)<br><br> Cuando nos referimos al riesgo del trabajo en altura, no solo hablamos del riesgo de caída del trabajador a distinto nivel, sino también a la caída de objetos a distinto nivel. Es decir, hablamos de riesgo en altura cuando el trabajador está en una situación de exposición al riesgo de caer (él o sus herramientas) a una cota inferior de la que marca la posición de sus pies."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "IDENTIFICAR LOS RIESGOS",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Se trata de detectar los riesgos que podrían ocasionar lesiones dadas las condiciones del lugar de trabajo."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+
+                {
+                  "clase": "lista",
+                  "titulo": "Un listado no exhaustivo de riesgos o situaciones peligrosas que pueden darse en casi cualquier tarea:",
+                  "contenido": [
+                    {
+                      "punto": "Resbalones (p. ej. suelos o escaleras en mal estado)."
+                    },
+                    {
+                      "punto": "Incendios (p. ej. materiales inflamables)."
+                    },
+                    {
+                      "punto": "Productos químicos (p. ej. ácido de batería)."
+                    },
+                    {
+                      "punto": "Piezas móviles de maquinaria (p. ej. cuchillas)."
+                    },
+                    {
+                      "punto": "Trabajos en altura (p. ej. en áticos)."
+                    },
+                    {
+                      "punto": "Vehículos (p. ej. carretillas elevadoras)."
+                    },
+                    {
+                      "punto": "Electricidad (p. ej. cableado deficiente)."
+                    },
+                    {
+                      "punto": "Manipulación manual de cargas."
+                    }
+
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/dance.jpg",
+              "ancho": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "¿ES PRECISO TOMAR OTRAS MEDIDAS PARA MANTENER LOS RIESGOS BAJO CONTROL?",
+      "fondo": "img/mod01/sky.jpg",
+      "contenido": [
+        {
+          "clase": "lista",
+          "subclase": "recuadro",
+          "opacidad": 0.7,
+          "titulo": "Por lo que respecta a los riesgos evaluados, y suponiendo que las precauciones que ya se han tomado:",
+          "contenido": [
+            {
+              "punto": "¿Cumplen las normas impuestas por una disposición legal?"
+            },
+            {
+              "punto": "¿Se ajustan a una norma sectorial reconocida?"
+            },
+            {
+              "punto": "¿Representan un ejemplo de buena práctica?"
+            },
+            {
+              "punto": "¿Eliminan los riesgos?"
+            },
+            {
+              "punto": "¿Reducen al mínimo los riesgos?"
+            },
+            {
+              "punto": "¿Se ha facilitado información suficiente y una formación adecuada? ¿sistemas o procedimientos apropiados?"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.7,
+          "texto": "Si la respuesta a estas preguntas es SI, puede considerarse que los riesgos están bajo control. Con todo, es preciso indicar las precauciones que ha tomado (para ello se efectúan los procedimientos, a normas internas de la empresa, etc.).<br><br>En caso de que el riesgo no esté bajo control, habrá que indicar qué otras medidas tiene previsto adoptar («lista de acciones»)."
+        }
+      ]
+    },
+    {
+      "titulo": "RIESGOS Y DIVERSIDAD DE TRABAJOS",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Dada la diversidad de tareas en que están implicados los trabajos en altura, procederemos a hablar de riesgos y medidas preventivas, ya que serán muy dispares, en función de los mismos y en módulos diferenciados, según utilicemos escaleras de mano, andamios, etc."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "imagen": "img/mod01/head.jpg",
+              "ancho": 256
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
+              "imagen": "img/mod01/construction.jpg"
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "imagen": "img/mod01/house.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "CONDICIONES GENERALES",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "El RD 486/1997 sobre Disposiciones mínimas de seguridad y salud en los lugares de trabajo, en su anexo I “condiciones generales de seguridad en los lugares de trabajo” dice en el punto 3, sobre “suelos, aberturas y desniveles, y barandillas”:",
+          "contenido": [
+            {
+              "punto": "Los suelos de los locales de trabajo deberán ser fijos, estables y no resbaladizos, sin irregularidades ni pendientes peligrosas."
+            },
+            {
+              "punto": "Las aberturas o desniveles que supongan un riesgo de caída de personas se protegerán mediante barandillas u otros sistemas de protección de seguridad equivalente, que podrán tener partes móviles cuando sea necesario disponer de acceso a la abertura. Deberán protegerse, en particular:",
+              "contenido": [
+                {
+                  "punto": "Las aberturas en los suelos."
+                },
+                {
+                  "punto": "Las aberturas en paredes o tabiques, siempre que su situación y dimensiones suponga riesgo de caída de personas, y las plataformas, muelles o estructuras similares. La protección no será obligatoria, sin embargo, si la altura de caída es inferior a 2 metros."
+                },
+                {
+                  "punto": "Los lados abiertos de las escaleras y rampas de más de 60 centímetros de altura. Los lados cerrados tendrán un pasamanos a una altura mínima de 90 centímetros, si la anchura de la escalera es mayor de 1,2 metros; si es menor, pero ambos lados son cerrados, al menos uno de los dos llevará pasamanos."
+                }
+              ]
+            },
+            {
+              "punto": "Las barandillas serán de materiales rígidos, tendrán una altura mínima de 90 centímetros y dispondrán de una protección que impida el paso o deslizamiento por debajo de las mismas o la caída de objetos sobre personas."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "El mismo RD 486/1997 y en el mismo anexo I, en su punto 9 sobre escaleras de mano dice que estas deberán ajustarse a lo establecido en su normativa específica, lo que nos lleva al RD 2177/2004 , que modifica al RD 1215/1997 y establece las disposiciones mínimas de seguridad y salud para la utilización de los equipos de trabajo.<br><br>Este RD 2177/2004, en su anexo sobre “disposiciones relativas a la utilización de los equipos de trabajo para la realización de trabajos temporales en altura, específica sobre uso de andamios y escaleras de mano, asi como de uso de  técnicas de acceso y posicionamiento mediante cuerdas.<br><br>Este Real Decreto da las pautas para ésta formación."
+        }
+      ]
+    },   
+    {
+      "titulo": "Despedida",
+      "fondo": "img/comunes/despedida.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "opacidad": 0.8,
+          "subclase": "recuadro",
+          "texto": "<p>Aquí termina este pequeño extracto de la formación de <b>Prevención de Riesgos Laborales: Trabajos en altura</b>. Esperamos que lo hayas encontrado instructivo y entretenido. Si te ha resultado interesante, <u>no dudes en solicitar más información sobre nuestros cursos</u>. Cualquier sugerencia que te parezca oportuna para mejorar el curso también es bienvenida.</p><br><p><center>¡Muchas gracias!</center></p>"
+        }
+      ]
+    },
+    {
+      "titulo": "¡Hasta luego!",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}
