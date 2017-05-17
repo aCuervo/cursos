@@ -9,17 +9,16 @@
     },
     {
       "titulo": "Bienvenida",
+      "fondo": "img/comunes/bienvenida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
             {
-              "clase": "imagen",
-              "imagen": "img/mod04/bienvenida.jpg"
-            },
-            {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "En este módulo hablaremos de la carga y los accesorios de elevación. Las eslingas, por lo importante y extenso, serán tratadas en módulos específicos."
             }
           ]
@@ -27,11 +26,11 @@
       ]
     },
     {
-      "titulo": "CARGAS: EVALUACIÓN, CENTRO DE GRAVEDAD, EQUILIBRADO, INFLUENCIA DEL VIENTO",
+      "titulo": "Equilibrado de Cargas",
       "contenido": [
         {
           "clase": "listaObjetos",
-          "animacion": "wobble",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "texto",
@@ -46,12 +45,12 @@
       ]
     },
     {
-      "titulo": "OPERACIONES DE MANIPULACIÓN MÁS USUALES",
+      "titulo": "Operaciones más usuales",
       "contenido": [
         {
           "clase": "lista",
           "animacion": "bounceInDown",
-          "titulo": "INSTRUCCIONES GENERALES DE OPERACIÓN <br><br>Como reglas generales, deben respetarse las siguientes:",
+          "titulo": "<center><b>INSTRUCCIONES GENERALES DE OPERACIÓN</b></center>",
           "contenido": [
             {
               "punto": "Antes de conectar la grúa a la red eléctrica, se comprobará que todos los mandos estén desactivados, en punto muerto o que no existan botoneras enclavadas. "
@@ -106,7 +105,7 @@
       ]
     },
     {
-      "titulo": "MANIPULACIÓN DE CARGAS CON VARIOS APARATOS",
+      "titulo": "Manipulación de cargas",
       "contenido": [
         {
           "clase": "texto",
@@ -146,7 +145,12 @@
             }
 
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Planificación de riesgos",
+      "contenido": [
         {
           "clase": "lista",
           "animacion": "fadeInLeft",
@@ -184,16 +188,21 @@
       ]
     },
     {
-      "titulo": "LAS ESLINGAS: TIPOS, MATERIALES, SEGURIDAD, UTILIZACIÓN, CONSERVACIÓN Y SUSTITUCIÓN",
+      "titulo": "Eslingas: Utilización",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "El eslingado, según nos dice la <a href='http://www.insht.es/InshtWeb/Contenidos/Documentacion/FichasTecnicas/NTP/Ficheros/821a921/841%20web.pdf' target='_blank'>NTP 841</a> es  una operación importante de la manutención de las cargas aisladas. Consiste en realizar la unión entre una carga y un equipo de elevación. Aunque la tendencia está en la búsqueda y la utilización de material de manutención que reduzca considerablemente el tiempo de manutención, un número muy elevado de cargas continúan siendo manipuladas, desplazadas y cargadas utilizando un sistema de eslingado.<br><br>El eslingador debe colocar un dispositivo de unión entre la carga y el equipo de elevación. Esta operación será decisiva para la seguridad de la manutención y del usuario. Es importante pues que el eslingador realice la <b>elección correcta</b> del dispositivo de unión (eslinga) y lo utilice correctamente. La cuidadosa elección de los accesorios y equipos auxiliares de elevación, de acuerdo a sus características y en función de los esfuerzos a que van a estar sometidos, responde a reglas precisas que es imprescindible conocer y observar, si quieren evitarse riesgos graves.<br><br>El empleo en buenas condiciones de los elementos auxiliares, su verificación y mantenimiento, deben ser materia de constante atención por parte de los usuarios. <b>Elección correcta y cuidadoso mantenimiento</b>, son por tanto dos factores básicos para evitar accidentes trabajando con los accesorios y equipos auxiliares de elevación. A continuación se muestran los más relevantes y su forma de uso correcta. Daremos a continuación una serie de definiciones necesarias para entender el tema."
+          "texto": "El eslingado, según nos dice la <a href='http://www.insht.es/InshtWeb/Contenidos/Documentacion/FichasTecnicas/NTP/Ficheros/821a921/841%20web.pdf' target='_blank'>NTP 841</a> es  una operación importante de la manutención de las cargas aisladas. Consiste en realizar la unión entre una carga y un equipo de elevación. Aunque la tendencia está en la búsqueda y la utilización de material de manutención que reduzca considerablemente el tiempo de manutención, un número muy elevado de cargas continúan siendo manipuladas, desplazadas y cargadas utilizando un sistema de eslingado.<br><br>El eslingador debe colocar un dispositivo de unión entre la carga y el equipo de elevación. Esta operación será decisiva para la seguridad de la manutención y del usuario. Es importante pues que el eslingador realice la <b>elección correcta</b> del dispositivo de unión (eslinga) y lo utilice correctamente. La cuidadosa elección de los accesorios y equipos auxiliares de elevación, de acuerdo a sus características y en función de los esfuerzos a que van a estar sometidos, responde a reglas precisas que es imprescindible conocer y observar, si quieren evitarse riesgos graves.<br><br>El empleo en buenas condiciones de los elementos auxiliares, su verificación y mantenimiento, deben ser materia de constante atención por parte de los usuarios. <b>Elección correcta y cuidadoso mantenimiento</b>, son por tanto dos factores básicos para evitar accidentes trabajando con los accesorios y equipos auxiliares de elevación. A continuación se muestran los más relevantes y su forma de uso correcta. También daremos una serie de definiciones necesarias para entender el tema."
         },
         {
           "clase": "texto",
           "texto": "<b>Eslingado</b>: operación que consiste en utilizar un elemento de unión entre una carga y un equipo de elevación. El dispositivo de unión está constituido por una o varias eslingas textiles, según las necesidades de la carga a elevar. "
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Diferencias entre eslingas",
+      "contenido": [
         {
           "clase": "texto",
           "texto": "<b>Accesorios de elevación</b>: componentes o equipos que no son parte integrante de la máquina de elevación y situados entre la máquina y la carga, o sobre la propia carga, para permitir la prensión de la carga. Las eslingas son accesorios de elevación. "
@@ -225,14 +234,19 @@
         {
           "clase": "texto",
           "texto": "<b>Longitud de trabajo útil</b>: longitud acabada real de la eslinga, desde punto de apoyo a punto de apoyo. "
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Carga máxima",
+      "contenido": [
         {
           "clase": "texto",
-          "texto": "<b>Carga máxima de utilización</b>(CMU): masa o carga máxima para la que está diseñada la eslinga para la elevación directa. "
+          "texto": "<b>Carga máxima de utilización</b> (CMU): masa o carga máxima para la que está diseñada la eslinga para la elevación directa. "
         },
         {
           "clase": "tabla",
-          "animacion": "swing",
+          "animacion": "fadeInRight",
           "subclase": "centro",
           "filaTitulos": [
             {
@@ -688,7 +702,12 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Tipos, coeficiente y factor de forma",
+      "contenido": [
         {
           "clase": "texto",
           "texto": "<b>Factor de forma de eslingado</b>(M): factor de corrección que se aplica a la carga máxima de utilización (CMU) de una eslinga simple, teniendo en cuenta la forma de eslingado (ángulos del ramal, estrangulado). "
@@ -809,7 +828,12 @@
             }
 
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Temperatura y puntos de amarre",
+      "contenido": [
         {
           "clase": "lista",
           "animacion": "fadeInRight",
@@ -829,7 +853,7 @@
         },
         {
           "clase": "listaObjetos",
-          "animacion": "swing",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "texto",
@@ -837,32 +861,15 @@
             },
             {
               "clase": "imagen",
-              "subclase": "paraCambiar",
-              "imagen": "img/mod04/cancamoSoldar.png"
+              "imagen": "img/mod04/cancamoSoldar.jpg",
+              "ancho": 300
             }
           ]
         }
       ]
     },
     {
-      "titulo": "OREJA DE ELEVACIÓN (OREJETA)",
-      "contenido": [
-        {
-          "clase": "texto",
-          "animacion": "bounceIn",
-          "texto": "Placa de acero perforada destinada a ser soldada a la carga, con el fin de elevarla."
-        },
-        {
-          "clase": "imagen",
-          "animacion": "rubberBand",
-          "subclase": "paraCambiar",
-          "imagen": "img/mod04/orejeta.png",
-          "ancho": 400
-        }
-      ]
-    },
-    {
-      "titulo": "GRILLETES",
+      "titulo": "Orejeta de elevación y grilletes",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -870,7 +877,6 @@
           "contenido": [
             {
               "clase": "imagen",
-              "subclase": "paraCambiar",
               "imagen": "img/mod04/grilleteRecto.png",
               "pie": "Grillete Recto"
             },
@@ -887,8 +893,29 @@
           ]
         },
         {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "animacion": "bounceIn",
+              "texto": "La orejeta es una placa de acero perforada destinada a ser soldada a la carga, con el fin de elevarla."
+            },
+            {
+              "clase": "imagen",
+              "animacion": "fadeInRight",
+              "imagen": "img/mod04/orejeta.png",
+                "ancho": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Pasadores",
+      "contenido": [
+        {
           "clase": "lista",
-          "animacion": "bounceInUp",
+          "animacion": "fadeInRight",
           "titulo": "Dependiendo del pasador se pueden distinguir: ",
           "contenido": [
             {
@@ -924,7 +951,7 @@
         },
         {
           "clase": "lista",
-          "animacion": "bounceInRight",
+          "animacion": "fadeInRight",
           "titulo": "Además del marcado, el proveedor debe facilitar un certiﬁcado con la siguiente información:",
           "contenido": [
             {
@@ -946,10 +973,15 @@
               "punto": "Carga máxima de utilización en Tm."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Adquisición segura",
+      "contenido": [
         {
           "clase": "lista",
-          "animacion": "bounceInDown",
+          "animacion": "fadeInRight",
           "titulo": "Para la adquisición segura de estos equipos, se deberán observar los siguientes parámetros: ",
           "contenido": [
             {
@@ -996,7 +1028,7 @@
       ]
     },
     {
-      "titulo": "Equipos amovibles de elevación de cargas",
+      "titulo": "Equipos amovibles",
       "contenido": [
         {
           "clase": "texto",
@@ -1027,7 +1059,12 @@
           "clase": "icono",
           "subclase": "exclamacion",
           "texto": "Cabe decir, que estos equipos son muy específicos y siempre y cuando se disponga de ellos y sean adecuados a la carga a elevar, se utilizarán éstos y no eslingas."
-        },
+        }
+      ]
+    },
+        {
+      "titulo": "Información contenida",
+      "contenido": [
         {
           "clase": "lista",
           "animacion": "bounceInRight",
@@ -1092,10 +1129,15 @@
               "punto": "Gama de temperaturas de utilización del útil de elevación. "
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "Accesorios de elevación",
+      "contenido": [
         {
           "clase": "acordeon",
-          "animacion": "tada",
+          "animacion": "fadeInLeft",
           "contenido": [
             {
               "titulo": "Accesorio en C",
@@ -1165,8 +1207,7 @@
       "contenido": [
         {
           "clase": "acordeon",
-          "animacion": "flipInY",
-          "subclase": "paraCambiar",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "titulo": "Red de carga / red de elevación",
@@ -1187,8 +1228,7 @@
             {
               "titulo": "Cubeta para hormigón",
               "texto": "Recipiente que se cuelga de una grúa para transportar y distribuir hormigón en una obra de construcción. ",
-              "imagen": "img/mod04/cubeta.png",
-              "subclase": "paraCambiar",
+              "imagen": "img/mod04/cubetaHormigon.jpg",
               "ancho": 275
             },
             {
@@ -1232,12 +1272,11 @@
       ]
     },
     {
-      "titulo": "USOS ESPECÍFICOS",
+      "titulo": "Usos específicos",
       "contenido": [
         {
           "clase": "tabs",
-          "animacion": "lightSpeedIn",
-          "subclase": "paraCambiar",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "titulo": "Electroimanes",
@@ -1277,7 +1316,6 @@
                 {
                   "clase": "tabs",
                   "animacion": "fadeInLeft",
-                  "subclase": "paraCambiar",
                   "contenido": [
                     {
                       "titulo": "Sistemas sencillos",
@@ -1286,9 +1324,8 @@
                     },
                     {
                       "titulo": "Sistemas múltiples",
-                      "texto": "Se ilustran dos sistemas de elevación de bidones. El primero (a) está compuesto de un marco de acero colgado de una eslinga de cuatro ramales y provista de una serie de cadenas con garras de sujeción correspondientes a la cantidad de bidones a elevar simultáneamente, pudiendo llegar a 4, 6 y 8 bidones a la vez, siempre en posición vertical. El segundo caso (b) sirve para elevar bidones en posición vertical de 1 a 4.",
-                      "imagen": "img/mod04/sistemaMultiple.png",
-                      "subclase": "paraCambiar",
+                      "texto": "Hay dos sistemas principales. El primero está compuesto de un marco de acero colgado de una eslinga de cuatro ramales y provista de una serie de cadenas con garras de sujeción correspondientes a la cantidad de bidones a elevar simultáneamente, pudiendo llegar a 4, 6 y 8 bidones a la vez, siempre en posición vertical. El segundo sirve para elevar bidones en posición vertical de 1 a 4.",
+                      "imagen": "img/mod04/sistemaMultiple.jpg",
                       "ancho": 400
                     }
                   ]
@@ -1464,6 +1501,7 @@
     },
     {
       "titulo": "Despedida",
+      "fondo": "img/comunes/despedida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -1471,11 +1509,9 @@
           "contenido": [
             {
               "clase": "texto",
-              "texto": "Aquí hemos ido conociendo la importancia de la carga y los elementos de estrobado.<br><br>Sobre las eslingas hablaremos en los próximos tres módulos, dedicando uno a cada uno de los tipos de eslinga, ya que es tan importante como conocer la máquina, saber que estrobo hemos de elegir. "
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod04/despedida.jpg"
+              "subclase": "recuadro",
+              "opacidad": 0.8,
+              "texto": "Aquí hemos ido conociendo la importancia de la carga y los elementos de estrobado.<br><br>Sobre las eslingas hablaremos en los próximos tres módulos, dedicando uno a cada uno de los tipos de eslinga, ya que es tan importante como conocer la máquina, saber qué estrobo hemos de elegir. "
             }
           ]
         }

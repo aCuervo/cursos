@@ -9,17 +9,16 @@
     },
     {
       "titulo": "Bienvenida",
+      "fondo": "img/comunes/bienvenida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
             {
-              "clase": "imagen",
-              "imagen": "img/mod02/bienvenida.jpg"
-            },
-            {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "En el primer módulo conocimos las características del puente grúa, y los tipos de máquina con que nos podemos encontrar. Veremos en este segundo módulo, las aptitudes y responsabilidades de <b>gruista y señalista</b>. Conoceremos también el <b>código</b> de señales que se emplean en las maniobras de puente  grúa."
             }
           ]
@@ -27,11 +26,11 @@
       ]
     },
     {
-      "titulo": "EL OPERADOR",
+      "titulo": "El operador",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Comenzaremos con la definición de las diversas personas implicadas en la maniobra de un puente grúa, según la <a href='http://www.insht.es/InshtWeb/Contenidos/Documentacion/FichasTecnicas/NTP/Ficheros/701a750/ntp_737.pdf' target='_blank'> NTP 737</a>. No todas serán necesarias en cada movimiento a efectuar."
+          "texto": "Comenzaremos con la definición de las diversas personas implicadas en la maniobra de un puente grúa, según la <a href='http://www.insht.es/InshtWeb/Contenidos/Documentacion/FichasTecnicas/NTP/Ficheros/701a750/ntp_737.pdf' target='_blank' rel='noopener'> NTP 737</a>. No todas serán necesarias en cada movimiento a efectuar."
         },
         {
           "clase": "lista",
@@ -50,8 +49,11 @@
               "punto": "<b>Personal del área de trabajo</b>: personal del almacén, área de influencia de la grúa o que deba circular periódica o esporádicamente por la misma."
             }
           ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/operadores.png"
         }
-
       ]
     },
     {
@@ -59,7 +61,7 @@
       "contenido": [
         {
           "clase": "lista",
-		  "animacion": "bounceInLeft",
+          "animacion": "bounceInLeft",
           "titulo": "El operador del puente grúa es responsable del uso correcto del equipo, según la ley 31/95 de PRL, en su artículo 29, que dice:",
           "contenido": [
             {
@@ -97,7 +99,7 @@
         },
         {
           "clase": "listaObjetos",
-		  "animacion": "bounceIn",
+          "animacion": "bounceIn",
           "contenido": [
             {
               "clase": "imagen",
@@ -112,7 +114,79 @@
         },
         {
           "clase": "texto",
-		  "animacion": "wobble",
+          "animacion": "wobble",
+          "texto": "Éstas son sugerencias para uso del operador de la grúa. Es responsabilidad del empresario alertar al personal de todas las normas y códigos, estatales y locales, y asegurarse de que los operadores estén debidamente capacitados.<br><br>Para que la operación de la grúa sea segura y eficiente, se requiere de habilidad: el ejercicio del máximo cuidado y buen juicio, estado de alerta y concentración, además de una estricta adherencia a reglas y prácticas de seguridad probadas según se establece en las normas de seguridad de ANSI y OSHA aplicables y vigentes."
+        },
+        {
+          "clase": "lista",
+          "animacion": "fadeInRight",
+          "titulo": "En la práctica general, no se debería autorizar a nadie para que opere una grúa de cualquier tipo:",
+          "contenido": [
+            {
+              "punto": "Si no puede hablar el idioma adecuado o leer y entender las instrucciones impresas."
+            },
+            {
+              "punto": "Si no tiene la edad legal para operar este tipo de equipos."
+            },
+            {
+              "punto": "Cuyo oído o la vista estén afectados (a menos que estén convenientemente corregidos con buena percepción de la profundidad)."
+            },
+            {
+              "punto": "Si puede estar sufriendo del corazón u otras enfermedades que puedan interferir con el desempeño seguro del operador. "
+            },
+            {
+              "punto": "A menos que el operador haya leído y estudiado cuidadosamente este manual de operación. "
+            },
+            {
+              "punto": "A menos que el operador haya sido correctamente capacitado. "
+            },
+            {
+              "punto": "A menos que el operador haya demostrado su capacitación mediante la operación en la práctica. "
+            },
+            {
+              "punto": "A menos que el operador esté familiarizado con los equipos de enganche y las prácticas de seguridad en dichos equipos. "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Responsabilidades",
+      "contenido": [
+        {
+          "clase": "lista",
+          "animacion": "fadeInLeft",
+          "contenido": [
+            {
+              "punto": "El incumplimiento por los trabajadores de las obligaciones en materia de prevención de riesgos a que se refieren los apartados anteriores tendrá la consideración de incumplimiento laboral a los efectos previstos en el artículo 58.1 del Estatuto de los Trabajadores o de falta, en su caso, conforme a lo establecido en la correspondiente normativa sobre régimen disciplinario de los funcionarios públicos o del personal estatutario al servicio de las Administraciones públicas. Lo dispuesto en este apartado será igualmente aplicable a los socios de las cooperativas cuya actividad consista en la prestación de su trabajo, con las precisiones que se establezcan en sus Reglamentos de Régimen Interno.”"
+            }
+          ]
+
+
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/operario.svg",
+              "ancho": 150
+            },
+            {
+              "clase": "texto",
+              "texto": "Habitualmente, se manipulan los materiales sobre áreas de trabajo donde hay personal. Por tanto, es importante que el operador de la grúa esté capacitado en el uso de la grúa y que entienda las graves consecuencias de una operación poco cuidadosa.<br><br>No se pretende que estas sugerencias tengan prioridad sobre las normas y reglamentos vigentes de seguridad de la planta o las regulaciones de OSHA. Sin embargo, un estudio exhaustivo de la siguiente información deberá proporcionar una mejor comprensión de la operación segura y permitir un mayor margen de seguridad para las personas y maquinaria en la planta."
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "titulo": "Operaciones seguras",
+      "contenido": [
+        {
+          "clase": "texto",
+		  "animacion": "fadeInRight",
           "texto": "Éstas son sugerencias para uso del operador de la grúa. Es responsabilidad del empresario alertar al personal de todas las normas y códigos, estatales y locales, y asegurarse de que los operadores estén debidamente capacitados.<br><br>Para que la operación de la grúa sea segura y eficiente, se requiere de habilidad: el ejercicio del máximo cuidado y buen juicio, estado de alerta y concentración, además de una estricta adherencia a reglas y prácticas de seguridad probadas según se establece en las normas de seguridad de ANSI y OSHA aplicables y vigentes."
         },
         {
@@ -464,6 +538,7 @@
     },     
     {
       "titulo": "Despedida",
+      "fondo": "img/comunes/despedida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -471,11 +546,9 @@
           "contenido": [
             {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "Hemos visto, que no cualquier persona puede ser gruista, se necesitan una serie de requerimientos, algunos de ellos médicos para poder ejercer como tal.<br><br>Por supuesto también necesitaremos la formación adecuada y en ello estamos. En el tercer módulo nos centraremos en el manejo de nuestra máquina."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod02/despedida.jpg"
             }
           ]
         }

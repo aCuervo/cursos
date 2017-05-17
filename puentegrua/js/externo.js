@@ -58,7 +58,6 @@ function getArrayImagenes(modulo) {
             break;
         case "mod03": arrayFinal = arrayComun.concat([
             "img/mod03/gruaPolipasto.jpg" ,
-            "img/mod03/modelo.png" ,
             "img/mod03/polipastos.jpg"
         ]);
             break;
@@ -84,7 +83,7 @@ function getArrayImagenes(modulo) {
             "img/mod04/orejeta.png" ,
             "img/mod04/paletCarretilla.jpg" ,
             "img/mod04/saca.jpg" ,
-            "img/mod04/sistemaMultiple.png" ,
+            "img/mod04/sistemaMultiple.jpg" ,
             "img/mod04/tiposEslingas.png" 
         ]);
             break;
@@ -110,7 +109,6 @@ function getArrayImagenes(modulo) {
             "img/mod06/deformacion1.png" ,
             "img/mod06/deformacion2.png" ,
             "img/mod06/fijaciones.jpg" ,
-            "img/mod06/gancho.jpg" ,
             "img/mod06/identificacion.png" 
         ]);
             break;
