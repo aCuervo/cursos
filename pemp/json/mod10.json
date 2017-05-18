@@ -15,7 +15,8 @@
           "contenido": [
             {
               "clase": "imagen",
-              "imagen": "img/mod10/1002.svg"
+              "imagen": "img/mod10/1002.svg",
+              "ancho": 400
             },
             {
               "clase": "texto",
@@ -34,7 +35,7 @@
           "animacion": "fadeInRight",
           "contenido": [
             {
-              "titulo": "CAÍDA DE PERSONAS DEBIDO A FALLOS DEL EQUIPO, HIDRÁULICOS, MECÁNICOS, POR MAL USO, ETC",
+              "titulo": "CAÍDA DE PERSONAS DEBIDO A FALLOS DEL EQUIPO, HIDRÁULICOS, MECÁNICOS, POR MAL USO...",
               "texto": "Las caídas a distinto nivel en las PEMP <b>pueden deberse</b> entre otras situaciones a las siguientes:<br><br><ul><li><b>Basculamiento</b> del conjunto del equipo al estar situado sobre una <b>superficie inclinada o en mal estado</b>, falta de estabilizadores, etc. </li><li><b>Ausencia de barandillas de seguridad</b> en parte o todo el perímetro de la plataforma. </li><li>Efectuar trabajos utilizando <b>elementos auxiliares</b> tipo escalera, banquetas, etc., para <b>ganar altura</b>. </li><li>Trabajar sobre la plataforma sin utilizar los <b>equipos de protección individual</b> debidamente anclados.</li><li><b>Rotura de la plataforma</b> de trabajo por <b>sobrecarga, deterioro o mal uso</b> de la misma.</li><li>Utilizar la PEMP para <b>acceder</b> desde la misma a una instalación o estructura externa. </li><li><b>Trabajar</b> con <b>parte del cuerpo situado fuera de la plataforma</b> de trabajo.</li> <li><b>Subir o bajar</b> utilizando la <b>estructura</b> de elevación.</li><li><b>Efecto catapulta</b> al pasar por encima de un bordillo, etc.</li></ul>",
               "imagen": "img/mod10/caidas.png",
               "ancho": 200
@@ -92,11 +93,11 @@
         {
           "clase": "texto",
           "animacion": "fadeInLeft",
-          "texto": "<h2>Características constructivas de seguridad</h2><br>Las <b>medidas de prevención y protección</b> se definen describiendo las <b>características de cada parte</b> de  las plataformas elevadoras móviles de personal (PEMP) y las medidas de protección frente a los riesgos específicos. Según apunta la <a HREF='http://www.insht.es/InshtWeb/Contenidos/Documentacion/NTP/NTP/NTP%201040.pdf' target='_blank'><b>NTP 1040</b></a>, las características constructivas de seguridad están relacionados fundamentalmente con las <b>características de la estructura y estabilidad</b>, los sistemas de <b>accionamiento y dispositivos de seguridad</b> adecuados, la presencia de <b>estabilizadores</b> y de <b>estructuras extensibles</b>."
+          "texto": "<center><h2>Características constructivas de seguridad</h2></center><br>Las <b>medidas de prevención y protección</b> se definen describiendo las <b>características de cada parte</b> de  las plataformas elevadoras móviles de personal (PEMP) y las medidas de protección frente a los riesgos específicos. Según apunta la <a HREF='http://www.insht.es/InshtWeb/Contenidos/Documentacion/NTP/NTP/NTP%201040.pdf' target='_blank'><b>NTP 1040</b></a>, las características constructivas de seguridad están relacionados fundamentalmente con las <b>características de la estructura y estabilidad</b>, los sistemas de <b>accionamiento y dispositivos de seguridad</b> adecuados, la presencia de <b>estabilizadores</b> y de <b>estructuras extensibles</b>."
         },
         {
           "clase": "tabs",
-          "animacion": "wobble",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "titulo": "Cálculos de estructura y estabilidad",
@@ -119,12 +120,12 @@
       "contenido": [
         {
           "clase": "texto",
-          "animacion": "rotateInDownLeft",
-          "texto": "<h2>Sistemas de accionamiento de las estructuras extensibles</h2><br>Los sistemas de accionamiento deben estar concebidos y construidos de forma que impidan todo movimiento intempestivo de la estructura extensible. "
+          "animacion": "fadeInDown",
+          "texto": "<center><h2>Sistemas de accionamiento de las estructuras extensibles</h2></center><br>Los sistemas de accionamiento deben estar concebidos y construidos de forma que impidan todo movimiento intempestivo de la estructura extensible. "
         },
         {
           "clase": "tabla",
-          "animacion": "rotateIn",
+          "animacion": "fadeInRight",
           "filaTitulos": [
             {
               "titulo": "Sistemas de accionamiento"
@@ -173,12 +174,12 @@
       "contenido": [
         {
           "clase": "texto",
-          "animacion": "rotateInDownLeft",
-          "texto": "<h2>Plataforma de trabajo</h2>"
+          "animacion": "fadeInDown",
+          "texto": "<center><h2>Plataforma de trabajo</h2></center>"
         },
         {
           "clase": "acordeon",
-          "animacion": "jello",
+          "animacion": "fadeInLeft",
           "contenido": [
             {
               "titulo": "EQUIPAMIENTO",
@@ -218,13 +219,13 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "<h2>Sistemas de elevación</h2>",
+          "texto": "<center><h2>Sistemas de elevación</h2></center>",
           "animacion": "rotateInDownLeft"
         },
         {
           "clase": "tabla",
           "subclase": "separada",
-          "animacion": "rotateInUpRight",
+          "animacion": "fadeInUp",
           "filaTitulos": [
             {
               "titulo": "SISTEMAS DE SEGURIDAD"
@@ -254,7 +255,8 @@
       "contenido": [
         {
           "clase": "tabs",
-          "animacion": "swing",
+          "animacion": "fadeInRight",
+          "opacidad": 0.8,
           "contenido": [
             {
               "titulo": "ELÉCTRICOS",
@@ -283,6 +285,7 @@
       "contenido": [
         {
           "clase": "imagen",
+          "subclase": "ajustarAncho",
           "animacion": "fadeInRight",
           "imagen": "img/mod10/1009.svg"
         }
@@ -299,11 +302,11 @@
             {
               "clase": "texto",
               "animacion": "bounceInLeft",
-              "texto": "<h3>LÍNEAS ELÉCTRICAS DE ALTO VOLTAJE</h3><br>Para prevenir el riesgo de electrocución se deben aplicar los criterios establecidos en el Real Decreto 614/2001 sobre <b>disposiciones mínimas para la protección de la salud y seguridad de los trabajadores frente al riesgo eléctrico</b>, principalmente respetando unas <b>distancias límite</b>. Dichas distancias pueden verse en la tabla siguiente:"
+              "texto": "<center><h3>LÍNEAS ELÉCTRICAS DE ALTO VOLTAJE</h3></center><br>Para prevenir el riesgo de electrocución se deben aplicar los criterios establecidos en el Real Decreto 614/2001 sobre <b>disposiciones mínimas para la protección de la salud y seguridad de los trabajadores frente al riesgo eléctrico</b>, principalmente respetando unas <b>distancias límite</b>. Dichas distancias pueden verse en la tabla siguiente:"
             },
             {
               "clase": "imagen",
-              "animacion": "rotateIn",
+              "animacion": "fadeInLeft",
               "imagen": "img/mod10/distanciasLimite.jpg",
               "ancho": 600
             }
@@ -339,7 +342,7 @@
       "contenido": [
         {
           "clase": "lista",
-          "titulo": "<h3>CONSEJOS:</h3><br>",
+          "titulo": "<center><h3>CONSEJOS:</h3></center>",
           "animacion": "fadeInRight",
           "contenido": [
             {
@@ -372,7 +375,7 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "<h3>PROCEDIMIENTOS DE EMERGENCIA EN CASO DE CONTACTO CON LÍNEA ELÉCTRICA ACTIVA</h3>",
+          "texto": "<center><h3>PROCEDIMIENTOS DE EMERGENCIA EN CASO DE CONTACTO CON LÍNEA ELÉCTRICA ACTIVA</h3></center>",
           "animacion": "rotateInDownLeft"
         },
         {

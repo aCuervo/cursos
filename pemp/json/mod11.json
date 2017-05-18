@@ -15,15 +15,16 @@
           "animacion": "fadeInRight",
           "contenido": [
             {
-              "clase": "imagen",
-              "imagen": "img/mod11/1102.svg"
-            },
-            {
               "clase": "texto",
-              "texto": "Hola amigo, aquí me tienes de nuevo. Sano y salvo. Parece que todo quedó finalmente en un pequeño INCIDENTE sin consecuencias; un mínimo “agujerito” en la suela de la chancla. <br><br>En este módulo veremos los <b>accidentes</b> más <b>habituales</b> que suelen suceder con el uso de las PEMP y las <b>medidas preventivas</b> que tenemos que tomar para que no sucedan. Un tema muy importante así que presta toda tu atención y ... ¡Empezamos!"
+              "subclase": "recuadro",
+              "texto": "En este módulo veremos los <b>accidentes</b> más <b>habituales</b> que suelen suceder con el uso de las PEMP y las <b>medidas preventivas</b> que tenemos que tomar para que no sucedan. Un tema muy importante así que presta toda tu atención.<br><center>¡Empezamos!</center>"
             }
           ]
-        }
+        },
+                    {
+              "clase": "imagen",
+              "imagen": "img/mod11/1102.svg"
+            }
       ]
     },
     {
@@ -386,7 +387,7 @@
       ]
     },
     {
-      "titulo": "Autoevaluación",
+      "titulo": "Crucigrama",
       "contenido": [
         {
           "clase": "juegoPalabrasCruzadas",
@@ -446,12 +447,12 @@
       "contenido": [
         {
           "clase": "texto",
-          "animacion": "swing",
+          "animacion": "fadeInRight",
           "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
         },
         {
           "clase": "texto",
-          "animacion": "flash",
+          "animacion": "fadeInLeft",
           "subclase": "instruccion",
           "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
         },

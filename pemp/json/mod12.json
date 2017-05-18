@@ -72,7 +72,7 @@
         {
           "clase": "texto",
           "subclase": "celo",
-          "animacion": "rotateIn",
+          "animacion": "fadeInRight",
           "texto": "Es importante <b>cerciorarse</b> de que la PEMP seleccionada sea <b>apta</b> para la maniobra específica a realizar al trabajar cerca de un obstáculo por encima suyo.<br><br>Debe prestarse especial atención a la <b>elección</b> de:<li><b>Alcance de la máquina</b>: lo ideal es no trabajar cerca del alcance máximo de la máquina.</li><li><b>Tamaño</b>: verifique que la PEMP y la plataforma no sean demasiado grandes para los espacios en que se vaya a usar la máquina.</li>"
         }
       ]
@@ -82,12 +82,12 @@
       "contenido": [
         {
           "clase": "texto",
-          "animacion": "flash",
+          "animacion": "fadeInDown",
           "texto": "Es esencial que los operadores formados sigan un <b>programa de familiarización</b> específica con la PEMP que vayan a usar, realizando las correspondientes <b>pruebas</b> en una zona sin peligro y lejos de estructuras por encima suyo. Además de <b>familiarizarse</b> con los mandos de funcionamiento normal de la PEMP, el mínimo requerido a todo operador es la plena <b>comprensión</b> de:"
         },
         {
           "clase": "tabsB",
-          "animacion": "lightSpeedIn",
+          "animacion": "fadeInRight",
           "subclase": "izquierda",
           "contenido": [
             {
@@ -107,7 +107,7 @@
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "animacion": "rotateIn",
+          "animacion": "fadeInLeft",
           "texto": "El personal a <b>nivel de suelo</b> debería seguir un programa de <b>familiarización</b> con los <b>mandos de emergencia</b> y con el panel de <b>mando a altura</b> del suelo y practicar los procedimientos de <b>descenso de emergencia</b> a intervalos regulares según se establezca en el plan de rescate y de emergencias."
         }
       ]
@@ -119,7 +119,8 @@
         {
           "clase": "icono",
           "subclase": "exclamacion",
-          "animacion": "wobble",
+          "animacion": "fadeInRight",
+          "opacidad": 0.8,
           "texto": "El estado del suelo debería ser tal que permita un uso seguro de la máquina. En la medida de lo posible, el <b>suelo</b> debería ser <b>plano</b> y <b>compacto</b> y <b>sin obstáculos</b> en la zona de trabajo. Deberían <b>identificarse</b> todos los fosos, las bases de las columnas y las zanjas y protegerse. En caso de mal estado del suelo, <b>no</b> use la PEMP."
         }
       ]
@@ -131,7 +132,8 @@
         {
           "clase": "texto",
           "subclase": "recuadro",
-          "animacion": "swing",
+          "animacion": "fadeInRight",
+          "opacidad": 0.8,
           "texto": "Al trabajar en el <b>interior</b> de edificios y en horas de <b>poca luz</b> (p.ej. invierno o días de mal tiempo), debería procurarse un <b>alumbrado adecuado</b> o <b>interrumpirse</b> el trabajo en curso."
         }
       ]
@@ -143,7 +145,7 @@
         {
           "clase": "texto",
           "subclase": "anillas",
-          "animacion": "tada",
+          "animacion": "fadeInLeft",
           "texto": "Se desaconsejan las <b>fuentes de distracción</b> en la plataforma/barquilla, tales como teléfonos móviles y cables de arrastre.<br><br>Debería <b>prohibirse</b> la presencia de materiales <b>sueltos</b> en las barandillas y en la barquilla de la PEMP, teniéndose los mismos en <b>compartimentos homologados</b> y/o fijados en soportes accesorios para materiales.<br><br>Deberían <b>suprimirse</b> las fuentes de distracción al nivel del suelo (presencia de gente u objetos cerca de la base de la PEMP) antes de usar la máquina y respetarse las <b>zonas de exclusión</b>."
         }
       ]
@@ -158,13 +160,13 @@
             {
               "clase": "texto",
               "subclase": "celo",
-              "animacion": "swing",
+              "animacion": "fadeInRight",
               "texto": "<h3>Mandos de la cesta:</h3> El <b>acceso</b> a los mandos de <b>mano y de pedal</b> de la barquilla/plataforma <b>no debería</b> estar obstaculizado. Las herramientas y los materiales que pudieran obstruir el acceso a los mandos no deberán colocarse en el panel de mando de la PEMP, sino guardarse en compartimentos homologados y/o fijarse a soportes accesorios para materiales.<br><br>Para reducir el riesgo de movimientos accidentales, considere <b>implementar</b> una función de corte de la alimentación de la máquina una vez alcanzada la <b>posición de trabajo</b> y hasta que se necesite cambiar de posición."
             },
             {
               "clase": "texto",
               "subclase": "celo",
-              "animacion": "swing",
+              "animacion": "fadeInLeft",
               "texto": "<h3>Mandos de descenso de emergencia:</h3> Para llevar a cabo un <b>rescate de emergencia</b> podrían necesitarse estos mandos y el acceso a los mismos <b>nunca</b> debería estar <b>obstruido</b> (p.ej. por usar la PEMP muy cerca de una pared que impida acceder al cuadro de mando de emergencia).<br><br><img src='img/mod12/indicadores.jpg' width=300>"
             }
           ]
@@ -178,7 +180,8 @@
         {
           "clase": "icono",
           "subclase": "definicion",
-          "animacion": "jello",
+          "animacion": "fadeInRight",
+          "opacidad": 0.8,
           "texto": "<li><b>Aminore</b> la velocidad de traslación, sobre todo al moverse <b>marcha atrás</b>.<li><b>Apoyarse</b> sobre los mandos <b>reduce</b> notablemente el grado de seguridad del operador.<li><b>Examine</b> si hay obstáculos en el lugar <b>antes y durante</b> el uso de la PEMP.<li><b>No</b> se incline sobre las barandillas mientras opere la PEMP."
         }
       ]
@@ -190,7 +193,7 @@
         {
           "clase": "texto",
           "subclase": "anillas vertical",
-          "animacion": "rotateIn",
+          "animacion": "fadeInDown",
           "texto": "<li>Compruebe que la PEMP tenga el <b>certificado</b> de revisiones y mantenimiento <b>al día</b>.</li><li>Nunca olvide realizar las <b>comprobaciones</b> diarias.</li><li><b>Informe</b> sobre todos los <b>fallos</b> detectados.</li><li>Antes de usar la PEMP deberán <b>subsanarse</b> todos los <b>fallos</b>.</li><li><b>No</b> puentee los mandos.</li>"
         }
       ]
@@ -330,7 +333,7 @@
       ]
     },
     {
-      "titulo": "Autoevaluación",
+      "titulo": "Ordenar correctamente",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -347,7 +350,7 @@
                 {
                   "clase": "lista",
                   "subclase": "sortable",
-                  "animacion": "rubberBand",
+                  "animacion": "fadeInRight",
                   "contenido": [
                     {
                       "punto": "Traslación",
@@ -388,12 +391,12 @@
       "contenido": [
         {
           "clase": "texto",
-          "animacion": "swing",
+          "animacion": "fadeInRight",
           "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
         },
         {
           "clase": "texto",
-          "animacion": "flash",
+          "animacion": "fadeInLeft",
           "subclase": "instruccion",
           "texto": "Escoge una respuesta para cada pregunta y pulsa el botón de corregir cuando hayas terminado."
         },

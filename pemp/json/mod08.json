@@ -21,7 +21,7 @@
             {
               "clase": "texto",
               "animacion": "fadeInRight",
-              "texto": "¡Aquí nos encontramos de nuevo!<br><br>Quiero recordarte que cada vez que utilices una máquina, e independientemente del mantenimiento habitual que conlleve, deberás <b>realizar</b> una serie de <b>inspecciones rutinarias</b>.<br><br>Como ya te comenté en el capítulo anterior, es importante recordar que pese a que la máquina esté supuestamente en perfecto estado, siempre puede haber ocurrido algún imprevisto. Por eso, debemos revisarla antes de utilizarla teniendo también en cuenta, las condiciones del terreno."
+              "texto": "Cada vez que utilices una máquina, e independientemente del mantenimiento habitual que conlleve, deberás <b>realizar</b> una serie de <b>inspecciones rutinarias</b>.<br><br>Como ya vimos en el capítulo anterior, es importante recordar que pese a que la máquina esté supuestamente en perfecto estado, siempre puede haber ocurrido algún imprevisto. Por eso, debemos revisarla antes de utilizarla teniendo también en cuenta las condiciones del terreno."
             }
           ]
         }
@@ -34,13 +34,25 @@
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "texto",
-              "texto": "<b>Antes de la utilización</b> de cualquier equipo de trabajo se debe comprobar que sus <b>protecciones y condiciones de uso</b> son las <b>adecuadas</b> y que su <b>conexión o puesta en marcha</b> no representa un <b>peligro para terceros</b>. <br><br>Se trata de una inspección muy importante ya que es la <b>inmediatamente anterior al uso</b>. Hablamos de una <b>inspección exterior visual</b>: es una inspección rápida, sencilla, sistemática, no anárquica, que impide que algún elemento quede sin verificar."
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "<b>Antes de la utilización</b> de cualquier equipo de trabajo se debe comprobar que sus <b>protecciones y condiciones de uso</b> son las <b>adecuadas</b> y que su <b>conexión o puesta en marcha</b> no representa un <b>peligro para terceros</b>. <br><br>Se trata de una inspección muy importante ya que es la <b>inmediatamente anterior al uso</b>. Hablamos de una <b>inspección exterior visual</b>: es una inspección rápida, sencilla, sistemática, no anárquica, que impide que algún elemento quede sin verificar."
+                },
+                        {
+          "clase": "icono",
+          "animacion": "fadeInRight",
+          "subclase": "exclamacion picos",
+          "texto": "Se debe efectuar una <b>inspección diaria</b> antes del uso en cualquier equipo de trabajo. No se debe confundir este tipo de  inspección con las comprobaciones más específicas que de forma periódica se deben efectuar."
+        }
+                              ]
             },
             {
               "clase": "listaObjetos",
               "subclase": "columna",
-              "animacion": "bounceInRight",
+              "animacion": "fadeInRight",
               "contenido": [
                 {
                   "clase": "lista",
@@ -67,12 +79,6 @@
               ]
             }
           ]
-        },
-        {
-          "clase": "icono",
-          "animacion": "rubberBand",
-          "subclase": "exclamacion picos",
-          "texto": "Por ello se debe efectuar una <b>inspección diaria</b> antes del uso en cualquier equipo de trabajo. No se debe confundir este tipo de  inspección con las comprobaciones más específicas que de forma periódica se deben efectuar."
         }
       ]
     },
@@ -87,7 +93,7 @@
         {
           "clase": "imagen",
           "imagen": "img/mod08/formulario.png",
-          "animacion": "rotateIn"
+          "animacion": "fadeInLeft"
         }
       ]
     },
@@ -98,7 +104,7 @@
         {
           "clase": "texto",
           "subclase": "celo",
-          "animacion": "swing",
+          "animacion": "fadeInLeft",
           "texto": "Antes de utilizar la plataforma se debe <b>comprobar</b> la PEMP para detectar <b>posibles defectos o fallos</b> que puedan afectar a su seguridad. Cualquier defecto debe ser evaluado por <b>personal cualificado y formado</b> por el <b>fabricante</b> y determinar si constituye un riesgo para la seguridad del equipo. Todos los defectos detectados que puedan <b>afectar a la seguridad deben ser corregidos</b> antes de utilizar el equipo."
         },
         {
@@ -120,7 +126,7 @@
         {
           "clase": "imagen",
           "imagen": "img/mod08/formularioPrevioPEMP.png",
-          "animacion": "rotateIn"
+          "animacion": "fadeInRight"
         }
       ]
     },
@@ -129,13 +135,13 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "<h3>Ejemplo de formulario para cumplimentar durante la inspección previa a la elevación de la plataforma</h3>",
+          "texto": "<center><h3>Ejemplo de formulario para cumplimentar durante la inspección previa a la elevación de la plataforma</h3></center>",
           "animacion": "slideInLeft"
         },
         {
           "clase": "imagen",
           "imagen": "img/mod08/formularioElevacion.png",
-          "animacion": "rotateIn"
+          "animacion": "fadeInRight"
         }
       ]
     },
@@ -145,8 +151,9 @@
       "contenido": [
         {
           "clase": "texto",
-          "subclase": "anillas vertical",
-          "animacion": "zoomIn",
+          "subclase": "recuadro",
+          "animacion": "fadeInRight",
+          "opacidad": 0.8,
           "texto": "Cuando el trabajo se realice en una <b>zona utilizada por otros vehículos</b> o personal ajeno a la tarea, hay que asegurarse que toda el <b>área de trabajo</b> de la PEMP, está <b>balizada o acordonada</b>.<br><br><b>Bajo ninguna circunstancia</b> se debe permitir que <b>cualquier parte</b> de la PEMP <b>invada un carril de tráfico</b>.<br><br>Si es necesario se señalizará la zona, para el <b>desvío temporal del tráfico</b>."
         }
       ]
@@ -183,7 +190,7 @@
         },
         {
           "clase": "tabs",
-          "animacion": "shake",
+          "animacion": "fadeInLeft",
           "contenido": [
             {
               "titulo": "<b>Inspección exterior de la plataforma</b>",
@@ -202,7 +209,7 @@
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "animacion": "rotateIn",
+          "animacion": "fadeInRight",
           "texto": "<b>¡IMPORTANTE!</b><br>Esto es <b>únicamente un resumen</b>, por lo que <b>no</b> están indicados de forma <b>exhaustiva</b> los puntos a revisar en cada inspección.<br><br>También debemos recordar que <b>antes del comienzo del trabajo</b> y una vez posicionada la máquina se debe <b>señalizar la zona</b> de trabajo, mediante vallado, baliza o similar, en función de las necesidades. "
         }
       ]

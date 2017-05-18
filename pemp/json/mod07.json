@@ -16,26 +16,22 @@
             {
               "clase": "imagen",
               "imagen": "img/mod07/hombreEstabilizador.png",
-              "animacion": "fadeInUp",
-              "subclase": "paraCambiar",
-              "ancho": 200,
-              "pie": "El muñeco de siempre con un estabilizador o gato en la mano"
+              "animacion": "fadeInUp"
             },
             {
               "clase": "texto",
               "animacion": "fadeInRight",
-              "texto": "La <b>estabilidad</b> de todo tipo de PEMP depende de la <b>condición del suelo</b> sobre el que se apoyan.<br><br>Equivocadamente se lleva a cabo una evaluación de las condiciones del terreno solo cuando la PEMP se eleva sobre <b>gatos o estabilizadores</b>. Pero, como seguro que ya imaginas, una correcta evaluación del terreno es <b>igualmente importante para plataformas de brazo y tijera</b> que pueden ser desplazadas sobre el suelo con la <b>plataforma levantada</b>. <br><br>¡Hazme caso! Es necesario llevar a cabo una <b>evaluación de las condiciones del terreno</b> antes de desplazar, usar o levantar <b>cualquier PEMP</b> sobre <b>cualquier tipo de superficie</b>.<br><br>Hablamos sobre ello en este módulo."
+              "texto": "La <b>estabilidad</b> de todo tipo de PEMP depende de la <b>condición del suelo</b> sobre el que se apoyan.<br><br>Equivocadamente se lleva a cabo una evaluación de las condiciones del terreno solo cuando la PEMP se eleva sobre <b>gatos o estabilizadores</b>. Pero una correcta evaluación del terreno es <b>importante para plataformas de brazo y tijera</b> que pueden ser desplazadas sobre el suelo con la <b>plataforma levantada</b>. <br><br>Es necesario llevar a cabo una <b>evaluación de las condiciones del terreno</b> antes de desplazar, usar o levantar <b>cualquier PEMP</b> sobre <b>cualquier tipo de superficie</b>."
             }
           ]
         }
       ]
     },
     {
-      "titulo": "Zona de realización de los trabajos (I)",
+      "titulo": "Zona de realización de los trabajos",
       "contenido": [
         {
           "clase": "listaObjetos",
-          "subclase": "centroEstrecho",
           "contenido": [
             {
               "clase": "listaObjetos",
@@ -48,29 +44,18 @@
                 }
               ]
             },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod07/hombreEstabilizador.png",
-              "ancho": 300,
-              "animacion": "bounceInRight"
-            }
+                    {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "animacion": "fadeInRight",
+          "texto": "La <b>evaluación del terreno</b> es totalmente necesaria de realizar antes de posicionar la PEMP."
+        }
           ]
         }
       ]
     },
     {
       "titulo": "Zona de realización de los trabajos (II)",
-      "contenido": [
-        {
-          "clase": "icono",
-          "subclase": "exclamacion",
-          "animacion": "bounceInUp",
-          "texto": "La <b>evaluación del terreno</b> es totalmente necesario realizarla antes de posicionar la PEMP."
-        }
-      ]
-    },
-    {
-      "titulo": "Zona de realización de los trabajos (III)",
       "contenido": [
         {
           "clase": "texto",
@@ -107,17 +92,17 @@
       ]
     },
     {
-      "titulo": "Categoría de terreno",
+      "titulo": "Categorías de terreno",
       "contenido": [
         {
           "clase": "texto",
           "texto": "Las <b>categorías de terreno</b> sirven para determinar los riesgos a tener en cuenta. De una manera general:",
-          "animacion": "lightSpeedIn"
+          "animacion": "fadeInRight"
         },
         {
           "clase": "tabs",
           "subclase": "vertical",
-          "animacion": "swing",
+          "animacion": "fadeInLeft",
           "contenido": [
             {
               "titulo": "TERRENO RURAL",
@@ -153,12 +138,12 @@
         {
           "clase": "texto",
           "texto": "Nos podemos encontrar con los siguientes <b>riesgos asociados a las condiciones del terreno</b>:",
-          "animacion": "lightSpeedIn"
+          "animacion": "fadeInRight"
         },
         {
           "clase": "tabs",
           "subclase": "vertical",
-          "animacion": "zoomInLeft",
+          "animacion": "fadeInLeft",
           "contenido": [
             {
               "titulo": "RELLENADO SIN COMPACTAR",
@@ -198,7 +183,7 @@
       "contenido": [
         {
           "clase": "texto",
-          "texto": "<h2>Estabilizadores, salientes y ejes extensibles</h2> "
+          "texto": "<center><h2>Estabilizadores, salientes y ejes extensibles</h2></center>"
         },
         {
           "clase": "listaObjetos",
@@ -211,10 +196,8 @@
             },
             {
               "clase": "imagen",
-              "imagen": "img/mod07/estabilizadores.jpg",
-              "animacion": "flip",
-              "subclase": "rotarDch paraCambiar",
-              "pie": "Una pemp (parecida a esta) en la que destaquen los estabilizadores"
+              "imagen": "img/mod07/estabilizador03.jpg",
+              "animacion": "fadeInRight"
             }
           ]
         }
@@ -247,7 +230,7 @@
         {
           "clase": "lista",
           "subclase": "objetivos",
-          "animacion": "rubberBand",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "punto": "<b>RECUERDA ...",
@@ -262,116 +245,6 @@
                   "punto": "Se recomienda el uso de <b>placas de repartición</b> de la carga por debajo del área de apoyo de los estabilizadores independientemente de las aparentes condiciones del suelo, ya que el área de apoyo de los estabilizadores es pequeña y por ello, genera <b>altas presiones</b> sobre el terreno y la mayoría de los suelos no son capaces de soportarlas."
                 }
               ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Autoevaluación",
-      "contenido": [
-        {
-          "clase": "autoevalArrastrar",
-          "contenedores": [
-            {
-              "clase": "imagen",
-              "subclase": "droppable",
-              "imagen": "img/mod07/correcto.png",
-              "ancho": 150,
-              "data_id": 1
-            },
-            {
-              "clase": "imagen",
-              "subclase": "droppable",
-              "imagen": "img/mod07/correcto.png",
-              "ancho": 150,
-              "data_id": 1
-            },
-            {
-              "clase": "imagen",
-              "subclase": "droppable",
-              "imagen": "img/mod07/correcto.png",
-              "ancho": 150,
-              "data_id": 1
-            },
-            {
-              "clase": "imagen",
-              "subclase": "droppable",
-              "imagen": "img/mod07/correcto.png",
-              "ancho": 150,
-              "data_id": 1
-            },
-            {
-              "clase": "imagen",
-              "subclase": "droppable",
-              "imagen": "img/mod07/incorrecto.png",
-              "ancho": 150,
-              "data_id": 2
-            },
-            {
-              "clase": "imagen",
-              "subclase": "droppable",
-              "imagen": "img/mod07/incorrecto.png",
-              "ancho": 150,
-              "data_id": 2
-            },
-            {
-              "clase": "imagen",
-              "subclase": "droppable",
-              "imagen": "img/mod07/incorrecto.png",
-              "ancho": 150,
-              "data_id": 2
-            },
-            {
-              "clase": "imagen",
-              "subclase": "droppable",
-              "imagen": "img/mod07/incorrecto.png",
-              "ancho": 150,
-              "data_id": 2
-            }
-          ],
-          "contenidos": [
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/mod07/estabilizador1.png",
-              "ancho": 90,
-              "data_caja": 1
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/mod07/estabilizador2.png",
-              "ancho": 90,
-              "data_caja": 2
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/mod07/estabilizador3.png",
-              "ancho": 90,
-              "data_caja": 2
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/mod07/estabilizador4.png",
-              "ancho": 90,
-              "data_caja": 1
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/mod07/estabilizador5.png",
-              "ancho": 90,
-              "data_caja": 2
-            },
-            {
-              "clase": "imagen",
-              "subclase": "draggable",
-              "imagen": "img/mod07/estabilizador6.png",
-              "ancho": 90,
-              "data_caja": 2
             }
           ]
         }
@@ -499,6 +372,7 @@
     },
     {
       "titulo": "Despedida",
+      "fondo": "img/mod07/revision.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -507,14 +381,9 @@
           "contenido": [
             {
               "clase": "texto",
-              "texto": "Seguro  que ya has quedado convencido de la importancia de realizar una <b>evaluación</b> del terreno <b>antes</b> de comenzar a utilizar una PEMP. ¡Pero esto no es todo!<br><br>En el siguiente capítulo verás cómo <b>esto no es suficiente</b>. Antes de utilizarla, y por tu propia seguridad, tendrás que <b>revisar bien la máquina</b> aunque supuestamente esté en perfecto estado."
-            },
-            {
-              "clase": "imagen",
-              "ancho": 300,
-              "imagen": "img/mod07/hombreRevision.png",
-              "subclase": "paraCambiar",
-              "pie": "Aquí el muñeco de siempre hablando con una hoja en la mano que ponga \"revisión\" o \"inspección\""
+              "subclase": "recuadro",
+              "opacidad": 0.8,
+              "texto": "Seguro  que ya has quedado convencido de la importancia de realizar una <b>evaluación</b> del terreno <b>antes</b> de comenzar a utilizar una PEMP. ¡Pero esto no es todo!<br><br>En el siguiente capítulo verás cómo <b>esto no es suficiente</b>. Antes de utilizarla, por tu propia seguridad, tendrás que <b>revisar bien la máquina</b> aunque supuestamente esté en perfecto estado."
             }
           ]
         }

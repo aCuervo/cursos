@@ -26,30 +26,30 @@
       ]
     },
     {
-      "titulo": "LA TECNOLOGÍA DE LOS APARATOS DE ELEVACIÓN",
+      "titulo": "Tecnología de los aparatos de elevación",
       "contenido": [
         {
           "clase": "listaObjetos",
-		  "animacion": "bounce",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "texto",
               "texto": "Los <b>puentes grúa</b> son máquinas destinadas a la elevación y transporte de materiales y cargas varias, en desplazamientos verticales y horizontales en el interior y exterior, generalmente intervienen tanto en almacenamiento como durante el proceso de fabricación. Constan de <b>una o dos vigas móviles</b> sobre carriles, apoyadas en columnas, a lo largo de dos paredes opuestas. Normalmente están compuestos de una doble estructura rematada en dos testeros automotores sincronizados, dotados de ruedas de doble pestaña para su encarrilamiento. A diferencia de las <b>grúas pórtico</b>, los raíles de desplazamiento están en el mismo plano horizontal que el carro, y su altura, determinará la altura máxima operativa de la máquina."
-            },
-            {
+            }
+          ]
+        },
+                    {
               "clase": "imagen",
               "imagen": "img/mod01/partes.jpg"
             }
-          ]
-        }
       ]
     },
     {
-      "titulo": "MOVIMIENTOS DEL PUENTE GRUA",
+      "titulo": "Movimientos del puente grúa",
       "contenido": [
         {
           "clase": "lista",
-		  "animacion": "bounceInDown",
+          "animacion": "fadeInDown",
           "titulo": "Los puentes grúa realizan <b>tres</b> movimientos:",
           "contenido": [
             {
@@ -63,16 +63,10 @@
             }
 
           ]
-        }
-
-      ]
-    },   
-    {
-      "titulo": "VELOCIDADES DE TRASLACIÓN",
-      "contenido": [
+        },
                 {
           "clase": "icono",
-		  "animacion": "fadeInDownBig",
+          "animacion": "fadeInDownBig",
           "subclase": "definicion",
           "texto": "<b>Velocidades de traslación</b>: Es importante que exista una relación correcta entre la velocidad de traslación final y los valores de deceleración y aceleración correspondiente. Para garantizar un buen funcionamiento el tiempo de traslación será de un 85% de la marcha total."
         }
@@ -80,16 +74,16 @@
       ]
     },
     {
-      "titulo": "MOTORES DE ACCIONAMIENTO",
+      "titulo": "Motores de accionamiento",
       "contenido": [
         {
           "clase": "texto",
-		  "animacion": "flipInX",
-          "texto": "<b>Motores de accionamiento</b>. Según el uso del puente grúa los motores que se utilizan son:"
+          "animacion": "fadeInRight",
+          "texto": "Según el uso del puente grúa los motores que se utilizan son:"
         },
         {
           "clase": "tabs",
-		  "animacion": "fadeInRight",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "titulo": "Motores de corriente continua",
@@ -114,15 +108,36 @@
               ]
             }
           ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "imagen": "img/mod01/motor1.jpg"
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
+              "imagen": "img/mod01/motor2.jpg"
+            },
+                        {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "imagen": "img/mod01/motor3.jpg"
+            }
+          ]
         }
       ]
     },
     {
-      "titulo": "TIPOS DE PUENTES GRÚA",
+      "titulo": "Tipos de puentes grúa",
+      "fondo": "img/mod01/crane.jpg",
       "contenido": [
         {
           "clase": "acordeon",
-		  "animacion": "slideInRight",
+          "animacion": "slideInRight",
           "contenido": [
             {
               "titulo": "Grúa",
@@ -163,17 +178,17 @@
       ]
     },
     {
-      "titulo": "PUESTOS DE OPERACIÓN",
+      "titulo": "Puestos de operación",
       "contenido": [
         {
           "clase": "icono",
-		  "animacion": "fadeInUp",
+          "animacion": "fadeInUp",
           "subclase": "definicion",
           "texto": "Se entiende por puesto de operación el lugar desde el que el operador manejando los órganos de control opera la grúa. Las grandes grúas generalmente se operan desde cabinas situadas en la estructura de la misma con distintas disposiciones (Fig. 1), y en el resto se operan desde el suelo, mediante botonera o telemando. "
         },
         {
-          "clase": "imagen",		  
-		    	"animacion": "fadeInRight",
+          "clase": "imagen",
+          "animacion": "fadeInRight",
           "imagen": "img/mod01/puestosOperacion.svg",
           "pie": "Fig. 1: Ejemplos de emplazamiento de cabinas"
         },
@@ -185,16 +200,16 @@
       ]
     },
     {
-      "titulo": "OPERACIÓN DESDE CABINAS",
+      "titulo": "Operación desde cabina",
       "contenido": [
         {
           "clase": "texto",
-		  "animacion": "wobble",
+          "animacion": "fadeInRight",
           "texto": "La cabina es el habitáculo del operador, desde donde puede comandar los movimientos de la grúa, ya sea directamente o ayudado por el señalista."
         },
         {
           "clase": "lista",
-		  "animacion": "shake",
+          "animacion": "fadeInLeft",
           "titulo": "Las cabinas tienen para la seguridad del operador y de la manipulación de cargas, las siguientes ventajas:",
           "contenido": [
             {
@@ -206,41 +221,47 @@
             {
               "punto": "Resguardan al operador de las condiciones de intemperie cuando son de exterior. "
             },
-                        {
+            {
               "punto": "Mejoran las condiciones del lugar de trabajo en operación continua."
             }
           ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod01/cabina.jpg"
         }
-
       ]
     },
     {
-      "titulo": "CONDICIONES DE ACCESO A LAS CABINAS",
+      "titulo": "Condiciones de acceso a la cabina",
       "contenido": [
         {
           "clase": "texto",
-		  "animacion": "shake",
+          "animacion": "fadeInRight",
           "texto": "El acceso a las cabinas debe realizarse en las mejores condiciones posibles de seguridad para el operador. Las escalas fijas de acceso a las cabinas tendrán una anchura mínima de 40 cm. con una distancia entre peldaños de 30 cm. y separadas de la pared posterior 16 cm. como mínimo.<br><br>La barandilla o lateral de la escala se prolongará 1 metro por encima del último peldaño y para escalas de altura superior a 4 metros dispondrán de protección circundante. Si se emplean escalas fijas para alturas mayores de 9 metros se instalaran plataformas de descanso cada 9 metros o fracción.<br><br>Las cabinas y sus accesos se mantendrán limpios y exentos de grasas, combustibles, polvo, etc. En caso de parada accidental, el operador debe poder abandonar la cabina de forma segura.<br><br>Está prohibida la utilización en la cabina de sistemas de calefacción por incandescencia o combustión. Las cabinas deben disponer de un sistema de ventilación adecuado.<br><br>Cuando se trabaje en zonas sometidas a alta o baja temperatura, las cabinas dispondrán de un equipo adecuado de aire acondicionado, que estará dotado de filtros apropiados para trabajos en atmósferas contaminadas o susceptibles de estarlo.<br><br>En el interior de la cabina existirá un extintor adecuado. Los cristales se mantendrán siempre limpios, para lo cual se limpiaran regularmente. Esta operación debe poder efectuarse sin riesgo para el operador."
         }
 
       ]
     },
     {
-      "titulo": "OPERACIÓN DESDE EL SUELO",
+      "titulo": "Operación desde el suelo",
+      "fondo": "img/mod01/fondoMando.jpg",
       "contenido": [
         {
           "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
           "texto": "El mando de las operaciones de la grúa, se realiza generalmente mediante una botonera colgante de la misma o mediante telemando, que es el sistema más frecuente en la actualidad. También existen, en algunos casos, paneles de control emplazados en un lugar fijo de la nave, pero solo son aplicables a situaciones muy puntuales. En las operaciones con mando de botonera, la velocidad normal de desplazamiento horizontal de la grúa, debe ser compatible con la del operador en el entorno en que este se mueve; si el mando es de una velocidad, la traslación a pie del operador no debe superar 1 m/s (60m/min), y si el mando tiene más de una velocidad, sin que la corta supere 0,75 m/s (45m/min.), se admite que la larga puede superar 1 m/s (UNE 13557:2004)."
         }
 
       ]
     },
     {
-      "titulo": "MODALIDADES DE BOTONERA COLGANTE",
+      "titulo": "Botonera colgante",
       "contenido": [
         {
           "clase": "listaObjetos",
-		  "animacion": "rubberBand",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "texto",
@@ -248,41 +269,39 @@
             },
             {
               "clase": "imagen",
-              "subclase": "paraCambiar",
-              "imagen": "img/mod01/botonera.jpeg",
+              "imagen": "img/mod01/botonera.jpg",
               "ancho": 300
             }
           ]
         },
         {
           "clase": "tabs",
-		  "animacion": "rubberBand",
-          "subclase": "paraCambiar",
+          "animacion": "fadeInLeft",
           "contenido": [
             {
               "titulo": "Botonera desplazable",
               "texto": "Botonera desplazable a lo largo del puente: Permite guiar la carga manualmente y permite asimismo mantener una distancia de seguridad entre el operador y la carga. Se recomienda para velocidades máximas de traslación de 63m/min.",
-              "imagen": "img/mod01/botoneraDesplazable.png",
-              "ancho": 275
+              "imagen": "img/mod01/botoneraDesplazable.jpg",
+              "ancho": 250
             },
             {
               "titulo": "Botonera suspendida del puente",
               "texto": "Botonera suspendida de un punto fijo del puente: Solo utilizable en puentes grúa de luz reducida, tampoco se utilizará en velocidades de traslación superiores a 63 m/min.",
-              "imagen": "img/mod01/botoneraSuspendidaPuente.png",
-              "ancho": 275
+              "imagen": "img/mod01/botoneraSuspendidaPuente.jpg",
+              "ancho": 325
             },
             {
               "titulo": "Botonera suspendida del carro",
               "texto": "El conductor está próximo a la carga y puede guiarla manualmente. Es adecuado para trabajos de mantenimiento y montaje, por ejemplo.",
-              "imagen": "img/mod01/botoneraSuspendidaCarro.png",
-              "ancho": 275
+              "imagen": "img/mod01/botoneraSuspendidaCarro.jpg",
+              "ancho": 325
             }
           ]
         }
       ]
     },
     {
-      "titulo": "MODALIDAD POR TELEMANDO",
+      "titulo": "Telemando",
       "contenido": [
         {
           "clase": "texto",
@@ -290,7 +309,7 @@
         },
         {
           "clase": "tabla",
-		  "animacion": "fadeInLeftBig",
+          "animacion": "fadeInLeftBig",
           "filaTitulos": [
             {
               "titulo": "Disposiciones legales"
@@ -420,7 +439,7 @@
                 }
               ]
             },
-                        {
+            {
               "fila": [
                 {
                   "texto": "Clase de receptor El receptor debe ser clase 1 Selectividad a canal adyacente: Espaciado del canal (12,5KHz <=25KHz):>= - 44dBm Espaciado del canal >25KHz: >= -10dBm"
@@ -439,12 +458,11 @@
       ]
     },
     {
-      "titulo": "LOS DISPOSITIVOS DE SEGURIDAD: PRINCIPIOS DE FUNCIONAMIENTO Y CONTROLES",
+      "titulo": "Dispositivos de seguridad",
       "contenido": [
         {
           "clase": "lista",
-		  "animacion": "flipInX",
-          "subclase": "cuadrado",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "punto": "<b>Limitadores de carga</b>: Dispositivo que impide el manejo de cargas que excedan de los límites establecidos por la carga nominal del puente grúa.",
@@ -488,7 +506,7 @@
     {
       "titulo": "Autoevaluación",
       "contenido": [
-                {
+        {
           "clase": "texto",
           "animacion": "swing",
           "texto": "Como parte de tu aprendizaje, te animamos a resolver el siguiente ejercicio y comprobar lo que has aprendido hasta ahora."
@@ -621,10 +639,11 @@
           ]
         }
       ]
-    },    
-     
+    },
+
     {
       "titulo": "Despedida",
+      "fondo": "img/comunes/despedida.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -632,11 +651,9 @@
           "contenido": [
             {
               "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
               "texto": "En este módulo hemos <b>presentado</b> el puente grúa, en el siguiente módulo nos centraremos en el operador o gruista y el resto de trabajadores que interaccionan en las maniobras de esta máquina."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod1/despedida.jpg"
             }
           ]
         }
@@ -649,4 +666,3 @@
     }
   ]
 }
-

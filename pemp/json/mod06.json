@@ -10,27 +10,15 @@
     {
       "titulo": "Introducción",
       "contenido": [
-        {
-          "clase": "listaObjetos",
-                            "animacion": "fadeInRight",
-          "contenido": [
-            {
-              "clase": "listaObjetos",
-              "contenido": [
-                {
-                  "clase": "imagen",
-                  "imagen": "img/mod06/0602.svg",
-                  "ancho": 300
-                },
                 {
                   "clase": "texto",
                   "animacion": "fadeInRight",
-                  "texto": "¿Sabes por qué tengo este manual en la mano?<br><br>Porque es fundamental recurrir siempre al <b>manual del fabricante</b> para conocer los mandos de nuestra plataforma elevadora de personas.<br><br>Esto se denomina <b>familiarización</b>, y es necesario, ya que cada máquina es diferente y cada fabricante, aún dentro de norma, tiene diferentes posibilidades de diseño."
+                  "texto": "Es fundamental recurrir siempre al <b>manual del fabricante</b> para conocer los mandos de nuestra plataforma elevadora de personas.<br><br>Esto se denomina <b>familiarización</b>, y es necesario, ya que cada máquina es diferente y cada fabricante, aún dentro de norma, tiene diferentes posibilidades de diseño."
+                },
+                            {
+                  "clase": "imagen",
+                  "imagen": "img/mod06/0602.svg"
                 }
-              ]
-            }
-          ]
-        }
       ]
     },
     {
@@ -74,54 +62,119 @@
           "animacion": "rotateInDownLeft",
           "texto": "La <b>familiarización</b> con un modedlo de máquina determinado, deberá incluir:"
         },
-                {
-          "clase": "imagen",
-          "imagen": "img/mod06/0604.svg"
-        },
         {
           "clase": "imagen",
           "imagen": "img/mod06/familiarizacion.png",
           "ancho": 1000,
-          "animacion": "shake"
+          "animacion": "fadeInRight"
         }
       ]
     },
-    {
-      "titulo": "Puestos de Mando (I)",
+        {
+      "titulo": "Puesto de mando primario",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "En una plataforma elevadora hablaremos de <b>DOS PUESTOS DE MANDO</b> diferentes. El primero de cuadros de mando es el <b>primario</b> y se encuentra en la <b>CESTA</b>. Es <b>manipulado por el operario</b> desde su interior. El segundo puesto de mando, el <b>secundario</b>, es el denominado <b>\"de suelo\"</b>. Está diseñado para <b>sustituir a los primarios</b>. Se encuentra en el <b>chasis</b> de la máquina, y es fundamental en los casos en que se haga necesario realizar un rescate.",
+          "texto": "En una plataforma elevadora hablaremos de <b>DOS PUESTOS DE MANDO</b> diferentes. El primero de cuadros de mando es el <b>primario</b> y se encuentra en la <b>CESTA</b>. Es manipulado por el operario desde su interior.",
           "animacion": "slideInLeft"
         },
         {
           "clase": "listaObjetos",
+          "subclase": "columna",
           "contenido": [
             {
-              "clase": "imagen",
-              "imagen": "img/mod06/0605a.svg"
-            },
-                        {
-              "clase": "imagen",
-              "imagen": "img/mod06/0605b.svg"
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod06/puestoDeMandoPrimario.jpg",
-              "pie": "<H3><INS>Puesto de mando PRIMARIO</INS></H2>"
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod06/puestoDeMandoSecundario.jpg",
-              "ancho": 400,
-              "pie": "<H3><INS>Puesto de mando SECUNDARIO</INS></H2>"
+              "clase": "listaObjetos",
+              "contenido": [
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod06/0605b.svg"
+                },
+                {
+                  "clase": "lista",
+                  "subclase": "numeros",
+                  "titulo": "<b>Puesto de mando primario</b>",
+                  "contenido": [
+                    {
+                      "punto": "Avería del sistema."
+                    },
+                    {
+                      "punto": "Indicador de descarga de baterías."
+                    },
+                    {
+                      "punto": "Indicador de inclinación."
+                    },
+                    {
+                      "punto": "Indicador de sobrecarga."
+                    },
+                    {
+                      "punto": "Interruptor selector de elevación/propulsión."
+                    },
+                    {
+                      "punto": "Bocina."
+                    },
+                    {
+                      "punto": "Interruptor de dirección."
+                    },
+                    {
+                      "punto": "Palanca de control."
+                    },
+                    {
+                      "punto": "Interruptor de parada de emergencia."
+                    },
+                    {
+                      "punto": "Gatillo."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "titulo": "Puestos de Mando (II)",
+      "titulo": "Puesto de mando secundario",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "El segundo puesto de mando, el <b>secundario</b>, es el denominado <b>\"de suelo\"</b>. Está diseñado para <b>sustituir a los primarios</b>. Se encuentra en el <b>chasis</b> de la máquina, y es fundamental en los casos en que se haga necesario realizar un rescate.",
+          "animacion": "slideInLeft"
+        },
+        {
+          "clase": "listaObjetos",
+          "subclase": "columna",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "contenido": [
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod06/0605a.svg"
+                },
+                {
+                  "clase": "lista",
+                  "subclase": "numeros",
+                  "titulo": "<b>Puesto de mando secundario</b>",
+                  "contenido": [
+                    {
+                      "punto": "Llave de contacto."
+                    },
+                    {
+                      "punto": "Interruptor de elevación/bajada de la plataforma."
+                    },
+                    {
+                      "punto": "Interruptor de parada de emergencia."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Mandos generales",
       "contenido": [
         {
           "clase": "texto",
@@ -130,7 +183,7 @@
         },
         {
           "clase": "acordeon",
-          "animacion": "swing",
+          "animacion": "fadeInLeft",
           "contenido": [
             {
               "titulo": "Conmutador de llave para activación de los mandos",
@@ -161,7 +214,7 @@
       ]
     },
     {
-      "titulo": "Puesto de Mando (III)",
+      "titulo": "Mandos inhalámbricos",
       "contenido": [
         {
           "clase": "texto",
@@ -174,20 +227,16 @@
           "texto": "<b>Todos los mandos direccionales</b> deben activarse en la dirección de la función volviendo a la <b>posición de paro o neutra automáticamente</b> cuando se deje de actuar sobre ellos."
         },
         {
-          "clase": "texto",
-          "texto": ""
-        },
-        {
           "clase": "imagen",
           "imagen": "img/mod06/puestoDeMando.png",
-          "animacion": "wobble",
+          "animacion": "fadeInLeft",
           "ancho": 700
         },
         {
           "clase": "icono",
-          "subclase": "sabiasQue",
-          "animacion": "tada",
-          "texto": "<b>¡IMPORTANTE! ...</b><br>¡No se debe manejar la máquina desde el puesto de suelo si hay personas en la cesta, salvo que se trate de una emergencia!"
+          "subclase": "exclamacion",
+          "animacion": "fadeInRight",
+          "texto": "¡No se debe manejar la máquina desde el puesto de suelo si hay personas en la cesta, salvo que se trate de una emergencia!"
         }
       ]
     },
@@ -196,12 +245,12 @@
       "contenido": [
         {
           "clase": "texto",
-          "animacion": "rotateInDownLeft",
+          "animacion": "fadeInLeft",
           "texto": "Los dispositivos <b>indicadores</b> proporcionarán advertencia acústica y/o visual cuando se alcanzan los <b>límites</b> de elevación de seguridad y los dispositivos <b>limitadores</b> ordenan la <b>detención</b> del movimiento peligroso del equipo. El botón de parada de emergencia  <b>conecta</b>  el control de la plataforma y lo desconecta en caso de emergencia."
         },
         {
           "clase": "tabs",
-          "animacion": "rotateIn",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "titulo": "INDICADORES",
@@ -229,7 +278,7 @@
         {
           "clase": "texto",
           "subclase": "anillas vertical",
-          "animacion": "rubberBand",
+          "animacion": "fadeInRight",
           "texto": "El <b>mantenimiento</b> de una PEMP es el conjunto de <b>operaciones básicas</b> destinadas a conservar la plena <b>efectividad y seguridad</b> de la máquina en función de las instrucciones del fabricante, y en su  caso del propietario, siempre de conformidad con las condiciones de trabajo, frecuencia de uso y normas vigentes. El <b>manual del fabricante</b> determinará la <b>periodicidad</b> requerida."
         },
         {
@@ -273,7 +322,7 @@
       "contenido": [
         {
           "clase": "texto",
-          "animacion": "bounceInDown",
+          "animacion": "fadeInRight",
           "texto": "Las revisiones de una PEMP son las <b>comprobaciones periódicas, estructurales, funcionales y operativas, de resistencia y conservación</b>, para <b>garantizar el rendimiento</b> de la máquina de conformidad a su fabricación."
         },
         {
@@ -317,12 +366,12 @@
       "contenido": [
         {
           "clase": "texto",
-          "animacion": "rotateInDownLeft",
-          "texto": "A continuación vemos la <b>hoja de revisiones periódicas</b>  de PEMP según norma UNE  58921 <a href='http://api.eoi.es/api_v1_dev.php/fedora/asset/eoi:36337/componente36346.pdf' target='_blank'><b>(ir a la norma)</b></a>:"
+          "animacion": "fadeInLeft",
+          "texto": "A continuación vemos la <b>hoja de revisiones periódicas</b>  de PEMP según la  <a href='http://api.eoi.es/api_v1_dev.php/fedora/asset/eoi:36337/componente36346.pdf' target='_blank' rel='noopener'>Norma UNE 58921</a>:"
         },
         {
           "clase": "imagen",
-          "animacion": "rotateIn",
+          "animacion": "fadeInRight",
           "imagen": "img/mod06/hojaRevision.png",
           "ancho": 700
         }
@@ -571,7 +620,7 @@
             {
               "clase": "texto",
               "subclase": "celo",
-              "texto": "¡Bueno!<br><br>Ya conocemos el panel de mandos y tenemos nuestra PEMP puesta al día y te veo dispuesto/a a empezar a trabajar con ella. Pero… ¿has inspeccionado el terreno? Recuerda que una correcta evaluación del terreno es importante aún en el caso de que la plataforma no se eleve sobre gatos o estabilizadores.<br><br>Pero de esto hablaremos en el capítulo siguiente. Allí te espero. "
+              "texto": "Ya conocemos el panel de mandos y tenemos nuestra PEMP puesta al día y te veo dispuesto/a a empezar a trabajar con ella. Pero… ¿has inspeccionado el terreno? Recuerda que una correcta evaluación del terreno es importante aún en el caso de que la plataforma no se eleve sobre gatos o estabilizadores.<br><br>De esto hablaremos en el capítulo siguiente."
             },
             {
               "clase": "imagen",
