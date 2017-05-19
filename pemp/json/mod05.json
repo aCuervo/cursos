@@ -11,24 +11,39 @@
       "titulo": "Introducción",
       "contenido": [
         {
+          "clase": "texto",
+          "texto": "En este nuevo capítulo del curso de Plataformas Elevadoras Móviles de Personal se habla de los tres tipos de PEMP que podemos encontrar si nos atenemos a su forma de desplazamiento:"
+        },
+        {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
-            {
-              "clase": "listaObjetos",
-              "contenido": [
                 {
-                  "clase": "imagen",
-                  "imagen": "img/mod05/0502b.svg"
-                },
-                {
-                  "clase": "texto",
+                  "clase": "lista",
                   "animacion": "fadeInRight",
-                  "texto": "¡Hola! <br><br>Comienzas ahora un nuevo capítulo del curso de Plataformas Elevadoras Móviles de Personal. En él se habla de los tres tipos de PEMP que podemos encontrar si nos atenemos a su forma de desplazamiento: <b>Autopropulsadas</b>, <b>Remolcables</b> y <b>Sobre Camión</b>. <br><br>Como verás, cada una tiene sus <b>pros</b> y <b>contras</b> y nos servirá para realizar un determinado tipo de trabajo. <br><br>¿Vamos con ellas?"
-                }
-              ]
+                  "contenido": [
+                    {
+                      "punto": "<b>Autopropulsadas</b>"
+                    },
+                    {
+                      "punto": "<b>Remolcables</b>"
+                    },
+                                        {
+                      "punto": "<b>Sobre Camión</b>"
+                    }
+                  ]
+                },
+            {
+              "clase": "imagen",
+              "subclase": "ajustarAncho",
+              "imagen": "img/mod05/0502b.svg"
             }
-          ]
+                          ]
+            },
+        {
+          "clase": "texto",
+          "animacion": "fadeInLeft",
+          "texto": "Cada una tiene sus <b>pros</b> y <b>contras</b> y nos servirá para realizar un determinado tipo de trabajo."
         }
       ]
     },
@@ -37,13 +52,12 @@
       "contenido": [
         {
           "clase": "imagen",
-          "pie": "Combinación de las tres PEMP con la autopropulsada en color y las otras dos en B/N y algo difuminadas",
           "imagen": "img/mod05/05auto.svg"
         },
         {
           "clase": "texto",
-          "subclase": "anillas",
-          "animacion": "wobble",
+          "subclase": "anillas vertical",
+          "animacion": "fadeInRight",
           "texto": "Se denomina <b>autopropulsada</b>, la plataforma que permite realizar los desplazamientos de traslación con los <b>brazos elevados</b> y manipulándola el usuario <b>desde la cesta</b>. Además, existen otras plataformas en el mercado que <b>no permiten la traslación en posición elevada</b> y se llaman <b>plataformas motrices</b>. Tienen un <b>peso menor</b> y, por lo tanto, en máquinas de poco peso, dependiendo de la altura, <b>necesitan estabilizadores</b> para aumentar la base de la máquina. <br><br>Dependiendo de las características de cada máquina, permiten <b>trabajar en un desnivel</b> que siempre estará limitado por un inclinómetro. <br><br><b>Legalmente</b> esta máquina sólo permite trabajar en <b>recintos cerrados</b> de obra ya que por sus características no se pueden matricular para circular por vía pública. <br><br>Estas plataformas pueden ir <b>montadas sobre ruedas</b> o <b>sobre cadenas</b>. Dependerá del terreno, influyendo también que la plataforma con ruedas pueda ser <b>4x4</b> (tracción a las cuatro ruedas) o con <b>eje oscilante</b> (sistema que permite dejar en contacto con el firme a las ruedas motrices, aumentando con esto la tracción)."
         }
       ]
@@ -58,7 +72,7 @@
         {
           "clase": "texto",
           "subclase": "anillas vertical",
-          "animacion": "rubberBand",
+          "animacion": "fadeInLeft",
           "texto": "Se denominan <b>remolcadas o remolcables</b>, porque pueden ser <b>llevadas por un vehículo</b> tractor sin necesidad de tener la obligación de transportarlas sobre otro vehículo. <br><br>En cuanto a características de trabajo, son máquinas <b>más lentas</b> de operar por la necesidad de poner <b>estabilizadores</b> cada vez que posicionamos la máquina para elevar. Por el contrario, lo bueno es que <b>ahorran dinero</b> de transportes más costosos. <br><br> Hay plataformas remolcadas que <b>se convierten en motrices</b> añadiendo un accesorio, que permite el fácil traslado de la máquina <b>en la obra</b> por sólo un operario. <br><br>Este semirremolque debe cumplir las condiciones y características que marca la ley. Por regla general, todo semirremolque que <b>exceda de los 750 kilos</b>, deberá ser <b>matriculado para circular en la vía pública</b>. <br><br>Estas plataformas se emplean principalmente para trabajar <b>en la vía pública</b>."
         }
       ]
@@ -73,13 +87,13 @@
         {
           "clase": "texto",
           "subclase": "anillas",
-          "animacion": "swing",
+          "animacion": "fadeInRight",
           "texto": "Como dice el nombre, estas plataformas se montan <b>sobre un camión</b>. Dependiendo de la plataforma que vayamos a montar, deberemos escoger un camión que se adecúe a sus características. Se tendrá en cuenta que un camión que lleva montada una plataforma elevadora, no permite una carga excesiva en la caja, ya que la carga máxima permitida la ocupa la plataforma. Ocurre igual con el espacio. Consta de una <b>estructura articulada o telescópica</b>, capaz de elevarse a grandes alturas y de girar 360º y puede ser utilizada por <b>varios operadores</b> según los casos.<br><br>Este tipo de plataforma,  por su condición de ser un <b>vehículo matriculable</b>, se emplea en trabajos donde el usuario tiene la necesidad de estar <b>desplazándose habitualmente por la vía pública</b>. Se utilizan para realizar <b>trabajos al aire libre</b> situados a <b>gran altura</b>, como pueden ser trabajos de reparación y mantenimiento en tendidos eléctricos, molinos eólicos, construcción, etc."
         }
       ]
     },
     {
-      "titulo": "PEMP sobre camión - Descripción",
+      "titulo": "PEMP sobre camión: Descripción",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -126,7 +140,7 @@
     },
 
     {
-      "titulo": "Riesgos Laborales derivados de su uso",
+      "titulo": "Riesgos Laborales derivados del uso",
       "contenido": [
         {
           "clase": "texto",
@@ -343,7 +357,7 @@
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "animacion": "tada",
+          "animacion": "fadeInLeft",
           "texto": "En cuanto a la formación e información, tal y como establece el artículo 5 del <a href='https://www.boe.es/boe/dias/1997/08/07/pdfs/A24063-24070.pdf' target='_blank'><b>Real Decreto 1215/1997</b></a>, por el que se establecen las <i>disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo</i>, esta formación e información ha de ser facilitada por el empresario conforme a lo dispuesto en los artículos 18 y 19 de la Ley 31/1995 de Prevención de Riesgos Laborales."
         }
       ]
@@ -355,8 +369,9 @@
         {
           "clase": "texto",
           "subclase": "recuadro",
+          "opacidad": 0.8,
           "animacion": "zoomIn",
-          "texto": "En el caso de que la PEMP de tijera esté provista del <b>marcado CE</b> y vaya acompañada de la correspondiente <b>declaración CE de conformidad</b>, se considera que la misma cumple los requisitos esenciales de seguridad y de salud que figuran en el anexo I del  <a href='https://www.boe.es/boe/dias/2008/10/11/pdfs/A40995-41030.pdf' target='_blank'><b>Real Decreto 1644/2008</b></a>, por el que se establecen las normas para la comercialización y puesta en servicio de las máquinas."
+          "texto": "En el caso de que la PEMP de tijera esté provista del <b>marcado CE</b> y vaya acompañada de la correspondiente <b>declaración CE de conformidad</b>, se considera que la misma cumple los requisitos esenciales de seguridad y de salud que figuran en el anexo I del  <a href='https://www.boe.es/boe/dias/2008/10/11/pdfs/A40995-41030.pdf' target='_blank' rel='noopener'>Real Decreto 1644/2008</a>, por el que se establecen las normas para la comercialización y puesta en servicio de las máquinas."
         }
       ]
     },
@@ -371,7 +386,7 @@
         {
           "clase": "lista",
           "subclase": "anillas vertical",
-          "animacion": "rubberBand",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "punto": "Dispone de su <b>manual de instrucciones en castellano."
@@ -418,7 +433,7 @@
         {
           "clase": "lista",
           "subclase": "anillas vertical",
-          "animacion": "rubberBand",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "punto": "Las <b>cadenas, cables, cinchas y accesorios de elevación</b> disponen de <b>placa o marca identificativa</b>."
@@ -463,7 +478,7 @@
         {
           "clase": "lista",
           "subclase": "anillas vertical",
-          "animacion": "rubberBand",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "punto": "La <b>puerta de acceso</b> es <b>abatible hacia adentro</b> con dispositivo de <b>bloqueo</b> que impide su apertura hacia el exterior de forma involuntaria.  En caso de que tenga barra vertical,  se cierra correctamente con bloqueo y se imposibilita su apertura de forma involuntaria."
@@ -499,7 +514,7 @@
         {
           "clase": "lista",
           "subclase": "anillas vertical",
-          "animacion": "rubberBand",
+          "animacion": "fadeInLeft",
           "contenido": [
             {
               "punto": "El <b>asiento</b> dispone de un <b>sistema de amortiguación de vibraciones</b>."
@@ -532,19 +547,19 @@
         },
         {
           "clase": "imagen",
-          "imagen": "img/mod05/tick.png",
+          "imagen": "img/mod05/0316.svg",
           "ancho": 200,
-          "animacion": "tada"
+          "animacion": "fadeInRight"
         }
       ]
     },
     {
-      "titulo": "Contenido del manual de instrucciones",
+      "titulo": "Manual de instrucciones",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Conforme a lo dispuesto en el antes mencionado Real Decreto 1644/2008, por el que se establecen las normas para la comercialización y puesta en servicio de las máquinas, la plataforma debe ir acompañada de un <b>manual de instrucciones</b> redactado, al menos, en <b>castellano</b>. Este manual tiene que contener, como mínimo, cuando proceda, la <b>siguiente información</b>:",
-          "animacion": "bounceInDown"
+          "texto": "Conforme al Real Decreto 1644/2008, que establece las normas para la comercialización y puesta en servicio de estas máquinas, la plataforma debe ir acompañada de un <b>manual de instrucciones</b> redactado al menos en <b>castellano</b> y conteniendo como mínimo, cuando proceda, la <b>siguiente información</b>:",
+          "animacion": "fadeInLeft"
         },
         {
           "clase": "listaObjetos",
@@ -553,7 +568,7 @@
             {
               "clase": "lista",
               "subclase": "recuadro",
-              "animacion": "bounceInLeft",
+              "animacion": "fadeInRight",
               "contenido": [
                 {
                   "punto": "Razón social y dirección completa del fabricante y, en su caso, de su representante autorizado."
@@ -623,7 +638,7 @@
       ]
     },
     {
-      "titulo": "Guía básica de mantenimiento del equipo",
+      "titulo": "Mantenimiento del equipo",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -631,31 +646,31 @@
             {
               "clase": "texto",
               "subclase": "celo",
-              "animacion": "swing",
+              "animacion": "fadeInLeft",
               "texto": "Se debe garantizar el <b>mantenimiento adecuado</b> de la plataforma elevadora conforme a lo indicado por el <b>fabricante</b> en el <b>manual de instrucciones</b> de la máquina. En este sentido, las revisiones determinadas por el fabricante han de ser efectuadas por <b>personal especializado</b>. <br>En la imagen que ilustra este apartado, y a modo orientativo, se muestra una tabla que, sin ser vinculante, pretende ser una <b>guía básica de instrucciones de mantenimiento</b>."
             },
             {
               "clase": "imagen",
               "imagen": "img/mod05/revisionPEMP.png",
               "ancho": 600,
-              "animacion": "rotateIn"
+              "animacion": "fadeInRight"
             }
           ]
         }
       ]
     },
-    {
-      "titulo": "Resumen - Definición",
+        {
+      "titulo": "Resumen",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "<b>Recuerda …</b>",
-          "animacion": "rotateInDownLeft"
+          "texto": "<center><b>DEFINICIÓN</b></center>",
+          "animacion": "fadeInLeft"
         },
         {
           "clase": "tabla",
           "subclase": "separada",
-          "animacion": "slideInUp",
+          "animacion": "fadeInRight",
           "filaTitulos": [
             {
               "titulo": "PEMP AUTOPROPULSADA"
@@ -682,21 +697,16 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "titulo": "Resumen - Características del trabajo",
-      "contenido": [
-        {
+        },
+                {
           "clase": "texto",
-          "texto": "<b>Recuerda …</b>",
-          "animacion": "rotateInDownLeft"
+          "texto": "<center><b>CARACTERÍSTICAS DE TRABAJO</b></center>",
+          "animacion": "fadeInLeft"
         },
         {
           "clase": "tabla",
           "subclase": "separada",
-          "animacion": "slideInUp",
+          "animacion": "fadeInRight",
           "filaTitulos": [
             {
               "titulo": "PEMP AUTOPROPULSADA"
@@ -727,7 +737,7 @@
       ]
     },
     {
-      "titulo": "Autoevaluación",
+      "titulo": "Crucigrama",
       "contenido": [
         {
           "clase": "juegoPalabrasCruzadas",
@@ -1024,7 +1034,7 @@
             {
               "clase": "texto",
               "subclase": "celo",
-              "texto": "<br><br>Ya conoces los diferentes <b>tipos de PEMP</b> que existen.<br><br>Ahora te toca familiarizarte con el panel de control. Así es que acciona la llave de contacto y ¡Arrancamos!<br><br>¡Ah! ¡No olvides comprobar antes la parada de emergencia por si acaso!"
+              "texto": "Ya conoces los diferentes <b>tipos de PEMP</b> que existen.<br><br>En el siguiente módulo nos familiarizaremos con el panel de control. Así que acciona la llave de contacto y ¡Arrancamos!<br><br>¡Pero no olvides comprobar antes la parada de emergencia, por si acaso!"
             },
             {
               "clase": "imagen",

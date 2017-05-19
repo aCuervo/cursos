@@ -9,21 +9,16 @@
     },
     {
       "titulo": "Introducción",
+      "fondo": "img/mod03/tijera.jpg",
       "contenido": [
         {
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "imagen",
-              "subclase": "paraCambiar",
-              "imagen": "img/mod03/dosPEMP.png",
-              "ancho": 400,
-              "pie": "Meter el muñeco mirando hacia arriba, entre las dos PEMP. Hay que dibujar las 2 plataformas",
-              "animacion": "fadeInUp"
-            },
-            {
               "clase": "texto",
-              "texto": "¡Hola!<br><br>Aquí estoy de nuevo, con muchas ganas de presentarte las PEMP de <b>tijera y mástil</b>. Ambos modelos son de tipo 1 y presentan similitudes así es que los incluiremos juntos en este módulo. <br><br>Mmm…¿Que no te acuerdas qué son las PEMP de tipo1? <br><br>¡Que sí! Esas cuya <b>traslación</b> sólo es posible si se encuentran en <b>posición de transporte</b>…<br><br>Ahora sí ¿verdad? Pues ¡Adelante!",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
+              "texto": "En este módulo veremos las PEMP de <b>tijera y mástil</b>. Ambos modelos son de tipo 1 y presentan similitudes. <br><br>En estas PEMP la <b>traslación</b> sólo es posible si se encuentran en <b>posición de transporte.</b>",
               "animacion": "fadeInRight"
             }
           ]
@@ -31,19 +26,19 @@
       ]
     },
     {
-      "titulo": "PEMP de Tijera (I)",
+      "titulo": "PEMP de Tijera",
       "fondo": "img/mod03/fondoSlice3.jpg",
       "contenido": [
         {
           "clase": "texto",
           "subclase": "anillas",
-          "animacion": "wobble",
+          "animacion": "fadeInRight",
           "texto": "Este tipo de plataformas se utilizan para <b>trabajos</b> de instalaciones eléctricas, mantenimientos, montajes industriales, construcción, etc.<br><br>La estructura es de <b>elevación vertical</b> con una carga nominal de trabajo <b>elevada</b> y puede ser utilizada por <b>varias personas</b> simultáneamente. <br><br>Pueden estar alimentadas por <b>baterías</b> o <b>motor de explosión</b> y disponer de <b>tracción integral</b>, <b>doble extensión manual</b> y <b>estabilizadores hidráulicos</b> que nivelen la máquina y permitan subir al usuario."
         }
       ]
     },
     {
-      "titulo": "PEMP de Tijera (II)",
+      "titulo": "Partes",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -66,7 +61,7 @@
                 {
                   "clase": "lista",
                   "subclase": "objetivos",
-                  "animacion": "jello",
+                  "animacion": "fadeInRight",
                   "contenido": [
                     {
                       "punto": "Como toda PEMP, dispone de:",
@@ -91,48 +86,51 @@
       ]
     },
     {
-      "titulo": "PEMP de Tijera (III)",
+      "titulo": "Descripción",
       "contenido": [
         {
           "clase": "listaObjetos",
           "subclase": "columna",
-          "animacion": "flip",
+          "animacion": "fadeInLeft",
           "contenido": [
             {
               "clase": "texto",
               "texto": "Las plataformas elevadoras de tijera pertenecen al <b>grupo A</b> (es decir, tienen la proyección vertical del centro de gravedad en el interior del polígono de sustentación). Debido a esta posibilidad de elevación, en <b>pequeñas estructuras</b> de chasis, debe disponer de <b>estabilizadores</b>, <b>ejes extensibles</b> u otro <b>sistema homologado</b> que le dé <b>estabilidad</b>. Estas plataformas <b>pueden desplazarse</b> para poder acceder mejor al punto de trabajo.  Si son <b>autopropulsadas</b> y su <b>plataforma</b> de trabajo está en posición <b>elevada</b>, esta traslación puede ser ordenada por un <b>panel  de control</b> situado en el <b>chasis (tipo 2)</b>  o en la <b>plataforma de trabajo (tipo 3)</b>."
             },
             {
-              "clase": "imagen",
-              "imagen": "img/mod03/separador.jpg",
-              "subclase": "paraCambiar",
-              "pie": "Hacer una imagen larga y estrecha para separar los dos párrafos"
-            },
+              "clase": "listaObjetos",
+              "contenido": [
             {
-              "clase": "texto",
-              "texto": "Además, pueden <b>incorporar suplementos</b> de plataforma que se deslizan frontalmente para <b>salvar pequeños obstáculos</b>, de unos 2 m aproximadamente. Algunos fabricantes añaden suplementos de 1 m aproximadamente, en desplazamiento lateral. Las dimensiones de altura y anchura de estas plataformas dependerán del tipo de trabajo que tengan que hacer.  Pueden llegar <b>desde 4,5 hasta los 30 metros de altura más o menos</b>. Por lo general, para plataformas de mantenimiento en interiores, se demandan máquinas estrechas de hasta 0,80 m. de anchura y 15 m. de altura."
+              "clase": "imagen",
+              "imagen": "img/mod03/tijeraPlegada.jpg"
+            },
+                {
+                  "clase": "texto",
+                  "texto": "Además, pueden <b>incorporar suplementos</b> de plataforma que se deslizan frontalmente para <b>salvar pequeños obstáculos</b>, de unos 2 m aproximadamente. Algunos fabricantes añaden suplementos de 1 m aproximadamente, en desplazamiento lateral. Las dimensiones de altura y anchura de estas plataformas dependerán del tipo de trabajo que tengan que hacer.  Pueden llegar <b>desde 4,5 hasta los 30 metros de altura más o menos</b>. Por lo general, para plataformas de mantenimiento en interiores, se demandan máquinas estrechas de hasta 0,80 m. de anchura y 15 m. de altura."
+                }
+                              ]
             }
           ]
         }
       ]
     },
     {
-      "titulo": "PEMP de Tijera (IV)",
+      "titulo": "Trabajos que desempeña",
       "contenido": [
         {
           "clase": "texto",
           "animacion": "bounce",
-          "texto": "<h2>PRINCIPALES TRABAJOS QUE DESEMPEÑA<H2>"
+          "texto": "<center><h2>PRINCIPALES TRABAJOS QUE DESEMPEÑA</h2></center>"
         },
         {
           "clase": "texto",
-          "animacion": "bounce",
+          "animacion": "fadeInRight",
           "texto": "Es una plataforma que se emplea en todos los trabajos que precisen de subir abundante material y que por sus condiciones, permitan que se eleve verticalmente sin encontrar obstáculo."
         },
         {
           "clase": "listaObjetos",
           "subclase": "centroEstrecho",
-          "animacion": "bounceInLeft",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "lista",
@@ -157,7 +155,7 @@
       ]
     },
     {
-      "titulo": "PEMP de Mástil (I)",
+      "titulo": "PEMP de Mástil",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -207,7 +205,7 @@
       ]
     },
     {
-      "titulo": "PEMP de Mástil (II)",
+      "titulo": "Descripción",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -456,7 +454,7 @@
           "clase": "icono",
           "subclase": "sabiasQue",
           "animacion": "fadeInRight",
-          "texto": "En cuanto a la formación e información, tal y como establece el artículo 5 del <a href='https://www.boe.es/boe/dias/1997/08/07/pdfs/A24063-24070.pdf' target='_blank'><b>Real Decreto 1215/1997</b></a>, por el que se establecen las <i>disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo</i>, esta formación e información ha de ser facilitada por el empresario conforme a lo dispuesto en los artículos 18 y 19 de la Ley 31/1995 de Prevención de Riesgos Laborales."
+          "texto": "En cuanto a la formación e información, tal y como establece el artículo 5 del <a href='https://www.boe.es/boe/dias/1997/08/07/pdfs/A24063-24070.pdf' target='_blank' rel='noopener'>Real Decreto 1215/1997</a>, por el que se establecen las <i>disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo</i>, esta formación e información ha de ser facilitada por el empresario conforme a lo dispuesto en los artículos 18 y 19 de la Ley 31/1995 de Prevención de Riesgos Laborales."
         }
       ]
     },
@@ -468,7 +466,8 @@
           "clase": "texto",
           "subclase": "recuadro",
           "animacion": "zoomIn",
-          "texto": "En el caso de que la PEMP de tijera esté provista del <b>marcado CE</b> y vaya acompañada de la correspondiente <b>declaración CE de conformidad</b>, se considera que la misma cumple los requisitos esenciales de seguridad y de salud que figuran en el anexo I del  <a href='https://www.boe.es/boe/dias/2008/10/11/pdfs/A40995-41030.pdf' target='_blank'><b>Real Decreto 1644/2008</b></a>, por el que se establecen las normas para la comercialización y puesta en servicio de las máquinas."
+          "opacidad": 0.8,
+          "texto": "En el caso de que la PEMP de tijera esté provista del <b>marcado CE</b> y vaya acompañada de la correspondiente <b>declaración CE de conformidad</b>, se considera que la misma cumple los requisitos esenciales de seguridad y de salud que figuran en el anexo I del  <a href='https://www.boe.es/boe/dias/2008/10/11/pdfs/A40995-41030.pdf' target='_blank' rel='noopener'>Real Decreto 1644/2008</a>, por el que se establecen las normas para la comercialización y puesta en servicio de las máquinas."
         }
       ]
     },
@@ -483,7 +482,7 @@
         {
           "clase": "lista",
           "subclase": "anillas vertical",
-          "animacion": "rubberBand",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "punto": "Dispone de su <b>manual de instrucciones en castellano."
@@ -530,7 +529,7 @@
         {
           "clase": "lista",
           "subclase": "anillas vertical",
-          "animacion": "rubberBand",
+          "animacion": "fadeInLeft",
           "contenido": [
             {
               "punto": "Dispone de todos los <b>equipos y accesorios imprescindibles</b> para su <b>regulación, mantenimiento y utilización</b> de forma segura"
@@ -572,7 +571,7 @@
         {
           "clase": "lista",
           "subclase": "anillas vertical",
-          "animacion": "rubberBand",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "punto": "Los componentes que canalizan los <b>fluidos del motor</b> o <b>dispositivos hidráulicos</b> (depósitos con su tapón, etc.) están en <b>perfecto estado</b>, de forma que no se aprecia ningún tipo de fuga"
@@ -604,17 +603,17 @@
           "clase": "imagen",
           "imagen": "img/mod03/0316.svg",
           "ancho": 200,
-          "animacion": "fadeInright"
+          "animacion": "fadeInRight"
         }
       ]
     },
     {
-      "titulo": "Contenido del manual de instrucciones",
+      "titulo": "Manual de instrucciones",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Conforme a lo dispuesto en el antes mencionado Real Decreto 1644/2008, por el que se establecen las normas para la comercialización y puesta en servicio de las máquinas, la plataforma debe ir acompañada de un <b>manual de instrucciones</b> redactado, al menos, en <b>castellano</b>. Este manual tiene que contener, como mínimo, cuando proceda, la <b>siguiente información</b>:",
-          "animacion": "bounceInDown"
+          "texto": "Conforme al Real Decreto 1644/2008, que establece las normas para la comercialización y puesta en servicio de estas máquinas, la plataforma debe ir acompañada de un <b>manual de instrucciones</b> redactado al menos en <b>castellano</b> y conteniendo como mínimo, cuando proceda, la <b>siguiente información</b>:",
+          "animacion": "fadeInLeft"
         },
         {
           "clase": "listaObjetos",
@@ -693,7 +692,7 @@
       ]
     },
     {
-      "titulo": "Guía básica de mantenimiento del equipo",
+      "titulo": "Mantenimiento del equipo",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -701,14 +700,14 @@
             {
               "clase": "texto",
               "subclase": "celo",
-              "animacion": "swing",
+              "animacion": "fadeInRight",
               "texto": "Se debe garantizar el <b>mantenimiento adecuado</b> de la PEMP de la tijera conforme a lo indicado por el <b>fabricante</b> en el <b>manual de instrucciones</b> de la máquina. En este sentido, las revisiones determinadas por el fabricante han de ser efectuadas por <b>personal especializado</b>. <br>En la imagen que ilustra este apartado, y a modo orientativo, se muestra una tabla que, sin ser vinculante, pretende ser una <b>guía básica de instrucciones de mantenimiento</b>."
             },
             {
               "clase": "imagen",
               "imagen": "img/mod03/revisionPEMP.png",
               "ancho": 600,
-              "animacion": "rotateIn"
+              "animacion": "fadeInLeft"
             }
           ]
         }
@@ -721,7 +720,8 @@
         {
           "clase": "texto",
           "subclase": "recuadro",
-          "texto": "Respondemos a esta pregunta con la recomendación de <a href='http://www.ipaf.org/es/' target='_blank'><b>IPAF</b></a>: <br>Normalmente, si la máquina está equipada <b>con barandillas</b>, <b>no es necesario</b> que el personal que trabaja en un elevador vertical (Plataformas de Tijera y Elevadores verticales unipersonales) utilice el arnés de seguridad, con excepción de circunstancias especiales de riesgo. Las plataformas de tijera, por ejemplo, disponen de una amplia plataforma de trabajo y el arnés limitaría la posibilidad de movimiento de los operadores a bordo de la misma y limitaría la visión del operador en las maniobras (por ejemplo cuando hace marcha atrás). <br>Sin embargo la necesidad de un arnés en una plataforma elevadora de tijera <b>será contemplada en la Evaluación de Riesgos</b> antes de que se empiece el trabajo y según las <b>especificaciones técnicas de la máquina</b> indicadas en el manual de uso de la misma. <br>Por otro lado, también se seguirá la normativa interna de la empresa, que puede especificar la obligatoriedad de uso de este EPI.",
+          "opacidad": 0.8,
+          "texto": "Respondemos a esta pregunta con la recomendación de <a href='http://www.ipaf.org/es/' target='_blank' rel='noopener'>IPAF</a>: <br>Normalmente, si la máquina está equipada <b>con barandillas</b>, <b>no es necesario</b> que el personal que trabaja en un elevador vertical (Plataformas de Tijera y Elevadores verticales unipersonales) utilice el arnés de seguridad, con excepción de circunstancias especiales de riesgo. Las plataformas de tijera, por ejemplo, disponen de una amplia plataforma de trabajo y el arnés limitaría la posibilidad de movimiento de los operadores a bordo de la misma y limitaría la visión del operador en las maniobras (por ejemplo cuando hace marcha atrás). <br>Sin embargo la necesidad de un arnés en una plataforma elevadora de tijera <b>será contemplada en la Evaluación de Riesgos</b> antes de que se empiece el trabajo y según las <b>especificaciones técnicas de la máquina</b> indicadas en el manual de uso de la misma. <br>Por otro lado, también se seguirá la normativa interna de la empresa, que puede especificar la obligatoriedad de uso de este EPI.",
           "subclase": "recuadro",
           "animacion": "jello"
         }

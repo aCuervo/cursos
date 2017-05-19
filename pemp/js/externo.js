@@ -172,6 +172,9 @@ function getArrayImagenes(modulo) {
 			"img/mod02/arrastrar/plataforma.png",
 			"img/mod02/arrastrar/soluccion.png",
 			"img/mod02/arrastrar/tijera.png",
+            "img/mod02/0205.svg",
+            "img/mod02/0207.svg",
+            "img/mod02/0211.svg",
             "img/mod02/circulo614.png",
 			"img/mod02/circulo1215.png",
 			"img/mod02/circulo1627.png",
@@ -185,12 +188,20 @@ function getArrayImagenes(modulo) {
 			"img/mod02/hombrePEMP.png",
             "img/mod02/lineasDeVuelco.jpg",
             "img/mod02/mapas.jpg",
+            "img/mod02/mod02sco03.svg",
+            "img/mod02/mod02sco04.svg",
+            "img/mod02/mod2sco2.svg",
 			"img/mod02/ojos.png",
 			"img/mod02/peligro.png",
             "img/mod02/tiposPEMP.png",
+            "img/mod02/wikipemp.jpg"
         ]);
             break;
         case "mod03": arrayFinal = arrayComun.concat([
+            "img/mod03/0308.svg",
+            "img/mod03/0312.svg",
+            "img/mod03/0316.svg",
+            "img/mod03/0323.svg",
             "img/mod03/autoevaluacion1.jpg",
             "img/mod03/autoevaluacion2.png",
             "img/mod03/carpetaAmarilla.png",
@@ -215,11 +226,16 @@ function getArrayImagenes(modulo) {
             "img/mod03/riesgosPEMPotros.png",
             "img/mod03/riesgosPEMPvuelco.png",
             "img/mod03/separador.jpg",
-            "img/mod03/tick.png",
             "img/mod03/tijeraAmarilla.png",
+            "img/mod03/tijeraPlegada.jpg",
         ]);
             break;
         case "mod04": arrayFinal = arrayComun.concat([
+            "img/mod04/0316.svg",
+            "img/mod04/0402.jpg",
+            "img/mod04/0404.svg",
+            "img/mod04/0408.svg",
+            "img/mod04/0427.svg",
 			"img/mod04/carpetaAmarilla.png",
 			"img/mod04/ejercicioPEMP1.jpg",
 			"img/mod04/ejercicioPEMP2.jpg",
@@ -245,10 +261,19 @@ function getArrayImagenes(modulo) {
 			"img/mod04/riesgos1.png",
 			"img/mod04/riesgos2.png",
 			"img/mod04/telescopica1.png",
-			"img/mod04/tick.png",
         ]);
             break;
         case "mod05": arrayFinal = arrayComun.concat([
+            "img/mod05/0316.svg",
+            "img/mod05/0502a.svg",
+            "img/mod05/0502b.svg",
+            "img/mod05/0503.svg",
+            "img/mod05/0504.svg",
+            "img/mod05/0506.svg",
+            "img/mod05/0510.svg",
+            "img/mod05/0523.svg",
+            "img/mod05/05auto.svg",
+            "img/mod05/05sobre.svg",
 			"img/mod05/3PEMP-autopropulsada.jpg",
 			"img/mod05/3PEMP-remolcable.jpg",
 			"img/mod05/3PEMP-sobreCamion.jpg",
@@ -274,12 +299,18 @@ function getArrayImagenes(modulo) {
 			"img/mod05/peligro6.jpg",
 			"img/mod05/peligro7.jpg",
 			"img/mod05/peligro8.jpg",
+            "img/mod05/PEMPcamionPartes.png",
 			"img/mod05/revisionPEMP.png",
 			"img/mod05/solucionArrastrar.jpg",
-			"img/mod05/tick.png",
         ]);
             break;
         case "mod06": arrayFinal = arrayComun.concat([
+            "img/mod06/0602.svg",
+            "img/mod06/0604.svg",
+            "img/mod06/0605a.svg",
+            "img/mod06/0605b.svg",
+            "img/mod06/0610.jpg",
+            "img/mod06/0615.svg",
 			"img/mod06/botonParada.png",
 			"img/mod06/despedida.png",
 			"img/mod06/familiarizacion.png",
@@ -293,7 +324,10 @@ function getArrayImagenes(modulo) {
         ]);
             break;
         case "mod07": arrayFinal = arrayComun.concat([
-			"img/mod07/correcto.png",
+            "img/mod07/0705a.svg",
+            "img/mod07/0705b.svg",
+            "img/mod07/correcto.png",
+            "img/mod07/estabilizador03.jpg",
 			"img/mod07/estabilizador1.png",
 			"img/mod07/estabilizador2.png",
 			"img/mod07/estabilizador3.png",
@@ -308,9 +342,13 @@ function getArrayImagenes(modulo) {
 			"img/mod07/incorrecto.png",
 			"img/mod07/lupa.png",
             "img/mod07/placaDistribucionPeso.jpg",
+            "img/mod07/revision.jpg",
         ]);
             break;
         case "mod08": arrayFinal = arrayComun.concat([
+            "img/mod08/0802.svg",
+            "img/mod08/0803.svg",
+            "img/mod08/0813.svg",
 			"img/mod08/flechas.png",
             "img/mod08/fondoEscavadora.jpg",
 			"img/mod08/fondoJoyas.jpg",
@@ -323,6 +361,10 @@ function getArrayImagenes(modulo) {
         ]);
             break;
         case "mod09": arrayFinal = arrayComun.concat([
+            "img/mod09/0902.svg",
+            "img/mod09/0905.svg",
+            "img/mod09/0910.svg",
+            "img/mod09/0921.svg",
 			"img/mod09/arnes.png",
 			"img/mod09/epis.jpg",
 			"img/mod09/flechaGrupos.png",
@@ -337,6 +379,12 @@ function getArrayImagenes(modulo) {
         ]);
             break;
         case "mod10": arrayFinal = arrayComun.concat([
+            "img/mod10/1002.svg",
+            "img/mod10/1003a.svg",
+            "img/mod10/1003b.svg",
+            "img/mod10/1009.svg",
+            "img/mod10/1012.svg",
+            "img/mod10/1017.svg",
 			"img/mod10/atrapamiento.png",
 			"img/mod10/caidaDeMaterial.png",
 			"img/mod10/caidas.png",
@@ -344,6 +392,7 @@ function getArrayImagenes(modulo) {
 			"img/mod10/distanciaAtorreta.png",
 			"img/mod10/distanciasLimite.jpg",
 			"img/mod10/dontForget.png",
+            "img/mod10/fondoHidraulico.jpg",
 			"img/mod10/golpes.png",
 			"img/mod10/hidraulico.png",
 			"img/mod10/hombreParaguas.png",
@@ -361,6 +410,10 @@ function getArrayImagenes(modulo) {
         ]);
             break;
         case "mod11": arrayFinal = arrayComun.concat([
+            "img/mod11/1102.svg",
+            "img/mod11/1104.svg",
+            "img/mod11/1106.svg",
+            "img/mod11/1110.svg",
 			"img/mod11/atropello.jpg",
 			"img/mod11/bateria.jpg",
 			"img/mod11/caida.jpg",
@@ -376,6 +429,8 @@ function getArrayImagenes(modulo) {
         ]);
             break;
         case "mod12": arrayFinal = arrayComun.concat([
+            "img/mod12/1203.svg",
+            "img/mod12/1203b.svg",
 			"img/mod12/fondoDesacelerar.jpg",
 			"img/mod12/fondoDistracciones.jpg",
 			"img/mod12/fondoPuentear.jpg",

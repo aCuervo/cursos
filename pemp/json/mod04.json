@@ -34,7 +34,7 @@
         {
           "clase": "texto",
           "subclase": "anillas vertical",
-          "animacion": "wobble",
+          "animacion": "fadeInRight",
           "texto": "Este tipo de plataformas, al igual que las articuladas, se utilizan para trabajos en zonas de <b>difícil acceso</b>. Son las <b>más altas</b> dentro de la familia de las PEMP y permiten <b>desplazamientos laterales</b> superiores a los articuladas, pudiendo salvar obstáculos que estén por debajo del área de trabajo. Otras característica ventajosa es que permite que la cesta pueda situarse unos metros por debajo de la base de la máquina.<br><br>Pueden tener una <b>estructura articulada y sección telescópica</b> o sólo telescópica  y ofrecen la posibilidad de que el conjunto torre pueda <b>girar a izquierda o derecha 360º</b>,  permitiendo el trabajo longitudinal sin necesidad de variar la dirección de las ruedas.<br><br>Pueden estar alimentadas por <b>baterías</b>, con <b>motor diésel</b> o una <b>combinación de ambos</b> sistemas y disponer de <b>tracción integral</b>. El <b>peso</b> de estas máquinas es considerable, ya que tienen que soportar la palanca que se ejerce a medida que salen los brazos para hacer un mayor desplazamiento lateral."
         }
       ]
@@ -62,7 +62,7 @@
                 {
                   "clase": "lista",
                   "subclase": "objetivos",
-                  "animacion": "jello",
+                  "animacion": "fadeInRight",
                   "contenido": [
                     {
                       "punto": "Como toda PEMP dispone de:",
@@ -91,7 +91,7 @@
       "contenido": [
         {
           "clase": "tabla",
-          "animacion": "rotateIn",
+          "animacion": "fadeInLeft",
           "subclase": "separada",
           "filaTitulos": [
             {
@@ -123,7 +123,8 @@
         {
           "clase": "lista",
           "subclase": "recuadro",
-          "animacion": "swing",
+          "opacidad": 0.8,
+          "animacion": "fadeInRight",
           "titulo": "Las PEMP de <b>brazo telescópico</b> son utilizadas, entre otros, por:",
           "contenido": [
             {
@@ -152,7 +153,7 @@
         {
           "clase": "texto",
           "subclase": "anillas",
-          "animacion": "rubberBand",
+          "animacion": "fadeInLeft",
           "texto": "Este tipo de plataformas se utilizan también para trabajos en zonas de <b>difícil acceso</b>. <br><br>Tienen una <b>estructura articulada</b> compuesta por dos brazos. Existe un gran número de máquinas que tienen un <b>pequeño brazo articulado</b> cercano a la cesta de trabajo con el nombre de <b>\"Jib\"</b>, y que permite salvar los últimos obstáculos en el área de trabajo, lo que las hace más versátiles.<br><br>Pueden estar alimentadas por <b>baterías</b>, con <b>motor diésel</b> o una <b>combinación de ambos</b> sistemas y disponer de <b>tracción integral</b>."
         }
       ]
@@ -209,7 +210,7 @@
         {
           "clase": "tabla",
           "subclase": "separada",
-          "animacion": "rotateIn",
+          "animacion": "fadeInLeft",
           "filaTitulos": [
             {
               "titulo": "<h2>VENTAJAS</h2>"
@@ -240,7 +241,8 @@
         {
           "clase": "lista",
           "subclase": "recuadro",
-          "animacion": "swing",
+          "opacidad": 0.8,
+          "animacion": "fadeInLeft",
           "titulo": "Se emplean en lugares donde el acceso al área de trabajo por una plataforma tipo tijera no va a ser posible debido a los <b>obstáculos que pueda encontrar justo debajo</b> del punto donde quiera acceder. Las <b>PEMP articuladas</b> son utilizadas, entre otros, por:",
           "contenido": [
             {
@@ -268,7 +270,7 @@
         {
           "clase": "texto",
           "texto": "Los principales riesgos asociados a un <b>fallo en el mantenimiento</b> o las <b>revisiones</b> del equipo son:",
-          "animacion": "rotateInDownLeft"
+          "animacion": "fadeInLeft"
         },
         {
           "clase": "acordeon",
@@ -385,7 +387,7 @@
           "clase": "lista",
           "subclase": "numeros",
           "titulo": "<h3>La máquina debe disponer de la siguiente señalización:</h3>",
-          "animacion": "bounceInRight",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "punto": "<b>Placa</b> de identificación."
@@ -465,17 +467,9 @@
           "subclase": "centroAncho",
           "contenido": [
             {
-              "clase": "imagen",
-              "subclase": "paraCambiar",
-              "imagen": "img/mod04/operario.png",
-              "ancho": 100,
-              "pie": "El mismo muñeco que la 3.12",
-              "animacion": "rotateInDownLeft"
-            },
-            {
               "clase": "lista",
               "subclase": "anillas vertical",
-              "animacion": "rotateInDownRight",
+              "animacion": "fadeInRight",
               "contenido": [
                 {
                   "punto": "Tener más de <b>18 años</b> de edad."
@@ -496,8 +490,8 @@
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "animacion": "tada",
-          "texto": "En cuanto a la formación e información, tal y como establece el artículo 5 del <a href='https://www.boe.es/boe/dias/1997/08/07/pdfs/A24063-24070.pdf' target='_blank'><b>Real Decreto 1215/1997</b></a>, por el que se establecen las <i>disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo</i>, esta formación e información ha de ser facilitada por el empresario conforme a lo dispuesto en los artículos 18 y 19 de la Ley 31/1995 de Prevención de Riesgos Laborales."
+          "animacion": "fadeInLeft",
+          "texto": "En cuanto a la formación e información, tal y como establece el artículo 5 del <a href='https://www.boe.es/boe/dias/1997/08/07/pdfs/A24063-24070.pdf' target='_blank' rel='noopener'>Real Decreto 1215/1997</a>, por el que se establecen las <i>disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo</i>, esta formación e información ha de ser facilitada por el empresario conforme a lo dispuesto en los artículos 18 y 19 de la Ley 31/1995 de Prevención de Riesgos Laborales."
         }
       ]
     },
@@ -508,8 +502,9 @@
         {
           "clase": "texto",
           "subclase": "recuadro",
+          "opacidad": 0.8,
           "animacion": "zoomIn",
-          "texto": "En el caso de que la PEMP de tijera esté provista del <b>marcado CE</b> y vaya acompañada de la correspondiente <b>declaración CE de conformidad</b>, se considera que la misma cumple los requisitos esenciales de seguridad y de salud que figuran en el anexo I del  <a href='https://www.boe.es/boe/dias/2008/10/11/pdfs/A40995-41030.pdf' target='_blank'><b>Real Decreto 1644/2008</b></a>, por el que se establecen las normas para la comercialización y puesta en servicio de las máquinas."
+          "texto": "En el caso de que la PEMP de tijera esté provista del <b>marcado CE</b> y vaya acompañada de la correspondiente <b>declaración CE de conformidad</b>, se considera que la misma cumple los requisitos esenciales de seguridad y de salud que figuran en el anexo I del  <a href='https://www.boe.es/boe/dias/2008/10/11/pdfs/A40995-41030.pdf' target='_blank' rel='noopener'>Real Decreto 1644/2008</a>, por el que se establecen las normas para la comercialización y puesta en servicio de las máquinas."
         }
       ]
     },
@@ -519,12 +514,12 @@
         {
           "clase": "texto",
           "texto": "A continuación, se muestra un listado de chequeo que pretende, de una forma sencilla, facilitar la verificación, in situ, del cumplimiento de los requisitos de seguridad y de salud:",
-          "animacion": "slideInRight"
+          "animacion": "fadeInLeft"
         },
         {
           "clase": "lista",
           "subclase": "anillas vertical",
-          "animacion": "rubberBand",
+          "animacion": "fadeInLeft",
           "contenido": [
             {
               "punto": "Dispone de su <b>manual de instrucciones en castellano."
@@ -571,7 +566,7 @@
         {
           "clase": "lista",
           "subclase": "anillas vertical",
-          "animacion": "rubberBand",
+          "animacion": "fadeInRight",
           "contenido": [
             {
               "punto": "Dispone de todos los <b>equipos y accesorios imprescindibles</b> para su <b>regulación, mantenimiento y utilización</b> de forma segura."
@@ -610,7 +605,7 @@
         {
           "clase": "lista",
           "subclase": "anillas vertical",
-          "animacion": "rubberBand",
+          "animacion": "fadeInLeft",
           "contenido": [
             {
               "punto": "Dispone de <b>limitador de radio</b>"
@@ -637,19 +632,19 @@
         },
         {
           "clase": "imagen",
-          "imagen": "img/mod04/tick.png",
+          "imagen": "img/mod04/0316.svg",
           "ancho": 200,
-          "animacion": "tada"
+          "animacion": "fadeInRight"
         }
       ]
     },
     {
-      "titulo": "Contenido del manual de instrucciones",
+      "titulo": "Manual de instrucciones",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Conforme a lo dispuesto en el antes mencionado Real Decreto 1644/2008, por el que se establecen las normas para la comercialización y puesta en servicio de las máquinas, la plataforma debe ir acompañada de un <b>manual de instrucciones</b> redactado, al menos, en <b>castellano</b>. Este manual tiene que contener, como mínimo, cuando proceda, la <b>siguiente información</b>:",
-          "animacion": "bounceInDown"
+          "texto": "Conforme al Real Decreto 1644/2008, que establece las normas para la comercialización y puesta en servicio de estas máquinas, la plataforma debe ir acompañada de un <b>manual de instrucciones</b> redactado al menos en <b>castellano</b> y conteniendo como mínimo, cuando proceda, la <b>siguiente información</b>:",
+          "animacion": "fadeInRight"
         },
         {
           "clase": "listaObjetos",
@@ -728,7 +723,7 @@
       ]
     },
     {
-      "titulo": "Guía básica de mantenimiento del equipo",
+      "titulo": "Mantenimiento del equipo",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -736,45 +731,42 @@
             {
               "clase": "texto",
               "subclase": "celo",
-              "animacion": "swing",
+              "animacion": "fadeInLeft",
               "texto": "Se debe garantizar el <b>mantenimiento adecuado</b> de la plataforma elevadora conforme a lo indicado por el <b>fabricante</b> en el <b>manual de instrucciones</b> de la máquina. En este sentido, las revisiones determinadas por el fabricante han de ser efectuadas por <b>personal especializado</b>. <br>En la imagen que ilustra este apartado, y a modo orientativo, se muestra una tabla que, sin ser vinculante, pretende ser una <b>guía básica de instrucciones de mantenimiento</b>."
             },
             {
               "clase": "imagen",
               "imagen": "img/mod04/revisionPEMP.png",
               "ancho": 600,
-              "animacion": "rotateIn"
+              "animacion": "fadeInRight"
             }
           ]
         }
       ]
     },
     {
-      "titulo": "El porqué y la obligación legal del uso de arnés en PEMP aérea de brazo",
+      "titulo": "Obligación del uso de arnés en PEMP aérea de brazo",
       "fondo": "img/mod04/fondoArnes.png",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "<a href='http://www.ipaf.org/es/' target='_blank'><b>IPAF</b></a> responde a esta cuestión de la siguiente manera: <br><br>La cesta posee un rodapié, barandilla intermedia y superior, lo que, en principio, no sería necesario el uso del arnés. Sin embargo, los fabricantes de plataformas incluyen en el manual del operador la obligatoriedad de enganchar el arnés a la cesta de la plataforma, porque se pueden producir situaciones (movimientos bruscos, choque contra estructuras, circulación por terrenos irregulares, etc.) que provoquen que el operario salga despedido fuera de la plataforma.<br><br><b><ins>Anexo II, punto 1, apartado 3 del R.D. 1215/1997</ins></b>: <i>“Los equipos de trabajo no deberán utilizarse de forma o en operaciones o en condiciones contraindicadas por el fabricante. Tampoco podrán utilizarse sin los elementos de protección previstos para la realización de la operación de que se trate. Los equipos de trabajo sólo podrán utilizarse de forma o en operaciones o en condiciones no consideradas por el fabricante si previamente se ha realizado una evaluación de los riesgos que ello conllevaría y se han tomado las medidas pertinentes para su eliminación o control</i>.”<br><br>Esto incluye a las PEMP de brazo, sean telescópicas, articuladas o un mix de ambas.",
+          "animacion": "fadeInRight",
+          "opacidad": 0.8,
+          "texto": "<a href='http://www.ipaf.org/es/' target='_blank' rel='noopener'>IPAF</a> responde a esta cuestión de la siguiente manera: <br><br>La cesta posee un rodapié, barandilla intermedia y superior, lo que, en principio, no sería necesario el uso del arnés. Sin embargo, los fabricantes de plataformas incluyen en el manual del operador la obligatoriedad de enganchar el arnés a la cesta de la plataforma, porque se pueden producir situaciones (movimientos bruscos, choque contra estructuras, circulación por terrenos irregulares, etc.) que provoquen que el operario salga despedido fuera de la plataforma.<br><br><b><ins>Anexo II, punto 1, apartado 3 del R.D. 1215/1997</ins></b>: <i>“Los equipos de trabajo no deberán utilizarse de forma o en operaciones o en condiciones contraindicadas por el fabricante. Tampoco podrán utilizarse sin los elementos de protección previstos para la realización de la operación de que se trate. Los equipos de trabajo sólo podrán utilizarse de forma o en operaciones o en condiciones no consideradas por el fabricante si previamente se ha realizado una evaluación de los riesgos que ello conllevaría y se han tomado las medidas pertinentes para su eliminación o control</i>.”<br><br>Esto incluye a las PEMP de brazo, sean telescópicas, articuladas o un mix de ambas.",
           "subclase": "recuadro"
         }
       ]
     },
     {
-      "titulo": "Resumen - Características de trabajo",
+      "titulo": "Resumen: Características de trabajo",
       "contenido": [
-        {
-          "clase": "texto",
-          "texto": "<b>Recuerda …</b>",
-          "animacion": "rotateInDownLeft"
-        },
         {
           "clase": "tabla",
           "subclase": "separada",
-          "animacion": "slideInUp",
+          "animacion": "fadeInLeft",
           "filaTitulos": [
             {
-              "titulo": "<h2>PEMP TELESCOPICA</h2>"
+              "titulo": "<h2>PEMP TELESCÓPICA</h2>"
             },
             {
               "titulo": "<h2>PEMP ARTICULADA</h2>"
@@ -796,15 +788,15 @@
       ]
     },
     {
-      "titulo": "Resumen - Principales trabajos que desempeñan",
+      "titulo": "Resumen: Principales trabajos que desempeñan",
       "contenido": [
         {
           "clase": "tabla",
           "subclase": "separada",
-          "animacion": "slideInUp",
+          "animacion": "fadeInRight",
           "filaTitulos": [
             {
-              "titulo": "<h2>PEMP TELESCOPICA</h2>"
+              "titulo": "<h2>PEMP TELESCÓPICA</h2>"
             },
             {
               "titulo": "<h2>PEMP ARTICULADA</h2>"

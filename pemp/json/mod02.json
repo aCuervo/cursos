@@ -45,7 +45,7 @@
         },
         {
           "clase": "texto",
-          "subclase": "instruccion",
+          "subclase": "recuadro",
           "texto": "“La PEMP es una máquina <b>móvil</b> destinada a desplazar personas hasta una posición de trabajo con una única posición de entrada y salida de la plataforma. <br><br>Está constituida como mínimo por una <b>plataforma</b> de trabajo con órganos de servicio, una <b>estructura</b> extensible y un <b>chasis</b>.<br><br> <b>Existen</b> plataformas sobre camión articuladas y telescópicas, autopropulsadas de tijera, autopropulsadas articuladas o telescópicas y plataformas remolcables entre otras.”",
 		  "animacion": "fadeInRight"
         },
@@ -198,17 +198,11 @@
                   ]
                 },
                 {
-                  "clase": "texto",
-                  "subclase": "izquierda",
-                  "texto": "<b>NOTA:</b> Los tipos 2 y 3 pueden estar combinados. "
+                  "clase": "icono",
+                  "subclase": "sabiasQue",
+                  "texto": "Los tipo 2 y 3 pueden estar combinados. "
                 }
               ]
-            },
-            {
-              "clase": "imagen",
-              "subclase": "paraCambiar rotarDch",
-              "animacion": "fadeInRight",
-              "imagen": "img/mod02/tiposPEMP.png"
             }
           ]
         }
@@ -616,9 +610,13 @@
             {
               "clase": "texto",
               "subclase": "anillas",
-              "texto": "En este capítulo te has acercado al conocimiento de las PEMP. Espero que te haya gustado. <br><br><b>A partir de ahora</b> veremos más detenidamente algunos de los <b>tipos de plataformas</b> que existen. <br><br>En el <b>siguiente capítulo</b> nos centraremos en las de tijera y mástil de las que en breve irás descubriendo sus peculiaridades y diferencias.<br><br>"
+              "texto": "En este capítulo te has acercado al conocimiento de las PEMP.<br><br><b>A partir de ahora</b> veremos más detenidamente algunos de los <b>tipos de plataformas</b> que existen. <br><br>En el <b>siguiente capítulo</b> nos centraremos en las de tijera y mástil de las que en breve irás descubriendo sus peculiaridades y diferencias."
             }
           ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/wikipemp.jpg"
         }
       ]
     },
