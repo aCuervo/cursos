@@ -1,2616 +1,499 @@
 ﻿{
-  "modulo": "I: INTRODUCING MYSELF",
+  "modulo": "I: INTRODUCCIÓN",
   "imagenEncabezado": "img/comunes/logo.svg",
   "contenido": [
     {
-      "titulo": "Cover",
+      "titulo": "Portada",
       "fondo": "img/comunes/portada.svg",
       "subclase": "portada"
     },
     {
-      "titulo": "Welcome",
-      "fondo": "img/comunes/towerB.jpg",
+      "titulo": "Conceptos básicos",
       "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Durante las últimas décadas se han intensificado las muestras de las consecuencias negativas del ser humano sobre el medio ambiente."
+        },
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
           "contenido": [
             {
               "clase": "texto",
+              "texto": "La contaminación del aire, el agua y el suelo, el cambio climático, la acumulación de residuos o la pérdida de la biodiversidad son algunos de los efectos más graves de nuestro modelo de producción y consumo.<br>La conservación y la protección del medio ambiente se presentan, por tanto, como una alternativa esencial para el mantenimiento de los recursos productivos, la consecución de un modelo económico más equitativo y la protección de la salud y el bienestar social. "
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/00.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Promover el desarrollo sostenible significa modificar y adaptar a nuevos modelos nuestro actual crecimiento, de tal manera que la sociedad europea de los próximos años verá cómo cambian sus formas de vida y de trabajo."
+        }
+      ]
+    },
+    {
+      "titulo": "Formación ambiental",
+      "contenido": [
+        {
+          "clase": "texto",
+          "animacion": "fadeInRight",
+          "texto": ""
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/01.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "La formación ambiental constituye una pieza clave para conseguir el objetivo de integración marcado por la Unión Europea de los criterios ambientales en las políticas sectoriales, ya que a través de la misma es posible, por un lado, alcanzar conciencia ambiental en el individuo que le permita un uso prudente y racional de los recursos naturales, modificando hábitos de comportamiento y de consumo y, por otro lado, conseguir un nivel de cualificación de los trabajadores que les permita competir en un mercado en constante evolución."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "animacion": "fadeInRight",
+          "texto": "Para evitar confusiones es fundamental conocer ciertos conceptos básicos, ya que todos ellos se encuentran íntimamente relacionados, referidos al medio ambiente."
+        }
+      ]
+    },
+    {
+      "titulo": "Ideas generales",
+      "fondo": "img/mod01/02.jpg",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
               "subclase": "recuadro",
               "opacidad": 0.8,
-              "texto": "<center><b>Welcome to English Basic Level Course!</b></center><br>Con este curso pretendemos que aprendas y desarrolles tus conocimientos de inglés, poco a poco y empezando desde el principio.<br>Hoy en día, saber inglés es una habilidad indispensable, ya que es el lenguaje universal y estudiarlo nos  ayudará a mejorar no sólo en nuestro puesto de trabajo, sino que también mejorará nuestras habilidades sociales y comunicativas.<br><br>El objetivo de este curso es que aprendas  las estructuras básicas gramaticales, vocabulario y expresiones que te ayuden a desenvolverte mejor en este idioma, siendo capaz de expresarte de manera sencilla y de hacer frente a situaciones nuevas que requieran el uso de esta lengua.<br><br>Esperamos que disfrutes aprendiendo. Enjoy!"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "THE PRONOUNS",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Los pronombres en inglés son los siguientes:"
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": ""
-                },
-                {
-                  "titulo": "SINGULAR",
-                  "colspan": 2
-                },
-                {
-                  "titulo": "PLURAL",
-                  "colspan": 2
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": ""
-                    },
-                    {
-                      "texto": "<b>English</b>"
-                    },
-                    {
-                      "texto": "<b>Español</b>"
-                    },
-                    {
-                      "texto": "<b>English</b>"
-                    },
-                    {
-                      "texto": "<b><center>Español</center></b>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b>1ª PERSONA</b>"
-                    },
-                    {
-                      "texto": "<center>I</center>"
-                    },
-                    {
-                      "texto": "<center>yo</center>"
-                    },
-                    {
-                      "texto": "<center>we</center>"
-                    },
-                    {
-                      "texto": "nosotros/as"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b>2ª PERSONA</b>"
-                    },
-                    {
-                      "texto": "<center>you</center>"
-                    },
-                    {
-                      "texto": "<center>tu</center>"
-                    },
-                    {
-                      "texto": "<center>you</center>"
-                    },
-                    {
-                      "texto": "vosotros/as"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b>3ª PERSONA</b>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center>he</center>"
-                    },
-                    {
-                      "texto": "<center>él</center>"
-                    },
-                    {
-                      "texto": "<center>they</center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center>ellos/as</center>",
-                      "rowspan": 3
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>she</center>"
-                    },
-                    {
-                      "texto": "<center>ella</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>it</center>"
-                    },
-                    {
-                      "texto": "<center>ello</center>"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "clase": "imagen",
-              "ancho": 256,
-              "imagen": "img/mod01/photo.jpg"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "About the pronouns",
-      "contenido": [
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "lista",
-              "contenido": [
-                {
-                  "punto": "El pronombre personal “I” (yo) <u>SIEMPRE</u> se escribe en mayúscula."
-                },
-                {
-                  "punto": "En inglés no existe un pronombre para tratarnos de “usted”, se utiliza siempre “you” (tú, vosotros/as y usted/es)."
-                },
-                {
-                  "punto": "En la tercera persona del singular tenemos un pronombre distinto para:",
-                  "contenido": [
-                    {
-                      "punto": "Él: <i>He is a boy.</i> (Él es un chico)."
-                    },
-                    {
-                      "punto": "Ella: <i>She is a girl.</i> (Ella es una chica)."
-                    },
-                    {
-                      "punto": "Ello lo utilizamos para referirnos a:",
-                      "contenido": [
-                        {
-                          "punto": "Cosas: <i>It is very nice (the house)</i> (Es muy bonita (la casa))."
-                        },
-                        {
-                          "punto": "Animales: si conocemos el sexo del animal podemos dirigirnos a el como “he” or “she” dependiendo de si es macho o hembra: <i>Look! It’s eating my cheese! (a mouse)</i> (¡Mira, se está comiendo mi queso! (un ratón))."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "punto": "Para la tercera persona del plural siempre utilizamos “they”:",
-                  "contenido": [
-                    {
-                      "punto": "<i>They are boys.</i> (Ellos son chicos.)"
-                    },
-                    {
-                      "punto": "<i>They are girls.</i> (Ellas son chicas.)"
-                    },
-                    {
-                      "punto": "<i>They (the houses) are comfortable.</i> (Ellas (las casas) son cómodas.)"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "clase": "imagen",
-              "ancho": 256,
-              "imagen": "img/mod01/cabin.png"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Activity: Pronouns",
-      "contenido": [
-        {
-          "clase": "texto",
-          "subclase": "instruccion",
-          "texto": "Choose the correct pronoun in each sentence."
-        },
-        {
-          "clase": "autoevalPreguntas",
-          "preguntas": [
-            {
-              "texto": "",
-              "id": "1",
-              "respuestas": [
-                {
-                  "opcion": "Hello, I want an ice cream please.",
-                  "correcto": true
-                },
-                {
-                  "opcion": "Hello, i want an ice cream please.",
-                  "correcto": false
-                }
-              ]
-            },
-            {
-              "texto": "",
-              "id": "2",
-              "respuestas": [
-                {
-                  "opcion": "He is a beautiful woman.",
-                  "correcto": false
-                },
-                {
-                  "opcion": "She is a beautiful woman.",
-                  "correcto": true
-                },
-                {
-                  "opcion": "It is a beautiful woman.",
-                  "correcto": false
-                }
-              ]
-            },
-            {
-              "texto": "",
-              "id": "3",
-              "respuestas": [
-                {
-                  "opcion": "I have five brothers, you are a big family.",
-                  "correcto": false
-                },
-                {
-                  "opcion": "I have five brothers, we are a big family.",
-                  "correcto": true
-                },
-                {
-                  "opcion": "I have five brothers, they are a big family.",
-                  "correcto": false
-                }
-              ]
-            },
-            {
-              "texto": "",
-              "id": "4",
-              "respuestas": [
-                {
-                  "opcion": "I like this bird, she sings very well.",
-                  "correcto": false
-                },
-                {
-                  "opcion": "I like this bird, it sings very well.",
-                  "correcto": true
-                },
-                {
-                  "opcion": "I like this bird, he sings very well.",
-                  "correcto": false
-                }
-              ]
-            },
-            {
-              "texto": "",
-              "id": "5",
-              "respuestas": [
-                {
-                  "opcion": "My friends live in France, you live in another country.",
-                  "correcto": true
-                },
-                {
-                  "opcion": "My friends live in France, we live in another country.",
-                  "correcto": true
-                },
-                {
-                  "opcion": "My friends live in France, they live in another country.",
-                  "correcto": true
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "THE VERB TO BE",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "El verbo “to be” es uno de los verbos más importantes en inglés, ya que cumple varias funciones: es un verbo que significa “ser o estar”, más adelante veremos que funciona como verbo auxiliar y además tiene ciertas peculiaridades en su uso y escritura.<br><br>Vamos a ver sus distintas formas, ya que se conjuga de manera diferente al resto de los verbos regulares en inglés:"
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "<center>PRONOUN</center>"
-                },
-                {
-                  "titulo": "<center>VERB</center>"
-                },
-                {
-                  "titulo": "<center>ESPAÑOL</center>",
-                  "colspan": 2
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>I</b></center>"
-                    },
-                    {
-                      "texto": "<center><b>am</b></center>"
-                    },
-                    {
-                      "texto": "<center>Yo soy</center>"
-                    },
-                    {
-                      "texto": "<center>Yo estoy</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>you</b></center>"
-                    },
-                    {
-                      "texto": "<center><b>are</b></center>"
-                    },
-                    {
-                      "texto": "<center>tú eres</center>"
-                    },
-                    {
-                      "texto": "<center>tú estás</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b><center>he</center></b>"
-                    },
-                    {
-                      "texto": "<center><b>is</b></center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center>él es</center>"
-                    },
-                    {
-                      "texto": "<center>él está</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b><center>she</center></b>"
-                    },
-                    {
-                      "texto": "<center>ella es</center>"
-                    },
-                    {
-                      "texto": "<center>ella está</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b><center>it</center></b>"
-                    },
-                    {
-                      "texto": "<center>ello es</center>"
-                    },
-                    {
-                      "texto": "<center>ello está</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b><center>we</center></b>"
-                    },
-                    {
-                      "texto": "<center><b>are</b></center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center>nosotros/as somos</center>"
-                    },
-                    {
-                      "texto": "<center>nosotros/as estamos</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b><center>you</center></b>"
-                    },
-                    {
-                      "texto": "<center>vosotros/as sois</center>"
-                    },
-                    {
-                      "texto": "<center>vosotros/as estais</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b><center>they</center></b>"
-                    },
-                    {
-                      "texto": "<center>ellos/as son</center>"
-                    },
-                    {
-                      "texto": "<center>ellos/as están</center>"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "clase": "icono",
-              "subclase": "sabiasQue",
-              "texto": "Shakespeare inmortalizó este verbo en su obra “Hamlet”:<br><br>“To be or not to be, that is the question.”",
-              "imagen": "img/mod01/skull.png",
-              "ancho": 100
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "Como podemos observar, el infinitivo “to be” no vuelve a aparecer, esto solamente ocurre con este verbo."
-        }
-      ]
-    },
-    {
-      "titulo": "Contracted form",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "El verbo “to be” puede contraerse para abreviar a la hora de escribirlo y decirlo de la siguiente manera:"
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "listaObjetos",
-              "subclase": "columna",
-              "contenido": [
-
-                {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "<center><b>FORMA CONTRAÍDA</b></center>",
-                      "colspan": 2
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>I am</center>"
-                        },
-                        {
-                          "texto": "<center><b>I'm</b></center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>You are</center>"
-                        },
-                        {
-                          "texto": "<center><b>You're</b></center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>He is</center>"
-                        },
-                        {
-                          "texto": "<center><b>He's</b></center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>She is</center>"
-                        },
-                        {
-                          "texto": "<center><b>She's</b></center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>It is</center>"
-                        },
-                        {
-                          "texto": "<center><b>It's</b></center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>We are</center>"
-                        },
-                        {
-                          "texto": "<center><b>We're</b></center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>You are</center>"
-                        },
-                        {
-                          "texto": "<center><b>You're</b></center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>They are</center>"
-                        },
-                        {
-                          "texto": "<center><b>They're</b></center>"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "El significado continúa siendo el mismo y podemos utilizar tanto la forma completa como la forma abreviada de manera indistinta. Por otro lado, la forma completa es considerada más formal y es aconsejable utilizarla en determinadas ocasiones (p.e: al escribir un e-mail o una carta a alguien que no conocemos, en documentos de trabajo...)."
-        }
-      ]
-    },
-    {
-      "titulo": "Examples",
-      "contenido": [
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "<center>Examples with the verb to be</center>",
-                  "colspan": 2
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<b>I am Jessica.</b>"
-                    },
-                    {
-                      "texto": "Yo soy Jessica."
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b>I’m pretty.</b>"
-                    },
-                    {
-                      "texto": "Yo soy guapa."
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b>You are kind.</b>"
-                    },
-                    {
-                      "texto": "Tú eres amable."
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b>He’s my father.</b>"
-                    },
-                    {
-                      "texto": "Él es mi padre."
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b>She is a teacher.</b>"
-                    },
-                    {
-                      "texto": "Ella es profesora."
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b>We are English.</b>"
-                    },
-                    {
-                      "texto": "Nosotros somos ingleses."
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b>They’re students.</b>"
-                    },
-                    {
-                      "texto": "Ellos son estudiantes."
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b>I am very well.</b>"
-                    },
-                    {
-                      "texto": "Yo estoy muy bien."
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b>You’re happy.</b>"
-                    },
-                    {
-                      "texto": "Tú estás feliz."
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b>He’s in Rome.</b>"
-                    },
-                    {
-                      "texto": "Él está en Roma."
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b>My brother and I are sad.</b>"
-                    },
-                    {
-                      "texto": "Mi hermano y yo estamos tristes."
-                    }
-                  ]
-                }
-              ]
+              "texto": "Aunque se tiene una idea, más o menos formada, de lo que es el medio ambiente, no es tan fácil definirlo. Existen muchas definiciones de medio ambiente, que varían según el punto de vista utilizado o del organismo que proporciona la definición, de tal forma que bajo un enfoque económico o de producción el medio ambiente es una fuente de recursos, o un soporte de actividades productivas, o  un lugar donde depositar los desechos..."
             },
             {
               "clase": "texto",
               "subclase": "recuadro",
-              "texto": "La estructura de las frases afirmativas en inglés es:<br><center>SUJETO + VERBO + COMPLEMENTO</center>"
+              "opacidad": 0.8,
+              "texto": "Desde el punto de vista administrativo, el medio ambiente es un sistema formado por el ser humano, la fauna, la flora, el suelo, el aire, el clima, el paisaje, los bienes materiales, el patrimonio cultural y las interacciones de todos estos factores. Desde el punto de vista de la ecología es la suma de factores físicos, químicos y biológicos que actúan sobre un individuo, una población o una comunidad."
             }
           ]
         }
       ]
     },
     {
-      "titulo": "Peculiarities",
+      "titulo": "Medioambiente",
+      "fondo": "img/mod01/03.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Según la Conferencia de las Naciones Unidas (Estocolmo, 1972) el medio ambiente es el conjunto de componentes físicos, químicos, biológicos y sociales capaces de causar efectos directos o indirectos, en un plazo corto o largo, sobre los seres vivos y las actividades humanas."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Según esto, el medio ambiente se define como el compendio de valores naturales, sociales y culturales existentes en un lugar y un momento determinado, que influyen en el aspecto económico y social del ser humano y en el futuro de generaciones venideras. Es decir, no se trata sólo del espacio en el que se desarrolla la vida de los seres vivos, sino que abarca además a seres humanos, animales, plantas, objetos, agua, suelo, aire y las relaciones entre ellos, así como elementos tan intangibles como algunas de la cultura.<br>No obstante, aquí vamos a referirnos al componente “natural” del medio ambiente por lo que es importante comprender el concepto de ecología."
+        }
+      ]
+    },
+    {
+      "titulo": "Ecología",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "El término ecología lo crea, en 1869, el biólogo alemán Erns Haeckel, considerado el fundador de su estudio, a partir de las palabra griegas oikos (hogar, vivienda) y logos (estudio), por lo que su significado literal sería “estudio del hogar”, entendiendo hogar como el entorno o hábitat en el que los seres vivos se desarrollan."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Inicialmente la ecología estudiaba las relaciones de los seres vivos con el medio en que viven, pero más tarde se amplió la definición incluyendo el estudio de las características del medio, incluyendo también el transporte y transformación de la energía y la materia por parte de los seres vivos.<br>Por tanto, la ecología es la parte de la Biología que estudia los seres vivos como habitantes de un medio en el que viven y las relaciones que mantienen entre ellos y con el propio medio."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/04.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Ese medio o espacio físico que permite el desarrollo de alguna forma de vida recibe el nombre de hábitat y está compuesto por factores abióticos (componentes del medio físico y sus características: por ejemplo el suelo, el agua, la luz, la temperatura, el clima, el relieve, nutrientes...)."
+        }
+      ]
+    },
+    {
+      "titulo": "Biotopo",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Suele emplearse el concepto de biotopo para considerar todo el conjunto de factores abióticos de un área. El biotopo presenta tres dimensiones que son el medio, el sustrato y los factores ambientales:"
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "El medio",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "Es lo que envuelve a los organismos. Hay tres medios:",
+                  "contenido": [
+                    {
+                      "punto": "Terrestre"
+                    },
+                    {
+                      "punto": "Acuático"
+                    },
+                    {
+                      "punto": "Aéreo"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "El sustrato",
+              "texto": "Es el elemento sobre el cual se ubican los seres vivos (el agua, una roca, el cuerpo de otro ser vivo...)."
+            },
+            {
+              "titulo": "Factores ambientales",
+              "texto": "Hacen referencia a las características físico-químicas del medio ambiente (temperatura, luz, humedad, nutrientes, salinidad...). "
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Los componentes del biotopo influyen sobre los seres vivos provocando una serie de cambios en la forma, comportamiento y funcionamiento que se denominan adaptaciones. Las variaciones de estos factores han ocurrido muy lentamente a lo largo de millones de años, ocasionando la aparición de especies nuevas y la desaparición de aquellas que no se adaptaron. Este ritmo tan lento contrasta con el de las variaciones que se están produciendo como consecuencia de las actividades humanas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Factores abióticos",
+      "fondo": "img/mod01/05.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Los factores abióticos condicionan la distribución de los seres vivos (factores bióticos), influyendo sobre ellos y sobre su adaptación al medio. Existen unos límites de tolerancia para cada especie que actúan como factores limitantes para su supervivencia, no siendo posible la existencia si se sobrepasan tales márgenes (fíjate en la imagen del Morning Glory, en el Parque Yellowstone, dónde empiezan a desarrollarse las formas vegetales)."
+        }
+      ]
+    },
+    {
+      "titulo": "Factores bióticos",
       "contenido": [
         {
           "clase": "lista",
-          "titulo": "<b>PECULIARIDADES</b>",
+          "titulo": "Los factores bióticos son todos los organismos vivos así como las interacciones que se dan entre ellos. Los factores bióticos pueden dividirse en tres tipos:",
           "contenido": [
             {
-              "punto": "En ocasiones, utilizamos el verbo “to be” para referirnos a estados o sensaciones, en este caso el verbo “to be” equivaldría a “tener”. Por ejemplo:",
-              "contenido": [
-                {
-                  "punto": "I am hungry. (Tengo hambre.)"
-                },
-                {
-                  "punto": "I am thirsty. (Tengo sed.)"
-                },
-                {
-                  "punto": "I am cold. (Tengo frío.)"
-                },
-                {
-                  "punto": "I am hot. (Tengo calor.)"
-                }
-              ]
+              "punto": "Individuo:<br>Es una unidad independiente que pertenece a una especie.<br>Por ejemplo: una trucha en un río."
             },
             {
-              "punto": "En ocasiones, utilizamos el verbo “to be” para referirnos a estados o sensaciones, en este caso el verbo “to be” equivaldría a “tener”. Por ejemplo:",
-              "contenido": [
-                {
-                  "punto": "I am forty. (Tengo cuarenta años.)"
-                },
-                {
-                  "punto": "Peter is seven years old. (Peter tiene siete años.)"
-                }
-              ]
+              "punto": "Población:<br>Es la agrupación de varios individuos de la misma especie que habita en un lugar y en un momento determinado.<br>Por ejemplo: una población de truchas en un río."
             },
             {
-              "punto": "Utilizamos el verbo “to be” para expresiones como “hace calor” o “hace frío”:",
-              "contenido": [
-                {
-                  "punto": "It is cold. (Hace frío.)"
-                },
-                {
-                  "punto": "It is hot. (Hace calor.)"
-                },
-                {
-                  "punto": "It is warm and sunny. (Hace calor y está soleado.)"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "icono",
-          "subclase": "exclamacion",
-          "texto": "Jamás diremos “I am forty years”. Las formas correctas son: “ I am forty” o “I am forty years old”."
-        }
-      ]
-    },
-    {
-      "titulo": "Activity: To be",
-      "contenido": [
-        {
-          "clase": "texto",
-          "subclase": "instruccion",
-          "texto": "Choose between “am”, “is” or “are”."
-        },
-        {
-          "clase": "autoevalPreguntas",
-          "preguntas": [
-            {
-              "texto": "She ... rich.",
-              "id": "1",
-              "respuestas": [
-                {
-                  "opcion": "am",
-                  "correcto": false
-                },
-                {
-                  "opcion": "is",
-                  "correcto": true
-                },
-                {
-                  "opcion": "are",
-                  "correcto": false
-                }
-              ]
-            },
-            {
-              "texto": "My friend and I ... good football players.",
-              "id": "2",
-              "respuestas": [
-                {
-                  "opcion": "am",
-                  "correcto": false
-                },
-                {
-                  "opcion": "is",
-                  "correcto": false
-                },
-                {
-                  "opcion": "are",
-                  "correcto": true
-                }
-              ]
-            },
-            {
-              "texto": "I ... twenty-five years old.",
-              "id": "3",
-              "respuestas": [
-                {
-                  "opcion": "am",
-                  "correcto": true
-                },
-                {
-                  "opcion": "is",
-                  "correcto": false
-                },
-                {
-                  "opcion": "are",
-                  "correcto": false
-                }
-              ]
-            },
-            {
-              "texto": "The window ... broken.",
-              "id": "4",
-              "respuestas": [
-                {
-                  "opcion": "am",
-                  "correcto": false
-                },
-                {
-                  "opcion": "is",
-                  "correcto": true
-                },
-                {
-                  "opcion": "are",
-                  "correcto": false
-                }
-              ]
-            },
-            {
-              "texto": "These bags ... heavy.",
-              "id": "5",
-              "respuestas": [
-                {
-                  "opcion": "am",
-                  "correcto": false
-                },
-                {
-                  "opcion": "is",
-                  "correcto": false
-                },
-                {
-                  "opcion": "are",
-                  "correcto": true
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Negative form",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Ahora vamos a ver como se construyen oraciones de forma negativa con el verbo “to be”. Lo utilizamos cuando queremos expresar que algo “no es” o “no está”.<br><br>¡Es muy sencillo!. En español para convertir una frase en negativa simplemente añadimos “no”, en inglés añadiremos “not” de la siguiente manera:"
-        },
-
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "<center>PRONOUN</center>"
-                },
-                {
-                  "titulo": "<center>NEGATIVE FORM</center>",
-                  "colspan": 2
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>I</b></center>"
-                    },
-                    {
-                      "texto": "<center>am not</center>"
-                    },
-                    {
-                      "texto": "<center>'m not</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>you</b></center>"
-                    },
-                    {
-                      "texto": "<center>are not</center>"
-                    },
-                    {
-                      "texto": "<center>aren't</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b><center>he</center></b>"
-                    },
-                    {
-                      "texto": "<center>is not</center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center>isn't</center>",
-                      "rowspan": 3
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b><center>she</center></b>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b><center>it</center></b>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b><center>we</center></b>"
-                    },
-                    {
-                      "texto": "<center>are not</center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center>aren't</center>",
-                      "rowspan": 3
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b><center>you</center></b>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<b><center>they</center></b>"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "clase": "acordeon",
-              "contenido": [
-                {
-                  "titulo": "<center>Examples</center>",
-                  "contenido": [
-                    {
-                      "clase": "tabla",
-                      "filaTitulos": [
-                        {
-                          "titulo": "<center>Afirmación</center>"
-                        },
-                        {
-                          "titulo": "<center>Negación</center>"
-                        }
-                      ],
-                      "filaContenido": [
-                        {
-                          "fila": [
-                            {
-                              "texto": "I am a cook.<br><i>Soy cocinero.</i>"
-                            },
-                            {
-                              "texto": "I am not a cook.<br><i>No soy cocinero.</i>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "Tom is interested in basketball.<br><i>Tom está interesado en el baloncesto.</i>"
-                            },
-                            {
-                              "texto": "Tom isn't interested in basketball.<br><i>Tom no está interesado en el baloncesto.</i>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "My friend and my sister are tired.<br><i>Mi amigo y mi hermana están cansados.</i>"
-                            },
-                            {
-                              "texto": "My friend and my sister are not tired.<br><i>Mi amigo y mi hermana no están cansados</i>"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Question form",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Para hacer preguntas en inglés, lo primero que tenemos que tener en cuenta es que el orden se ve alterado. Mientras que cuando afirmamos o negamos algo (You are tall/ You are not tall) la estructura es sujeto + verbo + complemento, en la forma interrogativa o “question form” el verbo se coloca delante del sujeto. De esta manera:"
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "listaObjetos",
-              "subclase": "columna",
-              "contenido": [
-                {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "<center>VERB</center>"
-                    },
-                    {
-                      "titulo": "<center>PRONOUN</center>"
-                    },
-                    {
-                      "titulo": "<center>COMPLEMENT</center>"
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>am</center>"
-                        },
-                        {
-                          "texto": "<center>I</center>"
-                        },
-                        {
-                          "texto": "<center>tall?</center>",
-                          "rowspan": 8
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>are</center>"
-                        },
-                        {
-                          "texto": "<center>you</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>is</center>",
-                          "rowspan": 3
-                        },
-                        {
-                          "texto": "<center>he</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>she</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>it</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>are</center>",
-                          "rowspan": 3
-                        },
-                        {
-                          "texto": "<center>we</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>you</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>they</center>"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "clase": "texto",
-                  "subclase": "recuadro",
-                  "texto": "En inglés sólo se coloca un signo de interrogación (question mark, “?”) al final de la pregunta."
-                }
-              ]
-            },
-            {
-              "clase": "listaObjetos",
-              "subclase": "columna",
-              "contenido": [
-                {
-                  "clase": "acordeon",
-                  "contenido": [
-                    {
-                      "titulo": "Examples",
-                      "contenido": [
-                        {
-                          "clase": "tabla",
-                          "filaTitulos": [
-                            {
-                              "titulo": "<center>Affirmation</center>"
-                            },
-                            {
-                              "titulo": "<center>Question</center>"
-                            },
-                            {
-                              "titulo": "<center>Answer</center>"
-                            }
-                          ],
-                          "filaContenido": [
-                            {
-                              "fila": [
-                                {
-                                  "texto": "He is married.<br><i>Él está casado.</i>"
-                                },
-                                {
-                                  "texto": "Is he married?<br><i>¿Está casado?</i>"
-                                },
-                                {
-                                  "texto": "Yes, he is.<br><i>Sí, lo está.</i>"
-                                }
-                              ]
-                            },
-                            {
-                              "fila": [
-                                {
-                                  "texto": "You are happy.<br><i>Tú estás feliz.</i>"
-                                },
-                                {
-                                  "texto": "Are you happy?<br><i>¿Estás feliz?</i>"
-                                },
-                                {
-                                  "texto": "Yes, I am.<br><i>Sí, lo estoy.</i>"
-                                }
-                              ]
-                            },
-                            {
-                              "fila": [
-                                {
-                                  "texto": "They are late.<br><i>Ellos llegan tarde.</i>"
-                                },
-                                {
-                                  "texto": "Are they late?<br><i>¿Llegan tarde?</i>"
-                                },
-                                {
-                                  "texto": "Yes, they are.<br><i>Sí, llegan tarde.</i>"
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "clase": "icono",
-                  "subclase": "exclamacion",
-                  "texto": "Para contestar a esta clase de preguntas, en inglés no podemos contestar con un simple “yes” or “no”, debemos <b>añadir la forma del verbo “to be” correspondiente</b>."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "ADJECTIVES",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "En esta primera parte aprenderemos adjetivos para describir características físicas de las personas y de algunos objetos. Por ejemplo: “I am tall” (Yo soy alto) o “The bed is comfortable” (La cama es cómoda).<br><br>Lo primero que debemos recordar es que los adjetivos en inglés no tienen género, es decir, mientras que en español los adjetivos tienen género masculino y femenino, en inglés la palabra no varía. Por ejemplo, “The boy is short” and “The girl is short”. En el primer ejemplo decimos “el chico es bajo” y en el segundo “la chica es baja”. Como podemos ver, “short” no varía independientemente del género.<br>Los adjetivos tampoco varían si hablamos en plural o en singular, es decir, independientemente de si nos referimos a una o varias personas o cosas, el adjetivo seguirá igual. Ejemplo: “The boy is young” (El chico es joven) y “the boys are young” (Los chicos son jóvenes)."
-        },
-        {
-          "clase": "tabla",
-          "filaTitulos": [
-            {
-              "titulo": "<center>EXAMPLES</center>",
-              "colspan": 2
-            }
-          ],
-          "filaContenido": [
-            {
-              "fila": [
-                {
-                  "texto": "My mother is excited."
-                },
-                {
-                  "texto": "<i>Mi madre está emocionada</i>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "The boys are polite."
-                },
-                {
-                  "texto": "<i>Los chicos son educados.</i>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "The girl is slim."
-                },
-                {
-                  "texto": "<i>La chica es delgada.</i>"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "acordeon",
-          "contenido": [
-            {
-              "titulo": "CARACTERÍSTICAS FÍSICAS",
-              "contenido": [
-                {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "<center>ENGLISH</center>"
-                    },
-                    {
-                      "titulo": "<center>SPANISH</center>"
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>TALL</b></center>"
-                        },
-                        {
-                          "texto": "<center>ALTO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>SHORT</b></center>"
-                        },
-                        {
-                          "texto": "<center>BAJO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>MEDIUM HEIGHT</b></center>"
-                        },
-                        {
-                          "texto": "<center>DE ALTURA MEDIA</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>SLIM</b></center>"
-                        },
-                        {
-                          "texto": "<center>DELGADO/A (más educado que thin)</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>THIN</b></center>"
-                        },
-                        {
-                          "texto": "<center>DELGADO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>FAT</b></center>"
-                        },
-                        {
-                          "texto": "<center>GORDO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>GOOD LOOKING</b></center>"
-                        },
-                        {
-                          "texto": "<center>GUAPO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>BEAUTIFUL</b></center>"
-                        },
-                        {
-                          "texto": "<center>BELLO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>PRETTY</b></center>"
-                        },
-                        {
-                          "texto": "<center>GUAPA (para chicas)</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>HANDSOME</b></center>"
-                        },
-                        {
-                          "texto": "<center>GUAPO (para chicos)</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>OLD</b></center>"
-                        },
-                        {
-                          "texto": "<center>VIEJO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>YOUNG</b></center>"
-                        },
-                        {
-                          "texto": "<center>JOVEN</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>MIDDLE-AGE</b></center>"
-                        },
-                        {
-                          "texto": "<center>DE MEDIANA EDAD</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>UGLY</b></center>"
-                        },
-                        {
-                          "texto": "<center>FEO/A</center>"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "titulo": "CARÁCTER",
-              "contenido": [
-                {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "<center>ENGLISH</center>"
-                    },
-                    {
-                      "titulo": "<center>SPANISH</center>"
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>SENSITIVE</b></center>"
-                        },
-                        {
-                          "texto": "<center>SENSIBLE</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>SENSIBLE</b></center>"
-                        },
-                        {
-                          "texto": "<center>SENSATO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>CALM</b></center>"
-                        },
-                        {
-                          "texto": "<center>TRANQUILO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>CHEERFUL</b></center>"
-                        },
-                        {
-                          "texto": "<center>ALEGRE</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>KIND</b></center>"
-                        },
-                        {
-                          "texto": "<center>AMABLE</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>CRAZY</b></center>"
-                        },
-                        {
-                          "texto": "<center>LOCO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>SERIOUS</b></center>"
-                        },
-                        {
-                          "texto": "<center>SERIO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>HONEST</b></center>"
-                        },
-                        {
-                          "texto": "<center>HONESTO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>LAZY</b></center>"
-                        },
-                        {
-                          "texto": "<center>VAGO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>INTELLIGENT</b></center>"
-                        },
-                        {
-                          "texto": "<center>INTELIGENTE</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>HAPPY</b></center>"
-                        },
-                        {
-                          "texto": "<center>FELIZ</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>SHY</b></center>"
-                        },
-                        {
-                          "texto": "<center>TÍMIDO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>STUPID</b></center>"
-                        },
-                        {
-                          "texto": "<center>ESTÚPIDO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>POLITE</b></center>"
-                        },
-                        {
-                          "texto": "<center>EDUCADO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>IMPOLITE</b></center>"
-                        },
-                        {
-                          "texto": "<center>MALEDUCADO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>FUNNY</b></center>"
-                        },
-                        {
-                          "texto": "<center>GRACIOSO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>FRIENDLY</b></center>"
-                        },
-                        {
-                          "texto": "<center>AMIGABLE</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>UNFRIENDLY</b></center>"
-                        },
-                        {
-                          "texto": "<center>ANTIPÁTICO/A (no amigable)</center>"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "titulo": "SENTIMIENTOS",
-              "contenido": [
-                {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "<center>ENGLISH</center>"
-                    },
-                    {
-                      "titulo": "<center>SPANISH</center>"
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>HAPPY</b></center>"
-                        },
-                        {
-                          "texto": "<center>FELIZ</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>SAD</b></center>"
-                        },
-                        {
-                          "texto": "<center>TRISTE</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>EXCITED</b></center>"
-                        },
-                        {
-                          "texto": "<center>EXCITADO/A EMOCIONADO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>BORED</b></center>"
-                        },
-                        {
-                          "texto": "<center>ABURRIDO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>SURPRISED</b></center>"
-                        },
-                        {
-                          "texto": "<center>SORPRENDIDO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>QUIET</b></center>"
-                        },
-                        {
-                          "texto": "<center>TRANQUILO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>STRESSED</b></center>"
-                        },
-                        {
-                          "texto": "<center>ESTRESADO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>TIRED</b></center>"
-                        },
-                        {
-                          "texto": "<center>CANSADO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>UPSET</b></center>"
-                        },
-                        {
-                          "texto": "<center>DISGUSTADO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>COLD</b></center>"
-                        },
-                        {
-                          "texto": "<center>FRÍO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>HOT</b></center>"
-                        },
-                        {
-                          "texto": "<center>CALIENTE</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>THIRSTY</b></center>"
-                        },
-                        {
-                          "texto": "<center>SEDIENTO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>HUNGRY</b></center>"
-                        },
-                        {
-                          "texto": "<center>HAMBRIENTO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>WELL</b></center>"
-                        },
-                        {
-                          "texto": "<center>BIEN</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>ILL</b></center>"
-                        },
-                        {
-                          "texto": "<center>ENFERMO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>ANGRY</b></center>"
-                        },
-                        {
-                          "texto": "<center>ENFADADO/A</center>"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "titulo": "OBJETOS/COSAS",
-              "contenido": [
-                {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "<center>ENGLISH</center>"
-                    },
-                    {
-                      "titulo": "<center>SPANISH</center>"
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>BIG</b></center>"
-                        },
-                        {
-                          "texto": "<center>GRANDE</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>SMALL</b></center>"
-                        },
-                        {
-                          "texto": "<center>PEQUEÑO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>OLD</b></center>"
-                        },
-                        {
-                          "texto": "<center>VIEJO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>NEW</b></center>"
-                        },
-                        {
-                          "texto": "<center>NUEVO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>PRETTY</b></center>"
-                        },
-                        {
-                          "texto": "<center>BONITO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>UGLY</b></center>"
-                        },
-                        {
-                          "texto": "<center>FEO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>CHEAP</b></center>"
-                        },
-                        {
-                          "texto": "<center>BARATO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>EXPENSIVE</b></center>"
-                        },
-                        {
-                          "texto": "<center>CARO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>COMFORTABLE</b></center>"
-                        },
-                        {
-                          "texto": "<center>CÓMODO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>UNCOMFORTABLE</b></center>"
-                        },
-                        {
-                          "texto": "<center>INCÓMODO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>CLEAN</b></center>"
-                        },
-                        {
-                          "texto": "<center>LIMPIO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>DIRTY</b></center>"
-                        },
-                        {
-                          "texto": "<center>SUCIO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>OPEN</b></center>"
-                        },
-                        {
-                          "texto": "<center>ABIERTO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>CLOSE</b></center>"
-                        },
-                        {
-                          "texto": "<center>CERRADO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>INTERESTING</b></center>"
-                        },
-                        {
-                          "texto": "<center>INTERESANTE</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>BORING</b></center>"
-                        },
-                        {
-                          "texto": "<center>ABURRIDO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>GOOD</b></center>"
-                        },
-                        {
-                          "texto": "<center>BUENO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>BAD</b></center>"
-                        },
-                        {
-                          "texto": "<center>MALO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>SHORT</b></center>"
-                        },
-                        {
-                          "texto": "<center>CORTO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>LONG</b></center>"
-                        },
-                        {
-                          "texto": "<center>LARGO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>COLD</b></center>"
-                        },
-                        {
-                          "texto": "<center>FRÍO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>HOT</b></center>"
-                        },
-                        {
-                          "texto": "<center>CALIENTE</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>EASY</b></center>"
-                        },
-                        {
-                          "texto": "<center>FÁCIL</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>DIFFICULT</b></center>"
-                        },
-                        {
-                          "texto": "<center>DIFÍCIL</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>TIDY</b></center>"
-                        },
-                        {
-                          "texto": "<center>ORDENADO/A</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>UNTIDY</b></center>"
-                        },
-                        {
-                          "texto": "<center>DESORDENADO/A</center>"
-                        }
-                      ]
-                    }
-
-
-                  ]
-                }
-              ]
-            },
-            {
-              "titulo": "COLORES",
-              "contenido": [
-                {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "<center>ENGLISH</center>"
-                    },
-                    {
-                      "titulo": "<center>SPANISH</center>"
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>BLACK</b></center>"
-                        },
-                        {
-                          "texto": "<center>NEGRO</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>BLUE</b></center>"
-                        },
-                        {
-                          "texto": "<center>AZUL</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>BROWN</b></center>"
-                        },
-                        {
-                          "texto": "<center>MARRÓN</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>GREEN</b></center>"
-                        },
-                        {
-                          "texto": "<center>VERDE</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>GREY</b></center>"
-                        },
-                        {
-                          "texto": "<center>GRIS</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>ORANGE</b></center>"
-                        },
-                        {
-                          "texto": "<center>NARANJA</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>PINK</b></center>"
-                        },
-                        {
-                          "texto": "<center>ROSA</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>PURPLE</b></center>"
-                        },
-                        {
-                          "texto": "<center>PÚRPURA</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>RED</b></center>"
-                        },
-                        {
-                          "texto": "<center>ROJO</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>WHITE</b></center>"
-                        },
-                        {
-                          "texto": "<center>BLANCO</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>YELLOW</b></center>"
-                        },
-                        {
-                          "texto": "<center>AMARILLO</center>"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "INTRODUCING YOURSELF",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "En esta unidad vamos a aprender vocabulario y algunos trucos para saber cómo actuar cuando conozcamos a alguien por primera vez.<br><br>Comencemos con un ejemplo de una conversación ficticia en la que dos personas, John y Mary, se conocen por primera vez y se presentan. Lee el texto y no te preocupes si no lo entiendes todo, ¡acabamos de empezar!"
-        },
-        {
-          "clase": "lista",
-          "titulo": "<b>Conversation</b>",
-          "contenido": [
-            {
-              "punto": "Hello, my name is Mary. What is your name?",
-              "icono": "img/mod01/mary.svg",
-              "ancho": 32
-            },
-            {
-              "punto": "Hi Mary! I am John, nice to meet you. How are you?",
-              "icono": "img/mod01/john.svg",
-              "ancho": 32
-            },
-            {
-              "punto": "I am fine, thank you! Where are you from?",
-              "icono": "img/mod01/mary.svg",
-              "ancho": 32
-            },
-            {
-              "punto": "I am from Scotland, how about you?",
-              "icono": "img/mod01/john.svg",
-              "ancho": 32
-            },
-            {
-              "punto": "I live in London. How old are you?",
-              "icono": "img/mod01/mary.svg",
-              "ancho": 32
-            },
-            {
-              "punto": "I am thirty (30) years old. What do you do?",
-              "icono": "img/mod01/john.svg",
-              "ancho": 32
-            },
-            {
-              "punto": "I am a teacher. Are you married?",
-              "icono": "img/mod01/mary.svg",
-              "ancho": 32
-            },
-            {
-              "punto": "Yes, I am and I have two children.",
-              "icono": "img/mod01/john.svg",
-              "ancho": 32
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Greetings",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "En inglés existen distintos tipos de saludos o “greetings”. Los más comunes son los siguientes:"
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "<center>GREETINGS</center>",
-                  "colspan": 3
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "imagen": "img/mod01/hello.svg"
-                    },
-                    {
-                      "texto": "<center>Hello/ Hi/ Hey (informal)</center>"
-                    },
-                    {
-                      "texto": "<center><i>Hola</i></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "imagen": "img/mod01/morning.svg"
-                    },
-                    {
-                      "texto": "<center>Good morning</center>"
-                    },
-                    {
-                      "texto": "<center><i>Buenos días</i></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "imagen": "img/mod01/afternoon.svg"
-                    },
-                    {
-                      "texto": "<center>Good afternoon</center>"
-                    },
-                    {
-                      "texto": "<center><i>Buenas tardes</i></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "imagen": "img/mod01/evening.svg"
-                    },
-                    {
-                      "texto": "<center>Good evening</center>"
-                    },
-                    {
-                      "texto": "<center><i>Buenas noches</i></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "imagen": "img/mod01/night.svg"
-                    },
-                    {
-                      "texto": "<center>Good night</center>"
-                    },
-                    {
-                      "texto": "<center><i>Buenas noches</i></center>"
-                    }
-                  ]
-                }
-
-              ]
-            },
-            {
-              "clase": "icono",
-              "subclase": "sabiasQue",
-              "texto": "<b>¿Cuándo usamos “good afternoon”, “good evening” y “good night”?</b> En inglés, diríamos “good afternoon” en el tramo comprendido entre las 12 del mediodía y las 5 o 6 de la tarde, a partir de ese momento se utilizaría “good evening” como forma de desear  buenas noches. Solo diríamos “good night” en el momento de irnos a la cama y a modo de despedida si vamos a abandonar un lugar cuando ya es de noche."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "How are you?",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Si queremos preguntarle a alguien “¿Qué tal estás?” diremos “How are you?”, y podremos contestar de diversas maneras:"
-        },
-        {
-          "clase": "tabla",
-          "filaTitulos": [
-            {
-              "titulo": "How are you?",
-              "colspan": 2
-            }
-          ],
-          "filaContenido": [
-            {
-              "fila": [
-                {
-                  "texto": "<center>(I am) fine </center>"
-                },
-                {
-                  "texto": "<center><i>(Estoy) bien</i></center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>I'm ok</center>"
-                },
-                {
-                  "texto": "<center><i>Estoy bien (informal)</i></center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>(I am) very well, thank you (formal)</center>"
-                },
-                {
-                  "texto": "<center><i>Estoy muy bien, gracias</i></center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>Not so well</center>"
-                },
-                {
-                  "texto": "<center><i>No muy bien</i></center>"
-                }
-              ]
+              "punto": "Comunidad:<br>Es el conjunto de poblaciones que habitan en un lugar y momento determinado.<br>Por ejemplo: una comunidad en un río serían todos los seres vivos que viven en dicho río y se relacionan entre ellos (insectos, ranas, truchas, nutrias...)."
             }
           ]
         },
         {
           "clase": "icono",
           "subclase": "sabiasQue",
-          "texto": "Hemos de recordar decir siempre <b>“Thank you”</b> (gracias) al responder:<br>&nbsp&nbsp&nbsp-How are you, Michael?<br>&nbsp&nbsp&nbsp-I am fine, thank you"
+          "texto": "Suele emplearse el concepto de biocenosis (también llamada comunidad) para considerar a todos los seres vivos (animales, vegetales y microorganismos) que coexisten en un mismo biotopo."
         }
-
       ]
     },
     {
-      "titulo": "What's your name?",
+      "titulo": "Ecosistema",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Cuando te pregunten por tu nombre o quieras preguntarle a alguien “¿Cómo te llamas?” diremos: What is your name? O What’s your name?. ¿Y cómo podemos contestar?:"
+          "texto": "Cuando la evaluación de un entorno incluye al biotopo y a los seres vivos del mismo, se emplea el término ecosistema (la suma de distintos ecosistemas interdependientes conforma los llamados biomas y la suma de todos los biomas del planeta da lugar a la biosfera).<br>Según el Convenio de Naciones Unidas sobre Diversidad Biológica, un ecosistema es un conjunto de hábitats, las especies que viven en ellos y las relaciones que se establecen entre los mismos."
         },
         {
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "texto",
-              "texto": "My name is (Violet).<br>Me llamo (Violet).<br><br>I am (Charles).<br>Soy (Charles).<br><br>My name is (James) but you can call me (Jim).<br>Me llamo (James) pero puedes llamarme (Jim)."
+              "clase": "imagen",
+              "imagen": "img/mod01/ecosistema.png"
             },
             {
               "clase": "texto",
-              "subclase": "recuadro",
-              "texto": "Cuandos nos pregunten “How are you?” o “What’s your name?”, podemos añadir a nuestra respuesta “and you?” o “how about you?” que significa en ambos casos “¿y tú?”. Podemos añadirlo a casi cualquier pregunta cuando queramos saber más sobre nuestro interlocutor tras haber dado información previa sobre nosotros."
+              "texto": "Cada ecosistema se delimita obedeciendo a unas características más o menos definidas para su estudio como, por ejemplo: el mar, un bosque, un estanque, una ciudad o, en otra escala, también sería un ecosistema nuestra propia piel o un árbol.<br>Un ecosistema agrupa distintas poblaciones de flora (conjunto de especies de plantas) y fauna (conjunto de especies de animales) que comparten un lugar y, lógicamente, los recursos (recurso: todo lo que un organismo toma del ambiente y cuya cantidad puede variar por acción del consumo, por ejemplo, el agua, las presas, el oxígeno, el espacio...). También se incluyen los microorganismos (por ejemplo: bacterias y hongos) cuyo papel es muy importante. Por tanto, en cada ecosistema conviven y se interrelacionan los diferentes seres vivos que lo integran."
             }
           ]
         },
         {
+          "clase": "texto",
+          "texto": "Los recursos constituyen un medio de vida para las especies y existen lugares en los cuales el número de especies es muy bajo, debido a las difíciles condiciones que allí se dan (como por ejemplo desiertos) y otros, como las selvas, en el que el número de especies es innumerable."
+        }
+      ]
+    },
+    {
+      "titulo": "Biodiversidad",
+      "contenido": [
+        {
           "clase": "listaObjetos",
+                    "animacion": "fadeInRight",
           "contenido": [
             {
-              "clase": "lista",
-              "titulo": "<b>Examples</b>",
+              "clase": "texto",
+              "texto": "El término que alude a la variedad de seres vivos diferentes que viven en un determinado territorio se denomina biodiversidad (y, en consecuencia, la pérdida de biodiversidad es la desaparición de especies, muchas de ellas como consecuencia de la actividad humana que causa variaciones de los componentes del biotopo). A través de la diversidad se mide el grado de organización de los ecosistemas, que será mayor cuanto mayor sea el número de especies diferentes que lo integren, no existiendo especies dominantes."
+            },
+            {
+              "clase": "imagen",
+              "ancho": 400,
+              "imagen": "img/mod01/07.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Las relaciones que pueden establecer entre sí los seres vivos de un ecosistema pueden ser muy variadas y se dan tanto dentro de la misma especie (intraespecíficas) como entre especies diferentes (interespecíficas)."
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "<b>Competencia</b>",
               "contenido": [
                 {
-                  "punto": "How are you Katie?<br><i>&nbsp&nbsp&nbsp¿Qué tal estás Katie?</i>",
-                  "icono": "img/mod01/john.svg",
-                  "ancho": 32
+                  "punto": "<u>Intraespecífica.</u> Cuando los individuos de una misma especie utilizan los mismos recursos (siendo este un factor limitante)."
                 },
                 {
-                  "punto": "I’m fine, thank you. How about you?<br><i>&nbsp&nbsp&nbspBien, gracias. ¡Y tú?</i><br><br>",
-                  "icono": "img/mod01/mary.svg",
-                  "ancho": 32
-                },
-                {
-                  "punto": "What’s your name?<br><i>&nbsp&nbsp&nbsp¿Cómo te llamas?</i>",
-                  "icono": "img/mod01/john.svg",
-                  "ancho": 32
-                },
-                {
-                  "punto": "I’m Rosie, and you?<br><i>&nbsp&nbsp&nbspSoy Rosie, ¿y tú?</i><br><br>",
-                  "icono": "img/mod01/mary.svg",
-                  "ancho": 32
-                },
-                {
-                  "punto": "Where are you from?<br><i>&nbsp&nbsp&nbsp¿De dónde eres?</i>",
-                  "icono": "img/mod01/john.svg",
-                  "ancho": 32
-                },
-                {
-                  "punto": "I am from Spain, how about you?<br>&nbsp&nbsp&nbsp<i>Soy de España, ¿y tú?</i><br><br>",
-                  "icono": "img/mod01/mary.svg",
-                  "ancho": 32
+                  "punto": "<u>Interespecífica.</u> Aquella que tiene lugar cuando individuos de especies diferentes explotan un mismo recurso vital limitado. Cuanto más parecido sea el recurso necesario, mayor será la competencia."
                 }
               ]
             },
             {
-              "clase": "icono",
-              "subclase": "sabiasQue",
-              "texto": "<b>Please</b>, <b>thank you</b> y <b>sorry</b> son unas de las palabras más utilizadas por los ingleses, ya que las utilizan prácticamente en cualquier situación. ¡Aunque no lo sientan!"
+              "punto": "<b>Asociaciones intraespecíficas:</b> Existen diferentes tipos de asociaciones, pero todas tienen en común la obtención de un beneficio (defensa contra depredadores, obtención cooperativa de alimentos...)."
+            },
+            {
+              "punto": "<b>Relaciones interespecíficas:</b> Son aquellas relaciones que se dan entre individuos de especies diferentes. Algunos ejemplos serían: depredación, parasitismo, mutualismo, comensalismo, inquilinismo... En la mayoría de los casos, tienen carácter alimentario."
             }
           ]
         }
       ]
     },
     {
-      "titulo": "Pleased to meet you",
+      "titulo": "Relaciones tróficas",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Cuando queremos expresarle a la persona que acabamos de conocer o ante la que nos acabamos de presentar que nos alegramos de haberla conocido, utilizaremos las siguientes expresiones o frases hechas:<br><br>It is nice / great / lovely to meet you. (Informal)<br><br>Nice to meet you. (Informal/Formal)<br><br>Pleased to meet you. (Informal)<br><br>Glad to meet you (Formal)<br><br>Todas significan lo mismo “Encantado/a de conocerte” o “Es un placer conocerte” y como se indica arriba, unas son más formales que otras."
+          "texto": "Las principales relaciones son las relaciones tróficas o de alimentación. Los seres vivos necesitan un aporte constante de materia y energía para poder realizar, así, sus funciones vitales, por lo que en un ecosistema los seres vivos se alimentan unos de otros y forman cadenas de alimentación o cadenas tróficas.  Se distinguen, por lo tanto, tres niveles:"
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "Productores",
+              "texto": "<b>Primer nivel: productores</b><br>Este nivel se caracteriza por usar la energía solar y sustancias inorgánicas y agua para producir moléculas orgánicas. Se correspondería con las plantas (ecosistemas terrestres) y las algas (ecosistemas acuáticos), que poseen pigmentos capaces de captar la luz solar y convertirla en energía que utilizan para sus procesos metabólicos."
+            },
+            {
+              "titulo": "Consumidores",
+              "texto": "<b>Segundo nivel: consumidores</b><br>La materia orgánica obtenida por los productores en el primer nivel es aprovechada para convertirla en materia orgánica propia. Los consumidores se alimentan de otros seres vivos. Dentro de este nivel se distinguen:",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "Consumidores primarios. Constituido por los herbívoros."
+                    },
+                    {
+                      "punto": "Consumidores secundarios. Constituido por los animales que se alimentan de los herbívoros."
+                    },
+                    {
+                      "punto": "Consumidores terciarios. Animales que se alimentan de herbívoros o de otros carnívoros."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Descomponedores",
+              "texto": "<b>Tercer nivel: descomponedores.</b><br>Son organismos que aprovechan la materia y energía que contienen los restos de los seres vivos (cadáveres, excrementos, etc.) descomponiendo la materia orgánica en materia inorgánica."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "imagen": "img/mod01/08.jpg",
+              "pie": "Productores"
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
+              "imagen": "img/mod01/09.jpg",
+              "pie": "consumidor primario"
+            },
+            {
+              "clase": "imagen",
+              "subclase": "rotarDch",
+              "imagen": "img/mod01/10.jpg",
+              "pie": "Consumidor secundario"
+            },
+                        {
+                          "clase": "imagen",
+                          "subclase": "rotarIzq",
+              "imagen": "img/mod01/11.jpg",
+              "pie": "Descomponedores"
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "titulo": "Red trófica",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En la naturaleza las relaciones que se establecen no son lineales, ya que un organismo puede alimentarse de varios organismos pertenecientes a distintos niveles y, a su vez, pueden ser comidos por distintos tipos de animales. En los ecosistemas hay una serie de cadenas tróficas que se entremezclan, formando una <b>red trófica</b>. La red trófica relaciona entre sí a todos los miembros de una comunidad."
         },
         {
           "clase": "imagen",
-          "imagen": "img/mod01/meetYou.jpg",
-          "ancho": 256
-        },
-        {
-          "clase": "texto",
-          "texto": "<b>Example</b><br>Hello James, my name is Oscar, pleased to meet you. How are you?<br><i>Hola James, me llamo Oscar, encantado de conocerte. ¿Qué tal estás?</i>"
+          "imagen": "img/mod01/flujo.png"
         }
       ]
     },
     {
-      "titulo": "Where are you from?",
+      "titulo": "Interacciones",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Para saber de donde es alguien le preguntaremos “Where are you from?” para  conocer su país o lugar de origen. Si nos hacen esa pregunta a nosotros contestaremos: “I am from...” y nuestro país o lugar de origen.<center><br>I live in + country/city. <i>(Vivo en + país o ciudad.)</i><br>I live in Spain / I live in Gijón.</center><br>Si queremos ser más específicos y preguntarle a alguien donde está viviendo actualmente le preguntaremos “Where do you live?”.<center><br>I live at + address. <i>(Vivo en + dirección concreta.)</i><br>I live at St Peter Street, 33</center>"
+          "texto": "Dentro de un ecosistema, hay un flujo de materia y energía que se debe a las interacciones organismos-medio ambiente. La materia se aprovecha de forma continua, sin embargo, la energía se utiliza una sola vez y se pierde progresivamente a lo largo del proceso en forma de calor y trabajo, por lo que es necesario incorporarla al sistema de forma continuada:"
         },
         {
-          "clase": "lista",
-          "titulo": "<b>Examples</b>",
+          "clase": "imagen",
+          "imagen": "img/mod01/luzCalor.png"
+        }
+      ]
+    },
+            {
+      "titulo": "Procesos cíclicos",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Así como la energía pasa de un nivel trófico al siguiente para al final perderse en forma de calor, la materia sigue un proceso cíclico, puesto que al final puede ser de nuevo reutilizada. La naturaleza funciona como un mecanismo productivo en el que los desechos o residuos que producen unos seres vivos son los alimentos o recursos para otros, constituyendo procesos cíclicos donde todo lo que se produce se aprovecha, sin que se produzcan residuos."
+        },
+        {
+          "clase": "listaObjetos",
           "contenido": [
-            {
-              "punto": "Hi Alix, where are you from?<br><i>&nbsp&nbsp&nbspHola Alix, ¿de dónde eres?</i>",
-              "icono": "img/mod01/john.svg",
-              "ancho": 32
+                        {
+              "clase": "imagen",
+              "imagen": "img/mod01/diagrama.png"
             },
             {
-              "punto": "I am from France.<br><i>&nbsp&nbsp&nbspSoy de Francia.</i>",
-              "icono": "img/mod01/mary.svg",
-              "ancho": 32
-            },
-            {
-              "punto": "And where do you live?<br><i>&nbsp&nbsp&nbsp¿Y dónde vives?</i>",
-              "icono": "img/mod01/john.svg",
-              "ancho": 32
-            },
-            {
-              "punto": "I live in England, how about you?<br><i>&nbsp&nbsp&nbspVivo en Inglaterra, ¿y tú?</i>",
-              "icono": "img/mod01/mary.svg",
-              "ancho": 32
-            },
-            {
-              "punto": "I am from Spain and I live in Madrid.<br><i>&nbsp&nbsp&nbspYo soy de España y vivo en Madrid.</i>",
-              "icono": "img/mod01/john.svg",
-              "ancho": 32
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "El funcionamiento de todos los ecosistemas es parecido: todos necesitan una fuente de energía (siendo el Sol la fuente principal) que va fluyendo, sólo en una dirección, a través de todos los componentes del ecosistema, mientras que la materia se encuentra en movimiento continuo en un ciclo cerrado."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "Es muy importante destacar que los ecosistemas no son sistemas estáticos sino dinámicos, es decir que se encuentran en continua evolución y cambios con el tiempo, si bien tienden a mantenerse en <b>equilibrio</b> y sus poblaciones a mantenerse constantes, evitando la superpoblación o la extinción mediante diferentes estrategias."
+                }
+              ]
             }
           ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Estos cambios pueden deberse a múltiples factores: físicos, químicos o biológicos."
+        }
+      ]
+    },
+        {
+      "titulo": "El ser humano",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Así como los factores abióticos condicionan la distribución de los seres vivos, éstos también pueden modificar, de forma significativa, los factores del medio que habitan."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Por ejemplo, la mayor parte del oxígeno atmosférico ha sido producida por los organismos fotosintéticos y la humedad y la temperatura cambian bajo la vegetación densa de un bosque."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "El ser humano es, en teoría, sólo una especie más, pero su gran capacidad para explotar los recursos naturales y su dominio sobre la energía lo convierten en una especie diferente a las otras."
+                }
+                              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/13.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "La relación del ser humano con los ecosistemas en los que ha vivido ha ido cambiando a lo largo de su historia, en función del incremento de la población y el desarrollo de su tecnología. En este sentido, con la llegada de la sociedad industrial, y muy especialmente en las últimas décadas, se ha modificado de manera significativa esta relación."
         }
       ]
     },
     {
-      "titulo": "How old are you?",
+      "titulo": "Impacto ambiental",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Del medio ambiente proceden todos los recursos que utilizamos para vivir: aire, agua, alimentos, energía, etc. Pero, a su vez, nuestros residuos y las consecuencias de nuestro desarrollo también acaban en él."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Al efecto, tanto directo como indirecto, que una determinada acción humana produce en el medio ambiente se le denomina impacto ambiental. Los impactos ambientales más significativos suelen producirlos grandes obras de ingeniería civil, industrias contaminantes y cualquier otra circunstancia que origine grandes alteraciones en el medio ambiente. Por ejemplo, la construcción de una presa lleva asociado un importante cambio sobre el hábitat en el que se construye. El impacto más claro es el que se produce sobre los organismos que allí viven: los peces verán interrumpido su cauce natural, desaparecen las orillas por lo que muchos animales dejan de criar e incluso el aumento de humedad atmosférica en torno al embalse condiciona la presencia de ciertas especies vegetales."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/14.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "No solamente las grandes obras producen impactos. El simple hecho de levantar una piedra y no dejarla después como estaba destruye el hogar de una gran variedad de seres vivos. El uso de la calefacción o el calor desprendido por los coches provocan un aumento en la temperatura de las ciudades en dos o tres grados respecto a sus alrededores. Esto permite que algunos animales, como ciertos insectos, se desarrollen mejor dentro de las ciudades que fuera de ellas."
+        }
+      ]
+    },
+    {
+      "titulo": "Red de autovías",
       "contenido": [
         {
           "clase": "listaObjetos",
           "contenido": [
             {
               "clase": "texto",
-              "texto": "Si queremos conocer la edad de otra persona le preguntaremos <b>“How old are you?”</b>, es decir, “¿cuántos años tienes?”. ¿Y qué podemos contestar? Pues tenemos dos opciones. La manera más sencilla de contestar sería “I am…” y nuestra edad. Por ejemplo, “I am twenty-five” o “I am sixty”. La otra manera de decir nuestra edad es “I am sixty YEARS OLD”. Como hemos visto antes, aquí el verbo “to be” vuelve a funcionar como el verbo “tener”, “I am twenty-five” es “tengo veinticinco años” y no “Yo soy veinticinco años”."
-            },
-            {
-              "clase": "icono",
-              "subclase": "exclamacion",
-              "texto": "BE CAREFUL: Nunca digas “I am forty-two years”. Si quieres incluir “years” al decir tu edad o la de otra persona, acuérdate SIEMPRE de añadir “years old”, de otra manera estará incorrecto."
+              "texto": "El impacto ambiental puede producirse sobre alguno o varios de los siguientes factores: el ser humano, la fauna, la flora, el suelo, el agua, el aire, el clima, el paisaje, los bienes materiales o el patrimonio cultural. Por ejemplo, la construcción de una red de autovías generará impactos ambientales que podrán ser positivos o negativos, temporales o permanentes y de carácter local o regional. En el caso de la construcción de una autovía en el interior de una ciudad:"
             }
           ]
         },
@@ -2618,159 +501,94 @@
           "clase": "tabla",
           "filaTitulos": [
             {
-              "titulo": "OTHER QUESTIONS",
+              "titulo": "<center>Tipo de impacto</center>",
               "colspan": 2
+            },
+            {
+              "titulo": "<center>Descripción</center>"
+            },
+            {
+              "titulo": "<center>Afectación</center>"
             }
           ],
           "filaContenido": [
             {
               "fila": [
                 {
-                  "texto": "<center>Are you married?</center>"
+                  "texto": "<center><b>Positivo</b></center>"
                 },
                 {
-                  "texto": "<center><i>¿Estás casado/a?</i></center>"
+                  "texto": "<center>Económicos</center>"
+                },
+                {
+                  "texto": "Creación de puestos de trabajo mientras duran las obras."
+                },
+                {
+                  "texto": "<center>Temporal<br>Regional</center>"
                 }
               ]
             },
             {
               "fila": [
                 {
-                  "texto": "<center>Have you got any children?</center>"
+                  "texto": "<center><b>Negativos</b></center>",
+                  "rowspan": 5
                 },
                 {
-                  "texto": "<center><i>¿Tienes hijos/as?</i></center>"
+                  "texto": "<center>Físicos</center>",
+                  "rowspan": 3
+                },
+                {
+                  "texto": "Incremento del ruido"
+                },
+                {
+                  "texto": "<center>Permanente<br>Local</center>"
                 }
               ]
             },
             {
               "fila": [
                 {
-                  "texto": "<center>What do you do?</center>"
+                  "texto": "Aumento de la contaminación atmosférica."
                 },
                 {
-                  "texto": "<center><i>¿A qué te dedicas? (Referido trabajo/profesión)</i></center>"
+                  "texto": "<center>Permanente<br>Local</center>"
                 }
               ]
             },
             {
               "fila": [
                 {
-                  "texto": "<center>Do you work?</center>"
+                  "texto": "Incremento de superficie del suelo asfaltada, lo que puede llegar a alterar el clima (ascenso de temperatura y disminución de humedad)."
                 },
                 {
-                  "texto": "<center><i>¿Trabajas?</i></center>"
+                  "texto": "<center>Permanente<br>Local</center>"
                 }
               ]
             },
             {
               "fila": [
                 {
-                  "texto": "<center>Which country are you from?</center>"
+                  "texto": "<center>Biológicos</center>"
                 },
                 {
-                  "texto": "<center><i>¿De qué país eres?</i></center>"
+                  "texto": "División del territorio. Puede provocar destrucción o aislamiento de comunidades de animales y vegetales."
+                },
+                {
+                  "texto": "<center>Permanente<br>Local</center>"
                 }
               ]
             },
             {
               "fila": [
                 {
-                  "texto": "<center>Which city/area do you live in?</center>"
+                  "texto": "<center>Socioeconómicos</center>"
                 },
                 {
-                  "texto": "<center><i>¿En qué ciudad/zona vives?</i></center>"
-                }
-              ]
-            }
-
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Good bye!",
-      "fondo": "img/mod01/bye.png",
-      "contenido": [
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "opacidad": 0.8,
-          "texto": "<center>A la hora de despedirnos podemos utilizar cualquiera de las siguientes expresiones.</center>"
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "Despedidas formales",
-                  "colspan": 2
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Good bye! / Bye!</center>"
-                    },
-                    {
-                      "texto": "<center><i>Adiós.</i></center>"
-                    }
-                  ]
+                  "texto": "Creación de barreras urbanas. División de la ciudad en barrios aislados a ambos lados de la autovía (salvo para el tráfico rodado)."
                 },
                 {
-                  "fila": [
-                    {
-                      "texto": "<center>Have a good day.</center>"
-                    },
-                    {
-                      "texto": "<center><i>Que tengas un buen día.</i></center>"
-                    }
-                  ]
-                }
-
-              ]
-            },
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "Despedidas informales",
-                  "colspan": 2
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>See you soon!</center>"
-                    },
-                    {
-                      "texto": "<center><i>Nos vemos o hasta luego.</i></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>See you later!</center>"
-                    },
-                    {
-                      "texto": "<center><i>Te veo después o nos vemos.</i></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>See you tomorrow!</center>"
-                    },
-                    {
-                      "texto": "<center><i>Hasta mañana.</i></center>"
-                    }
-                  ]
+                  "texto": "<center>Permanente<br>Local</center>"
                 }
               ]
             }
@@ -2779,580 +597,197 @@
       ]
     },
     {
-      "titulo": "WORDSEARCH",
-      "contenido": [
-        {
-          "clase": "texto",
-          "subclase": "instruccion",
-          "animacion": "flash",
-          "texto": "Click and drag with your mouse to mark a word."
-        },
-        {
-          "clase": "juegoSopaLetras",
-          "pistas": [
-            {
-              "palabra": "interesting",
-              "definicion": "Interesante"
-            },
-            {
-              "palabra": "orange",
-              "definicion": "Naranja"
-            },
-            {
-              "palabra": "beautiful",
-              "definicion": "Hermoso/a"
-            },
-            {
-              "palabra": "handsome",
-              "definicion": "Guapo"
-            },
-            {
-              "palabra": "pretty",
-              "definicion": "Guapa"
-            },
-            {
-              "palabra": "impolite",
-              "definicion": "Maleducado/a"
-            },
-            {
-              "palabra": "thirsty",
-              "definicion": "Sediento/a"
-            },
-            {
-              "palabra": "uncomfortable",
-              "definicion": "Incómodo/a"
-            },
-            {
-              "palabra": "tall",
-              "definicion": "Alto/a"
-            },
-            {
-              "palabra": "unfriendly",
-              "definicion": "Antipático/a"
-            },
-            {
-              "palabra": "cheerful",
-              "definicion": "Alegre"
-            },
-            {
-              "palabra": "expensive",
-              "definicion": "Caro/a"
-            },
-            {
-              "palabra": "lazy",
-              "definicion": "Vago/a"
-            },
-            {
-              "palabra": "clean",
-              "definicion": "Limpio/a"
-            },
-            {
-              "palabra": "tydi",
-              "definicion": "Ordenado/a"
-            },
-            {
-              "palabra": "bored",
-              "definicion": "Aburrido/a"
-            },
-            {
-              "palabra": "open",
-              "definicion": "Abierto/a"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "SUMMARY",
+      "titulo": "Contaminación",
       "contenido": [
         {
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "lista",
-              "contenido": [
-                {
-                  "punto": "In this Unit you have learned how to use the personal pronouns and the verb to be in the affirmative, negative and question forms. Let’s remember it!"
-                }
-              ]
+              "clase": "imagen",
+              "imagen": "img/mod01/15.jpg"
             },
             {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": ""
-                },
-                {
-                  "titulo": "<center>AFFIRMATIVE</center>"
-                },
-                {
-                  "titulo": "<center>NEGATIVE</center>"
-                },
-                {
-                  "titulo": "<center>QUESTION</center>"
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>I</center>"
-                    },
-                    {
-                      "texto": "<center>am ('m)</center>"
-                    },
-                    {
-                      "texto": "<center>am not ('m not)</center>"
-                    },
-                    {
-                      "texto": "<center>am I...?</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>you</center>"
-                    },
-                    {
-                      "texto": "<center>are ('re)</center>"
-                    },
-                    {
-                      "texto": "<center>are not (aren't)</center>"
-                    },
-                    {
-                      "texto": "<center>are you...?</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>he</center>"
-                    },
-                    {
-                      "texto": "<center>is ('s)</center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center>is not (isn't)</center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center>is he...?</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>she</center>"
-                    },
-                    {
-                      "texto": "<center>is she...?</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>it</center>"
-                    },
-                    {
-                      "texto": "<center>is it...?</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>we</center>"
-                    },
-                    {
-                      "texto": "<center>are ('re)</center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center>are not (aren't)</center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center>are we...?</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>you</center>"
-                    },
-                    {
-                      "texto": "<center>are you...?</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>they</center>"
-                    },
-                    {
-                      "texto": "<center>are they...?</center>"
-                    }
-                  ]
-                }
-              ]
+              "clase": "texto",
+              "texto": "Uno de los efectos más graves de nuestra relación con la naturaleza es la <b>contaminación</b>. Cuando hablamos de contaminación, nos estamos refiriendo a cualquier tipo de impureza, materia o influencias físicas (como ruido, radiación, basuras o productos químicos) en un determinado medio y en niveles más altos de lo normal, que pueden ocasionar un peligro o un daño en el sistema ecológico, apartándolo de su equilibrio."
             }
           ]
         },
         {
-          "clase": "lista",
-          "contenido": [
-            {
-              "punto": "You have learned new adjectives to describe people and things. Remember: Adjectives in English are invariable, they don’t change depending on the gender or the number of the noun.",
-              "contenido": [
-                {
-                  "punto": "“Marc is tired and stressed.”"
-                },
-                {
-                  "punto": "“Jane and Maria are tired and stressed.”<br>(*) We recommend you to have a look again at the list of adjectives."
-                }
-              ]
-            },
-            {
-              "punto": "You can now introduce yourself using simple expressions and ask questions to know basic things about other people.",
-              "contenido": [
-                {
-                  "punto": "“Good morning!”"
-                },
-                {
-                  "punto": "“Nice to meet you.”"
-                },
-                {
-                  "punto": "“How old are you?”"
-                },
-                {
-                  "punto": "“I am from Italy.”"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "acordeon",
-          "contenido": [
-            {
-              "titulo": "<center>NEW VOCABULARY</center>",
-              "contenido": [
-                {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "<center>ENGLISH</center>"
-                    },
-                    {
-                      "titulo": "<center>SPANISH</center>"
-                    },
-                    {
-                      "titulo": "<center>PRONUNCIATION</center>"
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>BOY</center>"
-                        },
-                        {
-                          "texto": "<center>CHICO</center>"
-                        },
-                        {
-                          "texto": "<center>bɔɪ</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>GIRL</center>"
-                        },
-                        {
-                          "texto": "<center>CHICA</center>"
-                        },
-                        {
-                          "texto": "<center>gɜːl</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>WOMAN</center>"
-                        },
-                        {
-                          "texto": "<center>MUJER</center>"
-                        },
-                        {
-                          "texto": "<center>ˈwʊmən</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>WOMEN</center>"
-                        },
-                        {
-                          "texto": "<center>MUJERES</center>"
-                        },
-                        {
-                          "texto": "<center>ˈwɪmɪn</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>ICE CREAM</center>"
-                        },
-                        {
-                          "texto": "<center>HELADO</center>"
-                        },
-                        {
-                          "texto": "<center>aɪs kriːm</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>FRIEND/S</center>"
-                        },
-                        {
-                          "texto": "<center>AMIGO/A/S</center>"
-                        },
-                        {
-                          "texto": "<center>frɛnd/ɛs</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>COUNTRY</center>"
-                        },
-                        {
-                          "texto": "<center>PAÍS</center>"
-                        },
-                        {
-                          "texto": "<center>ˈkʌntri</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>FRANCE</center>"
-                        },
-                        {
-                          "texto": "<center>FRANCIA</center>"
-                        },
-                        {
-                          "texto": "<center>ˈfrɑːns</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>SPAIN</center>"
-                        },
-                        {
-                          "texto": "<center>ESPAÑA</center>"
-                        },
-                        {
-                          "texto": "<center>speɪn</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>ENGLAND</center>"
-                        },
-                        {
-                          "texto": "<center>INGLATERRA</center>"
-                        },
-                        {
-                          "texto": "<center>ˈɪŋglənd</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>TEACHER</center>"
-                        },
-                        {
-                          "texto": "<center>PROFESOR/A</center>"
-                        },
-                        {
-                          "texto": "<center>ˈtiːʧə</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>STUDENT</center>"
-                        },
-                        {
-                          "texto": "<center>ESTUDIANTE</center>"
-                        },
-                        {
-                          "texto": "<center>ˈstjuːdənt</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>RICH</center>"
-                        },
-                        {
-                          "texto": "<center>RICO/A</center>"
-                        },
-                        {
-                          "texto": "<center>rɪʧ</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>FOOTBALL PLAYER</center>"
-                        },
-                        {
-                          "texto": "<center>JUGADOR/A DE FÚTBOL</center>"
-                        },
-                        {
-                          "texto": "<center>ˈfʊtbɔːl ˈpleɪə</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>HOUSE</center>"
-                        },
-                        {
-                          "texto": "<center>CASA</center>"
-                        },
-                        {
-                          "texto": "<center>haʊs</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>WINDOW</center>"
-                        },
-                        {
-                          "texto": "<center>VENTANA</center>"
-                        },
-                        {
-                          "texto": "<center>ˈwɪndəʊ</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>ANIMAL</center>"
-                        },
-                        {
-                          "texto": "<center>ANIMAL</center>"
-                        },
-                        {
-                          "texto": "<center>ˈænɪməl</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>BIRD</center>"
-                        },
-                        {
-                          "texto": "<center>PÁJARO</center>"
-                        },
-                        {
-                          "texto": "<center>bɜːd</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>PEOPLE</center>"
-                        },
-                        {
-                          "texto": "<center>PERSONAS/ GENTE</center>"
-                        },
-                        {
-                          "texto": "<center>ˈpiːpl</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>THINGS</center>"
-                        },
-                        {
-                          "texto": "<center>COSAS</center>"
-                        },
-                        {
-                          "texto": "<center>θɪŋz</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>HAVE A LOOK!</center>"
-                        },
-                        {
-                          "texto": "<center>¡ECHA UN VISTAZO! (expresión)</center>"
-                        },
-                        {
-                          "texto": "<center>hæv ə lʊk!</center>"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/comunes/londonLast2.png"
+          "clase": "texto",
+          "texto": "Las sustancias contaminantes están presentes en casi cualquier medio, impidiendo o perturbando la vida de los seres vivos y produciendo efectos nocivos a los materiales y al propio ambiente, repercutiendo además en nuestra calidad de vida."
         }
       ]
     },
     {
-      "titulo": "Farewell",
-      "fondo": "img/comunes/bigBen.jpg",
+      "titulo": "Residuos",
       "contenido": [
         {
-          "clase": "imagen",
-          "ancho": 128,
-          "opacidad": 0.8,
-          "imagen": "img/comunes/keep.png"
+          "clase": "texto",
+          "texto": "Entre  todos los contaminantes destacan los metales pesados por su persistencia en el medio en el que se depositan y porque son muy perjudiciales para los seres vivos."
         },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Cuando se hace referencia al conjunto de desperdicios que se introducen en el medio ambiente como consecuencia de la actividad del ser humano, se habla de vertidos líquidos, emisiones gaseosas y depósitos de residuos sólidos."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "Nuestra acción sobre el medio ambiente se traduce en el aumento del volumen de residuos que se generan día a día. Hablamos de <b>residuos</b> para referirnos a cualquier sustancia u objeto inservible del cual su poseedor se desprende."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/16.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Por tanto, la primera medida a adoptar en materia de residuos es la reducción de los mismos, tanto en cantidad como en la disminución de su peligrosidad. En segundo lugar, buena parte de los residuos no son realmente objetos o sustancias inservibles, sino que pueden volver a aprovecharse y así volverse a utilizar (reutilización), para transformarlos en nuevas materias primas (reciclaje) o para extraer la energía que contienen."
+        }
+      ]
+    },
+    {
+      "titulo": "Valoración",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "El aprovechamiento de los residuos impidiendo que vayan a parar al medio ambiente es lo que se conoce como <b>valoración</b>. Por tanto, la reutilización y el reciclaje son métodos muy valiosos para economizar materias primas y energía, de esta forma se incidirá en la menor abundancia de vertederos."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "El reciclaje de ciertos materiales como el vidrio y el papel suponen un importante ahorro en la utilización de materias primas vírgenes. Existen ciertos materiales que, prácticamente, no pierden propiedades respecto a su estado inicial tras haber sido reciclados, por lo que una misma materia prima puede ser procesada en la industria más de una vez, evitando su extracción el medio ambiente y su vertido como residuo contaminante."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/17.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Pero no solamente es importante el uso racional de las materias primas de las que nos abastecemos. También debemos pensar en la energía que utilizamos, tanto en la industria como en la vida cotidiana."
+        }
+      ]
+    },
+    {
+      "titulo": "Energías renovables",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Durante toda la historia del hombre, éste ha recurrido preferentemente a formas de energía no renovables, es decir, que tras su uso sistemático acabarán por agotarse. Entre estas destacan el carbón o el petróleo, y la madera procedente de la tala de árboles."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/18.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Sin embargo, existen otras formas de energía, las denominadas energías renovables, que se obtienen de fuentes inagotables, es decir, fuentes que no se gastan con su utilización o que tardan un corto periodo de tiempo en regenerarse. En estas energías se emplea la fuerza del viento (energía eólica), del agua (hidráulica), la radiación del sol (solar) o el poder calorífico de la materia orgánica (biomasa)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Desarrollo sostenible",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "La relación del ser humano con la naturaleza no se ha desarrollado de la forma más correcta, en gran medida por el desconocimiento de las consecuencias negativas en su modo de vivir. A finales de los años ochenta surgió un concepto que, hoy en día, tienen asumido la mayoría de los países y del cual depende nuestro futuro: el <b>desarrollo sostenible</b>."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/19.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "El desarrollo sostenible es el modelo de desarrollo que busca satisfacer las necesidades del presente, sin comprometer la satisfacción de las necesidades de las generaciones futuras (Informe de la Comisión Mundial sobre el Medio Ambiente y desarrollo, bajo el título “Nuestro futuro común”, más conocido como Informe Brundtland, 1987). Este informe presentó a la comunidad internacional el concepto de desarrollo sostenible como una nueva modalidad para el crecimiento económico, la igualdad social y la sostenibilidad ambiental. Afirmaba que el desarrollo sostenible podría lograrse con un marco normativo integrado que abarcara esos tres pilares."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Promover el desarrollo sostenible significa modificar y adaptar a nuevos modelos nuestro modelo actual de crecimiento, de tal manera que la sociedad europea de los próximos años verá cómo cambian sus formas de vida y de trabajo. El desarrollo sostenible traerá nuevos sistemas de producción, nuevas relaciones, nuevos productos y mercados e, indudablemente, nuevos empleos."
+        }
+      ]
+    },
+    {
+      "titulo": "Principios de desarrollo sostenible",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "Entre los <b>Principios del Desarrollo Sostenible</b> se encuentran:",
+                  "contenido": [
+                    {
+                      "punto": "Asegurar la calidad de vida de todos."
+                    },
+                    {
+                      "punto": "Cultivar el potencial humano."
+                    },
+                    {
+                      "punto": "Tecnologías limpias."
+                    },
+                    {
+                      "punto": "Promover el reciclaje y la reutilización."
+                    },
+                    {
+                      "punto": "Uso eficiente de recursos (renovarlos, no agotarlos)."
+                    },
+                    {
+                      "punto": "Restaurar ecosistemas dañados."
+                    },
+                    {
+                      "punto": "Reconocer la importancia del medio ambiente para la salud."
+                    }
+                  ]
+                },
+                {
+                  "clase": "texto",
+                  "subclase": "recuadro",
+                  "texto": "Un ejemplo claro de tendencia hacia el desarrollo sostenible en la pesca sería la utilización de artes de pesca selectivas, la realización de paradas biológicas que permitan la regeneración de los caladeros, los cultivos marinos y la acuicultura."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod01/19b.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "El Principio de “quien contamina paga” surge en este contexto, siendo recogido en el artículo 174 del Tratado de la Unión Europea, y establece que todo el que contamina debe pagar por el daño ecológico causado. Con arreglo a este principio, los responsables en un acto de contaminación han de pagar los costes de las medidas necesarias para eliminarlo, reducirlo a un nivel jurídicamente admitido o restituirlo al estado original."
+        }
+      ]
+    },
+    {
+      "titulo": "Despedida",
+      "fondo": "img/comunes/21.jpg",
+      "contenido": [
         {
           "clase": "listaObjetos",
           "animacion": "fadeInRight",
@@ -3368,7 +803,7 @@
       ]
     },
     {
-      "titulo": "Back cover",
+      "titulo": "Contraportada",
       "fondo": "img/comunes/contraportada.svg",
       "subclase": "portada"
     }

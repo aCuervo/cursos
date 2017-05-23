@@ -141,21 +141,17 @@ function getArrayImagenes(modulo) {
         "img/comunes/anilla.svg",
         "img/comunes/aviso.svg",
         "img/comunes/avisoBlanco.svg",
-        "img/comunes/bigBen.jpg",
 		"img/comunes/carga.svg",
         "img/comunes/check.svg",
         "img/comunes/contraportada.svg",
 		"img/comunes/definicion.svg",
 		"img/comunes/exclamacion.svg",
 		"img/comunes/exclamacionBlanca.svg",
-        "img/comunes/keep.png",
         "img/comunes/logo.svg",
-        "img/comunes/londonLast2.png",
         "img/comunes/portada.svg",
 		"img/comunes/sabiasQue.svg",
         "img/comunes/thumbUp.svg",
         "img/comunes/tick_menu.svg",
-        "img/comunes/towerB.jpg",
     ];
     var arrayFinal = null;
     switch (modulo) {
@@ -165,19 +161,29 @@ function getArrayImagenes(modulo) {
             break;*/
         case "mod01":
             arrayFinal = arrayComun.concat([
-                "img/mod01/afternoon.svg",
-                "img/mod01/bye.png",
-                "img/mod01/cabin.png",
-                "img/mod01/evening.svg",
-                "img/mod01/hello.svg",
-                "img/mod01/john.svg",
-                "img/mod01/mary.svg",
-                "img/mod01/meetYou.jpg",
-                "img/mod01/morning.svg",
-                "img/mod01/night.svg",
-                "img/mod01/no.jpg",
-                "img/mod01/photo.jpg",
-                "img/mod01/skull.png"]);
+                "img/mod01/00.jpg",
+                "img/mod01/01.jpg",
+                "img/mod01/02.jpg",
+                "img/mod01/03.jpg",
+                "img/mod01/04.jpg",
+                "img/mod01/05.jpg",
+                "img/mod01/07.jpg",
+                "img/mod01/08.jpg",
+                "img/mod01/09.jpg",
+                "img/mod01/10.jpg",
+                "img/mod01/11.jpg",
+                "img/mod01/13.jpg",
+                "img/mod01/14.jpg",
+                "img/mod01/15.jpg",
+                "img/mod01/16.jpg",
+                "img/mod01/17.jpg",
+                "img/mod01/18.jpg",
+                "img/mod01/19.jpg",
+                "img/mod01/19b.jpg",
+                "img/mod01/diagrama.png",
+                "img/mod01/ecosistema.png",
+                "img/mod01/flujo.png",
+                "img/mod01/luzCalor.png"]);
             break;
         default: arrayFinal = arrayComun;
     }
