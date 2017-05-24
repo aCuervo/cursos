@@ -26,11 +26,11 @@
                   "clase": "texto",
                   "texto": "Otra de las causas se debe al crecimiento demográfico: los expertos vaticinan que la población mundial aumentará de 7.000 millones a casi 9.000 millones en el año 2050, lo que conllevará un aumento exponencial en la demanda de recursos, y ya en el año 2030 se necesitará, por lo menos, un 50% más de alimentos, un 45% más de energía y un 30% más de agua."
                 },
-                        {
-          "clase": "texto",
-          "texto": "Con la llegada de la sociedad industrial, y especialmente en las últimas décadas, se han visto afectadas las propiedades de la atmósfera, el agua, el suelo… viéndose afectado, así, el equilibrio que mantienen con los seres vivos. Y todo esto genera una gran variedad de problemas medio ambientales, tanto a escala global como local."
-        }
-                              ]
+                {
+                  "clase": "texto",
+                  "texto": "Con la llegada de la sociedad industrial, y especialmente en las últimas décadas, se han visto afectadas las propiedades de la atmósfera, el agua, el suelo… viéndose afectado, así, el equilibrio que mantienen con los seres vivos. Y todo esto genera una gran variedad de problemas medio ambientales, tanto a escala global como local."
+                }
+              ]
             },
             {
               "clase": "imagen",
@@ -38,7 +38,7 @@
             }
           ]
         },
-                {
+        {
           "clase": "texto",
           "texto": "Entre los problemas Globales más significativos se pueden indicar: el efecto invernadero, el cambio climático, la disminución de la capa de ozono, el agotamiento de los recursos naturales, la acumulación de residuos, la acidificación del suelo y del agua, la deforestación, la desertificación..."
         }
@@ -412,7 +412,7 @@
         }
       ]
     },
-        {
+    {
       "titulo": "Lluvia ácida",
       "contenido": [
         {
@@ -439,56 +439,323 @@
       ]
     },
     {
-      "titulo": "********Biotopo",
+      "titulo": "El agua",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Suele emplearse el concepto de biotopo para considerar todo el conjunto de factores abióticos de un área. El biotopo presenta tres dimensiones que son el medio, el sustrato y los factores ambientales:"
-        },
-        {
-          "clase": "tabs",
-          "contenido": [
-            {
-              "titulo": "El medio",
-              "contenido": [
-                {
-                  "clase": "lista",
-                  "titulo": "Es lo que envuelve a los organismos. Hay tres medios:",
-                  "contenido": [
-                    {
-                      "punto": "Terrestre"
-                    },
-                    {
-                      "punto": "Acuático"
-                    },
-                    {
-                      "punto": "Aéreo"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "titulo": "El sustrato",
-              "texto": "Es el elemento sobre el cual se ubican los seres vivos (el agua, una roca, el cuerpo de otro ser vivo...)."
-            },
-            {
-              "titulo": "Factores ambientales",
-              "texto": "Hacen referencia a las características físico-químicas del medio ambiente (temperatura, luz, humedad, nutrientes, salinidad...). "
-            }
-          ]
+          "texto": "El agua es un elemento absolutamente indispensable para la vida. Todos los organismos tienen agua en su composición ya que en ella se llevan a cabo todos los procesos fisiológicos."
         },
         {
           "clase": "listaObjetos",
           "contenido": [
             {
               "clase": "texto",
-              "texto": "Los componentes del biotopo influyen sobre los seres vivos provocando una serie de cambios en la forma, comportamiento y funcionamiento que se denominan adaptaciones. Las variaciones de estos factores han ocurrido muy lentamente a lo largo de millones de años, ocasionando la aparición de especies nuevas y la desaparición de aquellas que no se adaptaron. Este ritmo tan lento contrasta con el de las variaciones que se están produciendo como consecuencia de las actividades humanas."
+              "texto": "Aunque la cantidad de agua en el planeta es enorme (es el componente mayoritario de la superficie terrestre), se trata de un recurso limitado, pero renovable, cuya disminución nos traería graves consecuencias."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/31.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "El 97% del agua total de la Tierra está en mares y océanos. Del 3% restante, un 2,5% está “bloqueada” en los casquetes polares o se encuentra demasiado profunda para obtenerla. Por este motivo el agua dulce disponible es escasa y está distribuida de forma irregular en el tiempo y en el espacio."
+        }
+      ]
+    },
+    {
+      "titulo": "Ciclo del agua",
+      "contenido": [
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "El agua está en constante movimiento y transformación en lo que se llama el <b>ciclo del agua</b>, sometida a continuos cambios de estado físico (sólido, líquido y gaseoso) y de posición geográfica, debido a la acción de la energía solar y a la fuerza de la gravedad."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/32.jpg"
+        }
+      ]
+    },
+    {
+      "titulo": "Fases",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "El ciclo del agua comienza con la evaporación del agua (principalmente desde la superficie del océano) e incluye las fases de:"
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "Evaporación",
+              "texto": "El agua que se encuentra en la superficie pasa de un estado líquido hacia un estado gaseoso, en función de un aumento de la temperatura."
+            },
+            {
+              "titulo": "Condensación",
+              "texto": "El vapor de agua asciende y cuando se enfría condensa en pequeñas gotas de agua, formando las nubes."
+            },
+            {
+              "titulo": "Precipitación",
+              "texto": "Cuando las gotas de agua que forman las nubes se enfrían se acelera la condensación, terminando por precipitarse a la superficie terrestre debido a su mayor peso. Si la temperatura es suficientemente baja, la precipitación puede ser sólida en forma de nieve o granizo."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Cuando el agua alcanza el suelo puede filtrarse a través de éste, pasando a ser agua subterránea o circular por la superficie:"
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "Infiltración",
+              "texto": "Cuando el agua alcanza el suelo, lo penetra y pasa a ser subterránea. Esto dependerá de la permeabilidad del sustrato, de la pendiente y de la cobertura vegetal. Aquí puede acumularse en depósitos subterráneos (acuíferos que alimentan ríos o fuentes) o formar corrientes subterráneas que, con el tiempo dejarán salir el agua a la superficie para que siga su curso (ríos subterráneos)."
+            },
+            {
+              "titulo": "Escorrentía",
+              "texto": "La escorrentía se define como el tránsito de agua que circula por una cuenca de drenaje (dicho de forma sencilla: cuando se desliza cuesta abajo por la superficie del terreno), uniéndose o formando torrentes, arroyos, ríos… que llevarán de nuevo el agua hasta el mar."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Este ciclo natural del agua tiene una gran capacidad de purificación. La actividad humana interviene en el ciclo hidrológico al captar agua para consumo doméstico, uso urbano, uso agrícola e industria y, debido a esa facilidad de regeneración y su aparente abundancia, hace que el agua se utilice como el vehículo fundamental de eliminación de nuestras sustancias de desecho. Cuando la cantidad de contaminantes generados en los procesos de producción y consumo de nuestra sociedad son tan elevados, la naturaleza no es capaz de contrarrestarlos, provocándose la contaminación del agua."
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminación del agua",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "La contaminación del agua es la alteración de su calidad a causa de la actividad humana, haciéndola total o parcialmente inadecuada para el fin a que se destinaba."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/33.jpg"
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Se denominan aguas residuales a aquellas que tras haber sido usadas en la industria, hogares, etc. tienen sus  características naturales alteradas y arrastran una carga de contaminación. Las aguas residuales deben conducirse hasta depuradoras donde, tras complejos tratamientos físicos, químicos y biológicos, pueden transformarse en caudales limpios y verterse al medio sin causar problemas. Los causantes de graves deterioros medioambientales son aquellos vertidos de aguas contaminadas sin tratamiento previo."
+                },
+                {
+                  "clase": "texto",
+                  "texto": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "La contaminación del medio marino provocada por el hombre es mucho mayor que al atribuible a causas naturales: el mercurio llega al océano a un ritmo dos veces y media superior al debido únicamente a factores naturales, el manganeso multiplica por cuatro dicho ritmo natural, el cobre, el cinc y el plomo por doce, el antimonio por treinta y el fósforo por ochenta."
+        }
+      ]
+    },
+    {
+      "titulo": "Fuentes de contaminación",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Aunque algunas fuentes de contaminación se deben a causas naturales, normalmente son fuentes muy dispersas y no generan concentraciones altas de contaminación. La contaminación debida a la actividad humana se concentra en zonas concretas y es mucho más peligrosa que la natural y procede principalmente de:"
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "<b>Vertidos urbanos</b><br>Los sistemas de vertido de aguas residuales (pozos negros, fosas sépticas, redes de saneamiento), contienen sustancias procedentes de actividades domésticas (alimentos, deyecciones, basuras, productos de limpieza y jabones, etc.). Físicamente presentan color gris y diversas materias flotantes. Químicamente se caracterizan por contener gran cantidad de materia orgánica y biológicamente por contener gran cantidad de microorganismos, algunos de los cuales capaces de producir enfermedades."
+            },
+            {
+              "punto": "<b>Vertidos industriales</b><br>La contaminación se produce por las aguas y líquidos residuales industriales, desechos sólidos de la industria, vertidos o almacenados, humos, almacenamiento de materias primas así como de su transporte, accidentes y fugas. Los procesos industriales generan una gran variedad de aguas residuales que pueden tener orígenes muy distintos en función de los usos a los que se destine el agua. Los contaminantes pueden ser orgánicos o inorgánicos en función de la actividad de la industria que los genera."
+            },
+            {
+              "punto": "<b>Vertidos agrícolas y ganaderos</b><br>Son resultado del riego y de otras actividades de limpieza ganadera que pueden aportar al agua grandes cantidades de orines y estiércol (mucha materia orgánica y microorganismos). Pero también por el uso masivo de fertilizantes químicos así como plaguicidas de uso en la agricultura. Al contrario de la contaminación urbana, que puede considerarse puntual, aquí la contaminación que se origina es dispersa."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Los contaminantes del agua son muy numerosos y se pueden clasificar de diferentes maneras. Una manera sencilla de clasificarla es atendiendo a la <b>naturaleza de los contaminantes</b>."
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminantes físicos",
+      "fondo": "img/mod02/33a.jpg",
+      "contenido": [
+        {
+          "clase": "lista",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "contenido": [
+            {
+              "punto": "<b>Materiales en suspensión</b><br>Provocan turbidez en el agua, disminuyendo la penetración de la luz lo que dificulta la vida de algunos organismos. Los sedimentos que se van acumulando destruyen sitios de alimentación o desove de peces, rellenan lagos o pantanos y obstruyen canales, rías y puertos."
+            },
+            {
+              "punto": "<b>Calor</b><br>En muchos procesos industriales el agua se utiliza para refrigerar un proceso. Si esta agua caliente se libera, puede elevar la temperatura de ríos o embalses, lo que disminuye su capacidad para contener oxígeno, afectando a la supervivencia de los organismos acuáticos."
+            },
+            {
+              "punto": "<b>Ruido</b><br>Como consecuencia de la actividad humana en plataformas petrolíferas, motores de barcos, sonar o turbinas se producen ruidos capaces de afectar a los mamíferos marinos, impidiendo sus comunicaciones y afectando a su comportamiento, desorientándolos o hacerles sufrir lesiones en su sistema auditivo y nervioso."
             }
           ]
         }
       ]
     },
+    {
+      "titulo": "Contaminantes químicos",
+      "fondo": "img/mod02/33b.jpg",
+      "contenido": [
+        {
+          "clase": "lista",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "contenido": [
+            {
+              "punto": "<b>Orgánicos</b><br>Son residuos que pueden ser degradados por bacterias aeróbicas en procesos que consumen oxígeno, por lo que un exceso de estos residuos produce la proliferación de este tipo de bacterias que agotan el oxígeno, por lo que peces y otros organismos acuáticos que necesitan el oxígeno no pueden vivir en estas aguas.",
+              "contenido": [
+                {
+                  "punto": "<u>Materia orgánica:</u> Procedente de aguas residuales (tanto urbanas como de ganadería) o de industrias de tratamiento de alimentos."
+                },
+                {
+                  "punto": "<u>Productos industriales:</u> Muchos compuestos como petróleo, gasolina, plásticos, plaguicidas, etc. acaban en el agua y en muchos casos, al ser productos fabricados por el hombre, tienen estructuras moleculares complejas difíciles de degradar por los microorganismos."
+                }
+              ]
+            },
+            {
+              "punto": "<b>Inorgánicos</b><br>Incluye los ácidos, las sales y los metales pesados. Si están en grandes cantidades pueden causar graves daños a los seres vivos, disminuir los rendimientos agrícolas y corroer los equipos que se usan para trabajar con el agua.",
+              "contenido": [
+                {
+                  "punto": "<u>Fertilizantes y detergentes.</u> Ricos en nitratos y fosfatos, con lo que producen eutrofización."
+                },
+                {
+                  "punto": "<u>Metales pesados.</u> Los metales pesados como el mercurio, plomo, cadmio y arsénico son contaminantes graves que entran en las cadenas tróficas marinas y, a través de ellas, se concentran."
+                },
+                {
+                  "punto": "<u>pH.</u> Acidificación de las aguas."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminantes biológicos",
+      "fondo": "img/mod02/34b.jpg",
+      "contenido": [
+        {
+          "clase": "lista",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "contenido": [
+            {
+              "punto": "<b>Microorganismos patógenos</b><br>Son los diferentes tipos de microorganismos (bacterias, virus, protozoos y hongos) capaces de producir enfermedades como diarreas, tifus, cólera, hepatitis, etc. Normalmente llegan al agua a través de las heces y otros restos orgánicos de personas o animales infectados."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Eutrofización",
+      "fondo": "img/mod02/34.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "opacidad": 0.8,
+          "subclase": "recuadro",
+          "texto": "La contaminación de las aguas genera muchos problemas, pero entre los más importantes está la <b>eutrofización</b>."
+        },
+        {
+          "clase": "texto",
+          "opacidad": 0.8,
+          "subclase": "recuadro",
+          "texto": "La eutrofización es uno de los principales problemas de contaminación que se van a encontrar en el futuro. Se produce en todo tipo de aguas, pero fundamentalmente en aquellas con poco movimiento (embalses, lagos, ríos de curso lento...)."
+        }
+      ]
+    },
+    {
+      "titulo": "Diagrama del proceso",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En el esquema se resume el proceso de eutrofización."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/diagrama.png"
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "titulo": "Resumen del proceso",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Las aguas se enriquecen con nitrógeno y fósforo (procedentes de la actividad humana) que son nutrientes para las algas y fitoplancton, por lo que se produce un crecimiento desmesurado de las mismas en las capas superficiales, con lo que se produce un aumento de la turbidez del agua y se va impidiendo la entrada de luz solar a las capas inferiores. Al existir menos luz solar, las plantas del fondo se mueren con lo que se disminuye el oxígeno disuelto en el agua y los organismos con gran requerimiento de oxígeno se van muriendo por falta del mismo. La muerte de todos estos organismos conlleva más materia orgánica para degradar, lo que implica más consumo de oxígeno disuelto, etc. hasta llegar a un punto en que las condiciones se vuelven anóxicas (sin oxígeno) y la degradación de la materia orgánica se produce por microorganismos fermentadores con lo que se desprenden gases tóxicos como el ácido sulfhídrico (H2S), metano (CH4) y amoniaco (NH3). El agua presenta aspecto nauseabundo y malos olores y el número de especies se reduce considerablemente y la actividad termina por limitarse a la superficie. Todos estos organismos muertos se acumulan sobre el fondo y no son totalmente consumidos por los organismos descomponedores de tal manera que el lecho se va rellenando de sedimentos y su profundidad va disminuyendo, pudiendo llegar a convertir el cuerpo de agua en tierra firme. El resultado final es un ecosistema casi destruido."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Si el fenómeno no es excesivamente grave se pueden encontrar especies vegetales y animales adaptadas a aguas pobres en oxígeno (como las carpas, barbos...) mientras que las especies características de aguas bien oxigenadas, como las truchas, habrán desaparecido.<br>Otros problemas de la contaminación del agua son la acidificación de las aguas superficiales,  y la pérdida de biodiversidad, así como el aumento de la persistencia y bioacumulación de contaminantes en los organismos acuáticos.<br>Las grandes cantidades de plástico echadas al mar son las responsables de la muerte de muchas focas, delfines, ballenas, tortugas y aves marinas que quedan atrapadas en ellas o se las comen."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/35.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "El suelo",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/36.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "El suelo es un recurso natural situado en la capa superior de la corteza terrestre. Constituye un conjunto complejo de elementos físicos, químicos y biológicos que compone el soporte físico sobre el que se desarrollan plantas y animales. Contiene agua y elementos nutritivos que los seres vivos utilizan, permitiendo la vida de vegetales, animales y también de los seres humanos, ya que dependemos de él para la producción de alimentos, crianza de animales, obtención de agua, recursos minerales, etc. y además el suelo es también el sustrato donde se sitúan los núcleos urbanos y las infraestructuras necesarias para las distintas actividades humanas."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "La ausencia de planificación del uso del suelo trae consigo graves lesiones y desequilibrios de índole económica."
+        },
+        {
+          "clase": "texto",
+          "texto": "Las causas de su degradación tienen su origen en la sobreexplotación y en prácticas de manejo del suelo y del agua inadecuadas: extracción intensiva de recursos, intensificación de la agricultura y deforestación, actividad industrial, incendios, urbanización..."
+        }
+      ]
+    },
+
+
+
+
+
+
+
     {
       "titulo": "Factores abióticos",
       "fondo": "img/mod01/05.jpg",
@@ -526,78 +793,7 @@
         }
       ]
     },
-    {
-      "titulo": "Ecosistema",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Cuando la evaluación de un entorno incluye al biotopo y a los seres vivos del mismo, se emplea el término ecosistema (la suma de distintos ecosistemas interdependientes conforma los llamados biomas y la suma de todos los biomas del planeta da lugar a la biosfera).<br>Según el Convenio de Naciones Unidas sobre Diversidad Biológica, un ecosistema es un conjunto de hábitats, las especies que viven en ellos y las relaciones que se establecen entre los mismos."
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/mod01/ecosistema.png"
-            },
-            {
-              "clase": "texto",
-              "texto": "Cada ecosistema se delimita obedeciendo a unas características más o menos definidas para su estudio como, por ejemplo: el mar, un bosque, un estanque, una ciudad o, en otra escala, también sería un ecosistema nuestra propia piel o un árbol.<br>Un ecosistema agrupa distintas poblaciones de flora (conjunto de especies de plantas) y fauna (conjunto de especies de animales) que comparten un lugar y, lógicamente, los recursos (recurso: todo lo que un organismo toma del ambiente y cuya cantidad puede variar por acción del consumo, por ejemplo, el agua, las presas, el oxígeno, el espacio...). También se incluyen los microorganismos (por ejemplo: bacterias y hongos) cuyo papel es muy importante. Por tanto, en cada ecosistema conviven y se interrelacionan los diferentes seres vivos que lo integran."
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "Los recursos constituyen un medio de vida para las especies y existen lugares en los cuales el número de especies es muy bajo, debido a las difíciles condiciones que allí se dan (como por ejemplo desiertos) y otros, como las selvas, en el que el número de especies es innumerable."
-        }
-      ]
-    },
-    {
-      "titulo": "Biodiversidad",
-      "contenido": [
-        {
-          "clase": "listaObjetos",
-                    "animacion": "fadeInRight",
-          "contenido": [
-            {
-              "clase": "texto",
-              "texto": "El término que alude a la variedad de seres vivos diferentes que viven en un determinado territorio se denomina biodiversidad (y, en consecuencia, la pérdida de biodiversidad es la desaparición de especies, muchas de ellas como consecuencia de la actividad humana que causa variaciones de los componentes del biotopo). A través de la diversidad se mide el grado de organización de los ecosistemas, que será mayor cuanto mayor sea el número de especies diferentes que lo integren, no existiendo especies dominantes."
-            },
-            {
-              "clase": "imagen",
-              "ancho": 400,
-              "imagen": "img/mod01/07.jpg"
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "Las relaciones que pueden establecer entre sí los seres vivos de un ecosistema pueden ser muy variadas y se dan tanto dentro de la misma especie (intraespecíficas) como entre especies diferentes (interespecíficas)."
-        },
-        {
-          "clase": "lista",
-          "contenido": [
-            {
-              "punto": "<b>Competencia</b>",
-              "contenido": [
-                {
-                  "punto": "<u>Intraespecífica.</u> Cuando los individuos de una misma especie utilizan los mismos recursos (siendo este un factor limitante)."
-                },
-                {
-                  "punto": "<u>Interespecífica.</u> Aquella que tiene lugar cuando individuos de especies diferentes explotan un mismo recurso vital limitado. Cuanto más parecido sea el recurso necesario, mayor será la competencia."
-                }
-              ]
-            },
-            {
-              "punto": "<b>Asociaciones intraespecíficas:</b> Existen diferentes tipos de asociaciones, pero todas tienen en común la obtención de un beneficio (defensa contra depredadores, obtención cooperativa de alimentos...)."
-            },
-            {
-              "punto": "<b>Relaciones interespecíficas:</b> Son aquellas relaciones que se dan entre individuos de especies diferentes. Algunos ejemplos serían: depredación, parasitismo, mutualismo, comensalismo, inquilinismo... En la mayoría de los casos, tienen carácter alimentario."
-            }
-          ]
-        }
-      ]
-    },
+
     {
       "titulo": "Relaciones tróficas",
       "contenido": [
@@ -659,9 +855,9 @@
               "imagen": "img/mod01/10.jpg",
               "pie": "Consumidor secundario"
             },
-                        {
-                          "clase": "imagen",
-                          "subclase": "rotarIzq",
+            {
+              "clase": "imagen",
+              "subclase": "rotarIzq",
               "imagen": "img/mod01/11.jpg",
               "pie": "Descomponedores"
             }
@@ -669,7 +865,7 @@
         }
       ]
     },
-        {
+    {
       "titulo": "Red trófica",
       "contenido": [
         {
@@ -695,43 +891,8 @@
         }
       ]
     },
-            {
-      "titulo": "Procesos cíclicos",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Así como la energía pasa de un nivel trófico al siguiente para al final perderse en forma de calor, la materia sigue un proceso cíclico, puesto que al final puede ser de nuevo reutilizada. La naturaleza funciona como un mecanismo productivo en el que los desechos o residuos que producen unos seres vivos son los alimentos o recursos para otros, constituyendo procesos cíclicos donde todo lo que se produce se aprovecha, sin que se produzcan residuos."
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-                        {
-              "clase": "imagen",
-              "imagen": "img/mod01/diagrama.png"
-            },
-            {
-              "clase": "listaObjetos",
-              "subclase": "columna",
-              "contenido": [
-                {
-                  "clase": "texto",
-                  "texto": "El funcionamiento de todos los ecosistemas es parecido: todos necesitan una fuente de energía (siendo el Sol la fuente principal) que va fluyendo, sólo en una dirección, a través de todos los componentes del ecosistema, mientras que la materia se encuentra en movimiento continuo en un ciclo cerrado."
-                },
-                {
-                  "clase": "texto",
-                  "texto": "Es muy importante destacar que los ecosistemas no son sistemas estáticos sino dinámicos, es decir que se encuentran en continua evolución y cambios con el tiempo, si bien tienden a mantenerse en <b>equilibrio</b> y sus poblaciones a mantenerse constantes, evitando la superpoblación o la extinción mediante diferentes estrategias."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "Estos cambios pueden deberse a múltiples factores: físicos, químicos o biológicos."
-        }
-      ]
-    },
-        {
+
+    {
       "titulo": "El ser humano",
       "contenido": [
         {
@@ -753,7 +914,7 @@
                   "clase": "texto",
                   "texto": "El ser humano es, en teoría, sólo una especie más, pero su gran capacidad para explotar los recursos naturales y su dominio sobre la energía lo convierten en una especie diferente a las otras."
                 }
-                              ]
+              ]
             },
             {
               "clase": "imagen",

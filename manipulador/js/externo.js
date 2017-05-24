@@ -11,10 +11,16 @@
         ]);
             break;
         case "mod02": arrayFinal = arrayComun.concat([
+            "js/jointJS/lodash.min.js",
+            "js/jointJS/backbone-min.js",
+            "js/jointJS/joint.min.js",
             "js/bootstrap/bootstrap.min.js"
         ]);
             break;
         case "modPes": arrayFinal = arrayComun.concat([
+            "js/jointJS/lodash.min.js",
+            "js/jointJS/backbone-min.js",
+            "js/jointJS/joint.min.js",
             "js/snapsvg/snap.svg-min.js"
         ]);
             break;
