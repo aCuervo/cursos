@@ -749,12 +749,470 @@
         }
       ]
     },
-
-
-
-
-
-
+    {
+      "titulo": "Suelo contaminado",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "subclase": "ajustarAncho",
+          "imagen": "img/mod02/37.jpg"
+        },
+        {
+          "clase": "texto",
+          "texto": "Un <b>suelo contaminado</b> es aquel cuyas características y calidad han sido alteradas negativamente por la presencia de componentes químicos de carácter peligroso procedentes de la actividad humana, en concentración tal que comporten un riesgo inaceptable para la salud o el medio ambiente. La presencia de todo este tipo de sustancias en altas concentraciones confiere al suelo propiedades nocivas, insalubres, molestas o peligrosas para el desarrollo de plantas y animales. La contaminación del suelo puede repercutir sobre la cadena alimenticia y sobre la contaminación de las aguas."
+        }
+      ]
+    },
+    {
+      "titulo": "Causas",
+      "fondo": "img/mod02/41.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Entre otras, las principales causas de la contaminación del suelo pueden deberse a:"
+        },
+        {
+          "clase": "acordeon",
+          "contenido": [
+            {
+              "titulo": "Almacenamiento incorrecto de productos y/o residuos en actividades industriales",
+              "texto": "Constituye una de las fuentes de contaminación más usuales y muchas veces es debido a fugas en tanques de almacenamiento o vertidos accidentales en superficies sin impermeabilizar. Las pequeñas fugas en tanques enterrados, en caso de producirse en un largo periodo de tiempo, pueden llegar a provocar la pérdida de una gran cantidad de producto con el consiguiente peligro de contaminación del subsuelo y de las aguas subterráneas. Con el fin de evitar fugas y pérdidas, los tanques de almacenamiento deben estar sometidos a control y mantenimiento con una periodicidad adecuada.",
+              "imagen": "img/mod02/38.jpg",
+              "ancho": 300
+            },
+            {
+              "titulo": "Vertidos de residuos incontrolados",
+              "texto": "Pueden provocar, a partir de la lixiviación de determinados residuos, la contaminación no solo del suelo, sino de aguas superficiales y aguas subterráneas. Debe impedirse el abandono de residuos sin control utilizando las instalaciones adecuadas para su disposición.",
+              "imagen": "img/mod02/39.jpg",
+              "ancho": 300
+            },
+            {
+              "titulo": "Escombros industriales",
+              "texto": "Muchas veces el abandono de antiguas actividades industriales puede generar restos de edificaciones, muy a menudo contaminados como consecuencia de los anteriores procesos industriales que tenían lugar a cabo en ese emplazamiento. Esto puede provocar la aportación adicional de contaminación al entorno, así como un peligro para las personas que pudieran entrar en contacto con los mismos. Por este motivo es importante el desmantelamiento controlado de estos escombros, gestionando toda la tipología de residuos almacenados (vaciado y limpieza de tuberías, tanques y depósitos), gestión de posibles residuos almacenados, identificación y retirada controlada de estructuras o instalaciones que contengan material tóxico o peligroso, la demolición y gestión adecuada de los escombros, etc. Además pueden hallarse abandonados determinados productos y residuos en malas condiciones de almacenamiento, con el consiguiente peligro de contaminación del suelo y de las aguas, así como de evaporación de compuestos volátiles.",
+              "imagen": "img/mod02/40.jpg",
+              "ancho": 300
+            },
+            {
+              "titulo": "Antiguos entierros de residuos",
+              "texto": "Los entierros antiguos e ilegales de residuos provocaron en ciertos casos una contaminación del suelo y de las aguas subterráneas debido al trasvase de su contenido a estos medios (por ejemplo bidones).",
+              "imagen": "img/mod02/42.jpg",
+              "ancho": 300
+            },
+            {
+              "titulo": "Uso incorrecto de abonos y plaguicidas",
+              "texto": "Uno de los principales contaminantes del suelo son los productos utilizados en la agricultura, como fertilizantes, plaguicidas y herbicidas, productos que además pueden acabar trasladándose a las aguas subterráneas.",
+              "imagen": "img/mod02/43.jpg",
+              "ancho": 300
+            },
+            {
+              "titulo": "Accidentes en el transporte de mercancías",
+              "texto": "De manera accidental pueden producirse vertidos durante el transporte de mercancías peligrosas que deberán identificarse y solucionarse con rapidez y eficacia para evitar consecuencias de contaminación del suelo o de las aguas de difícil solución.",
+              "imagen": "img/mod02/44.jpg",
+              "ancho": 300
+            },
+            {
+              "titulo": "Vertidos incontrolados de aguas residuales",
+              "texto": "Procedentes de industrias, municipios o instalaciones ganaderas, sin tratamiento y que puedan contener sustancias químicas contaminantes, pueden producir una contaminación del suelo y de las aguas superficiales y subterráneas. Por ese motivo deben utilizarse las depuradoras y realizarse un vertido controlado de las aguas. También debido al alcantarillado antiguo o en mal estado pueden producirse fugas y escapes que pueden provocar la contaminación del subsuelo y de las aguas subterráneas. El deterioro del alcantarillado puede acelerarse, por ejemplo, con el vertido continuado de sustancias corrosivas.",
+              "imagen": "img/mod02/45.jpg",
+              "ancho": 300
+            },
+            {
+              "titulo": "Deposición de contaminantes atmosféricos",
+              "texto": "Las emisiones no controladas pueden suponer la aportación a la atmósfera de determinados compuestos que posteriormente, debido a la acción de la gravedad, se depositarán en el suelo donde quedarán acumulados. Se trata de contaminaciones difundidas que, a menudo, abarcan áreas extensas.",
+              "imagen": "img/mod02/46.jpg",
+              "ancho": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Problemas derivados",
+      "fondo": "img/mod02/49.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Los problemas directamente derivados del uso de los suelos, por parte del hombre, son actualmente muy severos:"
+        },
+        {
+          "clase": "acordeon",
+          "contenido": [
+            {
+              "titulo": "Pérdida de calidad del suelo",
+              "texto": "El suelo pierde sus capacidades para la agricultura o cualquier otra labor productiva (erosión, desertificación, pérdida de fertilidad por monocultivo y salinización...).",
+              "imagen": "img/mod02/47.jpg",
+              "ancho": 300
+            },
+            {
+              "titulo": "Contaminación de las aguas",
+              "texto": "La contaminación de las aguas superficiales, tales como ríos, lagos, embalses o zonas costeras, puede producirse como resultado de la descarga de acuíferos contaminados a las aguas superficiales o a través de las aguas de escorrentía procedentes de emplazamientos contaminados que se aportan a las aguas superficiales.<br>La contaminación de las aguas subterráneas puede producirse a causa de la migración de contaminantes de la zona no saturada de agua hacia la zona saturada de agua (acuífero). Cuando la contaminación llega a las aguas subterráneas, ésta puede desplazarse y provocar sus efectos en puntos alejados del foco en el que se ha originado el problema.",
+              "imagen": "img/mod02/48.jpg",
+              "ancho": 300
+            },
+            {
+              "titulo": "Envenenamientos por contacto directo o a través de la cadena alimentaria",
+              "texto": "La contaminación de las aguas, como consecuencia de la contaminación previa del suelo, entre otras, puede provocar la contaminación de pozos de abastecimiento para uso agrícola, industrial o municipal y suponer un peligro para las personas asociado a la ingestión de agua o de vegetales (frutas y hortalizas) regadas con dicha agua contaminada. En el caso de animales de granja, estos pueden verse contaminados al beber agua contaminada e, indirectamente, el ser humano por consumo de productos ganaderos contaminados.<br>Las aguas superficiales contaminadas en lugares destinados a uso recreativo pueden suponer un peligro para las personas asociado al contacto dérmico con el agua, la ingestión accidental de agua o la inhalación de vapores.<br>La presencia de suelos contaminados en áreas recreativas públicas o jardines particulares puede suponer un riesgo de contacto con el suelo contaminado y la posibilidad de ingestión accidental de dicho suelo por niños al jugar en el mismo.",
+              "imagen": "img/mod02/50.jpg",
+              "ancho": 300
+            },
+            {
+              "titulo": "Ocupación",
+              "texto": "En edificios construidos sobre suelos contaminados, la evaporación de compuestos volátiles desde el suelo puede provocar su movilización e introducción en el interior de edificios a través de paredes o conductos y suponer un riesgo de inhalación de contaminantes para las personas. En estos casos, la acumulación de compuestos volátiles suele hallarse en sótanos de edificios.<br>Por otro lado, el avance de las ciudades que conlleva la desaparición de suelos y zonas de carácter rural.",
+              "imagen": "img/mod02/51.jpg",
+              "ancho": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Las ciudades",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Desde hace décadas se ha producido un fuerte desarrollo económico de los países industrializados y la acumulación de la población en grandes ciudades. Año tras año la población que habita en las ciudades se incrementa de forma notable, y se prevé que de aquí a pocos años (2025) el 80% de la población viva en entornos urbanos."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Esta concentración humana se traduce, necesariamente, en un aumento de las demandas de energía y recursos naturales y de los problemas asociados a la conservación y protección del medio ambiente (contaminación, ruidos, residuos, zonas verdes, etc.)."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "La ciudad se ha convertido en el medio principal donde el ser humano desarrolla su vida. Es un ecosistema con sus propias características de funcionamiento interno, que necesita de constantes medidas de corrección en beneficio de la salud y calidad de vida de sus integrantes: los  ciudadanos."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/51b.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Los ciudadanos somos consumidores de bienes y servicios con capacidad de elección, así como generadores directos de contaminación y residuos en el hogar, en el trabajo, en los espacios de ocio..."
+        },
+        {
+          "clase": "texto",
+          "texto": "La satisfacción de las necesidades y las consecuencias de las actividades humanas en las ciudades requieren de la planificación y de la adecuada gestión de las autoridades, pero también de la colaboración de los ciudadanos, individual y colectivamente."
+        }
+      ]
+    },
+    {
+      "titulo": "Ciudades en España",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Las ciudades en España han seguido, a lo largo de su historia, el modelo de ciudad mediterránea compacta, compleja, eficiente y cohesionada socialmente. De un tiempo a esta parte, por diversas razones, se ha adoptado un nuevo modelo importado del mundo anglosajón, basado en un modelo urbanístico disperso y en el que se hace una separación de uso (ocio, viviendas, actividad industrial, etc.) siendo más ineficiente y segregando a la población en base a su nivel económico."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "El modelo de ciudad compacta y compleja, eficiente y cohesionada socialmente (con las modificaciones necesarias para acomodarla a los nuevos retos) sigue siendo el modelo que mejor se ajusta al modelo de ciudad sostenible y, a la vez, al modelo de ciudad del conocimiento. Dos modelos de ciudad que deben coincidir ya que el desarrollo de uno no tiene lugar sin el otro."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "Las Administraciones Nacional, Autonómica y Local, así como empresarios y expertos de la industria tecnológica, trabajan conjuntamente en las últimas tendencias del sector y las capacidades y aportaciones de las empresas de las tecnologías y las comunicaciones al servicio de las ciudades y comunidades en su evolución hacia el concepto de ciudades digitales y sostenibles."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/51c.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Las ciudades de España deben orientarse hacia escenarios más sostenibles para resolver los problemas ambientales, sociales y económicos que afectan a la calidad de vida de los ciudadanos. Se debe conseguir un urbanismo que fomente el modelo de ciudad compacta, compleja y cohesionada socialmente, que fomente el ahorro energético, la movilidad sostenible, la construcción eficiente energéticamente y que desarrolle la implantación de energías renovables a nivel local."
+        }
+      ]
+    },
+    {
+      "titulo": "Deterioro ambiental urbano",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "El aumento en extensión y densidad de las ciudades y áreas metropolitanas conlleva dos tipos de problemas ambientales asociados:",
+          "contenido": [
+            {
+              "punto": "Disminución en la calidad de vida de sus habitantes (ruidos, contaminación, tráfico...)."
+            },
+            {
+              "punto": "Urbanismo y ordenación del territorio: el crecimiento de las ciudades y la ocupación del suelo, o dicho de otro modo la ocupación y posterior degradación de los suelos y zonas de carácter rural."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "La planificación del crecimiento de las zonas urbanas y de las actividades que éstas albergan, debe realizarse de forma equilibrada y bajo la perspectiva de las personas que conviven en ellas."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/52.jpg"
+            },
+            {
+              "clase": "lista",
+              "titulo": "Para ello, mediante la planificación urbanística y la ordenación del territorio, las autoridades deben garantizar:",
+              "contenido": [
+                {
+                  "punto": "Zonas verdes y de esparcimiento suficientes para la población."
+                },
+                {
+                  "punto": "La adecuada protección de los espacios rurales y naturales."
+                },
+                {
+                  "punto": "Viviendas de calidad para todos en entornos habitables y sanos."
+                },
+                {
+                  "punto": "Ubicación ambientalmente adecuada de las actividades económicas e industriales."
+                },
+                {
+                  "punto": "Comunicaciones en zonas urbanas."
+                },
+                {
+                  "punto": "Abastecimientos y servicios necesarios (agua, electricidad, sanidad, educación, saneamiento, recogida y tratamiento de residuos...)."
+                },
+                {
+                  "punto": "Ahorro energético y de recursos en el diseño urbano."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "El clima en las ciudades",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Las características de las construcciones urbanas, junto con alguna de las circunstancias contaminantes, provocan cambios en su clima y diferencias significativas respecto del entorno rural próximo. Por ejemplo:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/53.jpg"
+            },
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "El calentamiento del asfalto y de los edificios provoca cambios en la climatología, pudiendo llegar a elevar la temperatura ambiente hasta 10ºC más en comparación con las áreas rurales circundantes."
+                },
+                {
+                  "punto": "Las partículas contaminantes se concentran entre 10 a 15 veces más sobre las ciudades, lo que puede aumentar la nubosidad y las precipitaciones locales hasta en un 20% más."
+                },
+                {
+                  "punto": "La disminución en la velocidad de los vientos, de hasta un 20%, favorece la contaminación de gases contaminantes."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Todo esto llega a provocar una serie de problemas ambientales en las ciudades muy importantes."
+        }
+      ]
+    },
+    {
+      "titulo": "Origen de los contaminantes",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Podemos considerar las ciudades como grandes máquinas que consumen o importan enormes cantidades de energía y recursos naturales. Esto implica que se producen contaminantes y desechos que, si no son gestionados de manera adecuada, pueden suponer un problema de salud y ambiental."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "Los problemas de contaminación en las ciudades pueden tener diferentes orígenes:",
+                  "contenido": [
+                    {
+                      "punto": "Consumo de energía"
+                    },
+                    {
+                      "punto": "Tráfico."
+                    },
+                    {
+                      "punto": "Contaminación atmosférica."
+                    },
+                    {
+                      "punto": "Ruido."
+                    },
+                    {
+                      "punto": "Producción de residuos de distinta procedencia."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/54.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Las zonas urbanas están sometidas a una amplia gama de contaminantes con efectos directos sobre la salud. Además, estos contaminantes erosionan los edificios y perjudican el medio ambiente natural."
+        }
+      ]
+    },
+    {
+      "titulo": "Problemas ambientales en la ciudad",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/55.jpg"
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "A la contaminación asociada a las principales industrias, que generalmente se localizan en la periferia de las ciudades, hay que sumarle la producida en las zonas urbanas, originada fundamentalmente por la calefacción y el tráfico."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "Buena parte de las emisiones de CO2 procedentes de combustibles fósiles son causadas por los coches, al igual que los NOX y todos ellos responsables del efecto invernadero y la lluvia ácida."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "Compartiendo vehículo, no solo se ahorra combustible, sino que también se mejora la eficacia de los transportes públicos al disminuir la intensidad del tráfico. Con la revisión y el correcto reglado del coche se evitarían emisiones adicionales de CO2."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "El ruido",
+      "fondo": "img/mod02/56.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "El <b>ruido</b> se define como aquel sonido no deseado y es aquella emisión de energía originada por un fenómeno vibratorio que es detectado por el oído y provoca una sensación de molestia. Este carácter de molestia, intrínseco a la definición de ruido, añade un componente no acústico sino subjetivo que necesita de la fisiología, psicología, sociología y otras disciplinas para ser correctamente interpretado. Existen situaciones en las que las molestias son evidentes, ya que la exposición al ruido puede provocar daños físicos evaluables, sin embargo, en gran parte de los casos, el riesgo para la salud no es tan fácil de cuantificar, interviniendo factores psicológicos y sociales"
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminación acústica",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Por contaminación acústica se entiende la presencia en el ambiente de ruidos o vibraciones, que implican molestia, riesgo o daño para las personas, para el desarrollo de sus actividades o para los bienes de cualquier naturaleza o que causa efectos significativos sobre el medio ambiente."
+            },
+            {
+              "clase": "listaObjetos",
+              "contenido": [
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod02/57.jpg"
+                },
+                {
+                  "clase": "texto",
+                  "texto": " "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Esta contaminación es especialmente perceptible en las grandes ciudades, en áreas de tráfico intenso y en lugares cercanos a zonas industriales. Los diferentes medios de transporte de personas y mercancías, toda la actividad urbana como obras, actividades industriales, ocio, megafonía, etc. han contribuido al aumento de los niveles de ruido hasta convertir la contaminación acústica en un problema añadido de la vida en la ciudad."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "El ruido excesivo tiene consecuencias negativas para nuestra salud física y mental, así como en nuestras relaciones sociales. Aunque no todas las personas perciben las molestias causadas por el ruido de la misma forma, se consideran los 65dB de nivel sonoro equivalente diario como el límite superior aceptable para el ruido ambiental. Si se alcanzan los 80 dB se considera que el ruido es molesto, peligroso si llega a los 100 dB y a los 130 dB nos encontramos en el umbral del dolor."
+            },
+            {
+              "clase": "lista",
+              "titulo": "Algunos ejemplos:",
+              "contenido": [
+                {
+                  "punto": "Vehículo en marcha. Aproximadamente: 65 dB."
+                },
+                {
+                  "punto": "Camión de basura. Aproximadamente: 80 dB."
+                },
+                {
+                  "punto": "Avión durante el despegue. Aproximadamente: 120 dB."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Niveles de ruido",
+      "contenido": [
+        {
+          "clase": "imagen",
+          "imagen": "img/mod02/58.png"
+        }
+      ]
+    },
+    {
+      "titulo": "Métodos de paliación",
+      "fondo": "img/mod02/59.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Respetar los niveles de emisión de ruidos, establecer sistemas y barreras aislantes o planificar tanto la ubicación de las actividades ruidosas como las sensibles (hospitales, escuelas…) son algunas de las estrategias a seguir en las ciudades para disminuir la contaminación acústica o sus efectos nocivos."
+        },
+                {
+                  "clase": "texto",
+                  "subclase": "recuadro",
+                  "opacidad": 0.8,
+          "texto": "Las zonas verdes arboladas contribuyen a paliar los efectos de la contaminación y el ruido en las ciudades, además de suavizar las variaciones climáticas. Las cuestiones relacionadas con la contaminación acústica están reguladas legalmente (Ley 37/2003, de 17 de noviembre del Ruido)."
+        }
+      ]
+    },
 
     {
       "titulo": "Factores abióticos",
