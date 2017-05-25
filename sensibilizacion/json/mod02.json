@@ -1205,90 +1205,37 @@
           "opacidad": 0.8,
           "texto": "Respetar los niveles de emisión de ruidos, establecer sistemas y barreras aislantes o planificar tanto la ubicación de las actividades ruidosas como las sensibles (hospitales, escuelas…) son algunas de las estrategias a seguir en las ciudades para disminuir la contaminación acústica o sus efectos nocivos."
         },
-                {
-                  "clase": "texto",
-                  "subclase": "recuadro",
-                  "opacidad": 0.8,
-          "texto": "Las zonas verdes arboladas contribuyen a paliar los efectos de la contaminación y el ruido en las ciudades, además de suavizar las variaciones climáticas. Las cuestiones relacionadas con la contaminación acústica están reguladas legalmente (Ley 37/2003, de 17 de noviembre del Ruido)."
-        }
-      ]
-    },
-
-    {
-      "titulo": "Factores abióticos",
-      "fondo": "img/mod01/05.jpg",
-      "contenido": [
         {
           "clase": "texto",
           "subclase": "recuadro",
           "opacidad": 0.8,
-          "texto": "Los factores abióticos condicionan la distribución de los seres vivos (factores bióticos), influyendo sobre ellos y sobre su adaptación al medio. Existen unos límites de tolerancia para cada especie que actúan como factores limitantes para su supervivencia, no siendo posible la existencia si se sobrepasan tales márgenes (fíjate en la imagen del Morning Glory, en el Parque Yellowstone, dónde empiezan a desarrollarse las formas vegetales)."
+          "texto": "Las zonas verdes arboladas contribuyen a paliar los efectos de la contaminación y el ruido en las ciudades, además de suavizar las variaciones climáticas. Las cuestiones relacionadas con la contaminación acústica están reguladas legalmente (Ley 37/2003, de 17 de noviembre del Ruido)."
         }
       ]
     },
     {
-      "titulo": "Factores bióticos",
+      "titulo": "Contaminación lumínica",
       "contenido": [
         {
-          "clase": "lista",
-          "titulo": "Los factores bióticos son todos los organismos vivos así como las interacciones que se dan entre ellos. Los factores bióticos pueden dividirse en tres tipos:",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "punto": "Individuo:<br>Es una unidad independiente que pertenece a una especie.<br>Por ejemplo: una trucha en un río."
-            },
-            {
-              "punto": "Población:<br>Es la agrupación de varios individuos de la misma especie que habita en un lugar y en un momento determinado.<br>Por ejemplo: una población de truchas en un río."
-            },
-            {
-              "punto": "Comunidad:<br>Es el conjunto de poblaciones que habitan en un lugar y momento determinado.<br>Por ejemplo: una comunidad en un río serían todos los seres vivos que viven en dicho río y se relacionan entre ellos (insectos, ranas, truchas, nutrias...)."
-            }
-          ]
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "Suele emplearse el concepto de biocenosis (también llamada comunidad) para considerar a todos los seres vivos (animales, vegetales y microorganismos) que coexisten en un mismo biotopo."
-        }
-      ]
-    },
-
-    {
-      "titulo": "Relaciones tróficas",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Las principales relaciones son las relaciones tróficas o de alimentación. Los seres vivos necesitan un aporte constante de materia y energía para poder realizar, así, sus funciones vitales, por lo que en un ecosistema los seres vivos se alimentan unos de otros y forman cadenas de alimentación o cadenas tróficas.  Se distinguen, por lo tanto, tres niveles:"
-        },
-        {
-          "clase": "tabs",
-          "contenido": [
-            {
-              "titulo": "Productores",
-              "texto": "<b>Primer nivel: productores</b><br>Este nivel se caracteriza por usar la energía solar y sustancias inorgánicas y agua para producir moléculas orgánicas. Se correspondería con las plantas (ecosistemas terrestres) y las algas (ecosistemas acuáticos), que poseen pigmentos capaces de captar la luz solar y convertirla en energía que utilizan para sus procesos metabólicos."
-            },
-            {
-              "titulo": "Consumidores",
-              "texto": "<b>Segundo nivel: consumidores</b><br>La materia orgánica obtenida por los productores en el primer nivel es aprovechada para convertirla en materia orgánica propia. Los consumidores se alimentan de otros seres vivos. Dentro de este nivel se distinguen:",
+              "clase": "listaObjetos",
+              "subclase": "columna",
               "contenido": [
                 {
-                  "clase": "lista",
-                  "contenido": [
-                    {
-                      "punto": "Consumidores primarios. Constituido por los herbívoros."
-                    },
-                    {
-                      "punto": "Consumidores secundarios. Constituido por los animales que se alimentan de los herbívoros."
-                    },
-                    {
-                      "punto": "Consumidores terciarios. Animales que se alimentan de herbívoros o de otros carnívoros."
-                    }
-                  ]
+                  "clase": "texto",
+                  "texto": "Un problema emergente, que se está convirtiendo en grave en las ciudades más importantes de Europa, Asia y América es la contaminación lumínica."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "La <b>contaminación lumínica</b> es la emisión de luz, procedente de fuentes artificiales nocturnas en intensidades, direcciones y/o rangos espectrales donde no es necesario para la realización de las actividades previstas en la zona alumbrada."
                 }
               ]
             },
             {
-              "titulo": "Descomponedores",
-              "texto": "<b>Tercer nivel: descomponedores.</b><br>Son organismos que aprovechan la materia y energía que contienen los restos de los seres vivos (cadáveres, excrementos, etc.) descomponiendo la materia orgánica en materia inorgánica."
+              "clase": "imagen",
+              "imagen": "img/mod02/60.jpg"
             }
           ]
         },
@@ -1296,59 +1243,315 @@
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "imagen",
-              "subclase": "rotarDch",
-              "imagen": "img/mod01/08.jpg",
-              "pie": "Productores"
-            },
-            {
-              "clase": "imagen",
-              "subclase": "rotarIzq",
-              "imagen": "img/mod01/09.jpg",
-              "pie": "consumidor primario"
-            },
-            {
-              "clase": "imagen",
-              "subclase": "rotarDch",
-              "imagen": "img/mod01/10.jpg",
-              "pie": "Consumidor secundario"
-            },
-            {
-              "clase": "imagen",
-              "subclase": "rotarIzq",
-              "imagen": "img/mod01/11.jpg",
-              "pie": "Descomponedores"
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "El mal apantallamiento de la iluminación de exteriores envía la luz de forma directa hacia el cielo en vez de ser utilizada para iluminar el suelo.  Las actuales luminarias (y casi toda la red de alumbrados públicos) están diseñadas, más que por funcionalidad, por estética. La luz de estos artefactos no es dirigida al suelo para poder cumplir su función, que es iluminar la ciudad y no el cielo, sino que es dispersada alrededor del foco iluminador, como norma con la misma intensidad hacia el suelo que hacia el cielo."
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "titulo": "Red trófica",
+      "titulo": "La Tierra de noche",
+      "fondo": "img/mod02/62.jpg",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "En la naturaleza las relaciones que se establecen no son lineales, ya que un organismo puede alimentarse de varios organismos pertenecientes a distintos niveles y, a su vez, pueden ser comidos por distintos tipos de animales. En los ecosistemas hay una serie de cadenas tróficas que se entremezclan, formando una <b>red trófica</b>. La red trófica relaciona entre sí a todos los miembros de una comunidad."
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod01/flujo.png"
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Esto provoca que la luz que ilumina por encima del horizonte no cumpla con su cometido y por consiguiente es lanzada hacia la atmósfera con el consecuente desperdicio energético. Como ejemplo: solo en la ciudad de Nueva York se desperdicia energía eléctrica por un valor cercano a los veinte millones de dólares al año."
         }
       ]
     },
     {
-      "titulo": "Interacciones",
+      "titulo": "Consecuencias",
+      "fondo": "img/mod02/63.jpg",
       "contenido": [
         {
-          "clase": "texto",
-          "texto": "Dentro de un ecosistema, hay un flujo de materia y energía que se debe a las interacciones organismos-medio ambiente. La materia se aprovecha de forma continua, sin embargo, la energía se utiliza una sola vez y se pierde progresivamente a lo largo del proceso en forma de calor y trabajo, por lo que es necesario incorporarla al sistema de forma continuada:"
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod01/luzCalor.png"
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "subclase": "recuadro",
+                  "opacidad": 0.8,
+                  "titulo": "<b>Consecuencias</b>",
+                  "contenido": [
+                    {
+                      "punto": "Desperdicio de energía y desperdicio económico."
+                    },
+                    {
+                      "punto": "Deslumbramientos y/o zonas mal iluminadas que van en detrimento de la seguridad vial."
+                    },
+                    {
+                      "punto": "Contribución al cambio climático y a la generación de residuos durante la producción de ese exceso de energía."
+                    },
+                    {
+                      "punto": "Efectos contaminantes ocasionados por residuos tóxicos de las lámparas usadas (especialmente aquellas de vapor de mercurio)."
+                    },
+                    {
+                      "punto": "Alteración en los ciclos de diversas especies animales (principalmente aves)."
+                    },
+                    {
+                      "punto": "Pérdida de visibilidad del cielo nocturno."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
+    {
+      "titulo": "Iluminación exterior",
+      "fondo": "img/mod02/globe.jpg",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "acordeon",
+              "opacidad": 0.8,
+              "contenido": [
+                {
+                  "titulo": "<center>Características de una buena iluminación exterior</center>",
+                  "contenido": [
+                    {
+                      "clase": "lista",
+                      "contenido": [
+                        {
+                          "punto": "<b>Eficiente</b>: la luz se dirige al suelo y a los lados, que es donde se necesita."
+                        },
+                        {
+                          "punto": "<b>Uniforme</b>: se reduce el deslumbramiento. Se puede controlar y dirigir fácilmente y preserva el cielo oscuro de la noche."
+                        },
+                        {
+                          "punto": "<b>Barata</b>: porque utiliza menos energía ya que se aprovecha mejor."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Residuos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "El crecimiento de la población y de los procesos de producción y consumo se traducen en un aumento de la generación de residuos. Su producción se ha incrementado en los últimos 20 años de una manera alarmante, debido principalmente al aumento en el nivel de vida de los países desarrollados, y son reflejo de la falta de rendimiento e ineficacia de los procesos productivos y expresan la incapacidad para cerrar el ciclo productivo."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "La Ley 22/2011, de Residuos y suelos contaminados, define residuo como cualquier sustancia u objeto que su poseedor deseche o tenga la intención o la obligación de desechar. Los residuos se pueden clasificar como residuos peligrosos y residuos no peligrosos en función de las características de peligrosidad que presenten. Se dice que un residuo es peligroso cuando presenta alguna de las siguientes características capaces de provocar daños a la salud o al medio ambiente, durante su producción y gestión."
+                }
+              ]
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "La determinación de los residuos que han de considerarse como peligrosos y no peligrosos se hace de conformidad con la lista establecida en la Decisión de la Comisión 2000/532/CE de 3 de mayo de 2000 (LER) y su modificación por la Decisión 2014/955/CE."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "La gestión de los residuos peligrosos compete a un gestor autorizado, que los recogerá en depósitos de seguridad habilitados a tal efecto."
+                },
+                {
+                  "clase": "tabla",
+                  "filaTitulos": [
+                    {
+                      "titulo": "Icono"
+                    },
+                    {
+                      "titulo": "Significado"
+                    },
+                    {
+                      "titulo": "Icono"
+                    },
+                    {
+                      "titulo": "Significado"
+                    }
+                  ],
+                  "filaContenido": [
+                    {
+                      "fila": [
+                        {
+                          "imagen": "img/mod02/explosivo.png",
+                          "ancho": 128
+                        },
+                        {
+                          "texto": "<center><b>Explosivo</b></center>"
+                        },
+                        {
+                          "imagen": "img/mod02/peligroso.png",
+                          "ancho": 128
+                        },
+                        {
+                          "texto": "<center><b>Peligro para la salud</b></center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "imagen": "img/mod02/comburente.png",
+                          "ancho": 128
+                        },
+                        {
+                          "texto": "<center><b>Comburente</b></center>"
+                        },
+                        {
+                          "imagen": "img/mod02/toxico.png",
+                          "ancho": 128
+                        },
+                        {
+                          "texto": "<center><b>Toxicidad aguda</b></center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "imagen": "img/mod02/inflamable.png",
+                          "ancho": 128
+                        },
+                        {
+                          "texto": "<center><b>Inflamable</b></center>"
+                        },
+                        {
+                          "imagen": "img/mod02/grave.png",
+                          "ancho": 128
+                        },
+                        {
+                          "texto": "<center><b>Peligro grave para la salud</b></center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "imagen": "img/mod02/corrosivo.png",
+                          "ancho": 128
+                        },
+                        {
+                          "texto": "<center><b>Corrosivo</b></center>"
+                        },
+                        {
+                          "imagen": "img/mod02/medioambiente.png",
+                          "ancho": 128
+                        },
+                        {
+                          "texto": "<center><b>Peligro para el medioambiente</b></center>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Clasificación de residuos",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Otra forma de clasificar los residuos se realiza en base a su origen, nos encontramos así con residuos urbanos, comerciales, industriales, sanitarios, agrícolas y ganaderos."
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "Urbanos",
+              "texto": "Son los generados en las zonas urbanas como consecuencia de la actividad cotidiana de sus habitantes. Incluye los residuos domésticos y los residuos comerciales.",
+              "imagen": "img/mod02/65.png",
+              "ancho": 256,
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "<b>Residuos domésticos</b>: Generados en los hogares como consecuencia de las actividades domésticas. También se consideran residuos domésticos los similares a los anteriores generados en servicios e industrias. En esta categoría se incluyen los residuos generados en los hogares de aparatos eléctricos y electrónicos, ropa, pilas, acumuladores, muebles y enseres así como los residuos y escombros procedentes de obras menores de construcción y reparación domiciliaria. Tendrán la consideración de residuos domésticos los residuos procedentes de limpieza de vías públicas, zonas verdes, áreas recreativas y playas, los animales domésticos muertos y los vehículos abandonados."
+
+                    },
+                    {
+                      "punto": "<b>Residuos comerciales</b>: Generados por la actividad propia del comercio, al por mayor y al por menor, de los servicios de restauración y bares, de las oficinas y de los mercados, así como del resto del sector servicios."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Industriales",
+              "texto": "Residuos procedentes de los procesos de fabricación, de transformación, de utilización, de consumo, de limpieza o de mantenimiento generados por la actividad industrial, excluidas las emisiones a la atmósfera reguladas en la Ley 34/2007, de calidad del aire y protección de la atmósfera. Pueden ser de dos tipos:",
+              "imagen": "img/mod02/66.jpg",
+              "ancho": 256,
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "<b>Residuos inertes o asimilables a urbanos</b>: Son aquellos que requieren un tratamiento parejo a los urbanos, al tener características similares, o bien los que no pueden formar compuestos peligrosos (como, por ejemplo, los escombros)."
+                    },
+                    {
+                      "punto": "<b>Residuos peligrosos</b>: Aquellos residuos (incluidos sus envases), que como hemos visto antes, figuran en una lista de residuos peligrosos por alguna de sus características."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Sanitarios",
+              "texto": "Son los generados en los centros hospitalarios. Su importancia reside en la cantidad de residuos generados diariamente (3,5 kg por cama y día) así como por el riesgo de infección (residuos biosanitarios) y de contaminación (residuos químicos y radiactivos) que presentan.<br>Dada la variedad y peligrosidad de los residuos sanitarios, todo centro hospitalario debe contar con un plan de gestión de residuos que permita clasificar y dar la salida adecuada a cada tipo de material generado.",
+              "imagen": "img/mod02/67.jpg",
+              "ancho": 256
+            },
+            {
+              "titulo": "Agrícolas y ganaderos",
+              "texto": "Son los residuos generados como consecuencia de las actividades agrícolas y ganaderas. Se trata de residuos potencialmente contaminantes, ya que pueden ser peligrosos o incidir de múltiples maneras sobre el entorno. Gran parte de ellos puede ser reciclada en las propias industrias agropecuarias o fuera de ellas (por ejemplo el abono orgánico). Las explotaciones ganaderas producen residuos que pueden ser aprovechados y existen explotaciones experimentales que utilizan los residuos generados por el ganado para la obtención de energía. Los residuos orgánicos en descomposición producen gases como el metano (CH4) que pueden ser utilizados en motores de explosión para generar electricidad.",
+              "imagen": "img/mod02/68.jpg",
+              "ancho": 256
+            }
+          ]
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
 
     {
       "titulo": "El ser humano",
@@ -1387,6 +1590,69 @@
       ]
     },
     {
+      "titulo": "Factores abióticos",
+      "fondo": "img/mod01/05.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Los factores abióticos condicionan la distribución de los seres vivos (factores bióticos), influyendo sobre ellos y sobre su adaptación al medio. Existen unos límites de tolerancia para cada especie que actúan como factores limitantes para su supervivencia, no siendo posible la existencia si se sobrepasan tales márgenes (fíjate en la imagen del Morning Glory, en el Parque Yellowstone, dónde empiezan a desarrollarse las formas vegetales)."
+        }
+      ]
+    },
+    {
+      "titulo": "Factores bióticos",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Los factores bióticos son todos los organismos vivos así como las interacciones que se dan entre ellos. Los factores bióticos pueden dividirse en tres tipos:",
+          "contenido": [
+            {
+              "punto": "Individuo:<br>Es una unidad independiente que pertenece a una especie.<br>Por ejemplo: una trucha en un río."
+            },
+            {
+              "punto": "Población:<br>Es la agrupación de varios individuos de la misma especie que habita en un lugar y en un momento determinado.<br>Por ejemplo: una población de truchas en un río."
+            },
+            {
+              "punto": "Comunidad:<br>Es el conjunto de poblaciones que habitan en un lugar y momento determinado.<br>Por ejemplo: una comunidad en un río serían todos los seres vivos que viven en dicho río y se relacionan entre ellos (insectos, ranas, truchas, nutrias...)."
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "sabiasQue",
+          "texto": "Suele emplearse el concepto de biocenosis (también llamada comunidad) para considerar a todos los seres vivos (animales, vegetales y microorganismos) que coexisten en un mismo biotopo."
+        }
+      ]
+    },
+    {
+      "titulo": "Red trófica",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "En la naturaleza las relaciones que se establecen no son lineales, ya que un organismo puede alimentarse de varios organismos pertenecientes a distintos niveles y, a su vez, pueden ser comidos por distintos tipos de animales. En los ecosistemas hay una serie de cadenas tróficas que se entremezclan, formando una <b>red trófica</b>. La red trófica relaciona entre sí a todos los miembros de una comunidad."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod01/flujo.png"
+        }
+      ]
+    },
+    {
+      "titulo": "Interacciones",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Dentro de un ecosistema, hay un flujo de materia y energía que se debe a las interacciones organismos-medio ambiente. La materia se aprovecha de forma continua, sin embargo, la energía se utiliza una sola vez y se pierde progresivamente a lo largo del proceso en forma de calor y trabajo, por lo que es necesario incorporarla al sistema de forma continuada:"
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod01/luzCalor.png"
+        }
+      ]
+    },
+    {
       "titulo": "Impacto ambiental",
       "contenido": [
         {
@@ -1409,117 +1675,6 @@
         {
           "clase": "texto",
           "texto": "No solamente las grandes obras producen impactos. El simple hecho de levantar una piedra y no dejarla después como estaba destruye el hogar de una gran variedad de seres vivos. El uso de la calefacción o el calor desprendido por los coches provocan un aumento en la temperatura de las ciudades en dos o tres grados respecto a sus alrededores. Esto permite que algunos animales, como ciertos insectos, se desarrollen mejor dentro de las ciudades que fuera de ellas."
-        }
-      ]
-    },
-    {
-      "titulo": "Red de autovías",
-      "contenido": [
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "texto",
-              "texto": "El impacto ambiental puede producirse sobre alguno o varios de los siguientes factores: el ser humano, la fauna, la flora, el suelo, el agua, el aire, el clima, el paisaje, los bienes materiales o el patrimonio cultural. Por ejemplo, la construcción de una red de autovías generará impactos ambientales que podrán ser positivos o negativos, temporales o permanentes y de carácter local o regional. En el caso de la construcción de una autovía en el interior de una ciudad:"
-            }
-          ]
-        },
-        {
-          "clase": "tabla",
-          "filaTitulos": [
-            {
-              "titulo": "<center>Tipo de impacto</center>",
-              "colspan": 2
-            },
-            {
-              "titulo": "<center>Descripción</center>"
-            },
-            {
-              "titulo": "<center>Afectación</center>"
-            }
-          ],
-          "filaContenido": [
-            {
-              "fila": [
-                {
-                  "texto": "<center><b>Positivo</b></center>"
-                },
-                {
-                  "texto": "<center>Económicos</center>"
-                },
-                {
-                  "texto": "Creación de puestos de trabajo mientras duran las obras."
-                },
-                {
-                  "texto": "<center>Temporal<br>Regional</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center><b>Negativos</b></center>",
-                  "rowspan": 5
-                },
-                {
-                  "texto": "<center>Físicos</center>",
-                  "rowspan": 3
-                },
-                {
-                  "texto": "Incremento del ruido"
-                },
-                {
-                  "texto": "<center>Permanente<br>Local</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "Aumento de la contaminación atmosférica."
-                },
-                {
-                  "texto": "<center>Permanente<br>Local</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "Incremento de superficie del suelo asfaltada, lo que puede llegar a alterar el clima (ascenso de temperatura y disminución de humedad)."
-                },
-                {
-                  "texto": "<center>Permanente<br>Local</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>Biológicos</center>"
-                },
-                {
-                  "texto": "División del territorio. Puede provocar destrucción o aislamiento de comunidades de animales y vegetales."
-                },
-                {
-                  "texto": "<center>Permanente<br>Local</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>Socioeconómicos</center>"
-                },
-                {
-                  "texto": "Creación de barreras urbanas. División de la ciudad en barrios aislados a ambos lados de la autovía (salvo para el tráfico rodado)."
-                },
-                {
-                  "texto": "<center>Permanente<br>Local</center>"
-                }
-              ]
-            }
-          ]
         }
       ]
     },
