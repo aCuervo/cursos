@@ -1541,24 +1541,644 @@
         }
       ]
     },
-
-
-
-
-
-
-
-
-
-
-
-
     {
-      "titulo": "El ser humano",
+      "titulo": "Biorresiduos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center>Fracciones de residuos generados en el ámbito doméstico: <b>BIORRESIDUOS</b></center>"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Los biorresiduos son los residuos orgánicos biodegradables de origen vegetal y/o animal, susceptibles de degradarse biológicamente generados en el ámbito domiciliario y comercial (siempre que estos últimos sean similares a los primeros)."
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>Según su naturaleza</b> se dividen en:",
+          "contenido": [
+            {
+              "punto": "Residuos orgánicos de origen alimentario y de cocina. Incluyen los de transformación de alimentos."
+            },
+            {
+              "punto": "Residuos vegetales o Fracción Vegetal (FV) procedentes de las zonas verdes y vegetación privadas y públicas."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Desde el punto de vista de la <b>gestión</b>, los residuos orgánicos domésticos están constituidos por dos fracciones:"
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "Fracción Orgánica (FO)",
+              "imagen": "img/mod02/69.jpg",
+              "ancho": 256,
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "Constituida a su vez por:",
+                  "contenido": [
+                    {
+                      "punto": "Restos de la preparación de la comida o la manipulación y elaboración de productos alimentarios, restos de comida, alimentos en mal estado y excedentes alimentarios que no se han comercializado o consumido."
+                    },
+                    {
+                      "punto": "Fracción Vegetal en forma de restos vegetales de pequeño tamaño y de tipo no leñoso procedentes de jardinería y poda."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Poda",
+              "imagen": "img/mod02/70.jpg",
+              "ancho": 256,
+              "texto": "Constituida por la Fracción Vegetal en forma de restos vegetales de jardinería y poda de mayor tamaño y de tipo leñoso. Por sus características requiere una gestión específica (debido a cuestiones relacionadas con la logística de recogida, tratamiento y temporalidad de generación –frecuencia y periodo-)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Envases ligeros",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center>Fracciones de residuos generados en el ámbito doméstico: <b>ENVASES LIGEROS</b></center>"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Se considera envase o embalaje todo producto fabricado con materiales de cualquier naturaleza y que se utilice para contener, proteger, manipular, distribuir y presentar mercancías, desde materias primas hasta artículos acabados, en cualquier fase de la cadena de fabricación, distribución y consumo.  También se consideran envases todos los artículos desechables utilizados con esta misma finalidad."
+        },
+        {
+          "clase": "texto",
+          "texto": "Los elementos del envase y elementos auxiliares integrados en él se considerarán parte del envase al que van unidos; los elementos auxiliares directamente colgados del producto o atados a él y que desempeñen la función de envase, se considerarán envases, salvo que formen parte integrante del producto y todos su elementos estén destinados a ser consumidos o eliminados conjuntamente."
+        },
+        {
+          "clase": "texto",
+          "texto": "El residuo del envase es todo envase, o material que forma parte del envase, del cual se desprende su poseedor o tenga la obligación de desprenderse según la normativa vigente. Dentro de este grupo, los envases ligeros son aquellos envases que, como característica común, tienen una baja relación peso/volumen."
+        },
+        {
+          "clase": "lista",
+          "titulo": "Está constituida por:",
+          "contenido": [
+            {
+              "punto": "Envases de plástico. Botellas y botes de plástico, principalmente, y plástico film (bolsas de plástico de asas y transparentes, plástico para envolver packs o bandejas, paquetes de legumbres, bolsas de galletas, etc.)."
+            },
+            {
+              "punto": "Envases metálicos. Forman parte de este grupo las latas férricas o de latón y las de aluminio que normalmente contienen productos alimentarios. También se incluyen los aerosoles en este grupo."
+            },
+            {
+              "punto": "Envases mixtos (compuestos por varios materiales). Principalmente briks o cartón para bebidas, que son envases compuestos mayoritariamente por cartón y otras capas minoritarias de plásticos y/o aluminio que normalmente contienen productos líquidos o semilíquidos. Es importante no confundir estos envases ligeros mixtos con productos de papel y cartón."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Papel y cartón",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center>Fracciones de residuos generados en el ámbito doméstico: <b>PAPEL Y CARTÓN</b></center>"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "El papel y el cartón están fabricados, principalmente, a partir de fibra de celulosa virgen obtenida de especies vegetales, o recuperada a partir de papel y cartón usados."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Básicamente se pueden clasificar en cuatro grandes grupos:",
+              "contenido": [
+                {
+                  "punto": "Papel/cartón para envases y embalajes (cajas de cartón ondulado, cajas de cartón estucado, bolsas, sacos, etc.)."
+                },
+                {
+                  "punto": "Papeles gráficos (papel de prensa para periódicos, papeles para la edición de libros, folios, sobres, carpetas, cuadernos...)."
+                },
+                {
+                  "punto": "Papeles higiénicos y sanitarios (papel higiénico, toallitas, papel de cocina, servilletas...)."
+                },
+                {
+                  "punto": "Papeles especiales (papeles de seguridad, papel filtro, papel decorativo, papel autoadhesivo, papel metalizado...)."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/72.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Vidrio",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center>Fracciones de residuos generados en el ámbito doméstico: <b>VIDRIO</b></center>"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "El término vidrio se utiliza normalmente en referencia a los vidrios de silicatos, sustancias que contienen una elevada proporción de sílice (SiO2) y que normalmente forman vidrios en condiciones de enfriamiento a partir del estado fundido. El vidrio es un material inorgánico duro, frágil, transparente y amorfo que se usa para hacer ventanas, lunas, lentes, botellas y envases  y una gran variedad de productos."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Básicamente hay tres grupos de productos de vidrio en cuanto a sus circuitos de recogida:",
+              "contenido": [
+                {
+                  "punto": "Vidrio envase no reutilizable (botellas, botes y frascos)."
+                },
+                {
+                  "punto": "Vidrio envase reutilizable (botellas de bebida para refrescos, vinos y espumosos, cervezas, aguas, productos lácteos, etc.)."
+                },
+                {
+                  "punto": "Vidrio no envase. Utensilios de vidrio para el hogar (vasos, platos, bandejas…) y elementos de vidrio para la construcción y decoración (ventanas, puertas, mamparas...) y vidrio de seguridad."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/73.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Aparatos eléctricos y electrónicos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center>Fracciones de residuos generados en el ámbito doméstico: <b>APARATOS ELÉCTRICOS Y ELECTRÓNICOS</b></center>"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Se consideran aparatos eléctricos y electrónicos a todos los aparatos que para funcionar debidamente necesitan corriente eléctrica o campos electromagnéticos, y los aparatos necesarios para generar, transmitir y medir tales corrientes y campos, que están destinados a ser utilizados con una tensión nominal no superior a 1.000 V en corriente alterna y 1.500 V en corriente continua."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/74.jpg"
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Estos aparatos pueden contener sustancias peligrosas como Cadmio, Mercurio, Plomo, Arsénico, Fósforo, aceites peligrosos y gases que agotan la capa de ozono o que afectan al calentamiento global (cloroflurocarbonos, hidrocloroflurocarbonos, hidrocarburos o amoníaco), que si bien son necesarios para su funcionalidad, pueden emitirse al medio ambiente o ser perjudiciales para la salud humana si, una vez que se convierten en residuos, los aparatos no se gestionan y tratan adecuadamente."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "En este apartado se incluyen los aparatos de intercambio de temperatura (frigoríficos, congeladores, aire acondicionado, radiadores de aceite...); monitores, pantallas y aparatos con pantallas, lámparas, grandes aparatos (lavadoras, cocinas...); pequeños aparatos (planchas, aspiradoras, juguetes eléctricos...); equipos de informática y telecomunicaciones; paneles fotovoltaicos..."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Textil y calzado",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center>Fracciones de residuos generados en el ámbito doméstico: <b>TEXTIL Y CALZADO</b></center>"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "La ropa de vestir, el calzado, el textil del hogar y otros productos textiles, una vez usados durante un periodo de tiempo determinado se convierten  en residuos. Las modas y pautas de renovación del vestuario y la calidad y precios actuales de los productos textiles hacen que estos residuos sean cada vez más presentes. En muchos casos, cuando los usuarios los desechan, estos productos se encuentran en buen estado por lo cual son potencialmente reutilizables, o en caso contrario, pueden pasar a los circuitos de reciclaje."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/75.jpg"
+            },
+            {
+              "clase": "lista",
+              "titulo": "Los productos textiles están constituidos por:",
+              "contenido": [
+                {
+                  "punto": "Fibras o materiales naturales derivados de:",
+                  "contenido": [
+                    {
+                      "punto": "Plantas: algodón, lino, seda, etc."
+                    },
+                    {
+                      "punto": "Animales: lana, piel, cueros, etc."
+                    },
+                    {
+                      "punto": "Minerales: metales."
+                    }
+                  ]
+                },
+                {
+                  "punto": "Materiales sintéticos obtenidos de componentes químicos (en su mayoría, derivados del petróleo)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Las características de cada material y sus impactos vienen determinados tanto por la obtención de las materias primas de las que derivan, como de su tratamiento para convertirlas en fibras textiles o componentes de la pieza."
+        }
+      ]
+    },
+    {
+      "titulo": "Pilas y baterías",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center>Fracciones de residuos generados en el ámbito doméstico: <b>PILAS Y BATERÍAS</b></center>"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Las pilas son dispositivos que permiten la obtención de energía eléctrica por transformación de la energía química. Contienen algunos metales pesados como mercurio, cadmio o plomo que son potencialmente peligrosos para la salud y el medio ambiente, por lo que se consideran residuos peligrosos y están sujetos a una recogida y tratamiento específicos."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/76.jpg"
+            },
+            {
+              "clase": "lista",
+              "titulo": "Existen muchos tipos de pilas que se pueden clasificar, inicialmente, en dos grandes grupos:",
+              "contenido": [
+                {
+                  "punto": "Primarias o pilas. Una pila es un dispositivo constituido por uno o varios elementos primarios que no pueden ser regenerados y no pueden ser recargables. Una vez agotadas no es posible recuperar el estado de carga."
+                },
+                {
+                  "punto": "Segundarias o acumuladores. Un acumulador es un dispositivo constituido por uno o varios elementos secundarios que pueden ser regenerados y, por tanto, son recargables, lo que conlleva que su vida puede contemplar varios ciclos de carga y descarga. Por tanto, la cantidad de residuos generados es mucho menor."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Aceites de cocina",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center>Fracciones de residuos generados en el ámbito doméstico: <b>ACEITES DE COCINA</b></center>"
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/77.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Los aceites de cocina son grasas de origen animal o vegetal que, una vez utilizados en el cocinado de alimentos, su poseedor desecha o tiene la intención u obligación de desechar. Desechar los aceites de cocina usados, incluso en cantidades pequeñas, por fregaderos, inodoros u otros elementos de la red de saneamiento pública es una práctica que se debe evitar ya que tal acción implica, no solo el riesgo de atascos de tuberías, sino dificultades e incremento de costes en los procesos de depuración de aguas residuales, así como la formación de una película superficial en aguas de ríos, lagos, etc. que afecta al intercambio de oxígeno y perjudica a los seres vivos de los ecosistemas. Se estima que un litro de aceite puede contaminar mil litros de agua."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Medicamentos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center>Fracciones de residuos generados en el ámbito doméstico: <b>MEDICAMENTOS</b></center>"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Los medicamentos son aquellas sustancias medicinales y sus asociaciones o combinaciones destinadas a su utilización en las personas o en los animales que se presentan dotadas de propiedades para prevenir, diagnosticar, tratar, aliviar o curar enfermedades o dolencias o para afectar a funciones corporales o al estado mental."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/78.jpg"
+            },
+            {
+              "clase": "lista",
+              "titulo": "Los residuos de medicamentos de procedencia doméstica son los medicamentos sobrantes o caducados y sus envases, vacíos o no, que se generan en los domicilios particulares. Estos se pueden generar en tres situaciones:",
+              "contenido": [
+                {
+                  "punto": "Al acabar un medicamento: el envase vacío, tanto el que está en contacto directo con el medicamento, como el envoltorio exterior y el prospecto."
+                },
+                {
+                  "punto": "Al finalizar un tratamiento: los envases vacíos o con restos de medicación."
+                },
+                {
+                  "punto": "Al revisar el botiquín: medicamentos que no se necesitan y los caducados."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Otros: Fracción resto",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center>Fracciones de residuos generados en el ámbito doméstico: <b>OTROS: FRACCIÓN RESTO</b></center>"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "La fracción resto es la fracción de los residuos de origen doméstico que se obtiene una vez efectuadas las recogidas separadas y que todavía puede contener materiales valorizables en diferentes cantidades en función de los niveles de recogida separada que se consiguen para las otras fracciones."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/79.jpg"
+            },
+            {
+              "clase": "lista",
+              "titulo": "Entre otros, los materiales que puede contener esta fracción son:",
+              "contenido": [
+                {
+                  "punto": "Textil sanitario: pañales, compresas, tampones, bastoncillos para los oídos, hilo dental, pequeños residuos de curas domésticas (tiritas, vendas, gasas, esparadrapo...)."
+                },
+                {
+                  "punto": "Otros productos de aseo: maquinillas de afeitar, cepillos de dientes, preservativos..."
+                },
+                {
+                  "punto": "Residuos de limpieza doméstica: bolsas de aspiradora."
+                },
+                {
+                  "punto": "Platos, tazas y otros elementos de cerámica."
+                },
+                {
+                  "punto": "Ceniza de chimeneas o estufas, colillas y cenizas de cigarrillos."
+                },
+                {
+                  "punto": "Fotografías, tarjetas de crédito o similares."
+                },
+                {
+                  "punto": "En general todos aquellos residuos que no estén sujetos a recogidas separadas por parte de los entes locales."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Otros: Residuos voluminosos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center>Fracciones de residuos generados en el ámbito doméstico: <b>OTROS: RESIDUOS VOLUMINOSOS</b></center>"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Son aquellos de tamaño grande que, por sus dimensiones, pueden distorsionar la gestión ordinaria de los residuos de origen doméstico."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/80.jpg",
+              "ancho": 350
+            },
+            {
+              "clase": "lista",
+              "titulo": "Dentro de este grupo de residuos existen flujos según su naturaleza:",
+              "contenido": [
+                {
+                  "punto": "Madera. Incluye todos los elementos estructurales y de mobiliario de madera procedentes de domicilios, actividades económicas y equipamientos como ventanas, marcos de puertas, restos de muebles, etc."
+                },
+                {
+                  "punto": "Muebles y enseres. Son objetos de uso diario o decoración de un domicilio, tales como camas, mesas, sillas, armarios, etc. O generados, también, en otros ámbitos municipales como establecimientos comerciales."
+                },
+                {
+                  "punto": "Aparatos eléctricos y electrónicos de gran tamaño que se consideren residuos voluminosos."
+                },
+                {
+                  "punto": "Chatarra. La chatarra está constituida por aquellos elementos residuales férricos que se pueden generar en los hogares, equipamientos y actividades económicas: cañerías, somieres, pies de lámparas, etc. También pueden incluirse dentro de este grupo los residuos férricos de pequeñas industrias si éstas pueden depositarlos conforme a las ordenanzas municipales en los puntos limpios."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Otros: Neumáticos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center>Fracciones de residuos generados en el ámbito doméstico: <b>OTROS: NEUMÁTICOS</b></center>"
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/81.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Los neumáticos fuera de uso son aquellos que se convierten en residuo una vez que se han sustituido del vehículo por unos nuevos o cuando el vehículo llega al final de vida. Es un residuo formado, básicamente, por caucho natural y sintético, acero y fibras sintéticas y se genera en talleres mecánicos o en hogares."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Otros: Vehículos fuera de uso",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center>Fracciones de residuos generados en el ámbito doméstico: <b>OTROS: VEHÍCULOS FUERA DE USO</b></center>"
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "Son aquellos vehículos que acaban su vida útil (o se encuentran abandonados). No se incluyen los vehículos de dos ruedas, vehículos industriales, etc. que deben gestionarse a través de un gestor autorizado."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/82.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Todos los vehículos se tienen que descontaminar antes de que sean sometidos a cualquier tratamiento: operaciones de desmontaje, fragmentación, así como cualquier otra operación efectuada para posibilitar la reutilización, reciclaje, valoración o eliminación de los vehículos, sus piezas y los residuos derivados."
+        }
+      ]
+    },
+    {
+      "titulo": "Otros: Residuos peligrosos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center>Fracciones de residuos generados en el ámbito doméstico: <b>OTROS: RESIDUOS PELIGROSOS</b></center>"
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/83.jpg",
+              "ancho": 750
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": ""
+        },
+        {
+          "clase": "texto",
+          "texto": "Aceites de motor, aerosoles y sprays, disolventes, pinturas y barnices, plaguicidas, colas y adhesivos, productos de limpieza básicos, ácidos, tóners, termómetros, radiografías, etc."
+        }
+      ]
+    },
+    {
+      "titulo": "Otros: Tierra y escombros",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "<center>Fracciones de residuos generados en el ámbito doméstico: <b>OTROS: TIERRA Y ESCOMBROS</b></center>"
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/84.jpg",
+              "ancho": 750
+            },
+            {
+              "clase": "texto",
+              "texto": "Son residuos de la construcción y demolición y están compuestos por restos de tierra, arenas y similares utilizados en construcción y provenientes de excavaciones, residuos de actividades de construcción, demolición, vaciado y/o movimientos de tierras, y en general, todos los sobrantes de obras o cualquier material residual asimilable a los anteriormente citados."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "En el ámbito de los residuos domésticos este flujo proviene, esencialmente, de la pequeña obra o reforma en domicilios, comercios y equipamientos tratándose, principalmente, de materiales de origen pétreo (trozos de baldosa, yeso o ladrillos) y que generalmente están mezclados con cables, cañerías, maderas, hierros, vidrios, plásticos, etc."
+        }
+      ]
+    },
+    {
+      "titulo": "Consumo de agua",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Así como los factores abióticos condicionan la distribución de los seres vivos, éstos también pueden modificar, de forma significativa, los factores del medio que habitan."
+          "texto": "El crecimiento de la población y la modificación de sus hábitos de ocio y consumo, sin olvidar la participación de la agricultura y la industria, ha elevado las demandas de consumo de agua, a veces por encima de los recursos disponibles, sobre todo en un país como España, en el que gran parte del territorio posee un clima mediterráneo de marcada irregularidad en el volumen de lluvias."
         },
         {
           "clase": "listaObjetos",
@@ -1569,300 +2189,405 @@
               "contenido": [
                 {
                   "clase": "texto",
-                  "texto": "Por ejemplo, la mayor parte del oxígeno atmosférico ha sido producida por los organismos fotosintéticos y la humedad y la temperatura cambian bajo la vegetación densa de un bosque."
+                  "texto": "A pesar de las sequías periódicas y de ser uno de los países europeos que dispone de menor cantidad de agua para abastecimiento de su población, España es el tercer consumidor mundial de agua con una de las tarifas más baratas de Europa."
                 },
                 {
                   "clase": "texto",
-                  "texto": "El ser humano es, en teoría, sólo una especie más, pero su gran capacidad para explotar los recursos naturales y su dominio sobre la energía lo convierten en una especie diferente a las otras."
+                  "texto": "Ante la escasez de agua se piensa en primer lugar en aumentar el número de embalses y trasvases, en la explotación de las aguas subterráneas o en la instalación de plantas desalinizadoras."
                 }
               ]
             },
             {
               "clase": "imagen",
-              "imagen": "img/mod01/13.jpg"
+              "imagen": "img/mod02/85.jpg"
             }
           ]
         },
         {
           "clase": "texto",
-          "texto": "La relación del ser humano con los ecosistemas en los que ha vivido ha ido cambiando a lo largo de su historia, en función del incremento de la población y el desarrollo de su tecnología. En este sentido, con la llegada de la sociedad industrial, y muy especialmente en las últimas décadas, se ha modificado de manera significativa esta relación."
+          "texto": "Todo ello, además de un impacto considerable en nuestros ríos y acuíferos, supone mayores costes económicos y energéticos en potabilización y depuración. Es necesario, pues, establecer medidas de ahorro y reutilización individuales y colectivas: por ejemplo, para mantener 1000 m2 de césped se necesitan unos 25000 litros de agua a la semana, por lo que es aconsejable volver a la jardinería tradicional, con un diseño y unas especies propias, adaptadas al clima del lugar."
         }
       ]
     },
     {
-      "titulo": "Factores abióticos",
-      "fondo": "img/mod01/05.jpg",
+      "titulo": "Aguas residuales",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Del medio ambiente proceden todos los recursos que utilizamos para vivir: aire, agua, alimentos, energía, etc. Pero, a su vez, nuestros residuos y las consecuencias de nuestro desarrollo también acaban en él."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "Las aguas residuales urbanas contienen contaminantes orgánicos, papeles, plásticos, detergentes, aceites, etc. y también contaminación biológica como bacterias, virus, hongos y otros microorganismos que pueden resultar peligrosos para el ser humano. Tanto para su vertido en ríos y mares como para su reutilización agrícola o industrial, las aguas residuales han de ser despojadas de su carga contaminante mediante procesos y tratamientos llevados a cabo en estaciones de depuración."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/86.jpg"
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/87.jpg"
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Desde el año 2005, en la Unión Europea, todas las poblaciones de más de 2000 habitantes tendrían que disponer de algún sistema de depuración de sus aguas residuales."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "Los residuos constituyen un problema para la sociedad, sobre todo en las grandes ciudades, debido a la cantidad de basura que se genera, y a que la mayor parte de los problemas que generan los residuos están relacionados con sus procesos de gestión y eliminación (el propio tratamiento de los mismos puede generar contaminación, problemas de salud y conflictos sociales y políticos). Además son una de las principales causas de contaminación de los suelos y su vertido o acumulación en vertederos incontrolados o en condiciones inadecuadas puede causar impactos sobre el entorno (olores, incendios, etc.)."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Destrucción de recursos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/88.jpg",
+              "ancho": 400
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Las relaciones entre el hombre y los recursos son contradictorias, ya que las sociedades humanas crecen y se desarrollan a expensas de sus recursos naturales, pero al mismo tiempo los destruyen de manera inmoderada. A la intensidad del daño ocasionado a un hábitat se le conoce como <b>deterioro ambiental</b>."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "El deterioro del ambiente está directamente relacionado con la forma en que un país desarrolla sus actividades económicas y con los procedimientos que emplea para explotar sus recursos naturales, lo que daña en mayor o menor medida los ecosistemas."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Las causas del deterioro ambiental se deben a algunos procesos naturales pero, fundamentalmente, son debidos a las diversas actividades humanas: deforestación, contaminación, industrialización, sobreexplotación de los recursos naturales, exceso de desechos que devolvemos a la naturaleza..."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "Las consecuencias de este deterioro ambiental se traducen en la pérdida de patrimonio natural y cultural y de la biodiversidad y el agotamiento de los recursos."
+                }
+              ]
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/89.jpg",
+              "ancho": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Pérdida del patrimonio natural y cultural",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "La explotación de los recursos y las afecciones al medio comportan, en muchas ocasiones, no sólo su deterioro sino también su pérdida, sin posibilidad de restauración o reposición. Esto es particularmente grave en lo que concierne al patrimonio, tanto natural como cultural, que debemos legar a las generaciones venideras, pues es la base para el desarrollo futuro y representa la historia del planeta, de la vida y de la humanidad (obras, tradiciones, paisajes culturales, etc.). Las causas de la destrucción del patrimonio pueden derivar de la nula valoración que se le confiere por lo que no se toman medidas para su  mantenimiento y/o conservación y que también suele llevar asociados otros factores como la falta de cultura, el analfabetismo, la indiferencia o la mala educación."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/90.jpg",
+              "ancho": 300
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/91.jpg",
+              "ancho": 300
+            },
+            {
+              "clase": "texto",
+              "texto": "Otras causas vienen provocadas por el proceso de urbanización, crecimiento demográfico, expansión industrial, tráfico, etc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Pérdida de la biodiversidad",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "La situación es especialmente crítica en el caso concreto de la biodiversidad, que incluye a todas las especies, a la variabilidad genética presente en ellas y a los ecosistemas de los que forman parte. La destrucción de los bosques, además de lo que supone de forma inmediata por su valor y papel actual, significa perder para el mañana un banco de información genética hoy desconocido y una posible fuente de nuevos productos farmacéuticos, químicos, etc. (muchos medicamentos y otras sustancias útiles provienen de la investigación de los seres vivos)."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/92.jpg",
+                "ancho": 400
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/93.jpg",
+              "ancho": 400
+            },
+            {
+              "clase": "texto",
+              "texto": "Una gran parte de la biodiversidad del planeta reside en los bosques tropicales de los países en vías de desarrollo, donde el crecimiento de su población amenaza con extinguir el 70% de las especies vivas para el final del siglo XXI (incluyendo especies que aún puedan estar por descubrir)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Gravedad del problema",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "La gravedad del problema requiere una respuesta rápida. Los países están tomando medidas como la elaboración de legislaciones proteccionistas. A escala internacional destaca el Convenio de Diversidad Biológica, ratificado por España en 1993. Dicho Convenio tiene por objeto la conservación máxima de la biodiversidad en beneficio de generaciones presentes y futuras, velando por el uso racional de los recursos (principio básico del Desarrollo Sostenible)."
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "El territorio español se caracteriza por su gran diversidad climática y geográfica lo que genera una gran variedad de organismos, poblaciones, hábitats y ecosistemas que se encuentran amenazados por la actividad humana: agricultura y selvicultura intensivas, monocultivos, liberación de sustancias químicas por parte de las industrias, desecación de humedales, etc. En las últimas décadas se comprueba un ritmo de desaparición de especies alarmante."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/94.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Recursos hídricos",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/95.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "Uno de los problemas más importantes es el agotamiento de las reservas de agua. En el conjunto del planeta, la cantidad de agua disponible para el consumo humano es muy pequeña, si descontamos el agua de los mares y océanos, las masas de agua congelada en las regiones polares o el agua que se encuentra en condiciones de extracción que la hacen inalcanzable. Por ello es imprescindible el uso eficiente del agua. Hay que considerar, además, que las regiones costeras padecen la sobreexplotación de sus acuíferos, ocasionando la intrusión marina y deteriorando, por tanto, esas reservas de agua dulce."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Los problemas de contaminación marina no han variado mucho en las últimas décadas, pero sí ha variado la percepción que el hombre tiene sobre ellos."
+        }
+      ]
+    },
+    {
+      "titulo": "Contaminación marina",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/96.jpg"
+            },
+            {
+              "clase": "texto",
+              "texto": "De los 20.000 millones de toneladas de sales disueltas  y materia en suspensión que llegan al mar a través de los ríos, solamente el 10% pasa al océano profundo; el resto de acumula en las zonas costeras, donde se captura el 90% de la pesca mundial, con el peligro para la salud de los consumidores, en caso de que se produzcan vertidos contaminantes."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "Otro problema que sufre el medio marino es el originado por los vertidos de aguas residuales urbanas. Para descomponer la materia orgánica de las aguas residuales, las bacterias utilizan el oxígeno disuelto en el agua. Si las cantidades de residuos son muy elevadas, puede suceder que no haya suficiente oxígeno en el agua para soportar la vida de muchos peces proliferando, en su lugar, las bacterias."
+        },
+        {
+          "clase": "texto",
+          "texto": "En el caso del Mar Mediterráneo, un mar “compartido” por muchos países, una parte de los residuos se vierten sin tratamiento alguno, ya sea desde el litoral o desde barcos, lo que origina problemas para la salud pública (contaminación de las aguas de baño, contaminación de pescados y mariscos, enfermedades, extinción de especies de la flora y fauna marina)."
+        }
+      ]
+    },
+    {
+      "titulo": "Efectos adversos",
+      "fondo": "img/mod02/97.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "Todos estos problemas pueden solucionarse con una buena gestión en tierra. El mar puede ser el recurso que más beneficios pueda aportarnos en un futuro."
+        },
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "texto": "El agotamiento de los recursos hídricos, junto con los efectos adversos del cambio climático, como son la escasez de precipitación y el aumento de temperaturas, desencadenan procesos de erosión y desertificación, procesos que se ven agravados por la intervención directa del hombre: incendios forestales, prácticas de cultivo inadecuadas, deforestación, etc."
+        }
+      ]
+    },
+    {
+      "titulo": "Deforestación",
       "contenido": [
         {
           "clase": "texto",
           "subclase": "recuadro",
           "opacidad": 0.8,
-          "texto": "Los factores abióticos condicionan la distribución de los seres vivos (factores bióticos), influyendo sobre ellos y sobre su adaptación al medio. Existen unos límites de tolerancia para cada especie que actúan como factores limitantes para su supervivencia, no siendo posible la existencia si se sobrepasan tales márgenes (fíjate en la imagen del Morning Glory, en el Parque Yellowstone, dónde empiezan a desarrollarse las formas vegetales)."
-        }
-      ]
-    },
-    {
-      "titulo": "Factores bióticos",
-      "contenido": [
-        {
-          "clase": "lista",
-          "titulo": "Los factores bióticos son todos los organismos vivos así como las interacciones que se dan entre ellos. Los factores bióticos pueden dividirse en tres tipos:",
-          "contenido": [
-            {
-              "punto": "Individuo:<br>Es una unidad independiente que pertenece a una especie.<br>Por ejemplo: una trucha en un río."
-            },
-            {
-              "punto": "Población:<br>Es la agrupación de varios individuos de la misma especie que habita en un lugar y en un momento determinado.<br>Por ejemplo: una población de truchas en un río."
-            },
-            {
-              "punto": "Comunidad:<br>Es el conjunto de poblaciones que habitan en un lugar y momento determinado.<br>Por ejemplo: una comunidad en un río serían todos los seres vivos que viven en dicho río y se relacionan entre ellos (insectos, ranas, truchas, nutrias...)."
-            }
-          ]
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "Suele emplearse el concepto de biocenosis (también llamada comunidad) para considerar a todos los seres vivos (animales, vegetales y microorganismos) que coexisten en un mismo biotopo."
-        }
-      ]
-    },
-    {
-      "titulo": "Red trófica",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "En la naturaleza las relaciones que se establecen no son lineales, ya que un organismo puede alimentarse de varios organismos pertenecientes a distintos niveles y, a su vez, pueden ser comidos por distintos tipos de animales. En los ecosistemas hay una serie de cadenas tróficas que se entremezclan, formando una <b>red trófica</b>. La red trófica relaciona entre sí a todos los miembros de una comunidad."
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod01/flujo.png"
-        }
-      ]
-    },
-    {
-      "titulo": "Interacciones",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Dentro de un ecosistema, hay un flujo de materia y energía que se debe a las interacciones organismos-medio ambiente. La materia se aprovecha de forma continua, sin embargo, la energía se utiliza una sola vez y se pierde progresivamente a lo largo del proceso en forma de calor y trabajo, por lo que es necesario incorporarla al sistema de forma continuada:"
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod01/luzCalor.png"
-        }
-      ]
-    },
-    {
-      "titulo": "Impacto ambiental",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Del medio ambiente proceden todos los recursos que utilizamos para vivir: aire, agua, alimentos, energía, etc. Pero, a su vez, nuestros residuos y las consecuencias de nuestro desarrollo también acaban en él."
+          "texto": "La deforestación es la pérdida de masa forestal (árboles, plantas, etc.) de un territorio determinado. Esto implica la pérdida de terreno fértil y una importante superficie que actúa como sumidero de los gases que provocan el efecto invernadero."
         },
         {
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "texto",
-              "texto": "Al efecto, tanto directo como indirecto, que una determinada acción humana produce en el medio ambiente se le denomina impacto ambiental. Los impactos ambientales más significativos suelen producirlos grandes obras de ingeniería civil, industrias contaminantes y cualquier otra circunstancia que origine grandes alteraciones en el medio ambiente. Por ejemplo, la construcción de una presa lleva asociado un importante cambio sobre el hábitat en el que se construye. El impacto más claro es el que se produce sobre los organismos que allí viven: los peces verán interrumpido su cauce natural, desaparecen las orillas por lo que muchos animales dejan de criar e incluso el aumento de humedad atmosférica en torno al embalse condiciona la presencia de ciertas especies vegetales."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod01/14.jpg"
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "No solamente las grandes obras producen impactos. El simple hecho de levantar una piedra y no dejarla después como estaba destruye el hogar de una gran variedad de seres vivos. El uso de la calefacción o el calor desprendido por los coches provocan un aumento en la temperatura de las ciudades en dos o tres grados respecto a sus alrededores. Esto permite que algunos animales, como ciertos insectos, se desarrollen mejor dentro de las ciudades que fuera de ellas."
-        }
-      ]
-    },
-    {
-      "titulo": "Contaminación",
-      "contenido": [
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/mod01/15.jpg"
-            },
-            {
-              "clase": "texto",
-              "texto": "Uno de los efectos más graves de nuestra relación con la naturaleza es la <b>contaminación</b>. Cuando hablamos de contaminación, nos estamos refiriendo a cualquier tipo de impureza, materia o influencias físicas (como ruido, radiación, basuras o productos químicos) en un determinado medio y en niveles más altos de lo normal, que pueden ocasionar un peligro o un daño en el sistema ecológico, apartándolo de su equilibrio."
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "Las sustancias contaminantes están presentes en casi cualquier medio, impidiendo o perturbando la vida de los seres vivos y produciendo efectos nocivos a los materiales y al propio ambiente, repercutiendo además en nuestra calidad de vida."
-        }
-      ]
-    },
-    {
-      "titulo": "Residuos",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Entre  todos los contaminantes destacan los metales pesados por su persistencia en el medio en el que se depositan y porque son muy perjudiciales para los seres vivos."
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "listaObjetos",
-              "subclase": "columna",
+              "clase": "acordeon",
               "contenido": [
                 {
-                  "clase": "texto",
-                  "texto": "Cuando se hace referencia al conjunto de desperdicios que se introducen en el medio ambiente como consecuencia de la actividad del ser humano, se habla de vertidos líquidos, emisiones gaseosas y depósitos de residuos sólidos."
-                },
-                {
-                  "clase": "texto",
-                  "texto": "Nuestra acción sobre el medio ambiente se traduce en el aumento del volumen de residuos que se generan día a día. Hablamos de <b>residuos</b> para referirnos a cualquier sustancia u objeto inservible del cual su poseedor se desprende."
-                }
-              ]
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod01/16.jpg"
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "Por tanto, la primera medida a adoptar en materia de residuos es la reducción de los mismos, tanto en cantidad como en la disminución de su peligrosidad. En segundo lugar, buena parte de los residuos no son realmente objetos o sustancias inservibles, sino que pueden volver a aprovecharse y así volverse a utilizar (reutilización), para transformarlos en nuevas materias primas (reciclaje) o para extraer la energía que contienen."
-        }
-      ]
-    },
-    {
-      "titulo": "Valoración",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "El aprovechamiento de los residuos impidiendo que vayan a parar al medio ambiente es lo que se conoce como <b>valoración</b>. Por tanto, la reutilización y el reciclaje son métodos muy valiosos para economizar materias primas y energía, de esta forma se incidirá en la menor abundancia de vertederos."
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "texto",
-              "texto": "El reciclaje de ciertos materiales como el vidrio y el papel suponen un importante ahorro en la utilización de materias primas vírgenes. Existen ciertos materiales que, prácticamente, no pierden propiedades respecto a su estado inicial tras haber sido reciclados, por lo que una misma materia prima puede ser procesada en la industria más de una vez, evitando su extracción el medio ambiente y su vertido como residuo contaminante."
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod01/17.jpg"
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "Pero no solamente es importante el uso racional de las materias primas de las que nos abastecemos. También debemos pensar en la energía que utilizamos, tanto en la industria como en la vida cotidiana."
-        }
-      ]
-    },
-    {
-      "titulo": "Energías renovables",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Durante toda la historia del hombre, éste ha recurrido preferentemente a formas de energía no renovables, es decir, que tras su uso sistemático acabarán por agotarse. Entre estas destacan el carbón o el petróleo, y la madera procedente de la tala de árboles."
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/mod01/18.jpg"
-            },
-            {
-              "clase": "texto",
-              "texto": "Sin embargo, existen otras formas de energía, las denominadas energías renovables, que se obtienen de fuentes inagotables, es decir, fuentes que no se gastan con su utilización o que tardan un corto periodo de tiempo en regenerarse. En estas energías se emplea la fuerza del viento (energía eólica), del agua (hidráulica), la radiación del sol (solar) o el poder calorífico de la materia orgánica (biomasa)."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Desarrollo sostenible",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "La relación del ser humano con la naturaleza no se ha desarrollado de la forma más correcta, en gran medida por el desconocimiento de las consecuencias negativas en su modo de vivir. A finales de los años ochenta surgió un concepto que, hoy en día, tienen asumido la mayoría de los países y del cual depende nuestro futuro: el <b>desarrollo sostenible</b>."
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/mod01/19.jpg"
-            },
-            {
-              "clase": "texto",
-              "texto": "El desarrollo sostenible es el modelo de desarrollo que busca satisfacer las necesidades del presente, sin comprometer la satisfacción de las necesidades de las generaciones futuras (Informe de la Comisión Mundial sobre el Medio Ambiente y desarrollo, bajo el título “Nuestro futuro común”, más conocido como Informe Brundtland, 1987). Este informe presentó a la comunidad internacional el concepto de desarrollo sostenible como una nueva modalidad para el crecimiento económico, la igualdad social y la sostenibilidad ambiental. Afirmaba que el desarrollo sostenible podría lograrse con un marco normativo integrado que abarcara esos tres pilares."
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "Promover el desarrollo sostenible significa modificar y adaptar a nuevos modelos nuestro modelo actual de crecimiento, de tal manera que la sociedad europea de los próximos años verá cómo cambian sus formas de vida y de trabajo. El desarrollo sostenible traerá nuevos sistemas de producción, nuevas relaciones, nuevos productos y mercados e, indudablemente, nuevos empleos."
-        }
-      ]
-    },
-    {
-      "titulo": "Principios de desarrollo sostenible",
-      "contenido": [
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "listaObjetos",
-              "subclase": "columna",
-              "contenido": [
-                {
-                  "clase": "lista",
-                  "titulo": "Entre los <b>Principios del Desarrollo Sostenible</b> se encuentran:",
+                  "titulo": "<center>Causas</center>",
                   "contenido": [
                     {
-                      "punto": "Asegurar la calidad de vida de todos."
-                    },
-                    {
-                      "punto": "Cultivar el potencial humano."
-                    },
-                    {
-                      "punto": "Tecnologías limpias."
-                    },
-                    {
-                      "punto": "Promover el reciclaje y la reutilización."
-                    },
-                    {
-                      "punto": "Uso eficiente de recursos (renovarlos, no agotarlos)."
-                    },
-                    {
-                      "punto": "Restaurar ecosistemas dañados."
-                    },
-                    {
-                      "punto": "Reconocer la importancia del medio ambiente para la salud."
+                      "clase": "lista",
+                      "titulo": "Entre los principales procesos que han llevado a la deforestación de determinadas zonas del planeta, se encuentran:",
+                      "contenido": [
+                        {
+                          "punto": "Utilización masiva de madera como combustible en determinadas épocas, y como material de construcción para casas, barcos e industria en general."
+                        },
+                        {
+                          "punto": "Construcción de pistas y carreteras."
+                        },
+                        {
+                          "punto": "Residuos de limpieza doméstica: bolsas de aspiradora."
+                        },
+                        {
+                          "punto": "Explotación de bosques para la industria papelera."
+                        },
+                        {
+                          "punto": "Incendios"
+                        }
+                      ]
                     }
                   ]
                 },
                 {
-                  "clase": "texto",
-                  "subclase": "recuadro",
-                  "texto": "Un ejemplo claro de tendencia hacia el desarrollo sostenible en la pesca sería la utilización de artes de pesca selectivas, la realización de paradas biológicas que permitan la regeneración de los caladeros, los cultivos marinos y la acuicultura."
+                  "titulo": "<center>Consecuencias</center>",
+                  "contenido": [
+                    {
+                      "clase": "lista",
+                      "titulo": "Entre los efectos más importantes de la deforestación se encuentran:",
+                      "contenido": [
+                        {
+                          "punto": "Erosión del suelo como consecuencia de la falta de vegetación."
+                        },
+                        {
+                          "punto": "Pérdida de terreno fértil, al desaparecer los nutrientes del suelo."
+                        },
+                        {
+                          "punto": "Pérdida de la flora y la fauna."
+                        },
+                        {
+                          "punto": "Aumento de los gases contaminantes (CO2) en la quema de bosques."
+                        },
+                        {
+                          "punto": "Interrupción del ciclo del agua."
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
             {
               "clase": "imagen",
-              "imagen": "img/mod01/19b.jpg"
+              "imagen": "img/mod02/98.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Desertificación",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/99.jpg"
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Este proceso de deforestación viene íntimamente relacionado con el fenómeno de la desertificación, que tiene un impacto directo sobre las condiciones de vida de gran número de personas y de pueblos, siendo causa y efecto de pobreza y emigración. La consecuencia de todo ello es que más de la tercera parte de la Tierra es árida."
+                },
+                {
+                  "clase": "icono",
+                  "subclase": "sabiasQue",
+                  "texto": "Es importante no confundir los términos desertificación y desertización. La desertización es un proceso natural mientras que la desertificación es consecuencia de la actividad humana."
+                }
+              ]
             }
           ]
         },
         {
-          "clase": "texto",
-          "texto": "El Principio de “quien contamina paga” surge en este contexto, siendo recogido en el artículo 174 del Tratado de la Unión Europea, y establece que todo el que contamina debe pagar por el daño ecológico causado. Con arreglo a este principio, los responsables en un acto de contaminación han de pagar los costes de las medidas necesarias para eliminarlo, reducirlo a un nivel jurídicamente admitido o restituirlo al estado original."
+          "clase": "lista",
+          "titulo": "España es el único país de Europa Occidental con un riesgo muy alto de desertificación. La lucha contra este proceso se plantea bajo los siguientes aspectos:",
+          "contenido": [
+            {
+              "punto": "Incorporación de técnicas agrarias protectoras de la fertilidad del suelo."
+            },
+            {
+              "punto": "Reconstrucción de la cubierta vegetal."
+            },
+            {
+              "punto": "Realización de obras de hidrología forestal."
+            }
+          ]
         }
       ]
     },
