@@ -26,7 +26,7 @@
       ]
     },
     {
-      "titulo": "PRESENT SIMPLE VS CONTINUOUS",
+      "titulo": "Present simple VS continuous",
       "contenido": [
         {
           "clase": "texto",
@@ -177,7 +177,7 @@
           "contenido": [
             {
               "clase": "lista",
-              "titulo": "Examples:",
+              "titulo": "<u>Examples</u>:",
               "contenido": [
                 {
                   "punto": "I wake up every day at 8 o’clock. (<i>Me levanto todos los días a las 8 en punto.</i>"
@@ -189,7 +189,7 @@
             },
             {
               "clase": "lista",
-              "titulo": "Examples:",
+              "titulo": "<u>Examples</u>:",
               "contenido": [
                 {
                   "punto": "I’m studying English. (<i>Estoy estudiando inglés.</i>)"
@@ -204,7 +204,7 @@
       ]
     },
     {
-      "titulo": "TIME ADVERBS",
+      "titulo": "Time adverbs",
       "contenido": [
         {
           "clase": "texto",
@@ -294,78 +294,27 @@
       ]
     },
     {
-      "titulo": "TIME ADVERBS",
+      "titulo": "Exceptions",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Otra característica de estos tiempos verbales es que  cada uno suele ir acompañado de unos adverbios de tiempo determinados. Recordemos algunos de ellos:"
+          "texto": "Para referirnos a una rutina o algo que ocurre normalmente, usaremos el Present Simple, mientras que para una acción que transcurre en un periodo de tiempo limitado o determinado, aunque no sea exactamente mientras hablamos, utilizaremos el Present Continuous."
         },
         {
-          "clase": "tabla",
-          "filaTitulos": [
+          "clase": "lista",
+          "titulo": "",
+          "contenido": [
             {
-              "titulo": "SIMPLE PRESENT"
+              "punto": "Kate works in a hotel. (<i>Kate trabaja en un hotel.</i>)"
             },
             {
-              "titulo": "PRESENT CONTINUOUS"
-            }
-          ],
-          "filaContenido": [
-            {
-              "fila": [
-                {
-                  "texto": "<center>EVERY...</center>"
-                },
-                {
-                  "texto": "<center>AT THE MOMENT</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>USUALLY</center>"
-                },
-                {
-                  "texto": "<center>AT THIS MOMENT</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>SOMETIMES</center>"
-                },
-                {
-                  "texto": "<center>NOW</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>NEVER</center>"
-                },
-                {
-                  "texto": "<center>RIGHT NOW</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>ALWAYS</center>"
-                },
-                {
-                  "texto": "<center>TODAY</center>"
-                }
-              ]
+              "punto": "Kate is working in a hotel this week. (<i>Kate está trabajando en un hotel esta semana.</i>)"
             }
           ]
         },
         {
           "clase": "lista",
-          "titulo": "Recuerda que hay una serie de verbos que no se utilizan en Present Continuous:",
+          "titulo": "Pero hay una serie de verbos que no se utilizan en Present Continuous:",
           "contenido": [
             {
               "punto": "like (<i>gustar</i>)"
@@ -379,7 +328,7 @@
             {
               "punto": "want (<i>querer</i>)"
             },
-             {
+            {
               "punto": "believe (<i>creer</i>)"
             },
             {
@@ -391,11 +340,325 @@
             {
               "punto": "need (<i>necesitar</i>)"
             },
-                        {
+            {
               "punto": "know (<i>saber</i>)"
             },
-                                    {
+            {
               "punto": "forget (<i>olvidar</i>)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Activity",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "texto": "Escoge entre Present Simple o Present Continuous."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "Excuse me, __________ English?",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "do you speak",
+                  "correcto": true
+                },
+                {
+                  "opcion": "are you speaking",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Where is Mary? She _______ a bath.",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "has",
+                  "correcto": false
+                },
+                {
+                  "opcion": "is having",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Kate is tired. She _____ to go home now.",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "wants",
+                  "correcto": true
+                },
+                {
+                  "opcion": "is wanting",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "What time ___________ work every day?",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "is your wife finishing",
+                  "correcto": false
+                },
+                {
+                  "opcion": "does your wife finish",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "It’s late. I ______ home now.",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "am going",
+                  "correcto": true
+                },
+                {
+                  "opcion": "go",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "You can turn off the TV. I ___________ it.",
+              "id": "6",
+              "respuestas": [
+                {
+                  "opcion": "am not watching",
+                  "correcto": true
+                },
+                {
+                  "opcion": "don't watch",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "_______ in Madrid this month?",
+              "id": "7",
+              "respuestas": [
+                {
+                  "opcion": "Does he live",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Is he living",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "My dog _________ vegetables.",
+              "id": "8",
+              "respuestas": [
+                {
+                  "opcion": "doesn't eat",
+                  "correcto": true
+                },
+                {
+                  "opcion": "in't eating",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "We ________ to the cinema this Friday.",
+              "id": "9",
+              "respuestas": [
+                {
+                  "opcion": "go",
+                  "correcto": false
+                },
+                {
+                  "opcion": "are going",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "This shop __________ at 10 pm everyday.",
+              "id": "10",
+              "respuestas": [
+                {
+                  "opcion": "closes",
+                  "correcto": true
+                },
+                {
+                  "opcion": "is closing",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Personal pronouns",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<center>Ya sabemos que los pronombres se utilizan en sustitución de los nombres. Hasta ahora hemos visto los pronombres que funcionan como sujeto (I, you, he...) y ahora estudiaremos los que funcionan como objeto.</center>"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "Pronombre sujeto"
+                },
+                {
+                  "titulo": "Pronombre objeto"
+                },
+                {
+                  "titulo": "Examples",
+                  "colspan": 2
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>I</b></center>"
+                    },
+                    {
+                      "texto": "<center>me</center>"
+                    },
+                    {
+                      "texto": "I know Paul. <i>(Yo conozco a Paul.)</i>"
+                    },
+                    {
+                      "texto": "Paul knows me.<i>(Paul me conoce.)</i>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>you</b></center>"
+                    },
+                    {
+                      "texto": "<center>you</center>"
+                    },
+                    {
+                      "texto": "You know Paul. <i>(Tú conoces a Paul.)</i>"
+                    },
+                    {
+                      "texto": "Paul knows you. <i>(Paul te conoce.)</i>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>she</b></center>"
+                    },
+                    {
+                      "texto": "<center>her</center>"
+                    },
+                    {
+                      "texto": "She knows Paul. <i>(Ella conoce a Paul.)</i>"
+                    },
+                    {
+                      "texto": "Paul knows her. <i>(Paul la conoce.)</i>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>he</b></center>"
+                    },
+                    {
+                      "texto": "<center>him</center>"
+                    },
+                    {
+                      "texto": "He knows Paul. <i>(Él conoce a Paul.)</i>"
+                    },
+                    {
+                      "texto": "Paul knows him. <i>(Paul le conoce.)</i>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>it</b></center>"
+                    },
+                    {
+                      "texto": "<center>it</center>"
+                    },
+                    {
+                      "texto": "It is famous. <i>(Ello es famoso.)</i>"
+                    },
+                    {
+                      "texto": "Paul knows it. <i>(Paul lo conoce.)</i>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>we</b></center>"
+                    },
+                    {
+                      "texto": "<center>us</center>"
+                    },
+                    {
+                      "texto": "We know Paul. <i>(Nosotros conocemos a Paul.)</i>"
+                    },
+                    {
+                      "texto": "Paul knows us. <i>(Paul nos conoce.)</i>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>you</b></center>"
+                    },
+                    {
+                      "texto": "<center>you</center>"
+                    },
+                    {
+                      "texto": "You know Paul. <i>(Vosotros conocéis a Paul.)</i>"
+                    },
+                    {
+                      "texto": "Paul knows you. <i>(Paul os conoce.)</i>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>they</b></center>"
+                    },
+                    {
+                      "texto": "<center>them</center>"
+                    },
+                    {
+                      "texto": "<i>They know Paul. (Ellos conocen a Paul.)</i>"
+                    },
+                    {
+                      "texto": "Paul knows them. <i>(Paul les conoce.)</i>"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -405,1290 +668,692 @@
       "titulo": "Examples",
       "contenido": [
         {
-          "clase": "icono",
-          "subclase": "exclamacion",
-          "texto": "<center>El verbo que debe ir en consonancia con el sujeto es el verbo TO BE, y el que da significado a la frase el que va con –ing:<br>She is playing the piano. (<i>Ella está tocando el piano.</i>)</center>"
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "PRONOUN"
-                },
-                {
-                  "titulo": "VERB",
-                  "colspan": 2
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>I</b></center>"
-                    },
-                    {
-                      "texto": "<center>am</center>"
-                    },
-                    {
-                      "texto": "<center><b>verb + ing</b></center>",
-                      "rowspan": 8
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>you</b></center>"
-                    },
-                    {
-                      "texto": "<center>are</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>she</b></center>"
-                    },
-                    {
-                      "texto": "<center>is</center>",
-                      "rowspan": 3
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>he</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>it</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>we</b></center>"
-                    },
-                    {
-                      "texto": "<center>are</center>",
-                      "rowspan": 3
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>you</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>they</b></center>"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "Examples",
-                  "colspan": 2
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "I am sleeping."
-                    },
-                    {
-                      "texto": "<i>Estoy durmiendo.</i>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "You are drinking."
-                    },
-                    {
-                      "texto": "<i>Estás bebiendo.</i>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "She is going."
-                    },
-                    {
-                      "texto": "<i>Ella está yendo.</i>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "It's ringing."
-                    },
-                    {
-                      "texto": "<i>Está sonando.</i>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "We are talking."
-                    },
-                    {
-                      "texto": "<i>Estamos hablando.</i>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "They are working."
-                    },
-                    {
-                      "texto": "<i>Están trabajando.</i>"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "It's happening",
-      "contenido": [
-        {
-          "clase": "lista",
-          "titulo": "Ahora que ya hemos visto cómo se forma el ‘present continuous’, ¿cuándo lo utilizamos?",
-          "contenido": [
-            {
-              "punto": "Los utilizamos cuando queremos referirnos a una acción que está ocurriendo en este momento:",
-              "contenido": [
-                {
-                  "punto": "I am having breakfast. (<i>Estoy desayunando.</i>)"
-                }
-              ]
-            },
-            {
-              "punto": "Para describir una acción o tendencia que está sucediendo en la actualidad:",
-              "contenido": [
-                {
-                  "punto": "A lot of people are playing tennis. (<i>Mucha gente está jugando al tenis.</i>)"
-                }
-              ]
-            },
-            {
-              "punto": "Lo podemos usar para referirnos a acciones que estamos seguros que van a suceder en un futuro cercano:",
-              "contenido": [
-                {
-                  "punto": "I’m going to the beach tomorrow. (<i>Mañana iré a la playa.</i>)"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "Existen una serie de verbos que no se suelen utilizar en present continuous:"
-        },
-        {
           "clase": "listaObjetos",
           "contenido": [
             {
               "clase": "lista",
+              "titulo": "<b>Examples:</b>",
               "contenido": [
                 {
-                  "punto": "be (<i>ser/estar</i>)"
+                  "punto": "<b>This dress</b> is very nice, I can buy <b>it</b>. <i>(Este vestido es muy bonito, puedo comprarlo.)</i>"
                 },
                 {
-                  "punto": "want (<i>querer</i>)"
+                  "punto": "<b>Paola</b> is very nice, I remember <b>her</b>. (<i>Paola es muy agradable, la recuerdo.</i>)"
                 },
                 {
-                  "punto": "need (<i>necesitar</i>)"
+                  "punto": "I don’t want <b>these books</b>. You can have <b>them</b>. <i>(No quiero estos libros, puedes tenerlos.)</i>"
                 },
-                                {
-                  "punto": "know (<i>saber/conocer</i>)"
+                {
+                  "punto": "<b>You</b> are very kind. I like  <b>you</b>. (<i>Eres muy amable. Me gustas.</i>)"
                 }
               ]
             },
-                        {
-              "clase": "lista",
-              "contenido": [
-                {
-                  "punto": "understand (<i>comprender</i>)"
-                },
-                {
-                  "punto": "like (<i>gustar</i>)"
-                },
-                {
-                  "punto": "love (<i>encantar</i>)"
-                },
-                                {
-                  "punto": "hate (<i>odiar</i>)"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "texto",
-          "texto": "Estos son sólo algunos ejemplos, ya que hay más verbos que no suelen utilizarse en presente continuo. "
-        }
-      ]
-    },
-        {
-      "titulo": "Spellling rules",
-      "contenido": [
-        {
-          "clase": "lista",
-          "titulo": "Al igual que vimos con anterioridad  al formar la tercera persona del singular de algunos verbos o al formar plurales irregulares, al añadir –ing al verbo existen una serie de reglas ortográficas que debemos tener en cuenta a la hora de escribir estos verbos:",
-          "contenido": [
-            {
-              "punto": "Los verbos terminados en –e (make / drive / write / use...) eliminan la –e y añaden –ing.",
-              "contenido": [
-                {
-                  "punto": "make -> making <i>(hacer / crear)</i>"
-                },
-                {
-                  "punto": "drive -> driving <i>(conducir)</i>"
-                },
-                {
-                  "punto": "write -> writing <i>(escribir)</i>"
-                },
-                {
-                  "punto": "use -> using <i>(usar)</i>"
-                }
-              ]
-            },
-            {
-              "punto": "Los verbos terminados en –ie (die / lie / tie) transforman su terminación en –ying.",
-              "contenido": [
-                {
-                  "punto": "die -> dying <i>(morir)</i>"
-                },
-                {
-                  "punto": "lie -> lying <i>(mentir / tumbarse)</i>"
-                },
-                {
-                  "punto": "tie -> tying <i>(atar)</i>"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "subclase": "rotarIzq",
-              "imagen": "img/mod06/riding.png",
-              "pie": "Maria is riding a bicycle."
-            },
-            {
-              "clase": "imagen",
-              "subclase": "rotarDch",
-              "imagen": "img/mod06/raining.png",
-              "pie": "It is raining."
-            },
-            {
-              "clase": "imagen",
-              "subclase": "rotarIzq",
-              "imagen": "img/mod06/reading.png",
-              "pie": "Karl is reading a book."
-            },
-            {
-              "clase": "imagen",
-              "subclase": "rotarDch",
-              "imagen": "img/mod06/working.png",
-              "pie": "They are working."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Present continuous: negative form",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "El present continuous se forma añadiendo la partícula negativa ‘not’ al verbo TO BE y añadiendo el verbo +ing.<br><br>Sus usos son los ya indicados anteriormente pero en este caso lo usaremos para decir que NO estamos haciendo algo o que algo no está ocurriendo o no va a ocurrir en un futuro cercano."
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "NEGATIVE FORM",
-                  "colspan": 3
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>I</b></center>"
-                    },
-                    {
-                      "texto": "<center>am not</center>"
-                    },
-                    {
-                      "texto": "<center><b>verb + ing</b></center>",
-                      "rowspan": 8
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>you</b></center>"
-                    },
-                    {
-                      "texto": "are not (aren't)"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>she</b></center>"
-                    },
-                    {
-                      "texto": "<center>is not (isn't)</center>",
-                      "rowspan": 3
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>he</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>it</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>we</b></center>"
-                    },
-                    {
-                      "texto": "<center>are not (aren't)</center>",
-                      "rowspan": 3
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>you</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>they</b></center>"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "clase": "acordeon",
-              "contenido": [
-                {
-                  "titulo": "<center>Examples</center>",
-                  "contenido": [
-                    {
-                      "clase": "tabla",
-                      "filaTitulos": [
-                        {
-                          "titulo": "Examples",
-                          "colspan": 2
-                        }
-                      ],
-                      "filaContenido": [
-                        {
-                          "fila": [
-                            {
-                              "texto": "I'm not sleeping."
-                            },
-                            {
-                              "texto": "<i>No estoy durmiendo.</i>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "She’s not working right now."
-                            },
-                            {
-                              "texto": "<i>Ella no está trabajando ahora.</i>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "You aren’t listening to me."
-                            },
-                            {
-                              "texto": "<i>No me estás escuchando.</i>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "We’re not watching TV."
-                            },
-                            {
-                              "texto": "<i>No estamos viendo la tele.</i>"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-                      ]
-        }
-      ]
-    },
-        {
-      "titulo": "Present continuous: Question form",
-      "contenido": [
-            {
-              "clase": "texto",
-              "texto": "Para terminar con el present continuous vamos a aprender cómo se formulan las preguntas. El orden será el siguiente:"
-        },
-        {
-          "clase": "texto",
-          "subclase": "recuadro",
-          "texto": "<center><b>IS/ARE + SUJETO + VERBO + ING</b></center>"
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "POSITIVE",
-                  "colspan": 3
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>I</b></center>"
-                    },
-                    {
-                      "texto": "<center>am</center>"
-                    },
-                    {
-                      "texto": "<center><b>doing<br>going<br>listening<br></b></center>",
-                      "rowspan": 8
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>you</b></center>"
-                    },
-                    {
-                      "texto": "<center>are</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>she</b></center>"
-                    },
-                    {
-                      "texto": "<center>is</center>",
-                      "rowspan": 3
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>he</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>it</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>we</b></center>"
-                    },
-                    {
-                      "texto": "<center>are</center>",
-                      "rowspan": 3
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>you</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>they</b></center>"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "QUESTION",
-                  "colspan": 3
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Am</center>"
-                    },
-                    {
-                      "texto": "<center><b>I</b></center>"
-                    },
-                    {
-                      "texto": "<center><b>doing<br>going<br>listening<br></b></center>",
-                      "rowspan": 8
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Are</center>"
-                    },
-                    {
-                      "texto": "<center><b>you</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Is</center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center><b>she</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>he</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>it</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>Are</center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center><b>we</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>you</b></center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>they</b></center>"
-                    }
-                  ]
-                }
-              ]
-            },
-        {
-          "clase": "acordeon",
-          "contenido": [
-            {
-              "titulo": "<center>Examples</center>",
-              "contenido": [
-                {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "Examples",
-                      "colspan": 2
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "Is it raining?"
-                        },
-                        {
-                          "texto": "<i>¿Está lloviendo?</i>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "Are you doing your homework?"
-                        },
-                        {
-                          "texto": "<i>¿Estás haciendo tus deberes?</i>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "Are they having any problems?"
-                        },
-                        {
-                          "texto": "<i>¿Están teniendo algún problema?</i>"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-                  ]
-        }
-      ]
-    },
-        {
-      "titulo": "Present continuous: Question words",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Como vimos en el MÓDULO 2, podemos utilizar ‘question words’ para formular preguntas en ‘present continuous’. Vamos a ver de nuevo las que aprendimos para “refrescarnos” la memoria."
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-        {
-          "clase": "tabla",
-          "filaTitulos": [
-            {
-              "titulo": ""
-            },
-            {
-              "titulo": "WE WANT TO KNOW"
-            },
-            {
-              "titulo": "SPANISH"
-            }
-          ],
-          "filaContenido": [
-            {
-              "fila": [
-                {
-                  "texto": "<center><b>WHO...?</b></center>"
-                },
-                {
-                  "texto": "<center>PERSON</center>"
-                },
-                {
-                  "texto": "<center>¿QUIÉN...?</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center><b>WHERE...?</b></center>"
-                },
-                {
-                  "texto": "<center>PLACE</center>"
-                },
-                {
-                  "texto": "<center>¿DÓNDE...?</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center><b>WHEN...?</b></center>"
-                },
-                {
-                  "texto": "<center>TIME, OCCASION</center>"
-                },
-                {
-                  "texto": "<center>¿CUÁNDO...?</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center><b>WHY...?</b></center>"
-                },
-                {
-                  "texto": "<center>REASON, EXPLANATION</center>"
-                },
-                {
-                  "texto": "<center>¿POR QUÉ...?</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center><b>WHAT...?</b></center>"
-                },
-                {
-                  "texto": "<center>A THING, AN OBJECT</center>"
-                },
-                {
-                  "texto": "<center>¿QUÉ...?</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center><b>HOW...?</b></center>"
-                },
-                {
-                  "texto": "<center>FORM, MANNER</center>"
-                },
-                {
-                  "texto": "<center>¿CÓMO...?</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center><b>HOW MANY / MUCH...?</b></center>"
-                },
-                {
-                  "texto": "<center>QUANTITY</center>"
-                },
-                {
-                  "texto": "<center>¿CUÁNTOS / CUÁNTO...?</center>"
-                }
-              ]
-            }
-
-
-          ]
-        },          
-                    {
-                      "clase": "tabla",
-                      "filaTitulos": [
-                        {
-                          "titulo": "Examples",
-                          "colspan": 2
-                        }
-                      ],
-                      "filaContenido": [
-                        {
-                          "fila": [
-                            {
-                              "texto": "Where are you going?"
-                            },
-                            {
-                              "texto": "<i>¿A dónde vas?</i>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "What are you doing?"
-                            },
-                            {
-                              "texto": "<i>¿Qué estás haciendo?</i>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "When is Maria coming?"
-                            },
-                            {
-                              "texto": "<i>¿Cuándo viene Maria?</i>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "Why are they crying?"
-                            },
-                            {
-                              "texto": "<i>¿Por qué están llorando?</i>"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                      ]
-        }     
-      ]
-    },
-                {
-      "titulo": "Short answers",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "A las preguntas en present continuous podemos contestar con respuestas cortas como ya vimos con anterioridad."
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-        {
-          "clase": "tabla",
-          "filaTitulos": [
-            {
-              "titulo": "<center>AFFIRMATIVE FORM</center>",
-              "colspan": 3
-            },
-            {
-              "titulo": "<center>NEGATIVE FORM</center>",
-              "colspan": 3
-            }
-          ],
-          "filaContenido": [
-            {
-              "fila": [
-                {
-                  "texto": "<center>Yes,</center>",
-                  "rowspan": 8
-                },
-                {
-                  "texto": "<center>I</center>"
-                },
-                {
-                  "texto": "<center><b>am</b></center>"
-                },
-                {
-                  "texto": "<center>No,</center>",
-                  "rowspan": 8
-                },
-                {
-                  "texto": "<center>I</center>"
-                },
-                {
-                  "texto": "<center><b>am not</b></center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>you</center>"
-                },
-                {
-                  "texto": "<center><b>are</b></center>"
-                },
-                {
-                  "texto": "<center>you</center>"
-                },
-                {
-                  "texto": "<center><b>are not (aren't)</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>he</center>"
-                },
-                {
-                  "texto": "<center><b>is</b></center>",
-                  "rowspan": 3
-                },
-                {
-                  "texto": "<center>he</center>"
-                },
-                {
-                  "texto": "<center><b>is not (isn't)</b></center>",
-                  "rowspan": 3
-
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>she</center>"
-                },
-                {
-                  "texto": "<center>she</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>it</center>"
-                },
-                {
-                  "texto": "<center>it</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>we</center>"
-                },
-                {
-                  "texto": "<center><b>are</b></center>",
-                  "rowspan": 3
-                },
-                {
-                  "texto": "<center>we</center>"
-                },
-                {
-                  "texto": "<center><b>are not (aren't)</b></center>",
-                  "rowspan": 3
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>you</center>"
-                },
-                {
-                  "texto": "<center>you</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "<center>they</center>"
-                },
-                {
-                  "texto": "<center>they</center>"
-                }
-              ]
-            }
-          ]
-        },
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "Examples",
-                  "colspan": 2
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "-Is it raining?<br>-Yes, it is."
-                    },
-                    {
-                      "texto": "<i>-¿Está lloviendo?<br>-Sí, está lloviendo.</i>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "-Are you doing your homework?<br>-No, I'm not."
-                    },
-                    {
-                      "texto": "<i>-¿Estás haciendo tus deberes?<br>-No, no los estoy haciendo.</i>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "-Are they having any problems?<br>-No, they aren't."
-                    },
-                    {
-                      "texto": "<i>-¿Están teniendo algún problema?<br>-No, no están teniendo ninguno.</i>"
-                    }
-                  ]
-                }
-              ]
-            }
-                      ]
-        }
-      ]
-    },
-    {
-      "titulo": "Demostrative pronouns",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "Utilizamos los pronombres demostrativos para señalar objetos o personas. El pronombre específico dependerá de la distancia relativa al objetivo y de si es singular o plural."
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "SINGULAR"
-                },
-                {
-                  "titulo": "PLURAL"
-                },
-                {
-                  "titulo": "DISTANCIA"
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>THIS</b><br>este / esta</center>"
-                    },
-                    {
-                      "texto": "<center><b>THESE</b><br>estos / estas</center>"
-                    },
-                    {
-                      "texto": "<center>HERE (aquí)</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center><b>THAT</b><br>aquel / aquella</center>"
-                    },
-                    {
-                      "texto": "<center><b>THOSE</b><br>aquellos / aquellas</center>"
-                    },
-                    {
-                      "texto": "<center>THERE (allí)</center>"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-        {
-          "clase": "lista",
-          "titulo": "También utilizamos <b>this</b> y <b>that</b> cuando hablamos por teléfono:",
-          "contenido": [
-            {
-              "punto": "Hi Chris, this is Lola.<br><i>Hola Chris! Soy Lola.</i> (This:  la persona que habla.)"
-            },
-            {
-              "punto": "Is that you?<br><i>¿Eres tú?</i> (That: la otra persona.)"
-            }
-          ]
-        },
             {
               "clase": "icono",
               "subclase": "exclamacion",
-              "texto": "<center>Cuando queremos presentar a alguien, utilizamos <b>this is...</b>:</center>-Hello Peter, this is my sister Carol.<br>-Hola Peter, esta es mi hermana Carol."
+              "texto": "Utilizamos <b>he/him</b> para referirnos a man (hombre) y <b>she/her</b> para referirnos a woman (mujer). Cuando no estemos seguros de si hablamos sobre hombres o mujeres en plural utilizaremos them."
             }
-            
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "POSSESSIVE"
+                },
+                {
+                  "titulo": "PERSONAL"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>my</center>"
+                    },
+                    {
+                      "texto": "<center>me</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>your</center>"
+                    },
+                    {
+                      "texto": "<center>you</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>his</center>"
+                    },
+                    {
+                      "texto": "<center>him</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>her</center>"
+                    },
+                    {
+                      "texto": "<center>her</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>its</center>"
+                    },
+                    {
+                      "texto": "<center>it</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>our</center>"
+                    },
+                    {
+                      "texto": "<center>us</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>your</center>"
+                    },
+                    {
+                      "texto": "<center>you</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>their</center>"
+                    },
+                    {
+                      "texto": "<center>them</center>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "subclase": "recuadro",
+                  "texto": "¡Ten cuidado de no confundirlos con los pronombres posesivos!"
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "También se utilizan estos pronombres después de preposiciones: with, for, on, in...",
+                  "contenido": [
+                    {
+                      "punto": "This e-mail is <b>for you</b>. <i>(Este e-mail es para ti.)</i>"
+                    },
+                    {
+                      "punto": "My mother is waiting <b>with me</b>. (<i>Mi madre está esperando conmigo.</i>)"
+                    },
+                    {
+                      "punto": "Where is my smartphone? You are sitting <b>on it</b>! <i>(¿Dónde está mi móvil? ¡Estás sentado en él!)</i>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Activity",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "texto": "Completa la frase con la opción correcta:"
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "I don't know those girls. Do you know __________?",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "them",
+                  "correcto": true
+                },
+                {
+                  "opcion": "him",
+                  "correcto": false
+                },
+                {
+                  "opcion": "her",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "I don't know that man. Do yo know _______?",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "them",
+                  "correcto": false
+                },
+                {
+                  "opcion": "her",
+                  "correcto": false
+                },
+                {
+                  "opcion": "him",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "I don't know those people. Do you know _____?",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "them",
+                  "correcto": true
+                },
+                {
+                  "opcion": "him",
+                  "correcto": false
+                },
+                {
+                  "opcion": "her",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "I don't know Peter's wife. Do you know ___________?",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "him",
+                  "correcto": false
+                },
+                {
+                  "opcion": "her",
+                  "correcto": true
+                },
+                {
+                  "opcion": "them",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "I don’t know Mr. House. Do you know ______?",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "him",
+                  "correcto": true
+                },
+                {
+                  "opcion": "her",
+                  "correcto": false
+                },
+                {
+                  "opcion": "them",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Who is that woman? Why are you looking at ___________?",
+              "id": "6",
+              "respuestas": [
+                {
+                  "opcion": "her",
+                  "correcto": true
+                },
+                {
+                  "opcion": "she",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Paul loves music and _______ plays the guitar.",
+              "id": "7",
+              "respuestas": [
+                {
+                  "opcion": "him",
+                  "correcto": false
+                },
+                {
+                  "opcion": "he",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "I'm talking to you, listen to _________.",
+              "id": "8",
+              "respuestas": [
+                {
+                  "opcion": "me",
+                  "correcto": true
+                },
+                {
+                  "opcion": "I",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Whee are the tickets? I can't find ________.",
+              "id": "9",
+              "respuestas": [
+                {
+                  "opcion": "they",
+                  "correcto": false
+                },
+                {
+                  "opcion": "them",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "My sister has a new job, but __________ doesn't like __________ very much.",
+              "id": "10",
+              "respuestas": [
+                {
+                  "opcion": "she, it",
+                  "correcto": true
+                },
+                {
+                  "opcion": "she, him",
+                  "correcto": false
+                },
+                {
+                  "opcion": "her, it",
+                  "correcto": false
+                },
+                {
+                  "opcion": "her, him",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Free time VS at work",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "En esta unidad vamos a aprender nuevo vocabulario para referirnos, por un lado, a nuestros hobbies, actividades y los sitios a los que podemos ir en nuestro tiempo libre Por otro, vamos a conocer vocabulario relacionado con el trabajo y una serie de profesiones."
+                },
+                {
+                  "clase": "texto",
+                  "texto": "A lo que nos gusta hacer en nuestro tiempo libre se le denomina ‘free time’. Veamos cómo se dicen en inglés algunas de las actividades y hobbies más comunes:"
+                }
+              ]
+            },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod07/sports.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Talking about hobbies",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Distintas formas de hablar de nuestro tiempo libre:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "titulo": "Lo que <b>nos gusta</b> hacer:",
+              "contenido": [
+                {
+                  "punto": "<b>I like + nombre / ing</b>:",
+                  "contenido": [
+                    {
+                      "punto": "I like basketball. <i>(Me gusta el baloncesto.)</i>"
+                    },
+                    {
+                      "punto": "I like playing basketball. <i>(Me gusta jugar al baloncesto.)</i>"
+                    }
+                  ]
+                },
+                {
+                  "punto": "<b>I love + nombre / ing</b>:",
+                  "contenido": [
+                    {
+                      "punto": "I love cinema. <i>(Me encanta el cine.)</i>"
+                    },
+                    {
+                      "punto": "I love going to the cinema. <i>(Me encanta ir al cine.)</i>"
+                    }
+                  ]
+                },
+                {
+                  "punto": "<b>I enjoy + nombre / ing</b>:",
+                  "contenido": [
+                    {
+                      "punto": "I enjoy books. <i>(Disfruto los libros.)</i>"
+                    },
+                    {
+                      "punto": "I enjoy reading books. <i>(Disfruto leyendo libros.)</i>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "lista",
+              "titulo": "Lo que <b>no nos gusta</b>:",
+              "contenido": [
+                {
+                  "punto": "<b>I don't like + nombre / ing</b>:",
+                  "contenido": [
+                    {
+                      "punto": "I don't like basketball. <i>(No me gusta el baloncesto.)</i>"
+                    },
+                    {
+                      "punto": "I don't like playing basketball. <i>(No me gusta jugar al baloncesto.)</i>"
+                    }
+                  ]
+                },
+                {
+                  "punto": "<b>I <strike>don't love</strike> hate + nombre / ing</b>:",
+                  "contenido": [
+                    {
+                      "punto": "I hate music. <i>(Odio la música.)</i>"
+                    },
+                    {
+                      "punto": "I hate listenign to music. <i>(Odio escuchar música.)</i>"
+                    }
+                  ]
+                },
+                {
+                  "punto": "<b>I don't enjoy + nombre / ing</b>:",
+                  "contenido": [
+                    {
+                      "punto": "I don't enjoy books. <i>(No disfruto los libros.)</i>"
+                    },
+                    {
+                      "punto": "I don't enjoy reading books. <i>(No disfruto leyendo libros.)</i>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "subclase": "recuadro",
+          "titulo": "Para indicar que algo nos gusta mucho añadiremos <b>‘very much’</b> <i>(mucho)</i>:",
+          "contenido": [
+            {
+              "punto": "I like photography very much. <i>(Me gusta mucho la fotografía)</i>"
+            },
+            {
+              "punto": "I enjoy dancing very much. <i>(Disfruto mucho bailando.)</i>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Frequency",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "También podemos utilizar adverbios de frecuencia para indicar cada cuanto realizamos esta actividad (recuerda que vimos estos adverbios en el <b>MÓDULO 3</b>)"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "I go to the gym <b>sometimes</b>. <i>(Voy al gimnasio a veces.)</i>"
+                },
+                {
+                  "punto": "I <b>usually</b> go out with my friends. <i>(Suelo salir con mis amigos.)</i>"
+                },
+                {
+                  "punto": "I <b>never</b> watch football on TV. <i>(Nunca veo el fútbol en la tele.)</i>"
+                }
+              ]
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "English"
+                },
+                {
+                  "titulo": "Spanish"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>Always</b></center>"
+                    },
+                    {
+                      "texto": "<center>Siempre</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>Usually</b></center>"
+                    },
+                    {
+                      "texto": "<center>Normalmente</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>Never</b></center>"
+                    },
+                    {
+                      "texto": "<center>Nunca</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>Sometimes</b></center>"
+                    },
+                    {
+                      "texto": "<center>A veces</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>Frequently</b></center>"
+                    },
+                    {
+                      "texto": "<center>Frecuentemente</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>Generally</b></center>"
+                    },
+                    {
+                      "texto": "<center>Generalmente</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>Occasionally</b></center>"
+                    },
+                    {
+                      "texto": "<center>Ocasionalmente</center>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Questions",
+      "fondo": "img/mod07/surf.jpg",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
+              "contenido": [
+                {
+                  "punto": "What do  you do in your free time?"
+                },
+                {
+                  "punto": "What do you like doing in your free time?"
+                },
+                {
+                  "punto": "Do you like paractising sports?"
+                },
+                {
+                  "punto": "Do you like going...?"
+                },
+                {
+                  "punto": "Do you like...?"
+                }
+              ]
+            },
+            {
+              "clase": "lista",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
+              "contenido": [
+                {
+                  "punto": "¿Qué haces en tu tiempo libre?"
+                },
+                {
+                  "punto": "¿Qué te gusta hacer en tu tiempo libre?"
+                },
+                {
+                  "punto": "¿Te gusta practicar deporte?"
+                },
+                {
+                  "punto": "¿Te gusta ir...?"
+                },
+                {
+                  "punto": "¿Te gusta...?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "At work",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Ahora veremos algunas de  las profesiones más comunes y algunas palabras relacionadas con el mundo laboral."
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/mod07/work.jpg"
+        }
+          ]
+        },
+    {
+      "titulo": "Reading",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<center><b>SOME OF BRITAIN’S FAVOURITE HOBBIES</b></center>A hobby helps people to forget the hard reality and their everyday problems."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "A hobby can prevent depression and according to some studies, a person that has a hobby lives a better life and has a better relationship with her or his spouse.<br>People around the world think that British are snobby, conservative and unsociable people, but this stereotype is very old. Do you know what pleasurable pastimes are famous in the UK today? Let’s learn about their favorite activities.<br>British like gardening. They are famous for their passion for the countryside. A lot of social activities are devoted to gardening. Numerous TV-shows are about gardening and their participants can win real prizes!<br>English people are big animal lovers and they love their cats and dogs. They have special cemeteries for their pets.<br>A lot of people from the United Kingdom play casino games. There are various forms of betting, and horse racing and bingo are very popular. Some people play online and can spend a lot of hours in front of the screen playing bingo or other games."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod07/reading.jpg"
+            }
           ]
         }
       ]
     },
         {
-      "titulo": "Use",
+          "titulo": "Tea",
+          "fondo": "img/mod07/te.jpg",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Estos pronombres se pueden utilizar con un nombre detrás o sin él."
-        },
-        {
-          "clase": "texto",
-          "texto": "<center><b>Con un nombre:</b></center>"
-        },
-                {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "English"
-                    },
-                    {
-                      "titulo": "Spanish"
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "This restaurant is very expensive."
-                        },
-                        {
-                          "texto": "<i>Este restaurante es muy caro.</i>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "Do you know that girl?"
-                        },
-                        {
-                          "texto": "<i>¿Conoces a aquella chica?</i>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "I love these books."
-                        },
-                        {
-                          "texto": "<i>Me encantan estos libros.</i>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "Those shoes are very comfortable."
-                        },
-                        {
-                          "texto": "<i>Aquellos zapatos son muy cómodos.</i>"
-                        }
-                      ]
-                    }
-                  ]
-                },
-        {
-          "clase": "texto",
-          "texto": "<center><b>Sin un nombre:</b></center>"
-        },
-                {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "English"
-                    },
-                    {
-                      "titulo": "Spanish"
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "This is a very expensive restaurant."
-                        },
-                        {
-                          "texto": "<i>Éste es un restaurante muy caro.</i>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "Who is that? (=that person)"
-                        },
-                        {
-                          "texto": "<i>¿Quién es? (esa persona)</i>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "Are these your books?"
-                        },
-                        {
-                          "texto": "<i>¿Son éstos tus libros?</i>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "What shoes do you prefer, these or those?"
-                        },
-                        {
-                          "texto": "<i>¿Qué zapatos prefieres, éstos o aquellos?</i>"
-                        }
-                      ]
-                    }
-                  ]
-                }
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "English are the world’s greatest tea consumers. The British can drink tea at least 8 times a day! They like to spend hours talking to their friends and family with a cup of tea. They are also sport fans. Some sports like hunting and horse racing are only for rich people and a lot of people in England really love football."
+        }
       ]
     },
     {
@@ -1703,415 +1368,83 @@
           "clase": "autoevalPreguntas",
           "preguntas": [
             {
-              "texto": "Those bike is new.",
+              "texto": "A hobby can help you to be happy and to have better relationships.",
               "id": "1",
               "respuestas": [
                 {
-                  "opcion": "Incorrect",
+                  "opcion": "True",
                   "correcto": true
                 },
                 {
-                  "opcion": "Correct",
-                  "correcto": false,
-                  "feedback": "Incorrect: THAT BIKE IS NEW."
-                }
-              ]
-            },
-            {
-              "texto": "These people are my friends.",
-              "id": "2",
-              "respuestas": [
-                {
-                  "opcion": "Correct",
-                  "correcto": true
-                },
-                {
-                  "opcion": "Incorrect",
+                  "opcion": "False",
                   "correcto": false
                 }
               ]
             },
             {
-              "texto": "This are my keys.",
+              "texto": "What are British people's favourite activities?",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "Gardening, casino, games, sports",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Reading, listening to music, going out",
+                  "correcto": false
+                },
+                                {
+                  "opcion": "Gardening, casino games, sports",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "British people like gardening but it's not very popular.",
               "id": "3",
               "respuestas": [
                 {
-                  "opcion": "Incorrect",
+                  "opcion": "False",
                   "correcto": true
                 },
                 {
-                  "opcion": "Correct",
+                  "opcion": "True",
                   "correcto": false,
-                  "feedback": "Incorrect: THESE ARE MY KEYS."
+                  "feedback": "Incorrect: It's very popular and there are TV shows with big prizes."
                 }
               ]
             },
             {
-              "texto": "Is those seat free?",
+              "texto": "Bingo is not very popular and they can only play it in some places.",
               "id": "4",
               "respuestas": [
                 {
-                  "opcion": "Incorrect",
+                  "opcion": "False",
                   "correcto": true
                 },
                 {
-                  "opcion": "Correct",
+                  "opcion": "True",
                   "correcto": false,
-                  "feedback": "Incorrect: IS THIS SEAT FREE?"
+                  "feedback": "Incorrect: It's very popular and you can play it online."
                 }
               ]
             },
             {
-              "texto": "These is my sister, Clarie.",
+              "texto": "A lot of English people practice hunting and horse riding.",
               "id": "5",
               "respuestas": [
                 {
-                  "opcion": "Incorrect",
+                  "opcion": "False",
                   "correcto": true
                 },
                 {
-                  "opcion": "Correct",
+                  "opcion": "True",
                   "correcto": false,
-                  "feedback": "Incorrect: THIS IS MY SISTER CLAIRE."
+                  "feedback": "Incorrect: Only rich people play those sports."
                 }
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "titulo": "Breakfast",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "En el vocabulario perteneciente a esta unidad vamos a aprender el vocabulario relativo a alimentos y bebidas. Más adelante aprenderemos como aplicar este vocabulario en un entorno real, como puede ser un restaurante."
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod06/Breakfast2.jpg"
-        }
-      ]
-    },
-    {
-      "titulo": "Beverages",
-      "contenido": [
-        {
-          "clase": "imagen",
-          "imagen": "img/mod06/Beverages.jpg"
-        }
-      ]
-    },
-    {
-      "titulo": "Fruits & vegetables",
-      "contenido": [
-        {
-          "clase": "imagen",
-          "imagen": "img/mod06/fruits.jpg"
-        }
-      ]
-    },
-    {
-      "titulo": "A meal",
-      "contenido": [
-        {
-          "clase": "imagen",
-          "imagen": "img/mod06/food.jpg"
-        }
-      ]
-    },
-    {
-      "titulo": "Sancks & more",
-      "contenido": [
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/mod06/Snacks.jpg"
-            },
-            {
-              "clase": "icono",
-              "subclase": "sabiasQue",
-              "texto": "‘It’s easy as pie’ es una expresión en inglés que significa literalmente “fácil como un pastel”. Quiere decir que algo es muy sencillo y que cualquiera podría hacerlo, como hacer un pastel.<center>‘This activity is easy as pie, you can do it in five minutes!’<br>Esto es muy sencilo, ¡puedes hacerlo en 5 minutos!</center>"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Crosswords",
-      "contenido": [
-        {
-          "clase": "juegoPalabrasCruzadas",
-          "titulo": "Numbers",
-          "descripcion": "Write the name of definition.<br><span class='h4 importante'>CAN YOU DO IT WITHOUT LOOKING BACK?</span>",
-          "ancho": 13,
-          "alto": 12,
-          "pistas": [
-            {
-              "palabra": "STRAWBERRY",
-              "definicion": "FRESA",
-              "direccion": "H",
-              "posX": 3,
-              "posY": 2
-            },
-            {
-              "palabra": "LETTUCE",
-              "definicion": "LECHUGA",
-              "direccion": "H",
-              "posX": 0,
-              "posY": 6
-            },
-            {
-              "palabra": "CHEESE",
-              "definicion": "QUESO",
-              "direccion": "H",
-              "posX": 3,
-              "posY": 10
-            },
-            {
-              "palabra": "BISCUITS",
-              "definicion": "GALLETAS",
-              "direccion": "V",
-              "posX": 3,
-              "posY": 0
-            },
-            {
-              "palabra": "MILK",
-              "definicion": "LECHE",
-              "direccion": "V",
-              "posX": 0,
-              "posY": 4
-            },
-            {
-              "palabra": "COFFEE",
-              "definicion": "CAFÉ",
-              "direccion": "V",
-              "posX": 5,
-              "posY": 6
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "In a restaurant",
-      "contenido": [
-        {
-          "clase": "texto",
-          "texto": "<center><b>How to order things in a restaurant</b></center>Puede que llegue el momento en el que nos tengamos que enfrentar a la situación de ir a un restaurante y tener que pedir en inglés. Pero no te preocupes, vamos a aprender las frases y el vocabulario clave para salir airosos de esta situación.<br>Ante todo, debemos recordar lo que ya estudiamos con anterioridad y es que los ingleses son extremadamente educados a la hora de pedir las cosas y no dirán simplemente ‘I want…’ (Quiero…) sino ‘Can I have…?’ o ‘Can I get…?’ (¿Puedo tomar…?). Vamos a ver algún ejemplo de cómo podemos pedir cosas en un restaurante o una cafetería."
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "lista",
-              "contenido": [
-                {
-                  "punto": "Can I have a coffee, please?<br><i>¿Me puede poner un café por favor?</i>"
-                },
-                {
-                  "punto": "Can I get a salad, please?<br><i>¿Puedes darme una ensalada por favor?</i>"
-                },
-                {
-                  "punto": "Do you have any vegetarian meals?<br><i>¿Tenéis algún plato vegetariano?</i>"
-                }
-              ]
-            },
-            {
-              "clase": "texto",
-              "subclase": "recuadro",
-              "texto": "En un menú, podemos encontrarnos con algunos adjetivos que acompañen a la comida:<center>Roasted (chicken) – Asado (pollo asado)<br>Homemade (pasta) – Casero (pasta casera)<br>Fried (egg) – Frito (huevo frito)</center>"
-            }
-          ]
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "Si viajas a Londres debes tener en cuenta que es costumbre dejar de propina (TIP) el 10% o el 20% del total de lo que has pagado. No es una obligación y depende de lo contento que hayas quedado con el servicio."
-        }
-      ]
-    },
-    {
-      "titulo": "Expressions",
-      "contenido": [
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "imagen": "img/mod06/menu.jpg",
-              "ancho": 400
-            },
-            {
-              "clase": "texto",
-              "texto": "Cuando lleguemos a un restaurant no nos debemos olvidar de saludar (Hello/ Good evening…) e incluso podemos preguntar al camarero o camarera qué tal están (How are you?). Camarero en inglés se dice WAITER y su femenino es WAITRESS.<br>Una vez que tengamos el menú (THE MENU), estaremos listos para empezar a pedir.<br><br>En general, en un menú nos encontraremos con la parte de ‘starters’ o entrantes, ‘main course/s’ que es la categoría de platos principales y ‘dessert’, que como ya vimos en la parte de vocabulario es el postre.<br>Para pedir algo del menú utilizaremos las expresiones vistas antes (Can I have... / Can I get...) y también la expresión ‘I would like...’ que es “me gustaría tomar...”."
-            }
-          ]
-        }
-      ]
-    },
-        {
-      "titulo": "An example",
-      "contenido": [
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-                    {
-                      "clase": "lista",
-                      "titulo": "<b>Conversation</b>",
-                      "contenido": [
-                        {
-                          "punto": "Welcome to Al Fresco! Here is your menu.",
-                          "icono": "img/mod06/waitress.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "Thank you very much.",
-                          "icono": "img/mod06/costumer.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "Are you ready to order?",
-                          "icono": "img/mod06/waitress.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "Yes, I am. Can I have the homemade pasta please?",
-                          "icono": "img/mod06/costumer.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "Yes, of course. Do you want a starter?",
-                          "icono": "img/mod06/waitress.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "No, thank you.",
-                          "icono": "img/mod06/costumer.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "OK, do you want anything to drink?",
-                          "icono": "img/mod06/waitress.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "Yes, I would like a glass of wine, please.",
-                          "icono": "img/mod06/costumer.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "So, that’s the homemade pasta and a glass of wine. That’s great!",
-                          "icono": "img/mod06/waitress.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "..."
-                        },
-                                                {
-                          "punto": "Here is your food, enjoy your meal!",
-                          "icono": "img/mod06/waitress.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "..."
-                        },
-                                                {
-                          "punto": "Would you like anything for dessert?",
-                          "icono": "img/mod06/waitress.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "No thank you, I’m fine. Can I have the bill please?",
-                          "icono": "img/mod06/costumer.svg",
-                          "ancho": 32
-                        }
-                      ]
-                    },
-                    {
-                      "clase": "lista",
-                      "titulo": "<b>Translation</b>",
-                      "contenido": [
-                        {
-                          "punto": "¡Bienvenido a Al Fresco! Aquí tiene su menú.",
-                          "icono": "img/mod06/waitress.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "Muchas gracias.",
-                          "icono": "img/mod06/costumer.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "¿Está listo para pedir?",
-                          "icono": "img/mod06/waitress.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "Sí, lo estoy. ¿Me puedes traer / Puedo tomar la pasta casera, por favor?",
-                          "icono": "img/mod06/costumer.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "Sí, por supuesto, ¿le gustaría un entrante?",
-                          "icono": "img/mod06/waitress.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "No, gracias.",
-                          "icono": "img/mod06/costumer.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "De acuerdo, ¿quiere algo para beber?",
-                          "icono": "img/mod06/waitress.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "Sí, me gustaría una copa de vino por favor.",
-                          "icono": "img/mod06/costumer.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "Entonces es la pasta casera y una copa de vino. ¡Muy bien!",
-                          "icono": "img/mod06/waitress.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "..."
-                        },
-                        {
-                          "punto": "Aquí tiene su comida, ¡que aproveche!",
-                          "icono": "img/mod06/waitress.svg",
-                          "ancho": 32
-                        },
-                                                {
-                          "punto": "..."
-                        },
-                        {
-                          "punto": "¿Le gustaría algo de postre?",
-                          "icono": "img/mod06/waitress.svg",
-                          "ancho": 32
-                        },
-                        {
-                          "punto": "No gracias, ya estoy bien. ¿Me podría traer la cuenta por favor?",
-                          "icono": "img/mod06/costumer.svg",
-                          "ancho": 32
-                        }
-                      ]
-                    }
-                  ]
-                }
-      ]
-    },
-    {
-      "titulo": "Vocabulary",
-      "contenido": [
-        {
-          "clase": "imagen",
-          "imagen": "img/mod06/vocabulary.jpg"
         }
       ]
     },
@@ -2123,588 +1456,195 @@
           "texto": "<center><b>In this Unit you have learned...</b><br><i>En esta Unidad has aprendido...</i></center>"
         },
         {
-          "clase": "lista",
-          "contenido": [
+          "clase": "texto",
+          "texto": "You have checked the differences between the Present Simple and the Present Continuous and you know when you have to use each one. Let’s have a look again at the difference between each other:"
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
             {
-              "punto": "You have learned a new verb tense, THE PRESENT CONTINUOUS. We use it to indicate that something is happening at the moment or that something is happening in the future. Let’s have a look at it again!",
-              "contenido": [
+              "titulo": "Present simple"
+            },
+            {
+              "titulo": "Present continuous"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
                 {
-                  "clase": "listaObjetos",
+                  "clase": "lista",
                   "contenido": [
                     {
-                      "clase": "acordeon",
-                      "contenido": [
-                        {
-                          "titulo": "Affirmative",
-                          "contenido": [
-                            {
-                              "clase": "tabla",
-                              "filaTitulos": [
-                                {
-                                  "titulo": "AFFIRMATIVE",
-                                  "colspan": 3
-                                }
-                              ],
-                              "filaContenido": [
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>I</b>"
-                                    },
-                                    {
-                                      "texto": "am"
-                                    },
-                                    {
-                                      "texto": "doing",
-                                      "rowspan": 8
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>you</b>"
-                                    },
-                                    {
-                                      "texto": "are"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>he</b>"
-                                    },
-                                    {
-                                      "texto": "is",
-                                      "rowspan": 3
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>she</b>"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>it</b>"
-                                    }
-                                  ]
-                                },
-
-
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>we</b>"
-                                    },
-                                    {
-                                      "texto": "are",
-                                      "rowspan": 3
-                                    }
-                                  ]
-                                },
-
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>you</b>"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>they</b>"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
+                      "punto": "Activities that we do every day, a frequent thing."
                     },
                     {
-                      "clase": "acordeon",
-                      "contenido": [
-                        {
-                          "titulo": "Negative",
-                          "contenido": [
-                            {
-                              "clase": "tabla",
-                              "filaTitulos": [
-                                {
-                                  "titulo": "NEGATIVE",
-                                  "colspan": 3
-                                }
-                              ],
-                              "filaContenido": [
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>I</b>"
-                                    },
-                                    {
-                                      "texto": "am not"
-                                    },
-                                    {
-                                      "texto": "eating",
-                                      "rowspan": 8
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>you</b>"
-                                    },
-                                    {
-                                      "texto": "aren't"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>he</b>"
-                                    },
-                                    {
-                                      "texto": "isn't",
-                                      "rowspan": 3
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>she</b>"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>it</b>"
-                                    }
-                                  ]
-                                },
-
-
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>we</b>"
-                                    },
-                                    {
-                                      "texto": "aren't",
-                                      "rowspan": 3
-                                    }
-                                  ]
-                                },
-
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>you</b>"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>they</b>"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
+                      "punto": "To describe a routine."
                     },
                     {
-                      "clase": "acordeon",
-                      "contenido": [
-                        {
-                          "titulo": "Interrogative",
-                          "contenido": [
-                            {
-                              "clase": "tabla",
-                              "filaTitulos": [
-                                {
-                                  "titulo": "QUESTION",
-                                  "colspan": 3
-                                }
-                              ],
-                              "filaContenido": [
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "am"
-                                    },
-                                    {
-                                      "texto": "<b>I</b>"
-                                    },
-                                    {
-                                      "texto": "reading?",
-                                      "rowspan": 8
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "are"
-                                    },
-                                    {
-                                      "texto": "<b>you</b>"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "is",
-                                      "rowspan": 3
-                                    },
-                                    {
-                                      "texto": "<b>he</b>"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>she</b>"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>it</b>"
-                                    }
-                                  ]
-                                },
-
-
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "are",
-                                      "rowspan": 3
-                                    },
-                                    {
-                                      "texto": "<b>we</b>"
-                                    }
-                                  ]
-                                },
-
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>you</b>"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "fila": [
-                                    {
-                                      "texto": "<b>they</b>"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "punto": "You have learned the demonstrative pronouns this/ these/ that/ those and you can use them to designate things and in different expressions.",
-              "contenido": [
-                {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "ADVERB"
-                    },
-                    {
-                      "titulo": "SINGULAR"
-                    },
-                    {
-                      "titulo": "PLURAL"
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "HERE"
-                        },
-                        {
-                          "texto": "<b>THIS</b> (BOOK)"
-                        },
-                        {
-                          "texto": "<b>THESE</b> (BOOKS)"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "THERE"
-                        },
-                        {
-                          "texto": "<b>THAT</b> (BOOK)"
-                        },
-                        {
-                          "texto": "<b>THOSE</b> (BOOKS)"
-                        }
-                      ]
+                      "punto": "Something set in a timetable."
                     }
                   ]
                 },
                 {
-                  "punto": "On the phone: ‘Hi, this is me!’"
-                },
-                {
-                  "punto": "Introducing somebody: ‘This is my friend, Rose’."
-                },
-                {
-                  "punto": "Without a noun: ‘Those are my shoes’."
-                }
-              ]
-            },
-            {
-              "punto": "In the vocabulary part you have learned about <b>FOOD AND DRINKS</b>. Maybe you should have a look again at that part and take some notes to remember your favourite foods!"
-            },
-            {
-              "punto": "Finally, you have learned how to order food and drinks in a restaurant. You know the parts of the menu, the name of different meals and how to order a meal. Let’s have a look at some of the expressions that you learned.",
-              "contenido": [
-                {
-                  "punto": "Can I have a cup of tea please?<br><i>¿Puedo tomar una taza de té, por favor?</i>"
-                },
-                {
-                  "punto": "I would like to have the lemon pie, please.<br><i>Me gustaría tomar el pastel de limón, por favor.</i>"
-                },
-                {
-                  "punto": "Can I have some bread please?<br><i>¿Puedo tomar algo de pan?</i>"
-                },
-                {
-                  "punto": "Can I get the bill, please?<br><i>¿Me trae la cuenta por favor?</i>"
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "Something that is happening right now."
+                    },
+                    {
+                      "punto": "Something that is happening in a near future."
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "clase": "acordeon",
+          "clase": "lista",
+          "titulo": "<b>Remember:</b>",
           "contenido": [
             {
-              "titulo": "New vocabulary",
-              "contenido": [
+              "punto": "Each one usually goes with different adverbs."
+            },
+            {
+              "punto": "With some verbs, we can only use Present Simple."
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "You learned new pronouns that work as objects. Let’s remember them."
+        },
+        {
+          "clase": "tabla",
+          "filaTitulos": [
+            {
+              "titulo": "Pronombre sujeto"
+            },
+            {
+              "titulo": "Pronombre objeto"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
                 {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "ENGLISH"
-                    },
-                    {
-                      "titulo": "SPANISH"
-                    },
-                    {
-                      "titulo": "PRONUNTIATION"
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>TO WANT</b></center>"
-                        },
-                        {
-                          "texto": "<center>QUERER</center>"
-                        },
-                        {
-                          "texto": "<center>tuː wɒnt</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>TO NEED</b></center>"
-                        },
-                        {
-                          "texto": "<center>NECESITAR</center>"
-                        },
-                        {
-                          "texto": "<center>tuː niːd</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>TO KNOW</b></center>"
-                        },
-                        {
-                          "texto": "<center>SABER</center>"
-                        },
-                        {
-                          "texto": "<center>tuː nəʊ</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>TO UNDERSTAND</b></center>"
-                        },
-                        {
-                          "texto": "<center>ENTENDER</center>"
-                        },
-                        {
-                          "texto": "<center>tuː ˌʌndəˈstænd</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>TO DIE</b></center>"
-                        },
-                        {
-                          "texto": "<center>MORIR</center>"
-                        },
-                        {
-                          "texto": "<center>tuː daɪ</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>TO LIE</b></center>"
-                        },
-                        {
-                          "texto": "<center>TUMBAR(SE)/ MENTIR</center>"
-                        },
-                        {
-                          "texto": "<center>tuː laɪ</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>IT'S EASY AS PIE</b></center>"
-                        },
-                        {
-                          "texto": "<center>ES MUY SENCILLO</center>"
-                        },
-                        {
-                          "texto": "<center>ɪts ˈiːzi æz paɪ</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>WAITER</b></center>"
-                        },
-                        {
-                          "texto": "<center>CAMARERO</center>"
-                        },
-                        {
-                          "texto": "<center>ˈweɪtə</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>WAITRESS</b></center>"
-                        },
-                        {
-                          "texto": "<center>CAMARERA</center>"
-                        },
-                        {
-                          "texto": "<center>ˈweɪtrɪs</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>ROASTED</b></center>"
-                        },
-                        {
-                          "texto": "<center>ASADO</center>"
-                        },
-                        {
-                          "texto": "<center>ˈrəʊstɪd</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>HOMEMADE</b></center>"
-                        },
-                        {
-                          "texto": "<center>CASERO</center>"
-                        },
-                        {
-                          "texto": "<center>ˈhəʊmˈmeɪd</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>FRIED</b></center>"
-                        },
-                        {
-                          "texto": "<center>FRITO</center>"
-                        },
-                        {
-                          "texto": "<center>fraɪd</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center><b>TIP</b></center>"
-                        },
-                        {
-                          "texto": "<center>PROPINA</center>"
-                        },
-                        {
-                          "texto": "<center>tɪp</center>"
-                        }
-                      ]
-                    }
-                  ]
+                  "texto": "<center><b>I</b></center>"
+                },
+                {
+                  "texto": "<center>me</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>you</b></center>"
+                },
+                {
+                  "texto": "<center>you</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>she</b></center>"
+                },
+                {
+                  "texto": "<center>her</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>he</b></center>"
+                },
+                {
+                  "texto": "<center>him</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>it</b></center>"
+                },
+                {
+                  "texto": "<center>it</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>we</b></center>"
+                },
+                {
+                  "texto": "<center>us</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>you</b></center>"
+                },
+                {
+                  "texto": "<center>you</center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>they</b></center>"
+                },
+                {
+                  "texto": "<center>them</center>"
                 }
               ]
             }
           ]
         },
         {
-          "clase": "imagen",
-          "imagen": "img/comunes/londonLast2.png"
+          "clase": "lista",
+          "titulo": "",
+          "contenido": [
+            {
+              "punto": "<b>We</b> are going to the cinema. Do you want to come with <b>us</b>?"
+            },
+            {
+              "punto": "You can have <b>this dress</b>, I don’t like <b>it</b>."
+            },
+            {
+              "punto": "Of course I love <b>you</b>!"
+            },
+            {
+              "punto": "He doesn’t know <b>me</b>."
+            }
+          ]
+        },
+                {
+          "clase": "lista",
+          "titulo": "There is new vocabulary from this Unit. You have learned how to express what you do in your free time and different hobbies and activities.",
+          "contenido": [
+            {
+              "punto": "I like going to the cinema."
+            },
+            {
+              "punto": "I don't like playing tennis."
+            },
+            {
+              "punto": "I love listening to music."
+            },
+                        {
+              "punto": "I hate football."
+            }
+          ]
         }
       ]
     },
