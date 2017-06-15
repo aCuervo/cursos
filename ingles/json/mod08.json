@@ -907,7 +907,7 @@
         }
       ]
     },
-        {
+    {
       "titulo": "Activity",
       "contenido": [
         {
@@ -1010,6 +1010,1307 @@
         {
           "clase": "imagen",
           "imagen": "img/mod08/list.png"
+        }
+      ]
+    },
+    {
+      "titulo": "Activity",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "texto": "Escoge el pasado correcto de los siguientes verbos:"
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "Think",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "Thought",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Thinked",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Put",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "Putted",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Put",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Write",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "Wrote",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Writted",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Break",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "Breaked",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Broke",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Run",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "Ran",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Run",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Crosswords",
+      "contenido": [
+        {
+          "clase": "juegoPalabrasCruzadas",
+          "titulo": "Simple past",
+          "descripcion": "Complete with the simple past of the following irregular verbs.",
+          "ancho": 9,
+          "alto": 9,
+          "pistas": [
+            {
+              "palabra": "SAW",
+              "definicion": "See (ver)",
+              "direccion": "H",
+              "posX": 0,
+              "posY": 3
+            },
+            {
+              "palabra": "BOUGHT",
+              "definicion": "Buy (comprar)",
+              "direccion": "H",
+              "posX": 3,
+              "posY": 4
+            },
+            {
+              "palabra": "DRANK",
+              "definicion": "Drink (beber)",
+              "direccion": "H",
+              "posX": 0,
+              "posY": 6
+            },
+            {
+              "palabra": "WENT",
+              "definicion": "Go (ir)",
+              "direccion": "H",
+              "posX": 5,
+              "posY": 7
+            },
+            {
+              "palabra": "READ",
+              "definicion": "Read (leer)",
+              "direccion": "H",
+              "posX": 1,
+              "posY": 8
+            },
+            {
+              "palabra": "KNEW",
+              "definicion": "Know (saber)",
+              "direccion": "V",
+              "posX": 2,
+              "posY": 0
+            },
+            {
+              "palabra": "SOLD",
+              "definicion": "Sell (vender)",
+              "direccion": "V",
+              "posX": 0,
+              "posY": 3
+            },
+            {
+              "palabra": "TOOK",
+              "definicion": "Take (coger)",
+              "direccion": "V",
+              "posX": 4,
+              "posY": 3
+            },
+            {
+              "palabra": "GAVE",
+              "definicion": "Give (dar)",
+              "direccion": "V",
+              "posX": 6,
+              "posY": 4
+            },
+            {
+              "palabra": "MADE",
+              "definicion": "Make (hacer/fabricar)",
+              "direccion": "V",
+              "posX": 2,
+              "posY": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Negative and question form",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "A la hora utilizar la forma negativa e interrogativa en el Past Simple, nos dará igual que el verbo sea regular o irregular, ya que se construye de la misma forma, utilizando el verbo auxiliar <b>DID</b>."
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "INFINITIVE"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>play</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>watch</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>go</b></center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center><b>have</b></center>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "AFFIRMATIVE",
+                  "colspan": 2
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>I</center>"
+                    },
+                    {
+                      "texto": "<center>play</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>you</center>"
+                    },
+                    {
+                      "texto": "<center>watched</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>she</center>"
+                    },
+                    {
+                      "texto": "<center>went</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>they</center>"
+                    },
+                    {
+                      "texto": "<center>had</center>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "NEGATIVE",
+                  "colspan": 3
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>I</center>"
+                    },
+                    {
+                      "texto": "<center>did not (didn't)</center>",
+                      "rowspan": 4
+                    },
+                    {
+                      "texto": "<center>play</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>you</center>"
+                    },
+                    {
+                      "texto": "<center>watch</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>she</center>"
+                    },
+                    {
+                      "texto": "<center>go</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>they</center>"
+                    },
+                    {
+                      "texto": "<center>have</center>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "QUESTION",
+                  "colspan": 3
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>Did</center>",
+                      "rowspan": 4
+                    },
+                    {
+                      "texto": "<center>I</center>"
+                    },
+                    {
+                      "texto": "<center>play</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>you</center>"
+                    },
+                    {
+                      "texto": "<center>watch</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>she</center>"
+                    },
+                    {
+                      "texto": "<center>go</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>they</center>"
+                    },
+                    {
+                      "texto": "<center>have</center>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "En el Present Simple utilizábamos do/does (not) como auxiliar para la forma negativa e interrogativa.<br>En el Past Simple usaremos el pasado de do, DID, como auxiliar. Recuerda que en pasado no hay cambios en la tercera persona.<br><center>I/ you/ he/ she/ it/ we/ they DID </center>"
+        }
+      ]
+    },
+    {
+      "titulo": "Examples",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<center>Acuérdate del uso de las question words (what, where, who, why...). Repasemos el orden:</center>"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "ADV."
+                },
+                {
+                  "titulo": "AUX."
+                },
+                {
+                  "titulo": "SUBJECT"
+                },
+                {
+                  "titulo": "INFINITIVE"
+                },
+                {
+                  "titulo": "COMPLEMENT"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": ""
+                    },
+                    {
+                      "texto": "Do"
+                    },
+                    {
+                      "texto": "you"
+                    },
+                    {
+                      "texto": "like"
+                    },
+                    {
+                      "texto": "sushi?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": ""
+                    },
+                    {
+                      "texto": "Does"
+                    },
+                    {
+                      "texto": "Michael"
+                    },
+                    {
+                      "texto": "play"
+                    },
+                    {
+                      "texto": "the piano?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Where"
+                    },
+                    {
+                      "texto": "do"
+                    },
+                    {
+                      "texto": "your parents"
+                    },
+                    {
+                      "texto": "live?"
+                    },
+                    {
+                      "texto": ""
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "What"
+                    },
+                    {
+                      "texto": "does"
+                    },
+                    {
+                      "texto": "it"
+                    },
+                    {
+                      "texto": "mean?"
+                    },
+                    {
+                      "texto": ""
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Why"
+                    },
+                    {
+                      "texto": "do"
+                    },
+                    {
+                      "texto": "they"
+                    },
+                    {
+                      "texto": "do"
+                    },
+                    {
+                      "texto": "that thing?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "texto",
+          "texto": "<b>Examples</b>"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "I don't cook. (<i>Yo no cocino.</i>)"
+                },
+                {
+                  "punto": "I didn't cook dinner yesterday. (<i>Ayer no cociné la cena.</i>)"
+                },
+                {
+                  "punto": "Does she cook? (<i>¿Ella cocina?</i>)"
+                },
+                {
+                  "punto": "Did she cook dinner yesterday? (<i>¿Cocinó ella anoche la cena?</i>)"
+                }
+              ]
+            },
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "The don't watch TV. (<i>Ellos no ven la televisión.</i>)"
+                },
+                {
+                  "punto": "They didn’t watch TV last night. (<i>Ellos no vieron la television anoche.</i>)"
+                },
+                {
+                  "punto": "Did they watch TV last night? (<i>¿Vieron la television anoche?</i>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Activity",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "texto": "Escoge la opción correcta:"
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "The film wasn't very good. We _______ it.",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "enjoyed",
+                  "correcto": false
+                },
+                {
+                  "opcion": "didn't enjoy",
+                  "correcto": true
+                },
+                {
+                  "opcion": "enjoy",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Peter _______ some clothes last weekend- some t-shirts and a pair of trousers.",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "buys",
+                  "correcto": false
+                },
+                {
+                  "opcion": "didn't buy",
+                  "correcto": false
+                },
+                {
+                  "opcion": "bought",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "The room was very warm and we ______ the windows.",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "opened",
+                  "correcto": true
+                },
+                {
+                  "opcion": "openned",
+                  "correcto": false
+                },
+                {
+                  "opcion": "didn't open",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "How ________ your hand? It looks bad!",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "do you cut",
+                  "correcto": false
+                },
+                {
+                  "opcion": "did you cutted",
+                  "correcto": false
+                },
+                {
+                  "opcion": "did you cut",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "The tour ________ very interesting, we didn’t like it",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "wasn't",
+                  "correcto": true
+                },
+                {
+                  "opcion": "didn't was",
+                  "correcto": false
+                },
+                {
+                  "opcion": "was",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Mozart ______ 600 pieces of music.",
+              "id": "6",
+              "respuestas": [
+                {
+                  "opcion": "writed",
+                  "correcto": false
+                },
+                {
+                  "opcion": "wrote",
+                  "correcto": true
+                },
+                {
+                  "opcion": "didn't write",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "What ____ you _____ last weekend?",
+              "id": "7",
+              "respuestas": [
+                {
+                  "opcion": "do/do",
+                  "correcto": false
+                },
+                {
+                  "opcion": "did/do",
+                  "correcto": true
+                },
+                {
+                  "opcion": "do/did",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Reading",
+      "fondo": "img/mod08/maldives.jpg",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "texto": "Last summer, my husband and I spent out holidays in a tropical island in the Caribbean. The island was very big and there were a lot of things to see and do. We stayed in a beautiful hotel and we swam every day at the beautiful beaches. I got a great suntan!<br><br>We also tried the local food. There were a lot of different types of food, from fish to tropical fruits. We ate everyday something different and it was delicious!<br><br>We practised different sports and my husband broke his arm. We spent a day at the hospital and I was very worried!<br><br>We met some local people. They were very friendly and welcoming! I can say that we had a great time during our last holidays!"
+        },
+        {
+          "clase": "lista",
+          "subclase": "recuadro",
+          "opacidad": 0.8,
+          "titulo": "<center><b>VOCABULARY</b></center>",
+          "contenido": [
+            {
+              "punto": "<u>The caribbean</u>: El Caribe"
+            },
+            {
+              "punto": "<u>Suntan</u>: Bronceado"
+            },
+            {
+              "punto": "<u>Arm</u>: Brazo"
+            },
+            {
+              "punto": "<u>Worried</u>: Preocupado/a"
+            },
+                        {
+              "punto": "<u>Welcoming</u>: Acogedor/cordial"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Activity",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "texto": "Escoge si las siguientes afirmaciones son verdaderas o falsas:"
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "The island was very small and there weren’t a lot of things to do.",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "True",
+                  "correcto": false,
+                  "feedback": "Incorrect: The island was very big and there were a lot of things to see and do."
+                },
+                {
+                  "opcion": "False",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "They tried local food and they met local people.",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "False",
+                  "correcto": false
+                },
+                {
+                  "opcion": "True",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Her husband didn’t break his arm.",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "False",
+                  "correcto": true
+                },
+                {
+                  "opcion": "True",
+                  "correcto": false,
+                  "feedback": "Incorrect: Her husband broke his arm."
+                }
+              ]
+            },
+            {
+              "texto": "They are now in a tropical island in the Caribbean.",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "True",
+                  "correcto": false,
+                  "feedback": "Incorrect: They were in a tropical island last summer."
+                },
+                {
+                  "opcion": "False",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "The people were very nice and they enjoyed a lot.",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "True",
+                  "correcto": true
+                },
+                {
+                  "opcion": "False",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Vocabulary",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "A continuación aprenderemos vocabulario y expresiones útiles para poder entendernos cuando visitemos un país de habla inglesa. <br>Encontrarás que algunas estructuras y palabras pertenecen a un nivel más alto, pero no te preocupes, todas tienen su traducción correspondiente y están situadas en un contexto para ayudarte."
+            },
+            {
+              "clase": "imagen",
+              "imagen": "img/mod08/vocabulary.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "At the airport/station",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "subclase": "recuadro",
+                  "titulo": "<center><b>No confundas LUGGAGE con SUITCASE</b></center>",
+                  "contenido": [
+                    {
+                      "punto": "Con luggage nos referimos a todo nuestro equipaje sea una sola maleta o varias."
+                    },
+                    {
+                      "punto": "Con suitcase nos referimos a una maleta: two suitcases (dos maletas), a lot of suitcases (un montón de maletas), etc"
+                    }
+                  ]
+                },
+                            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "ENGLISH"
+                },
+                {
+                  "titulo": "SPANISH"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Luggage"
+                    },
+                    {
+                      "texto": "Equipaje"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Suitcase"
+                    },
+                    {
+                      "texto": "Maleta"
+                    }
+                  ]
+                }
+              ]
+            }
+                              ]
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "ENGLISH"
+                },
+                {
+                  "titulo": "SPANISH"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Airport"
+                    },
+                    {
+                      "texto": "Aeropuerto"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Plane"
+                    },
+                    {
+                      "texto": "Avión"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Flight"
+                    },
+                    {
+                      "texto": "Vuelo"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Boarding pass/card"
+                    },
+                    {
+                      "texto": "Tarjeta de embarque"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Check-in"
+                    },
+                    {
+                      "texto": "Facturación (equipaje)"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "One way ticket"
+                    },
+                    {
+                      "texto": "Billete de ida"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Return ticket"
+                    },
+                    {
+                      "texto": "Billete de ida y vuelta"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Do you have any luggage to check?"
+                    },
+                    {
+                      "texto": "¿Tiene equipaje para facturar?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Can I see your passport please?"
+                    },
+                    {
+                      "texto": "¿Puedo ver su pasaporte, por favor?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "The flight is delayed/cancelled"
+                    },
+                    {
+                      "texto": "El vuelo está retrasado/cancelado"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "I lost my luggage"
+                    },
+                    {
+                      "texto": "Perdí mi equipaje"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "At the hotel",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "icono",
+              "subclase": "exclamacion",
+              "texto": "Cuando lleguemos a un hotel, lo normal es que ya hayamos realizado una reserva previa y lo primero que digamos sea “Hello, my name is (...) and I have a reservation” para presentarnos y que nos entreguen nuestra llave.<br>Esto también se conoce como realizar el “check-in” (recuerda que también podemos hacer check-in en el aeropuerto cuando facturemos nuestro equipaje). Puede que nos pidan nuestra tarjeta de crédito (credit card) o que nos hagan firmar algún tipo de documento que se denominará <b>receipt</b>"
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "ENGLISH"
+                },
+                {
+                  "titulo": "SPANISH"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Hello, my name is... and I have a reservation"
+                    },
+                    {
+                      "texto": "Hola, mi nombre es... y tengo una reserva"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "What time is the check-out?"
+                    },
+                    {
+                      "texto": "¿Cuándo hay que dejar el hotel?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Single/doubleroom"
+                    },
+                    {
+                      "texto": "Habitación individual/doble"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "To check in"
+                    },
+                    {
+                      "texto": "Registrarse en el hotel"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Can I have some more towels/shampoo...?"
+                    },
+                    {
+                      "texto": "¿Me puede dar más toallas/champú...?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "What is the wi-fi password?"
+                    },
+                    {
+                      "texto": "¿Cuál es la contraseña del wi-fi?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Room service"
+                    },
+                    {
+                      "texto": "Servicio de habitaciones"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "titulo": "Directions and transportation",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "texto": "Puede que cuando empecemos a movernos por nuestro destino nos hagan falta una serie de expresiones para preguntar cómo llegar a los sitios: “How do I get to...?” y “Is there a...?” aparecen con un ejemplo en concreto, pero nos sirven para preguntar por cualquier sitio al que queramos llegar, un museo, un restaurante, la estación, un parque...<br>Ejemplo:<br>“How do I get to the Palace Hotel?” (¿Cómo puedo llegar al hotel Palace?)<br>“Is there a supermarket near here?” (¿Hay un supermercado aquí cerca?). "
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "ENGLISH"
+                },
+                {
+                  "titulo": "SPANISH"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Tube (UK)"
+                    },
+                    {
+                      "texto": "Metro"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Taxi/cab"
+                    },
+                    {
+                      "texto": "Taxi"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Trip"
+                    },
+                    {
+                      "texto": "viaje"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Bus stop"
+                    },
+                    {
+                      "texto": "Parada de autobús"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Station"
+                    },
+                    {
+                      "texto": "Estación"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "To be lost (I am lost)"
+                    },
+                    {
+                      "texto": "Estar perdido (Estoy perdido)"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Where is...?"
+                    },
+                    {
+                      "texto": "¿Dónde está...?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "How do I get to the station/museum...?"
+                    },
+                    {
+                      "texto": "¿Cómo puedo llegar a la estación/museo...?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Excuse me, can you tell me how to get to...?"
+                    },
+                    {
+                      "texto": "Disculpe, me puede decir como llegar a...?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Is there a bus stop near here?"
+                    },
+                    {
+                      "texto": "¿Hay una parada de autobús por aquí cerca?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Can you give me two tickets to...?"
+                    },
+                    {
+                      "texto": "¿Puede darme dos tickets para...?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Where can I find a taxi?"
+                    },
+                    {
+                      "texto": "Dónde puedo encontrar un taxi?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "To the right/left"
+                    },
+                    {
+                      "texto": "A la derecha/izquierda"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Straight ahead"
+                    },
+                    {
+                      "texto": "Recto"
+                    }
+                  ]
+                },
+                                {
+                  "fila": [
+                    {
+                      "texto": "At the corner"
+                    },
+                    {
+                      "texto": "En la esquina"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },

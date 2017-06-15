@@ -3818,829 +3818,833 @@
                 }
               ]
             },
-        {
-          "clase": "imagen",
-          "imagen": "img/mod02/owlClock.svg",
-          "ancho": 512
+            {
+              "clase": "imagen",
+              "imagen": "img/mod02/owlClock.svg",
+              "ancho": 512
+            }
+          ]
         }
       ]
-    }
-  ]
-}, {
-  "titulo": "Crosswords",
-  "contenido": [
+    },
     {
-      "clase": "juegoPalabrasCruzadas",
-      "titulo": "Numbers",
-      "descripcion": "Write the name of each number.<br><span class='h4 importante'>JUST FOR THIS TIME: DON'T USE ANY '-'</span>",
-      "ancho": 12,
-      "alto": 12,
-      "pistas": [
-        {
-          "palabra": "FIFTYFOUR",
-          "definicion": "54",
-          "direccion": "H",
-          "posX": 0,
-          "posY": 4
-        },
-        {
-          "palabra": "TWENTYTHREE",
-          "definicion": "23",
-          "direccion": "H",
-          "posX": 1,
-          "posY": 6
-        },
-        {
-          "palabra": "FORTY",
-          "definicion": "40",
-          "direccion": "H",
-          "posX": 0,
-          "posY": 10
-        },
-        {
-          "palabra": "SIXTYTWO",
-          "definicion": "62",
-          "direccion": "V",
-          "posX": 1,
-          "posY": 3
-        },
-        {
-          "palabra": "NINETEEN",
-          "definicion": "19",
-          "direccion": "V",
-          "posX": 3,
-          "posY": 0
-        },
-        {
-          "palabra": "FIVE",
-          "definicion": "5",
-          "direccion": "V",
-          "posX": 10,
-          "posY": 3
-        },
-        {
-          "palabra": "ELEVEN",
-          "definicion": "11",
-          "direccion": "V",
-          "posX": 11,
-          "posY": 6
-        }
-      ]
-    }
-  ]
-}, {
-  "titulo": "SUMMARY",
-  "contenido": [
-    {
-      "clase": "listaObjetos",
+      "titulo": "Crosswords",
       "contenido": [
+        {
+          "clase": "juegoPalabrasCruzadas",
+          "titulo": "Numbers",
+          "descripcion": "Write the name of each number.<br><span class='h4 importante'>JUST FOR THIS TIME: DON'T USE ANY '-'</span>",
+          "ancho": 12,
+          "alto": 12,
+          "pistas": [
+            {
+              "palabra": "FIFTYFOUR",
+              "definicion": "54",
+              "direccion": "H",
+              "posX": 0,
+              "posY": 4
+            },
+            {
+              "palabra": "TWENTYTHREE",
+              "definicion": "23",
+              "direccion": "H",
+              "posX": 1,
+              "posY": 6
+            },
+            {
+              "palabra": "FORTY",
+              "definicion": "40",
+              "direccion": "H",
+              "posX": 0,
+              "posY": 10
+            },
+            {
+              "palabra": "SIXTYTWO",
+              "definicion": "62",
+              "direccion": "V",
+              "posX": 1,
+              "posY": 3
+            },
+            {
+              "palabra": "NINETEEN",
+              "definicion": "19",
+              "direccion": "V",
+              "posX": 3,
+              "posY": 0
+            },
+            {
+              "palabra": "FIVE",
+              "definicion": "5",
+              "direccion": "V",
+              "posX": 10,
+              "posY": 3
+            },
+            {
+              "palabra": "ELEVEN",
+              "definicion": "11",
+              "direccion": "V",
+              "posX": 11,
+              "posY": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "SUMMARY",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "You have learned how to use the definite and indefinite articles ‘the/a/an’ and ‘some’."
+                }
+              ]
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": ""
+                },
+                {
+                  "titulo": "COUNTABLE"
+                },
+                {
+                  "titulo": "UNCOUNTABLE"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "the"
+                    },
+                    {
+                      "texto": "table (specific)"
+                    },
+                    {
+                      "texto": "<center>milk</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "a/an"
+                    },
+                    {
+                      "texto": "table/apple"
+                    },
+                    {
+                      "texto": "<center>/</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "some"
+                    },
+                    {
+                      "texto": "tables (plural)"
+                    },
+                    {
+                      "texto": "<center>milk</center>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "clase": "lista",
           "contenido": [
             {
-              "punto": "You have learned how to use the definite and indefinite articles ‘the/a/an’ and ‘some’."
+              "punto": "You have learned how to create the plural of different words: adding just an ‘-s’, adding ‘-es’, transforming ‘y’ into ‘-ies’ and ‘f/fe’ into ‘-ves’. Plus a list of irregular plurals that you have to learn.",
+              "contenido": [
+                {
+                  "punto": "Table: tables (mesas)"
+                },
+                {
+                  "punto": "Box: boxes (cajas)"
+                },
+                {
+                  "punto": "Fly: flies (moscas/ volar)"
+                },
+                {
+                  "punto": "Thief: thieves (ladrones)"
+                }
+              ]
+            },
+            {
+              "punto": "Now you know how to count from 1 to 99 and how to the spell these numbers. We suggest you to have a look again at the list of numbers."
+            },
+            {
+              "punto": "You know how to use the simple present in the affirmative, negative and question forms. You know how to spell the third person singular and how to create questions with different question words. Let’s have a look at it again!"
             }
           ]
         },
         {
-          "clase": "tabla",
-          "filaTitulos": [
-            {
-              "titulo": ""
-            },
-            {
-              "titulo": "COUNTABLE"
-            },
-            {
-              "titulo": "UNCOUNTABLE"
-            }
-          ],
-          "filaContenido": [
-            {
-              "fila": [
-                {
-                  "texto": "the"
-                },
-                {
-                  "texto": "table (specific)"
-                },
-                {
-                  "texto": "<center>milk</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "a/an"
-                },
-                {
-                  "texto": "table/apple"
-                },
-                {
-                  "texto": "<center>/</center>"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "some"
-                },
-                {
-                  "texto": "tables (plural)"
-                },
-                {
-                  "texto": "<center>milk</center>"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "clase": "lista",
-      "contenido": [
-        {
-          "punto": "You have learned how to create the plural of different words: adding just an ‘-s’, adding ‘-es’, transforming ‘y’ into ‘-ies’ and ‘f/fe’ into ‘-ves’. Plus a list of irregular plurals that you have to learn.",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "punto": "Table: tables (mesas)"
-            },
-            {
-              "punto": "Box: boxes (cajas)"
-            },
-            {
-              "punto": "Fly: flies (moscas/ volar)"
-            },
-            {
-              "punto": "Thief: thieves (ladrones)"
-            }
-          ]
-        },
-        {
-          "punto": "Now you know how to count from 1 to 99 and how to the spell these numbers. We suggest you to have a look again at the list of numbers."
-        },
-        {
-          "punto": "You know how to use the simple present in the affirmative, negative and question forms. You know how to spell the third person singular and how to create questions with different question words. Let’s have a look at it again!"
-        }
-      ]
-    },
-    {
-      "clase": "listaObjetos",
-      "contenido": [
-        {
-          "clase": "tabla",
-          "filaTitulos": [
-            {
-              "titulo": "PR."
-            },
-            {
-              "titulo": "AFF."
-            },
-            {
-              "titulo": "NEG."
-            },
-            {
-              "titulo": "QUEST."
-            }
-          ],
-          "filaContenido": [
-            {
-              "fila": [
+              "clase": "tabla",
+              "filaTitulos": [
                 {
-                  "texto": "I"
+                  "titulo": "PR."
                 },
                 {
-                  "texto": "like"
+                  "titulo": "AFF."
                 },
                 {
-                  "texto": "don't like"
+                  "titulo": "NEG."
                 },
                 {
-                  "texto": "do I like?"
+                  "titulo": "QUEST."
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "I"
+                    },
+                    {
+                      "texto": "like"
+                    },
+                    {
+                      "texto": "don't like"
+                    },
+                    {
+                      "texto": "do I like?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "you"
+                    },
+                    {
+                      "texto": "like"
+                    },
+                    {
+                      "texto": "don't like"
+                    },
+                    {
+                      "texto": "do you like?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "he"
+                    },
+                    {
+                      "texto": "likes",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "doesn't like",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "does he /she/it like?",
+                      "rowspan": 3
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "she"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "it"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "we"
+                    },
+                    {
+                      "texto": "like",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "don't like",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "do we/you/they like?",
+                      "rowspan": 3
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "you"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "they"
+                    }
+                  ]
                 }
               ]
             },
             {
-              "fila": [
+              "clase": "tabla",
+              "filaTitulos": [
                 {
-                  "texto": "you"
+                  "titulo": "ADVERB"
                 },
                 {
-                  "texto": "like"
+                  "titulo": "AUX. VERB"
                 },
                 {
-                  "texto": "don't like"
+                  "titulo": "SUBJECT"
                 },
                 {
-                  "texto": "do you like?"
+                  "titulo": "INFINITIVE"
+                },
+                {
+                  "titulo": "COMPLEMENT"
                 }
-              ]
-            },
-            {
-              "fila": [
+              ],
+              "filaContenido": [
                 {
-                  "texto": "he"
+                  "fila": [
+                    {
+                      "texto": "Where"
+                    },
+                    {
+                      "texto": "does"
+                    },
+                    {
+                      "texto": "he"
+                    },
+                    {
+                      "texto": "buy"
+                    },
+                    {
+                      "texto": "this wine?"
+                    }
+                  ]
                 },
                 {
-                  "texto": "likes",
-                  "rowspan": 3
-                },
-                {
-                  "texto": "doesn't like",
-                  "rowspan": 3
-                },
-                {
-                  "texto": "does he /she/it like?",
-                  "rowspan": 3
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "she"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "it"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "we"
-                },
-                {
-                  "texto": "like",
-                  "rowspan": 3
-                },
-                {
-                  "texto": "don't like",
-                  "rowspan": 3
-                },
-                {
-                  "texto": "do we/you/they like?",
-                  "rowspan": 3
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "you"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "they"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "tabla",
-          "filaTitulos": [
-            {
-              "titulo": "ADVERB"
-            },
-            {
-              "titulo": "AUX. VERB"
-            },
-            {
-              "titulo": "SUBJECT"
-            },
-            {
-              "titulo": "INFINITIVE"
-            },
-            {
-              "titulo": "COMPLEMENT"
-            }
-          ],
-          "filaContenido": [
-            {
-              "fila": [
-                {
-                  "texto": "Where"
-                },
-                {
-                  "texto": "does"
-                },
-                {
-                  "texto": "he"
-                },
-                {
-                  "texto": "buy"
-                },
-                {
-                  "texto": "this wine?"
-                }
-              ]
-            },
-            {
-              "fila": [
-                {
-                  "texto": "What"
-                },
-                {
-                  "texto": "do"
-                },
-                {
-                  "texto": "you"
-                },
-                {
-                  "texto": "like"
-                },
-                {
-                  "texto": "for breakfast?"
+                  "fila": [
+                    {
+                      "texto": "What"
+                    },
+                    {
+                      "texto": "do"
+                    },
+                    {
+                      "texto": "you"
+                    },
+                    {
+                      "texto": "like"
+                    },
+                    {
+                      "texto": "for breakfast?"
+                    }
+                  ]
                 }
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "clase": "acordeon",
-      "contenido": [
-        {
-          "titulo": "<center>THE TIME</center>",
-          "contenido": [
-            {
-              "clase": "texto",
-              "texto": "You also learned how to ask for and tell the time.<br><i>También aprendiste cómo preguntar y decir la hora.</i>"
-            },
-            {
-              "clase": "imagen",
-              "imagen": "img/mod02/reloj.jpg"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "clase": "listaObjetos",
-      "contenido": [
-        {
-          "clase": "imagen",
-          "ancho": 128,
-          "imagen": "img/mod02/girlFlower.png"
         },
         {
           "clase": "acordeon",
           "contenido": [
             {
-              "titulo": "<center>NEW VOCABULARY</center>",
+              "titulo": "<center>THE TIME</center>",
               "contenido": [
                 {
-                  "clase": "tabla",
-                  "filaTitulos": [
+                  "clase": "texto",
+                  "texto": "You also learned how to ask for and tell the time.<br><i>También aprendiste cómo preguntar y decir la hora.</i>"
+                },
+                {
+                  "clase": "imagen",
+                  "imagen": "img/mod02/reloj.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "imagen",
+              "ancho": 128,
+              "imagen": "img/mod02/girlFlower.png"
+            },
+            {
+              "clase": "acordeon",
+              "contenido": [
+                {
+                  "titulo": "<center>NEW VOCABULARY</center>",
+                  "contenido": [
                     {
-                      "titulo": "ENGLISH"
-                    },
-                    {
-                      "titulo": "SPANISH"
-                    },
-                    {
-                      "titulo": "PRONUNCIATION"
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
+                      "clase": "tabla",
+                      "filaTitulos": [
                         {
-                          "texto": "birthday"
+                          "titulo": "ENGLISH"
                         },
                         {
-                          "texto": "cumpleaños"
+                          "titulo": "SPANISH"
                         },
                         {
-                          "texto": "ˈbɜːθdeɪ"
+                          "titulo": "PRONUNCIATION"
                         }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "blue"
-                        },
-                        {
-                          "texto": "azul"
-                        },
-                        {
-                          "texto": "bluː"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "book"
-                        },
-                        {
-                          "texto": "libro"
-                        },
-                        {
-                          "texto": "bʊk"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "bottle"
-                        },
-                        {
-                          "texto": "botella"
-                        },
-                        {
-                          "texto": "ˈbɒtl"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "breakfast"
-                        },
-                        {
-                          "texto": "desayuno"
-                        },
-                        {
-                          "texto": "ˈbrɛkfəst"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "bright"
-                        },
-                        {
-                          "texto": "brillante"
-                        },
-                        {
-                          "texto": "braɪt"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "businessman<br>businesswoman"
-                        },
-                        {
-                          "texto": "empresario/a"
-                        },
-                        {
-                          "texto": "ˈbɪznɪsmən<br>ˈbɪznɪswʊmən"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "cinema"
-                        },
-                        {
-                          "texto": "cine"
-                        },
-                        {
-                          "texto": "ˈsɪnəmə"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "computer"
-                        },
-                        {
-                          "texto": "ordenador"
-                        },
-                        {
-                          "texto": "kəmˈpjuːtə"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "country"
-                        },
-                        {
-                          "texto": "país / campo"
-                        },
-                        {
-                          "texto": "ˈkʌntri"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "dinner"
-                        },
-                        {
-                          "texto": "cena"
-                        },
-                        {
-                          "texto": "ˈdɪnə"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "freeze"
-                        },
-                        {
-                          "texto": "congelar(se)"
-                        },
-                        {
-                          "texto": "friːz"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "glass"
-                        },
-                        {
-                          "texto": "vaso"
-                        },
-                        {
-                          "texto": "glɑːs"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "glasses"
-                        },
-                        {
-                          "texto": "gafas"
-                        },
-                        {
-                          "texto": "ˈglɑːsɪz"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "house"
-                        },
-                        {
-                          "texto": "casa"
-                        },
-                        {
-                          "texto": "haʊs"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "jeans"
-                        },
-                        {
-                          "texto": "pantalones vaqueros"
-                        },
-                        {
-                          "texto": "ʤiːnz"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "job"
-                        },
-                        {
-                          "texto": "trabajo (nombre)"
-                        },
-                        {
-                          "texto": "ʤɒb"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "lunch"
-                        },
-                        {
-                          "texto": "almuerzo"
-                        },
-                        {
-                          "texto": "lʌnʧ"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "meal"
-                        },
-                        {
-                          "texto": "comida"
-                        },
-                        {
-                          "texto": "miːl"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "meat"
-                        },
-                        {
-                          "texto": "carne"
-                        },
-                        {
-                          "texto": "miːt"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "money"
-                        },
-                        {
-                          "texto": "dinero"
-                        },
-                        {
-                          "texto": "ˈmʌni"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "nurse"
-                        },
-                        {
-                          "texto": "enfermera"
-                        },
-                        {
-                          "texto": "nɜːs"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "omelette"
-                        },
-                        {
-                          "texto": "tortilla"
-                        },
-                        {
-                          "texto": "ˈɒmlɪt"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "onion"
-                        },
-                        {
-                          "texto": "cebolla"
-                        },
-                        {
-                          "texto": "ˈʌnjən"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "pilot"
-                        },
-                        {
-                          "texto": "piloto"
-                        },
-                        {
-                          "texto": "ˈpaɪlət"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "scissors"
-                        },
-                        {
-                          "texto": "tijeras"
-                        },
-                        {
-                          "texto": "ˈsɪzəz"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "sky"
-                        },
-                        {
-                          "texto": "cielo"
-                        },
-                        {
-                          "texto": "skaɪ"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "speak"
-                        },
-                        {
-                          "texto": "hablar"
-                        },
-                        {
-                          "texto": "spiːk"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "sun"
-                        },
-                        {
-                          "texto": "sol"
-                        },
-                        {
-                          "texto": "sʌn"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "supermarket"
-                        },
-                        {
-                          "texto": "supermercado"
-                        },
-                        {
-                          "texto": "ˈsjuːpəˌmɑːkɪt"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "trousers"
-                        },
-                        {
-                          "texto": "pantalones"
-                        },
-                        {
-                          "texto": "ˈtraʊzəz"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "umbrella"
-                        },
-                        {
-                          "texto": "paraguas"
-                        },
-                        {
-                          "texto": "ʌmˈbrɛlə"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "work"
-                        },
-                        {
-                          "texto": "trabajar"
-                        },
-                        {
-                          "texto": "wɜːk"
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "birthday"
+                            },
+                            {
+                              "texto": "cumpleaños"
+                            },
+                            {
+                              "texto": "ˈbɜːθdeɪ"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "blue"
+                            },
+                            {
+                              "texto": "azul"
+                            },
+                            {
+                              "texto": "bluː"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "book"
+                            },
+                            {
+                              "texto": "libro"
+                            },
+                            {
+                              "texto": "bʊk"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "bottle"
+                            },
+                            {
+                              "texto": "botella"
+                            },
+                            {
+                              "texto": "ˈbɒtl"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "breakfast"
+                            },
+                            {
+                              "texto": "desayuno"
+                            },
+                            {
+                              "texto": "ˈbrɛkfəst"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "bright"
+                            },
+                            {
+                              "texto": "brillante"
+                            },
+                            {
+                              "texto": "braɪt"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "businessman<br>businesswoman"
+                            },
+                            {
+                              "texto": "empresario/a"
+                            },
+                            {
+                              "texto": "ˈbɪznɪsmən<br>ˈbɪznɪswʊmən"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "cinema"
+                            },
+                            {
+                              "texto": "cine"
+                            },
+                            {
+                              "texto": "ˈsɪnəmə"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "computer"
+                            },
+                            {
+                              "texto": "ordenador"
+                            },
+                            {
+                              "texto": "kəmˈpjuːtə"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "country"
+                            },
+                            {
+                              "texto": "país / campo"
+                            },
+                            {
+                              "texto": "ˈkʌntri"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "dinner"
+                            },
+                            {
+                              "texto": "cena"
+                            },
+                            {
+                              "texto": "ˈdɪnə"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "freeze"
+                            },
+                            {
+                              "texto": "congelar(se)"
+                            },
+                            {
+                              "texto": "friːz"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "glass"
+                            },
+                            {
+                              "texto": "vaso"
+                            },
+                            {
+                              "texto": "glɑːs"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "glasses"
+                            },
+                            {
+                              "texto": "gafas"
+                            },
+                            {
+                              "texto": "ˈglɑːsɪz"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "house"
+                            },
+                            {
+                              "texto": "casa"
+                            },
+                            {
+                              "texto": "haʊs"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "jeans"
+                            },
+                            {
+                              "texto": "pantalones vaqueros"
+                            },
+                            {
+                              "texto": "ʤiːnz"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "job"
+                            },
+                            {
+                              "texto": "trabajo (nombre)"
+                            },
+                            {
+                              "texto": "ʤɒb"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "lunch"
+                            },
+                            {
+                              "texto": "almuerzo"
+                            },
+                            {
+                              "texto": "lʌnʧ"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "meal"
+                            },
+                            {
+                              "texto": "comida"
+                            },
+                            {
+                              "texto": "miːl"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "meat"
+                            },
+                            {
+                              "texto": "carne"
+                            },
+                            {
+                              "texto": "miːt"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "money"
+                            },
+                            {
+                              "texto": "dinero"
+                            },
+                            {
+                              "texto": "ˈmʌni"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "nurse"
+                            },
+                            {
+                              "texto": "enfermera"
+                            },
+                            {
+                              "texto": "nɜːs"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "omelette"
+                            },
+                            {
+                              "texto": "tortilla"
+                            },
+                            {
+                              "texto": "ˈɒmlɪt"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "onion"
+                            },
+                            {
+                              "texto": "cebolla"
+                            },
+                            {
+                              "texto": "ˈʌnjən"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "pilot"
+                            },
+                            {
+                              "texto": "piloto"
+                            },
+                            {
+                              "texto": "ˈpaɪlət"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "scissors"
+                            },
+                            {
+                              "texto": "tijeras"
+                            },
+                            {
+                              "texto": "ˈsɪzəz"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "sky"
+                            },
+                            {
+                              "texto": "cielo"
+                            },
+                            {
+                              "texto": "skaɪ"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "speak"
+                            },
+                            {
+                              "texto": "hablar"
+                            },
+                            {
+                              "texto": "spiːk"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "sun"
+                            },
+                            {
+                              "texto": "sol"
+                            },
+                            {
+                              "texto": "sʌn"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "supermarket"
+                            },
+                            {
+                              "texto": "supermercado"
+                            },
+                            {
+                              "texto": "ˈsjuːpəˌmɑːkɪt"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "trousers"
+                            },
+                            {
+                              "texto": "pantalones"
+                            },
+                            {
+                              "texto": "ˈtraʊzəz"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "umbrella"
+                            },
+                            {
+                              "texto": "paraguas"
+                            },
+                            {
+                              "texto": "ʌmˈbrɛlə"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "work"
+                            },
+                            {
+                              "texto": "trabajar"
+                            },
+                            {
+                              "texto": "wɜːk"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -4649,39 +4653,41 @@
               ]
             }
           ]
+        },
+        {
+          "clase": "imagen",
+          "imagen": "img/comunes/londonLast2.png"
         }
       ]
     },
     {
-      "clase": "imagen",
-      "imagen": "img/comunes/londonLast2.png"
-    }
-  ]
-}, {
-  "titulo": "Farewell",
-  "fondo": "img/comunes/bigBen.jpg",
-  "contenido": [
-    {
-      "clase": "imagen",
-      "ancho": 128,
-      "opacidad": 0.8,
-      "imagen": "img/comunes/keep.png"
-    },
-    {
-      "clase": "listaObjetos",
-      "animacion": "fadeInRight",
+      "titulo": "Farewell",
+      "fondo": "img/comunes/bigBen.jpg",
       "contenido": [
         {
-          "clase": "texto",
-          "subclase": "recuadro",
+          "clase": "imagen",
+          "ancho": 128,
           "opacidad": 0.8,
-          "texto": "En este módulo has aprendido los artículo THE, A/AN y SOME, a formar plurales regulares e irregulares. Has aprendido los números del 1 al 99 y un nuevo tiempo verbal, el PRESENT SIMPLE. Finalmente hemos visto como se dice la hora en inglés.<br><br>En el siguiente módulo seguiremos estudiando los números, aprenderás nuevo vocabulario y aplicarás lo que has aprendido de gramática en este módulo para describir tu rutina diaria."
+          "imagen": "img/comunes/keep.png"
+        },
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
+              "texto": "En este módulo has aprendido los artículo THE, A/AN y SOME, a formar plurales regulares e irregulares. Has aprendido los números del 1 al 99 y un nuevo tiempo verbal, el PRESENT SIMPLE. Finalmente hemos visto como se dice la hora en inglés.<br><br>En el siguiente módulo seguiremos estudiando los números, aprenderás nuevo vocabulario y aplicarás lo que has aprendido de gramática en este módulo para describir tu rutina diaria."
+            }
+          ]
         }
       ]
+    },
+    {
+      "titulo": "Back cover",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
     }
   ]
-}, {
-  "titulo": "Back cover",
-  "fondo": "img/comunes/contraportada.svg",
-  "subclase": "portada"
-} ] }
+}
