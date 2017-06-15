@@ -2047,7 +2047,7 @@
             {
               "clase": "icono",
               "subclase": "exclamacion",
-              "texto": "Cuando lleguemos a un hotel, lo normal es que ya hayamos realizado una reserva previa y lo primero que digamos sea “Hello, my name is (...) and I have a reservation” para presentarnos y que nos entreguen nuestra llave.<br>Esto también se conoce como realizar el “check-in” (recuerda que también podemos hacer check-in en el aeropuerto cuando facturemos nuestro equipaje). Puede que nos pidan nuestra tarjeta de crédito (credit card) o que nos hagan firmar algún tipo de documento que se denominará <b>receipt</b>"
+              "texto": "<center><b>CHECK-IN</b></center>Se conoce como check-in a la llegada y registro en el hotel, normalmente habiendo realizado una reserva previa, donde lo primero que se suele hacer es presentarse: “Hello, my name is (...) and I have a reservation”, para  que nos entreguen nuestra llave.<br><br>También se hace en el aeropuerto cuando facturamos nuestro equipaje.<br><br>Durante el check-in puede que nos pidan la tarjeta de crédito (credit card) y que nos hagan firmar algún tipo de documento (denominado <b>receipt</b>)."
             },
             {
               "clase": "tabla",
@@ -2136,16 +2136,73 @@
         }
       ]
     },
-        {
+    {
       "titulo": "Directions and transportation",
       "contenido": [
         {
           "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "texto",
-              "subclase": "recuadro",
-              "texto": "Puede que cuando empecemos a movernos por nuestro destino nos hagan falta una serie de expresiones para preguntar cómo llegar a los sitios: “How do I get to...?” y “Is there a...?” aparecen con un ejemplo en concreto, pero nos sirven para preguntar por cualquier sitio al que queramos llegar, un museo, un restaurante, la estación, un parque...<br>Ejemplo:<br>“How do I get to the Palace Hotel?” (¿Cómo puedo llegar al hotel Palace?)<br>“Is there a supermarket near here?” (¿Hay un supermercado aquí cerca?). "
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "subclase": "recuadro",
+                  "titulo": "Cuando empecemos a movernos por nuestro destino pueden hacernos falta expresiones para preguntar cómo llegar a los sitios: “How do I get to...?” y “Is there a...?” nos sirven para preguntar por cualquier sitio al que queramos llegar: un museo, un restaurante, la estación, un parque...",
+                  "contenido": [
+                    {
+                      "punto": "How do I get to the Palace Hotel? <i>(¿Cómo puedo llegar al hotel Palace?)</i>."
+                    },
+                    {
+                      "punto": "Is there a supermarket near here? <i>(¿Hay un supermercado por aquí cerca?)</i>."
+                    }
+                  ]
+                },
+                {
+                  "clase": "tabla",
+                  "filaTitulos": [
+                    {
+                      "titulo": "ENGLISH"
+                    },
+                    {
+                      "titulo": "SPANISH"
+                    }
+                  ],
+                  "filaContenido": [
+                    {
+                      "fila": [
+                        {
+                          "texto": "How do I get to the station/museum...?"
+                        },
+                        {
+                          "texto": "¿Cómo puedo llegar a la estación/museo...?"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "Excuse me, can you tell me how to get to...?"
+                        },
+                        {
+                          "texto": "Disculpe, me puede decir como llegar a...?"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "Is there a bus stop near here?"
+                        },
+                        {
+                          "texto": "¿Hay una parada de autobús por aquí cerca?"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "clase": "tabla",
@@ -2231,36 +2288,6 @@
                 {
                   "fila": [
                     {
-                      "texto": "How do I get to the station/museum...?"
-                    },
-                    {
-                      "texto": "¿Cómo puedo llegar a la estación/museo...?"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Excuse me, can you tell me how to get to...?"
-                    },
-                    {
-                      "texto": "Disculpe, me puede decir como llegar a...?"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "Is there a bus stop near here?"
-                    },
-                    {
-                      "texto": "¿Hay una parada de autobús por aquí cerca?"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
                       "texto": "Can you give me two tickets to...?"
                     },
                     {
@@ -2298,7 +2325,7 @@
                     }
                   ]
                 },
-                                {
+                {
                   "fila": [
                     {
                       "texto": "At the corner"
@@ -2308,6 +2335,361 @@
                     }
                   ]
                 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Other expressions",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "subclase": "recuadro",
+                  "texto": "En esta categoría incluimos preguntas y expresiones que nos sirven en casi cualquier contexto: hablando con alguien en una tienda, restaurante, etc.<br><br>Cuando no entendamos bien lo que nos dicen, amablemente podemos indicarle que nos hable más despacio: “Could you speak more slowly please?”."
+                },
+                {
+                  "clase": "icono",
+                  "subclase": "exclamacion",
+                  "texto": "También te será de utilidad recordar lo que aprendiste en el <b>MÓDULO 6</b>: “How to order something in the restaurant”."
+                }
+              ]
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "ENGLISH"
+                },
+                {
+                  "titulo": "SPANISH"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Can you help me, please?"
+                    },
+                    {
+                      "texto": "¿Puede ayudarme, por favor?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Where is the toilet/restroom?"
+                    },
+                    {
+                      "texto": "¿Dónde está el baño?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Could you speak more slowly, please?"
+                    },
+                    {
+                      "texto": "¿Podría hablar más despacio, por favor?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Sorry, I can't understand you."
+                    },
+                    {
+                      "texto": "Lo siento, no le entiendo."
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Can I try it on?"
+                    },
+                    {
+                      "texto": "¿Me lo puedo probar?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Where are the changing rooms?"
+                    },
+                    {
+                      "texto": "¿Dónde están los probadores?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "How much is it?"
+                    },
+                    {
+                      "texto": "¿Cuánto cuesta?"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "I lost my passport/ID."
+                    },
+                    {
+                      "texto": "Perdí mi pasaporte/identificación."
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Someone stole my wallet."
+                    },
+                    {
+                      "texto": "Alguien me robó la cartera."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+            {
+      "titulo": "SUMMARY",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<center><b>In this Unit you have learned...</b><br><i>En esta Unidad has aprendido...</i></center>"
+        },
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "Presents",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "You have checked the differences between the <b>Present Simple</b> and the <b>Present Continuous</b> and you know when you have to use each one. Let’s have a look again at the difference between each other:"
+                },
+                {
+                  "clase": "tabla",
+                  "filaTitulos": [
+                    {
+                      "titulo": "Present simple"
+                    },
+                    {
+                      "titulo": "Present continuous"
+                    }
+                  ],
+                  "filaContenido": [
+                    {
+                      "fila": [
+                        {
+                          "clase": "lista",
+                          "contenido": [
+                            {
+                              "punto": "Activities that we do every day, a frequent thing."
+                            },
+                            {
+                              "punto": "To describe a routine."
+                            },
+                            {
+                              "punto": "Something set in a timetable."
+                            }
+                          ]
+                        },
+                        {
+                          "clase": "lista",
+                          "contenido": [
+                            {
+                              "punto": "Something that is happening right now."
+                            },
+                            {
+                              "punto": "Something that is happening in a near future."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "<b>Remember:</b>",
+                  "contenido": [
+                    {
+                      "punto": "Each one usually goes with different adverbs."
+                    },
+                    {
+                      "punto": "With some verbs, we can only use Present Simple."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Pronouns",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "You learned new pronouns that work as objects. Let’s remember them."
+                },
+                {
+                  "clase": "listaObjetos",
+                  "contenido": [
+                    {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "Pronombre sujeto"
+                        },
+                        {
+                          "titulo": "Pronombre objeto"
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>I</b></center>"
+                            },
+                            {
+                              "texto": "<center>me</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>you</b></center>"
+                            },
+                            {
+                              "texto": "<center>you</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>she</b></center>"
+                            },
+                            {
+                              "texto": "<center>her</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>he</b></center>"
+                            },
+                            {
+                              "texto": "<center>him</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>it</b></center>"
+                            },
+                            {
+                              "texto": "<center>it</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>we</b></center>"
+                            },
+                            {
+                              "texto": "<center>us</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>you</b></center>"
+                            },
+                            {
+                              "texto": "<center>you</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>they</b></center>"
+                            },
+                            {
+                              "texto": "<center>them</center>"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "clase": "lista",
+                      "titulo": "",
+                      "contenido": [
+                        {
+                          "punto": "<b>We</b> are going to the cinema. Do you want to come with <b>us</b>?"
+                        },
+                        {
+                          "punto": "You can have <b>this dress</b>, I don’t like <b>it</b>."
+                        },
+                        {
+                          "punto": "Of course I love <b>you</b>!"
+                        },
+                        {
+                          "punto": "He doesn’t know <b>me</b>."
+                        }
+                      ]
+                    }
+                  ]
+                }
+
+              ]
+            },
+            {
+              "titulo": "Vocabulary",
+              "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "There is new vocabulary from this Unit. You have learned how to express what you do in your free time and different hobbies and activities.",
+          "contenido": [
+            {
+              "punto": "I like going to the cinema."
+            },
+            {
+              "punto": "I don't like playing tennis."
+            },
+            {
+              "punto": "I love listening to music."
+            },
+            {
+              "punto": "I hate football."
+            }
+          ]
+        }
               ]
             }
           ]
