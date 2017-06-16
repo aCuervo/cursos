@@ -1740,7 +1740,7 @@
             {
               "punto": "<u>Worried</u>: Preocupado/a"
             },
-                        {
+            {
               "punto": "<u>Welcoming</u>: Acogedor/cordial"
             }
           ]
@@ -1876,40 +1876,40 @@
                     }
                   ]
                 },
-                            {
-              "clase": "tabla",
-              "filaTitulos": [
                 {
-                  "titulo": "ENGLISH"
-                },
-                {
-                  "titulo": "SPANISH"
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
+                  "clase": "tabla",
+                  "filaTitulos": [
                     {
-                      "texto": "Luggage"
+                      "titulo": "ENGLISH"
                     },
                     {
-                      "texto": "Equipaje"
+                      "titulo": "SPANISH"
                     }
-                  ]
-                },
-                {
-                  "fila": [
+                  ],
+                  "filaContenido": [
                     {
-                      "texto": "Suitcase"
+                      "fila": [
+                        {
+                          "texto": "Luggage"
+                        },
+                        {
+                          "texto": "Equipaje"
+                        }
+                      ]
                     },
                     {
-                      "texto": "Maleta"
+                      "fila": [
+                        {
+                          "texto": "Suitcase"
+                        },
+                        {
+                          "texto": "Maleta"
+                        }
+                      ]
                     }
                   ]
                 }
               ]
-            }
-                              ]
             },
             {
               "clase": "tabla",
@@ -2470,228 +2470,211 @@
         }
       ]
     },
-            {
+    {
       "titulo": "SUMMARY",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "<center><b>In this Unit you have learned...</b><br><i>En esta Unidad has aprendido...</i></center>"
+          "texto": "<center><b>In this Unit you have learned...</b> (<i>En esta Unidad has aprendido...</i>)</center>"
         },
         {
-          "clase": "tabs",
+          "clase": "texto",
+          "texto": "You have learned a new verb tense, the <b>Simple Past</b> and you can talk about the things that happened in the past correctly."
+        },
+        {
+          "clase": "listaObjetos",
           "contenido": [
+        {
+          "clase": "tabla",
+          "filaTitulos": [
             {
-              "titulo": "Presents",
-              "contenido": [
+              "titulo": ""
+            },
+            {
+              "titulo": "Affirmative"
+            },
+            {
+              "titulo": "Negative"
+            },
+            {
+              "titulo": "Question"
+            }
+          ],
+          "filaContenido": [
+            {
+              "fila": [
                 {
-                  "clase": "texto",
-                  "texto": "You have checked the differences between the <b>Present Simple</b> and the <b>Present Continuous</b> and you know when you have to use each one. Let’s have a look again at the difference between each other:"
+                  "texto": "<center><b>I</b></center>"
                 },
                 {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "Present simple"
-                    },
-                    {
-                      "titulo": "Present continuous"
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "clase": "lista",
-                          "contenido": [
-                            {
-                              "punto": "Activities that we do every day, a frequent thing."
-                            },
-                            {
-                              "punto": "To describe a routine."
-                            },
-                            {
-                              "punto": "Something set in a timetable."
-                            }
-                          ]
-                        },
-                        {
-                          "clase": "lista",
-                          "contenido": [
-                            {
-                              "punto": "Something that is happening right now."
-                            },
-                            {
-                              "punto": "Something that is happening in a near future."
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
+                  "texto": "<center>was</center>",
+                  "rowspan": 2
                 },
                 {
-                  "clase": "lista",
-                  "titulo": "<b>Remember:</b>",
-                  "contenido": [
-                    {
-                      "punto": "Each one usually goes with different adverbs."
-                    },
-                    {
-                      "punto": "With some verbs, we can only use Present Simple."
-                    }
-                  ]
+                  "texto": "<center>was not (wasn't)</center>",
+                  "rowspan": 2
+                },
+                {
+                  "texto": "<center>Was...?</center>",
+                  "rowspan": 2
                 }
               ]
             },
             {
-              "titulo": "Pronouns",
-              "contenido": [
+              "fila": [
                 {
-                  "clase": "texto",
-                  "texto": "You learned new pronouns that work as objects. Let’s remember them."
+                  "texto": "<center><b>he/she/it</b></center>"
+                }
+              ]
+            },
+            {
+              "fila": [
+                {
+                  "texto": "<center><b>we/you/they</b></center>"
                 },
                 {
-                  "clase": "listaObjetos",
+                  "texto": "<center>were</center>"
+                },
+                {
+                  "texto": "<center>were not (weren't)</center>"
+                },
+                {
+                  "texto": "<center>Were...?</center>"
+                }
+              ]
+            }
+          ]
+        },
+                {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "You can write the simple past of the verb to be."
+            },
+            {
+              "punto": "Form the past of the regular verbs."
+            },
+            {
+              "punto": "You have a list of the irregular verbs."
+            },
+            {
+              "punto": "Form negative sentences in the past."
+            },
+                        {
+              "punto": "Form questions in the past."
+            }
+          ]
+        }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "tabs",
+              "contenido": [
+                {
+                  "titulo": "Regular verbs",
+                  "texto": "They form their simple past by adding –ed at the end. Remember that some verbs change their terminations. Most verbs in English are regular verbs."
+                },
+                {
+                  "titulo": "Irregular verbs",
+                  "texto": "They all of irregular and they don’t follow the rule, you have to memorise them."
+                }
+              ]
+            },
+            {
+              "clase": "acordeon",
+              "contenido": [
+                {
+                  "titulo": "<center>Regular and irregular verbs</center>",
                   "contenido": [
                     {
                       "clase": "tabla",
                       "filaTitulos": [
                         {
-                          "titulo": "Pronombre sujeto"
+                          "titulo": ""
                         },
                         {
-                          "titulo": "Pronombre objeto"
+                          "titulo": "I"
+                        },
+                        {
+                          "titulo": "you"
+                        },
+                        {
+                          "titulo": "he"
+                        },
+                        {
+                          "titulo": "she"
+                        },
+                        {
+                          "titulo": "it"
+                        },
+                        {
+                          "titulo": "we"
+                        },
+                        {
+                          "titulo": "you"
+                        },
+                        {
+                          "titulo": "they"
                         }
                       ],
                       "filaContenido": [
                         {
                           "fila": [
                             {
-                              "texto": "<center><b>I</b></center>"
+                              "texto": "<center><b>NEGATIVE</b></center>"
                             },
                             {
-                              "texto": "<center>me</center>"
+                              "texto": "<center>did not (didn't) + verb</center>",
+                              "colspan": 8
                             }
                           ]
                         },
                         {
                           "fila": [
                             {
-                              "texto": "<center><b>you</b></center>"
+                              "texto": "<center><b>QUESTION</b></center>"
                             },
                             {
-                              "texto": "<center>you</center>"
+                              "texto": "<center>did (...) + verb</center>",
+                              "colspan": 8
                             }
                           ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center><b>she</b></center>"
-                            },
-                            {
-                              "texto": "<center>her</center>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center><b>he</b></center>"
-                            },
-                            {
-                              "texto": "<center>him</center>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center><b>it</b></center>"
-                            },
-                            {
-                              "texto": "<center>it</center>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center><b>we</b></center>"
-                            },
-                            {
-                              "texto": "<center>us</center>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center><b>you</b></center>"
-                            },
-                            {
-                              "texto": "<center>you</center>"
-                            }
-                          ]
-                        },
-                        {
-                          "fila": [
-                            {
-                              "texto": "<center><b>they</b></center>"
-                            },
-                            {
-                              "texto": "<center>them</center>"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "clase": "lista",
-                      "titulo": "",
-                      "contenido": [
-                        {
-                          "punto": "<b>We</b> are going to the cinema. Do you want to come with <b>us</b>?"
-                        },
-                        {
-                          "punto": "You can have <b>this dress</b>, I don’t like <b>it</b>."
-                        },
-                        {
-                          "punto": "Of course I love <b>you</b>!"
-                        },
-                        {
-                          "punto": "He doesn’t know <b>me</b>."
                         }
                       ]
                     }
                   ]
                 }
-
               ]
-            },
-            {
-              "titulo": "Vocabulary",
-              "contenido": [
+            }
+          ]
+        },
         {
-          "clase": "lista",
-          "titulo": "There is new vocabulary from this Unit. You have learned how to express what you do in your free time and different hobbies and activities.",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "punto": "I like going to the cinema."
+              "clase": "texto",
+              "texto": "You have learned new vocabulary about travelling and going on holidays and a list of useful expressions to use."
+            },
+                            {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "Hello, my name is Laura and I have a reservation"
             },
             {
-              "punto": "I don't like playing tennis."
+              "punto": "How do I get to the British Museum?"
             },
             {
-              "punto": "I love listening to music."
+              "punto": "Can you give me two tickets to Victoria Station, please?"
             },
-            {
-              "punto": "I hate football."
+                        {
+              "punto": "Excuse me, where is the toilet?"
             }
           ]
         }
-              ]
-            }
           ]
         }
       ]
