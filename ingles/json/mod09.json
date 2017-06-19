@@ -1,5 +1,5 @@
 ﻿{
-  "modulo": "VIII: ",
+  "modulo": "IX: SHOP TILL YOU DROP",
   "imagenEncabezado": "img/comunes/logo.svg",
   "contenido": [
     {
@@ -554,8 +554,32 @@
       "titulo": "Quantifiers",
       "contenido": [
         {
-          "clase": "texto",
-          "texto": "En el <b>MÓDULO 2: IT’S ABOUT TIME</b> estudiamos cuales son los nombres contables y no contables en inglés (countable and uncountable nouns) y los artículos que debemos utilizar para referirnos a ellos (a/an/some/a number). Los cuantificadores o ‘quantifiers’ indican la cantidad de un nombre. Suelen responder a la pregunta ‘cuánto’ (how much/how many) y siempre van colocados delante del nombre."
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "En el <b>MÓDULO 2: IT’S ABOUT TIME</b> estudiamos cuales son los nombres contables y no contables en inglés (countable and uncountable nouns) y los artículos que debemos utilizar para referirnos a ellos (a/an/some/a number). Los cuantificadores o ‘quantifiers’ indican la cantidad de un nombre. Suelen responder a la pregunta ‘cuánto’ (how much/how many) y siempre van colocados delante del nombre."
+            },
+            {
+              "clase": "lista",
+              "subclase": "recuadro",
+              "titulo": "<center><b>Uncountable nouns</b></center>",
+              "contenido": [
+                {
+                  "punto": "<b>Liquids and creams:</b> juice, water, ketchup..."
+                },
+                {
+                  "punto": "<b>Materials:</b> glass, plastic, wood..."
+                },
+                {
+                  "punto": "<b>Ingredients:</b> rice flour, salt... "
+                },
+                {
+                  "punto": "<b>Abstract nouns:</b> music, love, work..."
+                }
+              ]
+            }
+          ]
         },
         {
           "clase": "tabs",
@@ -630,27 +654,1776 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "titulo": "Activity",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "texto": "Escoge entre much o many."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "How _____ water do you drink every day?",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "much",
+                  "correcto": true
+                },
+                {
+                  "opcion": "many",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "How _____ people live in this building?",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "much",
+                  "correcto": false
+                },
+                {
+                  "opcion": "many",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Do you use _____ olive oil when you cook?",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "much",
+                  "correcto": true
+                },
+                {
+                  "opcion": "many",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "He doesn't normally buy _____ clothes.",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "much",
+                  "correcto": false
+                },
+                {
+                  "opcion": "many",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "She doesn't spend _____ time in the library.",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "much",
+                  "correcto": true
+                },
+                {
+                  "opcion": "many",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "How _____ films do you usually watch?",
+              "id": "6",
+              "respuestas": [
+                {
+                  "opcion": "much",
+                  "correcto": false
+                },
+                {
+                  "opcion": "many",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "There aren't _____ hotels in this town.",
+              "id": "7",
+              "respuestas": [
+                {
+                  "opcion": "much",
+                  "correcto": false
+                },
+                {
+                  "opcion": "many",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "There isn't _____ rice, we can't cook paella.",
+              "id": "8",
+              "respuestas": [
+                {
+                  "opcion": "much",
+                  "correcto": true
+                },
+                {
+                  "opcion": "many",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "I didn't drink _____ wine at the party.",
+              "id": "9",
+              "respuestas": [
+                {
+                  "opcion": "much",
+                  "correcto": true
+                },
+                {
+                  "opcion": "many",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "We saw _____ interesting things at the museum.",
+              "id": "10",
+              "respuestas": [
+                {
+                  "opcion": "much",
+                  "correcto": false
+                },
+                {
+                  "opcion": "many",
+                  "correcto": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Activity",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "texto": "Escoge la opción más adecuada."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "I drink _____",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "a lot of water.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "much water.",
+                  "feedback": "<i>Much</i> no se suele utilizar en frases afirmativas.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "It cost _____ to travel around the world.",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "much money",
+                  "feedback": "<i>Much</i> no se suele utilizar en frases afirmativas.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "a lot of money",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Do you like sports? Yes, _____",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "a lot.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "much.",
+                  "feedback": "Se puede utilizar <i>lot</i> sin ningún nombre después.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "There are _____ children playing in the park.",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "much",
+                  "correcto": false,
+                  "feedback": "<i>Children</i> es un nombre contable y plural."
+                },
+                {
+                  "opcion": "many",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "She doesn't eat _____ meat, but she eats a lot of vegetables.",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "much",
+                  "correcto": true,
+                  "feedback": "<i>Both are correct:</i> Ambas son correctas."
+                },
+                {
+                  "opcion": "a lot of",
+                  "correcto": true,
+                  "feedback": "<i>Both are correct:</i> Ambas son correctas."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Comparative adjectives",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Utilizamos adjetivos comparativos <i>(comparative adjectives)</i> para comparar las diferencias entre dos objetos. Su utilización tiene la siguiente estructura:"
+                },
+                {
+                  "clase": "texto",
+                  "subclase": "recuadro",
+                  "texto": "<center>Nombre (sujeto) + verbo + adjetivo comparativo (+ THAN + nombre)</center>"
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "Dependiendo del adjetivo se forma de una de las siguientes maneras (en ambos casos significa ‘más...’ o ‘más que’):",
+                  "contenido": [
+                    {
+                      "punto": "O añadiendo <b>–er</b> al final del adjetivo."
+                    },
+                    {
+                      "punto": "O con <b>more + adjetivo</b>."
+                    }
+                  ]
+                },
+                {
+                  "clase": "lista",
+                  "titulo": "<b>Examples:</b>",
+                  "contenido": [
+                    {
+                      "punto": "Peter is older than James. <i>(Peter es mayor que James.)</i>"
+                    },
+                    {
+                      "punto": "My houes is bigger than your house. <i>(Mi casa es más grande que tu casa.)</i>"
+                    },
+                    {
+                      "punto": "It is more expensive to go by train. <i>(Es más caro ir en tren.)</i>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "RULE"
+                },
+                {
+                  "titulo": "ADJECTIVE"
+                },
+                {
+                  "titulo": "COMPARATIVE"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Los adjetivos de una sílaba añaden <b>-er</b> al final.",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center>old</center>"
+                    },
+                    {
+                      "texto": "<center>older (than)</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>big</center>"
+                    },
+                    {
+                      "texto": "<center>bigger (than)</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>cheap</center>"
+                    },
+                    {
+                      "texto": "<center>cheaper (than)</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Los adjetivos terminados en ‘y’ la eliminan añadiendo en su lugar <b>-ier</b>.",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center>busy</center>"
+                    },
+                    {
+                      "texto": "<center>busier (than)</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>easy</center>"
+                    },
+                    {
+                      "texto": "<center>easier (than)</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>classy</center>"
+                    },
+                    {
+                      "texto": "<center>classier (than)</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Los adjetivos con dos o más sílabas se forman con <b>más + adjetivo</b>.",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center>beatiful</center>"
+                    },
+                    {
+                      "texto": "<center>more beautiful (than)</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>important</center>"
+                    },
+                    {
+                      "texto": "<center>more important (than)</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>expensive</center>"
+                    },
+                    {
+                      "texto": "<center>more expensive (than)</center>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Exceptions",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Existen algunos adjetivos que no forman su comparativo siguiendo estas normas, sino que son irregulares y debes memorizarlos:",
+          "contenido": [
+            {
+              "punto": "good <i>(bueno)</i> -> <b>better</b> <i>(mejor)</i>",
+              "contenido": [
+                {
+                  "punto": "This restaurant is better than that one. <i>(Este restaurante es mejor que ese otro.)</i>"
+                }
+              ]
+            },
+            {
+              "punto": "bad <i>(malo)</i> -> <b>worse</b> <i>(peor)</i>",
+              "contenido": [
+                {
+                  "punto": "I think that this restaurant is worse. <i>(Creo que este restaurante es peor.)</i>"
+                }
+              ]
+            },
+            {
+              "punto": "Far <i>(lejos)</i> -> <b>further</b> <i>(más lejos)</i>",
+              "contenido": [
+                {
+                  "punto": "It is further than I thought. <i>(Está más lejos de lo que pensaba.)</i>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>Example</b>",
+          "contenido": [
+            {
+              "punto": "Russia is larger than UK. <i>(Rusia es más grande que Reino Unido.)</i>"
+            },
+            {
+              "punto": "The exam was more difficult than I thought. <i>(El examen fue más difícil de lo que pensaba.)</i>"
+            },
+            {
+              "punto": "It was easier than we expected. <i>(Fue más fácil de lo que esperábamos.)</i>"
+            },
+            {
+              "punto": "You have to be more careful. <i>(Tienes que ser más cuidadoso.)</i>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Activity",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "texto": "Escoge si los siguientes adjetivos comparativos son correctos o incorrectos."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "Dogs are popularer that cats.",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "Correct",
+                  "correcto": false,
+                  "feedback": "<i>Dogs are more popular than cats.</i>"
+                },
+                {
+                  "opcion": "Incorrect",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "London is busyer than Glasgow.",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "Correct",
+                  "correcto": false,
+                  "feedback": "<i>London is busier than Glasgow.</i>"
+                },
+                {
+                  "opcion": "Incorrect",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Inés is more quiet than her sister.",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "Correct",
+                  "correcto": false,
+                  "feedback": "<i>Inés is quieter than her sister.</i>"
+                },
+                {
+                  "opcion": "Incorrect",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "My house is more comfortable than this hotel.",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "Correct",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Incorrect",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "This book is gooder that the one you are reading.",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "Correct",
+                  "correcto": false,
+                  "feedback": "<i>This book is better than the one you are reading.</i>"
+                },
+                {
+                  "opcion": "Incorrect",
+                  "correcto": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Superlative adjectives",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "La función de los adjetivos superlativos <i>(superlative adjectives)</i> es indicar que algo alcanza el grado máximo de algo dentro de un grupo de objetos. Al igual que con la forma comparativa, también siguen una serie de normas para formarse y significan el/la/lo más..."
+                }
+              ]
+            },
+            {
+              "clase": "tabla",
+              "filaTitulos": [
+                {
+                  "titulo": "RULE"
+                },
+                {
+                  "titulo": "ADJECTIVE"
+                },
+                {
+                  "titulo": "COMPARATIVE"
+                }
+              ],
+              "filaContenido": [
+                {
+                  "fila": [
+                    {
+                      "texto": "Los adjetivos de una sílaba se forman con <b>the + adjective + '-est'</b>.",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center>old</center>"
+                    },
+                    {
+                      "texto": "<center>the oldest</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>big</center>"
+                    },
+                    {
+                      "texto": "<center>the biggest</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>cheap</center>"
+                    },
+                    {
+                      "texto": "<center>the cheapest</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Los adjetivos terminados en ‘y’ la eliminan, formándose con <b>the + adjective + 'iest'.",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center>busy</center>"
+                    },
+                    {
+                      "texto": "<center>the busiest</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>easy</center>"
+                    },
+                    {
+                      "texto": "<center>the easiest</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>classy</center>"
+                    },
+                    {
+                      "texto": "<center>the classiest</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "Los adjetivos con dos o más sílabas se forman con <b>the most + adjective</b>.",
+                      "rowspan": 3
+                    },
+                    {
+                      "texto": "<center>beatiful</center>"
+                    },
+                    {
+                      "texto": "<center>the most beautiful</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>important</center>"
+                    },
+                    {
+                      "texto": "<center>the most important</center>"
+                    }
+                  ]
+                },
+                {
+                  "fila": [
+                    {
+                      "texto": "<center>expensive</center>"
+                    },
+                    {
+                      "texto": "<center>the most expensive</center>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Exceptions",
+      "contenido": [
+        {
+          "clase": "lista",
+          "titulo": "Los adjetivos que tienen una forma comparativa irregular, también tienen una forma superlativa irregular que debes aprender:",
+          "contenido": [
+            {
+              "punto": "good <i>(bueno)</i> -> <b>the best</b> <i>(el/la/lo mejor)</i>",
+              "contenido": [
+                {
+                  "punto": "This restaurant is the best in town. <i>(Este restaurante es el mejor de la ciudad.)</i>"
+                }
+              ]
+            },
+            {
+              "punto": "bad <i>(malo)</i> -> <b>the worst</b> <i>(el/la/lo peor)</i>",
+              "contenido": [
+                {
+                  "punto": "I think that this restaurant is the worst. <i>(Creo que este restaurante es el peor.)</i>"
+                }
+              ]
+            },
+            {
+              "punto": "Far <i>(lejos)</i> -> <b>the furthest</b> <i>(el/la/lo más lejos)</i>",
+              "contenido": [
+                {
+                  "punto": "This point is the furthest we can go. <i>(Este punto es lo más lejos que podemos ir.)</i>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "lista",
+          "titulo": "<b>Examples</b>",
+          "contenido": [
+            {
+              "punto": "The Amazon is the longest river in the world. <i>(El Amazonas es el río más largo del mundo.)</i>"
+            },
+            {
+              "punto": "He is the happiest person I know. <i>(Él es la persona más feliz que conozco.)</i>"
+            },
+            {
+              "punto": "She bought me the most expensive ring. <i>(Ella me compró el anillo más caro.)</i>"
+            },
+            {
+              "punto": "I am the oldest person in my class. <i>(Soy la persona más vieja de mi clase.)</i>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Activity",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "texto": "Escoge la opción correcta."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "Our flat is _____ in the building.",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "bigger",
+                  "correcto": false
+                },
+                {
+                  "opcion": "the biggest",
+                  "correcto": true
+                },
+                {
+                  "opcion": "more big",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Peter is _____ of three children.",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "older",
+                  "correcto": false
+                },
+                {
+                  "opcion": "more old",
+                  "correcto": false
+                },
+                {
+                  "opcion": "the oldest",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "_____ man on Earth is 2,72 meters",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "Taller",
+                  "correcto": false
+                },
+                {
+                  "opcion": "The tallest",
+                  "correcto": true
+                },
+                {
+                  "opcion": "The most tall",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "This is _____ shop in town.",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "the more expensive",
+                  "correcto": false
+                },
+                {
+                  "opcion": "the expensivest",
+                  "correcto": false
+                },
+                {
+                  "opcion": "the most expensive",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "Diana says David Bowie was _____ singer ever.",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "the good",
+                  "correcto": false
+                },
+                {
+                  "opcion": "the best",
+                  "correcto": true
+                },
+                {
+                  "opcion": "the better",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "George is _____ boy in school, all girls like him.",
+              "id": "6",
+              "respuestas": [
+                {
+                  "opcion": "the most handsome",
+                  "correcto": true
+                },
+                {
+                  "opcion": "the handsomest",
+                  "correcto": false
+                },
+                {
+                  "opcion": "more handsome",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "It's _____ thing that can happen to you.",
+              "id": "7",
+              "respuestas": [
+                {
+                  "opcion": "the baddest",
+                  "correcto": false
+                },
+                {
+                  "opcion": "the worst",
+                  "correcto": true
+                },
+                {
+                  "opcion": "the most bad",
+                  "correcto": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Vocabulary",
+      "contenido": [
+        {
+          "clase": "tabs",
+          "contenido": [
+            {
+              "titulo": "Shops",
+              "contenido": [
+                {
+                  "clase": "listaObjetos",
+                  "contenido": [
+                    {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "English"
+                        },
+                        {
+                          "titulo": "Spanish"
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Supermarket</center>"
+                            },
+                            {
+                              "texto": "<center>Supermercado</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Bookshop</center>"
+                            },
+                            {
+                              "texto": "<center>Librería</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Butchery</center>"
+                            },
+                            {
+                              "texto": "<center>Carnicería</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Bakery</center>"
+                            },
+                            {
+                              "texto": "<center>Panadería</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Coffee shop</center>"
+                            },
+                            {
+                              "texto": "<center>Cafetería</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Clothing store</center>"
+                            },
+                            {
+                              "texto": "<center>Tienda de ropa</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Post office</center>"
+                            },
+                            {
+                              "texto": "<center>Oficina de correos</center>"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "clase": "icono",
+                      "subclase": "sabiasQue",
+                      "texto": "<b>Shop till you drop</b> es una expresión que significa comprar hasta que no puedas más, estar de compras durante mucho tiempo."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "At the shopping center",
+              "contenido": [
+                {
+                  "clase": "listaObjetos",
+                  "contenido": [
+                    {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "English"
+                        },
+                        {
+                          "titulo": "Spanish"
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Go shopping</center>"
+                            },
+                            {
+                              "texto": "<center>Ir de compras</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Do the shopping</center>"
+                            },
+                            {
+                              "texto": "<center>Ir a hacer la compra (diaria)</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>On sale</center>"
+                            },
+                            {
+                              "texto": "<center>Rebajado</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Receipt</center>"
+                            },
+                            {
+                              "texto": "<center>Recibo/Factura</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>In cash</center>"
+                            },
+                            {
+                              "texto": "<center>En metálico</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>By card</center>"
+                            },
+                            {
+                              "texto": "<center>Con tarjeta de crédito</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Customer</center>"
+                            },
+                            {
+                              "texto": "<center>Cliente</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Cashier</center>"
+                            },
+                            {
+                              "texto": "<center>Cajero/a</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Assistant</center>"
+                            },
+                            {
+                              "texto": "<center>Dependiente/a</center>"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "clase": "lista",
+                      "subclase": "recuadro",
+                      "titulo": "<center><b>Expresiones útiles</b></center>",
+                      "contenido": [
+                        {
+                          "punto": "I'm looking for... <i>(Estoy buscando...)</i>"
+                        },
+                        {
+                          "punto": "Can I help you? <i>(¿Puedo ayudarte?)</i>"
+                        },
+                        {
+                          "punto": "I'm just looking, thank you. <i>(Sólo estoy mirando, gracias.)</i>"
+                        },
+                        {
+                          "punto": "Can I try this on? <i>(¿Puedo probarme esto?)</i>"
+                        },
+                        {
+                          "punto": "Is this on sale? <i>(¿Está rebajado?)</i>"
+                        },
+                        {
+                          "punto": "Queue <i>(Cola de una tienda)</i>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+
+              ]
+            },
+            {
+              "titulo": "Clothes",
+              "contenido": [
+                {
+                  "clase": "listaObjetos",
+                  "contenido": [
+                    {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "English"
+                        },
+                        {
+                          "titulo": "Spanish"
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Boots</center>"
+                            },
+                            {
+                              "texto": "<center>Botas</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Shoes (a pair of)</center>"
+                            },
+                            {
+                              "texto": "<center>Zapatos (un par de)</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Coat</center>"
+                            },
+                            {
+                              "texto": "<center>Abrigo</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Jacket</center>"
+                            },
+                            {
+                              "texto": "<center>Chaqueta</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Dress</center>"
+                            },
+                            {
+                              "texto": "<center>Vestido</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Hat</center>"
+                            },
+                            {
+                              "texto": "<center>Sombrero</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Jeans</center>"
+                            },
+                            {
+                              "texto": "<center>Vaqueros</center>"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "English"
+                        },
+                        {
+                          "titulo": "Spanish"
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Trousers</center>"
+                            },
+                            {
+                              "texto": "<center>Pantalones</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Pyjamas</center>"
+                            },
+                            {
+                              "texto": "<center>Pijama</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Underwear</center>"
+                            },
+                            {
+                              "texto": "<center>Ropa interior</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Shirt</center>"
+                            },
+                            {
+                              "texto": "<center>Camisa</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>T-shirt</center>"
+                            },
+                            {
+                              "texto": "<center>Camiseta</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Skirt</center>"
+                            },
+                            {
+                              "texto": "<center>Falda</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Suit</center>"
+                            },
+                            {
+                              "texto": "<center>Traje</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Wallet</center>"
+                            },
+                            {
+                              "texto": "<center>Cartera</center>"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "English"
+                        },
+                        {
+                          "titulo": "Spanish"
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Socks</center>"
+                            },
+                            {
+                              "texto": "<center>Calcetines</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Swinmsuit</center>"
+                            },
+                            {
+                              "texto": "<center>Bañador</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Umbrella</center>"
+                            },
+                            {
+                              "texto": "<center>Paraguas</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Belt</center>"
+                            },
+                            {
+                              "texto": "<center>Cinturón</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Watch</center>"
+                            },
+                            {
+                              "texto": "<center>Reloj (de pulsera)</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Bag</center>"
+                            },
+                            {
+                              "texto": "<center>Bolso</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>Tie</center>"
+                            },
+                            {
+                              "texto": "<center>Corbata</center>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+
+              ]
+            }
+          ]
         },
         {
           "clase": "icono",
           "subclase": "exclamacion",
+          "texto": "<center>No confundas <b>library</b> <i>(biblioteca)</i> con <b>bookshop</b> <i>(librería)</i></center>"
+        }
+      ]
+    },
+    {
+      "titulo": "Activity",
+      "contenido": [
+        {
+          "clase": "texto",
+          "subclase": "instruccion",
+          "texto": "Choose the right answer."
+        },
+        {
+          "clase": "autoevalPreguntas",
+          "preguntas": [
+            {
+              "texto": "Where can you buy a new book?",
+              "id": "1",
+              "respuestas": [
+                {
+                  "opcion": "Library",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Bookshop",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Butchery",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "¿Cómo dirías: hacer la compra?",
+              "id": "2",
+              "respuestas": [
+                {
+                  "opcion": "Do the shopping.",
+                  "correcto": true
+                },
+                {
+                  "opcion": "Go shopping.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Go to the supermarket.",
+                  "correcto": false
+                }
+              ]
+            },
+            {
+              "texto": "Where can you buy some bread?",
+              "id": "3",
+              "respuestas": [
+                {
+                  "opcion": "Butchery",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Post office",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Bakery",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "¿Cómo dirías: estoy buscando una camisa azul?",
+              "id": "4",
+              "respuestas": [
+                {
+                  "opcion": "I'm just looking, thank you.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "I want a blue t-shirt.",
+                  "correcto": false
+                },
+                {
+                  "opcion": "I'm looking for a blue shirt.",
+                  "correcto": true
+                }
+              ]
+            },
+            {
+              "texto": "¿Qué necesitas si quieres devolver algo a la tienda?",
+              "id": "5",
+              "respuestas": [
+                {
+                  "opcion": "Queue",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Customer",
+                  "correcto": false
+                },
+                {
+                  "opcion": "Receipt",
+                  "correcto": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Summary",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<center><b>In this Unit you have learned...</b> <i>En esta Unidad has aprendido...</i></center>"
+        },
+        {
+          "clase": "tabs",
           "contenido": [
             {
-              "clase": "lista",
-              "titulo": "<center>Unconuntable nouns</center>",
+              "titulo": "Must/Have to",
               "contenido": [
                 {
-                  "punto": "<b>Liquids and creams:</b> juice, water, ketchup..."
-                },
-                {
-                  "punto": "<b>Materials:</b> glass, plastic, wood..."
-                },
-                {
-                  "punto": "<b>Ingredients:</b> rice flour, salt... "
-                },
-                                {
-                  "punto": "<b>Abstract nouns:</b> music, love, work..."
+                  "clase": "lista",
+                  "titulo": "You have learned how to express obligation by using the auxiliary verbs <b>MUST</b> and <b>HAVE TO</b>, their negative forms and their peculiarities. ",
+                  "contenido": [
+                    {
+                      "punto": "I must buy a present for my sister."
+                    },
+                    {
+                      "punto": "You have to buy a ticket to enter."
+                    },
+                    {
+                      "punto": "You mustn't enter in that building."
+                    },
+                    {
+                      "punto": "You don't have to do the shopping, I can do it."
+                    }
+                  ]
                 }
+              ]
+            },
+            {
+              "titulo": "Quantifiers",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "You have learned about the quantifiers <b>MUCH, MANY</b> and <b>A LOT OF</b>. Remember about the articles that you learned in the Unit 2 (a/the/some/numbers).",
+                  "contenido": [
+                    {
+                      "punto": "<b>MUCH</b> + uncountable nouns. We use it in questions and negative sentences."
+                    },
+                    {
+                      "punto": "<b>MANY</b> + countable plural nouns. We use it affirmative, negative sentences and question sentences."
+                    },
+                    {
+                      "punto": "<b>A LOT OF</b> + countable and uncountable nouns. Affirmative, negative sentences and questions. "
+                    }
+                  ]
+                },
+                {
+                  "clase": "listaObjetos",
+                  "contenido": [
+                    {
+                      "clase": "lista",
+                      "contenido": [
+                        {
+                          "punto": "I don't eat much bread."
+                        },
+                        {
+                          "punto": "Do you drink much coffee?"
+                        },
+                        {
+                          "punto": "I bought too many books."
+                        },
+                        {
+                          "punto": "I am new here and I don't know many people."
+                        }
+                      ]
+                    },
+                    {
+                      "clase": "lista",
+                      "contenido": [
+                        {
+                          "punto": "How many hours did you spend there?"
+                        },
+                        {
+                          "punto": "She has a lot of money."
+                        },
+                        {
+                          "punto": "He hasn't got a lot of money."
+                        },
+                        {
+                          "punto": "Do they have a lot of money?"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Adjectives",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "You have learned how to form the <b>comparative and superlative form</b> of the adjectives."
+                },
+                {
+                  "clase": "listaObjetos",
+                  "contenido": [
+                    {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "ADJECTIVE"
+                        },
+                        {
+                          "titulo": "COMPARATIVE FORM"
+                        },
+                        {
+                          "titulo": "SUPERLATIVE FORM"
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>old</b></center>"
+                            },
+                            {
+                              "texto": "<center>older (than)</center>"
+                            },
+                            {
+                              "texto": "<center>the oldest</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>hot</b></center>"
+                            },
+                            {
+                              "texto": "<center>hotter (than)</center>"
+                            },
+                            {
+                              "texto": "<center>the hottest</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>dirty</b></center>"
+                            },
+                            {
+                              "texto": "<center>dirtier (than)</center>"
+                            },
+                            {
+                              "texto": "<center>the dirtiest</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>busy</b></center>"
+                            },
+                            {
+                              "texto": "<center>busier (than)</center>"
+                            },
+                            {
+                              "texto": "<center>the busiest</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>expensive</b></center>"
+                            },
+                            {
+                              "texto": "<center>more expensive (than)</center>"
+                            },
+                            {
+                              "texto": "<center>the most expensive</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>famous</b></center>"
+                            },
+                            {
+                              "texto": "<center>more famous (than)</center>"
+                            },
+                            {
+                              "texto": "<center>the most famous</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>good</b></center>"
+                            },
+                            {
+                              "texto": "<center>better (than)</center>"
+                            },
+                            {
+                              "texto": "<center>the best</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>bad</b></center>"
+                            },
+                            {
+                              "texto": "<center>worse (than)</center>"
+                            },
+                            {
+                              "texto": "<center>the worst</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center><b>far</b></center>"
+                            },
+                            {
+                              "texto": "<center>further (than)</center>"
+                            },
+                            {
+                              "texto": "<center>the furthest</center>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+
+              ]
+            },
+            {
+              "titulo": "Vocabulary",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "You learnt vocabulary about shops and clothing."
+                }
+
+
+
               ]
             }
           ]
