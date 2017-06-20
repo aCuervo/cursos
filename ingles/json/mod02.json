@@ -147,7 +147,7 @@
                         {
                           "fila": [
                             {
-                              "texto": "The piano/ the violin/ the trumpet"
+                              "texto": "The piano/violin/trumpet"
                             },
                             {
                               "texto": "<i>Cuando hablamos de tocar instrumentos. (I play the piano.)</i>"
@@ -204,7 +204,7 @@
                           "punto": "Cuando nos referimos al desayuno (<b>breakfast</b>), comida/almuerzo (<b>lunch</b>) y cena (<b>dinner</b>):",
                           "contenido": [
                             {
-                              "punto": "Have breakfast, have lunch, have dinner."
+                              "punto": "Have breakfast/lunch/dinner."
                             }
                           ]
                         }
@@ -219,7 +219,7 @@
         {
           "clase": "texto",
           "subclase": "recuadro",
-          "texto": "<center><b>COUNTRY</b> = PAÍS<br>&<br><b>COUNTRY</b> = CAMPO</center>"
+          "texto": "<center><b>COUNTRY</b> = PAÍS/CAMPO</center>"
         }
       ]
     },
@@ -365,13 +365,13 @@
               "punto": "Referirnos a una profesión:",
               "contenido": [
                 {
-                  "punto": "I am a nurse.<br><i>Soy enfermera.</i>"
+                  "punto": "I am a nurse. <i>(Soy enfermera.)</i>"
                 },
                 {
-                  "punto": "You are a pilot.<br><i>Tú eres piloto.</i>"
+                  "punto": "You are a pilot. <i>(Tú eres piloto.)</i>"
                 },
                 {
-                  "punto": "He is a businessman.<br><i>Él es empresario.</i>"
+                  "punto": "He is a businessman. <i>(Él es empresario.</i>)"
                 }
               ]
             },
@@ -385,7 +385,7 @@
                   "punto": "“A uniform” (<i>un uniforme</i>)"
                 },
                 {
-                  "punto": "“A universo” (<i>un universo</i>)."
+                  "punto": "“A universe” (<i>un universo</i>)."
                 }
               ]
             }
@@ -592,11 +592,11 @@
           "contenido": [
             {
               "clase": "texto",
-              "texto": "El plural en inglés se crea generalmente añadiendo  -s al final de las palabras."
+              "texto": "El plural se crea, generalmente, <b>añadiendo “-s”</b> al final de la palabra."
             },
             {
               "clase": "lista",
-              "titulo": "<b>Examples</b>",
+              "subclase": "recuadro",
               "contenido": [
                 {
                   "punto": "Calendar <i>(Calendario)</i> -> Calendars"
@@ -612,12 +612,30 @@
           ]
         },
         {
+          "clase": "texto",
+          "texto": "<center><b>EXCEPTIONS</b></center>"
+        },
+ {
           "clase": "lista",
-          "titulo": "<b>Exceptions</b>",
           "contenido": [
             {
-              "punto": "En algunos casos, cuando los nombres acaban en “-s”, “-sh”, “-ch”, “-x” en vez de añadir solo “-s” añadiremos “-es” al formar el plural.",
+              "punto": "En algunos casos, cuando los nombres acaban en “-s”, “-sh”, “-ch”, y “-x” en vez de añadir solo “-s” añadiremos “-es”.",
               "contenido": [
+
+              ]
+        },
+        {
+          "clase": "lista",
+          "contenido": [
+            {
+              "punto": "En algunos casos, cuando los nombres acaban en “-s”, “-sh”, “-ch”, y “-x” en vez de añadir solo “-s” añadiremos “-es”.",
+              "contenido": [
+                {
+                  "clase": "listaObjetos",
+                  "contenido": [
+
+                  ]
+                },
                 {
                   "punto": "Bus - buses"
                 },
@@ -625,7 +643,7 @@
                   "punto": "Crash - crashes"
                 },
                 {
-                  "punto": "watch - watches"
+                  "punto": "Watch - watches"
                 },
                 {
                   "punto": "Fox - foxes"
@@ -637,18 +655,44 @@
             },
             {
               "punto": "Cuando termina en “-f” “-fe” se tranforma  en “-ves”: wife – wifes / shelf – shelves / knife – knives."
-            },
-            {
-              "punto": "Existe una serie de plurales irregulares que no siguen ninguna regla particular para formarse y tendremos que aprendernos:"
             }
           ]
         },
         {
-          "clase": "acordeon",
+          "clase": "icono",
+          "subclase": "exclamacion",
+          "texto": "Algunas palabras en inglés siempre van en plural y debemos recordar conjugarlas como tal:",
           "contenido": [
             {
-              "titulo": "<center>IRREGULAR PLURALS</center>",
+              "clase": "listaObjetos",
               "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "<center>trousers <i>(pantalones)</i><br>jeans <i>(vaqueros)</i></center>"
+                },
+                {
+                  "clase": "texto",
+                  "texto": "<center>glasses <i>(gafas)</i><br>scissors <i>(tijeras)</i></center>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "titulo": "Irregular plurals",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "Existe una serie de plurales irregulares que no siguen ninguna regla particular para formarse y tendremos que aprender:"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+
+          ]
+        },
                 {
                   "clase": "tabla",
                   "filaTitulos": [
@@ -786,30 +830,6 @@
                   "clase": "texto",
                   "texto": "(*) También puede significar “pez”, en ese caso su plural puede ser “fishes”."
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "icono",
-          "subclase": "exclamacion",
-          "texto": "Algunas palabras en inglés siempre van en plural y debemos recordar conjugarlas como tal:",
-          "contenido": [
-            {
-              "clase": "listaObjetos",
-              "contenido": [
-                {
-                  "clase": "texto",
-                  "texto": "<center>trousers <i>(pantalones)</i><br>jeans <i>(vaqueros)</i></center>"
-                },
-                {
-                  "clase": "texto",
-                  "texto": "<center>glasses <i>(gafas)</i><br>scissors <i>(tijeras)</i></center>"
-                }
-              ]
-            }
-          ]
-        }
       ]
     },
     {
