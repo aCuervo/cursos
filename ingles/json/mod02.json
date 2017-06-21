@@ -26,7 +26,7 @@
       ]
     },
     {
-      "titulo": "ARTICLES: The",
+      "titulo": "Articles: The",
       "contenido": [
         {
           "clase": "texto",
@@ -224,7 +224,7 @@
       ]
     },
     {
-      "titulo": "ARTICLES: A/An",
+      "titulo": "Articles: A/An",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -585,7 +585,7 @@
       ]
     },
     {
-      "titulo": "PLURALS",
+      "titulo": "Plurals",
       "contenido": [
         {
           "clase": "listaObjetos",
@@ -615,64 +615,115 @@
           "clase": "texto",
           "texto": "<center><b>EXCEPTIONS</b></center>"
         },
- {
-          "clase": "lista",
-          "contenido": [
-            {
-              "punto": "En algunos casos, cuando los nombres acaban en “-s”, “-sh”, “-ch”, y “-x” en vez de añadir solo “-s” añadiremos “-es”.",
-              "contenido": [
-
-              ]
-        },
         {
-          "clase": "lista",
+          "clase": "listaObjetos",
           "contenido": [
             {
-              "punto": "En algunos casos, cuando los nombres acaban en “-s”, “-sh”, “-ch”, y “-x” en vez de añadir solo “-s” añadiremos “-es”.",
-              "contenido": [
-                {
-                  "clase": "listaObjetos",
-                  "contenido": [
-
-                  ]
-                },
-                {
-                  "punto": "Bus - buses"
-                },
-                {
-                  "punto": "Crash - crashes"
-                },
-                {
-                  "punto": "Watch - watches"
-                },
-                {
-                  "punto": "Fox - foxes"
-                }
-              ]
+              "clase": "texto",
+              "texto": "1. Los nombres terminados en <b>“-s”, “-sh”, “-ch”</b> y <b>“-x” añaden “-es”</b>."
             },
-            {
-              "punto": "Cuando la palabra termina en “-y” añadiremos”-ies”: baby – babies / strawberry – strawberries. En cambio, si la palabra termina en “-ay”, “-ey”, “-oy” forman su plural añadiendo solo “-s” siguiendo la regla general: Boy – boys / day – days/ monkey – monkeys."
-            },
-            {
-              "punto": "Cuando termina en “-f” “-fe” se tranforma  en “-ves”: wife – wifes / shelf – shelves / knife – knives."
-            }
-          ]
-        },
-        {
-          "clase": "icono",
-          "subclase": "exclamacion",
-          "texto": "Algunas palabras en inglés siempre van en plural y debemos recordar conjugarlas como tal:",
-          "contenido": [
             {
               "clase": "listaObjetos",
               "contenido": [
                 {
-                  "clase": "texto",
-                  "texto": "<center>trousers <i>(pantalones)</i><br>jeans <i>(vaqueros)</i></center>"
+                  "clase": "listaObjetos",
+                  "subclase": "columna",
+                  "contenido": [
+                    {
+                      "clase": "lista",
+                      "contenido": [
+                        {
+                          "punto": "bus -> buses"
+                        },
+                        {
+                          "punto": "crash -> crashes"
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
-                  "clase": "texto",
-                  "texto": "<center>glasses <i>(gafas)</i><br>scissors <i>(tijeras)</i></center>"
+                  "clase": "listaObjetos",
+                  "subclase": "columna",
+                  "contenido": [
+                    {
+                      "clase": "lista",
+                      "contenido": [
+                        {
+                          "punto": "watch - watches"
+                        },
+                        {
+                          "punto": "fox - foxes"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "2. Las palabra terminadas en <b>“-y” añaden “-ies”</b>."
+            },
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "baby –> babies"
+                },
+                {
+                  "punto": "strawberry –> strawberries"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "3. Salvo si termina en <b>“-ay”, “-ey”, “-oy”</b> que sigue la regla general, solo <b>añade “-s”</b>."
+            },
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "boy –> boys"
+                },
+                {
+                  "punto": "day -> days"
+                },
+                {
+                  "punto": "monkey -> monkeys"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "texto",
+              "texto": "4. Cuando termina en <b>“-f” o “-fe” se tranforma  en “-ves”</b>."
+            },
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "wife –> wifes"
+                },
+                {
+                  "punto": "shelf –> shelves"
+                },
+                {
+                  "punto": "knife –> knives"
                 }
               ]
             }
@@ -680,19 +731,20 @@
         }
       ]
     },
-        {
+    {
       "titulo": "Irregular plurals",
       "contenido": [
         {
-          "clase": "texto",
-          "texto": "Existe una serie de plurales irregulares que no siguen ninguna regla particular para formarse y tendremos que aprender:"
-        },
-        {
           "clase": "listaObjetos",
           "contenido": [
-
-          ]
-        },
+            {
+              "clase": "listaObjetos",
+              "subclase": "columna",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Existe una serie de plurales irregulares que no siguen ninguna regla particular para formarse y tendremos que aprender:"
+                },
                 {
                   "clase": "tabla",
                   "filaTitulos": [
@@ -830,6 +882,34 @@
                   "clase": "texto",
                   "texto": "(*) También puede significar “pez”, en ese caso su plural puede ser “fishes”."
                 }
+              ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "exclamacion",
+              "contenido": [
+                {
+                  "clase": "lista",
+                  "titulo": "Además algunas palabras en inglés siempre van en plural:",
+                  "contenido": [
+                    {
+                      "punto": "trousers <i>(pantalones)"
+                    },
+                    {
+                      "punto": "glasses <i>(gafas)</i>"
+                    },
+                    {
+                      "punto": "jeans <i>(vaqueros)</i>"
+                    },
+                    {
+                      "punto": "scissors <i>(tijeras)</i>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -918,7 +998,7 @@
       ]
     },
     {
-      "titulo": "ARTICLES: Some",
+      "titulo": "Articles: Some",
       "contenido": [
         {
           "clase": "texto",
@@ -963,7 +1043,7 @@
                   "texto": "<center>A</center>"
                 },
                 {
-                  "texto": "<center>NUMBER / SOME</center>"
+                  "texto": "<center>NUMBER/SOME</center>"
                 }
               ]
             },
@@ -985,14 +1065,14 @@
       ]
     },
     {
-      "titulo": "ARTICLES: Examples",
+      "titulo": "Articles: Examples",
       "contenido": [
         {
           "clase": "lista",
           "titulo": "",
           "contenido": [
             {
-              "punto": "Para <b>nombres contables</b> podemos designar el plural utilizando, bien <b>un número determinado</b> como vimos antes, o <b>SOME</b>:",
+              "punto": "Para <b>nombres contables</b> podemos designar el plural utilizando bien <b>un número determinado</b>, como vimos antes, o <b>SOME</b>:",
               "contenido": [
                 {
                   "punto": "Some cars, some books... (<i>unos coches, unos libros...</i>)"
@@ -1005,18 +1085,48 @@
           ]
         },
         {
-          "clase": "acordeon",
+          "clase": "lista",
+          "titulo": "<b>Examples</b>",
           "contenido": [
             {
-              "titulo": "Examples",
-              "texto": "-I need some money to buy a new car.<br>–<i>Necesito algo de dinero para comprar un coche nuevo.</i><br><br>-For lunch I usually have some pasta.<br>–<i>Para comer suelo tomar algo de pasta.</i><br><br>-She drinks some wine.<br>–<i>Ella bebe algo de vino.</i>"
+              "punto": "I need some money to buy a new car. <i>(Necesito algo de dinero para comprar un coche nuevo.)</i>"
+            },
+            {
+              "punto": "For lunch I usually have some pasta. <i>(Para comer suelo tomar algo de pasta.)</i>"
+            },
+            {
+              "punto": "She drinks some wine. <i>(Ella bebe algo de vino.)</i>"
             }
           ]
         },
         {
           "clase": "icono",
           "subclase": "exclamacion",
-          "texto": "En español es muy común decir “un agua”, mientras que en inglés cuando nos refiramos a algún líquido o sustancia tendremos que acompañarlo de una medida:<br><center>A glass of water. <i>(Un vaso de agua.)</i><br>A bottle of milk. <i>(Una botella de leche.)</i><br>A piece of wood. <i>(Un trozo de madera.)</i></center>"
+          "contenido": [
+            {
+              "clase": "listaObjetos",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "En español es muy común decir “un agua”, mientras que en inglés cuando nos refiramos a algún líquido o sustancia tendremos que acompañarlo de una medida:"
+                },
+                {
+                  "clase": "lista",
+                  "contenido": [
+                    {
+                      "punto": "A glass of water. <i>(Un vaso de agua.)</i>"
+                    },
+                    {
+                      "punto": "A bottle of milk. <i>(Una botella de leche.)</i>"
+                    },
+                    {
+                      "punto": "A piece of wood. <i>(Un trozo de madera.)</i>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1786,12 +1896,7 @@
                       ]
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "clase": "acordeon",
-              "contenido": [
+                },
                 {
                   "titulo": "<center>50-59</center>",
                   "contenido": [
@@ -2373,42 +2478,52 @@
                   ]
                 }
               ]
+            },
+            {
+              "clase": "icono",
+              "subclase": "sabiasQue",
+              "texto": "<b>¿Sabías que...</b><br>En <b>tenis</b> cero se dice <b>love</b>:<br>6-0 = six-love.<br>En cambio en <b>fútbol</b> se dice <b>nil</b>:<br>3-0 = three-nil."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "titulo": "About numbers",
+      "contenido": [
         {
-          "clase": "lista",
-          "titulo": "<b>PRESTA ATENCIÓN</b>",
+          "clase": "icono",
+          "subclase": "exclamacion",
           "contenido": [
             {
-              "punto": "En inglés británico 0 es ‘zero’ pero cuando nos referimos a un 0 en un número de teléfono diremos ‘o’ (‘ou’). Ejemplo: 665-023 ‘double six five o two three’"
-            },
-            {
-              "punto": "No confundas al escribir y al pronunciar “-teen” (/ti:n/) de (11 a 19) con “-ty”(el resto de decenas)."
-            },
-            {
-              "punto": "Recuerda que del 20 al 99 todos los números escriben con un guión (twenty-one, seventy-four…)."
-            },
-            {
-              "punto": "Utilizamos los número cardinales para:",
+              "clase": "lista",
               "contenido": [
                 {
-                  "punto": "Contar: I have two cars. (Tengo dos coches.) There are fifty apples. (Hay 50 manzanas.)"
+                  "punto": "En inglés británico 0 es ‘zero’ pero cuando nos referimos a un 0 en un número de teléfono diremos ‘o’ (‘ou’). Ejemplo: 665-023 ‘double six five o two three’"
                 },
                 {
-                  "punto": "Edades: I am eighty-eight years old. (Tengo ochenta y ocho años.)"
+                  "punto": "No confundas al escribir y al pronunciar “-teen” (/ti:n/) de (11 a 19) con “-ty”(el resto de decenas)."
                 },
                 {
-                  "punto": "Dar un número de teléfono."
+                  "punto": "Recuerda que del 20 al 99 todos los números escriben con un guión (twenty-one, seventy-four…)."
+                },
+                {
+                  "punto": "Utilizamos los número cardinales para:",
+                  "contenido": [
+                    {
+                      "punto": "Contar: I have two cars. (Tengo dos coches.) There are fifty apples. (Hay 50 manzanas.)"
+                    },
+                    {
+                      "punto": "Edades: I am eighty-eight years old. (Tengo ochenta y ocho años.)"
+                    },
+                    {
+                      "punto": "Dar un número de teléfono."
+                    }
+                  ]
                 }
               ]
             }
           ]
-        },
-        {
-          "clase": "icono",
-          "subclase": "sabiasQue",
-          "texto": "<b>¿Sabías que...</b><br>En <b>tenis</b> cero se dice <b>love</b>:<br>6-0 = six-love.<br>En cambio en <b>fútbol</b> se dice <b>nil</b>:<br>3-0 = three-nil."
         }
       ]
     },
@@ -2498,7 +2613,7 @@
       ]
     },
     {
-      "titulo": "PRESENT SIMPLE",
+      "titulo": "Present simple",
       "contenido": [
         {
           "clase": "texto",
@@ -2616,7 +2731,7 @@
       ]
     },
     {
-      "titulo": "PRESENT SIMPLE: Utilization",
+      "titulo": "Present simple: Utilization",
       "contenido": [
         {
           "clase": "lista",
@@ -2761,12 +2876,12 @@
       ]
     },
     {
-      "titulo": "PRESENT SIMPLE: Negative form",
+      "titulo": "Present simple: Negative form",
       "contenido": [
         {
           "clase": "texto",
           "subclase": "recuadro",
-          "texto": "<center>El presente simple negativo se forma con:<br><b>SUJETO + DO NOT (DON'T) / DOES NOT (DOESN'T) + INFINITIVO</b></center>"
+          "texto": "<center>El presente simple negativo se forma con:<br><b>SUJETO + DO NOT (DON'T) + INFINITIVO<br>SUJETO + DOES NOT (DOESN'T) + INFINITIVO</b></center>"
         },
         {
           "clase": "listaObjetos",
@@ -2778,33 +2893,6 @@
                 {
                   "clase": "texto",
                   "texto": "Es tan correcto decir “We don’t play tennis” como “We do not play tennis”, ya que la primera forma es una contracción de la forma larga y es más común utilizarla."
-                },
-                {
-                  "clase": "acordeon",
-                  "contenido": [
-                    {
-                      "titulo": "<center>EXAMPLES</center>",
-                      "contenido": [
-                        {
-                          "clase": "lista",
-                          "contenido": [
-                            {
-                              "punto": "I like your dress. / I don’t like your dress. (<i>Me gusta tu vestido. / No me gusta tu vestido.</i>)"
-                            },
-                            {
-                              "punto": "He loves his job. / He doesn’t love his job. (<i>A él le encanta su trabajo. / A él no le encanta su trabajo.</i>)"
-                            },
-                            {
-                              "punto": "They watch TV everyday. / They do not watch TV everyday. (<i>Ellos ven la tele todos los días. / Ellos no ven la tele todos los días.</i>)."
-                            },
-                            {
-                              "punto": "You wake up very early. / You don’t wake up very early. (<i>Te despiertas muy temprano. / Tú no te despiertas muy temprano.</i>)"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
                 }
               ]
             },
@@ -2909,11 +2997,59 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "titulo": "Negative form: Examples",
+      "contenido": [
+        {
+          "clase": "texto",
+          "texto": "<center><b>EXAMPLES</b></center>"
+        },
+        {
+          "clase": "listaObjetos",
+          "contenido": [
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "I like your dress. (<i>Me gusta tu vestido.</i>)"
+                },
+                {
+                  "punto": "He loves his job. (<i>A él le encanta su trabajo.</i>)"
+                },
+                {
+                  "punto": "They watch TV everyday. (<i>Ellos ven la tele todos los días.</i>)."
+                },
+                {
+                  "punto": "You wake up very early. (<i>Te despiertas muy temprano.</i>)"
+                }
+              ]
+            },
+            {
+              "clase": "lista",
+              "contenido": [
+                {
+                  "punto": "I don’t like your dress. (<i>No me gusta tu vestido.</i>)"
+                },
+                {
+                  "punto": "He doesn’t love his job. (<i>A él no le encanta su trabajo.</i>)"
+                },
+                {
+                  "punto": "They do not watch TV everyday. (<i>Ellos no ven la tele todos los días.</i>)."
+                },
+                {
+                  "punto": "You don’t wake up very early. (<i>Tú no te despiertas muy temprano.</i>)"
+                }
+              ]
+            }
+          ]
         },
         {
           "clase": "icono",
           "subclase": "exclamacion",
-          "texto": "La tercera persona del singular en forma negativa SIEMPRE se forma <b>con DOESN'T</b> en vez de DON'T y <b>NUNCA añadir la “-s”</b> al verbo como en tercera persona afirmativa:<center>She doesn’t drink tea.<br><del>She doesn’t drinks tea.</del></center>"
+          "texto": "La tercera persona del singular en forma negativa SIEMPRE se forma <b>con DOESN'T</b> en vez de DON'T y <b>NUNCA añade “-s”</b> al verbo como en tercera persona afirmativa:<center>She doesn’t drink tea.<br><del>She doesn’t drinks tea.</del></center>"
         }
       ]
     },
@@ -3043,11 +3179,11 @@
       ]
     },
     {
-      "titulo": "PRESENT SIMPLE: Question form",
+      "titulo": "Present simple: Question form",
       "contenido": [
         {
           "clase": "texto",
-          "texto": "Para hacer preguntas en presente simple volvemos a <b>utilizar el auxiliar DO / DOES</b>."
+          "texto": "Para hacer preguntas en presente simple volvemos a <b>utilizar el auxiliar DO/DOES</b>."
         },
         {
           "clase": "listaObjetos",
@@ -3182,7 +3318,7 @@
       ]
     },
     {
-      "titulo": "PRESENT SIMPLE: Question words",
+      "titulo": "Present simple: Question words",
       "contenido": [
         {
           "clase": "texto",
@@ -3349,7 +3485,7 @@
       ]
     },
     {
-      "titulo": "PRESENT SIMPLE: Question structure",
+      "titulo": "Present simple: Question structure",
       "contenido": [
         {
           "clase": "texto",
@@ -3477,7 +3613,7 @@
             },
             {
               "clase": "lista",
-              "titulo": "Se puede contestar con respuestas cortas usando do / don’t o does / doesn’t:",
+              "titulo": "Se puede contestar con respuestas cortas usando do/don’t o does/doesn’t:",
               "contenido": [
                 {
                   "punto": "Does she play tennis? –No, she doesn’t.<br>(<i>¿Ella juega al tenis? –No, no juega.</i>)"
@@ -3495,7 +3631,7 @@
         {
           "clase": "icono",
           "subclase": "exclamacion",
-          "texto": "Antes de preguntar podemos incluir <b>EXCUSE ME</b> (<i>perdona, disculpa</i>) para hacer que nuestra pregunta o ruego sea más educada.<br>“Excuse me, do you work in this place?” (<i>Disculpa, ¿trabajas aquí?</i>)"
+          "texto": "Antes de preguntar podemos incluir <b>EXCUSE ME</b> (<i>perdona, disculpa</i>) para hacer que nuestra pregunta o ruego sea más educada:<br>“Excuse me, do you work in this place?” (<i>Disculpa, ¿trabajas aquí?</i>)"
         }
       ]
     },
@@ -3625,30 +3761,22 @@
       ]
     },
     {
-      "titulo": "THE CLOCK",
+      "titulo": "The clock",
       "contenido": [
         {
           "clase": "texto",
           "texto": "En esta unidad aprenderemos, no sólo a pedir la hora, sino también a darla y algo de vocabulario relacionado con “el tiempo”."
         },
         {
-          "clase": "acordeon",
-          "contenido": [
-            {
-              "titulo": "<center>A clock or watch</center>",
-              "contenido": [
-                {
-                  "clase": "texto",
-                  "texto": "Reloj indicando las expresiones horarias."
-                },
-                {
-                  "clase": "imagen",
-                  "imagen": "img/mod02/reloj.jpg"
-                }
-              ]
-            }
-          ]
-        },
+          "clase": "imagen",
+          "imagen": "img/mod02/reloj.jpg",
+          "pie": "Reloj indicando las expresiones horarias."
+        }
+      ]
+    },
+    {
+      "titulo": "Clock expressions",
+      "contenido": [
         {
           "clase": "listaObjetos",
           "contenido": [
@@ -3788,7 +3916,7 @@
             {
               "clase": "icono",
               "subclase": "exclamacion",
-              "texto": "<b>IT’S ABOUT TIME...</b><br>Es una expresión en inglés que significa “ya es hora”.<br>It’s about time you talk to your father. (<i>Es hora de que hables con tu padre.</i>)"
+              "texto": "<center><b>IT’S ABOUT TIME...</b></center>Es una expresión en inglés que significa “ya es hora”:<br>-It’s about time you talk to your father. (<i>Es hora de que hables con tu padre.</i>)"
             }
           ]
         }
@@ -3914,314 +4042,339 @@
       "titulo": "SUMMARY",
       "contenido": [
         {
-          "clase": "listaObjetos",
+          "clase": "tabs",
           "contenido": [
             {
-              "clase": "lista",
-              "contenido": [
-                {
-                  "punto": "You have learned how to use the definite and indefinite articles ‘the/a/an’ and ‘some’."
-                }
-              ]
-            },
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": ""
-                },
-                {
-                  "titulo": "COUNTABLE"
-                },
-                {
-                  "titulo": "UNCOUNTABLE"
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "the"
-                    },
-                    {
-                      "texto": "table (specific)"
-                    },
-                    {
-                      "texto": "<center>milk</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "a/an"
-                    },
-                    {
-                      "texto": "table/apple"
-                    },
-                    {
-                      "texto": "<center>/</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "some"
-                    },
-                    {
-                      "texto": "tables (plural)"
-                    },
-                    {
-                      "texto": "<center>milk</center>"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "lista",
-          "contenido": [
-            {
-              "punto": "You have learned how to create the plural of different words: adding just an ‘-s’, adding ‘-es’, transforming ‘y’ into ‘-ies’ and ‘f/fe’ into ‘-ves’. Plus a list of irregular plurals that you have to learn.",
-              "contenido": [
-                {
-                  "punto": "Table: tables (mesas)"
-                },
-                {
-                  "punto": "Box: boxes (cajas)"
-                },
-                {
-                  "punto": "Fly: flies (moscas/ volar)"
-                },
-                {
-                  "punto": "Thief: thieves (ladrones)"
-                }
-              ]
-            },
-            {
-              "punto": "Now you know how to count from 1 to 99 and how to the spell these numbers. We suggest you to have a look again at the list of numbers."
-            },
-            {
-              "punto": "You know how to use the simple present in the affirmative, negative and question forms. You know how to spell the third person singular and how to create questions with different question words. Let’s have a look at it again!"
-            }
-          ]
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "PR."
-                },
-                {
-                  "titulo": "AFF."
-                },
-                {
-                  "titulo": "NEG."
-                },
-                {
-                  "titulo": "QUEST."
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "I"
-                    },
-                    {
-                      "texto": "like"
-                    },
-                    {
-                      "texto": "don't like"
-                    },
-                    {
-                      "texto": "do I like?"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "you"
-                    },
-                    {
-                      "texto": "like"
-                    },
-                    {
-                      "texto": "don't like"
-                    },
-                    {
-                      "texto": "do you like?"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "he"
-                    },
-                    {
-                      "texto": "likes",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "doesn't like",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "does he /she/it like?",
-                      "rowspan": 3
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "she"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "it"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "we"
-                    },
-                    {
-                      "texto": "like",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "don't like",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "do we/you/they like?",
-                      "rowspan": 3
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "you"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "they"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": "ADVERB"
-                },
-                {
-                  "titulo": "AUX. VERB"
-                },
-                {
-                  "titulo": "SUBJECT"
-                },
-                {
-                  "titulo": "INFINITIVE"
-                },
-                {
-                  "titulo": "COMPLEMENT"
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "Where"
-                    },
-                    {
-                      "texto": "does"
-                    },
-                    {
-                      "texto": "he"
-                    },
-                    {
-                      "texto": "buy"
-                    },
-                    {
-                      "texto": "this wine?"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "What"
-                    },
-                    {
-                      "texto": "do"
-                    },
-                    {
-                      "texto": "you"
-                    },
-                    {
-                      "texto": "like"
-                    },
-                    {
-                      "texto": "for breakfast?"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "acordeon",
-          "contenido": [
-            {
-              "titulo": "<center>THE TIME</center>",
+              "titulo": "Articles",
               "contenido": [
                 {
                   "clase": "texto",
-                  "texto": "You also learned how to ask for and tell the time.<br><i>También aprendiste cómo preguntar y decir la hora.</i>"
+                  "texto": "You have learned how to use the definite and indefinite articles ‘the/a/an’ and ‘some’."
+                },
+                {
+                  "clase": "tabla",
+                  "filaTitulos": [
+                    {
+                      "titulo": ""
+                    },
+                    {
+                      "titulo": "COUNTABLE"
+                    },
+                    {
+                      "titulo": "UNCOUNTABLE"
+                    }
+                  ],
+                  "filaContenido": [
+                    {
+                      "fila": [
+                        {
+                          "texto": "the"
+                        },
+                        {
+                          "texto": "table (specific)"
+                        },
+                        {
+                          "texto": "<center>milk</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "a/an"
+                        },
+                        {
+                          "texto": "table/apple"
+                        },
+                        {
+                          "texto": "<center>/</center>"
+                        }
+                      ]
+                    },
+                    {
+                      "fila": [
+                        {
+                          "texto": "some"
+                        },
+                        {
+                          "texto": "tables (plural)"
+                        },
+                        {
+                          "texto": "<center>milk</center>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Plurals",
+              "contenido": [
+                {
+                  "clase": "listaObjetos",
+                  "contenido": [
+                    {
+                      "clase": "lista",
+                      "titulo": "You have learned how to create the plural of different words:",
+                      "contenido": [
+                        {
+                          "punto": "Adding just an ‘-s’."
+                        },
+                        {
+                          "punto": "Adding ‘-es’."
+                        },
+                        {
+                          "punto": "Transforming ‘y’ into ‘-ies’."
+                        },
+                        {
+                          "punto": "Transforming ‘f/fe’ into ‘-ves’."
+                        },
+                        {
+                          "punto": "A list of irregular plurals you have to learn."
+                        }
+                      ]
+                    },
+                    {
+                      "clase": "lista",
+                      "titulo": "<b>Examples</b>",
+                      "contenido": [
+                        {
+                          "punto": "Table: tables (mesas)"
+                        },
+                        {
+                          "punto": "Box: boxes (cajas)"
+                        },
+                        {
+                          "punto": "Fly: flies (moscas/volar)"
+                        },
+                        {
+                          "punto": "Thief: thieves (ladrones)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Numbers",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "Now you know how to count from 1 to 99 and how to the spell these numbers. We suggest you to have a look again at the list of numbers."
+                }
+              ]
+            },
+            {
+              "titulo": "Present simple",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "You know how to use the simple present in the affirmative, negative and question forms. You know how to spell the third person singular and how to create questions with different question words. Let’s have a look at it again!"
+                },
+                {
+                  "clase": "listaObjetos",
+                  "contenido": [
+                    {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "PR."
+                        },
+                        {
+                          "titulo": "AFF."
+                        },
+                        {
+                          "titulo": "NEG."
+                        },
+                        {
+                          "titulo": "QUEST."
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "I"
+                            },
+                            {
+                              "texto": "like"
+                            },
+                            {
+                              "texto": "don't like"
+                            },
+                            {
+                              "texto": "do I like?"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "you"
+                            },
+                            {
+                              "texto": "like"
+                            },
+                            {
+                              "texto": "don't like"
+                            },
+                            {
+                              "texto": "do you like?"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "he"
+                            },
+                            {
+                              "texto": "likes",
+                              "rowspan": 3
+                            },
+                            {
+                              "texto": "doesn't like",
+                              "rowspan": 3
+                            },
+                            {
+                              "texto": "does he/she/it like?",
+                              "rowspan": 3
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "she"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "it"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "we"
+                            },
+                            {
+                              "texto": "like",
+                              "rowspan": 3
+                            },
+                            {
+                              "texto": "don't like",
+                              "rowspan": 3
+                            },
+                            {
+                              "texto": "do we/you/they like?",
+                              "rowspan": 3
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "you"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "they"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "ADVERB"
+                        },
+                        {
+                          "titulo": "AUX. VERB"
+                        },
+                        {
+                          "titulo": "SUBJECT"
+                        },
+                        {
+                          "titulo": "INFINITIVE"
+                        },
+                        {
+                          "titulo": "COMPLEMENT"
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "Where"
+                            },
+                            {
+                              "texto": "does"
+                            },
+                            {
+                              "texto": "he"
+                            },
+                            {
+                              "texto": "buy"
+                            },
+                            {
+                              "texto": "this wine?"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "What"
+                            },
+                            {
+                              "texto": "do"
+                            },
+                            {
+                              "texto": "you"
+                            },
+                            {
+                              "texto": "like"
+                            },
+                            {
+                              "texto": "for breakfast?"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "The time",
+              "contenido": [
+                {
+                  "clase": "texto",
+                  "texto": "You also learned how to ask for and tell the time. <i>(También aprendiste cómo preguntar y decir la hora.)</i>"
                 },
                 {
                   "clase": "imagen",
                   "imagen": "img/mod02/reloj.jpg"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "clase": "listaObjetos",
-          "contenido": [
-            {
-              "clase": "imagen",
-              "ancho": 128,
-              "imagen": "img/mod02/girlFlower.png"
             },
             {
-              "clase": "acordeon",
+              "titulo": "Vocabulary",
               "contenido": [
                 {
-                  "titulo": "<center>NEW VOCABULARY</center>",
+                  "clase": "listaObjetos",
                   "contenido": [
                     {
                       "clase": "tabla",
@@ -4379,7 +4532,23 @@
                               "texto": "ˈdɪnə"
                             }
                           ]
+                        }
+                      ]
+                    },
+                    {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "ENGLISH"
                         },
+                        {
+                          "titulo": "SPANISH"
+                        },
+                        {
+                          "titulo": "PRONUNCIATION"
+                        }
+                      ],
+                      "filaContenido": [
                         {
                           "fila": [
                             {
@@ -4522,7 +4691,30 @@
                               "texto": "nɜːs"
                             }
                           ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "More vocabulary",
+              "contenido": [
+                                    {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "ENGLISH"
                         },
+                        {
+                          "titulo": "SPANISH"
+                        },
+                        {
+                          "titulo": "PRONUNCIATION"
+                        }
+                      ],
+                      "filaContenido": [
                         {
                           "fila": [
                             {
@@ -4668,14 +4860,13 @@
                         }
                       ]
                     }
-                  ]
-                }
               ]
             }
           ]
         },
         {
           "clase": "imagen",
+          "subclase": "ajustarAncho",
           "imagen": "img/comunes/londonLast2.png"
         }
       ]

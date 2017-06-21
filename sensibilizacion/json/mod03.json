@@ -1,0 +1,38 @@
+﻿{
+  "modulo": "III: LA ADMINISTRACIÓN",
+  "imagenEncabezado": "img/comunes/logo.svg",
+  "contenido": [
+    {
+      "titulo": "Portada",
+      "fondo": "img/comunes/portada.svg",
+      "subclase": "portada"
+    },  
+
+
+
+
+    {
+      "titulo": "Despedida",
+      "fondo": "img/comunes/21.jpg",
+      "contenido": [
+        {
+          "clase": "listaObjetos",
+          "animacion": "fadeInRight",
+          "contenido": [
+            {
+              "clase": "texto",
+              "subclase": "recuadro",
+              "opacidad": 0.8,
+              "texto": "En este primer módulo has aprendido los contenidos básicos para comenzar a aprender inglés, como los pronombres personales y el verbo TO BE. Vocabulario para describir cualidades físicas y del carácter y expresiones simples para presentarte ante los demás y conocer más sobre tu interlocutor.<br><br>En el siguiente módulo aprenderás nuevos tiempos verbales como el PRESENT SIMPLE, los número del 1 al 99, a decir la hora en inglés y mucho más."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Contraportada",
+      "fondo": "img/comunes/contraportada.svg",
+      "subclase": "portada"
+    }
+  ]
+}

@@ -327,6 +327,7 @@ function getArrayImagenes(modulo) {
             arrayFinal = arrayComun.concat([
                 "img/mod04/at.svg",
                 "img/mod04/behind.svg",
+                "img/mod04/between.svg",
                 "img/mod04/emily.png",
                 "img/mod04/farola.svg",
                 "img/mod04/in.svg",
@@ -350,6 +351,43 @@ function getArrayImagenes(modulo) {
                 "img/mod05/stamp.svg",
                 "img/mod05/vocabulary.png",
                 "img/mod05/youCan.svg"]);
+            break;
+        case "mod06":
+            arrayFinal = arrayComun.concat([
+                "img/mod06/Beverages.jpg",
+                "img/mod06/Breakfast2.jpg",
+                "img/mod06/costumer.svg",
+                "img/mod06/food.jpg",
+                "img/mod06/fruits.jpg",
+                "img/mod06/here.jpg",
+                "img/mod06/menu.jpg",
+                "img/mod06/orange.jpg",
+                "img/mod06/raining.png",
+                "img/mod06/reading.png",
+                "img/mod06/riding.png",
+                "img/mod06/Snacks.jpg",
+                "img/mod06/there.jpg",
+                "img/mod06/vocabulary.jpg",
+                "img/mod06/waitress.svg",
+                "img/mod06/working.png"]);
+            break;
+        case "mod07":
+            arrayFinal = arrayComun.concat([
+                "img/mod07/reading.jpg",
+                "img/mod07/sports.jpg",
+                "img/mod07/surf.jpg",
+                "img/mod07/te.jpg",
+                "img/mod07/work.jpg"]);
+            break;
+        case "mod08":
+            arrayFinal = arrayComun.concat([
+                "img/mod08/clock.jpg",
+                "img/mod08/hourglass.jpg",
+                "img/mod08/list.png",
+                "img/mod08/maldives.jpg",
+                "img/mod08/sand.jpg",
+                "img/mod08/vocabulary.jpg",
+                "img/mod08/words.jpg"]);
             break;
         default: arrayFinal = arrayComun;
     }

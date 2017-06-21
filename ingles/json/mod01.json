@@ -2470,20 +2470,27 @@
 
       ]
     },
-    {
+        {
       "titulo": "What's your name?",
       "contenido": [
         {
-          "clase": "texto",
-          "texto": "Cuando te pregunten por tu nombre o quieras preguntarle a alguien “¿Cómo te llamas?” diremos: What is your name? O What’s your name?. ¿Y cómo podemos contestar?:"
-        },
-        {
           "clase": "listaObjetos",
           "contenido": [
+                    {
+          "clase": "lista",
+          "titulo": "Para preguntarle a alguien “¿Cómo te llamas?” diremos: “What is your name?” o “What’s your name?”. Cuando nos preguntan a nosotros, podemos responder de una de las siguientes maneras:",
+          "contenido": [
             {
-              "clase": "texto",
-              "texto": "My name is (Violet).<br>Me llamo (Violet).<br><br>I am (Charles).<br>Soy (Charles).<br><br>My name is (James) but you can call me (Jim).<br>Me llamo (James) pero puedes llamarme (Jim)."
+              "punto": "My name is [Violet]. <i>(Me llamo [Violet].)</i>"
             },
+            {
+              "punto": "I am [Charles]. <i>(Soy [Charles]).</i>"
+            },
+                        {
+              "punto": "My name is [James], but you can call me [Jim]. <i>(Me llamo [James], pero puedes llamarme [Jim].)</i>"
+            }
+          ]
+        },
             {
               "clase": "texto",
               "subclase": "recuadro",
@@ -2498,33 +2505,33 @@
               "clase": "lista",
               "titulo": "<b>Examples</b>",
               "contenido": [
-                {
-                  "punto": "How are you Katie?<br><i>&nbsp&nbsp&nbsp¿Qué tal estás Katie?</i>",
+                                {
+                  "punto": "What’s your name? <i>(¿Cómo te llamas?)</i>",
                   "icono": "img/mod01/john.svg",
                   "ancho": 32
                 },
                 {
-                  "punto": "I’m fine, thank you. How about you?<br><i>&nbsp&nbsp&nbspBien, gracias. ¡Y tú?</i><br><br>",
+                  "punto": "I’m Katie, and you? <i>(Soy Katie, ¿y tú?)</i>",
                   "icono": "img/mod01/mary.svg",
                   "ancho": 32
                 },
                 {
-                  "punto": "What’s your name?<br><i>&nbsp&nbsp&nbsp¿Cómo te llamas?</i>",
+                  "punto": "How are you Katie? <i>(¿Qué tal estás Katie?)</i>",
                   "icono": "img/mod01/john.svg",
                   "ancho": 32
                 },
                 {
-                  "punto": "I’m Rosie, and you?<br><i>&nbsp&nbsp&nbspSoy Rosie, ¿y tú?</i><br><br>",
+                  "punto": "I’m fine, thank you. How about you? <i>Bien, gracias. ¡Y tú?)</i>",
                   "icono": "img/mod01/mary.svg",
                   "ancho": 32
                 },
                 {
-                  "punto": "Where are you from?<br><i>&nbsp&nbsp&nbsp¿De dónde eres?</i>",
+                  "punto": "Where are you from? <i>(¿De dónde eres?)</i>",
                   "icono": "img/mod01/john.svg",
                   "ancho": 32
                 },
                 {
-                  "punto": "I am from Spain, how about you?<br>&nbsp&nbsp&nbsp<i>Soy de España, ¿y tú?</i><br><br>",
+                  "punto": "I am from Spain, how about you? <i>(Soy de España, ¿y tú?)</i>",
                   "icono": "img/mod01/mary.svg",
                   "ancho": 32
                 }
@@ -2610,7 +2617,7 @@
             {
               "clase": "icono",
               "subclase": "exclamacion",
-              "texto": "BE CAREFUL: Nunca digas “I am forty-two years”. Si quieres incluir “years” al decir tu edad o la de otra persona, acuérdate SIEMPRE de añadir “years old”, de otra manera estará incorrecto."
+              "texto": "Nunca digas “I am forty-two years”. Si quieres incluir “years” al decir tu edad o la de otra persona, acuérdate SIEMPRE de añadir “years old”, de otra manera estará incorrecto."
             }
           ]
         },
@@ -2862,486 +2869,514 @@
         }
       ]
     },
-    {
+        {
       "titulo": "SUMMARY",
-      "contenido": [
-        {
-          "clase": "listaObjetos",
           "contenido": [
             {
-              "clase": "lista",
+              "clase": "tabs",
               "contenido": [
                 {
-                  "punto": "In this Unit you have learned how to use the personal pronouns and the verb to be in the affirmative, negative and question forms. Let’s remember it!"
+                  "titulo": "Verbs",
+                  "contenido": [
+                    {
+                      "clase": "texto",
+                      "texto": "You have learned how to use the personal pronouns and the verb to be in the affirmative, negative and question forms. Let’s remember it!"
+                    },
+                    {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": ""
+                        },
+                        {
+                          "titulo": "<center>AFFIRMATIVE</center>"
+                        },
+                        {
+                          "titulo": "<center>NEGATIVE</center>"
+                        },
+                        {
+                          "titulo": "<center>QUESTION</center>"
+                        }
+                      ],
+                      "filaContenido": [
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>I</center>"
+                            },
+                            {
+                              "texto": "<center>am ('m)</center>"
+                            },
+                            {
+                              "texto": "<center>am not ('m not)</center>"
+                            },
+                            {
+                              "texto": "<center>am I...?</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>you</center>"
+                            },
+                            {
+                              "texto": "<center>are ('re)</center>"
+                            },
+                            {
+                              "texto": "<center>are not (aren't)</center>"
+                            },
+                            {
+                              "texto": "<center>are you...?</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>he</center>"
+                            },
+                            {
+                              "texto": "<center>is ('s)</center>",
+                              "rowspan": 3
+                            },
+                            {
+                              "texto": "<center>is not (isn't)</center>",
+                              "rowspan": 3
+                            },
+                            {
+                              "texto": "<center>is he...?</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>she</center>"
+                            },
+                            {
+                              "texto": "<center>is she...?</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>it</center>"
+                            },
+                            {
+                              "texto": "<center>is it...?</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>we</center>"
+                            },
+                            {
+                              "texto": "<center>are ('re)</center>",
+                              "rowspan": 3
+                            },
+                            {
+                              "texto": "<center>are not (aren't)</center>",
+                              "rowspan": 3
+                            },
+                            {
+                              "texto": "<center>are we...?</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>you</center>"
+                            },
+                            {
+                              "texto": "<center>are you...?</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>they</center>"
+                            },
+                            {
+                              "texto": "<center>are they...?</center>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Adjectives",
+                  "contenido": [
+                    {
+                      "clase": "lista",
+                      "titulo": "You have learned new adjectives to describe people and things. Remember: Adjectives in English are invariable, they don’t change depending on the gender or the number of the noun.",
+                      "contenido": [
+                        {
+                          "punto": "“Marc is tired and stressed.”"
+                        },
+                        {
+                          "punto": "“Jane and Maria are tired and stressed.”"
+                        }
+                      ]
+                    },
+                    {
+                      "clase": "texto",
+                      "texto": "We recommend you to have a look again at the list of adjectives."
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Expressions",
+                  "contenido": [
+                    {
+                      "clase": "lista",
+                      "titulo": "You can now introduce yourself using simple expressions and ask questions to know basic things about other people.",
+                      "contenido": [
+                        {
+                          "punto": "“Good morning!”"
+                        },
+                        {
+                          "punto": "“Nice to meet you.”"
+                        },
+                        {
+                          "punto": "“How old are you?”"
+                        },
+                        {
+                          "punto": "“I am from Italy.”"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Vocabulary",
+                  "contenido": [
+                    {
+                      "clase": "listaObjetos",
+                      "contenido": [
+                        {
+                          "clase": "tabla",
+                          "filaTitulos": [
+                            {
+                              "titulo": "<center>ENGLISH</center>"
+                            },
+                            {
+                              "titulo": "<center>SPANISH</center>"
+                            },
+                            {
+                              "titulo": "<center>PRONUNCIATION</center>"
+                            }
+                          ],
+                          "filaContenido": [
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center>BOY</center>"
+                                },
+                                {
+                                  "texto": "<center>CHICO</center>"
+                                },
+                                {
+                                  "texto": "<center>bɔɪ</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center>GIRL</center>"
+                                },
+                                {
+                                  "texto": "<center>CHICA</center>"
+                                },
+                                {
+                                  "texto": "<center>gɜːl</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center>WOMAN</center>"
+                                },
+                                {
+                                  "texto": "<center>MUJER</center>"
+                                },
+                                {
+                                  "texto": "<center>ˈwʊmən</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center>WOMEN</center>"
+                                },
+                                {
+                                  "texto": "<center>MUJERES</center>"
+                                },
+                                {
+                                  "texto": "<center>ˈwɪmɪn</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center>ICE CREAM</center>"
+                                },
+                                {
+                                  "texto": "<center>HELADO</center>"
+                                },
+                                {
+                                  "texto": "<center>aɪs kriːm</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center>FRIEND/S</center>"
+                                },
+                                {
+                                  "texto": "<center>AMIGO/A/S</center>"
+                                },
+                                {
+                                  "texto": "<center>frɛnd/ɛs</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center>COUNTRY</center>"
+                                },
+                                {
+                                  "texto": "<center>PAÍS</center>"
+                                },
+                                {
+                                  "texto": "<center>ˈkʌntri</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center>FRANCE</center>"
+                                },
+                                {
+                                  "texto": "<center>FRANCIA</center>"
+                                },
+                                {
+                                  "texto": "<center>ˈfrɑːns</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center>SPAIN</center>"
+                                },
+                                {
+                                  "texto": "<center>ESPAÑA</center>"
+                                },
+                                {
+                                  "texto": "<center>speɪn</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center>ENGLAND</center>"
+                                },
+                                {
+                                  "texto": "<center>INGLATERRA</center>"
+                                },
+                                {
+                                  "texto": "<center>ˈɪŋglənd</center>"
+                                }
+                              ]
+                            },
+                            {
+                              "fila": [
+                                {
+                                  "texto": "<center>TEACHER</center>"
+                                },
+                                {
+                                  "texto": "<center>PROFESOR/A</center>"
+                                },
+                                {
+                                  "texto": "<center>ˈtiːʧə</center>"
+                                }
+                              ]
+                            }                    
+                          ]
+                        },
+                                            {
+                      "clase": "tabla",
+                      "filaTitulos": [
+                        {
+                          "titulo": "<center>ENGLISH</center>"
+                        },
+                        {
+                          "titulo": "<center>SPANISH</center>"
+                        },
+                        {
+                          "titulo": "<center>PRONUNCIATION</center>"
+                        }
+                      ],
+                      "filaContenido": [
+                                                                           {
+                          "fila": [
+                            {
+                              "texto": "<center>STUDENT</center>"
+                            },
+                            {
+                              "texto": "<center>ESTUDIANTE</center>"
+                            },
+                            {
+                              "texto": "<center>ˈstjuːdənt</center>"
+                            }
+                          ]
+                        },
+                         {
+                          "fila": [
+                            {
+                              "texto": "<center>RICH</center>"
+                            },
+                            {
+                              "texto": "<center>RICO/A</center>"
+                            },
+                            {
+                              "texto": "<center>rɪʧ</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>FOOTBALL PLAYER</center>"
+                            },
+                            {
+                              "texto": "<center>JUGADOR/A DE FÚTBOL</center>"
+                            },
+                            {
+                              "texto": "<center>ˈfʊtbɔːl ˈpleɪə</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>HOUSE</center>"
+                            },
+                            {
+                              "texto": "<center>CASA</center>"
+                            },
+                            {
+                              "texto": "<center>haʊs</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>WINDOW</center>"
+                            },
+                            {
+                              "texto": "<center>VENTANA</center>"
+                            },
+                            {
+                              "texto": "<center>ˈwɪndəʊ</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>ANIMAL</center>"
+                            },
+                            {
+                              "texto": "<center>ANIMAL</center>"
+                            },
+                            {
+                              "texto": "<center>ˈænɪməl</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>BIRD</center>"
+                            },
+                            {
+                              "texto": "<center>PÁJARO</center>"
+                            },
+                            {
+                              "texto": "<center>bɜːd</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>PEOPLE</center>"
+                            },
+                            {
+                              "texto": "<center>PERSONAS/GENTE</center>"
+                            },
+                            {
+                              "texto": "<center>ˈpiːpl</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>THINGS</center>"
+                            },
+                            {
+                              "texto": "<center>COSAS</center>"
+                            },
+                            {
+                              "texto": "<center>θɪŋz</center>"
+                            }
+                          ]
+                        },
+                        {
+                          "fila": [
+                            {
+                              "texto": "<center>HAVE A LOOK!</center>"
+                            },
+                            {
+                              "texto": "<center>¡ECHA UN VISTAZO!</center>"
+                            },
+                            {
+                              "texto": "<center>hæv ə lʊk!</center>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
             {
-              "clase": "tabla",
-              "filaTitulos": [
-                {
-                  "titulo": ""
-                },
-                {
-                  "titulo": "<center>AFFIRMATIVE</center>"
-                },
-                {
-                  "titulo": "<center>NEGATIVE</center>"
-                },
-                {
-                  "titulo": "<center>QUESTION</center>"
-                }
-              ],
-              "filaContenido": [
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>I</center>"
-                    },
-                    {
-                      "texto": "<center>am ('m)</center>"
-                    },
-                    {
-                      "texto": "<center>am not ('m not)</center>"
-                    },
-                    {
-                      "texto": "<center>am I...?</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>you</center>"
-                    },
-                    {
-                      "texto": "<center>are ('re)</center>"
-                    },
-                    {
-                      "texto": "<center>are not (aren't)</center>"
-                    },
-                    {
-                      "texto": "<center>are you...?</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>he</center>"
-                    },
-                    {
-                      "texto": "<center>is ('s)</center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center>is not (isn't)</center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center>is he...?</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>she</center>"
-                    },
-                    {
-                      "texto": "<center>is she...?</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>it</center>"
-                    },
-                    {
-                      "texto": "<center>is it...?</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>we</center>"
-                    },
-                    {
-                      "texto": "<center>are ('re)</center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center>are not (aren't)</center>",
-                      "rowspan": 3
-                    },
-                    {
-                      "texto": "<center>are we...?</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>you</center>"
-                    },
-                    {
-                      "texto": "<center>are you...?</center>"
-                    }
-                  ]
-                },
-                {
-                  "fila": [
-                    {
-                      "texto": "<center>they</center>"
-                    },
-                    {
-                      "texto": "<center>are they...?</center>"
-                    }
-                  ]
-                }
-              ]
+              "clase": "imagen",
+              "imagen": "img/comunes/londonLast2.png"
             }
           ]
-        },
-        {
-          "clase": "lista",
-          "contenido": [
-            {
-              "punto": "You have learned new adjectives to describe people and things. Remember: Adjectives in English are invariable, they don’t change depending on the gender or the number of the noun.",
-              "contenido": [
-                {
-                  "punto": "“Marc is tired and stressed.”"
-                },
-                {
-                  "punto": "“Jane and Maria are tired and stressed.”<br>(*) We recommend you to have a look again at the list of adjectives."
-                }
-              ]
-            },
-            {
-              "punto": "You can now introduce yourself using simple expressions and ask questions to know basic things about other people.",
-              "contenido": [
-                {
-                  "punto": "“Good morning!”"
-                },
-                {
-                  "punto": "“Nice to meet you.”"
-                },
-                {
-                  "punto": "“How old are you?”"
-                },
-                {
-                  "punto": "“I am from Italy.”"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "acordeon",
-          "contenido": [
-            {
-              "titulo": "<center>NEW VOCABULARY</center>",
-              "contenido": [
-                {
-                  "clase": "tabla",
-                  "filaTitulos": [
-                    {
-                      "titulo": "<center>ENGLISH</center>"
-                    },
-                    {
-                      "titulo": "<center>SPANISH</center>"
-                    },
-                    {
-                      "titulo": "<center>PRONUNCIATION</center>"
-                    }
-                  ],
-                  "filaContenido": [
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>BOY</center>"
-                        },
-                        {
-                          "texto": "<center>CHICO</center>"
-                        },
-                        {
-                          "texto": "<center>bɔɪ</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>GIRL</center>"
-                        },
-                        {
-                          "texto": "<center>CHICA</center>"
-                        },
-                        {
-                          "texto": "<center>gɜːl</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>WOMAN</center>"
-                        },
-                        {
-                          "texto": "<center>MUJER</center>"
-                        },
-                        {
-                          "texto": "<center>ˈwʊmən</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>WOMEN</center>"
-                        },
-                        {
-                          "texto": "<center>MUJERES</center>"
-                        },
-                        {
-                          "texto": "<center>ˈwɪmɪn</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>ICE CREAM</center>"
-                        },
-                        {
-                          "texto": "<center>HELADO</center>"
-                        },
-                        {
-                          "texto": "<center>aɪs kriːm</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>FRIEND/S</center>"
-                        },
-                        {
-                          "texto": "<center>AMIGO/A/S</center>"
-                        },
-                        {
-                          "texto": "<center>frɛnd/ɛs</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>COUNTRY</center>"
-                        },
-                        {
-                          "texto": "<center>PAÍS</center>"
-                        },
-                        {
-                          "texto": "<center>ˈkʌntri</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>FRANCE</center>"
-                        },
-                        {
-                          "texto": "<center>FRANCIA</center>"
-                        },
-                        {
-                          "texto": "<center>ˈfrɑːns</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>SPAIN</center>"
-                        },
-                        {
-                          "texto": "<center>ESPAÑA</center>"
-                        },
-                        {
-                          "texto": "<center>speɪn</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>ENGLAND</center>"
-                        },
-                        {
-                          "texto": "<center>INGLATERRA</center>"
-                        },
-                        {
-                          "texto": "<center>ˈɪŋglənd</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>TEACHER</center>"
-                        },
-                        {
-                          "texto": "<center>PROFESOR/A</center>"
-                        },
-                        {
-                          "texto": "<center>ˈtiːʧə</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>STUDENT</center>"
-                        },
-                        {
-                          "texto": "<center>ESTUDIANTE</center>"
-                        },
-                        {
-                          "texto": "<center>ˈstjuːdənt</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>RICH</center>"
-                        },
-                        {
-                          "texto": "<center>RICO/A</center>"
-                        },
-                        {
-                          "texto": "<center>rɪʧ</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>FOOTBALL PLAYER</center>"
-                        },
-                        {
-                          "texto": "<center>JUGADOR/A DE FÚTBOL</center>"
-                        },
-                        {
-                          "texto": "<center>ˈfʊtbɔːl ˈpleɪə</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>HOUSE</center>"
-                        },
-                        {
-                          "texto": "<center>CASA</center>"
-                        },
-                        {
-                          "texto": "<center>haʊs</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>WINDOW</center>"
-                        },
-                        {
-                          "texto": "<center>VENTANA</center>"
-                        },
-                        {
-                          "texto": "<center>ˈwɪndəʊ</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>ANIMAL</center>"
-                        },
-                        {
-                          "texto": "<center>ANIMAL</center>"
-                        },
-                        {
-                          "texto": "<center>ˈænɪməl</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>BIRD</center>"
-                        },
-                        {
-                          "texto": "<center>PÁJARO</center>"
-                        },
-                        {
-                          "texto": "<center>bɜːd</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>PEOPLE</center>"
-                        },
-                        {
-                          "texto": "<center>PERSONAS/ GENTE</center>"
-                        },
-                        {
-                          "texto": "<center>ˈpiːpl</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>THINGS</center>"
-                        },
-                        {
-                          "texto": "<center>COSAS</center>"
-                        },
-                        {
-                          "texto": "<center>θɪŋz</center>"
-                        }
-                      ]
-                    },
-                    {
-                      "fila": [
-                        {
-                          "texto": "<center>HAVE A LOOK!</center>"
-                        },
-                        {
-                          "texto": "<center>¡ECHA UN VISTAZO! (expresión)</center>"
-                        },
-                        {
-                          "texto": "<center>hæv ə lʊk!</center>"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "clase": "imagen",
-          "imagen": "img/comunes/londonLast2.png"
-        }
-      ]
     },
     {
       "titulo": "Farewell",
