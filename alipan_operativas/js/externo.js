@@ -127,7 +127,6 @@ function getArrayImagenes(modulo) {
                 "img/mod01/pguantesseguridad.png",
                 "img/mod01/phorno.png",
                 "img/mod01/pmoldes.png",
-                "img/mod01/pmoldes.png",
                 "img/mod01/pplana.png",
                 "img/mod01/pprofesional.png",
                 "img/mod01/ppsulfurizado.png",

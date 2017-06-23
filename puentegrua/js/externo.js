@@ -74,7 +74,7 @@ function getArrayImagenes(modulo) {
             "img/mod03/ondas.png",
             "img/mod03/polipastos.jpg",
             "img/mod03/recorrido.jpg",
-            "img/mod03/revisionesdiarias.jpg"
+            "img/mod03/revisionesDiarias.jpg"
         ]);
             break;
         case "mod04":arrayFinal = arrayComun.concat([

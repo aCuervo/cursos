@@ -105,7 +105,7 @@ function getArrayImagenes(modulo) {
              "img/mod04/bloqueoAutomatico.jpg",
              "img/mod04/bloqueoCierre.jpg",
              "img/mod04/blueRope.jpg",
-             "img/mod04/Carabiner.jpg",
+             "img/mod04/carabiner.jpg",
              "img/mod04/casquillo.jpg",
              "img/mod04/codino.jpg",
              "img/mod04/conectorAcero.jpg",
