@@ -63,12 +63,12 @@ function getArrayImagenes(modulo) {
     switch (modulo) {
         case "mod01":
             arrayFinal = arrayComun.concat([
-                "img/mod01/19.B.jpg",
-                "img/mod01/296-1.png",
-                "img /mod01/296-2.png",
-                "img/mod01/296-3.png",
-                "img/mod01/296-4.png",
-                "img/mod01/296-5.png",
+                "img/mod01/19B.jpg",
+                "img/mod01/2961.png",
+                "img/mod01/296b.png",
+                "img/mod01/296c.png",
+                "img/mod01/296d.png",
+                "img/mod01/296e.png",
                 "img/mod01/aph.png",
                 "img/mod01/apha1.png",
                 "img/mod01/apha2.png",
